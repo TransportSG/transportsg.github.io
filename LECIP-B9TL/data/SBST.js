@@ -1826,7 +1826,7 @@ EDSData.SBST = {
 		front: {
 			renderType: "standardService",
 			serviceNumber: "812",
-			destination: "UNKNOWN",
+			destination: "> YISHUN AVE 4&3",
 			destinationFont: "LECIP-7:5",
 			scrolls: [
 				"YISHUN ST 61",
@@ -1841,8 +1841,8 @@ EDSData.SBST = {
 		front: {
 			renderType: "standardService",
 			serviceNumber: "851",
-			destination: "> YISHUN AVE 4&3",
-			destinationFont: "LECIP-7:5",
+			destination: "> YISHUN INT",
+			destinationFont: "LECIP-10",
 			scrolls: [
 				"TIONG BAHRU RD",
 				"VICTORIA ST",
@@ -1851,6 +1851,18 @@ EDSData.SBST = {
 				"ANG MO KIO AVE 5",
 				"ANG MO KIO AVE 6",
 				"LENTOR AVE",
+				"YISHUN AVE 2"
+			],
+			scrollFont: "LECIP-7:5"
+		}
+	},
+	8512: {
+		front: {
+			renderType: "standardService",
+			serviceNumber: "851",
+			destination: "> BUKIT MERAH INT",
+			destinationFont: "LECIP-7:5",
+			scrolls: [
 				"YISHUN AVE 2"
 			],
 			scrollFont: "LECIP-7:5"
