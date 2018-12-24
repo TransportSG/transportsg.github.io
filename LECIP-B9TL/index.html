@@ -1,0 +1,28 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script src='/matrix.js'></script>
+    <script src='/fonts.js'></script>
+    <script src='/LECIP-B9TL/eds.js'></script>
+    <script src='/eds-renderer.js'></script>
+    <script src='/LECIP-B9TL/data/SBST.js'></script>
+    <link rel='stylesheet' href='/style.css'>
+    <style>
+        #container {
+            display: grid;
+            grid-template-columns: repeat(160, 5px);
+            grid-row-gap: 1px;
+            grid-auto-rows: 5px;
+            background-color: #202020;
+            width: calc(160 * 5px);
+        }
+    </style>
+</head>
+
+<body>
+    <div id='container'>
+    </div>
+
+    <input type='number' id='svc' value=1741></input>
+</body>
+</html>
