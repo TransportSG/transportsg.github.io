@@ -1,3 +1,13 @@
+@font-face {
+    font-family: Roboto Condensed;
+    src: url(/fonts/RobotoCondensed-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(/fonts/Roboto-Regular.ttf);
+}
+
 #controller {
     height: 60vh;
     width: calc(50vw * 1.1);
@@ -47,7 +57,7 @@
     height: 4vw;
 
     background-color: #7AA230;
-    font-family: Courier;
+    font-family: Courier, monospace;
 
     display: flex;
     flex-direction: column;
@@ -131,6 +141,9 @@
     font-family: Roboto Condensed;
     font-weight: 100;
     font-size: 2vw;
+}
+#keypad-ent > span , #keypad-clr > span {
+    margin-top: -0.2vw;
 }
 
 #keypad-container > div {
