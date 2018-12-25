@@ -19,6 +19,7 @@ function registerKeyPress(key) {
     if (key === 'ENT') {
         if (currentScreen === 'service-input') {
             let service = inputs.join('').replace(/^0+/, '');
+
             setCode(service, 1);
             inputs = [];
         }
@@ -83,14 +84,27 @@ function firmware() {
 }
 
 function setCode(code, direction) {
-    let frontDisplay = EDSData[currentOperator][code][direction].front;
-    let parsed = parseFormat(EDSFormats[currentOperator][frontDisplay.renderType], frontDisplay, EDSImages[currentOperator], frontEDS);
-    render(parsed, frontEDS);
+    if (EDSData[currentOperator][code] && EDSData[currentOperator][code][direction]) {
+        let frontDisplay = EDSData[currentOperator][code][direction].front;
+        let parsed = parseFormat(EDSFormats[currentOperator][frontDisplay.renderType], frontDisplay, EDSImages[currentOperator], frontEDS);
+        render(parsed, frontEDS);
 
-    let {displayName} = parsed;
+        let {displayName} = parsed;
 
-    setScreenText(`Route No: ${pad(code, ' ', 4)} ${direction}`, displayName);
-    currentScreen = 'home';
+        setScreenText(`Route No: ${pad(code, ' ', 4)} ${direction}`, displayName);
+        currentScreen = 'home';
+        currentDestination = displayName;
+        currentService = code;
+        currentDirection = direction;
+    } else {
+        setScreenText(`Route No: ${pad(code, ' ', 4)} ${direction}`, '             E11');
+        setTimeout(() => {
+            if (currentScreen === 'home') { // ensure still on home screen
+                setScreenText(`Route No: ${pad(currentService, ' ', 4)} ${currentDirection}`, currentDestination);
+            }
+        }, 1200);
+        currentScreen = 'home';
+    }
 }
 
 document.addEventListener('DOMContentLoaded', startup);
