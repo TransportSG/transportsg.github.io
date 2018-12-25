@@ -23,6 +23,19 @@ function registerKeyPress(key) {
             setCode(service, 1);
             inputs = [0,0,0,0];
         }
+    } else if (key === 'CLR') {
+        if (currentScreen === 'service-input') {
+            inputs = [0,0,0,0];
+            currentScreen = 'home';
+
+            setScreenText(`Route No: ${pad(currentService, ' ', 4)} ${currentDirection}`, currentDestination);
+        }
+    } else if (key === 'F4') {
+        if (currentScreen === 'home') {
+            let newDirection = 3 - currentDirection;
+
+            setCode(currentService, newDirection);
+        }
     }
 }
 

@@ -136,6 +136,8 @@ function parseFormat(format, data, images, matrix) {
         if (formatting.rotate) {
             let scrolls = resolveValue(formatting.scrolls, data);
             let resolvedScrolls = [];
+            if (scrolls.length === 0) scrolls.push(" ");
+
             scrolls.forEach(scroll => {
                 resolvedScrolls.push(resolvePosition({
                     align: formatting.align,

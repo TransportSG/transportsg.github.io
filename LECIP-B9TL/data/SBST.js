@@ -1480,7 +1480,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "174",
-                destination: "> KAMPONG BAHRU INT",
+                destination: "> KAMPONG BAHRU TER",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
                     "BT BATOK E. AVE 3, 6",
