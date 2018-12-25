@@ -2076,6 +2076,54 @@ EDSData.SBST = {
 			}
 		}
 	},
+    "502": {
+        1: {
+            front: {
+                renderType: "logoSvc",
+                serviceNumber: "502",
+                image: "express"
+            }
+        },
+        2: {
+            front: {
+                renderType: "logoSvc",
+                serviceNumber: "502",
+                image: "express"
+            }
+        }
+    },
+    "506": {
+        1: {
+            front: {
+                renderType: "logoSvc",
+                serviceNumber: "506",
+                image: "express"
+            }
+        },
+        2: {
+            front: {
+                renderType: "logoSvc",
+                serviceNumber: "506",
+                image: "express"
+            }
+        }
+    },
+    "513": {
+        1: {
+            front: {
+                renderType: "logoSvc",
+                serviceNumber: "513",
+                image: "express"
+            }
+        },
+        2: {
+            front: {
+                renderType: "logoSvc",
+                serviceNumber: "513",
+                image: "express"
+            }
+        }
+    },
 	609: {
 		1: {
 			front: {
