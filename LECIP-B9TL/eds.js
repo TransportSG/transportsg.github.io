@@ -1,7 +1,8 @@
-let matrix;
+let frontEDS, rearEDS;
 
 document.addEventListener('DOMContentLoaded', () => {
-    matrix = new LEDMatrix(160, 20, document.getElementById('container'));
+    frontEDS = new LEDMatrix(160, 20, document.getElementById('front-eds'));
+    rearEDS = new LEDMatrix(40, 20, document.getElementById('rear-eds'));
     setCode(174, 1, 'SBST');
 
     let svc = document.getElementById('svc');
