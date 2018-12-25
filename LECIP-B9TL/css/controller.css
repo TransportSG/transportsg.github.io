@@ -56,12 +56,15 @@
     justify-content: center;
 }
 
-#output-screen > * {
+#output-screen > pre {
     margin-left: 0.5vw;
     margin-right: 0.5vw;
 
     margin-bottom: 0;
     margin-top: 0;
+    
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 #keypad-section {
