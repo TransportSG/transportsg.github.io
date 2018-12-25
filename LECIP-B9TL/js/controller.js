@@ -3,9 +3,26 @@ let currentScreen = '';
 let currentService = '';
 let currentDirection = '';
 let currentDestination = '';
+let inputs = [0,0,0,0];
+
+function registerNumericalKeyPress(key) {
+    if (currentScreen === 'home' || currentScreen === 'service-input') {
+        currentScreen = 'service-input';
+        inputs.shift();
+        inputs.push(key);
+
+        showRouteInput();
+    }
+}
 
 function registerKeyPress(key) {
-
+    if (key === 'ENT') {
+        if (currentScreen === 'service-input') {
+            let service = inputs.join('').replace(/^0+/, '');
+            setCode(service, 1);
+            inputs = [];
+        }
+    }
 }
 
 function pad(str, pad, length) {
@@ -19,6 +36,10 @@ function setScreenText(line1, line2) {
     if (line2) {
         document.getElementById('output-line2').textContent = line2;
     }
+}
+
+function showRouteInput() {
+    setScreenText('Input Route No.', `           ${inputs.join('')}`);
 }
 
 function startup() {
@@ -43,7 +64,7 @@ function firmware() {
     for (let keynum = 0; keynum < 10; keynum++) {
         let element = document.getElementById('keypad-' + keynum);
         element.addEventListener('click', () => {
-            registerKeyPress(keynum);
+            registerNumericalKeyPress(keynum);
         });
     }
 
@@ -53,10 +74,12 @@ function firmware() {
     document.getElementById('keypad-f4').addEventListener('click', registerKeyPress.bind(null, 'F4'));
     document.getElementById('keypad-up').addEventListener('click', registerKeyPress.bind(null, 'UP'));
     document.getElementById('keypad-down').addEventListener('click', registerKeyPress.bind(null, 'DOWN'));
-    setCode('174e', 1);
+    setCode('1111', 1);
 
     rearEDS.drawText('NOT IN', 'LECIP-7:5', 1, 7, 2);
-    rearEDS.drawText('SERVICE', 'LECIP-7:5', 1, 1, 11)
+    rearEDS.drawText('SERVICE', 'LECIP-7:5', 1, 1, 11);
+
+    currentScreen = 'home';
 }
 
 function setCode(code, direction) {
@@ -67,6 +90,7 @@ function setCode(code, direction) {
     let {displayName} = parsed;
 
     setScreenText(`Route No: ${pad(code, ' ', 4)} ${direction}`, displayName);
+    currentScreen = 'home';
 }
 
 document.addEventListener('DOMContentLoaded', startup);
