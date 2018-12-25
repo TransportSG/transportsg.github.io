@@ -630,7 +630,7 @@ EDSData.SBST = {
 				renderType: "standardService",
 				serviceNumber: "65",
 				destination: "> HARBOURFRONT INT",
-				destinationFont: "LECIP-7:5",
+				destinationFont: "LECIP-10",
 				scrolls: [
 					"BEDOK RESERVOIR RD",
 					"UBI AVE 2",
@@ -1910,6 +1910,24 @@ EDSData.SBST = {
 					"GUL AVE",
 					"GUL CIRCLE",
 					"GUL CRES"
+				],
+				scrollFont: "LECIP-7:5"
+			}
+		}
+	},
+	256: {
+		1: {
+			front: {
+				renderType: "standardService",
+				serviceNumber: "256",
+				destination: "BOON LAY INT-JOO KOON",
+				destinationFont: "LECIP-7:5",
+				scrolls: [
+                    "JURONG WEST ST 62",
+                    "PIONEER RD NTH",
+					"JOO KOON CIRCLE",
+                    "PIONEER RD NTH",
+                    "JURONG WEST ST 62",
 				],
 				scrollFont: "LECIP-7:5"
 			}
