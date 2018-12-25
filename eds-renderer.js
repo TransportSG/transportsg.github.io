@@ -1,4 +1,5 @@
 function resolveValue(value, data) {
+    value = value.toString();
     if (value.startsWith('$'))
         return data[value.slice(1)];
     if (value.startsWith("'") && value.endsWith("'")) return value.slice(1, -1);
@@ -40,32 +41,65 @@ function solveAlignment(align, textWidth, textHeight, matrixWidth, matrixHeight)
 
     if (alignments.includes('right')) x = matrixWidth - textWidth; else x = 0;
     if (alignments.includes('bottom')) y = matrixHeight - textHeight; else y = 0;
+    if (alignments.includes('centre-x')) {
+        x = Math.floor(matrixWidth / 2 - textWidth / 2);
+    }
+    if (alignments.includes('centre-y')) {
+        y = Math.floor(matrixHeight / 2 - textHeight / 2);
+    }
 
     return {x, y};
 }
 
-function adjustMargins(x, y, alignments, margins, data) {
-    Object.keys(margins).filter(k => alignments.includes(k)).forEach(margin => {
+function findSectionWidth(section, data, matrix) {
+    if (section.text) {
+        let text = resolveValue(section.text, data);
+        let font = resolveValue(section.font, data);
+        let spacing = resolveValue(section.spacing, data)*1;
+
+        return matrix.measureText(text, font, spacing);
+    }
+
+    return 0;
+}
+
+function parseMarginShifts(value, sections, data, matrix) {
+    if (!isNaN(value)) return value;
+    if (value.startsWith('width(') && value.endsWith(')')) {
+        let sectionName = value.slice(6, -1);
+
+        return findSectionWidth(sections[sectionName], data, matrix);
+    }
+}
+
+function adjustMargins(x, y, alignments, margins, data, sections, matrix) {
+    let xmod = 1, ymod = 1;
+    if (alignments.includes('centre-x')) xmod = 0.5;
+    if (alignments.includes('centre-y')) ymod = 0.5;
+
+    Object.keys(margins).forEach(margin => {
         let value = solveConditonal(margins[margin], data);
+        let shift = parseMarginShifts(value, sections, data, matrix);
+
         switch(margin) {
             case 'left':
-                x += value;
+                x += shift * xmod;
                 break;
             case 'right':
-                x -= value;
+                x -= shift * xmod;
                 break;
             case 'top':
-                y += value;
+                y += shift * ymod;
                 break;
             case 'bottom':
-                y -= value;
+                y -= shift * ymod;
                 break;
         }
     });
     return {x, y};
 }
 
-function resolvePosition(formatting, matrix, data) {
+function resolvePosition(formatting, sections, matrix, data) {
     let {width, height} = matrix;
 
     let align = formatting.align;
@@ -76,14 +110,14 @@ function resolvePosition(formatting, matrix, data) {
 
     let {x, y} = solveAlignment(align, textWidth, textHeight, width, height);
     if (formatting.margin) {
-        let d = adjustMargins(x, y, align.split(','), formatting.margin, data);
+        let d = adjustMargins(x, y, align.split(','), formatting.margin, data, sections, matrix);
         x = d.x, y = d.y;
     }
 
     return {x, y, text, font, spacing: formatting.spacing};
 }
 
-function parseFormat(format, data, matrix) {
+function parseFormat(format, data, images, matrix) {
     let sections = Object.keys(format);
     let output = [];
 
@@ -103,7 +137,7 @@ function parseFormat(format, data, matrix) {
                     font: formatting.font,
                     spacing: formatting.spacing,
                     text: scroll
-                }, matrix, data));
+                }, format, matrix, data));
             });
 
             let n = -1;
@@ -116,8 +150,24 @@ function parseFormat(format, data, matrix) {
                     return resolvedScrolls[n];
                 }
             });
+        } else if (formatting.image) {
+            let imageName = resolveValue(formatting.image, data);
+            let image = images[imageName];
+            let imageWidth = image[0].length,
+                imageHeight = image.length;
+
+            let {x, y} = solveAlignment(formatting.align, imageWidth, imageHeight, matrix.width, matrix.height);
+            if (formatting.margin) {
+                let d = adjustMargins(x, y, formatting.align.split(','), formatting.margin, data, format, matrix);
+                x = d.x, y = d.y;
+            }
+
+            output.push({
+                x, y,
+                image
+            });
         } else
-            output.push(resolvePosition(formatting, matrix, data));
+            output.push(resolvePosition(formatting, format, matrix, data));
     });
 
     return output;
@@ -130,7 +180,9 @@ function render(formatted, matrix) {
     matrix.clearRectangle(0, 0, matrix.width, matrix.height);
 
     formatted.forEach(data => {
-        if (typeof data.text === 'string')
+        if (data.image) {
+            matrix.draw2DArray(data.image, data.x, data.y);
+        } else if (typeof data.text === 'string')
             matrix.drawText(data.text, data.font, data.spacing, data.x, data.y);
         else if (typeof data.text === 'function' && data.rotate) {
             let previousWidth = 0;

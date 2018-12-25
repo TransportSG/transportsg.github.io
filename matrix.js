@@ -36,6 +36,7 @@ class LEDMatrix {
                 accuWidth += this.determineDistance(chars[pos - 1], char, fontname, fontSpacing);
             }
 
+            if (!font[char]) console.log(char)
             accuWidth += font[char][0].length;
 
             return accuWidth;
