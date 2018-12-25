@@ -157,7 +157,7 @@ EDSData.SBST = {
             }
         }
     },
-    "10e": {
+    "10E": {
         1: {
             front: {
                 renderType: "logoSvc",
@@ -193,7 +193,7 @@ EDSData.SBST = {
             }
         }
     },
-    "14e": {
+    "14E": {
         1: {
             front: {
                 renderType: "logoSvc",
@@ -371,7 +371,7 @@ EDSData.SBST = {
             }
         }
     },
-    "30e": {
+    "30E": {
         1: {
             front: {
                 renderType: "logoSvc",
@@ -1236,7 +1236,7 @@ EDSData.SBST = {
             }
         }
     },
-    "147e": {
+    "147E": {
         1: {
             front: {
                 renderType: "logoSvc",
@@ -1496,7 +1496,7 @@ EDSData.SBST = {
             }
         }
     },
-    "174e": {
+    "174E": {
         1: {
             front: {
                 renderType: "logoSvc",
@@ -1708,7 +1708,7 @@ EDSData.SBST = {
             }
         }
     },
-    "196e": {
+    "196E": {
         1: {
             front: {
                 renderType: "logoSvc",
@@ -2522,7 +2522,7 @@ EDSData.SBST = {
             }
         }
     },
-    "851e": {
+    "851E": {
         1: {
             front: {
                 renderType: "logoSvc",

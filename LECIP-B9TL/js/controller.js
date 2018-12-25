@@ -17,14 +17,14 @@ function registerNumericalKeyPress(key) {
 
 function registerKeyPress(key) {
     if (key === 'ENT') {
-        if (currentScreen === 'service-input') {
+        if (currentScreen === 'service-input' || currentScreen === 'service-scroll') {
             let service = inputs.join('').replace(/^0+/, '');
 
             setCode(service, 1);
             inputs = [0,0,0,0];
         }
     } else if (key === 'CLR') {
-        if (currentScreen === 'service-input') {
+        if (currentScreen === 'service-input' || currentScreen === 'service-scroll') {
             inputs = [0,0,0,0];
             currentScreen = 'home';
 
@@ -35,6 +35,65 @@ function registerKeyPress(key) {
             let newDirection = 3 - currentDirection;
 
             setCode(currentService, newDirection);
+        }
+    } else if (key === 'UP') {
+        if (currentScreen === 'service-input') {
+            if (!isNaN(inputs[3])) {
+                inputs.shift();
+                inputs.push('A');
+            } else {
+                let currentLetter = inputs.pop();
+                if (currentLetter === 'Z') currentLetter = 'A';
+                else currentLetter = String.fromCharCode(currentLetter.charCodeAt(0) + 1);
+
+                inputs.push(currentLetter);
+            }
+            showRouteInput();
+        } else if (currentScreen === 'home' || currentScreen === 'service-scroll') {
+            let allServices = Object.keys(EDSData[currentOperator]).sort((a, b)=> a.match(/(\d+)/)[1] - b.match(/(\d+)/)[1]);
+            let currentIndex = allServices.indexOf(currentService) - 1;
+
+            if (currentScreen === 'service-scroll') {
+                currentIndex = allServices.indexOf(inputs.join('').replace(/^0+/, ''));
+            }
+            if (currentIndex === allServices.length - 1) currentIndex = -1;
+
+            let newService = allServices[currentIndex + 1];
+
+            inputs = pad(newService, '0', 4).split('');
+            showRouteInput();
+
+            currentScreen = 'service-scroll';
+        }
+    } else if (key === 'DOWN') {
+        if (currentScreen === 'service-input') {
+            if (!isNaN(inputs[3])) {
+                inputs.shift();
+                inputs.push('Z');
+            } else {
+                let currentLetter = inputs.pop();
+                if (currentLetter === 'A') currentLetter = 'Z';
+                else currentLetter = String.fromCharCode(currentLetter.charCodeAt(0) - 1);
+
+                inputs.push(currentLetter);
+            }
+            showRouteInput();
+        } else if (currentScreen === 'home' || currentScreen === 'service-scroll') {
+            let allServices = Object.keys(EDSData[currentOperator]).sort((a, b)=> a.match(/(\d+)/)[1] - b.match(/(\d+)/)[1]);
+            let currentIndex = allServices.indexOf(currentService) + 1;
+
+            if (currentScreen === 'service-scroll') {
+                currentIndex = allServices.indexOf(inputs.join('').replace(/^0+/, ''));
+            }
+            if (currentIndex === 0) currentIndex = allServices.length;
+
+
+            let newService = allServices[currentIndex - 1];
+
+            inputs = pad(newService, '0', 4).split('');
+            showRouteInput();
+
+            currentScreen = 'service-scroll';
         }
     }
 }
