@@ -4,8 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
     matrix = new LEDMatrix(160, 20, document.getElementById('container'));
     setCode(174, 1, 'SBST');
 
-    render(parseFormat(EDSFormats.SBST.standardService, EDSData.SBST[174][1].front, EDSImages.SBST, matrix), matrix)
-
     let svc = document.getElementById('svc');
     let dir = document.getElementById('dir');
     svc.addEventListener('input', () => {

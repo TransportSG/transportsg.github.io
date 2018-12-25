@@ -105,7 +105,8 @@ function resolvePosition(formatting, sections, matrix, data) {
     let align = formatting.align;
     let font = resolveValue(formatting.font, data);
     let text = resolveValue(formatting.text, data);
-    let textWidth = matrix.measureText(text, font, formatting.spacing);
+    let spacing = resolveValue(formatting.spacing, data) * 1;
+    let textWidth = matrix.measureText(text, font, spacing);
     let textHeight = Object.values(fonts[font])[0].length;
 
     let {x, y} = solveAlignment(align, textWidth, textHeight, width, height);
@@ -114,7 +115,7 @@ function resolvePosition(formatting, sections, matrix, data) {
         x = d.x, y = d.y;
     }
 
-    return {x, y, text, font, spacing: formatting.spacing};
+    return {x, y, text, font, spacing};
 }
 
 function parseFormat(format, data, images, matrix) {
