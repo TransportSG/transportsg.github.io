@@ -47,13 +47,17 @@
     height: 4vw;
 
     background-color: #7AA230;
-    font-family: monospace;
+    font-family: Courier;
 
     display: flex;
     flex-direction: column;
     font-size: 1.45vw;
 
     justify-content: center;
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
 }
 
 #output-screen > pre {
@@ -62,8 +66,7 @@
 
     margin-bottom: 0;
     margin-top: 0;
-    
-    white-space: nowrap;
+
     overflow: hidden;
 }
 
@@ -85,7 +88,7 @@
     color: white;
 
     font-size: 2.5vw;
-    font-family: Roboto
+    font-family: Roboto;
 }
 
 #keypad-container > * {
@@ -128,6 +131,13 @@
     font-family: Roboto Condensed;
     font-weight: 100;
     font-size: 2vw;
+}
+
+#keypad-container > div {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    cursor: pointer;
 }
 
 .arrow-up {

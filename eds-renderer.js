@@ -121,8 +121,13 @@ function resolvePosition(formatting, sections, matrix, data) {
 function parseFormat(format, data, images, matrix) {
     let sections = Object.keys(format);
     let output = [];
+    let displayName = '';
 
     sections.forEach(sectionName => {
+        if (sectionName === 'text') {
+            displayName = resolveValue(format.text, data);
+            return;
+        }
         console.log(`parsing ${sectionName}`);
 
         let formatting = format[sectionName];
@@ -170,6 +175,7 @@ function parseFormat(format, data, images, matrix) {
         } else
             output.push(resolvePosition(formatting, format, matrix, data));
     });
+    output.displayName = displayName;
 
     return output;
 }

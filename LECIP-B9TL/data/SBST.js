@@ -38,13 +38,17 @@ EDSFormats.SBST = {
 
             font: "$scrollFont",
             spacing: 1
-        }
+        },
+
+        text: "$destination"
     },
     logo: {
         logo: {
             align: "centre-x",
             image: "$image"
-        }
+        },
+
+        text: "$text"
     },
     logoSvc: {
         logo: {
@@ -57,14 +61,18 @@ EDSFormats.SBST = {
             font: "LECIP-20:12",
             spacing: 2
         },
+
+        text: "$destination"
     },
     message: {
-        text: {
+        display: {
             align: "centre-x,centre-y",
             text: "$text",
             font: "$font",
             spacing: "$spacing"
-        }
+        },
+
+        text: "$text"
     }
 }
 
@@ -154,14 +162,16 @@ EDSData.SBST = {
             front: {
                 renderType: "logoSvc",
                 serviceNumber: "10e",
-                image: "express"
+                image: "express",
+                destination: "EXPRESS 10e"
             }
         },
         2: {
             front: {
                 renderType: "logoSvc",
                 serviceNumber: "10e",
-                image: "express"
+                image: "express",
+                destination: "EXPRESS 10e"
             }
         }
     },
@@ -188,14 +198,16 @@ EDSData.SBST = {
             front: {
                 renderType: "logoSvc",
                 serviceNumber: "14e",
-                image: "express"
+                image: "express",
+                destination: "EXPRESS 14e"
             }
         },
         2: {
             front: {
                 renderType: "logoSvc",
                 serviceNumber: "14e",
-                image: "express"
+                image: "express",
+                destination: "EXPRESS 14e"
             }
         }
     },
@@ -364,14 +376,16 @@ EDSData.SBST = {
             front: {
                 renderType: "logoSvc",
                 serviceNumber: "30e",
-                image: "express"
+                image: "express",
+                destination: "EXPRESS 30e"
             }
         },
         2: {
             front: {
                 renderType: "logoSvc",
                 serviceNumber: "30e",
-                image: "express"
+                image: "express",
+                destination: "EXPRESS 30e"
             }
         }
     },
@@ -1227,14 +1241,16 @@ EDSData.SBST = {
             front: {
                 renderType: "logoSvc",
                 serviceNumber: "147e",
-                image: "express"
+                image: "express",
+                destination: "EXPRESS 147e"
             }
         },
         2: {
             front: {
                 renderType: "logoSvc",
                 serviceNumber: "147e",
-                image: "express"
+                image: "express",
+                destination: "EXPRESS 147e"
             }
         }
     },
@@ -1485,14 +1501,16 @@ EDSData.SBST = {
             front: {
                 renderType: "logoSvc",
                 serviceNumber: "174e",
-                image: "express"
+                image: "express",
+                destination: "EXPRESS 174e"
             }
         },
         2: {
             front: {
                 renderType: "logoSvc",
                 serviceNumber: "174e",
-                image: "express"
+                image: "express",
+                destination: "EXPRESS 174e"
             }
         }
     },
@@ -1695,14 +1713,16 @@ EDSData.SBST = {
             front: {
                 renderType: "logoSvc",
                 serviceNumber: "196e",
-                image: "express"
+                image: "express",
+                destination: "EXPRESS 196e"
             }
         },
         2: {
             front: {
                 renderType: "logoSvc",
                 serviceNumber: "196e",
-                image: "express"
+                image: "express",
+                destination: "EXPRESS 196e"
             }
         }
     },
@@ -2224,14 +2244,16 @@ EDSData.SBST = {
             front: {
                 renderType: "logoSvc",
                 serviceNumber: "502",
-                image: "express"
+                image: "express",
+                destination: "EXPRESS 502"
             }
         },
         2: {
             front: {
                 renderType: "logoSvc",
                 serviceNumber: "502",
-                image: "express"
+                image: "express",
+                destination: "EXPRESS 502"
             }
         }
     },
@@ -2240,14 +2262,16 @@ EDSData.SBST = {
             front: {
                 renderType: "logoSvc",
                 serviceNumber: "506",
-                image: "express"
+                image: "express",
+                destination: "EXPRESS 506"
             }
         },
         2: {
             front: {
                 renderType: "logoSvc",
                 serviceNumber: "506",
-                image: "express"
+                image: "express",
+                destination: "EXPRESS 506"
             }
         }
     },
@@ -2256,14 +2280,16 @@ EDSData.SBST = {
             front: {
                 renderType: "logoSvc",
                 serviceNumber: "513",
-                image: "express"
+                image: "express",
+                destination: "EXPRESS 513"
             }
         },
         2: {
             front: {
                 renderType: "logoSvc",
                 serviceNumber: "513",
-                image: "express"
+                image: "express",
+                destination: "EXPRESS 513"
             }
         }
     },
@@ -2501,14 +2527,16 @@ EDSData.SBST = {
             front: {
                 renderType: "logoSvc",
                 serviceNumber: "851e",
-                image: "express"
+                image: "express",
+                destination: "EXPRESS 851e"
             }
         },
         2: {
             front: {
                 renderType: "logoSvc",
                 serviceNumber: "851e",
-                image: "express"
+                image: "express",
+                destination: "EXPRESS 851e"
             }
         }
     },
@@ -2597,6 +2625,7 @@ EDSData.SBST = {
         1: {
             front: {
                 renderType: "logo",
+                text: "SBS TRANSIT",
                 image: "logo"
             }
         }

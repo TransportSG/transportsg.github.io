@@ -8,6 +8,10 @@ function registerKeyPress(key) {
 
 }
 
+function pad(str, pad, length) {
+    return Array(length).fill(pad).concat([...str]).slice(-length).join('');
+}
+
 function setScreenText(line1, line2) {
     if (line1) {
         document.getElementById('output-line1').textContent = line1;
@@ -49,7 +53,7 @@ function firmware() {
     document.getElementById('keypad-f4').addEventListener('click', registerKeyPress.bind(null, 'F4'));
     document.getElementById('keypad-up').addEventListener('click', registerKeyPress.bind(null, 'UP'));
     document.getElementById('keypad-down').addEventListener('click', registerKeyPress.bind(null, 'DOWN'));
-    setCode(174, 1);
+    setCode('174e', 1);
 
     rearEDS.drawText('NOT IN', 'LECIP-7:5', 1, 7, 2);
     rearEDS.drawText('SERVICE', 'LECIP-7:5', 1, 1, 11)
@@ -57,8 +61,12 @@ function firmware() {
 
 function setCode(code, direction) {
     let frontDisplay = EDSData[currentOperator][code][direction].front;
+    let parsed = parseFormat(EDSFormats[currentOperator][frontDisplay.renderType], frontDisplay, EDSImages[currentOperator], frontEDS);
+    render(parsed, frontEDS);
 
-    render(parseFormat(EDSFormats[currentOperator][frontDisplay.renderType], frontDisplay, EDSImages[currentOperator], frontEDS), frontEDS);
+    let {displayName} = parsed;
+
+    setScreenText(`Route No: ${pad(code, ' ', 4)} ${direction}`, displayName);
 }
 
 document.addEventListener('DOMContentLoaded', startup);
