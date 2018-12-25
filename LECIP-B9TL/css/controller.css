@@ -142,7 +142,7 @@
     font-weight: 100;
     font-size: 2vw;
 }
-#keypad-ent > span , #keypad-clr > span {
+#keypad-ent > span, #keypad-clr > span {
     margin-top: -0.2vw;
 }
 

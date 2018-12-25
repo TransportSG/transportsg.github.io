@@ -2016,7 +2016,7 @@ EDSData.SBST = {
                 renderType: "standardService",
                 serviceNumber: "253",
                 destination: "JOO KOON INT-BENOI RD",
-                destinationFont: "LECIP-10",
+                destinationFont: "LECIP-7:5",
                 scrolls: [
                     "PIONEER RD",
                     "BENOI RD",
