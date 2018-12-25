@@ -56,6 +56,14 @@ EDSFormats.SBST = {
             font: "LECIP-20:12",
             spacing: 2
         },
+    },
+    message: {
+        text: {
+            align: "centre-x",
+            text: "$text",
+            font: "$font",
+            spacing: 2
+        }
     }
 }
 
@@ -2384,6 +2392,15 @@ EDSData.SBST = {
 			}
 		}
 	},
+    1111: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "OFF SERVICE",
+                font: "LECIP-20:12"
+            }
+        }
+    },
 	2222: {
 		1: {
 			front: {
@@ -2392,6 +2409,51 @@ EDSData.SBST = {
 			}
 		}
 	},
+    3333: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "FREE SHUTTLE",
+                font: "LECIP-20:12"
+            }
+        }
+    },
+    4444: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "ON TEST",
+                font: "LECIP-20:12"
+            }
+        }
+    },
+    5555: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "TRAINING BUS",
+                font: "LECIP-20:12"
+            }
+        }
+    },
+    7777: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "FREE BRIDGING BUS",
+                font: "LECIP-20:9"
+            }
+        }
+    },
+    9999: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "VER. 25DEC18-DD",
+                font: "LECIP-14"
+            }
+        }
+    },
 }
 
 EDSImages.SBST = {
