@@ -852,10 +852,13 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "99",
-                destination: "> CLEMENTI INT",
+                destination: "> JOO KOON INT",
                 destinationFont: "LECIP-10",
                 scrolls: [
                     "JURONG EAST AVE 1",
+                    "JURONG WEST AVE 1",
+                    "JURONG WEST AVE 4",
+                    "JURONG WEST ST 91",
                     "UPPER JURONG RD"
                 ],
                 scrollFont: "LECIP-7:5"
@@ -865,14 +868,14 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "99",
-                destination: "> JOO KOON INT",
+                destination: "> CLEMENTI INT",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                    "JURONG EAST AVE 1",
-                    "JURONG WEST AVE 1",
-                    "JURONG WEST AVE 4",
+                    "UPP JURONG RD",
                     "JURONG WEST ST 91",
-                    "UPPER JURONG RD"
+                    "JURONG WEST AVE 4",
+                    "JURONG WEST AVE 1",
+                    "JURONG EAST AVE 1"
                 ],
                 scrollFont: "LECIP-7:5"
             }
@@ -912,7 +915,8 @@ EDSData.SBST = {
                     "BUANGKOK DR",
                     "COMPASSVALE DR",
                     "SENGKANG EAST WAY",
-                    "SENGKANG WEST WAY"
+                    "SENGKANG WEST WAY",
+                    "SELETAR A'SPACE DR"
                 ],
                 scrollFont: "LECIP-6:4"
             }
@@ -1053,6 +1057,41 @@ EDSData.SBST = {
                     "TELOK BLANGAH RD",
                     "ALEXANDRA RD",
                     "TIONG BAHRU RD"
+                ],
+                scrollFont: "LECIP-6:4"
+            }
+        }
+    },
+    121: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "121",
+                destination: "KG.BAHRU TER-TK.BLANGAH",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                    "GANGES AVE",
+                    "TIONG BAHRU RD",
+                    "KIM TIAN RD",
+                    "LOWER DELTA RD",
+                    "TELOK BLANGAH RISE",
+                    "LOWER DELTA RD",
+                    "KIM TIAN RD",
+                    "TIONG BAHRU RD",
+                    "GANGES AVE"
+                ],
+                scrollFont: "LECIP-6:4"
+            }
+        }
+    },
+    122: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "122",
+                destination: "KG.BAHRU TER-C'WEALTH DR",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
                 ],
                 scrollFont: "LECIP-6:4"
             }
