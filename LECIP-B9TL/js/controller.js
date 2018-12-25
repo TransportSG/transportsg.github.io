@@ -21,7 +21,7 @@ function registerKeyPress(key) {
             let service = inputs.join('').replace(/^0+/, '');
 
             setCode(service, 1);
-            inputs = [];
+            inputs = [0,0,0,0];
         }
     }
 }
