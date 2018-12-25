@@ -14,10 +14,10 @@ function generateLEDCssCode() {
     }
 
     #front-eds {
-        width: ${160 * Math.ceil(window.innerWidth * 0.005)}px;
-        grid-template-columns: repeat(160, ${Math.ceil(window.innerWidth * 0.005)}px);
+        width: ${160 * Math.ceil(window.innerWidth * 0.0045)}px;
+        grid-template-columns: repeat(160, ${Math.ceil(window.innerWidth * 0.0045)}px);
         grid-row-gap: ${Math.ceil(window.innerWidth * 0.0004)}px;
-        grid-auto-rows: ${Math.ceil(window.innerWidth * 0.005) - 1}px;
+        grid-auto-rows: ${Math.ceil(window.innerWidth * 0.0045) - 1}px;
     }
 
     #rear-eds .led {
