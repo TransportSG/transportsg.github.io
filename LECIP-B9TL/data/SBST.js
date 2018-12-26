@@ -4455,6 +4455,56 @@ EDSData.SBST = {
             }
         }
     },
+    222: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "222",
+                destination: "BEDOK INT-CHAI CHEE DR",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    'BEDOK NORTH ST 1',
+                    'BEDOK NORTH AVE 3',
+                    'BEDOK NORTH RD',
+                    'CHAI CHEE RD',
+                    'CHAI CHEE ST'
+                ],
+                scrollFont: "LECIP-7:5"
+            }
+        }
+    },
+    "225G": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "225G",
+                destination: "> BEDOK INT",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    'BEDOK NORTH AVE 1',
+                    'BEDOK NORTH ST 3',
+                    'BEDOK NORTH AVE 2'
+                ],
+                scrollFont: "LECIP-7:5"
+            }
+        }
+    },
+    "225W": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "225W",
+                destination: "> BEDOK INT",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    'BEDOK NORTH AVE 2',
+                    'BEDOK NORTH ST 3',
+                    'BEDOK NORTH AVE 1',
+                ],
+                scrollFont: "LECIP-7:5"
+            }
+        }
+    },
     228: {
         1: {
             front: {
@@ -4467,6 +4517,89 @@ EDSData.SBST = {
                     "BEDOK NORTH AVE 3",
                     "BEDOK RESERVOIR RD",
                     "BEDOK NORTH AVE 3"
+                ],
+                scrollFont: "LECIP-7:5"
+            }
+        }
+    },
+    229: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "229",
+                destination: "> BEDOK INT",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    'CHAI CHEE RD',
+                    'BEDOK SOUTH RD',
+                    'BEDOK SOUTH AVE 3',
+                    'UPP EAST COAST RD'
+                ],
+                scrollFont: "LECIP-7:5"
+            }
+        }
+    },
+    231: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "231",
+                destination: "> TOA PAYOH INT",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    'LOR 1 TOA PAYOH',
+                    'LOR 4 TOA PAYOH',
+                    'LOR 5 TOA PAYOH'
+                ],
+                scrollFont: "LECIP-7:5"
+            }
+        }
+    },
+    232: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "232",
+                destination: "> TOA PAYOH INT",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    'LOR 6 TOA PAYOH',
+                    'LOR 4 TOA PAYOH',
+                    'LOR 2 TOA PAYOH',
+                    'LOR 1 TOA PAYOH',
+                    'LOR 7 TOA PAYOH'
+                ],
+                scrollFont: "LECIP-7:5"
+            }
+        }
+    },
+    235: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "235",
+                destination: "> TOA PAYOH INT",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    'LOR 6 TOA PAYOH',
+                    'TOA PAYOH EAST',
+                    'LOR 5, 3, 2, 1 TOA PAYOH',
+                    'TOA PAYOH RISE'
+                ],
+                scrollFont: "LECIP-7:5"
+            }
+        }
+    },
+    238: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "238",
+                destination: "> TOA PAYOH INT",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    'LOR 6 TOA PAYOH',
+                    'LOR 8 TOA PAYOH'
                 ],
                 scrollFont: "LECIP-7:5"
             }
