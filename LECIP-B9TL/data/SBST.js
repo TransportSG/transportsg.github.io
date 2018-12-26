@@ -5747,6 +5747,88 @@ EDSData.SBST = {
             }
         }
     },
+    814: {// TODO: SCROLLS
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "CT8",
+                destination: "> KAMPONG BAHRU TER",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    'ANG MO KIO AVE 4'
+                ],
+                scrollFont: "LECIP-7:5"
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "CT8",
+                destination: "> ANG MO KIO AVE 9",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    'ANG MO KIO AVE 4'
+                ],
+                scrollFont: "LECIP-7:5"
+            }
+        }
+    },
+    815: {// TODO: SCROLLS
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "CT18",
+                destination: "> KAMPONG BAHRU TER",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    'BEDOK NORTH AVE 3'
+                ],
+                scrollFont: "LECIP-7:5"
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "CT18",
+                destination: "> BEDOK NORTH AVE 3",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    'BEDOK NORTH AVE 3'
+                ],
+                scrollFont: "LECIP-7:5"
+            }
+        }
+    },
+    816: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "CT28",
+                destination: "> NEW BRIDGE ROAD TER",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    "CLEMENTI AVE 4",
+                    "C'WEALTH AVE WEST",
+                    "NEW BRIDGE RD"
+                ],
+                scrollFont: "LECIP-7:5"
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "CT28",
+                destination: "> CLEMENTI AVE 4",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    "EU TONG SEN ST",
+                    "C'WEALTH AVE WEST",
+                    "CLEMENTI AVE 4"
+                ],
+                scrollFont: "LECIP-7:5"
+            }
+        }
+    },
     851: {
         1: {
             front: {
