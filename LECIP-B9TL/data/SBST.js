@@ -98,7 +98,7 @@ EDSFormats.SBST = {
             align: 'centre-x,bottom',
             margin: {
                 right: 'width(serviceNumber) len(5)',
-                bottom: 3
+                bottom: 2
             },
             text: '$area',
             font: 'LECIP-6:4',
@@ -108,15 +108,6 @@ EDSFormats.SBST = {
 }
 
 EDSData.SBST = {
-    1: {
-        1: {
-            front: {
-                renderType: 'on-demand',
-                serviceNumber: 'JK-7',
-                area: '(JOO KOON)'
-            }
-        }
-    },
     4: {
         1: {
             front: {
@@ -5494,6 +5485,69 @@ EDSData.SBST = {
                 serviceNumber: "513",
                 image: "express",
                 destination: "EXPRESS 513"
+            }
+        }
+    },
+    601: {
+        1: {
+            front: {
+                renderType: 'on-demand',
+                serviceNumber: 'JK-1',
+                area: '(JOO KOON)'
+            }
+        }
+    },
+    // 602: {
+    //     1: {
+    //         front: {
+    //             renderType: 'on-demand',
+    //             serviceNumber: 'JK-2',
+    //             area: '(JOO KOON)'
+    //         }
+    //     }
+    // },
+    // 603: {
+    //     1: {
+    //         front: {
+    //             renderType: 'on-demand',
+    //             serviceNumber: 'JK-3',
+    //             area: '(JOO KOON)'
+    //         }
+    //     }
+    // },
+    // 604: {
+    //     1: {
+    //         front: {
+    //             renderType: 'on-demand',
+    //             serviceNumber: 'JK-4',
+    //             area: '(JOO KOON)'
+    //         }
+    //     }
+    // },
+    // 605: {
+    //     1: {
+    //         front: {
+    //             renderType: 'on-demand',
+    //             serviceNumber: 'JK-5',
+    //             area: '(JOO KOON)'
+    //         }
+    //     }
+    // },
+    // 606: {
+    //     1: {
+    //         front: {
+    //             renderType: 'on-demand',
+    //             serviceNumber: 'JK-6',
+    //             area: '(JOO KOON)'
+    //         }
+    //     }
+    // },
+    607: {
+        1: {
+            front: {
+                renderType: 'on-demand',
+                serviceNumber: 'JK-7',
+                area: '(JOO KOON)'
             }
         }
     },
