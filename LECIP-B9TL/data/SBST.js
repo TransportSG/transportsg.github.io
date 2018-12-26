@@ -267,7 +267,7 @@ EDSData.SBST = {
             }
         }
     },
-    "11": {
+    11: {
         1: {
             front: {
                 renderType: "standardService",
@@ -2553,7 +2553,7 @@ EDSData.SBST = {
             }
         }
     },
-    112: {//TODO FONTS
+    112: {
         1: {
             front: {
                 renderType: "standardService",
@@ -2578,9 +2578,17 @@ EDSData.SBST = {
                 destination: "HOUGANG CTRL INT-UPP PAYA LEBAR",
                 destinationFont: "LECIP-6:3",
                 scrolls: [
-                    'HOUGANG ST 21',
+                    'HOUGANG AVE 8',
+                    'HOUGANG AVE 6',
                     'HOUGANG AVE 10',
-                    'LOR AH SOO'
+                    'UPP SERANGOON RD',
+                    'HOUGANG ST 21',
+                    'LOR AH SOO',
+                    'HOUGANG ST 21',
+                    'UPP SERANGOON RD',
+                    'HOUGANG AVE 10',
+                    'HOUGANG AVE 6',
+                    'HOUGANG AVE 8'
                 ],
                 scrollFont: "LECIP-6:3"
             }
@@ -4719,7 +4727,11 @@ EDSData.SBST = {
                 destination: "> BOON LAY INT",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                    "YUAN CHING RD"
+                    'CHIN BEE DR',
+                    'TAH CHING RD',
+                    'BOONG LAY DR',
+                    "YUAN CHING RD",
+                    'JALAN TUKANG'
                 ],
                 scrollFont: "LECIP-7:5"
             }
@@ -4915,6 +4927,146 @@ EDSData.SBST = {
             }
         }
     },
+    261: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "261",
+                destination: "> ANG MO KIO INT",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    'ANG MO KIO AVE 3',
+                    'ANG MO KIO AVE 10',
+                    'INDUSTRIAL PARK 1'
+                ],
+                scrollFont: "LECIP-7:5"
+            }
+        }
+    },
+    262: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "262",
+                destination: "> ANG MO KIO",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    'ANG MO KIO AVE 8',
+                    'ANG MO KIO AVE 1',
+                    'ANG MO KIO ST 11',
+                    'ANG MO KIO AVE 2'
+                ],
+                scrollFont: "LECIP-7:5"
+            }
+        }
+    },
+    265: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "265",
+                destination: "AMK-AMK AVE 10",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    'ANG MO KIO AVE 9',
+                    'ANG MO KIO AVE 4',
+                    'ANG MO KIO AVE 3'
+                ],
+                scrollFont: "LECIP-7:5"
+            }
+        }
+    },
+    268: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "268",
+                destination: "> ANG MO KIO AVE 5",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    'ANG MO KIO AVE 3',
+                    'ANG MO KIO AVE 4',
+                    'ANG MO KIO AVE 5'
+                ],
+                scrollFont: "LECIP-7:5"
+            }
+        }
+    },
+    269: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "269",
+                destination: "> ANG MO KIO INT",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    'ANG MO KIO AVE 3',
+                    'ANG MO KIO AVE 4',
+                    'ANG MO KIO AVE 5',
+                    'ANG MO KIO ST 61',
+                    'YIO CHU KANG RD',
+                    'ANG MO KIO AVE 5',
+                    'ANG MO KIO AVE 4',
+                    'ANG MO KIO AVE 3'
+                ],
+                scrollFont: "LECIP-7:5"
+            }
+        }
+    },
+    272: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "272",
+                destination: "> BUKIT MERAH INT",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    "HENDERSON RD",
+                    "TELOK BLANGAH WAY",
+                    "TELOK BLANGAH RISE",
+                    "TELOK BLANGAH CRES",
+                    "HENDERSON RD"
+                ],
+                scrollFont: "LECIP-7:5"
+            }
+        }
+    },
+    273: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "273",
+                destination: "> BUKIT MERAH INT",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    "HENDERSON RD",
+                    "TELOK BLANGAH HTS",
+                    "TELOK BLANGAH ST 32",
+                    "TELOK BLANGAH DRIVE",
+                    "HENDERSON RD"
+                ],
+                scrollFont: "LECIP-7:5"
+            }
+        }
+    },
+    275: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "275",
+                destination: "> BUKIT MERAH INT",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    "JALAN BUKIT MERAH",
+                    "LOWER DELTA RD",
+                    "BUKIT PURMEI AVE",
+                    "LOWER DELTA RD",
+                    "JALAN BUKIT MERAH"
+                ],
+                scrollFont: "LECIP-7:5"
+            }
+        }
+    },
     291: {
         1: {
             front: {
@@ -4968,6 +5120,105 @@ EDSData.SBST = {
             }
         }
     },
+    298: {//TODO SCROLL
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "298",
+                destination: "TAMP CONCOURSE INT-TAMP ST 86",
+                destinationFont: "LECIP-6:3",
+                scrolls: [
+                    'TAMPINES CENTRAL 1',
+                    'TAMPINES AVE 3'
+                ],
+                scrollFont: "LECIP-6:3"
+            }
+        }
+    },
+    315: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "315",
+                destination: "> SERANGOON NTH AVE 5",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    'LORONG CHUAN',
+                    'SERANGOON GARDEN WAY',
+                    'SERANGOON NORTH AVE 1',
+                    'SERANGOON NORTH AVE 4',
+                ],
+                scrollFont: "LECIP-7:5"
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "315",
+                destination: "> SERANGOON INT",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    'ANG MO KIO AVE 3',
+                    'SERANGOON NORTH 1',
+                    'SERANGOON GARDEN WAY',
+                    'LORONG CHUAN'
+                ],
+                scrollFont: "LECIP-7:5"
+            }
+        }
+    },
+    317: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "317",
+                destination: "> BERWICK DRIVE",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    'UPP SERANGOON RD',
+                    'YIO CHU KANG LINK',
+                    'SERANGOON GARDEN WAY',
+                    'CHARTWELL DR',
+                    'BURGHLEY DR'
+                ],
+                scrollFont: "LECIP-7:5"
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "317",
+                destination: "> SERANGOON INT",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    'TAVISTOCK AVE',
+                    'HEMSLEY AVE',
+                    'KENSINGTON PARK RD',
+                    'SERANGOON GARDEN WAY',
+                    'YIO CHU KANG LINK',
+                    'UPP SERANGOON RD'
+                ],
+                scrollFont: "LECIP-7:5"
+            }
+        }
+    },
+    325: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "325",
+                destination: "> HOUGANG AVE 9",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    'UPP SERANGOON RD',
+                    'HOUGANG AVE 2, 10, 8',
+                    'HOUGANG ST 51',
+                    'BUANGKOK GREEN'
+                ],
+                scrollFont: "LECIP-7:5"
+            }
+        }
+    },
     371: {
         1: {
             front: {
@@ -4980,6 +5231,24 @@ EDSData.SBST = {
                     "RIVERVALE DR",
                     "RIVERVALE CRES",
                     "COMPASSVALE ST"
+                ],
+                scrollFont: "LECIP-7:5"
+            }
+        }
+    },
+    372: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "372",
+                destination: "> SENGKANG INT",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    'SENGKANG EAST WAY',
+                    'ANCHORVALE DR',
+                    'PUNGGOL DR',
+                    'COMPASSVALE RD',
+                    'ANCHORVALE RD'
                 ],
                 scrollFont: "LECIP-7:5"
             }
@@ -5003,6 +5272,60 @@ EDSData.SBST = {
             }
         }
     },
+    400: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "400",
+                destination: "SHENTON WAY TER-MARINA GDNS DR",
+                destinationFont: "LECIP-6:3",
+                scrolls: [
+                    'SHENTON WAY',
+                    'ANSON RD',
+                    'MARINA BOULEVARD',
+                    'MARINA MALL',
+                    'MARINA GROVE'
+                ],
+                scrollFont: "LECIP-6:3"
+            }
+        }
+    },
+    401: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "401",
+                destination: "BEDOK INT-FORT RD",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    'EAST COAST PARK SVC RD',
+                    'MARINE PARADE RD',
+                    'TANJONG KATONG RD',
+                    'OLD AIRPORT RD',
+                    'FORT RD',
+                    'EAST COAST PARK SVC RD'
+                ],
+                scrollFont: "LECIP-7:5"
+            }
+        },
+    },
+    402: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "402",
+                destination: "SHENTON WAY TER-M.COSTAL DR",
+                destinationFont: "LECIP-6:3",
+                scrolls: [
+                    'SHENTON WAY',
+                    'ANSON RD',
+                    'MARINA ST',
+                    'MARINA COSTAL DR'
+                ],
+                scrollFont: "LECIP-6:3"
+            }
+        },
+    },
     405: {
         1: {
             front: {
@@ -5020,6 +5343,43 @@ EDSData.SBST = {
                     "JURONG WEST CENTRAL 1"
                 ],
                 scrollFont: "LECIP-6:4"
+            }
+        }
+    },
+    "405M": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "405M",
+                destination: "BOON LAY INT-OLD CCK RD",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                    "JURONG WEST CENTRAL 1",
+                    "JALAN BOON LAY",
+                    "JALAN BAHAR",
+                    "OLD CHOA CHU KANG RD",
+                    "JALAN BAHAR",
+                    "JALAN BOON LAY",
+                    "JURONG WEST CENTRAL 1"
+                ],
+                scrollFont: "LECIP-6:4"
+            }
+        }
+    },
+    "410G": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "410G",
+                destination: "> BISHAN INT",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    'BISHAN ST 21',
+                    'UPP THOMSON RD',
+                    'SIN MING AVE',
+                    'BISHAN ST 22'
+                ],
+                scrollFont: "LECIP-7:5"
             }
         }
     },
@@ -5043,7 +5403,7 @@ EDSData.SBST = {
             }
         }
     },
-    "502": {
+    502: {
         1: {
             front: {
                 renderType: "logoSvc",
@@ -5061,7 +5421,7 @@ EDSData.SBST = {
             }
         }
     },
-    "506": {
+    506: {
         1: {
             front: {
                 renderType: "logoSvc",
@@ -5079,7 +5439,7 @@ EDSData.SBST = {
             }
         }
     },
-    "513": {
+    513: {
         1: {
             front: {
                 renderType: "logoSvc",
@@ -5299,9 +5659,10 @@ EDSData.SBST = {
                 renderType: "standardService",
                 serviceNumber: "851",
                 destination: "> YISHUN INT",
-                destinationFont: "LECIP-10",
+                destinationFont: "LECIP-7:5",
                 scrolls: [
                     "TIONG BAHRU RD",
+                    'EU TONG SEN ST',
                     "VICTORIA ST",
                     "THOMSON RD",
                     "MARYMOUNT RD",
@@ -5320,7 +5681,15 @@ EDSData.SBST = {
                 destination: "> BUKIT MERAH INT",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
-                    "YISHUN AVE 2"
+                    'YISHUN AVE 2',
+                    'LENTOR AVE',
+                    'ANG MO KIO AVE 6',
+                    'ANG MO KIO AVE 5',
+                    'MARYMOUNT RD',
+                    'THOMSON RD',
+                    'VICTORIA ST',
+                    'NEW BRIDGE RD',
+                    'TIONG BAHRU RD'
                 ],
                 scrollFont: "LECIP-7:5"
             }
@@ -5412,6 +5781,296 @@ EDSData.SBST = {
                     "YISHUN AVE 3"
                 ],
                 scrollFont: "LECIP-7:5"
+            }
+        }
+    },
+    901: {
+        1: {
+            "front": {
+                "renderType": "message",
+                "text": "EB 1",
+                "font": "LECIP-20:12",
+                "spacing": 3
+            }
+        }
+    },
+    902: {
+        1: {
+            "front": {
+                "renderType": "message",
+                "text": "EB 2",
+                "font": "LECIP-20:12",
+                "spacing": 3
+            }
+        }
+    },
+    903: {
+        1: {
+            "front": {
+                "renderType": "message",
+                "text": "EB 3",
+                "font": "LECIP-20:12",
+                "spacing": 3
+            }
+        }
+    },
+    904: {
+        1: {
+            "front": {
+                "renderType": "message",
+                "text": "EB 4",
+                "font": "LECIP-20:12",
+                "spacing": 3
+            }
+        }
+    },
+    905: {
+        1: {
+            "front": {
+                "renderType": "message",
+                "text": "EB 5",
+                "font": "LECIP-20:12",
+                "spacing": 3
+            }
+        }
+    },
+    906: {
+        1: {
+            "front": {
+                "renderType": "message",
+                "text": "EB 6",
+                "font": "LECIP-20:12",
+                "spacing": 3
+            }
+        }
+    },
+    907: {
+        1: {
+            "front": {
+                "renderType": "message",
+                "text": "EB 7",
+                "font": "LECIP-20:12",
+                "spacing": 3
+            }
+        }
+    },
+    908: {
+        1: {
+            "front": {
+                "renderType": "message",
+                "text": "EB 8",
+                "font": "LECIP-20:12",
+                "spacing": 3
+            }
+        }
+    },
+    909: {
+        1: {
+            "front": {
+                "renderType": "message",
+                "text": "EB 9",
+                "font": "LECIP-20:12",
+                "spacing": 3
+            }
+        }
+    },
+    910: {
+        1: {
+            "front": {
+                "renderType": "message",
+                "text": "EB 10",
+                "font": "LECIP-20:12",
+                "spacing": 3
+            }
+        }
+    },
+    912: {
+        1: {
+            "front": {
+                "renderType": "message",
+                "text": "EB 12",
+                "font": "LECIP-20:12",
+                "spacing": 3
+            }
+        }
+    },
+    913: {
+        1: {
+            "front": {
+                "renderType": "message",
+                "text": "EB 13",
+                "font": "LECIP-20:12",
+                "spacing": 3
+            }
+        }
+    },
+    914: {
+        1: {
+            "front": {
+                "renderType": "message",
+                "text": "EB 14",
+                "font": "LECIP-20:12",
+                "spacing": 3
+            }
+        }
+    },
+    915: {
+        1: {
+            "front": {
+                "renderType": "message",
+                "text": "EB 15",
+                "font": "LECIP-20:12",
+                "spacing": 3
+            }
+        }
+    },
+    921: {
+        1: {
+            "front": {
+                "renderType": "message",
+                "text": "EB 21",
+                "font": "LECIP-20:12",
+                "spacing": 3
+            }
+        }
+    },
+    922: {
+        1: {
+            "front": {
+                "renderType": "message",
+                "text": "EB 22",
+                "font": "LECIP-20:12",
+                "spacing": 3
+            }
+        }
+    },
+    926: {
+        1: {
+            "front": {
+                "renderType": "message",
+                "text": "EB 26",
+                "font": "LECIP-20:12",
+                "spacing": 3
+            }
+        }
+    },
+    928: {
+        1: {
+            "front": {
+                "renderType": "message",
+                "text": "EB 28",
+                "font": "LECIP-20:12",
+                "spacing": 3
+            }
+        }
+    },
+    931: {
+        1: {
+            "front": {
+                "renderType": "message",
+                "text": "EB 31",
+                "font": "LECIP-20:12",
+                "spacing": 3
+            }
+        }
+    },
+    936: {
+        1: {
+            "front": {
+                "renderType": "message",
+                "text": "EB 36",
+                "font": "LECIP-20:12",
+                "spacing": 3
+            }
+        }
+    },
+    937: {
+        1: {
+            "front": {
+                "renderType": "message",
+                "text": "EB 37",
+                "font": "LECIP-20:12",
+                "spacing": 3
+            }
+        }
+    },
+    939: {
+        1: {
+            "front": {
+                "renderType": "message",
+                "text": "EB 39",
+                "font": "LECIP-20:12",
+                "spacing": 3
+            }
+        }
+    },
+    941: {
+        1: {
+            "front": {
+                "renderType": "message",
+                "text": "EB 41",
+                "font": "LECIP-20:12",
+                "spacing": 3
+            }
+        }
+    },
+    942: {
+        1: {
+            "front": {
+                "renderType": "message",
+                "text": "EB 42",
+                "font": "LECIP-20:12",
+                "spacing": 3
+            }
+        }
+    },
+    943: {
+        1: {
+            "front": {
+                "renderType": "message",
+                "text": "EB 43",
+                "font": "LECIP-20:12",
+                "spacing": 3
+            }
+        }
+    },
+    944: {
+        1: {
+            "front": {
+                "renderType": "message",
+                "text": "EB 44",
+                "font": "LECIP-20:12",
+                "spacing": 3
+            }
+        }
+    },
+    948: {
+        1: {
+            "front": {
+                "renderType": "message",
+                "text": "EB 48",
+                "font": "LECIP-20:12",
+                "spacing": 3
+            }
+        }
+    },
+    951: {
+        1: {
+            "front": {
+                "renderType": "message",
+                "text": "EB 51",
+                "font": "LECIP-20:12",
+                "spacing": 3
+            }
+        }
+    },
+    988: {
+        1: {
+            "front": {
+                "renderType": "message",
+                "text": "EB 88",
+                "font": "LECIP-20:12",
+                "spacing": 3
             }
         }
     },
