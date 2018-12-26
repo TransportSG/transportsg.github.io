@@ -65,11 +65,19 @@ function findSectionWidth(section, data, matrix) {
 
 function parseMarginShifts(value, sections, data, matrix) {
     if (!isNaN(value)) return value;
-    if (value.startsWith('width(') && value.endsWith(')')) {
-        let sectionName = value.slice(6, -1);
+    let offset = 0;
+    let parts = value.split(' ');
+    parts.forEach(part => {
+        if (part.startsWith('width(') && part.endsWith(')')) {
+            let sectionName = part.slice(6, -1);
 
-        return findSectionWidth(sections[sectionName], data, matrix);
-    }
+            offset += findSectionWidth(sections[sectionName], data, matrix);
+        } else if (part.startsWith('len(') && part.endsWith(')')) {
+            offset += part.slice(4, -1) * 1;
+        }
+    });
+
+    return offset;
 }
 
 function adjustMargins(x, y, alignments, margins, data, sections, matrix) {
@@ -83,16 +91,16 @@ function adjustMargins(x, y, alignments, margins, data, sections, matrix) {
 
         switch(margin) {
             case 'left':
-                x += shift * xmod;
+                x += Math.floor(shift * xmod);
                 break;
             case 'right':
-                x -= shift * xmod;
+                x -= Math.floor(shift * xmod);
                 break;
             case 'top':
-                y += shift * ymod;
+                y += Math.floor(shift * ymod);
                 break;
             case 'bottom':
-                y -= shift * ymod;
+                y -= Math.floor(shift * ymod);
                 break;
         }
     });

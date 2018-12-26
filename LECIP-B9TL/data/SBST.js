@@ -73,10 +73,50 @@ EDSFormats.SBST = {
         },
 
         text: "$text"
+    },
+    'on-demand': {
+        serviceNumber: {
+            align: 'right,centre-y',
+            margin: {
+                right: 5
+            },
+            text: '$serviceNumber',
+            font: 'LECIP-14:7',
+            spacing: 2
+        },
+        title: {
+            align: 'centre-x,top',
+            margin: {
+                right: 'width(serviceNumber) len(5)',
+                top: 3
+            },
+            text: 'ON-DEMAND PUBLIC BUS',
+            font: 'LECIP-6:4',
+            spacing: 1
+        },
+        area: {
+            align: 'centre-x,bottom',
+            margin: {
+                right: 'width(serviceNumber) len(5)',
+                bottom: 3
+            },
+            text: '$area',
+            font: 'LECIP-6:4',
+            spacing: 1
+        }
     }
 }
 
 EDSData.SBST = {
+    1: {
+        1: {
+            front: {
+                renderType: 'on-demand',
+                serviceNumber: 'JK-7',
+                area: '(JOO KOON)'
+            }
+        }
+    },
     4: {
         1: {
             front: {
@@ -6138,7 +6178,7 @@ EDSData.SBST = {
             front: {
                 renderType: "message",
                 text: "VER. 1234567890-18",
-                font: "LECIP-14",
+                font: "LECIP-14:6",
                 spacing: 1
             }
         }
