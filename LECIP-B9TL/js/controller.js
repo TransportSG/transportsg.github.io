@@ -33,6 +33,7 @@ function registerKeyPress(key) {
     } else if (key === 'F4') {
         if (currentScreen === 'home') {
             let newDirection = 3 - currentDirection;
+            if (!EDSData[currentOperator][currentService][newDirection]) return;
 
             setCode(currentService, newDirection);
         }
