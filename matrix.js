@@ -69,7 +69,8 @@ class LEDMatrix {
     draw2DArray(array, x, y) {
         array.forEach((row, dy) => {
             row.forEach((led, dx) => {
-                this.matrix.setLEDState(x + dx, y + dy, led);
+                if (led)
+                    this.matrix.setLEDState(x + dx, y + dy, led);
             });
         });
     }
@@ -122,6 +123,11 @@ class DOMBasedLEDMatrix {
         if (x >= this.width || x < 0 || y >= this.height || y < 0) return;
         let className = state ? 'led led-on' : 'led led-off';
         this.leds[DOMBasedLEDMatrix.twodimToFlat(x, y, this.width)].className = className;
+    }
+
+    getLEDState(x, y) {
+        if (x >= this.width || x < 0 || y >= this.height || y < 0) return false;
+        return this.leds[DOMBasedLEDMatrix.twodimToFlat(x, y, this.width)].className === 'led led-on';
     }
 
 }

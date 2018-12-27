@@ -7459,12 +7459,17 @@ let fonts = {
 
 let fontSpacers = {
     "ArialBold-8": (prev, curr, spacing) => {
-        if (["R", "V", "W"].includes(prev)) return 0;
+        if (prev === 'R' && curr === 'A') return 0;
+        if (prev === "P" && curr === "A") return 0;
+        if (prev === 'V' && curr === 'W') return 0;
+        if (prev === 'A' && curr === 'V') return -1;
         return spacing;
     },
     "Arial-8": (prev, curr, spacing) => {
-        if (["V", "W"].includes(prev)) return 0;
+        if (prev === 'R' && curr === 'A') return 0;
         if (prev === "P" && curr === "A") return 0;
+        if (prev === 'V' && curr === 'W') return 0;
+        if (prev === 'A' && curr === 'V') return -1;
         return spacing;
     }
 }
