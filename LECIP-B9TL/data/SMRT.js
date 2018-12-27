@@ -143,4 +143,76 @@ EDSData.SMRT = {
             }
         }
     },
+    190: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "190",
+                destination: "KAMPONG BAHRU TER",
+                destinationFont: "ArialBold-8",
+                scrolls: [
+                    'BT PANJANG RD',
+                    'STEVENS ROAD',
+                    'ORCHARD ROAD',
+                    'HILL STREET',
+                    'CHINATOWN'
+                ],
+                scrollFont: "Arial-8"
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "190",
+                destination: "CHOA CHUA KANG via",
+                destinationFont: "ArialBold-8",
+                scrolls: [
+                    'HILL STREET',
+                    'SOMERSET RD',
+                    'SCOTTS RD',
+                    'STEVENS RD',
+                    'BUKIT PANJANG RD'
+                ],
+                scrollFont: "Arial-8"
+            }
+        }
+    },
+    985: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "985",
+                destination: "GEYLANG LOR 1 via",
+                destinationFont: "ArialBold-8",
+                scrolls: [
+                    'TECK WHYE AVE',
+                    'B. B WEST AVE 7, 4',
+                    'B. B WEST AVE 2',
+                    'B. B EAST AVE 2',
+                    'JLN JURONG KECHIL',
+                    'JLN TOA PAYOH',
+                    'BENDEMEER ROAD'
+                ],
+                scrollFont: "Arial-8"
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "985",
+                destination: "CHOA CHU KANG via",
+                destinationFont: "ArialBold-8",
+                scrolls: [
+                    'SERANGOON ROAD',
+                    'JLN TOA PAYOH',
+                    'JLN JURONG KECHIL',
+                    'B. B EAST AVE 2',
+                    'B. B WEST AVE 2, 4',
+                    'B. B WEST AVE 7',
+                    'TECK WHYE AVE'
+                ],
+                scrollFont: "Arial-8"
+            }
+        }
+    }
 };
