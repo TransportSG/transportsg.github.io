@@ -5,6 +5,8 @@ let currentDirection = '';
 let currentDestination = '';
 let inputs = [0,0,0,0];
 
+let operators = ['SBST', 'SMRT'];
+
 function registerNumericalKeyPress(key) {
     if (currentScreen === 'home' || currentScreen === 'service-input') {
         currentScreen = 'service-input';
@@ -36,6 +38,12 @@ function registerKeyPress(key) {
             if (!EDSData[currentOperator][currentService][newDirection]) return;
 
             setCode(currentService, newDirection);
+        }
+    } else if (key === 'F3') {
+        if (currentScreen === 'home') {
+            let index = operators.indexOf(currentOperator);
+            if (++index === operators.length) index = 0;
+            currentOperator = operators[index];
         }
     } else if (key === 'UP') {
         if (currentScreen === 'service-input') {
