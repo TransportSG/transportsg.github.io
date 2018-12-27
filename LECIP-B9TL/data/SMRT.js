@@ -66,6 +66,47 @@ EDSData.SMRT = {
             }
         }
     },
+    61: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "61",
+                destination: "EUNOS via",
+                destinationFont: "ArialBold-8",
+                scrolls: [
+                    'CLEMENTI RD',
+                    'HOLLAND RD',
+                    'HOLLAND AVE',
+                    'TELOK BLANGAH RD',
+                    'CHINATOWN',
+                    'VICTORIA ST',
+                    'KALLANG BAHRU',
+                    'MACPHERSON RD',
+                    'UBI AVE 2'
+                ],
+                scrollFont: "Arial-8"
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "61",
+                destination: "BUKIT BATOK via",
+                destinationFont: "ArialBold-8",
+                scrolls: [
+                    'UBI AVE 2',
+                    'MACPHERSON RD',
+                    'KALLANG BAHRU',
+                    'NORTH BRIDGE RD',
+                    'SOUTH BRIDGE RD',
+                    'TELOK BLANGAH RD',
+                    'HOLLAND RD',
+                    'CLEMENTI RD'
+                ],
+                scrollFont: "Arial-8"
+            }
+        }
+    },
     67: {
         1: {
             front: {
