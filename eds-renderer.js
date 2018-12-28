@@ -57,7 +57,7 @@ function findSectionWidth(section, data, matrix) {
         let font = resolveValue(section.font, data);
         let spacing = resolveValue(section.spacing, data)*1;
 
-        return matrix.measureText(text, font, spacing);
+        return matrix.measureText(text, font, spacing).width;
     }
 
     return 0;
@@ -114,8 +114,9 @@ function resolvePosition(formatting, sections, matrix, data) {
     let font = resolveValue(formatting.font, data);
     let text = resolveValue(formatting.text, data);
     let spacing = resolveValue(formatting.spacing, data) * 1;
-    let textWidth = matrix.measureText(text, font, spacing);
-    let textHeight = Object.values(fonts[font])[0].length;
+    let measure = matrix.measureText(text, font, spacing);
+    let textWidth = measure.width,
+        textHeight = measure.height;
 
     let {x, y} = solveAlignment(align, textWidth, textHeight, width, height);
     if (formatting.margin) {
@@ -213,8 +214,9 @@ function render(formatted, matrix) {
                 let {text, spacing, font, x, y} = data.text();
                 matrix.drawText(text, font, spacing, x, y);
 
-                previousWidth = matrix.measureText(text, font, spacing);
-                previousHeight = fonts[font][text.slice(0, 1)].length;
+                let measure = matrix.measureText(text, font, spacing);
+                previousWidth = measure.width;
+                previousHeight = measure.height;
                 previousX = x;
                 previousY = y;
             }

@@ -20,9 +20,9 @@ EDSFormats.SMRT = {
             spacing: 1
         },
         scroll: {
-            align: "centre-x,bottom",
+            align: "centre-x,top",
             margin: {
-                bottom: 1,
+                top: 11,
                 right: 'width(serviceNumber) len(3)'
             },
             scrolls: "$scrolls",
@@ -191,7 +191,8 @@ EDSData.SMRT = {
                     'B. B EAST AVE 2',
                     'JLN JURONG KECHIL',
                     'JLN TOA PAYOH',
-                    'BENDEMEER ROAD'
+                    'BENDEMEER ROAD',
+                    'KALLANG MRT'
                 ],
                 scrollFont: "Arial-8"
             }

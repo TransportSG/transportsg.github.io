@@ -42,14 +42,16 @@ class LEDMatrix {
             return accuWidth;
         }, 0);
 
-        return totalWidth;
+        let height = chars.map(char => font[char].length).sort((a, b) => a - b).reverse()[0];
+
+        return {width: totalWidth, height};
     }
 
     drawText(text, fontname, fontSpacing, dx, dy) {
         let font = fonts[fontname];
         let chars = [...text];
-        let height = font[chars[0]].length;
-        let width = this.measureText(text, fontname, fontSpacing);
+        let measure = this.measureText(text, fontname, fontSpacing);
+        let {width, height} = measure;
         this.clearRectangle(dx, dy, width, height);
 
         let x = dx;

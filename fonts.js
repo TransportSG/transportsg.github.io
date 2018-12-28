@@ -7461,9 +7461,12 @@ let fontSpacers = {
     "ArialBold-8": (prev, curr, spacing) => {
         if (prev === 'R' && curr === 'A') return 0;
         if (prev === "P" && curr === "A") return 0;
-        if (prev === "K" && curr === "A") return 0;
         if (prev === 'V' && curr === 'W') return 0;
         if (prev === 'A' && curr === 'V') return -1;
+        if (prev === 'A' && curr === 'Y') return -1;
+        if (prev === 'Y' && curr === 'A') return -1;
+        if (prev === 'Z' && curr === 'A') return 0;
+        if (prev === 'W' && curr === 'O') return 0;
         return spacing;
     },
     "Arial-8": (prev, curr, spacing) => {
@@ -7471,7 +7474,12 @@ let fontSpacers = {
         if (prev === "P" && curr === "A") return 0;
         if (prev === "K" && curr === "A") return 0;
         if (prev === 'V' && curr === 'W') return 0;
+        if (prev === 'Y' && curr === 'O') return 0;
+        if (prev === 'T' && curr === 'O') return 0;
         if (prev === 'A' && curr === 'V') return -1;
+        if (prev === 'A' && curr === 'Y') return -1;
+        if (prev === 'Y' && curr === 'A') return -1;
+        if (prev === 'Z' && curr === 'A') return 0;
         return spacing;
     }
 }
