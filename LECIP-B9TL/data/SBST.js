@@ -2713,7 +2713,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "121",
-                destination: "KG.BAHRU TER-TK.BLANGAH",
+                destination: "KG.BAHRU TER-T.BLANGAH",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                     "GANGES AVE",
