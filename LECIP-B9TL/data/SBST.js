@@ -3347,6 +3347,21 @@ EDSData.SBST = {
             }
         }
     },
+    150: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "150",
+                destination: "BEDOK INT-MARINE TERR",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    'STILL RD',
+                    'TELOK KURAU RD'
+                ],
+                scrollFont: "LECIP-7:5"
+            }
+        }
+    },
     151: {
         1: {
             front: {
