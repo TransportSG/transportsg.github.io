@@ -104,10 +104,54 @@ EDSFormats.SBST = {
             font: 'LECIP-6:4',
             spacing: 1
         }
+    },
+    niteOwl: {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 1
+            },
+            text: "$serviceNumber",
+            font: "LECIP-20:12",
+            spacing: 2
+        },
+        branding: {
+            align: "left",
+            margin: {
+                left: 1
+            },
+            text: "NITE  OWL",
+            font: "LECIP-20:12",
+            spacing: 2
+        }
     }
 }
 
 EDSData.SBST = {
+    "1N": {
+        1: {
+            front: {
+                renderType: "niteOwl",
+                serviceNumber: "1N",
+            }
+        }
+    },
+    "2N": {
+        1: {
+            front: {
+                renderType: "niteOwl",
+                serviceNumber: "2N",
+            }
+        }
+    },
+    "3N": {
+        1: {
+            front: {
+                renderType: "niteOwl",
+                serviceNumber: "3N",
+            }
+        }
+    },
     4: {
         1: {
             front: {
@@ -123,6 +167,14 @@ EDSData.SBST = {
                     "TAMPINES AVE 7"
                 ],
                 scrollFont: "LECIP-6:4"
+            }
+        }
+    },
+    "4N": {
+        1: {
+            front: {
+                renderType: "niteOwl",
+                serviceNumber: "4N",
             }
         }
     },
@@ -157,6 +209,14 @@ EDSData.SBST = {
                     "UPP CHANGI RD EAST"
                 ],
                 scrollFont: "LECIP-7:5"
+            }
+        }
+    },
+    "5N": {
+        1: {
+            front: {
+                renderType: "niteOwl",
+                serviceNumber: "5N",
             }
         }
     },
