@@ -2738,6 +2738,9 @@ EDSData.SBST = {
                 destination: "KG.BAHRU TER-C'WEALTH DR",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
+                    'ALEXANDRA RD',
+                    'MARGARET DR',
+                    "COMMONWEALTH DR",
                     'QUEENSWAY'
                 ],
                 scrollFont: "LECIP-6:4"
