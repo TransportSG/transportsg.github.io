@@ -105,7 +105,7 @@ EDSFormats.SBST = {
             spacing: 1
         }
     },
-    niteOwl: {
+    brandedSvc: {
         serviceNumber: {
             align: "right",
             margin: {
@@ -120,8 +120,8 @@ EDSFormats.SBST = {
             margin: {
                 left: 1
             },
-            text: "NITE  OWL",
-            font: "LECIP-20:12",
+            text: "$branding",
+            font: "$font",
             spacing: 2
         }
     }
@@ -131,24 +131,30 @@ EDSData.SBST = {
     "1N": {
         1: {
             front: {
-                renderType: "niteOwl",
+                renderType: "brandedSvc",
                 serviceNumber: "1N",
+                branding: "NIGHT  OWL",
+                font: "LECIP-20:12"
             }
         }
     },
     "2N": {
         1: {
             front: {
-                renderType: "niteOwl",
+                renderType: "brandedSvc",
                 serviceNumber: "2N",
+                branding: "NIGHT  OWL",
+                font: "LECIP-20:12"
             }
         }
     },
     "3N": {
         1: {
             front: {
-                renderType: "niteOwl",
+                renderType: "brandedSvc",
                 serviceNumber: "3N",
+                branding: "NIGHT  OWL",
+                font: "LECIP-20:12"
             }
         }
     },
@@ -173,8 +179,10 @@ EDSData.SBST = {
     "4N": {
         1: {
             front: {
-                renderType: "niteOwl",
+                renderType: "brandedSvc",
                 serviceNumber: "4N",
+                branding: "NIGHT  OWL",
+                font: "LECIP-20:12"
             }
         }
     },
@@ -215,8 +223,10 @@ EDSData.SBST = {
     "5N": {
         1: {
             front: {
-                renderType: "niteOwl",
+                renderType: "brandedSvc",
                 serviceNumber: "5N",
+                branding: "NIGHT  OWL",
+                font: "LECIP-20:12"
             }
         }
     },
@@ -5684,6 +5694,26 @@ EDSData.SBST = {
                     "CASHEW"
                 ],
                 scrollFont: "LECIP-7:5"
+            }
+        }
+    },
+    "660": {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "660",
+                branding: "CITY DIRECT",
+                font: "LECIP-20:9"
+            }
+        }
+    },
+    "665": {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "665",
+                branding: "CITY DIRECT",
+                font: "LECIP-20:9"
             }
         }
     },
