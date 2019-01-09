@@ -16,7 +16,6 @@ EDSFormats.SMRT = {
                 right: 'width(serviceNumber) len(3)'
             },
             text: "$destination",
-            font: "$destinationFont",
             spacing: 1
         },
         scroll: {
@@ -71,8 +70,10 @@ EDSData.SMRT = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "61",
-                destination: "EUNOS via",
-                destinationFont: "ArialBold-8",
+                destination: {
+                    text: "EUNOS via",
+                    font: "ArialBold-8"
+                },
                 scrolls: [
                     'CLEMENTI RD',
                     'HOLLAND RD',
@@ -93,8 +94,10 @@ EDSData.SMRT = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "61",
-                destination: "BUKIT BATOK via",
-                destinationFont: "ArialBold-8",
+                destination: {
+                    text: "BUKIT BATOK via",
+                    font: "ArialBold-8"
+                },
                 scrolls: [
                     'UBI AVE 2',
                     'MACPHERSON RD',
@@ -114,8 +117,10 @@ EDSData.SMRT = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "67",
-                destination: "TAMPINES via",
-                destinationFont: "ArialBold-8",
+                destination: {
+                    text: "TAMPINES via",
+                    font: "ArialBold-8"
+                },
                 scrolls: [
                     'UPP BT TIMAH RD',
                     'DUNEARN RD',
@@ -133,8 +138,10 @@ EDSData.SMRT = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "67",
-                destination: "CHOA CHUA KANG via",
-                destinationFont: "ArialBold-8",
+                destination: {
+                    text: "CHOA CHUA KANG via",
+                    font: "ArialBold-8"
+                },
                 scrolls: [
                     'BEDOK NTH AVE 3',
                     'NEW UPP CHANGI RD',
@@ -152,8 +159,10 @@ EDSData.SMRT = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "190",
-                destination: "KAMPONG BAHRU TER",
-                destinationFont: "ArialBold-8",
+                destination: {
+                    text: "KAMPONG BAHRU TER",
+                    font: "ArialBold-8"
+                },
                 scrolls: [
                     'BT PANJANG RD',
                     'STEVENS ROAD',
@@ -170,8 +179,10 @@ EDSData.SMRT = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "190",
-                destination: "CHOA CHUA KANG via",
-                destinationFont: "ArialBold-8",
+                destination: {
+                    text: "CHOA CHUA KANG via",
+                    font: "ArialBold-8"
+                },
                 scrolls: [
                     'HILL STREET',
                     'SOMERSET RD',
@@ -183,13 +194,15 @@ EDSData.SMRT = {
             }
         }
     },
-    979: {
+    9791: {
         1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "979",
-                destination: "BT PANJANG via",
-                destinationFont: "ArialBold-8",
+                destination: {
+                    text: "BT PANJANG via",
+                    font: "ArialBold-8"
+                },
                 scrolls: [
                     'PETIR / JELUBU RD',
                     'WOODLANDS RD',
@@ -216,8 +229,10 @@ EDSData.SMRT = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "985",
-                destination: "GEYLANG LOR 1 via",
-                destinationFont: "ArialBold-8",
+                destination: {
+                    text: "GEYLANG LOR 1 via",
+                    font: "ArialBold-8"
+                },
                 scrolls: [
                     'TECK WHYE AVE',
                     'B. B WEST AVE 7, 4',
@@ -237,8 +252,10 @@ EDSData.SMRT = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "985",
-                destination: "CHOA CHU KANG via",
-                destinationFont: "ArialBold-8",
+                destination: {
+                    text: "CHOA CHU KANG via",
+                    font: "ArialBold-8"
+                },
                 scrolls: [
                     'SERANGOON ROAD',
                     'JLN TOA PAYOH',

@@ -54,7 +54,13 @@ function solveAlignment(align, textWidth, textHeight, matrixWidth, matrixHeight)
 function findSectionWidth(section, data, matrix) {
     if (section.text) {
         let text = resolveValue(section.text, data);
-        let font = resolveValue(section.font, data);
+        let font;
+        if (text.font) {
+            font = text.font;
+            text = text.text;
+        } else
+            font = resolveValue(section.font, data);
+
         let spacing = resolveValue(section.spacing, data)*1;
 
         return matrix.measureText(text, font, spacing).width;
@@ -111,8 +117,15 @@ function resolvePosition(formatting, sections, matrix, data) {
     let {width, height} = matrix;
 
     let align = formatting.align;
-    let font = resolveValue(formatting.font, data);
     let text = resolveValue(formatting.text, data);
+
+    let font;
+    if (text.font) {
+        font = text.font;
+        text = text.text;
+    } else
+        font = resolveValue(formatting.font, data);
+
     let spacing = resolveValue(formatting.spacing, data) * 1;
     let measure = matrix.measureText(text, font, spacing);
     let textWidth = measure.width,
@@ -136,6 +149,8 @@ function parseFormat(format, data, images, matrix) {
     sections.forEach(sectionName => {
         if (sectionName === 'text') {
             displayName = resolveValue(format.text, data);
+            displayName = displayName.text || displayName;
+
             return;
         }
         console.log(`parsing ${sectionName}`);
@@ -149,12 +164,21 @@ function parseFormat(format, data, images, matrix) {
             if (scrolls.length === 0) scrolls.push(" ");
 
             scrolls.forEach(scroll => {
+                let text = scroll.text || scroll;
+
+                let font;
+                if (text.font) {
+                    font = text.font;
+                    text = text.text;
+                } else
+                    font = scroll.font || formatting.font;
+
                 resolvedScrolls.push(resolvePosition({
                     align: formatting.align,
                     margin: formatting.margin,
-                    font: scroll.font || formatting.font,
                     spacing: formatting.spacing,
-                    text: scroll.text || scroll
+                    text,
+                    font,
                 }, format, matrix, data));
             });
 
