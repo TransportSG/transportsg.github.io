@@ -151,9 +151,9 @@ function parseFormat(format, data, images, matrix) {
                 resolvedScrolls.push(resolvePosition({
                     align: formatting.align,
                     margin: formatting.margin,
-                    font: formatting.font,
+                    font: scroll.font || formatting.font,
                     spacing: formatting.spacing,
-                    text: scroll
+                    text: scroll.text || scroll
                 }, format, matrix, data));
             });
 

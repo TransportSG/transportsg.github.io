@@ -37,12 +37,12 @@ class LEDMatrix {
             }
 
             if (!font[char]) console.log(char)
-            accuWidth += font[char][0].length;
+            accuWidth += (font[char].data || font[char])[0].length;
 
             return accuWidth;
         }, 0);
 
-        let height = chars.map(char => font[char].length).sort((a, b) => a - b).reverse()[0];
+        let height = chars.map(char => (font[char].data || font[char]).length).sort((a, b) => a - b).reverse()[0];
 
         return {width: totalWidth, height};
     }
@@ -62,9 +62,12 @@ class LEDMatrix {
                 spacing = this.determineDistance(chars[pos - 1], char, fontname, fontSpacing);
 
             x += spacing;
-            this.draw2DArray(font[char], x, dy);
+            if (font[char].offset)
+                this.draw2DArray(font[char].data, x, dy + font[char].offset);
+            else
+                this.draw2DArray(font[char], x, dy);
 
-            x += font[char][0].length;
+            x += (font[char].data || font[char])[0].length;
         });
     }
 

@@ -185,11 +185,20 @@ EDSData.SMRT = {
                 destination: "BT PANJANG via",
                 destinationFont: "ArialBold-8",
                 scrolls: [
-                    'PETIR/JELUBU RD',
+                    'PETIR / JELUBU RD',
                     'WOODLANDS RD',
-                    'CHOA CHU KANG NORTH 5',
-                    'CHOA CHU KANG ST 52/DR',
-                    'CHOA CHU KANG NORTH 7',
+                    {
+                        text: 'CHOA CHU KANG NORTH 5',
+                        font: 'Arial-7'
+                    },
+                    {
+                        text: 'CHOA CHU KANG ST 52/DR',
+                        font: 'Arial-7'
+                    },
+                    {
+                        text: 'CHOA CHU KANG NORTH 7',
+                        font: 'Arial-7'
+                    },
                     'C.C.K CRES (LOOP)'
                 ],
                 scrollFont: "Arial-8"
