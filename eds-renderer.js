@@ -116,7 +116,8 @@ function resolvePosition(formatting, sections, matrix, data) {
     let spacing = resolveValue(formatting.spacing, data) * 1;
     let measure = matrix.measureText(text, font, spacing);
     let textWidth = measure.width,
-        textHeight = measure.height;
+        textHeight = measure.height,
+        {offset} = measure;
 
     let {x, y} = solveAlignment(align, textWidth, textHeight, width, height);
     if (formatting.margin) {
@@ -124,7 +125,7 @@ function resolvePosition(formatting, sections, matrix, data) {
         x = d.x, y = d.y;
     }
 
-    return {x, y, text, font, spacing};
+    return {x, y, text, font, spacing, offset};
 }
 
 function parseFormat(format, data, images, matrix) {
@@ -211,14 +212,14 @@ function render(formatted, matrix) {
             function renderScroll() {
                 matrix.clearRectangle(previousX, previousY, previousWidth, previousHeight);
 
-                let {text, spacing, font, x, y} = data.text();
+                let {text, spacing, font, x, y, offset} = data.text();
                 matrix.drawText(text, font, spacing, x, y);
 
                 let measure = matrix.measureText(text, font, spacing);
                 previousWidth = measure.width;
                 previousHeight = measure.height;
                 previousX = x;
-                previousY = y;
+                previousY = y + offset;
             }
 
             renderScroll();

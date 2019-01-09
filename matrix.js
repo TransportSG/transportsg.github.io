@@ -44,7 +44,9 @@ class LEDMatrix {
 
         let height = chars.map(char => (font[char].data || font[char]).length).sort((a, b) => a - b).reverse()[0];
 
-        return {width: totalWidth, height};
+        let offset = chars.map(char => (font[char].offset || 0)).sort((a, b) => a - b)[0];
+
+        return {width: totalWidth, height, offset};
     }
 
     drawText(text, fontname, fontSpacing, dx, dy) {
