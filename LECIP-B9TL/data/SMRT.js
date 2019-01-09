@@ -66,7 +66,7 @@ EDSData.SMRT = {
             }
         }
     },
-    61: {
+    6101: {
         1: {
             front: {
                 renderType: "standardService",
@@ -87,7 +87,9 @@ EDSData.SMRT = {
                 scrollFont: "Arial-8"
             }
         },
-        2: {
+    },
+    6102: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "61",
@@ -107,7 +109,7 @@ EDSData.SMRT = {
             }
         }
     },
-    67: {
+    6701: {
         1: {
             front: {
                 renderType: "standardService",
@@ -125,7 +127,9 @@ EDSData.SMRT = {
                 scrollFont: "Arial-8"
             }
         },
-        2: {
+    },
+    6702: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "67",
@@ -143,7 +147,7 @@ EDSData.SMRT = {
             }
         }
     },
-    190: {
+    1901: {
         1: {
             front: {
                 renderType: "standardService",
@@ -160,7 +164,9 @@ EDSData.SMRT = {
                 scrollFont: "Arial-8"
             }
         },
-        2: {
+    },
+    1902: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "190",
@@ -205,7 +211,7 @@ EDSData.SMRT = {
             }
         },
     },
-    985: {
+    9851: {
         1: {
             front: {
                 renderType: "standardService",
@@ -225,7 +231,9 @@ EDSData.SMRT = {
                 scrollFont: "Arial-8"
             }
         },
-        2: {
+    },
+    9852: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "985",

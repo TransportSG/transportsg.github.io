@@ -122,7 +122,7 @@ EDSFormats.SBST = {
             },
             text: "$branding",
             font: "$font",
-            spacing: 2
+            spacing: '$spacing'
         }
     }
 }
@@ -134,7 +134,8 @@ EDSData.SBST = {
                 renderType: "brandedSvc",
                 serviceNumber: "1N",
                 branding: "NIGHT  OWL",
-                font: "LECIP-20:12"
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -144,7 +145,8 @@ EDSData.SBST = {
                 renderType: "brandedSvc",
                 serviceNumber: "2N",
                 branding: "NIGHT  OWL",
-                font: "LECIP-20:12"
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -154,7 +156,8 @@ EDSData.SBST = {
                 renderType: "brandedSvc",
                 serviceNumber: "3N",
                 branding: "NIGHT  OWL",
-                font: "LECIP-20:12"
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -182,7 +185,8 @@ EDSData.SBST = {
                 renderType: "brandedSvc",
                 serviceNumber: "4N",
                 branding: "NIGHT  OWL",
-                font: "LECIP-20:12"
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -226,7 +230,8 @@ EDSData.SBST = {
                 renderType: "brandedSvc",
                 serviceNumber: "5N",
                 branding: "NIGHT  OWL",
-                font: "LECIP-20:12"
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -5709,7 +5714,17 @@ EDSData.SBST = {
                 renderType: "brandedSvc",
                 serviceNumber: "660",
                 branding: "CITY DIRECT",
-                font: "LECIP-20:9"
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "660",
+                branding: "CITY DIRECT",
+                font: "LECIP-20:9",
+                spacing: 2
             }
         }
     },
@@ -5717,9 +5732,19 @@ EDSData.SBST = {
         1: {
             front: {
                 renderType: "brandedSvc",
-                serviceNumber: "665",
+                serviceNumber: "660",
                 branding: "CITY DIRECT",
-                font: "LECIP-20:9"
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "660",
+                branding: "CITY DIRECT",
+                font: "LECIP-20:9",
+                spacing: 2
             }
         }
     },
