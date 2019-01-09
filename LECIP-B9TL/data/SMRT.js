@@ -177,6 +177,25 @@ EDSData.SMRT = {
             }
         }
     },
+    979: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "979",
+                destination: "BT PANJANG via",
+                destinationFont: "ArialBold-8",
+                scrolls: [
+                    'PETIR/JELUBU RD',
+                    'WOODLANDS RD',
+                    'CHOA CHU KANG NORTH 5',
+                    'CHOA CHU KANG ST 52/DR',
+                    'CHOA CHU KANG NORTH 7',
+                    'C.C.K CRES (LOOP)'
+                ],
+                scrollFont: "Arial-8"
+            }
+        },
+    },
     985: {
         1: {
             front: {

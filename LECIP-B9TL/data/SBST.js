@@ -2989,8 +2989,8 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "129",
-                destination: "> TAMPINES INT",
-                destinationFont: "LECIP-10",
+                destination: "> TAMPINES CONCOURSE INT",
+                destinationFont: "LECIP-7:5",
                 scrolls: [
                     "BALESTIER RD",
                     "LOR 1 TOA PAYOH",
@@ -3795,11 +3795,14 @@ EDSData.SBST = {
                 destination: "> SHENTON WAY TER",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
-                    'ANG MO KIO AVE 8',
-                    'BISHAN ST 22',
-                    'SIN MING AVE',
-                    'THOMSON RD',
-                    'ORCHARD RD'
+                    "ANG MO KIO AVE 8",
+                    "ANG MO KIO AVE 6",
+                    "BISHAN ST 22",
+                    "SIN MING AVE",
+                    "UPPER THOMSON RD",
+                    "THOMSON RD",
+                    "ORCHARD RD",
+                    "BRAS BASAH RD"
                 ],
                 scrollFont: "LECIP-7:5"
             }
@@ -3811,11 +3814,14 @@ EDSData.SBST = {
                 destination: "> YIO CHU KANG INT",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
-                    'SOMERSET RD',
-                    'THOMSON RD',
-                    'SIN MING AVE',
-                    'BISHAN ST 22',
-                    'ANG MO KIO AVE 8'
+                    "STAMFORD RD",
+                    "ORCHARD TURN",
+                    "THOMSON RD",
+                    "UPPER THOMSON RD",
+                    "SIN MING AVE",
+                    "BISHAN ST 22",
+                    "ANG MO KIO AVE 6",
+                    "ANG MO KIO AVE 8"
                 ],
                 scrollFont: "LECIP-7:5"
             }
@@ -3826,7 +3832,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "162M",
-                destination: "YCK INT-MARINA CTR",
+                destination: "YCK INT-TAMASEK AVE",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
                     'ANG MO KIO AVE 8',
