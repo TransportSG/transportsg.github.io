@@ -514,7 +514,7 @@ let fonts = {
             [1, 1, 1, 1, 1, 1]
         ],
         " ": [
-            [0, 0]
+            [0]
         ],
         ".": [
             [0],
@@ -2102,7 +2102,7 @@ let fonts = {
             [0, 1, 1, 1, 0]
         ],
         " ": [
-            [0, 0]
+            [0, 0, 0]
         ]
     },
     "LECIP-6:3": {
@@ -8117,7 +8117,7 @@ let fontSpacers = {
     "Arial-8": (prev, curr, spacing) => {
         if (prev === 'R' && curr === 'A') return 0;
         if (prev === "P" && curr === "A") return 0;
-        if (prev === "K" && curr === "A") return 0;
+        // if (prev === "K" && curr === "A") return 0;
         if (prev === 'V' && curr === 'W') return 0;
         if (prev === 'Y' && curr === 'O') return 0;
         if (prev === 'T' && curr === 'O') return 0;

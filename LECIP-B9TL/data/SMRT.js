@@ -2,9 +2,6 @@ EDSFormats.SMRT = {
     standardService: {
         serviceNumber: {
             align: "right,centre-y",
-            margin: {
-                right: 3
-            },
             text: "$serviceNumber",
             font: "Arial-17",
             spacing: 2
@@ -13,7 +10,7 @@ EDSFormats.SMRT = {
             align: "centre-x,top",
             margin: {
                 top: 1,
-                right: 'width(serviceNumber) len(3)'
+                right: 'width(serviceNumber)'
             },
             text: "$destination",
             spacing: 1
@@ -22,7 +19,7 @@ EDSFormats.SMRT = {
             align: "centre-x,top",
             margin: {
                 top: 11,
-                right: 'width(serviceNumber) len(3)'
+                right: 'width(serviceNumber)'
             },
             scrolls: "$scrolls",
             rotate: true,
@@ -271,6 +268,38 @@ EDSData.SMRT = {
             }
         }
     },
+    1671: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "167",
+                destination: {
+                    text: "BT MERAH via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    'JLN BT MERAH'
+                ],
+                scrollFont: 'Arial-8'
+            }
+        }
+    },
+    1841: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "184",
+                destination: {
+                    text: "CLEMENTI via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    'BT PANJANG RD'
+                ],
+                scrollFont: 'Arial-8'
+            }
+        }
+    },
     1901: {
         1: {
             front: {
@@ -337,17 +366,17 @@ EDSData.SMRT = {
                 renderType: "standardService",
                 serviceNumber: "900A", // fonts all messed up ????
                 destination: {
-                    text: "WOODLANDS INT via",
+                    text: "WOODLANDS INT",
                     font: "ArialBold-8"
                 },
                 scrolls: [
-                    'WDL AVENUE 7',
-                    'WDL AVENUE 4',
-                    'WDL DRIVE 14',
+                    'WOODLANDS AVE 7',
+                    'WOODLANDS AVE 4',
+                    'WOODLANDS DR 14',
                     // '' ??
                     'INNOVA JC',
-                    'WDL AVENUE 4',
-                    'WDL AVENUE 7'
+                    'WOODLANDS AVE 4',
+                    'WOODLANDS AVE 7'
                 ],
                 scrollFont: 'Arial-8'
             }
@@ -462,11 +491,11 @@ EDSData.SMRT = {
                 renderType: "standardService",
                 serviceNumber: "911T", // wot??
                 destination: {
-                    text: "WOODLANDS INT via",
-                    font: "ArialBold-8"
+                    text: "ENDS AT",
+                    font: "Arial-8"
                 },
                 scrolls: [
-                    'WOODLANDS AVE 7',
+                    'WDL INT / MRT',
                 ],
                 scrollFont: 'Arial-8'
             }
@@ -526,11 +555,11 @@ EDSData.SMRT = {
                 renderType: "standardService",
                 serviceNumber: "912T",
                 destination: {
-                    text: "WOODLANDS INT via",
-                    font: "ArialBold-8"
+                    text: "ENDS AT",
+                    font: "Arial-8"
                 },
                 scrolls: [
-                    'WOODLANDS AVE 5',
+                    'WDL INT / MRT',
                 ],
                 scrollFont: 'Arial-8'
             }
@@ -574,11 +603,27 @@ EDSData.SMRT = {
                 renderType: "standardService",
                 serviceNumber: "913T",
                 destination: {
-                    text: "WOODLANDS INT via",
+                    text: "ENDS AT",
+                    font: "Arial-8"
+                },
+                scrolls: [
+                    'WDL INT / MRT',
+                ],
+                scrollFont: 'Arial-8'
+            }
+        }
+    },
+    9631: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "963",
+                destination: {
+                    text: "HARBOURFRONT via",
                     font: "ArialBold-8"
                 },
                 scrolls: [
-                    'WOODLANDS AVE 7,6',
+                    'ALEXANDRA RD',
                 ],
                 scrollFont: 'Arial-8'
             }
@@ -656,6 +701,39 @@ EDSData.SMRT = {
                     'TECK WHYE AVE'
                 ],
                 scrollFont: "Arial-8"
+            }
+        }
+    },
+    9911: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "991",
+                destination: {
+                    text: "CHOA CHU KANG via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    '',
+                ],
+                scrollFont: 'Arial-8'
+            }
+        }
+    },
+    9912: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "991",
+                destination: {
+                    text: "BUKIT BATOK via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    'CHOA CHU KANG AVE 1,3',
+                    'BT BATOK WEST AVE 6,3'
+                ],
+                scrollFont: 'Arial-8'
             }
         }
     }
