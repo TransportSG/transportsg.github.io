@@ -124,10 +124,38 @@ EDSFormats.SBST = {
             font: "$font",
             spacing: '$spacing'
         }
+    },
+    mrtPrototype: {
+        station: {
+            align: 'centre-x,top',
+            margin: {
+                top: 1
+            },
+            text: '$station',
+            font: 'LECIP-10',
+            spacing: 1
+        },
+        name: {
+            align: 'centre-x,bottom',
+            margin: {
+                bottom: 1
+            },
+            text: 'FREE TRAIN REPLACEMENT',
+            font: 'LECIP-6:4',
+            spacing: 1
+        },
     }
 }
 
 EDSData.SBST = {
+    // "1": {
+    //     1: {
+    //         front: {
+    //             renderType: "mrtPrototype",
+    //             station: "ANG MO KIO"
+    //         }
+    //     }
+    // },
     "1N": {
         1: {
             front: {
