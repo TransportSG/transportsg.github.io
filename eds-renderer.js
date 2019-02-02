@@ -97,16 +97,16 @@ function adjustMargins(x, y, alignments, margins, data, sections, matrix) {
 
         switch(margin) {
             case 'left':
-                x += Math.floor(shift * xmod);
+                x += Math.round(shift * xmod);
                 break;
             case 'right':
-                x -= Math.floor(shift * xmod);
+                x -= Math.round(shift * xmod);
                 break;
             case 'top':
-                y += Math.floor(shift * ymod);
+                y += Math.round(shift * ymod);
                 break;
             case 'bottom':
-                y -= Math.floor(shift * ymod);
+                y -= Math.round(shift * ymod);
                 break;
         }
     });
@@ -118,6 +118,39 @@ function resolvePosition(formatting, sections, matrix, data) {
 
     let align = formatting.align;
     let text = resolveValue(formatting.text, data);
+    let spacing = resolveValue(formatting.spacing, data) * 1;
+
+    if (text instanceof Array) {
+        let measures = text.map(text => matrix.measureText(text.text, text.font, spacing))
+
+        let totalWidth = text.reduce((totalWidth, text, i) => {
+            return totalWidth + measures[i].width + spacing * 1;
+        }, 0);
+        let greatestHeight = text.map(text => matrix.measureText(text.text, text.font, spacing).height).sort((a, b)=>b-a)[0];
+
+        let {x, y} = solveAlignment(align, totalWidth, greatestHeight, width, height);
+
+        if (formatting.margin) {
+            let d = adjustMargins(x, y, align.split(','), formatting.margin, data, sections, matrix);
+
+            x = d.x, y = d.y;
+        }
+
+        return text.map((section, i) => {
+            let fy = Math.round(y + (greatestHeight / 2 - measures[i].height / 2));
+            if (align.includes('bottom')) fy = y + greatestHeight - measures[i].height;
+            if (align.includes('top')) fy = y;
+
+            return {
+                x: x + measures.slice(0, i).reduce((tWidth, measure) => tWidth + measure.width, 0) + spacing * i,
+                y: fy,
+                text: section.text,
+                font: section.font,
+                spacing,
+                offset: measures[i].offset
+            };
+        });
+    }
 
     let font;
     if (text.font) {
@@ -126,7 +159,6 @@ function resolvePosition(formatting, sections, matrix, data) {
     } else
         font = resolveValue(formatting.font, data);
 
-    let spacing = resolveValue(formatting.spacing, data) * 1;
     let measure = matrix.measureText(text, font, spacing);
     let textWidth = measure.width,
         textHeight = measure.height,
@@ -171,7 +203,7 @@ function parseFormat(format, data, images, matrix) {
                     font = text.font;
                     text = text.text;
                 } else
-                    font = scroll.font || formatting.font;
+                    font = formatting.font;
 
                 resolvedScrolls.push(resolvePosition({
                     align: formatting.align,
@@ -223,7 +255,11 @@ function render(formatted, matrix) {
     matrix.clearRectangle(0, 0, matrix.width, matrix.height);
 
     formatted.forEach(data => {
-        if (data.image) {
+        if (data instanceof Array) {
+            data.forEach(section => {
+                matrix.drawText(section.text, section.font, section.spacing, section.x, section.y);
+            });
+        } else if (data.image) {
             matrix.draw2DArray(data.image, data.x, data.y);
         } else if (typeof data.text === 'string')
             matrix.drawText(data.text, data.font, data.spacing, data.x, data.y);
