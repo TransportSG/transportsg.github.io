@@ -158,8 +158,8 @@ function firmware() {
     document.getElementById('keypad-down').addEventListener('click', registerKeyPress.bind(null, 'DOWN'));
     setCode('1111', 1);
 
-    rearEDS.drawText('NOT IN', 'LECIP-7:5', 1, 7, 2);
-    rearEDS.drawText('SERVICE', 'LECIP-7:5', 1, 1, 11);
+    rearEDS.drawText('NOT IN', 'LECIP-6:4', 1, 4, 2);
+    rearEDS.drawText('SERVICE', 'LECIP-6:4', 1, 0, 11);
 
     currentScreen = 'home';
 }

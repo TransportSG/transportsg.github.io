@@ -4,6 +4,11 @@ let EDSFormats = {};
 let EDSData = {};
 let EDSImages = {};
 
+let frontEDSWidth = 144;
+let rearEDSWidth = 32;
+
+let edsHeight = 20;
+
 function generateLEDCssCode() {
     let cssData =
 `
@@ -14,8 +19,8 @@ function generateLEDCssCode() {
     }
 
     #front-eds {
-        width: ${160 * Math.ceil(window.innerWidth * 0.005)}px;
-        grid-template-columns: repeat(160, ${Math.ceil(window.innerWidth * 0.005)}px);
+        width: ${frontEDSWidth * Math.ceil(window.innerWidth * 0.005)}px;
+        grid-template-columns: repeat(${frontEDSWidth}, ${Math.ceil(window.innerWidth * 0.005)}px);
         grid-row-gap: ${Math.ceil(window.innerWidth * 0.0012)}px;
         grid-auto-rows: ${Math.ceil(window.innerWidth * 0.005) - 1}px;
     }
@@ -27,8 +32,8 @@ function generateLEDCssCode() {
     }
 
     #rear-eds {
-        width: ${40 * Math.ceil(window.innerWidth * 0.008)}px;
-        grid-template-columns: repeat(40, ${Math.ceil(window.innerWidth * 0.008)}px);
+        width: ${rearEDSWidth * Math.ceil(window.innerWidth * 0.008)}px;
+        grid-template-columns: repeat(${rearEDSWidth}, ${Math.ceil(window.innerWidth * 0.008)}px);
         grid-row-gap: ${Math.ceil(window.innerWidth * 0.0006)}px;
         grid-auto-rows: ${Math.ceil(window.innerWidth * 0.008)}px;
     }
@@ -40,8 +45,8 @@ function generateLEDCssCode() {
 document.addEventListener('DOMContentLoaded', () => {
     generateLEDCssCode();
 
-    frontEDS = new LEDMatrix(160, 20, document.getElementById('front-eds'));
-    rearEDS = new LEDMatrix(40, 20, document.getElementById('rear-eds'));
+    frontEDS = new LEDMatrix(frontEDSWidth, edsHeight, document.getElementById('front-eds'));
+    rearEDS = new LEDMatrix(rearEDSWidth, edsHeight, document.getElementById('rear-eds'));
 });
 
 window.addEventListener('resize', generateLEDCssCode);
