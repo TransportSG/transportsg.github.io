@@ -33,6 +33,20 @@ EDSFormats.SMRT = {
         },
 
         text: "$destination"
+    },
+
+    pids: {
+        __dynamic__: (matrix) => {
+            matrixPrimitives.setStrokeColour(0x84e76e);
+            matrixPrimitives.strokeRectangle(matrix, 0, 0, 32, 16);
+
+            matrix.drawText('920', 'LECIP-PIDS-7:13', 1, 5, 1, 0xffffff);
+            matrix.drawText('Arr>>', 'LECIP-PIDS-5:13', 2, 4, 17, 0xeae44a);
+            // matrix.drawText('STOP>>', 'LECIP-PIDS-5:13', 1, 1, 17, 0xe35f57);
+
+            matrix.drawText('BT PANJANG INT', 'LECIP-PIDS-5:13', 1, 33, 1, 0xffffff);
+            matrix.drawText('BT PANJANG PLAZA', 'LECIP-PIDS-5:13', 1, 33, 17, 0xffffff);
+        }
     }
 }
 
@@ -56,6 +70,42 @@ EDSData.SMRT = {
                     'BANGKIT RD',
                 ],
                 scrollFont: 'Arial-8'
+            },
+
+            pids: {
+                renderType: "pids",
+                scrolls: [
+                    // "BT PANJANG INT",
+                    // "OPP BT PANJANG PLAZA",
+                    // "BLK 602",
+                    // "WEST VIEW PR SCH",
+                    // "OPP BLK 628",
+                    // "BLK 636A",
+                    // "WEST SPRING SEC SCH",
+                    // "BLK 651",
+                    // "BLK 532",
+                    // "BET BLKS 502/503",
+                    // "BLK 413",
+                    // "BET BLKS 443A/443B",
+                    // "BLK 442D",
+                    // "BANGKIT STN",
+                    // "OPP BLK 271",
+                    // "OPP BLK 253",
+                    // "OPP BANGKIT STN",
+                    // "BLK 239",
+                    // "BLK 401A CP",
+                    // "BLK 408",
+                    // "OPP BLK 502",
+                    // "OPP BLK 532",
+                    // "OPP BLK 650",
+                    // "OPP WEST SPRING SEC SCH",
+                    // "BEF BLK 629A MSCP",
+                    // "BLK 628",
+                    "BLK 610",
+                    "BLK 541A CP",
+                    "BT PANJANG PLAZA",
+                    "BT PANJANG INT"
+                ]
             }
         }
     }

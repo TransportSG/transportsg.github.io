@@ -185,10 +185,18 @@ function parseFormat(format, data, images, matrix) {
 
             return;
         }
+
         console.log(`parsing ${sectionName}`);
 
         let formatting = format[sectionName];
         let solved;
+
+        if (sectionName === '__dynamic__') {
+            output.push({
+                dynamicRenderer: formatting
+            });
+            return;
+        }
 
         if (formatting.rotate) {
             let scrolls = resolveValue(formatting.scrolls, data);
@@ -288,6 +296,8 @@ function render(formatted, matrix) {
 
             renderScroll();
             scrollIntervals.push(setInterval(renderScroll, data.rotateSpeed));
+        } else if (data.dynamicRenderer) {
+            data.dynamicRenderer(matrix);
         }
     });
 }

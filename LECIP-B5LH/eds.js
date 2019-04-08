@@ -49,18 +49,12 @@ document.addEventListener('DOMContentLoaded', () => {
     internalPIDS = new LEDMatrix(internalPIDSWidth, internalPIDSHeight, document.getElementById('internal-pids'));
 
     let frontDisplay = EDSData.SMRT[9201][1].front;
-    let parsed = parseFormat(EDSFormats.SMRT[frontDisplay.renderType], frontDisplay, EDSImages.SMRT, frontEDS);
-    render(parsed, frontEDS);
+    let parsedFront = parseFormat(EDSFormats.SMRT[frontDisplay.renderType], frontDisplay, EDSImages.SMRT, frontEDS);
+    render(parsedFront, frontEDS);
 
-    matrixPrimitives.setStrokeColour(0x84e76e);
-    matrixPrimitives.strokeRectangle(internalPIDS, 0, 0, 32, 16);
-
-    internalPIDS.drawText('920', 'LECIP-PIDS-7:13', 1, 5, 1, 0xffffff);
-    internalPIDS.drawText('Arr>>', 'LECIP-PIDS-5:13', 2, 4, 17, 0xeae44a);
-    // internalPIDS.drawText('STOP>>', 'LECIP-PIDS-5:13', 1, 1, 17, 0xe35f57);
-
-    internalPIDS.drawText('BT PANJANG INT', 'LECIP-PIDS-5:13', 1, 33, 1, 0xffffff);
-    internalPIDS.drawText('BT PANJANG PLAZA', 'LECIP-PIDS-5:13', 1, 33, 17, 0xffffff);
+    let pidsDisplay = EDSData.SMRT[9201][1].pids;
+    let parsedPIDS = parseFormat(EDSFormats.SMRT[pidsDisplay.renderType], pidsDisplay, EDSImages.SMRT, internalPIDS);
+    render(parsedPIDS, internalPIDS);
 });
 
 window.addEventListener('resize', generateLEDCssCode);
