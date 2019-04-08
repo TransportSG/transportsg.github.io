@@ -3,6 +3,7 @@ class LEDMatrix {
     constructor(width, height, container) {
         this.width = width;
         this.height = height;
+        this.scrollIntervals = [];
         this.matrix = new DOMBasedLEDMatrix(width, height, leds => {
             leds.forEach(led => {
                 container.appendChild(led);

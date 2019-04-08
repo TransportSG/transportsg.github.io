@@ -36,16 +36,39 @@ EDSFormats.SMRT = {
     },
 
     pids: {
-        __dynamic__: (matrix) => {
-            matrixPrimitives.setStrokeColour(0x84e76e);
-            matrixPrimitives.strokeRectangle(matrix, 0, 0, 32, 16);
+        __dynamic__: (matrix, data) => {
+            function paint() {
+                matrix.inverted = !matrix.inverted;
+                matrix.clearRectangle(0, 0, matrix.width, matrix.height);
+                matrix.inverted = !matrix.inverted;
 
-            matrix.drawText('920', 'LECIP-PIDS-7:13', 1, 5, 1, 0xffffff);
-            matrix.drawText('Arr>>', 'LECIP-PIDS-5:13', 2, 4, 17, 0xeae44a);
-            // matrix.drawText('STOP>>', 'LECIP-PIDS-5:13', 1, 1, 17, 0xe35f57);
+                matrixPrimitives.setStrokeColour(0x84e76e);
+                matrixPrimitives.strokeRectangle(matrix, 0, 0, 32, 16);
 
-            matrix.drawText('BT PANJANG INT', 'LECIP-PIDS-5:13', 1, 33, 1, 0xffffff);
-            matrix.drawText('BT PANJANG PLAZA', 'LECIP-PIDS-5:13', 1, 33, 17, 0xffffff);
+                matrix.drawText(data.serviceNumber, 'LECIP-PIDS-7:13', 1, 5, 1, 0xffffff);
+
+                matrix.drawText(data.destination, 'LECIP-PIDS-5:13', 1, 33, 1, 0xffffff);
+                let currentScroll = Math.floor(scrollNum / 3);
+                matrix.drawText(data.scrolls[currentScroll], 'LECIP-PIDS-5:13', 1, 33, 17, 0xffffff);
+
+                let bottomRowNum = scrollNum % 3;
+
+                if (bottomRowNum == 0)
+                    matrix.drawText('NEXT>>', 'LECIP-PIDS-5:13', 1, 1, 17, 0xffffff);
+                else if (bottomRowNum == 1)
+                    matrix.drawText('STOP>>', 'LECIP-PIDS-5:13', 1, 1, 17, 0xe35f57);
+                else if (bottomRowNum == 2)
+                    matrix.drawText('Arr>>', 'LECIP-PIDS-5:13', 2, 4, 17, 0xeae44a);
+
+                scrollNum++;
+                if (scrollNum >= data.scrolls.length * 3)
+                    scrollNum = 0;
+            }
+
+            let scrollNum = 0;
+            setInterval(paint, 2000);
+
+            paint();
         }
     }
 }
@@ -74,6 +97,8 @@ EDSData.SMRT = {
 
             pids: {
                 renderType: "pids",
+                serviceNumber: "920",
+                destination: "BT PANJANG INT",
                 scrolls: [
                     // "BT PANJANG INT",
                     // "OPP BT PANJANG PLAZA",

@@ -193,7 +193,8 @@ function parseFormat(format, data, images, matrix) {
 
         if (sectionName === '__dynamic__') {
             output.push({
-                dynamicRenderer: formatting
+                dynamicRenderer: formatting,
+                data
             });
             return;
         }
@@ -256,10 +257,10 @@ function parseFormat(format, data, images, matrix) {
     return output;
 }
 
-let scrollIntervals = [];
 function render(formatted, matrix) {
-    scrollIntervals.forEach(i => clearInterval(i));
-    scrollIntervals = [];
+    matrix.scrollIntervals.forEach(i => clearInterval(i));
+    matrix.scrollIntervals = [];
+
     matrix.inverted = !matrix.inverted;
     matrix.clearRectangle(0, 0, matrix.width, matrix.height);
     matrix.inverted = !matrix.inverted;
@@ -295,9 +296,9 @@ function render(formatted, matrix) {
             }
 
             renderScroll();
-            scrollIntervals.push(setInterval(renderScroll, data.rotateSpeed));
+            matrix.scrollIntervals.push(setInterval(renderScroll, data.rotateSpeed));
         } else if (data.dynamicRenderer) {
-            data.dynamicRenderer(matrix);
+            data.dynamicRenderer(matrix, data.data);
         }
     });
 }
