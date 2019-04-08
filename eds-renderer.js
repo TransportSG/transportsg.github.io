@@ -199,9 +199,9 @@ function parseFormat(format, data, images, matrix) {
                 let text = scroll.text || scroll;
 
                 let font;
-                if (text.font) {
-                    font = text.font;
-                    text = text.text;
+                if (scroll.font) {
+                    font = scroll.font;
+                    text = scroll.text;
                 } else
                     font = formatting.font;
 

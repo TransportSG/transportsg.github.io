@@ -123,7 +123,7 @@ EDSData.SMRT = {
         1: {
             front: {
                 renderType: 'message',
-                text: 'OFF SERVICE',
+                text: 'OFF SERVICE', // OOS code but need to trace fonts
                 font: 'Arial-17',
                 spacing: 2
             }
@@ -608,6 +608,28 @@ EDSData.SMRT = {
                 },
                 scrolls: [
                     'WDL INT / MRT',
+                ],
+                scrollFont: 'Arial-8'
+            }
+        }
+    },
+    9201: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "920",
+                destination: {
+                    text: "BT PANJANG via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    'PETIR / JELUBU RD',
+                    'SENJA RD / LINK',
+                    'JELAPANG RD',
+                    'SAUJANA RD',
+                    'FAJAR RD',
+                    'BT PANJANG RING RD',
+                    'BANGKIT RD',
                 ],
                 scrollFont: 'Arial-8'
             }
