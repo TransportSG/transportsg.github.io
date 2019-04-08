@@ -252,7 +252,9 @@ let scrollIntervals = [];
 function render(formatted, matrix) {
     scrollIntervals.forEach(i => clearInterval(i));
     scrollIntervals = [];
+    matrix.inverted = !matrix.inverted;
     matrix.clearRectangle(0, 0, matrix.width, matrix.height);
+    matrix.inverted = !matrix.inverted;
 
     formatted.forEach(data => {
         if (data instanceof Array) {
@@ -270,7 +272,9 @@ function render(formatted, matrix) {
             let previousY = 0;
 
             function renderScroll() {
+                matrix.inverted = !matrix.inverted;
                 matrix.clearRectangle(previousX, previousY, previousWidth, previousHeight);
+                matrix.inverted = !matrix.inverted;
 
                 let {text, spacing, font, x, y, offset} = data.text();
                 matrix.drawText(text, font, spacing, x, y);
