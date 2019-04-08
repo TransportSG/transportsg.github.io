@@ -36,8 +36,6 @@ function generateLEDCssCode() {
     #internal-pids {
         width: ${internalPIDSWidth * Math.ceil(window.innerWidth * 0.005)}px;
         grid-template-columns: repeat(${internalPIDSWidth}, ${Math.ceil(window.innerWidth * 0.005)}px);
-        grid-row-gap: ${Math.ceil(window.innerWidth * 0.001)}px;
-        grid-auto-rows: ${Math.ceil(window.innerWidth * 0.005) - 1}px;
     }
 `;
 
@@ -70,9 +68,8 @@ document.addEventListener('DOMContentLoaded', () => {
     internalPIDS.drawText('920', 'LECIP-7:5', 1, 50, 2, 0xffffff);
     internalPIDS.drawText('BT PANJANG INT', 'LECIP-7:5', 1, 88, 2, 0xff0000);
     internalPIDS.inverted = true;
-    internalPIDS.drawText('123', 'Hanover-19:12', 1, 102, 12, 0xabcdef);
+    internalPIDS.drawText('OFF SERVICE', 'Hanover-19:11', 2, 91, 12, 0xabcdef);
     internalPIDS.inverted = false;
-    internalPIDS.drawText('111', 'LAWO-9', 1, 9, 3, 0xcafe00);
 });
 
 window.addEventListener('resize', generateLEDCssCode);
