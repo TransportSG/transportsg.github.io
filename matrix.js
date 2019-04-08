@@ -139,7 +139,7 @@ class DOMBasedLEDMatrix {
         let className = state ? 'led led-on' : 'led led-off';
         if (state && colour) {
             className += '-coloured';
-            pixel.style.backgroundColor = '#' + colour.toString('16');
+            pixel.style.backgroundColor = (typeof colour == 'number' ? '#' : '') + colour.toString('16');
         }
         pixel.className = className;
     }

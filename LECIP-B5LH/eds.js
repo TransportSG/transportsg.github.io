@@ -55,12 +55,24 @@ document.addEventListener('DOMContentLoaded', () => {
     frontEDS.drawText('YOUR HOUSE', 'Arial-8', 1, 40, 14);
 
 
+    matrixPrimitives.setStrokeColour(0xff00ff);
+    matrixPrimitives.strokeRectangle(internalPIDS, 0, 0, 32, 16);
+
+    matrixPrimitives.setFillColour(0x11ffff);
+    matrixPrimitives.fillRectangle(internalPIDS, 100, 0, 32, 16);
+
+    matrixPrimitives.setStrokeColour(0xffffff);
+    matrixPrimitives.strokeCircle(internalPIDS, 50, 15, 9);
+
+    matrixPrimitives.setFillColour(0x23bc40);
+    matrixPrimitives.fillCircle(internalPIDS, 80, 15, 9);
+
     internalPIDS.drawText('920', 'LECIP-7:5', 1, 50, 2, 0xffffff);
-    internalPIDS.drawText('BT PANJANG INT', 'LECIP-7:5', 1, 80, 2, 0xff0000);
+    internalPIDS.drawText('BT PANJANG INT', 'LECIP-7:5', 1, 88, 2, 0xff0000);
     internalPIDS.inverted = true;
-    internalPIDS.drawText('174', 'LAWO-26:14', 1, 0, 3, 0xcafe00);
+    internalPIDS.drawText('123', 'Hanover-19:12', 1, 102, 12, 0xabcdef);
     internalPIDS.inverted = false;
-    internalPIDS.drawText('0123456789', 'Hanover-19:12', 1, 41, 12, 0xabcdef);
+    internalPIDS.drawText('111', 'LAWO-9', 1, 9, 3, 0xcafe00);
 });
 
 window.addEventListener('resize', generateLEDCssCode);
