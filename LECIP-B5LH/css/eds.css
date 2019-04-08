@@ -7,7 +7,7 @@
 
 #front-eds-container {
     width: 100vw;
-    height: 100vh;
+    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,17 +23,21 @@
     padding: 2vw;
 }
 
-#rear-eds-container {
-    width: calc(50vw * 0.9);
+#internal-pids {
+    display: grid;
+    background-color: #202020;
+
+    padding: 2vw;
+}
+
+#internal-pids-container {
+    width: 100vw;
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
 
     background-color: #010101;
-}
-
-#top-row {
-    display: flex;
 }
 
 .led-cell {

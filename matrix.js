@@ -8,6 +8,8 @@ class LEDMatrix {
                 container.appendChild(led);
             });
         });
+
+        this.inverted = false;
     }
 
     determineDistance(prevChar, currChar, fontname, fontSpacing) {
@@ -49,12 +51,14 @@ class LEDMatrix {
         return {width: totalWidth, height, offset};
     }
 
-    drawText(text, fontname, fontSpacing, dx, dy) {
+    drawText(text, fontname, fontSpacing, dx, dy, colour) {
         let font = fonts[fontname];
         let chars = [...text];
         let measure = this.measureText(text, fontname, fontSpacing);
         let {width, height} = measure;
-        this.clearRectangle(dx, dy, width, height);
+        this.inverted = !this.inverted;
+        this.clearRectangle(dx, dy, width, height, colour);
+        this.inverted = !this.inverted;
 
         let x = dx;
 
@@ -65,27 +69,26 @@ class LEDMatrix {
 
             x += spacing;
             if (font[char].offset)
-                this.draw2DArray(font[char].data, x, dy + font[char].offset);
+                this.draw2DArray(font[char].data, x, dy + font[char].offset, colour);
             else
-                this.draw2DArray(font[char], x, dy);
+                this.draw2DArray(font[char], x, dy, colour);
 
             x += (font[char].data || font[char])[0].length;
         });
     }
 
-    draw2DArray(array, x, y) {
+    draw2DArray(array, x, y, colour) {
         array.forEach((row, dy) => {
             row.forEach((led, dx) => {
-                if (led)
-                    this.matrix.setLEDState(x + dx, y + dy, led);
+                this.matrix.setLEDState(x + dx, y + dy, !!(led ^ this.inverted), colour);
             });
         });
     }
 
-    clearRectangle(x, y, w, h) {
+    clearRectangle(x, y, w, h, colour) {
         for (let dx = 0; dx < w; dx++) {
             for (let dy = 0; dy < h; dy++) {
-                this.matrix.setLEDState(x + dx, y + dy, false);
+                this.matrix.setLEDState(x + dx, y + dy, !this.inverted, colour);
             }
         }
     }
@@ -126,15 +129,24 @@ class DOMBasedLEDMatrix {
         return { x: n % width, y: Math.floor(n / width) };
     }
 
-    setLEDState(x, y, state) {
+    setLEDState(x, y, state, colour) {
         if (x >= this.width || x < 0 || y >= this.height || y < 0) return;
+        let pixel = this.leds[DOMBasedLEDMatrix.twodimToFlat(x, y, this.width)];
+        if (!state && pixel.className.includes('-coloured')) {
+            pixel.style.backgroundColor = null;
+        }
+
         let className = state ? 'led led-on' : 'led led-off';
-        this.leds[DOMBasedLEDMatrix.twodimToFlat(x, y, this.width)].className = className;
+        if (state && colour) {
+            className += '-coloured';
+            pixel.style.backgroundColor = '#' + colour.toString('16');
+        }
+        pixel.className = className;
     }
 
     getLEDState(x, y) {
         if (x >= this.width || x < 0 || y >= this.height || y < 0) return false;
-        return this.leds[DOMBasedLEDMatrix.twodimToFlat(x, y, this.width)].className === 'led led-on';
+        return this.leds[DOMBasedLEDMatrix.twodimToFlat(x, y, this.width)].className.includes('led led-on');
     }
 
 }
