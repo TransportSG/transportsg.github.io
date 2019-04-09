@@ -137,12 +137,28 @@ EDSFormats.SMRT = {
 }
 
 EDSData.SMRT = {
+    1: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "CHARTERED",
+                font: "Arial-12",
+                spacing: 2
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "",
+                destination: "CHARTERED",
+                scrolls: [""]
+            }
+        }
+    },
     2: {
         1: {
             front: {
-                renderType: 'message',
-                text: 'ANG MO KIO DEPOT',
-                font: 'Arial-12',
+                renderType: "message",
+                text: "ANG MO KIO DEPOT",
+                font: "Arial-12",
                 spacing: 2
             },
             pids: {
@@ -156,15 +172,31 @@ EDSData.SMRT = {
     3: {
         1: {
             front: {
-                renderType: 'message',
-                text: 'KRANJI DEPOT',
-                font: 'Arial-12',
+                renderType: "message",
+                text: "KRANJI DEPOT",
+                font: "Arial-12",
                 spacing: 2
             },
             pids: {
                 renderType: "pids",
                 serviceNumber: "",
                 destination: "KRANJI DEPOT",
+                scrolls: [""]
+            }
+        }
+    },
+    4: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "SMRT BUSES",
+                font: "Arial-12",
+                spacing: 2
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "",
+                destination: "SMRT BUSES",
                 scrolls: [""]
             }
         }
@@ -205,14 +237,14 @@ EDSData.SMRT = {
         1: {
             front: {
                 renderType: "message",
-                text: "OFF SERVICE", // Might be OOS
+                text: "OUT OF SERVICE",
                 font: "Arial-12",
                 spacing: 2
             },
             pids: {
                 renderType: "pids",
                 serviceNumber: "",
-                destination: "OFF SERVICE",
+                destination: "OUT OF SERVICE",
                 scrolls: [""]
             }
         }
@@ -229,6 +261,70 @@ EDSData.SMRT = {
                 renderType: "pids",
                 serviceNumber: "",
                 destination: "OFF SERVICE",
+                scrolls: [""]
+            }
+        }
+    },
+    9: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "ON DRIVING TEST",
+                font: "Arial-12",
+                spacing: 2
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "",
+                destination: "ON DRIVING TEST",
+                scrolls: [""]
+            }
+        }
+    },
+    10: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "FERRY SERVICE",
+                font: "Arial-12",
+                spacing: 2
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "",
+                destination: "FERRY SERVICE",
+                scrolls: [""]
+            }
+        }
+    },
+    11: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "MRT SHUTTLE",
+                font: "Arial-12",
+                spacing: 2
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "",
+                destination: "MRT SHUTTLE",
+                scrolls: [""]
+            }
+        }
+    },
+    13: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "TRAINING BUS",
+                font: "Arial-12",
+                spacing: 2
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "",
+                destination: "TRAINING BUS",
                 scrolls: [""]
             }
         }
@@ -523,14 +619,14 @@ EDSData.SMRT = {
                     font: "ArialBold-8"
                 },
                 scrolls: [
-                    'TECK WHYE AVE',
-                    'B. B WEST AVE 7, 4',
-                    'B. B WEST AVE 2',
-                    'B. B EAST AVE 2',
-                    'JLN JURONG KECHIL',
-                    'JLN TOA PAYOH',
-                    'BENDEMEER ROAD',
-                    'KALLANG MRT'
+                    "TECK WHYE AVE",
+                    "B. B WEST AVE 7, 4",
+                    "B. B WEST AVE 2",
+                    "B. B EAST AVE 2",
+                    "JLN JURONG KECHIL",
+                    "JLN TOA PAYOH",
+                    "BENDEMEER ROAD",
+                    "KALLANG MRT"
                 ],
                 scrollFont: "Arial-8"
             },
@@ -540,7 +636,7 @@ EDSData.SMRT = {
                 destination: "GEYLANG LOR 1 TER",
                 scrolls: [
                     "CHOA CHU KANG INT",
-                    // "LOT 1 SHOPPERS' MALL", // check '
+                    // "LOT 1 SHOPPERS" MALL", // check "
                     "OPP BLK 210",
                     "CCK POLYCLINIC",
                     "BLK 6",
@@ -571,7 +667,7 @@ EDSData.SMRT = {
                     "OLD POLICE ACADEMY",
                     "TRELLIS TWRS",
                     "AFT BLK 195",
-                    // "ST. ANDREW'S VILLAGE", // check . + '
+                    // "ST. ANDREW"S VILLAGE", // check . + "
                     "MOM SVCS CTR",
                     "BLK 54",
                     "BLK 44",
@@ -593,13 +689,13 @@ EDSData.SMRT = {
                     font: "ArialBold-8"
                 },
                 scrolls: [
-                    'SERANGOON ROAD',
-                    'JLN TOA PAYOH',
-                    'JLN JURONG KECHIL',
-                    'B. B EAST AVE 2',
-                    'B. B WEST AVE 2, 4',
-                    'B. B WEST AVE 7',
-                    'TECK WHYE AVE'
+                    "SERANGOON ROAD",
+                    "JLN TOA PAYOH",
+                    "JLN JURONG KECHIL",
+                    "B. B EAST AVE 2",
+                    "B. B WEST AVE 2, 4",
+                    "B. B WEST AVE 7",
+                    "TECK WHYE AVE"
                 ],
                 scrollFont: "Arial-8"
             },
@@ -614,9 +710,9 @@ EDSData.SMRT = {
                     "BLK 7",
                     "BOON KENG STN/BLK 102",
                     "OPP BENDEMEER PR SCH",
-                    // "ST. MICHAEL'S PL",
+                    // "ST. MICHAEL"S PL",
                     "AFT MOONSTONE LANE",
-                    // "OPP ST. ANDREW'S VILLAGE",
+                    // "OPP ST. ANDREW"S VILLAGE",
                     "OPP BLK 195",
                     "OPP TRELLIS TWRS",
                     "CATHOLIC JC",

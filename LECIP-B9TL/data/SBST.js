@@ -642,11 +642,13 @@ EDSData.SBST = {
                 destination: "> PASIR RIS INT",
                 destinationFont: "LECIP-10",
                 scrolls: [
+                    "BALESTIER RD",
                     "MOULMEIN RD",
-                    'BOON KENG RD',
                     'SIMS AVE',
+                    'BOON KENG RD',
                     'BEDOK RESERVIOR RD',
-                    'TAMPINES AVE 7'
+                    'TAMPINES AVE 7',
+                    "PASIR RIS DR 1"
                 ],
                 scrollFont: "LECIP-7:5"
             }
@@ -2947,7 +2949,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "125",
-                destination: "> SIMS DRIVE",
+                destination: "> SIMS DR",
                 destinationFont: "LECIP-10",
                 scrolls: [
                     'BALESTIER RD',
