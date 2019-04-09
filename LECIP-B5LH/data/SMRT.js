@@ -81,7 +81,10 @@ EDSFormats.SMRT = {
                 }
                 matrix.drawText(destination, 'LECIP-PIDS-5:13', 1, 33, 1, 0xffffff);
 
-                let scrollWidth = matrix.measureText(data.scrolls[currentScroll], 'LECIP-PIDS-5:13', 1).width;
+                // Possibly make scrolls query TSG site? Not great for offline use tho
+                let measure = matrix.measureText(data.scrolls[currentScroll], 'LECIP-PIDS-5:13', 1);
+                let scrollWidth = measure.width,
+                    scrollHeight = measure.height;
 
                 if (scrollWidth > matrix.width - 34) { // scrolling text
                     hold = true;
@@ -96,11 +99,14 @@ EDSFormats.SMRT = {
                             hold = false;
                             return;
                         }
-                        matrix.clearRectangle(0, 17, matrix.width, matrix.height - 17);
+                        matrix.clearRectangle(0, 17 + (13 - scrollHeight), matrix.width, 17 + scrollHeight);
 
                         matrix.drawText(data.scrolls[currentScroll], 'LECIP-PIDS-5:13', 1, matrix.width - frameNum, 17, 0xffffff);
-                        matrix.clearRectangle(0, 17, 33, matrix.height - 17);
+                        matrix.clearRectangle(0, 17 + (13 - scrollHeight), 33, 17 + scrollHeight);
                         drawNextStop();
+
+                        matrixPrimitives.setStrokeColour(0x84e76e);
+                        matrixPrimitives.strokeRectangle(matrix, 0, 0, 32, 16);
 
                         frameNum++;
                     }, timeBetweenFrames);
@@ -113,7 +119,7 @@ EDSFormats.SMRT = {
             }
 
             let scrollNum = 0;
-            setInterval(paint, 5000);
+            setInterval(paint, 1000);
 
             paint();
         }
@@ -145,7 +151,85 @@ EDSData.SMRT = {
                 serviceNumber: "67", // punk or smth
                 destination: "TAMPINES INT",
                 scrolls: [
-                    "CHOA CHU KANG INT"
+                    "CHOA CHU KANG INT",
+                    "BLK 352",
+                    "BLK 224",
+                    "BLK 239",
+                    "BLK 113",
+                    "BLK 26",
+                    "PHOENIX STN",
+                    "BT PANJANG STN EXIT A/LRT",
+                    "THE LINEAR",
+                    "BEF HAZEL PK TERR",
+                    "CASHEW STN",
+                    "ASSUMPTION PATHWAY SCH",
+                    "AFT ASSUMPTION ENG SCH",
+                    "HILLVIEW STN EXIT A",
+                    "THE RAIL MALL",
+                    "OPP HUME PK CONDO",
+                    "OPP THE HILLSIDE",
+                    "AFT BT TIMAH FIRE STN",
+                    "SOUTHAVEN II",
+                    "OPP BEAUTY WORLD CTR",
+                    "OPP BT TIMAH PLAZA",
+                    "OPP KING ALBERT PK STN",
+                    "HUA GUAN GDNS",
+                    "OPP THE NEXUS",
+                    "AFT SWISS CLUB RD",
+                    "OPP SIXTH AVE STN",
+                    "AFT JLN NAGA SARI",
+                    "NATL JC",
+                    "OPP TAN KAH KEE STN",
+                    "OPP CORONATION PLAZA",
+                    "OPP BOTANIC GDNS STN",
+                    "AFT KHEAM HOCK RD",
+                    "AFT DUNKIRK AVE",
+                    "OPP STEVENS STN",
+                    "SCGS PR",
+                    "BEF GOLDHILL AVE",
+                    "ANGLO-CHINESE SCH",
+                    "CHANCERY CT",
+                    "OPP NEWTON STN EXIT C",
+                    "OPP NEWTON FC",
+                    "AFT MAKEPEACE RD",
+                    // "KK WOMEN & CHILD HOSP",
+                    "LITTLE INDIA STN",
+                    "TEKKA CTR",
+                    "BROADWAY HOTEL",
+                    "AFT FARRER PK STN EXIT G",
+                    "AFT KEMPAS RD",
+                    "OPP ARC 380",
+                    "AFT KALLANG BAHRU",
+                    "BEF KALLANG RD",
+                    "AFT PADANG JERINGAU",
+                    "KALLANG STN",
+                    "AFT LOR 1 GEYLANG",
+                    "YI XIU FTY BLDG",
+                    "BEF LOR 23 GEYLANG",
+                    "AFT ALJUNIED STN",
+                    "BLK 134",
+                    "SIMS VILLE",
+                    "AFT TG KATONG CPLX",
+                    "BLK 416",
+                    "EUNOS STN/ INT",
+                    "CASA SARINA",
+                    "OPP HONG SAN SI TP",
+                    "KEMBANGAN STN",
+                    "OPP PERPETUAL SUCCOUR CH",
+                    "CHAI CHEE IND PK",
+                    "BLK 32",
+                    "BEDOK STN EXIT B",
+                    "BLK 221A",
+                    "BLK 220 CP",
+                    "BLK 403",
+                    "BLK 506",
+                    "BEDOK RESVR STN EXIT A",
+                    "OPP THE CLEARWATER CONDO",
+                    "OPP BEDOK REFORM TRG CTR",
+                    "TAMPINES WEST STN EXIT B",
+                    "BLK 938",
+                    "OUR TAMPINES HUB",
+                    "TAMPINES INT"
                 ]
             }
         },
@@ -174,7 +258,88 @@ EDSData.SMRT = {
                 serviceNumber: "67", // punk or smth
                 destination: "CHOA CHU KANG INT",
                 scrolls: [
-                    "TAMPINES INT"
+                    "TAMPINES INT",
+                    "OPP OUR TAMPINES HUB",
+                    "BLK 147",
+                    "BEF TAMPINES WEST STN",
+                    "BEDOK REFORM TRG CTR",
+                    "THE CLEARWATER CONDO",
+                    "BEDOK RESVR STN EXIT B",
+                    "BLK 109",
+                    "BET BLKS 139/140",
+                    "OPP BLK 220 CP",
+                    "BLK 27",
+                    "BEDOK STN EXIT A",
+                    "OPP BLK 32",
+                    "OPP CHAI CHEE IND PK",
+                    "AFT PERPETUAL SUCCOUR CH",
+                    "BEF SIGLAP PLAIN",
+                    "MJD KASSIM",
+                    "BEF LOR 110 CHANGI",
+                    "AFT KG EUNOS",
+                    "AFT LOR 106 CHANGI",
+                    "JOO CHIAT CPLX",
+                    "BLK 14 MKT/FC",
+                    "CITY PLAZA",
+                    "OPP LOR 39 GEYLANG",
+                    "AFT LOR 34 GEYLANG",
+                    "AFT LOR 28 GEYLANG",
+                    "BEF LOR 18 GEYLANG",
+                    "OPP MOHD SALLEH MQUE",
+                    "AFT SIMS WAY",
+                    "OPP LOR 1 GEYLANG TER",
+                    "BEF KG BUGIS",
+                    "AFT KALLANG RD",
+                    "BEF KALLANG BAHRU",
+                    "ARC 380",
+                    "HOA NAM BLDG",
+                    "AFT ALLENBY RD",
+                    "OPP VEERASAMY RD",
+                    "ROCHOR STN",
+                    "LITTLE INDIA STN EXIT A",
+                    "OPP KK WOMEN & CHILD HOSP",
+                    "NEWTON FC",
+                    "NEWTON STN EXIT C",
+                    "BALMORAL PLAZA",
+                    "CITY TWRS",
+                    "LENG KWANG BAPTIST CH",
+                    "STEVENS STN",
+                    "BEF LEWIS RD",
+                    "NUS BT TIMAH CAMPUS",
+                    "BOTANIC GDNS STN",
+                    "BEF CROWN CTR",
+                    "CORONATION PLAZA",
+                    "TAN KAH KEE STN",
+                    "CHINESE HIGH SCH",
+                    "OPP NATL JC",
+                    "SIXTH AVE STN",
+                    "SIXTH AVE CTR",
+                    "AFT MAPLE AVE",
+                    "THE TESSARINA",
+                    "THE NEXUS",
+                    "KING ALBERT PK STN",
+                    "KING ALBERT PK",
+                    "PEI HWA PRESBY PR SCH",
+                    "BEAUTY WORLD STN EXIT B",
+                    "WOH HUP BLDG",
+                    "BT REGENCY",
+                    "AFT OLD JURONG RD",
+                    "HUME PK CONDO",
+                    "OPP THE RAIL MALL",
+                    "HILLVIEW STN",
+                    "OPP DAIRY FARM RD",
+                    "OPP ASSUMPTION ENG SCH",
+                    "BEF CASHEW STN",
+                    "MIN OF DEFENCE",
+                    "OPP THE LINEAR",
+                    "BT PANJANG STN EXIT B",
+                    "OPP PHOENIX STN",
+                    "OPP BLK 26",
+                    "OPP BLK 113",
+                    "OPP BLKS 237/239",
+                    "BLK 277",
+                    "BLK 414",
+                    "CHOA CHU KANG INT"
                 ]
             }
         }
