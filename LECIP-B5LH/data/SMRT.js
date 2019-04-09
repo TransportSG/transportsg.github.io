@@ -470,7 +470,6 @@ EDSData.SMRT = {
                 ],
                 scrollFont: "Arial-8"
             },
-
             pids: {
                 renderType: "pids",
                 serviceNumber: "920",
@@ -513,5 +512,144 @@ EDSData.SMRT = {
                 ]
             }
         }
-    }
+    },
+    9851: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "985",
+                destination: {
+                    text: "GEYLANG LOR 1 via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    'TECK WHYE AVE',
+                    'B. B WEST AVE 7, 4',
+                    'B. B WEST AVE 2',
+                    'B. B EAST AVE 2',
+                    'JLN JURONG KECHIL',
+                    'JLN TOA PAYOH',
+                    'BENDEMEER ROAD',
+                    'KALLANG MRT'
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "985",
+                destination: "GEYLANG LOR 1 TER",
+                scrolls: [
+                    "CHOA CHU KANG INT",
+                    // "LOT 1 SHOPPERS' MALL", // check '
+                    "OPP BLK 210",
+                    "CCK POLYCLINIC",
+                    "BLK 6",
+                    "BLK 157",
+                    "OPP BLK 26",
+                    "BT BATOK FIRE STN",
+                    "BEF BT BATOK WEST AVE 5",
+                    "OPP BT BATOK DRIVING CTR",
+                    "OPP HOMETEAMNS",
+                    "BLK 334",
+                    "BLK 331",
+                    "BLK 315",
+                    "BLK 306",
+                    "AFT BT BATOK WEST AVE 5",
+                    "OPP BLK 628",
+                    "BLK 503",
+                    "OPP BLK 242",
+                    "OPP BLK 258",
+                    "OPP BLK 266",
+                    "AUTOBACS",
+                    "AFT BT BATOK EAST AVE 6",
+                    "THE HILLFORD",
+                    "AFT CHUN TIN RD",
+                    "OPP BLK 19",
+                    "OPP BEAUTY WORLD STN",
+                    // "GOH & GOH BLDG", // check &
+                    "OPP CATHOLIC JC",
+                    "OLD POLICE ACADEMY",
+                    "TRELLIS TWRS",
+                    "AFT BLK 195",
+                    // "ST. ANDREW'S VILLAGE", // check . + '
+                    "MOM SVCS CTR",
+                    "BLK 54",
+                    "BLK 44",
+                    "OPP BOON KENG STN",
+                    "BEF KALLANG PL",
+                    "OPP KALLANG STN/BLK 2C",
+                    "LOR 1 GEYLANG TER"
+                ]
+            }
+        },
+    },
+    9852: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "985",
+                destination: {
+                    text: "CHOA CHU KANG via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    'SERANGOON ROAD',
+                    'JLN TOA PAYOH',
+                    'JLN JURONG KECHIL',
+                    'B. B EAST AVE 2',
+                    'B. B WEST AVE 2, 4',
+                    'B. B WEST AVE 7',
+                    'TECK WHYE AVE'
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "985",
+                destination: "CHOA CHU KANG INT",
+                scrolls: [
+                    "LOR 1 GEYLANG TER",
+                    "KALLANG STN/OPP BLK 2C",
+                    "OPP KALLANG PL",
+                    "BLK 7",
+                    "BOON KENG STN/BLK 102",
+                    "OPP BENDEMEER PR SCH",
+                    // "ST. MICHAEL'S PL",
+                    "AFT MOONSTONE LANE",
+                    // "OPP ST. ANDREW'S VILLAGE",
+                    "OPP BLK 195",
+                    "OPP TRELLIS TWRS",
+                    "CATHOLIC JC",
+                    "OPP BT TIMAH PLAZA",
+                    "PEI HWA PRESBY PR SCH",
+                    "BEAUTY WORLD STN EXIT C",
+                    "BLK 18",
+                    "SIGNATURE PK CONDO",
+                    "OPP THE HILLFORD",
+                    "BEF BT BATOK EAST AVE 6",
+                    "OPP AUTOBACS",
+                    "BLK 267",
+                    "BLK 258",
+                    "BLK 242",
+                    "BLK 240",
+                    "BLK 628",
+                    "BEF BT BATOK WEST AVE 5",
+                    "OPP BLK 305",
+                    "OPP BLK 315",
+                    "BLK 419",
+                    "OPP BLK 336",
+                    "HOMETEAMNS",
+                    "BT BATOK DRIVING CTR",
+                    "AFT BT BATOK WEST AVE 5",
+                    "OPP BT BATOK FIRE STN",
+                    "BLK 26",
+                    "BET BLKS 13/14",
+                    "BLK 8",
+                    "OPP CCK POLYCLINIC",
+                    "AFT BLK 202",
+                    "CHOA CHU KANG INT"
+                ]
+            }
+        }
+    },
 };
