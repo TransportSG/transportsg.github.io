@@ -66,20 +66,24 @@ class LEDMatrix {
             if (pos !== 0)
                 spacing = this.determineDistance(chars[pos - 1], char, fontname, fontSpacing);
 
+            let override = fontSpacing == spacing || spacing == 0;
+
             x += spacing;
             if (font[char].offset)
-                this.draw2DArray(font[char].data, x, dy + font[char].offset, colour);
+                this.draw2DArray(font[char].data, x, dy + font[char].offset, colour, override);
             else
-                this.draw2DArray(font[char], x, dy, colour);
+                this.draw2DArray(font[char], x, dy, colour, override);
 
             x += (font[char].data || font[char])[0].length;
         });
     }
 
-    draw2DArray(array, x, y, colour) {
+    draw2DArray(array, x, y, colour, override) {
+        override = override == null ? true : override;
         array.forEach((row, dy) => {
             row.forEach((led, dx) => {
-                this.matrix.setLEDState(x + dx, y + dy, !!(led ^ this.inverted), colour);
+                if (led)
+                    this.matrix.setLEDState(x + dx, y + dy, !this.inverted, colour);
             });
         });
     }
