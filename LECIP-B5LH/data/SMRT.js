@@ -137,12 +137,12 @@ EDSData.SMRT = {
                     font: "ArialBold-8"
                 },
                 scrolls: [
-                    // 'UPP BT TIMAH RD',
-                    // 'DUNEARN RD',
-                    // 'SERANGOON RD',
+                    'UPP BT TIMAH RD',
+                    'DUNEARN RD',
+                    'SERANGOON RD',
                     'SIMS AVE',
-                    // 'NEW UPP CHANGI RD',
-                    // 'BEDOK NTH AVE 3'
+                    'NEW UPP CHANGI RD',
+                    'BEDOK NTH AVE 3'
                 ],
                 scrollFont: "Arial-8"
             },
