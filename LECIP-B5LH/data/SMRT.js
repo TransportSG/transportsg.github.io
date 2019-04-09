@@ -636,7 +636,7 @@ EDSData.SMRT = {
                 destination: "GEYLANG LOR 1 TER",
                 scrolls: [
                     "CHOA CHU KANG INT",
-                    // "LOT 1 SHOPPERS" MALL", // check "
+                    // "LOT 1 SHOPPERS' MALL", // check '
                     "OPP BLK 210",
                     "CCK POLYCLINIC",
                     "BLK 6",
@@ -667,7 +667,7 @@ EDSData.SMRT = {
                     "OLD POLICE ACADEMY",
                     "TRELLIS TWRS",
                     "AFT BLK 195",
-                    // "ST. ANDREW"S VILLAGE", // check . + "
+                    // "ST. ANDREW'S VILLAGE", // check . + "
                     "MOM SVCS CTR",
                     "BLK 54",
                     "BLK 44",
@@ -710,9 +710,9 @@ EDSData.SMRT = {
                     "BLK 7",
                     "BOON KENG STN/BLK 102",
                     "OPP BENDEMEER PR SCH",
-                    // "ST. MICHAEL"S PL",
+                    // "ST. MICHAEL'S PL",
                     "AFT MOONSTONE LANE",
-                    // "OPP ST. ANDREW"S VILLAGE",
+                    // "OPP ST. ANDREW'S VILLAGE",
                     "OPP BLK 195",
                     "OPP TRELLIS TWRS",
                     "CATHOLIC JC",
