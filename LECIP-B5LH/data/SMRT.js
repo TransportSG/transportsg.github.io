@@ -69,8 +69,6 @@ EDSFormats.SMRT = {
                         matrix.drawText("Arr>>", "LECIP-PIDS-5:13", 2, 4, 17, 0xeae44a);
                 }
 
-
-
                 let {destination} = data;
                 let currentScroll = Math.floor(scrollNum / 3);
 
@@ -139,12 +137,92 @@ EDSFormats.SMRT = {
 }
 
 EDSData.SMRT = {
+    2: {
+        1: {
+            front: {
+                renderType: 'message',
+                text: 'ANG MO KIO DEPOT',
+                font: 'Arial-12',
+                spacing: 2
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "",
+                destination: "ANG MO KIO DEPOT",
+                scrolls: [""]
+            }
+        }
+    },
+    3: {
+        1: {
+            front: {
+                renderType: 'message',
+                text: 'KRANJI DEPOT',
+                font: 'Arial-12',
+                spacing: 2
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "",
+                destination: "KRANJI DEPOT",
+                scrolls: [""]
+            }
+        }
+    },
     5: {
         1: {
             front: {
                 renderType: "message",
-                text: "OFF SEVICE",
-                font: "Arial-12", // Arial-12
+                text: "OFF SERVICE",
+                font: "Arial-12",
+                spacing: 2
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "",
+                destination: "OFF SERVICE",
+                scrolls: [""]
+            }
+        }
+    },
+    6: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "WOODLANDS DEPOT",
+                font: "Arial-12",
+                spacing: 2
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "",
+                destination: "WOODLANDS DEPOT",
+                scrolls: [""]
+            }
+        }
+    },
+    7: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "OFF SERVICE", // Might be OOS
+                font: "Arial-12",
+                spacing: 2
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "",
+                destination: "OFF SERVICE",
+                scrolls: [""]
+            }
+        }
+    },
+    8: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "OFF SERVICE",
+                font: "Arial-12",
                 spacing: 2
             },
             pids: {
