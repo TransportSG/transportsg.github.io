@@ -121,6 +121,64 @@ EDSFormats.SMRT = {
 }
 
 EDSData.SMRT = {
+    6701: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "67",
+                destination: {
+                    text: "TAMPINES via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    'UPP BT TIMAH RD',
+                    'DUNEARN RD',
+                    'SERANGOON RD',
+                    'SIMS AVE',
+                    'NEW UPP CHANGI RD',
+                    'BEDOK NTH AVE 3'
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "67", // punk or smth
+                destination: "TAMPINES INT",
+                scrolls: [
+                    "CHOA CHU KANG INT"
+                ]
+            }
+        },
+    },
+    6702: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "67",
+                destination: {
+                    text: "CHOA CHUA KANG via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    'BEDOK NTH AVE 3',
+                    'NEW UPP CHANGI RD',
+                    'GEYLANG RD',
+                    'JALAN BESAR',
+                    'BUKIT TIMAH RD',
+                    'UPP BT TIMAH RD'
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "67", // punk or smth
+                destination: "CHOA CHU KANG INT",
+                scrolls: [
+                    "TAMPINES INT"
+                ]
+            }
+        }
+    },
     9201: {
         1: {
             front: {
