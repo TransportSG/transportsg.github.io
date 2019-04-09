@@ -8,7 +8,9 @@ let frontEDSWidth = 192;
 let internalPIDSWidth = 160;
 
 let edsHeight = 24;
-let internalPIDSHeight = 31;
+let internalPIDSHeight = 32;
+
+let code = 9201;
 
 function generateLEDCssCode() {
     let cssData =
@@ -48,11 +50,11 @@ document.addEventListener('DOMContentLoaded', () => {
     frontEDS = new LEDMatrix(frontEDSWidth, edsHeight, document.getElementById('front-eds'));
     internalPIDS = new LEDMatrix(internalPIDSWidth, internalPIDSHeight, document.getElementById('internal-pids'));
 
-    let frontDisplay = EDSData.SMRT[9201][1].front;
+    let frontDisplay = EDSData.SMRT[code][1].front;
     let parsedFront = parseFormat(EDSFormats.SMRT[frontDisplay.renderType], frontDisplay, EDSImages.SMRT, frontEDS);
     render(parsedFront, frontEDS);
 
-    let pidsDisplay = EDSData.SMRT[9201][1].pids;
+    let pidsDisplay = EDSData.SMRT[code][1].pids;
     let parsedPIDS = parseFormat(EDSFormats.SMRT[pidsDisplay.renderType], pidsDisplay, EDSImages.SMRT, internalPIDS);
     render(parsedPIDS, internalPIDS);
 });

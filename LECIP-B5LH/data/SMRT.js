@@ -37,26 +37,75 @@ EDSFormats.SMRT = {
 
     pids: {
         __dynamic__: (matrix, data) => {
+            let hold = false;
             function paint() {
+                if (hold) return;
+
                 matrix.clearRectangle(0, 0, matrix.width, matrix.height);
 
                 matrixPrimitives.setStrokeColour(0x84e76e);
                 matrixPrimitives.strokeRectangle(matrix, 0, 0, 32, 16);
 
-                matrix.drawText(data.serviceNumber, 'LECIP-PIDS-7:13', 1, 5, 1, 0xffffff);
+                let font = 'LECIP-PIDS-7:13';
+                let textWidth;
+                try {textWidth = matrix.measureText(data.serviceNumber, font, 1).width;} catch (e) {textWidth = Infinity;}
+                if (textWidth >= 32) {
+                    font = 'LECIP-PIDS-5:13';
+                    textWidth = matrix.measureText(data.serviceNumber, font, 1).width;
+                }
 
-                matrix.drawText(data.destination, 'LECIP-PIDS-5:13', 1, 33, 1, 0xffffff);
+                let textPosition = Math.round(32 / 2 - textWidth / 2);
+
+                matrix.drawText(data.serviceNumber, font, 1, textPosition, 1, 0xffffff);
+
+                function drawNextStop() {
+                    let bottomRowNum = scrollNum % 3;
+
+                    if (bottomRowNum == 0)
+                        matrix.drawText('NEXT>>', 'LECIP-PIDS-5:13', 1, 1, 17, 0xffffff);
+                    else if (bottomRowNum == 1)
+                        matrix.drawText('STOP>>', 'LECIP-PIDS-5:13', 1, 1, 17, 0xe35f57);
+                    else if (bottomRowNum == 2)
+                        matrix.drawText('Arr>>', 'LECIP-PIDS-5:13', 2, 4, 17, 0xeae44a);
+                }
+
+                drawNextStop();
+
+
+                let {destination} = data;
                 let currentScroll = Math.floor(scrollNum / 3);
-                matrix.drawText(data.scrolls[currentScroll], 'LECIP-PIDS-5:13', 1, 33, 17, 0xffffff);
 
-                let bottomRowNum = scrollNum % 3;
+                if (data.secondDestination) {
+                    if (currentScroll > data.secondDestination.changeIndex)
+                        destination = data.secondDestination.name;
+                }
+                matrix.drawText(destination, 'LECIP-PIDS-5:13', 1, 33, 1, 0xffffff);
 
-                if (bottomRowNum == 0)
-                    matrix.drawText('NEXT>>', 'LECIP-PIDS-5:13', 1, 1, 17, 0xffffff);
-                else if (bottomRowNum == 1)
-                    matrix.drawText('STOP>>', 'LECIP-PIDS-5:13', 1, 1, 17, 0xe35f57);
-                else if (bottomRowNum == 2)
-                    matrix.drawText('Arr>>', 'LECIP-PIDS-5:13', 2, 4, 17, 0xeae44a);
+                let scrollWidth = matrix.measureText(data.scrolls[currentScroll], 'LECIP-PIDS-5:13', 1).width;
+
+                if (scrollWidth > matrix.width - 34) { // scrolling text
+                    hold = true;
+
+                    let frameCount = scrollWidth + matrix.width - 32;
+                    let timeBetweenFrames = 100;
+
+                    let frameNum = 0;
+                    let intervalID = setInterval(() => {
+                        if (frameNum == frameCount) {
+                            clearInterval(intervalID);
+                            hold = false;
+                            return;
+                        }
+                        matrix.clearRectangle(0, 17, matrix.width, matrix.height - 17);
+
+                        matrix.drawText(data.scrolls[currentScroll], 'LECIP-PIDS-5:13', 1, matrix.width - frameNum, 17, 0xffffff);
+                        matrix.clearRectangle(0, 17, 33, matrix.height - 17);
+                        drawNextStop();
+
+                        frameNum++;
+                    }, timeBetweenFrames);
+                } else
+                    matrix.drawText(data.scrolls[currentScroll], 'LECIP-PIDS-5:13', 1, 33, 17, 0xffffff);
 
                 scrollNum++;
                 if (scrollNum >= data.scrolls.length * 3)
@@ -64,7 +113,7 @@ EDSFormats.SMRT = {
             }
 
             let scrollNum = 0;
-            setInterval(paint, 2000);
+            setInterval(paint, 5000);
 
             paint();
         }
@@ -96,23 +145,27 @@ EDSData.SMRT = {
             pids: {
                 renderType: "pids",
                 serviceNumber: "920",
-                destination: "BT PANJANG INT",
+                destination: "BANGKIT RD",
+                secondDestination: {
+                    name: "BT PANJANG INT",
+                    changeIndex: 14
+                },
                 scrolls: [
                     "BT PANJANG INT",
                     "OPP BT PANJANG PLAZA",
                     "BLK 602",
-                    // "WEST VIEW PR SCH",
+                    "WEST VIEW PRI SCH",
                     "OPP BLK 628",
                     "BLK 636A",
                     "WEST SPRING SEC SCH",
                     "BLK 651",
                     "BLK 532",
-                    // "BET BLKS 502/503",
+                    "BET BLKS 502/503",
                     "BLK 413",
-                    // "BET BLKS 443A/443B",
+                    "BET BLKS 443A/443B",
                     "BLK 442D",
                     "BANGKIT STN",
-                    // "OPP BLK 271",
+                    "OPP BLK 271", // where dest switch from BANGKIT RD to BT PANJANG INT
                     "OPP BLK 253",
                     "OPP BANGKIT STN",
                     "BLK 239",
@@ -121,8 +174,8 @@ EDSData.SMRT = {
                     "OPP BLK 502",
                     "OPP BLK 532",
                     "OPP BLK 650",
-                    "OPP WEST SPRING SEC SCH", // check overflow
-                    "BEF BLK 629A MSCP",
+                    "OPP WEST SPRING SEC SCH",
+                    "BEF BLK 629A CP",
                     "BLK 628",
                     "BLK 610",
                     "BLK 541A CP",
