@@ -38,9 +38,7 @@ EDSFormats.SMRT = {
     pids: {
         __dynamic__: (matrix, data) => {
             function paint() {
-                matrix.inverted = !matrix.inverted;
                 matrix.clearRectangle(0, 0, matrix.width, matrix.height);
-                matrix.inverted = !matrix.inverted;
 
                 matrixPrimitives.setStrokeColour(0x84e76e);
                 matrixPrimitives.strokeRectangle(matrix, 0, 0, 32, 16);

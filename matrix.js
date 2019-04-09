@@ -57,9 +57,7 @@ class LEDMatrix {
         let chars = [...text];
         let measure = this.measureText(text, fontname, fontSpacing);
         let {width, height} = measure;
-        this.inverted = !this.inverted;
         this.clearRectangle(dx, dy, width, height, colour);
-        this.inverted = !this.inverted;
 
         let x = dx;
 
@@ -89,7 +87,7 @@ class LEDMatrix {
     clearRectangle(x, y, w, h, colour) {
         for (let dx = 0; dx < w; dx++) {
             for (let dy = 0; dy < h; dy++) {
-                this.matrix.setLEDState(x + dx, y + dy, !this.inverted, colour);
+                this.matrix.setLEDState(x + dx, y + dy, this.inverted, colour);
             }
         }
     }

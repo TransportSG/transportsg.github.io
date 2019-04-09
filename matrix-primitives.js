@@ -56,9 +56,7 @@ window.matrixPrimitives = {
         let minY = Object.values(mins).map(y => y*1).sort((a, b) => a - b)[0];
         let maxY = Object.values(maxs).map(y => y*1).sort((a, b) => a - b).slice(-1)[0];
 
-        matrix.inverted = !matrix.inverted;
         matrix.clearRectangle(minX, minY, maxX - minX + 1, maxY - minY + 1, fillColour);
-        matrix.inverted = !matrix.inverted;
         console.log(minX, minY, maxX - minX + 1, maxY - minY + 1, fillColour)
 
         Object.keys(mins).forEach(rowX => {
