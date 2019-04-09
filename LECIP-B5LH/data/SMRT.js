@@ -13,7 +13,7 @@ EDSFormats.SMRT = {
             align: "centre-x,top",
             margin: {
                 top: 2,
-                right: 'width(serviceNumber) + len(7)'
+                right: "width(serviceNumber) + len(7)"
             },
             text: "$destination",
             spacing: 1
@@ -22,7 +22,7 @@ EDSFormats.SMRT = {
             align: "centre-x,top",
             margin: {
                 top: 14,
-                right: 'width(serviceNumber) + len(7)'
+                right: "width(serviceNumber) + len(7)"
             },
             scrolls: "$scrolls",
             rotate: true,
@@ -46,11 +46,11 @@ EDSFormats.SMRT = {
                 matrixPrimitives.setStrokeColour(0x84e76e);
                 matrixPrimitives.strokeRectangle(matrix, 0, 0, 32, 16);
 
-                let font = 'LECIP-PIDS-7:13';
+                let font = "LECIP-PIDS-7:13";
                 let textWidth;
                 try {textWidth = matrix.measureText(data.serviceNumber, font, 1).width;} catch (e) {textWidth = Infinity;}
                 if (textWidth >= 32) {
-                    font = 'LECIP-PIDS-5:13';
+                    font = "LECIP-PIDS-5:13";
                     textWidth = matrix.measureText(data.serviceNumber, font, 1).width;
                 }
 
@@ -62,14 +62,13 @@ EDSFormats.SMRT = {
                     let bottomRowNum = scrollNum % 3;
 
                     if (bottomRowNum == 0)
-                        matrix.drawText('NEXT>>', 'LECIP-PIDS-5:13', 1, 1, 17, 0xffffff);
+                        matrix.drawText("NEXT>>", "LECIP-PIDS-5:13", 1, 1, 17, 0xffffff);
                     else if (bottomRowNum == 1)
-                        matrix.drawText('STOP>>', 'LECIP-PIDS-5:13', 1, 1, 17, 0xe35f57);
+                        matrix.drawText("STOP>>", "LECIP-PIDS-5:13", 1, 1, 17, 0xe35f57);
                     else if (bottomRowNum == 2)
-                        matrix.drawText('Arr>>', 'LECIP-PIDS-5:13', 2, 4, 17, 0xeae44a);
+                        matrix.drawText("Arr>>", "LECIP-PIDS-5:13", 2, 4, 17, 0xeae44a);
                 }
 
-                drawNextStop();
 
 
                 let {destination} = data;
@@ -79,12 +78,15 @@ EDSFormats.SMRT = {
                     if (currentScroll > data.secondDestination.changeIndex)
                         destination = data.secondDestination.name;
                 }
-                matrix.drawText(destination, 'LECIP-PIDS-5:13', 1, 33, 1, 0xffffff);
+                matrix.drawText(destination, "LECIP-PIDS-5:13", 1, 33, 1, 0xffffff);
 
                 // Possibly make scrolls query TSG site? Not great for offline use tho
-                let measure = matrix.measureText(data.scrolls[currentScroll], 'LECIP-PIDS-5:13', 1);
+                let measure = matrix.measureText(data.scrolls[currentScroll], "LECIP-PIDS-5:13", 1);
                 let scrollWidth = measure.width,
                     scrollHeight = measure.height;
+
+                if (scrollWidth === 0) return;
+                drawNextStop();
 
                 if (scrollWidth > matrix.width - 34) { // scrolling text
                     hold = true;
@@ -101,7 +103,7 @@ EDSFormats.SMRT = {
                         }
                         matrix.clearRectangle(0, 17 + (13 - scrollHeight), matrix.width, 17 + scrollHeight);
 
-                        matrix.drawText(data.scrolls[currentScroll], 'LECIP-PIDS-5:13', 1, matrix.width - frameNum, 17, 0xffffff);
+                        matrix.drawText(data.scrolls[currentScroll], "LECIP-PIDS-5:13", 1, matrix.width - frameNum, 17, 0xffffff);
                         matrix.clearRectangle(0, 17 + (13 - scrollHeight), 33, 17 + scrollHeight);
                         drawNextStop();
 
@@ -111,7 +113,7 @@ EDSFormats.SMRT = {
                         frameNum++;
                     }, timeBetweenFrames);
                 } else
-                    matrix.drawText(data.scrolls[currentScroll], 'LECIP-PIDS-5:13', 1, 33, 17, 0xffffff);
+                    matrix.drawText(data.scrolls[currentScroll], "LECIP-PIDS-5:13", 1, 33, 17, 0xffffff);
 
                 scrollNum++;
                 if (scrollNum >= data.scrolls.length * 3)
@@ -123,10 +125,36 @@ EDSFormats.SMRT = {
 
             paint();
         }
+    },
+    message: {
+        display: {
+            align: "centre-x,centre-y",
+            text: "$text",
+            font: "$font",
+            spacing: "$spacing"
+        },
+
+        text: "$text"
     }
 }
 
 EDSData.SMRT = {
+    5: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "OFF SEVICE",
+                font: "Arial-12", // Arial-12
+                spacing: 2
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "",
+                destination: "OFF SERVICE",
+                scrolls: [""]
+            }
+        }
+    },
     6701: {
         1: {
             front: {
@@ -137,18 +165,18 @@ EDSData.SMRT = {
                     font: "ArialBold-8"
                 },
                 scrolls: [
-                    'UPP BT TIMAH RD',
-                    'DUNEARN RD',
-                    'SERANGOON RD',
-                    'SIMS AVE',
-                    'NEW UPP CHANGI RD',
-                    'BEDOK NTH AVE 3'
+                    "UPP BT TIMAH RD",
+                    "DUNEARN RD",
+                    "SERANGOON RD",
+                    "SIMS AVE",
+                    "NEW UPP CHANGI RD",
+                    "BEDOK NTH AVE 3"
                 ],
                 scrollFont: "Arial-8"
             },
             pids: {
                 renderType: "pids",
-                serviceNumber: "67", // punk or smth
+                serviceNumber: "67",
                 destination: "TAMPINES INT",
                 scrolls: [
                     "CHOA CHU KANG INT",
@@ -244,18 +272,18 @@ EDSData.SMRT = {
                     font: "ArialBold-8"
                 },
                 scrolls: [
-                    'BEDOK NTH AVE 3',
-                    'NEW UPP CHANGI RD',
-                    'GEYLANG RD',
-                    'JALAN BESAR',
-                    'BUKIT TIMAH RD',
-                    'UPP BT TIMAH RD'
+                    "BEDOK NTH AVE 3",
+                    "NEW UPP CHANGI RD",
+                    "GEYLANG RD",
+                    "JALAN BESAR",
+                    "BUKIT TIMAH RD",
+                    "UPP BT TIMAH RD"
                 ],
                 scrollFont: "Arial-8"
             },
             pids: {
                 renderType: "pids",
-                serviceNumber: "67", // punk or smth
+                serviceNumber: "67",
                 destination: "CHOA CHU KANG INT",
                 scrolls: [
                     "TAMPINES INT",
@@ -285,7 +313,7 @@ EDSData.SMRT = {
                     "AFT LOR 34 GEYLANG",
                     "AFT LOR 28 GEYLANG",
                     "BEF LOR 18 GEYLANG",
-                    "OPP MOHD SALLEH MQUE",
+                    "OPP MOHD SALLEH MQUE", // awaiting Q from queenstown 93
                     "AFT SIMS WAY",
                     "OPP LOR 1 GEYLANG TER",
                     "BEF KG BUGIS",
@@ -354,15 +382,15 @@ EDSData.SMRT = {
                     font: "ArialBold-8"
                 },
                 scrolls: [
-                    'PETIR / JELUBU RD',
-                    'SENJA RD / LINK',
-                    'JELAPANG RD',
-                    'SAUJANA RD',
-                    'FAJAR RD',
-                    'BT PANJANG RING RD',
-                    'BANGKIT RD',
+                    "PETIR / JELUBU RD",
+                    "SENJA RD / LINK",
+                    "JELAPANG RD",
+                    "SAUJANA RD",
+                    "FAJAR RD",
+                    "BT PANJANG RING RD",
+                    "BANGKIT RD",
                 ],
-                scrollFont: 'Arial-8'
+                scrollFont: "Arial-8"
             },
 
             pids: {
