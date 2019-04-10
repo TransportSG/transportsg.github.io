@@ -58,6 +58,9 @@ EDSFormats.SMRT = {
     }
 }
 
+EDSFormats.SMRT.calibriStandardService = EDSFormats.SMRT.standardService;
+EDSFormats.SMRT.calibriStandardService.serviceNumber.font = 'Calibri-17';
+
 EDSData.SMRT = {
     1: {
         1: {
@@ -283,6 +286,26 @@ EDSData.SMRT = {
                 scrollFont: 'Arial-8'
             }
         }
+    },
+    1781: {
+        1: {
+            front: {
+                renderType: "calibriStandardService",
+                serviceNumber: "178",
+                destination: {
+                    text: "BOON LAY via",
+                    font: "Calibri-7"
+                },
+                scrolls: [
+                    'WDL CENTRE RD',
+                    'UPP BT TIMAH',
+                    "BT BATOK",
+                    'JURONG TOWN HALL',
+                    "CORPORATION RD"
+                ],
+                scrollFont: "Calibri-7"
+            }
+        },
     },
     1841: {
         1: {

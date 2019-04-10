@@ -11652,6 +11652,13 @@ let fontSpacers = {
         if (prev === '0' && curr === 'A') return 0;
         return spacing;
     },
+    "Calibri-7": (prev, curr, spacing) => {
+        if (prev === 'B' && curr === 'A') return 0;
+        if (prev === 'B' && curr === 'T') return 0;
+        if (prev === 'L' && curr === 'A') return 0;
+        if (prev === 'A' && curr === 'Y') return 0;
+        return spacing;
+    },
     "LECIP-PIDS-5:13": (prev, curr, spacing) => {
         if (prev === '>' && curr === '>') return 0;
         return spacing;
