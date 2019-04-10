@@ -44,11 +44,8 @@ function generateLEDCssCode() {
     document.getElementById('led-style').textContent = cssData;
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-    generateLEDCssCode();
-
-    frontEDS = new LEDMatrix(frontEDSWidth, edsHeight, document.getElementById('front-eds'));
-    internalPIDS = new LEDMatrix(internalPIDSWidth, internalPIDSHeight, document.getElementById('internal-pids'));
+function setCode(code) {
+    if (!EDSData.SMRT[code]) return;
 
     let frontDisplay = EDSData.SMRT[code][1].front;
     let parsedFront = parseFormat(EDSFormats.SMRT[frontDisplay.renderType], frontDisplay, EDSImages.SMRT, frontEDS);
@@ -57,6 +54,23 @@ document.addEventListener('DOMContentLoaded', () => {
     let pidsDisplay = EDSData.SMRT[code][1].pids;
     let parsedPIDS = parseFormat(EDSFormats.SMRT[pidsDisplay.renderType], pidsDisplay, EDSImages.SMRT, internalPIDS);
     render(parsedPIDS, internalPIDS);
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    generateLEDCssCode();
+
+    frontEDS = new LEDMatrix(frontEDSWidth, edsHeight, document.getElementById('front-eds'));
+    internalPIDS = new LEDMatrix(internalPIDSWidth, internalPIDSHeight, document.getElementById('internal-pids'));
+
+    setCode(7);
 });
 
 window.addEventListener('resize', generateLEDCssCode);
+
+window.addEventListener('load', () => {
+    document.getElementById('code').addEventListener('input', () => {
+        let code = document.getElementById('code').value;
+
+        setCode(code);
+    });
+});

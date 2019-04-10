@@ -1,3 +1,13 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #010101;
+}
+
+#input {
+    height: 5vh;
+}
+
 #front-eds {
     display: grid;
     background-color: #202020;
@@ -7,7 +17,7 @@
 
 #front-eds-container {
     width: 100vw;
-    height: 50vh;
+    height: 47.5vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,7 +42,7 @@
 
 #internal-pids-container {
     width: 100vw;
-    height: 50vh;
+    height: 47.5vh;
     display: flex;
     justify-content: center;
     align-items: center;

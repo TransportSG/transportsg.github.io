@@ -1,3 +1,6 @@
+let __paintInterval__ = 0;
+let __scrollInterval__ = 0;
+
 EDSFormats.SMRT = {
     standardService: {
         serviceNumber: {
@@ -93,9 +96,9 @@ EDSFormats.SMRT = {
                     let timeBetweenFrames = 100;
 
                     let frameNum = 0;
-                    let intervalID = setInterval(() => {
+                    __scrollInterval__ = setInterval(() => {
                         if (frameNum == frameCount) {
-                            clearInterval(intervalID);
+                            clearInterval(__scrollInterval__);
                             hold = false;
                             return;
                         }
@@ -119,7 +122,10 @@ EDSFormats.SMRT = {
             }
 
             let scrollNum = 0;
-            setInterval(paint, 1000);
+            clearInterval(__paintInterval__);
+            clearInterval(__scrollInterval__);
+
+            __paintInterval__ = setInterval(paint, 1000);
 
             paint();
         }
