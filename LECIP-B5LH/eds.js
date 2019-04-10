@@ -10,8 +10,6 @@ let internalPIDSWidth = 160;
 let edsHeight = 24;
 let internalPIDSHeight = 32;
 
-let code = 9851;
-
 function generateLEDCssCode() {
     let cssData =
 `
