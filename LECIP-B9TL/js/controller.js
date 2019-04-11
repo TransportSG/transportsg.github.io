@@ -158,19 +158,23 @@ function firmware() {
     document.getElementById('keypad-down').addEventListener('click', registerKeyPress.bind(null, 'DOWN'));
     setCode('1111', 1);
 
-    rearEDS.drawText('NOT IN', 'LECIP-6:4', 1, 4, 2);
-    rearEDS.drawText('SERVICE', 'LECIP-6:4', 1, 0, 11);
-
     currentScreen = 'home';
 }
 
 function setCode(code, direction) {
     if (EDSData[currentOperator][code] && EDSData[currentOperator][code][direction]) {
-        let frontDisplay = EDSData[currentOperator][code][direction].front;
-        let parsed = parseFormat(EDSFormats[currentOperator][frontDisplay.renderType], frontDisplay, EDSImages[currentOperator], frontEDS);
-        render(parsed, frontEDS);
+        let data = EDSData[currentOperator][code][direction];
 
-        let {displayName} = parsed;
+        let {front, rear} = data;
+        let parsedFront = parseFormat(EDSFormats[currentOperator][front.renderType], front, EDSImages[currentOperator], frontEDS);
+        render(parsedFront, frontEDS);
+
+        if (rear) {
+            let parsedRear = parseFormat(EDSFormats[currentOperator][rear.renderType], rear, EDSImages[currentOperator], rearEDS);
+            render(parsedRear, rearEDS);
+        }
+
+        let {displayName} = parsedFront;
 
         setScreenText(`Route No: ${pad(code, ' ', 4)} ${direction}`, displayName);
         currentScreen = 'home';

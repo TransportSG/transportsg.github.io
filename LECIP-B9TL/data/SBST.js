@@ -126,6 +126,33 @@ EDSFormats.SBST = {
             spacing: '$spacing'
         }
     },
+    twoline: {
+        top: {
+            align: "centre-x,top",
+            text: "$top",
+            font: "$topFont",
+            spacing: "$topSpacing",
+            margin: {top: 1}
+        },
+        bottom: {
+            align: "centre-x,bottom",
+            text: "$bottom",
+            font: "$bottomFont",
+            spacing: "$bottomSpacing",
+            margin: {bottom: 1}
+        },
+        text: "$top"
+    },
+    rearService: {
+        serviceNumber: {
+            align: "centre-x,centre-y",
+            text: "$serviceNumber",
+            font: "$font",
+            spacing: "$spacing"
+        },
+
+        text: "$serviceNumber"
+    },
     mrtPrototype: {
         station: {
             align: 'centre-x,top',
@@ -1780,6 +1807,12 @@ EDSData.SBST = {
                     "STIRLING RD"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "64",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -1797,6 +1830,12 @@ EDSData.SBST = {
                     "ALJUNIED RD"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "64",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -2870,6 +2909,12 @@ EDSData.SBST = {
                     "BUKIT PURMEI AVE"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "123",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -2888,6 +2933,12 @@ EDSData.SBST = {
                     "QUEENSWAY"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "123",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -2906,6 +2957,12 @@ EDSData.SBST = {
                     'BUKIT PURMEI AVE'
                 ],
                 scrollFont: "LECIP-6:3"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "123M",
+                font: "LECIP-20:6",
+                spacing: 2
             }
         }
     },
@@ -3569,6 +3626,12 @@ EDSData.SBST = {
                     "PAYA LEBAR RD"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "154",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -3587,6 +3650,12 @@ EDSData.SBST = {
                     "YUAN CHING RD"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "154",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -3972,6 +4041,12 @@ EDSData.SBST = {
                     'DOVER RD'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "166",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -3988,6 +4063,12 @@ EDSData.SBST = {
                     'THOMSON RD'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "166",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -4104,6 +4185,12 @@ EDSData.SBST = {
                     "BT BATOK E. AVE 6, 3"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "174",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -4123,6 +4210,12 @@ EDSData.SBST = {
                     "NTH BRIDGE RD"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "174",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -4133,6 +4226,12 @@ EDSData.SBST = {
                 serviceNumber: "174e",
                 image: "express",
                 destination: "EXPRESS 174e"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "174e",
+                font: "LECIP-20:9",
+                spacing: 2
             }
         },
         2: {
@@ -4141,6 +4240,12 @@ EDSData.SBST = {
                 serviceNumber: "174e",
                 image: "express",
                 destination: "EXPRESS 174e"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "174e",
+                font: "LECIP-20:9",
+                spacing: 2
             }
         }
     },
@@ -4241,6 +4346,12 @@ EDSData.SBST = {
                     "TUAS STH AVE 9"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "182",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -4259,6 +4370,12 @@ EDSData.SBST = {
                     'TUAS STH AVE 5'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "182M",
+                font: "LECIP-20:6",
+                spacing: 2
             }
         }
     },
@@ -4805,6 +4922,12 @@ EDSData.SBST = {
                     "BOON LAY WAY"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "240",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -4819,6 +4942,12 @@ EDSData.SBST = {
                     "JURONG W ST 64"
                 ],
                 scrollFont: "LECIP-6:3"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "240M",
+                font: "LECIP-20:6",
+                spacing: 2
             }
         }
     },
@@ -5101,6 +5230,12 @@ EDSData.SBST = {
                     "JALAN AHMAD IBRAHIM"
                 ],
                 scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "258",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -6443,6 +6578,14 @@ EDSData.SBST = {
                 text: "OFF SERVICE",
                 font: "LECIP-20:12",
                 spacing: 3
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "OFF",
+                topFont: "LECIP-7:5",
+
+                bottom: "SERVICE",
+                bottomFont: "LECIP-7:5"
             }
         }
     },
@@ -6452,6 +6595,14 @@ EDSData.SBST = {
                 renderType: "logo",
                 text: "SBS TRANSIT",
                 image: "logo"
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "SBS",
+                topFont: "LECIP-7:5",
+
+                bottom: "TRANSIT",
+                bottomFont: "LECIP-7:5"
             }
         }
     },
@@ -6462,6 +6613,14 @@ EDSData.SBST = {
                 text: "FREE SHUTTLE",
                 font: "LECIP-20:12",
                 spacing: 2
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "FREE",
+                topFont: "LECIP-7:5", // check font
+
+                bottom: "SHUTTLE",
+                bottomFont: "LECIP-6:4"
             }
         }
     },
@@ -6472,6 +6631,14 @@ EDSData.SBST = {
                 text: "ON TEST",
                 font: "LECIP-20:12",
                 spacing: 3
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "ON",
+                topFont: "LECIP-7:5",
+
+                bottom: "TEST",
+                bottomFont: "LECIP-7:5"
             }
         }
     },
@@ -6482,6 +6649,14 @@ EDSData.SBST = {
                 text: "TRAINING BUS",
                 font: "LECIP-20:12",
                 spacing: 3
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "TRAINING",
+                topFont: "LECIP-7:5",
+
+                bottom: "BUS",
+                bottomFont: "LECIP-7:5"
             }
         }
     },
@@ -6492,7 +6667,7 @@ EDSData.SBST = {
                 text: "FREE BRIDGING BUS",
                 font: "LECIP-20:9",
                 spacing: 2
-            }
+            } // check
         }
     },
     9999: {

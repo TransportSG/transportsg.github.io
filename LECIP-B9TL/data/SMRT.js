@@ -78,6 +78,17 @@ EDSFormats.SMRT = {
             text: "$text",
             spacing: "$spacing"
         }
+    },
+
+    rearService: {
+        serviceNumber: {
+            align: "centre-x,centre-y",
+            text: "$serviceNumber",
+            font: "$font",
+            spacing: "$spacing"
+        },
+
+        text: "$serviceNumber"
     }
 }
 
@@ -132,6 +143,14 @@ EDSData.SMRT = {
                 text: 'OFF SERVICE',
                 font: 'Arial-17',
                 spacing: 2
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "OFF",
+                topFont: "ArialBold-8",
+
+                bottom: "SERVICE",
+                bottomFont: "Arial-8"
             }
         }
     },
@@ -139,7 +158,7 @@ EDSData.SMRT = {
         1: {
             front: {
                 renderType: 'message',
-                text: 'WOODLANDS DEPOT', // W
+                text: 'WOODLANDS DEPOT', // W, check helen
                 font: 'Arial-15',
                 spacing: 2
             }
@@ -202,6 +221,40 @@ EDSData.SMRT = {
                 text: 'TRAINING BUS',
                 font: 'Arial-17',
                 spacing: 2
+            }
+        }
+    },
+    58: {
+        1: {
+            front: {
+                renderType: "calibriStandardService",
+                serviceNumber: "NR5", // from memory the NR5 is kinda corrupted but need check
+                destination: {
+                    text: "WHAMPOA",
+                    font: "Calibri-7"
+                },
+                scrolls: [""],
+                scrollFont: "Calibri-7"
+            }
+        }
+    },
+    106: {
+        1: {
+            front: {
+                renderType: 'message',
+                text: 'NGEE ANN POLY',
+                font: 'Arial-12',
+                spacing: 2
+            }
+        }
+    },
+    113: {
+        1: {
+            front: {
+                renderType: 'message',
+                text: 'AIRSHOW SHUTTLE',
+                font: 'ArialBold-8', // check font
+                spacing: 1
             }
         }
     },
@@ -270,6 +323,12 @@ EDSData.SMRT = {
                     'CHINATOWN'
                 ],
                 scrollFont: "Arial-8"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "190",
+                font: "Arial-15",
+                spacing: 2
             }
         },
     },
@@ -290,6 +349,12 @@ EDSData.SMRT = {
                     'BUKIT PANJANG RD'
                 ],
                 scrollFont: "Arial-8"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "190",
+                font: "Arial-15",
+                spacing: 2
             }
         }
     },
@@ -511,6 +576,12 @@ EDSData.SMRT = {
                     'CHINATOWN'
                 ],
                 scrollFont: "Arial-8"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "190",
+                font: "Arial-15",
+                spacing: 2
             }
         },
     },
@@ -531,6 +602,12 @@ EDSData.SMRT = {
                     'BUKIT PANJANG RD'
                 ],
                 scrollFont: "Arial-8"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "190",
+                font: "Arial-15",
+                spacing: 2
             }
         }
     },

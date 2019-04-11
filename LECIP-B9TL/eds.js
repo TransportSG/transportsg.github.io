@@ -5,7 +5,7 @@ let EDSData = {};
 let EDSImages = {};
 
 let frontEDSWidth = 160;
-let rearEDSWidth = 32;
+let rearEDSWidth = 40;
 
 let edsHeight = 20;
 
