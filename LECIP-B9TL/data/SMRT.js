@@ -44,7 +44,10 @@ EDSFormats.SMRT = {
     },
     message: {
         display: {
-            align: "centre-x,centre-y",
+            align: "centre-x,top",
+            margin: {
+                top: 1
+            },
             text: "$text",
             font: "$font",
             spacing: "$spacing"
@@ -97,7 +100,7 @@ EDSData.SMRT = {
             front: {
                 renderType: 'message',
                 text: 'ANG MO KIO DEPOT',
-                font: 'Arial-15', // not this font but idk what
+                font: 'Arial-12', // not this font but idk what
                 spacing: 2
             }
         }
@@ -136,7 +139,7 @@ EDSData.SMRT = {
         1: {
             front: {
                 renderType: 'message',
-                text: 'WOODLANDS DEPOT',
+                text: 'WOODLANDS DEPOT', // W
                 font: 'Arial-15',
                 spacing: 2
             }
@@ -145,11 +148,11 @@ EDSData.SMRT = {
     7: {
         1: {
             front: {
-                renderType: 'message',
-                text: 'OFF SERVICE', // OOS code but need to trace fonts
-                font: 'Arial-17',
+                renderType: "message",
+                text: "OUT OF SERVICE",
+                font: "Arial-12",
                 spacing: 2
-            }
+            },
         }
     },
     8: {
@@ -290,6 +293,46 @@ EDSData.SMRT = {
             }
         }
     },
+    591: {
+        1: {
+            front: {
+                renderType: "calibriStandardService",
+                serviceNumber: "178",
+                destination: {
+                    text: "BOON LAY via",
+                    font: "Calibri-7"
+                },
+                scrolls: [
+                    'WDL CENTRE RD',
+                    'UPP BT TIMAH',
+                    "BT BATOK",
+                    'JURONG TOWN HALL',
+                    "CORPORATION RD"
+                ],
+                scrollFont: "Calibri-7"
+            }
+        },
+    },
+    592: {
+        1: {
+            front: {
+                renderType: "calibriStandardService",
+                serviceNumber: "178",
+                destination: {
+                    text: "WOODLANDS via",
+                    font: "Calibri-7"
+                },
+                scrolls: [
+                    'WDL CENTRE RD',
+                    'UPP BT TIMAH',
+                    "BT BATOK",
+                    'JURONG TOWN HALL',
+                    "CORPORATION RD"
+                ],
+                scrollFont: "Calibri-7"
+            }
+        },
+    },
     6101: {
         1: {
             front: {
@@ -398,11 +441,11 @@ EDSData.SMRT = {
     1781: {
         1: {
             front: {
-                renderType: "calibriStandardService",
+                renderType: "standardService",
                 serviceNumber: "178",
                 destination: {
                     text: "BOON LAY via",
-                    font: "Calibri-7"
+                    font: "ArialBold-8"
                 },
                 scrolls: [
                     'WDL CENTRE RD',
@@ -411,7 +454,27 @@ EDSData.SMRT = {
                     'JURONG TOWN HALL',
                     "CORPORATION RD"
                 ],
-                scrollFont: "Calibri-7"
+                scrollFont: "Arial-8"
+            }
+        },
+    },
+    1782: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "178",
+                destination: {
+                    text: "WOODLANDS via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    'WDL CENTRE RD',
+                    'UPP BT TIMAH',
+                    "BT BATOK",
+                    'JURONG TOWN HALL',
+                    "CORPORATION RD"
+                ],
+                scrollFont: "Arial-8"
             }
         },
     },
