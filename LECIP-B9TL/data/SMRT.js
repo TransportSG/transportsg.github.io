@@ -2,6 +2,9 @@ EDSFormats.SMRT = {
     standardService: {
         serviceNumber: {
             align: "right,centre-y",
+            margin: {
+                right: 4
+            },
             text: "$serviceNumber",
             font: "Arial-17",
             spacing: 2
@@ -10,7 +13,7 @@ EDSFormats.SMRT = {
             align: "centre-x,top",
             margin: {
                 top: 1,
-                right: 'width(serviceNumber)'
+                right: 'width(serviceNumber) + len(4)'
             },
             text: "$destination",
             spacing: 1
@@ -19,7 +22,7 @@ EDSFormats.SMRT = {
             align: "centre-x,top",
             margin: {
                 top: 11,
-                right: 'width(serviceNumber)'
+                right: 'width(serviceNumber) + len(4)'
             },
             scrolls: "$scrolls",
             rotate: true,
@@ -58,7 +61,7 @@ EDSFormats.SMRT = {
     }
 }
 
-EDSFormats.SMRT.calibriStandardService = EDSFormats.SMRT.standardService;
+EDSFormats.SMRT.calibriStandardService = JSON.parse(JSON.stringify(EDSFormats.SMRT.standardService));
 EDSFormats.SMRT.calibriStandardService.serviceNumber.font = 'Calibri-17';
 
 EDSData.SMRT = {
@@ -329,7 +332,7 @@ EDSData.SMRT = {
                 renderType: "standardService",
                 serviceNumber: "190",
                 destination: {
-                    text: "KAMPONG BAHRU TER",
+                    text: "KAMPONG BAHRU via",
                     font: "ArialBold-8"
                 },
                 scrolls: [
@@ -657,6 +660,28 @@ EDSData.SMRT = {
                 scrollFont: 'Arial-8'
             }
         }
+    },
+    9512: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "951E",
+                destination: {
+                    text: "WOODLANDS ST 82",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    'ROBINSON RD',
+                    'STAMFORD RD',
+                    'DHOBY GHAUT MRT',
+                    {
+                        text: 'WOODLANDS AVE 5, 4',
+                        font: 'Arial-7'
+                    },
+                ],
+                scrollFont: "Arial-8"
+            }
+        },
     },
     9631: {
         1: {
