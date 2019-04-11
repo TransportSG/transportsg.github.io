@@ -5779,19 +5779,19 @@ EDSData.SBST = {
         1: {
             front: {
                 renderType: "brandedSvc",
-                serviceNumber: "660",
+                serviceNumber: "665",
                 branding: "CITY DIRECT",
-                font: "LECIP-20:9",
-                spacing: 2
+                font: "LECIP-20:12",
+                spacing: 1
             }
         },
         2: {
             front: {
                 renderType: "brandedSvc",
-                serviceNumber: "660",
+                serviceNumber: "665",
                 branding: "CITY DIRECT",
-                font: "LECIP-20:9",
-                spacing: 2
+                font: "LECIP-20:12",
+                spacing: 1
             }
         }
     },
@@ -6499,7 +6499,7 @@ EDSData.SBST = {
         1: {
             front: {
                 renderType: "message",
-                text: "VER. 1234567890-18",
+                text: "VER. 11APR18-DD",
                 font: "LECIP-14:6",
                 spacing: 1
             }
