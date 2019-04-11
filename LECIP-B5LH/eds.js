@@ -43,14 +43,14 @@ function generateLEDCssCode() {
 }
 
 function setCode(code) {
-    if (!EDSData.SMRT[code]) return;
+    if (!EDSData.SBST[code]) return;
 
-    let frontDisplay = EDSData.SMRT[code][1].front;
-    let parsedFront = parseFormat(EDSFormats.SMRT[frontDisplay.renderType], frontDisplay, EDSImages.SMRT, frontEDS);
+    let frontDisplay = EDSData.SBST[code][1].front;
+    let parsedFront = parseFormat(EDSFormats.SBST[frontDisplay.renderType], frontDisplay, EDSImages.SBST, frontEDS);
     render(parsedFront, frontEDS);
 
-    let pidsDisplay = EDSData.SMRT[code][1].pids;
-    let parsedPIDS = parseFormat(EDSFormats.SMRT[pidsDisplay.renderType], pidsDisplay, EDSImages.SMRT, internalPIDS);
+    let pidsDisplay = EDSData.SBST[code][1].pids;
+    let parsedPIDS = parseFormat(EDSFormats.SBST[pidsDisplay.renderType], pidsDisplay, EDSImages.SBST, internalPIDS);
     render(parsedPIDS, internalPIDS);
 }
 
@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
     frontEDS = new LEDMatrix(frontEDSWidth, edsHeight, document.getElementById('front-eds'));
     internalPIDS = new LEDMatrix(internalPIDSWidth, internalPIDSHeight, document.getElementById('internal-pids'));
 
-    setCode(7);
+    setCode(93);
 });
 
 window.addEventListener('resize', generateLEDCssCode);

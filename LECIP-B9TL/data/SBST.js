@@ -7,6 +7,7 @@ EDSFormats.SBST = {
             },
             text: "$serviceNumber",
             font: "LECIP-20:12",
+            // font: "Hanover-19:11",
             spacing: 2
         },
         destination: {
@@ -4604,6 +4605,22 @@ EDSData.SBST = {
                     'NTH BUONA VISTA RD',
                     'STH BUONA VISTA RD',
                     "PASIR PANJANG RD",
+                ],
+                scrollFont: "LECIP-7:5"
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "200",
+                destination: "> BUONA VISTA TER",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    'PASIR PANJANG RD',
+                    'STH BUONA VISTA RD',
+                    'NTH BUONA VISTA RD',
+                    'COMMONWEALTH AVE',
+                    'HOLLAND DR'
                 ],
                 scrollFont: "LECIP-7:5"
             }

@@ -57,13 +57,15 @@ EDSFormats.SMRT = {
             align: "centre-x,top",
             text: "$top",
             font: "$topFont",
-            spacing: "$topSpacing"
+            spacing: "$topSpacing",
+            margin: {top: 1}
         },
         bottom: {
             align: "centre-x,bottom",
             text: "$bottom",
             font: "$bottomFont",
-            spacing: "$bottomSpacing"
+            spacing: "$bottomSpacing",
+            margin: {bottom: 1}
         },
         text: "$top"
     },
@@ -197,6 +199,30 @@ EDSData.SMRT = {
                 text: 'TRAINING BUS',
                 font: 'Arial-17',
                 spacing: 2
+            }
+        }
+    },
+    381: {
+        1: {
+            front: {
+                renderType: "twoline",
+                top: "SHUTTLE 2",
+                topFont: "ArialBold-8",
+
+                bottom: "JOO KOON - JURONG EAST",
+                bottomFont: "Arial-8"
+            }
+        }
+    },
+    382: {
+        1: {
+            front: {
+                renderType: "twoline",
+                top: "SHUTTLE 2",
+                topFont: "ArialBold-8",
+
+                bottom: "JURONG EAST - JOO KOON",
+                bottomFont: "Arial-8"
             }
         }
     },
