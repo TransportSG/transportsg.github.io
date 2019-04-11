@@ -250,6 +250,46 @@ EDSData.SMRT = {
             }
         }
     },
+    477: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "190",
+                destination: {
+                    text: "NEW BRIDGE RD via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    'BT PANJANG RD',
+                    'STEVENS ROAD',
+                    'ORCHARD ROAD',
+                    'HILL STREET',
+                    'CHINATOWN'
+                ],
+                scrollFont: "Arial-8"
+            }
+        },
+    },
+    478: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "190",
+                destination: {
+                    text: "CHOA CHUA KANG via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    'HILL STREET',
+                    'SOMERSET RD',
+                    'SCOTTS RD',
+                    'STEVENS RD',
+                    'BUKIT PANJANG RD'
+                ],
+                scrollFont: "Arial-8"
+            }
+        }
+    },
     6101: {
         1: {
             front: {
@@ -529,7 +569,7 @@ EDSData.SMRT = {
                 renderType: "standardService",
                 serviceNumber: "903M",
                 destination: {
-                    text: "WOODLANDS INT via",
+                    text: "WOODLANDS INT",
                     font: "ArialBold-8"
                 },
                 scrolls: [
@@ -662,7 +702,7 @@ EDSData.SMRT = {
                 renderType: "standardService",
                 serviceNumber: "912M",
                 destination: {
-                    text: "WOODLANDS INT via",
+                    text: "WOODLANDS INT",
                     font: "ArialBold-8"
                 },
                 scrolls: [
