@@ -52,6 +52,21 @@ EDSFormats.SMRT = {
 
         text: "$text"
     },
+    twoline: {
+        top: {
+            align: "centre-x,top",
+            text: "$top",
+            font: "$topFont",
+            spacing: "$topSpacing"
+        },
+        bottom: {
+            align: "centre-x,bottom",
+            text: "$bottom",
+            font: "$bottomFont",
+            spacing: "$bottomSpacing"
+        },
+        text: "$top"
+    },
     testFontMix: {
         display: {
             align: "centre-x,bottom",
@@ -182,6 +197,18 @@ EDSData.SMRT = {
                 text: 'TRAINING BUS',
                 font: 'Arial-17',
                 spacing: 2
+            }
+        }
+    },
+    383: {
+        1: {
+            front: {
+                renderType: "twoline",
+                top: "SHUTTLE 4",
+                topFont: "ArialBold-8",
+
+                bottom: "CHOA|CHU|KANG-JURONG|EAST",
+                bottomFont: "Arial-8"
             }
         }
     },
@@ -682,6 +709,38 @@ EDSData.SMRT = {
                 scrollFont: "Arial-8"
             }
         },
+    },
+    // 9601: {
+    //     1: {
+    //         front: {
+    //             renderType: "standardService",
+    //             serviceNumber: "960",
+    //             destination: {
+    //                 text: "MARINA CTR via",
+    //                 font: "ArialBold-8"
+    //             },
+    //             scrolls: [
+    //                 'BT TIMAH RD',
+    //             ],
+    //             scrollFont: 'Arial-8'
+    //         }
+    //     }
+    // },
+    9602: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "960",
+                destination: {
+                    text: "WOODLANDS via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    'BT TIMAH RD',
+                ],
+                scrollFont: 'Arial-8'
+            }
+        }
     },
     9631: {
         1: {
