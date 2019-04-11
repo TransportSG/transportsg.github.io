@@ -30,8 +30,22 @@ class LEDMatrix {
         }
     }
 
+    getFont(fontname) {
+        return fontname.match(/^([^;]+)/)[1];
+    }
+
+    getFontModifiers(fontname) {
+        return (fontname.match(/^[^;]+;(.+)/) || ['',''])[1].split(',').map(e => e.split('='));
+    }
+
     measureText(text, fontname, fontSpacing) {
-        let font = fonts[fontname];
+        let font = fonts[this.getFont(fontname)];
+        if (!font) return null;
+
+        let modifiers = this.getFontModifiers(fontname);
+        let spaceWidth = modifiers.filter(e => e[0] === 'Space-Width')[0];
+        if (spaceWidth) spaceWidth = spaceWidth[1] * 1;
+
         let chars = [...text];
 
         let totalWidth = chars.reduce((accuWidth, char, pos) => {
@@ -40,7 +54,10 @@ class LEDMatrix {
             }
 
             if (!font[char]) console.log(char, fontname)
-            accuWidth += (font[char].data || font[char])[0].length;
+            if (char === ' ' && spaceWidth !== undefined)
+                accuWidth += spaceWidth;
+            else
+                accuWidth += (font[char].data || font[char])[0].length;
 
             return accuWidth;
         }, 0);
@@ -53,11 +70,15 @@ class LEDMatrix {
     }
 
     drawText(text, fontname, fontSpacing, dx, dy, colour) {
-        let font = fonts[fontname];
+        let font = fonts[this.getFont(fontname)];
         let chars = [...text];
         let measure = this.measureText(text, fontname, fontSpacing);
         let {width, height} = measure;
         this.clearRectangle(dx, dy, width, height, colour);
+
+        let modifiers = this.getFontModifiers(fontname);
+        let spaceWidth = modifiers.filter(e => e[0] === 'Space-Width')[0];
+        if (spaceWidth) spaceWidth = spaceWidth[1] * 1;
 
         let x = dx;
 
@@ -69,6 +90,12 @@ class LEDMatrix {
             let override = fontSpacing == spacing || spacing == 0;
 
             x += spacing;
+
+            if (char == ' ' && spaceWidth) {
+                x += spaceWidth;
+                return;
+            }
+
             if (font[char].offset)
                 this.draw2DArray(font[char].data, x, dy + font[char].offset, colour, override);
             else

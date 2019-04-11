@@ -207,8 +207,20 @@ EDSData.SMRT = {
                 top: "SHUTTLE 4",
                 topFont: "ArialBold-8",
 
-                bottom: "CHOA|CHU|KANG-JURONG|EAST",
-                bottomFont: "Arial-8"
+                bottom: "CHOA CHU KANG-JURONG EAST",
+                bottomFont: "Arial-8;Space-Width=1"
+            }
+        }
+    },
+    384: {
+        1: {
+            front: {
+                renderType: "twoline",
+                top: "SHUTTLE 4",
+                topFont: "ArialBold-8",
+
+                bottom: "JURONG EAST-CHOA CHU KANG",
+                bottomFont: "Arial-8;Space-Width=1"
             }
         }
     },
