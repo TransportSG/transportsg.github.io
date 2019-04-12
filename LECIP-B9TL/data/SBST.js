@@ -192,6 +192,12 @@ EDSData.SBST = {
                 branding: "NIGHT  OWL",
                 font: "LECIP-20:12",
                 spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "1N",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -203,6 +209,12 @@ EDSData.SBST = {
                 branding: "NIGHT  OWL",
                 font: "LECIP-20:12",
                 spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "2N",
+                font: "LECIP-20:",
+                spacing: 2
             }
         }
     },
@@ -213,6 +225,12 @@ EDSData.SBST = {
                 serviceNumber: "3N",
                 branding: "NIGHT  OWL",
                 font: "LECIP-20:12",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "3N",
+                font: "LECIP-20:",
                 spacing: 2
             }
         }
@@ -232,6 +250,12 @@ EDSData.SBST = {
                     "TAMPINES AVE 7"
                 ],
                 scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "4",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -241,6 +265,12 @@ EDSData.SBST = {
                 renderType: "brandedSvc",
                 serviceNumber: "4N",
                 branding: "NIGHT  OWL",
+                font: "LECIP-20:12",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "4N",
                 font: "LECIP-20:12",
                 spacing: 2
             }
@@ -261,6 +291,12 @@ EDSData.SBST = {
                     "TIONG BAHRU RD",
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "5",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -277,6 +313,12 @@ EDSData.SBST = {
                     "UPP CHANGI RD EAST"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "5",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -286,6 +328,12 @@ EDSData.SBST = {
                 renderType: "brandedSvc",
                 serviceNumber: "5N",
                 branding: "NIGHT  OWL",
+                font: "LECIP-20:12",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "5N",
                 font: "LECIP-20:12",
                 spacing: 2
             }
@@ -307,6 +355,12 @@ EDSData.SBST = {
                     "ULU PANDAN RD"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "7",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -324,6 +378,12 @@ EDSData.SBST = {
                     "SIMS AVE EAST"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "7",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -342,6 +402,12 @@ EDSData.SBST = {
                     'MACPHERSON RD'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "8",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -358,6 +424,12 @@ EDSData.SBST = {
                     'TAMPINES AVE 1, 2, 7'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "8",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -376,8 +448,14 @@ EDSData.SBST = {
                     'CHANGI CARGO RD'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "9",
+                font: "LECIP-20:12",
+                spacing: 2
             }
-        },
+        }, // D2
     },
     10: {
         1: {
@@ -393,6 +471,12 @@ EDSData.SBST = {
                     'PASIR PANJANG RD',
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "10",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -408,6 +492,12 @@ EDSData.SBST = {
                     'EAST COAST RD'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "10",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -418,6 +508,12 @@ EDSData.SBST = {
                 serviceNumber: "10e",
                 image: "express",
                 destination: "EXPRESS 10e"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "10e",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -426,6 +522,12 @@ EDSData.SBST = {
                 serviceNumber: "10e",
                 image: "express",
                 destination: "EXPRESS 10e"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "10e",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -444,6 +546,12 @@ EDSData.SBST = {
                     "SIMS WAY"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "11",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -462,6 +570,12 @@ EDSData.SBST = {
                     'UPP EAST COAST RD'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "13",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -478,6 +592,12 @@ EDSData.SBST = {
                     'ANG MO KIO AVE 6, 8'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "13",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -495,6 +615,12 @@ EDSData.SBST = {
                     'IRWELL BANK RD'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "14",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -510,6 +636,12 @@ EDSData.SBST = {
                     'BEDOK NORTH AVE 3'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "14",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -520,6 +652,12 @@ EDSData.SBST = {
                 serviceNumber: "14e",
                 image: "express",
                 destination: "EXPRESS 14e"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "14e",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -528,6 +666,12 @@ EDSData.SBST = {
                 serviceNumber: "14e",
                 image: "express",
                 destination: "EXPRESS 14e"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "14e",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -546,6 +690,12 @@ EDSData.SBST = {
                     'TIONG BAHRU RD'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "16",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -562,6 +712,12 @@ EDSData.SBST = {
                     'UPP EAST COAST RD'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "16",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
     },
@@ -579,6 +735,12 @@ EDSData.SBST = {
                     'BEDOK INTERCHANGE'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "18",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -594,6 +756,12 @@ EDSData.SBST = {
                     'TAMPINES AVE 7'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "18",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -610,6 +778,12 @@ EDSData.SBST = {
                     'AIRLINE RD'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "19",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -624,6 +798,12 @@ EDSData.SBST = {
                     'TAMPINES AVE 7'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "19",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -643,6 +823,12 @@ EDSData.SBST = {
                     'TAMPINES AVE 2',
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "20",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -661,6 +847,12 @@ EDSData.SBST = {
                     'MOULMEIN RD'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "21",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -679,6 +871,12 @@ EDSData.SBST = {
                     "PASIR RIS DR 1"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "21",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -698,6 +896,12 @@ EDSData.SBST = {
                     "TAMPINES AVE 4"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "22",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -715,6 +919,12 @@ EDSData.SBST = {
                     "ANG MO KIO AVE 8"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "22",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -734,6 +944,12 @@ EDSData.SBST = {
                     "TAMPINES AVE 1"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "23",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -751,6 +967,12 @@ EDSData.SBST = {
                     'NEW UPPER CHANGI RD'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "24",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -766,6 +988,12 @@ EDSData.SBST = {
                     'BOUNDARY RD'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "24",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -784,9 +1012,15 @@ EDSData.SBST = {
                     "ANG MO KIO AVE 3"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "25",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
-        1: {
+        1: { // why flipped
             front: {
                 renderType: "standardService",
                 serviceNumber: "25",
@@ -799,6 +1033,12 @@ EDSData.SBST = {
                     "SIMS AVE EAST"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "25",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -816,6 +1056,12 @@ EDSData.SBST = {
                     'JALAN TOA PAYOH'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "26",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -831,6 +1077,12 @@ EDSData.SBST = {
                     'NEW UPPER CHANGI RD'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "26",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -849,6 +1101,12 @@ EDSData.SBST = {
                     'AIRPORT BOULEVARD'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "27",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -866,6 +1124,12 @@ EDSData.SBST = {
                     ''
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "27",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -884,6 +1148,12 @@ EDSData.SBST = {
                     'TOA PAYOH LOR 4, 6'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "28",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -900,6 +1170,12 @@ EDSData.SBST = {
                     'TAMPINES AVE 2, 9'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "28",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -922,6 +1198,12 @@ EDSData.SBST = {
                     "TAMPINES AVE 9"
                 ],
                 scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "29",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -942,6 +1224,12 @@ EDSData.SBST = {
                     "SIMS AVE EAST"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "30",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -961,6 +1249,12 @@ EDSData.SBST = {
                     'CORPORATION RD'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "30",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -971,6 +1265,12 @@ EDSData.SBST = {
                 serviceNumber: "30e",
                 image: "express",
                 destination: "EXPRESS 30e"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "30e",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -979,6 +1279,12 @@ EDSData.SBST = {
                 serviceNumber: "30e",
                 image: "express",
                 destination: "EXPRESS 30e"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "30e",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -997,6 +1303,12 @@ EDSData.SBST = {
                     'SERANGOON RD'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "31",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -1013,6 +1325,12 @@ EDSData.SBST = {
                     'SIMEI AVE'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "31",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -1030,6 +1348,12 @@ EDSData.SBST = {
                     'MARGARET DRIVE',
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "32",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -1045,6 +1369,12 @@ EDSData.SBST = {
                     'EASST COAST RD'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "32",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -1062,6 +1392,12 @@ EDSData.SBST = {
                     'AYE'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "33",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -1077,6 +1413,12 @@ EDSData.SBST = {
                     'OLD AIRPORT RD'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "33",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -1093,6 +1435,12 @@ EDSData.SBST = {
                     "TANAH MERAH FERRY RD"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "35",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -1107,6 +1455,12 @@ EDSData.SBST = {
                     "NEW UPPER CHANGI RD"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "35",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -1122,6 +1476,12 @@ EDSData.SBST = {
                     'XILIN AVE'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "35M",
+                font: "LECIP-20:9",
+                spacing: 2
             }
         },
         2: {
@@ -1135,6 +1495,12 @@ EDSData.SBST = {
                     'NEW UPP CHANGI RD'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "35M",
+                font: "LECIP-20:9",
+                spacing: 2
             }
         }
     },
@@ -1151,6 +1517,12 @@ EDSData.SBST = {
                     "CHANGI NORTH ST 1"
                 ],
                 scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "37",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -1169,6 +1541,12 @@ EDSData.SBST = {
                     'BEDOK SOUTH RD'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "38",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -1185,6 +1563,12 @@ EDSData.SBST = {
                     'TAMPINES AVE 2, 7'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "38",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -1202,6 +1586,12 @@ EDSData.SBST = {
                     "YISHUN AVE 2"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "39",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -1217,6 +1607,12 @@ EDSData.SBST = {
                     "TAMPINES AVE 2"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "39",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
     },
@@ -1234,6 +1630,12 @@ EDSData.SBST = {
                     'SIMS AVE'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "40",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -1252,6 +1654,12 @@ EDSData.SBST = {
                     'FRANKEL AVE'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "42",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -1270,6 +1678,12 @@ EDSData.SBST = {
                     'BEDOK NORTH RD'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "45",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -1286,6 +1700,12 @@ EDSData.SBST = {
                     'ANG MO KIO AVE 10'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "45",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -1303,6 +1723,12 @@ EDSData.SBST = {
                     "BEDOK SOUTH AVE 3"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "46",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -1318,10 +1744,16 @@ EDSData.SBST = {
                     "TAMPINES AVE 3"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "46",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
-    47: {},
+    47: {}, // wot
     48: {
         1: {
             front: {
@@ -1337,6 +1769,12 @@ EDSData.SBST = {
                     'FARRER RD'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "48",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -1353,6 +1791,12 @@ EDSData.SBST = {
                     'BEDOK SOTUH AVE 3'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "48",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -1372,6 +1816,12 @@ EDSData.SBST = {
                     "PUNGGOL DR"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "50",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -1389,6 +1839,12 @@ EDSData.SBST = {
                     "ANG MO KIO AVE 8"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "50",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -1407,6 +1863,12 @@ EDSData.SBST = {
                     'WEST COAST RD'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "51",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -1423,6 +1885,12 @@ EDSData.SBST = {
                     'EUNOS LINK'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "51",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -1441,6 +1909,12 @@ EDSData.SBST = {
                     'TOH GUAN RD'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "52",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -1457,6 +1931,12 @@ EDSData.SBST = {
                     'SIN MING AVE'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "52",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -1475,6 +1955,12 @@ EDSData.SBST = {
                     "PASIR RIS DR 1"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "53",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -1491,6 +1977,12 @@ EDSData.SBST = {
                     "BISHAN RD"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "53",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -1509,6 +2001,12 @@ EDSData.SBST = {
                     "HOUGANG AVE 1"
                 ],
                 scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "53M",
+                font: "LECIP-20:9",
+                spacing: 2
             }
         }
     },
@@ -1527,6 +2025,12 @@ EDSData.SBST = {
                     'RIVER VALLEY RD'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "53",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -1543,6 +2047,12 @@ EDSData.SBST = {
                     'MARYMOUNT RD'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "54",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -1562,6 +2072,12 @@ EDSData.SBST = {
                     'MARINE PARADE RD'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "55",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -1579,6 +2095,12 @@ EDSData.SBST = {
                     'ANG MO KIO AVE 10'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "55",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -1597,6 +2119,12 @@ EDSData.SBST = {
                     "MIDDLE RD"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "56",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -1613,6 +2141,12 @@ EDSData.SBST = {
                     'BISHAN ST 13'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "56",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
     },
@@ -1631,6 +2165,12 @@ EDSData.SBST = {
                     'DEPOT RD'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "57",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -1647,6 +2187,12 @@ EDSData.SBST = {
                     'LOR 6 TOA PAYOH'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "57",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -1667,6 +2213,12 @@ EDSData.SBST = {
                     'PASIR RIS DR 12, 3',
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "58",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -1685,6 +2237,12 @@ EDSData.SBST = {
                     'SERANGOON AVE 3'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "58",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -1703,6 +2261,12 @@ EDSData.SBST = {
                     "LOR 1 TOA PAYOH"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "59",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -1719,6 +2283,12 @@ EDSData.SBST = {
                     "LOYANG AVE"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "59",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -1727,7 +2297,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "60",
-                destination: "> BEDOK",
+                destination: "> BEDOK INT",
                 destinationFont: "LECIP-10",
                 scrolls: [
                     'JALAN EUNOS',
@@ -1737,8 +2307,14 @@ EDSData.SBST = {
                     'JALAN EUNOS'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "60",
+                font: "LECIP-20:12",
+                spacing: 2
             }
-        }
+        } // D2?
     },
     63: {
         1: {
@@ -1755,6 +2331,12 @@ EDSData.SBST = {
                     'TIONG BAHRU RD'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "63",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -1771,6 +2353,12 @@ EDSData.SBST = {
                     'UBI AVE 1'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "63",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -1788,6 +2376,12 @@ EDSData.SBST = {
                     'CIRCUIT RD'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "63M",
+                font: "LECIP-20:9",
+                spacing: 2
             }
         }
     },
@@ -1856,6 +2450,12 @@ EDSData.SBST = {
                     "LOWER DELTA RD"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "65",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -1874,6 +2474,12 @@ EDSData.SBST = {
                     "BEDOK RESERVOIR RD"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "65",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
     },
@@ -1893,6 +2499,12 @@ EDSData.SBST = {
                     'BEDOK NTH ST 1'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "69",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -1909,6 +2521,12 @@ EDSData.SBST = {
                     'TAMPINES AVE 5'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "69",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -1927,6 +2545,12 @@ EDSData.SBST = {
                     'COLLYER QUAY'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "70",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -1943,6 +2567,12 @@ EDSData.SBST = {
                     'ANG MO KIO ST 63'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "70",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -1961,6 +2591,12 @@ EDSData.SBST = {
                     'TEMASAK AVE'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "70M",
+                font: "LECIP-20:9",
+                spacing: 2
             }
         }
     },
@@ -1981,6 +2617,12 @@ EDSData.SBST = {
                     "ANG MO KIO AVE 4"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "71",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -2000,6 +2642,12 @@ EDSData.SBST = {
                     "TAMPINES AVE 9"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "72",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -2017,6 +2665,12 @@ EDSData.SBST = {
                     "ANG MO KIO AVE 5"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "72",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -2035,6 +2689,12 @@ EDSData.SBST = {
                     'LOR 4 TOA PAYOH'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "73",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -2051,6 +2711,12 @@ EDSData.SBST = {
                     'SERANGOON NORTH AVE 4'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "73",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -2069,6 +2735,12 @@ EDSData.SBST = {
                     'DOVER AVE'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "74",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -2085,6 +2757,12 @@ EDSData.SBST = {
                     'HOUGANG AVE 8'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "74",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -2104,6 +2782,12 @@ EDSData.SBST = {
                     'MARINE PARADE RD'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "76",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -2121,6 +2805,12 @@ EDSData.SBST = {
                     'ANG MO KIO AVE 4'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "76",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -2139,6 +2829,12 @@ EDSData.SBST = {
                     'KEPPEL RD'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "80",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -2155,6 +2851,12 @@ EDSData.SBST = {
                     'UPP SERANGOON RD'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "80",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -2175,6 +2877,12 @@ EDSData.SBST = {
                     "TAMPINES AVE 7",
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "81",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -2193,6 +2901,12 @@ EDSData.SBST = {
                     'ANG MO KIO AVE 6'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "86",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -2209,6 +2923,12 @@ EDSData.SBST = {
                     'COMPASSVALE RD'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "86",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -2227,6 +2947,12 @@ EDSData.SBST = {
                     'BEDOK NTH RD'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "87",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -2243,6 +2969,12 @@ EDSData.SBST = {
                     'COMPASSVALE RD'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "87",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -2261,6 +2993,12 @@ EDSData.SBST = {
                     'BISHAN ST 22'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "88",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -2277,6 +3015,12 @@ EDSData.SBST = {
                     'PASIR RIS DR 3'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "88",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -2296,6 +3040,12 @@ EDSData.SBST = {
                     "AIRLINE RD"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "89",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -2313,9 +3063,15 @@ EDSData.SBST = {
                     'HOUGANG AVE 10'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "89",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
-    },
+    }, // 89e??
     90: {
         1: {
             front: {
@@ -2331,6 +3087,12 @@ EDSData.SBST = {
                 ],
                 scrollFont: "LECIP-6:4"
             }
+        },
+        rear: {
+            renderType: "rearService",
+            serviceNumber: "90",
+            font: "LECIP-20:12",
+            spacing: 2
         }
     },
     91: {
@@ -2350,6 +3112,12 @@ EDSData.SBST = {
                 ],
                 scrollFont: "LECIP-6:4"
             }
+        },
+        rear: {
+            renderType: "rearService",
+            serviceNumber: "91",
+            font: "LECIP-20:12",
+            spacing: 2
         }
     },
     92: {
@@ -2371,6 +3139,12 @@ EDSData.SBST = {
                 ],
                 scrollFont: "LECIP-6:4"
             }
+        },
+        rear: {
+            renderType: "rearService",
+            serviceNumber: "92",
+            font: "LECIP-20:12",
+            spacing: 2
         }
     },
     93: {
@@ -2388,6 +3162,12 @@ EDSData.SBST = {
                     'JALAN EUNOS'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "93",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -2404,6 +3184,12 @@ EDSData.SBST = {
                     'ALEXANDRA RD'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "93",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -2424,6 +3210,12 @@ EDSData.SBST = {
                     'JALAN EUNOS'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "94",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -2442,6 +3234,12 @@ EDSData.SBST = {
                     'KENT RIDGE CRESENT'
                 ],
                 scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "95",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -2461,6 +3259,12 @@ EDSData.SBST = {
                     "UPPER JURONG RD"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "99",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -2477,6 +3281,12 @@ EDSData.SBST = {
                     "JURONG EAST AVE 1"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "99",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -2494,6 +3304,12 @@ EDSData.SBST = {
                     'TELOK BLANGAH RD'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "100",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -2509,6 +3325,12 @@ EDSData.SBST = {
                     'ALJUNIED RD'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "100",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
