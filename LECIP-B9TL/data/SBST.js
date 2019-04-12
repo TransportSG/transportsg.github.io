@@ -6927,7 +6927,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "262",
-                destination: "> ANG MO KIO",
+                destination: "> ANG MO KIO INT",
                 destinationFont: "LECIP-10",
                 scrolls: [
                     'ANG MO KIO AVE 8',
