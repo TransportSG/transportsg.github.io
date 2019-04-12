@@ -7718,6 +7718,12 @@ EDSData.SBST = {
                     "TELOK AYER"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "DTL",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -7746,6 +7752,12 @@ EDSData.SBST = {
                     "CASHEW"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "DTL",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -7757,6 +7769,12 @@ EDSData.SBST = {
                 branding: "CITY DIRECT",
                 font: "LECIP-20:9",
                 spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "660",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -7765,6 +7783,12 @@ EDSData.SBST = {
                 serviceNumber: "660",
                 branding: "CITY DIRECT",
                 font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "660",
+                font: "LECIP-20:12",
                 spacing: 2
             }
         }
@@ -7777,6 +7801,12 @@ EDSData.SBST = {
                 branding: "CITY DIRECT",
                 font: "LECIP-20:12",
                 spacing: 1
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "665",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -7786,6 +7816,12 @@ EDSData.SBST = {
                 branding: "CITY DIRECT",
                 font: "LECIP-20:12",
                 spacing: 1
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "665",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -7803,6 +7839,12 @@ EDSData.SBST = {
                     "YISHUN RING RD"
                 ],
                 scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "800",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -7817,6 +7859,12 @@ EDSData.SBST = {
                     "YISHUN AVE 6"
                 ],
                 scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "803",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -7836,6 +7884,12 @@ EDSData.SBST = {
                     "YISHUN RING RD"
                 ],
                 scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "804",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -7853,6 +7907,12 @@ EDSData.SBST = {
                     "YISHUN RING RD"
                 ],
                 scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "805",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -7870,6 +7930,12 @@ EDSData.SBST = {
                     "YISHUN RING RD"
                 ],
                 scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "806",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -7889,6 +7955,12 @@ EDSData.SBST = {
                     "YISHUN ST 71"
                 ],
                 scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "807",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -7907,6 +7979,12 @@ EDSData.SBST = {
                     "YISHUN AVE 2"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "811",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -7924,6 +8002,12 @@ EDSData.SBST = {
                     "YISHUN CENTRAL"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "812",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -7938,6 +8022,12 @@ EDSData.SBST = {
                     'ANG MO KIO AVE 4'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "814",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -7950,6 +8040,12 @@ EDSData.SBST = {
                     'ANG MO KIO AVE 4'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "814",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -7964,6 +8060,12 @@ EDSData.SBST = {
                     'BEDOK NORTH AVE 3'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "CT18",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -7976,6 +8078,12 @@ EDSData.SBST = {
                     'BEDOK NORTH AVE 3'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "CT18", // font even exists??
+                font: "LECIP-20:6",
+                spacing: 2
             }
         }
     },
@@ -7992,6 +8100,12 @@ EDSData.SBST = {
                     "NEW BRIDGE RD"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "CT28",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -8006,6 +8120,12 @@ EDSData.SBST = {
                     "CLEMENTI AVE 4"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "CT28",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -8028,6 +8148,12 @@ EDSData.SBST = {
                     "YISHUN AVE 2"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "851",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -8048,6 +8174,12 @@ EDSData.SBST = {
                     'TIONG BAHRU RD'
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "851",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -8058,6 +8190,12 @@ EDSData.SBST = {
                 serviceNumber: "851e",
                 image: "express",
                 destination: "EXPRESS 851e"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "851e",
+                font: "LECIP-20:6",
+                spacing: 2
             }
         },
         2: {
@@ -8066,6 +8204,12 @@ EDSData.SBST = {
                 serviceNumber: "851e",
                 image: "express",
                 destination: "EXPRESS 851e"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "851e",
+                font: "LECIP-20:6",
+                spacing: 2
             }
         }
     },
@@ -8087,6 +8231,12 @@ EDSData.SBST = {
                     "YISHUN AVE 2"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "852",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -8105,6 +8255,12 @@ EDSData.SBST = {
                     "BUKIT BATOK E. AVE 6"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "852",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
@@ -8122,6 +8278,12 @@ EDSData.SBST = {
                     "YISHUN AVE 3"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "860",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         },
         2: {
@@ -8137,296 +8299,302 @@ EDSData.SBST = {
                     "YISHUN AVE 3"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "860",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
     901: {
         1: {
-            "front": {
-                "renderType": "message",
-                "text": "EB 1",
-                "font": "LECIP-20:12",
-                "spacing": 3
+            front: {
+                renderType: "message",
+                text: "EB 1",
+                font: "LECIP-20:12",
+                spacing: 3
             }
         }
     },
     902: {
         1: {
-            "front": {
-                "renderType": "message",
-                "text": "EB 2",
-                "font": "LECIP-20:12",
-                "spacing": 3
+            front: {
+                renderType: "message",
+                text: "EB 2",
+                font: "LECIP-20:12",
+                spacing: 3
             }
         }
     },
     903: {
         1: {
-            "front": {
-                "renderType": "message",
-                "text": "EB 3",
-                "font": "LECIP-20:12",
-                "spacing": 3
+            front: {
+                renderType: "message",
+                text: "EB 3",
+                font: "LECIP-20:12",
+                spacing: 3
             }
         }
     },
     904: {
         1: {
-            "front": {
-                "renderType": "message",
-                "text": "EB 4",
-                "font": "LECIP-20:12",
-                "spacing": 3
+            front: {
+                renderType: "message",
+                text: "EB 4",
+                font: "LECIP-20:12",
+                spacing: 3
             }
         }
     },
     905: {
         1: {
-            "front": {
-                "renderType": "message",
-                "text": "EB 5",
-                "font": "LECIP-20:12",
-                "spacing": 3
+            front: {
+                renderType: "message",
+                text: "EB 5",
+                font: "LECIP-20:12",
+                spacing: 3
             }
         }
     },
     906: {
         1: {
-            "front": {
-                "renderType": "message",
-                "text": "EB 6",
-                "font": "LECIP-20:12",
-                "spacing": 3
+            front: {
+                renderType: "message",
+                text: "EB 6",
+                font: "LECIP-20:12",
+                spacing: 3
             }
         }
     },
     907: {
         1: {
-            "front": {
-                "renderType": "message",
-                "text": "EB 7",
-                "font": "LECIP-20:12",
-                "spacing": 3
+            front: {
+                renderType: "message",
+                text: "EB 7",
+                font: "LECIP-20:12",
+                spacing: 3
             }
         }
     },
     908: {
         1: {
-            "front": {
-                "renderType": "message",
-                "text": "EB 8",
-                "font": "LECIP-20:12",
-                "spacing": 3
+            front: {
+                renderType: "message",
+                text: "EB 8",
+                font: "LECIP-20:12",
+                spacing: 3
             }
         }
     },
     909: {
         1: {
-            "front": {
-                "renderType": "message",
-                "text": "EB 9",
-                "font": "LECIP-20:12",
-                "spacing": 3
+            front: {
+                renderType: "message",
+                text: "EB 9",
+                font: "LECIP-20:12",
+                spacing: 3
             }
         }
     },
     910: {
         1: {
-            "front": {
-                "renderType": "message",
-                "text": "EB 10",
-                "font": "LECIP-20:12",
-                "spacing": 3
+            front: {
+                renderType: "message",
+                text: "EB 10",
+                font: "LECIP-20:12",
+                spacing: 3
             }
         }
     },
     912: {
         1: {
-            "front": {
-                "renderType": "message",
-                "text": "EB 12",
-                "font": "LECIP-20:12",
-                "spacing": 3
+            front: {
+                renderType: "message",
+                text: "EB 12",
+                font: "LECIP-20:12",
+                spacing: 3
             }
         }
     },
     913: {
         1: {
-            "front": {
-                "renderType": "message",
-                "text": "EB 13",
-                "font": "LECIP-20:12",
-                "spacing": 3
+            front: {
+                renderType: "message",
+                text: "EB 13",
+                font: "LECIP-20:12",
+                spacing: 3
             }
         }
     },
     914: {
         1: {
-            "front": {
-                "renderType": "message",
-                "text": "EB 14",
-                "font": "LECIP-20:12",
-                "spacing": 3
+            front: {
+                renderType: "message",
+                text: "EB 14",
+                font: "LECIP-20:12",
+                spacing: 3
             }
         }
     },
     915: {
         1: {
-            "front": {
-                "renderType": "message",
-                "text": "EB 15",
-                "font": "LECIP-20:12",
-                "spacing": 3
+            front: {
+                renderType: "message",
+                text: "EB 15",
+                font: "LECIP-20:12",
+                spacing: 3
             }
         }
     },
     921: {
         1: {
-            "front": {
-                "renderType": "message",
-                "text": "EB 21",
-                "font": "LECIP-20:12",
-                "spacing": 3
+            front: {
+                renderType: "message",
+                text: "EB 21",
+                font: "LECIP-20:12",
+                spacing: 3
             }
         }
     },
     922: {
         1: {
-            "front": {
-                "renderType": "message",
-                "text": "EB 22",
-                "font": "LECIP-20:12",
-                "spacing": 3
+            front: {
+                renderType: "message",
+                text: "EB 22",
+                font: "LECIP-20:12",
+                spacing: 3
             }
         }
     },
     926: {
         1: {
-            "front": {
-                "renderType": "message",
-                "text": "EB 26",
-                "font": "LECIP-20:12",
-                "spacing": 3
+            front: {
+                renderType: "message",
+                text: "EB 26",
+                font: "LECIP-20:12",
+                spacing: 3
             }
         }
     },
     928: {
         1: {
-            "front": {
-                "renderType": "message",
-                "text": "EB 28",
-                "font": "LECIP-20:12",
-                "spacing": 3
+            front: {
+                renderType: "message",
+                text: "EB 28",
+                font: "LECIP-20:12",
+                spacing: 3
             }
         }
     },
     931: {
         1: {
-            "front": {
-                "renderType": "message",
-                "text": "EB 31",
-                "font": "LECIP-20:12",
-                "spacing": 3
+            front: {
+                renderType: "message",
+                text: "EB 31",
+                font: "LECIP-20:12",
+                spacing: 3
             }
         }
     },
     936: {
         1: {
-            "front": {
-                "renderType": "message",
-                "text": "EB 36",
-                "font": "LECIP-20:12",
-                "spacing": 3
+            front: {
+                renderType: "message",
+                text: "EB 36",
+                font: "LECIP-20:12",
+                spacing: 3
             }
         }
     },
     937: {
         1: {
-            "front": {
-                "renderType": "message",
-                "text": "EB 37",
-                "font": "LECIP-20:12",
-                "spacing": 3
+            front: {
+                renderType: "message",
+                text: "EB 37",
+                font: "LECIP-20:12",
+                spacing: 3
             }
         }
     },
     939: {
         1: {
-            "front": {
-                "renderType": "message",
-                "text": "EB 39",
-                "font": "LECIP-20:12",
-                "spacing": 3
+            front: {
+                renderType: "message",
+                text: "EB 39",
+                font: "LECIP-20:12",
+                spacing: 3
             }
         }
     },
     941: {
         1: {
-            "front": {
-                "renderType": "message",
-                "text": "EB 41",
-                "font": "LECIP-20:12",
-                "spacing": 3
+            front: {
+                renderType: "message",
+                text: "EB 41",
+                font: "LECIP-20:12",
+                spacing: 3
             }
         }
     },
     942: {
         1: {
-            "front": {
-                "renderType": "message",
-                "text": "EB 42",
-                "font": "LECIP-20:12",
-                "spacing": 3
+            front: {
+                renderType: "message",
+                text: "EB 42",
+                font: "LECIP-20:12",
+                spacing: 3
             }
         }
     },
     943: {
         1: {
-            "front": {
-                "renderType": "message",
-                "text": "EB 43",
-                "font": "LECIP-20:12",
-                "spacing": 3
+            front: {
+                renderType: "message",
+                text: "EB 43",
+                font: "LECIP-20:12",
+                spacing: 3
             }
         }
     },
     944: {
         1: {
-            "front": {
-                "renderType": "message",
-                "text": "EB 44",
-                "font": "LECIP-20:12",
-                "spacing": 3
+            front: {
+                renderType: "message",
+                text: "EB 44",
+                font: "LECIP-20:12",
+                spacing: 3
             }
         }
     },
     948: {
         1: {
-            "front": {
-                "renderType": "message",
-                "text": "EB 48",
-                "font": "LECIP-20:12",
-                "spacing": 3
+            front: {
+                renderType: "message",
+                text: "EB 48",
+                font: "LECIP-20:12",
+                spacing: 3
             }
         }
     },
     951: {
         1: {
-            "front": {
-                "renderType": "message",
-                "text": "EB 51",
-                "font": "LECIP-20:12",
-                "spacing": 3
+            front: {
+                renderType: "message",
+                text: "EB 51",
+                font: "LECIP-20:12",
+                spacing: 3
             }
         }
     },
     988: {
         1: {
-            "front": {
-                "renderType": "message",
-                "text": "EB 88",
-                "font": "LECIP-20:12",
-                "spacing": 3
+            front: {
+                renderType: "message",
+                text: "EB 88",
+                font: "LECIP-20:12",
+                spacing: 3
             }
         }
     },
