@@ -3,6 +3,7 @@
     width: 50vw;
 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
@@ -63,4 +64,23 @@
   border-right: 1.25vw solid transparent;
 
   border-top: 2vw solid #ffffff;
+}
+
+#screen {
+    position: absolute;
+    width: 22.5vw;
+    height: 7vw;
+    background-color: #95be4f;
+    margin-left: 2.5vw;
+}
+
+#label {
+    font-family: "Helvetica Neue";
+    font-size: 2vw;
+    white-space: pre;
+    width: 100%;
+    color: #ffffff;
+
+    width: 40vw;
+    height: 25vw;
 }
