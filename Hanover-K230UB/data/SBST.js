@@ -13,8 +13,9 @@ EDSFormats.SBST = {
             align: "left,bottom",
             margin: {
                 bottom: {
-                    "$destinationFont === 'Hanover-8:5'": 1,
-                    "$destinationFont === 'Hanover-10'": 0
+                    "$destinationFont |== 'Hanover-7:5'": 2,
+                    "$destinationFont |== 'Hanover-8:5'": 1,
+                    "$destinationFont |== 'Hanover-10'": 0
                 },
                 left: 1
             },
@@ -135,7 +136,7 @@ EDSData.SBST = {
                     "LOWER DELTA RD",
                     "BUKIT PURMEI AVE"
                 ],
-                scrollFont: "LECIP-7:5" // direct copy LECIP-7:5 to Hanover-7:5, check for consistency
+                scrollFont: "Hanover-7:5" // direct copy LECIP-7:5 to Hanover-7:5, check for consistency
             },
             rear: {
                 renderType: "rearService",
@@ -159,7 +160,7 @@ EDSData.SBST = {
                     "HOLLAND RD",
                     "QUEENSWAY"
                 ],
-                scrollFont: "LECIP-7:5"
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -185,7 +186,7 @@ EDSData.SBST = {
                     "JLN JURONG KECHIL",
                     "BT BATOK E. AVE 6, 3"
                 ],
-                scrollFont: "LECIP-7:5"
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -210,11 +211,33 @@ EDSData.SBST = {
                     "NTH, STH BRIDGE RD",
                     "NTH BRIDGE RD"
                 ],
-                scrollFont: "LECIP-7:5"
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",
                 serviceNumber: "174",
+                font: "Hanover-19:11",
+                spacing: 2
+            }
+        }
+    },
+    258: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "258",
+                destination: "JOO KOON INT-JUR W.ST64",
+                destinationFont: "Hanover-7:5;Space-Width=1",
+                scrolls: [
+                    "PIONEER RD NTH",
+                    "JURONG WEST ST 61,81,75",
+                    "JLN AHMAD IBRAHIM"
+                ],
+                scrollFont: "Hanover-7:5;Space-Width=1"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "258",
                 font: "Hanover-19:11",
                 spacing: 2
             }

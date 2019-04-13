@@ -26,6 +26,10 @@ function solveConditonal(cases, data) {
                         if (variable == check && !value)
                             value = cases[case_];
                         break;
+
+                    case '|==':
+                        if (variable.includes(check) && !value)
+                        value = cases[case_];
                 }
         });
 
