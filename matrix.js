@@ -1,14 +1,12 @@
 class LEDMatrix {
 
-    constructor(width, height, container) {
+    constructor(width, height, container, matrixType, ...underlyingMatrixArguments) {
         this.width = width;
         this.height = height;
         this.scrollIntervals = [];
-        this.matrix = new DOMBasedLEDMatrix(width, height, leds => {
-            leds.forEach(led => {
-                container.appendChild(led);
-            });
-        });
+        matrixType = matrixType || DOMBasedLEDMatrix;
+
+        this.matrix = new matrixType(width, height, container, ...underlyingMatrixArguments);
 
         this.inverted = false;
     }
@@ -125,9 +123,47 @@ class LEDMatrix {
 
 }
 
+class CanvasBasedLEDMatrix {
+
+    constructor(width, height, canvas, scaleFactor) {
+        canvas.width = width * scaleFactor;
+        canvas.height = height * scaleFactor;
+        this.scaleFactor = scaleFactor;
+
+        this.canvas = canvas;
+
+        let context = this.canvas.getContext('2d');
+        this.filledPixel = context.createImageData(1,1);
+        this.emptyPixel = context.createImageData(1,1);
+        for (let i = 0; i < 4; i++) {
+            this.filledPixel.data[i] = 255;
+            this.emptyPixel.data[i] = 0;
+        }
+
+        this.emptyPixel.data[3] = 255;
+    }
+
+    setLEDState(x, y, state, colour) {
+        let context = this.canvas.getContext('2d');
+
+        for (let i = 0; i < this.scaleFactor; i++) {
+            for (let j = 0; j < this.scaleFactor; j++) {
+                context.putImageData(state ? this.filledPixel : this.emptyPixel, this.scaleFactor * x + i, this.scaleFactor * y + j);
+            }
+        }
+    }
+
+    getLEDState(x, y) {
+        let context = this.canvas.getContext('2d');
+
+        return !!context.getImageData(x * this.scaleFactor, y * this.scaleFactor, 1, 1).data[0];
+    }
+
+}
+
 class DOMBasedLEDMatrix {
 
-    constructor(width, height, complete) {
+    constructor(width, height, container) {
         this.leds = [];
         this.width = width;
         this.height = height;
@@ -148,7 +184,9 @@ class DOMBasedLEDMatrix {
             cells.push(ledCell)
         }
 
-        complete(cells);
+        this.leds.forEach(led => {
+            container.appendChild(led);
+        });
     }
 
     static twodimToFlat(x, y, width) {

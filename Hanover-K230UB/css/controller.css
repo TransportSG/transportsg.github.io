@@ -1,6 +1,6 @@
 #controller {
-    height: 22.5vw;
-    width: 50vw;
+    height: 20vw;
+    width: 45vw;
 
     display: flex;
     flex-direction: column;
@@ -72,6 +72,17 @@
     height: 7vw;
     background-color: #95be4f;
     margin-left: 2.5vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#screen > span {
+    white-space: pre;
+    width: 22.5vw;
+    font-family: monospace;
+    font-size: 2vw;
 }
 
 #label {
@@ -82,5 +93,5 @@
     color: #ffffff;
 
     width: 40vw;
-    height: 25vw;
+    margin-bottom: 1.2vw;
 }
