@@ -5,9 +5,11 @@
     <script src='/fonts.js'></script>
     <script src='/eds-renderer.js'></script>
 
+    <script src='/Hanover-K230UB/eds.js'></script>
     <script src='/Hanover-K230UB/js/controller.js'></script>
     <link rel='stylesheet' href='/Hanover-K230UB/css/controller.css'>
     <link rel='stylesheet' href='/Hanover-K230UB/css/style.css'>
+    <link rel='stylesheet' href='/Hanover-K230UB/css/eds.css'>
 
     <style id='led-style'>
     </style>
@@ -17,57 +19,65 @@
 </head>
 
 <body>
-    <div id='controller'>
-        <span id='label'> HANOVER DISPLAYS         ERIC+</span>
+    <div id='top-row'>
+        <div id='controller-container'>
+            <div id='controller'>
+                <span id='label'> HANOVER DISPLAYS        ERIC +</span>
 
-        <div id='main-controller'>
-            <div id='screen'>
-                <span id='screen-top-line'>Dest No.: 174 T1</span>
-                <span id='screen-bottom-line'>> NEW BRIDGE ROAD</span>
-            </div>
-            <div id='controller-grid'>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+                <div id='main-controller'>
+                    <div id='screen'>
+                        <span id='screen-top-line'>Dest No.: 174 T1</span>
+                        <span id='screen-bottom-line'>> NEW BRIDGE ROAD</span>
+                    </div>
+                    <div id='controller-grid'>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
 
-                <div class='blue-button'>X</div>
-                <div class='blue-button'>Y</div>
+                        <div class='blue-button'>X</div>
+                        <div class='blue-button'>Y</div>
 
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
 
-                <div class='red-button' id='keypad-R'>R</div>
-                <div class='red-button' id='keypad-D'>D</div>
+                        <div class='red-button' id='keypad-R'>R</div>
+                        <div class='red-button' id='keypad-D'>D</div>
 
-                <div class='gray-button' id='keypad-1'>1</div>
-                <div class='gray-button' id='keypad-3'>3</div>
-                <div class='gray-button' id='keypad-5'>5</div>
-                <div class='gray-button' id='keypad-7'>7</div>
-                <div class='gray-button' id='keypad-9'>9</div>
-                <div class='blue-button' id='keypad-up'>
-                    <div class='up-arrow'></div>
+                        <div class='gray-button' id='keypad-1'>1</div>
+                        <div class='gray-button' id='keypad-3'>3</div>
+                        <div class='gray-button' id='keypad-5'>5</div>
+                        <div class='gray-button' id='keypad-7'>7</div>
+                        <div class='gray-button' id='keypad-9'>9</div>
+                        <div class='blue-button' id='keypad-up'>
+                            <div class='up-arrow'></div>
+                        </div>
+                        <div class='red-button' id='keypad-I'>N</div>
+                        <div class='red-button' id='keypad-N'>I</div>
+
+                        <div class='gray-button' id='keypad-2'>2</div>
+                        <div class='gray-button' id='keypad-4'>4</div>
+                        <div class='gray-button' id='keypad-6'>6</div>
+                        <div class='gray-button' id='keypad-8'>8</div>
+                        <div class='gray-button' id='keypad-0'>0</div>
+                        <div class='blue-button' id='keypad-down'>
+                            <div class='down-arrow'></div>
+                        </div>
+                        <div class='red-button' id='keypad-F'>F</div>
+                        <div class='blue-button' id='keypad-ent'>Ent</div>
+                    </div>
                 </div>
-                <div class='red-button' id='keypad-I'>N</div>
-                <div class='red-button' id='keypad-N'>I</div>
-
-                <div class='gray-button' id='keypad-2'>2</div>
-                <div class='gray-button' id='keypad-4'>4</div>
-                <div class='gray-button' id='keypad-6'>6</div>
-                <div class='gray-button' id='keypad-8'>8</div>
-                <div class='gray-button' id='keypad-0'>0</div>
-                <div class='blue-button' id='keypad-down'>
-                    <div class='down-arrow'></div>
-                </div>
-                <div class='red-button' id='keypad-F'>F</div>
-                <div class='blue-button' id='keypad-ent'>Ent</div>
             </div>
+        </div>
+    </div>
+    <div id='front-eds-container'>
+        <div id='front-eds'>
         </div>
     </div>
 </body>

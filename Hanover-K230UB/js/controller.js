@@ -1,11 +1,29 @@
 let currentScreen = 'home';
 
-function registerKeyPress(keyNum) {
+let code = [0, 0, 0, 0];
 
+function numberPressed(keyNum) {
+    code = code.concat(keyNum).slice(-4);
+    if (currentScreen !== 'svc-input') {
+        currentScreen = 'svc-input';
+    }
+
+    setScreenText('Inputting code', code.join(''));
 }
 
 function entClicked() {
+    if (currentScreen == 'svc-input') {
+        let newCode = code.join('').replace(/^0+/, '');
 
+        let width = frontEDS.measureText(newCode, 'Hanover-19:11', 1).width;
+        console.log(newCode, 'Hanover-19:11', 1, 0, 160 - width);
+        frontEDS.drawText(newCode, 'Hanover-19:11', 1, 160 - width, 0);
+
+        currentScreen = 'home';
+        setScreenText('Dest no.: ' + newCode  + ' T1', '> SOMEWHERE');
+
+        code = [0, 0, 0, 0];
+    }
 }
 
 function upClicked() {
@@ -16,11 +34,20 @@ function downClicked() {
 
 }
 
+function setScreenText(line1, line2) {
+    if (line1) {
+        document.getElementById('screen-top-line').textContent = line1;
+    }
+    if (line2) {
+        document.getElementById('screen-bottom-line').textContent = line2;
+    }
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     for (let keynum = 0; keynum < 10; keynum++) {
         let element = document.getElementById('keypad-' + keynum);
         element.addEventListener('click', () => {
-            registerNumericalKeyPress(keynum);
+            numberPressed(keynum);
         });
     }
 
