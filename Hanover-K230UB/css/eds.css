@@ -20,6 +20,7 @@
 
 }
 #top-row {
+    height: 60vh;
     display: flex;
 }
 
