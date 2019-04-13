@@ -16,7 +16,7 @@ function entClicked() {
         let newCode = code.join('').replace(/^0+/, '');
 
         let width = frontEDS.measureText(newCode, 'Hanover-19:11', 1).width;
-        
+
         frontEDS.clearRectangle(0, 0, frontEDS.width, frontEDS.height);
         frontEDS.drawText(newCode, 'Hanover-19:11', 1, 160 - width, 0);
 
@@ -44,6 +44,14 @@ function setScreenText(line1, line2) {
     }
 }
 
+function setCode(code) {
+    if (!EDSData.SBST[code]) return;
+
+    let frontDisplay = EDSData.SBST[code][1].front;
+    let parsedFront = parseFormat(EDSFormats.SBST[frontDisplay.renderType], frontDisplay, EDSImages.SBST, frontEDS);
+    render(parsedFront, frontEDS);
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     for (let keynum = 0; keynum < 10; keynum++) {
         let element = document.getElementById('keypad-' + keynum);
@@ -55,4 +63,6 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('keypad-ent').addEventListener('click', entClicked);
     document.getElementById('keypad-up').addEventListener('click', upClicked);
     document.getElementById('keypad-down').addEventListener('click', downClicked);
+
+    setCode(123);
 });
