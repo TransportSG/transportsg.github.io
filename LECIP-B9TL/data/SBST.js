@@ -3085,13 +3085,13 @@ EDSData.SBST = {
                     "AIRPORT RD"
                 ],
                 scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "90",
+                font: "LECIP-20:12",
+                spacing: 2
             }
-        },
-        rear: {
-            renderType: "rearService",
-            serviceNumber: "90",
-            font: "LECIP-20:12",
-            spacing: 2
         }
     },
     91: {
@@ -3110,13 +3110,13 @@ EDSData.SBST = {
                     'NORTH BUONA VISTA RD'
                 ],
                 scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "91",
+                font: "LECIP-20:12",
+                spacing: 2
             }
-        },
-        rear: {
-            renderType: "rearService",
-            serviceNumber: "91",
-            font: "LECIP-20:12",
-            spacing: 2
         }
     },
     92: {
@@ -3137,13 +3137,13 @@ EDSData.SBST = {
                     'MOUNT SINAI RISE'
                 ],
                 scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "92",
+                font: "LECIP-20:12",
+                spacing: 2
             }
-        },
-        rear: {
-            renderType: "rearService",
-            serviceNumber: "92",
-            font: "LECIP-20:12",
-            spacing: 2
         }
     },
     93: {
