@@ -105,3 +105,29 @@
     width: 40vw;
     margin-bottom: 1.2vw;
 }
+
+#alphanum-button-container {
+    position: absolute;
+    width: 4vw;
+    height: 4vw;
+}
+
+#alphanum-button-container > * {
+    position: absolute;
+    font-size: 1.1vw;
+}
+
+#alphanum-button-container > :nth-child(1) {
+    top: 0.3vw;
+    left: 0.3vw;
+}
+
+#alphanum-button-container > :nth-child(2) {
+    top: 0.3vw;
+    right: 0.3vw;
+}
+
+#alphanum-button-container > :nth-child(3) {
+    bottom: 0.3vw;
+    right: 0.3vw;
+}

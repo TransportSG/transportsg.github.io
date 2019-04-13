@@ -16,7 +16,8 @@ function entClicked() {
         let newCode = code.join('').replace(/^0+/, '');
 
         let width = frontEDS.measureText(newCode, 'Hanover-19:11', 1).width;
-        console.log(newCode, 'Hanover-19:11', 1, 0, 160 - width);
+        
+        frontEDS.clearRectangle(0, 0, frontEDS.width, frontEDS.height);
         frontEDS.drawText(newCode, 'Hanover-19:11', 1, 160 - width, 0);
 
         currentScreen = 'home';
