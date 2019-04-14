@@ -2,9 +2,6 @@ EDSFormats.SBST = {
     standardService: {
         serviceNumber: {
             align: "right",
-            margin: {
-                right: 1
-            },
             text: "$serviceNumber",
             font: "Hanover-19:11",
             spacing: 3
@@ -15,24 +12,20 @@ EDSFormats.SBST = {
                 bottom: {
                     "$destinationFont |== 'Hanover-7:3'": 2,
                     "$destinationFont |== 'Hanover-7:5'": 2,
-                    "$destinationFont |== 'Hanover-8:5'": 1,
+                    "$destinationFont |== 'Hanover-8'": 1,
                     "$destinationFont |== 'Hanover-10'": 0
-                },
-                left: 1
+                }
             },
             text: "$destination",
             font: "$destinationFont",
             spacing: {
                 "$destinationFont |== 'Hanover-10'": 2,
-                "$destinationFont |== 'Hanover-8:5'": 1,
+                "$destinationFont |== 'Hanover-8'": 1,
                 "$destinationFont |== 'Hanover-7:3'": 1,
             }
         },
         scroll: {
             align: "left,top",
-            margin: {
-                left: 1
-            },
             scrolls: "$scrolls",
             rotate: true,
             rotateSpeed: 3000,
@@ -78,18 +71,12 @@ EDSFormats.SBST = {
     brandedSvc: {
         serviceNumber: {
             align: "right",
-            margin: {
-                right: 1
-            },
             text: "$serviceNumber",
             font: "Hanover-19:11",
             spacing: 2
         },
         branding: {
             align: "left",
-            margin: {
-                left: 1
-            },
             text: "$branding",
             font: "$font",
             spacing: '$spacing'
@@ -126,15 +113,9 @@ EDSFormats.SBST = {
         image: {
             align: "left",
             image: "$image",
-            margin: {
-                left: 1
-            }
         },
         serviceNumber: {
             align: "right",
-            margin: {
-                right: 1
-            },
             text: "$serviceNumber",
             font: "Hanover-19:11;Space-Width=1",
             spacing: 1 // Just to trigger people HAHAHAHA
@@ -355,7 +336,7 @@ EDSData.SBST = {
                     "LOWER DELTA RD",
                     "BUKIT PURMEI AVE"
                 ],
-                scrollFont: "Hanover-7:5" // direct copy Hanover-7:5 to Hanover-7:5, check for consistency
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -438,7 +419,7 @@ EDSData.SBST = {
         }
     },
     174: {
-        1: {
+        2: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "174",
@@ -462,12 +443,12 @@ EDSData.SBST = {
                 spacing: 2
             }
         },
-        2: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "174",
                 destination: "> KAMPONG BAHRU TER",
-                destinationFont: "Hanover-8:5",
+                destinationFont: "Hanover-8",
                 scrolls: [
                     "BT BATOK E. AVE 3, 6",
                     "JLN JURONG KECHIL",
@@ -494,7 +475,7 @@ EDSData.SBST = {
                 renderType: "standardService",
                 serviceNumber: "258",
                 destination: "JOO KOON INT-JUR W.ST64",
-                destinationFont: "Hanover-7:5;Space-Width=1",
+                destinationFont: "Hanover-8;Space-Width=1",
                 scrolls: [
                     "PIONEER RD NTH",
                     "JURONG WEST ST 61,81,75",
