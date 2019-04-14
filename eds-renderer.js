@@ -55,7 +55,7 @@ function solveAlignment(align, textWidth, textHeight, matrixWidth, matrixHeight)
     return {x, y};
 }
 
-function findSectionWidth(section, data, matrix) {
+function findSectionWidth(section, data, images, matrix) {
     if (section.text) {
         let text = resolveValue(section.text, data);
         let font;
@@ -68,36 +68,41 @@ function findSectionWidth(section, data, matrix) {
         let spacing = resolveValue(section.spacing, data)*1;
 
         return matrix.measureText(text, font, spacing).width;
+    } else if (section.image) {
+        let imageName = resolveValue(section.image, data);
+        return images[imageName].map(line => line.length).sort((a, b) => b - a)[0];
     }
 
     return 0;
 }
 
-function parseMarginShifts(value, sections, data, matrix) {
+function parseMarginShifts(value, sections, data, images, matrix) {
     if (!isNaN(value)) return value;
     let offset = 0;
     let parts = value.split(' ');
+    let sign = 1;
     parts.forEach(part => {
-        if (part.startsWith('width(') && part.endsWith(')')) {
+        if (part == '+') sign = 1;
+        else if (part == '-') sign = -1;
+        else if (part.startsWith('width(') && part.endsWith(')')) {
             let sectionName = part.slice(6, -1);
-
-            offset += findSectionWidth(sections[sectionName], data, matrix);
+            offset += findSectionWidth(sections[sectionName], data, images, matrix) * sign;
         } else if (part.startsWith('len(') && part.endsWith(')')) {
-            offset += part.slice(4, -1) * 1;
+            offset += part.slice(4, -1) * sign;
         }
     });
 
     return offset;
 }
 
-function adjustMargins(x, y, alignments, margins, data, sections, matrix) {
+function adjustMargins(x, y, alignments, margins, data, images, sections, matrix) {
     let xmod = 1, ymod = 1;
     if (alignments.includes('centre-x')) xmod = 0.5;
     if (alignments.includes('centre-y')) ymod = 0.5;
 
     Object.keys(margins).forEach(margin => {
         let value = solveConditonal(margins[margin], data);
-        let shift = parseMarginShifts(value, sections, data, matrix);
+        let shift = parseMarginShifts(value, sections, data, images, matrix);
 
         switch(margin) {
             case 'left':
@@ -117,7 +122,7 @@ function adjustMargins(x, y, alignments, margins, data, sections, matrix) {
     return {x, y};
 }
 
-function resolvePosition(formatting, sections, matrix, data) {
+function resolvePosition(formatting, sections, matrix, data, images) {
     let {width, height} = matrix;
 
     let align = formatting.align;
@@ -135,7 +140,7 @@ function resolvePosition(formatting, sections, matrix, data) {
         let {x, y} = solveAlignment(align, totalWidth, greatestHeight, width, height);
 
         if (formatting.margin) {
-            let d = adjustMargins(x, y, align.split(','), formatting.margin, data, sections, matrix);
+            let d = adjustMargins(x, y, align.split(','), formatting.margin, data, images, sections, matrix);
 
             x = d.x, y = d.y;
         }
@@ -170,7 +175,7 @@ function resolvePosition(formatting, sections, matrix, data) {
 
     let {x, y} = solveAlignment(align, textWidth, textHeight, width, height);
     if (formatting.margin) {
-        let d = adjustMargins(x, y, align.split(','), formatting.margin, data, sections, matrix);
+        let d = adjustMargins(x, y, align.split(','), formatting.margin, data, images, sections, matrix);
         x = d.x, y = d.y;
     }
 
@@ -224,7 +229,7 @@ function parseFormat(format, data, images, matrix) {
                     spacing: formatting.spacing,
                     text,
                     font,
-                }, format, matrix, data));
+                }, format, matrix, data, images));
             });
 
             let n = -1;
@@ -245,7 +250,7 @@ function parseFormat(format, data, images, matrix) {
 
             let {x, y} = solveAlignment(formatting.align, imageWidth, imageHeight, matrix.width, matrix.height);
             if (formatting.margin) {
-                let d = adjustMargins(x, y, formatting.align.split(','), formatting.margin, data, format, matrix);
+                let d = adjustMargins(x, y, formatting.align.split(','), formatting.margin, data, images, format, matrix);
                 x = d.x, y = d.y;
             }
 
@@ -254,7 +259,7 @@ function parseFormat(format, data, images, matrix) {
                 image
             });
         } else
-            output.push(resolvePosition(formatting, format, matrix, data));
+            output.push(resolvePosition(formatting, format, matrix, data, images));
     });
     output.displayName = displayName;
 
