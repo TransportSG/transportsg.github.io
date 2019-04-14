@@ -166,11 +166,11 @@ function setCode(code, direction) {
         let data = EDSData[currentOperator][code][direction];
 
         let {front, rear} = data;
-        let parsedFront = parseFormat(EDSFormats[currentOperator][front.renderType], front, EDSImages[currentOperator], frontEDS);
+        let parsedFront = parseFormat(EDSFormats[currentOperator], front, EDSImages[currentOperator], frontEDS);
         render(parsedFront, frontEDS);
 
         if (rear) {
-            let parsedRear = parseFormat(EDSFormats[currentOperator][rear.renderType], rear, EDSImages[currentOperator], rearEDS);
+            let parsedRear = parseFormat(EDSFormats[currentOperator], rear, EDSImages[currentOperator], rearEDS);
             render(parsedRear, rearEDS);
         }
 

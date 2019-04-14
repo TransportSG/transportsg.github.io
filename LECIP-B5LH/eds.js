@@ -46,11 +46,11 @@ function setCode(code) {
     if (!EDSData.SMRT[code]) return;
 
     let frontDisplay = EDSData.SMRT[code][1].front;
-    let parsedFront = parseFormat(EDSFormats.SMRT[frontDisplay.renderType], frontDisplay, EDSImages.SMRT, frontEDS);
+    let parsedFront = parseFormat(EDSFormats.SMRT, frontDisplay, EDSImages.SMRT, frontEDS);
     render(parsedFront, frontEDS);
 
     let pidsDisplay = EDSData.SMRT[code][1].pids;
-    let parsedPIDS = parseFormat(EDSFormats.SMRT[pidsDisplay.renderType], pidsDisplay, EDSImages.SMRT, internalPIDS);
+    let parsedPIDS = parseFormat(EDSFormats.SMRT, pidsDisplay, EDSImages.SMRT, internalPIDS);
     render(parsedPIDS, internalPIDS);
 }
 
