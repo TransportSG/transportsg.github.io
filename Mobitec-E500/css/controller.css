@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
 #controller * {
-    font-family: 'Open Sans', sans-serif;
+    font-family: Arial;
 }
 
 #controller {
@@ -91,7 +89,8 @@
     background-color: #3b9cd2;
     border: 1.2vw solid #2c4b8a;
 
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     margin-left: 3vw;
     margin-top: 1.2vw;
@@ -158,17 +157,20 @@
 
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 
     background-color: #181818;
     border-radius: 2vw;
     color: #d2d2d2;
     margin: 0;
 }
+#numberpad .button > span:nth-child(1) {
+    margin-left: -0.3vw;
+    margin-right: 0.3vw;
+}
 
 #numberpad .button > span:nth-child(2) {
-    font-size: 0.6vw;
-    margin-left: -1vw;
+    font-size: 0.7vw;
     width: 1.5vw;
     text-align: right;
 }
@@ -211,7 +213,7 @@
     color: #d2d2d2;
     width: 4.5vw;
     height: 1.8vw;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -220,4 +222,62 @@
 
 #yesno-pad > .button > img {
     width: 1.2vw;
+}
+
+.controller-screen {
+    width: 30vw;
+    height: 4vw;
+}
+
+#function-label-row {
+    margin-left: 1vw;
+    margin-top: 0.5vw;
+
+    width: 29vw;
+    height: 3vw;
+
+    display: flex;
+    justify-content: flex-start;
+}
+
+#function-label-row > div.function-label {
+    margin-left: 0.8vw;
+    width: 5vw;
+    height: 1.2vw;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #000000;
+    color: #3b9cd2;
+
+    font-size: 1vw;
+}
+
+#controller-screen-home {
+    margin-top: 1vw;
+    display: flex;
+}
+
+#output-preview {
+    width: 15vw;
+    height: 2.5vw;
+    border: 0.2vw solid black;
+
+    margin-left: 3vw;
+}
+
+#preview-canvas {
+    width: 15vw;
+    height: 2.5vw;
+}
+
+#output-info {
+    margin-left: 4vw;
+    display: flex;
+    flex-direction: column;
+
+    font-size: 1vw;
 }
