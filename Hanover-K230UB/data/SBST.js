@@ -13,6 +13,7 @@ EDSFormats.SBST = {
             align: "left,bottom",
             margin: {
                 bottom: {
+                    "$destinationFont |== 'Hanover-7:3'": 2,
                     "$destinationFont |== 'Hanover-7:5'": 2,
                     "$destinationFont |== 'Hanover-8:5'": 1,
                     "$destinationFont |== 'Hanover-10'": 0
@@ -120,6 +121,125 @@ EDSFormats.SBST = {
 }
 
 EDSData.SBST = {
+
+    50: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "50",
+                destination: "> PUNGGOL INT",
+                destinationFont: "Hanover-10",
+                scrolls: [
+                    "ANG MO KIO AVE 8",
+                    "ANG MO KIO AVE 5",
+                    "YIO CHU KANG RD",
+                    "SENGKANG WEST AVE",
+                    "SENGKANG EAST WAY",
+                    "PUNGGOL DR"
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "50",
+                font: "Hanover-19:11",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "50",
+                destination: "> BISHAN INT",
+                destinationFont: "Hanover-10",
+                scrolls: [
+                    "PUNGGOL DR",
+                    "SENGKANG EAST WAY",
+                    "SENGKANG WEST AVE",
+                    "YIO CHU KANG RD",
+                    "ANG MO KIO AVE 5",
+                    "ANG MO KIO AVE 8"
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "50",
+                font: "Hanover-19:11",
+                spacing: 2
+            }
+        }
+    },
+    88: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "88",
+                destination: "> TOA PAYOH INT",
+                destinationFont: "Hanover-10",
+                scrolls: [
+                    'PASIR RIS DR 3',
+                    'PUNGGOL RD',
+                    'HOUGANG AVE 8',
+                    'ANG MO KIO AVE 5',
+                    'BISHAN ST 22'
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "88",
+                font: "Hanover-19:11",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "88",
+                destination: "> PASIR RIS INT",
+                destinationFont: "Hanover-10",
+                scrolls: [
+                    'BISHAN ST 22',
+                    'ANG MO KIO AVE 5',
+                    'HOUGANG AVE 8',
+                    'PUNGGOL RD',
+                    'PASIR RIS DR 3'
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "88",
+                font: "Hanover-19:11",
+                spacing: 2
+            }
+        }
+    },
+    120: { //todo font
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "120",
+                destination: "KG BAHRU TER-T.BLANGAH HTS",
+                destinationFont: "Hanover-7:3",
+                scrolls: [
+                    "JALAN BUKIT MERAH",
+                    "TELOK BLANGAH HTS",
+                    "TELOK BLANGAH RD",
+                    "ALEXANDRA RD", // <-
+                    "TIONG BAHRU RD"
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "120",
+                font: "Hanover-19:11",
+                spacing: 2
+            }
+        }
+    },
     123: {
         1: {
             front: {
@@ -136,7 +256,7 @@ EDSData.SBST = {
                     "LOWER DELTA RD",
                     "BUKIT PURMEI AVE"
                 ],
-                scrollFont: "Hanover-7:5" // direct copy LECIP-7:5 to Hanover-7:5, check for consistency
+                scrollFont: "Hanover-7:5" // direct copy Hanover-7:5 to Hanover-7:5, check for consistency
             },
             rear: {
                 renderType: "rearService",
@@ -165,6 +285,54 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "123",
+                font: "Hanover-19:11",
+                spacing: 2
+            }
+        }
+    },
+    124: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "124",
+                destination: "> ST MICHAEL'S TER",
+                destinationFont: "Hanover-10",
+                scrolls: [
+                    "NEW BRIDGE RD",
+                    "KAMPONG BAHRU RD",
+                    "TELOK BLANGAH HTS",
+                    "MOULMEIN RD",
+                    "ORCHARD RD"
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "124",
+                font: "Hanover-19:11",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "124",
+                destination: "> HARBOURFRONT INT",
+                destinationFont: "Hanover-10",
+                scrolls: [
+                    "TELOK BLANGAH HTS",
+                    "TELOK BLANGAH WAY",
+                    "EU TONG SEN ST",
+                    "ORCHARD TURN",
+                    "MOULMEIN RD",
+                    "TELOK BLANGAH WAY",
+                    "KAMPONG BAHRU RD"
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "124",
                 font: "Hanover-19:11",
                 spacing: 2
             }
