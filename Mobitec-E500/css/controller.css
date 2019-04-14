@@ -226,7 +226,7 @@
 
 .controller-screen {
     width: 30vw;
-    height: 4vw;
+    height: 5vw;
 }
 
 #function-label-row {
@@ -234,7 +234,7 @@
     margin-top: 0.5vw;
 
     width: 29vw;
-    height: 3vw;
+    height: 1.5vw;
 
     display: flex;
     justify-content: flex-start;
@@ -259,6 +259,7 @@
 #controller-screen-home {
     margin-top: 1vw;
     display: flex;
+    height: 4vw;
 }
 
 #output-preview {
@@ -280,4 +281,52 @@
     flex-direction: column;
 
     font-size: 1vw;
+}
+
+#controller-screen-dest {
+    width: 28vw;
+}
+
+.table-labels {
+    margin-top: 0.2vw;
+
+    line-height: 0.8vw;
+    font-size: 0.8vw;
+    height: 1vw;
+
+    display: flex;
+}
+
+.table-labels > span {
+    display: inline-block;
+    width: 5vw;
+}
+
+.dest-table {
+    width: 27.6vw;
+    height: 3.6vw;
+    border: 0.2vw solid black;
+}
+
+.dest-table-item {
+    height: 1.2vw;
+    display: flex;
+    align-items: center;
+}
+
+.dest-table-item > span {
+    height: 1.2vw;
+    font-size: 1vw;
+    width: 4.7vw;
+    margin-left: 0.3vw;
+}
+
+.dest-table-item > span:nth-child(3) {
+    width: 17.6vw;
+    overflow: hidden;
+}
+
+.table-selected-row {
+    background-color: black;
+    color: #3b9cd2;
 }
