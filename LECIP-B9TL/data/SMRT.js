@@ -624,6 +624,12 @@ EDSData.SMRT = {
                     'B  P       R'
                 ],
                 scrollFont:"LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "190",
+                font: "LECIP-20:12",
+                spacing: 2
             }
         }
     },
