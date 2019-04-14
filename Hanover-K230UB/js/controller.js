@@ -20,7 +20,6 @@ function entClicked() {
         setCode(newCode);
 
         currentScreen = 'home';
-        setScreenText('Dest no.: ' + newCode  + ' T1', '> SOMEWHERE');
 
         code = [0, 0, 0, 0];
     }
@@ -49,6 +48,9 @@ function setCode(code) {
     let frontDisplay = EDSData.SBST[code][1].front;
     let parsedFront = parseFormat(EDSFormats.SBST[frontDisplay.renderType], frontDisplay, EDSImages.SBST, frontEDS);
     render(parsedFront, frontEDS);
+
+    let {displayName} = parsedFront;
+    setScreenText('Dest no.: ' + code  + ' T1', displayName);
 }
 
 document.addEventListener('DOMContentLoaded', () => {

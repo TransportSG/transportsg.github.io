@@ -90,13 +90,18 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 #screen > span {
     white-space: pre;
-    width: 22.5vw;
+    width: 21.5vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
     font-family: monospace;
     font-size: 2vw;
+
+    overflow: hidden;
 }
 
 #label {
