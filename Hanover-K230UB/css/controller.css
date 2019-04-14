@@ -96,8 +96,8 @@
 #screen > span {
     white-space: pre;
     width: 21.5vw;
-    padding-left: 0.5vw;
-    padding-right: 0.5vw;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
     font-family: monospace;
     font-size: 2vw;
 

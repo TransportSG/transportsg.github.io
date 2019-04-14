@@ -1,0 +1,15 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #010101;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#controller {
+    transform: scale(1.5);
+}
