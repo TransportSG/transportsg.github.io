@@ -1,4 +1,6 @@
 function resolveValue(value, data) {
+    if (value.toString() == '[object Object]') return value;
+
     value = value.toString();
     if (value.startsWith('$'))
         return data[value.slice(1)];
@@ -127,7 +129,7 @@ function resolvePosition(formatting, sections, matrix, data, images) {
 
     let align = formatting.align;
     let text = resolveValue(formatting.text, data);
-    let spacing = resolveValue(formatting.spacing, data) * 1;
+    let spacing = solveConditonal(resolveValue(formatting.spacing, data), data) * 1;
 
     if (text instanceof Array) {
         let measures = text.map(text => matrix.measureText(text.text, text.font, spacing))

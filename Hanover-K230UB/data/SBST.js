@@ -7,7 +7,7 @@ EDSFormats.SBST = {
             },
             text: "$serviceNumber",
             font: "Hanover-19:11",
-            spacing: 2
+            spacing: 3
         },
         destination: {
             align: "left,bottom",
@@ -22,7 +22,11 @@ EDSFormats.SBST = {
             },
             text: "$destination",
             font: "$destinationFont",
-            spacing: 1
+            spacing: {
+                "$destinationFont |== 'Hanover-10'": 2,
+                "$destinationFont |== 'Hanover-8:5'": 1,
+                "$destinationFont |== 'Hanover-7:3'": 1,
+            }
         },
         scroll: {
             align: "left,top",
