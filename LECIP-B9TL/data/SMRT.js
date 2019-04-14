@@ -92,6 +92,8 @@ EDSFormats.SMRT = {
     }
 }
 
+EDSFormats.SMRT.scammer = EDSFormats.SBST.standardService;
+
 EDSFormats.SMRT.calibriStandardService = JSON.parse(JSON.stringify(EDSFormats.SMRT.standardService));
 EDSFormats.SMRT.calibriStandardService.serviceNumber.font = 'Calibri-17';
 
@@ -608,6 +610,20 @@ EDSData.SMRT = {
                 serviceNumber: "190",
                 font: "Arial-15",
                 spacing: 2
+            }
+        }
+    },
+    "19O": {
+        1: {
+            front: {
+                renderType: "scammer",
+                serviceNumber: "190",
+                destination: "N   B      R",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    'B  P       R'
+                ],
+                scrollFont:"LECIP-7:5"
             }
         }
     },
