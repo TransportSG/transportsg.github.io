@@ -17,8 +17,7 @@ function entClicked() {
 
         let width = frontEDS.measureText(newCode, 'Hanover-19:11', 1).width;
 
-        frontEDS.clearRectangle(0, 0, frontEDS.width, frontEDS.height);
-        frontEDS.drawText(newCode, 'Hanover-19:11', 1, 160 - width, 0);
+        setCode(newCode);
 
         currentScreen = 'home';
         setScreenText('Dest no.: ' + newCode  + ' T1', '> SOMEWHERE');
