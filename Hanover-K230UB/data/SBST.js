@@ -4,7 +4,10 @@ EDSFormats.SBST = {
             align: "right",
             text: "$serviceNumber",
             font: "Hanover-19:11",
-            spacing: 3
+            spacing: {
+                "$spacing === undefined" : 3,
+                "else": "$spacing"
+            }
         },
         destination: {
             align: "left,bottom",
@@ -158,7 +161,7 @@ EDSData.SBST = {
                 scrolls: [
                     {
                         renderType: "holidayMessage",
-                        serviceNumber: "NO U",
+                        serviceNumber: "OFF",
                         image: "fireworks",
 
                         top: "HAPPY NEW YEAR",
@@ -169,7 +172,7 @@ EDSData.SBST = {
                     },
                     {
                         renderType: "holidayMessage",
-                        serviceNumber: "NO U",
+                        serviceNumber: "OFF",
                         image: "fireworks",
 
                         top: "HAPPY",
@@ -180,7 +183,7 @@ EDSData.SBST = {
                     },
                     {
                         renderType: "holidayMessage",
-                        serviceNumber: "NO U",
+                        serviceNumber: "OFF",
                         image: "fireworks",
 
                         top: "Happy National Day",
@@ -477,14 +480,15 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "258",
+                spacing: 1,
                 destination: "JOO KOON INT-JUR W.ST64",
-                destinationFont: "Hanover-8;Space-Width=1",
+                destinationFont: "Hanover-8",
                 scrolls: [
                     "PIONEER RD NTH",
                     "JURONG WEST ST 61,81,75",
                     "JLN AHMAD IBRAHIM"
                 ],
-                scrollFont: "Hanover-7:5;Space-Width=1"
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",

@@ -2,6 +2,8 @@ function resolveValue(value, data) {
     if (value.toString() == '[object Object]') return value;
 
     value = value.toString();
+    if (value === "null") return null;
+    if (value === "undefined") return undefined;
     if (value.startsWith('$'))
         return data[value.slice(1)];
     if (value.startsWith("'") && value.endsWith("'")) return value.slice(1, -1);
@@ -35,7 +37,7 @@ function solveConditonal(cases, data) {
                 }
         });
 
-        return value;
+        return resolveValue(value, data);
     } else return cases;
 
 }
