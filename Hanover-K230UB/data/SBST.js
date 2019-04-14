@@ -425,7 +425,7 @@ EDSData.SBST = {
         }
     },
     174: {
-        2: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "174",
@@ -449,7 +449,7 @@ EDSData.SBST = {
                 spacing: 2
             }
         },
-        1: {
+        2: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "174",
@@ -463,7 +463,6 @@ EDSData.SBST = {
                     "HOLLAND RD",
                     "ORCHARD RD",
                     "NTH, STH BRIDGE RD",
-                    "NTH BRIDGE RD"
                 ],
                 scrollFont: "Hanover-7:5"
             },
