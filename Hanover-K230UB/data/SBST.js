@@ -132,8 +132,8 @@ EDSFormats.SBST = {
                 right: 1
             },
             text: "$serviceNumber",
-            font: "Hanover-19:11",
-            spacing: 2
+            font: "Hanover-19:11;Space-Width=1",
+            spacing: 1 // Just to trigger people HAHAHAHA
         },
         top: {
             align: "centre-x,top",
@@ -160,32 +160,39 @@ EDSFormats.SBST = {
 }
 
 EDSData.SBST = {
-    998: {
-        1: {
-            front: {
-                renderType: "holidayMessage",
-                serviceNumber: "174",
-                image: "fireworks",
-
-                top: "Happy National Day",
-                topFont: "Hanover-7:3",
-
-                bottom: "Singapore!",
-                bottomFont: "Hanover-7:5"
-            }
-        }
-    },
-    999: {
+    1234 : {
         1: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "174",
-                destination: "> BOON LAY INT",
+                serviceNumber: "",
+                destination: "",
                 destinationFont: "Hanover-10",
                 scrolls: [
                     {
                         renderType: "holidayMessage",
-                        serviceNumber: "174",
+                        serviceNumber: "NO U",
+                        image: "fireworks",
+
+                        top: "HAPPY NEW YEAR",
+                        topFont: "Hanover-7:5",
+
+                        bottom: "",
+                        bottomFont: "Hanover-7:5"
+                    },
+                    {
+                        renderType: "holidayMessage",
+                        serviceNumber: "NO U",
+                        image: "fireworks",
+
+                        top: "HAPPY",
+                        topFont: "Hanover-7:5",
+
+                        bottom: "CHINESE NEW YEAR",
+                        bottomFont: "Hanover-7:5"
+                    },
+                    {
+                        renderType: "holidayMessage",
+                        serviceNumber: "NO U",
                         image: "fireworks",
 
                         top: "Happy National Day",
@@ -193,14 +200,7 @@ EDSData.SBST = {
 
                         bottom: "Singapore!",
                         bottomFont: "Hanover-7:5"
-                    },
-                    "EU TONG SEN ST",
-                    "ORCHARD BLVD",
-                    "HOLLAND RD",
-                    "FARRER RD",
-                    "BT TIMAH RD",
-                    "JLN JURONG KECHIL",
-                    "BT BATOK E. AVE 6, 3"
+                    }
                 ],
                 scrollFont: "Hanover-7:5"
             }
@@ -332,6 +332,17 @@ EDSData.SBST = {
                 destination: "> SENTOSA",
                 destinationFont: "Hanover-10",
                 scrolls: [
+                    {
+                        renderType: "holidayMessage",
+                        serviceNumber: "123",
+                        image: "fireworks",
+
+                        top: "I AM THE",
+                        topFont: "Hanover-7:5",
+
+                        bottom: "WORST SERVICE",
+                        bottomFont: "Hanover-7:5"
+                    },
                     "QUEENSWAY",
                     "HOLLAND RD",
                     "ORCHARD RD",
