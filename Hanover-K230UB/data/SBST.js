@@ -126,7 +126,10 @@ EDSFormats.SBST = {
             font: "$topFont",
             spacing: "$topSpacing",
             margin: {
-                top: 1,
+                top: {
+                    "$bottom === ''": 5,
+                    "else": 1
+                },
                 right: 'width(serviceNumber) - width(image)'
             }
         },
@@ -159,7 +162,7 @@ EDSData.SBST = {
                         image: "fireworks",
 
                         top: "HAPPY NEW YEAR",
-                        topFont: "Hanover-7:5",
+                        topFont: "Hanover-8",
 
                         bottom: "",
                         bottomFont: "Hanover-7:5"
