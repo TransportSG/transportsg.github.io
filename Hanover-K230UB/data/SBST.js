@@ -122,6 +122,9 @@ EDSFormats.SBST = {
         image: {
             align: "left",
             image: "$image",
+            margin: {
+                left: 1
+            }
         },
         serviceNumber: {
             align: "right",
@@ -157,18 +160,49 @@ EDSFormats.SBST = {
 }
 
 EDSData.SBST = {
-    999: {
+    998: {
         1: {
             front: {
                 renderType: "holidayMessage",
-                serviceNumber: "258",
-                image: "ingot",
+                serviceNumber: "174",
+                image: "fireworks",
 
-                top: "HAPPY",
-                topFont: "Hanover-7:5",
+                top: "Happy National Day",
+                topFont: "Hanover-7:3",
 
-                bottom: "CHINESE NEW YEAR",
+                bottom: "Singapore!",
                 bottomFont: "Hanover-7:5"
+            }
+        }
+    },
+    999: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "174",
+                destination: "> BOON LAY INT",
+                destinationFont: "Hanover-10",
+                scrolls: [
+                    {
+                        renderType: "holidayMessage",
+                        serviceNumber: "174",
+                        image: "fireworks",
+
+                        top: "Happy National Day",
+                        topFont: "Hanover-7:3",
+
+                        bottom: "Singapore!",
+                        bottomFont: "Hanover-7:5"
+                    },
+                    "EU TONG SEN ST",
+                    "ORCHARD BLVD",
+                    "HOLLAND RD",
+                    "FARRER RD",
+                    "BT TIMAH RD",
+                    "JLN JURONG KECHIL",
+                    "BT BATOK E. AVE 6, 3"
+                ],
+                scrollFont: "Hanover-7:5"
             }
         },
     },

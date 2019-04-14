@@ -182,7 +182,8 @@ function resolvePosition(formatting, sections, matrix, data, images) {
     return {x, y, text, font, spacing, offset};
 }
 
-function parseFormat(format, data, images, matrix) {
+function parseFormat(formats, data, images, matrix) {
+    let format = formats[data.renderType];
     let sections = Object.keys(format);
     let output = [];
     let displayName = '';
@@ -222,6 +223,12 @@ function parseFormat(format, data, images, matrix) {
                     text = scroll.text;
                 } else
                     font = formatting.font;
+
+                if (scroll.renderType) {
+                    let rendered = parseFormat(formats, scroll, images, matrix);
+                    resolvedScrolls.push({rendered});
+                    return;
+                }
 
                 resolvedScrolls.push(resolvePosition({
                     align: formatting.align,
@@ -266,9 +273,11 @@ function parseFormat(format, data, images, matrix) {
     return output;
 }
 
-function render(formatted, matrix) {
-    matrix.scrollIntervals.forEach(i => clearInterval(i));
-    matrix.scrollIntervals = [];
+function render(formatted, matrix, staticOnly) {
+    if (!staticOnly) {
+        matrix.scrollIntervals.forEach(i => clearInterval(i));
+        matrix.scrollIntervals = [];
+    }
 
     matrix.clearRectangle(0, 0, matrix.width, matrix.height);
 
@@ -281,23 +290,16 @@ function render(formatted, matrix) {
             matrix.draw2DArray(data.image, data.x, data.y);
         } else if (typeof data.text === 'string')
             matrix.drawText(data.text, data.font, data.spacing, data.x, data.y);
-        else if (typeof data.text === 'function' && data.rotate) {
-            let previousWidth = 0;
-            let previousHeight = 0;
-            let previousX = 0;
-            let previousY = 0;
-
+        else if (typeof data.text === 'function' && data.rotate && !staticOnly) {
             function renderScroll() {
-                matrix.clearRectangle(previousX, previousY, previousWidth, previousHeight);
-
-                let {text, spacing, font, x, y, offset} = data.text();
-                matrix.drawText(text, font, spacing, x, y);
-
-                let measure = matrix.measureText(text, font, spacing);
-                previousWidth = measure.width;
-                previousHeight = measure.height;
-                previousX = x;
-                previousY = y + offset;
+                let scroll = data.text();
+                let {text, spacing, font, x, y, offset} = scroll;
+                if (!text && scroll.rendered) {
+                    render(scroll.rendered, matrix, true);
+                } else {
+                    render(formatted, matrix, true);
+                    matrix.drawText(text, font, spacing, x, y);
+                }
             }
 
             renderScroll();

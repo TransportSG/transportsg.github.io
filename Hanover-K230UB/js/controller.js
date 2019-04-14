@@ -46,7 +46,7 @@ function setCode(code) {
     if (!EDSData.SBST[code]) return;
 
     let frontDisplay = EDSData.SBST[code][1].front;
-    let parsedFront = parseFormat(EDSFormats.SBST[frontDisplay.renderType], frontDisplay, EDSImages.SBST, frontEDS);
+    let parsedFront = parseFormat(EDSFormats.SBST, frontDisplay, EDSImages.SBST, frontEDS);
     render(parsedFront, frontEDS);
 
     let {displayName} = parsedFront;
