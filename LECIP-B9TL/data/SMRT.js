@@ -205,8 +205,8 @@ EDSData.SMRT = {
         1: {
             front: {
                 renderType: 'message',
-                text: 'WOODLANDS DEPOT', // W, check helen
-                font: 'Arial-15',
+                text: 'WOODLANDS DEPOT',
+                font: 'Arial-8', // check font
                 spacing: 2
             }
         }
