@@ -13,10 +13,14 @@ function resolveValue(value, data) {
 function solveConditonal(cases, data) {
     if (typeof cases === 'object') {
         let value = null;
+        let found = false;
+
         Object.keys(cases).forEach(case_ => {
             if (case_ === 'else') {
-                if (!value)
+                if (!found) {
                     value = cases[case_];
+                    found = true;
+                }
                 return;
             }
 
@@ -24,16 +28,22 @@ function solveConditonal(cases, data) {
             let variable = resolveValue(parts[0], data),
                 sign = parts[1],
                 check = resolveValue(parts[2], data);
+
                 switch (sign) {
                     case '===':
                     case '==':
-                        if (variable == check && !value)
+                        if (variable == check && !found) {
                             value = cases[case_];
+                            found = true
+                        }
                         break;
 
                     case '|==':
-                        if (variable.includes(check) && !value)
-                        value = cases[case_];
+                        if (variable.includes(check) && !found) {
+                            value = cases[case_];
+                            found = true;
+                        }
+                        break;
                 }
         });
 
