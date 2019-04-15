@@ -13886,6 +13886,8 @@ let fontSpacers = {
         if (prev === 'B' && curr === 'A') return 0;
         if (prev === 'B' && curr === 'T') return 0;
         if (prev === 'L' && curr === 'A') return 0;
+        if (prev === 'A' && curr === 'W') return 0;
+        if (prev === 'W' && curr === 'A') return 0;
         if (prev === 'A' && curr === 'Y') return 0;
         return spacing;
     },

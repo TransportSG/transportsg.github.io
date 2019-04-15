@@ -309,6 +309,16 @@ EDSData.SMRT = {
             }
         }
     },
+    113: {
+        1: {
+            front: {
+                renderType: 'message',
+                text: 'AIRSHOW SHUTTLE',
+                font: 'ArialBold-8', // check font
+                spacing: 1
+            }
+        }
+    },
     117: {
         1: {
             front: {
@@ -324,6 +334,7 @@ EDSData.SMRT = {
                 renderType: "message",
                 text: "SMRT FLY OUR FLAG",
                 font: "Arial-12",
+                marginTop: 2,
                 spacing: 1
             }
         }
@@ -448,16 +459,6 @@ EDSData.SMRT = {
                     "SEGAR RD"
                 ],
                 scrollFont: 'Arial-8'
-            }
-        }
-    },
-    113: { // sort
-        1: {
-            front: {
-                renderType: 'message',
-                text: 'AIRSHOW SHUTTLE',
-                font: 'ArialBold-8', // check font
-                spacing: 1
             }
         }
     },
@@ -954,6 +955,22 @@ EDSData.SMRT = {
                 },
                 scrolls: [
                     "TOH GUAN RD"
+                ],
+                scrollFont: 'Calibri-7'
+            }
+        }
+    },
+    589: {
+        1: {
+            front: {
+                renderType: "calibriOldService",
+                serviceNumber: "966",
+                destination: {
+                    text: "MARINE PARADE via",
+                    font: "Calibri-7"
+                },
+                scrolls: [
+                    "PENDING RD"
                 ],
                 scrollFont: 'Calibri-7'
             }
