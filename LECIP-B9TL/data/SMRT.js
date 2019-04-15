@@ -333,7 +333,8 @@ EDSData.SMRT = {
             front: {
                 renderType: "message",
                 text: "SMRT",
-                font: "CalibriBold-17", // make
+                font: "CalibriBold-17",
+                marginLeft: -80, // whack first
                 spacing: 1
             }
         }
