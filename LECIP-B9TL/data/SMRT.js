@@ -1266,6 +1266,23 @@ EDSData.SMRT = {
             }
         }
     },
+    1761: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "176",
+                destination: {
+                    text: "BUKIT MERAH via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    'TELOK BLANGAH RD',
+                    'W. COAST HIGHWAY'
+                ],
+                scrollFont: "Arial-8"
+            }
+        },
+    },
     1781: {
         1: {
             front: {
