@@ -558,6 +558,38 @@ EDSData.SMRT = {
             }
         }
     },
+    422: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "187",
+                destination: {
+                    text: "BOON LAY via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "JURONG EAST AVE 1"
+                ],
+                scrollFont: 'Arial-8'
+            }
+        }
+    },
+    423: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "187",
+                destination: {
+                    text: "WOODLANDS via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "JURONG EAST AVE 1"
+                ],
+                scrollFont: 'Arial-8'
+            }
+        }
+    },
     424: {
         1: {
             front: {

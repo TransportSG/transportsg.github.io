@@ -7,7 +7,7 @@ EDSFormats.SBST = {
             },
             text: "$serviceNumber",
             font: "LECIP-20:12",
-            spacing: 2
+            spacing: 3
         },
         destination: {
             align: "left,bottom",
@@ -21,7 +21,7 @@ EDSFormats.SBST = {
             },
             text: "$destination",
             font: "$destinationFont",
-            spacing: 1
+            spacing: 2
         },
         scroll: {
             align: "left,top",
@@ -59,7 +59,7 @@ EDSFormats.SBST = {
             align: "right",
             text: "$serviceNumber",
             font: "LECIP-20:12",
-            spacing: 2
+            spacing: 3
         },
 
         text: "$destination"
@@ -113,7 +113,7 @@ EDSFormats.SBST = {
             },
             text: "$serviceNumber",
             font: "LECIP-20:12",
-            spacing: 2
+            spacing: 3
         },
         branding: {
             align: "left",
