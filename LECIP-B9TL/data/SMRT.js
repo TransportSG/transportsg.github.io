@@ -1743,6 +1743,22 @@ EDSData.SMRT = {
             }
         }
     },
+    9603: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "960e",
+                destination: {
+                    text: "WOODLANDS via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    'BT TIMAH RD',
+                ],
+                scrollFont: 'Arial-8'
+            }
+        }
+    },
     9631: {
         1: {
             front: {

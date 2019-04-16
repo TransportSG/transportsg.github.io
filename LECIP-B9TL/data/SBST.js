@@ -21,7 +21,10 @@ EDSFormats.SBST = {
             },
             text: "$destination",
             font: "$destinationFont",
-            spacing: 2
+            spacing: {
+                "$destinationFont === 'LECIP-10'": 2,
+                "else": 1
+            }
         },
         scroll: {
             align: "left,top",
