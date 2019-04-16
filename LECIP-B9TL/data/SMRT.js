@@ -1280,6 +1280,12 @@ EDSData.SMRT = {
                     'W. COAST HIGHWAY'
                 ],
                 scrollFont: "Arial-8"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "176",
+                font: "Arial-15",
+                spacing: 2
             }
         },
     },
