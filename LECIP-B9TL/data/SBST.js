@@ -3945,11 +3945,13 @@ EDSData.SBST = {
                 destination: "> ST.MICHAEL'S TER",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
-                    "NEW BRIDGE RD",
-                    "KAMPONG BAHRU RD",
                     "TELOK BLANGAH HTS",
-                    "MOULMEIN RD",
-                    "ORCHARD RD"
+                    "TELOK BLANGAH WAY",
+                    "KAMPONG BAHRU RD",
+                    "NEW BRIDGE RD",
+                    "EU TONG SEN ST",
+                    "ORCHARD TURN",
+                    "MOULMEIN RD"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -3967,13 +3969,12 @@ EDSData.SBST = {
                 destination: "> HARBOURFRONT INT",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
-                    "TELOK BLANGAH HTS",
-                    "TELOK BLANGAH WAY",
-                    "EU TONG SEN ST",
-                    "ORCHARD TURN",
                     "MOULMEIN RD",
+                    "ORCHARD RD",
+                    "NEW BRIDGE RD",
+                    "KAMPONG BAHRU RD",
                     "TELOK BLANGAH WAY",
-                    "KAMPONG BAHRU RD"
+                    "TELOK BLANGAH HTS"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -7313,6 +7314,28 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "325",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        }
+    },
+    329: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "329",
+                destination: "HOUGANG CTRL INT-BUANGKOK CRES",
+                destinationFont: "LECIP-6:3",
+                scrolls: [
+                    "HOUGANG AVE 4,9",
+                    "HOUGANG ST 91,93",
+                    "BUANGKOK LINK"
+                ],
+                scrollFont: "LECIP-6:3"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "329",
                 font: "LECIP-20:12",
                 spacing: 2
             }
