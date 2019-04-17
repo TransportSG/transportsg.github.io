@@ -215,7 +215,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "2N",
-                font: "LECIP-20:",
+                font: "LECIP-20:12",
                 spacing: 2
             }
         }
@@ -232,7 +232,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "3N",
-                font: "LECIP-20:",
+                font: "LECIP-20:12",
                 spacing: 2
             }
         }
