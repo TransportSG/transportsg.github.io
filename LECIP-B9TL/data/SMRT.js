@@ -1263,6 +1263,34 @@ EDSData.SMRT = {
                     'JLN BT MERAH'
                 ],
                 scrollFont: 'Arial-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "167",
+                font: "Arial-15",
+                spacing: 2
+            }
+        }
+    },
+    1691: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "169",
+                destination: {
+                    text: "WOODLANDS via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    'WOODLANDS AVE 8, 9'
+                ],
+                scrollFont: 'Arial-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "169",
+                font: "Arial-15",
+                spacing: 2
             }
         }
     },
@@ -1272,12 +1300,12 @@ EDSData.SMRT = {
                 renderType: "standardService",
                 serviceNumber: "176",
                 destination: {
-                    text: "BUKIT MERAH via",
+                    text: "BT MERAH via",
                     font: "ArialBold-8"
                 },
                 scrolls: [
                     'TELOK BLANGAH RD',
-                    'W. COAST HIGHWAY'
+                    'W.COAST HIGHWAY'
                 ],
                 scrollFont: "Arial-8"
             },
@@ -1306,6 +1334,12 @@ EDSData.SMRT = {
                     "CORPORATION RD"
                 ],
                 scrollFont: "Arial-8"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "178",
+                font: "Arial-15",
+                spacing: 2
             }
         },
     },
@@ -1326,6 +1360,12 @@ EDSData.SMRT = {
                     "CORPORATION RD"
                 ],
                 scrollFont: "Arial-8"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "178",
+                font: "Arial-15",
+                spacing: 2
             }
         },
     },
@@ -1342,6 +1382,12 @@ EDSData.SMRT = {
                     'BT PANJANG RD'
                 ],
                 scrollFont: 'Arial-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "184",
+                font: "Arial-15",
+                spacing: 2
             }
         }
     },
@@ -1434,6 +1480,12 @@ EDSData.SMRT = {
                     'WDL AVENUE 7'
                 ],
                 scrollFont: 'Arial-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "900",
+                font: "Arial-15",
+                spacing: 2
             }
         }
     },
@@ -1456,6 +1508,12 @@ EDSData.SMRT = {
                     'WOODLANDS AVE 7'
                 ],
                 scrollFont: 'Arial-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "900A",
+                font: "Arial-15",
+                spacing: 2
             }
         }
     },
@@ -1474,6 +1532,12 @@ EDSData.SMRT = {
                     'WOODLANDS AVE 6',
                 ],
                 scrollFont: 'Arial-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "901",
+                font: "Arial-15",
+                spacing: 2
             }
         }
     },
@@ -1490,6 +1554,12 @@ EDSData.SMRT = {
                     'POLYTECHNIC',
                 ],
                 scrollFont: 'ArialBold-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "902",
+                font: "Arial-15",
+                spacing: 2
             }
         }
     },
@@ -1506,6 +1576,12 @@ EDSData.SMRT = {
                     'WOODLANDS AVE 2', // scrolls??
                 ],
                 scrollFont: 'Arial-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "903",
+                font: "Arial-15",
+                spacing: 2
             }
         }
     },
@@ -1522,6 +1598,12 @@ EDSData.SMRT = {
                     'WOODLANDS AVE 2', // scrolls??
                 ],
                 scrollFont: 'Arial-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "903M",
+                font: "Arial-15",
+                spacing: 2
             }
         }
     },
@@ -1538,6 +1620,12 @@ EDSData.SMRT = {
                     'WDL CRESENT(LOOP)',
                 ],
                 scrollFont: 'Arial-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "904",
+                font: "Arial-15",
+                spacing: 2
             }
         }
     },
@@ -1559,6 +1647,12 @@ EDSData.SMRT = {
                     'WOODLANDS ST 13'
                 ],
                 scrollFont: 'Arial-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "911",
+                font: "Arial-15",
+                spacing: 2
             }
         }
     },
@@ -1575,6 +1669,12 @@ EDSData.SMRT = {
                     'WDL INT / MRT',
                 ],
                 scrollFont: 'Arial-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "911T",
+                font: "Arial-15",
+                spacing: 2
             }
         }
     },
@@ -1591,6 +1691,12 @@ EDSData.SMRT = {
                     'WOODLANDS AVE 5',
                 ],
                 scrollFont: 'Arial-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "912",
+                font: "Arial-15",
+                spacing: 2
             }
         }
     },
@@ -1607,6 +1713,12 @@ EDSData.SMRT = {
                     'WDL AVE 2,5',
                 ],
                 scrollFont: 'Arial-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "912A",
+                font: "Arial-15",
+                spacing: 2
             }
         }
     },
@@ -1623,6 +1735,12 @@ EDSData.SMRT = {
                     'WOODLANDS AVE 5',
                 ],
                 scrollFont: 'Arial-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "912B",
+                font: "Arial-15",
+                spacing: 2
             }
         }
     },
@@ -1639,6 +1757,12 @@ EDSData.SMRT = {
                     'WDL INT / MRT',
                 ],
                 scrollFont: 'Arial-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "912T",
+                font: "Arial-15",
+                spacing: 2
             }
         }
     },
@@ -1655,6 +1779,12 @@ EDSData.SMRT = {
                     'WOODLANDS AVE 5',
                 ],
                 scrollFont: 'Arial-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "912M",
+                font: "Arial-15",
+                spacing: 2
             }
         }
     },
@@ -1671,6 +1801,12 @@ EDSData.SMRT = {
                     'WOODLANDS AVE 7,6',
                 ],
                 scrollFont: 'Arial-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "913",
+                font: "Arial-15",
+                spacing: 2
             }
         }
     },
@@ -1687,6 +1823,12 @@ EDSData.SMRT = {
                     'WDL INT / MRT',
                 ],
                 scrollFont: 'Arial-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "913T",
+                font: "Arial-15",
+                spacing: 2
             }
         }
     },
@@ -1709,6 +1851,12 @@ EDSData.SMRT = {
                     'BANGKIT RD',
                 ],
                 scrollFont: 'Arial-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "920",
+                font: "Arial-15",
+                spacing: 2
             }
         }
     },
@@ -1731,25 +1879,37 @@ EDSData.SMRT = {
                     },
                 ],
                 scrollFont: "Arial-8"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "951E",
+                font: "Arial-15",
+                spacing: 2
             }
         },
     },
-    // 9601: {
-    //     1: {
-    //         front: {
-    //             renderType: "standardService",
-    //             serviceNumber: "960",
-    //             destination: {
-    //                 text: "MARINA CTR via",
-    //                 font: "ArialBold-8"
-    //             },
-    //             scrolls: [
-    //                 'BT TIMAH RD',
-    //             ],
-    //             scrollFont: 'Arial-8'
-    //         }
-    //     }
-    // },
+    9601: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "960",
+                destination: {
+                    text: "MARINA CTR via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    'BT TIMAH RD',
+                ],
+                scrollFont: 'Arial-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "960",
+                font: "Arial-15",
+                spacing: 2
+            }
+        }
+    },
     9602: {
         1: {
             front: {
@@ -1763,6 +1923,12 @@ EDSData.SMRT = {
                     'BT TIMAH RD',
                 ],
                 scrollFont: 'Arial-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "960",
+                font: "Arial-15",
+                spacing: 2
             }
         }
     },
@@ -1779,6 +1945,12 @@ EDSData.SMRT = {
                     'BT TIMAH RD',
                 ],
                 scrollFont: 'Arial-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "960e",
+                font: "Arial-15",
+                spacing: 2
             }
         }
     },
@@ -1795,6 +1967,12 @@ EDSData.SMRT = {
                     'ALEXANDRA RD',
                 ],
                 scrollFont: 'Arial-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "963",
+                font: "Arial-15",
+                spacing: 2
             }
         }
     },
@@ -1811,6 +1989,12 @@ EDSData.SMRT = {
                     "HILLVIEW AVE"
                 ],
                 scrollFont: 'Arial-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "970",
+                font: "Arial-15",
+                spacing: 2
             }
         }
     },
@@ -1828,6 +2012,12 @@ EDSData.SMRT = {
                     "PENDING RD"
                 ],
                 scrollFont: 'Arial-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "970",
+                font: "Arial-15",
+                spacing: 2
             }
         }
     },
@@ -1858,6 +2048,12 @@ EDSData.SMRT = {
                     'C.C.K CRES (LOOP)'
                 ],
                 scrollFont: "Arial-8"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "979",
+                font: "Arial-15",
+                spacing: 2
             }
         },
     },
@@ -1881,6 +2077,12 @@ EDSData.SMRT = {
                     'KALLANG MRT'
                 ],
                 scrollFont: "Arial-8"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "985",
+                font: "Arial-15",
+                spacing: 2
             }
         },
     },
@@ -1903,6 +2105,12 @@ EDSData.SMRT = {
                     'TECK WHYE AVE'
                 ],
                 scrollFont: "Arial-8"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "985",
+                font: "Arial-15",
+                spacing: 2
             }
         }
     },
@@ -1919,6 +2127,12 @@ EDSData.SMRT = {
                     '',
                 ],
                 scrollFont: 'Arial-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "991",
+                font: "Arial-15",
+                spacing: 2
             }
         }
     },
@@ -1936,6 +2150,12 @@ EDSData.SMRT = {
                     'BT BATOK WEST AVE 6,3'
                 ],
                 scrollFont: 'Arial-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "991",
+                font: "Arial-15",
+                spacing: 2
             }
         }
     }
