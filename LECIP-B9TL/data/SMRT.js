@@ -1018,7 +1018,14 @@ EDSData.SMRT = {
                     font: "Calibri-7"
                 },
                 scrolls: [
-                    "JELAPANG RD"
+                    "BT PANJANG RING RD",
+                    "JELAPANG RD",
+                    "SEGAR/FAJAR RD",
+                    "WHITLEY RD",
+                    "SCOTTS/ORCHARD RD",
+                    "NICOLL HIGHTWAY", // sic
+                    "COLLYER QUAY",
+                    "ANSON RD"
                 ],
                 scrollFont: 'Calibri-7'
             }
@@ -1150,6 +1157,12 @@ EDSData.SMRT = {
                     'UBI AVE 2'
                 ],
                 scrollFont: "Arial-8"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "61",
+                font: "Arial-17",
+                spacing: 2
             }
         },
     },
@@ -1173,6 +1186,12 @@ EDSData.SMRT = {
                     'CLEMENTI RD'
                 ],
                 scrollFont: "Arial-8"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "61",
+                font: "Arial-17",
+                spacing: 2
             }
         }
     },
@@ -1194,6 +1213,12 @@ EDSData.SMRT = {
                     'BEDOK NTH AVE 3'
                 ],
                 scrollFont: "Arial-8"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "67",
+                font: "Arial-17",
+                spacing: 2
             }
         },
     },
@@ -1215,6 +1240,12 @@ EDSData.SMRT = {
                     'UPP BT TIMAH RD'
                 ],
                 scrollFont: "Arial-8"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "67",
+                font: "Arial-17",
+                spacing: 2
             }
         }
     },
@@ -1231,6 +1262,12 @@ EDSData.SMRT = {
                     "COMASSVALE DR"
                 ],
                 scrollFont: 'Arial-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "110",
+                font: "Arial-15",
+                spacing: 2
             }
         }
     },
@@ -1247,6 +1284,12 @@ EDSData.SMRT = {
                     "PTB 3, 1, 2, 4"
                 ],
                 scrollFont: 'Arial-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "110",
+                font: "Arial-15",
+                spacing: 2
             }
         }
     },
@@ -1304,8 +1347,11 @@ EDSData.SMRT = {
                     font: "ArialBold-8"
                 },
                 scrolls: [
+                    "BT BATOK CTR/MRT", // check order??
+                    "JURONG TOWN HALL",
+                    'W.COAST HIGHWAY',
                     'TELOK BLANGAH RD',
-                    'W.COAST HIGHWAY'
+                    "UPP BT TIMAH RD"
                 ],
                 scrollFont: "Arial-8"
             },
@@ -1391,6 +1437,91 @@ EDSData.SMRT = {
             }
         }
     },
+    1842: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "184",
+                destination: {
+                    text: "BT PANJANG via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    'BT PANJANG RD'
+                ],
+                scrollFont: 'Arial-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "184",
+                font: "Arial-15",
+                spacing: 2
+            }
+        }
+    },
+    1881: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "188",
+                destination: {
+                    text: "HARBOURFRONT via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "CHOA CHU KANG WAY",
+                    {
+                        text: "BT BATOK WEST AVE 4",
+                        font: "Arial-7",
+                    },
+                    {
+                        text: "BT BATOK WEST AVE 2",
+                        font: "Arial-7",
+                    },
+                    {
+                        text: "BT BATOK WEST AVE 3",
+                        font: "Arial-7",
+                    },
+                    {
+                        text: "BT BATOK WEST AVE 6",
+                        font: "Arial-7",
+                    },
+                    "TOH GUAN RD",
+                    "HAW PAR VILLA",
+                ],
+                scrollFont: "Arial-8"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "188",
+                font: "Arial-15",
+                spacing: 2
+            }
+        }
+    },
+    1882: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "188",
+                destination: {
+                    text: "CHOA CHU KANG via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "BOON LAY WAY",
+                    "TOH GUAN RD"
+                ],
+                scrollFont: "Arial-8"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "188",
+                font: "Arial-15",
+                spacing: 2
+            }
+        }
+    },
     1901: {
         1: {
             front: {
@@ -1459,6 +1590,75 @@ EDSData.SMRT = {
                 renderType: "rearService",
                 serviceNumber: "190",
                 font: "LECIP-20:12",
+                spacing: 2
+            }
+        }
+    },
+    7001: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "700",
+                destination: {
+                    text: "SHENTON WAY via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "BT PANJANG RD",
+                    "PETIR RD",
+                    "DUNEARN RD",
+                    "SCOTTS RD",
+                    "ORCHARD RD",
+                    //?
+                    "COLLYER QUAY"
+                ],
+                scrollFont: 'Arial-8'
+            }
+        }
+    },
+    7002: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "700",
+                destination: {
+                    text: "BT PANJANG via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "STAMFORD RD",
+                    "SOMERSET RD",
+                    "ORCHARD TURN",
+                    "SCOTTS RD",
+                    "BT TIMAH RD",
+                    "PETIR RD",
+                    "BT PANJANG RD",
+                ],
+                scrollFont: 'Arial-8'
+            }
+        }
+    },
+    8572: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "857",
+                destination: {
+                    text: "YISHUN via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "STAMFORD RD",
+                    "SELEGIE RD",
+                    "SERANGOON RD",
+                    "YIO CHU KANG RD"
+                ],
+                scrollFont: 'Arial-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "857",
+                font: "Arial-15",
                 spacing: 2
             }
         }
@@ -1898,7 +2098,9 @@ EDSData.SMRT = {
                     font: "ArialBold-8"
                 },
                 scrolls: [
+                    "WOODLANDS RD",
                     'BT TIMAH RD',
+                    "BRAS BASAH RD"
                 ],
                 scrollFont: 'Arial-8'
             },
@@ -1920,7 +2122,13 @@ EDSData.SMRT = {
                     font: "ArialBold-8"
                 },
                 scrolls: [
-                    'BT TIMAH RD',
+                    "VICTORIA ST",
+                    "ROCHOR RD",
+                    "BT TIMAH RD",
+                    "WHITLEY RD",
+                    "PIE/BKE",
+                    "BT PANJANG RD/LRT",
+                    "WOODLANDS RD"
                 ],
                 scrollFont: 'Arial-8'
             },
@@ -1942,7 +2150,10 @@ EDSData.SMRT = {
                     font: "ArialBold-8"
                 },
                 scrolls: [
+                    "RAFFLES AVE",
+                    "VICTORIA ST",
                     'BT TIMAH RD',
+                    "WOODLANDS AVE 3"
                 ],
                 scrollFont: 'Arial-8'
             },
@@ -1993,6 +2204,28 @@ EDSData.SMRT = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "970",
+                font: "Arial-15",
+                spacing: 2
+            }
+        }
+    },
+    9721: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "972",
+                destination: {
+                    text: "ORCHARD RD via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "BKE / PIE"
+                ],
+                scrollFont: 'Arial-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "972",
                 font: "Arial-15",
                 spacing: 2
             }

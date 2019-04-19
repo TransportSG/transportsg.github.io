@@ -397,7 +397,7 @@ EDSData.SBST = {
                 destination: "> TOA PAYOH INT",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                    "TAMPINES AVE 7, 2, 1",
+                    "TAMPINES AVE 1",
                     "BEDOK RESERVIOR RD",
                     "UBI AVE 2",
                     'PAYA LEBAR RD',
@@ -514,7 +514,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "10e",
-                font: "LECIP-20:12",
+                font: "LECIP-20:9", // zz still dk font, need ID. looks alot like lecip-20:9 but width doesnt match
                 spacing: 2
             }
         },
@@ -528,7 +528,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "10e",
-                font: "LECIP-20:12",
+                font: "LECIP-20:9",
                 spacing: 2
             }
         }
@@ -612,9 +612,10 @@ EDSData.SBST = {
                 destinationFont: "LECIP-10",
                 scrolls: [
                     "BEDOK NORTH AVE 3",
+                    "UPPER EAST COAST RD", // check order later
                     'EAST COAST RD',
-                    'SOMERSET RD',
-                    'IRWELL BANK RD'
+                    "MOUNTBATTEN RD",
+                    "COMMONWEALTH AVE WEST"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -632,10 +633,12 @@ EDSData.SBST = {
                 destination: "> BEDOK INT",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                    "HOOT KIAM RD",
-                    'ORCHARD RD',
-                    'EAST COAST RD',
-                    'BEDOK NORTH AVE 3'
+                    "COMMONWEALTH AVE WEST",
+                    "ORCHARD RD",
+                    "MOUNTBATTEN RD",
+                    "EAST COAST RD",
+                    "UPPER EAST COAST RD",
+                    "BEDOK NORTH RD" // check
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -658,7 +661,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "14e",
-                font: "LECIP-20:12",
+                font: "LECIP-20:9",
                 spacing: 2
             }
         },
@@ -672,7 +675,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "14e",
-                font: "LECIP-20:12",
+                font: "LECIP-20:9",
                 spacing: 2
             }
         }
@@ -1000,6 +1003,27 @@ EDSData.SBST = {
         }
     },
     25: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "25",
+                destination: "> UPP EAST COAST TER",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    "ANG MO KIO AVE 3",
+                    "HOUGANG AVE 2, 3",
+                    "JALAN EUNOS",
+                    "SIMS AVE EAST"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "25",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        },
         2: {
             front: {
                 renderType: "standardService",
@@ -1012,27 +1036,6 @@ EDSData.SBST = {
                     "HOUGANG AVE 3",
                     "HOUGANG AVE 2",
                     "ANG MO KIO AVE 3"
-                ],
-                scrollFont: "LECIP-7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "25",
-                font: "LECIP-20:12",
-                spacing: 2
-            }
-        },
-        1: { // why flipped
-            front: {
-                renderType: "standardService",
-                serviceNumber: "25",
-                destination: "> UPP EAST COAST TER",
-                destinationFont: "LECIP-7:5",
-                scrolls: [
-                    "ANG MO KIO AVE 3",
-                    "HOUGANG AVE 2, 3",
-                    "JALAN EUNOS",
-                    "SIMS AVE EAST"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -1271,7 +1274,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "30e",
-                font: "LECIP-20:12",
+                font: "LECIP-20:9",
                 spacing: 2
             }
         },
@@ -1285,7 +1288,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "30e",
-                font: "LECIP-20:12",
+                font: "LECIP-20:9",
                 spacing: 2
             }
         }
@@ -2561,11 +2564,12 @@ EDSData.SBST = {
                 destination: "> SHENTON WAY TER",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
-                    'ANG MO KIO ST 63',
-                    'ANG MO KIO ST 64',
-                    'UPP PAYA LEBAR RD',
-                    'GUILLEMARD RD',
-                    'COLLYER QUAY'
+                    "NICOLL HIGHWAY"
+                    // 'ANG MO KIO ST 63',
+                    // 'ANG MO KIO ST 64',
+                    // 'UPP PAYA LEBAR RD',
+                    // 'GUILLEMARD RD',
+                    // 'COLLYER QUAY'
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -3094,7 +3098,37 @@ EDSData.SBST = {
                 spacing: 2
             }
         }
-    }, // 89e??
+    },
+    "89E": {
+        1: {
+            front: {
+                renderType: "logoSvc",
+                serviceNumber: "89e",
+                image: "express",
+                destination: "EXPRESS 89e"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "89e",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "logoSvc",
+                serviceNumber: "89e",
+                image: "express",
+                destination: "EXPRESS 89e"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "89e",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
     90: {
         1: {
             front: {
@@ -3404,7 +3438,7 @@ EDSData.SBST = {
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "101",
+                serviceNumber: "102",
                 font: "LECIP-20:12",
                 spacing: 2
             }
@@ -4618,11 +4652,14 @@ EDSData.SBST = {
                 destination: "> CLEMENTI INT",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                    'HOUGANG AVE 8, 2',
-                    'SERANGOON CTRL',
-                    'BENCOOLEN ST',
-                    'VICTORA ST',
-                    'JLN BUKIT MERAH'
+                    "HOUGANG AVE 8",
+                    "YIO CHU KANG RD",
+                    "UPP SERANGOON RD",
+                    "BENDEMEER RD",
+                    "JALAN BESAR",
+                    "NEW BRIDGE RD",
+                    "JALAN BUKIT MERAH",
+                    "COMMONWEALTH AVE WEST",
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -4640,11 +4677,13 @@ EDSData.SBST = {
                 destination: "> HOUGANG CTRL INT",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
-                    'JLN BUKIT MERAH',
-                    'VICTORIA ST',
-                    'PRINSEP ST',
-                    'SERANGOON CTRL',
-                    'HOUGANG AVE 2, 8'
+                    "COMMONWEALTH AVE WEST",
+                    "UPP SERANGOON RD",
+                    // 'JLN BUKIT MERAH',
+                    // 'VICTORIA ST',
+                    // 'PRINSEP ST',
+                    // 'SERANGOON CTRL',
+                    // 'HOUGANG AVE 2, 8'
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -4667,7 +4706,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "147e",
-                font: "LECIP-20:9",
+                font: "LECIP-20:9", // check rear font for all 4 digit express
                 spacing: 2
             }
         },
@@ -4764,7 +4803,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "151e",
-                font: "LECIP-20:12",
+                font: "LECIP-20:9",
                 spacing: 2
             }
         },
@@ -4778,7 +4817,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "151e",
-                font: "LECIP-20:12",
+                font: "LECIP-20:9",
                 spacing: 2
             }
         }
@@ -5326,9 +5365,10 @@ EDSData.SBST = {
                 destination: "> CLEMENTI INT",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                    'HOUGANG AVE 4, 8',
+                    'HOUGANG AVE 8',
                     'ANG MO KIO AVE 3',
-                    'UPP THOMSON RD',
+                    'UPPER THOMSON RD',
+                    "LORNIE RD",
                     'FARRER RD',
                     'HOLLAND RD'
                 ],
@@ -5394,11 +5434,14 @@ EDSData.SBST = {
                 destination: "> ANG MO KIO INT",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                    'DOVER RD',
-                    'ALEXANDRA RD',
-                    'TELOK BLANGAH RD',
-                    'EU TONG SEN ST',
-                    'THOMSON RD'
+                    "KAMPONG BAHRU RD",
+                    "EU TONG SEN ST",
+                    "UPPER THOMSON RD"
+                    // 'DOVER RD',
+                    // 'ALEXANDRA RD',
+                    // 'TELOK BLANGAH RD',
+                    // 'EU TONG SEN ST',
+                    // 'THOMSON RD'
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -5631,6 +5674,7 @@ EDSData.SBST = {
                 destination: "> LOR 1 GEYLANG TER",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
+                    "PASIR PANJANG RD",
                     'ALEXANDRA RD',
                     'JLN BUKIT MERAH',
                     'ORCHARD RD',
@@ -5823,7 +5867,7 @@ EDSData.SBST = {
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "186",
+                serviceNumber: "185",
                 font: "LECIP-20:12",
                 spacing: 2
             }
@@ -6044,13 +6088,16 @@ EDSData.SBST = {
                 destination: "> CLEMENTI INT",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                    'BEDOK STH AVE 1',
-                    'MARINE PARADE RD',
-                    'MOUNTBATTEN RD',
-                    'SHENTON WAY',
-                    'JLN BUKIT MERAH',
-                    'QUEENSWAY',
-                    'DOVER RD'
+                    "MOUNTBATTEN RD",
+                    "NICOLL HIGHWAY",
+                    "JALAN BUKIT MERAH"
+                    // 'BEDOK STH AVE 1',
+                    // 'MARINE PARADE RD',
+                    // 'MOUNTBATTEN RD',
+                    // 'SHENTON WAY',
+                    // 'JLN BUKIT MERAH',
+                    // 'QUEENSWAY',
+                    // 'DOVER RD'
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -6287,7 +6334,9 @@ EDSData.SBST = {
                 destination: "KENT RIDGE TER-PANDAN GDNS",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
-                    "C'WEALTH AVE WEST"
+                    "WEST COAST RD",
+                    "C'WEALTH AVE WEST",
+                    "WEST COAST RD",
                 ],
                 scrollFont: "LECIP-6:4"
             },
@@ -8298,8 +8347,11 @@ EDSData.SBST = {
                 destination: "> SHENTON WAY",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
+                    "BRAS BASAH RD",
                     "COLLYER QUAY",
-                    "RAFFLES QUAY"
+                    "RAFFLES QUAY",
+                    "VICTORIA ST", // ?
+                    "SHENTON WAY"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -8394,7 +8446,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "851e",
-                font: "LECIP-20:6",
+                font: "LECIP-20:9",
                 spacing: 2
             }
         },
@@ -8408,7 +8460,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "851e",
-                font: "LECIP-20:6",
+                font: "LECIP-20:9",
                 spacing: 2
             }
         }

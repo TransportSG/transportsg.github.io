@@ -516,7 +516,7 @@ EDSData.SMRT = {
                     "AFT LOR 34 GEYLANG",
                     "AFT LOR 28 GEYLANG",
                     "BEF LOR 18 GEYLANG",
-                    "OPP MOHD SALLEH MQUE", // awaiting Q from queenstown 93
+                    "OPP MOHD SALLEH MQUE",
                     "AFT SIMS WAY",
                     "OPP LOR 1 GEYLANG TER",
                     "BEF KG BUGIS",
@@ -665,7 +665,7 @@ EDSData.SMRT = {
                 destination: "GEYLANG LOR 1 TER",
                 scrolls: [
                     "CHOA CHU KANG INT",
-                    // "LOT 1 SHOPPERS' MALL", // check '
+                    "LOT 1 SHOPPERS' MALL",
                     "OPP BLK 210",
                     "CCK POLYCLINIC",
                     "BLK 6",

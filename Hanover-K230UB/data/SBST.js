@@ -291,7 +291,28 @@ EDSData.SBST = {
             }
         }
     },
-    120: { //todo font
+    105: {
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "105",
+                destination: "> SERANGOON INT",
+                destinationFont: "Hanover-10",
+                scrolls: [
+                    "TOH GUAN RD",
+                    "COMMONWEALTH AVE WEST"
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "105",
+                font: "Hanover-19:11",
+                spacing: 2
+            }
+        }
+    },
+    120: {
         1: {
             front: {
                 renderType: "standardService",
@@ -424,6 +445,32 @@ EDSData.SBST = {
             }
         }
     },
+    154: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "154",
+                destination: "> BOON LAY INT",
+                destinationFont: "Hanover-10",
+                scrolls: [
+                    "PAYA LEBAR RD",
+                    "JALAN TOA PAYOH",
+                    "BUKIT TIMAH RD",
+                    "CLEMENTI RD",
+                    "COMMONWEALTH AVE WEST",
+                    "AYE",
+                    "YUAN CHING RD"
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "154",
+                font: "Hanover-19:11",
+                spacing: 2
+            }
+        }
+    },
     174: {
         1: {
             front: {
@@ -469,6 +516,47 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "174",
+                font: "Hanover-19:11",
+                spacing: 2
+            }
+        }
+    },
+    175: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "175",
+                destination: "> LOR 1 GEYLANG TER",
+                destinationFont: "Hanover-8",
+                scrolls: [
+                    "PASIR PANJANG RD",
+                    "ALEXANDRA RD"
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "175",
+                font: "Hanover-19:11",
+                spacing: 2
+            }
+        }
+    },
+    201: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "201",
+                destination: "KENT RIDGE TER-PANDAN GDNS",
+                destinationFont: "Hanover-8",
+                scrolls: [
+                    "C'WEALTH AVE WEST",
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "201",
                 font: "Hanover-19:11",
                 spacing: 2
             }
