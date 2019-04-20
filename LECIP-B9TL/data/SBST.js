@@ -174,6 +174,13 @@ EDSFormats.SBST = {
             font: 'LECIP-6:4',
             spacing: 1
         },
+    },
+    full: {
+        __dynamic__: (matrix, data) => {
+            matrixPrimitives.setStrokeColour(null);
+            matrixPrimitives.fillRectangle(matrix, 0, 0, matrix.width, matrix.height);
+        },
+        text: "FULL"
     }
 }
 
@@ -186,6 +193,16 @@ EDSData.SBST = {
     //         }
     //     }
     // },
+    1: {
+        1: {
+            front: {
+                renderType: "full"
+            },
+            rear: {
+                renderType: "full"
+            }
+        }
+    },
     "1N": {
         1: {
             front: {

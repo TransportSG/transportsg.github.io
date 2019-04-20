@@ -21,7 +21,9 @@ window.matrixPrimitives = {
         }
     },
     fillRectangle: (matrix, x, y, width, height) => {
+        matrix.inverted = true;
         matrix.clearRectangle(x, y, width, height, fillColour);
+        matrix.inverted = false;
     },
 
     strokeCircle: (matrix, x, y, radius) => {
