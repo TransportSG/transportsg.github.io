@@ -548,7 +548,7 @@ EDSData.SBST = {
                 renderType: "standardService",
                 serviceNumber: "201",
                 destination: "KENT RIDGE TER-PANDAN GDNS",
-                destinationFont: "Hanover-8",
+                destinationFont: "Hanover-7:3",
                 scrolls: [
                     "C'WEALTH AVE WEST",
                 ],

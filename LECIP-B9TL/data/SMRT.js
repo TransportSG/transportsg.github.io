@@ -376,7 +376,8 @@ EDSData.SMRT = {
                     font: "ArialBold-8"
                 },
                 scrolls: [
-                    "CHOA CHU KANG WAY"
+                    "CHOA CHU KANG WAY",
+                    "CHOA CHU KANG ST 52"
                 ],
                 scrollFont: 'Arial-8'
             }
@@ -568,7 +569,9 @@ EDSData.SMRT = {
                     font: "ArialBold-8"
                 },
                 scrolls: [
-                    "JURONG EAST AVE 1"
+                    "WDL AVE 3",
+                    "JURONG EAST AVE 1",
+                    "BT PANJANG RD"
                 ],
                 scrollFont: 'Arial-8'
             }
@@ -979,7 +982,7 @@ EDSData.SMRT = {
     587: {
         1: {
             front: {
-                renderType: "calibriOldService", // TODO:
+                renderType: "calibriOldService",
                 serviceNumber: "188R",
                 destination: {
                     text: "CHOA CHU KANG via",
@@ -1210,7 +1213,7 @@ EDSData.SMRT = {
                     'SERANGOON RD',
                     'SIMS AVE',
                     'NEW UPP CHANGI RD',
-                    'BEDOK NTH AVE 3'
+                    'BEDOK NORTH AVE 3'
                 ],
                 scrollFont: "Arial-8"
             },
@@ -1315,6 +1318,28 @@ EDSData.SMRT = {
             }
         }
     },
+    1672: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "167",
+                destination: {
+                    text: "SEMBAWANG via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "CANTOMENT RD"
+                ],
+                scrollFont: 'Arial-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "167",
+                font: "Arial-15",
+                spacing: 2
+            }
+        }
+    },
     1691: {
         1: {
             front: {
@@ -1332,6 +1357,30 @@ EDSData.SMRT = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "169",
+                font: "Arial-15",
+                spacing: 2
+            }
+        }
+    },
+    1711: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "171",
+                destination: {
+                    text: "MARINA CENTRE via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "SEMBAWANG RD",
+                    "DUNEARN RD",
+                    "ORCHARD RD"
+                ],
+                scrollFont: 'Arial-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "171",
                 font: "Arial-15",
                 spacing: 2
             }
@@ -1454,6 +1503,52 @@ EDSData.SMRT = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "184",
+                font: "Arial-15",
+                spacing: 2
+            }
+        }
+    },
+    1871: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "187",
+                destination: {
+                    text: "BOON LAY via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "WDL AVE 3",
+                    "JURONG EAST AVE 1",
+                    "BT PANJANG RD"
+                ],
+                scrollFont: 'Arial-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "187",
+                font: "Arial-15",
+                spacing: 2
+            }
+        }
+    },
+    1872: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "187",
+                destination: {
+                    text: "WOODLANDS via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "JURONG EAST AVE 1"
+                ],
+                scrollFont: 'Arial-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "187",
                 font: "Arial-15",
                 spacing: 2
             }
@@ -1594,6 +1689,23 @@ EDSData.SMRT = {
             }
         }
     },
+    3021: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "302",
+                destination: {
+                    text: "CHOA CHU KANG via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "CHOA CHU KANG WAY",
+                    "CHOA CHU KANG ST 52"
+                ],
+                scrollFont: 'Arial-8'
+            }
+        }
+    },
     7001: {
         1: {
             front: {
@@ -1638,6 +1750,28 @@ EDSData.SMRT = {
             }
         }
     },
+    8541: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "854",
+                destination: {
+                    text: "YISHUN via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "YIO CHU KANG RD"
+                ],
+                scrollFont: 'Arial-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "854",
+                font: "Arial-15",
+                spacing: 2
+            }
+        }
+    },
     8572: {
         1: {
             front: {
@@ -1658,6 +1792,29 @@ EDSData.SMRT = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "857",
+                font: "Arial-15",
+                spacing: 2
+            }
+        }
+    },
+    8681: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "868E",
+                destination: {
+                    text: "SUNTEC CITY via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "JURONG EAST CTRL",
+                    "TEMASEK BLVD/AVE"
+                ],
+                scrollFont: 'Arial-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "868E",
                 font: "Arial-15",
                 spacing: 2
             }
@@ -1774,6 +1931,7 @@ EDSData.SMRT = {
                 },
                 scrolls: [
                     'WOODLANDS AVE 2', // scrolls??
+                    "TRAIN CHECKPOINT"
                 ],
                 scrollFont: 'Arial-8'
             },
@@ -2187,6 +2345,29 @@ EDSData.SMRT = {
             }
         }
     },
+    9641: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "964",
+                destination: {
+                    text: "WOODLANDS INT via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "WOODLANDS AVE 7,6",
+                    "WOODLANDS LOOP"
+                ],
+                scrollFont: 'Arial-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "964",
+                font: "Arial-15",
+                spacing: 2
+            }
+        }
+    },
     9701: {
         1: {
             front: {
@@ -2254,6 +2435,44 @@ EDSData.SMRT = {
             }
         }
     },
+    9751: {
+        1: {
+            front: {
+                renderType: "calibriStandardService",
+                serviceNumber: "975",
+                destination: {
+                    text: "LIM CHU KANG via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "TECK WHYE AVE"
+                ],
+                scrollFont: 'Arial-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "975",
+                font: "Calibri-15",
+                spacing: 2
+            }
+        }
+    },
+    9754: {
+        1: {
+            front: {
+                renderType: "calibriStandardService",
+                serviceNumber: "975B",
+                destination: {
+                    text: "ENDS AT OPP",
+                    font: "Arial-8"
+                },
+                scrolls: [
+                    "LIM CHU KANG LANE 3"
+                ],
+                scrollFont: 'Calibri-7'
+            }
+        }
+    },
     9791: {
         1: {
             front: {
@@ -2285,6 +2504,29 @@ EDSData.SMRT = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "979",
+                font: "Arial-15",
+                spacing: 2
+            }
+        },
+    },
+    9831: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "983",
+                destination: {
+                    text: "CHOA CHU KANG via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "PETIR RD",
+                    "CHOA CHU KANG RD"
+                ],
+                scrollFont: "Arial-8"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "983",
                 font: "Arial-15",
                 spacing: 2
             }
@@ -2379,10 +2621,11 @@ EDSData.SMRT = {
                     font: "ArialBold-8"
                 },
                 scrolls: [
-                    'CHOA CHU KANG AVE 1,3',
-                    'BT BATOK WEST AVE 6,3'
+                    "CHOA CHU KANG AVE 1,3",
+                    "BT BATOK WEST AVE 6,3",
+                    "BT BATOK WEST AVE 5,8"
                 ],
-                scrollFont: 'Arial-8'
+                scrollFont: 'Arial-8;Space-Width=0'
             },
             rear: {
                 renderType: "rearService",

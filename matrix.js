@@ -14,11 +14,14 @@ class LEDMatrix {
     determineDistance(prevChar, currChar, fontname, fontSpacing) {
         let width = 0;
 
+        fontname = this.getFont(fontname);
+
         if (fontSpacing) {
-            if (fontSpacers[fontname])
+            if (fontSpacers[fontname]) {
                 return fontSpacers[fontname](prevChar, currChar, fontSpacing);
-             else
+            } else {
                 return fontSpacing;
+            }
         } else {
             if (fontSpacers[fontname]) {
                 return fontSpacers[fontname](prevChar, currChar, 1);
@@ -42,7 +45,7 @@ class LEDMatrix {
 
         let modifiers = this.getFontModifiers(fontname);
         let spaceWidth = modifiers.filter(e => e[0] === 'Space-Width')[0];
-        if (spaceWidth) spaceWidth = spaceWidth[1] * 1;
+        if (spaceWidth !== undefined) spaceWidth = spaceWidth[1] * 1;
 
         let chars = [...text];
 
@@ -76,7 +79,7 @@ class LEDMatrix {
 
         let modifiers = this.getFontModifiers(fontname);
         let spaceWidth = modifiers.filter(e => e[0] === 'Space-Width')[0];
-        if (spaceWidth) spaceWidth = spaceWidth[1] * 1;
+        if (spaceWidth !== undefined) spaceWidth = spaceWidth[1] * 1;
 
         let x = dx;
 
@@ -89,7 +92,7 @@ class LEDMatrix {
 
             x += spacing;
 
-            if (char == ' ' && spaceWidth) {
+            if (char == ' ' && spaceWidth !== undefined) {
                 x += spaceWidth;
                 return;
             }
