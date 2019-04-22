@@ -35,10 +35,6 @@ function setCode(code, operator) {
     let frontDisplay = EDSData[operator][code].front;
     let parsedFront = parseFormat(EDSFormats[operator], frontDisplay, EDSImages[operator], frontEDS);
     render(parsedFront, frontEDS);
-
-    let pidsDisplay = EDSData[operator][code].pids;
-    let parsedPIDS = parseFormat(EDSFormats[operator], pidsDisplay, EDSImages[operator], internalPIDS);
-    render(parsedPIDS, internalPIDS);
 }
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -46,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     frontEDS = new LEDMatrix(frontEDSWidth, edsHeight, document.getElementById('front-eds'));
 
-    setCode(9122, 'SMRT');
+    setCode(1901, 'SMRT');
 });
 
 window.addEventListener('resize', generateLEDCssCode);
