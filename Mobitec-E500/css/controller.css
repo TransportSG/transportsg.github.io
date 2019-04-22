@@ -1,5 +1,17 @@
+#controller-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 50vh;
+}
+
+
 #controller * {
     font-family: Arial;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
 }
 
 #controller {

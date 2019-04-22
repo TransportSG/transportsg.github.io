@@ -928,6 +928,12 @@ EDSData.SMRT = {
                 ],
                 scrollFont: 'Calibri-7'
             }
+        },
+        rear: {
+            renderType: "rearService",
+            serviceNumber: "858",
+            font: "Calibri-17",
+            spacing: 2
         }
     },
     584: {
@@ -2390,6 +2396,28 @@ EDSData.SMRT = {
             }
         }
     },
+    9702: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "970",
+                destination: {
+                    text: "BT PANJANG via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "HILLVIEW AVE"
+                ],
+                scrollFont: 'Arial-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "970",
+                font: "Arial-15",
+                spacing: 2
+            }
+        }
+    },
     9721: {
         1: {
             front: {
@@ -2634,7 +2662,31 @@ EDSData.SMRT = {
                 spacing: 2
             }
         }
-    }
+    },
+
+
+"5714": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "KOPI",
+                destination: {
+                    text: "I SPILL KOPI ON",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "SG5714D"
+                ],
+                scrollFont: 'Calibri-7'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "KOPI",
+                font: "Arial-15",
+                spacing: 2
+            }
+        }
+    },
 };
 
 
