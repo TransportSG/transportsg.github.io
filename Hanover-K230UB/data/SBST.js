@@ -14,9 +14,11 @@ EDSFormats.SBST = {
             margin: {
                 bottom: {
                     "$destinationFont |== 'Hanover-7:3'": 2,
+                    "$destinationFont |== 'Hanover-7:4'": 2,
                     "$destinationFont |== 'Hanover-7:5'": 2,
                     "$destinationFont |== 'Hanover-8'": 1,
-                    "$destinationFont |== 'Hanover-10'": 0
+                    "$destinationFont |== 'Hanover-10'": 0,
+                    "else": 1
                 }
             },
             text: "$destination",
@@ -25,10 +27,17 @@ EDSFormats.SBST = {
                 "$destinationFont |== 'Hanover-10'": 2,
                 "$destinationFont |== 'Hanover-8'": 1,
                 "$destinationFont |== 'Hanover-7:3'": 1,
+                "else": 1
             }
         },
         scroll: {
             align: "left,top",
+            margin: {
+                left: {
+                    "$destinationFont |== 'Hanover-7:4'": 1,
+                    "else": 0
+                }
+            },
             scrolls: "$scrolls",
             rotate: true,
             rotateSpeed: 3000,
@@ -548,7 +557,7 @@ EDSData.SBST = {
                 renderType: "standardService",
                 serviceNumber: "201",
                 destination: "KENT RIDGE TER-PANDAN GDNS",
-                destinationFont: "Hanover-7:3",
+                destinationFont: "Hanover-7:4",
                 scrolls: [
                     "C'WEALTH AVE WEST",
                 ],

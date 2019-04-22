@@ -65,5 +65,5 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('keypad-up').addEventListener('click', upClicked);
     document.getElementById('keypad-down').addEventListener('click', downClicked);
 
-    setCode(258);
+    setCode(201);
 });
