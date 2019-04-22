@@ -28,12 +28,25 @@ function generateLEDCssCode() {
     document.getElementById('led-style').textContent = cssData;
 }
 
+
+function setCode(code, operator) {
+    if (!EDSData[operator][code]) return;
+
+    let frontDisplay = EDSData[operator][code].front;
+    let parsedFront = parseFormat(EDSFormats[operator], frontDisplay, EDSImages[operator], frontEDS);
+    render(parsedFront, frontEDS);
+
+    let pidsDisplay = EDSData[operator][code].pids;
+    let parsedPIDS = parseFormat(EDSFormats[operator], pidsDisplay, EDSImages[operator], internalPIDS);
+    render(parsedPIDS, internalPIDS);
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     generateLEDCssCode();
 
     frontEDS = new LEDMatrix(frontEDSWidth, edsHeight, document.getElementById('front-eds'));
-    frontEDS.clearRectangle(0,0,144,16)
-    frontEDS.drawText('OFF SERVICE', 'Mobitec-16:8', 1, 32, 0)
+
+    setCode(9122, 'SMRT');
 });
 
 window.addEventListener('resize', generateLEDCssCode);
