@@ -28,6 +28,17 @@ function generateLEDCssCode() {
     document.getElementById('led-style').textContent = cssData;
 }
 
+function setScreenInfo(childNumber, text) {
+    document.getElementById('output-info').children[childNumber - 1].textContent = text;
+}
+
+function setScreenDest(dest) {
+    setScreenInfo(2, 'Dest : ' + dest);
+}
+
+function setScreenExtra(extra) {
+    setScreenInfo(3, 'Extr : ' + extra);
+}
 
 function setCode(code, operator) {
     if (!EDSData[operator][code]) return;
@@ -35,6 +46,8 @@ function setCode(code, operator) {
     let frontDisplay = EDSData[operator][code].front;
     let parsedFront = parseFormat(EDSFormats[operator], frontDisplay, EDSImages[operator], frontEDS);
     render(parsedFront, frontEDS);
+
+    setScreenDest(code);
 }
 
 document.addEventListener('DOMContentLoaded', () => {
