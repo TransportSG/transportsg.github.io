@@ -13,12 +13,8 @@ EDSFormats.SBST = {
             align: "left,bottom",
             margin: {
                 bottom: {
-                    "$destinationFont |== 'Hanover-7:3'": 2,
-                    "$destinationFont |== 'Hanover-7:4'": 2,
-                    "$destinationFont |== 'Hanover-7:5'": 2,
-                    "$destinationFont |== 'Hanover-8'": 1,
                     "$destinationFont |== 'Hanover-10'": 0,
-                    "else": 1
+                    "else": 2
                 }
             },
             text: "$destination",
@@ -32,12 +28,6 @@ EDSFormats.SBST = {
         },
         scroll: {
             align: "left,top",
-            margin: {
-                left: {
-                    "$destinationFont |== 'Hanover-7:4'": 1,
-                    "else": 0
-                }
-            },
             scrolls: "$scrolls",
             rotate: true,
             rotateSpeed: 3000,
