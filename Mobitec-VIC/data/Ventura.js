@@ -41,6 +41,175 @@ EDSFormats.Ventura = {
 }
 
 EDSData.Ventura = {
+    1601: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "16",
+            destination: {
+                text: "Melbourne Uni",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Tram Replacement"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    1602: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "16",
+            destination: {
+                text: "Kew",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Tram Replacement"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    // 1901: {
+    //     front: {
+    //         renderType: "standardService",
+    //         serviceNumber: "19", // Double check
+    //         destination: {
+    //             text: "North Coburg",
+    //             font: "Mobitec-7:7"
+    //         },
+    //         scrolls: [
+    //             "Tram Replacement"
+    //         ],
+    //         scrollFont: 'Mobitec-6:5'
+    //     }
+    // },
+    // 1902: {
+    //     front: {
+    //         renderType: "standardService",
+    //         serviceNumber: "19",
+    //         destination: {
+    //             text: "Flinders Street",
+    //             font: "Mobitec-7:7"
+    //         },
+    //         scrolls: [
+    //             "Tram Replacement"
+    //         ],
+    //         scrollFont: 'Mobitec-6:5'
+    //     }
+    // },
+    // 6401: {
+    //     front: {
+    //         renderType: "standardService",
+    //         serviceNumber: "64", // awaiting font
+    //         destination: {
+    //             text: "Monash Uni",
+    //             font: "Mobitec-7:7"
+    //         },
+    //         scrolls: [
+    //             "Tram Replacement"
+    //         ],
+    //         scrollFont: 'Mobitec-6:5'
+    //     }
+    // },
+    // 6402: {
+    //     front: {
+    //         renderType: "standardService",
+    //         serviceNumber: "64",
+    //         destination: {
+    //             text: "East Brighton",
+    //             font: "Mobitec-7:7"
+    //         },
+    //         scrolls: [
+    //             "Tram Replacement"
+    //         ],
+    //         scrollFont: 'Mobitec-6:5'
+    //     }
+    // },
+    6701: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "67",
+            destination: {
+                text: "Monash Uni",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Tram Replacement"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6702: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "67",
+            destination: {
+                text: "Carnegie",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Tram Replacement"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7801: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "78",
+            destination: {
+                text: "Prahran",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Tram Replacement"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7802: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "78",
+            destination: {
+                text: "North Richmond",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Tram Replacement"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    9601: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "96",
+            destination: {
+                text: "St. Kilda Beach",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Tram Replacement"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    9602: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "96",
+            destination: {
+                text: "East Brunswick",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Tram Replacement"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+
     1111: {
         front: {
             renderType: "logo",
