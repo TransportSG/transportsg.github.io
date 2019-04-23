@@ -323,7 +323,7 @@ EDSData.SMRT = {
         1: {
             front: {
                 renderType: "logo",
-                text: "SMRT BUSES",
+                text: "SMRT LOGO",
                 image: "logo"
             },
         }
