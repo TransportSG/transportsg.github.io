@@ -1,0 +1,61 @@
+window.frontEDS = null;
+
+let EDSFormats = {};
+let EDSData = {};
+let EDSImages = {};
+
+let frontEDSWidth = 144;
+
+let edsHeight = 16;
+
+function generateLEDCssCode() {
+    let cssData =
+`
+    .led {
+        width: ${Math.ceil(window.innerWidth * 0.006)}px;
+        height: ${Math.ceil(window.innerWidth * 0.006)}px;
+        border-radius: ${Math.ceil(window.innerWidth * 0.006)}px;
+    }
+
+    #front-eds {
+        width: ${frontEDSWidth * Math.ceil(window.innerWidth * 0.006)}px;
+        grid-template-columns: repeat(${frontEDSWidth}, ${Math.ceil(window.innerWidth * 0.006)}px);
+        grid-row-gap: ${Math.ceil(window.innerWidth * 0.0025)}px;
+        grid-auto-rows: ${Math.ceil(window.innerWidth * 0.006) - 1}px;
+    }
+`;
+
+    document.getElementById('led-style').textContent = cssData;
+}
+
+function setScreenInfo(childNumber, text) {
+    document.getElementById('output-info').children[childNumber - 1].textContent = text;
+}
+
+function setScreenDest(dest) {
+    setScreenInfo(2, 'Dest : ' + dest);
+}
+
+function setScreenExtra(extra) {
+    setScreenInfo(3, 'Extr : ' + extra);
+}
+
+function setCode(code, operator) {
+    if (!EDSData[operator][code]) return;
+
+    let frontDisplay = EDSData[operator][code].front;
+    let parsedFront = parseFormat(EDSFormats[operator], frontDisplay, EDSImages[operator], frontEDS);
+    render(parsedFront, frontEDS);
+
+    setScreenDest(code);
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    generateLEDCssCode();
+
+    frontEDS = new LEDMatrix(frontEDSWidth, edsHeight, document.getElementById('front-eds'));
+
+    setCode(6039, 'Ventura');
+});
+
+window.addEventListener('resize', generateLEDCssCode);
