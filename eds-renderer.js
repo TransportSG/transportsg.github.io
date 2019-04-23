@@ -253,6 +253,20 @@ function parseFormat(formats, data, images, matrix) {
                 }, format, matrix, data, images));
             });
 
+            let yValues = resolvedScrolls.map(scroll => scroll.y);
+            let adjustedY = yValues[0];
+
+            if (formatting.align.includes('bottom') && formatting.align.includes('lock-pos')) {
+                adjustedY = Math.min.call(null, ...yValues);
+            } else if (formatting.align.includes('top') && formatting.align.includes('lock-pos')) {
+                adjustedY = Math.max.call(null, ...yValues);
+            }
+
+            resolvedScrolls = resolvedScrolls.map(scroll => {
+                scroll.y = adjustedY;
+                return scroll;
+            });
+
             let n = -1;
             output.push({
                 rotate: true,
