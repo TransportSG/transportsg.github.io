@@ -254,7 +254,7 @@ function parseFormat(formats, data, images, matrix) {
             });
 
             let yValues = resolvedScrolls.map(scroll => scroll.y);
-            let adjustedY = yValues[0];
+            let adjustedY = null;
 
             if (formatting.align.includes('bottom') && formatting.align.includes('lock-pos')) {
                 adjustedY = Math.min.call(null, ...yValues);
@@ -262,10 +262,11 @@ function parseFormat(formats, data, images, matrix) {
                 adjustedY = Math.max.call(null, ...yValues);
             }
 
-            resolvedScrolls = resolvedScrolls.map(scroll => {
-                scroll.y = adjustedY;
-                return scroll;
-            });
+            if (adjustedY !== null)
+                resolvedScrolls = resolvedScrolls.map(scroll => {
+                    scroll.y = adjustedY;
+                    return scroll;
+                });
 
             let n = -1;
             output.push({

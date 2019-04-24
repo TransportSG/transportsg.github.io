@@ -96,35 +96,36 @@ EDSData.SMRT = {
                 font: 'Mobitec-7:5:3'
             },
             scrolls: [
-                {
-                    renderType: 'destScroll',
-                    top: "CHOA CHU KANG",
-                    topFont: "Mobitec-7:7",
-
-                    bottom: "INT / MRT / LRT",
-                    bottomFont: "Mobitec-7:7",
-                    serviceNumber: "190"
-                },
-                {
-                    text: 'HILL STREET',
-                    font: 'Mobitec-7:5:3'
-                },
-                {
-                    text: 'SOMERSET ROAD',
-                    font: 'Mobitec-7:5:3'
-                },
-                {
-                    text: 'SCOTTS ROAD',
-                    font: 'Mobitec-7:5:3'
-                },
-                {
-                    text: 'STEVENS ROAD',
-                    font: 'Mobitec-7:5:3'
-                },
-                {
-                    text: 'BUKIT PANJANG RD',
-                    font: 'Mobitec-7:5:3'
-                }
+                'HELLO'
+                // {
+                //     renderType: 'destScroll',
+                //     top: "CHOA CHU KANG",
+                //     topFont: "Mobitec-7:7",
+                //
+                //     bottom: "INT / MRT / LRT",
+                //     bottomFont: "Mobitec-7:7",
+                //     serviceNumber: "190"
+                // },
+                // {
+                //     text: 'HILL STREET',
+                //     font: 'Mobitec-7:5:3'
+                // },
+                // {
+                //     text: 'SOMERSET ROAD',
+                //     font: 'Mobitec-7:5:3'
+                // },
+                // {
+                //     text: 'SCOTTS ROAD',
+                //     font: 'Mobitec-7:5:3'
+                // },
+                // {
+                //     text: 'STEVENS ROAD',
+                //     font: 'Mobitec-7:5:3'
+                // },
+                // {
+                //     text: 'BUKIT PANJANG RD',
+                //     font: 'Mobitec-7:5:3'
+                // }
             ],
             scrollFont: "Mobitec-7:5:3"
         }
