@@ -34,7 +34,7 @@ function drawSelectionScreen(code) {
     if (currentCodeIndex === -1) currentCodeIndex = 0;
 
     if (currentCodeIndex > allCodes.length - 3) {
-        currentCodeIndex = allCodes.length - 3;
+        currentCodeIndex = Math.max(allCodes.length - 3, 0);
     }
 
     let nextThreeCodes = allCodes.slice(currentCodeIndex, currentCodeIndex + 3);

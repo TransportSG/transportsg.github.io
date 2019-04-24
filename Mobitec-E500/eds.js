@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     frontEDS = new LEDMatrix(frontEDSWidth, edsHeight, document.getElementById('front-eds'));
 
-    setCode(5, 'SMRT');
+    setCode(1, 'SMRT');
 });
 
 window.addEventListener('resize', generateLEDCssCode);
