@@ -11,7 +11,8 @@ EDSFormats.SMRT = {
             margin: {
                 right: 'width(serviceNumber)'
             },
-            text: "$destination",
+            text: "$destination.text+' via'",
+            font: "$destination.font",
             spacing: 1
         },
         scroll: {
@@ -27,7 +28,7 @@ EDSFormats.SMRT = {
             spacing: 1
         },
 
-        text: "$destination"
+        text: "$destination.text+' '+$serviceNumber"
     },
     destScroll: {
         serviceNumber: {
@@ -65,7 +66,7 @@ EDSData.SMRT = {
             renderType: 'standardService',
             serviceNumber: '190',
             destination: {
-                text: 'KAMPONG BAHRU TER via',
+                text: 'KAMPONG BAHRU TER',
                 font: 'Mobitec-7:4'
             },
             scrolls: [
@@ -92,7 +93,7 @@ EDSData.SMRT = {
             renderType: 'standardService',
             serviceNumber: '190',
             destination: {
-                text: 'CHOA CHU KANG via',
+                text: 'CHOA CHU KANG',
                 font: 'Mobitec-7:5:3'
             },
             scrolls: [
@@ -119,7 +120,7 @@ EDSData.SMRT = {
             renderType: "standardService",
             serviceNumber: "912A",
             destination: {
-                text: "WOODLANDS INT via",
+                text: "WOODLANDS INT",
                 font: "Mobitec-7:5:3"
             },
             scrolls: [

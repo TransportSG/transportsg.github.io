@@ -1,13 +1,33 @@
 function resolveValue(value, data) {
     if (value.toString() == '[object Object]') return value;
-
     value = value.toString();
-    if (value === "null") return null;
-    if (value === "undefined") return undefined;
-    if (value.startsWith('$'))
-        return data[value.slice(1)];
-    if (value.startsWith("'") && value.endsWith("'")) return value.slice(1, -1);
-    return value;
+
+    let parts = value.split('+');
+
+    if (parts.length === 1) return resolveVariable(value, data);
+
+    return parts.map(part => resolveVariable(part, data)).join('');
+}
+
+function resolveVariable(variable, data) {
+    if (variable.toString() == '[object Object]') return variable;
+    variable = variable.toString();
+    if (variable === "null") return null;
+    if (variable === "undefined") return undefined;
+
+    if (variable.startsWith('$')) {
+        let subObjects = variable.split('.');
+        let variableName = subObjects[0].slice(1);
+        subObjects = subObjects.slice(1);
+
+        let object = data[variableName];
+        subObjects.forEach(subObjectsName => {
+            object = object[subObjectsName];
+        });
+        return object;
+    }
+    if (variable.startsWith("'") && variable.endsWith("'")) return variable.slice(1, -1);
+    return variable;
 }
 
 function solveConditonal(cases, data) {
