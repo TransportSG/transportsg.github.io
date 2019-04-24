@@ -202,7 +202,11 @@
     grid-template-columns: repeat(3, 2vw);
 }
 
-#direction-pad .button {
+#direction-pad > div:nth-child(odd) {
+    visibility: hidden;
+}
+
+#direction-pad > div:nth-child(even) {
     width: 2vw;
     height: 2vw;
     padding: 0;

@@ -41,14 +41,20 @@ function setScreenExtra(extra) {
 }
 
 function setCode(code, operator) {
+    code += '';
+
     if (!EDSData[operator][code]) return;
 
     let frontDisplay = EDSData[operator][code].front;
-    let parsedFront = parseFormat(EDSFormats[operator], frontDisplay, EDSImages[operator], frontEDS);
-    render(parsedFront, frontEDS);
+    let parsedFront = parseFormat(EDSFormats[operator], frontDisplay, EDSImages[operator], controllerPreview);
     render(parsedFront, controllerPreview);
 
+    parsedFront = parseFormat(EDSFormats[operator], frontDisplay, EDSImages[operator], frontEDS);
+    render(parsedFront, frontEDS);
+
     setScreenDest(code);
+
+    currentCode = code;
 }
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -57,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
     frontEDS = new LEDMatrix(frontEDSWidth, edsHeight, document.getElementById('front-eds'));
     controllerPreview = new LEDMatrix(frontEDSWidth, edsHeight, document.getElementById('preview-canvas'), CanvasBasedLEDMatrix, 4);
 
-    setCode(1111, 'Ventura');
+    setCode(6906, 'Ventura');
 });
 
 window.addEventListener('resize', generateLEDCssCode);

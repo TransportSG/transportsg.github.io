@@ -28,7 +28,7 @@ EDSFormats.Ventura = {
             spacing: 1
         },
 
-        text: "$destination"
+        text: "$destination.text+' '+$serviceNumber"
     },
     logo: {
         logo: {
@@ -37,6 +37,42 @@ EDSFormats.Ventura = {
         },
 
         text: "$text"
+    },
+    trainReplacement: {
+        destination: {
+            align: "left,centre-y",
+            margin: {
+                left: 3
+            },
+            text: "$destination",
+            spacing: 1,
+            font: "Mobitec-13:8"
+        },
+        stopping: { // possibly implement groups
+            align: "right,top",
+            margin: {
+                right: 'width(image) + len(3) + len(6)',
+                top: 1
+            },
+            text: "Stopping",
+            spacing: 1,
+            font: "Mobitec-6:5"
+        },
+        allStations: {
+            align: "right,bottom",
+            margin: {
+                right: 'width(image) + len(3)',
+                bottom: 1
+            },
+            text: "All Stations",
+            spacing: 1,
+            font: "Mobitec-6:5"
+        },
+        image: {
+            align: "right",
+            image: "train"
+        },
+        text: ""
     }
 }
 
@@ -130,7 +166,7 @@ EDSData.Ventura = {
             renderType: "standardService",
             serviceNumber: "67",
             destination: {
-                text: "Monash Uni",
+                text: "Melbourne Uni",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -247,6 +283,12 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
+    6906: { // for fun
+        front: {
+            renderType: "trainReplacement",
+            destination: "Caulfield"
+        }
+    },
     6039: {
         front: {
             renderType: "standardService",
@@ -277,6 +319,36 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
+    6311: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "631",
+            destination: {
+                text: "Waverley Gdns",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Clayton",
+                "via Monash Uni"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6312: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "631",
+            destination: {
+                text: "Southland",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Monash Uni",
+                "via Clayton"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
     6931: {
         front: {
             renderType: "standardService",
@@ -301,8 +373,8 @@ EDSData.Ventura = {
             },
             scrolls: [
                 "via G Waverly",
+                "via Knox City",
                 "via Boronia",
-                "via Knox City"
             ],
             scrollFont: 'Mobitec-6:5'
         }
@@ -316,8 +388,8 @@ EDSData.Ventura = {
                 font: "Mobitec-7:7"
             },
             scrolls: [
-                "via Knox City",
                 "via Boronia",
+                "via Knox City",
                 "via G Waverly"
             ],
             scrollFont: 'Mobitec-6:5'
@@ -445,5 +517,23 @@ EDSImages.Ventura = {
         [0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0],
         [0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
         [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    ],
+    train: [
+        [0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1],
+        [1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 1],
+        [1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 1],
+        [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1],
+        [0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
     ]
 };
