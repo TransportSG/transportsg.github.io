@@ -48,6 +48,8 @@ function setCode(code, operator) {
     render(parsedFront, frontEDS);
 
     setScreenDest(code);
+
+    currentCode = code +'';
 }
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -55,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     frontEDS = new LEDMatrix(frontEDSWidth, edsHeight, document.getElementById('front-eds'));
 
-    setCode(1901, 'SMRT');
+    setCode(9122, 'SMRT');
 });
 
 window.addEventListener('resize', generateLEDCssCode);
