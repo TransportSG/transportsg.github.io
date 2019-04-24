@@ -1,4 +1,4 @@
-window.frontEDS = null;
+window.frontEDS = null; window.controllerPreview = null;
 
 let EDSFormats = {};
 let EDSData = {};
@@ -46,6 +46,7 @@ function setCode(code, operator) {
     let frontDisplay = EDSData[operator][code].front;
     let parsedFront = parseFormat(EDSFormats[operator], frontDisplay, EDSImages[operator], frontEDS);
     render(parsedFront, frontEDS);
+    render(parsedFront, controllerPreview);
 
     setScreenDest(code);
 }
@@ -54,6 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
     generateLEDCssCode();
 
     frontEDS = new LEDMatrix(frontEDSWidth, edsHeight, document.getElementById('front-eds'));
+    controllerPreview = new LEDMatrix(frontEDSWidth, edsHeight, document.getElementById('preview-canvas'), CanvasBasedLEDMatrix, 4);
 
     setCode(1111, 'Ventura');
 });

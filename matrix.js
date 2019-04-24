@@ -139,11 +139,12 @@ class CanvasBasedLEDMatrix {
         this.filledPixel = context.createImageData(1,1);
         this.emptyPixel = context.createImageData(1,1);
         for (let i = 0; i < 4; i++) {
-            this.filledPixel.data[i] = 255;
+            this.filledPixel.data[i] = 0;
             this.emptyPixel.data[i] = 0;
         }
 
-        this.emptyPixel.data[3] = 255;
+        this.emptyPixel.data[3] = 0;
+        this.filledPixel.data[3] = 255;
     }
 
     setLEDState(x, y, state, colour) {
