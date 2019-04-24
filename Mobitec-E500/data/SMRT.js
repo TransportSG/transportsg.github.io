@@ -1014,7 +1014,107 @@ EDSData.SMRT = {
             ],
             scrollFont: 'Mobitec-7:5:3'
         }
-    }
+    },
+    9851: {
+        front: {
+            renderType: 'standardService',
+            serviceNumber: '985',
+            destination: {
+                text: 'GEYLANG LOR 1',
+                font: 'Mobitec-7:5:3'
+            },
+            scrolls: [
+                {
+                    renderType: 'destScroll',
+                    top: "GEYLANG LOR 1/",
+                    topFont: "Mobitec-7:7",
+
+                    bottom: "KALLANG MRT",
+                    bottomFont: "Mobitec-7:7",
+                    serviceNumber: "985"
+                },
+                {
+                    text: 'TECK WHYE AVE',
+                    font: 'Mobitec-7:5:3'
+                },
+                {
+                    text: 'B. B WEST AVE 7,4',
+                    font: 'Mobitec-7:5:3'
+                },
+                {
+                    text: 'B. B WEST AVE 2',
+                    font: 'Mobitec-7:5:3'
+                },
+                {
+                    text: 'B. B EAST AVE 2',
+                    font: 'Mobitec-7:5:3'
+                },
+                {
+                    text: 'JLN JURONG KECHIL',
+                    font: 'Mobitec-7:5:3'
+                },
+                {
+                    text: 'JLN TOA PAYOH',
+                    font: 'Mobitec-7:5:3'
+                },
+                {
+                    text: 'BENDEMEER ROAD',
+                    font: 'Mobitec-7:5:3'
+                },
+            ],
+            scrollFont: 'Mobitec-7:5:3'
+        }
+    },
+    9852: {
+        front: {
+            renderType: 'standardService',
+            serviceNumber: '985',
+            destination: {
+                text: 'CHOA CHU KANG',
+                font: 'Mobitec-7:5:3'
+            },
+            scrolls: [
+                {
+                    renderType: 'destScroll',
+                    top: "CHOA CHU KANG",
+                    topFont: "Mobitec-7:7",
+
+                    bottom: "INT / MRT / LRT",
+                    bottomFont: "Mobitec-7:7",
+                    serviceNumber: "985"
+                },
+                {
+                    text: 'SERANGOON ROAD',
+                    font: 'Mobitec-7:5:3'
+                },
+                {
+                    text: 'JLN TOA PAYOH',
+                    font: 'Mobitec-7:5:3'
+                },
+                {
+                    text: 'JLN JURONG KECHIL',
+                    font: 'Mobitec-7:5:3'
+                },
+                {
+                    text: 'B. B EAST AVE 2',
+                    font: 'Mobitec-7:5:3'
+                },
+                {
+                    text: 'B. B WEST AVE 2, 4',
+                    font: 'Mobitec-7:5:3'
+                },
+                {
+                    text: 'B. B WEST AVE 7',
+                    font: 'Mobitec-7:5:3'
+                },
+                {
+                    text: 'TECK WHYE AVE',
+                    font: 'Mobitec-7:5:3'
+                }
+            ],
+            scrollFont: 'Mobitec-7:5:3'
+        }
+    },
 }
 
 EDSImages.SMRT = {
