@@ -2,14 +2,18 @@ let currentScreen = 'controller-screen-home';
 let currentOperator = 'SMRT';
 let currentCode = '0';
 let currentScreenCode = '0';
+let screenFilter = '';
 
 function setScreen(screenName) {
-    let screens = [['controller-screen-home', 'flex'], ['controller-screen-dest', 'block']];
+    let screens = [['controller-screen-home', 'flex', () => {
+        screenFilter = '';
+    }], ['controller-screen-dest', 'block']];
     screens.forEach(screen => {
         if (screen[0] !== screenName) {
             document.getElementById(screen[0]).style.display = 'none';
         } else {
             document.getElementById(screen[0]).style.display = screen[1];
+            if (screen[2]) screen[2]();
         }
     });
 
@@ -27,8 +31,12 @@ function setSelectionItems(items) {
     }).join('');
 }
 
+function getCodes(dataSet) {
+    return Object.keys(dataSet[currentOperator]).filter(code => code.startsWith(screenFilter));
+}
+
 function drawSelectionScreen(code) {
-    let allCodes = Object.keys(EDSData[currentOperator]);
+    let allCodes = getCodes(EDSData);
 
     let currentCodeIndex = allCodes.indexOf(code);
     if (currentCodeIndex === -1) currentCodeIndex = 0;
@@ -49,6 +57,11 @@ function drawSelectionScreen(code) {
     });
 
     setSelectionItems(nextThreeCodes);
+    if (screenIndex == -1) {
+        screenIndex = 0;
+        currentScreenCode = nextThreeCodes[0].code;
+    }
+
     document.querySelector(`#dest-table > :nth-child(${screenIndex + 1})`).className = 'dest-table-item table-selected-row';
 
 }
@@ -56,33 +69,33 @@ function drawSelectionScreen(code) {
 function onF1Pressed() {
     if (currentScreen == 'controller-screen-home') {
         setScreen('controller-screen-dest');
-        drawSelectionScreen(currentCode, true);
+        drawSelectionScreen(currentCode);
         currentScreenCode = currentCode;
     }
 }
 
 function onUpPressed() {
     if (currentScreen !== 'controller-screen-dest') return;
-    let allCodes = Object.keys(EDSData[currentOperator]);
+    let allCodes = getCodes(EDSData);
 
     let currentCodeIndex = allCodes.indexOf(currentScreenCode);
     currentCodeIndex = Math.max(currentCodeIndex - 1, 0);
 
     currentScreenCode = allCodes[currentCodeIndex];
 
-    drawSelectionScreen(currentScreenCode, false);
+    drawSelectionScreen(currentScreenCode);
 }
 
 function onDownPressed() {
     if (currentScreen !== 'controller-screen-dest') return;
-    let allCodes = Object.keys(EDSData[currentOperator]);
+    let allCodes = getCodes(EDSData);
 
     let currentCodeIndex = allCodes.indexOf(currentScreenCode);
     currentCodeIndex = Math.min(currentCodeIndex + 1, allCodes.length - 1);
 
     currentScreenCode = allCodes[currentCodeIndex];
 
-    drawSelectionScreen(currentScreenCode, false);
+    drawSelectionScreen(currentScreenCode);
 }
 
 function onCrossPressed() {
@@ -96,6 +109,13 @@ function onTickPressed() {
     }
 }
 
+function onNumberPressed(number) {
+    if (currentScreen === 'controller-screen-dest') {
+        screenFilter += number;
+        drawSelectionScreen(currentScreenCode);
+    }
+}
+
 window.addEventListener('load', () => {
     document.getElementById('button-f1').addEventListener('click', onF1Pressed);
     document.getElementById('button-up').addEventListener('click', onUpPressed);
@@ -103,4 +123,8 @@ window.addEventListener('load', () => {
 
     document.getElementById('button-no').addEventListener('click', onCrossPressed);
     document.getElementById('button-yes').addEventListener('click', onTickPressed);
+
+    for (let i = 0; i <= 9; i++) {
+        document.getElementById('button-' + i).addEventListener('click', onNumberPressed.bind(null, i));
+    }
 });
