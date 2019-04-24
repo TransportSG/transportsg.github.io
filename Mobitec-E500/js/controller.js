@@ -1,6 +1,7 @@
-let currentScreen = 'home';
+let currentScreen = 'controller-screen-home';
 let currentOperator = 'SMRT';
 let currentCode = '0';
+let currentScreenCode = '0';
 
 function setScreen(screenName) {
     let screens = [['controller-screen-home', 'flex'], ['controller-screen-dest', 'block']];
@@ -11,6 +12,8 @@ function setScreen(screenName) {
             document.getElementById(screen[0]).style.display = screen[1];
         }
     });
+
+    currentScreen = screenName;
 }
 
 function setSelectionItems(items) {
@@ -24,10 +27,10 @@ function setSelectionItems(items) {
     }).join('');
 }
 
-function drawSelectionScreen() {
+function drawSelectionScreen(code) {
     let allCodes = Object.keys(EDSData[currentOperator]);
 
-    let currentCodeIndex = allCodes.indexOf(currentCode);
+    let currentCodeIndex = allCodes.indexOf(code);
     if (currentCodeIndex === -1) currentCodeIndex = 0;
 
     if (currentCodeIndex > allCodes.length - 3) {
@@ -35,7 +38,7 @@ function drawSelectionScreen() {
     }
 
     let nextThreeCodes = allCodes.slice(currentCodeIndex, currentCodeIndex + 3);
-    let screenIndex = nextThreeCodes.indexOf(currentCode);
+    let screenIndex = nextThreeCodes.indexOf(code);
 
     nextThreeCodes = nextThreeCodes.map(code => {
         let data = EDSData[currentOperator][code];
@@ -51,13 +54,53 @@ function drawSelectionScreen() {
 }
 
 function onF1Pressed() {
-    if (currentScreen == 'home') {
-        currentScreen = 'service-select';
+    if (currentScreen == 'controller-screen-home') {
         setScreen('controller-screen-dest');
-        drawSelectionScreen();
+        drawSelectionScreen(currentCode, true);
+        currentScreenCode = currentCode;
+    }
+}
+
+function onUpPressed() {
+    if (currentScreen !== 'controller-screen-dest') return;
+    let allCodes = Object.keys(EDSData[currentOperator]);
+
+    let currentCodeIndex = allCodes.indexOf(currentScreenCode);
+    currentCodeIndex = Math.max(currentCodeIndex - 1, 0);
+
+    currentScreenCode = allCodes[currentCodeIndex];
+
+    drawSelectionScreen(currentScreenCode, false);
+}
+
+function onDownPressed() {
+    if (currentScreen !== 'controller-screen-dest') return;
+    let allCodes = Object.keys(EDSData[currentOperator]);
+
+    let currentCodeIndex = allCodes.indexOf(currentScreenCode);
+    currentCodeIndex = Math.min(currentCodeIndex + 1, allCodes.length - 1);
+
+    currentScreenCode = allCodes[currentCodeIndex];
+
+    drawSelectionScreen(currentScreenCode, false);
+}
+
+function onCrossPressed() {
+    if (currentScreen === 'controller-screen-dest') setScreen('controller-screen-home');
+}
+
+function onTickPressed() {
+    if (currentScreen === 'controller-screen-dest') {
+        setCode(currentScreenCode, currentOperator);
+        setScreen('controller-screen-home');
     }
 }
 
 window.addEventListener('load', () => {
     document.getElementById('button-f1').addEventListener('click', onF1Pressed);
+    document.getElementById('button-up').addEventListener('click', onUpPressed);
+    document.getElementById('button-down').addEventListener('click', onDownPressed);
+
+    document.getElementById('button-no').addEventListener('click', onCrossPressed);
+    document.getElementById('button-yes').addEventListener('click', onTickPressed);
 });

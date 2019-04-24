@@ -91,7 +91,15 @@ EDSData.SMRT = {
         front: {
             renderType: "message",
             text: "OFF SERVICE",
-            font: "Mobitec-16:8", // not right but check later
+            font: "Mobitec-13:7", // not right but check later
+            spacing: 1
+        }
+    },
+    7: {
+        front: {
+            renderType: "message",
+            text: "OUT OF SERVICE",
+            font: "Mobitec-13:7",
             spacing: 2
         }
     },
@@ -99,8 +107,8 @@ EDSData.SMRT = {
         front: {
             renderType: "message",
             text: "OFF SERVICE",
-            font: "Mobitec-16:8",
-            spacing: 2
+            font: "Mobitec-13:7",
+            spacing: 1
         }
     },
     117: {
