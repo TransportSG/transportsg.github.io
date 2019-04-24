@@ -38,7 +38,10 @@ EDSFormats.SMRT = {
             spacing: 2
         },
         top: {
-            align: "centre-x,top",
+            align: {
+                "$bottom === null": "centre-x,centre-y",
+                "else": "centre-x,top"
+            },
             text: "$top",
             font: "$topFont",
             spacing: 1,
@@ -48,15 +51,21 @@ EDSFormats.SMRT = {
         },
         bottom: {
             align: "centre-x,bottom",
-            text: "$bottom",
-            font: "$bottomFont",
+            text: {
+                "$bottom !== null": "$bottom",
+                "else": "''"
+            },
+            font: {
+                "$bottomFont !== null": "$bottomFont",
+                "else": "Mobitec-6:5"
+            },
             spacing: 1,
             margin: {
                 right: 'width(serviceNumber)'
             }
         },
 
-        text: "$top+';'+$bottom"
+        text: "$top+' '+$bottom+' '+$serviceNumber"
     },
     logo: {
         logo: {
@@ -87,11 +96,43 @@ EDSData.SMRT = {
             spacing: 2
         }
     },
+    2: {
+        front: {
+            renderType: "message",
+            text: "ANG MO KIO DEPOT",
+            font: "Mobitec-13:7",
+            spacing: 1
+        }
+    },
+    3: {
+        front: {
+            renderType: "message",
+            text: "KRANJI DEPOT",
+            font: "Mobitec-13:7",
+            spacing: 1
+        }
+    },
+    4: {
+        front: {
+            renderType: "message",
+            text: "SMRT BUSES",
+            font: "Mobitec-13:7",
+            spacing: 1
+        }
+    },
     5: {
         front: {
             renderType: "message",
             text: "OFF SERVICE",
-            font: "Mobitec-13:7", // not right but check later
+            font: "Mobitec-13:7",
+            spacing: 1
+        }
+    },
+    6: {
+        front: {
+            renderType: "message",
+            text: "WOODLANDS DEPOT",
+            font: "Mobitec-13:7",
             spacing: 1
         }
     },
@@ -109,6 +150,301 @@ EDSData.SMRT = {
             text: "OFF SERVICE",
             font: "Mobitec-13:7",
             spacing: 1
+        }
+    },
+    9: {
+        front: {
+            renderType: "message",
+            text: "ON DRIVING TEST",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    10: {
+        front: {
+            renderType: "message",
+            text: "FERRY SERVICE",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    11: {
+        front: {
+            renderType: "message",
+            text: "MRT SHUTTLE",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    13: {
+        front: {
+            renderType: "message",
+            text: "TRAINING BUS",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    14: {
+        front: {
+            renderType: "message",
+            text: "MoBi 240419",
+            font: "Mobitec-13:7",
+            spacing: 1
+        }
+    },
+    16: {
+        front: {
+            renderType: "message",
+            text: "PULAU TEKONG",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    18: {
+        front: {
+            renderType: "message",
+            text: "LRT SHUTTLE A",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    19: {
+        front: {
+            renderType: "message",
+            text: "LRT SHUTTLE B",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    21: {
+        front: {
+            renderType: "message",
+            text: "WT 1",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    22: {
+        front: {
+            renderType: "message",
+            text: "WT 2",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    23: {
+        front: {
+            renderType: "message",
+            text: "WT 3",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    24: {
+        front: {
+            renderType: "message",
+            text: "WT 4",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    25: {
+        front: {
+            renderType: "message",
+            text: "WT 5",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    26: {
+        front: {
+            renderType: "message",
+            text: "WT 6",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    27: {
+        front: {
+            renderType: "message",
+            text: "WT 7",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    28: {
+        front: {
+            renderType: "message",
+            text: "WT 8",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    29: {
+        front: {
+            renderType: "message",
+            text: "WT 9",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    30: {
+        front: {
+            renderType: "message",
+            text: "WT 10",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    31: {
+        front: {
+            renderType: "message",
+            text: "WT 11",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    32: {
+        front: {
+            renderType: "message",
+            text: "WT 12",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    33: {
+        front: {
+            renderType: "message",
+            text: "WT 13",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    34: {
+        front: {
+            renderType: "message",
+            text: "WT 14",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    35: {
+        front: {
+            renderType: "message",
+            text: "WT 15",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    36: {
+        front: {
+            renderType: "message",
+            text: "WT 16",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    37: {
+        front: {
+            renderType: "message",
+            text: "WT 17",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    38: {
+        front: {
+            renderType: "message",
+            text: "WT 18",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    39: {
+        front: {
+            renderType: "message",
+            text: "WT 19",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    40: {
+        front: {
+            renderType: "message",
+            text: "WT 20",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    41: {
+        front: {
+            renderType: "message",
+            text: "WT 21",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    42: {
+        front: {
+            renderType: "message",
+            text: "LRT A",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    43: {
+        front: {
+            renderType: "message",
+            text: "LRT B",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    44: {
+        front: {
+            renderType: "message",
+            text: "WT 22",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    45: {
+        front: {
+            renderType: "message",
+            text: "WT 23",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    46: {
+        front: {
+            renderType: "destScroll",
+            top: "RESORTS WORLD",
+            topFont: "Mobitec-7:7",
+
+            bottom: "SENTOSA",
+            bottomFont: "Mobitec-7:7",
+            serviceNumber: "NR6"
+        }
+    },
+    47: {
+        front: {
+            renderType: "destScroll",
+            top: "RESORTS WORLD",
+            topFont: "Mobitec-7:7",
+
+            bottom: "SENTOSA",
+            bottomFont: "Mobitec-7:7",
+            serviceNumber: "NR1"
+        }
+    },
+    48: {
+        front: {
+            renderType: "destScroll",
+            top: "YISHUN",
+            topFont: "Mobitec-13:7",
+
+            serviceNumber: "NR1"
         }
     },
     117: {

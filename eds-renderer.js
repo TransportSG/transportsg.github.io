@@ -1,16 +1,24 @@
-function resolveValue(value, data) {
-    if (value.toString() == '[object Object]') return value;
+function resolveValue(value, data, furtherResolve) {
+    furtherResolve = furtherResolve === undefined ? true : furtherResolve;
+    if (typeof value !== 'string') return value;
+
     value = value.toString();
 
     let parts = value.split('+');
 
-    if (parts.length === 1) return resolveVariable(value, data);
+    let result = null;
 
-    return parts.map(part => resolveVariable(part, data)).join('');
+    if (parts.length === 1) result = resolveVariable(value, data);
+    else result = parts.map(part => resolveVariable(part, data)).join('');
+
+    if (furtherResolve) result = solveConditonal(result, data);
+
+    return result;
 }
 
 function resolveVariable(variable, data) {
-    if (variable.toString() == '[object Object]') return variable;
+    if (typeof variable == 'object') return variable;
+
     variable = variable.toString();
     if (variable === "null") return null;
     if (variable === "undefined") return undefined;
@@ -45,14 +53,22 @@ function solveConditonal(cases, data) {
             }
 
             let parts = case_.split(' ');
-            let variable = resolveValue(parts[0], data),
+            let variable = resolveValue(parts[0], data, false),
                 sign = parts[1],
-                check = resolveValue(parts[2], data);
+                check = resolveValue(parts[2], data, false);
 
                 switch (sign) {
                     case '===':
                     case '==':
                         if (variable == check && !found) {
+                            value = cases[case_];
+                            found = true
+                        }
+                        break;
+
+                    case '!==':
+                    case '!=':
+                        if (variable != check && !found) {
                             value = cases[case_];
                             found = true
                         }
@@ -67,7 +83,7 @@ function solveConditonal(cases, data) {
                 }
         });
 
-        return resolveValue(value, data);
+        return resolveValue(value, data, false);
     } else return cases;
 
 }
@@ -135,7 +151,7 @@ function adjustMargins(x, y, alignments, margins, data, images, sections, matrix
     if (alignments.includes('centre-y')) ymod = 0.5;
 
     Object.keys(margins).forEach(margin => {
-        let value = solveConditonal(margins[margin], data);
+        let value = solveConditonal(margins[margin]);
         let shift = parseMarginShifts(value, sections, data, images, matrix);
 
         switch(margin) {
@@ -159,9 +175,9 @@ function adjustMargins(x, y, alignments, margins, data, images, sections, matrix
 function resolvePosition(formatting, sections, matrix, data, images) {
     let {width, height} = matrix;
 
-    let align = formatting.align;
+    let align = solveConditonal(formatting.align, data);
     let text = resolveValue(formatting.text, data);
-    let spacing = solveConditonal(resolveValue(formatting.spacing, data), data) * 1;
+    let spacing = resolveValue(formatting.spacing, data) * 1;
 
     if (text instanceof Array) {
         let measures = text.map(text => matrix.measureText(text.text, text.font, spacing))
@@ -201,6 +217,9 @@ function resolvePosition(formatting, sections, matrix, data, images) {
         text = text.text;
     } else
         font = resolveValue(formatting.font, data);
+
+    text = solveConditonal(text, data);
+    font = solveConditonal(font, data);
 
     let measure = matrix.measureText(text, font, spacing);
     let textWidth = measure.width,
@@ -244,7 +263,7 @@ function parseFormat(formats, data, images, matrix) {
         }
 
         if (formatting.rotate) {
-            let scrolls = resolveValue(formatting.scrolls, data);
+            let scrolls = resolveValue(formatting.scrolls, data, false);
             let resolvedScrolls = [];
             if (scrolls.length === 0) scrolls.push(" ");
 
