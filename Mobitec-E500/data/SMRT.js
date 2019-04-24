@@ -2,6 +2,9 @@ EDSFormats.SMRT = {
     standardService: {
         serviceNumber: {
             align: "right",
+            margin: {
+                right: 1
+            },
             text: "$serviceNumber",
             font: "Mobitec-16:8",
             spacing: 2
@@ -33,6 +36,9 @@ EDSFormats.SMRT = {
     destScroll: {
         serviceNumber: {
             align: "right",
+            margin: {
+                right: 1
+            },
             text: "$serviceNumber",
             font: "Mobitec-16:8",
             spacing: 2
@@ -447,11 +453,485 @@ EDSData.SMRT = {
             serviceNumber: "NR1"
         }
     },
+    49: {
+        front: {
+            renderType: "destScroll",
+            top: "HARBOUR FRONT",
+            topFont: "Mobitec-7:7",
+
+            bottom: "INTERCHANGE",
+            bottomFont: "Mobitec-7:7",
+
+            serviceNumber: "NR6"
+        }
+    },
+    50: {
+        front: {
+            renderType: "destScroll",
+            top: "HARBOUR FRONT",
+            topFont: "Mobitec-7:7",
+
+            bottom: "INTERCHANGE",
+            bottomFont: "Mobitec-7:7",
+
+            serviceNumber: "NR1"
+        }
+    },
+    51: {
+        front: {
+            renderType: "destScroll",
+            top: "SUNTEC CITY",
+            topFont: "Mobitec-13:7",
+
+            serviceNumber: "NR1"
+        }
+    },
+    52: {
+        front: {
+            renderType: "destScroll",
+            top: "YISHUN",
+            topFont: "Mobitec-7:7",
+
+            bottom: "INTERCHANGE",
+            bottomFont: "Mobitec-7:7",
+
+            serviceNumber: "NR1"
+        }
+    },
+    53: {
+        front: {
+            renderType: "destScroll",
+            top: "MARINA CENTRE",
+            topFont: "Mobitec-13:7",
+
+            serviceNumber: "NR2"
+        }
+    },
+    54: {
+        front: {
+            renderType: "destScroll",
+            top: "SEMBAWANG",
+            topFont: "Mobitec-13:8",
+
+            serviceNumber: "NR2"
+        }
+    },
+    55: {
+        front: {
+            renderType: "destScroll",
+            top: "BOAT QUAY",
+            topFont: "Mobitec-13:8",
+
+            serviceNumber: "NR3"
+        }
+    },
+    56: {
+        front: {
+            renderType: "destScroll",
+            top: "CHOA CHU KANG",
+            topFont: "Mobitec-13:7",
+
+            serviceNumber: "NR3"
+        }
+    },
+    57: {
+        front: {
+            renderType: "destScroll",
+            top: "JURONG WEST",
+            topFont: "Mobitec-13:7",
+
+            serviceNumber: "NR5"
+        }
+    },
+    58: {
+        front: {
+            renderType: "destScroll",
+            top: "WHAMPOA",
+            topFont: "Mobitec-13:8",
+
+            serviceNumber: "NR5"
+        }
+    },
+    59: {
+        front: {
+            renderType: "destScroll",
+            top: "SENGKANG",
+            topFont: "Mobitec-13:8",
+
+            serviceNumber: "NR6"
+        }
+    },
+    60: {
+        front: {
+            renderType: "destScroll",
+            top: "MARINA CENTRE",
+            topFont: "Mobitec-13:7",
+
+            serviceNumber: "NR6"
+        }
+    },
+    61: {
+        front: {
+            renderType: "destScroll",
+            top: "PASIR RIS",
+            topFont: "Mobitec-13:8",
+
+            serviceNumber: "NR7"
+        }
+    },
+    62: {
+        front: {
+            renderType: "destScroll",
+            top: "MARINA CENTRE",
+            topFont: "Mobitec-13:7",
+
+            serviceNumber: "NR7"
+        }
+    },
+    66: {
+        front: {
+            renderType: "message",
+            text: "BULIM  DEPOT",
+            font: "Mobitec-13:8",
+            spacing: 1
+        }
+    },
+    67: {
+        front: {
+            renderType: "message",
+            text: "WT 24",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    68: {
+        front: {
+            renderType: "message",
+            text: "WT 25",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    69: {
+        front: {
+            renderType: "message",
+            text: "WT 26",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    70: {
+        front: {
+            renderType: "message",
+            text: "WT 27",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    72: {
+        front: {
+            renderType: "message",
+            text: "HAPPY MAY DAY",
+            font: "Mobitec-13:8",
+            spacing: 1
+        }
+    },
+    75: {
+        front: {
+            renderType: "destScroll",
+            top: "JURONG WEST",
+            topFont: "Mobitec-13:7",
+
+            serviceNumber: "NR5"
+        }
+    },
+    76: {
+        front: {
+            renderType: "destScroll",
+            top: "MARINA CENTRE",
+            topFont: "Mobitec-13:7",
+
+            serviceNumber: "NR5"
+        }
+    },
+    77: {
+        front: {
+            renderType: "destScroll",
+            top: "BUKIT BATOK",
+            topFont: "Mobitec-13:7",
+
+            serviceNumber: "NR8"
+        }
+    },
+    78: {
+        front: {
+            renderType: "destScroll",
+            top: "MARINA CENTRE",
+            topFont: "Mobitec-13:7",
+
+            serviceNumber: "NR8"
+        }
+    },
+    81: {
+        front: {
+            renderType: "destScroll",
+            top: "WELCOME TO IKEA",
+            topFont: "Mobitec-7:7",
+
+            bottom: "IKEA    -   TAMPINES",
+            bottomFont: "Mobitec-7:5:3",
+
+            serviceNumber: ""
+        }
+    },
+    82: {
+        front: {
+            renderType: "destScroll",
+            top: "WELCOME TO IKEA",
+            topFont: "Mobitec-7:7",
+
+            bottom: "IKEA  -  SENGKANG",
+            bottomFont: "Mobitec-7:5:3",
+
+            serviceNumber: ""
+        }
+    },
+    83: {
+        front: {
+            renderType: "destScroll",
+            top: "WELCOME TO IKEA",
+            topFont: "Mobitec-7:7",
+
+            bottom: "IKEA    -     ANG MO KIO",
+            bottomFont: "Mobitec-7:5:3",
+
+            serviceNumber: ""
+        }
+    },
+    84: {
+        front: {
+            renderType: "destScroll",
+            top: "WELCOME TO IKEA",
+            topFont: "Mobitec-7:7",
+
+            bottom: "IKEA  -  WOODLANDS",
+            bottomFont: "Mobitec-7:7",
+
+            serviceNumber: ""
+        }
+    },
+    85: {
+        front: {
+            renderType: "destScroll",
+            top: "WELCOME TO IKEA",
+            topFont: "Mobitec-7:7",
+
+            bottom: "IKEA  -  BOON LAY",
+            bottomFont: "Mobitec-7:7",
+
+            serviceNumber: ""
+        }
+    },
+    86: {
+        front: {
+            renderType: "destScroll",
+            top: "WELCOME TO IKEA",
+            topFont: "Mobitec-7:7",
+
+            bottom: "IKEA  -  YISHUN",
+            bottomFont: "Mobitec-7:7",
+
+            serviceNumber: ""
+        }
+    },
+    89: {
+        front: {
+            renderType: "destScroll",
+            top: "DOWNTOWN EAST   -  PASIR RIS",
+            topFont: "Mobitec-7:4",
+
+            bottom: "CARPARKS C, D, E, F",
+            bottomFont: "Mobitec-7:4",
+
+            serviceNumber: ""
+        }
+    },
+    91: {
+        front: {
+            renderType: "destScroll",
+            top: "BEDOK MRT TO & FROM",
+            topFont: "Mobitec-7:5:3",
+
+            bottom: "GIANT, IKEA & COURTS",
+            bottomFont: "Mobitec-7:5:3",
+
+            serviceNumber: ""
+        }
+    },
+    92: {
+        front: {
+            renderType: "destScroll",
+            top: "TAMPINES MRT TO & FROM",
+            topFont: "Mobitec-7:5:3",
+
+            bottom: "GIANT, IKEA & COURTS",
+            bottomFont: "Mobitec-7:5:3",
+
+            serviceNumber: ""
+        }
+    },
+    98: {
+        front: {
+            renderType: "destScroll",
+            top: "SENGKANG & PUNGGOL -",
+            topFont: "Mobitec-7:5:3",
+
+            bottom: "GIANT, IKEA & COURTS",
+            bottomFont: "Mobitec-7:5:3",
+
+            serviceNumber: ""
+        }
+    },
+    101: {
+        front: {
+            renderType: "destScroll",
+            top: "FREE CHINATOWN",
+            topFont: "Mobitec-7:7",
+
+            bottom: "SHUTTLE SERVICE",
+            bottomFont: "Mobitec-7:7",
+
+            serviceNumber: ""
+        }
+    },
+    106: {
+        front: {
+            renderType: "message",
+            text: "NGEE ANN POLY",
+            font: "Mobitec-13:8",
+            spacing: 1
+        }
+    },
+    113: {
+        front: {
+            renderType: "message",
+            text: "AIRSHOW SHUTTLE",
+            font: "Mobitec-13:7",
+            spacing: 1
+        }
+    },
+    114: {
+        front: {
+            renderType: "destScroll",
+            top: "JOO KOON - BUKIT GOMBAK",
+            topFont: "Mobitec-7:5:3",
+
+            bottom: "PARALLEL BUS SERVICE",
+            bottomFont: "Mobitec-7:5:3",
+
+            serviceNumber: ""
+        }
+    },
+    115: {
+        front: {
+            renderType: "destScroll",
+            top: "BUKIT GOMBAK - JOO KOON",
+            topFont: "Mobitec-7:5:3",
+
+            bottom: "PARALLEL BUS SERVICE",
+            bottomFont: "Mobitec-7:5:3",
+
+            serviceNumber: ""
+        }
+    },
     117: {
         front: {
             renderType: "logo",
             image: "logo",
             text: "SMRT LOGO"
+        }
+    },
+    118: {
+        front: {
+            renderType: "message",
+            text: "SMRT FLY OUR FLAG",
+            font: "Mobitec-13:7",
+            spacing: 1
+        }
+    },
+    118: {
+        front: {
+            renderType: "message",
+            text: "SMRT",
+            font: "Mobitec-13:8",
+            spacing: 1
+        }
+    },
+    141: {
+        front: {
+            renderType: "destScroll",
+            top: "FREE SMRT CHINATOWN",
+            topFont: "Mobitec-7:7",
+
+            bottom: "SHUTTLE BUS SERVICE",
+            bottomFont: "Mobitec-7:7",
+            serviceNumber: ""
+        }
+    },
+    142: {
+        front: {
+            renderType: "message",
+            text: "THANK YOU EXSA WINNERS",
+            font: "Mobitec-7:5:3",
+            spacing: 1
+        }
+    },
+    150: {
+        front: {
+            renderType: "message",
+            text: "FREE SHUTTLE",
+            font: "Mobitec-13:7",
+            spacing: 1
+        }
+    },
+    151: {
+        front: {
+            renderType: "message",
+            text: "FREE BRIDGING BUS",
+            font: "Mobitec-13:7",
+            spacing: 1
+        }
+    },
+    152: {
+        front: {
+            renderType: "message",
+            text: "LRT BRIDGING A",
+            font: "Mobitec-13:7",
+            spacing: 1
+        }
+    },
+    153: {
+        front: {
+            renderType: "message",
+            text: "LRT BRIDGING B",
+            font: "Mobitec-13:7",
+            spacing: 1
+        }
+    },
+    155: {
+        front: {
+            renderType: "message",
+            text: "FREE SHUTTLE BUS",
+            font: "Mobitec-13:7",
+            spacing: 1
+        }
+    },
+    199: {
+        front: {
+            renderType: "message",
+            text: "ON TEST",
+            font: "Mobitec-13:8",
+            spacing: 1
         }
     },
     1901: {
