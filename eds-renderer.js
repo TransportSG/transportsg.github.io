@@ -150,7 +150,7 @@ function adjustMargins(x, y, alignments, margins, data, images, sections, matrix
     if (alignments.includes('centre-y')) ymod = 0.5;
 
     Object.keys(margins).forEach(margin => {
-        let value = solveConditonal(margins[margin]);
+        let value = solveConditonal(margins[margin], data);
         let shift = parseMarginShifts(value, sections, data, images, matrix);
 
         switch(margin) {
@@ -242,7 +242,7 @@ function parseFormat(formats, data, images, matrix) {
 
     sections.forEach(sectionName => {
         if (sectionName === 'text') {
-            displayName = resolveValue(format.text, data);
+            displayName = resolveValue(format.text, data, false);
             displayName = displayName.text || displayName;
 
             return;
