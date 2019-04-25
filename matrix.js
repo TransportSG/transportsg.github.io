@@ -117,7 +117,9 @@ class LEDMatrix {
     }
 
     clearRectangle(x, y, w, h, colour) {
-        for (let dx = 0; dx < w; dx++) {
+        if (this.matrix.clearRectangle) this.matrix.clearRectangle(x, y, w, h, colour);
+
+        else for (let dx = 0; dx < w; dx++) {
             for (let dy = 0; dy < h; dy++) {
                 this.matrix.setLEDState(x + dx, y + dy, this.inverted, colour);
             }
@@ -134,33 +136,19 @@ class CanvasBasedLEDMatrix {
         this.scaleFactor = scaleFactor;
 
         this.canvas = canvas;
+        this.context = this.canvas.getContext('2d');
+    }
 
-        let context = this.canvas.getContext('2d');
-        this.filledPixel = context.createImageData(1,1);
-        this.emptyPixel = context.createImageData(1,1);
-        for (let i = 0; i < 4; i++) {
-            this.filledPixel.data[i] = 0;
-            this.emptyPixel.data[i] = 0;
-        }
-
-        this.emptyPixel.data[3] = 0;
-        this.filledPixel.data[3] = 255;
+    clearRectangle(x, y, w, h, colour) {
+        this.context.clearRect(x * this.scaleFactor, y * this.scaleFactor, w * this.scaleFactor, h * this.scaleFactor);
     }
 
     setLEDState(x, y, state, colour) {
-        let context = this.canvas.getContext('2d');
-
-        for (let i = 0; i < this.scaleFactor; i++) {
-            for (let j = 0; j < this.scaleFactor; j++) {
-                context.putImageData(state ? this.filledPixel : this.emptyPixel, this.scaleFactor * x + i, this.scaleFactor * y + j);
-            }
-        }
+        this.context.fillRect(x * this.scaleFactor, y * this.scaleFactor, this.scaleFactor, this.scaleFactor);
     }
 
     getLEDState(x, y) {
-        let context = this.canvas.getContext('2d');
-
-        return !!context.getImageData(x * this.scaleFactor, y * this.scaleFactor, 1, 1).data[0];
+        return !!this.context.getImageData(x * this.scaleFactor, y * this.scaleFactor, 1, 1).data[0];
     }
 
 }

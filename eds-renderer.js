@@ -375,4 +375,5 @@ function render(formatted, matrix, staticOnly) {
             data.dynamicRenderer(matrix, data.data);
         }
     });
+    
 }
