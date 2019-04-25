@@ -1205,6 +1205,17 @@ EDSData.SMRT = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
+    238: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "173K",
+
+            top: "ENDS AT",
+            bottom: "CANADIAN INT'L SCHOOL",
+            topFont: "Mobitec-7:4",
+            bottomFont: "Mobitec-7:4"
+        }
+    },
     247: {
         front: {
             renderType: "standardService",
