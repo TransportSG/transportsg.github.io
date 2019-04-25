@@ -4,7 +4,7 @@ EDSFormats.Ventura = {
             align: "right",
             text: "$serviceNumber",
             font: "Ventura-16",
-            spacing: 2
+            spacing: 1
         },
         destination: {
             align: "centre-x,top",
@@ -15,9 +15,9 @@ EDSFormats.Ventura = {
             spacing: 1
         },
         scroll: {
-            align: "centre-x,bottom,lock-pos",
+            align: "centre-x,top", // make bottom realise that overflows should be taken account for
             margin: {
-                bottom: 0,
+                top: 9,
                 right: 'width(serviceNumber)'
             },
             scrolls: "$scrolls",
@@ -359,6 +359,49 @@ EDSData.Ventura = {
             },
             scrolls: [
                 "via F'tree Gully Rd"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6941: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "694",
+            destination: {
+                text: "Mt. Dandenong",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Sky High",
+                "via Olinda Township"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6942: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "694",
+            destination: {
+                text: "Belgrave Stn",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Sassafras"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6943: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "694",
+            destination: {
+                text: "Onlina Township",
+                font: "Mobitec-7:6:1"
+            },
+            scrolls: [
+                "via Sassafras"
             ],
             scrollFont: 'Mobitec-6:5'
         }
