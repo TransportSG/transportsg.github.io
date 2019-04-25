@@ -10917,7 +10917,7 @@ let data = {
         ]
     },
     1901: {
-        renderType: '190-variant',
+        renderType: 'standardService',
         serviceNumber: '190',
         serviceFont: 'full',
         destination: {
@@ -10953,7 +10953,7 @@ let data = {
         ]
     },
     1902: {
-        renderType: '190-variant',
+        renderType: 'standardService',
         serviceNumber: '190',
         serviceFont: 'full',
         destination: {
@@ -15367,60 +15367,89 @@ function updateFont(font) {
 let newData = {};
 
 Object.keys(data).filter(code => {
-    return code >= 200 && data[code].renderType == 'standardService';
+    return code >= 200;
 }).forEach(code => {
     serviceCode = code + '';
     code = data[code];
-    let {scrolls} = code;
 
-    scrolls = [scrolls[0], ...scrolls.slice(1).map(scroll => {
-        if (scroll.font instanceof Array) {
-            scroll.font = scroll.font.map(font => updateFont(font));
-        } else
-            scroll.font = updateFont(scroll.font);
-        return scroll
-    })];
+    if (code.renderType == 'standardService') {
+        let {scrolls} = code;
 
-    let mostCommonFont = scrolls.slice(1).map(scroll => scroll.font);
-    mostCommonFont = mostCommonFont.reduce((acc, font) => {if (!acc[font]) acc[font] = 0; acc[font]++; return acc}, {});
-    mostCommonFont = Object.keys(mostCommonFont).sort((a, b) => mostCommonFont[b] - mostCommonFont[a])[0];
+        scrolls = [scrolls[0], ...scrolls.slice(1).map(scroll => {
+            if (scroll.font instanceof Array) {
+                scroll.font = scroll.font.map(font => updateFont(font));
+            } else
+                scroll.font = updateFont(scroll.font);
+            return scroll
+        })];
 
-    let destScroll = {
-        renderType: 'destScroll',
-        serviceNumber: code.serviceNumber
-    };
+        let mostCommonFont = scrolls.slice(1).map(scroll => scroll.font);
+        mostCommonFont = mostCommonFont.reduce((acc, font) => {if (!acc[font]) acc[font] = 0; acc[font]++; return acc}, {});
+        mostCommonFont = updateFont(Object.keys(mostCommonFont).sort((a, b) => mostCommonFont[b] - mostCommonFont[a])[0]);
 
-    if (scrolls[0].text instanceof Array) {
-        destScroll.top = scrolls[0].text[0];
-        destScroll.bottom = scrolls[0].text[1];
+        let destScroll = {
+            renderType: 'destScroll',
+            serviceNumber: code.serviceNumber
+        };
 
-        if (scrolls[0].font instanceof Array) {
-            destScroll.topFont = scrolls[0].font[0];
-            destScroll.bottomFont = scrolls[0].font[1];
+        if (scrolls[0].text instanceof Array) {
+            destScroll.top = scrolls[0].text[0];
+            destScroll.bottom = scrolls[0].text[1];
+
+            if (scrolls[0].font instanceof Array) {
+                destScroll.topFont = updateFont(scrolls[0].font[0]);
+                destScroll.bottomFont = updateFont(scrolls[0].font[1]);
+            } else {
+                destScroll.topFont = updateFont(scrolls[0].font);
+                destScroll.bottomFont = updateFont(scrolls[0].font);
+            }
         } else {
-            destScroll.topFont = scrolls[0].font;
-            destScroll.bottomFont = scrolls[0].font;
+            destScroll.top = scrolls[0].text;
+            destScroll.topFont = updateFont(scrolls[0].font);
         }
-    } else {
-        destScroll.top = scrolls[0].text;
-        destScroll.topFont = scrolls[0].font;
-    }
 
-    let updatedScrolls = scrolls.slice(1).map(scroll => {
-        if (scroll.font == mostCommonFont) return scroll.text;
-        else return scroll;
-    });
+        let updatedScrolls = scrolls.slice(1).map(scroll => {
+            if (scroll.font == mostCommonFont) return scroll.text;
+            else return scroll;
+        });
 
-    newData[serviceCode] = {
-        front: {
-            renderType: "standardService",
-            serviceNumber: code.serviceNumber,
-            destination: {
-                text: code.destination.text,
-                font: updateFont(code.destination.font)
-            },
-            scrolls: [destScroll, ...updatedScrolls],
-            scrollFont: mostCommonFont
+        newData[serviceCode] = {
+            front: {
+                renderType: "standardService",
+                serviceNumber: code.serviceNumber,
+                destination: {
+                    text: code.destination.text,
+                    font: updateFont(code.destination.font)
+                },
+                scrolls: [destScroll, ...updatedScrolls],
+                scrollFont: mostCommonFont
+            }
+        }
+    } else if (code.renderType == 'swt') {
+        let top = 'ENDS AT';
+        let bottom = '';
+
+        if (code.destination.road) {
+            top += ' ' + code.destination.road;
+        }
+        bottom = code.destination.text;
+
+        let topFont = updateFont(code.font);
+        let bottomFont = updateFont(code.font);
+
+        if (code.destination.font) {
+            bottomFont = updateFont(code.destination.font);
+        }
+        newData[serviceCode] = {
+            front: {
+                renderType: "destScroll",
+                serviceNumber: code.serviceNumber,
+
+                top,
+                bottom,
+                topFont,
+                bottomFont
+            }
         }
     }
 });

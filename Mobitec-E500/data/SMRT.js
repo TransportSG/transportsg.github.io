@@ -934,7 +934,6 @@ EDSData.SMRT = {
             spacing: 1
         }
     },
-
     200: {
         front: {
             renderType: "standardService",
@@ -1047,6 +1046,16 @@ EDSData.SMRT = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
+    207: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "811E",
+            top: "ENDS AT",
+            bottom: "YISHUN INT/MRT",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:7"
+        }
+    },
     208: {
         front: {
             renderType: "standardService",
@@ -1069,6 +1078,16 @@ EDSData.SMRT = {
                 "YISHUN AVE 4"
             ],
             scrollFont: "Mobitec-7:7"
+        }
+    },
+    209: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "812E",
+            top: "ENDS AT",
+            bottom: "YISHUN INT / MRT",
+            topFont: "Mobitec-7:5:3",
+            bottomFont: "Mobitec-7:5:3"
         }
     },
     210: {
@@ -1095,6 +1114,36 @@ EDSData.SMRT = {
                 "WDL AVENUE 7 "
             ],
             scrollFont: "Mobitec-7:7"
+        }
+    },
+    213: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "911E",
+            top: "ENDS AT",
+            bottom: "WDL INT / MRT",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:7"
+        }
+    },
+    215: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "912E",
+            top: "ENDS AT",
+            bottom: "WDL INT / MRT",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:7"
+        }
+    },
+    217: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "913E",
+            top: "ENDS AT",
+            bottom: "WDL INT / MRT",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:7"
         }
     },
     218: {
@@ -1146,6 +1195,16 @@ EDSData.SMRT = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
+    221: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "307E",
+            top: "ENDS AT",
+            bottom: "C.C.K INT/MRT/LRT",
+            topFont: "Mobitec-7:5:3",
+            bottomFont: "Mobitec-7:5:3"
+        }
+    },
     222: {
         front: {
             renderType: "standardService",
@@ -1181,6 +1240,16 @@ EDSData.SMRT = {
             scrollFont: "Mobitec-7:4"
         }
     },
+    224: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "811",
+            top: "ENDS AT",
+            bottom: "YISHUN ITE",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:7"
+        }
+    },
     225: {
         front: {
             renderType: "standardService",
@@ -1205,15 +1274,144 @@ EDSData.SMRT = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
+    229: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "67A",
+            top: "ENDS AT",
+            bottom: "HWA CHONG JC",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:7"
+        }
+    },
+    230: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "67W",
+            top: "ENDS AT",
+            bottom: " LITTLE INDIA",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:7"
+        }
+    },
+    231: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "77A",
+            top: "ENDS AT  TOH TUCK ROAD",
+            bottom: "BUKIT BATOK SEC SCH",
+            topFont: "Mobitec-7:4",
+            bottomFont: "Mobitec-7:4"
+        }
+    },
+    232: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "169A",
+            top: "ENDS AT",
+            bottom: "YISHUN INT/MRT",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:7"
+        }
+    },
+    233: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "965A",
+            top: "ENDS AT",
+            bottom: "YISHUN INT / MRT",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:5:3"
+        }
+    },
+    234: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "858A",
+            top: "ENDS AT",
+            bottom: "YISHUN MRT",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:7"
+        }
+    },
+    235: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "964A",
+            top: "ENDS AT",
+            bottom: "WOODLANDS LINK",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:5:3"
+        }
+    },
+    236: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "106A",
+            top: "ENDS AT",
+            bottom: "CLEMENTI MRT",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:7"
+        }
+    },
+    237: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "173A",
+            top: "ENDS AT",
+            bottom: "CLEMENTI INT",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:7"
+        }
+    },
     238: {
         front: {
             renderType: "destScroll",
             serviceNumber: "173K",
-
             top: "ENDS AT",
             bottom: "CANADIAN INT'L SCHOOL",
             topFont: "Mobitec-7:4",
             bottomFont: "Mobitec-7:4"
+        }
+    },
+    239: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "189A",
+            top: "ENDS AT",
+            bottom: "BT BATOK ST 23",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:7"
+        }
+    },
+    242: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "962A",
+            top: "ENDS AT",
+            bottom: "SEMBAWANG DRIVE",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:5:3"
+        }
+    },
+    244: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "67C",
+            top: "ENDS AT GEYLANG ROAD",
+            bottom: "(BEFORE CITY PLAZA)",
+            topFont: "Mobitec-7:4",
+            bottomFont: "Mobitec-7:4"
+        }
+    },
+    246: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "985A",
+            top: "ENDS AT",
+            bottom: "JLN JURONG KECHIL",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:5:3"
         }
     },
     247: {
@@ -1247,6 +1445,16 @@ EDSData.SMRT = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
+    248: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "189A",
+            top: "ENDS AT",
+            bottom: "MIDVEW BUILDING",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:7"
+        }
+    },
     249: {
         front: {
             renderType: "standardService",
@@ -1274,6 +1482,16 @@ EDSData.SMRT = {
                 "WDL AVENUE 5,2"
             ],
             scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    250: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "188A",
+            top: "ENDS AT",
+            bottom: "ITE COLLEGE WEST",
+            topFont: "Mobitec-7:5:3",
+            bottomFont: "Mobitec-7:5:3"
         }
     },
     251: {
@@ -1443,6 +1661,26 @@ EDSData.SMRT = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
+    257: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "177A",
+            top: "ENDS AT",
+            bottom: "JELUBU ROAD",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:7"
+        }
+    },
+    258: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "180A",
+            top: "ENDS AT",
+            bottom: "BT PANJANG ROAD",
+            topFont: "Mobitec-7:5:3",
+            bottomFont: "Mobitec-7:5:3"
+        }
+    },
     259: {
         front: {
             renderType: "standardService",
@@ -1470,6 +1708,76 @@ EDSData.SMRT = {
                 "WDL AVENUE 6, 7"
             ],
             scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    260: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "178A",
+            top: "ENDS AT",
+            bottom: "KRANJI MRT",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:7"
+        }
+    },
+    261: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "969A",
+            top: "ENDS AT",
+            bottom: "YISHUN INT/MRT",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:5:3"
+        }
+    },
+    263: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "962B",
+            top: "ENDS AT",
+            bottom: "SEMBAWANG DR",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:7"
+        }
+    },
+    264: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "75A",
+            top: "ENDS AT",
+            bottom: "OPP SIM HQ",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:7"
+        }
+    },
+    265: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "857A",
+            top: "ENDS AT",
+            bottom: "OPP SUNRISE GDNS",
+            topFont: "Mobitec-7:5:3",
+            bottomFont: "Mobitec-7:5:3"
+        }
+    },
+    266: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "811A",
+            top: "ENDS AT  YISHUN",
+            bottom: "AVE 5, BLK 145",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:7"
+        }
+    },
+    267: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "972A",
+            top: "ENDS AT",
+            bottom: "DHOBY GHAUT MRT",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:5:3"
         }
     },
     268: {
@@ -1500,6 +1808,16 @@ EDSData.SMRT = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
+    269: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "975A",
+            top: "ENDS AT",
+            bottom: "LOR RUSUK",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:7"
+        }
+    },
     270: {
         front: {
             renderType: "standardService",
@@ -1522,6 +1840,26 @@ EDSData.SMRT = {
                 "CANBERRA ROAD"
             ],
             scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    271: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "882A",
+            top: "ENDS AT",
+            bottom: "MONTREAL LINK",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:7"
+        }
+    },
+    272: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "302A",
+            top: "ENDS AT",
+            bottom: "OPP YEW TEE MRT",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:5:3"
         }
     },
     277: {
@@ -1628,6 +1966,16 @@ EDSData.SMRT = {
             scrollFont: "Mobitec-7:7"
         }
     },
+    281: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "860A",
+            top: "ENDS AT",
+            bottom: "KHATIB MRT",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:7"
+        }
+    },
     282: {
         front: {
             renderType: "standardService",
@@ -1665,7 +2013,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "920",
                     top: "BT PANJANG",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "PETIR / JELUBU RD",
                 "SENJAR RD / LINK",
@@ -1691,7 +2039,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "922",
                     top: "BT PANJANG",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "PETIR / JELUBU RD",
                 "JELAPANG ROAD",
@@ -1766,6 +2114,16 @@ EDSData.SMRT = {
             scrollFont: "Mobitec-7:7"
         }
     },
+    287: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "858B",
+            top: "ENDS AT",
+            bottom: "AFT SELETAR CAMP",
+            topFont: "Mobitec-7:5:3",
+            bottomFont: "Mobitec-7:5:3"
+        }
+    },
     288: {
         front: {
             renderType: "standardService",
@@ -1795,6 +2153,26 @@ EDSData.SMRT = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
+    289: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "975B",
+            top: "ENDS AT",
+            bottom: "LIM CHU KANG LANE 3",
+            topFont: "Mobitec-7:4",
+            bottomFont: "Mobitec-7:4"
+        }
+    },
+    290: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "962C",
+            top: "ENDS AT  BLK 680",
+            bottom: "WOODLANDS AVE 6",
+            topFont: "Mobitec-7:5:3",
+            bottomFont: "Mobitec-7:5:3"
+        }
+    },
     291: {
         front: {
             renderType: "standardService",
@@ -1816,6 +2194,16 @@ EDSData.SMRT = {
                 "WDL ST 41 (LOOP)"
             ],
             scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    292: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "307A",
+            top: "ENDS AT",
+            bottom: "OPP C. C. K. MRT",
+            topFont: "Mobitec-7:5:3",
+            bottomFont: "Mobitec-7:5:3"
         }
     },
     293: {
@@ -1942,7 +2330,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "973",
                     top: "BT PANJANG",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "BT PANJANG ROAD",
                 "PENDING / PETIR RD",
@@ -1966,7 +2354,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "75",
                     top: "MARINA CENTRE",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "UPP BT TIMAH RD",
                 "CLEMENTI RD",
@@ -2046,7 +2434,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "171",
                     top: "MARINA CENTRE",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "SEMBAWANG ROAD",
                 "MANDAI ROAD",
@@ -2097,7 +2485,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "176",
                     top: "BUKIT MERAH",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "UPP BUKIT TIMAH RD",
                 {
@@ -2157,7 +2545,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "167",
                     top: "BUKIT MERAH",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "THOMSON ROAD",
                 "SCOTTS ROAD",
@@ -2239,7 +2627,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "184",
                     top: "CLEMENTI MRT",
-                    topFont: "efat"
+                    topFont: "Mobitec-13:8"
                 },
                 "BT PANJANG RD",
                 "CASHEW ROAD",
@@ -2412,7 +2800,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "851",
                     top: "BUKIT MERAH INT",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 {
                     text: "ANG MO KIO AVE 6",
@@ -2699,7 +3087,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "855",
                     top: "HARBOURFRONT",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "YIO CHU KANG RD",
                 "UPP THOMSON RD",
@@ -2727,8 +3115,8 @@ EDSData.SMRT = {
                     serviceNumber: "855",
                     top: "YISHUN",
                     bottom: "INT / MRT",
-                    topFont: "big",
-                    bottomFont: "big"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 "LOWER DELTA RD",
                 "JLN BUKIT MERAH",
@@ -2952,7 +3340,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "925",
                     top: "LIM CHU KANG",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "WOODLANDS AVE 3",
                 "KRANJI, LOOP",
@@ -3218,7 +3606,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "188",
                     top: "HARBOURFRONT",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "CHOA CHU KANG WAY",
                 "B.B. WEST AVE 4, 2",
@@ -3315,6 +3703,16 @@ EDSData.SMRT = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
+    479: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "190A",
+            top: "ENDS AT",
+            bottom: "DHOBY GHAUT MRT",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:5:3"
+        }
+    },
     480: {
         front: {
             renderType: "standardService",
@@ -3378,7 +3776,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "700A",
                     top: "SUNTEC",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "BUKIT PANJANG RD",
                 "DUNEARN RD",
@@ -3426,7 +3824,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "700",
                     top: "SHENTON WAY",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "BUKIT PANJANG RD",
                 "PETIR ROAD",
@@ -3848,7 +4246,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "963",
                     top: "HARBOURFRONT",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 {
                     text: "MASRILING MRT",
@@ -3920,7 +4318,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "965",
                     top: "SENGKANG INT",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "ADMIRALTY MRT",
                 "GAMBAS AVENUE",
@@ -4074,7 +4472,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "963E",
                     top: "HARBOURFRONT",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "MASRILING MRT",
                 "BT PANJANG RD",
@@ -4348,7 +4746,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "188E",
                     top: "HARBOURFRONT",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "CHOA CHU KANG WAY",
                 "B. B. WEST AVE 7",
@@ -4376,7 +4774,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "530",
                     top: "SHENTON WAY",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "RIVER VALLEY RD",
                 "CHURCH STREET"
@@ -4397,7 +4795,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "531",
                     top: "SHENTON WAY",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "SIMEI",
                 "BEDOK",
@@ -4420,7 +4818,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "859A",
                     top: "SEMBAWANG",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "CANBERRA RD",
                 "ADMIRALTY LINK",
@@ -4468,7 +4866,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "546",
                     top: "SHENTON WAY",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "GEYLANG BAHRU",
                 "UPP BOON KENG RD",
@@ -4491,7 +4889,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "587",
                     top: "SHENTON WAY",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "SCOTTS RD",
                 "ORCHARD RD",
@@ -4515,7 +4913,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "587",
                     top: "WOODLANDS",
-                    topFont: "efat"
+                    topFont: "Mobitec-13:8"
                 },
                 "ROBINSON RD",
                 "STAMFORD RD",
@@ -4539,7 +4937,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "531",
                     top: "SIMEI",
-                    topFont: "efat"
+                    topFont: "Mobitec-13:8"
                 },
                 "ROBINSON RD",
                 "TEMASEK BLVD",
@@ -4563,7 +4961,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "588",
                     top: "SHENTON WAY",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "MARYMOUNT RD",
                 "BISHAN ST 21",
@@ -4642,7 +5040,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "589",
                     top: "FULLERTON RD",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "SUNSET WAY",
                 "CLEMENTI AVE 2",
@@ -4666,7 +5064,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "590",
                     top: "SHENTON WAY",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "C.C.K NORTH 6,5",
                 "ORCHARD RD",
@@ -4690,7 +5088,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "597",
                     top: "SHENTON WAY",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "LOR 2 TOA PAYOH",
                 "LOR 1 TOA PAYOH",
@@ -4716,7 +5114,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "598",
                     top: "SHENTON WAY",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "PETIR ROAD",
                 {
@@ -4755,7 +5153,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "598",
                     top: "SHENTON WAY",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "HOUGANG ST 51",
                 "HOUGANG AVE 4,9",
@@ -5300,7 +5698,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "568",
                     top: "SUNTEC CITY",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "BT BATOK WEST AVE 5,4",
                 "BT BATOK WEST AVE 2,3",
@@ -5405,7 +5803,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "971E",
                     top: "CECIL STREET",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 {
                     text: "BT PANJANG RING RD",
@@ -5560,7 +5958,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "860",
                     top: "YISHUN INT",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "YISHUN AVENUE 9",
                 "YISHUN RING ROAD",
@@ -5587,7 +5985,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "75",
                     top: "BUKIT PANJANG",
-                    topFont: "efat"
+                    topFont: "Mobitec-13:8"
                 },
                 "COLLYER QUAY",
                 "SHENTON WAY",
@@ -5612,7 +6010,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "176",
                     top: "BUKIT PANJANG",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "TELOK BLANGAH RD",
                 "WEST COAST HIGHWAY",
@@ -5640,7 +6038,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "177",
                     top: "BUKIT PANJANG",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "BT BATOK EAST AVE 3",
                 "BT BATOK EAST AVE 4",
@@ -5670,7 +6068,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "180",
                     top: "BUKIT PANJANG",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "BOON LAY WAY",
                 {
@@ -5700,7 +6098,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "184",
                     top: "BUKIT PANJANG",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "CLEMENTI ROAD",
                 {
@@ -5729,7 +6127,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "700",
                     top: "BUKIT PANJANG",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "STAMFORD RD",
                 "SOMERSET RD",
@@ -5794,7 +6192,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "920",
                     top: "BUKIT PANJANG",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "SENJA ROAD",
                 "JELAPANG ROAD",
@@ -5821,7 +6219,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "922",
                     top: "BUKIT PANJANG",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 {
                     text: "BT PANJANG RING RD",
@@ -5851,7 +6249,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "970",
                     top: "BUKIT PANJANG",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 {
                     text: "NEW BRIDGE RD",
@@ -5933,7 +6331,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "850E",
                     top: "SHENTON WAY",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "YISHUN AVE 6",
                 "YISHUN RING RD",
@@ -5989,7 +6387,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "975",
                     top: "LIM CHU KANG",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "TECK WHYE AVE",
                 "CHOA CHU KANG MRT",
@@ -6016,7 +6414,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "975",
                     top: "BUKIT PANJANG",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "LIM CHU KANG RD",
                 {
@@ -6160,7 +6558,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "75",
                     top: "MARINA CENTRE",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "UPP BT TIMAH RD",
                 "CLEMENTI ROAD",
@@ -6223,7 +6621,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "972",
                     top: "BUKIT PANJANG",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "SOMERSET RD",
                 {
@@ -6361,7 +6759,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "990",
                     top: "BUKIT BATOK",
-                    topFont: "efat"
+                    topFont: "Mobitec-13:8"
                 },
                 "B.B EAST AVE 3,6",
                 "B.BATOK AVE 1",
@@ -6387,7 +6785,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "189",
                     top: "BUKIT BATOK",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "B.B. EAST AVE 6",
                 "B.B. EAST ST 23",
@@ -6591,7 +6989,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "972",
                     top: "BUKIT PANJANG",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "ORCHARD / PENANG RD",
                 {
@@ -6738,7 +7136,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "979",
                     top: "BT PANJANG",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 {
                     text: "PETIR / JELUBU RD",
@@ -6792,7 +7190,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "979M",
                     top: "BT PANJANG",
-                    topFont: "efat"
+                    topFont: "Mobitec-13:8"
                 },
                 "PETIR / JELUBU RD",
                 "WOODLANDS RD",
@@ -6850,7 +7248,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "972",
                     top: "BUKIT PANJANG",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "PENANG RD",
                 {
@@ -6996,7 +7394,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "167",
                     top: "BUKIT MERAH",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "THOMSON ROAD",
                 "SCOTTS ROAD",
@@ -7088,6 +7486,16 @@ EDSData.SMRT = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
+    1693: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "169A",
+            top: "ENDS AT",
+            bottom: "YISHUN INT/MRT",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:7"
+        }
+    },
     1711: {
         front: {
             renderType: "standardService",
@@ -7101,7 +7509,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "171",
                     top: "MARINA CENTRE",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "SEMBAWANG ROAD",
                 "MANDAI ROAD",
@@ -7205,7 +7613,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "176",
                     top: "BUKIT MERAH",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "UPP BUKIT TIMAH RD",
                 {
@@ -7233,7 +7641,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "176",
                     top: "BUKIT PANJANG",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "TELOK BLANGAH RD",
                 "WEST COAST HIGHWAY",
@@ -7303,6 +7711,16 @@ EDSData.SMRT = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
+    1783: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "178A",
+            top: "ENDS AT",
+            bottom: "KRANJI MRT",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:7"
+        }
+    },
     1801: {
         front: {
             renderType: "standardService",
@@ -7316,7 +7734,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "180",
                     top: "BUKIT PANJANG",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "BOON LAY WAY",
                 {
@@ -7365,6 +7783,16 @@ EDSData.SMRT = {
             scrollFont: "Mobitec-7:7"
         }
     },
+    1803: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "180A",
+            top: "ENDS AT",
+            bottom: "BT PANJANG ROAD",
+            topFont: "Mobitec-7:5:3",
+            bottomFont: "Mobitec-7:5:3"
+        }
+    },
     1841: {
         front: {
             renderType: "standardService",
@@ -7378,7 +7806,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "184",
                     top: "CLEMENTI MRT",
-                    topFont: "efat"
+                    topFont: "Mobitec-13:8"
                 },
                 "BT PANJANG RD",
                 "CASHEW ROAD",
@@ -7402,7 +7830,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "184",
                     top: "BUKIT PANJANG",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "CLEMENTI ROAD",
                 {
@@ -7500,7 +7928,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "188",
                     top: "HARBOURFRONT",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "CHOA CHU KANG WAY",
                 "B.B. WEST AVE 4,2",
@@ -7545,6 +7973,16 @@ EDSData.SMRT = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
+    1883: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "188A",
+            top: "ENDS AT",
+            bottom: "ITE COLLEGE WEST",
+            topFont: "Mobitec-7:5:3",
+            bottomFont: "Mobitec-7:5:3"
+        }
+    },
     1884: {
         front: {
             renderType: "standardService",
@@ -7558,7 +7996,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "188e",
                     top: "HARBOURFRONT",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "CHOA CHU KANG WAY",
                 {
@@ -7651,58 +8089,67 @@ EDSData.SMRT = {
             ],
             scrollFont: "Mobitec-7:7"
         }
-    },1901: {
+    },
+    1901: {
         front: {
-            renderType: 'standardService',
-            serviceNumber: '190',
+            renderType: "standardService",
+            serviceNumber: "190",
             destination: {
-                text: 'KAMPONG BAHRU TER',
-                font: 'Mobitec-7:4'
+                text: "KAMPONG BAHRU TER",
+                font: "Mobitec-7:4"
             },
             scrolls: [
                 {
-                    renderType: 'destScroll',
+                    renderType: "destScroll",
+                    serviceNumber: "190",
                     top: "KAMPONG BAHRU",
-                    topFont: "Mobitec-7:7",
-
                     bottom: "TERMINAL",
-                    bottomFont: "Mobitec-7:7",
-                    serviceNumber: "190"
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
                 },
-                'BT PANJANG RD',
-                'STEVENS ROAD',
-                'ORCHARD ROAD',
-                'HILL STREET',
-                'CHINATOWN'
+                "BT PANJANG RD",
+                "STEVENS ROAD",
+                "ORCHARD ROAD",
+                "HILL STREET",
+                "CHINATOWN"
             ],
-            scrollFont: 'Mobitec-7:5:3'
+            scrollFont: "Mobitec-7:5:3"
         }
     },
     1902: {
         front: {
-            renderType: 'standardService',
-            serviceNumber: '190',
+            renderType: "standardService",
+            serviceNumber: "190",
             destination: {
-                text: 'CHOA CHU KANG',
-                font: 'Mobitec-7:5:3'
+                text: "CHOA CHU KANG",
+                font: "Mobitec-7:5:3"
             },
             scrolls: [
                 {
-                    renderType: 'destScroll',
+                    renderType: "destScroll",
+                    serviceNumber: "190",
                     top: "CHOA CHU KANG",
-                    topFont: "Mobitec-7:7",
-
                     bottom: "INT / MRT / LRT",
-                    bottomFont: "Mobitec-7:7",
-                    serviceNumber: "190"
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
                 },
-                'HILL STREET',
-                'SOMERSET ROAD',
-                'SCOTTS ROAD',
-                'STEVENS ROAD',
-                'BUKIT PANJANG RD'
+                "HILL STREET",
+                "SOMERSET ROAD",
+                "SCOTTS ROAD",
+                "STEVENS ROAD",
+                "BUKIT PANJANG RD"
             ],
             scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    1903: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "190A",
+            top: "ENDS AT",
+            bottom: "DHOBY GHAUT MRT",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:5:3"
         }
     },
     3001: {
@@ -7786,6 +8233,16 @@ EDSData.SMRT = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
+    3022: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "302A",
+            top: "ENDS AT",
+            bottom: "OPP YEW TEE MRT",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:5:3"
+        }
+    },
     3071: {
         front: {
             renderType: "standardService",
@@ -7819,6 +8276,26 @@ EDSData.SMRT = {
                 "CHOA CHU KANG ST 62"
             ],
             scrollFont: "Mobitec-7:4"
+        }
+    },
+    3072: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "307A",
+            top: "ENDS AT",
+            bottom: "OPP C. C. K. MRT",
+            topFont: "Mobitec-7:5:3",
+            bottomFont: "Mobitec-7:5:3"
+        }
+    },
+    3073: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "307T",
+            top: "ENDS AT",
+            bottom: "C.C.K INT/MRT/LRT",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:5:3"
         }
     },
     6101: {
@@ -7892,7 +8369,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "653",
                     top: "MARINA BLVD",
-                    topFont: "efat"
+                    topFont: "Mobitec-13:8"
                 },
                 {
                     text: "HUME AVE",
@@ -7918,7 +8395,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "653",
                     top: "HILLVIEW AVE",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "CENTRAL BLVD",
                 "SHENTON WAY",
@@ -7942,7 +8419,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "656",
                     top: "SHENTON WAY",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "ADMIRALTY LINK",
                 "SEMBAWANG DR",
@@ -7966,7 +8443,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "653",
                     top: "CANBERRA RD",
-                    topFont: "efat"
+                    topFont: "Mobitec-13:8"
                 },
                 "ROBINSON RD",
                 "DHOBY GHAUT",
@@ -7990,7 +8467,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "657",
                     top: "MARINA BLVD",
-                    topFont: "efat"
+                    topFont: "Mobitec-13:8"
                 },
                 "JURONG WEST AVE 1",
                 "JURONG EAST AVE 1",
@@ -8079,6 +8556,36 @@ EDSData.SMRT = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
+    6703: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "67A",
+            top: "ENDS AT   OPP",
+            bottom: "CORONATION PLAZA",
+            topFont: "Mobitec-7:5:3",
+            bottomFont: "Mobitec-7:5:3"
+        }
+    },
+    6704: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "67C",
+            top: "ENDS AT GEYLANG ROAD",
+            bottom: "(BEFORE CITY PLAZA)",
+            topFont: "Mobitec-7:4",
+            bottomFont: "Mobitec-7:4"
+        }
+    },
+    6705: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "67W",
+            top: "ENDS AT",
+            bottom: "LITTLE INDIA",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:7"
+        }
+    },
     7001: {
         front: {
             renderType: "standardService",
@@ -8092,7 +8599,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "700",
                     top: "SHENTON WAY",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "BT PANJANG RD",
                 "PETIR ROAD",
@@ -8117,7 +8624,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "700",
                     top: "BUKIT PANJANG",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "STAMFORD RD",
                 "SOMERSET RD",
@@ -8146,7 +8653,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "700A",
                     top: "SUNTEC",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "BUKIT PANJANG RD",
                 "DUNEARN RD",
@@ -8205,7 +8712,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "75",
                     top: "MARINA CENTRE",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "UPP BT TIMAH RD",
                 "CLEMENTI ROAD",
@@ -8233,7 +8740,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "75",
                     top: "BUKIT PANJANG",
-                    topFont: "efat"
+                    topFont: "Mobitec-13:8"
                 },
                 "COLLYER QUAY",
                 "SHENTON WAY",
@@ -8473,7 +8980,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "855",
                     top: "HARBOURFRONT",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "YIO CHU KANG RD",
                 "UPP THOMSON RD",
@@ -8501,8 +9008,8 @@ EDSData.SMRT = {
                     serviceNumber: "855",
                     top: "YISHUN",
                     bottom: "INT / MRT",
-                    topFont: "big",
-                    bottomFont: "big"
+                    topFont: "Mobitec-13:7",
+                    bottomFont: "Mobitec-13:7"
                 },
                 "LOWER DELTA RD",
                 "JLN BUKIT MERAH",
@@ -8572,6 +9079,16 @@ EDSData.SMRT = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
+    8563: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "856A",
+            top: "ENDS AT",
+            bottom: "WDL TRAIN CHECKPT",
+            topFont: "Mobitec-7:5:3",
+            bottomFont: "Mobitec-7:5:3"
+        }
+    },
     8571: {
         front: {
             renderType: "standardService",
@@ -8622,6 +9139,26 @@ EDSData.SMRT = {
                 "CTE,YIO CHU KANG RD"
             ],
             scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    8573: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "857A",
+            top: "ENDS AT",
+            bottom: "OPP SUNRISE GDNS",
+            topFont: "Mobitec-7:5:3",
+            bottomFont: "Mobitec-7:5:3"
+        }
+    },
+    8574: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "857",
+            top: "ENDS AT",
+            bottom: "PROMENADE MRT",
+            topFont: "Mobitec-7:5:3",
+            bottomFont: "Mobitec-7:5:3"
         }
     },
     8581: {
@@ -8695,6 +9232,26 @@ EDSData.SMRT = {
                 "WDL AVENUE 4"
             ],
             scrollFont: "Mobitec-7:7"
+        }
+    },
+    8583: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "858A",
+            top: "ENDS AT",
+            bottom: "YISHUN MRT",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:7"
+        }
+    },
+    8584: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "858B",
+            top: "ENDS AT",
+            bottom: "AFT SELETAR CAMP",
+            topFont: "Mobitec-7:5:3",
+            bottomFont: "Mobitec-7:5:3"
         }
     },
     8591: {
@@ -8871,6 +9428,16 @@ EDSData.SMRT = {
             scrollFont: "Mobitec-7:7"
         }
     },
+    8823: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "882A",
+            top: "ENDS AT",
+            bottom: "MONTREAL LINK",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:7"
+        }
+    },
     8831: {
         front: {
             renderType: "standardService",
@@ -8898,6 +9465,16 @@ EDSData.SMRT = {
                 "YISHUN CTRL 2 (LOOP)"
             ],
             scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    8832: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "883A",
+            top: "ENDS AT BLK 129A",
+            bottom: "CANBERRA WAY",
+            topFont: "Mobitec-7:5:3",
+            bottomFont: "Mobitec-7:5:3"
         }
     },
     9001: {
@@ -9116,6 +9693,16 @@ EDSData.SMRT = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
+    9112: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "911T",
+            top: "ENDS AT",
+            bottom: "WDL INT / MRT",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:7"
+        }
+    },
     9121: {
         front: {
             renderType: "standardService",
@@ -9198,6 +9785,16 @@ EDSData.SMRT = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
+    9124: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "912T",
+            top: "ENDS AT",
+            bottom: "WDL INT / MRT",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:7"
+        }
+    },
     9125: {
         front: {
             renderType: "standardService",
@@ -9248,6 +9845,16 @@ EDSData.SMRT = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
+    9132: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "913T",
+            top: "ENDS AT",
+            bottom: "WDL INT / MRT",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:7"
+        }
+    },
     9201: {
         front: {
             renderType: "standardService",
@@ -9261,7 +9868,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "920",
                     top: "BT PANJANG",
-                    topFont: "efat"
+                    topFont: "Mobitec-13:8"
                 },
                 "PETIR / JELUBU RD",
                 "SENJAR RD / LINK",
@@ -9287,7 +9894,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "922",
                     top: "BT PANJANG",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "PETIR / JELUBU RD",
                 "JELAPANG ROAD",
@@ -9817,6 +10424,36 @@ EDSData.SMRT = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
+    9623: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "962A",
+            top: "ENDS AT",
+            bottom: "SEMBAWANG DRIVE",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:5:3"
+        }
+    },
+    9624: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "962B",
+            top: "ENDS AT",
+            bottom: "SEMBAWANG DR",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:7"
+        }
+    },
+    9625: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "962C",
+            top: "ENDS AT  BLK 680",
+            bottom: "WOODLANDS AVE 6",
+            topFont: "Mobitec-7:5:3",
+            bottomFont: "Mobitec-7:5:3"
+        }
+    },
     9631: {
         front: {
             renderType: "standardService",
@@ -9830,7 +10467,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "963",
                     top: "HARBOURFRONT",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 {
                     text: "MASRILING MRT",
@@ -9902,7 +10539,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "963e",
                     top: "HARBOURFRONT",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "MASRILING MRT",
                 "BT PANJANG RD",
@@ -10080,6 +10717,16 @@ EDSData.SMRT = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
+    9642: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "964A",
+            top: "ENDS AT",
+            bottom: "WOODLANDS LINK",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:5:3"
+        }
+    },
     9651: {
         front: {
             renderType: "standardService",
@@ -10093,7 +10740,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "965",
                     top: "SENGKANG INT",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "ADMIRALTY MRT",
                 "GAMBAS AVENUE",
@@ -10128,6 +10775,16 @@ EDSData.SMRT = {
                 "ADMIRALTY MRT"
             ],
             scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    9653: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "965A",
+            top: "ENDS AT",
+            bottom: "YISHUN INT / MRT",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:5:3"
         }
     },
     9660: {
@@ -10293,6 +10950,16 @@ EDSData.SMRT = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
+    9693: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "969A",
+            top: "ENDS AT",
+            bottom: "YISHUN INT/MRT",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:5:3"
+        }
+    },
     9701: {
         front: {
             renderType: "standardService",
@@ -10334,7 +11001,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "970",
                     top: "BUKIT PANJANG",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 {
                     text: "NEW BRIDGE RD",
@@ -10369,7 +11036,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "971E",
                     top: "CECIL STREET",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 {
                     text: "BT PANJANG RING RD",
@@ -10489,7 +11156,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "972",
                     top: "BUKIT PANJANG",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "PENANG RD",
                 {
@@ -10509,6 +11176,16 @@ EDSData.SMRT = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
+    9723: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "972A",
+            top: "ENDS AT",
+            bottom: "DHOBY GHAUT MRT",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:5:3"
+        }
+    },
     9731: {
         front: {
             renderType: "standardService",
@@ -10522,7 +11199,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "973",
                     top: "BT PANJANG",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "BT PANJANG ROAD",
                 "PENDING / PETIR RD",
@@ -10546,7 +11223,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "975",
                     top: "LIM CHU KANG",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "TECK WHYE AVE",
                 "CHOA CHU KANG MRT",
@@ -10573,7 +11250,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "975",
                     top: "BUKIT PANJANG",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 "LIM CHU KANG RD",
                 {
@@ -10590,6 +11267,26 @@ EDSData.SMRT = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
+    9753: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "975A",
+            top: "ENDS AT",
+            bottom: "LOR RUSUK",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:7"
+        }
+    },
+    9754: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "975B",
+            top: "ENDS AT",
+            bottom: "LIM CHU KANG LANE 3",
+            topFont: "Mobitec-7:4",
+            bottomFont: "Mobitec-7:4"
+        }
+    },
     9791: {
         front: {
             renderType: "standardService",
@@ -10603,7 +11300,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "979",
                     top: "BT PANJANG",
-                    topFont: "big"
+                    topFont: "Mobitec-13:7"
                 },
                 {
                     text: "PETIR / JELUBU RD",
@@ -10631,7 +11328,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "979M",
                     top: "BT PANJANG",
-                    topFont: "efat"
+                    topFont: "Mobitec-13:8"
                 },
                 "PETIR / JELUBU RD",
                 "WOODLANDS RD",
@@ -10881,6 +11578,16 @@ EDSData.SMRT = {
                 "TECK WHYE AVE"
             ],
             scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    9853: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "985A",
+            top: "ENDS AT",
+            bottom: "JLN JURONG KECHIL",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:5:3"
         }
     }
 }
