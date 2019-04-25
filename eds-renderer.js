@@ -18,7 +18,6 @@ function resolveValue(value, data, furtherResolve) {
 
 function resolveVariable(variable, data) {
     if (typeof variable == 'object') return variable;
-
     variable = variable.toString();
     if (variable === "null") return null;
     if (variable === "undefined") return undefined;
@@ -176,7 +175,7 @@ function resolvePosition(formatting, sections, matrix, data, images) {
     let {width, height} = matrix;
 
     let align = solveConditonal(formatting.align, data);
-    let text = resolveValue(formatting.text, data);
+    let text = resolveValue(formatting.text, data, false);
     let spacing = resolveValue(formatting.spacing, data) * 1;
 
     if (text instanceof Array) {
