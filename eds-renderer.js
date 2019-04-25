@@ -347,6 +347,7 @@ function render(formatted, matrix, staticOnly) {
     }
 
     matrix.clearRectangle(0, 0, matrix.width, matrix.height);
+    matrix.onBeginDraw();
 
     formatted.forEach(data => {
         if (data instanceof Array) {
@@ -361,12 +362,15 @@ function render(formatted, matrix, staticOnly) {
             function renderScroll() {
                 let scroll = data.text();
                 let {text, spacing, font, x, y, offset} = scroll;
+
+                matrix.onBeginDraw();
                 if (!text && scroll.rendered) {
                     render(scroll.rendered, matrix, true);
                 } else {
                     render(formatted, matrix, true);
                     matrix.drawText(text, font, spacing, x, y);
                 }
+                matrix.onEndDraw();
             }
 
             renderScroll();
@@ -375,5 +379,5 @@ function render(formatted, matrix, staticOnly) {
             data.dynamicRenderer(matrix, data.data);
         }
     });
-    
+    matrix.onEndDraw();
 }

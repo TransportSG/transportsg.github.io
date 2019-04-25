@@ -116,6 +116,14 @@ class LEDMatrix {
         });
     }
 
+    onBeginDraw() {
+        if (this.matrix.onBeginDraw) this.matrix.onBeginDraw();
+    }
+
+    onEndDraw() {
+        if (this.matrix.onEndDraw) this.matrix.onEndDraw();
+    }
+
     clearRectangle(x, y, w, h, colour) {
         if (this.matrix.clearRectangle) this.matrix.clearRectangle(x, y, w, h, colour);
 
@@ -134,17 +142,37 @@ class CanvasBasedLEDMatrix {
         canvas.width = width * scaleFactor;
         canvas.height = height * scaleFactor;
         this.scaleFactor = scaleFactor;
+        this.width = width;
+        this.height = height;
 
         this.canvas = canvas;
         this.context = this.canvas.getContext('2d');
+
+        this.buffer = [];
+        for (let i = 0; i < this.width * this.height; i++) this.buffer.push(false);
     }
 
     clearRectangle(x, y, w, h, colour) {
         this.context.clearRect(x * this.scaleFactor, y * this.scaleFactor, w * this.scaleFactor, h * this.scaleFactor);
     }
 
+    onBeginDraw() {
+        this.buffer = [];
+        for (let i = 0; i < this.width * this.height; i++) this.buffer.push(false);
+        this.context.clearRect(0, 0, this.width * this.scaleFactor, this.height * this.scaleFactor);
+    }
+
+    onEndDraw() {
+        this.buffer.forEach((pixel, n) => {
+            let {x, y} = DOMBasedLEDMatrix.flatToTwodim(n, this.width);
+            if (pixel)
+                this.context.fillRect(x * this.scaleFactor, y * this.scaleFactor, this.scaleFactor, this.scaleFactor);
+        });
+    }
+
     setLEDState(x, y, state, colour) {
-        this.context.fillRect(x * this.scaleFactor, y * this.scaleFactor, this.scaleFactor, this.scaleFactor);
+        if (x >= this.width || x < 0 || y >= this.height || y < 0) return;
+        this.buffer[DOMBasedLEDMatrix.twodimToFlat(x, y, this.width)] = state;
     }
 
     getLEDState(x, y) {
