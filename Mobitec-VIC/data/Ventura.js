@@ -349,6 +349,22 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
+    6881: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "688",
+            destination: {
+                text: "Upper F.T Gully",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Ridge Road",
+                "via Sky High",
+                "via Olinda"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
     6931: {
         front: {
             renderType: "standardService",
