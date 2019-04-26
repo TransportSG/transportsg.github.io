@@ -18,7 +18,11 @@ EDSFormats.Ventura = {
             align: "centre-x,top", // make bottom realise that overflows should be taken account for
             margin: {
                 top: 9,
-                right: 'width(serviceNumber)'
+                right: 'width(serviceNumber)',
+                bottom: {
+                    "$bottomMargin !== null": "$bottomMargin",
+                    "else": "0"
+                }
             },
             scrolls: "$scrolls",
             rotate: true,
@@ -422,6 +426,81 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
+    7031: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "703",
+            destination: {
+                text: "Blackburn Stn",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Clayton",
+                "via Monash Uni",
+                "via K-Mart",
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7032: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "703",
+            destination: {
+                text: "Middle Brighton",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via K-Mart",
+                "via Monash Uni",
+                "via Clayton",
+                "via Bentleigh"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7331: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "733",
+            destination: {
+                text: "Box Hill",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Monash Uni"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7332: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "733",
+            destination: {
+                text: "Oakleigh",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Monash Uni"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    // 7333: {
+    //     front: {
+    //         renderType: "standardService",
+    //         serviceNumber: "733",
+    //         destination: {
+    //             text: "Monash",
+    //             font: "Mobitec-7:7"
+    //         },
+    //         scrolls: [
+    //             "University"
+    //         ],
+    //         scrollFont: 'Mobitec-7:7'
+    //     }
+    // },
     7371: {
         front: {
             renderType: "standardService",
@@ -496,6 +575,39 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
+    8021: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "802",
+            destination: {
+                text: "Chadstone",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Mulgrave",
+                "via Monash Uni",
+                "via Oakleigh",
+                "via Chadstone",
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    8041: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "804",
+            destination: {
+                text: "Dandenong Stn",
+                font: "Mobitec-7:6:1"
+            },
+            scrolls: [
+                "via Oakleigh",
+                "via Monash Uni",
+                "via Wheelers Hill"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
     8321: {
         front: {
             renderType: "standardService",
@@ -520,6 +632,22 @@ EDSData.Ventura = {
             },
             scrolls: [
                 "via Kananook"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    8621: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "862",
+            destination: {
+                text: "Chadstone",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Waverley Gdns",
+                "via Monash Uni",
+                "via Oakleigh",
             ],
             scrollFont: 'Mobitec-6:5'
         }
