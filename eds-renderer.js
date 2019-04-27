@@ -1,3 +1,97 @@
+class Position {
+
+    constructor(x, y) {
+        this.x = x;
+        this.y = y;
+    }
+
+}
+
+class TextObject {
+
+    constructor(text, font, position) {
+        this.text = text;
+        this.font = font;
+        this.position = position;
+    }
+
+}
+
+class Font {
+
+    constructor(name, modifiers, operator) {
+        this.name = name;
+        this.modifiers = modifiers;
+        this.operator = operator;
+
+        if (!fonts[name]) throw new Error(`Font ${name} not found!`);
+        this.data = fonts[name];
+    }
+
+    static getFontname(fontname) {
+        return fontname.match(/^([^;]+)/)[1];
+    }
+
+    static getModifiers(fontname) {
+        return (fontname.match(/^[^;]+;(.+)/) || ['',''])[1].split(',').map(e => e.split('='));
+    }
+
+    static fromName(name, operator) {
+        let fontname = Font.getFontname(name);
+        let modifiers = Font.getModifiers(name);
+
+        return new Font(fontname, modifiers, operator);
+    }
+
+}
+
+class Image {
+
+    constructor(name, operator, position) {
+        this.name = name;
+        this.operator = operator;
+        this.position = position;
+
+        if (!EDSImages[operator]) throw new Error(`Operator ${operator} not found!`);
+        if (!EDSImages[operator][name]) throw new Error(`Image ${name} under ${operator} not found!`);
+
+        this.data = EDSImages[operator][name];
+    }
+
+}
+
+class FormattingTemplate {
+
+    constructor(data) {
+        this.data = data;
+    }
+
+}
+
+class FormattingTemplateSection {
+
+    constructor(data) {
+        this.data = data;
+    }
+
+}
+
+class RenderedOutput {
+
+    constructor(objects) {
+        this.objects = objects;
+    }
+
+}
+
+class ConditionalValue {
+
+    constructor(cases) {
+        this.cases = cases;
+    }
+
+}
+
 function resolveValue(value, data, furtherResolve) {
     furtherResolve = furtherResolve === undefined ? true : furtherResolve;
     if (typeof value !== 'string') return value;
