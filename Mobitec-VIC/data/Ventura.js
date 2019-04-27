@@ -462,6 +462,36 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
+    7091: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "709",
+            destination: {
+                text: "Noble Park Stn",
+                font: "Mobitec-7:6:1"
+            },
+            scrolls: [,
+                "via Parkmore S/C", // Double check
+                "via Waterways Est."
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7092: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "709",
+            destination: {
+                text: "Mordialloc Stn",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Waterways Est.",
+                "via Parkmore S/C"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
     7331: {
         front: {
             renderType: "standardService",
@@ -607,6 +637,21 @@ EDSData.Ventura = {
                 "via Oakleigh",
                 "via Monash Uni",
                 "via Wheelers Hill"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    8281: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "828",
+            destination: {
+                text: "Hampton Stn",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Dandenong",
+                "via Cheltenham"
             ],
             scrollFont: 'Mobitec-6:5'
         }
