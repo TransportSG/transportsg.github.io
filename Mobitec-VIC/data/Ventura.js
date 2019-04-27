@@ -76,7 +76,7 @@ EDSFormats.Ventura = {
             align: "right",
             image: "train"
         },
-        text: ""
+        text: "$destination+' SAS'"
     }
 }
 
