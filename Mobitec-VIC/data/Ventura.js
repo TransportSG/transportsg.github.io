@@ -393,7 +393,10 @@ EDSData.Ventura = {
             },
             scrolls: [
                 "Sky High",
-                "via Olinda Township"
+                {
+                    text: "via Olinda Township",
+                    font: "Mobitec-6:5;Space-Width=1"
+                }
             ],
             scrollFont: 'Mobitec-6:5'
         }
