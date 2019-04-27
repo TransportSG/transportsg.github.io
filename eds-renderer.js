@@ -95,10 +95,10 @@ function solveAlignment(align, textWidth, textHeight, matrixWidth, matrixHeight)
     if (alignments.includes('right')) x = matrixWidth - textWidth; else x = 0;
     if (alignments.includes('bottom')) y = matrixHeight - textHeight; else y = 0;
     if (alignments.includes('centre-x')) {
-        x = Math.round(matrixWidth / 2 - textWidth / 2);
+        x = Math.floor(matrixWidth / 2 - textWidth / 2);
     }
     if (alignments.includes('centre-y')) {
-        y = Math.round(matrixHeight / 2 - textHeight / 2);
+        y = Math.floor(matrixHeight / 2 - textHeight / 2);
     }
 
     return {x, y};

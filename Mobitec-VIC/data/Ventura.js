@@ -417,7 +417,7 @@ EDSData.Ventura = {
             renderType: "standardService",
             serviceNumber: "694",
             destination: {
-                text: "Onlina Township",
+                text: "Olina Township",
                 font: "Mobitec-7:6:1"
             },
             scrolls: [
@@ -673,7 +673,7 @@ EDSData.Ventura = {
             renderType: "standardService",
             serviceNumber: "900",
             destination: {
-                text: "Caulfield Stns",
+                text: "Caulfield Stn",
                 font: "Mobitec-7:7"
             },
             scrolls: [
