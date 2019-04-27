@@ -9,20 +9,69 @@ class Position {
 
 class TextObject {
 
-    constructor(text, font, position) {
+    constructor(text, font, position, spacing) {
         this.text = text;
         this.font = font;
         this.position = position;
+        this.spacing = spacing;
+    }
+
+    measure(matrix) {
+        return matrix.measureText(this.text, this.font.name, this.spacing);
+    }
+
+    static fromJSONTextObject(data) {
+        return new TextObject(data.text, Font.fromNameString(data.font), null, data.spacing);
+    }
+
+    static fromJSON(data, font, spacing) {
+        let text;
+        if (typeof data == 'string') {
+            if (typeof font == 'string') {
+                font = Font.fromNameString(font);
+            }
+            text = new TextObject(data, font, null, spacing);
+        } else if (data instanceof Array) {
+            text = new MultiFontTextObject(data, null, null, spacing);
+        } else { // JSONTextObject
+            text = TextObject.fromJSONTextObject(Object.assign(data, {spacing}));
+        }
+
+        return text;
+    }
+
+}
+
+class MultiFontTextObject extends TextObject {
+
+    constructor(text, font, position, spacing) {
+        super();
+        this.text = text.map(textSection => TextObject.fromJSON(textSection, null, spacing));
+
+        this.position = position;
+    }
+
+    measure(matrix) {
+        return this.text.map(textSection => {return {measure: matrix.measureText(textSection.text, textSection.font.name, textSection.spacing), text: textSection}}).reduce((overall, textSection) => {
+            let {measure, text} = textSection;
+
+            overall.width += measure.width;
+            overall.width += text.spacing;
+
+            if (measure.height > overall.height) overall.height = measure.height;
+            if (measure.offset < overall.offset) overall.offset = textSectionMeasure.offset;
+
+            return overall;
+        }, { width: 0, height: 0, offset: 0 });
     }
 
 }
 
 class Font {
 
-    constructor(name, modifiers, operator) {
+    constructor(name, modifiers) {
         this.name = name;
         this.modifiers = modifiers;
-        this.operator = operator;
 
         if (!fonts[name]) throw new Error(`Font ${name} not found!`);
         this.data = fonts[name];
@@ -33,29 +82,27 @@ class Font {
     }
 
     static getModifiers(fontname) {
-        return (fontname.match(/^[^;]+;(.+)/) || ['',''])[1].split(',').map(e => e.split('='));
+        return (fontname.match(/^[^;]+;(.+)/) || ['',''])[1].split(',').filter(p => p.length).map(e => e.split('='));
     }
 
-    static fromName(name, operator) {
+    static fromNameString(name) {
         let fontname = Font.getFontname(name);
         let modifiers = Font.getModifiers(name);
 
-        return new Font(fontname, modifiers, operator);
+        return new Font(fontname, modifiers);
     }
 
 }
 
 class Image {
 
-    constructor(name, operator, position) {
+    constructor(name, allImages, position) {
         this.name = name;
-        this.operator = operator;
         this.position = position;
 
-        if (!EDSImages[operator]) throw new Error(`Operator ${operator} not found!`);
-        if (!EDSImages[operator][name]) throw new Error(`Image ${name} under ${operator} not found!`);
+        if (!allImages[name]) throw new Error(`Image ${name} not found!`);
 
-        this.data = EDSImages[operator][name];
+        this.data = allImages[name];
     }
 
 }
@@ -77,6 +124,15 @@ class FormattingTemplateSection {
 }
 
 class RenderedOutput {
+
+    constructor(pages) {
+        this.pages = pages;
+    }
+
+}
+
+
+class RenderedOutputPage {
 
     constructor(objects) {
         this.objects = objects;
@@ -265,6 +321,44 @@ function adjustMargins(x, y, alignments, margins, data, images, sections, matrix
     return {x, y};
 }
 
+function resolveTextPosition(text, alignment, margins, matrix) {
+    let {width, height} = matrix;
+
+    let measure = text.measure(matrix);
+
+    let {x, y} = solveAlignment(alignment, measure.width, measure.height, width, height);
+    y += measure.offset;
+
+    text.position = new Position(x, y);
+
+    if (text instanceof MultiFontTextObject) {
+        let dx = x;
+
+        text.text = text.text.map(textSection => {
+            let measure = textSection.measure(matrix);
+            let position = new Position(dx, y);
+
+            dx += measure.width;
+            dx += textSection.spacing;
+
+            textSection.position = position;
+            return textSection;
+        });
+    }
+
+    return text;
+}
+
+function resolveImagePosition(image, alignment, margins, matrix) {
+    let {width, height} = matrix;
+
+    let {x, y} = solveAlignment(alignment, image.data[0].length, image.data.length, width, height);
+
+    image.position = new Position(x, y);
+
+    return image;
+}
+
 function resolvePosition(formatting, sections, matrix, data, images) {
     let {width, height} = matrix;
 
@@ -355,50 +449,31 @@ function parseFormat(formats, data, images, matrix) {
             return;
         }
 
+        let alignment = resolveValue(formatting.align, data);
+        let margins = resolveValue(formatting.margin, data);
+        let spacing = resolveValue(formatting.spacing, data);
+
         if (formatting.rotate) {
             let scrolls = resolveValue(formatting.scrolls, data, false);
             let resolvedScrolls = [];
             if (scrolls.length === 0) scrolls.push(" ");
 
+            let defaultScrollFont = Font.fromNameString(resolveValue(formatting.font, data));
             scrolls.forEach(scroll => {
-                let text = scroll.text || scroll;
-
-                let font;
-                if (scroll.font) {
-                    font = scroll.font;
-                    text = scroll.text;
-                } else
-                    font = formatting.font;
+                let text;
 
                 if (scroll.renderType) {
                     let rendered = parseFormat(formats, scroll, images, matrix);
                     resolvedScrolls.push({rendered});
                     return;
+                } else {
+                    text = TextObject.fromJSON(scroll, defaultScrollFont, spacing);
                 }
 
-                resolvedScrolls.push(resolvePosition({
-                    align: formatting.align,
-                    margin: formatting.margin,
-                    spacing: formatting.spacing,
-                    text,
-                    font,
-                }, format, matrix, data, images));
+                text = resolveTextPosition(text, alignment, margins, matrix);
+
+                resolvedScrolls.push(text);
             });
-
-            let yValues = resolvedScrolls.map(scroll => scroll.y);
-            let adjustedY = null;
-
-            if (formatting.align.includes('bottom') && formatting.align.includes('lock-pos')) {
-                adjustedY = Math.min.call(null, ...yValues);
-            } else if (formatting.align.includes('top') && formatting.align.includes('lock-pos')) {
-                adjustedY = Math.max.call(null, ...yValues);
-            }
-
-            if (adjustedY !== null)
-                resolvedScrolls = resolvedScrolls.map(scroll => {
-                    scroll.y = adjustedY;
-                    return scroll;
-                });
 
             let n = -1;
             output.push({
@@ -412,22 +487,19 @@ function parseFormat(formats, data, images, matrix) {
             });
         } else if (formatting.image) {
             let imageName = resolveValue(formatting.image, data);
-            let image = images[imageName];
-            let imageWidth = image[0].length,
-                imageHeight = image.length;
 
-            let {x, y} = solveAlignment(formatting.align, imageWidth, imageHeight, matrix.width, matrix.height);
-            if (formatting.margin) {
-                let d = adjustMargins(x, y, formatting.align.split(','), formatting.margin, data, images, format, matrix);
-                x = d.x, y = d.y;
-            }
+            let image = new Image(imageName, images, null);
+            image = resolveImagePosition(image, alignment, margins, matrix);
 
-            output.push({
-                x, y,
-                image
-            });
-        } else
-            output.push(resolvePosition(formatting, format, matrix, data, images));
+            output.push(image);
+        } else {
+            let font = resolveValue(formatting.font, data);
+            let text = resolveValue(formatting.text, data, false);
+
+            text = TextObject.fromJSON(text, font, spacing);
+
+            output.push(resolveTextPosition(text, alignment, margins, matrix));
+        }
     });
     output.displayName = displayName;
 
@@ -444,25 +516,24 @@ function render(formatted, matrix, staticOnly) {
     matrix.onBeginDraw();
 
     formatted.forEach(data => {
-        if (data instanceof Array) {
-            data.forEach(section => {
-                matrix.drawText(section.text, section.font, section.spacing, section.x, section.y);
+        if (data instanceof MultiFontTextObject) {
+            data.text.forEach(section => {
+                matrix.drawText(section.text, section.font.name, section.spacing, section.position.x, section.position.y);
             });
-        } else if (data.image) {
-            matrix.draw2DArray(data.image, data.x, data.y);
-        } else if (typeof data.text === 'string')
-            matrix.drawText(data.text, data.font, data.spacing, data.x, data.y);
-        else if (typeof data.text === 'function' && data.rotate && !staticOnly) {
+        } else if (data instanceof Image) {
+            matrix.draw2DArray(data.data, data.position.x, data.position.y);
+        } else if (data instanceof TextObject) {
+            matrix.drawText(data.text, data.font.name, data.spacing, data.position.x, data.position.y);
+        } else if (typeof data.text === 'function' && data.rotate && !staticOnly) {
             function renderScroll() {
-                let scroll = data.text();
-                let {text, spacing, font, x, y, offset} = scroll;
+                let text = data.text();
 
                 matrix.onBeginDraw();
                 if (!text && scroll.rendered) {
                     render(scroll.rendered, matrix, true);
                 } else {
-                    render(formatted, matrix, true);
-                    matrix.drawText(text, font, spacing, x, y);
+                    // render(formatted, matrix, true);
+                    matrix.drawText(text.text, text.font.name, text.spacing, text.position.x, text.position.y);
                 }
                 matrix.onEndDraw();
             }
