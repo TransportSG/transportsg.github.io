@@ -321,7 +321,7 @@ function solveAlignment(align, objectWidth, objectHeight, matrixWidth, matrixHei
     return {x, y};
 }
 
-function parseMarginShifts(value, sections, data, images, matrix) {
+function parseMarginShifts(value, sections) {
     if (!isNaN(value)) return value;
 
     let offset = 0;

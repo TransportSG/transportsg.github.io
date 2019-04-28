@@ -15,12 +15,8 @@ function entClicked() {
     if (currentScreen == 'svc-input') {
         let newCode = code.join('').replace(/^0+/, '');
 
-        let width = frontEDS.measureText(newCode, 'Hanover-19:11', 1).width;
-
         setCode(newCode);
-
         currentScreen = 'home';
-
         code = [0, 0, 0, 0];
     }
 }
@@ -65,5 +61,5 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('keypad-up').addEventListener('click', upClicked);
     document.getElementById('keypad-down').addEventListener('click', downClicked);
 
-    setCode(201);
+    setCode(1234);
 });
