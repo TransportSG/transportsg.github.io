@@ -82,12 +82,16 @@ EDSFormats.SMRT = {
             align: "centre-x,top",
             margin: {
                 top: {
-                    "$marginTop === undefined": 1,
-                    "else": "$marginTop"
+                    $$cond: {
+                        "$marginTop === undefined": 1,
+                        "else": "$marginTop"
+                    }
                 },
                 left: {
-                    "$marginLeft === undefined": 0,
-                    "else": "$marginLeft"
+                    $$cond: {
+                        "$marginLeft === undefined": 0,
+                        "else": "$marginLeft"
+                    }
                 }
             },
             text: "$text",

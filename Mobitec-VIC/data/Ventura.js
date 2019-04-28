@@ -705,11 +705,7 @@ EDSData.Ventura = {
     9001: {
         front: {
             renderType: "standardService",
-            serviceNumber: [
-                { text: '9', font: 'Ventura-16' },
-                { text: '0', font: 'Mobitec-16:8' },
-                { text: '0', font: 'Buse-16' },
-            ],
+            serviceNumber: "900",
             destination: {
                 text: "Rowville",
                 font: "Mobitec-7:7"

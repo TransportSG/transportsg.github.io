@@ -50,7 +50,8 @@ function drawSelectionScreen(code) {
 
     nextThreeCodes = nextThreeCodes.map(code => {
         let data = EDSData[currentOperator][code];
-        let displayName = resolveValue(EDSFormats[currentOperator][data.front.renderType].text, data.front);
+
+        let {displayName} = new FormattingTemplate({displayName: EDSFormats[currentOperator][data.front.renderType].text}, data.front).solveAll();
         if (displayName.text) displayName = displayName.text;
 
         return {code, displayName};

@@ -11,96 +11,36 @@ class LEDMatrix {
         this.inverted = false;
     }
 
-    determineDistance(prevChar, currChar, fontname, fontSpacing) {
-        let width = 0;
+    drawText(text, colour) {
+        let font = text.font.data;
+        let chars = [...text.text];
+        let measure = text.takeMeasure();
+        let dx = text.position.x,
+            dy = text.position.y;
 
-        fontname = this.getFont(fontname);
-
-        if (fontSpacing) {
-            if (fontSpacers[fontname]) {
-                return fontSpacers[fontname](prevChar, currChar, fontSpacing);
-            } else {
-                return fontSpacing;
-            }
-        } else {
-            if (fontSpacers[fontname]) {
-                return fontSpacers[fontname](prevChar, currChar, 1);
-            } else {
-                return 1;
-            }
-        }
-    }
-
-    getFont(fontname) {
-        return fontname.match(/^([^;]+)/)[1];
-    }
-
-    getFontModifiers(fontname) {
-        return (fontname.match(/^[^;]+;(.+)/) || ['',''])[1].split(',').map(e => e.split('='));
-    }
-
-    measureText(text, fontname, fontSpacing) {
-        let font = fonts[this.getFont(fontname)];
-        if (!font) return null;
-
-        let modifiers = this.getFontModifiers(fontname);
-        let spaceWidth = modifiers.filter(e => e[0] === 'Space-Width')[0];
-        if (spaceWidth !== undefined) spaceWidth = spaceWidth[1] * 1;
-
-        let chars = [...text];
-
-        let totalWidth = chars.reduce((accuWidth, char, pos) => {
-            if (pos !== 0) {
-                accuWidth += this.determineDistance(chars[pos - 1], char, fontname, fontSpacing);
-            }
-
-            if (!font[char]) console.log(char, fontname)
-            if (char === ' ' && spaceWidth !== undefined)
-                accuWidth += spaceWidth;
-            else
-                accuWidth += (font[char].data || font[char])[0].length;
-
-            return accuWidth;
-        }, 0);
-
-        let height = chars.map(char => (font[char].data || font[char]).length).sort((a, b) => a - b).reverse()[0];
-
-        let offset = chars.map(char => (font[char].offset || 0)).sort((a, b) => a - b)[0];
-
-        return {width: totalWidth, height, offset};
-    }
-
-    drawText(text, fontname, fontSpacing, dx, dy, colour) {
-        let font = fonts[this.getFont(fontname)];
-        let chars = [...text];
-        let measure = this.measureText(text, fontname, fontSpacing);
         let {width, height} = measure;
         this.clearRectangle(dx, dy, width, height, colour);
 
-        let modifiers = this.getFontModifiers(fontname);
-        let spaceWidth = modifiers.filter(e => e[0] === 'Space-Width')[0];
-        if (spaceWidth !== undefined) spaceWidth = spaceWidth[1] * 1;
+        let spaceWidth = text.font.getModifier('Space-Width');
 
         let x = dx;
 
         chars.forEach((char, pos) => {
             let spacing = 0;
             if (pos !== 0)
-                spacing = this.determineDistance(chars[pos - 1], char, fontname, fontSpacing);
-
-            let override = fontSpacing == spacing || spacing == 0;
+                spacing = text.determineDistance(chars[pos - 1], char);
 
             x += spacing;
 
-            if (char == ' ' && spaceWidth !== undefined) {
+            if (char == ' ' && spaceWidth !== null) {
                 x += spaceWidth;
                 return;
             }
 
             if (font[char].offset)
-                this.draw2DArray(font[char].data, x, dy + font[char].offset, colour, override);
+                this.draw2DArray(font[char].data, x, dy + font[char].offset, colour, false);
             else
-                this.draw2DArray(font[char], x, dy, colour, override);
+                this.draw2DArray(font[char], x, dy, colour, false);
 
             x += (font[char].data || font[char])[0].length;
         });

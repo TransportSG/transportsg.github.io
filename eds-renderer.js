@@ -36,16 +36,16 @@ class TextObject {
         return text;
     }
 
-    determineDistance(prevChar, currChar, font, fontSpacing) {
+    determineDistance(prevChar, currChar) {
         let width = 0;
 
-        if (typeof fontSpacing !== 'number')
-            fontSpacing = 1;
+        if (typeof this.spacing !== 'number')
+            this.spacing = 1;
 
-        if (font.spacer) {
-            return font.spacer(prevChar, currChar, fontSpacing);
+        if (this.font.spacer) {
+            return this.font.spacer(prevChar, currChar, this.spacing);
         } else {
-            return fontSpacing;
+            return this.spacing;
         }
     }
 
@@ -57,7 +57,7 @@ class TextObject {
 
         let totalWidth = chars.reduce((totalWidth, char, pos) => {
             if (pos !== 0) {
-                totalWidth += this.determineDistance(chars[pos - 1], char, this.font, this.spacing);
+                totalWidth += this.determineDistance(chars[pos - 1], char);
             }
 
             if (!font.data[char]) throw Error(`Character ${char} in font ${font} not found!`)
@@ -170,6 +170,8 @@ class FormattingTemplate {
 
     solveAll() {
         let solved = {};
+
+        if (typeof this.template == 'function') return this.template;
 
         Object.keys(this.template).forEach(key => {
             let value = this.template[key];
@@ -528,12 +530,12 @@ function drawPage(page, matrix) {
     page.objects.forEach(object => {
         if (object instanceof MultiFontTextObject) {
             object.text.forEach(section => {
-                matrix.drawText(section.text, section.font.name, section.spacing, section.position.x, section.position.y);
+                matrix.drawText(section);
             });
         } else if (object instanceof Image) {
             matrix.draw2DArray(object.data, object.position.x, object.position.y);
         } else if (object instanceof TextObject) {
-            matrix.drawText(object.text, object.font.name, object.spacing, object.position.x, object.position.y);
+            matrix.drawText(object);
         } else if (object.dynamicRenderer) {
             object.dynamicRenderer(matrix, object.data);
         }

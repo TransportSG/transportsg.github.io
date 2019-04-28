@@ -13,26 +13,32 @@ EDSFormats.SBST = {
             align: "left,bottom",
             margin: {
                 bottom: {
-                    "$destinationFont === 'LECIP-6:3'": 3,
-                    "$destinationFont === 'LECIP-6:4'": 3,
-                    "$destinationFont === 'LECIP-7:5'": 2,
-                    "$destinationFont === 'LECIP-10'": 0
+                    $$cond: {
+                        "$destinationFont === 'LECIP-6:3'": 3,
+                        "$destinationFont === 'LECIP-6:4'": 3,
+                        "$destinationFont === 'LECIP-7:5'": 2,
+                        "$destinationFont === 'LECIP-10'": 0
+                    }
                 },
             },
             text: "$destination",
             font: "$destinationFont",
             spacing: {
-                "$destinationFont === 'LECIP-10'": 2,
-                "else": 1
+                $$cond: {
+                    "$destinationFont === 'LECIP-10'": 2,
+                    "else": 1
+                }
             }
         },
         scroll: {
             align: "left,top",
             margin: {
                 top: {
-                    "$destinationFont === 'LECIP-6:3'": 2,
-                    "$destinationFont === 'LECIP-6:4'": 2,
-                    "else": 1
+                    $$cond: {
+                        "$destinationFont === 'LECIP-6:3'": 2,
+                        "$destinationFont === 'LECIP-6:4'": 2,
+                        "else": 1
+                    }
                 }
             },
             scrolls: "$scrolls",

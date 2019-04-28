@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
     frontEDS = new LEDMatrix(frontEDSWidth, edsHeight, document.getElementById('front-eds'));
     controllerPreview = new LEDMatrix(frontEDSWidth, edsHeight, document.getElementById('preview-canvas'), CanvasBasedLEDMatrix, 4);
 
-    setCode(9001, 'Ventura');
+    setCode(1111, 'Ventura');
 });
 
 window.addEventListener('resize', generateLEDCssCode);
