@@ -21,7 +21,7 @@ function generateLEDCssCode() {
     #front-eds {
         width: ${frontEDSWidth * Math.ceil(window.innerWidth * 0.005)}px;
         grid-template-columns: repeat(${frontEDSWidth}, ${Math.ceil(window.innerWidth * 0.005)}px);
-        grid-row-gap: ${Math.ceil(window.innerWidth * 0.0015)}px;
+        grid-row-gap: ${Math.ceil(window.innerWidth * 0.0025)}px;
         grid-auto-rows: ${Math.ceil(window.innerWidth * 0.005) - 1}px;
     }
 
