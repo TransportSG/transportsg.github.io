@@ -117,7 +117,7 @@ class Font {
 
     constructor(name, modifiers) {
         this.name = name;
-        this.modifiers = modifiers;
+        this.modifiers = modifiers || [];
 
         if (!fonts[name]) throw new Error(`Font ${name} not found!`);
         this.data = fonts[name];
@@ -176,6 +176,7 @@ class FormattingTemplate {
 
         Object.keys(this.template).forEach(key => {
             let value = this.template[key];
+
             if (typeof value == 'object') {
                 if (value.$$cond) { // conditionalvalue
                     value = this.solveConditonal(value.$$cond);
@@ -184,7 +185,8 @@ class FormattingTemplate {
                     value = innerTemplate.solveAll();
                 }
             } else {
-                value = this.resolveValue(value);
+                if (typeof value !== 'function')
+                    value = this.resolveValue(value);
             }
 
             solved[key] = value;
@@ -199,7 +201,13 @@ class FormattingTemplate {
         let result = null;
 
         if (parts.length === 1) result = this.resolveVariable(value);
-        else result = parts.map(part => this.resolveVariable(part)).join('');
+        else result = parts.map(part => {
+            let resolved = this.resolveVariable(part);
+            if (resolved instanceof Array && resolved[0].text)
+                resolved = resolved.map(section => section.text);
+
+            return resolved;
+        }).join('');
 
         return result;
     }
@@ -279,9 +287,10 @@ class FormattingTemplate {
 
 class RenderedOutput {
 
-    constructor(pages, scrollSpeed) {
+    constructor(pages, scrollSpeed, displayName) {
         this.pages = pages;
         this.scrollSpeed = scrollSpeed;
+        this.displayName = displayName;
     }
 
 }
@@ -402,7 +411,7 @@ function resolveImagePosition(image, alignment, matrix) {
 }
 
 function parseFormat(formats, data, images, matrix) {
-    let format = formats[data.renderType];
+    let format = new FormattingTemplate(formats[data.renderType], data).solveAll();
 
     let sections = Object.keys(format);
     let output = {};
@@ -412,7 +421,6 @@ function parseFormat(formats, data, images, matrix) {
 
     sections.forEach(sectionName => {
         let formatting = format[sectionName];
-        formatting = new FormattingTemplate(formatting, data).solveAll();
 
         if (sectionName === 'text') {
             displayName = format.text;
@@ -523,7 +531,7 @@ function parseFormat(formats, data, images, matrix) {
         pages.push(page);
     }
 
-    let renderOutput = new RenderedOutput(pages, scrollSpeed);
+    let renderOutput = new RenderedOutput(pages, scrollSpeed, displayName);
     return renderOutput;
 }
 
@@ -538,6 +546,7 @@ function drawPage(page, matrix) {
         } else if (object instanceof TextObject) {
             matrix.drawText(object);
         } else if (object.dynamicRenderer) {
+            console.log(object)
             object.dynamicRenderer(matrix, object.data);
         }
     });

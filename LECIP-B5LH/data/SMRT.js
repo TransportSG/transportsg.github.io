@@ -49,27 +49,37 @@ EDSFormats.SMRT = {
                 matrixPrimitives.setStrokeColour(0x84e76e);
                 matrixPrimitives.strokeRectangle(matrix, 0, 0, 32, 16);
 
-                let font = "LECIP-PIDS-13:7";
+                let font = Font.fromNameString("LECIP-PIDS-13:7");
+                let serviceNumberObj = new TextObject(data.serviceNumber, font, null, 1);
+
                 let textWidth;
-                try {textWidth = matrix.measureText(data.serviceNumber, font, 1).width;} catch (e) {textWidth = Infinity;}
+                try {
+                    textWidth = serviceNumberObj.takeMeasure().width;
+                } catch (e) {
+                    textWidth = Infinity;
+                }
+
                 if (textWidth >= 32) {
-                    font = "LECIP-PIDS-13:5";
-                    textWidth = matrix.measureText(data.serviceNumber, font, 1).width;
+                    font = Font.fromNameString("LECIP-PIDS-13:5");
+                    serviceNumberObj.font = font;
+                    textWidth = serviceNumberObj.takeMeasure().width;
                 }
 
                 let textPosition = Math.round(32 / 2 - textWidth / 2);
+                serviceNumberObj.position = new Position(textPosition, 1);
 
-                matrix.drawText(data.serviceNumber, font, 1, textPosition, 1, 0xffffff);
+                matrix.drawText(serviceNumberObj, 0xffffff);
 
                 function drawNextStop() {
                     let bottomRowNum = scrollNum % 3;
 
-                    if (bottomRowNum == 0)
-                        matrix.drawText("NEXT>>", "LECIP-PIDS-13:5", 1, 1, 17, 0xffffff);
-                    else if (bottomRowNum == 1)
-                        matrix.drawText("STOP>>", "LECIP-PIDS-13:5", 1, 1, 17, 0xe35f57);
-                    else if (bottomRowNum == 2)
-                        matrix.drawText("Arr>>", "LECIP-PIDS-13:5", 2, 4, 17, 0xeae44a);
+                    let texts = [
+                        [new TextObject("NEXT>>", Font.fromNameString("LECIP-PIDS-13:5"), new Position(1, 17), 1), 0xffffff],
+                        [new TextObject("STOP>>", Font.fromNameString("LECIP-PIDS-13:5"), new Position(1, 17), 1), 0xe35f57],
+                        [new TextObject("Arr>>", Font.fromNameString("LECIP-PIDS-13:5"), new Position(4, 17), 1), 0xeae44a],
+                    ];
+
+                    matrix.drawText(texts[bottomRowNum][0], texts[bottomRowNum][1]);
                 }
 
                 let {destination} = data;
@@ -79,10 +89,11 @@ EDSFormats.SMRT = {
                     if (currentScroll > data.secondDestination.changeIndex)
                         destination = data.secondDestination.name;
                 }
-                matrix.drawText(destination, "LECIP-PIDS-13:5", 1, 33, 1, 0xffffff);
+                matrix.drawText(new TextObject(destination, Font.fromNameString("LECIP-PIDS-13:5"), new Position(33, 1), 1), 0xffffff);
 
                 // Possibly make scrolls query TSG site? Not great for offline use tho
-                let measure = matrix.measureText(data.scrolls[currentScroll], "LECIP-PIDS-13:5", 1);
+                let currentScrollObj = new TextObject(data.scrolls[currentScroll], Font.fromNameString("LECIP-PIDS-13:5"), new Position(33, 17), 1);
+                let measure = currentScrollObj.takeMeasure();
                 let scrollWidth = measure.width,
                     scrollHeight = measure.height;
 
@@ -104,7 +115,9 @@ EDSFormats.SMRT = {
                         }
                         matrix.clearRectangle(0, 17 + (13 - scrollHeight), matrix.width, 17 + scrollHeight);
 
-                        matrix.drawText(data.scrolls[currentScroll], "LECIP-PIDS-13:5", 1, matrix.width - frameNum, 17, 0xffffff);
+                        currentScrollObj.position.x = matrix.width - frameNum;
+
+                        matrix.drawText(currentScrollObj, 0xffffff);
                         matrix.clearRectangle(0, 17 + (13 - scrollHeight), 33, 17 + scrollHeight);
                         drawNextStop();
 
@@ -114,7 +127,7 @@ EDSFormats.SMRT = {
                         frameNum++;
                     }, timeBetweenFrames);
                 } else
-                    matrix.drawText(data.scrolls[currentScroll], "LECIP-PIDS-13:5", 1, 33, 17, 0xffffff);
+                    matrix.drawText(currentScrollObj, 0xffffff);
 
                 scrollNum++;
                 if (scrollNum >= data.scrolls.length * 3)
