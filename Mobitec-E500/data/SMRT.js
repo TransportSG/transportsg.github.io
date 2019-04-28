@@ -11624,7 +11624,79 @@ EDSData.SMRT = {
             topFont: "Mobitec-7:7",
             bottomFont: "Mobitec-7:5:3"
         }
-    }
+    },
+    9911: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "991",
+            destination: {
+                text: "CHOA CHU KANG INT",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "991",
+                    top: "CHOA CHU KANG",
+                    bottom: "INT / MRT / LRT",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
+                "B. B WEST AVE 3, 6",
+                "BUKIT BATOK ST 11",
+                "B. B WEST AVE 8, 5",
+                "BRICKLAND RD",
+                "KEAT HONG LINK"
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    9912: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "991",
+            destination: {
+                text: "BUKIT BATOK INT",
+                font: "Mobitec-7:5:3"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "991",
+                    top: "BUKIT BATOK",
+                    bottom: "INT / MRT",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
+                "KEAT HONG LINK",
+                "BRICKLAND RD",
+                "B. B WEST AVE 5, 8",
+                "BUKIT BATOK ST 11",
+                "B. B WEST AVE 6, 3"
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    9913: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "991A",
+            top: "ENDS AT PRINCESS",
+            bottom: "ELIZABETH PRI SCH",
+            topFont: "Mobitec-7:5:3",
+            bottomFont: "Mobitec-7:5:3"
+        }
+    },
+    9914: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "991B",
+            top: "ENDS AT",
+            bottom: "OPP C.C.K MARKET",
+            topFont: "Mobitec-7:5:2", // sic
+            bottomFont: "Mobitec-7:5:2"
+        },
+    },
 }
 
 EDSImages.SMRT = {
