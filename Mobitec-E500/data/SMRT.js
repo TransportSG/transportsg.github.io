@@ -1517,10 +1517,14 @@ EDSData.SMRT = {
                     topFont: "Mobitec-7:7",
                     bottomFont: "Mobitec-7:7"
                 },
-                [
-                    "BAYFRONT AVE",
-                    "(LOOP)"
-                ]
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "106A",
+                    top: "BAYFRONT AVE",
+                    bottom: "(LOOP)",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
             ],
             scrollFont: "Mobitec-7:7"
         }
@@ -3121,8 +3125,8 @@ EDSData.SMRT = {
                     serviceNumber: "855",
                     top: "YISHUN",
                     bottom: "INT / MRT",
-                    topFont: "Mobitec-13:7",
-                    bottomFont: "Mobitec-13:7"
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
                 },
                 "LOWER DELTA RD",
                 "JLN BUKIT MERAH",
@@ -4566,7 +4570,8 @@ EDSData.SMRT = {
                     topFont: "Mobitec-7:7",
                     bottomFont: "Mobitec-7:7"
                 }
-            ]
+            ],
+            scrollFont: "Mobitec-7:7"
         }
     },
     547: {
@@ -5302,7 +5307,8 @@ EDSData.SMRT = {
                     topFont: "Mobitec-7:5:3",
                     bottomFont: "Mobitec-7:7"
                 }
-            ]
+            ],
+            scrollFont: "Mobitec-7:7"
         }
     },
     576: {
@@ -5414,12 +5420,16 @@ EDSData.SMRT = {
                     topFont: "Mobitec-7:5:3",
                     bottomFont: "Mobitec-7:7"
                 },
-                [
-                    "CITY HALL",
-                    "(LOOP)"
-                ]
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "RWS88",
+                    top: "CITY HALL",
+                    bottom: "(LOOP)",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:5:3"
+                }
             ],
-            scrollFont: "Mobitec-7:7,Mobitec-7:5:3"
+            scrollFont: "Mobitec-7:7"
         }
     },
     579: {
@@ -5439,7 +5449,8 @@ EDSData.SMRT = {
                     topFont: "Mobitec-7:5:3",
                     bottomFont: "Mobitec-7:7"
                 }
-            ]
+            ],
+            scrollFont: "Mobitec-7:7"
         }
     },
     580: {
@@ -5459,7 +5470,8 @@ EDSData.SMRT = {
                     topFont: "Mobitec-7:7",
                     bottomFont: "Mobitec-7:7"
                 }
-            ]
+            ],
+            scrollFont: "Mobitec-7:7"
         }
     },
     582: {
@@ -5774,10 +5786,14 @@ EDSData.SMRT = {
                     text: "EUNOS MRT / STILL ROAD",
                     font: "Mobitec-7:4"
                 },
-                [
-                    "MARINE PARADE",
-                    "( LOOP )"
-                ],
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "966",
+                    top: "MARINE PARADE",
+                    bottom: "( LOOP )",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
                 {
                     text: "STILL ROAD / EUNOS MRT",
                     font: "Mobitec-7:4"
@@ -6879,12 +6895,16 @@ EDSData.SMRT = {
                     topFont: "Mobitec-7:7",
                     bottomFont: "Mobitec-7:7"
                 },
-                [
-                    "JB SENTRAL TER (LOOP)",
-                    "JOHOR BAHRU"
-                ]
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "950",
+                    top: "JB SENTRAL TER (LOOP)",
+                    bottom: "JOHOR BAHRU",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                }
             ],
-            scrollFont: "Mobitec-7:5:3,Mobitec-7:7"
+            scrollFont: "Mobitec-7:7"
         }
     },
     645: {
@@ -9014,8 +9034,8 @@ EDSData.SMRT = {
                     serviceNumber: "855",
                     top: "YISHUN",
                     bottom: "INT / MRT",
-                    topFont: "Mobitec-13:7",
-                    bottomFont: "Mobitec-13:7"
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
                 },
                 "LOWER DELTA RD",
                 "JLN BUKIT MERAH",
@@ -9581,7 +9601,8 @@ EDSData.SMRT = {
                     topFont: "Mobitec-7:7",
                     bottomFont: "Mobitec-7:7"
                 }
-            ]
+            ],
+            scrollFont: "Mobitec-7:7"
         }
     },
     9031: {
@@ -10136,12 +10157,16 @@ EDSData.SMRT = {
                     topFont: "Mobitec-7:7",
                     bottomFont: "Mobitec-7:7"
                 },
-                [
-                    "JB SENTRAL TER (LOOP)",
-                    "JOHOR BAHRU"
-                ]
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "950",
+                    top: "JB SENTRAL TER (LOOP)",
+                    bottom: "JOHOR BAHRU",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                }
             ],
-            scrollFont: "Mobitec-7:5:3,Mobitec-7:7"
+            scrollFont: "Mobitec-7:7"
         }
     },
     9511: {
@@ -10824,10 +10849,14 @@ EDSData.SMRT = {
                     text: "EUNOS MRT / STILL ROAD",
                     font: "Mobitec-7:4"
                 },
-                [
-                    "MARINE PARADE",
-                    "( LOOP )"
-                ],
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "966",
+                    top: "MARINE PARADE",
+                    bottom: "( LOOP )",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
                 {
                     text: "STILL ROAD / EUNOS MRT",
                     font: "Mobitec-7:4"
