@@ -259,6 +259,35 @@ EDSData.Ventura = {
             text: "NOT IN SERVICE"
         }
     },
+
+    2011: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "201",
+            destination: {
+                text: "Deakin Shuttle",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Express to Deakin"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    5511: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "551",
+            destination: {
+                text: "Latrobe Uni",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Southern Road"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
     6006: {
         front: {
             renderType: "standardService",
@@ -371,6 +400,36 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
+    6882: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "688",
+            destination: {
+                text: "Croydon Stn",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Olinda",
+                "via Sky High",
+                "via Ridge Road"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    // 6911: {
+    //     front: {
+    //         renderType: "standardService",
+    //         serviceNumber: "691",
+    //         destination: {
+    //             text: "Waverley Gardens",
+    //             font: "Mobitec-7:7"
+    //         },
+    //         scrolls: [
+    //             "via"
+    //         ],
+    //         scrollFont: 'Mobitec-6:5'
+    //     }
+    // },
     6931: {
         front: {
             renderType: "standardService",
@@ -381,6 +440,20 @@ EDSData.Ventura = {
             },
             scrolls: [
                 "via F'tree Gully Rd"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6932: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "693",
+            destination: {
+                text: "Oakleigh Stn",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Burwood Hwy"
             ],
             scrollFont: 'Mobitec-6:5'
         }
@@ -440,9 +513,24 @@ EDSData.Ventura = {
                 font: "Mobitec-7:7"
             },
             scrolls: [
+                "via Bentleigh",
                 "via Clayton",
                 "via Monash Uni",
-                "via K-Mart",
+                "via K-Mart Plaza",
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6951: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "695",
+            destination: {
+                text: "Gembrook",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Emerald"
             ],
             scrollFont: 'Mobitec-6:5'
         }
@@ -456,7 +544,7 @@ EDSData.Ventura = {
                 font: "Mobitec-7:7"
             },
             scrolls: [
-                "via K-Mart",
+                "via K-Mart Plaza",
                 "via Monash Uni",
                 "via Clayton",
                 "via Bentleigh"
@@ -513,7 +601,7 @@ EDSData.Ventura = {
             renderType: "standardService",
             serviceNumber: "733",
             destination: {
-                text: "Oakleigh",
+                text: "Oakleigh Stn",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -536,6 +624,20 @@ EDSData.Ventura = {
     //         scrollFont: 'Mobitec-7:7'
     //     }
     // },
+    7361: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "736",
+            destination: {
+                text: "Mitcham Stn",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Vermont Stn"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
     7371: {
         front: {
             renderType: "standardService",
@@ -545,7 +647,7 @@ EDSData.Ventura = {
                 font: "Mobitec-7:7"
             },
             scrolls: [
-                "via G Waverly",
+                "via G Waverley",
                 "via Knox City",
                 "via Boronia",
             ],
@@ -563,7 +665,125 @@ EDSData.Ventura = {
             scrolls: [
                 "via Boronia",
                 "via Knox City",
-                "via G Waverly"
+                "via G Waverley"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7421: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "742",
+            destination: {
+                text: "Chadstone",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via F.T Gully Rd",
+                "via G Waverley"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7422: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "742",
+            destination: {
+                text: "Eastland",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Oakleigh",
+                "via G Waverley"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7531: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "753",
+            destination: {
+                text: "Boronia Stn",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Knoxfield S/C",
+                "via F.T Gully Road"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7532: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "753",
+            destination: {
+                text: "Glen Waverley",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via F.T Gully Road",
+                "via Knoxfield S/C"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7651: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "765",
+            destination: {
+                text: "Mitcham Stn",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Blackburn",
+                "via Forest Hill"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7652: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "765",
+            destination: {
+                text: "Box Hill",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Forest Hill",
+                "via Blackburn"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7671: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "767",
+            destination: {
+                text: "Southland",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Chadstone"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7672: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "767",
+            destination: {
+                text: "Box Hill",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Deakin Uni"
             ],
             scrollFont: 'Mobitec-6:5'
         }
@@ -610,6 +830,20 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
+    8001: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "800",
+            destination: {
+                text: "Chadstone",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Oakleigh",
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
     8021: {
         front: {
             renderType: "standardService",
@@ -643,6 +877,90 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
+    8111: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "811",
+            destination: {
+                text: "Dandenong Stn",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Southland"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    8151: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "815",
+            destination: {
+                text: "Dandenong Stn",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Parkmore S/C"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    8221: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "822",
+            destination: {
+                text: "Chadstone",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Cheltenham"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    8222: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "822",
+            destination: {
+                text: "Sandringham Stn",
+                font: "Mobitec-7:6:1"
+            },
+            scrolls: [
+                "via Murrumbeena"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    8241: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "824",
+            destination: {
+                text: "Keysborough",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Westall"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    8231: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "823",
+            destination: {
+                text: "Southland",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Moorabin"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
     8281: {
         front: {
             renderType: "standardService",
@@ -654,6 +972,22 @@ EDSData.Ventura = {
             scrolls: [
                 "via Dandenong",
                 "via Cheltenham"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    8282: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "828",
+            destination: {
+                text: "Berwick Stn",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Cheltenham",
+                "via Dandenong",
+                "via Fountain Gate"
             ],
             scrollFont: 'Mobitec-6:5'
         }
