@@ -403,22 +403,22 @@ EDSData.SMRT = {
             }
         }
     },
-    // 230: {
-    //     1: {
-    //         front: {
-    //             renderType: "calibriSmallService",
-    //             serviceNumber: "67W", // todo trace
-    //             destination: {
-    //                 text: "ENDS AT",
-    //                 font: "Calibri-7"
-    //             },
-    //             scrolls: [
-    //                 "LITTLE INDIA"
-    //             ],
-    //             scrollFont: "Calibri-7"
-    //         }
-    //     }
-    // },
+    230: {
+        1: {
+            front: {
+                renderType: "calibriSmallService",
+                serviceNumber: "67W",
+                destination: {
+                    text: "ENDS AT",
+                    font: "Calibri-7"
+                },
+                scrolls: [
+                    "LITTLE INDIA"
+                ],
+                scrollFont: "Calibri-7"
+            }
+        }
+    },
     252: {
         1: {
             front: {
