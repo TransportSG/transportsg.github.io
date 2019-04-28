@@ -97,11 +97,12 @@ class MultiFontTextObject extends TextObject {
     }
 
     takeMeasure() {
-        return this.text.map(textSection => {return {measure: textSection.takeMeasure(), text: textSection}}).reduce((overall, textSection) => {
+        return this.text.map(textSection => {return {measure: textSection.takeMeasure(), text: textSection}}).reduce((overall, textSection, i) => {
             let {measure, text} = textSection;
 
             overall.width += measure.width;
-            overall.width += text.spacing;
+            if (i < this.text.length - 1)
+                overall.width += text.spacing;
 
             if (measure.height > overall.height) overall.height = measure.height;
             if (measure.offset < overall.offset) overall.offset = textSectionMeasure.offset;
