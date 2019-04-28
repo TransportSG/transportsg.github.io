@@ -275,6 +275,104 @@ EDSData.SMRT = {
             }
         }
     },
+    51: {
+        1: {
+            front: {
+                renderType: "calibriStandardService",
+                serviceNumber: "NR1", // from memory the NR5 is kinda corrupted but need check
+                destination: {
+                    text: "SUNTEC CITY",
+                    font: "Calibri-7"
+                },
+                scrolls: [""],
+                scrollFont: "Calibri-7"
+            }
+        }
+    },
+    52: {
+        1: {
+            front: {
+                renderType: "calibriStandardService",
+                serviceNumber: "NR1",
+                destination: {
+                    text: "YISHUN",
+                    font: "Calibri-7"
+                },
+                scrolls: [""],
+                scrollFont: 'Calibri-7'
+            }
+        }
+    },
+    53: {
+        1: {
+            front: {
+                renderType: "calibriStandardService",
+                serviceNumber: "NR2",
+                destination: {
+                    text: "MARINA CENTRE",
+                    font: "Calibri-7"
+                },
+                scrolls: [""],
+                scrollFont: 'Calibri-7'
+            }
+        }
+    },
+    54: {
+        1: {
+            front: {
+                renderType: "calibriStandardService",
+                serviceNumber: "NR2",
+                destination: {
+                    text: "SEMBAWANG",
+                    font: "Calibri-7"
+                },
+                scrolls: [""],
+                scrollFont: 'Calibri-7'
+            }
+        }
+    },
+    55: {
+        1: {
+            front: {
+                renderType: "calibriStandardService",
+                serviceNumber: "NR3",
+                destination: {
+                    text: "BOAT QUAY",
+                    font: "Calibri-7"
+                },
+                scrolls: [""],
+                scrollFont: 'Calibri-7'
+            }
+        }
+    },
+    56: {
+        1: {
+            front: {
+                renderType: "calibriStandardService",
+                serviceNumber: "NR3",
+                destination: {
+                    text: "CHOA CHU KANG",
+                    font: "Calibri-7"
+                },
+                scrolls: [""],
+                scrollFont: 'Calibri-7'
+            }
+        }
+    },
+    57: {
+        1: {
+            front: {
+                renderType: "calibriStandardService",
+                serviceNumber: "NR5",
+                destination: {
+                    text: "JURONG WEST",
+                    font: "Calibri-7"
+                },
+                scrolls: [""],
+                scrollFont: 'Calibri-7'
+            }
+        }
+    },
     58: {
         1: {
             front: {
@@ -289,6 +387,34 @@ EDSData.SMRT = {
             }
         }
     },
+    59: {
+        1: {
+            front: {
+                renderType: "calibriStandardService",
+                serviceNumber: "NR6",
+                destination: {
+                    text: "SENGKANG",
+                    font: "Calibri-7"
+                },
+                scrolls: [""],
+                scrollFont: 'Calibri-7'
+            }
+        }
+    },
+    60: {
+        1: {
+            front: {
+                renderType: "calibriStandardService",
+                serviceNumber: "NR6",
+                destination: {
+                    text: "MARINA CENTRE",
+                    font: "Calibri-7"
+                },
+                scrolls: [""],
+                scrollFont: 'Calibri-7'
+            }
+        }
+    },
     61: {
         1: {
             front: {
@@ -296,10 +422,80 @@ EDSData.SMRT = {
                 serviceNumber: "NR7",
                 destination: {
                     text: "PASIR RIS",
-                    font: "Arial-8"
+                    font: "Calibri-7"
                 },
                 scrolls: [""],
-                scrollFont: 'Arial-8'
+                scrollFont: 'Calibri-7'
+            }
+        }
+    },
+    62: {
+        1: {
+            front: {
+                renderType: "calibriStandardService",
+                serviceNumber: "NR7",
+                destination: {
+                    text: "MARINA CENTRE",
+                    font: "Calibri-7"
+                },
+                scrolls: [""],
+                scrollFont: 'Calibri-7'
+            }
+        }
+    },
+    75: {
+        1: {
+            front: {
+                renderType: "calibriStandardService",
+                serviceNumber: "NR5",
+                destination: {
+                    text: "JURONG WEST",
+                    font: "Calibri-7"
+                },
+                scrolls: [""],
+                scrollFont: 'Calibri-7'
+            }
+        }
+    },
+    76: {
+        1: {
+            front: {
+                renderType: "calibriStandardService",
+                serviceNumber: "NR5",
+                destination: {
+                    text: "MARINA CENTRE",
+                    font: "Calibri-7"
+                },
+                scrolls: [""],
+                scrollFont: 'Calibri-7'
+            }
+        }
+    },
+    77: {
+        1: {
+            front: {
+                renderType: "calibriStandardService",
+                serviceNumber: "NR8",
+                destination: {
+                    text: "BUKIT BATOK",
+                    font: "Calibri-7"
+                },
+                scrolls: [""],
+                scrollFont: 'Calibri-7'
+            }
+        }
+    },
+    78: {
+        1: {
+            front: {
+                renderType: "calibriStandardService",
+                serviceNumber: "NR8",
+                destination: {
+                    text: "MARINA CENTRE",
+                    font: "Calibri-7"
+                },
+                scrolls: [""],
+                scrollFont: 'Calibri-7'
             }
         }
     },
