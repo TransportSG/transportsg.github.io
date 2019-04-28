@@ -45,8 +45,10 @@ EDSFormats.SMRT = {
         },
         top: {
             align: {
-                "$bottom === null": "centre-x,centre-y",
-                "else": "centre-x,top"
+                $$cond: {
+                    "$bottom === null": "centre-x,centre-y",
+                    "else": "centre-x,top"
+                }
             },
             text: "$top",
             font: "$topFont",
@@ -58,12 +60,16 @@ EDSFormats.SMRT = {
         bottom: {
             align: "centre-x,bottom",
             text: {
-                "$bottom !== null": "$bottom",
-                "else": "''"
+                $$cond: {
+                    "$bottom !== null": "$bottom",
+                    "else": "''"
+                }
             },
             font: {
-                "$bottomFont !== null": "$bottomFont",
-                "else": "Mobitec-6:5"
+                $$cond: {
+                    "$bottomFont !== null": "$bottomFont",
+                    "else": "Mobitec-6:5"
+                }
             },
             spacing: 1,
             margin: {

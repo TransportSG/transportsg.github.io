@@ -3,7 +3,7 @@ class LEDMatrix {
     constructor(width, height, container, matrixType, ...underlyingMatrixArguments) {
         this.width = width;
         this.height = height;
-        this.scrollIntervals = [];
+        this.scrollInterval = -1;
         matrixType = matrixType || DOMBasedLEDMatrix;
 
         this.matrix = new matrixType(width, height, container, ...underlyingMatrixArguments);

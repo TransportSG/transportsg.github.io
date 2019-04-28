@@ -163,89 +163,71 @@ class Image {
 
 class FormattingTemplate {
 
-    constructor(data) {
+    constructor(template, data) {
+        this.template = template;
         this.data = data;
     }
 
-}
+    solveAll() {
+        let solved = {};
 
-class FormattingTemplateSection {
+        Object.keys(this.template).forEach(key => {
+            let value = this.template[key];
+            if (typeof value == 'object') {
+                if (value.$$cond) { // conditionalvalue
+                    value = this.solveConditonal(value.$$cond);
+                } else {
+                    let innerTemplate = new FormattingTemplate(value, this.data);
+                    value = innerTemplate.solveAll();
+                }
+            } else {
+                value = this.resolveValue(value);
+            }
 
-    constructor(data) {
-        this.data = data;
-    }
-
-}
-
-class RenderedOutput {
-
-    constructor(pages, scrollSpeed) {
-        this.pages = pages;
-        this.scrollSpeed = scrollSpeed;
-    }
-
-}
-
-
-class RenderedOutputPage {
-
-    constructor(objects) {
-        this.objects = objects;
-    }
-
-}
-
-class ConditionalValue {
-
-    constructor(cases) {
-        this.cases = cases;
-    }
-
-}
-
-function resolveValue(value, data, furtherResolve) {
-    furtherResolve = furtherResolve === undefined ? true : furtherResolve;
-    if (typeof value !== 'string') return value;
-
-    value = value.toString();
-
-    let parts = value.split('+');
-
-    let result = null;
-
-    if (parts.length === 1) result = resolveVariable(value, data);
-    else result = parts.map(part => resolveVariable(part, data)).join('');
-
-    if (furtherResolve) result = solveConditonal(result, data);
-
-    return result;
-}
-
-function resolveVariable(variable, data) {
-    if (typeof variable == 'object') return variable;
-    variable = variable.toString();
-    if (variable === "null") return null;
-    if (variable === "undefined") return undefined;
-
-    if (variable.startsWith('$')) {
-        let subObjects = variable.split('.');
-        let variableName = subObjects[0].slice(1);
-        subObjects = subObjects.slice(1);
-
-        let object = data[variableName];
-        subObjects.forEach(subObjectsName => {
-            object = object[subObjectsName];
+            solved[key] = value;
         });
-        return object;
-    }
-    if (variable.startsWith("'") && variable.endsWith("'")) return variable.slice(1, -1);
-    return variable;
-}
 
-function solveConditonal(cases, data) {
-    if (typeof cases === 'object') {
+        return solved;
+    }
+
+    resolveValue(value) {
+        value = value.toString();
+        let parts = value.split('+');
+        let result = null;
+
+        if (parts.length === 1) result = this.resolveVariable(value);
+        else result = parts.map(part => this.resolveVariable(part)).join('');
+
+        return result;
+    }
+
+    resolveVariable(variable) {
+        if (typeof variable == 'object') return variable;
+        variable = variable.toString();
+        if (variable === "null") return null;
+        if (variable === "undefined") return undefined;
+
+        if (variable.startsWith('$')) {
+            let subObjects = variable.split('.');
+            let variableName = subObjects[0].slice(1);
+            subObjects = subObjects.slice(1);
+
+            let object = this.data[variableName];
+            subObjects.forEach(subObjectsName => {
+                object = object[subObjectsName];
+            });
+            return object;
+        }
+        if (variable.startsWith("'") && variable.endsWith("'")) return variable.slice(1, -1);
+
+        if (isNaN(variable * 1)) return variable;
+        else return variable * 1;
+    }
+
+    solveConditonal(cases) {
         let value = null;
         let found = false;
+        let data = this.data;
 
         Object.keys(cases).forEach(case_ => {
             if (case_ === 'else') {
@@ -257,9 +239,9 @@ function solveConditonal(cases, data) {
             }
 
             let parts = case_.split(' ');
-            let variable = resolveValue(parts[0], data, false),
+            let variable = this.resolveVariable(parts[0], data),
                 sign = parts[1],
-                check = resolveValue(parts[2], data, false);
+                check = this.resolveVariable(parts[2], data);
 
                 switch (sign) {
                     case '===':
@@ -287,8 +269,26 @@ function solveConditonal(cases, data) {
                 }
         });
 
-        return resolveValue(value, data, false);
-    } else return cases;
+        return this.resolveVariable(value, data);
+    }
+
+}
+
+class RenderedOutput {
+
+    constructor(pages, scrollSpeed) {
+        this.pages = pages;
+        this.scrollSpeed = scrollSpeed;
+    }
+
+}
+
+
+class RenderedOutputPage {
+
+    constructor(objects) {
+        this.objects = objects;
+    }
 
 }
 
@@ -338,8 +338,7 @@ function adjustMargins(object, allObjects, data) {
     let {x, y} = object.position;
 
     Object.keys(margins).forEach(margin => {
-        let value = solveConditonal(margins[margin], data);
-        let shift = parseMarginShifts(value, allObjects);
+        let shift = parseMarginShifts(margins[margin], allObjects);
 
         switch(margin) {
             case 'left':
@@ -409,16 +408,17 @@ function parseFormat(formats, data, images, matrix) {
     let multiPage = false;
 
     sections.forEach(sectionName => {
+        let formatting = format[sectionName];
+        formatting = new FormattingTemplate(formatting, data).solveAll();
+
         if (sectionName === 'text') {
-            displayName = resolveValue(format.text, data, false);
+            displayName = format.text;
             displayName = displayName.text || displayName;
 
             return;
         }
 
         console.log(`parsing ${sectionName}`);
-
-        let formatting = format[sectionName];
 
         if (sectionName === '__dynamic__') {
             output[sectionName] = {
@@ -428,19 +428,20 @@ function parseFormat(formats, data, images, matrix) {
             return;
         }
 
-        let alignment = resolveValue(formatting.align, data);
-        let margins = resolveValue(formatting.margin, data);
-        let spacing = resolveValue(formatting.spacing, data);
+        let alignment = formatting.align;
+        let margins = formatting.margin;
+        let spacing = formatting.spacing;
 
         if (formatting.rotate) {
             if (multiPage) throw new Error(`Cannot have more than 1 rotation: ${sectionName}`)
             multiPage = true;
 
-            let scrolls = resolveValue(formatting.scrolls, data, false);
+            let scrolls = formatting.scrolls;
             let scrollObjects = [];
             if (scrolls.length === 0) scrolls.push(" ");
 
-            let defaultScrollFont = Font.fromNameString(resolveValue(formatting.font, data));
+            let defaultScrollFont = Font.fromNameString(formatting.font);
+
             scrolls.forEach(scroll => {
                 let text;
 
@@ -459,11 +460,11 @@ function parseFormat(formats, data, images, matrix) {
                 scrollObjects.push(text);
             });
 
-            let scrollSpeed = resolveValue(formatting.rotateSpeed, data);
+            let scrollSpeed = formatting.rotateSpeed;
 
             output[sectionName] = { scrollObjects, scrollSpeed };
         } else if (formatting.image) {
-            let imageName = resolveValue(formatting.image, data);
+            let imageName = formatting.image;
 
             let image = new Image(imageName, images, null);
             image = resolveImagePosition(image, alignment, matrix);
@@ -472,8 +473,8 @@ function parseFormat(formats, data, images, matrix) {
 
             output[sectionName] = image;
         } else {
-            let font = resolveValue(formatting.font, data);
-            let text = resolveValue(formatting.text, data, false);
+            let font = formatting.font;
+            let text = formatting.text;
 
             text = TextObject.fromJSON(text, font, spacing);
             text = resolveTextPosition(text, alignment, matrix);
@@ -540,8 +541,7 @@ function drawPage(page, matrix) {
 }
 
 function render(renderOutput, matrix) {
-    matrix.scrollIntervals.forEach(i => clearInterval(i));
-    matrix.scrollIntervals = [];
+    clearInterval(matrix.scrollInterval);
 
     let currentPage = -1;
 
@@ -560,6 +560,6 @@ function render(renderOutput, matrix) {
     }
 
     if (scrollSpeed > 0)
-        setInterval(renderPage, scrollSpeed);
+        matrix.scrollInterval = setInterval(renderPage, scrollSpeed);
     renderPage();
 }

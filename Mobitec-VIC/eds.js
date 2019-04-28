@@ -46,10 +46,8 @@ function setCode(code, operator) {
     if (!EDSData[operator][code]) return;
 
     let frontDisplay = EDSData[operator][code].front;
-    // let parsedFront = parseFormat(EDSFormats[operator], frontDisplay, EDSImages[operator], controllerPreview);
-    // render(parsedFront, controllerPreview);
-
     let parsedFront = parseFormat(EDSFormats[operator], frontDisplay, EDSImages[operator], frontEDS);
+    render(parsedFront, controllerPreview);
     render(parsedFront, frontEDS);
 
     setScreenDest(code);

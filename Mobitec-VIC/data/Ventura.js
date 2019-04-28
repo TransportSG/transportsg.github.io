@@ -20,8 +20,10 @@ EDSFormats.Ventura = {
                 top: 9,
                 right: 'width(serviceNumber)',
                 bottom: {
-                    "$bottomMargin !== null": "$bottomMargin",
-                    "else": "0"
+                    $$cond: {
+                        "$bottomMargin !== null": "$bottomMargin",
+                        "else": "0"
+                    }
                 }
             },
             scrolls: "$scrolls",
