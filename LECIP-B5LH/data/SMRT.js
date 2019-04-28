@@ -484,7 +484,7 @@ EDSData.SMRT = {
                 renderType: "standardService",
                 serviceNumber: "67",
                 destination: {
-                    text: "CHOA CHUA KANG via",
+                    text: "CHOA CHU KANG via",
                     font: "ArialBold-8"
                 },
                 scrolls: [
@@ -584,6 +584,75 @@ EDSData.SMRT = {
                     "BLK 277",
                     "BLK 414",
                     "CHOA CHU KANG INT"
+                ]
+            }
+        }
+    },
+    6703: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "67A",
+                destination: {
+                    text: "ENDS AT OPP",
+                    font: "Arial-8"
+                },
+                scrolls: [
+                    "CORONATION PLAZA"
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "67A",
+                destination: "OPP CORONATION PLAZA",
+                scrolls: [
+                ]
+            }
+        }
+    },
+    6704: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "67C",
+                destination: {
+                    text: "ENDS AT GEYLANG RD",
+                    font: "Arial-8"
+                },
+                scrolls: [
+                    "(BEFORE CITY PLAZA)"
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "67C",
+                destination: "GEYLANG RD",
+                scrolls: [
+                ]
+            }
+        }
+    },
+    6705: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "67W",
+                destination: {
+                    text: "ENDS AT",
+                    font: "Arial-8"
+                },
+                scrolls: [
+                    "LITTLE INDIA"
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "67W",
+                destination: "LITTLE INDIA",
+                scrolls: [
                 ]
             }
         }
@@ -709,7 +778,7 @@ EDSData.SMRT = {
                     "OLD POLICE ACADEMY",
                     "TRELLIS TWRS",
                     "AFT BLK 195",
-                    // "ST. ANDREW'S VILLAGE", // check . + "
+                    // "ST. ANDREW'S VILLAGE", // check .
                     "MOM SVCS CTR",
                     "BLK 54",
                     "BLK 44",

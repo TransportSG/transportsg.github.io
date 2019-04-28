@@ -60,7 +60,7 @@ class TextObject {
                 totalWidth += this.determineDistance(chars[pos - 1], char);
             }
 
-            if (!font.data[char]) throw Error(`Character ${char} in font ${font} not found!`)
+            if (!font.data[char]) throw Error(`Character ${char} in font ${font.name} not found!`)
 
             if (char === ' ' && customSpacing !== null)
                 totalWidth += customSpacing;

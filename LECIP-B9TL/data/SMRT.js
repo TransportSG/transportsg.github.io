@@ -403,6 +403,22 @@ EDSData.SMRT = {
             }
         }
     },
+    // 230: {
+    //     1: {
+    //         front: {
+    //             renderType: "calibriSmallService",
+    //             serviceNumber: "67W", // todo trace
+    //             destination: {
+    //                 text: "ENDS AT",
+    //                 font: "Calibri-7"
+    //             },
+    //             scrolls: [
+    //                 "LITTLE INDIA"
+    //             ],
+    //             scrollFont: "Calibri-7"
+    //         }
+    //     }
+    // },
     252: {
         1: {
             front: {
@@ -1259,6 +1275,75 @@ EDSData.SMRT = {
                 serviceNumber: "67",
                 font: "Arial-17",
                 spacing: 2
+            }
+        }
+    },
+    6703: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "67A",
+                destination: {
+                    text: "ENDS AT OPP",
+                    font: "Arial-8"
+                },
+                scrolls: [
+                    "CORONATION PLAZA"
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "67A",
+                destination: "OPP CORONATION PLAZA",
+                scrolls: [
+                ]
+            }
+        }
+    },
+    6704: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "67C",
+                destination: {
+                    text: "ENDS AT GEYLANG RD",
+                    font: "Arial-8"
+                },
+                scrolls: [
+                    "(BEFORE CITY PLAZA)"
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "67C",
+                destination: "GEYLANG RD",
+                scrolls: [
+                ]
+            }
+        }
+    },
+    6705: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "67W",
+                destination: {
+                    text: "ENDS AT",
+                    font: "Arial-8"
+                },
+                scrolls: [
+                    "LITTLE INDIA"
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "67W",
+                destination: "LITTLE INDIA",
+                scrolls: [
+                ]
             }
         }
     },
