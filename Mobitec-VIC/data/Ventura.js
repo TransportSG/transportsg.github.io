@@ -861,6 +861,24 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
+    8022: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "802",
+            destination: {
+                text: "Dandenong",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Chadstone",
+                "via Oakleigh",
+                "via Monash Uni",
+                "via Mulgrave",
+                "Station"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
     8041: {
         front: {
             renderType: "standardService",
@@ -887,6 +905,20 @@ EDSData.Ventura = {
             },
             scrolls: [
                 "via Southland"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    8141: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "814",
+            destination: {
+                text: "Springvale South",
+                font: "Mobitec-7:6:1"
+            },
+            scrolls: [
+                "via Waverley Gdns"
             ],
             scrollFont: 'Mobitec-6:5'
         }
@@ -1016,6 +1048,35 @@ EDSData.Ventura = {
             },
             scrolls: [
                 "via Kananook"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    8491: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "849",
+            destination: {
+                text: "Mossgiel Park",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Reema Blvd",
+                "via End Hills Shops"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    8571: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "857",
+            destination: {
+                text: "Dandenong Stn",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Patterson Lks"
             ],
             scrollFont: 'Mobitec-6:5'
         }
