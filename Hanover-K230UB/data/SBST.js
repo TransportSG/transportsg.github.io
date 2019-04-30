@@ -42,7 +42,7 @@ EDSFormats.SBST = {
             spacing: 1
         },
 
-        text: "$destination"
+        text: "$serviceNumber+'\n'+$destination" // format to tts for now, check sbst later hopefully if no one kena pok
     },
     logo: {
         logo: {
@@ -64,7 +64,7 @@ EDSFormats.SBST = {
             spacing: 2
         },
 
-        text: "$destination"
+        text: "$serviceNumber+'\n'+$destination"
     },
     message: {
         display: {
@@ -88,7 +88,9 @@ EDSFormats.SBST = {
             text: "$branding",
             font: "$font",
             spacing: '$spacing'
-        }
+        },
+
+        text: "$serviceNumber+'\n'+$branding"
     },
     twoline: {
         top: {
@@ -105,7 +107,7 @@ EDSFormats.SBST = {
             spacing: "$bottomSpacing",
             margin: {bottom: 1}
         },
-        text: "$top"
+        text: "$top+'\n'+$bottom"
     },
     rearService: {
         serviceNumber: {
