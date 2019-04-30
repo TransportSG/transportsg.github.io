@@ -179,7 +179,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "",
+                destination: "SPECIAL MESSAGE TESTING",
                 destinationFont: "Hanover-10",
                 scrolls: [
                     {

@@ -34,6 +34,11 @@ function setScreenText(line1, line2) {
     document.getElementById('screen-bottom-line').textContent = line2 || '';
 }
 
+function padCentre(text) {
+    let spacing = Math.floor(9 - text.length / 2);
+    return Array(spacing).fill(' ').join('') + text;
+}
+
 function setCode(code) {
     if (!EDSData.SBST[code]) return;
 
@@ -63,9 +68,9 @@ function setup() {
 function startup() {
     var textSets = [
         ['abcd*******', '', 300],
-        [' ERIC-H8S-1-25-2', '  Ext Port 2345', 2000],
+        [padCentre('ERIC-H8S-1-25-2'), padCentre('Ext Port 2345'), 2000],
         ['NCP012345//', '', 300],
-        ['  Please wait...', '', 300]
+        [padCentre('Please wait...'), '', 300]
     ];
 
     let currentDelay = 0;
@@ -79,7 +84,7 @@ function startup() {
 
     setTimeout(() => {
         setup();
-    }, (textSets.length) * 1500);
+    }, currentDelay);
 }
 
 document.addEventListener('DOMContentLoaded', startup);
