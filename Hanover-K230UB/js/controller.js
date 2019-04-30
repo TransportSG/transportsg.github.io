@@ -4,7 +4,9 @@ let inputType = '';
 let currentCode = '';
 let currentDirection = 1;
 
-let scrollPoint = {service: 0, direction: -1};
+let allEDSCodes = [];
+let scrollCode = '';
+
 let inputs = [];
 
 function numberPressed(keyNum) {
@@ -30,8 +32,8 @@ function entClicked() {
         currentScreen = 'home';
         inputs = [];
     } else if (currentScreen == 'service-scroll') {
-        let newCode = scrollPoint.service;
-        let {direction} = scrollPoint;
+        let newCode = scrollCode.split('.')[0],
+            direction = scrollCode.split('.')[1];
 
         setCode(newCode, direction);
         currentScreen = 'home';
@@ -39,44 +41,47 @@ function entClicked() {
 }
 
 function upClicked() {
-    let allServices = Object.keys(EDSData.SBST).sort((a, b)=> a.match(/(\d+)/)[1] - b.match(/(\d+)/)[1]);
+    if (currentScreen == 'service-scroll' || currentScreen == 'home') {
+        let currentPointCode;
 
-    if (currentScreen == 'home') {
+        if (currentScreen == 'home')
+            currentPointCode = currentCode + '.' + currentDirection;
+        else
+            currentPointCode = scrollCode;
+
+        let codeIndex = allEDSCodes.indexOf(currentPointCode);
+        if (codeIndex == allEDSCodes.length - 1) codeIndex = -1;
+
+        scrollCode = allEDSCodes[codeIndex + 1];
+        let service = scrollCode.split('.')[0],
+            direction = scrollCode.split('.')[1];
+
+        showFromDisplayName(getDisplayName(service, direction));
+
         currentScreen = 'service-scroll';
-        scrollPoint.service = currentCode;
-        scrollPoint.direction = currentDirection;
-    }
-
-    if (currentScreen == 'service-scroll') {
-        let serviceIndex = allServices.indexOf(scrollPoint.service);
-
-        if (scrollPoint.direction == null) {
-            serviceIndex++;
-            scrollPoint.direction = -1;
-        }
-        if (serviceIndex === allServices.length - 1) serviceIndex = 0;
-
-        let newService = allServices[serviceIndex];
-        scrollPoint.service = newService;
-
-        let serviceData = EDSData.SBST[newService];
-        let directions = Object.keys(serviceData);
-        let directionIndex = directions.indexOf(scrollPoint.direction);
-
-        scrollPoint.direction = directions[directionIndex + 1];
-        if (directionIndex === directions.length - 1) {
-            scrollPoint.direction = null;
-            upClicked();
-            return;
-        }
-
-
-        showFromDisplayName(getParsedData(scrollPoint.service, scrollPoint.direction).front.displayName);
     }
 }
 
 function downClicked() {
+    if (currentScreen == 'service-scroll' || currentScreen == 'home') {
+        let currentPointCode;
 
+        if (currentScreen == 'home')
+            currentPointCode = currentCode + '.' + currentDirection;
+        else
+            currentPointCode = scrollCode;
+
+        let codeIndex = allEDSCodes.indexOf(currentPointCode);
+        if (codeIndex == 0) codeIndex = allEDSCodes.length;
+
+        scrollCode = allEDSCodes[codeIndex - 1];
+        let service = scrollCode.split('.')[0],
+            direction = scrollCode.split('.')[1];
+
+        showFromDisplayName(getDisplayName(service, direction));
+
+        currentScreen = 'service-scroll';
+    }
 }
 
 function codeInputButtonClicked(type) {
@@ -105,6 +110,15 @@ function getParsedData(code, direction) {
     return {front: parsedFront};
 }
 
+function getDisplayName(code, direction) {
+    let data = EDSData.SBST[code][direction];
+
+    let {displayName} = new FormattingTemplate({displayName: EDSFormats.SBST[data.front.renderType].text}, data.front).solveAll();
+    if (displayName.text) displayName = displayName.text;
+
+    return displayName;
+}
+
 function showFromDisplayName(displayName) {
     let lines = displayName.split('\n');
     let top = lines[0];
@@ -127,6 +141,8 @@ function setCode(code, direction) {
 }
 
 function setup() {
+    allEDSCodes = Object.keys(EDSData.SBST).map(code => {return Object.keys(EDSData.SBST[code]).map(direction => code + '.' + direction)}).reduce((acc, a)=>acc.concat(a), []);
+
     for (let keynum = 0; keynum < 10; keynum++) {
         let element = document.getElementById('keypad-' + keynum);
         element.addEventListener('click', () => {
