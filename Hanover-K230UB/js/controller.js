@@ -2,16 +2,19 @@ let currentScreen = 'home';
 let inputType = '';
 
 let currentCode = '';
-let code = [];
+let currentDirection = 1;
+
+let scrollPoint = {service: 0, direction: -1};
+let inputs = [];
 
 function numberPressed(keyNum) {
     if (currentScreen == 'svc-input') {
-        if (keyNum !== -1) code.push(keyNum); //init screen
-        if (code.length > 4) code.shift();
+        if (keyNum !== -1) inputs.push(keyNum); //init screen
+        if (inputs.length > 4) inputs.shift();
 
         let top = inputType + ' no:';
-        top += Array(18 - top.length - code.length).fill(' ').join('');
-        top += code.join('');
+        top += Array(18 - top.length - inputs.length).fill(' ').join('');
+        top += inputs.join('');
 
         let bottom = Array(18 - 4).fill(' ').concat([0,0,0,0].concat([...currentCode]).slice(-4)).join('');
 
@@ -21,16 +24,55 @@ function numberPressed(keyNum) {
 
 function entClicked() {
     if (currentScreen == 'svc-input') {
-        let newCode = code.join('');
+        let newCode = inputs.join('');
 
-        setCode(newCode);
+        setCode(newCode, 1);
         currentScreen = 'home';
-        code = [];
+        inputs = [];
+    } else if (currentScreen == 'service-scroll') {
+        let newCode = scrollPoint.service;
+        let {direction} = scrollPoint;
+
+        setCode(newCode, direction);
+        currentScreen = 'home';
     }
 }
 
 function upClicked() {
+    let allServices = Object.keys(EDSData.SBST).sort((a, b)=> a.match(/(\d+)/)[1] - b.match(/(\d+)/)[1]);
 
+    if (currentScreen == 'home') {
+        currentScreen = 'service-scroll';
+        scrollPoint.service = currentCode;
+        scrollPoint.direction = currentDirection;
+    }
+
+    if (currentScreen == 'service-scroll') {
+        let serviceIndex = allServices.indexOf(scrollPoint.service);
+
+        if (scrollPoint.direction == null) {
+            serviceIndex++;
+            scrollPoint.direction = -1;
+        }
+        if (serviceIndex === allServices.length - 1) serviceIndex = 0;
+
+        let newService = allServices[serviceIndex];
+        scrollPoint.service = newService;
+
+        let serviceData = EDSData.SBST[newService];
+        let directions = Object.keys(serviceData);
+        let directionIndex = directions.indexOf(scrollPoint.direction);
+
+        scrollPoint.direction = directions[directionIndex + 1];
+        if (directionIndex === directions.length - 1) {
+            scrollPoint.direction = null;
+            upClicked();
+            return;
+        }
+
+
+        showFromDisplayName(getParsedData(scrollPoint.service, scrollPoint.direction).front.displayName);
+    }
 }
 
 function downClicked() {
@@ -56,21 +98,32 @@ function padCentre(text) {
     return Array(spacing).fill(' ').join('') + text;
 }
 
-function setCode(code) {
-    code = code.replace(/^0+/, '');
-    if (!EDSData.SBST[code]) return;
-
-    let frontDisplay = EDSData.SBST[code][1].front;
+function getParsedData(code, direction) {
+    let frontDisplay = EDSData.SBST[code][direction].front;
     let parsedFront = parseFormat(EDSFormats.SBST, frontDisplay, EDSImages.SBST, frontEDS);
-    render(parsedFront, frontEDS);
 
-    let {displayName} = parsedFront;
+    return {front: parsedFront};
+}
+
+function showFromDisplayName(displayName) {
     let lines = displayName.split('\n');
     let top = lines[0];
     let bottom = lines[1] || '';
     setScreenText(padCentre(top), padCentre(bottom));
+}
+
+function setCode(code, direction) {
+    code = code.replace(/^0+/, '');
+    if (!EDSData.SBST[code]) return;
+
+    let {front} = getParsedData(code, direction);
+    render(front, frontEDS);
+
+    let {displayName} = front;
+    showFromDisplayName(displayName);
 
     currentCode = code;
+    currentDirection = direction;
 }
 
 function setup() {
@@ -88,7 +141,7 @@ function setup() {
     document.getElementById('keypad-d').addEventListener('click', codeInputButtonClicked.bind(null, 'Dest'));
     document.getElementById('keypad-x').addEventListener('click', codeInputButtonClicked.bind(null, 'Out'));
 
-    setCode('1234');
+    setCode('174', 1);
 }
 
 function startup() {

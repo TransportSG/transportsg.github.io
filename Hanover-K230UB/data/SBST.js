@@ -323,6 +323,25 @@ EDSData.SBST = {
         }
     },
     105: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "105",
+                destination: "> JURONG EAST INT",
+                destinationFont: "Hanover-10",
+                scrolls: [,
+                    "COMMONWEALTH AVE WEST",
+                    "TOH GUAN RD"
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "105",
+                font: "Hanover-19:11",
+                spacing: 2
+            }
+        },
         2: {
             front: {
                 renderType: "standardService",
@@ -408,8 +427,19 @@ EDSData.SBST = {
                 renderType: "standardService",
                 serviceNumber: "123",
                 destination: "> BUKIT MERAH INT",
-                destinationFont: "Hanover-19:11",
+                destinationFont: "Hanover-10",
                 scrolls: [
+                    {
+                        renderType: "holidayMessage",
+                        serviceNumber: "123",
+                        image: "fireworks",
+
+                        top: "I AM THE",
+                        topFont: "Hanover-7:5",
+
+                        bottom: "WORST SERVICE",
+                        bottomFont: "Hanover-7:5"
+                    },
                     "BUKIT PURMEI AVE",
                     "LOWER DELTA RD",
                     "TIONG BAHRU RD",
