@@ -30,12 +30,8 @@ function downClicked() {
 }
 
 function setScreenText(line1, line2) {
-    if (line1) {
-        document.getElementById('screen-top-line').textContent = line1;
-    }
-    if (line2) {
-        document.getElementById('screen-bottom-line').textContent = line2;
-    }
+    document.getElementById('screen-top-line').textContent = line1;
+    document.getElementById('screen-bottom-line').textContent = line2 || '';
 }
 
 function setCode(code) {
@@ -49,7 +45,7 @@ function setCode(code) {
     setScreenText('Dest no.: ' + code  + ' T1', displayName);
 }
 
-document.addEventListener('DOMContentLoaded', () => {
+function setup() {
     for (let keynum = 0; keynum < 10; keynum++) {
         let element = document.getElementById('keypad-' + keynum);
         element.addEventListener('click', () => {
@@ -62,4 +58,28 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('keypad-down').addEventListener('click', downClicked);
 
     setCode(1234);
-});
+}
+
+function startup() {
+    var textSets = [
+        ['abcd*******', '', 300],
+        [' ERIC-H8S-1-25-2', '  Ext Port 2345', 2000],
+        ['NCP012345//', '', 300],
+        ['  Please wait...', '', 300]
+    ];
+
+    let currentDelay = 0;
+
+    textSets.forEach((lines, index) => {
+        setTimeout(() => {
+            setScreenText(lines[0], lines[1]);
+        }, currentDelay);
+        currentDelay += lines[2];
+    });
+
+    setTimeout(() => {
+        setup();
+    }, (textSets.length) * 1500);
+}
+
+document.addEventListener('DOMContentLoaded', startup);

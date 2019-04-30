@@ -83,8 +83,9 @@
 #screen {
     position: absolute;
     width: 22.5vw;
-    height: 7vw;
+    height: 6vw;
     background-color: #95be4f;
+    margin-top: 1vw;
     margin-left: 2.5vw;
 
     display: flex;
@@ -102,6 +103,9 @@
     font-size: 2vw;
 
     overflow: hidden;
+    display: block;
+    height: 2vw;
+    line-height: 2vw;
 }
 
 #label {
