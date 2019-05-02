@@ -36,6 +36,24 @@ EDSFormats.Ventura = {
 
         text: "$destination.text+' '+$serviceNumber"
     },
+    destService: {
+        serviceNumber: {
+            align: "right",
+            text: "$serviceNumber",
+            font: "Ventura-16",
+            spacing: 1
+        },
+        destination: {
+            align: "left,top",
+            margin: {
+                left: 1,
+                top: '$topMargin'
+            },
+            text: "$destination",
+            spacing: 1
+        },
+        text: "$destination.text+' '+$serviceNumber"
+    },
     logo: {
         logo: {
             align: "centre-x,centre-y",
@@ -512,6 +530,20 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
+    6951: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "695",
+            destination: {
+                text: "Gembrook",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Emerald"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
     7031: {
         front: {
             renderType: "standardService",
@@ -525,20 +557,6 @@ EDSData.Ventura = {
                 "via Clayton",
                 "via Monash Uni",
                 "via K-Mart Plaza",
-            ],
-            scrollFont: 'Mobitec-6:5'
-        }
-    },
-    6951: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "695",
-            destination: {
-                text: "Gembrook",
-                font: "Mobitec-7:7"
-            },
-            scrolls: [
-                "via Emerald"
             ],
             scrollFont: 'Mobitec-6:5'
         }
@@ -558,6 +576,17 @@ EDSData.Ventura = {
                 "via Bentleigh"
             ],
             scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7033: {
+        front: {
+            renderType: "destService",
+            serviceNumber: "703",
+            destination: {
+                text: "South ṡńOakleigh",
+                font: "Mobitec-7:7"
+            },
+            topMargin: 4
         }
     },
     7091: {

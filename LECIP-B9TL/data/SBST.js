@@ -8876,15 +8876,10 @@ EDSData.SBST = {
     1111: {
         1: {
             front: {
-                renderType: "twoline",
-                top: "OFF SERVICE",
-                topFont: "LECIP-10",
-
-                bottom: "ANYONE STILL ONBOARD IS A R0GUE",
-                bottomFont: "LECIP-7:5"
-                // text: "OFF SERVICE",
-                // font: "LECIP-20:12",
-                // spacing: 3
+                renderType: "message",
+                text: "OFF SERVICE",
+                font: "LECIP-20:12",
+                spacing: 3
             },
             rear: {
                 renderType: 'twoline',
@@ -8916,16 +8911,10 @@ EDSData.SBST = {
     3333: {
         1: {
             front: {
-                renderType: "twoline",
-                top: "FREE SHUTTLE",
-                topFont: "LECIP-10",
-
-                bottom: "ANYONE WHO TAPS CARD IS A R0GUE",
-                bottomFont: "LECIP-6:4"
-                // renderType: "message",
-                // text: "FREE SHUTTLE",
-                // font: "LECIP-20:12",
-                // spacing: 2
+                renderType: "message",
+                text: "FREE SHUTTLE",
+                font: "LECIP-20:12",
+                spacing: 2
             },
             rear: {
                 renderType: 'twoline',
@@ -8940,16 +8929,10 @@ EDSData.SBST = {
     4444: {
         1: {
             front: {
-                renderType: "twoline",
-                top: "ON TEST",
-                topFont: "LECIP-10",
-
-                bottom: "ANY BC WHO WANT PUT OS IS A R0GUE",
-                bottomFont: "LECIP-6:4"
-                // renderType: "message",
-                // text: "ON TEST",
-                // font: "LECIP-20:12",
-                // spacing: 3
+                renderType: "message",
+                text: "ON TEST",
+                font: "LECIP-20:12",
+                spacing: 3
             },
             rear: {
                 renderType: 'twoline',
@@ -8964,16 +8947,10 @@ EDSData.SBST = {
     5555: {
         1: {
             front: {
-                renderType: "twoline",
-                top: "TRAINING BUS",
-                topFont: "LECIP-10",
-
-                bottom: "ANY BUS ENTHU RIDING IS A R0GUE",
-                bottomFont: "LECIP-7:5"
-                // renderType: "message",
-                // text: "TRAINING BUS",
-                // font: "LECIP-20:12",
-                // spacing: 3
+                renderType: "message",
+                text: "TRAINING BUS",
+                font: "LECIP-20:12",
+                spacing: 3
             },
             rear: {
                 renderType: 'twoline',
@@ -8988,32 +8965,20 @@ EDSData.SBST = {
     7777: {
         1: {
             front: {
-                renderType: "twoline",
-                top: "FREE BRIDGING BUS",
-                topFont: "LECIP-10",
-
-                bottom: "ANYONE WHO BOARD BEYOND FBB POINT IS A R0GUE",
-                bottomFont: "LECIP-6:3"
-                // renderType: "message",
-                // text: "FREE BRIDGING BUS",
-                // font: "LECIP-20:9",
-                // spacing: 2
+                renderType: "message",
+                text: "FREE BRIDGING BUS",
+                font: "LECIP-20:9",
+                spacing: 2
             } // check
         }
     },
     9999: {
         1: {
             front: {
-                renderType: "twoline",
-                top: "VER. 18AP19-DD",
-                topFont: "LECIP-7:5",
-
-                bottom: "ANYONE WHO PUNK ON BUS IS A R0GUE",
-                bottomFont: "LECIP-6:4"
-                // renderType: "message",
-                // text: "VER. 11APR18-DD",
-                // font: "LECIP-14:6",
-                // spacing: 1
+                renderType: "message",
+                text: "VER. 02MAY19-DD",
+                font: "LECIP-14:6",
+                spacing: 1
             }
         }
     },

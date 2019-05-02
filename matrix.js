@@ -14,12 +14,8 @@ class LEDMatrix {
     drawText(text, colour) {
         let font = text.font.data;
         let chars = [...text.text];
-        let measure = text.takeMeasure();
         let dx = text.position.x,
             dy = text.position.y;
-
-        let {width, height} = measure;
-        this.clearRectangle(dx, dy, width, height, colour);
 
         let spaceWidth = text.font.getModifier('Space-Width');
 
