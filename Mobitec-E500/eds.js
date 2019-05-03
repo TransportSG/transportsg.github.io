@@ -61,8 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
     frontEDS = new LEDMatrix(frontEDSWidth, edsHeight, document.getElementById('front-eds'));
     controllerPreview = new LEDMatrix(frontEDSWidth, edsHeight, document.getElementById('preview-canvas'), CanvasBasedLEDMatrix, 4);
 
-    // setCode(117, 'SMRT');
-    setCode(-1, 'SMRT');
+    setCode(117, 'SMRT');
 });
 
 window.addEventListener('resize', generateLEDCssCode);
