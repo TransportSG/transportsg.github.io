@@ -465,7 +465,8 @@ EDSData.Ventura = {
                 font: "Mobitec-7:7"
             },
             scrolls: [
-                "via F'tree Gully Rd"
+                "via F'tree Gully Rd",
+                "via Burwood Hwy"
             ],
             scrollFont: 'Mobitec-6:5'
         }

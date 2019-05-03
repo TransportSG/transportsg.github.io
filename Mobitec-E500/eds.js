@@ -20,7 +20,7 @@ function generateLEDCssCode() {
     #front-eds {
         width: ${frontEDSWidth * Math.ceil(window.innerWidth * 0.006)}px;
         grid-template-columns: repeat(${frontEDSWidth}, ${Math.ceil(window.innerWidth * 0.006)}px);
-        grid-row-gap: ${Math.ceil(window.innerWidth * 0.0025)}px;
+        grid-row-gap: ${Math.ceil(window.innerWidth * 0.002)}px;
         grid-auto-rows: ${Math.ceil(window.innerWidth * 0.006) - 1}px;
     }
 `;
@@ -61,7 +61,8 @@ document.addEventListener('DOMContentLoaded', () => {
     frontEDS = new LEDMatrix(frontEDSWidth, edsHeight, document.getElementById('front-eds'));
     controllerPreview = new LEDMatrix(frontEDSWidth, edsHeight, document.getElementById('preview-canvas'), CanvasBasedLEDMatrix, 4);
 
-    setCode(117, 'SMRT');
+    // setCode(117, 'SMRT');
+    setCode(-1, 'SMRT');
 });
 
 window.addEventListener('resize', generateLEDCssCode);

@@ -20,7 +20,7 @@ function generateLEDCssCode() {
     #front-eds {
         width: ${frontEDSWidth * Math.ceil(window.innerWidth * 0.006)}px;
         grid-template-columns: repeat(${frontEDSWidth}, ${Math.ceil(window.innerWidth * 0.006)}px);
-        grid-row-gap: ${Math.ceil(window.innerWidth * 0.0025)}px;
+        grid-row-gap: ${Math.ceil(window.innerWidth * 0.002)}px;
         grid-auto-rows: ${Math.ceil(window.innerWidth * 0.006) - 1}px;
     }
 `;

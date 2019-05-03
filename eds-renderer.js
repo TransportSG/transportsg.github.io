@@ -65,7 +65,7 @@ class TextObject {
             if (char === ' ' && customSpacing !== null)
                 totalWidth += customSpacing;
             else
-                totalWidth += (font.data[char].data || font.data[char])[0].length;
+                totalWidth += font.data[char][0].length;
 
             return totalWidth;
         }, 0);
@@ -158,6 +158,17 @@ class Image {
 
         this.width = this.data[0].length;
         this.height = this.data.length;
+    }
+
+}
+
+class GroupObject {
+
+    constructor(objects, position, width, height) {
+        this.objects = objects;
+        this.position = position;
+        this.width = width;
+        this.height = height;
     }
 
 }
@@ -410,6 +421,83 @@ function resolveImagePosition(image, alignment, matrix) {
     return image;
 }
 
+function parseSection(sectionFormatting, formats, data, images, matrix) {
+    let alignment = sectionFormatting.align;
+    let margins = sectionFormatting.margin;
+    let spacing = sectionFormatting.spacing;
+
+    if (sectionFormatting.$$group) {
+        let parsedGroupObjects = {};
+        let groupWidth = 0;
+        let groupHeight = matrix.height;
+
+        groupWidth = Object.keys(sectionFormatting.$$group).map(name => {
+            return parseSection(sectionFormatting.$$group[name], formats, data, images, matrix).width;
+        }).sort((a, b) => b - a)[0];
+
+        let fakeMatrix = { width: groupWidth, height: groupHeight };
+
+        Object.keys(sectionFormatting.$$group).forEach(name => {
+            parsedGroupObjects[name] = parseSection(sectionFormatting.$$group[name], formats, data, images, fakeMatrix);
+        });
+
+        let {x} = solveAlignment(alignment, groupWidth, groupHeight, matrix.width, matrix.height);
+
+        let group = new GroupObject(parsedGroupObjects, new Position(x, 0), groupWidth, groupHeight);
+        group.alignment = alignment;
+        group.margins = margins;
+
+        return group;
+    } else if (sectionFormatting.rotate) {
+        let scrolls = sectionFormatting.scrolls;
+        let scrollObjects = [];
+        if (scrolls.length === 0) scrolls.push(" ");
+
+        let defaultScrollFont = Font.fromNameString(sectionFormatting.font);
+
+        scrolls.forEach(scroll => {
+            let text;
+
+            if (scroll.renderType) {
+                let rendered = parseFormat(formats, scroll, images, matrix);
+                scrollObjects.push({ rendered });
+                return;
+            } else {
+                text = TextObject.fromJSON(scroll, defaultScrollFont, spacing);
+            }
+
+            text = resolveTextPosition(text, alignment, matrix);
+            text.margins = margins;
+            text.alignment = alignment;
+
+            scrollObjects.push(text);
+        });
+
+        let scrollSpeed = sectionFormatting.rotateSpeed;
+
+        return { scrollObjects, scrollSpeed };
+    } else if (sectionFormatting.image) {
+        let imageName = sectionFormatting.image;
+
+        let image = new Image(imageName, images, null);
+        image = resolveImagePosition(image, alignment, matrix);
+        image.margins = margins;
+        image.alignment = alignment;
+
+        return image;
+    } else {
+        let font = sectionFormatting.font;
+        let text = sectionFormatting.text;
+
+        text = TextObject.fromJSON(text, font, spacing);
+        text = resolveTextPosition(text, alignment, matrix);
+        text.margins = margins;
+        text.alignment = alignment;
+
+        return text;
+    }
+}
+
 function parseFormat(formats, data, images, matrix) {
     let format = new FormattingTemplate(formats[data.renderType], data).solveAll();
 
@@ -437,63 +525,8 @@ function parseFormat(formats, data, images, matrix) {
                 data
             };
             return;
-        }
-
-        let alignment = formatting.align;
-        let margins = formatting.margin;
-        let spacing = formatting.spacing;
-
-        if (formatting.rotate) {
-            if (multiPage) throw new Error(`Cannot have more than 1 rotation: ${sectionName}`)
-            multiPage = true;
-
-            let scrolls = formatting.scrolls;
-            let scrollObjects = [];
-            if (scrolls.length === 0) scrolls.push(" ");
-
-            let defaultScrollFont = Font.fromNameString(formatting.font);
-
-            scrolls.forEach(scroll => {
-                let text;
-
-                if (scroll.renderType) {
-                    let rendered = parseFormat(formats, scroll, images, matrix);
-                    scrollObjects.push({ rendered });
-                    return;
-                } else {
-                    text = TextObject.fromJSON(scroll, defaultScrollFont, spacing);
-                }
-
-                text = resolveTextPosition(text, alignment, matrix);
-                text.margins = margins;
-                text.alignment = alignment;
-
-                scrollObjects.push(text);
-            });
-
-            let scrollSpeed = formatting.rotateSpeed;
-
-            output[sectionName] = { scrollObjects, scrollSpeed };
-        } else if (formatting.image) {
-            let imageName = formatting.image;
-
-            let image = new Image(imageName, images, null);
-            image = resolveImagePosition(image, alignment, matrix);
-            image.margins = margins;
-            image.alignment = alignment;
-
-            output[sectionName] = image;
-        } else {
-            let font = formatting.font;
-            let text = formatting.text;
-
-            text = TextObject.fromJSON(text, font, spacing);
-            text = resolveTextPosition(text, alignment, matrix);
-            text.margins = margins;
-            text.alignment = alignment;
-
-            output[sectionName] = text;
-        }
+        } else
+            output[sectionName] = parseSection(formatting, formats, data, images, matrix);
     });
     let objects = Object.values(output);
 
@@ -505,6 +538,8 @@ function parseFormat(formats, data, images, matrix) {
 
     let pages = [];
     let scrollSpeed = -1;
+
+    multiPage = objects.filter(o => o.scrollObjects).length === 1;
 
     if (multiPage) {
         let scrollObject = objects.filter(o => o.scrollObjects)[0];
@@ -537,19 +572,31 @@ function parseFormat(formats, data, images, matrix) {
 
 function drawPage(page, matrix) {
     page.objects.forEach(object => {
-        if (object instanceof MultiFontTextObject) {
-            object.text.forEach(section => {
-                matrix.drawText(section);
-            });
-        } else if (object instanceof Image) {
-            matrix.draw2DArray(object.data, object.position.x, object.position.y);
-        } else if (object instanceof TextObject) {
-            matrix.drawText(object);
-        } else if (object.dynamicRenderer) {
-            console.log(object)
-            object.dynamicRenderer(matrix, object.data);
-        }
+        drawObject(object, matrix);
     });
+}
+
+function drawObject(object, matrix) {
+    if (object instanceof MultiFontTextObject) {
+        object.text.forEach(section => {
+            matrix.drawText(section);
+        });
+    } else if (object instanceof Image) {
+        matrix.draw2DArray(object.data, object.position.x, object.position.y);
+    } else if (object instanceof TextObject) {
+        matrix.drawText(object);
+    } else if (object.dynamicRenderer) {
+        console.log(object)
+        object.dynamicRenderer(matrix, object.data);
+    } else if (object instanceof GroupObject) {
+        let subObjects = Object.values(object.objects);
+
+        subObjects.forEach(subObject => {
+            subObject.position.x += object.position.x / 2;
+
+            drawObject(subObject, matrix);
+        });
+    }
 }
 
 function render(renderOutput, matrix) {

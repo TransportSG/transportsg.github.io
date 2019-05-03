@@ -1965,10 +1965,10 @@ EDSData.SMRT = {
             front: {
                 renderType: "scammer",
                 serviceNumber: "190",
-                destination: "N   B      R",
+                destination: "N       B              R",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
-                    'B  P       R'
+                    'B    P                 R'
                 ],
                 scrollFont:"LECIP-7:5"
             },
@@ -2425,7 +2425,8 @@ EDSData.SMRT = {
                     font: "ArialBold-8"
                 },
                 scrolls: [
-                    'WOODLANDS AVE 5',
+                    'AVE 1,2,5',
+                    'ST 41 (LOOP)'
                 ],
                 scrollFont: 'Arial-8'
             },
