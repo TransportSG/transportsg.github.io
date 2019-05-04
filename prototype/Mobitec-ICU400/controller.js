@@ -1,4 +1,3 @@
-
 let EDSFormats = {};
 let EDSData = {};
 let EDSImages = {};
@@ -16,6 +15,8 @@ let screenMatrix,
     innerDisplay,
     innerDisplayCanvas = document.createElement('canvas'),
     innerDisplayCanvasContext = innerDisplayCanvas.getContext('2d');
+
+let code = [0, 0, 0, 0];
 
 function setDisplayText(lines) {
     screenMatrix.onBeginDraw();
@@ -38,10 +39,35 @@ function parse(code) {
     return parseFormat(EDSFormats.SMRT, EDSData.SMRT[code].front, EDSImages.SMRT, innerDisplay);
 }
 
-function setup() {
-    drawFrame('Dest: 0477');
+function keyPress(num) {
+    let d = num / Math.abs(num);
+    let index = code.length - Math.abs(num);
 
-    render(parse(477), innerDisplay);
+    if (d === 1 && code[index] + 1 === 10) code[index] = -1;
+    else if (d === -1 && code[index] - 1 === -1) code[index] = 10;
+
+    code[index] += d;
+
+    setCode(code);
+}
+
+function setCode(code) {
+    drawFrame('Dest: ' + code.join(''));
+
+    render(parse(code.join('')*1+''), innerDisplay);
+}
+
+function setup() {
+    for (let p = 0; p <= 3; p++) {
+        let place = Math.pow(10, p);
+
+        document.getElementById(place + '-up').addEventListener('click', keyPress.bind(null, p + 1));
+        if (place !== 1000)
+            document.getElementById(place + '-down').addEventListener('click', keyPress.bind(null, -p - 1));
+    }
+
+    code = [0, 1, 1, 7];
+    setCode(code);
 }
 
 function startup() {
@@ -71,7 +97,6 @@ function hookDisplay(display) {
         display.matrix.onEndDraw();
 
         let imageData = innerDisplayCanvasContext.getImageData(0, 0, innerDisplayCanvas.width, innerDisplayCanvas.height);
-        console.log(imageData);
         screenCanvasContext.putImageData(imageData, 1 * 6, 19 * 6);
     }
 }
