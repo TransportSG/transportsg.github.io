@@ -69,7 +69,7 @@ class TextObject {
 
             return totalWidth;
         }, 0);
-console.log(totalWidth)
+
         let height = chars.map(char => (font.data[char].data || font.data[char]).length).sort((a, b) => a - b).reverse()[0];
 
         let offset = chars.map(char => (font.data[char].offset || 0)).sort((a, b) => a - b)[0];

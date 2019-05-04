@@ -107,14 +107,23 @@ EDSFormats.SMRT = {
             text: "$top",
             font: "$topFont",
             spacing: "$topSpacing",
-            margin: {top: 1}
+            margin: {
+                top: 1
+            }
         },
         bottom: {
             align: "centre-x,bottom",
             text: "$bottom",
             font: "$bottomFont",
             spacing: "$bottomSpacing",
-            margin: {bottom: 1}
+            margin: {
+                bottom: {
+                    $$cond: {
+                        "$bottomMargin === undefined": 1,
+                        "else": "$bottomMargin"
+                    }
+                }
+            }
         },
         text: "$top"
     },
@@ -201,7 +210,8 @@ EDSData.SMRT = {
                 topFont: "ArialBold-8",
 
                 bottom: "SERVICE",
-                bottomFont: "Arial-8"
+                bottomFont: "ArialNarrow-7",
+                bottomMargin: 2
             }
         }
     },
@@ -232,6 +242,15 @@ EDSData.SMRT = {
                 text: 'OFF SERVICE',
                 font: 'Arial-17',
                 spacing: 2
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "OFF",
+                topFont: "ArialBold-8",
+
+                bottom: "SERVICE",
+                bottomFont: "ArialNarrow-7",
+                bottomMargin: 2
             }
         }
     },
@@ -279,7 +298,7 @@ EDSData.SMRT = {
         1: {
             front: {
                 renderType: "calibriStandardService",
-                serviceNumber: "NR1", // from memory the NR5 is kinda corrupted but need check
+                serviceNumber: "NR1",
                 destination: {
                     text: "SUNTEC CITY",
                     font: "Calibri-7"

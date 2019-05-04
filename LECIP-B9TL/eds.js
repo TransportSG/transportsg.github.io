@@ -34,7 +34,7 @@ function generateLEDCssCode() {
     #rear-eds {
         width: ${rearEDSWidth * Math.ceil(window.innerWidth * 0.008)}px;
         grid-template-columns: repeat(${rearEDSWidth}, ${Math.ceil(window.innerWidth * 0.008)}px);
-        grid-row-gap: ${Math.ceil(window.innerWidth * 0.0006)}px;
+        grid-row-gap: ${Math.ceil(window.innerWidth * 0.001)}px;
         grid-auto-rows: ${Math.ceil(window.innerWidth * 0.008)}px;
     }
 `;

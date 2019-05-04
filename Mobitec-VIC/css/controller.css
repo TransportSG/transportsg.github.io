@@ -136,6 +136,10 @@
     color: #d1c72f;
     margin-left: 0.8vw;
     margin-right: 0.8vw;
+
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    cursor: pointer;
 }
 
 #controller-main-right {
