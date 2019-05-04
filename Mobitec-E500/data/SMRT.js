@@ -916,7 +916,7 @@ EDSData.SMRT = {
             spacing: 1
         }
     },
-    118: {
+    119: {
         front: {
             renderType: "message",
             text: "SMRT",

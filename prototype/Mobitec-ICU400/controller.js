@@ -16,7 +16,13 @@ let screenMatrix,
     innerDisplayCanvas = document.createElement('canvas'),
     innerDisplayCanvasContext = innerDisplayCanvas.getContext('2d');
 
+let currentCanvasData = null;
+
+let canvasScale = 10;
+
 let code = [0, 0, 0, 0];
+
+let keyTimeout = 0;
 
 function setDisplayText(lines) {
     screenMatrix.onBeginDraw();
@@ -36,6 +42,7 @@ function drawFrame(text) {
 }
 
 function parse(code) {
+    if (!EDSData.SMRT[code]) return null;
     return parseFormat(EDSFormats.SMRT, EDSData.SMRT[code].front, EDSImages.SMRT, innerDisplay);
 }
 
@@ -48,13 +55,27 @@ function keyPress(num) {
 
     code[index] += d;
 
-    setCode(code);
+    setCodePreview(code);
+
+    clearTimeout(keyTimeout);
+    keyTimeout = setTimeout(setCode.bind(null, code), 1500);
+}
+
+function setCodePreview(code) {
+    drawFrame('Dest: ' + code.join(''));
+
+    if (currentCanvasData)
+        screenCanvasContext.putImageData(currentCanvasData, 1 * canvasScale, 19 * canvasScale);
 }
 
 function setCode(code) {
     drawFrame('Dest: ' + code.join(''));
 
-    render(parse(code.join('')*1+''), innerDisplay);
+    let parsed = parse(code.join('')*1+'');
+
+    if (parsed)
+        render(parsed, innerDisplay);
+    else currentCanvasData = null;
 }
 
 function setup() {
@@ -97,7 +118,9 @@ function hookDisplay(display) {
         display.matrix.onEndDraw();
 
         let imageData = innerDisplayCanvasContext.getImageData(0, 0, innerDisplayCanvas.width, innerDisplayCanvas.height);
-        screenCanvasContext.putImageData(imageData, 1 * 6, 19 * 6);
+        screenCanvasContext.putImageData(imageData, 1 * canvasScale, 19 * canvasScale);
+
+        currentCanvasData = imageData;
     }
 }
 
@@ -105,8 +128,8 @@ document.addEventListener('DOMContentLoaded', () => {
     screenCanvas = document.getElementById('screen-canvas');
     screenCanvasContext = screenCanvas.getContext('2d');
 
-    screenMatrix = new LEDMatrix(screenWidth, screenHeight, screenCanvas, CanvasBasedLEDMatrix, 6);
-    innerDisplay = new LEDMatrix(frontEDSWidth, frontEDSHeight, innerDisplayCanvas, CanvasBasedLEDMatrix, 6);
+    screenMatrix = new LEDMatrix(screenWidth, screenHeight, screenCanvas, CanvasBasedLEDMatrix, canvasScale);
+    innerDisplay = new LEDMatrix(frontEDSWidth, frontEDSHeight, innerDisplayCanvas, CanvasBasedLEDMatrix, canvasScale);
 
     hookDisplay(innerDisplay);
     startup();
