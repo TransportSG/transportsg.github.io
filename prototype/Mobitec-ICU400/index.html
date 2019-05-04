@@ -3,6 +3,14 @@
     <meta charset="UTF-8">
     <link rel='stylesheet' href='/prototype/Mobitec-ICU400/style.css'>
 
+    <script src='/matrix.js'></script>
+    <script src='/fonts.js'></script>
+    <script src='/eds-renderer.js'></script>
+    <script src='/matrix-primitives.js'></script>
+
+    <script src='/prototype/Mobitec-ICU400/controller.js'></script>
+    <script src='/Mobitec-E500/data/SMRT.js'></script>
+
     <meta name='viewport' content='user-scalable=no' />
 </head>
 <body>
@@ -20,6 +28,8 @@
                 <div id='1-up' class='button'></div>
             </div>
             <div id='screen'>
+                <canvas id='screen-canvas'>
+                </canvas>
             </div>
             <div id='bottom-buttons'>
                 <div id='enter' class='button button-blue'></div>

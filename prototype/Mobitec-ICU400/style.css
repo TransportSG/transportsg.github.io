@@ -66,10 +66,14 @@ body, html {
 }
 
 #screen {
-    width: 28vw;
-    height: 7.5vw;
+    width: 27vw;
+    height: 8vw;
 
     background-color: #7aa230;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #usb-container > .rotate-wrap {
@@ -102,7 +106,7 @@ body, html {
 
 #top-buttons, #bottom-buttons {
     display: flex;
-    width: 27vw;
+    width: 26vw;
     justify-content: space-between;
     align-items: center;
     flex-grow: 1;
@@ -121,4 +125,8 @@ body, html {
 
 .button-blue {
     background-color: #14b7cf;
+}
+
+#screen-canvas {
+    width: 26vw;
 }
