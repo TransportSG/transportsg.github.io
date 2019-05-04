@@ -222,6 +222,13 @@ EDSFormats.SBST = {
             text: "$landmark",
             font: "LECIP-6:3",
             spacing: 1
+        },
+
+        text: {
+            $$cond: {
+                "$terminateAt === undefined": "'TERMINATING AT '+$landmark",
+                "else": "'TERMINATING AT '+$terminateAt+' '+$landmark"
+            }
         }
     }
 }
