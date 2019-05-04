@@ -291,7 +291,7 @@ class FormattingTemplate {
                 }
         });
 
-        return this.resolveVariable(value, data);
+        return this.resolveValue(value, data);
     }
 
 }

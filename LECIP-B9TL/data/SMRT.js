@@ -1054,6 +1054,12 @@ EDSData.SMRT = {
                     "DUNEARN RD"
                 ],
                 scrollFont: 'Arial-8'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "700A",
+                font: "Arial-9",
+                spacing: 1
             }
         }
     },

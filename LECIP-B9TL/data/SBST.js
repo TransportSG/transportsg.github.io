@@ -187,6 +187,42 @@ EDSFormats.SBST = {
             matrixPrimitives.fillRectangle(matrix, 0, 0, matrix.width, matrix.height);
         },
         text: "FULL"
+    },
+    swt: {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 1
+            },
+            text: "$serviceNumber",
+            font: "LECIP-20:12",
+            spacing: 3
+        },
+        terminateAt: {
+            align: "centre-x,top",
+            margin: {
+                top: 2,
+                right: "width(serviceNumber)"
+            },
+            text: {
+                $$cond: {
+                    "$terminateAt === undefined": "TERMINATING AT",
+                    "else": "'TERMINATING AT '+$terminateAt"
+                }
+            },
+            font: "LECIP-6:3",
+            spacing: 1
+        },
+        landmark: {
+            align: "centre-x,bottom",
+            margin: {
+                bottom: 3,
+                right: "width(serviceNumber)"
+            },
+            text: "$landmark",
+            font: "LECIP-6:3",
+            spacing: 1
+        }
     }
 }
 
@@ -310,7 +346,7 @@ EDSData.SBST = {
                 destinationFont: "LECIP-7:5",
                 scrolls: [
                     "UPP CHANGI RD EAST",
-                    "BEDOK RESERVIOR RD",
+                    "BEDOK reservoir RD",
                     "THOMSON RD",
                     "SCOTTS RD",
                     "TIONG BAHRU RD",
@@ -334,7 +370,7 @@ EDSData.SBST = {
                     "TIONG BAHRU RD",
                     "SCOTTS RD",
                     "THOMSON RD",
-                    "BEDOK RESERVIOR RD",
+                    "BEDOK reservoir RD",
                     "UPP CHANGI RD EAST"
                 ],
                 scrollFont: "LECIP-7:5"
@@ -412,6 +448,26 @@ EDSData.SBST = {
             }
         }
     },
+    "7A": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "7A",
+                terminateAt: "ORCHARD BLVD",
+                landmark: "BEF ORCHARD STN EXIT B"
+            }
+        }
+    },
+    "7B": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "7B",
+                terminateAt: "ORCHARD RD",
+                landmark: "(DHOBY GHAUT STN)"
+            }
+        }
+    },
     8: {
         1: {
             front: {
@@ -421,7 +477,7 @@ EDSData.SBST = {
                 destinationFont: "LECIP-10",
                 scrolls: [
                     "TAMPINES AVE 1",
-                    "BEDOK RESERVIOR RD",
+                    "BEDOK reservoir RD",
                     "UBI AVE 2",
                     'PAYA LEBAR RD',
                     'MACPHERSON RD'
@@ -445,7 +501,7 @@ EDSData.SBST = {
                     "MACPHERSON RD",
                     'PAYA LEBAR RD',
                     'UBI AVE 2',
-                    'BEDOK RESERVIOR RD',
+                    'BEDOK reservoir RD',
                     'TAMPINES AVE 1, 2, 7'
                 ],
                 scrollFont: "LECIP-7:5"
@@ -481,6 +537,15 @@ EDSData.SBST = {
                 spacing: 2
             }
         }, // D2
+    },
+    "9A": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "9A",
+                landmark: "LOYANG AVE (BLK 149A)"
+            }
+        }
     },
     10: {
         1: {
@@ -626,6 +691,15 @@ EDSData.SBST = {
             }
         }
     },
+    "13A": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "13A",
+                landmark: "BISHAN RD (BISHAN STN)"
+            }
+        }
+    },
     14: {
         1: {
             front: {
@@ -670,6 +744,15 @@ EDSData.SBST = {
                 serviceNumber: "14",
                 font: "LECIP-20:12",
                 spacing: 2
+            }
+        }
+    },
+    "14A": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "14A",
+                landmark: "GRANGE RD (NATL Y. COUNCIL)"
             }
         }
     },
@@ -894,7 +977,7 @@ EDSData.SBST = {
                     "MOULMEIN RD",
                     'SIMS AVE',
                     'BOON KENG RD',
-                    'BEDOK RESERVIOR RD',
+                    'BEDOK reservoir RD',
                     'TAMPINES AVE 7',
                     "PASIR RIS DR 1"
                 ],
@@ -905,6 +988,15 @@ EDSData.SBST = {
                 serviceNumber: "21",
                 font: "LECIP-20:12",
                 spacing: 2
+            }
+        }
+    },
+    "21A": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "21A",
+                landmark: "KITCHENER RD (BEF TAI HOE HTL)"
             }
         }
     },
@@ -1148,8 +1240,7 @@ EDSData.SBST = {
                     'TAMPINES AVE 5, 4, 7, 9, 10',
                     'COMPASSVALE RD',
                     'SENGKANG CTRL',
-                    'HOUGANG AVE 6, 10',
-                    ''
+                    'HOUGANG AVE 6, 10'
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -1161,6 +1252,15 @@ EDSData.SBST = {
             }
         }
     },
+    // "27A": {
+    //     1: {
+    //         front: {
+    //             renderType: "swt",
+    //             serviceNumber: "27A",
+    //             landmark: "TAMP. AVE 4 (OPP CENTURY SQ)" // Q
+    //         }
+    //     }
+    // },
     28: {
         1: {
             front: {
@@ -1232,6 +1332,15 @@ EDSData.SBST = {
                 serviceNumber: "29",
                 font: "LECIP-20:12",
                 spacing: 2
+            }
+        }
+    },
+    "29A": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "29A",
+                landmark: "TAMPINES AVE 7 (BLK 479D)"
             }
         }
     },
@@ -1362,6 +1471,15 @@ EDSData.SBST = {
             }
         }
     },
+    "31A": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "31A",
+                landmark: "NEW U. CHANGI RD (T. MERAH STN)"
+            }
+        }
+    },
     32: {
         1: {
             front: {
@@ -1447,6 +1565,24 @@ EDSData.SBST = {
                 serviceNumber: "33",
                 font: "LECIP-20:12",
                 spacing: 2
+            }
+        }
+    },
+    "33A": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "33A",
+                landmark: "TIONG BAHRU RD (BLK 1)" // check
+            }
+        }
+    },
+    "33B": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "33B",
+                landmark: "JOO CHIAT PL (AFT TEMBELING ST)"
             }
         }
     },
@@ -1734,6 +1870,15 @@ EDSData.SBST = {
                 serviceNumber: "45",
                 font: "LECIP-20:12",
                 spacing: 2
+            }
+        }
+    },
+    "45A": { // check
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "45A",
+                landmark: "UPPER SERANGOON RD"
             }
         }
     },
@@ -2035,6 +2180,15 @@ EDSData.SBST = {
             }
         }
     },
+    "53A": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "53A",
+                landmark: "CHANGI AIRPORT (PTB2)"
+            }
+        }
+    },
     "53M": {
         1: {
             front: {
@@ -2150,6 +2304,15 @@ EDSData.SBST = {
                 serviceNumber: "55",
                 font: "LECIP-20:12",
                 spacing: 2
+            }
+        }
+    },
+    "55B": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "55B",
+                landmark: "ANG MO KIO AVE 10 (BLK 443)"
             }
         }
     },
@@ -2295,6 +2458,25 @@ EDSData.SBST = {
             }
         }
     },
+    "58A": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "68A",
+                landmark: "TAMPINES AVE 10 (BEF TPE)"
+            }
+        }
+    },
+    "58B": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "58B",
+                terminateAt: "UPP PAYA LEBAR RD",
+                landmark: "AFT TAI SENG STN"
+            }
+        }
+    },
     59: {
         1: {
             front: {
@@ -2350,9 +2532,9 @@ EDSData.SBST = {
                 destinationFont: "LECIP-10",
                 scrolls: [
                     'JALAN EUNOS',
-                    'BEDOK RESERVIOR RD',
+                    'BEDOK reservoir RD',
                     'BEDOK NTH RD',
-                    'BEDOK RESERVIOR RD',
+                    'BEDOK reservoir RD',
                     'JALAN EUNOS'
                 ],
                 scrollFont: "LECIP-7:5"
@@ -2364,6 +2546,15 @@ EDSData.SBST = {
                 spacing: 2
             }
         } // D2?
+    },
+    "60A": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "60A",
+                landmark: "BEDOK RESERVOIR RD (BLK 608)"
+            }
+        }
     },
     63: {
         1: {
@@ -2543,7 +2734,7 @@ EDSData.SBST = {
                     'TAMPINES AVE 5',
                     'TAMPINES AVE 8',
                     'TAMPINES AVE 1',
-                    'BEDOK RESERVIOR RD',
+                    'BEDOK reservoir RD',
                     'BEDOK NTH AVE 3',
                     'BEDOK NTH ST 1'
                 ],
@@ -2623,6 +2814,24 @@ EDSData.SBST = {
                 serviceNumber: "70",
                 font: "LECIP-20:12",
                 spacing: 2
+            }
+        }
+    },
+    "70A": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "70A",
+                landmark: "TAMASEK AVE (OP. RITZ-CARLTON)"
+            }
+        }
+    },
+    "70B": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "70B",
+                landmark: "SERANGOON CTRL (S'GOON STN)"
             }
         }
     },
@@ -2721,6 +2930,24 @@ EDSData.SBST = {
                 serviceNumber: "72",
                 font: "LECIP-20:12",
                 spacing: 2
+            }
+        }
+    },
+    "72A": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "72A",
+                landmark: "HOUGANG CTRL (OPP HG CTRL INT)"
+            }
+        }
+    },
+    "72B": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "72B",
+                landmark: "AMK AVE 5 (ITE COLLEGE CTRL)"
             }
         }
     },
@@ -2910,6 +3137,15 @@ EDSData.SBST = {
             }
         }
     },
+    "80A": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "80A",
+                landmark: "ALJUNIED RD (ALJUNIED STATION)"
+            }
+        }
+    },
     81: {
         1: {
             front: {
@@ -3074,6 +3310,24 @@ EDSData.SBST = {
             }
         }
     },
+    "88A": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "88A",
+                landmark: "AMK AVE 3 (OPP AMK STATION)"
+            }
+        }
+    },
+    "88B": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "88B",
+                landmark: "AMK AVE 5 (BEF YIO CHU KANG RD)"
+            }
+        }
+    },
     89: {
         1: {
             front: {
@@ -3119,6 +3373,16 @@ EDSData.SBST = {
                 serviceNumber: "89",
                 font: "LECIP-20:12",
                 spacing: 2
+            }
+        }
+    },
+    "89A": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "89A",
+                terminateAt: "AIRPORT CARGO RD",
+                landmark: "AIRFREIGHT TERMINAL BLDG"
             }
         }
     },
@@ -3175,6 +3439,16 @@ EDSData.SBST = {
             }
         }
     },
+    "90A": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "90A",
+                terminateAt: "AIRPORT RD",
+                landmark: "PAYA LEBAR AIR BASE"
+            }
+        }
+    },
     91: {
         1: {
             front: {
@@ -3224,6 +3498,25 @@ EDSData.SBST = {
                 serviceNumber: "92",
                 font: "LECIP-20:12",
                 spacing: 2
+            }
+        }
+    },
+    "92A": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "92A",
+                landmark: "GHIM MOH RD (BLK 13)"
+            }
+        }
+    },
+    "92B": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "92B",
+                terminateAt: "SCIENCE PARK DR",
+                landmark: "(OPP THE RUTHERFORD)" // check
             }
         }
     },
@@ -3299,6 +3592,15 @@ EDSData.SBST = {
             }
         }
     },
+    "94A": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "94A",
+                landmark: "AIRPORT RD(BEF RSAF R'ABOUT)"
+            }
+        }
+    },
     95: {
         1: {
             front: {
@@ -3323,7 +3625,15 @@ EDSData.SBST = {
             }
         }
     },
-    //TODO CHECK 95B
+    "95B": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "95B",
+                landmark: "N.BUONA VISTA RD (BUONA V. STN)"
+            }
+        }
+    },
     99: {
         1: {
             front: {
@@ -3411,6 +3721,16 @@ EDSData.SBST = {
                 serviceNumber: "100",
                 font: "LECIP-20:12",
                 spacing: 2
+            }
+        }
+    },
+    "100A": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "100A",
+                terminateAt: "ALJUNIED RD",
+                landmark: "(ALJUNIED STN)"
             }
         }
     },
