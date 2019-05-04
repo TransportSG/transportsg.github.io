@@ -711,6 +711,30 @@ EDSData.SMRT = {
             }
         }
     },
+    373: {
+        1: {
+            front: {
+                renderType: "twoline",
+                top: "SHUTTLE 10",
+                topFont: "ArialBold-8",
+
+                bottom: "ANG MO KIO-WOODLANDS",
+                bottomFont: "ArialBold-8"
+            }
+        }
+    },
+    374: {
+        1: {
+            front: {
+                renderType: "twoline",
+                top: "SHUTTLE 10", // check font
+                topFont: "ArialBold-8",
+
+                bottom: "WOODLANDS-ANG MO KIO",
+                bottomFont: "ArialBold-8"
+            }
+        }
+    },
     381: {
         1: {
             front: {
@@ -756,6 +780,30 @@ EDSData.SMRT = {
 
                 bottom: "JURONG EAST-CHOA CHU KANG",
                 bottomFont: "Arial-8;Space-Width=1"
+            }
+        }
+    },
+    397: {
+        1: {
+            front: {
+                renderType: "twoline",
+                top: "SHUTTLE 1",
+                topFont: "ArialBold-8",
+
+                bottom: "OUTRAM PARK-JURONG EAST",
+                bottomFont: "Arial-8"
+            }
+        }
+    },
+    398: {
+        1: {
+            front: {
+                renderType: "twoline",
+                top: "SHUTTLE 1",
+                topFont: "ArialBold-8",
+
+                bottom: "OUTRAM PARK-JURONG EAST",
+                bottomFont: "Arial-8"
             }
         }
     },

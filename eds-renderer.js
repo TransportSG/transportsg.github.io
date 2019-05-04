@@ -62,14 +62,14 @@ class TextObject {
 
             if (!font.data[char]) throw Error(`Character ${char} in font ${font.name} not found!`)
 
-            if (char === ' ' && customSpacing !== null)
-                totalWidth += customSpacing;
+            if (char === ' ' && customSpacing !== undefined)
+                totalWidth += customSpacing * 1;
             else
                 totalWidth += font.data[char][0].length;
 
             return totalWidth;
         }, 0);
-
+console.log(totalWidth)
         let height = chars.map(char => (font.data[char].data || font.data[char]).length).sort((a, b) => a - b).reverse()[0];
 
         let offset = chars.map(char => (font.data[char].offset || 0)).sort((a, b) => a - b)[0];
@@ -126,7 +126,7 @@ class Font {
     }
 
     getModifier(name) {
-        return this.modifiers.filter(e => e[0] === 'Space-Width')[0] || null;
+        return (this.modifiers.filter(e => e[0] === name)[0] || [])[1];
     }
 
     static getFontname(fontname) {

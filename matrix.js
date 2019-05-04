@@ -28,8 +28,8 @@ class LEDMatrix {
 
             x += spacing;
 
-            if (char == ' ' && spaceWidth !== null) {
-                x += spaceWidth;
+            if (char == ' ' && spaceWidth !== undefined) {
+                x += spaceWidth * 1;
                 return;
             }
 
