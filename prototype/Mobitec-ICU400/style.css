@@ -13,7 +13,7 @@ body, html {
 
 #controller {
     width: 40vw;
-    height: 17vw;
+    height: 18.5vw;
     display: block;
     background-color: #3f4552;
 
@@ -22,12 +22,14 @@ body, html {
 
     border: 0.75vw solid #a79257;
     border-radius: 0.375vw;
+
+    transform: scale(2);
 }
 
 #name {
     display: flex;
     width: 2vw;
-    height: 17vw;
+    height: 18.5vw;
 
     justify-content: center;
 }
@@ -35,14 +37,14 @@ body, html {
 .rotate-wrap {
     position: relative;
     width: 2vw;
-    height: 17vw;
+    height: 18.5vw;
 
     display: block;
 }
 
 .rotate-wrap > span {
     text-align: center;
-    width: 17vw;
+    width: 18.5vw;
     height: 2vw;
     white-space: pre;
 
@@ -67,7 +69,7 @@ body, html {
 
 #screen {
     width: 27vw;
-    height: 8vw;
+    height: 9vw;
 
     background-color: #7aa230;
 
@@ -129,4 +131,5 @@ body, html {
 
 #screen-canvas {
     width: 26vw;
+    height: 9vw;
 }

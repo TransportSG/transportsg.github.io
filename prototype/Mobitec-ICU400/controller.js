@@ -21,7 +21,7 @@ let code = [0, 0, 0, 0];
 function setDisplayText(lines) {
     screenMatrix.onBeginDraw();
     lines.forEach((line, i) => {
-        screenMatrix.drawText(new TextObject(line, Font.fromNameString('Mobitec-6:5'), new Position(0, i * 10 + 3), 1));
+        screenMatrix.drawText(new TextObject(line, Font.fromNameString('Mobitec-6:5'), new Position(0, i * 10 + 2), 1));
     });
     screenMatrix.onEndDraw();
 }
