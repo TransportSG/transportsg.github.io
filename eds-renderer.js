@@ -602,8 +602,9 @@ function drawObject(object, matrix) {
 function render(renderOutput, matrix) {
     clearInterval(matrix.scrollInterval);
 
-    let currentPage = -1;
+    if (!renderOutput) return;
 
+    let currentPage = -1;
     let {scrollSpeed} = renderOutput;
 
     function renderPage() {

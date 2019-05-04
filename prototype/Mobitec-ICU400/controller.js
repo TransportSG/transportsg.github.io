@@ -73,9 +73,8 @@ function setCode(code) {
 
     let parsed = parse(code.join('')*1+'');
 
-    if (parsed)
-        render(parsed, innerDisplay);
-    else currentCanvasData = null;
+    render(parsed, innerDisplay);
+    if (!parsed) currentCanvasData = null;
 }
 
 function setup() {
