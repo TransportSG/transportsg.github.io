@@ -3626,7 +3626,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "107M",
-                font: "LECIP-20:12",
+                font: "LECIP-20:6",
                 spacing: 2
             }
         }
@@ -4303,7 +4303,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "131M",
-                font: "LECIP-20:12",
+                font: "LECIP-20:6",
                 spacing: 2
             }
         }
@@ -4729,7 +4729,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "147e",
-                font: "LECIP-20:9", // check rear font for all 4 digit express
+                font: "LECIP-20:6", // check rear font for all 4 digit express
                 spacing: 2
             }
         },
@@ -4743,7 +4743,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "147e",
-                font: "LECIP-20:9",
+                font: "LECIP-20:6",
                 spacing: 2
             }
         }
@@ -4826,7 +4826,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "151e",
-                font: "LECIP-20:9",
+                font: "LECIP-20:6",
                 spacing: 2
             }
         },
@@ -4840,7 +4840,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "151e",
-                font: "LECIP-20:9",
+                font: "LECIP-20:6",
                 spacing: 2
             }
         }
@@ -5583,7 +5583,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "170X",
-                font: "LECIP-20:12",
+                font: "LECIP-20:6",
                 spacing: 2
             }
         },
@@ -5603,7 +5603,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "170X",
-                font: "LECIP-20:12",
+                font: "LECIP-20:6",
                 spacing: 2
             }
         }
@@ -5670,7 +5670,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "174e",
-                font: "LECIP-20:9",
+                font: "LECIP-20:6",
                 spacing: 2
             }
         },
@@ -5684,7 +5684,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "174e",
-                font: "LECIP-20:9",
+                font: "LECIP-20:6",
                 spacing: 2
             }
         }
@@ -5775,7 +5775,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "179A",
-                font: "LECIP-20:9",
+                font: "LECIP-20:6",
                 spacing: 2
             }
         }
@@ -6167,7 +6167,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "196e",
-                font: "LECIP-20:9",
+                font: "LECIP-20:6",
                 spacing: 2
             }
         },
@@ -6181,7 +6181,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "196e",
-                font: "LECIP-20:9",
+                font: "LECIP-20:6",
                 spacing: 2
             }
         }
@@ -8337,7 +8337,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "CT28",
-                font: "LECIP-20:12",
+                font: "LECIP-20:6",
                 spacing: 2
             }
         },
@@ -8357,7 +8357,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "CT28",
-                font: "LECIP-20:12",
+                font: "LECIP-20:6",
                 spacing: 2
             }
         }
@@ -8469,7 +8469,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "851e",
-                font: "LECIP-20:9",
+                font: "LECIP-20:6",
                 spacing: 2
             }
         },
@@ -8483,7 +8483,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "851e",
-                font: "LECIP-20:9",
+                font: "LECIP-20:6",
                 spacing: 2
             }
         }
