@@ -113,5 +113,43 @@ EDSData.SBST = {
                 ]
             }
         }
+    },
+    272: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "272",
+                destination: {
+                    text: ">BUKIT MERAH INT",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "HENDERSON RD",
+                    "TELOK BLANGAH CRES"
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "272",
+                destination: "TELOK BLANGAH CRES",
+                scrolls: [
+                    "BT MERAH INT",
+                    "AFT BT MERAH CTRL",
+                    "BLK 1",
+                    "BLK 25",
+                    "BLK 28",
+                    "BLK 36 MKT/FC",
+                    "BLK 41",
+                    "BLK 40",
+                    "BLK 27",
+                    "BLK 10",
+                    "BLK 11",
+                    "OPP BLK 1",
+                    "BEF BT MERAH CTRL",
+                    "BT MERAH INT"
+                ]
+            }
+        }
     }
 }

@@ -586,7 +586,6 @@ function drawObject(object, matrix) {
     } else if (object instanceof TextObject) {
         matrix.drawText(object);
     } else if (object.dynamicRenderer) {
-        console.log(object)
         object.dynamicRenderer(matrix, object.data);
     } else if (object instanceof GroupObject) {
         let subObjects = Object.values(object.objects);
