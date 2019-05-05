@@ -65,7 +65,7 @@ class TextObject {
             if (char === ' ' && customSpacing !== undefined)
                 totalWidth += customSpacing * 1;
             else
-                totalWidth += font.data[char][0].length;
+                totalWidth += (font.data[char].data || font.data[char])[0].length;
 
             return totalWidth;
         }, 0);
