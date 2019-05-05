@@ -18,7 +18,7 @@ let screenMatrix,
 
 let currentCanvasData = null;
 
-let canvasScale = 10;
+let canvasScale = 51; // DAMMIT SAFARI YOURE A NUTCASE
 
 let code = [0, 0, 0, 0];
 
