@@ -19,13 +19,13 @@ EDSFormats.SMRT = {
                 centreTopText: {
                     align: "centre-x,top",
                     text: "Greatness is Kindness",
-                    font: "Mobitec-7:3",
+                    font: "Hanover-7:3",
                     spacing: 1
                 },
                 centreBottomText: {
                     align: "centre-x,bottom",
                     text: "Be Greater",
-                    font: "Mobitec-7:3",
+                    font: "Hanover-7:3",
                     spacing: 1
                 }
             },
