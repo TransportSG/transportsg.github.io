@@ -1,5 +1,7 @@
 window.frontEDS = null; window.controllerPreview = null;
 
+let currentOperator = location.hash ? location.hash.slice(1) : 'SMRT';
+
 let EDSFormats = {};
 let EDSData = {};
 let EDSImages = {};
@@ -61,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
     frontEDS = new LEDMatrix(frontEDSWidth, edsHeight, document.getElementById('front-eds'));
     controllerPreview = new LEDMatrix(frontEDSWidth, edsHeight, document.getElementById('preview-canvas'), CanvasBasedLEDMatrix, 4);
 
-    setCode(117, 'SMRT');
+    setCode(117, currentOperator);
 });
 
 window.addEventListener('resize', generateLEDCssCode);

@@ -1,5 +1,4 @@
 let currentScreen = 'controller-screen-home';
-let currentOperator = 'SMRT';
 let currentCode = '0';
 let currentScreenCode = '0';
 let screenFilter = '';
