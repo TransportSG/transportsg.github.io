@@ -1,6 +1,8 @@
 window.frontEDS = null; window.controllerPreview = null;
 
-let currentOperator = location.hash ? location.hash.slice(1) : 'SMRT';
+let currentOperator = location.hash.slice(1) ? location.hash.slice(1) : 'SMRT';
+
+let startupCodes = {'SMRT': 117, 'TTSG': 1111, 'SBST': 1111, 'GASG': 1111}
 
 let EDSFormats = {};
 let EDSData = {};
@@ -63,7 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
     frontEDS = new LEDMatrix(frontEDSWidth, edsHeight, document.getElementById('front-eds'));
     controllerPreview = new LEDMatrix(frontEDSWidth, edsHeight, document.getElementById('preview-canvas'), CanvasBasedLEDMatrix, 4);
 
-    setCode(117, currentOperator);
+    setCode(startupCodes[currentOperator], currentOperator);
 });
 
 window.addEventListener('resize', generateLEDCssCode);
