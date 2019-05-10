@@ -88,6 +88,9 @@
 
             this.buffer = [];
             for (let i = 0; i < this.width * this.height; i++) this.buffer.push(false);
+
+            this.flatToTwodim = exports.DOMBasedLEDMatrix.flatToTwodim;
+            this.twodimToFlat = exports.DOMBasedLEDMatrix.twodimToFlat;
         }
 
         clearRectangle(x, y, w, h, colour) {
@@ -102,7 +105,7 @@
 
         onEndDraw() {
             this.buffer.forEach((pixel, n) => {
-                let {x, y} = DOMBasedLEDMatrix.flatToTwodim(n, this.width);
+                let {x, y} = this.flatToTwodim(n, this.width);
                 if (pixel)
                     this.context.fillRect(x * this.scaleFactor, y * this.scaleFactor, this.scaleFactor, this.scaleFactor);
             });
@@ -110,7 +113,7 @@
 
         setLEDState(x, y, state, colour) {
             if (x >= this.width || x < 0 || y >= this.height || y < 0) return;
-            this.buffer[DOMBasedLEDMatrix.twodimToFlat(x, y, this.width)] = state;
+            this.buffer[this.twodimToFlat(x, y, this.width)] = state;
         }
 
         getLEDState(x, y) {
@@ -157,7 +160,7 @@
 
         setLEDState(x, y, state, colour) {
             if (x >= this.width || x < 0 || y >= this.height || y < 0) return;
-            let pixel = this.leds[DOMBasedLEDMatrix.twodimToFlat(x, y, this.width)];
+            let pixel = this.leds[exports.DOMBasedLEDMatrix.twodimToFlat(x, y, this.width)];
             if (!state && pixel.className.includes('-coloured')) {
                 pixel.style.backgroundColor = null;
             }
@@ -172,7 +175,7 @@
 
         getLEDState(x, y) {
             if (x >= this.width || x < 0 || y >= this.height || y < 0) return false;
-            return this.leds[DOMBasedLEDMatrix.twodimToFlat(x, y, this.width)].className.includes('led led-on');
+            return this.leds[exports.DOMBasedLEDMatrix.twodimToFlat(x, y, this.width)].className.includes('led led-on');
         }
 
     }

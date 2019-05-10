@@ -1,6 +1,6 @@
 (function(exports){
 
-    exports.Position = exports.Position = class Position {
+    exports.Position = class Position {
 
         constructor(x, y) {
             this.x = x;
@@ -89,7 +89,7 @@
 
     }
 
-    exports.MultiFontTextObject = class MultiFontTextObject extends TextObject {
+    exports.MultiFontTextObject = class MultiFontTextObject extends exports.TextObject {
 
         constructor(text, font, position, spacing) {
             super();
