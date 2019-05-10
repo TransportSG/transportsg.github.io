@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const { LEDMatrix, CanvasBasedLEDMatrix } = require('./matrix');
 const MatrixPrimitives = require('./matrix-primitives');
 const Fonts = require('./fonts');
@@ -22,7 +24,7 @@ Object.keys(Fonts).forEach(key => global[key] = Fonts[key]);
 let usageString = `Usage: ./png-renderer.js --width=width --height=height --render=side --dataFile=file --code='code' --out=outFolder`;
 
 function argError() {
-    console.err(usageString);
+    console.error(usageString);
     process.exit(1);
 }
 
