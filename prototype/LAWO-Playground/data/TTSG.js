@@ -87,6 +87,75 @@ EDSFormats.TTSG = {
 }
 
 EDSData.TTSG = {
+    77: {
+        1: {
+                front: {
+                renderType: "standardService",
+                serviceNumber: "77",
+                destination: "BUKIT BATOK",
+                scrolls: [
+                    {
+                        renderType: "specialScroll",
+                        serviceNumber: "77",
+                        image: "kindness-heart",
+                        top: "HAPPY",
+                        bottom: "KINDNESS DAY!"
+                    },
+                    {
+                        renderType: "specialScroll",
+                        serviceNumber: "77",
+                        image: "kindness-heart",
+                        top: "KINDNESS COSTS",
+                        bottom: "$0.00. SHARE IT!"
+                    },
+                    {
+                        renderType: "specialScroll",
+                        serviceNumber: "77",
+                        top: "BUKIT BATOK",
+                        topFont: "LAWO-15"
+                    },
+                    "STAMFORD RD",
+                    "ORCHARD BOULEVARD",
+                    "HOLLAND RD / VILLAGE",
+                    "SIXTH AVE",
+                    "TOH TUCK RD"
+                ]
+            },
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "77",
+                destination: "MARINA CENTRE",
+                scrolls: [
+                    {
+                        renderType: "specialScroll",
+                        serviceNumber: "77",
+                        image: "kindness-heart",
+                        top: "HAPPY",
+                        bottom: "KINDNESS DAY!"
+                    },
+                    {
+                        renderType: "specialScroll",
+                        serviceNumber: "77",
+                        image: "kindness-heart",
+                        top: "KINDNESS COSTS",
+                        bottom: "$0.00. SHARE IT!"
+                    },
+                    {
+                        renderType: "specialScroll",
+                        serviceNumber: "77",
+                        top: "MARINA CENTRE",
+                        topFont: "LAWO-15"
+                    },
+                    "TOH TUCK RD",
+                    "SIXTH AVE",
+                    "HOLLAND RD / VILLAGE",
+                    "ORCHARD RD"
+                ]
+            }
+        }
+    },
     282: {
         1: {
             front: {
@@ -128,6 +197,26 @@ EDSData.TTSG = {
                 serviceNumber: '284',
                 destination: "CLEMENTI",
                 scrolls: [
+                    {
+                        renderType: "specialScroll",
+                        serviceNumber: "77",
+                        image: "kindness-heart",
+                        top: "HAPPY",
+                        bottom: "KINDNESS DAY!"
+                    },
+                    {
+                        renderType: "specialScroll",
+                        serviceNumber: "77",
+                        image: "kindness-heart",
+                        top: "KINDNESS COSTS",
+                        bottom: "$0.00. SHARE IT!"
+                    },
+                    {
+                        renderType: "specialScroll",
+                        serviceNumber: "77",
+                        top: "CLEMENTI",
+                        topFont: "LAWO-15"
+                    },
                     "CLEMENTI AVE 4",
                 ]
             }

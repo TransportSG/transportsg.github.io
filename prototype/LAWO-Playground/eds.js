@@ -34,6 +34,8 @@ document.addEventListener('DOMContentLoaded', () => {
     generateLEDCssCode();
 
     frontEDS = new LEDMatrix(frontEDSWidth, edsHeight, document.getElementById('front-eds'));
+
+    setCode(77, 'TTSG');
 });
 
 window.addEventListener('resize', generateLEDCssCode);
