@@ -122,13 +122,18 @@ EDSFormats.SBST = {
     holidayMessage: {
         image: {
             align: "left",
-            image: "$image",
+            image: {
+                $$cond: {
+                    "$image === null": "blank",
+                    "else": "$image"
+                }
+            }
         },
         serviceNumber: {
             align: "right",
             text: "$serviceNumber",
             font: "Hanover-19:11;Space-Width=1",
-            spacing: 1 // Just to trigger people HAHAHAHA
+            spacing: 2 // Just to trigger people HAHAHAHA
         },
         top: {
             align: {
@@ -222,7 +227,15 @@ EDSData.SBST = {
 
                         bottom: "Singapore!",
                         bottomFont: "Hanover-7:5"
-                    }
+                    },
+                    {
+                        renderType: "holidayMessage",
+                        serviceNumber: "OFF",
+
+                        top: "Be Kind, Be Great !",
+                        topFont: "Hanover-12:3",
+                        topSpacing: 2
+                    },
                 ],
                 scrollFont: "Hanover-7:5"
             }
@@ -540,6 +553,14 @@ EDSData.SBST = {
                 destination: "> BOON LAY INT",
                 destinationFont: "Hanover-10",
                 scrolls: [
+                    {
+                        renderType: "holidayMessage",
+                        serviceNumber: "174",
+
+                        top: "Be Kind, Be Great !",
+                        topFont: "Hanover-12:3",
+                        topSpacing: 2
+                    },
                     "EU TONG SEN ST",
                     "ORCHARD BLVD",
                     "HOLLAND RD",
@@ -727,5 +748,6 @@ EDSImages.SBST = {
         [1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
         [1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
         [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-    ]
+    ],
+    blank: [[]]
 }
