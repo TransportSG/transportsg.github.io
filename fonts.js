@@ -1,4 +1,6 @@
-let fonts = {
+(function(exports){
+
+exports.fonts = {
     "ArialNarrow-7": {
         C: [
             [0, 1, 1, 0],
@@ -25468,7 +25470,7 @@ let fonts = {
     }
 }
 
-let fontSpacers = {
+exports.fontSpacers = {
     "ArialBold-8": (prev, curr, spacing) => {
         if (prev === 'R' && curr === 'A') return 0;
         if (prev === "P" && curr === "A") return 0;
@@ -25524,3 +25526,5 @@ let fontSpacers = {
         return spacing;
     }
 }
+
+}(typeof exports === 'undefined' ? window : exports));
