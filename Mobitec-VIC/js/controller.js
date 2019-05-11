@@ -22,7 +22,7 @@ let idleTimeout = 0;
 
 let keyTimeout = 0;
 
-let operator = 'SMRT';
+let operator = 'Ventura';
 
 function setDisplayText(lines) {
     screenMatrix.onBeginDraw();
@@ -41,8 +41,9 @@ function drawFrame(text) {
     screenMatrix.onEndDraw();
 }
 
-function parse(code, extraCode) {
+function parse(code, extraCode, extraFirst) {
     if (!EDSData[operator][code]) return null;
+    if (!EDSExtras[operator][extraCode] && extraFirst) return null;
 
     let extraData;
 
@@ -50,8 +51,14 @@ function parse(code, extraCode) {
     if (!!EDSExtras[operator][extraCode])
         extraData = parseFormat(EDSFormats[operator], EDSExtras[operator][extraCode].front, EDSImages[operator], innerDisplay);
 
-    if (extraData)
-        data.pages = extraData.pages.concat(data.pages);
+    if (extraData) {
+        if (extraFirst)
+            data.pages = extraData.pages.concat(data.pages);
+        else
+            data.pages = data.pages.concat(extraData.pages);
+
+        data.scrollSpeed = data.scrollSpeed === -1 ? 3000 : data.scrollSpeed;
+    }
 
     return data;
 }
@@ -67,15 +74,15 @@ function keyPress(num) {
 
     currentCode[index] += d;
 
-    setPreviewCode(code, extra);
+    setPreviewCode(code, extra, inputMode === 'Extra');
 
     clearTimeout(keyTimeout);
     keyTimeout = setTimeout(setCode.bind(null, code, extra), 1500);
 }
 
-function setPreviewCode(code, extra) {
+function setPreviewCode(code, extra, extraFirst) {
     drawFrame(inputMode + ': ' + (inputMode === 'Dest' ? code : extra).join(''));
-    let parsed = parse(code.join('')*1+'', extra.join('')*1+'');
+    let parsed = parse(code.join('')*1+'', extra.join('')*1+'', extraFirst);
     render(parsed, innerDisplay);
 }
 
@@ -108,7 +115,7 @@ function toggleDisplayInput() {
     if (inputMode == 'Dest') inputMode = 'Extra';
     else inputMode = 'Dest';
 
-    setPreviewCode(code, extra);
+    setPreviewCode(code, extra, inputMode === 'Extra');
 }
 
 function setup() {
