@@ -1,131 +1,132 @@
-let currentScreen = 'controller-screen-home';
-let currentOperator = 'Ventura';
-let currentCode = '0';
-let currentScreenCode = '0';
-let screenFilter = '';
+let screenWidth = 146,
+    screenHeight = 40;
 
-function setScreen(screenName) {
-    let screens = [['controller-screen-home', 'flex', () => {
-        screenFilter = '';
-    }], ['controller-screen-dest', 'block']];
-    screens.forEach(screen => {
-        if (screen[0] !== screenName) {
-            document.getElementById(screen[0]).style.display = 'none';
-        } else {
-            document.getElementById(screen[0]).style.display = screen[1];
-            if (screen[2]) screen[2]();
-        }
+let screenMatrix,
+    screenCanvas,
+    screenCanvasContext,
+
+    innerDisplay,
+    innerDisplayCanvas = document.createElement('canvas'),
+    innerDisplayCanvasContext = innerDisplayCanvas.getContext('2d');
+
+let currentCanvasData = null;
+
+let canvasScale = 51; // DAMMIT SAFARI YOURE A NUTCASE
+
+let code = [0, 0, 0, 0];
+
+let keyTimeout = 0;
+
+let operator = 'Ventura';
+
+function setDisplayText(lines) {
+    screenMatrix.onBeginDraw();
+    lines.forEach((line, i) => {
+        screenMatrix.drawText(new TextObject(line, Font.fromNameString('Mobitec-6:5'), new Position(0, i * 10 + 2), 1));
+    });
+    screenMatrix.onEndDraw();
+}
+
+function drawFrame(text) {
+    screenMatrix.onBeginDraw();
+
+    screenMatrix.drawText(new TextObject(text, Font.fromNameString('MobitecScreen-8:5'), new Position(0, 2), 1));
+    matrixPrimitives.strokeRectangle(screenMatrix, 0, 18, 144 + 2, 16 + 2);
+
+    screenMatrix.onEndDraw();
+}
+
+function parse(code) {
+    if (!EDSData.Ventura[code]) return null;
+    return parseFormat(EDSFormats.Ventura, EDSData.Ventura[code].front, EDSImages.Ventura, innerDisplay);
+}
+
+function keyPress(num) {
+    let d = num / Math.abs(num);
+    let index = code.length - Math.abs(num);
+
+    if (d === 1 && code[index] + 1 === 10) code[index] = -1;
+    else if (d === -1 && code[index] - 1 === -1) code[index] = 10;
+
+    code[index] += d;
+
+    setCodePreview(code);
+
+    clearTimeout(keyTimeout);
+    keyTimeout = setTimeout(setCode.bind(null, code), 1500);
+}
+
+function setCodePreview(code) {
+    drawFrame('Dest: ' + code.join(''));
+
+    if (currentCanvasData)
+        screenCanvasContext.putImageData(currentCanvasData, 1 * canvasScale, 19 * canvasScale);
+}
+
+function setCode(code) {
+    drawFrame('Dest: ' + code.join(''));
+
+    let parsed = parse(code.join('')*1+'');
+
+    render(parsed, innerDisplay);
+    if (!parsed) currentCanvasData = null;
+    render(parsed, frontEDS);
+
+}
+
+function setup() {
+    for (let p = 0; p <= 3; p++) {
+        let place = Math.pow(10, p);
+
+        document.getElementById(place + '-up').addEventListener('click', keyPress.bind(null, p + 1));
+        if (place !== 1000)
+            document.getElementById(place + '-down').addEventListener('click', keyPress.bind(null, -p - 1));
+    }
+
+    code = [0, 0, 0, 1];
+    setCode(code);
+}
+
+function startup() {
+    var textSets = [
+        ['Booting Sys', '', '', 'Boot: 1371-R7', 300],
+        ['Staring Application', '', '', 'Bios: 1372-R13', 300],
+        ['mobitec ICU 400', 'Version: 1373-R58', 300],
+        ['mobitec ICU 400', 'Version: 1373-R58', 'Prg: Testpgm', 500]
+    ];
+
+    let currentDelay = 0;
+
+    textSets.forEach((lines, index) => {
+        setTimeout(() => {
+            setDisplayText(lines.slice(0, -1));
+        }, currentDelay);
+        currentDelay += lines.slice(-1)[0];
     });
 
-    currentScreen = screenName;
+    setTimeout(() => {
+        setup();
+    }, currentDelay);
 }
 
-function setSelectionItems(items) {
-    document.getElementById('dest-table').innerHTML = items.map((item, i) => {
-        return `
-<div class='dest-table-item'>
-<span>${item.code}</span>
-<span></span>
-<span>${item.displayName}</span>
-</div>`;
-    }).join('');
-}
+function hookDisplay(display) {
+    display.onEndDraw = function () {
+        display.matrix.onEndDraw();
 
-function getCodes(dataSet) {
-    return Object.keys(dataSet[currentOperator]).filter(code => code.startsWith(screenFilter));
-}
+        let imageData = innerDisplayCanvasContext.getImageData(0, 0, innerDisplayCanvas.width, innerDisplayCanvas.height);
+        screenCanvasContext.putImageData(imageData, 1 * canvasScale, 19 * canvasScale);
 
-function drawSelectionScreen(code) {
-    let allCodes = getCodes(EDSData);
-
-    let currentCodeIndex = allCodes.indexOf(code);
-    if (currentCodeIndex === -1) currentCodeIndex = 0;
-
-    if (currentCodeIndex > allCodes.length - 3) {
-        currentCodeIndex = Math.max(allCodes.length - 3, 0);
-    }
-
-    let nextThreeCodes = allCodes.slice(currentCodeIndex, currentCodeIndex + 3);
-    let screenIndex = nextThreeCodes.indexOf(code);
-
-    nextThreeCodes = nextThreeCodes.map(code => {
-        let data = EDSData[currentOperator][code];
-
-        let {displayName} = new FormattingTemplate({displayName: EDSFormats[currentOperator][data.front.renderType].text}, data.front).solveAll();
-        if (displayName.text) displayName = displayName.text;
-
-        return {code, displayName};
-    });
-
-    setSelectionItems(nextThreeCodes);
-    if (screenIndex == -1) {
-        screenIndex = 0;
-        currentScreenCode = nextThreeCodes[0].code;
-    }
-
-    document.querySelector(`#dest-table > :nth-child(${screenIndex + 1})`).className = 'dest-table-item table-selected-row';
-
-}
-
-function onF1Pressed() {
-    if (currentScreen == 'controller-screen-home') {
-        setScreen('controller-screen-dest');
-        drawSelectionScreen(currentCode);
-        currentScreenCode = currentCode;
+        currentCanvasData = imageData;
     }
 }
 
-function onUpPressed() {
-    if (currentScreen !== 'controller-screen-dest') return;
-    let allCodes = getCodes(EDSData);
+document.addEventListener('DOMContentLoaded', () => {
+    screenCanvas = document.getElementById('screen-canvas');
+    screenCanvasContext = screenCanvas.getContext('2d');
 
-    let currentCodeIndex = allCodes.indexOf(currentScreenCode);
-    currentCodeIndex = Math.max(currentCodeIndex - 1, 0);
+    screenMatrix = new LEDMatrix(screenWidth, screenHeight, screenCanvas, CanvasBasedLEDMatrix, canvasScale);
+    innerDisplay = new LEDMatrix(frontEDSWidth, edsHeight, innerDisplayCanvas, CanvasBasedLEDMatrix, canvasScale);
 
-    currentScreenCode = allCodes[currentCodeIndex];
-
-    drawSelectionScreen(currentScreenCode);
-}
-
-function onDownPressed() {
-    if (currentScreen !== 'controller-screen-dest') return;
-    let allCodes = getCodes(EDSData);
-
-    let currentCodeIndex = allCodes.indexOf(currentScreenCode);
-    currentCodeIndex = Math.min(currentCodeIndex + 1, allCodes.length - 1);
-
-    currentScreenCode = allCodes[currentCodeIndex];
-
-    drawSelectionScreen(currentScreenCode);
-}
-
-function onCrossPressed() {
-    if (currentScreen === 'controller-screen-dest') setScreen('controller-screen-home');
-}
-
-function onTickPressed() {
-    if (currentScreen === 'controller-screen-dest') {
-        setCode(currentScreenCode, currentOperator);
-        setScreen('controller-screen-home');
-    }
-}
-
-function onNumberPressed(number) {
-    if (currentScreen === 'controller-screen-dest') {
-        screenFilter += number;
-        drawSelectionScreen(currentScreenCode);
-    }
-}
-
-window.addEventListener('load', () => {
-    document.getElementById('button-f1').addEventListener('click', onF1Pressed);
-    document.getElementById('button-up').addEventListener('click', onUpPressed);
-    document.getElementById('button-down').addEventListener('click', onDownPressed);
-
-    document.getElementById('button-no').addEventListener('click', onCrossPressed);
-    document.getElementById('button-yes').addEventListener('click', onTickPressed);
-
-    for (let i = 0; i <= 9; i++) {
-        document.getElementById('button-' + i).addEventListener('click', onNumberPressed.bind(null, i));
-    }
-});
+    hookDisplay(innerDisplay);
+    startup();
+})

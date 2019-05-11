@@ -3,7 +3,3 @@ body, html {
     padding: 0;
     background-color: #010101;
 }
-
-#controller {
-    transform: scale(1.5);
-}

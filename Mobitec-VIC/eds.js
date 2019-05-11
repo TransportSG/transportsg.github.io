@@ -28,40 +28,11 @@ function generateLEDCssCode() {
     document.getElementById('led-style').textContent = cssData;
 }
 
-function setScreenInfo(childNumber, text) {
-    document.getElementById('output-info').children[childNumber - 1].textContent = text;
-}
-
-function setScreenDest(dest) {
-    setScreenInfo(2, 'Dest : ' + dest);
-}
-
-function setScreenExtra(extra) {
-    setScreenInfo(3, 'Extr : ' + extra);
-}
-
-function setCode(code, operator) {
-    code += '';
-
-    if (!EDSData[operator][code]) return;
-
-    let frontDisplay = EDSData[operator][code].front;
-    let parsedFront = parseFormat(EDSFormats[operator], frontDisplay, EDSImages[operator], frontEDS);
-    render(parsedFront, controllerPreview);
-    render(parsedFront, frontEDS);
-
-    setScreenDest(code);
-
-    currentCode = code;
-}
-
 document.addEventListener('DOMContentLoaded', () => {
     generateLEDCssCode();
 
     frontEDS = new LEDMatrix(frontEDSWidth, edsHeight, document.getElementById('front-eds'));
-    controllerPreview = new LEDMatrix(frontEDSWidth, edsHeight, document.getElementById('preview-canvas'), CanvasBasedLEDMatrix, 4);
-
-    setCode(1, 'Ventura');
+    
 });
 
 window.addEventListener('resize', generateLEDCssCode);
