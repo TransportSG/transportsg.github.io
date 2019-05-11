@@ -5,8 +5,10 @@ let EDSData = {};
 let EDSImages = {};
 
 let frontEDSWidth = 140;
-
 let edsHeight = 16;
+
+let startupCode = location.hash.slice(1) ? location.hash.slice(1) : '1';
+startupCode = [...startupCode];
 
 function generateLEDCssCode() {
     let cssData =

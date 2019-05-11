@@ -76,7 +76,7 @@ function setup() {
             document.getElementById(place + '-down').addEventListener('click', keyPress.bind(null, -p - 1));
     }
 
-    code = [0, 0, 0, 1];
+    code = startupCode;
     setPreviewCode(code);
     setCode(code);
 }
@@ -123,4 +123,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     hookDisplay(innerDisplay);
     startup();
+
+    setCode(startupCode);
 })

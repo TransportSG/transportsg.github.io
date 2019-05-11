@@ -747,7 +747,7 @@ EDSData.Ventura = {
                 font: "Mobitec-7:7"
             },
             scrolls: [
-                "via Knoxfield S/C",
+                "via Knoxfield Shops",
                 "via F.T Gully Road"
             ],
             scrollFont: 'Mobitec-6:5'
@@ -762,8 +762,23 @@ EDSData.Ventura = {
                 font: "Mobitec-7:7"
             },
             scrolls: [
-                "via F.T Gully Road",
-                "via Knoxfield S/C"
+                "F.T Gully Road",
+                "via Knoxfield Shops"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7541: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "754",
+            destination: {
+                text: "Rowville",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Wheelers Hill",
+                "Stud Park"
             ],
             scrollFont: 'Mobitec-6:5'
         }
