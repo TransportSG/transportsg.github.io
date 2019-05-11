@@ -11750,6 +11750,69 @@ EDSData.SMRT = {
     },
 }
 
+EDSExtras.SMRT = {
+    1: {
+        front: {
+            renderType: "destScroll",
+            top: "MERRY CHRISTMAS",
+            topFont: "Mobitec-7:7",
+
+            bottom: "HAPPY NEW YEAR",
+            bottomFont: "Mobitec-7:7",
+
+            serviceNumber: ""
+        }
+    },
+    2: {
+        front: {
+            renderType: "message",
+            font: "Mobitec-13:7",
+            text: "GONG XI FA CAI",
+            spacing: 1
+        }
+    },
+    3: {
+        front: {
+            renderType: "message",
+            font: "Mobitec-13:7",
+            text: "SELAMAT HARI RAYA",
+            spacing: 1
+        }
+    },
+    4: {
+        front: {
+            renderType: "destScroll",
+            top: "HAPPY",
+            topFont: "Mobitec-7:7",
+
+            bottom: "DEEPAVALI",
+            bottomFont: "Mobitec-7:7",
+
+            serviceNumber: ""
+        }
+    },
+    5: {
+        front: {
+            renderType: "destScroll",
+            top: "EZ READER OUT OF ORDER",
+            topFont: "Mobitec-7:5:3",
+
+            bottom: "PLEASE PAY CASH",
+            bottomFont: "Mobitec-7:7",
+
+            serviceNumber: ""
+        }
+    },
+    6: {
+        front: {
+            renderType: "message",
+            font: "Mobitec-13:7",
+            text: "LAST BUS",
+            spacing: 1
+        }
+    }
+}
+
 EDSImages.SMRT = {
     logo: [
         [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],

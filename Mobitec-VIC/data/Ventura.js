@@ -97,6 +97,16 @@ EDSFormats.Ventura = {
             image: "train"
         },
         text: "$destination+' SAS'"
+    },
+    message: {
+        display: {
+            align: "centre-x,centre-y",
+            text: "$text",
+            font: "$font",
+            spacing: "$spacing"
+        },
+
+        text: "$text"
     }
 }
 
@@ -115,6 +125,14 @@ EDSData.Ventura = {
             text: "VENTURA LOGO"
         }
     },
+
+3: {
+    front: {
+        renderType: "message",
+        font : "Buse-16",
+        text: "SPECIAL"
+    }
+},
 
     1601: { // TRAM REPLACEMENTS
         front: {

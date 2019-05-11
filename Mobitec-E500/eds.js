@@ -7,6 +7,7 @@ let startupCodes = {'SMRT': 117, 'TTSG': 1111, 'SBST': 1111, 'GASG': 1111}
 let EDSFormats = {};
 let EDSData = {};
 let EDSImages = {};
+let EDSExtras = {};
 
 let frontEDSWidth = 144;
 

@@ -1,4 +1,4 @@
-let screenWidth = 146,
+let screenWidth = 142,
     screenHeight = 40;
 
 let screenMatrix,
@@ -14,10 +14,15 @@ let currentCanvasData = null;
 let canvasScale = 51; // DAMMIT SAFARI YOURE A NUTCASE
 
 let code = [0, 0, 0, 0];
+let extra = [0, 0];
+
+let inputMode = 'Dest';
+
+let idleTimeout = 0;
 
 let keyTimeout = 0;
 
-let operator = 'Ventura';
+let operator = 'SMRT';
 
 function setDisplayText(lines) {
     screenMatrix.onBeginDraw();
@@ -31,61 +36,112 @@ function drawFrame(text) {
     screenMatrix.onBeginDraw();
 
     screenMatrix.drawText(new TextObject(text, Font.fromNameString('MobitecScreen-8:5'), new Position(0, 2), 1));
-    matrixPrimitives.strokeRectangle(screenMatrix, 0, 18, 144 + 2, 16 + 2);
+    matrixPrimitives.strokeRectangle(screenMatrix, 0, 18, 140 + 2, 16 + 2);
 
     screenMatrix.onEndDraw();
 }
 
-function parse(code) {
-    if (!EDSData.Ventura[code]) return null;
-    return parseFormat(EDSFormats.Ventura, EDSData.Ventura[code].front, EDSImages.Ventura, innerDisplay);
+function parse(code, extraCode) {
+    if (!EDSData[operator][code]) return null;
+
+    let extraData;
+
+    let data = parseFormat(EDSFormats[operator], EDSData[operator][code].front, EDSImages[operator], innerDisplay);
+    if (!!EDSExtras[operator][extraCode])
+        extraData = parseFormat(EDSFormats[operator], EDSExtras[operator][extraCode].front, EDSImages[operator], innerDisplay);
+
+    if (extraData)
+        data.pages = extraData.pages.concat(data.pages);
+
+    return data;
 }
 
 function keyPress(num) {
     let d = num / Math.abs(num);
-    let index = code.length - Math.abs(num);
+    let currentCode = inputMode === 'Dest' ? code : extra;
 
-    if (d === 1 && code[index] + 1 === 10) code[index] = -1;
-    else if (d === -1 && code[index] - 1 === -1) code[index] = 10;
+    let index = currentCode.length - Math.abs(num);
 
-    code[index] += d;
+    if (d === 1 && currentCode[index] + 1 === 10) currentCode[index] = -1;
+    else if (d === -1 && currentCode[index] - 1 === -1) currentCode[index] = 10;
 
-    setPreviewCode(code);
+    currentCode[index] += d;
+
+    setPreviewCode(code, extra);
 
     clearTimeout(keyTimeout);
-    keyTimeout = setTimeout(setCode.bind(null, code), 1500);
+    keyTimeout = setTimeout(setCode.bind(null, code, extra), 1500);
 }
 
-function setPreviewCode(code) {
-    drawFrame('Dest: ' + code.join(''));
-    let parsed = parse(code.join('')*1+'');
+function setPreviewCode(code, extra) {
+    drawFrame(inputMode + ': ' + (inputMode === 'Dest' ? code : extra).join(''));
+    let parsed = parse(code.join('')*1+'', extra.join('')*1+'');
     render(parsed, innerDisplay);
 }
 
-function setCode(code) {
-    let parsed = parse(code.join('')*1+'');
+function setCode(code, extra) {
+    let parsed = parse(code.join('')*1+'', extra.join('')*1+'');
     render(parsed, frontEDS);
+}
+
+function setupKey(element, short, long) {
+    let pressStart;
+
+    element.addEventListener('mousedown', e => {
+        e.preventDefault();
+        pressStart = performance.now();
+    });
+    element.addEventListener('mouseup', e => {
+        e.preventDefault();
+        let pressTime = performance.now() - pressStart;
+
+        if (pressTime < 500) {
+            short();
+        } else {
+            if (long) long();
+            else short();
+        }
+    });
+}
+
+function toggleDisplayInput() {
+    if (inputMode == 'Dest') inputMode = 'Extra';
+    else inputMode = 'Dest';
+
+    setPreviewCode(code, extra);
 }
 
 function setup() {
     for (let p = 0; p <= 3; p++) {
         let place = Math.pow(10, p);
+        let pressStart;
 
-        document.getElementById(place + '-up').addEventListener('click', keyPress.bind(null, p + 1));
-        if (place !== 1000)
-            document.getElementById(place + '-down').addEventListener('click', keyPress.bind(null, -p - 1));
+        let shortPressUp = keyPress.bind(null, p + 1);
+        let shortPressDown = keyPress.bind(null, -p - 1);
+        let longHoldUp = undefined;
+        let longHoldDown = undefined;
+
+        if (place === 1000) {
+            longHoldDown = shortPressDown;
+            shortPressDown = toggleDisplayInput;
+
+            longHoldUp = () => {};
+        }
+
+        setupKey(document.getElementById(place + '-up'), shortPressUp, longHoldUp);
+        setupKey(document.getElementById(place + '-down'), shortPressDown, longHoldDown);
     }
 
     code = startupCode;
-    setPreviewCode(code);
-    setCode(code);
+    setPreviewCode(code, extra);
+    setCode(code, extra);
 }
 
 function startup() {
     var textSets = [
-        ['Booting Sys', '', '', 'Boot: 1371-R7', 300],
-        ['Staring Application', '', '', 'Bios: 1372-R13', 300],
-        ['mobitec ICU 400', 'Version: 1373-R58', 300],
+        ['Booting Sys', '', '', 'Boot: 1371-R7', 500],
+        ['Staring Application', '', '', 'Bios: 1372-R13', 500],
+        ['mobitec ICU 400', 'Version: 1373-R58', 500],
         ['mobitec ICU 400', 'Version: 1373-R58', 'Prg: Testpgm', 500]
     ];
 
@@ -124,5 +180,5 @@ document.addEventListener('DOMContentLoaded', () => {
     hookDisplay(innerDisplay);
     startup();
 
-    setCode(startupCode);
+    setCode(startupCode, extra);
 })

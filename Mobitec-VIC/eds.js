@@ -3,12 +3,13 @@ window.frontEDS = null; window.controllerPreview = null;
 let EDSFormats = {};
 let EDSData = {};
 let EDSImages = {};
+let EDSExtras = {};
 
 let frontEDSWidth = 140;
 let edsHeight = 16;
 
 let startupCode = location.hash.slice(1) ? location.hash.slice(1) : '1';
-startupCode = [...startupCode];
+startupCode = [0,0,0,0,...startupCode].slice(-4).map(e => e*1);
 
 function generateLEDCssCode() {
     let cssData =
@@ -34,7 +35,6 @@ document.addEventListener('DOMContentLoaded', () => {
     generateLEDCssCode();
 
     frontEDS = new LEDMatrix(frontEDSWidth, edsHeight, document.getElementById('front-eds'));
-    
 });
 
 window.addEventListener('resize', generateLEDCssCode);
