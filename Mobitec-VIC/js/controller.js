@@ -50,28 +50,21 @@ function keyPress(num) {
 
     code[index] += d;
 
-    setCodePreview(code);
+    setPreviewCode(code);
 
     clearTimeout(keyTimeout);
     keyTimeout = setTimeout(setCode.bind(null, code), 1500);
 }
 
-function setCodePreview(code) {
+function setPreviewCode(code) {
     drawFrame('Dest: ' + code.join(''));
-
-    if (currentCanvasData)
-        screenCanvasContext.putImageData(currentCanvasData, 1 * canvasScale, 19 * canvasScale);
+    let parsed = parse(code.join('')*1+'');
+    render(parsed, innerDisplay);
 }
 
 function setCode(code) {
-    drawFrame('Dest: ' + code.join(''));
-
     let parsed = parse(code.join('')*1+'');
-
-    render(parsed, innerDisplay);
-    if (!parsed) currentCanvasData = null;
     render(parsed, frontEDS);
-
 }
 
 function setup() {
@@ -84,6 +77,7 @@ function setup() {
     }
 
     code = [0, 0, 0, 1];
+    setPreviewCode(code);
     setCode(code);
 }
 
