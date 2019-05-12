@@ -318,7 +318,7 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
-    6106: { // will have to check code
+    6106: {
         front: {
             renderType: "standardService",
             serviceNumber: "",
@@ -392,6 +392,36 @@ EDSData.Ventura = {
             serviceNumber: "",
             destination: {
                 text: "Stony Point",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6059: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Parliament",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6159: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Parliament",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -767,8 +797,10 @@ EDSData.Ventura = {
                 font: "Mobitec-7:7"
             },
             scrolls: [
-                "via F.T Gully Rd",
-                "via G Waverley"
+                "via Oakleigh",
+                "via Vermont South",
+                "via G Waverley",
+                "via F.T Gully Road"
             ],
             scrollFont: 'Mobitec-6:5'
         }
@@ -782,8 +814,10 @@ EDSData.Ventura = {
                 font: "Mobitec-7:7"
             },
             scrolls: [
+                "via F.T Gully Road",
+                "via G Waverley",
+                "via Vermont South",
                 "via Oakleigh",
-                "via G Waverley"
             ],
             scrollFont: 'Mobitec-6:5'
         }
