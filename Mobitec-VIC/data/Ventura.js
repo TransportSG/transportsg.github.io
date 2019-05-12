@@ -303,6 +303,17 @@ EDSData.Ventura = {
         }
     },
 
+    5997: {
+        front: {
+            renderType: "destService",
+            serviceNumber: "",
+            destination: {
+                text: "  Standby Bus",
+                font: "Mobitec-13:8" // looks like 13x9 need check MIE
+            },
+            topMargin: 0
+        }
+    },
     5998: {
         front: {
             renderType: "standardService",
