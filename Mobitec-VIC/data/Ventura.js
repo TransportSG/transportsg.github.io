@@ -309,7 +309,7 @@ EDSData.Ventura = {
             serviceNumber: "",
             destination: {
                 text: "  Standby Bus",
-                font: "Mobitec-13:8" // looks like 13x9 need check MIE
+                font: "Mobitec-13:10"
             },
             topMargin: 0
         }
