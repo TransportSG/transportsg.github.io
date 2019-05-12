@@ -303,6 +303,48 @@ EDSData.Ventura = {
         }
     },
 
+    5998: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Stopping All Stations",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    5999: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Limited Express",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6000: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Express",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
     6006: { // TRAIN REPLACEMENTS
         front: {
             renderType: "standardService",
