@@ -94,11 +94,12 @@ function setPreviewCode(code, extra, extraFirst) {
 function setupKey(element, short, long) {
     let pressStart;
 
-    element.addEventListener('mousedown', e => {
+    function down(e) {
         e.preventDefault();
         pressStart = performance.now();
-    });
-    element.addEventListener('mouseup', e => {
+    }
+
+    function up(e) {
         e.preventDefault();
         let pressTime = performance.now() - pressStart;
 
@@ -108,7 +109,18 @@ function setupKey(element, short, long) {
             if (long) long();
             else short();
         }
-    });
+    }
+
+    let mobile = navigator.userAgent.toLowerCase().includes('mobile')
+
+    if (mobile) element.addEventListener('touchstart', down);
+    else element.addEventListener('mousedown', down);
+
+    if (mobile) {
+        element.addEventListener('touchend', up);
+        element.addEventListener('touchleave', up);
+        element.addEventListener('touchcancel', up);
+    } else element.addEventListener('mouseup', up);
 }
 
 function toggleDisplayInput() {
