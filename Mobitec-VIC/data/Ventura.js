@@ -125,15 +125,6 @@ EDSData.Ventura = {
             text: "VENTURA LOGO"
         }
     },
-
-3: {
-    front: {
-        renderType: "message",
-        font : "Buse-16",
-        text: "SPECIAL"
-    }
-},
-
     1601: { // TRAM REPLACEMENTS
         front: {
             renderType: "standardService",
@@ -657,7 +648,8 @@ EDSData.Ventura = {
                 font: "Mobitec-7:7"
             },
             scrolls: [
-                "via Burwood Hwy"
+                "via Burwood Hwy",
+                "via F'tree Gully Rd"
             ],
             scrollFont: 'Mobitec-6:5'
         }
@@ -1108,8 +1100,7 @@ EDSData.Ventura = {
                 "via Chadstone",
                 "via Oakleigh",
                 "via Monash Uni",
-                "via Mulgrave",
-                "Station"
+                "via Mulgrave"
             ],
             scrollFont: 'Mobitec-6:5'
         }
@@ -1130,6 +1121,22 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
+    8042: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "804",
+            destination: {
+                text: "Chadstone",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Wheelers Hill",
+                "via Monash Uni",
+                "via Oakleigh"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
     8111: {
         front: {
             renderType: "standardService",
@@ -1139,7 +1146,8 @@ EDSData.Ventura = {
                 font: "Mobitec-7:7"
             },
             scrolls: [
-                "via Southland"
+                "via Southland",
+                "via Springvale",
             ],
             scrollFont: 'Mobitec-6:5'
         }
@@ -1418,6 +1426,22 @@ EDSData.Ventura = {
         }
     },
     8621: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "862",
+            destination: {
+                text: "Dandenong Stn",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Oakleigh",
+                "via Monash Uni",
+                "via Waverley Gdns"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    8622: {
         front: {
             renderType: "standardService",
             serviceNumber: "862",
