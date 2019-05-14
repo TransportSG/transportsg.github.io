@@ -18,13 +18,13 @@ EDSFormats.SMRT = {
             $$group: {
                 centreTopText: {
                     align: "centre-x,top",
-                    text: "Greatness is Kindness",
+                    text: "$top",
                     font: "Hanover-7:3",
                     spacing: 1
                 },
                 centreBottomText: {
                     align: "centre-x,bottom",
-                    text: "Be Greater",
+                    text: "$bottom",
                     font: "Hanover-7:3",
                     spacing: 1
                 }
@@ -147,8 +147,27 @@ EDSFormats.SMRT = {
 EDSData.SMRT = {
     "-1": {
         front: {
-            renderType: "gas-temp-kindness",
-            serviceNumber: "85"
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "gas-temp-kindness",
+                    serviceNumber: "43M",
+                    top: "Happy Kindness Day",
+                    bottom: "24 May 2019"
+                },
+                {
+                    renderType: "gas-temp-kindness",
+                    serviceNumber: "43M",
+                    top: "Greatness is Kindness",
+                    bottom: "Be Greater"
+                }
+            ],
+            scrollFont: "Mobitec-7:5:3"
         }
     },
     1: {

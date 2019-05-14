@@ -538,6 +538,13 @@
             return adjustMargins(object, output, data);
         });
 
+        objects.filter(o => o instanceof GroupObject).forEach(groupObject => {
+            Object.keys(groupObject.objects).forEach(key => {
+                groupObject.objects[key].position.x += groupObject.position.x;
+            });
+        });
+
+
         let pages = [];
         let scrollSpeed = -1;
 
@@ -593,8 +600,6 @@
             let subObjects = Object.values(object.objects);
 
             subObjects.forEach(subObject => {
-                subObject.position.x += object.position.x / 2;
-
                 drawObject(subObject, matrix);
             });
         }
