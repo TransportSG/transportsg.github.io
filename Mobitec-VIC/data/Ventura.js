@@ -818,20 +818,22 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
-    // 7333: {
-    //     front: {
-    //         renderType: "standardService",
-    //         serviceNumber: "733",
-    //         destination: {
-    //             text: "Monash",
-    //             font: "Mobitec-7:7"
-    //         },
-    //         scrolls: [
-    //             "University"
-    //         ],
-    //         scrollFont: 'Mobitec-7:7'
-    //     }
-    // },
+    7333: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "733",
+            destination: {
+                text: "Monash",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                [{text: "Universit", font: "Mobitec-7:7"},
+                {text: "y", font: "Mobitec-7:5:3"}] // check 7:7 'y' and 7:5:3 'y'
+            ],
+            scrollFont: 'Mobitec-7:7',
+            bottomMargin: 1
+        }
+    },
     7361: {
         front: {
             renderType: "standardService",

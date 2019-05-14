@@ -382,6 +382,12 @@
         });
 
         object.position = new Position(x, y);
+        if (object instanceof MultiFontTextObject)
+            Object.keys(object.text).forEach(key => {
+                object.text[key].position.x += object.position.x;
+                object.text[key].position.y = object.position.y;
+            });
+
         return object;
     }
 
@@ -396,7 +402,7 @@
         text.position = new Position(x, y);
 
         if (text instanceof MultiFontTextObject) {
-            let dx = x;
+            let dx = 0;
 
             text.text = text.text.map(textSection => {
                 let measure = textSection.takeMeasure();
@@ -543,7 +549,6 @@
                 groupObject.objects[key].position.x += groupObject.position.x;
             });
         });
-
 
         let pages = [];
         let scrollSpeed = -1;
