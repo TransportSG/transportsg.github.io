@@ -1066,7 +1066,21 @@ EDSData.Ventura = {
                 font: "Mobitec-7:7"
             },
             scrolls: [
-                "via Oakleigh",
+                "via Oakleigh"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    8002: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "800",
+            destination: {
+                text: "Dandenong Stn",
+                font: "Mobitec-7:6:1"
+            },
+            scrolls: [
+                "via Oakleigh"
             ],
             scrollFont: 'Mobitec-6:5'
         }
@@ -1167,6 +1181,21 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
+    8121: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "812",
+            destination: {
+                text: "Brighton",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Parkmore S/C",
+                "via Southland"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
     8141: {
         front: {
             renderType: "standardService",
@@ -1176,7 +1205,8 @@ EDSData.Ventura = {
                 font: "Mobitec-7:6:1"
             },
             scrolls: [
-                "via Waverley Gdns"
+                "via Waverley Gdns",
+                "via Springvale"
             ],
             scrollFont: 'Mobitec-6:5'
         }
@@ -1325,6 +1355,22 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
+    8431: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "843",
+            destination: {
+                text: "Mossgiel Park",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Shetland Street",
+                "via Clow Street",
+                "via End. Hills S/C"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
     8441: {
         front: {
             renderType: "standardService",
@@ -1334,8 +1380,8 @@ EDSData.Ventura = {
                 font: "Mobitec-7:7"
             },
             scrolls: [
-                "via Kidds Rd",
-                "via Mccrae St"
+                "via Kidds Road",
+                "via McCrae St"
             ],
             scrollFont: 'Mobitec-6:5'
         }
