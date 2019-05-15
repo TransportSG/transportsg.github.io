@@ -828,7 +828,7 @@ EDSData.Ventura = {
             },
             scrolls: [
                 [{text: "Universit", font: "Mobitec-7:7"},
-                {text: "y", font: "Mobitec-7:5:3"}] // check 7:7 'y' and 7:5:3 'y'
+                {text: "y", font: "Mobitec-7:5:2"}]
             ],
             scrollFont: 'Mobitec-7:7',
             bottomMargin: 1
