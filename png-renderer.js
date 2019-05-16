@@ -16,6 +16,7 @@ const canvas = createCanvas();
 global.EDSFormats = {};
 global.EDSData = {};
 global.EDSImages = {};
+global.EDSExtras = {};
 
 Object.keys(MatrixPrimitives).forEach(key => global[key] = MatrixPrimitives[key]);
 Object.keys(EDSRenderer).forEach(key => global[key] = EDSRenderer[key]);
