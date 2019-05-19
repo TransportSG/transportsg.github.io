@@ -353,7 +353,7 @@ EDSData.SBST = {
                 destinationFont: "LECIP-7:5",
                 scrolls: [
                     "UPP CHANGI RD EAST",
-                    "BEDOK reservoir RD",
+                    "BEDOK RESERVOIR RD",
                     "THOMSON RD",
                     "SCOTTS RD",
                     "TIONG BAHRU RD",
@@ -377,7 +377,7 @@ EDSData.SBST = {
                     "TIONG BAHRU RD",
                     "SCOTTS RD",
                     "THOMSON RD",
-                    "BEDOK reservoir RD",
+                    "BEDOK RESERVOIR RD",
                     "UPP CHANGI RD EAST"
                 ],
                 scrollFont: "LECIP-7:5"
@@ -496,7 +496,7 @@ EDSData.SBST = {
                 destinationFont: "LECIP-10",
                 scrolls: [
                     "TAMPINES AVE 1",
-                    "BEDOK reservoir RD",
+                    "BEDOK RESERVOIR RD",
                     "UBI AVE 2",
                     'PAYA LEBAR RD',
                     'MACPHERSON RD'
@@ -520,7 +520,7 @@ EDSData.SBST = {
                     "MACPHERSON RD",
                     'PAYA LEBAR RD',
                     'UBI AVE 2',
-                    'BEDOK reservoir RD',
+                    'BEDOK RESERVOIR RD',
                     'TAMPINES AVE 1, 2, 7'
                 ],
                 scrollFont: "LECIP-7:5"
@@ -1014,7 +1014,7 @@ EDSData.SBST = {
                     "MOULMEIN RD",
                     'SIMS AVE',
                     'BOON KENG RD',
-                    'BEDOK reservoir RD',
+                    'BEDOK RESERVOIR RD',
                     'TAMPINES AVE 7',
                     "PASIR RIS DR 1"
                 ],
@@ -2635,9 +2635,9 @@ EDSData.SBST = {
                 destinationFont: "LECIP-10",
                 scrolls: [
                     'JALAN EUNOS',
-                    'BEDOK reservoir RD',
+                    'BEDOK RESERVOIR RD',
                     'BEDOK NTH RD',
-                    'BEDOK reservoir RD',
+                    'BEDOK RESERVOIR RD',
                     'JALAN EUNOS'
                 ],
                 scrollFont: "LECIP-7:5"
@@ -2843,7 +2843,7 @@ EDSData.SBST = {
                     'TAMPINES AVE 5',
                     'TAMPINES AVE 8',
                     'TAMPINES AVE 1',
-                    'BEDOK reservoir RD',
+                    'BEDOK RESERVOIR RD',
                     'BEDOK NTH AVE 3',
                     'BEDOK NTH ST 1'
                 ],
