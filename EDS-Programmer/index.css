@@ -38,6 +38,10 @@ html, body {
     height: 60vh;
 
     background-color: #dedede;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
 }
 
 #sign-preview-panel {
@@ -64,6 +68,11 @@ html, body {
 
 #title {
     font-size: 3.3vh;
+}
+
+#selection-list-container {
+    border: 0.7vw solid #cbcbcb;
+    border-radius: 0.7vw;
 }
 
 #selection-tabs {
@@ -133,4 +142,71 @@ html, body {
 
 .selection-item.active {
     background-color: #9baae0;
+}
+
+#font-bar {
+    width: 65vw;
+    height: 15vh;
+    background-color: #f2f2f2;
+    border: 0.5vw solid #cbcbcb;
+    border-radius: 0.5vw;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#data-input-wrap {
+    width: 65vw;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+#data-input-wrap > div {
+    background-color: #f2f2f2;
+    width: 30.5vw;
+    height: 38vh;
+    border: 0.5vw solid #cbcbcb;
+    border-radius: 0.5vw;
+}
+
+#font-bar-left {
+    display: flex;
+    flex-direction: column;
+    width: 10vw;
+    height: calc(4vw + 4vh);
+}
+
+#font-bar-left > * {
+    font-size: calc(1vw + 2vh);
+    line-height: calc(1.3vw + 2.3vh);
+    padding: 0;
+}
+
+#font-selector {
+    border: 0.5vw solid #cbcbcb;
+    height: 8vh;
+    overflow-y: scroll;
+    width: 18vw;
+}
+
+#font-selector > .selection-item > span {
+    width: 18vw;
+}
+
+#font-selector > .selection-item:last-child > span {
+    border-bottom: none;
+}
+
+#font-preview {
+    width: 25vw;
+    height: 10vh;
+    /**/
+    background-color: black;
+    color: white;
+    font-size: 7vh;
+    padding-left: 1vw;
+    /**/
 }
