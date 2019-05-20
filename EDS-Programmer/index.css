@@ -1,0 +1,136 @@
+@font-face {
+    font-family: BreeSerif;
+    font-display: fallback;
+    src: local('Bree Serif Regular'), local('BreeSerif-Regular'), url(https://transportsg.me/static/fonts/bree-serif.otf);
+}
+
+* {
+    font-family: BreeSerif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+#content {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#sign-editing-panel {
+    width: 68.5vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+#data-input-panel {
+    width: 68.5vw;
+    height: 60vh;
+
+    background-color: #dedede;
+}
+
+#sign-preview-panel {
+    width: 68.5vw;
+    height: 37vh;
+
+    background-color: #dedede;
+}
+
+#control-panel {
+    width: 30vw;
+    height: 100vh;
+
+    background-color: #dedede;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#control-panel > div {
+    width: 25vw;
+}
+
+#title {
+    font-size: 3.3vh;
+}
+
+#selection-tabs {
+    height: 5vh;
+    background-color: #e8e8e8;
+
+    display: flex;
+}
+
+.tab-pane-button {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border: 0;
+    font-size: 3.4vh;
+    margin: 0;
+    padding-left: 0.5vw;
+    padding-right: 1.5vw;
+    min-width: 2vw;
+    text-align: left;
+}
+
+.tab-pane-button:nth-child(even) {
+    background-color: #dedede;
+}
+.tab-pane-button:nth-child(odd) {
+    background-color: #d5d5d5;
+}
+.tab-pane-button.active {
+    background-color: #f2f2f2;
+}
+
+#selection-list {
+    height: 60vh;
+    background-color: #f2f2f2;
+}
+
+.selection-item > span {
+    height: 3.8vh;
+    font-size: 3.3vh;
+    line-height: 3.8vh;
+    font-family: monospace !important;
+}
+
+.selection-item {
+    height: 4vh;
+    display: flex;
+    align-items: center;
+}
+
+.selection-item > span:nth-child(1) {
+    padding-left: 1vw;
+    width: 6vw;
+    border-bottom: 0.2vw solid #505050;
+}
+
+.selection-item > span:nth-child(2) {
+    width: 17vw;
+    padding-left: 1vw;
+    border-left: 0.2vw solid #505050;
+    border-bottom: 0.2vw solid #505050;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.selection-item.active {
+    background-color: #9baae0;
+}
