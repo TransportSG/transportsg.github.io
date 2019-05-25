@@ -134,6 +134,23 @@ EDSData.Ventura = {
         }
     },
 
+    4305: {
+        front: {
+            renderType: "message",
+            text: "Shuttle Bus",
+            spacing: 1,
+            font: "Mobitec-13:10"
+        }
+    },
+    4307: {
+        front: {
+            renderType: "message",
+            text: "MELBOURNE",
+            spacing: 4,
+            font: "Mobitec-16:8"
+        }
+    },
+
     1601: { // TRAM REPLACEMENTS
         front: {
             renderType: "standardService",
