@@ -173,6 +173,15 @@ EDSData.SMRT = {
                 text: 'ANG MO KIO DEPOT',
                 font: 'Arial-12', // not this font but idk what
                 spacing: 2
+            },
+            rear: { // check
+                renderType: 'twoline',
+                top: "AMK",
+                topFont: "ArialBold-8",
+
+                bottom: " DEPOT",
+                bottomFont: "Arial-7;Space-Width=0",
+                bottomMargin: 2
             }
         }
     },
@@ -183,6 +192,15 @@ EDSData.SMRT = {
                 text: 'KRANJI DEPOT',
                 font: 'Arial-15',
                 spacing: 2
+            },
+            rear: { // check
+                renderType: 'twoline',
+                top: "KJ",
+                topFont: "ArialBold-8",
+
+                bottom: " DEPOT",
+                bottomFont: "Arial-7;Space-Width=0",
+                bottomMargin: 2
             }
         }
     },
@@ -204,7 +222,7 @@ EDSData.SMRT = {
                 font: 'Arial-17',
                 spacing: 2
             },
-            rear: {
+            rear: { // check
                 renderType: 'twoline',
                 top: "OFF",
                 topFont: "ArialBold-8",
@@ -222,6 +240,15 @@ EDSData.SMRT = {
                 text: 'WOODLANDS DEPOT',
                 font: 'Arial-8', // check font
                 spacing: 2
+            },
+            rear: { // check
+                renderType: 'twoline',
+                top: "WLD",
+                topFont: "ArialBold-8",
+
+                bottom: " DEPOT",
+                bottomFont: "Arial-7;Space-Width=0",
+                bottomMargin: 2
             }
         }
     },
