@@ -533,7 +533,36 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
-    // 6x14 possibly elsternwick?
+    6014: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Elsternwick",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6014: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Elsternwick",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
     6015: {
         front: {
             renderType: "standardService",
