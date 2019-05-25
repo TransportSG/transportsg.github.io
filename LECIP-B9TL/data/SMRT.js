@@ -289,7 +289,7 @@ EDSData.SMRT = {
             front: {
                 renderType: 'message',
                 text: 'TRAINING BUS',
-                font: 'Arial-10', // check, also looks like calibri
+                font: 'Arial-17',
                 spacing: 2
             }
         }
