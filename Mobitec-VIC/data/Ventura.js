@@ -548,7 +548,7 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
-    6014: {
+    6114: {
         front: {
             renderType: "standardService",
             serviceNumber: "",
