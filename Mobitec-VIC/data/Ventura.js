@@ -125,12 +125,44 @@ EDSData.Ventura = {
             text: "VENTURA LOGO"
         }
     },
+    3: { // check
+        front: {
+            renderType: "message",
+            text: "Charter",
+            spacing: 1,
+            font: "Mobitec-13:10"
+        }
+    },
+    4: { // time to go dandenong again
+        front: {
+            renderType: "message",
+            text: "School Bus",
+            spacing: 1,
+            font: "Mobitec-13:10"
+        }
+    },
+    5: { // check
+        front: {
+            renderType: "message",
+            text: "Express",
+            spacing: 1,
+            font: "Mobitec-13:10"
+        }
+    },
     6: {
         front: {
             renderType: "message",
             text: "Special",
             spacing: 1,
             font: "Mobitec-13:10"
+        }
+    },
+    7: {
+        front: {
+            renderType: "message",
+            text: "Set Down Only",
+            spacing: 1,
+            font: "Mobitec-13:10" // pretty sure it's 7:5:2/3 but will need to check on that 900
         }
     },
 
@@ -411,6 +443,66 @@ EDSData.Ventura = {
     },
 
 
+    6010: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Mordialloc",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6110: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Mordialloc",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6012: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Frankston",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6112: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Frankston",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
     6013: {
         front: {
             renderType: "standardService",
