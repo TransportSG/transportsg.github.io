@@ -303,7 +303,7 @@ EDSData.Ventura = {
         }
     },
 
-    5997: {
+    5997: { // TRAIN REPLACEMENTS
         front: {
             renderType: "destService",
             serviceNumber: "",
@@ -356,7 +356,7 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
-    6006: { // TRAIN REPLACEMENTS
+    6006: {
         front: {
             renderType: "standardService",
             serviceNumber: "",
@@ -904,6 +904,21 @@ EDSData.Ventura = {
             bottomMargin: 1
         }
     },
+    7340: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "734",
+            destination: {
+                text: "Glen Iris Stn",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Ashburton",
+                "via High St Rd",
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
     7360: {
         front: {
             renderType: "standardService",
@@ -950,7 +965,18 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
-    // 7372 Knox City?
+    7372: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "737",
+            destination: {
+                text: "Knox City",
+                font: "Mobitec-13:10"
+            },
+            scrolls: [""],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
     7420: {
         front: {
             renderType: "standardService",
@@ -1380,7 +1406,25 @@ EDSData.Ventura = {
                 font: "Mobitec-7:7"
             },
             scrolls: [
-                "via Westall"
+                "via Bourke Road",
+                "via Westall",
+                "via Clayton"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    8241: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "824",
+            destination: {
+                text: "Moorabbin Station",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Westall",
+                "via Clayton",
+                "via Bourke Road"
             ],
             scrollFont: 'Mobitec-6:5'
         }
