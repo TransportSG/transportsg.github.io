@@ -183,7 +183,35 @@ EDSData.Ventura = {
         }
     },
 
-    1601: { // TRAM REPLACEMENTS
+    60: { // TRAM REPLACEMENTS
+        front: {
+            renderType: "standardService",
+            serviceNumber: "6",
+            destination: {
+                text: "Glen Iris",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Tram Replacement"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    61: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "6",
+            destination: {
+                text: "Moreland",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Tram Replacement"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    160: {
         front: {
             renderType: "standardService",
             serviceNumber: "16",
@@ -197,7 +225,7 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
-    1602: {
+    161: {
         front: {
             renderType: "standardService",
             serviceNumber: "16",
@@ -211,7 +239,7 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
-    // 1901: {
+    // 190: {
     //     front: {
     //         renderType: "standardService",
     //         serviceNumber: "19", // Double check
@@ -225,7 +253,7 @@ EDSData.Ventura = {
     //         scrollFont: 'Mobitec-6:5'
     //     }
     // },
-    // 1902: {
+    // 191: {
     //     front: {
     //         renderType: "standardService",
     //         serviceNumber: "19",
@@ -239,12 +267,26 @@ EDSData.Ventura = {
     //         scrollFont: 'Mobitec-6:5'
     //     }
     // },
-    // 6401: {
+    580: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "58",
+            destination: {
+                text: "Toorak",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Tram Replacement"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    // 581: {
     //     front: {
     //         renderType: "standardService",
-    //         serviceNumber: "64", // awaiting font
+    //         serviceNumber: "58",
     //         destination: {
-    //             text: "Monash Uni",
+    //             text: "",
     //             font: "Mobitec-7:7"
     //         },
     //         scrolls: [
@@ -253,21 +295,35 @@ EDSData.Ventura = {
     //         scrollFont: 'Mobitec-6:5'
     //     }
     // },
-    // 6402: {
-    //     front: {
-    //         renderType: "standardService",
-    //         serviceNumber: "64",
-    //         destination: {
-    //             text: "East Brighton",
-    //             font: "Mobitec-7:7"
-    //         },
-    //         scrolls: [
-    //             "Tram Replacement"
-    //         ],
-    //         scrollFont: 'Mobitec-6:5'
-    //     }
-    // },
-    6701: {
+    640: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "64", // awaiting font
+            destination: {
+                text: "Melbourne Uni",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Tram Replacement"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    641: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "64",
+            destination: {
+                text: "East Brighton",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Tram Replacement"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    670: {
         front: {
             renderType: "standardService",
             serviceNumber: "67",
@@ -281,7 +337,7 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
-    6702: {
+    671: {
         front: {
             renderType: "standardService",
             serviceNumber: "67",
@@ -295,7 +351,35 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
-    7801: {
+    720: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "72",
+            destination: {
+                text: "Camberwell",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Tram Replacement"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    721: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "72",
+            destination: {
+                text: "Melbourne Uni",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Tram Replacement"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    780: {
         front: {
             renderType: "standardService",
             serviceNumber: "78",
@@ -309,7 +393,7 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
-    7802: {
+    781: {
         front: {
             renderType: "standardService",
             serviceNumber: "78",
@@ -323,7 +407,7 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
-    9601: {
+    960: {
         front: {
             renderType: "standardService",
             serviceNumber: "96",
@@ -337,12 +421,40 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
-    9602: {
+    961: {
         front: {
             renderType: "standardService",
             serviceNumber: "96",
             destination: {
                 text: "East Brunswick",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Tram Replacement"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    1090: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "109",
+            destination: {
+                text: "Port Melbourne",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Tram Replacement"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    1091: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "109",
+            destination: {
+                text: "Box Hill",
                 font: "Mobitec-7:7"
             },
             scrolls: [
