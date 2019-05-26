@@ -473,6 +473,7 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
+    //6011 suspected moorabbin
     6012: {
         front: {
             renderType: "standardService",
@@ -968,6 +969,40 @@ EDSData.Ventura = {
             topMargin: 4
         }
     },
+    7080: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "708",
+            destination: {
+                text: "Carrum Stn",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Southland",
+                "via Mentone",
+                "via Mordialloc",
+                "via Aspendale Gdn."
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7081: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "708",
+            destination: {
+                text: "Hampton Stn",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Aspendale Gdn.",
+                "via Mordialloc",
+                "via Mentone",
+                "via Southland"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
     7090: {
         front: {
             renderType: "standardService",
@@ -992,7 +1027,7 @@ EDSData.Ventura = {
                 font: "Mobitec-7:6:1"
             },
             scrolls: [,
-                "via Parkmore S/C", // Double check
+                "via Parkmore S/C",
                 "via Waterways Est."
             ],
             scrollFont: 'Mobitec-6:5'
@@ -1576,7 +1611,7 @@ EDSData.Ventura = {
                 font: "Mobitec-7:7"
             },
             scrolls: [
-                "via Moorabin"
+                "via Moorabbin"
             ],
             scrollFont: 'Mobitec-6:5'
         }
