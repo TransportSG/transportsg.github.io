@@ -405,7 +405,7 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
-    6006: {
+    6008: {
         front: {
             renderType: "standardService",
             serviceNumber: "",
@@ -420,7 +420,7 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
-    6106: {
+    6108: {
         front: {
             renderType: "standardService",
             serviceNumber: "",
@@ -435,7 +435,7 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
-    6906: { // for fun
+    6908: { // for fun
         front: {
             renderType: "trainReplacement",
             destination: "Caulfield"
