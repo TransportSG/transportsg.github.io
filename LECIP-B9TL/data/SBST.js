@@ -1404,16 +1404,17 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "30",
-                destination: "> BEDOK INT",
+                destination: "> BOON LAY INT",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                    "COPORATION DR",
-                    "WEST COAST RD",
-                    "PASIR PANJANG RD",
-                    "TELOK BLANGAH RD",
-                    "KEPPEL RD",
-                    "OLD AIRPORT RD",
-                    "SIMS AVE EAST"
+                    "CHANGI RD",
+                    'TANJONG KATONG RD',
+                    'OLD AIRPORT RD',
+                    'KEPPEL RD',
+                    'TELOK BLANGAH RD',
+                    'PASIR PANJANG RD',
+                    'WEST COAST RD',
+                    'CORPORATION RD'
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -1428,17 +1429,16 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "30",
-                destination: "> BOON LAY INT",
+                destination: "> BEDOK INT",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                    "CHANGI RD",
-                    'TANJONG KATONG RD',
-                    'OLD AIRPORT RD',
-                    'KEPPEL RD',
-                    'TELOK BLANGAH RD',
-                    'PASIR PANJANG RD',
-                    'WEST COAST RD',
-                    'CORPORATION RD'
+                    "COPORATION DR",
+                    "WEST COAST RD",
+                    "PASIR PANJANG RD",
+                    "TELOK BLANGAH RD",
+                    "KEPPEL RD",
+                    "OLD AIRPORT RD",
+                    "SIMS AVE EAST"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -6484,16 +6484,17 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "174",
-                destination: "> BOON LAY INT",
-                destinationFont: "LECIP-10",
+                destination: "> KAMPONG BAHRU TER",
+                destinationFont: "LECIP-7:5",
                 scrolls: [
-                    "EU TONG SEN ST",
-                    "ORCHARD BLVD",
-                    "HOLLAND RD",
-                    "FARRER RD",
-                    "BT TIMAH RD",
+                    "BT BATOK E. AVE 3, 6",
                     "JLN JURONG KECHIL",
-                    "BT BATOK E. AVE 6, 3"
+                    "DUNEARN RD",
+                    "FARRER RD",
+                    "HOLLAND RD",
+                    "ORCHARD RD",
+                    "NTH, STH BRIDGE RD",
+                    "NTH BRIDGE RD"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -6508,17 +6509,16 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "174",
-                destination: "> KAMPONG BAHRU TER",
-                destinationFont: "LECIP-7:5",
+                destination: "> BOON LAY INT",
+                destinationFont: "LECIP-10",
                 scrolls: [
-                    "BT BATOK E. AVE 3, 6",
-                    "JLN JURONG KECHIL",
-                    "DUNEARN RD",
-                    "FARRER RD",
+                    "EU TONG SEN ST",
+                    "ORCHARD BLVD",
                     "HOLLAND RD",
-                    "ORCHARD RD",
-                    "NTH, STH BRIDGE RD",
-                    "NTH BRIDGE RD"
+                    "FARRER RD",
+                    "BT TIMAH RD",
+                    "JLN JURONG KECHIL",
+                    "BT BATOK E. AVE 6, 3"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -7092,7 +7092,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "197",
-                destination: "> JURONG WEST INT",
+                destination: "> JURONG EAST INT",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
                     'BEDOK STH AVE 1',
