@@ -162,7 +162,7 @@ EDSData.Ventura = {
             renderType: "message",
             text: "Set Down Only",
             spacing: 1,
-            font: "Mobitec-13:10" // pretty sure it's 7:5:2/3 but will need to check on that 900
+            font: "Mobitec-13:8"
         }
     },
 
