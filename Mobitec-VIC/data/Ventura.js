@@ -2041,6 +2041,20 @@ EDSData.Ventura = {
             ],
             scrollFont: 'Mobitec-6:5'
         }
+    },
+    9002: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "900",
+            destination: {
+                text: "Huntingdale",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Station"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
     }
 }
 
