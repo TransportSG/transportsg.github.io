@@ -2421,6 +2421,314 @@ EDSData.SMRT = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
+    359: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "",
+            top: "SHUTTLE 6",
+            topFont: "Mobitec-7:7",
+
+            bottom: "TANAH MERAH - BUGIS",
+            bottomFont: "Mobitec-7:5:3"
+        }
+    },
+    360: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "",
+            top: "SHUTTLE 6",
+            topFont: "Mobitec-7:7",
+
+            bottom: "BUGIS - TANAH MERAH",
+            bottomFont: "Mobitec-7:5:3"
+        }
+    },
+    373: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "",
+            top: "SHUTTLE 10",
+            topFont: "Mobitec-7:7",
+
+            bottom: "ANG MO KIO - WOODLANDS",
+            bottomFont: "Mobitec-7:5:3"
+        }
+    },
+    374: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "",
+            top: "SHUTTLE 10",
+            topFont: "Mobitec-7:7",
+
+            bottom: "WOODLANDS - ANG MO KIO",
+            bottomFont: "Mobitec-7:5:3"
+        }
+    },
+    375: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "",
+            top: "EXPRESS 17",
+            topFont: "Mobitec-7:7",
+
+            bottom: "WOODLANDS-BUKIT PANJANG",
+            bottomFont: "Mobitec-7:5:2"
+        }
+    },
+    376: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "",
+            top: "EXPRESS 17",
+            topFont: "Mobitec-7:7",
+
+            bottom: "BUKIT PANJANG-WOODLANDS",
+            bottomFont: "Mobitec-7:5:2"
+        }
+    },
+    377: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "",
+            top: "SHUTTLE 9",
+            topFont: "Mobitec-7:7",
+
+            bottom: "YISHUN - NEWTON",
+            bottomFont: "Mobitec-7:7"
+        }
+    },
+    378: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "",
+            top: "SHUTTLE 9",
+            topFont: "Mobitec-7:7",
+
+            bottom: "NEWTON - YISHUN",
+            bottomFont: "Mobitec-7:7"
+        }
+    },
+    379: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "",
+            top: "EXPRESS 15",
+            topFont: "Mobitec-7:7",
+
+            bottom: "CLEMENTI - BEAUTY WORLD",
+            bottomFont: "Mobitec-7:5:3"
+        }
+    },
+    380: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "",
+            top: "EXPRESS 15",
+            topFont: "Mobitec-7:7",
+
+            bottom: "BEAUTY WORLD - CLEMENTI",
+            bottomFont: "Mobitec-7:5:3"
+        }
+    },
+    381: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "",
+            top: "SHUTTLE 2",
+            topFont: "Mobitec-7:7",
+
+            bottom: "JOO KOON - JURONG EAST",
+            bottomFont: "Mobitec-7:5:3"
+        }
+    },
+    382: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "",
+            top: "SHUTTLE 2",
+            topFont: "Mobitec-7:7",
+
+            bottom: "JURONG EAST - JOO KOON",
+            bottomFont: "Mobitec-7:5:3"
+        }
+    },
+    383: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "",
+            top: "SHUTTLE 4",
+            topFont: "Mobitec-7:7",
+
+            bottom: "CHOA CHU KANG - JURONG EAST",
+            bottomFont: "Mobitec-7:4"
+        }
+    },
+    384: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "",
+            top: "SHUTTLE 4",
+            topFont: "Mobitec-7:7",
+
+            bottom: "JURONG EAST - CHOA CHU KANG",
+            bottomFont: "Mobitec-7:4"
+        }
+    },
+    385: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "",
+            top: "SHUTTLE 7",
+            topFont: "Mobitec-7:7",
+
+            bottom: "PAYA LEBAR - PASIR RIS",
+            bottomFont: "Mobitec-7:5:3"
+        }
+    },
+    386: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "",
+            top: "SHUTTLE 7",
+            topFont: "Mobitec-7:7",
+
+            bottom: "PASIR RIS - PAYA LEBAR",
+            bottomFont: "Mobitec-7:5:3"
+        }
+    },
+    387: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "",
+            top: "SHUTTLE 8",
+            topFont: "Mobitec-7:7",
+
+            bottom: "TANAH MERAH - CHANGI AIRPORT",
+            bottomFont: "Mobitec-7:4"
+        }
+    },
+    388: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "",
+            top: "SHUTTLE 8",
+            topFont: "Mobitec-7:7",
+
+            bottom: "CHANGI AIRPORT - TANAH MERAH",
+            bottomFont: "Mobitec-7:4"
+        }
+    },
+    389: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "",
+            top: "SHUTTLE 11",
+            topFont: "Mobitec-7:7",
+
+            bottom: "ALJUNIED - MACHPERSON",
+            bottomFont: "Mobitec-7:5:2"
+        }
+    },
+    390: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "",
+            top: "SHUTTLE 11",
+            topFont: "Mobitec-7:7",
+
+            bottom: "MACHPERSON - ALJUNIED",
+            bottomFont: "Mobitec-7:5:2"
+        }
+    },
+    391: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "",
+            top: "EXPRESS 12",
+            topFont: "Mobitec-7:7",
+
+            bottom: "CHANGI AIRPORT T3 - BUGIS",
+            bottomFont: "Mobitec-7:5:3"
+        }
+    },
+    392: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "",
+            top: "EXPRESS 12",
+            topFont: "Mobitec-7:7",
+
+            bottom: "BUGIS - CHANGI AIRPORT T3",
+            bottomFont: "Mobitec-7:5:3"
+        }
+    },
+    393: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "",
+            top: "SHUTTLE 2",
+            topFont: "Mobitec-7:7",
+
+            bottom: "JOO KOON - BUONA VISTA",
+            bottomFont: "Mobitec-7:5:3"
+        }
+    },
+    394: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "",
+            top: "SHUTTLE 2",
+            topFont: "Mobitec-7:7",
+
+            bottom: "BUONA VISTA - JOO KOON",
+            bottomFont: "Mobitec-7:5:3"
+        }
+    },
+    395: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "",
+            top: "SHUTTLE 3",
+            topFont: "Mobitec-7:7",
+
+            bottom: "JOO KOON - TUAS LINK",
+            bottomFont: "Mobitec-7:7"
+        }
+    },
+    396: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "",
+            top: "SHUTTLE 3",
+            topFont: "Mobitec-7:7",
+
+            bottom: "TUAS LINK - JOO KOON",
+            bottomFont: "Mobitec-7:7"
+        }
+    },
+    397: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "",
+            top: "SHUTTLE 1",
+            topFont: "Mobitec-7:7",
+
+            bottom: "BUONA VISTA - RAFFLES PLACE",
+            bottomFont: "Mobitec-7:4"
+        }
+    },
+    398: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "",
+            top: "SHUTTLE 1",
+            topFont: "Mobitec-7:7",
+
+            bottom: "RAFFLES PLACE - BUONA VISTA",
+            bottomFont: "Mobitec-7:4"
+        }
+    },
     402: {
         front: {
             renderType: "standardService",
