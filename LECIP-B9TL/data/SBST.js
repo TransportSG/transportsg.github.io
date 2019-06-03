@@ -5252,6 +5252,29 @@ EDSData.SBST = {
             }
         }
     },
+    "139M": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "139M",
+                destination: "TOA PAYOH INT-JLN BAHAGIA",
+                destinationFont: "LECIP-6:3",
+                scrolls: [
+                    "BALESTIER RD",
+                    "JLN RAJAH",
+                    "JLN BAHAGIA",
+                    "BALESTIER RD"
+                ],
+                scrollFont: "LECIP-6:3"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "139",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+    },
     140: {//CHECK SCROLL FONT
         1: {
             front: {
@@ -9226,6 +9249,198 @@ EDSData.SBST = {
             }
         }
     },
+
+    702: {
+        1: {
+            front: {
+                renderType: "twoline",
+                top: "SHUTTLE 2",
+                topFont: "LECIP-7:5",
+
+                bottom: "JOO KOON - BUONA VISTA",
+                bottomFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "twoline",
+                top: "JKN-",
+                topFont: "LECIP-7:5",
+
+                bottom: "BVN",
+                bottomFont: "LECIP-7:5"
+            }
+        },
+        2: {
+            front: {
+                renderType: "twoline",
+                top: "SHUTTLE 2",
+                topFont: "LECIP-7:5",
+
+                bottom: "BUONA VISTA - JOO KOON",
+                bottomFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "twoline",
+                top: "BNV-",
+                topFont: "LECIP-7:5",
+
+                bottom: "JKN",
+                bottomFont: "LECIP-7:5"
+            }
+        }
+    },
+    705: {
+        1: {
+            front: {
+                renderType: "twoline",
+                top: "EXPRESS 5",
+                topFont: "LECIP-7:5",
+
+                bottom: "BOON LAY - OUTRAM PARK",
+                bottomFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "twoline",
+                top: "BNL-",
+                topFont: "LECIP-7:5",
+
+                bottom: "OTP",
+                bottomFont: "LECIP-7:5"
+            }
+        },
+        2: {
+            front: {
+                renderType: "twoline",
+                top: "EXPRESS 5",
+                topFont: "LECIP-7:5",
+
+                bottom: "OUTRAM PARK - BOON LAY",
+                bottomFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "twoline",
+                top: "OTP-",
+                topFont: "LECIP-7:5",
+
+                bottom: "BNL",
+                bottomFont: "LECIP-7:5"
+            }
+        }
+    },
+    706: {
+        1: {
+            front: {
+                renderType: "twoline",
+                top: "SHUTTLE 6",
+                topFont: "LECIP-7:5",
+
+                bottom: "RAFFLES PLACE - PAYA LEBAR",
+                bottomFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "twoline",
+                top: "RFP-",
+                topFont: "LECIP-7:5",
+
+                bottom: "PYL",
+                bottomFont: "LECIP-7:5"
+            }
+        },
+        2: {
+            front: {
+                renderType: "twoline",
+                top: "SHUTTLE 6",
+                topFont: "LECIP-7:5",
+
+                bottom: "PAYA LEBAR - RAFFLES PLACE",
+                bottomFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "twoline",
+                top: "PYL-",
+                topFont: "LECIP-7:5",
+
+                bottom: "RFP",
+                bottomFont: "LECIP-7:5"
+            }
+        }
+    },
+    707: {
+        1: {
+            front: {
+                renderType: "twoline",
+                top: "SHUTTLE 7",
+                topFont: "LECIP-7:5",
+
+                bottom: "PAYA LEBAR - PASIR RIS",
+                bottomFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "twoline",
+                top: "PYL-",
+                topFont: "LECIP-7:5",
+
+                bottom: "PSR",
+                bottomFont: "LECIP-7:5"
+            }
+        },
+        2: {
+            front: {
+                renderType: "twoline",
+                top: "SHUTTLE 7",
+                topFont: "LECIP-7:5",
+
+                bottom: "PASIR RIS - PAYA LEBAR",
+                bottomFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "twoline",
+                top: "PSR-",
+                topFont: "LECIP-7:5",
+
+                bottom: "PYL",
+                bottomFont: "LECIP-7:5"
+            }
+        }
+    },
+    713: {
+        1: {
+            front: {
+                renderType: "twoline",
+                top: "EXPRESS 13",
+                topFont: "LECIP-7:5",
+
+                bottom: "BEDOK - BEDOK NORTH",
+                bottomFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "twoline",
+                top: "BDK-",
+                topFont: "LECIP-7:5",
+
+                bottom: "BDN",
+                bottomFont: "LECIP-7:5"
+            }
+        },
+        2: {
+            front: {
+                renderType: "twoline",
+                top: "EXPRESS 13",
+                topFont: "LECIP-7:5",
+
+                bottom: "BEDOK NORTH - BEDOK",
+                bottomFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "twoline",
+                top: "BDN-",
+                topFont: "LECIP-7:5",
+
+                bottom: "BDK",
+                bottomFont: "LECIP-7:5"
+            }
+        }
+    },
+
     800: {
         1: {
             front: {
