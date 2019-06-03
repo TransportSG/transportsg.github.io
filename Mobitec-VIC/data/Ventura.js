@@ -1070,7 +1070,7 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
-    7032: {
+    7032: { // check
         front: {
             renderType: "destService",
             serviceNumber: "703",
@@ -1079,6 +1079,35 @@ EDSData.Ventura = {
                 font: "Mobitec-7:7"
             },
             topMargin: 4
+        }
+    },
+    7033: { // check
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Express",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                'Clayton Station' // erm camp everyday until spawn 16 mobi?
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7037: { // check
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Limited Stops",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Syndal Station", // copied off yag buse so dk correct anot
+                "K-Mart Plaza"
+            ],
+            scrollFont: 'Mobitec-6:5'
         }
     },
     7080: {

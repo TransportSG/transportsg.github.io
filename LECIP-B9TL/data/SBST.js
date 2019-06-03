@@ -2887,12 +2887,12 @@ EDSData.SBST = {
                 destination: "> SHENTON WAY TER",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
+                    "YIO CHU KANG RD",
+                    "SERANGOON CENTRAL",
+                    "UPPER PAYA LEBAR RD",
+                    "PAYA LEBAR RD",
+                    "GUILLEMARD RD",
                     "NICOLL HIGHWAY"
-                    // 'ANG MO KIO ST 63',
-                    // 'ANG MO KIO ST 64',
-                    // 'UPP PAYA LEBAR RD',
-                    // 'GUILLEMARD RD',
-                    // 'COLLYER QUAY'
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -2910,11 +2910,12 @@ EDSData.SBST = {
                 destination: "> YIO CHU KANG TER",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
-                    'ROBINSON RD',
+                    "NICOLL HIGHWAY",
                     'GUILLEMARD RD',
-                    'UPP PAYA LEBAR RD',
-                    'ANG MO KIO ST 64',
-                    'ANG MO KIO ST 63'
+                    "PAYA LEBAR RD",
+                    "UPPER PAYA LEBAR RD",
+                    "SERANGOON CENTRAL",
+                    "YIO CHU KANG RD"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -3220,6 +3221,22 @@ EDSData.SBST = {
                 renderType: "rearService",
                 serviceNumber: "76",
                 font: "LECIP-20:12",
+                spacing: 2
+            }
+        }
+    },
+    "76A": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "76A",
+                terminateAt: "MARINA TERR",
+                landmark: "(OP. CHIJ KATONG CONVENT)"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "76A",
+                font: "LECIP-20:9",
                 spacing: 2
             }
         }
@@ -4241,7 +4258,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "111",
-                font: "LECIP-20:9", // 12 would fit like no prob so check
+                font: "LECIP-20:9",
                 spacing: 2
             }
         }
@@ -4274,19 +4291,17 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "113",
-                destination: "HOUGANG CTRL INT-UPP PAYA LEBAR",
+                destination: "HOUGANG INT-U. PAYA LEBAR",
                 destinationFont: "LECIP-6:3",
                 scrolls: [
                     'HOUGANG AVE 8',
-                    'HOUGANG AVE 6',
                     'HOUGANG AVE 10',
                     'UPP SERANGOON RD',
                     'HOUGANG ST 21',
-                    'LOR AH SOO',
+                    'LORONG AH SOO',
                     'HOUGANG ST 21',
                     'UPP SERANGOON RD',
                     'HOUGANG AVE 10',
-                    'HOUGANG AVE 6',
                     'HOUGANG AVE 8'
                 ],
                 scrollFont: "LECIP-6:3"
@@ -4304,7 +4319,7 @@ EDSData.SBST = {
             front: {
                 renderType: "swt",
                 serviceNumber: "113A",
-                landmark: "UPP SERANGOON RD (KOVAN STN)"
+                landmark: "U. S'GOON RD (KOVAN STN)"
             },
             rear: {
                 renderType: "rearService",
@@ -4742,7 +4757,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "129",
-                destination: "> TAMPINES CONCOURSE INT",
+                destination: "> TAMP CONCOURSE INT",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
                     "BALESTIER RD",
@@ -5031,7 +5046,7 @@ EDSData.SBST = {
                 destination: "> ANG MO KIO INT",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                    'TANJONG KANTONG RD',
+                    'TANJONG KATONG RD',
                     'MACPHERSON EST',
                     'UPP ALJUNIED RD',
                     'SERANGOON AVE 2'
@@ -6194,7 +6209,6 @@ EDSData.SBST = {
                 destinationFont: "LECIP-10",
                 scrolls: [
                     "LOR 4 TOA PAYOH",
-                    "LOR 6 TOA PAYOH",
                     "BRADDELL RD",
                     "UPPER THOMSON RD",
                     "YIO CHU KANG RD",
@@ -6222,7 +6236,6 @@ EDSData.SBST = {
                     "YIO CHU KANG RD",
                     "UPPER THOMSON RD",
                     "BRADDELL RD",
-                    "LOR 6 TOA PAYOH",
                     "LOR 4 TOA PAYOH"
                 ],
                 scrollFont: "LECIP-7:5"
@@ -6234,7 +6247,49 @@ EDSData.SBST = {
                 spacing: 2
             }
         }
-    }, // 163M maybe
+    },
+    "163M": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "163M",
+                destination: "> SENGKANG W. AVE",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    "PUNGGOL RD",
+                    "SENGKANG EAST AVE",
+                    "SENGKANG WEST AVE",
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "163M",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "163M",
+                destination: "> SENGKANG INT",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    "SENGKANG WEST AVE",
+                    "SENGKANG EAST AVE",
+                    "PUNGGOL RD"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "163M",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
     "163A": {
         1: {
             front: {
@@ -8588,16 +8643,15 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "400",
-                destination: "SHENTON WAY TER-MARINA GDNS DR",
-                destinationFont: "LECIP-6:3",
+                destination: "SHENTON WY TER-M. GDNS DR",
+                destinationFont: "LECIP-6:4",
                 scrolls: [
-                    'SHENTON WAY',
-                    'ANSON RD',
                     'MARINA BOULEVARD',
-                    'MARINA MALL',
-                    'MARINA GROVE'
+                    'MARINA GNDS DR',
+                    'CENTRAL BOULEVARD',
+                    'SHENTON WAY'
                 ],
-                scrollFont: "LECIP-6:3"
+                scrollFont: "LECIP-6:4"
             },
             rear: {
                 renderType: "rearService",
@@ -8637,15 +8691,15 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "402",
-                destination: "SHENTON WAY TER-M.COSTAL DR",
-                destinationFont: "LECIP-6:3",
+                destination: "SHENTON WY TER-M.COASTAL",
+                destinationFont: "LECIP-6:4",
                 scrolls: [
-                    'SHENTON WAY',
-                    'ANSON RD',
-                    'MARINA ST',
-                    'MARINA COSTAL DR'
+                    'MARINA BOULEVARD',
+                    'MARINA COASTAL DR',
+                    'CENTRAL BOULEVARD',
+                    'SHENTON WAY'
                 ],
-                scrollFont: "LECIP-6:3"
+                scrollFont: "LECIP-6:4"
             },
             rear: {
                 renderType: "rearService",
