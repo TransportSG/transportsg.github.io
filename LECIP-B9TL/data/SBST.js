@@ -7797,7 +7797,7 @@ EDSData.SBST = {
                 scrolls: [
                     'CHIN BEE DR',
                     'TAH CHING RD',
-                    'BOONG LAY DR',
+                    'BOON LAY DR',
                     "YUAN CHING RD",
                     'JALAN TUKANG'
                 ],

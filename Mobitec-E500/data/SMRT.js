@@ -2961,7 +2961,7 @@ EDSData.SMRT = {
                     topFont: "Mobitec-7:7",
                     bottomFont: "Mobitec-7:7"
                 },
-                "CANTOMENT RD",
+                "CANTONMENT RD",
                 "CECIL STREET",
                 "ORCHARD TURN",
                 "SCOTTS ROAD",
@@ -6965,7 +6965,7 @@ EDSData.SMRT = {
                 "HOLLAND ROAD",
                 "GREAT WORLD CITY",
                 "OUTRAM ROAD",
-                "CANTOMENT RD",
+                "CANTONMENT RD",
                 "ANSON ROAD",
                 "ROBINSON ROAD",
                 "EMPRESS PLACE"
@@ -7826,7 +7826,7 @@ EDSData.SMRT = {
                     topFont: "Mobitec-7:7",
                     bottomFont: "Mobitec-7:7"
                 },
-                "CANTOMENT RD",
+                "CANTONMENT RD",
                 "CECIL STREET",
                 "ORCHARD TURN",
                 "SCOTTS ROAD",
@@ -9123,7 +9123,7 @@ EDSData.SMRT = {
                 "HOLLAND ROAD",
                 "GREAT WORLD CITY",
                 "OUTRAM ROAD",
-                "CANTOMENT RD",
+                "CANTONMENT RD",
                 "ANSON ROAD",
                 "ROBINSON ROAD",
                 "EMPRESS PLACE"
