@@ -86,7 +86,12 @@ EDSFormats.SMRT = {
             },
             text: "$serviceNumber",
             font: "Mobitec-16:8",
-            spacing: 2
+            spacing: {
+                $$cond: {
+                    "$spacing === null" : 2,
+                    "else": "$spacing"
+                }
+            }
         },
         top: {
             align: {
@@ -8700,6 +8705,190 @@ EDSData.SMRT = {
             bottom: "C.C.K INT/MRT/LRT",
             topFont: "Mobitec-7:7",
             bottomFont: "Mobitec-7:5:3"
+        }
+    },
+    3421: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "NB-1",
+            spacing: 1,
+            top: "On-Demand Public Bus",
+            bottom: "CBD To Bedok &Tampines",
+            topFont: "Mobitec-7:4",
+            bottomFont: "Mobitec-7:4"
+        },
+    },
+    3422: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "NB-2",
+            spacing: 1,
+            top: "On-Demand Public Bus",
+            bottom: "CBD To Bedok &Tampines",
+            topFont: "Mobitec-7:4",
+            bottomFont: "Mobitec-7:4"
+        },
+    },
+    3423: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "NB-3",
+            spacing: 1,
+            top: "On-Demand Public Bus",
+            bottom: "CBD To Bedok &Tampines",
+            topFont: "Mobitec-7:4",
+            bottomFont: "Mobitec-7:4"
+        },
+    },
+    3424: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "NB-4",
+            spacing: 1,
+            top: "On-Demand Public Bus",
+            bottom: "CBD To Bedok &Tampines",
+            topFont: "Mobitec-7:4",
+            bottomFont: "Mobitec-7:4"
+        },
+    },
+    3425: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "NB-5",
+            spacing: 1,
+            top: "On-Demand Public Bus",
+            bottom: "CBD To Bedok &Tampines",
+            topFont: "Mobitec-7:4",
+            bottomFont: "Mobitec-7:4"
+        },
+    },
+    3426: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "NB-6",
+            spacing: 1,
+            top: "On-Demand Public Bus",
+            bottom: "CBD To Bedok &Tampines",
+            topFont: "Mobitec-7:4",
+            bottomFont: "Mobitec-7:4"
+        },
+    },
+    6011: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "",
+            top: "JOO KOON - LAKESIDE",
+            bottom: "PARALLEL BUS SERVICE",
+            topFont: "Mobitec-7:5:3",
+            bottomFont: "Mobitec-7:5:3"
+        }
+    },
+    6012: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "",
+            top: "LAKESIDE - JOO KOON",
+            bottom: "PARALLEL BUS SERVICE",
+            topFont: "Mobitec-7:5:3",
+            bottomFont: "Mobitec-7:5:3"
+        }
+    },
+    6021: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "",
+            top: "BOON LAY - LAKESIDE",
+            bottom: "PARALLEL BUS SERVICE",
+            topFont: "Mobitec-7:5:3",
+            bottomFont: "Mobitec-7:5:3"
+        }
+    },
+    6022: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "",
+            top: "LAKESIDE - BOON LAY",
+            bottom: "PARALLEL BUS SERVICE",
+            topFont: "Mobitec-7:5:3",
+            bottomFont: "Mobitec-7:5:3"
+        }
+    },
+    6031: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "",
+            top: "TANAH MERAH - CHANGI AIRPORT",
+            bottom: "PARALLEL BUS SERVICE",
+            topFont: "Mobitec-7:4",
+            bottomFont: "Mobitec-7:5:3"
+        }
+    },
+    6032: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "",
+            top: "CHANGI AIRPORT - TANAH MERAH",
+            bottom: "PARALLEL BUS SERVICE",
+            topFont: "Mobitec-7:4",
+            bottomFont: "Mobitec-7:5:3"
+        }
+    },
+    6041: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "TANAH MERAH - CHANGI AIRPORT",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "TANAH MERAH - CHANGI AIRPORT",
+                    bottom: "PARALLEL BUS SERVICE",
+                    topFont: "Mobitec-7:4",
+                    bottomFont: "Mobitec-7:5:3"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "TANAH MERAH - CHANGI AIRPORT",
+                    bottom: "DIRECT (SKIPS EXPO)",
+                    topFont: "Mobitec-7:4",
+                    bottomFont: "Mobitec-7:5:3"
+                }
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    6042: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "CHANGI AIRPORT - TANAH MERAH",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "CHANGI AIRPORT - TANAH MERAH",
+                    bottom: "PARALLEL BUS SERVICE",
+                    topFont: "Mobitec-7:4",
+                    bottomFont: "Mobitec-7:5:3"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "CHANGI AIRPORT - TANAH MERAH",
+                    bottom: "DIRECT (SKIPS EXPO)",
+                    topFont: "Mobitec-7:4",
+                    bottomFont: "Mobitec-7:5:3"
+                }
+            ],
+            scrollFont: "Mobitec-7:5:3"
         }
     },
     6101: {
