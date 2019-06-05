@@ -1746,7 +1746,7 @@ EDSData.SMRT = {
             renderType: "destScroll",
             serviceNumber: "177A",
             top: "ENDS AT",
-            bottom: "JELUBU ROAD",
+            bottom: "JELEBU ROAD",
             topFont: "Mobitec-7:7",
             bottomFont: "Mobitec-7:7"
         }
@@ -2095,7 +2095,7 @@ EDSData.SMRT = {
                     top: "BT PANJANG",
                     topFont: "Mobitec-13:7"
                 },
-                "PETIR / JELUBU RD",
+                "PETIR / JELEBU RD",
                 "SENJAR RD / LINK",
                 "JELAPANG RD",
                 "SAUJANA RD",
@@ -2121,7 +2121,7 @@ EDSData.SMRT = {
                     top: "BT PANJANG",
                     topFont: "Mobitec-13:7"
                 },
-                "PETIR / JELUBU RD",
+                "PETIR / JELEBU RD",
                 "JELAPANG ROAD",
                 "SEGAR / FAJAR RD ",
                 "BT PANJANG RING RD",
@@ -5714,7 +5714,7 @@ EDSData.SMRT = {
                 "BT PANJANG RD",
                 "PENDING ROAD",
                 "PETIR ROAD",
-                "JELUBU ROAD",
+                "JELEBU ROAD",
                 "HILLVIEW AVE",
                 "B. B EAST AVE 4,3",
                 "C'WEALTH AVE WEST",
@@ -5761,7 +5761,7 @@ EDSData.SMRT = {
                 "HILLVIEW AVENUE",
                 "BT PANJANG ROAD",
                 {
-                    text: "JELUBU ROAD",
+                    text: "JELEBU ROAD",
                     font: "Mobitec-7:7"
                 },
                 {
@@ -7543,7 +7543,7 @@ EDSData.SMRT = {
                     topFont: "Mobitec-13:7"
                 },
                 {
-                    text: "PETIR / JELUBU RD",
+                    text: "PETIR / JELEBU RD",
                     font: "Mobitec-7:5:3"
                 },
                 "WOODLANDS RD",
@@ -7576,7 +7576,7 @@ EDSData.SMRT = {
                 "C.C.K AVE 6 ,1",
                 "CHOA CHU KANG RD",
                 "PETIR ROAD",
-                "JELUBU RD (LOOP)"
+                "JELEBU RD (LOOP)"
             ],
             scrollFont: "Mobitec-7:5:3"
         }
@@ -7596,7 +7596,7 @@ EDSData.SMRT = {
                     top: "BT PANJANG",
                     topFont: "Mobitec-13:8"
                 },
-                "PETIR / JELUBU RD",
+                "PETIR / JELEBU RD",
                 "WOODLANDS RD",
                 "C.C.K DR / NTH 6",
                 {
@@ -10275,7 +10275,7 @@ EDSData.SMRT = {
                     top: "BT PANJANG",
                     topFont: "Mobitec-13:8"
                 },
-                "PETIR / JELUBU RD",
+                "PETIR / JELEBU RD",
                 "SENJAR RD / LINK",
                 "JELAPANG RD",
                 "SAUJANA RD",
@@ -10301,7 +10301,7 @@ EDSData.SMRT = {
                     top: "BT PANJANG",
                     topFont: "Mobitec-13:7"
                 },
-                "PETIR / JELUBU RD",
+                "PETIR / JELEBU RD",
                 "JELAPANG ROAD",
                 "SEGAR / FAJAR RD ",
                 "BT PANJANG RING RD",
@@ -11034,7 +11034,7 @@ EDSData.SMRT = {
                 "BT PANJANG RD",
                 "PENDING ROAD",
                 "PETIR ROAD",
-                "JELUBU ROAD",
+                "JELEBU ROAD",
                 "HILLVIEW AVE",
                 "B.B EAST AVE 4,3",
                 "C'WEALTH AVE WEST",
@@ -11081,7 +11081,7 @@ EDSData.SMRT = {
                 "HILLVIEW AVENUE",
                 "BT PANJANG ROAD",
                 {
-                    text: "JELUBU ROAD",
+                    text: "JELEBU ROAD",
                     font: "Mobitec-7:7"
                 },
                 {
@@ -11716,7 +11716,7 @@ EDSData.SMRT = {
                     topFont: "Mobitec-13:7"
                 },
                 {
-                    text: "PETIR / JELUBU RD",
+                    text: "PETIR / JELEBU RD",
                     font: "Mobitec-7:5:3"
                 },
                 "WOODLANDS RD",
@@ -11743,7 +11743,7 @@ EDSData.SMRT = {
                     top: "BT PANJANG",
                     topFont: "Mobitec-13:8"
                 },
-                "PETIR / JELUBU RD",
+                "PETIR / JELEBU RD",
                 "WOODLANDS RD",
                 "C.C.K DR / NTH 6",
                 "C.C.K NTH 5 (LOOP)"
@@ -11932,7 +11932,7 @@ EDSData.SMRT = {
                 "C.C.K AVE 6 ,1",
                 "CHOA CHU KANG RD",
                 "PETIR ROAD",
-                "JELUBU RD (LOOP)"
+                "JELEBU RD (LOOP)"
             ],
             scrollFont: "Mobitec-7:5:3"
         }

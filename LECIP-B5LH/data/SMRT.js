@@ -667,7 +667,7 @@ EDSData.SMRT = {
                     font: "ArialBold-8"
                 },
                 scrolls: [
-                    "PETIR / JELUBU RD",
+                    "PETIR / JELEBU RD",
                     "SENJA RD / LINK",
                     "JELAPANG RD",
                     "SAUJANA RD",
