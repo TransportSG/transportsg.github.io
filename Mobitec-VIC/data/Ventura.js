@@ -1110,6 +1110,50 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
+    7040: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "704",
+            destination: {
+                text: "Oakleigh Stn",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Clayton",
+                "via Huntingdale",
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7041: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "704",
+            destination: {
+                text: "East Clayton",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Huntingdale",
+                "via Clayton",
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7042: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "704",
+            destination: {
+                text: "Clayton",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Station", // copied off yag 19 mobi
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
     7080: {
         front: {
             renderType: "standardService",
