@@ -180,4 +180,44 @@
 
     }
 
+    exports.FlipdotMatrix = class FlipdotMatrix extends DOMBasedLEDMatrix {
+        constructor(width, height, container) {
+            super(width, height, container);
+
+            this.buffer = [];
+            for (let i = 0; i < this.width * this.height; i++) this.buffer.push(false);
+
+            this.twodimToFlat = exports.DOMBasedLEDMatrix.twodimToFlat;
+        }
+
+        clearRectangle(x, y, w, h, colour) {
+            this.buffer = this.buffer.map(_ => false);
+        }
+
+        onBeginDraw() {
+            this.buffer = [];
+            for (let i = 0; i < this.width * this.height; i++) this.buffer.push(false);
+        }
+
+        onEndDraw() {
+            for (let dx = 0; dx < this.width; dx++) {
+                setTimeout(() => {
+                    for (let dy = 0; dy < this.height; dy++) {
+                        super.setLEDState(dx, dy, this.buffer[this.twodimToFlat(dx, dy, this.width)]);
+                    }
+                }, dx * 10);
+            }
+        }
+
+        setLEDState(x, y, state, colour) {
+            if (x >= this.width || x < 0 || y >= this.height || y < 0) return;
+            this.buffer[this.twodimToFlat(x, y, this.width)] = state;
+        }
+
+        getLEDState(x, y) {
+            return !!this.buffer[this.twodimToFlat(x, y, this.width)];
+        }
+    }
+
+
 }(typeof exports === 'undefined' ? window : exports));
