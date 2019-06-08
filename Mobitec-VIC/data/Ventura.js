@@ -1272,7 +1272,22 @@ EDSData.Ventura = {
             },
             scrolls: [
                 "via Ashburton",
-                "via High St Rd",
+                "via High St Road",
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7341: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "734",
+            destination: {
+                text: "Glen Waverley", // ?
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via High St Road",
+                "via Ashburton",
             ],
             scrollFont: 'Mobitec-6:5'
         }
