@@ -2129,6 +2129,22 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     }
+    9780: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "978",
+            destination: {
+                text: "Elsternwick Stn",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Princes Hwy",
+                "via Monash Uni",
+                "via Huntingdale"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    }
 }
 
 EDSExtras.Ventura = {};
