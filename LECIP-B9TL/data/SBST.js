@@ -10051,6 +10051,12 @@ EDSData.SBST = {
                 text: "EB 1",
                 font: "LECIP-20:12",
                 spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB1",
+                font: "LECIP-20:6",
+                spacing: 2
             }
         }
     },
@@ -10061,6 +10067,12 @@ EDSData.SBST = {
                 text: "EB 2",
                 font: "LECIP-20:12",
                 spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB2",
+                font: "LECIP-20:6",
+                spacing: 2
             }
         }
     },
@@ -10071,6 +10083,12 @@ EDSData.SBST = {
                 text: "EB 3",
                 font: "LECIP-20:12",
                 spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB3",
+                font: "LECIP-20:6",
+                spacing: 2
             }
         }
     },
@@ -10081,6 +10099,12 @@ EDSData.SBST = {
                 text: "EB 4",
                 font: "LECIP-20:12",
                 spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB4",
+                font: "LECIP-20:6",
+                spacing: 2
             }
         }
     },
@@ -10091,6 +10115,12 @@ EDSData.SBST = {
                 text: "EB 5",
                 font: "LECIP-20:12",
                 spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB5",
+                font: "LECIP-20:6",
+                spacing: 2
             }
         }
     },
@@ -10101,6 +10131,12 @@ EDSData.SBST = {
                 text: "EB 6",
                 font: "LECIP-20:12",
                 spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB6",
+                font: "LECIP-20:6",
+                spacing: 2
             }
         }
     },
@@ -10111,6 +10147,12 @@ EDSData.SBST = {
                 text: "EB 7",
                 font: "LECIP-20:12",
                 spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB7",
+                font: "LECIP-20:6",
+                spacing: 2
             }
         }
     },
@@ -10121,6 +10163,12 @@ EDSData.SBST = {
                 text: "EB 8",
                 font: "LECIP-20:12",
                 spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB8",
+                font: "LECIP-20:6",
+                spacing: 2
             }
         }
     },
@@ -10131,6 +10179,12 @@ EDSData.SBST = {
                 text: "EB 9",
                 font: "LECIP-20:12",
                 spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB9",
+                font: "LECIP-20:6",
+                spacing: 2
             }
         }
     },
@@ -10141,6 +10195,28 @@ EDSData.SBST = {
                 text: "EB 10",
                 font: "LECIP-20:12",
                 spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB10",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
+    911: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "EB 11",
+                font: "LECIP-20:12",
+                spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB11",
+                font: "LECIP-20:6",
+                spacing: 2
             }
         }
     },
@@ -10151,6 +10227,12 @@ EDSData.SBST = {
                 text: "EB 12",
                 font: "LECIP-20:12",
                 spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB12",
+                font: "LECIP-20:6",
+                spacing: 2
             }
         }
     },
@@ -10161,6 +10243,12 @@ EDSData.SBST = {
                 text: "EB 13",
                 font: "LECIP-20:12",
                 spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB13",
+                font: "LECIP-20:6",
+                spacing: 2
             }
         }
     },
@@ -10171,6 +10259,12 @@ EDSData.SBST = {
                 text: "EB 14",
                 font: "LECIP-20:12",
                 spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB14",
+                font: "LECIP-20:6",
+                spacing: 2
             }
         }
     },
@@ -10181,6 +10275,12 @@ EDSData.SBST = {
                 text: "EB 15",
                 font: "LECIP-20:12",
                 spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB15",
+                font: "LECIP-20:6",
+                spacing: 2
             }
         }
     },
@@ -10191,6 +10291,12 @@ EDSData.SBST = {
                 text: "EB 21",
                 font: "LECIP-20:12",
                 spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB21",
+                font: "LECIP-20:6",
+                spacing: 2
             }
         }
     },
@@ -10201,6 +10307,12 @@ EDSData.SBST = {
                 text: "EB 22",
                 font: "LECIP-20:12",
                 spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB22",
+                font: "LECIP-20:6",
+                spacing: 2
             }
         }
     },
@@ -10211,6 +10323,12 @@ EDSData.SBST = {
                 text: "EB 26",
                 font: "LECIP-20:12",
                 spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB26",
+                font: "LECIP-20:6",
+                spacing: 2
             }
         }
     },
@@ -10221,6 +10339,12 @@ EDSData.SBST = {
                 text: "EB 28",
                 font: "LECIP-20:12",
                 spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB28",
+                font: "LECIP-20:6",
+                spacing: 2
             }
         }
     },
@@ -10231,6 +10355,12 @@ EDSData.SBST = {
                 text: "EB 31",
                 font: "LECIP-20:12",
                 spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB31",
+                font: "LECIP-20:6",
+                spacing: 2
             }
         }
     },
@@ -10241,6 +10371,12 @@ EDSData.SBST = {
                 text: "EB 36",
                 font: "LECIP-20:12",
                 spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB36",
+                font: "LECIP-20:6",
+                spacing: 2
             }
         }
     },
@@ -10251,6 +10387,12 @@ EDSData.SBST = {
                 text: "EB 37",
                 font: "LECIP-20:12",
                 spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB37",
+                font: "LECIP-20:6",
+                spacing: 2
             }
         }
     },
@@ -10261,6 +10403,12 @@ EDSData.SBST = {
                 text: "EB 39",
                 font: "LECIP-20:12",
                 spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB39",
+                font: "LECIP-20:6",
+                spacing: 2
             }
         }
     },
@@ -10271,6 +10419,12 @@ EDSData.SBST = {
                 text: "EB 41",
                 font: "LECIP-20:12",
                 spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB41",
+                font: "LECIP-20:6",
+                spacing: 2
             }
         }
     },
@@ -10281,6 +10435,12 @@ EDSData.SBST = {
                 text: "EB 42",
                 font: "LECIP-20:12",
                 spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB42",
+                font: "LECIP-20:6",
+                spacing: 2
             }
         }
     },
@@ -10291,6 +10451,12 @@ EDSData.SBST = {
                 text: "EB 43",
                 font: "LECIP-20:12",
                 spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB43",
+                font: "LECIP-20:6",
+                spacing: 2
             }
         }
     },
@@ -10301,6 +10467,12 @@ EDSData.SBST = {
                 text: "EB 44",
                 font: "LECIP-20:12",
                 spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB44",
+                font: "LECIP-20:6",
+                spacing: 2
             }
         }
     },
@@ -10311,6 +10483,12 @@ EDSData.SBST = {
                 text: "EB 48",
                 font: "LECIP-20:12",
                 spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB48",
+                font: "LECIP-20:6",
+                spacing: 2
             }
         }
     },
@@ -10321,6 +10499,12 @@ EDSData.SBST = {
                 text: "EB 51",
                 font: "LECIP-20:12",
                 spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB51",
+                font: "LECIP-20:6",
+                spacing: 2
             }
         }
     },
@@ -10331,6 +10515,12 @@ EDSData.SBST = {
                 text: "EB 88",
                 font: "LECIP-20:12",
                 spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB88",
+                font: "LECIP-20:6",
+                spacing: 2
             }
         }
     },
@@ -10345,10 +10535,10 @@ EDSData.SBST = {
             rear: {
                 renderType: 'twoline',
                 top: "OFF",
-                topFont: "LECIP-7:5",
+                topFont: "LECIP-7:4",
 
                 bottom: "SERVICE",
-                bottomFont: "LECIP-7:5"
+                bottomFont: "LECIP-7:4"
             }
         }
     },
@@ -10362,10 +10552,10 @@ EDSData.SBST = {
             rear: {
                 renderType: 'twoline',
                 top: "SBS",
-                topFont: "LECIP-7:5",
+                topFont: "LECIP-7:4",
 
                 bottom: "TRANSIT",
-                bottomFont: "LECIP-7:5"
+                bottomFont: "LECIP-7:4"
             }
         }
     },
@@ -10380,10 +10570,10 @@ EDSData.SBST = {
             rear: {
                 renderType: 'twoline',
                 top: "FREE",
-                topFont: "LECIP-7:5", // check font
+                topFont: "LECIP-7:4", // check font
 
                 bottom: "SHUTTLE",
-                bottomFont: "LECIP-6:4"
+                bottomFont: "LECIP-7:4"
             }
         }
     },
@@ -10416,10 +10606,10 @@ EDSData.SBST = {
             rear: {
                 renderType: 'twoline',
                 top: "TRAINING",
-                topFont: "LECIP-7:5",
+                topFont: "LECIP-7:4",
 
                 bottom: "BUS",
-                bottomFont: "LECIP-7:5"
+                bottomFont: "LECIP-7:4"
             }
         }
     },
