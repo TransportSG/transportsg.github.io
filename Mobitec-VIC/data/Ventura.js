@@ -1341,13 +1341,13 @@ EDSData.Ventura = {
             renderType: "standardService",
             serviceNumber: "737",
             destination: {
-                text: "Croydon Stn",
+                text: "Monash Uni",
                 font: "Mobitec-7:7"
             },
             scrolls: [
-                "via G Waverley",
-                "via Knox City",
                 "via Boronia",
+                "via Knox City",
+                "via G Waverley"
             ],
             scrollFont: 'Mobitec-6:5'
         }
@@ -1357,13 +1357,13 @@ EDSData.Ventura = {
             renderType: "standardService",
             serviceNumber: "737",
             destination: {
-                text: "Monash Uni",
+                text: "Croydon Stn",
                 font: "Mobitec-7:7"
             },
             scrolls: [
-                "via Boronia",
+                "via G Waverley",
                 "via Knox City",
-                "via G Waverley"
+                "via Boronia",
             ],
             scrollFont: 'Mobitec-6:5'
         }
