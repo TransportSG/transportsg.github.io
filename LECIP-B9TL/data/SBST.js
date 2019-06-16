@@ -6,7 +6,12 @@ EDSFormats.SBST = {
                 right: 1
             },
             text: "$serviceNumber",
-            font: "LECIP-20:12",
+            font: {
+                $$cond: {
+                    "$serviceFont === null": "LECIP-20:12",
+                    "else": "$serviceFont"
+                }
+            },
             spacing: 3
         },
         destination: {
@@ -8666,9 +8671,10 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "400",
-                destination: "SHENTON WY TER-M. GDNS DR",
+                serviceFont: "LECIP-20:9",
+                destination: "SHENTON WY TER-M.COASTAL",
                 destinationFont: "LECIP-6:4",
-                scrolls: [
+                scrolls: [ // someone pls record
                     'MARINA BOULEVARD',
                     'MARINA GNDS DR',
                     'CENTRAL BOULEVARD',
@@ -8704,29 +8710,6 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "401",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        },
-    },
-    402: {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "402",
-                destination: "SHENTON WY TER-M.COASTAL",
-                destinationFont: "LECIP-6:4",
-                scrolls: [
-                    'MARINA BOULEVARD',
-                    'MARINA COASTAL DR',
-                    'CENTRAL BOULEVARD',
-                    'SHENTON WAY'
-                ],
-                scrollFont: "LECIP-6:4"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "402",
                 font: "LECIP-20:9",
                 spacing: 2
             }
