@@ -8674,9 +8674,10 @@ EDSData.SBST = {
                 serviceFont: "LECIP-20:9",
                 destination: "SHENTON WY TER-M.COASTAL",
                 destinationFont: "LECIP-6:4",
-                scrolls: [ // someone pls record
+                scrolls: [
                     'MARINA BOULEVARD',
-                    'MARINA GNDS DR',
+                    'MARINA GDNS DR',
+                    'MARINA COSTAL DR',
                     'CENTRAL BOULEVARD',
                     'SHENTON WAY'
                 ],
