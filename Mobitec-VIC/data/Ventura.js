@@ -1100,7 +1100,7 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
-    7032: { // check
+    7032: { // check code (1822 south snoakleigh; 1813 uni)
         front: {
             renderType: "destService",
             serviceNumber: "703",
@@ -1111,20 +1111,8 @@ EDSData.Ventura = {
             topMargin: 4
         }
     },
-    7033: { // check
-        front: {
-            renderType: "standardService",
-            serviceNumber: "",
-            destination: {
-                text: "Express",
-                font: "Mobitec-7:7"
-            },
-            scrolls: [
-                'Clayton Station' // erm camp everyday until spawn 16 mobi?
-            ],
-            scrollFont: 'Mobitec-6:5'
-        }
-    },
+    // 703 to monash uni; 0721 reach uni
+    // 703 to syndal from bb stn; 1808 reach syndal
     7037: { // check
         front: {
             renderType: "standardService",
@@ -1134,10 +1122,28 @@ EDSData.Ventura = {
                 font: "Mobitec-7:7"
             },
             scrolls: [
-                "Syndal Station", // copied off yag buse so dk correct anot
-                "K-Mart Plaza"
+                "Syndal Station",
+                "K-Mart Plaza",
+                "Blackburn Station"
             ],
             scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7039: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Express",
+                font: "Mobitec-6:5"
+            },
+            scrolls: [
+                [{text: "Cla", font: "Mobitec-7:7"},
+                {text: "y", font: "Mobitec-7:5:2"}, // all 7039 corrupted beyond recognition so use 7332 style for now (GET CODE FOR DAT TOO BUT LAZY GO BOX HILL)
+                {text: "ton Station", font: "Mobitec-7:7"}]
+            ],
+            bottomMargin: 1,
+            scrollFont: 'Mobitec-7:7'
         }
     },
     7040: {
@@ -1257,7 +1263,7 @@ EDSData.Ventura = {
                 font: "Mobitec-7:7"
             },
             scrolls: [
-                "via Monash Uni"
+                "via Monash Uni" // mt waverley? buse has mobi e11
             ],
             scrollFont: 'Mobitec-6:5'
         }
@@ -1276,7 +1282,7 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
-    7332: {
+    7332: { // check code
         front: {
             renderType: "standardService",
             serviceNumber: "733",
