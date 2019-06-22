@@ -393,13 +393,27 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
-    751: {
+    752: {
         front: {
             renderType: "standardService",
             serviceNumber: "75",
             destination: {
                 text: "Docklands",
                 font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Tram Replacement"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    753: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "75d",
+            destination: {
+                text: "Camberwell Depot",
+                font: "Mobitec-7:6:1"
             },
             scrolls: [
                 "Tram Replacement"
@@ -1278,6 +1292,21 @@ EDSData.Ventura = {
             scrolls: [,
                 "via Parkmore S/C",
                 "via Waterways Est."
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7320: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "732",
+            destination: {
+                text: "Box Hill",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Knox City",
+                "via K-Mart Plaza"
             ],
             scrollFont: 'Mobitec-6:5'
         }
