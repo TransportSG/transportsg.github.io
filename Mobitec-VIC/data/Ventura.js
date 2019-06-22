@@ -107,6 +107,60 @@ EDSFormats.Ventura = {
         },
 
         text: "$text"
+    },
+    tramCityService: {
+        serviceNumber: {
+            align: "right",
+            text: "$serviceNumber",
+            font: "Ventura-16",
+            spacing: 1
+        },
+        displayText: {
+            $$group: {
+                top: {
+                    align: "centre-x,top",
+                    text: "$top",
+                    font: "$topFont",
+                    spacing: 1
+                },
+                bottom: {
+                    align: "centre-x,bottom",
+                    margin: {
+                        bottom: {
+                            $$cond: {
+                                "$bottomMargin !== null": "$bottomMargin",
+                                "else": "0"
+                            }
+                        }
+                    },
+                    text: "$bottom",
+                    font: "$bottomFont",
+                    spacing: 1
+                }
+            },
+            align: "centre-x",
+            margin: {
+                right: "width(serviceNumber)",
+                left: "width(city)"
+            }
+        },
+        city: {
+            align: "left",
+            text: "CITY",
+            font: "Ventura-16",
+            spacing: 2
+        }
+    },
+    scroll: {
+        scroll: {
+            align: "left",
+            scrolls: "$scrolls",
+            rotate: true,
+            rotateSpeed: 3000,
+
+            font: "Mobitec-6:5",
+            spacing: 1
+        }
     }
 }
 
@@ -391,6 +445,30 @@ EDSData.Ventura = {
                 "Tram Replacement"
             ],
             scrollFont: 'Mobitec-6:5'
+        }
+    },
+    751: {
+        front: {
+            renderType: "scroll",
+            scrolls: [
+                {
+                    renderType: "tramCityService",
+                    serviceNumber: "75",
+                    top: "Tram",
+                    topFont: "Mobitec-7:4",
+                    bottom: "Replacement",
+                    bottomFont: "Mobitec-7:4"
+                },
+                {
+                    renderType: "tramCityService",
+                    serviceNumber: "75",
+                    top: "Spencer",
+                    topFont: "Mobitec-7:7",
+                    bottom: "Street",
+                    bottomFont: "Mobitec-7:7",
+                    bottomMargin: 1
+                }
+            ]
         }
     },
     752: {
