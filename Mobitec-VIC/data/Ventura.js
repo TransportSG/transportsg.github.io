@@ -379,6 +379,34 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
+    750: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "75",
+            destination: {
+                text: "Vermont South",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Tram Replacement"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    751: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "75",
+            destination: {
+                text: "Docklands",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Tram Replacement"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
     780: {
         front: {
             renderType: "standardService",
