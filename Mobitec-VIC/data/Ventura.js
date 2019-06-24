@@ -187,15 +187,15 @@ EDSData.Ventura = {
             font: "Mobitec-13:10"
         }
     },
-    4: { // time to go dandenong again
+    4: {
         front: {
             renderType: "message",
-            text: "School Bus",
+            text: "SCHOOL BUS",
             spacing: 1,
             font: "Mobitec-13:10"
         }
     },
-    5: { // check
+    5: {
         front: {
             renderType: "message",
             text: "Express",
@@ -219,6 +219,7 @@ EDSData.Ventura = {
             font: "Mobitec-13:8"
         }
     },
+    // suspect 9 is Rail or Train Replacement
 
     4305: {
         front: {
