@@ -108,7 +108,7 @@ EDSFormats.Ventura = {
 
         text: "$text"
     },
-    tramCityService: {
+    viaFormat: {
         serviceNumber: {
             align: "right",
             text: "$serviceNumber",
@@ -141,14 +141,14 @@ EDSFormats.Ventura = {
             align: "centre-x",
             margin: {
                 right: "width(serviceNumber)",
-                left: "width(city)"
+                left: "width(left)"
             }
         },
-        city: {
-            align: "left",
-            text: "CITY",
-            font: "Ventura-16",
-            spacing: 2
+        left: {
+            align: "left,centre-y",
+            text: "$leftText",
+            font: "$leftFont",
+            spacing: "$leftSpacing"
         }
     },
     scroll: {
@@ -453,21 +453,27 @@ EDSData.Ventura = {
             renderType: "scroll",
             scrolls: [
                 {
-                    renderType: "tramCityService",
+                    renderType: "viaFormat",
                     serviceNumber: "75",
                     top: "Tram",
                     topFont: "Mobitec-7:4",
                     bottom: "Replacement",
-                    bottomFont: "Mobitec-7:4"
+                    bottomFont: "Mobitec-7:4",
+                    leftText: "CITY",
+                    leftFont: "Ventura-16",
+                    leftSpacing: 2
                 },
                 {
-                    renderType: "tramCityService",
+                    renderType: "viaFormat",
                     serviceNumber: "75",
                     top: "Spencer",
                     topFont: "Mobitec-7:7",
                     bottom: "Street",
                     bottomFont: "Mobitec-7:7",
-                    bottomMargin: 1
+                    bottomMargin: 1,
+                    leftText: "CITY",
+                    leftFont: "Ventura-16",
+                    leftSpacing: 2
                 }
             ]
         }
@@ -977,6 +983,36 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
+    6070: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "City Loop",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6170: { // WHY NOT
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "City Loop",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
 
     2010: { // REGULAR SERVICES
         front: {
@@ -1032,6 +1068,20 @@ EDSData.Ventura = {
             scrolls: [
                 "via Clayton",
                 "via Monash Uni"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6630: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "663",
+            destination: {
+                text: "Lilydale Stn",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Mt. Evelyn" // ?
             ],
             scrollFont: 'Mobitec-6:5'
         }
@@ -1297,7 +1347,7 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
-    7042: {
+    7042: { // confirm code
         front: {
             renderType: "standardService",
             serviceNumber: "704",
@@ -1307,6 +1357,20 @@ EDSData.Ventura = {
             },
             scrolls: [
                 "Station", // copied off yag 19 mobi
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7043: { // confirm code
+        front: {
+            renderType: "standardService",
+            serviceNumber: "704",
+            destination: {
+                text: "Scotsburn",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Avenue", // copied off yag buse
             ],
             scrollFont: 'Mobitec-6:5'
         }
@@ -1473,7 +1537,23 @@ EDSData.Ventura = {
                 font: "Mobitec-7:7"
             },
             scrolls: [
+                "via Deakin Uni",
                 "via Vermont Stn"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7361: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "736",
+            destination: {
+                text: "Box Hill",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Vermont Stn",
+                "via Deakin Uni"
             ],
             scrollFont: 'Mobitec-6:5'
         }
@@ -1640,6 +1720,7 @@ EDSData.Ventura = {
                 font: "Mobitec-7:7"
             },
             scrolls: [
+                "via Deakin Uni",
                 "via Chadstone"
             ],
             scrollFont: 'Mobitec-6:5'
@@ -1963,13 +2044,38 @@ EDSData.Ventura = {
             renderType: "standardService",
             serviceNumber: "824",
             destination: {
-                text: "Moorabbin Station",
+                text: "Moorabbin Stn",
                 font: "Mobitec-7:7"
             },
             scrolls: [
                 "via Westall",
                 "via Clayton",
                 "via Bourke Road"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    8242: { // confirm codes
+        front: {
+            renderType: "standardService",
+            serviceNumber: "824",
+            destination: {
+                text: "Keysborough",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Parkmore S/C",
+                {
+                    renderType: "viaFormat",
+                    serviceNumber: "824",
+                    top: "South/Bourke Rds",
+                    topFont: "Mobitec-7:4",
+                    bottom: "Clayton & Westall",
+                    bottomFont: "Mobitec-7:4",
+                    leftText: "via",
+                    leftFont: "Mobitec-6:5",
+                    leftSpacing: 1
+                },
             ],
             scrollFont: 'Mobitec-6:5'
         }
@@ -2220,6 +2326,20 @@ EDSData.Ventura = {
             },
             scrolls: [
                 "via Patterson Lks"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    8580: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "858",
+            destination: {
+                text: "Edithvale Stn",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Chelsea"
             ],
             scrollFont: 'Mobitec-6:5'
         }
