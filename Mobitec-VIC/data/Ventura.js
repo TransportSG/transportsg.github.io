@@ -251,7 +251,49 @@ EDSData.Ventura = {
         }
     },
 
-    60: { // TRAM REPLACEMENTS
+    10: { // TRAM REPLACEMENTS
+        front: {
+            renderType: "standardService",
+            serviceNumber: "1",
+            destination: {
+                text: "South Melb Beach",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Tram Replacement"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    11: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "1",
+            destination: {
+                text: "East Coburg",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Tram Replacement"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    12: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "1",
+            destination: {
+                text: "Brunswick Depot",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Tram Replacement"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    60: {
         front: {
             renderType: "standardService",
             serviceNumber: "6",
@@ -270,6 +312,20 @@ EDSData.Ventura = {
             renderType: "standardService",
             serviceNumber: "6",
             destination: {
+                text: "Melbourne Uni",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Tram Replacement"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    64: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "6",
+            destination: {
                 text: "Moreland",
                 font: "Mobitec-7:7"
             },
@@ -284,7 +340,7 @@ EDSData.Ventura = {
             renderType: "standardService",
             serviceNumber: "16",
             destination: {
-                text: "Melbourne Uni",
+                text: "Kew",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -298,7 +354,7 @@ EDSData.Ventura = {
             renderType: "standardService",
             serviceNumber: "16",
             destination: {
-                text: "Kew",
+                text: "Melbourne Uni",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -307,34 +363,34 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
-    // 190: {
-    //     front: {
-    //         renderType: "standardService",
-    //         serviceNumber: "19", // Double check
-    //         destination: {
-    //             text: "North Coburg",
-    //             font: "Mobitec-7:7"
-    //         },
-    //         scrolls: [
-    //             "Tram Replacement"
-    //         ],
-    //         scrollFont: 'Mobitec-6:5'
-    //     }
-    // },
-    // 191: {
-    //     front: {
-    //         renderType: "standardService",
-    //         serviceNumber: "19",
-    //         destination: {
-    //             text: "Flinders Street",
-    //             font: "Mobitec-7:7"
-    //         },
-    //         scrolls: [
-    //             "Tram Replacement"
-    //         ],
-    //         scrollFont: 'Mobitec-6:5'
-    //     }
-    // },
+    190: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "19",
+            destination: {
+                text: "North Coburg",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Tram Replacement"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    191: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "19",
+            destination: {
+                text: "City", // format?
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Tram Replacement"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
     580: {
         front: {
             renderType: "standardService",
@@ -349,26 +405,12 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
-    // 581: {
-    //     front: {
-    //         renderType: "standardService",
-    //         serviceNumber: "58",
-    //         destination: {
-    //             text: "",
-    //             font: "Mobitec-7:7"
-    //         },
-    //         scrolls: [
-    //             "Tram Replacement"
-    //         ],
-    //         scrollFont: 'Mobitec-6:5'
-    //     }
-    // },
-    640: {
+    581: {
         front: {
             renderType: "standardService",
-            serviceNumber: "64", // awaiting font
+            serviceNumber: "58",
             destination: {
-                text: "Melbourne Uni",
+                text: "West Coburg",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -377,7 +419,7 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
-    641: {
+    640: {
         front: {
             renderType: "standardService",
             serviceNumber: "64",
@@ -391,12 +433,26 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
+    641: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "64",
+            destination: {
+                text: "Melbourne Uni",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Tram Replacement"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
     670: {
         front: {
             renderType: "standardService",
             serviceNumber: "67",
             destination: {
-                text: "Melbourne Uni",
+                text: "Carnegie",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -410,7 +466,7 @@ EDSData.Ventura = {
             renderType: "standardService",
             serviceNumber: "67",
             destination: {
-                text: "Carnegie",
+                text: "Melbourne Uni",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -552,7 +608,7 @@ EDSData.Ventura = {
             renderType: "standardService",
             serviceNumber: "96",
             destination: {
-                text: "St. Kilda Beach",
+                text: "East Brunswick",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -566,7 +622,7 @@ EDSData.Ventura = {
             renderType: "standardService",
             serviceNumber: "96",
             destination: {
-                text: "East Brunswick",
+                text: "St. Kilda Beach",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -575,26 +631,26 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
-    1090: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "109",
-            destination: {
-                text: "Port Melbourne",
-                font: "Mobitec-7:7"
-            },
-            scrolls: [
-                "Tram Replacement"
-            ],
-            scrollFont: 'Mobitec-6:5'
-        }
-    },
-    1091: {
+    5090: {
         front: {
             renderType: "standardService",
             serviceNumber: "109",
             destination: {
                 text: "Box Hill",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Tram Replacement"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    5091: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "109",
+            destination: {
+                text: "Port Melbourne",
                 font: "Mobitec-7:7"
             },
             scrolls: [
