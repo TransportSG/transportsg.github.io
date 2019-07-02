@@ -219,7 +219,20 @@ EDSData.Ventura = {
             font: "Mobitec-13:8"
         }
     },
-    // suspect 9 is Rail or Train Replacement
+    9: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "All routes board this bus",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                "for connecting services"
+            ],
+            scrollFont: 'Mobitec-7:5:2'
+        }
+    },
 
     4305: {
         front: {
@@ -4198,6 +4211,20 @@ EDSData.Ventura = {
             destination: {
                 text: "Edithvale Stn",
                 font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Chelsea"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    8581: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "858",
+            destination: {
+                text: "Aspendale Gdn",
+                font: "Mobitec-7:6:1"
             },
             scrolls: [
                 "via Chelsea"
