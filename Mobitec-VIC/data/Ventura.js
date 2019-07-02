@@ -644,6 +644,216 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
+    6001: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Darling",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6101: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Darling",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6002: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Burnley",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6102: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Burnley",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6003: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Oakleigh",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6103: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Oakleigh",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6004: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Springvale",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6104: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Springvale",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6005: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Dandenong",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6105: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Dandenong",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6006: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Pakenham",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6106: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Pakenham",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6007: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Cranbourne",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6107: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Cranbourne",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
     6008: {
         front: {
             renderType: "standardService",
@@ -712,7 +922,66 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
-    //6011 suspected moorabbin
+    6009: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Cheltenham",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6109: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Cheltenham",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6011: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Carrum",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6111: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Carrum",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
     6012: {
         front: {
             renderType: "standardService",
@@ -833,6 +1102,216 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
+    6016: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Blackburn",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6116: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Blackburn",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6017: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Mitcham",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6117: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Mitcham",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6018: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Ringwood",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6118: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Ringwood",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6019: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Lilydale",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6119: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Lilydale",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6020: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Belgrave",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6120: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Belgrave",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6021: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Bayswater",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6121: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Bayswater",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6022: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Ferntree Gully",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6122: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Ferntree Gully",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
     6023: {
         front: {
             renderType: "standardService",
@@ -863,6 +1342,66 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
+    6024: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Alamein",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6124: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Alamein",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6025: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Upper Ferntree Gully",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6125: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Upper Ferntree Gully",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
     6026: {
         front: {
             renderType: "standardService",
@@ -884,6 +1423,336 @@ EDSData.Ventura = {
             serviceNumber: "",
             destination: {
                 text: "Glen Waverley",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6027: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Box Hill",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6127: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Box Hill",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6028: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Berwick",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6128: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Berwick",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6029: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Epping",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6129: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Epping",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6030: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Bell",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6130: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Bell",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6031: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Clifton Hill",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6131: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Clifton Hill",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6032: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Victoria Park",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6132: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Victoria Park",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6033: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Hurstbridge",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6133: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Hurstbridge",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6034: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Eltham",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6134: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Eltham",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6035: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Greensborough",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6135: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Greensborough",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6036: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Heidelberg",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6136: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Heidelberg",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6037: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Moorabbin",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6137: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Moorabbin",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -953,6 +1822,576 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
+    6040: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "South Morang",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6140: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "South Morang",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6041: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Sunbury",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6141: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Sunbury",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6042: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Watergardens",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6142: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Watergardens",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6043: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "St Albans",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6143: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "St Albans",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6044: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Footscray",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6144: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Footscray",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6045: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "North Melbourne",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6145: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "North Melbourne",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6046: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Upfield",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6146: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Upfield",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6047: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Broadmeadows",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6147: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Broadmeadows",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6048: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Craigieburn",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6148: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Craigieburn",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6049: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Newport",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6149: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Newport",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6050: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Williamstown",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6150: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Williamstown",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6051: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Laverton",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6151: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Laverton",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6052: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Werribee",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6152: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Werribee",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6053: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Croydon",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6153: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Croydon",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6054: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Westall",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6154: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Westall",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6055: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Richmond",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6155: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Richmond",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6056: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Mooroolbark",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6156: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Mooroolbark",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6057: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Albion",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6157: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Albion",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6058: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Flemington Racecourse",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6158: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Flemington Racecourse",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
     6059: {
         front: {
             renderType: "standardService",
@@ -974,6 +2413,306 @@ EDSData.Ventura = {
             serviceNumber: "",
             destination: {
                 text: "Parliament",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6060: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Boronia",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6160: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Boronia",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6061: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Carnegie",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6161: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Carnegie",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6062: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Murrumbeena",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6162: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Murrumbeena",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6063: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Hughesdale",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6163: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Hughesdale",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6064: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Southland",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6164: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Southland",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6065: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Brighton Beach",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6165: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Brighton Beach",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6066: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Chelsea",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6166: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Chelsea",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6067: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Sunshine",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6167: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Sunshine",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6068: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Essendon",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6168: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Essendon",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6069: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Coburg",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6169: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Coburg",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -1013,6 +2752,128 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
+    6071: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "East Malvern",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6171: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "East Malvern",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6072: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Mernda",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6172: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Mernda",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6073: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Holmesglen",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6173: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Holmesglen",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6074: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Watsonia",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "All Stations"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6174: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Watsonia",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Train Replacement",
+                "Limited Express"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+
+    // THE END OF TRAIN REPLACEMENTS - FOR NOW
 
     2010: { // REGULAR SERVICES
         front: {
