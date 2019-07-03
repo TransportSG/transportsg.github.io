@@ -251,7 +251,65 @@ EDSData.Ventura = {
         }
     },
 
-    10: { // TRAM REPLACEMENTS
+    // TRAM REPLACEMENTS
+    5000: { // check
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "St Kilda Junction",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Tram Replacement"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    5001: { // check
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Arts Centre",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Tram Replacement"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    5002: { // check
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Melbourne Uni",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Tram Replacement"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    5003: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "St Kilda Road",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Tram Replacement"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+
+    10: {
         front: {
             renderType: "standardService",
             serviceNumber: "1",
