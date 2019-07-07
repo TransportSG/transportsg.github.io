@@ -216,7 +216,7 @@ EDSData.Ventura = {
             renderType: "message",
             text: "Set Down Only",
             spacing: 1,
-            font: "Mobitec-13:8"
+            font: "Mobitec-13:10"
         }
     },
     9: {
@@ -234,6 +234,254 @@ EDSData.Ventura = {
         }
     },
 
+    // SCHOOL BUSES
+    1000: {
+        front: {
+            renderType: "message",
+            text: "Mentone Station",
+            spacing: 1,
+            font: "Mobitec-13:10"
+        }
+    },
+    1001: {
+        front: {
+            renderType: "message",
+            text: "South Oakleigh",
+            spacing: 1,
+            font: "Mobitec-13:10"
+        }
+    },
+    1002: {
+        front: {
+            renderType: "message",
+            text: "Mentone Station",
+            spacing: 1,
+            font: "Mobitec-13:10"
+        }
+    },
+    1003: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Ashburton",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Primary School"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    1006: {
+        front: {
+            renderType: "message",
+            text: "Salesian College",
+            spacing: 1,
+            font: "Mobitec-13:10"
+        }
+    },
+    1007: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Mt Waverley",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Secondary College"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    1008: {
+        front: {
+            renderType: "message",
+            text: "South Road",
+            spacing: 1,
+            font: "Mobitec-13:10"
+        }
+    },
+    1430: {
+        front: {
+            renderType: "message",
+            text: "Mazenod College",
+            spacing: 1,
+            font: "Mobitec-13:10"
+        }
+    },
+    1431: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Haleybury",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "College"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    1432: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Cheltenham",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Secondary College"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    1433: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Parkdale",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Secondary College"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    1434: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "South Oakleigh",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Secondary College"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    1435: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Mordialloc Chelsea",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Secondary College"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    1436: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Sandringham",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Secondary College"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    1437: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Berwick",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Secondary College"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    1438: {
+        front: {
+            renderType: "message",
+            text: "John Paul College",
+            spacing: 1,
+            font: "Mobitec-13:10"
+        }
+    },
+    1439: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Montery",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Secondary College"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+
+    // Some special codes
+
+    4300: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Melbourne",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                [{text: "Universit", font: "Mobitec-7:7"},
+                {text: "y", font: "Mobitec-7:5:2"}]
+            ],
+            bottomMargin: 1,
+            scrollFont: 'Mobitec-7:7'
+        }
+    },
+    4301: {
+        front: {
+            renderType: "message",
+            text: "Sovereign Hill",
+            spacing: 1,
+            font: "Mobitec-13:10"
+        }
+    },
+    4302: {
+        front: {
+            renderType: "message",
+            text: "M.S.A.C",
+            spacing: 1,
+            font: "Mobitec-13:10"
+        }
+    },
+    4303: {
+        front: {
+            renderType: "message",
+            text: "Melbourne Airport",
+            spacing: 1,
+            font: "Mobitec-13:8"
+        }
+    },
+    4304: {
+        front: {
+            renderType: "message",
+            text: "Melbourne Zoo",
+            spacing: 1,
+            font: "Mobitec-13:10"
+        }
+    },
     4305: {
         front: {
             renderType: "message",
@@ -242,12 +490,48 @@ EDSData.Ventura = {
             font: "Mobitec-13:10"
         }
     },
+    4306: {
+        front: {
+            renderType: "message",
+            text: "Crown Casino",
+            spacing: 1,
+            font: "Mobitec-13:10"
+        }
+    },
     4307: {
         front: {
             renderType: "message",
-            text: "MELBOURNE",
-            spacing: 4,
-            font: "Mobitec-16:8"
+            text: "Melbourne City",
+            spacing: 1,
+            font: "Mobitec-13:10"
+        }
+    },
+    4308: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Dandenong",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "High School"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    4309: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Hallam SC",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Glenroy" // ?
+            ],
+            scrollFont: 'Mobitec-6:5'
         }
     },
 
@@ -718,6 +1002,20 @@ EDSData.Ventura = {
         }
     },
 
+    5996: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Accessible",
+                font: "Mobitec-6:5"
+            },
+            scrolls: [
+                "Standby Bus",
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
     5997: { // TRAIN REPLACEMENTS
         front: {
             renderType: "destService",
@@ -3225,6 +3523,48 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
+    7010: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "701",
+            destination: {
+                text: "Oakleigh Stn",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Mackie Road"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7011: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "701",
+            destination: {
+                text: "Bentleigh",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Mackie Road"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7012: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "701",
+            destination: {
+                text: "Centre &",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Mackie Roads"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
     7030: {
         front: {
             renderType: "standardService",
@@ -3259,7 +3599,29 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
-    7032: { // check code (1822 south snoakleigh; 1813 uni)
+    7032: {
+        front: {
+            renderType: "destService",
+            serviceNumber: "703",
+            destination: {
+                text: "Monash University", // check formatting
+                font: "Mobitec-7:7"
+            },
+            topMargin: 4
+        }
+    },
+    7033: {
+        front: {
+            renderType: "destService",
+            serviceNumber: "703",
+            destination: {
+                text: "Bentleigh Station", // check formatting
+                font: "Mobitec-7:7"
+            },
+            topMargin: 4
+        }
+    },
+    7034: {
         front: {
             renderType: "destService",
             serviceNumber: "703",
@@ -3270,9 +3632,50 @@ EDSData.Ventura = {
             topMargin: 4
         }
     },
-    // 703 to monash uni; 0721 reach uni
-    // 703 to syndal from bb stn; 1808 reach syndal
-    7037: { // check
+    7035: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Limited Stops",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Syndal Station",
+                "K-Mart Plaza",
+                "Blackburn Station"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7036: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Express",
+                font: "Mobitec-6:5"
+            },
+            scrolls: [
+                [{text: "Monash Universit", font: "Mobitec-7:7"},
+                {text: "y", font: "Mobitec-7:5:2"}]
+            ],
+            bottomMargin: 1,
+            scrollFont: 'Mobitec-7:7'
+        }
+    },
+    7037: {
+        front: {
+            renderType: "destService",
+            serviceNumber: "703",
+            destination: {
+                text: "Syndal Station",
+                font: "Mobitec-7:7"
+            },
+            topMargin: 4
+        }
+    },
+    7038: {
         front: {
             renderType: "standardService",
             serviceNumber: "",
@@ -3335,21 +3738,7 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
-    7042: { // confirm code
-        front: {
-            renderType: "standardService",
-            serviceNumber: "704",
-            destination: {
-                text: "Clayton",
-                font: "Mobitec-7:7"
-            },
-            scrolls: [
-                "Station", // copied off yag 19 mobi
-            ],
-            scrollFont: 'Mobitec-6:5'
-        }
-    },
-    7043: { // confirm code
+    7042: {
         front: {
             renderType: "standardService",
             serviceNumber: "704",
@@ -3359,6 +3748,34 @@ EDSData.Ventura = {
             },
             scrolls: [
                 "Avenue", // copied off yag buse
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7043: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "704",
+            destination: {
+                text: "Clayton",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Station", // check formatting
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7044: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "704",
+            destination: {
+                text: "Westall",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "Station", // check formatting
             ],
             scrollFont: 'Mobitec-6:5'
         }
