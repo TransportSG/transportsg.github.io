@@ -3780,6 +3780,34 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
+    7050: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "705",
+            destination: {
+                text: "Springvale Stn",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Braeside",
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7051: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "705",
+            destination: {
+                text: "Mordialloc Stn",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Braeside",
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
     7080: {
         front: {
             renderType: "standardService",
@@ -4187,6 +4215,64 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
+    7800: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "780",
+            destination: {
+                text: "Frankston Stn",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Seaford"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7801: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "780",
+            destination: {
+                text: "Carrum Stn",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Seaford"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7840: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "784",
+            destination: {
+                text: "Frankston Stn",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Mt. Eliza",
+                "via Mornington"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7841: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "784",
+            destination: {
+                text: "Osborne",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Mornington",
+                "via Mt. Eliza"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
     8000: {
         front: {
             renderType: "standardService",
@@ -4338,6 +4424,36 @@ EDSData.Ventura = {
             scrolls: [
                 "via Parkmore S/C",
                 "via Southland"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    8130: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "813",
+            destination: {
+                text: "Dandenong Stn",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Springvale",
+                "via Parkmore S/C"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    8131: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "813",
+            destination: {
+                text: "Waverley Gdns",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Parkmore S/C",
+                "via Springvale"
             ],
             scrollFont: 'Mobitec-6:5'
         }
@@ -4555,6 +4671,36 @@ EDSData.Ventura = {
             },
             scrolls: [
                 "via Kananook"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    8330: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "833",
+            destination: {
+                text: "Frankston Stn",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Carrum Downs",
+                "via Frankston Nth"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    8331: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "833",
+            destination: {
+                text: "Carrum Stn",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Frankston Nth",
+                "via Carrum Downs"
             ],
             scrollFont: 'Mobitec-6:5'
         }
