@@ -4114,6 +4114,34 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
+    7600: { // check
+        front: {
+            renderType: "standardService",
+            serviceNumber: "760",
+            destination: {
+                text: "Seaford Stn",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Carrum Downs"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7601: { // check
+        front: {
+            renderType: "standardService",
+            serviceNumber: "760",
+            destination: {
+                text: "Cranbourne Stn",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Carrum Downs"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
     7650: {
         front: {
             renderType: "standardService",
@@ -4169,6 +4197,177 @@ EDSData.Ventura = {
             },
             scrolls: [
                 "via Deakin Uni"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7700: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "770",
+            destination: {
+                text: "Frankston Stn",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Ashleigh Ave"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7701: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "770",
+            destination: {
+                text: "Karingal S/C",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Ashleigh Ave"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    //770A - 7702 Orwill st, 7703 frk stn
+    7710: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "771",
+            destination: {
+                text: "Frankston Stn",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Karingal S/C"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7711: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "771",
+            destination: {
+                text: "Langwarrin",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Warrandyte Road",
+                "via Karingal S/C"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7720: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "772",
+            destination: {
+                text: "Frankston Stn",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Foot St",
+                "via Moorooduc Hwy"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7721: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "772",
+            destination: {
+                text: "Eliza Heights",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Overport Road"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7730: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "773",
+            destination: {
+                text: "Frankston Stn",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Kars Street"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7731: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "773",
+            destination: {
+                text: "Frankston Sth",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Kars Street"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7740: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "774",
+            destination: {
+                text: "Frankston Stn",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Foot St"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7741: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "774",
+            destination: {
+                text: "Delacombe Pk",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Foot St"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7750: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "775",
+            destination: {
+                text: "Frankston Stn",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Heatherhill Rd"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7751: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "775",
+            destination: {
+                text: "Lakewood",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Heatherhill Rd" // check
             ],
             scrollFont: 'Mobitec-6:5'
         }
@@ -4243,6 +4442,58 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
+    7811: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "781",
+            destination: {
+                text: "Mt. Martha",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Mt. Eliza",
+                "via Mornington"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7820: {
+        front: {
+            renderType: "destService",
+            serviceNumber: "782",
+            destination: {
+                text: "Frankston",
+                font: "Mobitec-13:10"
+            },
+            topMargin: 1
+        }
+    },
+    7821: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "782",
+            destination: {
+                text: "Flinders",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Somerville",
+                "via Hastings",
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7822: {
+        front: {
+            renderType: "destService",
+            serviceNumber: "782",
+            destination: {
+                text: "Balnarring",
+                font: "Mobitec-13:10"
+            },
+            topMargin: 0
+        }
+    },
     7840: {
         front: {
             renderType: "standardService",
@@ -4267,10 +4518,67 @@ EDSData.Ventura = {
                 font: "Mobitec-7:7"
             },
             scrolls: [
+                "via Mt. Eliza",
+                "via Mornington"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7850: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "785",
+            destination: {
+                text: "Frankston Stn",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
                 "via Mornington",
                 "via Mt. Eliza"
             ],
             scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7851: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "785",
+            destination: {
+                text: "Mornington East",
+                font: "Mobitec-7:6:1"
+            },
+            scrolls: [
+                "via Mt. Eliza",
+                "via Mornington"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    7880: {
+        front: {
+            renderType: "destService",
+            serviceNumber: "788",
+            destination: {
+                text: "Frankston",
+                font: "Mobitec-13:10" // see portsea bound code
+            },
+            topMargin: 1
+        }
+    },
+    7881: {
+        front: {
+            renderType: "destService",
+            serviceNumber: "788",
+            destination: {
+                text: "Portsea",
+                font: "Mobitec-13:10"
+                // somehow has scroll variant?
+                /*
+                via rosebud
+                via dromana
+                */
+            },
+            topMargin: 1
         }
     },
     8000: {
