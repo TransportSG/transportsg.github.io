@@ -1,46 +1,46 @@
-1 Moe- Traralgon Via Morwell 1
-2 Morwell To Churchill 2
-3 Churchill Via Fed Uni 3
-4 Boolarra Via Yinnar 4
+1 Moe- Traralgon Via Morwell 1 -done
+2 Morwell To Churchill 2 -done
+3 Churchill Via Fed Uni 3 -done
+4 Boolarra Via Yinnar 4 -done
 5 Moe- Traralgon Via Yallourn North 5 -done
 6 Traralgon South 6
-7 Churchill Special 7
+7 Churchill Special 7 -done
 8 Moe -done
 9 Yallourn North
-10 Traralgon
+10 Traralgon -done
 11 Moe-Moe West 11 -done
 12 Moe-Moe South 12 -done
 13 Moe-Moe North 13 -done
-14 Moe-Newborough Via Old Sale Road 14
+14 Moe-Newborough Via Old Sale Road 14 -done
 15 Moe-Newborough Via Dinwoodie Drive 15
 19 Sorry Not In Service
-20 Morwell South 20
-21 Morwell To Midvalley Via Crinigan Road 21
-22 Morwell To Midvalley Via Hourigan Road 22
+20 Morwell South 20 -done
+21 Morwell To Midvalley Via Crinigan Road 21 -done
+22 Morwell To Midvalley Via Hourigan Road 22 -done
 23 Midvalley To Morwell Via Crinigan Road 21 -done
 24 Midvalley To Morwell Via Hourigan Road 22 -done
 25 Morwell -done
 30 Churchill Town Service 30 -done
-31 Churchill
+31 Churchill -done
 32 Morwell -done
-40 Traralgon-Cross’s Road 40
-41 Traralgon-Traralgon West 41
-42 Traralgon-Southside 42
-43 Traralgon-Traralgon East 43
-44 Traralgon-Ellavale 44
+40 Traralgon-Cross’s Road 40 -done
+41 Traralgon-Traralgon West 41 -done
+42 Traralgon-Southside 42 -done
+43 Traralgon-Traralgon East 43 -done
+44 Traralgon-Ellavale 44 -done
 45 Traralgon-Traralgon North 45 -done
 50 Not In Service -done
 51 Moe Via Morwell 1 -done
-52 Morwell Via Midvalley 2
+52 Morwell Via Midvalley 2 -done
 53 Traralgon Via Fed Uni 3
 54 Churchill Via Yinnar 4 -done
 55 Moe Via Yallourn North 5
 56 Traralgon 6
 57 Traralgon Special 7
-90 Sale Via Maffra
-91 Traralgon Via Maffra
-92 Sale Via Rosedale
-93 Traralgon Via Rosedale
+90 Sale Via Maffra -done
+91 Traralgon Via Maffra -done
+92 Sale Via Rosedale -done
+93 Traralgon Via Rosedale -done
 94 Sale Via Rosedale & Maffra -done
 95 Maffra -done
 96 Sale -done
@@ -59,7 +59,7 @@
 109 Federation Uni Direct Bus -done
 110 Henry St & Kay Street School Bus -done
 114 Not In Service
-115 Charter
+115 Charter -done
 116 School Bus -done
 117 Country Transfer
 118 East-West Transfer Bus

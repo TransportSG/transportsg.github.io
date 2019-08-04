@@ -66,7 +66,7 @@ EDSFormats.LTVBL = {
                 right: "width(serviceNumber)",
                 bottom: {
                     $$cond: {
-                        "$bottomMargin == null": "0",
+                        "$bottomMargin == null": "1",
                         "else": "$bottomMargin"
                     }
                 }
@@ -88,6 +88,47 @@ EDSFormats.LTVBL = {
 }
 
 EDSData.LTVBL = {
+    1: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "1",
+            top: "MOE-TRARALGON",
+            topFont: "Buse-10:5:1",
+            bottom: 'VIA MORWELL',
+            bottomFont: "Buse-5:5",
+            bottomMargin: 0
+        }
+    },
+    2: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "2",
+            top: [ { text: "MORWELL ", font: "Buse-7:5" }, { text: "TO", font: "Buse-7:4" } ],
+            topFont: "Buse-7:5",
+            bottom: 'CHURCHILL',
+            bottomFont: "Buse-7:5",
+        }
+    },
+    3: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "3",
+            top: 'CHURCHILL',
+            topFont: "Buse-7:5",
+            bottom: [ { text: "VIA ", font: "Buse-7:4" }, { text: "FED UNI", font: "Buse-7:5" } ],
+            bottomFont: "Buse-7:5",
+        }
+    },
+    4: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "4",
+            top: 'BOOLARRA',
+            topFont: "Buse-7:5",
+            bottom: [ { text: "VIA ", font: "Buse-7:4" }, { text: "YINNAR", font: "Buse-7:5" } ],
+            bottomFont: "Buse-7:5",
+        }
+    },
     5: {
         front: {
             renderType: "scroll",
@@ -99,7 +140,8 @@ EDSData.LTVBL = {
                     top: "MOE-TRARALGON",
                     topFont: "Buse-10:5:1",
                     bottom: "VIA",
-                    bottomFont: "Buse-5:5"
+                    bottomFont: "Buse-5:5",
+                    bottomMargin: 0
                 },
                 {
                     renderType: "destScroll",
@@ -107,15 +149,44 @@ EDSData.LTVBL = {
                     top: "MOE-TRARALGON",
                     topFont: "Buse-10:5:1",
                     bottom: "YALLOURN NORTH",
-                    bottomFont: "Buse-5:5"
+                    bottomFont: "Buse-5:5",
+                    bottomMargin: 0
                 }
             ]
+        }
+    },
+    7: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "",
+            top: "CHURCHILL -",
+            topFont: "Buse-7:5",
+            bottom: "SPECIAL",
+            bottomFont: "Buse-7:5"
         }
     },
     8: {
         front: {
             renderType: "message",
             text: "SALE",
+            font: "Buse-16:8",
+            spacing: 3
+        }
+    },
+    11: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "11",
+            top: "MOE -",
+            topFont: "Buse-7:5",
+            bottom: "MOE WEST",
+            bottomFont: "Buse-7:5"
+        }
+    },
+    10: {
+        front: {
+            renderType: "message",
+            text: "TRARALGON",
             font: "Buse-16:8",
             spacing: 3
         }
@@ -148,6 +219,72 @@ EDSData.LTVBL = {
             topFont: "Buse-7:5",
             bottom: "MOE NORTH",
             bottomFont: "Buse-7:5"
+        }
+    },
+    14: {
+        front: {
+            renderType: "scroll",
+            preview: "MOE-TRARALGON 5",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "14",
+                    top: "MOE -",
+                    topFont: "Buse-7:5",
+                    bottom: "NEWBOROUGH",
+                    bottomFont: "Buse-7:5"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "14",
+                    top: "VIA",
+                    topFont: "Buse-7:5",
+                    bottom: "OLD SALE RD",
+                    bottomFont: "Buse-7:5"
+                }
+            ]
+        }
+    },
+    15: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "15",
+            top: "MOE TO",
+            topFont: "Buse-7:5",
+            bottom: "NEWBOROUGH",
+            bottomFont: "Buse-7:5"
+        }
+    },
+    20: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "20",
+            top: "MORWELL",
+            topFont: "Buse-7:5",
+            bottom: "SOUTH",
+            bottomFont: "Buse-7:5"
+        }
+    },
+    21: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "21",
+            top: "MIDVALLEY",
+            topFont: "Buse-7:5",
+            bottom: [ { text: "VIA ", font: "Buse-5:5" }, { text: "CRINIGAN RD", font: "Buse-7:4" } ],
+            bottomFont: "Buse-7:5",
+            bottomSpacing: 1
+        }
+    },
+    22: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "22",
+            top: "MIDVALLEY",
+            topFont: "Buse-7:5",
+            bottom: [ { text: "VIA ", font: "Buse-5:5" }, { text: "HOURIGAN RD", font: "Buse-7:4" } ],
+            bottomFont: "Buse-7:5",
+            bottomSpacing: 1
         }
     },
     23: {
@@ -191,12 +328,41 @@ EDSData.LTVBL = {
             bottomSpacing: 1
         }
     },
+    31: {
+        front: {
+            renderType: "message",
+            text: "CHURCHILL",
+            font: "Buse-16:8",
+            spacing: 3
+        }
+    },
     32: {
         front: {
             renderType: "message",
             text: "MORWELL",
             font: "Buse-16:8",
             spacing: 3
+        }
+    },
+    40: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "40",
+            top: "TRARALGON-",
+            topFont: "Buse-7:5",
+            bottom: "CROSS ROAD",
+            bottomFont: "Buse-7:5"
+        }
+    },
+    41: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "41",
+            top: "TRARALGON-",
+            topFont: "Buse-7:5",
+            bottom: "TRARALGON WEST",
+            bottomFont: "Buse-7:4",
+            bottomSpacing: 1
         }
     },
     42: {
@@ -216,6 +382,17 @@ EDSData.LTVBL = {
             top: "TRARALGON-",
             topFont: "Buse-7:5",
             bottom: "TRARALGON EAST",
+            bottomFont: "Buse-7:4",
+            bottomSpacing: 1
+        }
+    },
+    44: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "44",
+            top: "TRARALGON-",
+            topFont: "Buse-7:5",
+            bottom: "ELLAVALE",
             bottomFont: "Buse-7:4",
             bottomSpacing: 1
         }
@@ -248,6 +425,16 @@ EDSData.LTVBL = {
             bottomFont: "Buse-7:5",
         }
     },
+    52: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "2",
+            top: "MORWELL",
+            topFont: "Buse-7:5",
+            bottom: [ { text: "VIA ", font: "Buse-7:4" }, { text: "MIDVALLEY", font: "Buse-7:5" } ],
+            bottomFont: "Buse-7:5",
+        }
+    },
     54: {
         front: {
             renderType: "destScroll",
@@ -256,6 +443,50 @@ EDSData.LTVBL = {
             topFont: "Buse-7:5",
             bottom: [ { text: "VIA ", font: "Buse-7:4" }, { text: "YINNAR", font: "Buse-7:5" } ],
             bottomFont: "Buse-7:5"
+        }
+    },
+    90: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "",
+            top: "SALE",
+            topFont: "Buse-7:5",
+            bottom: [ { text: "VIA ", font: "Buse-7:4" }, { text: "MAFFRA", font: "Buse-7:5" } ],
+            bottomFont: "Buse-7:5",
+            bottomSpacing: 1
+        }
+    },
+    91: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "",
+            top: "TRARALGON",
+            topFont: "Buse-7:5",
+            bottom: [ { text: "VIA ", font: "Buse-7:4" }, { text: "MAFFRA", font: "Buse-7:5" } ],
+            bottomFont: "Buse-7:5",
+            bottomSpacing: 1
+        }
+    },
+    92: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "",
+            top: "SALE",
+            topFont: "Buse-7:5",
+            bottom: [ { text: "VIA ", font: "Buse-7:4" }, { text: "ROSEDALE", font: "Buse-7:5" } ],
+            bottomFont: "Buse-7:5",
+            bottomSpacing: 1
+        }
+    },
+    93: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "",
+            top: "TRARALGON",
+            topFont: "Buse-7:5",
+            bottom: [ { text: "VIA ", font: "Buse-7:4" }, { text: "ROSEDALE", font: "Buse-7:5" } ],
+            bottomFont: "Buse-7:5",
+            bottomSpacing: 1
         }
     },
     94: {
@@ -402,6 +633,14 @@ EDSData.LTVBL = {
             topFont: "Buse-7:5",
             bottom: "& KAY ST",
             bottomFont: "Buse-7:5"
+        }
+    },
+    115: {
+        front: {
+            renderType: "message",
+            text: "CHARTER",
+            font: "Buse-16:8",
+            spacing: 3
         }
     },
     116: {
