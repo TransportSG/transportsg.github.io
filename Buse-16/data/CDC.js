@@ -5,7 +5,7 @@ EDSFormats.CDC = {
             rotate: true,
             rotateSpeed: 5000,
 
-            font: "Buse-16",
+            font: "Buse-16:7",
             spacing: 1
         },
 
@@ -15,7 +15,7 @@ EDSFormats.CDC = {
         serviceNumber: {
             align: "right",
             text: "$serviceNumber",
-            font: "Buse-16",
+            font: "Buse-16:7",
             spacing: {
                 $$cond: {
                     "$spacing === null" : 1,
