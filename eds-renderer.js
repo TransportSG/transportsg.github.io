@@ -30,7 +30,7 @@
                 }
                 text = new TextObject(data, font, null, spacing);
             } else if (data instanceof Array) {
-                text = new MultiFontTextObject(data, null, null, spacing);
+                text = new MultiFontTextObject(data, font, null, spacing);
             } else { // JSONTextObject
                 text = TextObject.fromJSONTextObject(Object.assign(data, {spacing}));
             }
@@ -96,6 +96,11 @@
             this.text = text.map(textSection => TextObject.fromJSON(textSection, null, spacing));
 
             this.position = position;
+            this.modifiers = exports.Font.getModifiers(' ;' + font);
+        }
+
+        getModifier(name) {
+            return (this.modifiers.filter(e => e[0] === name)[0] || [])[1];
         }
 
         takeMeasure() {
@@ -361,31 +366,32 @@
 
         let {margins} = object;
         let {x, y} = object.position;
+        let dx = 0, dy = 0;
 
         Object.keys(margins).forEach(margin => {
             let shift = parseMarginShifts(margins[margin], allObjects);
 
             switch(margin) {
                 case 'left':
-                    x += Math.round(shift * xmod);
+                    dx += Math.round(shift * xmod);
                     break;
                 case 'right':
-                    x -= Math.round(shift * xmod);
+                    dx -= Math.round(shift * xmod);
                     break;
                 case 'top':
-                    y += Math.round(shift * ymod);
+                    dy += Math.round(shift * ymod);
                     break;
                 case 'bottom':
-                    y -= Math.round(shift * ymod);
+                    dy -= Math.round(shift * ymod);
                     break;
             }
         });
 
-        object.position = new Position(x, y);
+        object.position = new Position(x + dx, y + dy);
         if (object instanceof MultiFontTextObject)
             Object.keys(object.text).forEach(key => {
                 object.text[key].position.x += object.position.x;
-                object.text[key].position.y = object.position.y;
+                object.text[key].position.y += dy;
             });
 
         return object;
@@ -402,16 +408,22 @@
         text.position = new Position(x, y);
 
         if (text instanceof MultiFontTextObject) {
+            let totalMeasure = text.takeMeasure();
+            let align = text.getModifier('align');
             let dx = 0;
 
             text.text = text.text.map(textSection => {
                 let measure = textSection.takeMeasure();
-                let position = new Position(dx, y);
+                let dy = 0;
+                if (align == 'centre') {
+                    dy += Math.ceil((totalMeasure.height - measure.height) / 2);
+                } else if (align == 'bottom') {
+                    dy += totalMeasure.height - measure.height
+                }
+                textSection.position = new Position(dx, y + dy);
 
                 dx += measure.width;
                 dx += textSection.spacing;
-
-                textSection.position = position;
                 return textSection;
             });
         }

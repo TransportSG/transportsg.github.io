@@ -411,7 +411,7 @@ EDSData.LTVBL = {
         front: {
             renderType: "message",
             text: "NOT IN SERVICE",
-            font: "Buse-14:6",
+            font: "Buse-14:7",
             spacing: 1
         }
     },
@@ -447,13 +447,10 @@ EDSData.LTVBL = {
     },
     90: {
         front: {
-            renderType: "destScroll",
-            serviceNumber: "",
-            top: "SALE",
-            topFont: "Buse-7:5",
-            bottom: [ { text: "VIA ", font: "Buse-7:4" }, { text: "MAFFRA", font: "Buse-7:5" } ],
-            bottomFont: "Buse-7:5",
-            bottomSpacing: 1
+            renderType: "message",
+            text: [ {text: "SALE", font: "Buse-14:7"}, {text: "  VIA  ", font: "Buse-7:5;Space-Width=0"}, {text: "MAFFRA", font: "Buse-14:7"} ],
+            font: "align=centre",
+            spacing: 1
         }
     },
     91: {
@@ -494,11 +491,10 @@ EDSData.LTVBL = {
             renderType: "destScroll",
             serviceNumber: "",
             top: "SALE",
-            topFont: "Buse-7:5", // fix centering fonts for multifont
+            topFont: "Buse-7:5",
             bottom: [ { text: "VIA ", font: "Buse-5:5" }, { text: "ROSEDALE, MAFFRA", font: "Buse-7:4" } ],
-            bottomFont: "Buse-7:5",
-            bottomSpacing: 1,
-            bottomMargin: 1
+            bottomFont: "align=centre",
+            bottomSpacing: 1
         }
     },
     95: {
@@ -656,6 +652,14 @@ EDSData.LTVBL = {
             renderType: "message",
             text: "PARKLANE SCHOOL BUS",
             font: "Buse-7:4",
+            spacing: 1
+        }
+    },
+    121: {
+        front: {
+            renderType: "message",
+            text: "COWWARR WEIR",
+            font: "Buse-16:7",
             spacing: 1
         }
     },
