@@ -82,6 +82,14 @@ EDSFormats.CDC = {
 }
 
 EDSData.CDC = {
+    24: {
+        front: {
+            render: "message",
+            text: "SPECIAL",
+            font: "Buse-16:7",
+            spacing: 2
+        }
+    },
     6011: {
         front: {
             renderType: "scroll",

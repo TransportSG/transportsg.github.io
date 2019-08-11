@@ -3377,7 +3377,42 @@ EDSData.Ventura = {
                 font: "Mobitec-7:7"
             },
             scrolls: [
-                "via Mt. Evelyn" // ?
+                "via York Rd",
+                "via Monbulk",
+                "via Silvan",
+                "via Mt. Evelyn"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6631: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "663",
+            destination: {
+                text: "Belgrave Stn",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Mt. Evelyn",
+                "via Silvan",
+                "via Monbulk",
+                "via York Rd",
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6640: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "664",
+            destination: {
+                text: "Knox Park",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Croydon",
+                "via Glen Park",
             ],
             scrollFont: 'Mobitec-6:5'
         }
@@ -3423,7 +3458,24 @@ EDSData.Ventura = {
                 "via Heathmont",
                 "via Canterbury Rd",
                 "via Mt. Evelyn",
+                "via Lilydale"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6791: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "679",
+            destination: {
+                text: "Ringwood Stn",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
                 "via Lilydale",
+                "via Mt. Evelyn",
+                "via Canterbury Rd",
+                "via Heathmont"
             ],
             scrollFont: 'Mobitec-6:5'
         }
