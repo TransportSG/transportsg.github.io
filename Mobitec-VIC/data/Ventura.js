@@ -3382,6 +3382,21 @@ EDSData.Ventura = {
             scrollFont: 'Mobitec-6:5'
         }
     },
+    6700: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "670",
+            destination: {
+                text: "Lilydale Stn",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Croydon",
+                "via Chirnside Park"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
     6720: {
         front: {
             renderType: "standardService",
@@ -3392,6 +3407,23 @@ EDSData.Ventura = {
             },
             scrolls: [
                 "via Midhurst Road" // ?
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6790: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "679",
+            destination: {
+                text: "Chirnside Park",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Heathmont",
+                "via Canterbury Rd",
+                "via Mt. Evelyn",
+                "via Lilydale",
             ],
             scrollFont: 'Mobitec-6:5'
         }
