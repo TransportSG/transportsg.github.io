@@ -122,6 +122,45 @@
 
     }
 
+    exports.BufferedMatrix = class BufferedMatrix {
+
+      constructor(width, height) {
+          this.width = width;
+          this.height = height;
+
+          this.buffer = [];
+          for (let i = 0; i < this.width * this.height; i++) this.buffer.push(false);
+
+          this.flatToTwodim = exports.DOMBasedLEDMatrix.flatToTwodim;
+          this.twodimToFlat = exports.DOMBasedLEDMatrix.twodimToFlat;
+      }
+
+      clearRectangle(x, y, w, h, colour) {
+        for (let dx = 0; dx < w; dx++) {
+          for (let dy = 0; dy < h; dy++) {
+            this.setLEDState(x + dx, y + dy, false);
+          }
+        }
+      }
+
+      onBeginDraw() {
+          this.buffer = [];
+          for (let i = 0; i < this.width * this.height; i++) this.buffer.push(false);
+      }
+
+      onEndDraw() {
+      }
+
+      setLEDState(x, y, state, colour) {
+          if (x >= this.width || x < 0 || y >= this.height || y < 0) return;
+          this.buffer[this.twodimToFlat(x, y, this.width)] = state;
+      }
+
+      getLEDState(x, y) {
+          return !!this.buffer[this.twodimToFlat(x, y, this.width)];
+      }
+    }
+
     exports.DOMBasedLEDMatrix = class DOMBasedLEDMatrix {
 
         constructor(width, height, container) {
@@ -180,7 +219,7 @@
 
     }
 
-    exports.FlipdotMatrix = class FlipdotMatrix extends DOMBasedLEDMatrix {
+    exports.FlipdotMatrix = class FlipdotMatrix extends exports.DOMBasedLEDMatrix {
         constructor(width, height, container) {
             super(width, height, container);
 

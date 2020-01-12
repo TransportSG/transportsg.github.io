@@ -6,7 +6,7 @@ EDSFormats.Ventura = {
             font: {
                 $$cond: {
                     "$serviceFont !== null": "$serviceFont",
-                    "else": "Ventura-16"
+                    "else": "Days-16"
                 }
             },
             spacing: 1
@@ -48,7 +48,7 @@ EDSFormats.Ventura = {
             font: {
                 $$cond: {
                     "$serviceFont !== null": "$serviceFont",
-                    "else": "Ventura-16"
+                    "else": "Days-16"
                 }
             },
             spacing: 1
@@ -122,7 +122,7 @@ EDSFormats.Ventura = {
         serviceNumber: {
             align: "right",
             text: "$serviceNumber",
-            font: "Ventura-16",
+            font: "Days-16",
             spacing: 1
         },
         displayText: {
@@ -881,7 +881,7 @@ EDSData.Ventura = {
                     bottom: "Replacement",
                     bottomFont: "Mobitec-7:4",
                     leftText: "CITY",
-                    leftFont: "Ventura-16",
+                    leftFont: "Days-16",
                     leftSpacing: 2
                 },
                 {
@@ -893,7 +893,7 @@ EDSData.Ventura = {
                     bottomFont: "Mobitec-7:7",
                     bottomMargin: 1,
                     leftText: "CITY",
-                    leftFont: "Ventura-16",
+                    leftFont: "Days-16",
                     leftSpacing: 2
                 }
             ]
@@ -3334,6 +3334,20 @@ EDSData.Ventura = {
             },
             scrolls: [
                 "via Southern Road"
+            ],
+            scrollFont: 'Mobitec-6:5'
+        }
+    },
+    6270: { // check
+        front: {
+            renderType: "standardService",
+            serviceNumber: "627",
+            destination: {
+                text: "Morrabbin Stn",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "via Bentleigh" //?
             ],
             scrollFont: 'Mobitec-6:5'
         }

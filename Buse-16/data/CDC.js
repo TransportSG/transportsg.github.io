@@ -78,17 +78,27 @@ EDSFormats.CDC = {
         },
 
         text: "$text"
-    }
+    },
 }
 
 EDSData.CDC = {
     24: {
         front: {
-            render: "message",
+            renderType: "message",
             text: "SPECIAL",
-            font: "Buse-16:7",
-            spacing: 2
+            spacing: 2,
+            font: "Buse-16:7"
         }
+    },
+    29: {
+      front: {
+            renderType: "destScroll",
+            serviceNumber: "",
+            top: "TRAIN",
+            topFont: "Buse-7:5",
+            bottom: "REPLACEMENT",
+            bottomFont: "Buse-7:5"
+        },
     },
     6011: {
         front: {
