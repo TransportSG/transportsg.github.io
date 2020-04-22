@@ -587,13 +587,12 @@ EDSData.Ventura = {
             serviceNumber: "",
             destination: {
                 text: "Shrine of Remembrance",
-                font: "Mobitec-7:5:2"
+                font: "Mobitec-7:6:1"
             },
             scrolls: [
                 "Anzac Day Dawn Service"
             ],
-            scrollFont: 'Mobitec-7:5:2',
-            bottomMargin: 1
+            scrollFont: 'Mobitec-6:5'
         }
     },
     4501: {
