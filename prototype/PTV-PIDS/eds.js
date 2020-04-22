@@ -60,18 +60,29 @@ document.addEventListener('DOMContentLoaded', () => {
     bottomRow = new LEDMatrix(width, edsHeight, document.getElementById('bottom-pids'));
 
     draw();
-    legacyDrawText(bottomRow, 'Have a good day :', null, 1, 0, 0);
-    legacyDrawText(bottomRow, ')', 'Mobitec-7:5:3', 1, 88, 0);
+    // legacyDrawText(bottomRow, 'Have a good day :', null, 1, 0, 0);
+    // legacyDrawText(bottomRow, ')', 'Mobitec-7:5:3', 1, 88, 0);
 });
 
 function draw() {
     topRow.clearRectangle(0, 0, 120, 7);
-    legacyDrawText(topRow, formatTime(), null, 1, 0, 0);
-    legacyDrawText(topRow, formatDate(), null, 1, 45, 0);
+    bottomRow.clearRectangle(0, 0, 120, 7);
+    legacyDrawText(topRow, "12:00", null, 1, 0, 0);
+    legacyDrawText(topRow, "LILYDALE", null, 1, 30, 0);
 
-    let day = new TextObject(getDayOfWeek(), font75, new Position(0, 0), 1);
-    day.position.x = 120 - day.width - 3;
-    topRow.drawText(day);
+    let timeToDepart = new TextObject("NOW", font75, new Position(0, 0), 1);
+    timeToDepart.position.x = 120 - timeToDepart.width - 3;
+    topRow.drawText(timeToDepart);
+
+    legacyDrawText(bottomRow, "All Except East Richmond", null, 1, 0, 0);
+
+    // topRow.clearRectangle(0, 0, 120, 7);
+    // legacyDrawText(topRow, formatTime(), null, 1, 0, 0);
+    // legacyDrawText(topRow, formatDate(), null, 1, 45, 0);
+    //
+    // let day = new TextObject(getDayOfWeek(), font75, new Position(0, 0), 1);
+    // day.position.x = 120 - day.width - 3;
+    // topRow.drawText(day);
 }
 
 setTimeout(() => {

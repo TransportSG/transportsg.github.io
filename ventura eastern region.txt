@@ -1,0 +1,316 @@
+4310 Mentone Station/via Naples Rd
+4311 Dandenong Stn/Via Lwr Dandenong & Kborough (7x4)
+4312 Chelsea Station 13x8
+4313 Chelsea Heights/Via Patterson River
+4314 John Fawkner Drv/Via Endeavour Hills S/C
+4315 Hallam North/Via Endeavour Hills
+4316 Dandenong Stn/Via Centre D'nong & Kborough (7x4)
+4317 Amalfi Drive/Via Gleneagles
+4318 James Cook College/Via St Johns College
+4319 John Fawkner Drive/Via Gleneagles
+4320 Fountain Gate S/C (13x7)
+4321 Berwick/Via Narre Warren
+4322 Edithvale/Via Wells Road
+4323 Monterey S/C/Via Seaford
+4324 Carrum/Via Hall Road
+4325 Springvale Stn/Via Poice Road
+4500 Shrine of Remembrance (7x7 small)/Anzac Day Dawn Service
+4501 Return Bus to/Camberwell (7x7 both)
+4502 Return Bus to/Sandringham (7x5:1)
+4503 Return Bus to/Box Hill (7x7 both)
+4504 Return Bus to/Mt. Waverley (7x5:1)
+4505 Return Bus to/East Ringwood & Croydon
+4506 Return Bus to/West Heidelberg & Templestowe (7x4)
+4507 Return Bus to/Essendon Windy Hill (7x5:1)
+4508 Return Bus to/Victoria Park (7x7)
+4509 Return Bus to/Coburg (7x5:1)
+4510 Return Bus to/Watsonia & Greensborough
+4511 Return Bus to/Yarraville & Williamstown (7x5:1)
+4512 Charter/Pt Nepean Shuttle
+
+6630 Lilydale Stn/via Monbulk
+6630 Belgrave Stn/via York Road
+6632 Monbulk (13x8)
+6633 Silvan (13x8)
+6634 Mt. Evelyn (13x8)
+
+6640 Chirnside Park (7x7 centre)
+6641 Chirnside Park/via Glen Park
+6642 Chirnside Park/via Jersey Road
+6643 Knox City (13x8)
+6644 Knox City/via Croydon
+6645 Knox City/via Croydon
+6646 Bayswater/Station
+6647 Croydon/Station
+6648 Croydon Stn/via Glen Park
+
+6700 Lilydale Stn/via Croydon/via Chirnside Park
+6701 Ringwood Stn/via Croydon
+6702 Croydon/Station
+6703 Lilydale Lakeside (7x7)/via Croydon
+
+6710 Croydon/Station
+6711 Croydon Station/via North Croydon
+6712 Croydon Station/via Warrien Road
+6713 Chirnside Park (13x7)
+6714 Chirnside Park/via North Croydonn
+6715 Chirnside Park/via Warrien Road
+6716 Birch Avenue (13x7)
+6717 671/2 Wonga Park/via Warrien Rd
+6718 671/2 Croydon Hills(7x7 small)/via Warrien Rd
+
+6720 Croydon Stn (13x7)
+6721 Croydon Stn/via Halloway Road
+6722 Croydon Stn/via Wonga Park
+6723 Croydon Stn/via Maroondah Hwy
+6724 Chirnside Park (7x7 middle)
+6725 Chirnside Park/via Halloway Road
+6726 Chirnside Park/via Wonga Park
+6727 Wonga Park (13x7)
+6728 Wonga Park/via Warrien Road
+6729 Croydon Hills/via Warrien Road
+
+6730 Area1 (Arial or 13x8 check) Chirnside/Park 7x7 both
+6731 Area1 Lilydale/Station
+6732 673 Lilydale Lake
+6733 Area2  (helv) Chirnside/Park 7x7 both
+6734 Area2 Mooroolbark/Station
+6735 Area2 Stop 5 13x8
+6736 Area2  (helv) Chirnside/Park 7x7 both
+6737 Area3 Mooroolbark/Station
+6738 Area3 Stop 9 13x8
+6739 Area4 Croydon/Station
+
+6740 Area4 Mooroolbark/Station
+6741 Area4 Stop 2
+6742 Area 7 13x8
+6743 Area 8 13x8
+6744 Area 9 13x8
+6745 Ferntree Gully/via Area 7
+6746 Ferntree Gully/via Area 8
+6747 Stud Park/via Area 7
+6748 Stud Park/via Area 8
+
+6750 Chirnside Park/via Manchester Rd
+6750 Mooroolbark Stn/via Manchester Rd
+
+6760 Lilydale E Loop/via Summit Road
+
+6770 Lilydale Station/via Switchback Rd
+6771 Lilydale Station/via The Gateway
+6772 Chirnside Park/via The Gateway
+6773 The Gateway
+
+6790 Chirnside Park/via Heathmont
+6791 Ringwood Stn/via Lilydale
+6792 Lilydale Stn 13x7
+6793 Montrose 13x8
+
+6800 Lilydale Stn
+6801 Mooroolbark Stn(7x7 small)/via Lakeview
+6802 Mooroolbark/Station
+6803 Lilydale Station 13x7
+6804 Montrose
+
+6810 Lysterfield/via Stud Park
+6811 Rowville/via Stud Park
+6812 Rowville/Stud Park
+6813 Knox City/via Stud Park
+6814 Waverley Gardens 7x5x1 centre
+6815 Sovereign Crest/Boulevard 7x7 all
+
+6820 Lysterfield/via Stud Park/via Wellington Vlg
+6821 Lysterfield/via Stud Park/via Wellington Vlg
+6822 Rowville/Stud Park
+6823 Knox City/via Stud Park
+6824 Waverley/Gardens 7x7 all
+6825 Lakesfield Drive/& Kellets Road 7x7 small all
+
+6880 Croydon Stn/via Olinda
+6881 Croydon Stn/via Olinda
+6882 Croydon Stn/via Olinda
+6883 Upper F.T. Gully/via Tourist Road/via Olinda
+6884 Upper F.T. Gully/via Ridge Road/via Sky High
+6885 Upper F.T. Gully/via Ridge Road/via Sky High
+6886 Olinda 13x8
+6887 Montrose 13x8
+6888 Ringwood Stn/via Croydon
+
+6890 Croydon Stn/via Durham Road
+6891 Montrose/via Durham Road
+
+6900 Croydon Stn/via Kilsyth
+6901 Boronia Stn/via Kilsyth
+6902 Alchester Village 7x5x1 middle
+
+6910 Boronia Station/via Stud Park
+6911 Waverley Gardens/via Ferntree Gully
+6912 Rowville/Stud Park
+
+6930 Belgrave Stn/via F'tree Gully Road
+6931 Oakleigh Stn/via Burwood Hwy
+6932 Scoresby/Stud Road
+6933 Ferntree Gully/Station
+
+6940 Belgrave Stn/via Sassafras
+6941 Olinda Township (7x7 small)/via Sassafras
+6942 Mt Dandenong/Sky High
+6943 Sassafras 13x8
+
+6950 Belgrave Stn/via Emerald
+6951 Gembrook/via Emerald
+6952 Emerald
+6953 Dandenong/Market 695
+6954 Fountain/Gate 695 7x7 all
+6955 Fountain Gate/via Gembrook 695
+6956 Belgrave Stn/via Gembrook
+
+6960 Olinda Township 7x7small
+6961 Monbulk 13x8
+
+6970 Belgrave Stn/via Colby Drive
+6971 Belgrave Stn/via Colby Drive
+6972 Belgrave Heights 7x7small
+6973 Dandenong/Market 697
+6974 Fountain Gate 7x7 all 697
+
+6990 Belgrave Station 7x7small c
+6991 Upwey Station 7x7 c
+6992 Upwey South/Griffths Road
+6993 Upwey South/Ferndale Avenue
+
+7010 Oakleigh Stn/via Mackie Road
+7011 Bentleigh/via Mackie Road
+7012 Centre Road/Mackie Road
+
+7030 BB/via Bentleigh
+7031 Middle Brighton
+7032 Monash University
+7033 Bentleigh Stn 13x7
+7034 South Oakleigh
+7035 BB Exp
+7036 Monash University/Express
+7037 Syndal Station
+7038 BB Exp
+7039 Express 7x7small/Clayton Station 7x7
+
+7050 Mordi Stn/via Braeside
+7051 Springy Stn/via Braeside
+7052 Heatherton Rd 7x7c
+
+7060 Mordialloc/via Aspendale
+7061 Chelsea Stn/via Aspendale
+
+7080 Hampton Stn/via Aspendale Gdn.
+7081 Carrum Stn/via Southland
+7082 Southland 13x8
+7083 Mordialloc/Station
+7084 Chelsea Heights 7x7smallc
+
+7090 NPK Stn/via WE.
+7091 Mordi Stn/via PMSC
+7092 Mordi Stn/via Governor Road
+7093 Waterways Est.7x7s/via Governor Road
+
+7320 Box Hill/via Knox City
+7321 Upper F.T. Gully/via K-Mart Plaza
+7322 Vermont South 7x7c
+7323 Deakin Uni 13x8
+7324 Knox City 13x8
+7325 Knox Transit Link,Knox City 13x8all
+7326 Knox Transit Link,Vermont South 13x8all
+
+7330 Box HIll/via.
+7331 Oakleigh Stn/via.
+7332 Monash/University
+7333 Clayton Stn 13x8
+7334 South Oakleigh/Cameron Avenue
+
+7340 Glen Waverley/via Ashburton
+7341 Glen Iris Stn/via High St Road
+7342 Warrigal Rd 13x8
+
+7350 Box HIll/via Forst Hill
+7351 K-Mark/BB SOuth
+7352 Nuna Stn7x7s/via K-Mart Plaza
+
+7360 Mitcham Stn/via Forest Hill
+7361 Blackburn Stn/via Vermont South
+7362 GLen Waverley (check font, 13x7?)
+7363 Vermont South 7x7c
+
+7370 Croydon Stn/via Glen W
+7371 Monash Uni/Via
+7372 Boronia Stn 13x8
+7373 Knox City 13x8
+7374 Glen Waverley 7x7c
+
+7380 Mitcham Stn/via Knox Priv Hosp
+7380 Knox City/via Knox Priv Hosp
+
+7400 Mitcham Stn 13x8
+7401 Vermont/Centre Road
+
+7420 Eastland/via Oakleigh
+7421 Chadstone/via Vermont South/via Oakleigh
+7422 Oakleigh Stn 13x7
+7423 Heatherdale/Station
+7424 Vermont South 7x7c
+7425 Glen Waverley 7x7c
+7426 High Street Road &/Galaghers Road 6x5smallall
+7427 Camelot Drive &/Highbury Road 7x5x1
+
+7450 Bayswater Stn 7x7c
+7451 Boronia Stn 13x8
+7452 Knox City 13x8
+7453 Wantirna/Primary School
+
+7530 Glen Wav/via Scoresby Road
+7531 Boronia Stn/via F.T. Gully Road
+7532 Scoresby/Borg Cresent
+7533 Scoresby/Stud Road
+7534 Knoxfield Shops 7x7s
+7535 Bayswater Stn/via F.T. Gully Road
+
+7540 Glen Waverley/via Wheelers Hill
+7541 Wheelers Hill
+7542 Rowville/Stud Park
+7543 Express 13x8
+7544 Glen Waverley/& Wesley College
+
+7550 Bayswater Stn/via Mountain Gate
+7551 Knox City/via The Basin
+7552 The Basin 13x8
+7553 Windemere Dr/Ferntree Gully Rd 7x5x1 all
+7554 Mountain Gate 7x7c
+7555 Boronia Stn 13x7
+
+7570 Knox City/via Fonteyn Drive
+7571 Scoresby/Borg Cresent
+
+7580 Knox City/via Wallace Road
+7581 Knoxfield Shops/via Wallace Road
+
+1010 Forster Road 13x8
+
+
+7650 Box Hill/via Brentford Sq/via Forest Hill/via Blackburn
+7651 Mitcham/via Blackburn
+7652 Brnetford Square (7x7 middle)
+7653 Hawthorn Road/Springvale Road
+7654 Blackburn Stn (7x7 middle)
+
+7660 Box Hill/via Surrey Hills
+7661 Burwood/via Surrey Hills
+7662 Surrey Hills/Station
+
+7670 Box Hill/via Chadstone
+7671 Southland/via Deakin Uni
+7672 Chadstone (13x8)
+7673 Centre Road/Mackie Road
+7674 Waverley Road/Huntingdale Road (7x7 small both)
+7675 Deakin Uni (13x8)
+7676 Deakin Uni/Express
+
+7680 Box Hill/via Wattle Park
+7681 Deakin Uni/via Wattle Park

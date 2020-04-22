@@ -8,10 +8,10 @@ LAWO-12:5
 LAWO-16 // smrt oc lawo number
 LAWO-SMRT-26:9 // sbsmrt citaro lawo dest(?)
 LAWO-26:12 // sbsmrt citaro lawo something
-Coolair-16
+Coolair-16 // coolair number
 Coolair-20
-Coolair-6
-Coolair-8
+Coolair-6 // coolair via
+Coolair-8 // coolair >
 TransitMedia-7
 TransitMedia-7:5
 TransitMedia-19
