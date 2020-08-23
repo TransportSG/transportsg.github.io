@@ -15,7 +15,12 @@ EDSFormats.CDC = {
         serviceNumber: {
             align: "right",
             text: "$serviceNumber",
-            font: "Buse-16:8",
+            font: {
+              $$cond: {
+                "$font === null": "Buse-16:8",
+                "else": "$font"
+              }
+            },
             spacing: {
                 $$cond: {
                     "$spacing === null" : 1,
@@ -158,10 +163,11 @@ EDSData.CDC = {
         front: {
             renderType: "destScroll",
             serviceNumber: "630",
-            top: "ELWOOD",
-            topFont: "Buse-7:5",
-            bottom: "BENT AVE",
-            bottomFont: "Buse-7:5"
+            font: "Buse-16:7",
+            top: "ELWOOD BENT AVE",
+            topFont: "Buse-7:4",
+            bottom: "Via ORMOND STN",
+            bottomFont: "Buse-7:4"
         }
     },
     9001: {
