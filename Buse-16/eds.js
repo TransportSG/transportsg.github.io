@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
     generateLEDCssCode();
 
     frontEDS = new LEDMatrix(frontEDSWidth, edsHeight, document.getElementById('front-eds'), FlipdotMatrix);
-    setCode(94, 'LTVBL');
+    setCode(6011, 'CDC');
 });
 
 window.addEventListener('resize', generateLEDCssCode);
