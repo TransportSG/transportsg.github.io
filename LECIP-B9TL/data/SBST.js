@@ -837,10 +837,10 @@ EDSData.SBST = {
                 destinationFont: "LECIP-7:5",
                 scrolls: [
                     "UPP EAST COAST RD",
-                    'MARINE PARADE RD',
-                    'JOO CHIAT RD',
-                    'SOMERSET RD',
-                    'TIONG BAHRU RD'
+                    "MARINE PARADE RD",
+                    "JOO CHIAT RD",
+                    "SOMERSET RD",
+                    "TIONG BAHRU RD"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -859,16 +859,64 @@ EDSData.SBST = {
                 destinationFont: "LECIP-10",
                 scrolls: [
                     "TIONG BAHRU RD",
-                    'ORCHARD RD',
-                    'JOO CHIAT RD',
-                    'MARINE PARADE RD',
-                    'UPP EAST COAST RD'
+                    "ORCHARD RD",
+                    "JOO CHIAT RD",
+                    "MARINE PARADE RD",
+                    "UPP EAST COAST RD"
                 ],
                 scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
                 serviceNumber: "16",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        },
+    },
+    "16M": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "16M",
+                destination: "> BUKIT MERAH INT",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    "UPP EAST COAST RD",
+                    "MARINE PARADE RD",
+                    "JOO CHIAT RD",
+                    "SOMERSET RD",
+                    "TIONG BAHRU RD",
+                    "JALAN BUKIT MERAH"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "16M",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "16M",
+                destination: "> BEDOK INT",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    "JALAN BUKIT MERAH",
+                    "TIONG BAHRU RD",
+                    "ORCHARD RD",
+                    "JOO CHIAT RD",
+                    "MARINE PARADE RD",
+                    "UPP EAST COAST RD"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "16M",
                 font: "LECIP-20:12",
                 spacing: 2
             }
@@ -5253,6 +5301,36 @@ EDSData.SBST = {
                 renderType: "rearService",
                 serviceNumber: "139",
                 font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    "139A": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "139A",
+                terminateAt: "JLN BAHAGIA",
+                  landmark: "(BET BLKS 33/34)"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "139A",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "139A",
+                terminateAt: "KIM KEAT RD",
+                landmark: "(OPP JUMBO IND BLDG)"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "139A",
+                font: "LECIP-20:6",
                 spacing: 2
             }
         }
@@ -10492,6 +10570,65 @@ EDSData.SBST = {
             }
         }
     },
+    974: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "974",
+                destination: "> BUKIT PANJANG STN",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    'UPPER JURONG RD',
+                    'JURONG WEST ST 63',
+                    'JALAN BOON LAY',
+                    'CHOA CHU KANG WAY'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "974",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "974",
+                destination: "> JOO KOON INT",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    'CHOA CHU KANG WAY',
+                    'JALAN BOON LAY',
+                    'JURONG WEST ST 63',
+                    'UPPER JURONG RD'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "974",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    "974A": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "974A",
+                landmark: "CCK AVE 4 (LOT 1/CCK STN)"
+            },
+             rear: {
+                renderType: "rearService",
+                serviceNumber: "974A",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
     988: {
         1: {
             front: {
@@ -10597,6 +10734,40 @@ EDSData.SBST = {
             }
         }
     },
+    7000: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "LRT SHUTTLE EAST",
+                font: "LECIP-14:6",
+                spacing: 2
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "LRT",
+                topFont: "LECIP-7:4",
+
+                bottom: "EAST",
+                bottomFont: "LECIP-7:4"
+            }
+        },
+        2: {
+            front: {
+                renderType: "message",
+                text: "LRT SHUTTLE WEST",
+                font: "LECIP-14:6",
+                spacing: 2
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "LRT",
+                topFont: "LECIP-7:4",
+
+                bottom: "WEST",
+                bottomFont: "LECIP-7:4"
+            }
+        }
+    },
     7777: {
         1: {
             front: {
@@ -10607,6 +10778,24 @@ EDSData.SBST = {
             } // check
         }
     },
+    9000: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "HAPPY BUS",
+                font: "LECIP-20:12",
+                spacing: 3
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "HAPPY",
+                topFont: "LECIP-7:4",
+
+                bottom: "BUS",
+                bottomFont: "LECIP-7:4"
+            }
+        }
+    },
     9999: {
         1: {
             front: {
@@ -10614,6 +10803,14 @@ EDSData.SBST = {
                 text: "VER. 09JUN19-DD",
                 font: "LECIP-14:6",
                 spacing: 1
+            },
+             rear: {
+                renderType: 'twoline',
+                top: "VER. 09",
+                topFont: "LECIP-6:3",
+
+                bottom: "JUN19-DD",
+                bottomFont: "LECIP-6:3"
             }
         }
     },
