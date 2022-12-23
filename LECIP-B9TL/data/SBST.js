@@ -1156,7 +1156,7 @@ EDSData.SBST = {
             }
         }
     },        
-    22T: {
+    "22T": {
         1: {
             front: {
                 renderType: "standardService",
@@ -2234,7 +2234,7 @@ EDSData.SBST = {
             }
         }
     },
-    50C: {
+    "50C": {
         1: {
             front: {
                 renderType: "message",
@@ -2242,7 +2242,7 @@ EDSData.SBST = {
                 font: "LECIP-20:12",
                 spacing: 1
             },
-             rear: {
+            rear: {
                 renderType: 'twoline',
                 top: "CHINGAY",
                 topFont: "LECIP-6:3",
@@ -11513,7 +11513,7 @@ EDSData.SBST = {
                 font: "LECIP-14:6",
                 spacing: 2
             },
-             rear: {
+            rear: {
                 renderType: 'twoline',
                 top: "BRIDGING",
                 topFont: "LECIP-6:3",
