@@ -266,7 +266,7 @@ EDSData.SBST = {
                 rear: {
                 renderType: "rearService",
                 serviceNumber: "ALL",
-                font: "LECIP-14:6",
+                font: "LECIP-20:9",
                 spacing: 2
             }
         }
@@ -1111,6 +1111,52 @@ EDSData.SBST = {
         }
     },
     22: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "22",
+                destination: "> EUNOS INT",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    "ANG MO KIO AVE 8",
+                    "SERANGOON CTRL",
+                    "UPPER PAYA LEBAR RD",
+                    "UBI AVE 2",
+                    "EUNOS LINK"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "22",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        },   
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "22",
+                destination: "> ANG MO KIO INT",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    "EUNOS LINK",
+                    "UBI AVE 2",
+                    "UPPER PAYA LEBAR RD",
+                    "SERANGOON CTRL",
+                    "ANG MO KIO AVE 8"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "22",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        }
+    },        
+    "22T": {
         1: {
             front: {
                 renderType: "standardService",
@@ -2188,6 +2234,24 @@ EDSData.SBST = {
             }
         }
     },
+    "50C": {
+        1: {
+            front: {
+                renderType: "message",
+                text: "CHINGAY 50",
+                font: "LECIP-20:12",
+                spacing: 1
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "CHINGAY",
+                topFont: "LECIP-6:3",
+
+                bottom: "50",
+                bottomFont: "LECIP-6:3"
+            }
+        }
+    }, 
     51: {
         1: {
             front: {
@@ -4564,7 +4628,7 @@ EDSData.SBST = {
                 renderType: "standardService",
                 serviceNumber: "117M",
                 destination: "> SEMBAWANG INT",
-                destinationFont: "LECIP-10",
+                destinationFont: "LECIP-7:5",
                 scrolls: [
                     "PUNGGOL WAY",
                     "SELETAR A'SPACE DR",
@@ -4660,7 +4724,7 @@ EDSData.SBST = {
             }
         }
     },
-    122: { // TODO: scroll font
+    122: {
         1: {
             front: {
                 renderType: "standardService",
@@ -6330,7 +6394,7 @@ EDSData.SBST = {
         1: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "160B",
+                serviceNumber: "160",
                 destination: "> MARSILING PARK",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
@@ -6343,15 +6407,15 @@ EDSData.SBST = {
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "160B",
-                font: "LECIP-20:6",
+                serviceNumber: "160",
+                font: "LECIP-20:9",
                 spacing: 1
             }
         },
         2: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "160B",
+                serviceNumber: "160",
                 destination: "> JURONG EAST INT",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
@@ -6364,8 +6428,8 @@ EDSData.SBST = {
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "160B",
-                font: "LECIP-20:6",
+                serviceNumber: "160",
+                font: "LECIP-20:9",
                 spacing: 1
             }
         }
@@ -6793,14 +6857,14 @@ EDSData.SBST = {
             front: {
                 renderType: "swt",
                 serviceNumber: "170A",
-                terminateAt: "WOODLANDS CTR RD",
+                terminateAt: "W'LANDS CTR RD",
                 landmark: "(W'LANDS TRAIN CHECKPT)"
             },
             rear: {
                 renderType: "rearService",
                 serviceNumber: "170A",
                 font: "LECIP-20:6",
-                spacing: 1
+                spacing: 2
             }
         }
     },
@@ -6822,7 +6886,7 @@ EDSData.SBST = {
                 renderType: "rearService",
                 serviceNumber: "170X",
                 font: "LECIP-20:6",
-                spacing: 1
+                spacing: 2
             }
         },
         2: {
@@ -6842,7 +6906,7 @@ EDSData.SBST = {
                 renderType: "rearService",
                 serviceNumber: "170X",
                 font: "LECIP-20:6",
-                spacing: 1
+                spacing: 2
             }
         }
     },
@@ -9279,7 +9343,7 @@ EDSData.SBST = {
             },
             rear: {
                 renderType: "twoline",
-                top: "SCSM 17-",
+                top: "SCSM 17",
                 topFont: "LECIP-6:3",
 
                 bottom: "KALLANG",
@@ -9299,7 +9363,7 @@ EDSData.SBST = {
             },
             rear: {
                 renderType: "twoline",
-                top: "SCSM 17-",
+                top: "SCSM 17",
                 topFont: "LECIP-6:3",
 
                 bottom: "ORCHARD",
@@ -9319,7 +9383,7 @@ EDSData.SBST = {
             },
             rear: {
                 renderType: "twoline",
-                top: "SCSM 17-",
+                top: "SCSM 17",
                 topFont: "LECIP-6:3",
 
                 bottom: "SOMERSET",
@@ -11292,10 +11356,10 @@ EDSData.SBST = {
                 rear: {
                 renderType: 'twoline',
                 top: "NEL",
-                topFont: "LECIP-7:4",
+                topFont: "LECIP-6:3",
 
                 bottom: "BRIDGING",
-                bottomFont: "LECIP-7:4"
+                bottomFont: "LECIP-6:3"
             }
         }
     },
@@ -11310,10 +11374,10 @@ EDSData.SBST = {
                 rear: {
                 renderType: 'twoline',
                 top: "DTL",
-                topFont: "LECIP-7:4",
+                topFont: "LECIP-6:3",
 
                 bottom: "BRIDGING",
-                bottomFont: "LECIP-7:4"
+                bottomFont: "LECIP-6:3"
             }
         }
     },
@@ -11328,10 +11392,10 @@ EDSData.SBST = {
                 rear: {
                 renderType: 'twoline',
                 top: "CCL",
-                topFont: "LECIP-7:4",
+                topFont: "LECIP-6:3",
 
                 bottom: "BRIDGING",
-                bottomFont: "LECIP-7:4"
+                bottomFont: "LECIP-6:3"
             }
         }
     },
@@ -11346,10 +11410,10 @@ EDSData.SBST = {
                 rear: {
                 renderType: 'twoline',
                 top: "EWL",
-                topFont: "LECIP-7:4",
+                topFont: "LECIP-6:3",
 
                 bottom: "BRIDGING",
-                bottomFont: "LECIP-7:4"
+                bottomFont: "LECIP-6:3"
             }
         }
     },       
@@ -11364,10 +11428,10 @@ EDSData.SBST = {
                 rear: {
                 renderType: 'twoline',
                 top: "NSL",
-                topFont: "LECIP-7:4",
+                topFont: "LECIP-6:3",
 
                 bottom: "BRIDGING",
-                bottomFont: "LECIP-7:4"
+                bottomFont: "LECIP-6:3"
             }
         }
     },
@@ -11382,10 +11446,10 @@ EDSData.SBST = {
                 rear: {
                 renderType: 'twoline',
                 top: "TEL",
-                topFont: "LECIP-7:4",
+                topFont: "LECIP-6:3",
 
                 bottom: "BRIDGING",
-                bottomFont: "LECIP-7:4"
+                bottomFont: "LECIP-6:3"
             }
         }
     },
@@ -11400,10 +11464,10 @@ EDSData.SBST = {
                 rear: {
                 renderType: 'twoline',
                 top: "LRT",
-                topFont: "LECIP-7:4",
+                topFont: "LECIP-6:3",
 
                 bottom: "BRIDGING",
-                bottomFont: "LECIP-7:4"
+                bottomFont: "LECIP-6:3"
             }
         }
     },
@@ -11446,8 +11510,16 @@ EDSData.SBST = {
             front: {
                 renderType: "message",
                 text: "FREE BRIDGING BUS",
-                font: "LECIP-20:9",
+                font: "LECIP-14:6",
                 spacing: 2
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "BRIDGING",
+                topFont: "LECIP-6:3",
+
+                bottom: "BUS",
+                bottomFont: "LECIP-6:3"
             } // check
         }
     },
