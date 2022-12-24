@@ -4617,7 +4617,7 @@ EDSData.SBST = {
             }
         }
     },
-    114: 
+    114: {
         1: {
             front: {
                 renderType: "standardService",
