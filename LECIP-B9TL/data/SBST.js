@@ -947,7 +947,7 @@ EDSData.SBST = {
                     "TAMPINES AVE 7",
                     'TAMPINES AVE 2',
                     'BEDOK RESERVOIR RD',
-                    'BEDOK '
+                    'BEDOK'
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -980,7 +980,7 @@ EDSData.SBST = {
             }
         }
     },    
-    18B: {
+    "18B": {
         1: {
             front: {
                 renderType: "standardService",
@@ -2162,7 +2162,7 @@ EDSData.SBST = {
             }
         }
     },
-    46T: {
+    "46T": {
         1: {
             front: {
                 renderType: "standardService",
@@ -5188,7 +5188,7 @@ EDSData.SBST = {
             }
         }
     },
-    129T: {
+    "129T": {
         1: {
             front: {
                 renderType: "standardService",
@@ -5518,7 +5518,7 @@ EDSData.SBST = {
             }
         }
     },
-   "135S': {
+    "135S": {
         1: {
             front: {
                 renderType: "standardService",
@@ -6658,7 +6658,7 @@ EDSData.SBST = {
             }
         }
     },
-    160M: {
+    "160M": {
         1: {
             front: {
                 renderType: "standardService",
@@ -9449,8 +9449,7 @@ EDSData.SBST = {
                 font: "LECIP-20:9",
                 spacing: 2
             }
-        }
-    },
+        },
         2: {
             front: {
                 renderType: "standardService",
@@ -9484,14 +9483,8 @@ EDSData.SBST = {
                 serviceNumber: "409",
                 font: "LECIP-20:9",
                 spacing: 2
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "408",
-                font: "LECIP-20:9",
-                spacing: 2
             }
-        }
-    },
+        },
         2: {
             front: {
                 renderType: "standardService",
