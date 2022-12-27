@@ -172,7 +172,7 @@ function firmware() {
         if (keybinds[event.key]) {
             event.preventDefault()
             registerKeyPress(keybinds[event.key])
-        } else if (!isNaN(event.key)) {
+        } else if (!isNaN(event.key) && !(event.altKey || event.ctrlKey || event.metaKey || event.shiftKey)) {
             event.preventDefault()
             registerNumericalKeyPress(event.key)
         }
