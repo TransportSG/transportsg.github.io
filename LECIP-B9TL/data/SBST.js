@@ -1851,8 +1851,6 @@ EDSData.SBST = {
                 spacing: 2
             }
         },
-            }
-        }
     },
     35: {
         1: {
@@ -5657,7 +5655,8 @@ EDSData.SBST = {
                 font: "LECIP-20:9",
                 spacing: 2
             }
-        },        
+        },
+    },  
     135: {
         1: {
             front: {
@@ -6863,15 +6862,14 @@ EDSData.SBST = {
             }
         }
     },
-    160K: {
+    "160K": {
         1: {
             front: {
                 renderType: "brandedSvc",
                 serviceNumber: "160",
                 branding: "KOTARAYA",
                 font: "LECIP-20:12",
-                spacing: 2
-                ],
+                spacing: 2,
                 scrollFont: "LECIP-7:5"
             },
             rear: {
@@ -6887,8 +6885,7 @@ EDSData.SBST = {
                 serviceNumber: "160",
                 branding: "JURONG EAST",
                 font: "LECIP-20:12",
-                spacing: 2
-                ],
+                spacing: 2,
                 scrollFont: "LECIP-7:5"
             },
             rear: {
@@ -7307,10 +7304,10 @@ EDSData.SBST = {
                 destination: "> LARKIN TER",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                    'BUKIT TIMAH RD',
-                    'UPPER BT TIMAH RD',
-                    'WOODLANDS RD',
-                    'WOODLANDS CTR RD'
+                    "BUKIT TIMAH RD",
+                    "UPPER BT TIMAH RD",
+                    "WOODLANDS RD",
+                    "WOODLANDS CTR RD"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -7328,10 +7325,10 @@ EDSData.SBST = {
                 destination: "> QUEEN ST TER",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
-                    'WOODLANDS CTR RD',
-                    'WOODLANDS RD',
-                    'UPPER BT TIMAH RD',
-                    'DUNEARN RD'
+                    "WOODLANDS CTR RD",
+                    "WOODLANDS RD",
+                    "UPPER BT TIMAH RD",
+                    "DUNEARN RD"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -7367,9 +7364,9 @@ EDSData.SBST = {
                 destination: "> JB SENTRAL",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                    'WOODLANDS RD',
-                    'WOODLANDS CROSSING',
-                    'JB SENTRAL'
+                    "WOODLANDS RD",
+                    "WOODLANDS CROSSING",
+                    "JB SENTRAL"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -7387,9 +7384,9 @@ EDSData.SBST = {
                 destination: "> KRANJI STN",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                    'JB SENTRAL',
-                    'WOODLANDS CROSSING',
-                    'WOODLANDS RD'
+                    "JB SENTRAL",
+                    "WOODLANDS CROSSING",
+                    "WOODLANDS RD"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -7401,15 +7398,14 @@ EDSData.SBST = {
             }
         }
     },
-    170Y: {
+    "170Y": {
         1: {
             front: {
                 renderType: "brandedSvc",
                 serviceNumber: "170",
                 branding: "LARKIN",
                 font: "LECIP-20:12",
-                spacing: 2
-                ],
+                spacing: 2,
                 scrollFont: "LECIP-7:5"
             },
             rear: {
@@ -7419,14 +7415,13 @@ EDSData.SBST = {
                 spacing: 2
             }
         },
-        1: {
+        2: {
             front: {
                 renderType: "brandedSvc",
                 serviceNumber: "170",
                 branding: "QUEEN ST",
                 font: "LECIP-20:12",
-                spacing: 2
-                ],
+                spacing: 2,
                 scrollFont: "LECIP-7:5"
             },
             rear: {
@@ -7437,15 +7432,14 @@ EDSData.SBST = {
             }
         }
     },
-    170Z: {
+    "170Z": {
         1: {
             front: {
                 renderType: "brandedSvc",
                 serviceNumber: "170X",
                 branding: "JB SENTRAL",
                 font: "LECIP-20:12",
-                spacing: 2
-                ],
+                spacing: 2,
                 scrollFont: "LECIP-7:5"
             },
             rear: {
@@ -7455,14 +7449,13 @@ EDSData.SBST = {
                 spacing: 2
             }
         },
-        1: {
+        2: {
             front: {
                 renderType: "brandedSvc",
                 serviceNumber: "170X",
                 branding: "KRANJI STN",
                 font: "LECIP-20:12",
-                spacing: 2
-                ],
+                spacing: 2,
                 scrollFont: "LECIP-7:5"
             },
             rear: {
@@ -7563,11 +7556,11 @@ EDSData.SBST = {
                 destinationFont: "LECIP-7:5",
                 scrolls: [
                     "PASIR PANJANG RD",
-                    'ALEXANDRA RD',
-                    'JLN BUKIT MERAH',
-                    'ORCHARD RD',
-                    'BRAS BASAH RD',
-                    'KALLANG BAHRU'
+                    "ALEXANDRA RD",
+                    "JLN BUKIT MERAH",
+                    "ORCHARD RD",
+                    "BRAS BASAH RD",
+                    "KALLANG BAHRU"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -7678,12 +7671,13 @@ EDSData.SBST = {
                 scrolls: [
                     "JURONG WEST ST 64",
                     "JURONG WEST ST 75",
-                    'JURONG WEST AVE 5',
-                    'JURONG WEST AVE 3'
-                ],                    "JURONG WEST ST 64",
+                    "JURONG WEST AVE 5",
+                    "JURONG WEST AVE 3",
+                    "JURONG WEST ST 64",
                     "JURONG WEST ST 75",
-                    'JURONG WEST AVE 5',
-                    'JURONG WEST AVE 3'
+                    "JURONG WEST AVE 5",
+                    "JURONG WEST AVE 3"
+                ],
                 scrollFont: "LECIP-7:5"
             },
             rear: {
@@ -7694,7 +7688,6 @@ EDSData.SBST = {
             }
         }
     },
-    18        
     182: {
         1: {
             front: {
@@ -7716,8 +7709,7 @@ EDSData.SBST = {
                 font: "LECIP-20:9",
                 spacing: 2
             }
-        }
-    },
+        },
         2: {
             front: {
                 renderType: "standardService",
@@ -7739,7 +7731,7 @@ EDSData.SBST = {
                 spacing: 2
             }
         }
-    },        
+    },
     "182M": {
         1: {
             front: {
@@ -8852,7 +8844,7 @@ EDSData.SBST = {
                     "TUAS AVE 20",
                     "TUAS STH AVE 5",
                     "TUAS STH AVE 14",
-                    "TUAS SOUTH WAY"
+                    "TUAS SOUTH WAY",
                     "TUAS STH AVE 9",
                     "TUAS STH AVE 10",
                 ],
@@ -9455,9 +9447,9 @@ EDSData.SBST = {
                 destination: "TAMP CONCOURSE INT-TAMP ST 86",
                 destinationFont: "LECIP-6:3",
                 scrolls: [
-                    'TAMPINES CENTRAL 1',
-                    'TAMPINES AVE 4',
-                    'TAMPINES AVE 3'
+                    "TAMPINES CENTRAL 1",
+                    "TAMPINES AVE 4",
+                    "TAMPINES AVE 3"
                 ],
                 scrollFont: "LECIP-6:3"
             },
@@ -9477,11 +9469,11 @@ EDSData.SBST = {
                 destination: "TAMP NORTH INT-TAMP ST 86",
                 destinationFont: "LECIP-6:3",
                 scrolls: [
-                    'TAMPINES ST 62',
-                    'TAMPINES NORTH DR 2',
-                    'TAMPINES CONCOURSE'
-                    'TAMPINES AVE 4',
-                    'TAMPINES AVE 3'
+                    "TAMPINES ST 62",
+                    "TAMPINES NORTH DR 2",
+                    "TAMPINES CONCOURSE",
+                    "TAMPINES AVE 4",
+                    "TAMPINES AVE 3"
                 ],
                 scrollFont: "LECIP-6:3"
             },
@@ -12415,7 +12407,7 @@ EDSData.SBST = {
                 bottomFont: "LECIP-6:3"
             }
         }
-    },
+    }
 }
 
 EDSImages.SBST = {
