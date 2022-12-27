@@ -37,6 +37,71 @@ EDSFormats.SBST.pids = EDSFormats.SMRT.pids;
 
 
 EDSData.SBST = {
+    64: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "64",
+                destination: {
+                    text: ">MEI LING ST",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "ALJUNIED RD",
+                    "BENDEMEER RD",
+                    "JALAN BESAR",
+                    "CLEMENCEAU AVE",
+                    "TIONG BAHRU RD",
+                    "STIRLING RD"
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "64",
+                destination: "MEI LING ST",
+                scrolls: [
+                    "SIMS PL TER",
+                    "BLK 49 MKT/FC"
+                    "OPP BLK 53"
+                    "SIMS URBAN OASIS"
+                    "OPP BLK 125"
+                    "OPP CANNOSA CATHOLIC PR"
+                    "OPP ALJUNIED PK"
+                    "CENCON BLDG"
+                    "GULAB BLDG"
+                    "BEF SIEMENS CTR"
+                    "MOM SVCS CTR"
+                    "BLK 54"
+                    "BLK 44"
+                    "OPP BOON KENG STN"
+                    "BEF LAVENDER ST"
+                    "HOA NAM BLDG"
+                    "AFT ALLENBY RD"
+                    "OPP VEERASAMY RD"
+                    "JLN BESAR STN EXIT A"
+                    "IBIS S'PORE ON BENCOOLEN"
+                    "BEF BENCOOLEN STN EXIT A"
+                    "YMCA"
+                    "AFT HAW PAR GLASS TWR"
+                    "OPP UE SQ"
+                    "BLK 2"
+                    "HOTEL MIRAMAR"
+                    "HAVELOCK STN EXIT 5"
+                    "GANGES CTR"
+                    "BLK 51 CP"
+                    "BLK 48"
+                    "OPP TIONG BAHRU PK"
+                    "BEF AR-RABITAH MQUE"
+                    "BLK 78"
+                    "OPP REDHILL STN"
+                    "SIS BLDG"
+                    "BEF DAWSON RD"
+                    "OPP QUEENS"
+                    "TIONG GHEE TP"
+                    "BLK 166"
+        }
+    },    
     93: {
         1: {
             front: {
