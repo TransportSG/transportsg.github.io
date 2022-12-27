@@ -159,6 +159,24 @@ function firmware() {
     setCode('1111', 1);
 
     currentScreen = 'home';
+
+    document.addEventListener('keydown', event => {
+        let keybinds = {
+            'ArrowUp': 'UP',
+            'ArrowDown': 'DOWN',
+            'F3': 'F3',
+            'F4': 'F4',
+            'Backspace': 'CLR',
+            'Enter': 'ENT'
+        }
+        if (keybinds[event.key]) {
+            event.preventDefault()
+            registerKeyPress(keybinds[event.key])
+        } else if (!isNaN(event.key)) {
+            event.preventDefault()
+            registerNumericalKeyPress(event.key)
+        }
+    })
 }
 
 function setCode(code, direction) {

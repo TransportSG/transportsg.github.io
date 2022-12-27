@@ -12325,7 +12325,7 @@ EDSData.SBST = {
             front: {
                 renderType: "message",
                 text: "FREE BRIDGING BUS",
-                font: "LECIP-14:6",
+                font: "LECIP-20:9",
                 spacing: 2
             },
             rear: {
