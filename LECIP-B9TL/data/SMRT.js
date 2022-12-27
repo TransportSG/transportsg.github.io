@@ -2299,7 +2299,7 @@ EDSData.SMRT = {
                     "COLLYER QUAY"
                 ],
                 scrollFont: 'Arial-8'
-                          },
+            },
             rear: {
                 renderType: "rearService",
                 serviceNumber: "700",
@@ -2327,7 +2327,7 @@ EDSData.SMRT = {
                     "BT PANJANG RD",
                 ],
                 scrollFont: 'Arial-8'
-                          },
+            },
             rear: {
                 renderType: "rearService",
                 serviceNumber: "700",
@@ -2859,7 +2859,7 @@ EDSData.SMRT = {
             }
         }
     },
-        9501: {
+    9501: {
         1: {
             front: {
                 renderType: "standardService",
@@ -2903,9 +2903,9 @@ EDSData.SMRT = {
                 font: "Arial-15",
                 spacing: 2
             }
-        }
+        },
     },
-        9503: {
+    9503: {
         1: {
             front: {
                 renderType: "standardService",
@@ -2915,7 +2915,7 @@ EDSData.SMRT = {
                     font: "ArialBold-8"
                 },
                 scrolls: [
-                    "MALAYSIA'
+                    "MALAYSIA"
                 ],
                 scrollFont: 'Arial-8'
             },
@@ -3186,7 +3186,7 @@ EDSData.SMRT = {
                 spacing: 2
             }
         }
-    },    
+    },
     9723: {
         1: {
             front: {
@@ -3356,7 +3356,7 @@ EDSData.SMRT = {
             }
         }
     },
-     9802: {
+    9802: {
         1: {
             front: {
                 renderType: "standardService",
@@ -3507,9 +3507,8 @@ EDSData.SMRT = {
                 spacing: 2
             }
         }
-    },
-
-
+    }
+}
 
 
 EDSImages.SMRT = {
