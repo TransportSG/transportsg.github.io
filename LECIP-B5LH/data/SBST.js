@@ -47,7 +47,11 @@ EDSData.SBST = {
                     font: "LECIP-8"
                 },
                 scrolls: [
-                    "EUNOS LINK"
+                    "JALAN EUNOS",
+                    "BARTLEY RD",
+                    "BRADDELL RD",
+                    "FARRER RD",
+                    "ALEXANDRA RD"
                 ],
                 scrollFont: "LECIP-8"
             },

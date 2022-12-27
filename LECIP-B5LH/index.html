@@ -12,7 +12,7 @@
 
     <link rel='stylesheet' href='/LECIP-B5LH/css/eds.css'>
 
-    <script src='/LECIP-B5LH/js/controller.js'></script>
+    <!-- <script src='/LECIP-B5LH/js/controller.js'></script> -->
     <style id='led-style'>
     </style>
 
@@ -22,7 +22,15 @@
 
 <body>
     <div id='input'>
+        <label for='operator'>Operator</label>
+        <select id='operator'>
+            <option>SMRT</option>
+            <option>SBST</option>
+        </select>
+        <label for='code'>Code</label>
         <input id='code' />
+        <label for='direction'>Direction</label>
+        <input id='direction' />
     </div>
     <div id='front-eds-container'>
         <div id='front-eds'>
