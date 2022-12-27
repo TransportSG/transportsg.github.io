@@ -11440,35 +11440,51 @@ EDSData.SBST = {
             }
         }
     },
+    888: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "AIRPORT 888 STATION",
+                font: "LECIP-20:6",
+                spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "888",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
     900: {
         1: {
             front: {
                 renderType: "message",
                 text: "EMPLOYEE BUS",
-                font: "LECIP-20:12",
+                font: "LECIP-20:9",
                 spacing: 3
             },
             rear: {
                 renderType: 'twoline',
-                top: "EMPLOYEE",
-                topFont: "LECIP-6:3",
+                top: "EMP.",
+                topFont: "LECIP-7:4",
 
                 bottom: "BUS",
-                bottomFont: "LECIP-6:3"
+                bottomFont: "LECIP-7:4"
             }
         },
         2: {
             front: {
                 renderType: "message",
                 text: "STAFF",
-                font: "LECIP-20:9",
+                font: "LECIP-20:12",
                 spacing: 2
             },
             rear: {
                 renderType: "rearService",
                 serviceNumber: "STAFF",
                 font: "LECIP-14:6",
-                spacing: 2           
+                spacing: 1           
             }
         }
     },        
