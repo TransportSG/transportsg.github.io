@@ -267,7 +267,7 @@ EDSData.SMRT = {
 
                 bottom: "SERVICE",
                 bottomFont: "ArialNarrow-7",
-                bottomMargin: 2                
+                bottomMargin: 2
             },
         }
     },
@@ -628,7 +628,7 @@ EDSData.SMRT = {
                 bottomFont: "ArialBold-8"
             }
         }
-    },    
+    },
     122: {
         1: {
             front: {
@@ -638,7 +638,7 @@ EDSData.SMRT = {
                 spacing: 2
             }
         }
-    },      
+    },
     151: {
         1: {
             front: {
@@ -654,7 +654,7 @@ EDSData.SMRT = {
 
                 bottom: "SHUTTLE",
                 bottomFont: "ArialNarrow-7",
-                bottomMargin: 2                
+                bottomMargin: 2
             },
         }
     },
@@ -670,7 +670,7 @@ EDSData.SMRT = {
                 renderType: "rearService",
                 serviceNumber: "EWL",
                 font: "Arial-15",
-                spacing: 2               
+                spacing: 2
             },
         }
     },
@@ -686,10 +686,10 @@ EDSData.SMRT = {
                 renderType: "rearService",
                 serviceNumber: "NSL",
                 font: "Arial-15",
-                spacing: 2               
+                spacing: 2
             },
         }
-    },   
+    },
     "151C": {
         1: {
             front: {
@@ -702,7 +702,7 @@ EDSData.SMRT = {
                 renderType: "rearService",
                 serviceNumber: "CCL",
                 font: "Arial-15",
-                spacing: 2               
+                spacing: 2
             },
         }
     },
@@ -718,7 +718,7 @@ EDSData.SMRT = {
                 renderType: "rearService",
                 serviceNumber: "TEL",
                 font: "Arial-15",
-                spacing: 2               
+                spacing: 2
             },
         }
     },
@@ -737,7 +737,7 @@ EDSData.SMRT = {
 
                 bottom: "BRIDGING",
                 bottomFont: "ArialNarrow-7",
-                bottomMargin: 2               
+                bottomMargin: 2
             },
         }
     },
@@ -756,7 +756,7 @@ EDSData.SMRT = {
 
                 bottom: "A",
                 bottomFont: "ArialBold-8",
-                bottomMargin: 2               
+                bottomMargin: 2
             },
         }
     },
@@ -775,10 +775,10 @@ EDSData.SMRT = {
 
                 bottom: "A",
                 bottomFont: "ArialBold-8",
-                bottomMargin: 2               
+                bottomMargin: 2
             },
         }
-    },                 
+    },
     218: {
         1: {
             front: {
@@ -2358,7 +2358,7 @@ EDSData.SMRT = {
                 renderType: "rearService",
                 serviceNumber: "700A",
                 font: "Arial-15",
-                spacing: 2                
+                spacing: 2
             }
         }
     },
@@ -2389,7 +2389,7 @@ EDSData.SMRT = {
                 spacing: 2
             }
         }
-    },    
+    },
     8541: {
         1: {
             front: {
@@ -2948,7 +2948,7 @@ EDSData.SMRT = {
                 spacing: 2
             }
         }
-    },    
+    },
     9512: {
         1: {
             front: {
@@ -3232,7 +3232,7 @@ EDSData.SMRT = {
                 spacing: 2
             }
         }
-    },        
+    },
     9731: {
         1: {
             front: {
@@ -3472,7 +3472,12 @@ EDSData.SMRT = {
                     font: "ArialBold-8"
                 },
                 scrolls: [
-                    '',
+                    "BT BATOK WEST AVE 3,6",
+                    "BT BATOK ST 11",
+                    "BT BATOK WEST AVE 8,5",
+                    "BRICKLAND RD",
+                    "CHOA CHU KANG AVE 3,1",
+                    "KEAT HONG LINK"
                 ],
                 scrollFont: 'Arial-8'
             },
@@ -3494,9 +3499,12 @@ EDSData.SMRT = {
                     font: "ArialBold-8"
                 },
                 scrolls: [
-                    "CHOA CHU KANG AVE 1,3",
-                    "BT BATOK WEST AVE 6,3",
-                    "BT BATOK WEST AVE 5,8"
+                    "KEAT HONG LINK",
+                    "CHOA CHU KANG AVE 3,1",
+                    "BRICKLAND RD",
+                    "BT BATOK WEST AVE 8,5",
+                    "BT BATOK ST 11",
+                    "BT BATOK WEST AVE 3,6"
                 ],
                 scrollFont: 'Arial-8;Space-Width=0'
             },

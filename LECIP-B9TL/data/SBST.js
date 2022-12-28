@@ -442,7 +442,7 @@ EDSData.SBST = {
                 spacing: 2
             }
         }
-    },    
+    },
     7: {
         1: {
             front: {
@@ -663,7 +663,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "10e",
-                font: "LECIP-20:9", 
+                font: "LECIP-20:9",
                 spacing: 2
             }
         },
@@ -1000,7 +1000,7 @@ EDSData.SBST = {
                 spacing: 2
             }
         }
-    },    
+    },
     "18B": {
         1: {
             front: {
@@ -1197,7 +1197,7 @@ EDSData.SBST = {
                 font: "LECIP-20:12",
                 spacing: 2
             }
-        },   
+        },
         2: {
             front: {
                 renderType: "standardService",
@@ -1220,7 +1220,7 @@ EDSData.SBST = {
                 spacing: 2
             }
         }
-    },        
+    },
     "22T": {
         1: {
             front: {
@@ -2379,7 +2379,7 @@ EDSData.SBST = {
                 bottomFont: "LECIP-6:3"
             }
         }
-    }, 
+    },
     51: {
         1: {
             front: {
@@ -2440,7 +2440,7 @@ EDSData.SBST = {
                 spacing: 2
             }
         }
-    },        
+    },
     52: {
         1: {
             front: {
@@ -3011,7 +3011,7 @@ EDSData.SBST = {
                 renderType: "rearService",
                 serviceNumber: "63A",
                 font: "LECIP-20:9",
-                spacing: 2                
+                spacing: 2
             }
         }
     },
@@ -4103,7 +4103,7 @@ EDSData.SBST = {
                 spacing: 2
             }
         }
-    },        
+    },
     93: {
         1: {
             front: {
@@ -4693,7 +4693,7 @@ EDSData.SBST = {
                 spacing: 2
             }
         }
-    },        
+    },
     113: {//TODO SCROLLS
         1: {
             front: {
@@ -4774,7 +4774,7 @@ EDSData.SBST = {
                 spacing: 2
             }
         }
-    },        
+    },
     115: {// TODO:  SCROLLS
         1: {
             front: {
@@ -4835,7 +4835,7 @@ EDSData.SBST = {
                 spacing: 2
             }
         }
-    },             
+    },
     117: {
         1: {
             front: {
@@ -4848,7 +4848,7 @@ EDSData.SBST = {
                     "SELETAR A'SPACE DR",
                     "YISHUN AVE 1",
                     "YISHUN AVE 2",
-                    "CANBERRA LINK",        
+                    "CANBERRA LINK",
                     "SEMBAWANG WAY"
                 ],
                 scrollFont: "LECIP-7:5"
@@ -4915,7 +4915,7 @@ EDSData.SBST = {
                 spacing: 2
             }
         }
-    },              
+    },
     "117M": {
         1: {
             front: {
@@ -5106,7 +5106,7 @@ EDSData.SBST = {
                 spacing: 2
             }
         }
-    },        
+    },
     "123M": {
         1: {
             front: {
@@ -5289,7 +5289,7 @@ EDSData.SBST = {
                     "ANG MO KIO AVE 8",
                     "BISHAN RD",
                     "SCOTTS RD",
-                    "ORCHARD RD" 
+                    "ORCHARD RD"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -5537,7 +5537,7 @@ EDSData.SBST = {
                 spacing: 2
             }
         }
-    },        
+    },
     "131M": {
         1: {
             front: {
@@ -5676,7 +5676,7 @@ EDSData.SBST = {
                 spacing: 2
             }
         },
-    },  
+    },
     135: {
         1: {
             front: {
@@ -5785,7 +5785,7 @@ EDSData.SBST = {
                 spacing: 2
             }
         }
-    },    
+    },
     137: {
         1: {
             front: {
@@ -6257,7 +6257,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "147e",
-                font: "LECIP-20:6", 
+                font: "LECIP-20:6",
                 spacing: 2
             }
         },
@@ -6915,7 +6915,7 @@ EDSData.SBST = {
                 spacing: 2
             }
         }
-    },           
+    },
     "160M": {
         1: {
             front: {
@@ -6941,7 +6941,7 @@ EDSData.SBST = {
                 spacing: 2
             }
         }
-    },    
+    },
     161: {
         1: {
             front: {
@@ -7131,7 +7131,7 @@ EDSData.SBST = {
                 spacing: 1
             }
         }
-    },        
+    },
     "163M": {
         1: {
             front: {
@@ -7485,7 +7485,7 @@ EDSData.SBST = {
                 spacing: 2
             }
         }
-    },            
+    },
     174: {
         1: {
             front: {
@@ -8877,7 +8877,7 @@ EDSData.SBST = {
                 spacing: 2
             }
         }
-    },        
+    },
     249: {
         1: {
             front: {
@@ -9504,7 +9504,7 @@ EDSData.SBST = {
                 spacing: 2
             }
         }
-    },        
+    },
     315: {
         1: {
             front: {
@@ -9735,7 +9735,7 @@ EDSData.SBST = {
                 font: "LECIP-20:9",
                 spacing: 2
             }
-        },  
+        },
         2: {
             front: {
                 renderType: "standardService",
@@ -10025,7 +10025,7 @@ EDSData.SBST = {
                 spacing: 2
             }
         }
-    },            
+    },
     423: {
         1: {
             front: {
@@ -10061,7 +10061,7 @@ EDSData.SBST = {
                 bottomFont: "LECIP-6:3"
             }
         }
-    },      
+    },
     425: {
         1: {
             front: {
@@ -10081,7 +10081,7 @@ EDSData.SBST = {
                 bottomFont: "LECIP-6:3"
             }
         }
-    },  
+    },
     426: {
         1: {
             front: {
@@ -10141,7 +10141,7 @@ EDSData.SBST = {
                 bottomFont: "LECIP-7:5"
             }
         }
-    }, 
+    },
     429: {
         1: {
             front: {
@@ -10161,9 +10161,9 @@ EDSData.SBST = {
                 bottomFont: "LECIP-7:5"
             }
         }
-    },     
+    },
     430: {
-        1: {   
+        1: {
             front: {
                 renderType: "message",
                 text: "HAPPY CNY",
@@ -11043,7 +11043,7 @@ EDSData.SBST = {
                 spacing: 2
             }
         }
-    },             
+    },
     811: {
         1: {
             front: {
@@ -11452,7 +11452,7 @@ EDSData.SBST = {
                 font: "LECIP-20:9",
                 spacing: 2
             }
-        },                
+        },
         2: {
             front: {
                 renderType: "standardService",
@@ -11547,10 +11547,10 @@ EDSData.SBST = {
                 renderType: "rearService",
                 serviceNumber: "STAFF",
                 font: "LECIP-14:6",
-                spacing: 1           
+                spacing: 1
             }
         }
-    },        
+    },
     901: {
         1: {
             front: {
@@ -12164,7 +12164,7 @@ EDSData.SBST = {
                 topFont: "LECIP-6:3",
 
                 bottom: "CHARTER",
-                bottomFont: "LECIP-6:3"                
+                bottomFont: "LECIP-6:3"
             }
         }
     },
@@ -12240,7 +12240,7 @@ EDSData.SBST = {
         }
     },
     6000: {
-        1: {   
+        1: {
             front: {
                 renderType: "message",
                 text: "NEL BRIDGING BUS",
@@ -12258,7 +12258,7 @@ EDSData.SBST = {
         }
     },
     6001: {
-        1: {   
+        1: {
             front: {
                 renderType: "message",
                 text: "DTL BRIDGING BUS",
@@ -12276,7 +12276,7 @@ EDSData.SBST = {
         }
     },
     6002: {
-        1: {   
+        1: {
             front: {
                 renderType: "message",
                 text: "CCL BRIDGING BUS",
@@ -12294,7 +12294,7 @@ EDSData.SBST = {
         }
     },
      6003: {
-        1: {   
+        1: {
             front: {
                 renderType: "message",
                 text: "EWL BRIDGING BUS",
@@ -12310,9 +12310,9 @@ EDSData.SBST = {
                 bottomFont: "LECIP-6:3"
             }
         }
-    },       
+    },
     6004: {
-        1: {   
+        1: {
             front: {
                 renderType: "message",
                 text: "NSL BRIDGING BUS",
@@ -12330,7 +12330,7 @@ EDSData.SBST = {
         }
     },
     6005: {
-        1: {   
+        1: {
             front: {
                 renderType: "message",
                 text: "TEL BRIDGING BUS",
@@ -12348,7 +12348,7 @@ EDSData.SBST = {
         }
     },
     6099: {
-        1: {   
+        1: {
             front: {
                 renderType: "message",
                 text: "LRT BRIDGING BUS",
@@ -12436,7 +12436,7 @@ EDSData.SBST = {
         }
     },
    9001: {
-        1: {   
+        1: {
             front: {
                 renderType: "message",
                 text: "ELECTRIC BUS",
@@ -12465,10 +12465,10 @@ EDSData.SBST = {
                 topFont: "LECIP-7:5",
 
                 bottom: "BUS",
-                bottomFont: "LECIP-7:5"              
+                bottomFont: "LECIP-7:5"
             }
         }
-    },    
+    },
     9999: {
         1: {
             front: {
