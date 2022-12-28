@@ -5026,10 +5026,10 @@ EDSData.SBST = {
                 destination: "KG.BAHRU TER-C'WEALTH DR",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
-                    'ALEXANDRA RD',
-                    'MARGARET DR',
+                    "ALEXANDRA RD",
+                    "MARGARET DR",
                     "COMMONWEALTH DR",
-                    'QUEENSWAY'
+                    "QUEENSWAY"
                 ],
                 scrollFont: "LECIP-6:4"
             },
@@ -6257,7 +6257,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "147e",
-                font: "LECIP-20:6", // check rear font for all 4 digit express
+                font: "LECIP-20:6", 
                 spacing: 2
             }
         },
