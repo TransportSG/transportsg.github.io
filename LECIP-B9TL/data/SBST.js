@@ -10884,7 +10884,7 @@ EDSData.SBST = {
                     "YISHUN AVE 6",
                     "YISHUN ST 42",
                     "YISHUN AVE 1",
-                    "YISHUN AVE 6"
+                    "YISHUN AVE 6",
                     "YISHUN AVE 9"
                 ],
                 scrollFont: "LECIP-6:4"
