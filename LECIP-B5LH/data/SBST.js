@@ -100,6 +100,8 @@ EDSData.SBST = {
                     "OPP QUEENS"
                     "TIONG GHEE TP"
                     "BLK 166"
+                ]
+            }
         }
     },    
     93: {
