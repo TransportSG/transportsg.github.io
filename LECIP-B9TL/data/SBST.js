@@ -2262,7 +2262,7 @@ EDSData.SBST = {
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "48",
+                serviceNumber: "47",
                 font: "LECIP-20:12",
                 spacing: 2
             }
@@ -3825,6 +3825,12 @@ EDSData.SBST = {
                 destination: "> SENGKANG INT",
                 destinationFont: "LECIP-10",
                 scrolls: [
+                    {
+                        renderType: "message",
+                        text: "HAPPY CNY",
+                        font: "LECIP-20:12",
+                        spacing: 2
+                    },
                     'BEDOK NTH RD',
                     'KAKI BUKIT AVE 1',
                     'EUNOS LINK',
@@ -10167,10 +10173,10 @@ EDSData.SBST = {
             rear: {
                 renderType: "twoline",
                 top: "ULU",
-                topFont: "LECIP-7:5",
+                topFont: "LECIP-6:3",
 
                 bottom: "PANDAN",
-                bottomFont: "LECIP-7:5"
+                bottomFont: "LECIP-6:3"
             }
         }
     },
@@ -10207,10 +10213,10 @@ EDSData.SBST = {
             rear: {
                 renderType: "twoline",
                 top: "JURONG",
-                topFont: "LECIP-7:5",
+                topFont: "LECIP-6:3",
 
                 bottom: "EAST",
-                bottomFont: "LECIP-7:5"
+                bottomFont: "LECIP-6:3"
             }
         }
     },
@@ -10225,10 +10231,10 @@ EDSData.SBST = {
             rear: {
                 renderType: 'twoline',
                 top: "HAPPY",
-                topFont: "LECIP-6:3",
+                topFont: "LECIP-7:5",
 
                 bottom: "CNY",
-                bottomFont: "LECIP-6:3"
+                bottomFont: "LECIP-7:5"
             }
         }
     },
@@ -12413,6 +12419,24 @@ EDSData.SBST = {
                 topFont: "LECIP-6:3",
 
                 bottom: "BRIDGING",
+                bottomFont: "LECIP-6:3"
+            }
+        }
+    },
+    6666: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "BUS REVERSING",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+                rear: {
+                renderType: 'twoline',
+                top: " ",
+                topFont: "LECIP-6:3",
+
+                bottom: " ",
                 bottomFont: "LECIP-6:3"
             }
         }
