@@ -3526,6 +3526,26 @@ EDSData.SBST = {
             }
         }
     },
+    "75S": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "75S",
+                destination: "SEMBAWANG RD",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    'BUS TALK WITH MR ONG'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "75S",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
     76: {
         1: {
             front: {
@@ -4066,7 +4086,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "92M",
-                destination: "GHIM MOH TER-N.BUONA VISTA",
+                destination: "GHIM MOH TER - N.BUONA VISTA",
                 destinationFont: "LECIP-6:3",
                 scrolls: [
                     'NORTH BUONA VISTA RD',
@@ -4079,7 +4099,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "92M",
-                font: "LECIP-20:6",
+                font: "LECIP-20:9",
                 spacing: 2
             }
         }
@@ -4663,7 +4683,7 @@ EDSData.SBST = {
             front: {
                 renderType: "swt",
                 serviceNumber: "112A",
-                terminateAt: "UPP SERANGOON RD",
+                terminateAt: "UPP S'GOON RD",
                 landmark: "(KOVAN STN EXIT B)"
             },
             rear: {
@@ -6879,7 +6899,7 @@ EDSData.SBST = {
                 spacing: 2
             }
         },
-        1: {
+        2: {
             front: {
                 renderType: "brandedSvc",
                 serviceNumber: "160",
@@ -7438,7 +7458,7 @@ EDSData.SBST = {
                 renderType: "brandedSvc",
                 serviceNumber: "170X",
                 branding: "JB SENTRAL",
-                font: "LECIP-20:12",
+                font: "LECIP-20:9",
                 spacing: 2,
                 scrollFont: "LECIP-7:5"
             },
@@ -7454,7 +7474,7 @@ EDSData.SBST = {
                 renderType: "brandedSvc",
                 serviceNumber: "170X",
                 branding: "KRANJI STN",
-                font: "LECIP-20:12",
+                font: "LECIP-20:9",
                 spacing: 2,
                 scrollFont: "LECIP-7:5"
             },
@@ -7715,7 +7735,7 @@ EDSData.SBST = {
                 renderType: "standardService",
                 serviceNumber: "182",
                 destination: "> JOO KOON INT",
-                destinationFont: "LECIP-7:5",
+                destinationFont: "LECIP-10",
                 scrolls: [
                     "TUAS STH AVE 3",
                     "JALAN AHMAD IBRAHIM",
@@ -10141,7 +10161,25 @@ EDSData.SBST = {
                 bottomFont: "LECIP-7:5"
             }
         }
-    },        
+    },     
+    430: {
+        1: {   
+            front: {
+                renderType: "message",
+                text: "HAPPY CNY",
+                font: "LECIP-20:12",
+                spacing: 2
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "HAPPY",
+                topFont: "LECIP-6:3",
+
+                bottom: "CNY",
+                bottomFont: "LECIP-6:3"
+            }
+        }
+    },
     502: {
         1: {
             front: {
@@ -10829,6 +10867,31 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "800",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    801: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "801",
+                destination: "YISHUN INT - YISHUN AVE 1",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                    "YISHUN AVE 9",
+                    "YISHUN AVE 6",
+                    "YISHUN ST 42",
+                    "YISHUN AVE 1",
+                    "YISHUN AVE 6"
+                    "YISHUN AVE 9"
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "801",
                 font: "LECIP-20:9",
                 spacing: 2
             }
@@ -12392,7 +12455,7 @@ EDSData.SBST = {
         2: {
             front: {
                 renderType: "message",
-                text: "ELECTRIC BUS",
+                text: "HYBRID BUS",
                 font: "LECIP-20:12",
                 spacing: 2
             },
