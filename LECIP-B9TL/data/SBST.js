@@ -3789,6 +3789,58 @@ EDSData.SBST = {
             }
         }
     },
+    "87C": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "87",
+                destination: "> BEDOK INT",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    {
+                        renderType: "message",
+                        text: "HAPPY CNY",
+                        font: "LECIP-20:12",
+                        spacing: 2
+                    },
+                    'COMPASSVALE RD',
+                    'HOUGANG AVE 10, 5, 7, 3',
+                    'EUNOS LINK',
+                    'KAKI BUKIT AVE 1',
+                    'BEDOK NTH RD'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "87",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "87",
+                destination: "> SENGKANG INT",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    'BEDOK NTH RD',
+                    'KAKI BUKIT AVE 1',
+                    'EUNOS LINK',
+                    'HOUGANG AVE 3, 5, 7, 10',
+                    'COMPASSVALE RD'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "87",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        }
+    },
     88: {
         1: {
             front: {
@@ -11507,9 +11559,9 @@ EDSData.SBST = {
         1: {
             front: {
                 renderType: "message",
-                text: "AIRPORT 888 STATION",
+                text: "AIRPORT  888  STATION",
                 font: "LECIP-20:6",
-                spacing: 3
+                spacing: 1
             },
             rear: {
                 renderType: "rearService",
@@ -11546,7 +11598,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "STAFF",
-                font: "LECIP-14:6",
+                font: "LECIP-7:4",
                 spacing: 1
             }
         }

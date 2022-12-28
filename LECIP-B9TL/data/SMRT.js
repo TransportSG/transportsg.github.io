@@ -3500,11 +3500,11 @@ EDSData.SMRT = {
                 },
                 scrolls: [
                     "KEAT HONG LINK",
-                    "CHOA CHU KANG AVE 3,1",
+                    "CHOA CHU KANG AVE 1,3",
                     "BRICKLAND RD",
-                    "BT BATOK WEST AVE 8,5",
+                    "BT BATOK WEST AVE 5,8",
                     "BT BATOK ST 11",
-                    "BT BATOK WEST AVE 3,6"
+                    "BT BATOK WEST AVE 6,3"
                 ],
                 scrollFont: 'Arial-8;Space-Width=0'
             },
