@@ -104,6 +104,33 @@ EDSData.SBST = {
             }
         }
     },
+    974: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "974",
+                destination: {
+                    text: ">BUKIT PANJANG STN",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "UPPER JURONG RD",
+                    "JURONG WEST ST 64",
+                    "JALAN BOON LAY"
+                    "CHOA CHU KANG WAY"
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "974",
+                destination: "BUKIT PANJANG STN",
+                scrolls: [
+                    "YES",
+                ]
+            }
+        }
+    },    
     93: {
         1: {
             front: {
