@@ -37,6 +37,86 @@ EDSFormats.SBST.pids = EDSFormats.SMRT.pids;
 
 
 EDSData.SBST = {
+    
+    4: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "4",
+                destination: {
+                    text: "TAMPINES-CHANGI NTH WAY",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "TAMPINES AVE 7",
+                    "FLORA DR",
+                    "CHANGI NORTH WAY",
+                    "FLORA RD",
+                    "TAMPINES AVE 7"
+                ],
+                scrollFont: "LECIP-8"
+                },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "4",
+                destination: "TAMPINES INT",
+                scrolls: [
+                "TAMPINES INT"
+            }
+        }
+    },    
+    5: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "5",
+                destination: {
+                    text: ">BUKIT MERAH INT",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "UPP CHANGI RD EAST",
+                    "BEDOK RESERVOIR RD",
+                    "THOMSON RD",
+                    "SCOTTS RD",
+                    "TIONG BAHRU RD"
+                ],
+                scrollFont: "LECIP-8"
+                },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "5",
+                destination: "BUKIT MERAH INT",
+                scrolls: [
+                "BUKIT MERAH INT"
+            }
+        },
+2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "5",
+                destination: {
+                    text: ">PASIR RIS INT",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "TIONG BAHRU RD",
+                    "SCOTTS RD",
+                    "THOMSON RD",
+                    "BEDOK RESERVOIR RD",
+                    "UPP CHANGI RD EAST"
+                ],
+                scrollFont: "LECIP-8"
+                },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "5",
+                destination: "PASIR RIS INT",
+                scrolls: [
+                "PASIR RIS INT"            
+            }
+        }            
+    },                
     64: {
         1: {
             front: {
