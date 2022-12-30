@@ -356,6 +356,118 @@ EDSData.SMRT = {
             }
         }
     },
+    80: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: " ",
+                destination: {
+                    text: "TAMPINES MRT TO & FROM",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "GIANT, IKEA & COURTS"
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: " ",
+                destination: "TAMPINES MRT",
+                scrolls: [
+                    "TAMPINES MRT",
+                    "GIANT TAMPINES",
+                    "IKEA TAMPINES",
+                    "COURTS TAMPINES",
+                    "TAMPINES MRT"
+                ]
+            }
+        },
+    }, 
+    81: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: " ",
+                destination: {
+                    text: "PASIR RIS TO & FROM",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "GIANT, IKEA & COURTS"
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: " ",
+                destination: "PASIR RIS MRT",
+                scrolls: [
+                    "PASIR RIS MRT",
+                    "GIANT TAMPINES",
+                    "IKEA TAMPINES",
+                    "COURTS TAMPINES",
+                    "PASIR RIS MRT"
+                ]
+            }
+        },
+    },
+    82: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: " ",
+                destination: {
+                    text: "BEDOK MRT TO & FROM",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "GIANT, IKEA & COURTS"
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: " ",
+                destination: "PASIR RIS MRT",
+                scrolls: [
+                    "BEDOK STN EXIT A",
+                    "GIANT TAMPINES",
+                    "IKEA TAMPINES",
+                    "COURTS TAMPINES",
+                    "BEDOK STN EXIT A"
+                ]
+            }
+        },
+    },     
+    83: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: " ",
+                destination: {
+                    text: "SENGKANG TO & FROM",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "GIANT, IKEA & COURTS"
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: " ",
+                destination: "SENGKANG MRT",
+                scrolls: [
+                    "SENGKANG MRT",
+                    "GIANT TAMPINES",
+                    "IKEA TAMPINES",
+                    "COURTS TAMPINES",
+                    "SENGKANG MRT"
+                ]
+            }
+        },
+    },         
     117: {
         1: {
             front: {
@@ -371,6 +483,91 @@ EDSData.SMRT = {
             }
         }
     },
+    199: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "ON TEST",
+                font: "Arial-12",
+                spacing: 2
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "",
+                destination: "ON TEST",
+                scrolls: [""]
+            }
+        }
+    },  
+    1841: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "184",
+                destination: {
+                    text: "CLEMENTI via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "BUKIT PANJANG RD",
+                    "CASHEW RD",
+                    "UPPER BT TIMAH RD",
+                    "CLEMENTI RD"
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "184",
+                destination: "COMMONWEALTH AVE WEST",
+                scrolls: [
+                    "THE LINEAR",
+                    "BEF HAZEL PK TERR",
+                    "CASHEW STN",
+                    "ASSUMPTION PATHWAY SCH",
+                    "AFT ASSUMPTION ENG SCH",
+                    "HILLVIEW STN EXIT A",
+                    "THE RAIL MALL",
+                    "OPP HUME PK CONDO",
+                    "OPP THE HILLSIDE",
+                    "AFT BT TIMAH FIRE STN",
+                    "SOUTHAVEN II",
+                    "OPP BEAUTY WORLD CTR",
+                    "OPP BT TIMAH PLAZA",
+                    "CLEMENTI STN EXIT B"
+                ]
+            }
+        },
+    },    
+    1842: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "184",
+                destination: {
+                    text: "BUKIT PANJANG via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "CLEMENTI RD",
+                    "UPP BUKIT TIMAH RD",
+                    "CASHEW ROAD",
+                    "BUKIT PANJANG RD"
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "184",
+                destination: "WOODLANDS RD",
+                scrolls: [
+                    "CLEMENTI TO",
+                    "BUKIT PANJANG",
+                    "GALI BATU TER"
+                ]
+            }
+        },
+    },        
     6701: {
         1: {
             front: {
@@ -720,6 +917,289 @@ EDSData.SMRT = {
             }
         }
     },
+    9501: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "950",
+                destination: {
+                    text: "JB SENTRAL TER via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "WOODLANDS AVE 3",
+                    "WDL TRAIN CHECKPOINT"
+                    
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "950",
+                destination: "JB SENTRAL BUS TER",
+                scrolls: [
+                ]
+            }
+        },
+    },
+    9502: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "950",
+                destination: {
+                    text: "WDL TEMP INT via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "WDL TRAIN CHECKPOINT",
+                    "WOODLANDS AVE 3"
+                    
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "950",
+                destination: "WOODLANDS TEMP INT",
+                scrolls: [
+                ]
+            }
+        },
+    },
+    9503: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "950",
+                destination: {
+                    text: "JB SENTRAL TER",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "MALAYSIA"
+                    
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "950",
+                destination: "JB SENTRAL BUS TER",
+                scrolls: [
+                ]
+            }
+        },
+    },
+    9502: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "950",
+                destination: {
+                    text: "WDL TEMP INT via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "SINGAPORE"
+                    
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "950",
+                destination: "WOODLANDS TEMP INT",
+                scrolls: [
+                ]
+            }
+        },
+    },        
+    9611: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "961",
+                destination: {
+                    text: "GEYLANG LOR 1 via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "WOODLANDS AVE 3",
+                    "UPPER BUKIT TIMAH RD",
+                    "QUEENSWAY",
+                    "JALAN BUKIT MERAH",
+                    "CHINATOWN",
+                    "BEACH RD",
+                    "KALLANG BAHRU"
+                    
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "961",
+                destination: "GEYLANG LOR 1 TER",
+                scrolls: [
+                ]
+            }
+        },
+    },
+    9612: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "961",
+                destination: {
+                    text: "WDL TEMP INT via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "KALLANG BAHRU",
+                    "BEACH RD",
+                    "CHINATOWN",
+                    "JALAN BUKIT MERAH",
+                    "QUEENSWAY",
+                    "UPPER BUKIT TIMAH RD",
+                    "WOODLANDS AVE 3"
+                    
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "961",
+                destination: "WOODLANDS TEMP INT",
+                scrolls: [
+                ]
+            }
+        },
+    },
+    9613: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "961M",
+                destination: {
+                    text: "GEYLANG LOR 1 via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "WOODLANDS AVE 3",
+                    "UPPER BUKIT TIMAH RD",
+                    "QUEENSWAY",
+                    "JALAN BUKIT MERAH",
+                    "CHINATOWN",
+                    "MARINA CENTRE",
+                    "BEACH RD",
+                    "KALLANG BAHRU"
+                    
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "961M",
+                destination: "GEYLANG LOR 1 TER",
+                scrolls: [
+                ]
+            }
+        },
+    },
+    9614: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "961M",
+                destination: {
+                    text: "WDL TEMP INT via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "KALLANG BAHRU",
+                    "BEACH RD",
+                    "MARINA CENTRE",
+                    "CHINATOWN",
+                    "JALAN BUKIT MERAH",
+                    "QUEENSWAY",
+                    "UPPER BUKIT TIMAH RD",
+                    "WOODLANDS AVE 3"
+                    
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "961M",
+                destination: "WOODLANDS TEMP INT",
+                scrolls: [
+                ]
+            }
+        },
+    },       
+    9801: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "980",
+                destination: {
+                    text: "GEYLANG LOR 1 via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "SEMBAWANG RD",
+                    "UPPER THOMSON RD",
+                    "THOMSON RD",
+                    "MIDDLE ROAD",
+                    "BEACH RD"
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "980",
+                destination: "GEYLANG LOR 1 TER",
+                scrolls: [
+                    "SEMBAWANG INT",
+                    "OPP SEMBAWANG AIR BASE",
+                    "KK WOMEN & CHILD HOSP",
+                    "LITTLE INDIA STN",
+                    "AFT PADANG JERINGAU",
+                    "GEYLANG LOR 1 TER"
+                ]
+            }
+        },
+    },    
+    9802: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "980",
+                destination: {
+                    text: "SEMBAWANG via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "BEACH RD",
+                    "VICTORIA ST",
+                    "THOMSON RD",
+                    "UPPER THOMSON RD",
+                    "SEMBAWANG RD"
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "980",
+                destination: "SEMBAWANG INT",
+                scrolls: [
+                    "GEYLANG LOR 1 TER",
+                    "AFT SEMBAWANG AIR BASE",
+                    "SEMBAWANG INT"
+                ]
+            }
+        },
+    },      
     9851: {
         1: {
             front: {
