@@ -2388,11 +2388,14 @@ EDSData.SBST = {
                 destination: "> JURONG EAST INT",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
+                    'HOUGANG AVE 3',
                     'EUNOS LINK',
                     'GEYLANG RD',
                     'NORTH BRIDGE RD',
                     'ALEXANDRA RD',
-                    'WEST COAST RD'
+                    'PASIR PANJANG RD',
+                    'WEST COAST RD',
+                    'JURONG TOWN HALL RD'
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -2410,11 +2413,14 @@ EDSData.SBST = {
                 destination: "> HOUGANG CTRL INT",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
+                    'JURONG TOWN HALL RD',
                     'WEST COAST RD',
+                    'PASIR PANJANG RD',
                     'ALEXANDRA RD',
                     'VICTORIA ST',
                     'SIMS AVE',
-                    'EUNOS LINK'
+                    'EUNOS LINK',
+                    'HOUGANG AVE 3'
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -2450,7 +2456,8 @@ EDSData.SBST = {
                 destinationFont: "LECIP-7:5",
                 scrolls: [
                     'SIN MING AVE',
-                    'UPP THOMSON AVE',
+                    'UPPER THOMSON RD',
+                    'LORNIE RD',
                     'CLEMENTI RD',
                     "C'WEALTH AVE WEST",
                     'TOH GUAN RD'
@@ -2474,7 +2481,8 @@ EDSData.SBST = {
                     'TOH GUAN RD',
                     "C'WEALTH AVE WEST",
                     'CLEMENTI RD',
-                    'UPP THOMSON RD',
+                    'LORNIE RD',
+                    'UPPER THOMSON RD',
                     'SIN MING AVE'
                 ],
                 scrollFont: "LECIP-7:5"
@@ -5628,8 +5636,10 @@ EDSData.SBST = {
                 destination: "> BUKIT MERAH INT",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
+                    'HOUGANG AVE 2'
                     'ANG MO KIO AVE 3',
-                    'UPP THOMSON RD',
+                    'UPPER THOMSON RD',
+                    'THOMSON RD'
                     'STEVENS RD',
                     'TANGLIN RD'
                 ],
@@ -5651,8 +5661,10 @@ EDSData.SBST = {
                 scrolls: [
                     'TANGLIN RD',
                     'STEVENS RD',
-                    'UPP THOMSON RD',
-                    'ANG MO KIO AVE 3'
+                    'THOMSON RD',
+                    'UPPER THOMSON RD',
+                    'ANG MO KIO AVE 3',
+                    'HOUGANG AVE 2'
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -5720,10 +5732,9 @@ EDSData.SBST = {
                 scrolls: [
                     'GEYLANG EAST CENTRAL',
                     'TANJONG KATONG RD',
-                    'MARINE PARADE RD',
                     'MARINE TERRACE',
-                    'MARINE PARADE RD',
-                    'TANJONG KATONG RD'
+                    'TANJONG KATONG RD',
+                    'GEYLANG EAST CENTRAL'
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -5852,7 +5863,11 @@ EDSData.SBST = {
                 destination: "> UPP EAST COAST TER",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
+                    'SIMS AVE',
+                    'UBI AVE 1',
                     'KAKI BUKIT AVE 3',
+                    'BEDOK NORTH AVE 2',
+                    'BEDOK SOUTH RD'
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -5870,7 +5885,11 @@ EDSData.SBST = {
                 destination: "> SIMS PLACE TER",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
-                    'BEDOK NTH AVE 2'
+                    'BEDOK SOUTH RD',
+                    'BEDOK NTH AVE 2',
+                    'KAKI BUKIT AVE 3',
+                    'UBI AVE 1',
+                    'GEYLANG RD'
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -6946,7 +6965,7 @@ EDSData.SBST = {
                 renderType: "brandedSvc",
                 serviceNumber: "160",
                 branding: "KOTARAYA",
-                font: "LECIP-20:12",
+                font: "LECIP-20:9",
                 spacing: 2,
                 scrollFont: "LECIP-7:5"
             },
@@ -6962,7 +6981,7 @@ EDSData.SBST = {
                 renderType: "brandedSvc",
                 serviceNumber: "160",
                 branding: "JURONG EAST",
-                font: "LECIP-20:12",
+                font: "LECIP-20:9",
                 spacing: 2,
                 scrollFont: "LECIP-7:5"
             },
@@ -7383,7 +7402,7 @@ EDSData.SBST = {
                 destinationFont: "LECIP-10",
                 scrolls: [
                     "BUKIT TIMAH RD",
-                    "UPPER BT TIMAH RD",
+                    "UPPER BUKIT TIMAH RD",
                     "WOODLANDS RD",
                     "WOODLANDS CTR RD"
                 ],
@@ -7405,7 +7424,7 @@ EDSData.SBST = {
                 scrolls: [
                     "WOODLANDS CTR RD",
                     "WOODLANDS RD",
-                    "UPPER BT TIMAH RD",
+                    "UPPER BUKIT TIMAH RD",
                     "DUNEARN RD"
                 ],
                 scrollFont: "LECIP-7:5"
@@ -10872,7 +10891,7 @@ EDSData.SBST = {
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                     "BUKIT TIMAH RD",
-                    "UPP BT TIMAH RD",
+                    "UPP BUKIT TIMAH RD",
                     "WOODLANDS RD",
                     "WOODLANDS CTR RD"
                 ],
@@ -10894,7 +10913,7 @@ EDSData.SBST = {
                 scrolls: [
                     "WOODLANDS CTR RD",
                     "WOODLANDS RD",
-                    "UPP BT TIMAH RD",
+                    "UPP BUKIT TIMAH RD",
                     "DUNEARN RD"
                 ],
                 scrollFont: "LECIP-7:5"
