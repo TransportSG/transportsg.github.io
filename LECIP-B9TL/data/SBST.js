@@ -9536,15 +9536,17 @@ EDSData.SBST = {
             }
         }
     },
-    298: {
+      298: {
         1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "298",
-                destination: "TAMP CONCOURSE INT-TAMP ST 86",
+                destination: "TAMP NORTH INT-TAMP ST 86",
                 destinationFont: "LECIP-6:3",
                 scrolls: [
-                    "TAMPINES CENTRAL 1",
+                    "TAMPINES ST 62",
+                    "TAMPINES NORTH DR 2",
+                    "TAMPINES CONCOURSE",
                     "TAMPINES AVE 4",
                     "TAMPINES AVE 3"
                 ],
@@ -9563,12 +9565,10 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "298",
-                destination: "TAMP NORTH INT-TAMP ST 86",
+                destination: "TAMP CONCOURSE INT - TAMP ST 86",
                 destinationFont: "LECIP-6:3",
                 scrolls: [
-                    "TAMPINES ST 62",
-                    "TAMPINES NORTH DR 2",
-                    "TAMPINES CONCOURSE",
+                    "TAMPINES CENTRAL 1",
                     "TAMPINES AVE 4",
                     "TAMPINES AVE 3"
                 ],
@@ -10257,6 +10257,82 @@ EDSData.SBST = {
             }
         }
     },
+    431: {
+        1: {
+            front: {
+                renderType: "twoline",
+                top: "EUNOS - UBI",
+                topFont: "LECIP-7:5",
+
+                bottom: "BRIDGING BUS",
+                bottomFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "twoline",
+                top: "EUN - ",
+                topFont: "LECIP-7:5",
+
+                bottom: "UBI",
+                bottomFont: "LECIP-7:5"
+            }
+        },
+        2: {
+            front: {
+                renderType: "twoline",
+                top: "UBI - EUNOS",
+                topFont: "LECIP-7:5",
+
+                bottom: "BRIDGING BUS",
+                bottomFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "twoline",
+                top: "UBI - ",
+                topFont: "LECIP-7:5",
+
+                bottom: "EUN",
+                bottomFont: "LECIP-7:5"
+            }
+        }
+    },    
+    432: {
+        1: {
+            front: {
+                renderType: "twoline",
+                top: "SERANGOON - AMK",
+                topFont: "LECIP-7:5",
+
+                bottom: "BRIDGING BUS",
+                bottomFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "twoline",
+                top: "SGN - ",
+                topFont: "LECIP-7:5",
+
+                bottom: "AMK",
+                bottomFont: "LECIP-7:5"
+            }
+        },
+        2: {
+            front: {
+                renderType: "twoline",
+                top: "AMK - SERANGOON",
+                topFont: "LECIP-7:5",
+
+                bottom: "BRIDGING BUS",
+                bottomFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "twoline",
+                top: "AMK - ",
+                topFont: "LECIP-7:5",
+
+                bottom: "SGN",
+                bottomFont: "LECIP-7:5"
+            }
+        }
+    },       
     502: {
         1: {
             front: {
@@ -12245,12 +12321,28 @@ EDSData.SBST = {
             }
         }
     },
-    2222: {
+        2222: {
         1: {
             front: {
                 renderType: "logo",
                 text: "SBS TRANSIT",
                 image: "logo"
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "SBS",
+                topFont: "LECIP-7:4",
+
+                bottom: "TRANSIT",
+                bottomFont: "LECIP-7:4"
+            }
+        },
+        2: {
+            front: {
+                renderType: "message",
+                text: "SBS Transit",
+                font: "LECIP-20:9",
+                spacing: 2
             },
             rear: {
                 renderType: 'twoline',
