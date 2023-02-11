@@ -222,7 +222,111 @@ EDSData.SBST = {
                 "KAMPONG BAHRU TER"            
             }
         }            
-    },                      
+    },
+    59: {
+1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "59",
+                destination: {
+                    text: ">CHANGI VILLAGE TER",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "LOR 1 TOA PAYOH",
+                    "KAKI BUKIT AVE 1",
+                    "BEDOK RESERVOIR RD",
+                    "TAMPINES AVE 2",
+                    "LOYANG AVE"
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "59",
+                destination: "CHANGI VILLAGE TER",
+                scrolls: [
+                    "BISHAN INT",
+            }
+        },
+2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "59",
+                destination: {
+                    text: ">BISHAN INT",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "LOYANG AVE",
+                    "TAMPINES AVE 2",
+                    "BEDOK RESERVOIR RD",
+                    "KAKI BUKIT AVE 1",
+                    "LOR 1 TOA PAYOH"
+                ],
+                scrollFont: "LECIP-8"
+                },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "59",
+                destination: "BISHAN INT",
+                scrolls: [
+                "CHANGI VILLAGE TER"            
+            }
+        }            
+    }, 
+    "59N": {
+1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "59",
+                destination: {
+                    text: ">CHANGI VILLAGE TER",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "LOR 1 TOA PAYOH",
+                    "KAKI BUKIT AVE ",
+                    " ",
+                    " ",
+                    " "
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "59",
+                destination: "CHANGI VILLAGE TER",
+                scrolls: [
+                    "BISHAN INT"
+            }
+        },
+2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "59",
+                destination: {
+                    text: ">CHANGI VILLAGE TER",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "LOYANG AVE",
+                    "TAMPINES AVE 2",
+                    "BEDOK RESERVOIR RD",
+                    "KAKI BUKIT AVE 1",
+                    "LOR 1 TOA PAYOH"
+                ],
+                scrollFont: "LECIP-8"
+                },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "59",
+                destination: "BISHAN INT",
+                scrolls: [
+                "CHANGI VILLAGE TER"            
+            }
+        }            
+    },                
     64: {
 1: {
             front: {
@@ -247,7 +351,7 @@ EDSData.SBST = {
                 serviceNumber: "64",
                 destination: "MEI LING ST",
                 scrolls: [
-                    "SIMS PL TER",
+                    "SIMS PL TER"
             }
         },
 2: {
@@ -395,7 +499,7 @@ EDSData.SBST = {
                 ]
             }
         }
-    }
+    },
     974: {
         1: {
             front: {
@@ -418,7 +522,35 @@ EDSData.SBST = {
                 serviceNumber: "974",
                 destination: "BUKIT PANJANG STN",
                 scrolls: [
-                    "YES",
+                    "JOO KOON INT"
+                    
+            }
+        },
+2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "974",
+                destination: {
+                    text: ">JOO KOON INT",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "CHOA CHU KANG WAY",
+                    "JALAN BOON LAY",
+                    "JURONG WEST ST 64",
+                    "UPPER JURONG RD"
+                ],
+                scrollFont: "LECIP-8"
+                },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "974",
+                destination: "JOO KOON INT",
+                scrolls: [
+                "UNDEFINED"            
+            }
+        }            
+    },            
                 ]
             }
         }
