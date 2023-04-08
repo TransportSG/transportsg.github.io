@@ -5691,10 +5691,10 @@ EDSData.SBST = {
                 destination: "> BUKIT MERAH INT",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
-                    'HOUGANG AVE 2'
+                    'HOUGANG AVE 2',
                     'ANG MO KIO AVE 3',
                     'UPPER THOMSON RD',
-                    'THOMSON RD'
+                    'THOMSON RD',
                     'STEVENS RD',
                     'TANGLIN RD'
                 ],
