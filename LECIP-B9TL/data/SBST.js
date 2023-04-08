@@ -617,7 +617,7 @@ EDSData.SBST = {
                 destinationFont: "LECIP-10",
                 scrolls: [
                     "EAST COAST RD",
-                    'TANJONG KATON RD',
+                    'TANJONG KATONG RD',
                     'SHENTON WAY',
                     'PASIR PANJANG RD',
                 ],
@@ -2262,7 +2262,7 @@ EDSData.SBST = {
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "48",
+                serviceNumber: "47",
                 font: "LECIP-20:12",
                 spacing: 2
             }
@@ -2388,11 +2388,14 @@ EDSData.SBST = {
                 destination: "> JURONG EAST INT",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
+                    'HOUGANG AVE 3',
                     'EUNOS LINK',
                     'GEYLANG RD',
                     'NORTH BRIDGE RD',
                     'ALEXANDRA RD',
-                    'WEST COAST RD'
+                    'PASIR PANJANG RD',
+                    'WEST COAST RD',
+                    'JURONG TOWN HALL RD'
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -2410,11 +2413,14 @@ EDSData.SBST = {
                 destination: "> HOUGANG CTRL INT",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
+                    'JURONG TOWN HALL RD',
                     'WEST COAST RD',
+                    'PASIR PANJANG RD',
                     'ALEXANDRA RD',
                     'VICTORIA ST',
                     'SIMS AVE',
-                    'EUNOS LINK'
+                    'EUNOS LINK',
+                    'HOUGANG AVE 3'
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -2450,7 +2456,8 @@ EDSData.SBST = {
                 destinationFont: "LECIP-7:5",
                 scrolls: [
                     'SIN MING AVE',
-                    'UPP THOMSON AVE',
+                    'UPPER THOMSON RD',
+                    'LORNIE RD',
                     'CLEMENTI RD',
                     "C'WEALTH AVE WEST",
                     'TOH GUAN RD'
@@ -2474,7 +2481,8 @@ EDSData.SBST = {
                     'TOH GUAN RD',
                     "C'WEALTH AVE WEST",
                     'CLEMENTI RD',
-                    'UPP THOMSON RD',
+                    'LORNIE RD',
+                    'UPPER THOMSON RD',
                     'SIN MING AVE'
                 ],
                 scrollFont: "LECIP-7:5"
@@ -3825,6 +3833,12 @@ EDSData.SBST = {
                 destination: "> SENGKANG INT",
                 destinationFont: "LECIP-10",
                 scrolls: [
+                    {
+                        renderType: "message",
+                        text: "HAPPY CNY",
+                        font: "LECIP-20:12",
+                        spacing: 2
+                    },
                     'BEDOK NTH RD',
                     'KAKI BUKIT AVE 1',
                     'EUNOS LINK',
@@ -4282,6 +4296,60 @@ EDSData.SBST = {
             }
         }
     },
+    96: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "96",
+                destination: "> CLEMENTI INT",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    "COMMMONWEALTH AVE WEST",
+                    "CLEMENTI RD",
+                    "KENT RIDGE CRES"
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "96",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        }
+    },    
+    "96A": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "96A",
+                terminateAt: "KENT RIDGE",
+                landmark: "CRES (NUS RAFFLES HALL)"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "96A",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },    
+    "96B": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "96B",
+                terminateAt: "C'WEALTH AVE",
+                landmark: "WEST (CLEMENTI STN EXIT A)"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "96A",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },       
     99: {
         1: {
             front: {
@@ -4540,7 +4608,8 @@ EDSData.SBST = {
             front: {
                 renderType: "swt",
                 serviceNumber: "105B",
-                landmark: "CLEMENTI RD (CLEMENTI STN)"
+                terminateAt: "C'WEALTH AVE W.",
+                landmark: "(CLEMENTI STN EXIT B)"
             },
             rear: {
                 renderType: "rearService",
@@ -5622,8 +5691,10 @@ EDSData.SBST = {
                 destination: "> BUKIT MERAH INT",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
+                    'HOUGANG AVE 2',
                     'ANG MO KIO AVE 3',
-                    'UPP THOMSON RD',
+                    'UPPER THOMSON RD',
+                    'THOMSON RD',
                     'STEVENS RD',
                     'TANGLIN RD'
                 ],
@@ -5645,8 +5716,10 @@ EDSData.SBST = {
                 scrolls: [
                     'TANGLIN RD',
                     'STEVENS RD',
-                    'UPP THOMSON RD',
-                    'ANG MO KIO AVE 3'
+                    'THOMSON RD',
+                    'UPPER THOMSON RD',
+                    'ANG MO KIO AVE 3',
+                    'HOUGANG AVE 2'
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -5846,7 +5919,11 @@ EDSData.SBST = {
                 destination: "> UPP EAST COAST TER",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
+                    'SIMS AVE',
+                    'UBI AVE 1',
                     'KAKI BUKIT AVE 3',
+                    'BEDOK NORTH AVE 2',
+                    'BEDOK SOUTH RD'
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -5864,7 +5941,11 @@ EDSData.SBST = {
                 destination: "> SIMS PLACE TER",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
-                    'BEDOK NTH AVE 2'
+                    'BEDOK SOUTH RD',
+                    'BEDOK NTH AVE 2',
+                    'KAKI BUKIT AVE 3',
+                    'UBI AVE 1',
+                    'GEYLANG RD'
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -6940,7 +7021,7 @@ EDSData.SBST = {
                 renderType: "brandedSvc",
                 serviceNumber: "160",
                 branding: "KOTARAYA",
-                font: "LECIP-20:12",
+                font: "LECIP-20:9",
                 spacing: 2,
                 scrollFont: "LECIP-7:5"
             },
@@ -6956,7 +7037,7 @@ EDSData.SBST = {
                 renderType: "brandedSvc",
                 serviceNumber: "160",
                 branding: "JURONG EAST",
-                font: "LECIP-20:12",
+                font: "LECIP-20:9",
                 spacing: 2,
                 scrollFont: "LECIP-7:5"
             },
@@ -7377,7 +7458,7 @@ EDSData.SBST = {
                 destinationFont: "LECIP-10",
                 scrolls: [
                     "BUKIT TIMAH RD",
-                    "UPPER BT TIMAH RD",
+                    "UPPER BUKIT TIMAH RD",
                     "WOODLANDS RD",
                     "WOODLANDS CTR RD"
                 ],
@@ -7399,7 +7480,7 @@ EDSData.SBST = {
                 scrolls: [
                     "WOODLANDS CTR RD",
                     "WOODLANDS RD",
-                    "UPPER BT TIMAH RD",
+                    "UPPER BUKIT TIMAH RD",
                     "DUNEARN RD"
                 ],
                 scrollFont: "LECIP-7:5"
@@ -9368,6 +9449,70 @@ EDSData.SBST = {
             }
         }
     },
+    282: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "282",
+                destination: "> CLEMENTI INT",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    "CLEMENTI AVE 5",
+                    "CLEMENTI AVE 2",
+                    "CLEMENTI WEST ST 2"
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "282",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },    
+    284: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "284",
+                destination: "> CLEMENTI INT",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    "CLEMENTI AVE 4"
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "284",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },    
+    285: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "285",
+                destination: "> CLEMENTI INT",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    "CLEMENTI AVE 2",
+                    "WEST COAST RD",
+                    "PANDAN LOOP"
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "285",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },           
     275: {
         1: {
             front: {
@@ -9511,15 +9656,17 @@ EDSData.SBST = {
             }
         }
     },
-    298: {
+      298: {
         1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "298",
-                destination: "TAMP CONCOURSE INT-TAMP ST 86",
+                destination: "TAMP NORTH INT-TAMP ST 86",
                 destinationFont: "LECIP-6:3",
                 scrolls: [
-                    "TAMPINES CENTRAL 1",
+                    "TAMPINES ST 62",
+                    "TAMPINES NORTH DR 2",
+                    "TAMPINES CONCOURSE",
                     "TAMPINES AVE 4",
                     "TAMPINES AVE 3"
                 ],
@@ -9538,12 +9685,10 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "298",
-                destination: "TAMP NORTH INT-TAMP ST 86",
+                destination: "TAMP CONCOURSE INT - TAMP ST 86",
                 destinationFont: "LECIP-6:3",
                 scrolls: [
-                    "TAMPINES ST 62",
-                    "TAMPINES NORTH DR 2",
-                    "TAMPINES CONCOURSE",
+                    "TAMPINES CENTRAL 1",
                     "TAMPINES AVE 4",
                     "TAMPINES AVE 3"
                 ],
@@ -10167,10 +10312,10 @@ EDSData.SBST = {
             rear: {
                 renderType: "twoline",
                 top: "ULU",
-                topFont: "LECIP-7:5",
+                topFont: "LECIP-6:3",
 
                 bottom: "PANDAN",
-                bottomFont: "LECIP-7:5"
+                bottomFont: "LECIP-6:3"
             }
         }
     },
@@ -10207,10 +10352,10 @@ EDSData.SBST = {
             rear: {
                 renderType: "twoline",
                 top: "JURONG",
-                topFont: "LECIP-7:5",
+                topFont: "LECIP-6:3",
 
                 bottom: "EAST",
-                bottomFont: "LECIP-7:5"
+                bottomFont: "LECIP-6:3"
             }
         }
     },
@@ -10225,13 +10370,89 @@ EDSData.SBST = {
             rear: {
                 renderType: 'twoline',
                 top: "HAPPY",
-                topFont: "LECIP-6:3",
+                topFont: "LECIP-7:5",
 
                 bottom: "CNY",
-                bottomFont: "LECIP-6:3"
+                bottomFont: "LECIP-7:5"
             }
         }
     },
+    431: {
+        1: {
+            front: {
+                renderType: "twoline",
+                top: "EUNOS - UBI",
+                topFont: "LECIP-7:5",
+
+                bottom: "BRIDGING BUS",
+                bottomFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "twoline",
+                top: "EUN - ",
+                topFont: "LECIP-7:5",
+
+                bottom: "UBI",
+                bottomFont: "LECIP-7:5"
+            }
+        },
+        2: {
+            front: {
+                renderType: "twoline",
+                top: "UBI - EUNOS",
+                topFont: "LECIP-7:5",
+
+                bottom: "BRIDGING BUS",
+                bottomFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "twoline",
+                top: "UBI - ",
+                topFont: "LECIP-7:5",
+
+                bottom: "EUN",
+                bottomFont: "LECIP-7:5"
+            }
+        }
+    },    
+    432: {
+        1: {
+            front: {
+                renderType: "twoline",
+                top: "SERANGOON - AMK",
+                topFont: "LECIP-7:5",
+
+                bottom: "BRIDGING BUS",
+                bottomFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "twoline",
+                top: "SGN - ",
+                topFont: "LECIP-7:5",
+
+                bottom: "AMK",
+                bottomFont: "LECIP-7:5"
+            }
+        },
+        2: {
+            front: {
+                renderType: "twoline",
+                top: "AMK - SERANGOON",
+                topFont: "LECIP-7:5",
+
+                bottom: "BRIDGING BUS",
+                bottomFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "twoline",
+                top: "AMK - ",
+                topFont: "LECIP-7:5",
+
+                bottom: "SGN",
+                bottomFont: "LECIP-7:5"
+            }
+        }
+    },       
     502: {
         1: {
             front: {
@@ -10866,7 +11087,7 @@ EDSData.SBST = {
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                     "BUKIT TIMAH RD",
-                    "UPP BT TIMAH RD",
+                    "UPP BUKIT TIMAH RD",
                     "WOODLANDS RD",
                     "WOODLANDS CTR RD"
                 ],
@@ -10888,7 +11109,7 @@ EDSData.SBST = {
                 scrolls: [
                     "WOODLANDS CTR RD",
                     "WOODLANDS RD",
-                    "UPP BT TIMAH RD",
+                    "UPP BUKIT TIMAH RD",
                     "DUNEARN RD"
                 ],
                 scrollFont: "LECIP-7:5"
@@ -12220,12 +12441,28 @@ EDSData.SBST = {
             }
         }
     },
-    2222: {
+        2222: {
         1: {
             front: {
                 renderType: "logo",
                 text: "SBS TRANSIT",
                 image: "logo"
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "SBS",
+                topFont: "LECIP-7:4",
+
+                bottom: "TRANSIT",
+                bottomFont: "LECIP-7:4"
+            }
+        },
+        2: {
+            front: {
+                renderType: "message",
+                text: "SBS Transit",
+                font: "LECIP-20:9",
+                spacing: 2
             },
             rear: {
                 renderType: 'twoline',
@@ -12399,6 +12636,42 @@ EDSData.SBST = {
             }
         }
     },
+    6006: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "CRL BRIDGING BUS",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+                rear: {
+                renderType: 'twoline',
+                top: "CRL",
+                topFont: "LECIP-6:3",
+
+                bottom: "BRIDGING",
+                bottomFont: "LECIP-6:3"
+            }
+        }
+    },    
+    6007: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "JRL BRIDGING BUS",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+                rear: {
+                renderType: 'twoline',
+                top: "JRL",
+                topFont: "LECIP-6:3",
+
+                bottom: "BRIDGING",
+                bottomFont: "LECIP-6:3"
+            }
+        }
+    },        
     6099: {
         1: {
             front: {
@@ -12413,6 +12686,24 @@ EDSData.SBST = {
                 topFont: "LECIP-6:3",
 
                 bottom: "BRIDGING",
+                bottomFont: "LECIP-6:3"
+            }
+        }
+    },
+    6666: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "BUS REVERSING",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+                rear: {
+                renderType: 'twoline',
+                top: " ",
+                topFont: "LECIP-6:3",
+
+                bottom: " ",
                 bottomFont: "LECIP-6:3"
             }
         }
@@ -12451,6 +12742,36 @@ EDSData.SBST = {
             }
         }
     },
+    7001: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "LRT SHUTTLE A",
+                font: "LECIP-14:6",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "A",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "message",
+                text: "LRT SHUTTLE B",
+                font: "LECIP-14:6",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "B",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        }
+    },    
     7777: {
         1: {
             front: {
@@ -12537,8 +12858,22 @@ EDSData.SBST = {
                 bottom: "JUN19-DD",
                 bottomFont: "LECIP-6:3"
             }
+        },
+        2: {
+            front: {
+                renderType: "message",
+                text: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+                font: "LECIP-20:12",
+                spacing: 0
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+                font: "LECIP-20:12",
+                spacing: 0
+            }
         }
-    }
+    },    
 }
 
 EDSImages.SBST = {
