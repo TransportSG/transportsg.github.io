@@ -5785,11 +5785,12 @@ EDSData.SBST = {
                 destination: "SIMS PL TER-MARINE TERR",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
-                    'GEYLANG EAST CENTRAL',
-                    'TANJONG KATONG RD',
-                    'MARINE TERRACE',
-                    'TANJONG KATONG RD',
-                    'GEYLANG EAST CENTRAL'
+                    "GEYLANG EAST CENTRAL",
+                    "TANJONG KATONG RD",
+                    "MARINE PARADE RD",
+                    "MARINE TERRACE",
+                    "MARINE PARADE RD",
+                    "TANJONG KATONG RD"
                 ],
                 scrollFont: "LECIP-7:5"
             },
