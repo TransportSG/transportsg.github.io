@@ -3800,12 +3800,12 @@ EDSData.SBST = {
             }
         }
     },
-    117: {
+    85: {
         1: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "117",
-                destination: "> SEMBAWANG INT",
+                serviceNumber: "85",
+                destination: "> YISHUN INT",
                 destinationFont: "LECIP-10",
                 scrolls: [
                     "PUNGGOL CENTRAL",
@@ -5287,7 +5287,7 @@ EDSData.SBST = {
             }
         }
     },
-    118: {
+    119: {
         1: {
             front: {
                 renderType: "standardService",
