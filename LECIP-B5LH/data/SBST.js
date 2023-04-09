@@ -37,7 +37,6 @@ EDSFormats.SBST.pids = EDSFormats.SMRT.pids;
 
 
 EDSData.SBST = {
-    
     4: {
         1: {
             front: {
@@ -61,7 +60,8 @@ EDSData.SBST = {
                 serviceNumber: "4",
                 destination: "TAMPINES INT",
                 scrolls: [
-                "TAMPINES INT"
+                    "TAMPINES INT"
+                ]
             }
         }
     },    
@@ -88,10 +88,11 @@ EDSData.SBST = {
                 serviceNumber: "5",
                 destination: "BUKIT MERAH INT",
                 scrolls: [
-                "BUKIT MERAH INT"
+                    "BUKIT MERAH INT"
+                ]
             }
         },
-2: {
+        2: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "5",
@@ -107,18 +108,19 @@ EDSData.SBST = {
                     "UPP CHANGI RD EAST"
                 ],
                 scrollFont: "LECIP-8"
-                },
+            },
             pids: {
                 renderType: "pids",
                 serviceNumber: "5",
                 destination: "PASIR RIS INT",
                 scrolls: [
-                "PASIR RIS INT"            
+                  "PASIR RIS INT",
+                ]
             }
         }            
     },
     7: {
-1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "7",
@@ -141,10 +143,11 @@ EDSData.SBST = {
                 serviceNumber: "7",
                 destination: "CLEMENTI INT",
                 scrolls: [
-                    "CLEMENTI INT",
+                    "CLEMENTI INT"
+                ]
             }
         },
-2: {
+        2: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "7",
@@ -161,18 +164,19 @@ EDSData.SBST = {
                     "SIMS AVE EAST"
                 ],
                 scrollFont: "LECIP-8"
-                },
+            },
             pids: {
                 renderType: "pids",
                 serviceNumber: "7",
                 destination: "BEDOK INT",
                 scrolls: [
-                "BEDOK INT"            
+                    "BEDOK INT"
+                ]
             }
         }            
     },   
     54: {
-1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "54",
@@ -194,10 +198,11 @@ EDSData.SBST = {
                 serviceNumber: "54",
                 destination: "KAMPONG BAHRU TER",
                 scrolls: [
-                    "BISHAN INT",
+                    "BISHAN INT"
+                ]
             }
         },
-2: {
+        2: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "54",
@@ -213,18 +218,19 @@ EDSData.SBST = {
                     'MARYMOUNT RD'
                 ],
                 scrollFont: "LECIP-8"
-                },
+            },
             pids: {
                 renderType: "pids",
                 serviceNumber: "54",
                 destination: "BISHAN INT",
                 scrolls: [
-                "KAMPONG BAHRU TER"            
+                    "KAMPONG BAHRU TER"
+                ]   
             }
         }            
     },
     59: {
-1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "59",
@@ -246,10 +252,11 @@ EDSData.SBST = {
                 serviceNumber: "59",
                 destination: "CHANGI VILLAGE TER",
                 scrolls: [
-                    "BISHAN INT",
+                    "BISHAN INT"
+                ]
             }
         },
-2: {
+        2: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "59",
@@ -265,18 +272,19 @@ EDSData.SBST = {
                     "LOR 1 TOA PAYOH"
                 ],
                 scrollFont: "LECIP-8"
-                },
+            },
             pids: {
                 renderType: "pids",
                 serviceNumber: "59",
                 destination: "BISHAN INT",
                 scrolls: [
-                "CHANGI VILLAGE TER"            
+                  "CHANGI VILLAGE TER"
+                ]
             }
         }            
     }, 
     "59N": {
-1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "59",
@@ -286,10 +294,7 @@ EDSData.SBST = {
                 },
                 scrolls: [
                     "LOR 1 TOA PAYOH",
-                    "KAKI BUKIT AVE ",
-                    " ",
-                    " ",
-                    " "
+                    "KAKI BUKIT AVE "
                 ],
                 scrollFont: "LECIP-8"
             },
@@ -299,9 +304,10 @@ EDSData.SBST = {
                 destination: "CHANGI VILLAGE TER",
                 scrolls: [
                     "BISHAN INT"
+                ]
             }
         },
-2: {
+        2: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "59",
@@ -317,13 +323,14 @@ EDSData.SBST = {
                     "LOR 1 TOA PAYOH"
                 ],
                 scrollFont: "LECIP-8"
-                },
+            },
             pids: {
                 renderType: "pids",
                 serviceNumber: "59",
                 destination: "BISHAN INT",
                 scrolls: [
-                "CHANGI VILLAGE TER"            
+                    "CHANGI VILLAGE TER"
+                ]
             }
         }            
     },                
@@ -749,7 +756,7 @@ EDSData.SBST = {
                 scrolls: [
                     "UPPER JURONG RD",
                     "JURONG WEST ST 64",
-                    "JALAN BOON LAY"
+                    "JALAN BOON LAY",
                     "CHOA CHU KANG WAY"
                 ],
                 scrollFont: "LECIP-8"
@@ -760,10 +767,10 @@ EDSData.SBST = {
                 destination: "BUKIT PANJANG STN",
                 scrolls: [
                     "JOO KOON INT"
-                    
+                ]    
             }
         },
-2: {
+        2: {    
             front: {
                 renderType: "standardService",
                 serviceNumber: "974",
@@ -784,12 +791,9 @@ EDSData.SBST = {
                 serviceNumber: "974",
                 destination: "JOO KOON INT",
                 scrolls: [
-                "UNDEFINED"            
-            }
-        }            
-    },            
+                    ""
                 ]
             }
         }
-    },                
+    },
 }
