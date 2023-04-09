@@ -271,6 +271,54 @@ EDSData.SBST = {
             }
         }
     },
+    "1L": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "LCS1",
+                destination: "> CHANGI AIRFREIGHT CTR",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    'TAMPINES AVE 3',
+                    'TAMPINES AVE 5',
+                    'LOYANG WAY',
+                    'ALPS AVE',
+                    'AIRPORT CARGO RD',
+                    'AIRLINE RD'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "LCS1",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "LCS1",
+                destination: "> TAMPINES AVE 9",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    'AIRPORT CARGO RD',
+                    'AIRLINE RD',
+                    'ALPS AVE',
+                    'LOYANG WAY',
+                    'TAMPINES AVE 3',
+                    'TAMPINES AVE 5'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "LCS1",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },    
     "1N": {
         1: {
             front: {
@@ -305,6 +353,53 @@ EDSData.SBST = {
             }
         }
     },
+    "2L": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "LCS2",
+                destination: "> CHANGI AIRFREIGHT CTR",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    'PUNGGOL CENTRAL',
+                    'LOYANG WAY',
+                    'ALPS AVE',
+                    'AIRPORT CARGO RD',
+                    'AIRLINE RD'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "LCS2",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "LCS2",
+                destination: "> PUNGGOL WAY",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    'AIRPORT CARGO RD',
+                    'AIRLINE RD',
+                    'ALPS AVE',
+                    'LOYANG WAY',
+                    'PUNGGOL CENTRAL',
+                    'PUNGGOL WAY'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "LCS2",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },        
     "3N": {
         1: {
             front: {
@@ -3705,6 +3800,51 @@ EDSData.SBST = {
             }
         }
     },
+    117: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "117",
+                destination: "> SEMBAWANG INT",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    "PUNGGOL CENTRAL",
+                    "SENGKANG EAST WAY",
+                    "SENGKANG WEST WAY",
+                    "YISHUN AVE 2"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "85",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "85",
+                destination: "> PUNGGOL INT",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    "YISHUN AVE 2",
+                    "SENGKANG WEST WAY",
+                    "SENGKANG EAST WAY",
+                    "RIVERVALE DR",
+                    "PUNGGOL CENTRAL"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "85",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        }
+    },
     86: {
         1: {
             front: {
@@ -4308,7 +4448,7 @@ EDSData.SBST = {
                     "CLEMENTI RD",
                     "KENT RIDGE CRES"
                 ],
-                scrollFont: "LECIP-6:4"
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -4509,6 +4649,22 @@ EDSData.SBST = {
             }
         }
     },
+   "102A": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "102A",
+                terminateAt: "SENGKANG WEST",
+                landmark: "WAY (OPPBLK 461B)"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "102A",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
     103: {
         1: {
             front: {
@@ -4608,8 +4764,8 @@ EDSData.SBST = {
             front: {
                 renderType: "swt",
                 serviceNumber: "105B",
-                terminateAt: "C'WEALTH AVE W.",
-                landmark: "(CLEMENTI STN EXIT B)"
+                terminateAt: "C'WEALTH AVE",
+                landmark: "W. (CLEMENTI STN EXIT B)"
             },
             rear: {
                 renderType: "rearService",
@@ -5087,6 +5243,96 @@ EDSData.SBST = {
             }
         }
     },
+    118: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "118",
+                destination: "> CHANGI BIZ PARK TER",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    "PUNGGOL WAY",
+                    "TAMPINES AVE 10",
+                    "TAMPINES AVE 8, 1",
+                    "SIMEI AVE"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "118",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "118",
+                destination: "> PUNGGOL INT",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    "SIMEI AVE",
+                    "TAMPINES AVE 1, 8",
+                    "TAMPINES AVE 10",
+                    "PUNGGOL WAY"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "118",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    118: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "119",
+                destination: "> HOUGANG ST 21",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    "PUNGGOL FIELD",
+                    "SENGKANG EAST WAY",
+                    "RIVERVALE DR",
+                    "HOUGANG AVE 10",
+                    "UPPER SERANGOON RD"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "119",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "119",
+                destination: "> PUNGGOL INT",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    "UPPER SERANGOON RD",
+                    "HOUGANG AVE 10",
+                    "RIVERVALE DR",
+                    "SENGKANG EAST WAY",
+                    "PUNGGOL FIELD"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "119",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },     
     120: { //todo font
         1: {
             front: {
@@ -5776,6 +6022,42 @@ EDSData.SBST = {
                 spacing: 2
             }
         }
+    },
+    "133A": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "133A",
+                terminateAt: "TEMASEK AVE",
+                landmark: "(OPP RITZ CARLTON)"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "133A",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
+    "133M": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "133M",
+                destination: "MARINA CENTRE (LOOP)",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    'SHENTON WAY'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "133M",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        },
     },
     134: {
         1: {
@@ -9455,13 +9737,13 @@ EDSData.SBST = {
                 renderType: "standardService",
                 serviceNumber: "282",
                 destination: "> CLEMENTI INT",
-                destinationFont: "LECIP-7:5",
+                destinationFont: "LECIP-10",
                 scrolls: [
                     "CLEMENTI AVE 5",
                     "CLEMENTI AVE 2",
                     "CLEMENTI WEST ST 2"
                 ],
-                scrollFont: "LECIP-6:4"
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -9477,11 +9759,11 @@ EDSData.SBST = {
                 renderType: "standardService",
                 serviceNumber: "284",
                 destination: "> CLEMENTI INT",
-                destinationFont: "LECIP-7:5",
+                destinationFont: "LECIP-10",
                 scrolls: [
                     "CLEMENTI AVE 4"
                 ],
-                scrollFont: "LECIP-6:4"
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -9497,13 +9779,13 @@ EDSData.SBST = {
                 renderType: "standardService",
                 serviceNumber: "285",
                 destination: "> CLEMENTI INT",
-                destinationFont: "LECIP-7:5",
+                destinationFont: "LECIP-10",
                 scrolls: [
                     "CLEMENTI AVE 2",
                     "WEST COAST RD",
                     "PANDAN LOOP"
                 ],
-                scrollFont: "LECIP-6:4"
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -10453,6 +10735,36 @@ EDSData.SBST = {
             }
         }
     },       
+   433: {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "59A",
+                terminateAt: "LOR 1 TOA PAYOH",
+                landmark: "(BRADDELL STN/BLK 107)"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "59A",
+                font: "LECIP-20:9",
+                spacing: 1
+            }
+        },
+        2: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "59B",
+                terminateAt: "TAMPINES AVE 2",
+                landmark: "(TAMP EAST STN EXIT C)"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "59B",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
     502: {
         1: {
             front: {
@@ -10553,6 +10865,613 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "513",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    518: {
+        1: {
+            front: {
+                renderType: "logoSvc",
+                serviceNumber: "518",
+                image: "express",
+                destination: "EXPRESS 518"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "518",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "logoSvc",
+                serviceNumber: "518",
+                image: "express",
+                destination: "EXPRESS 518"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "518",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    "518A": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "518A",
+                terminateAt: "BAYFRONT AVE",
+                landmark: "(OPP MARINA BAY SANDS MICE)"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "518A",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
+    532: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "532",
+                branding: "PREMIUM",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "532",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    533: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "533",
+                branding: "PREMIUM",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "533",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    534: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "534",
+                branding: "PREMIUM",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "534",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    535: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "535",
+                branding: "PREMIUM",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "535",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    536: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "536",
+                branding: "PREMIUM",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "536",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    537: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "537",
+                branding: "PREMIUM",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "537",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    538: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "538",
+                branding: "PREMIUM",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "538",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    539: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "539",
+                branding: "PREMIUM",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "539",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },        
+    540: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "540",
+                branding: "PREMIUM",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "540",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    542: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "542",
+                branding: "PREMIUM",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "542",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    543: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "543",
+                branding: "PREMIUM",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "543",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    544: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "544",
+                branding: "PREMIUM",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "544",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    545: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "545",
+                branding: "PREMIUM",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "545",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    548: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "548",
+                branding: "PREMIUM",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "548",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    549: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "549",
+                branding: "PREMIUM",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "549",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    550: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "550",
+                branding: "PREMIUM",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "550",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    552: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "552",
+                branding: "PREMIUM",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "552",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },        
+    553: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "553",
+                branding: "PREMIUM",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "553",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    554: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "554",
+                branding: "PREMIUM",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "554",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },        
+    555: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "555",
+                branding: "PREMIUM",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "555",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    556: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "556",
+                branding: "PREMIUM",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "556",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    557: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "557",
+                branding: "PREMIUM",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "557",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },        
+    558: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "558",
+                branding: "PREMIUM",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "558",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    559: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "559",
+                branding: "PREMIUM",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "559",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    560: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "560",
+                branding: "PREMIUM",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "560",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    561: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "561",
+                branding: "PREMIUM",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "561",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    563: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "563",
+                branding: "PREMIUM",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "563",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    564: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "564",
+                branding: "PREMIUM",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "564",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    565: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "565",
+                branding: "PREMIUM",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "565",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    566: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "566",
+                branding: "PREMIUM",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "566",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    569: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "569",
+                branding: "PREMIUM",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "569",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    585: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "585",
+                branding: "PREMIUM",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "585",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    761: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "761",
+                branding: "PREMIUM",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "761",
                 font: "LECIP-20:9",
                 spacing: 2
             }
@@ -12873,7 +13792,7 @@ EDSData.SBST = {
                 spacing: 0
             }
         }
-    },    
+    }
 }
 
 EDSImages.SBST = {
