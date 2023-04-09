@@ -5286,7 +5286,7 @@ EDSData.SBST = {
                 spacing: 2
             }
         }
-    },    
+    },
     118: {
         1: {
             front: {
@@ -6058,6 +6058,7 @@ EDSData.SBST = {
                 spacing: 2
             }
         },
+    },
     134: {
         1: {
             front: {
@@ -13791,7 +13792,7 @@ EDSData.SBST = {
                 spacing: 0
             }
         }
-    },    
+    }
 }
 
 EDSImages.SBST = {
