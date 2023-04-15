@@ -3586,14 +3586,14 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "59",
-                destination: "> BISHAN INT",
-                destinationFont: "LECIP-10",
+                destination: "> CHANGI VILLAGE TER",
+                destinationFont: "LECIP-7:5",
                 scrolls: [
-                    "LOYANG AVE",
-                    "TAMPINES AVE 2",
-                    "BEDOK RESERVOIR RD",
+                    "LOR 1 TOA PAYOH",
                     "KAKI BUKIT AVE 1",
-                    "LOR 1 TOA PAYOH"
+                    "BEDOK RESERVOIR RD",
+                    "TAMPINES AVE 2",
+                    "LOYANG AVE"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -3604,18 +3604,18 @@ EDSData.SBST = {
                 spacing: 2
             }
         },
-        2: {
+ 2: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "59",
-                destination: "> CHANGI VILLAGE TER",
-                destinationFont: "LECIP-7:5",
+                destination: "> BISHAN INT",
+                destinationFont: "LECIP-10",
                 scrolls: [
-                    "LOR 1 TOA PAYOH",
-                    "KAKI BUKIT AVE 1",
-                    "BEDOK RESERVOIR RD",
+                    "LOYANG AVE",
                     "TAMPINES AVE 2",
-                    "LOYANG AVE"
+                    "BEDOK RESERVOIR RD",
+                    "KAKI BUKIT AVE 1",
+                    "LOR 1 TOA PAYOH"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -5509,8 +5509,8 @@ EDSData.SBST = {
             front: {
                 renderType: "swt",
                 serviceNumber: "102A",
-                terminateAt: "SENGKANG WEST",
-                landmark: "WAY (OPPBLK 461B)"
+                terminateAt: "SENGKANG",
+                landmark: "WEST WAY (OPP BLK 461B)"
             },
             rear: {
                 renderType: "rearService",
@@ -10937,7 +10937,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "298",
-                destination: "TAMP NORTH INT-TAMP ST 86",
+                destination: "TAMP NORTH INT-TAMP AVE 5",
                 destinationFont: "LECIP-6:3",
                 scrolls: [
                     "TAMPINES ST 62",
@@ -11064,6 +11064,29 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "317",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    324: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "325",
+                destination: "> HOUGANG CTRL INT",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    'UPP SERANGOON RD',
+                    'UPP SERANGOON CRES',
+                    'UPP SERANGOON VIEW',
+                    'UPP SERANGOON RD'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "324",
                 font: "LECIP-20:9",
                 spacing: 2
             }
@@ -11838,7 +11861,7 @@ EDSData.SBST = {
                 renderType: "swt",
                 serviceNumber: "59B",
                 terminateAt: "TAMPINES AVE 2",
-                landmark: "(TAMP EAST STN EXIT C)"
+                landmark: "(TAMPINES EAST STN EXIT C)"
             },
             rear: {
                 renderType: "rearService",
@@ -12860,18 +12883,18 @@ EDSData.SBST = {
             }
         }
     },
-    "660": {
+    652: {
         1: {
             front: {
                 renderType: "brandedSvc",
-                serviceNumber: "660",
+                serviceNumber: "652",
                 branding: "CITY DIRECT",
                 font: "LECIP-20:9",
                 spacing: 2
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "660",
+                serviceNumber: "652",
                 font: "LECIP-20:9",
                 spacing: 2
             }
@@ -12879,31 +12902,31 @@ EDSData.SBST = {
         2: {
             front: {
                 renderType: "brandedSvc",
-                serviceNumber: "660",
+                serviceNumber: "652",
                 branding: "CITY DIRECT",
                 font: "LECIP-20:9",
                 spacing: 2
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "660",
+                serviceNumber: "652",
                 font: "LECIP-20:9",
                 spacing: 2
             }
         }
     },
-    "665": {
+    654: {
         1: {
             front: {
                 renderType: "brandedSvc",
-                serviceNumber: "665",
+                serviceNumber: "654",
                 branding: "CITY DIRECT",
-                font: "LECIP-20:12",
-                spacing: 1
+                font: "LECIP-20:9",
+                spacing: 2
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "665",
+                serviceNumber: "654",
                 font: "LECIP-20:9",
                 spacing: 2
             }
@@ -12911,14 +12934,78 @@ EDSData.SBST = {
         2: {
             front: {
                 renderType: "brandedSvc",
-                serviceNumber: "665",
+                serviceNumber: "654",
                 branding: "CITY DIRECT",
-                font: "LECIP-20:12",
-                spacing: 1
+                font: "LECIP-20:9",
+                spacing: 2
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "665",
+                serviceNumber: "654",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    655: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "655",
+                branding: "CITY DIRECT",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "655",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "655",
+                branding: "CITY DIRECT",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "655",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    660: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "660",
+                branding: "CITY DIRECT",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "660",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "660",
+                branding: "CITY DIRECT",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "660",
                 font: "LECIP-20:9",
                 spacing: 2
             }
