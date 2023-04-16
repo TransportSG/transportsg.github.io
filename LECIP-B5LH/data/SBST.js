@@ -36,7 +36,7 @@ EDSFormats.SBST = {
 EDSFormats.SBST.pids = EDSFormats.SMRT.pids;
 
 
-EDSData.SBST = { 
+EDSData.SBST = {
     4: {
         1: {
             front: {
@@ -54,16 +54,17 @@ EDSData.SBST = {
                     "TAMPINES AVE 7"
                 ],
                 scrollFont: "LECIP-8"
-                },
+            },
             pids: {
                 renderType: "pids",
                 serviceNumber: "4",
                 destination: "TAMPINES INT",
                 scrolls: [
-                "TAMPINES INT"
+                    "TAMPINES INT"
+                ]
             }
         }
-    },    
+    },
     5: {
         1: {
             front: {
@@ -81,16 +82,17 @@ EDSData.SBST = {
                     "TIONG BAHRU RD"
                 ],
                 scrollFont: "LECIP-8"
-                },
+            },
             pids: {
                 renderType: "pids",
                 serviceNumber: "5",
                 destination: "BUKIT MERAH INT",
                 scrolls: [
-                "BUKIT MERAH INT"
+                    "BUKIT MERAH INT"
+                ]
             }
         },
-2: {
+        2: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "5",
@@ -106,18 +108,19 @@ EDSData.SBST = {
                     "UPP CHANGI RD EAST"
                 ],
                 scrollFont: "LECIP-8"
-                },
+            },
             pids: {
                 renderType: "pids",
                 serviceNumber: "5",
                 destination: "PASIR RIS INT",
                 scrolls: [
-                "PASIR RIS INT"            
+                    "PASIR RIS INT"
+                ]
             }
-        }            
+        }
     },
     7: {
-1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "7",
@@ -140,10 +143,11 @@ EDSData.SBST = {
                 serviceNumber: "7",
                 destination: "CLEMENTI INT",
                 scrolls: [
-                    "CLEMENTI INT",
+                    "CLEMENTI INT"
+                ]
             }
         },
-2: {
+        2: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "7",
@@ -160,18 +164,19 @@ EDSData.SBST = {
                     "SIMS AVE EAST"
                 ],
                 scrollFont: "LECIP-8"
-                },
+            },
             pids: {
                 renderType: "pids",
                 serviceNumber: "7",
                 destination: "BEDOK INT",
                 scrolls: [
-                "BEDOK INT"            
+                    "BEDOK INT"
+                ]
             }
-        }            
-    },  
+        }
+    },
     9: {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "9",
@@ -195,7 +200,7 @@ EDSData.SBST = {
                 scrolls: [
                     "BEDOK INT"
                 ]
-            }
+            },
         },
         2: {
             front: {
@@ -220,9 +225,10 @@ EDSData.SBST = {
                 destination: "BEDOK INT",
                 scrolls: [
                     "POLICE PASS OFFICE"
+                ]
             }
-        }            
-    }, 
+        },
+    },
     11: {
         1: {
             front: {
@@ -247,11 +253,12 @@ EDSData.SBST = {
                 destination: "LOR 1 GEYLANG TER",
                 scrolls: [
                     "LOR 1 GEYLANG TER"
-             }
-        }            
-    },  
+                ]
+            }
+        }
+    },
     16: {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "16",
@@ -300,11 +307,12 @@ EDSData.SBST = {
                 destination: "BEDOK INT",
                 scrolls: [
                     "BUKIT MERAH INT"
+                ]
             }
-        }            
-    }, 
+        }
+    },
     "16M": {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "16",
@@ -355,9 +363,10 @@ EDSData.SBST = {
                 destination: "BEDOK INT",
                 scrolls: [
                     "BUKIT MERAH INT"
+                ]
             }
-        }            
-    }, 
+        }
+    },
     23: {
         1: {
             front: {
@@ -383,11 +392,12 @@ EDSData.SBST = {
                 destination: "TAMPINES INT",
                 scrolls: [
                     "TAMPINES INT"
-             }
-        }            
-    },  
+                ]
+            }
+        }
+    },
     24: {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "24",
@@ -434,9 +444,10 @@ EDSData.SBST = {
                 destination: "ANG MO KIO INT",
                 scrolls: [
                     "CHANGI AIRPORT PTB 4"
+                ]
             }
-        }            
-    }, 
+        }
+    },
     29: {
         1: {
             front: {
@@ -465,11 +476,12 @@ EDSData.SBST = {
                 destination: "TAMPINES INT",
                 scrolls: [
                     "TAMPINES INT"
-             }
-        }            
-    },  
+                ]
+            }
+        }
+    },
     32: {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "32",
@@ -516,11 +528,12 @@ EDSData.SBST = {
                 destination: "BEDOK INT",
                 scrolls: [
                     "BLK 34"
+                ]
             }
-        }            
-    }, 
+        }
+    },
     35: {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "35",
@@ -565,11 +578,12 @@ EDSData.SBST = {
                 destination: "BEDOK INT",
                 scrolls: [
                     "BLK 34"
+                ]
             }
-        }            
-    }, 
+        }
+    },
     "35M": {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "35M",
@@ -614,9 +628,10 @@ EDSData.SBST = {
                 destination: "BEDOK INT",
                 scrolls: [
                     "BLK 34"
+                ]
             }
-        }            
-    }, 
+        }
+    },
     37: {
         1: {
             front: {
@@ -639,9 +654,10 @@ EDSData.SBST = {
                 destination: "TAMPINES INT",
                 scrolls: [
                     "TAMPINES INT"
-             }
-        }            
-    },  
+                ]
+            }
+        }
+    },
     42: {
         1: {
             front: {
@@ -666,11 +682,12 @@ EDSData.SBST = {
                 destination: "JLN KEMBANGAN",
                 scrolls: [
                     "KEMBANGAN STN"
-             }
-        }            
-    }, 
+                ]
+            }
+        }
+    },
     48: {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "48",
@@ -719,11 +736,12 @@ EDSData.SBST = {
                 destination: "BEDOK NORTH AVE 4",
                 scrolls: [
                     "BLK 10A"
+                ]
             }
-        }            
-    }, 
+        }
+    },
     50: {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "50",
@@ -774,11 +792,12 @@ EDSData.SBST = {
                 destination: "BISHAN INT",
                 scrolls: [
                     "PUNGGOL INT"
+                ]
             }
-        }            
-    }, 
+        }
+    },
     51: {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "51",
@@ -833,11 +852,12 @@ EDSData.SBST = {
                 destination: "HOUGANG CTRL INT",
                 scrolls: [
                     "JURONG EAST INT"
+                ]
             }
-        }            
-    }, 
+        }
+    },
     52: {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "52",
@@ -890,11 +910,12 @@ EDSData.SBST = {
                 destination: "BISHAN INT",
                 scrolls: [
                     "JURONG EAST INT"
+                ]
             }
-        }            
-    }, 
+        }
+    },
     53: {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "53",
@@ -933,7 +954,7 @@ EDSData.SBST = {
                     "HOUGANG AVE 1",
                     "LOR AH SOO",
                     "SERANGOON CENTRAL",
-                    "BISHAN RD
+                    "BISHAN RD"
                 ],
                 scrollFont: "LECIP-8"
             },
@@ -943,11 +964,12 @@ EDSData.SBST = {
                 destination: "BISHAN INT",
                 scrolls: [
                     "CHANGI AIRPORT PTB 2"
+                ]
             }
-        }            
-    }, 
+        }
+    },
     54: {
-1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "54",
@@ -969,10 +991,11 @@ EDSData.SBST = {
                 serviceNumber: "54",
                 destination: "KAMPONG BAHRU TER",
                 scrolls: [
-                    "BISHAN INT",
+                    "BISHAN INT"
+                ]
             }
         },
-2: {
+        2: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "54",
@@ -988,18 +1011,19 @@ EDSData.SBST = {
                     'MARYMOUNT RD'
                 ],
                 scrollFont: "LECIP-8"
-                },
+            },
             pids: {
                 renderType: "pids",
                 serviceNumber: "54",
                 destination: "BISHAN INT",
                 scrolls: [
-                "KAMPONG BAHRU TER"            
+                    "KAMPONG BAHRU TER"
+                ]
             }
-        }            
+        }
     },
     55: {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "55",
@@ -1050,11 +1074,12 @@ EDSData.SBST = {
                 destination: "BISHAN INT",
                 scrolls: [
                     "UPPER EAST COAST TER"
+                ]
             }
-        }            
-    }, 
+        }
+    },
     56: {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "56",
@@ -1103,11 +1128,12 @@ EDSData.SBST = {
                 destination: "BISHAN INT",
                 scrolls: [
                     "MARINA CTR TER"
+                ]
             }
-        }            
-    }, 
+        }
+    },
     57: {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "57",
@@ -1156,11 +1182,12 @@ EDSData.SBST = {
                 destination: "BISHAN INT",
                 scrolls: [
                     "BUKIT MERAH INT"
+                ]
             }
-        }            
-    }, 
+        }
+    },
     58: {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "58",
@@ -1213,11 +1240,12 @@ EDSData.SBST = {
                 destination: "BISHAN INT",
                 scrolls: [
                     "BUKIT MERAH INT"
+                ]
             }
-        }            
-    }, 
+        }
+    },
     59: {
-1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "59",
@@ -1239,10 +1267,11 @@ EDSData.SBST = {
                 serviceNumber: "59",
                 destination: "CHANGI VILLAGE TER",
                 scrolls: [
-                    "BISHAN INT",
+                    "BISHAN INT"
+                ]
             }
         },
-2: {
+        2: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "59",
@@ -1258,18 +1287,19 @@ EDSData.SBST = {
                     "LOR 1 TOA PAYOH"
                 ],
                 scrollFont: "LECIP-8"
-                },
+            },
             pids: {
                 renderType: "pids",
                 serviceNumber: "59",
                 destination: "BISHAN INT",
                 scrolls: [
-                "CHANGI VILLAGE TER"            
+                    "CHANGI VILLAGE TER"
+                ]
             }
-        }            
-    }, 
+        }
+    },
     "59N": {
-1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "59",
@@ -1292,9 +1322,10 @@ EDSData.SBST = {
                 destination: "CHANGI VILLAGE TER",
                 scrolls: [
                     "BISHAN INT"
+                ]
             }
         },
-2: {
+        2: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "59",
@@ -1310,18 +1341,19 @@ EDSData.SBST = {
                     "LOR 1 TOA PAYOH"
                 ],
                 scrollFont: "LECIP-8"
-                },
+            },
             pids: {
                 renderType: "pids",
                 serviceNumber: "59",
                 destination: "BISHAN INT",
                 scrolls: [
-                "CHANGI VILLAGE TER"            
+                    "CHANGI VILLAGE TER"
+                ]
             }
-        }            
-    }, 
+        }
+    },
     60: {
-1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "60",
@@ -1342,9 +1374,10 @@ EDSData.SBST = {
                 destination: "BEDOK INT",
                 scrolls: [
                     "EUNOS INT"
+                ]
             }
         },
-2: {
+        2: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "60",
@@ -1358,18 +1391,19 @@ EDSData.SBST = {
                     'JALAN EUNOS'
                 ],
                 scrollFont: "LECIP-8"
-                },
+            },
             pids: {
                 renderType: "pids",
                 serviceNumber: "60",
                 destination: "EUNOS INT",
                 scrolls: [
-                "BEDOK INT"            
+                    "BEDOK INT"
+                ]
             }
-        }            
-    },    
+        }
+    },
     63: {
-1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "63",
@@ -1392,9 +1426,10 @@ EDSData.SBST = {
                 destination: "JLN RUMAH TINGGI",
                 scrolls: [
                     "EUNOS INT"
+                ]
             }
         },
-2: {
+        2: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "63",
@@ -1410,16 +1445,17 @@ EDSData.SBST = {
                     'UBI AVE 1'
                 ],
                 scrollFont: "LECIP-8"
-                },
+            },
             pids: {
                 renderType: "pids",
                 serviceNumber: "63",
                 destination: "EUNOS INT",
                 scrolls: [
-                "EUNOS INT"            
+                    "EUNOS INT"
+                ]
             }
-        }            
-    },    
+        }
+    },
     "63M": {
         1: {
             front: {
@@ -1443,11 +1479,12 @@ EDSData.SBST = {
                 destination: "EUNOS INT",
                 scrolls: [
                     "EUNOS INT"
+                ]
             }
-        }            
-    }, 
+        }
+    },
     64: {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "64",
@@ -1577,11 +1614,12 @@ EDSData.SBST = {
                     "BEFORE BLOCK 53",
                     "BLOCK 45",
                     "SIMS PLACE TERMINAL"
+                ]
             }
-        }            
-    }, 
+        }
+    },
     65: {
-1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "65",
@@ -1606,9 +1644,10 @@ EDSData.SBST = {
                 destination: "HARBOURFRONT",
                 scrolls: [
                     "TAMPINES INT"
+                ]
             }
         },
-2: {
+        2: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "65",
@@ -1626,18 +1665,19 @@ EDSData.SBST = {
                     "BEDOK RESERVOIR RD"
                 ],
                 scrollFont: "LECIP-8"
-                },
+            },
             pids: {
                 renderType: "pids",
                 serviceNumber: "65",
                 destination: "TAMPINES INT",
                 scrolls: [
-                "TAMPINES INT"            
+                    "TAMPINES INT"
+                ]
             }
-        }            
-    },  
+        }
+    },
     69: {
-1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "69",
@@ -1661,9 +1701,10 @@ EDSData.SBST = {
                 destination: "BEDOK INT",
                 scrolls: [
                     "TAMPINES INT"
+                ]
             }
         },
-2: {
+        2: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "69",
@@ -1679,16 +1720,17 @@ EDSData.SBST = {
                     'TAMPINES AVE 5'
                 ],
                 scrollFont: "LECIP-8"
-                },
+            },
             pids: {
                 renderType: "pids",
                 serviceNumber: "69",
                 destination: "TAMPINES INT",
                 scrolls: [
-                "BEDOK INT"            
+                    "BEDOK INT"
+                ]
             }
-        }            
-    },   
+        }
+    },
     71: {
         1: {
             front: {
@@ -1715,11 +1757,12 @@ EDSData.SBST = {
                 destination: "YIO CHU KANG INT",
                 scrolls: [
                     "YIO CHU KANG INT"
-             }
-        }            
-    }, 
+                ]
+            }
+        }
+    },
     74: {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "74",
@@ -1762,7 +1805,7 @@ EDSData.SBST = {
                     'LORNIE RD',
                     'MARYMOUNT RD',
                     'ANG MO KIO AVE 3',
-                    'HOUGANG AVE 8
+                    'HOUGANG AVE 8'
                 ],
                 scrollFont: "LECIP-8"
             },
@@ -1772,11 +1815,12 @@ EDSData.SBST = {
                 destination: "HOUGANG CTRL INT",
                 scrolls: [
                     "BLK 10A"
-             }
-        }            
-    }, 
+                ]
+            }
+        }
+    },
     76: {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "76",
@@ -1823,11 +1867,12 @@ EDSData.SBST = {
                 destination: "YIO CHU KANG INT",
                 scrolls: [
                     "EUNOS INT"
-             }
-        }            
-    }, 
+                ]
+            }
+        }
+    },
     "76S": {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "76",
@@ -1878,9 +1923,10 @@ EDSData.SBST = {
                 destination: "YIO CHU KANG INT",
                 scrolls: [
                     "EUNOS INT"
-             }
-        }            
-    }, 
+                ]
+            }
+        }
+    },
     81: {
         1: {
             front: {
@@ -1907,11 +1953,12 @@ EDSData.SBST = {
                 destination: "TAMPINES INT",
                 scrolls: [
                     "TAMPINES INT"
-             }
-        }            
-    }, 
+                ]
+            }
+        }
+    },
     89: {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "89",
@@ -1962,9 +2009,10 @@ EDSData.SBST = {
                 destination: "HOUGANG CENTRAL INT",
                 scrolls: [
                     "POLICE PASS OFFICE"
-             }
-        }            
-    }, 
+                ]
+            }
+        }
+    },
     90: {
         1: {
             front: {
@@ -1988,9 +2036,10 @@ EDSData.SBST = {
                 destination: "TOA PAYOH INT",
                 scrolls: [
                     "TOA PAYOH INT"
+                ]
             }
-        }            
-    }, 
+        }
+    },
     91: {
         1: {
             front: {
@@ -2016,9 +2065,10 @@ EDSData.SBST = {
                 destination: "HOLLAND DR",
                 scrolls: [
                     "AYER RAJAH BUS PK"
+                ]
             }
-        }            
-    }, 
+        }
+    },
     92: {
         1: {
             front: {
@@ -2046,9 +2096,10 @@ EDSData.SBST = {
                 destination: "GHIM MOH TER",
                 scrolls: [
                     "GHIM MOH TER"
+                ]
             }
-        }            
-    }, 
+        }
+    },
     "92M": {
         1: {
             front: {
@@ -2072,11 +2123,12 @@ EDSData.SBST = {
                 destination: "GHIM MOH TER",
                 scrolls: [
                     "GHIM MOH TER"
+                ]
             }
-        }            
-    }, 
+        }
+    },
     93: {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "93",
@@ -2179,9 +2231,10 @@ EDSData.SBST = {
                     "BEF CHR COMMUNITY CHAPEL",
                     "BEF SEAH IM RD",
                     "HARBOURFRONT INT"
+                ]
             }
-        }            
-    }, 
+        }
+    },
     94: {
         1: {
             front: {
@@ -2208,9 +2261,10 @@ EDSData.SBST = {
                 destination: "EUNOS INT",
                 scrolls: [
                     "EUNOS INT"
+                ]
             }
-        }            
-    }, 
+        }
+    },
     95: {
         1: {
             front: {
@@ -2222,7 +2276,7 @@ EDSData.SBST = {
                 },
                 scrolls: [
                     'KENT RIDGE CRESCENT',
-                    'LOWER KENT RIDGE RD'
+                    'LOWER KENT RIDGE RD',
                     "NORTH BUONA VISTA RD",
                     "HOLLAND AVE",
                     'NORTH BUONA VISTA RD',
@@ -2237,11 +2291,12 @@ EDSData.SBST = {
                 destination: "KENT RIDGE TER",
                 scrolls: [
                     "KENT RIDGE TER"
+                ]
             }
-        }            
-    }, 
+        }
+    },
     99: {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "99",
@@ -2291,11 +2346,12 @@ EDSData.SBST = {
                 destination: "CLEMENTI INT",
                 scrolls: [
                     "JOO KOON INT"
+                ]
             }
-        }            
-    }, 
+        }
+    },
     100: {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "100",
@@ -2345,9 +2401,10 @@ EDSData.SBST = {
                 destination: "SERANGOON INT",
                 scrolls: [
                     "SERANGOON INT"
+                ]
             }
-        }            
-    }, 
+        }
+    },
     101: {
         1: {
             front: {
@@ -2376,9 +2433,10 @@ EDSData.SBST = {
                 destination: "SERANGOON INT",
                 scrolls: [
                     "SERANGOON INT"
-             }
-        }            
-    }, 
+                ]
+            }
+        }
+    },
     102: {
         1: {
             front: {
@@ -2404,11 +2462,12 @@ EDSData.SBST = {
                 destination: "HOUGANG CENTRAL INT",
                 scrolls: [
                     "HOUGANG CENTRAL INT"
+                ]
             }
-        }            
-    }, 
+        }
+    },
     103: {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "103",
@@ -2458,11 +2517,12 @@ EDSData.SBST = {
                 destination: "SERANGOON INT",
                 scrolls: [
                     "SERANGOON INT"
+                ]
             }
-        }            
-    }, 
+        }
+    },
     105: {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "105",
@@ -2514,11 +2574,12 @@ EDSData.SBST = {
                 destination: "SERANGOON INT",
                 scrolls: [
                     "SERANGOON INT"
+                ]
             }
-        }            
-    }, 
+        }
+    },
     107: {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "107",
@@ -2568,9 +2629,10 @@ EDSData.SBST = {
                 destination: "HOUGANG CENTRAL INT",
                 scrolls: [
                     "HOUGANG CENTRAL INT"
+                ]
             }
-        }            
-    }, 
+        }
+    },
     "107M": {
         1: {
             front: {
@@ -2595,11 +2657,12 @@ EDSData.SBST = {
                 destination: "HOUGANG CENTRAL INT",
                 scrolls: [
                     "HOUGANG CENTRAL INT"
+                ]
             }
-        }            
-    }, 
+        }
+    },
     109: {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "109",
@@ -2649,9 +2712,10 @@ EDSData.SBST = {
                 destination: "SERANGOON INT",
                 scrolls: [
                     "SERANGOON INT"
+                ]
             }
-        }            
-    }, 
+        }
+    },
     111: {
         1: {
             front: {
@@ -2678,8 +2742,9 @@ EDSData.SBST = {
                 destination: "GHIM MOH TER",
                 scrolls: [
                     "GHIM MOH TER"
+                ]
             }
-        }            
+        }
     },
     112: {
         1: {
@@ -2704,8 +2769,9 @@ EDSData.SBST = {
                 destination: "HOUGANG CENTRAL INT",
                 scrolls: [
                     "HOUGANG CTRL INT"
+                ]
             }
-        }            
+        }
     },
     113: {
         1: {
@@ -2735,8 +2801,9 @@ EDSData.SBST = {
                 destination: "HOUGANG CENTRAL INT",
                 scrolls: [
                     "HOUGANG CTRL INT"
+                ]
             }
-        }            
+        }
     },
     114: {
         1: {
@@ -2761,8 +2828,9 @@ EDSData.SBST = {
                 scrolls: [
                     "BUANGKOK STN EXIT B",
                     "BUANGKOK STN EXIT A"
+                ]
             }
-        }            
+        }
     },
     115: {
         1: {
@@ -2784,8 +2852,9 @@ EDSData.SBST = {
                 destination: "HOUGANG ST 21",
                 scrolls: [
                     "KOVAN HUB"
+                ]
             }
-        }            
+        }
     },
     116: {
         1: {
@@ -2812,11 +2881,12 @@ EDSData.SBST = {
                 destination: "HOUGANG CENTRAL INT",
                 scrolls: [
                     "HOUGANG CTRL INT"
+                ]
             }
-        }            
+        }
     },
     117: {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "117",
@@ -2868,11 +2938,12 @@ EDSData.SBST = {
                 destination: "PUNGGOL TEMP INT",
                 scrolls: [
                     "SEMBAWANG INT"
+                ]
             }
-        }            
-    }, 
+        }
+    },
     "117M": {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "117M",
@@ -2926,9 +2997,10 @@ EDSData.SBST = {
                 destination: "PUNGGOL TEMP INT",
                 scrolls: [
                     "SEMBAWANG INT"
+                ]
             }
-        }            
-    }, 
+        }
+    },
     120: {
         1: {
             front: {
@@ -2941,7 +3013,7 @@ EDSData.SBST = {
                 scrolls: [
                     "JALAN BUKIT MERAH",
                     "ALEXANDRA RD",
-                    "TELOK BLANGAH RD"
+                    "TELOK BLANGAH RD",
                     "TELOK BLANGAH HTS",
                     "TELOK BLANGAH RD",
                     "ALEXANDRA RD",
@@ -2955,9 +3027,10 @@ EDSData.SBST = {
                 destination: "KG BAHRU TER",
                 scrolls: [
                     "KAMPONG BAHRU TER"
-             }
-        }            
-    }, 
+                ]
+            }
+        }
+    },
     121: {
         1: {
             front: {
@@ -2986,9 +3059,10 @@ EDSData.SBST = {
                 destination: "KG BAHRU TER",
                 scrolls: [
                     "KAMPONG BAHRU TER"
+                ]
             }
-        }            
-    }, 
+        }
+    },
     122: {
         1: {
             front: {
@@ -3015,11 +3089,12 @@ EDSData.SBST = {
                 destination: "KG BAHRU TER",
                 scrolls: [
                     "KAMPONG BAHRU TER"
+                ]
             }
-        }            
-    }, 
+        }
+    },
     123: {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "123",
@@ -3074,9 +3149,10 @@ EDSData.SBST = {
                 scrolls: [
                     "BEACH STN TER",
                     "BUKIT MERAH INT"
+                ]
             }
-        }            
-    },          
+        }
+    },
     "123M": {
         1: {
             front: {
@@ -3124,11 +3200,12 @@ EDSData.SBST = {
                     "OPP MT FABER LODGE",
                     "HARBOURFRONT STN / VIVOCITY",
                     "HARBOURFRONT INT"
-             }
-        }            
-    }, 
+                ]
+            }
+        }
+    },
     124: {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "124",
@@ -3182,11 +3259,12 @@ EDSData.SBST = {
                 scrolls: [
                     "HARBOURFRONT INT",
                     "ST MICHAEL'S TER"
+                ]
             }
-        }            
-    },      
+        }
+    },
     125: {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "125",
@@ -3235,9 +3313,10 @@ EDSData.SBST = {
                 scrolls: [
                     "BLK 53",
                     "ST MICHAEL'S TER"
+                ]
             }
-        }            
-    },     
+        }
+    },
     127: {
         1: {
             front: {
@@ -3261,11 +3340,12 @@ EDSData.SBST = {
                 destination: "TAMPINES INT",
                 scrolls: [
                     "TAMPINES INT"
+                ]
             }
-        }            
-    },   
+        }
+    },
     128: {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "128",
@@ -3316,11 +3396,12 @@ EDSData.SBST = {
                 scrolls: [
                     "SHENTON WAY TER",
                     "ANG MO KIO DEPOT"
+                ]
             }
-        }            
-    },         
+        }
+    },
     129: {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "129",
@@ -3371,11 +3452,12 @@ EDSData.SBST = {
                 destination: "TAMPINES NORTH INT",
                 scrolls: [
                     "TAMPINES NORTH INT"
+                ]
             }
-        }            
-    },      
+        }
+    },
     "129T": {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "129",
@@ -3424,9 +3506,10 @@ EDSData.SBST = {
                 destination: "TAMPINES CONCOURSE INT",
                 scrolls: [
                     "TAMPINES CONCOURSE INT"
+                ]
             }
-        }            
-    },      
+        }
+    },
     134: {
         1: {
             front: {
@@ -3487,9 +3570,10 @@ EDSData.SBST = {
                     "BEFORE BLOCK 53",
                     "BLOCK 45",
                     "SIMS PLACE TERMINAL"
-             }
-        }            
-    }, 
+                ]
+            }
+        }
+    },
     140: {
         1: {
             front: {
@@ -3513,11 +3597,12 @@ EDSData.SBST = {
                 destination: "LOR 1 GEYLANG TER",
                 scrolls: [
                     "LOR 1 GEYLANG TER"
+                ]
             }
-        }            
-    },   
+        }
+    },
     141: {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "141",
@@ -3566,8 +3651,9 @@ EDSData.SBST = {
                 destination: "LOR 1 GEYLANG TER",
                 scrolls: [
                     "LOR 1 GEYLANG TER"
+                ]
             }
-        }            
+        }
     },
     142: {
         1: {
@@ -3592,11 +3678,12 @@ EDSData.SBST = {
                 destination: "TOA PAYO INT",
                 scrolls: [
                     "TOA PAYOH INT"
+                ]
             }
-        }            
-    }, 
+        }
+    },
     145: {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "145",
@@ -3634,7 +3721,7 @@ EDSData.SBST = {
                 scrolls: [
                     'HENDERSON RD',
                     'TELOK BLANGAH RD',
-                    'TANJONG PAGAR RD'
+                    'TANJONG PAGAR RD',
                     'VICTORIA ST',
                     'LAVENDERS ST',
                     'BALESTIER RD'
@@ -3647,11 +3734,12 @@ EDSData.SBST = {
                 destination: "TOA PAOYH INT",
                 scrolls: [
                     "BLK 43"
-             }
-        }            
-    }, 
+                ]
+            }
+        }
+    },
     147: {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "147",
@@ -3706,11 +3794,12 @@ EDSData.SBST = {
                 destination: "HOUGANG CTRL INT",
                 scrolls: [
                     "CLEMENTI INT"
-             }
-        }            
-    }, 
+                ]
+            }
+        }
+    },
     151: {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "151",
@@ -3759,11 +3848,12 @@ EDSData.SBST = {
                 destination: "HOUGANG CTRL INT",
                 scrolls: [
                     "CLEMENTI INT"
-             }
-        }            
+                ]
+            }
+        }
     },
     153: {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "153",
@@ -3810,9 +3900,10 @@ EDSData.SBST = {
                 destination: "HOUGANG CTRL INT",
                 scrolls: [
                     "CLEMENTI INT"
-             }
-        }            
-    },  
+                ]
+            }
+        }
+    },
     160: {
         1: {
             front: {
@@ -3879,9 +3970,10 @@ EDSData.SBST = {
                 scrolls: [
                     "JB SENTRAL TER",
                     "JURONG EAST INT"
+                ]
             }
-        }            
-    },    
+        }
+    },
     "160B": {
         1: {
             front: {
@@ -3931,9 +4023,10 @@ EDSData.SBST = {
                 scrolls: [
                     "GLOBALFOUNDARIES/AFT BKE",
                     "JURONG EAST INT"
+                ]
             }
-        }            
-    },    
+        }
+    },
     "160M": {
         1: {
             front: {
@@ -3960,9 +4053,10 @@ EDSData.SBST = {
                 destination: "JURONG EAST INT",
                 scrolls: [
                     "JURONG EAST INT"
-             }
-        }            
-    },      
+                ]
+            }
+        }
+    },
     170: {
         1: {
             front: {
@@ -4077,9 +4171,10 @@ EDSData.SBST = {
                 scrolls: [
                     "LARKIN TER",
                     "QUEEN ST TER"
+                ]
             }
-        }            
-    },     
+        }
+    },
     "170X": {
         1: {
             front: {
@@ -4134,11 +4229,12 @@ EDSData.SBST = {
                 scrolls: [
                     "JB SENTRAL TER",
                     "KRANJI STN"
+                ]
             }
-        }            
-    },      
+        }
+    },
     175: {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "175",
@@ -4191,8 +4287,9 @@ EDSData.SBST = {
                 destination: "CLEMENTI INT",
                 scrolls: [
                     "LOR 1 GEYLANG TER"
-             }
-        }            
+                ]
+            }
+        }
     },
     179: {
         1: {
@@ -4217,9 +4314,10 @@ EDSData.SBST = {
                 destination: "BOON LAY INT",
                 scrolls: [
                     "BOON LAY INT"
-             }
-        }            
-    },  
+                ]
+            }
+        }
+    },
     "179A": {
         1: {
             front: {
@@ -4241,9 +4339,10 @@ EDSData.SBST = {
                 destination: "BOON LAY INT",
                 scrolls: [
                     "BOON LAY INT"
-             }
-        }            
-    }, 
+                ]
+            }
+        }
+    },
     181: {
         1: {
             front: {
@@ -4267,11 +4366,12 @@ EDSData.SBST = {
                 destination: "BOON LAY INT",
                 scrolls: [
                     "BOON LAY INT"
-             }
-        }            
-    },         
+                ]
+            }
+        }
+    },
     185: {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "185",
@@ -4320,8 +4420,9 @@ EDSData.SBST = {
                 destination: "SOON LEE RD",
                 scrolls: [
                     "BLK 10A"
-             }
-        }            
+                ]
+            }
+        }
     },
     191: {
         1: {
@@ -4345,9 +4446,10 @@ EDSData.SBST = {
                 destination: "HOLLAND DR",
                 scrolls: [
                     "BLOCK 10A"
-             }
-        }            
-    }, 
+                ]
+            }
+        }
+    },
     194: {
         1: {
             front: {
@@ -4368,9 +4470,10 @@ EDSData.SBST = {
                 destination: "BOON LAY INT",
                 scrolls: [
                     "BOON LAY INT"
-             }
-        }            
-    }, 
+                ]
+            }
+        }
+    },
     195: {
         1: {
             front: {
@@ -4396,11 +4499,12 @@ EDSData.SBST = {
                 destination: "RAFFLES BLVD",
                 scrolls: [
                     "MARINA CTR TER"
-             }
-        }            
-    }, 
+                ]
+            }
+        }
+    },
     197: {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "197",
@@ -4449,11 +4553,12 @@ EDSData.SBST = {
                 destination: "BEDOK INT",
                 scrolls: [
                     "JURONG EAST INT"
-             }
-        }            
-    },      
+                ]
+            }
+        }
+    },
     198: {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "198",
@@ -4504,9 +4609,10 @@ EDSData.SBST = {
                 destination: "BOON LAY INT",
                 scrolls: [
                     "BUKIT MERAH INT"
-             }
-        }            
-    },  
+                ]
+            }
+        }
+    },
     199: {
         1: {
             front: {
@@ -4530,11 +4636,12 @@ EDSData.SBST = {
                 destination: "BOON LAY INT",
                 scrolls: [
                     "BOON LAY INT"
-             }
-        }            
-    },      
+                ]
+            }
+        }
+    },
     200: {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "200",
@@ -4583,9 +4690,10 @@ EDSData.SBST = {
                 destination: "HOLLAND DR",
                 scrolls: [
                     "KENT RIDGE TER"
-             }
-        }            
-    }, 
+                ]
+            }
+        }
+    },
     201: {
         1: {
             front: {
@@ -4599,7 +4707,7 @@ EDSData.SBST = {
                     "WEST COAST RD",
                     "C'WEALTH AVE WEST",
                     "TEBAN GARDENS RD",
-                    "PANDAN GARDENS"
+                    "PANDAN GARDENS",
                     "C'WEALTH AVE WEST",
                     "WEST COAST RD",
                 ],
@@ -4611,9 +4719,10 @@ EDSData.SBST = {
                 destination: "KENT RIDGE TER",
                 scrolls: [
                     "KENT RIDGE TER"
-             }
-        }            
-    },  
+                ]
+            }
+        }
+    },
     222: {
         1: {
             front: {
@@ -4638,9 +4747,10 @@ EDSData.SBST = {
                 destination: "BEDOK INT",
                 scrolls: [
                     "BEDOK INT"
-             }
-        }            
-    },  
+                ]
+            }
+        }
+    },
     228: {
         1: {
             front: {
@@ -4664,9 +4774,10 @@ EDSData.SBST = {
                 destination: "BEDOK INT",
                 scrolls: [
                     "BEDOK INT"
-             }
-        }            
-    },   
+                ]
+            }
+        }
+    },
     229: {
         1: {
             front: {
@@ -4690,9 +4801,10 @@ EDSData.SBST = {
                 destination: "BEDOK INT",
                 scrolls: [
                     "BEDOK INT"
-             }
-        }            
-    },     
+                ]
+            }
+        }
+    },
     231: {
         1: {
             front: {
@@ -4715,9 +4827,10 @@ EDSData.SBST = {
                 destination: "TOA PAYOH INT",
                 scrolls: [
                     "TOA PAYOH INT"
-             }
-        }            
-    },   
+                ]
+            }
+        }
+    },
     241: {
         1: {
             front: {
@@ -4740,9 +4853,10 @@ EDSData.SBST = {
                 destination: "BOON LAY INT",
                 scrolls: [
                     "BOON LAY INT"
-             }
-        }            
-    },    
+                ]
+            }
+        }
+    },
     242: {
         1: {
             front: {
@@ -4769,9 +4883,10 @@ EDSData.SBST = {
                 destination: "BOON LAY INT",
                 scrolls: [
                     "BOON LAY INT"
-             }
-        }            
-    },     
+                ]
+            }
+        }
+    },
     246: {
         1: {
             front: {
@@ -4796,9 +4911,10 @@ EDSData.SBST = {
                 destination: "BOON LAY INT",
                 scrolls: [
                     "BOON LAY INT"
-             }
-        }            
-    },         
+                ]
+            }
+        }
+    },
     247: {
         1: {
             front: {
@@ -4823,9 +4939,10 @@ EDSData.SBST = {
                 destination: "TUAS TER",
                 scrolls: [
                     "TUAS TER"
-             }
-        }            
-    },       
+                ]
+            }
+        }
+    },
     248: {
         1: {
             front: {
@@ -4850,9 +4967,10 @@ EDSData.SBST = {
                 destination: "TUAS TER",
                 scrolls: [
                     "TUAS TER"
-             }
-        }            
-    },   
+                ]
+            }
+        }
+    },
     "248M": {
         1: {
             front: {
@@ -4879,9 +4997,10 @@ EDSData.SBST = {
                 destination: "TUAS TER",
                 scrolls: [
                     "TUAS TER"
-             }
-        }            
-    },    
+                ]
+            }
+        }
+    },
     249: {
         1: {
             front: {
@@ -4909,9 +5028,10 @@ EDSData.SBST = {
                 destination: "BOON LAY INT",
                 scrolls: [
                     "BOON LAY INT"
-             }
-        }            
-    },     
+                ]
+            }
+        }
+    },
     251: {
         1: {
             front: {
@@ -4935,9 +5055,10 @@ EDSData.SBST = {
                 destination: "BOON LAY INT",
                 scrolls: [
                     "BOON LAY INT"
-             }
-        }            
-    },  
+                ]
+            }
+        }
+    },
     252: {
         1: {
             front: {
@@ -4965,9 +5086,10 @@ EDSData.SBST = {
                 destination: "BOON LAY INT",
                 scrolls: [
                     "BOON LAY INT"
-             }
-        }            
-    },  
+                ]
+            }
+        }
+    },
     253: {
         1: {
             front: {
@@ -4991,9 +5113,10 @@ EDSData.SBST = {
                 destination: "JOO KOON INT",
                 scrolls: [
                     "JOO KOON INT"
-             }
-        }            
-    },    
+                ]
+            }
+        }
+    },
     254: {
         1: {
             front: {
@@ -5017,9 +5140,10 @@ EDSData.SBST = {
                 destination: "JOO KOON INT",
                 scrolls: [
                     "JOO KOON INT"
-             }
-        }            
-    },             
+                ]
+            }
+        }
+    },
     255: {
         1: {
             front: {
@@ -5042,9 +5166,10 @@ EDSData.SBST = {
                 destination: "JOO KOON INT",
                 scrolls: [
                     "JOO KOON INT"
-             }
-        }            
-    },     
+                ]
+            }
+        }
+    },
     262: {
         1: {
             front: {
@@ -5068,9 +5193,10 @@ EDSData.SBST = {
                 destination: "ANG MO KIO INT",
                 scrolls: [
                     "ANG MO KIO INT"
-             }
-        }            
-    },   
+                ]
+            }
+        }
+    },
     272: {
         1: {
             front: {
@@ -5105,9 +5231,10 @@ EDSData.SBST = {
                     "OPP BLK 1",
                     "BEF BT MERAH CTRL",
                     "BT MERAH INT"
+                ]
             }
-        }            
-    }, 
+        }
+    },
     292: {
         1: {
             front: {
@@ -5132,9 +5259,10 @@ EDSData.SBST = {
                 destination: "TAMPINES INT",
                 scrolls: [
                     "TAMPINES INT"
-             }
-        }            
-    },  
+                ]
+            }
+        }
+    },
     298: {
         1: {
             front: {
@@ -5159,9 +5287,10 @@ EDSData.SBST = {
                 destination: "TAMPINES NORTH INT",
                 scrolls: [
                     "TAMPINES NORTH INT"
-             }
-        }            
-    },  
+                ]
+            }
+        }
+    },
     "298T": {
         1: {
             front: {
@@ -5184,11 +5313,12 @@ EDSData.SBST = {
                 destination: "TAMPINES CONCOURSE INT",
                 scrolls: [
                     "TAMPINES CONCOURSE INT"
-             }
-        }            
-    },   
+                ]
+            }
+        }
+    },
     315: {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "315",
@@ -5235,11 +5365,12 @@ EDSData.SBST = {
                 destination: "SERANGOON INT",
                 scrolls: [
                     "SERANGOON INT"
-             }
-        }            
-    },  
+                ]
+            }
+        }
+    },
     317: {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "317",
@@ -5289,9 +5420,10 @@ EDSData.SBST = {
                 destination: "SERANGOON INT",
                 scrolls: [
                     "SERANGOON INT"
-             }
-        }            
-    },  
+                ]
+            }
+        }
+    },
     329: {
         1: {
             front: {
@@ -5314,9 +5446,10 @@ EDSData.SBST = {
                 destination: "HOUGANG CTRL INT",
                 scrolls: [
                     "HOUGANG CTRL INT"
-             }
-        }            
-    },   
+                ]
+            }
+        }
+    },
     371: {
         1: {
             front: {
@@ -5340,9 +5473,10 @@ EDSData.SBST = {
                 destination: "SENGKANG INT",
                 scrolls: [
                     "COMPASSVALE INT"
-             }
-        }            
-    }, 
+                ]
+            }
+        }
+    },
     372: {
         1: {
             front: {
@@ -5367,9 +5501,10 @@ EDSData.SBST = {
                 destination: "SENGKANG INT",
                 scrolls: [
                     "COMPASSVALE INT"
-             }
-        }            
-    }, 
+                ]
+            }
+        }
+    },
     374: {
         1: {
             front: {
@@ -5394,9 +5529,10 @@ EDSData.SBST = {
                 destination: "COMPASSVALE INT",
                 scrolls: [
                     "COMPASSVALE INT"
-             }
-        }            
-    },  
+                ]
+            }
+        }
+    },
     400: {
         1: {
             front: {
@@ -5421,9 +5557,10 @@ EDSData.SBST = {
                 destination: "SHENTON WAY TER",
                 scrolls: [
                     "SHENTON WAY TER"
-             }
-        }            
-    }, 
+                ]
+            }
+        }
+    },
     401: {
         1: {
             front: {
@@ -5449,9 +5586,10 @@ EDSData.SBST = {
                 destination: "BEDOK INT",
                 scrolls: [
                     "BEDOK INT"
-             }
-        }            
-    },  
+                ]
+            }
+        }
+    },
     405: {
         1: {
             front: {
@@ -5478,9 +5616,10 @@ EDSData.SBST = {
                 destination: "BOON LAY INT",
                 scrolls: [
                     "BOON LAY INT"
-             }
-        }            
-    }, 
+                ]
+            }
+        }
+    },
     "405M": {
         1: {
             front: {
@@ -5507,9 +5646,10 @@ EDSData.SBST = {
                 destination: "BOON LAY INT",
                 scrolls: [
                     "BOON LAY INT"
-             }
-        }            
-    }, 
+                ]
+            }
+        }
+    },
     770: {
         1: {
             front: {
@@ -5593,7 +5733,7 @@ EDSData.SBST = {
                     "KRANJI LODGE 1",
                     "OPPOSITE GLOBALFOUNDRIES",
                     "BEFORE BKE",
-                    "WOODLANDS TRAIN CHECKPOINT",
+                    "WOODLANDS TRAIN CHECKPOINT"
                 ]
             }
         },
@@ -5620,9 +5760,10 @@ EDSData.SBST = {
                 scrolls: [
                     "WOODLANDS TRAIN CHECKPOINT",
                     "QUEEN ST TER"
+                ]
             }
-        }            
-    },    
+        }
+    },
     805: {
         1: {
             front: {
@@ -5646,11 +5787,12 @@ EDSData.SBST = {
                 destination: "YISHUN INT",
                 scrolls: [
                     "YISHUN INT"
-             }
-        }            
-    }, 
+                ]
+            }
+        }
+    },
     851: {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "851",
@@ -5707,11 +5849,12 @@ EDSData.SBST = {
                 destination: "YISHUN INT",
                 scrolls: [
                     "BUKIT MERAH INT"
+                ]
             }
-        }            
+        }
     },
     852: {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "852",
@@ -5765,11 +5908,12 @@ EDSData.SBST = {
                 destination: "YISHUN INT",
                 scrolls: [
                     "BUKIT MERAH INT"
+                ]
             }
-        }            
+        }
     },
     860: {
-      1: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "852",
@@ -5816,8 +5960,9 @@ EDSData.SBST = {
                 destination: "YIO CHU KANG INT",
                 scrolls: [
                     "YISHUN INT"
+                ]
             }
-        }            
+        }
     },
     974: {
         1: {
@@ -5831,7 +5976,7 @@ EDSData.SBST = {
                 scrolls: [
                     "UPPER JURONG RD",
                     "JURONG WEST ST 64",
-                    "JALAN BOON LAY"
+                    "JALAN BOON LAY",
                     "CHOA CHU KANG WAY"
                 ],
                 scrollFont: "LECIP-8"
@@ -5842,10 +5987,10 @@ EDSData.SBST = {
                 destination: "BUKIT PANJANG STN",
                 scrolls: [
                     "JOO KOON INT"
-                    
+                ]
             }
         },
-2: {
+        2: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "974",
@@ -5860,18 +6005,15 @@ EDSData.SBST = {
                     "UPPER JURONG RD"
                 ],
                 scrollFont: "LECIP-8"
-                },
+            },
             pids: {
                 renderType: "pids",
                 serviceNumber: "974",
                 destination: "JOO KOON INT",
                 scrolls: [
-                "JOO KOON INT"            
-            }
-        }            
-    },            
+                    "JOO KOON INT"
                 ]
             }
         }
-    },                
+    }
 }
