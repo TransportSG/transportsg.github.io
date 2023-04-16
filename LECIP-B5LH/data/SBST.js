@@ -4,7 +4,7 @@ EDSFormats.SBST = {
             align: "right",
             text: "$serviceNumber",
             font: "LECIP-24",
-            spacing: 2
+            spacing: 1
         },
         scroll: {
             align: "left,top",
