@@ -173,8 +173,6 @@ EDSData.SBST = {
                     "BEDOK INT"
                 ]
             }
-        }
-    },
     9: {
         1: {
             front: {
@@ -225,7 +223,6 @@ EDSData.SBST = {
                 destination: "BEDOK INT",
                 scrolls: [
                     "POLICE PASS OFFICE"
-                ]
             }
         },
     },
