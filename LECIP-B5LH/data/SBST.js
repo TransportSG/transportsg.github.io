@@ -17,7 +17,7 @@ EDSFormats.SBST = {
             rotateSpeed: 3000,
 
             font: "$scrollFont",
-            spacing: 2
+            spacing: 1
         },
         destination: {
             align: "left,bottom",
@@ -26,7 +26,7 @@ EDSFormats.SBST = {
                 left: 2
             },
             text: "$destination",
-            spacing: 2
+            spacing: 1
         },
 
         text: "$destination"
