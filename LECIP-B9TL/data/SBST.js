@@ -3370,6 +3370,21 @@ EDSData.SBST = {
             }
         }
     },
+    "53B": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "53B",
+                landmark: "HOUGANG AVE 1 (BLK 232)"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "53B",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
     "53M": {
         1: {
             front: {
@@ -3488,6 +3503,22 @@ EDSData.SBST = {
             }
         }
     },
+    "55A": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "55A",
+                terminateAt: "MARINE PARADE RD",
+                landmark: "(VICTORIA SCH)"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "55A",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
     "55B": {
         1: {
             front: {
@@ -3499,6 +3530,54 @@ EDSData.SBST = {
                 renderType: "rearService",
                 serviceNumber: "55B",
                 font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    "55S": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "55",
+                destination: "> SIGLAP RD",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    'ANG MO KIO AVE 10',
+                    'HOUGANG AVE 2',
+                    'HOUGANG AVE 3',
+                    'JALAN EUNOS',
+                    'STILL ROAD SOUTH',
+                    'MARINE PARADE RD'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "55",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "55",
+                destination: "> BISHAN INT",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    'MARINE PARADE RD',
+                    'STILL ROAD SOUTH',
+                    'JALAN EUNOS',
+                    'HOUGANG AVE 3',
+                    'HOUGANG AVE 2',
+                    'ANG MO KIO AVE 10'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "55",
+                font: "LECIP-20:12",
                 spacing: 2
             }
         }
@@ -3868,11 +3947,24 @@ EDSData.SBST = {
         }
     },
     "63A": {
-        1: {
+           1: {
             front: {
                 renderType: "swt",
                 serviceNumber: "63A",
                 landmark: "JLN RUMAH TINGGI (OPP BLK 36)"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "63A",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+          2: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "63A",
+                landmark: "ALJUNIED RD (ALJUNIED STN)"
             },
             rear: {
                 renderType: "rearService",
@@ -4687,6 +4779,31 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "81",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        }
+    },
+    82: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "82",
+                destination: "PUNGGOL INT - SERAGOON CENTRAL",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                    'PUNGGOL RD',
+                    'HOUGANG AVE 10',
+                    'UPPER SERANGOON RD',
+                    'SERANGOON CENTRAL',
+                    'UPPER SERANGOON RD',
+                    'HOUGANG AVE 10'
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "82",
                 font: "LECIP-20:12",
                 spacing: 2
             }
@@ -7897,6 +8014,47 @@ EDSData.SBST = {
                 renderType: "rearService",
                 serviceNumber: "143",
                 font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    "143A": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "143A",
+                terminateAt: "TEBAN GARDENS",
+                landmark: "RD (BEF HASANAH MQUE)"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "143A",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
+    "143M": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "143M",
+                destination: "JUR E-JUR TOWN HALL RD",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                    'JURONG TOWN HALL RD',
+                    'TEBAN GARDENS RD",
+                    'WEST COAST RD',
+                    'PANDAN GARDENS',
+                    'WEST COAST RD',
+                    'TEBAN GARDENS RD'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "143M",
+                font: "LECIP-20:6",
                 spacing: 2
             }
         }
