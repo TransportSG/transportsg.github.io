@@ -8251,9 +8251,10 @@ EDSData.SBST = {
                 scrolls: [
                     'HOUGANG AVE 5, 7, 3',
                     'MACPHERSON RD',
-                    'JLN TOA PAYOH',
+                    'JALAN TOA PAYOH',
                     'BUKIT TIMAH RD',
-                    'CLEMENTI RD'
+                    'CLEMENTI RD',
+                    'KENT RIDGE CRES'
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -8271,9 +8272,10 @@ EDSData.SBST = {
                 destination: "> HOUGANG CTRL INT",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
+                    'KENT RIDGE CRES',
                     'CLEMENTI RD',
                     'DUNEARN RD',
-                    'JLN TOA PAYOH',
+                    'JALAN TOA PAYOH',
                     'MACPHERSON RD',
                     'HOUGANG AVE 3, 7, 5'
                 ],
@@ -8283,6 +8285,41 @@ EDSData.SBST = {
                 renderType: "rearService",
                 serviceNumber: "151",
                 font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    "151A": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "151A",
+                terminateAt: "DUNEARN RD",
+                landmark: "(AFT KHEAM HOCK RD)"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "151A",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "151A",
+                destination: "> DUNEARN RD",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    'KENT RIDGE CRES',
+                    'CLEMENTI RD'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "151A",
+                font: "LECIP-20:6",
                 spacing: 2
             }
         }
@@ -8553,6 +8590,40 @@ EDSData.SBST = {
                 renderType: "rearService",
                 serviceNumber: "156",
                 font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    "156A": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "156A",
+                terminateAt: "THOMSON RD",
+                landmark: "(OPP OLD POLICE ACADEMY)"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "156A",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "156A",
+                destination: "> THOMSON RD",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    'SENGKANG'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "156A",
+                font: "LECIP-20:6",
                 spacing: 2
             }
         }
