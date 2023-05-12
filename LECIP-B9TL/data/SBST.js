@@ -3128,6 +3128,58 @@ EDSData.SBST = {
             }
         }
     },
+    49: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "49",
+                destination: "JURONG E. INT-JUR W. ST 42",
+                destinationFont: "LECIP-6:3",
+                scrolls: [
+                    'JALAN AHMAD IBRAHIM',
+                    'CORPORATION DR',
+                    'BOON LAY WAY',
+                    'JURONG WEST ST 51',
+                    'JURONG WEST ST 42',
+                    'JURONG WEST ST 41',
+                    'BOON LAY WAY',
+                    'CORPORATION DR',
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "49",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        }
+    },
+    "49T": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "49",
+                destination: "TAMAN JURONG TER-JUR W. ST 41",
+                destinationFont: "LECIP-6:3",
+                scrolls: [
+                    'CORPORATION DR',
+                    'BOON LAY WAY',
+                    'JURONG WEST ST 51',
+                    'JURONG WEST ST 42',
+                    'JURONG WEST ST 41',
+                    'BOON LAY WAY'
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "49",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        }
+    },
     50: {
         1: {
             front: {
@@ -5857,6 +5909,81 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "97e",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    98: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "98",
+                destination: "> JURONG PIER WAY",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    "JURONG EAST AVE 1",
+                    "JURONG WEST AVE 1",
+                    "BOON LAY WAY",
+                    "CORPORATION DR",
+                    "JURONG PORT RD",
+                    "JALAN BUROH"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "98",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "98",
+                destination: "> JURONG EAST INT",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    "JALAN BUROH",
+                    "JURONG PORT RD",
+                    "CORPORATION RD",
+                    "BOON LAY WAY",
+                    "JURONG WEST AVE 1",
+                    "JURONG EAST AVE 1"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "98",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        }
+    },
+    "98M": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "98M",
+                destination: "JURONG E. INT-CORP RD",
+                destinationFont: "LECIP-6:3",
+                scrolls: [
+                    'JURONG EAST AVE 1',
+                    'JURONG WEST AVE 1',
+                    'BOON LAY WAY',
+                    'CORPORATION DR',
+                    'JALAN AHMAD IBRAHIM',
+                    'CORPORATION DR',
+                    'BOON LAY WAY',
+                    'JURONG WEST AVE 1'
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "98M",
                 font: "LECIP-20:9",
                 spacing: 2
             }
@@ -9863,6 +9990,40 @@ EDSData.SBST = {
             }
         }
     },
+    "183A": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "183A",
+                terminateAt: "COMMONWEALTH AVE",
+                landmark: "WEST (CLEMENTI STN EXIT A)"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "183A",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "183A",
+                destination: "> CLEMENTI STN",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    'JURONG E. VIA SCIENCE PK'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "183A",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
     "183B": {
         1: {
             front: {
@@ -11343,6 +11504,22 @@ EDSData.SBST = {
             }
         }
     },
+    "265A": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "265A",
+                terminateAt: "ANG MO KIO",
+                landmark: "AVE 8 (ANG MO KIO STN)"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "265A",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
     268: {
         1: {
             front: {
@@ -11912,6 +12089,30 @@ EDSData.SBST = {
             }
         }
     },
+    333: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "333",
+                destination: "> JURONG EAST INT",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    "TOH GUAN RD",
+                    "JURONG EAST AVE 1",
+                    "JURONG EAST ST 32",
+                    "JURONG EAST AVE 1",
+                    "TOH GUAN RD"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "333",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },    
     334: {
         1: {
             front: {
@@ -11929,6 +12130,51 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "334",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    335: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "335",
+                destination: "> JURONG EAST INT",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    "JURONG TOWN HALL RD",
+                    "BOON LAY WAY",
+                    "JURONG WEST ST 52",
+                    "JURONG WEST AVE 1",
+                    "JURONG WEST ST 41",
+                    "BOON LAY WAY"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "335",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },    
+    354: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "374",
+                destination: "> JLN LOYANG BESAR",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    "PASIR RIS DR 3",
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "354",
                 font: "LECIP-20:9",
                 spacing: 2
             }
@@ -15304,9 +15550,23 @@ EDSData.SBST = {
                 font: "LECIP-20:6",
                 spacing: 1
             }
+        },
+        2: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "812T",
+                terminateAt: "YISHUN AVE 2",
+                landmark: "(YISHUN STN EXIT E)"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "812T",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
         }
-    },
-    814: { // TODO: SCROLLS
+    },    
+    814: {
         1: {
             front: {
                 renderType: "standardService",
@@ -15314,7 +15574,10 @@ EDSData.SBST = {
                 destination: "> KAMPONG BAHRU TER",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
-                    'ANG MO KIO AVE 4'
+                    'ANG MO KIO AVE 4',
+                    'ANG MO KIO AVE 3',
+                    'ANG MO KIO AVE 10',
+                    'NEW BRIDGE RD'
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -15332,6 +15595,9 @@ EDSData.SBST = {
                 destination: "> ANG MO KIO AVE 9",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
+                    'EU TONG SEN ST',
+                    'ANG MO KIO AVE 10',
+                    'ANG MO KIO AVE 3',
                     'ANG MO KIO AVE 4'
                 ],
                 scrollFont: "LECIP-7:5"
@@ -15344,7 +15610,51 @@ EDSData.SBST = {
             }
         }
     },
-    815: { // TODO: SCROLLS
+    "814N": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "CT8",
+                destination: "> NEW BRIDGE RD TER",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    'ANG MO KIO AVE 4',
+                    'ANG MO KIO AVE 3',
+                    'ANG MO KIO AVE 10',
+                    'NEW BRIDGE RD'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "CT8",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "CT8",
+                destination: "> ANG MO KIO AVE 9",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    'EU TONG SEN ST',
+                    'ANG MO KIO AVE 10',
+                    'ANG MO KIO AVE 3',
+                    'ANG MO KIO AVE 4'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "CT8",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    815: {
         1: {
             front: {
                 renderType: "standardService",
@@ -15352,7 +15662,10 @@ EDSData.SBST = {
                 destination: "> KAMPONG BAHRU TER",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
-                    'BEDOK NORTH AVE 3'
+                    'BEDOK NORTH AVE 3',
+                    'BEDOK RESERVOIR RD',
+                    'JALAN EUNOS',
+                    'NEW BRIDGE RD'
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -15370,13 +15683,60 @@ EDSData.SBST = {
                 destination: "> BEDOK NORTH AVE 3",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
+                    'EU TONG SEN ST',
+                    'JALAN EUNOS',
+                    'BEDOK RESERVOIR RD',
                     'BEDOK NORTH AVE 3'
                 ],
                 scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "CT18", // font even exists??
+                serviceNumber: "CT18", 
+                font: "LECIP-20:6",
+                spacing: 1
+            }
+        }
+    },
+    "815N": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "CT18",
+                destination: "> NEW BRIDGE RD TER",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    'BEDOK NORTH AVE 3',
+                    'BEDOK RESERVOIR RD',
+                    'JALAN EUNOS',
+                    'NEW BRIDGE RD'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "CT18",
+                font: "LECIP-20:6",
+                spacing: 1
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "CT18",
+                destination: "> BEDOK NORTH AVE 3",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    'EU TONG SEN ST',
+                    'JALAN EUNOS',
+                    'BEDOK RESERVOIR RD',
+                    'BEDOK NORTH AVE 3'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "CT18", 
                 font: "LECIP-20:6",
                 spacing: 1
             }
@@ -16357,7 +16717,7 @@ EDSData.SBST = {
         2: {
             front: {
                 renderType: "message",
-                text: "SBS Transit",
+                text: "SBS TRANSIT",
                 font: "LECIP-20:9",
                 spacing: 2
             },
@@ -16597,11 +16957,11 @@ EDSData.SBST = {
             },
             rear: {
                 renderType: 'twoline',
-                top: " ",
-                topFont: "LECIP-6:3",
+                top: "REVER-",
+                topFont: "LECIP-6:4",
 
-                bottom: " ",
-                bottomFont: "LECIP-6:3"
+                bottom: "  SING",
+                bottomFont: "LECIP-6:4"
             }
         }
     },
