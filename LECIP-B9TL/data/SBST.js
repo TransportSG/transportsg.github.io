@@ -12671,7 +12671,7 @@ EDSData.SBST = {
                         renderType: "brandedSvc",
                         serviceNumber: "SS1",
                         branding: "STADIUM DIRECT",
-                        font: "LECIP-20:9",
+                        font: "LECIP-20:6",
                         spacing: 2
                     },
                     "CTE",
@@ -12726,7 +12726,7 @@ EDSData.SBST = {
                         renderType: "brandedSvc",
                         serviceNumber: "SS2",
                         branding: "STADIUM DIRECT",
-                        font: "LECIP-20:9",
+                        font: "LECIP-20:6",
                         spacing: 2
                     },
                     "CTE",
