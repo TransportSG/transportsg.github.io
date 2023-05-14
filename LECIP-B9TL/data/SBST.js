@@ -1855,6 +1855,22 @@ EDSData.SBST = {
             }
         }
     },
+    "23A": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "23A",
+                terminateAt: "TAMPINES AVE 10",
+                landmark: "(TEMASEK POLY WEST GATE)"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "23A",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
     24: {
         1: {
             front: {
@@ -2882,6 +2898,36 @@ EDSData.SBST = {
             }
         }
     },
+    "43E": {
+        1: {
+            front: {
+                renderType: "logoSvc",
+                serviceNumber: "43e",
+                image: "express",
+                destination: "EXPRESS 43e"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "43e",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "logoSvc",
+                serviceNumber: "43e",
+                image: "fastForward",
+                destination: "FFW 43e"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "43e",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
     "43M": {
         1: {
             front: {
@@ -3133,8 +3179,8 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "49",
-                destination: "JURONG E. INT-JUR W. ST 42",
-                destinationFont: "LECIP-6:3",
+                destination: "JURONG E. INT - JUR W. ST 42",
+                destinationFont: "LECIP-6:4",
                 scrolls: [
                     'JALAN AHMAD IBRAHIM',
                     'CORPORATION DR',
@@ -3160,7 +3206,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "49",
-                destination: "TAMAN JURONG TER-JUR W. ST 41",
+                destination: "TAMAN JURONG TER - JUR W. ST 41",
                 destinationFont: "LECIP-6:3",
                 scrolls: [
                     'CORPORATION DR',
@@ -3560,8 +3606,8 @@ EDSData.SBST = {
             front: {
                 renderType: "swt",
                 serviceNumber: "55A",
-                terminateAt: "MARINE PARADE RD",
-                landmark: "(VICTORIA SCH)"
+                terminateAt: "MARINE PARADE",
+                landmark: "RD (VICTORIA SCH)"
             },
             rear: {
                 renderType: "rearService",
@@ -4227,6 +4273,123 @@ EDSData.SBST = {
             }
         }
     },
+    68: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "68",
+                destination: "> TAMPINES INT",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    'ELIAS RD',
+                    'PASIR RIS ST 71',
+                    'TAMPINES AVE 10',
+                    'TAMPINES AVE 6',
+                    'TAMPINES CONCOURSE'
+                    
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "68",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "68",
+                destination: "> PASIR RIS INT",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    'TAMPINES CONCOURSE',
+                    'TAMPINES AVE 6',
+                    'TAMPINES AVE 10',
+                    'PASIR RIS ST 71',
+                    'ELIAS RD'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "69",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        }
+    },
+    "68A": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "68A",
+                landmark: "TAMPINES INT"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "68A",
+                font: "LECIP-20:6",
+                spacing: 1
+            }
+        }
+    },
+    "68": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "68B",
+                landmark: "TAMPINES AVE 10 (REEBONZ BLDG)"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "68B",
+                font: "LECIP-20:6",
+                spacing: 1
+            }
+        }
+    },
+    "68T": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "68",
+                destination: "> TAMPINES INT",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    'TAMPINES AVE 4',
+                    'TAMPINES ST 92'
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "68",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "68",
+                destination: "TAMPINES INT",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    'TAMPINES AVE 4',
+                    'TAMPINES ST 92'
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "68",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        }
+    },
     69: {
         1: {
             front: {
@@ -4749,6 +4912,127 @@ EDSData.SBST = {
             }
         }
     },
+    78: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "78",
+                destination: "JURONG EAST INT - CLEMENTI",
+                destinationFont: "LECIP-6:3",
+                scrolls: [
+                    'JURONG TOWN HALL RD',
+                    'WEST COAST RD',
+                    'PENJURU RD',
+                    'PANDAN RD',    
+                    'WEST COAST RD',
+                    'COMMONWEALTH AVE WEST',
+                    'WEST COAST RD',
+                    'PANDAN RD',  
+                    'PENJURU PENJURU',
+                    'WEST COAST RD'
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "78",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        }
+    },
+    "78A": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "78A",
+                landmark: "TANJONG PENJURU (OPP CLF INTL)"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "78A",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    79: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "79",
+                destination: "> BOON LAY INT",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    'JURONG TOWN HALL RD',
+                    'TEBAN GARDENS RD',
+                    'JALAN BUROH',
+                    'JURONG PORT RD',
+                    'CORPORATION RD',
+                    'CHIN BEE AVE',
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "79",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "79",
+                destination: "> JURONG EAST INT",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    'CHIN BEE AVE',
+                    'CORPORATION RD',
+                    'JURONG PORT RD',
+                    'JALAN BUROH',
+                    'TEBAN GARDENS RD',
+                    'JURONG TOWN HALL RD'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "79",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        }
+    },
+   "79A": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "79A",
+                landmark: "BOON LAY INT"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "79A",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "79A",
+                terminateAt: "JURONG TOWN HALL",
+                landmark: "RD (JURONG EAST LIBRARY)"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "79A",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
     80: {
         1: {
             front: {
@@ -4841,7 +5125,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "82",
-                destination: "PUNGGOL INT - SERAGOON CENTRAL",
+                destination: "PUNGGOL INT - S'GOON CENTRAL",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                     'PUNGGOL RD',
@@ -5384,7 +5668,7 @@ EDSData.SBST = {
             front: {
                 renderType: "swt",
                 serviceNumber: "91A",
-                terminateAt: "AYER RAJAH CRESCENT",
+                terminateAt: "AYER RAJAH CRES",
                 landmark: "(AYER RAJAH BUS PARK)"
             },
             rear: {
@@ -5852,8 +6136,8 @@ EDSData.SBST = {
             front: {
                 renderType: "swt",
                 serviceNumber: "97B",
-                terminateAt: "TELOK BLANGAH RD",
-                landmark: "(HARBOURFRONT STN)"
+                terminateAt: "TELOK BLANGAH",
+                landmark: "RD (HARBOURFRONT STN)"
             },
             rear: {
                 renderType: "rearService",
@@ -8166,7 +8450,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "143M",
-                destination: "JUR E-JUR TOWN HALL RD",
+                destination: "JUR E - JUR TOWN HALL RD",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                     'JURONG TOWN HALL RD',
@@ -8176,7 +8460,7 @@ EDSData.SBST = {
                     'WEST COAST RD',
                     'TEBAN GARDENS RD'
                 ],
-                scrollFont: "LECIP-7:5"
+                scrollFont: "LECIP-6:4"
             },
             rear: {
                 renderType: "rearService",
@@ -9995,7 +10279,7 @@ EDSData.SBST = {
             front: {
                 renderType: "swt",
                 serviceNumber: "183A",
-                terminateAt: "COMMONWEALTH AVE",
+                terminateAt: "C'WEALTH AVE",
                 landmark: "WEST (CLEMENTI STN EXIT A)"
             },
             rear: {
@@ -10012,7 +10296,7 @@ EDSData.SBST = {
                 destination: "> CLEMENTI STN",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
-                    'JURONG E. VIA SCIENCE PK'
+                    'JURONG E. VIA SCI PK'
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -11677,6 +11961,50 @@ EDSData.SBST = {
             }
         }
     },
+    274: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "274",
+                destination: "> BUKIT MERAH INT",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    "DEPOT RD"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "274",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    275: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "275",
+                destination: "> BUKIT MERAH INT",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    "JALAN BUKIT MERAH",
+                    "LOWER DELTA RD",
+                    "BUKIT PURMEI AVE",
+                    "LOWER DELTA RD",
+                    "JALAN BUKIT MERAH"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "275",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
     282: {
         1: {
             front: {
@@ -11736,30 +12064,6 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "285",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        }
-    },
-    275: {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "275",
-                destination: "> BUKIT MERAH INT",
-                destinationFont: "LECIP-7:5",
-                scrolls: [
-                    "JALAN BUKIT MERAH",
-                    "LOWER DELTA RD",
-                    "BUKIT PURMEI AVE",
-                    "LOWER DELTA RD",
-                    "JALAN BUKIT MERAH"
-                ],
-                scrollFont: "LECIP-7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "275",
                 font: "LECIP-20:9",
                 spacing: 2
             }
@@ -12164,7 +12468,7 @@ EDSData.SBST = {
         1: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "374",
+                serviceNumber: "354",
                 destination: "> JLN LOYANG BESAR",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
@@ -12176,6 +12480,148 @@ EDSData.SBST = {
                 renderType: "rearService",
                 serviceNumber: "354",
                 font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    358: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "358",
+                destination: "> PASIR RIS DR 10 & ST 41",
+                destinationFont: "LECIP-6:3",
+                scrolls: [
+                    "PASIR RIS DR 3",
+                    "PASIR RIS DR 1",
+                    "ELIAS RD",
+                    "PASIR RIS DR 6",
+                    "PASIR RIS DR 4",
+                    "PASIR RIS ST 41"
+                ],
+                scrollFont: "LECIP-6:3"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "358",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    "358T": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "358T",
+                destination: "> PASIR RIS DR 10 & ST 41",
+                destinationFont: "LECIP-6:3",
+                scrolls: [{
+                        renderType: "swt",
+                        serviceNumber: "358T",
+                        landmark: "PASIR RIS INT",
+                    },
+                    "PASIR RIS DR 3",
+                    "PASIR RIS DR 1",
+                    "ELIAS RD",
+                    "PASIR RIS DR 6",
+                    "PASIR RIS DR 4",
+                    "PASIR RIS ST 41"     
+                          
+                ],
+                scrollFont: "LECIP-6:3"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "358T",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "385T",
+                landmark: "PASIR RIS INT"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "358T",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
+    359: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "359",
+                destination: "> PASIR RIS ST 71 & ST 11",
+                destinationFont: "LECIP-6:3",
+                scrolls: [
+                    "PASIR RIS DR 3",
+                    "PASIR RIS DR 12",
+                    "PASIR RIS DR 10",
+                    "PASIR RIS DR 12",
+                    "PASIR RIS DR 3",
+                    "PASIR RIS ST 51",
+                    "LOYANG AVE",
+                    "PASIR RIS DR 2",
+                    "PASIR RIS ST 51"
+                ],
+                scrollFont: "LECIP-6:3"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "358",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    "359T": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "359T",
+                destination: "> PASIR RIS ST 71 & ST 11",
+                destinationFont: "LECIP-6:3",
+                scrolls: [{
+                        renderType: "swt",
+                        serviceNumber: "359T",
+                        landmark: "PASIR RIS INT",
+                    },
+                    "PASIR RIS DR 3",
+                    "PASIR RIS DR 12",
+                    "PASIR RIS DR 10",
+                    "PASIR RIS DR 12",
+                    "PASIR RIS DR 3",
+                    "PASIR RIS ST 51",
+                    "LOYANG AVE",
+                    "PASIR RIS DR 2",
+                    "PASIR RIS ST 51"    
+                          
+                ],
+                scrollFont: "LECIP-6:3"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "359T",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "389T",
+                landmark: "PASIR RIS INT"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "359T",
+                font: "LECIP-20:6",
                 spacing: 2
             }
         }
@@ -12251,6 +12697,35 @@ EDSData.SBST = {
             }
         }
     },
+    381: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "381",
+                destination: "> PUNGGOL INT",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    "PUNGGOL FIELD",
+                    "PUNGGOL CENTRAL",
+                    "EDGEFIELD PLAINS",
+                    "PUNGGOL CENTRAL",
+                    "PUNGGOL FIELD",
+                    "PUNGGOL EAST",
+                    "PUNGGOL FIELD",
+                    "EDGEFIELD PLAINS",
+                    "PUNGGOL CENTRAL",
+                    "PUNGGOL FIELD"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "381",
+                font: "LECIP-20:9",
+                spacing: 1
+            }
+        }
+    },
     "382G": {
         1: {
             front: {
@@ -12308,7 +12783,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "382A",
-                font: "LECIP-20:9",
+                font: "LECIP-20:6",
                 spacing: 2
             }
         }
@@ -12331,8 +12806,8 @@ EDSData.SBST = {
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "382W",
-                font: "LECIP-20:6",
+                serviceNumber: "384",
+                font: "LECIP-20:9",
                 spacing: 1
             }
         }
@@ -12369,7 +12844,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "386A",
-                font: "LECIP-20:9",
+                font: "LECIP-20:6",
                 spacing: 2
             }
         }
@@ -12464,6 +12939,29 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "402",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    403: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "403",
+                destination: "PASIR RIS INT - PASIR RIS RD",
+                destinationFont: "LECIP-6:3",
+                scrolls: [
+                    'PASIR RIS DR 1',
+                    'ELIAS RD',
+                    'PASIR RIS RD',
+                    'ELIAS RD'
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "403",
                 font: "LECIP-20:9",
                 spacing: 2
             }
@@ -16957,7 +17455,7 @@ EDSData.SBST = {
             },
             rear: {
                 renderType: 'twoline',
-                top: "REVER-",
+                top: "REVER",
                 topFont: "LECIP-6:4",
 
                 bottom: "  SING",
