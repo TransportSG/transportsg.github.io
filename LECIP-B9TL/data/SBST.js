@@ -5659,7 +5659,7 @@ EDSData.SBST = {
                 destination: "> KENT RIDGE CRES",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
-                    "NORTH BUOUNA VISTA RD"
+                    "NORTH BUOUNA VISTA RD",
                     "LOWER KENT RIDGE RD"
                 ],
                 scrollFont: "LECIP-7:5"
@@ -5693,8 +5693,8 @@ EDSData.SBST = {
                 destination: "> HOLLAND RD",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
-                    "KENT RIDGE CRESCENT"
-                    "LOWER KENT RIDGE RD"
+                    "KENT RIDGE CRESCENT",
+                    "LOWER KENT RIDGE RD",
                     "NORTH BUOUNA VISTA RD"
                 ],
                 scrollFont: "LECIP-7:5"
@@ -8170,7 +8170,7 @@ EDSData.SBST = {
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                     'JURONG TOWN HALL RD',
-                    'TEBAN GARDENS RD",
+                    'TEBAN GARDENS RD',
                     'WEST COAST RD',
                     'PANDAN GARDENS',
                     'WEST COAST RD',
