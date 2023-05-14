@@ -1855,6 +1855,22 @@ EDSData.SBST = {
             }
         }
     },
+    "23A": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "23A",
+                terminateAt: "TAMPINES AVE 10",
+                landmark: "(TEMASEK POLY WEST GATE)"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "23A",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
     24: {
         1: {
             front: {
@@ -3163,7 +3179,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "49",
-                destination: "JURONG E. INT-JUR W. ST 42",
+                destination: "JURONG E. INT - JUR W. ST 42",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                     'JALAN AHMAD IBRAHIM',
@@ -11945,6 +11961,50 @@ EDSData.SBST = {
             }
         }
     },
+    274: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "274",
+                destination: "> BUKIT MERAH INT",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    "DEPOT RD"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "274",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    275: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "275",
+                destination: "> BUKIT MERAH INT",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    "JALAN BUKIT MERAH",
+                    "LOWER DELTA RD",
+                    "BUKIT PURMEI AVE",
+                    "LOWER DELTA RD",
+                    "JALAN BUKIT MERAH"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "275",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
     282: {
         1: {
             front: {
@@ -12004,30 +12064,6 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "285",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        }
-    },
-    275: {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "275",
-                destination: "> BUKIT MERAH INT",
-                destinationFont: "LECIP-7:5",
-                scrolls: [
-                    "JALAN BUKIT MERAH",
-                    "LOWER DELTA RD",
-                    "BUKIT PURMEI AVE",
-                    "LOWER DELTA RD",
-                    "JALAN BUKIT MERAH"
-                ],
-                scrollFont: "LECIP-7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "275",
                 font: "LECIP-20:9",
                 spacing: 2
             }
@@ -17419,7 +17455,7 @@ EDSData.SBST = {
             },
             rear: {
                 renderType: 'twoline',
-                top: "REVER-",
+                top: "REVER",
                 topFont: "LECIP-6:4",
 
                 bottom: "  SING",
