@@ -4335,7 +4335,7 @@ EDSData.SBST = {
             }
         }
     },
-    "68": {
+    "68B": {
         1: {
             front: {
                 renderType: "swt",
@@ -12490,7 +12490,7 @@ EDSData.SBST = {
                 renderType: "standardService",
                 serviceNumber: "358",
                 destination: "> PASIR RIS DR 10 & ST 41",
-                destinationFont: "LECIP-6:3",
+                destinationFont: "LECIP-6:4",
                 scrolls: [
                     "PASIR RIS DR 3",
                     "PASIR RIS DR 1",
@@ -12515,7 +12515,7 @@ EDSData.SBST = {
                 renderType: "standardService",
                 serviceNumber: "358T",
                 destination: "> PASIR RIS DR 10 & ST 41",
-                destinationFont: "LECIP-6:3",
+                destinationFont: "LECIP-6:4",
                 scrolls: [{
                         renderType: "swt",
                         serviceNumber: "358T",
@@ -12558,7 +12558,7 @@ EDSData.SBST = {
                 renderType: "standardService",
                 serviceNumber: "359",
                 destination: "> PASIR RIS ST 71 & ST 11",
-                destinationFont: "LECIP-6:3",
+                destinationFont: "LECIP-6:4",
                 scrolls: [
                     "PASIR RIS DR 3",
                     "PASIR RIS DR 12",
@@ -12586,7 +12586,7 @@ EDSData.SBST = {
                 renderType: "standardService",
                 serviceNumber: "359T",
                 destination: "> PASIR RIS ST 71 & ST 11",
-                destinationFont: "LECIP-6:3",
+                destinationFont: "LECIP-6:4",
                 scrolls: [{
                         renderType: "swt",
                         serviceNumber: "359T",
@@ -17455,10 +17455,10 @@ EDSData.SBST = {
             },
             rear: {
                 renderType: 'twoline',
-                top: "REVER",
+                top: "REVER-",
                 topFont: "LECIP-6:4",
 
-                bottom: "  SING",
+                bottom: "SING",
                 bottomFont: "LECIP-6:4"
             }
         }
