@@ -14104,7 +14104,7 @@ EDSData.SBST = {
                 renderType: "standardService",
                 serviceNumber: "C3",
                 destination: "LITTLE INDIA ROUTE",
-                destinationFont: "LECIP-10",
+                destinationFont: "LECIP-7:5",
                 scrolls: [{
                         renderType: "brandedSvc",
                         serviceNumber: "C3",
@@ -14113,10 +14113,11 @@ EDSData.SBST = {
                         spacing: 2
                     },
                     "ESPLANADE",
-                    "CHIJMES, ST JOSEPH'S CHURCH",
+                    "CHIJMES",
+                    "ST JOSEPH'S CHURCH",      
                     "GODDESS OF MERCY TEMPLE",
                     "LITTLE INDIA, MUSTAFA",
-                    "THIEVES' MARKET, KAMPONG GLAM",
+                    "THIEVES' MARKET, KG. GLAM",
                     "THE GATEWAY",
                     "RAFFLES HOTEL",
                     "PAN PACIFIC HOTEL",
@@ -14367,7 +14368,121 @@ EDSData.SBST = {
             }
         }
     },
-    450: {
+    442: {
+        1: {
+            front: {
+                renderType: "twoline",
+                top: "SHUTTLE A",
+                topFont: "LECIP-7:5",
+
+                bottom: "ANG MO KIO - SELETAR",
+                bottomFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "twoline",
+                top: "AMK -",
+                topFont: "LECIP-6:4",
+
+                bottom: "SELETAR",
+                bottomFont: "LECIP-6:4"
+            }
+        },
+        2: {
+            front: {
+                renderType: "twoline",
+                top: "SHUTTLE A",
+                topFont: "LECIP-7:5",
+
+                bottom: "SELETAR - ANG MO KIO",
+                bottomFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "twoline",
+                top: "SELETAR",
+                topFont: "LECIP-6:4",
+
+                bottom: "- AMK",
+                bottomFont: "LECIP-6:4"
+            }
+        }
+    },
+    443: {
+        1: {
+            front: {
+                renderType: "twoline",
+                top: "SHUTTLE B",
+                topFont: "LECIP-7:5",
+
+                bottom: "YIO CHU KANG - SELETAR",
+                bottomFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "twoline",
+                top: "YCK -",
+                topFont: "LECIP-6:4",
+
+                bottom: "SELETAR",
+                bottomFont: "LECIP-6:4"
+            }
+        },
+        2: {
+            front: {
+                renderType: "twoline",
+                top: "SHUTTLE B",
+                topFont: "LECIP-7:5",
+
+                bottom: "SELETAR - YCK",
+                bottomFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "twoline",
+                top: "SELETAR",
+                topFont: "LECIP-6:4",
+
+                bottom: "- YCK",
+                bottomFont: "LECIP-6:4"
+            }
+        }
+    },
+    444: {
+        1: {
+            front: {
+                renderType: "twoline",
+                top: "SHUTTLE C",
+                topFont: "LECIP-7:5",
+
+                bottom: "ANG MO KIO - YISHUN",
+                bottomFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "twoline",
+                top: "YISHUN -",
+                topFont: "LECIP-6:3",
+
+                bottom: "SELETAR",
+                bottomFont: "LECIP-6:3"
+            }
+        },
+        2: {
+            front: {
+                renderType: "twoline",
+                top: "SHUTTLE C",
+                topFont: "LECIP-7:5",
+
+                bottom: "SELETAR - YISHUN",
+                bottomFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "twoline",
+                top: "SELETAR",
+                topFont: "LECIP-6:3",
+
+                bottom: "- YISHUN",
+                bottomFont: "LECIP-6:3"
+            }
+        }
+    },
+    496: {
         1: {
             front: {
                 renderType: "brandedSvc",
@@ -14399,7 +14514,7 @@ EDSData.SBST = {
             }
         }
     },
-     451: {
+     497: {
         1: {
             front: {
                 renderType: "message",
@@ -14414,6 +14529,73 @@ EDSData.SBST = {
 
                 bottom: "SERVICE",
                 bottomFont: "LECIP-7:4"
+            }
+        }
+    },
+    498: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "S1",
+                branding: "HIGHWOODS",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "S1",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S1",
+                destination: "RAILWAY STATION",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    "WIVENHOE"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "S1",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    499: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "S2",
+                branding: "STANWAY",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "S2",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "S2",
+                branding: "HIGHWOODS",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "S2",
+                font: "LECIP-20:9",
+                spacing: 2
             }
         }
     },
@@ -16088,6 +16270,134 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "660",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    667: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "667",
+                branding: "CITY DIRECT",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "667",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "667",
+                branding: "CITY DIRECT",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "667",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    668: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "668",
+                branding: "CITY DIRECT",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "668",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "668",
+                branding: "CITY DIRECT",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "668",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    671: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "671",
+                branding: "CITY DIRECT",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "671",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "671",
+                branding: "CITY DIRECT",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "671",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    672: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "672",
+                branding: "CITY DIRECT",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "672",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "672",
+                branding: "CITY DIRECT",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "672",
                 font: "LECIP-20:9",
                 spacing: 2
             }
