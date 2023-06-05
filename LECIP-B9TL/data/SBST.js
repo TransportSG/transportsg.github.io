@@ -1290,7 +1290,7 @@ EDSData.SBST = {
             front: {
                 renderType: "swt",
                 serviceNumber: "14B",
-                terminateAt: "UPPER EAST COAST RD",
+                terminateAt: "UPP EAST COAST RD",
                 landmark: "(OPP EVERGREEN AVE)"
             },
             rear: {
@@ -2250,7 +2250,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "30A",
-                font: "LECIP-20:12",
+                font: "LECIP-20:9",
                 spacing: 2
             }
         },
@@ -2282,8 +2282,8 @@ EDSData.SBST = {
             front: {
                 renderType: "swt",
                 serviceNumber: "30B",
-                terminateAt: "TELOK BLANGAH RD",
-                landmark: "(HARBOURFRONT STN)"
+                terminateAt: "TELOK BLANGAH",
+                landmark: "RD (HARBOURFRONT STN)"
             },
             rear: {
                 renderType: "rearService",
@@ -3044,8 +3044,8 @@ EDSData.SBST = {
             front: {
                 renderType: "swt",
                 serviceNumber: "43A",
-                terminateAt: "SERANGOON CENTRAL",
-                landmark: "(SERANGOON STN)"
+                terminateAt: "SERANGOON",
+                landmark: "CENTRAL (SERANGOON STN)"
             },
             rear: {
                 renderType: "rearService",
@@ -4496,7 +4496,7 @@ EDSData.SBST = {
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "69",
+                serviceNumber: "68",
                 font: "LECIP-20:12",
                 spacing: 2
             }
@@ -4881,7 +4881,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "73A",
-                font: "LECIP-20:6",
+                font: "LECIP-20:9",
                 spacing: 1
             }
         }
@@ -6772,17 +6772,17 @@ EDSData.SBST = {
             }
         },
     },
-    "103W": {
+    "103M": {
         1: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "103W",
+                serviceNumber: "103M",
                 destination: "> WEST CAMP RD",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
                     "YIO CHU KANG RD",
                     "JALAN KAYU",
-                    "SELETAR AEROSPACE DR",
+                    "SELETAR A'SPACE DR",
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -6796,11 +6796,11 @@ EDSData.SBST = {
         2: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "103W",
+                serviceNumber: "103M",
                 destination: "> SERANGOON INT",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
-                    "SELETAR AEROSPACE DR",
+                    "SELETAR A'SPACE DR",
                     "JALAN KAYU",
                     "YIO CHU KANG RD"
                 ],
@@ -6814,17 +6814,17 @@ EDSData.SBST = {
             }
         },
     },
-    "103M": {
+   "103W": {
         1: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "103M",
+                serviceNumber: "103W",
                 destination: "> WEST CAMP RD",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
                     "YIO CHU KANG RD",
                     "JALAN KAYU",
-                    "SELETAR AEROSPACE DR",
+                    "SELETAR A'SPACE DR",
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -6838,11 +6838,11 @@ EDSData.SBST = {
         2: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "103M",
+                serviceNumber: "103W",
                 destination: "> SERANGOON INT",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
-                    "SELETAR AEROSPACE DR",
+                    "SELETAR A'SPACE DR",
                     "JALAN KAYU",
                     "YIO CHU KANG RD"
                 ],
@@ -7695,7 +7695,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "123M",
-                destination: "TIONG BAHRU-BUKIT PURMEI AVE",
+                destination: "TIONG BAHRU-BUKIT PURMEI",
                 destinationFont: "LECIP-6:4",
                 scrolls: [{
                         renderType: "brandedSvc",
@@ -7706,7 +7706,7 @@ EDSData.SBST = {
                     },
                     "LOWER DELTA RD"
                 ],
-                scrollFont: "LECIP-7:5"
+                scrollFont: "LECIP-6:4"
             },
             rear: {
                 renderType: "rearService",
@@ -7770,8 +7770,8 @@ EDSData.SBST = {
             front: {
                 renderType: "swt",
                 serviceNumber: "124A",
-                terminateAt: "TELOK BLANGAH DR",
-                landmark: "(BLK 50)"
+                terminateAt: "TELOK BLANGAH",
+                landmark: "DR (BLK 50)"
             },
             rear: {
                 renderType: "rearService",
@@ -14482,123 +14482,6 @@ EDSData.SBST = {
             }
         }
     },
-    496: {
-        1: {
-            front: {
-                renderType: "brandedSvc",
-                serviceNumber: "LHR",
-                branding: "HEATHROW AIRPORT",
-                font: "LECIP-20:6",
-                spacing: 1
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "LHR",
-                font: "LECIP-20:6",
-                spacing: 2
-            }
-        },
-        2: {
-            front: {
-                renderType: "brandedSvc",
-                serviceNumber: "INV",
-                branding: "INVERNESS AIRPORT",
-                font: "LECIP-20:6",
-                spacing: 1
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "INV",
-                font: "LECIP-20:6",
-                spacing: 2
-            }
-        }
-    },
-     497: {
-        1: {
-            front: {
-                renderType: "message",
-                text: "RAIL REPLACEMENT SERVICE",
-                font: "LECIP-20:6",
-                spacing: 2
-            },
-            rear: {
-                renderType: 'twoline',
-                top: "RAIL",
-                topFont: "LECIP-7:4",
-
-                bottom: "SERVICE",
-                bottomFont: "LECIP-7:4"
-            }
-        }
-    },
-    498: {
-        1: {
-            front: {
-                renderType: "brandedSvc",
-                serviceNumber: "S1",
-                branding: "HIGHWOODS",
-                font: "LECIP-20:9",
-                spacing: 2
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "S1",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        },
-        2: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "S1",
-                destination: "RAILWAY STATION",
-                destinationFont: "LECIP-7:5",
-                scrolls: [
-                    "WIVENHOE"
-                ],
-                scrollFont: "LECIP-7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "S1",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        }
-    },
-    499: {
-        1: {
-            front: {
-                renderType: "brandedSvc",
-                serviceNumber: "S2",
-                branding: "STANWAY",
-                font: "LECIP-20:9",
-                spacing: 2
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "S2",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        },
-        2: {
-            front: {
-                renderType: "brandedSvc",
-                serviceNumber: "S2",
-                branding: "HIGHWOODS",
-                font: "LECIP-20:9",
-                spacing: 2
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "S2",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        }
-    },
     502: {
         1: {
             front: {
@@ -18323,16 +18206,16 @@ EDSData.SBST = {
         1: {
             front: {
                 renderType: "message",
-                text: "BUS REVERSING",
-                font: "LECIP-20:9",
-                spacing: 2
+                text: "BUS  REVERSING",
+                font: "LECIP-20:12",
+                spacing: 1
             },
             rear: {
                 renderType: 'twoline',
                 top: "REVER",
                 topFont: "LECIP-6:3",
 
-                bottom: "SING",
+                bottom: "       SING",
                 bottomFont: "LECIP-6:3"
             }
         }
