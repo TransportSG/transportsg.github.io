@@ -14482,6 +14482,113 @@ EDSData.SBST = {
             }
         }
     },
+    445: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "AA  2006",
+                font: "LECIP-20:12",
+                spacing: 3
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "AA",
+                topFont: "LECIP-7:5",
+
+                bottom: "2006",
+                bottomFont: "LECIP-7:5"
+            }
+        }
+    },
+    446: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "HELLO  SENGKANG",
+                font: "LECIP-20:9",
+                spacing: 1
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "HELLO",
+                topFont: "LECIP-7:5",
+
+                bottom: "S'KANG",
+                bottomFont: "LECIP-7:5"
+            }
+        }
+    },
+    447: {
+        1: {
+            front: {
+                renderType: "twoline",
+                top: "RIVER HONG BAO",
+                topFont: "LECIP-7:5",
+
+                bottom: "CITY HALL MRT - RAFFLES AVE",
+                bottomFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "twoline",
+                top: "RIVER",
+                topFont: "LECIP-6:3",
+
+                bottom: "HONG BAO",
+                bottomFont: "LECIP-6:3"
+            }
+        }
+    },
+    448: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "M1",
+                destination: "SCIENCE PK DR - MT SINAI DR",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                    'NORTH BUONA VISTA RD',
+                    'BUONA VISTA FLYOVER',
+                    'SCIENCE PK DR',
+                    'BUONA VISTA FLYOVER',
+                    'NORTH BUONA VISTA RD',
+                    'MOUNT SINAI RD',
+                    'MOUNT SINAI DR',
+                    'MOUNT SINAI RISE'
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "M1",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        }
+    },
+    449: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "M2",
+                destination: "JLN KEMBANGAN-FIDELIO ST",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    'LENGKOK TIGA',
+                    'LENGKOK EMPAT',
+                    'FIDELIO ST',
+                    'SIGLAP DR',
+                    'FRANKEL AVE'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "M2",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        }
+    },
     502: {
         1: {
             front: {
