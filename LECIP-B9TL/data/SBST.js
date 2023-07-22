@@ -18144,6 +18144,22 @@ EDSData.SBST = {
 
                 bottom: "BUS",
                 bottomFont: "LECIP-7:4"
+           }
+        },
+        2: {
+            front: {
+                renderType: "message",
+                text: "TRAINING IN PROGRESS",
+                font: "LECIP-20-10",
+                spacing: 1
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "TRG IN",
+                topFont: "LECIP-6:3",
+
+                bottom: "PROGRESS",
+                bottomFont: "LECIP-6:3"
             }
         }
     },
