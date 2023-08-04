@@ -714,6 +714,38 @@ EDSData.SBST = {
             }
         }
     },
+    "5A": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "5A",
+                terminateAt: "UPP CHANGI RD EAST",
+                landmark: "(UPP CHANGI STN/SUTD)"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "5A",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        }
+    },
+    "5B": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "5B",
+                terminateAt: "MARIAM WAY",
+                landmark: "(BEF MARIAM WK)"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "5B",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        }
+    },
     "5N": {
         1: {
             front: {
@@ -8874,8 +8906,35 @@ EDSData.SBST = {
                 serviceNumber: "142",
                 font: "LECIP-20:9",
                 spacing: 2
+
             }
         },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "142",
+                destination: "TOA PAYOH INT-POTONG P. AVE 1",
+                destinationFont: "LECIP-6:4",
+                scrolls: [{
+                        renderType: "message",
+                        text: "142",
+                        font: "LECIP-20:12",
+                        spacing: 2
+                    },
+                    'LOR 6 TOA PAYOH',
+                    'JLN TOA PAYOH',
+                    'UPP SERANGOON RD',
+                    'POTONG PASIR AVE 1, 3, 2'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "142",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
     },
     "142A": {
         1: {
@@ -14586,6 +14645,26 @@ EDSData.SBST = {
                 serviceNumber: "M2",
                 font: "LECIP-20:12",
                 spacing: 2
+            }
+        }
+    },
+    499: {
+        1: {
+            front: {
+                renderType: "twoline",
+                top: "50 YEARS OF TRAVELLING TOGETHER",
+                topFont: "LECIP-6:4",
+
+                bottom: "WITH SBS TRANSIT",
+                bottomFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "twoline",
+                top: "SBST",
+                topFont: "LECIP-7:5",
+
+                bottom: "50",
+                bottomFont: "LECIP-7:5"
             }
         }
     },
