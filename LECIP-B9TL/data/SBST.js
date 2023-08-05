@@ -14652,11 +14652,11 @@ EDSData.SBST = {
         1: {
             front: {
                 renderType: "twoline",
-                top: "50 YEARS OF TRAVELLING TOGETHER",
-                topFont: "LECIP-6:4",
+                top: "50 YRS OF TRAVELLING TOGETHER",
+                topFont: "LECIP-7:5",
 
                 bottom: "WITH SBS TRANSIT",
-                bottomFont: "LECIP-6:4"
+                bottomFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "twoline",
