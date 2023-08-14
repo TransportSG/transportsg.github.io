@@ -6810,7 +6810,7 @@ EDSData.SBST = {
                 renderType: "standardService",
                 serviceNumber: "103M",
                 destination: "> WEST CAMP RD",
-                destinationFont: "LECIP-7:5",
+                destinationFont: "LECIP-6:4",
                 scrolls: [
                     "YIO CHU KANG RD",
                     "JALAN KAYU",
@@ -6820,7 +6820,7 @@ EDSData.SBST = {
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "103W",
+                serviceNumber: "103M",
                 font: "LECIP-20:6",
                 spacing: 2
             }
@@ -6830,7 +6830,7 @@ EDSData.SBST = {
                 renderType: "standardService",
                 serviceNumber: "103M",
                 destination: "> SERANGOON INT",
-                destinationFont: "LECIP-7:5",
+                destinationFont: "LECIP-6:4",
                 scrolls: [
                     "SELETAR A'SPACE DR",
                     "JALAN KAYU",
@@ -6840,7 +6840,7 @@ EDSData.SBST = {
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "103W",
+                serviceNumber: "103M",
                 font: "LECIP-20:6",
                 spacing: 2
             }
@@ -6852,7 +6852,7 @@ EDSData.SBST = {
                 renderType: "standardService",
                 serviceNumber: "103W",
                 destination: "> WEST CAMP RD",
-                destinationFont: "LECIP-7:5",
+                destinationFont: "LECIP-6:4",
                 scrolls: [
                     "YIO CHU KANG RD",
                     "JALAN KAYU",
@@ -6872,7 +6872,7 @@ EDSData.SBST = {
                 renderType: "standardService",
                 serviceNumber: "103W",
                 destination: "> SERANGOON INT",
-                destinationFont: "LECIP-7:5",
+                destinationFont: "LECIP-6:4",
                 scrolls: [
                     "SELETAR A'SPACE DR",
                     "JALAN KAYU",
@@ -13114,7 +13114,7 @@ EDSData.SBST = {
         2: {
             front: {
                 renderType: "swt",
-                serviceNumber: "385T",
+                serviceNumber: "358T",
                 landmark: "PASIR RIS INT"
             },
             rear: {
@@ -13188,7 +13188,7 @@ EDSData.SBST = {
         2: {
             front: {
                 renderType: "swt",
-                serviceNumber: "389T",
+                serviceNumber: "359T",
                 landmark: "PASIR RIS INT"
             },
             rear: {
@@ -13295,7 +13295,7 @@ EDSData.SBST = {
                 renderType: "rearService",
                 serviceNumber: "381",
                 font: "LECIP-20:9",
-                spacing: 1
+                spacing: 2
             }
         }
     },
@@ -13318,7 +13318,7 @@ EDSData.SBST = {
                 renderType: "rearService",
                 serviceNumber: "382G",
                 font: "LECIP-20:6",
-                spacing: 1
+                spacing: 2
             }
         }
     },
@@ -13341,7 +13341,7 @@ EDSData.SBST = {
                 renderType: "rearService",
                 serviceNumber: "382W",
                 font: "LECIP-20:6",
-                spacing: 1
+                spacing: 2
             }
         }
     },
@@ -13381,7 +13381,7 @@ EDSData.SBST = {
                 renderType: "rearService",
                 serviceNumber: "384",
                 font: "LECIP-20:9",
-                spacing: 1
+                spacing: 2
             }
         }
     },
