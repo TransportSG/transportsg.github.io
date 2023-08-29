@@ -11664,9 +11664,10 @@ EDSData.SBST = {
                 destination: "> TOA PAYOH INT",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
-                    'TOA PAYOH SWIMMING CPLX',
-                    'TOA PAYOH STADIUM',
-                    'KIM KEAT PALM MKT/FC'
+                    'LOR 6 TOA PAYOH',
+                    'TOA PAYOH EAST',
+                    'KIM KEAT AVE',
+                    'TOA PAYOH EAST'
                 ],
                 scrollFont: "LECIP-7:5"
             },
