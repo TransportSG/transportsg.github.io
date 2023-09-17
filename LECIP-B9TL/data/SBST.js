@@ -14441,10 +14441,10 @@ EDSData.SBST = {
             rear: {
                 renderType: "twoline",
                 top: "AMK -",
-                topFont: "LECIP-6:4",
+                topFont: "LECIP-6:3",
 
                 bottom: "SELETAR",
-                bottomFont: "LECIP-6:4"
+                bottomFont: "LECIP-6:3"
             }
         },
         2: {
@@ -14459,10 +14459,10 @@ EDSData.SBST = {
             rear: {
                 renderType: "twoline",
                 top: "SELETAR",
-                topFont: "LECIP-6:4",
+                topFont: "LECIP-6:3",
 
                 bottom: "- AMK",
-                bottomFont: "LECIP-6:4"
+                bottomFont: "LECIP-6:3"
             }
         }
     },
@@ -14479,10 +14479,10 @@ EDSData.SBST = {
             rear: {
                 renderType: "twoline",
                 top: "YCK -",
-                topFont: "LECIP-6:4",
+                topFont: "LECIP-6:3",
 
                 bottom: "SELETAR",
-                bottomFont: "LECIP-6:4"
+                bottomFont: "LECIP-6:3"
             }
         },
         2: {
@@ -14497,10 +14497,10 @@ EDSData.SBST = {
             rear: {
                 renderType: "twoline",
                 top: "SELETAR",
-                topFont: "LECIP-6:4",
+                topFont: "LECIP-6:3",
 
                 bottom: "- YCK",
-                bottomFont: "LECIP-6:4"
+                bottomFont: "LECIP-6:3"
             }
         }
     },
