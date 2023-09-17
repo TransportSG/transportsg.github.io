@@ -9950,7 +9950,7 @@ EDSData.SBST = {
                     "JURONG TOWN HALL RD",
                     "BUKIT BATOK WEST AVE 8",
                     "BUKIT BATOK RD",
-                    "BUKIT BATOK WEST AVE 8",
+                    "BUKIT BATOK WEST AVE 6",
                     "JURONG TOWN HALL RD",
                     "BOON LAY WAY"
                 ],
@@ -18102,6 +18102,32 @@ EDSData.SBST = {
                 renderType: "rearService",
                 serviceNumber: "EB88",
                 font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
+    993: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: 993",
+                destination: "JURONG EAST INT-BT BATOK RD",
+                destinationFont: "LECIP-6:3",
+                scrolls: [
+                    "BOON LAY WAY",
+                    "JURONG TOWN HALL RD",
+                    "BUKIT BATOK WEST AVE 8",
+                    "BUKIT BATOK RD",
+                    "BUKIT BATOK WEST AVE 6",
+                    "JURONG TOWN HALL RD",
+                    "BOON LAY WAY"
+                ],
+                scrollFont: "LECIP-6:3"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "993",
+                font: "LECIP-20:9",
                 spacing: 2
             }
         }
