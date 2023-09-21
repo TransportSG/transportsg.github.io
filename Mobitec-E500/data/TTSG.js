@@ -1640,6 +1640,64 @@ EDSData.TTSG = {
             ]
         }
     },
+    9631: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "963",
+            destination: "HARBOURFRONT",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "963",
+                    top: "Welcome Aboard",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "Tower Transit!",
+                    bottomFont: "Mobitec-7:5:1",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "963",
+                    top: "HARBOURFRONT",
+                    image: "mrt"
+                },
+                "BUKIT PANJANG RD",
+                "HILLVIEW AVE",
+                "BT BATOK EAST AVE 4",
+                "AYE",
+                "ALEXANDRA RD"
+            ]
+        }
+    },
+   9631: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "963",
+            destination: "WOODLANDS",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "963",
+                    top: "Welcome Aboard",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "Tower Transit!",
+                    bottomFont: "Mobitec-7:5:1",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "963",
+                    top: "WOODLANDS",
+                    image: "mrt"
+                },
+                "ALEXANDRA RD",
+                "AYE",
+                "BT BATOK EAST AVE 4",
+                "HILLVIEW AVE",
+                "BT PANJANG RD",
+            ]
+        }
+    },
     9741: {
         front: {
             renderType: "standardService",
