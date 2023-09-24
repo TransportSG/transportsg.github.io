@@ -18111,7 +18111,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "993",
-                destination: "JURONG EAST INT-BT BATOK RD",
+                destination: "JURONG E.-BT BATOK WEST AVE 8",
                 destinationFont: "LECIP-6:3",
                 scrolls: [
                     "BOON LAY WAY",
