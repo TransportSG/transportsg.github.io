@@ -17263,10 +17263,10 @@ EDSData.SBST = {
                 destination: "> SHENTON WAY",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
+                    "YISHUN RING RD",
                     "BRAS BASAH RD",
                     "COLLYER QUAY",
                     "RAFFLES QUAY",
-                    "VICTORIA ST", // ?
                     "SHENTON WAY"
                 ],
                 scrollFont: "LECIP-7:5"
@@ -17285,7 +17285,11 @@ EDSData.SBST = {
                 destination: "> YISHUN RING RD",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
-                    "FULLERTON RD"
+                    "ROBINSON RD",
+                    "FULLERTON RD",
+                    "STAMFORD RD",
+                    "PENANG RD",
+                    "YISHUN RING RD"
                 ],
                 scrollFont: "LECIP-7:5"
             },
