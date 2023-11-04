@@ -6,7 +6,7 @@ let screenFilter = '';
 function setScreen(screenName) {
     let screens = [['controller-screen-home', 'flex', () => {
         screenFilter = '';
-    }], ['controller-screen-dest', 'block']];
+    }], ['controller-screen-dest', 'block'], ['controller-screen-extra', 'block']];
     screens.forEach(screen => {
         if (screen[0] !== screenName) {
             document.getElementById(screen[0]).style.display = 'none';
@@ -34,8 +34,8 @@ function getCodes(dataSet) {
     return Object.keys(dataSet[currentOperator]).filter(code => code.startsWith(screenFilter));
 }
 
-function drawSelectionScreen(code) {
-    let allCodes = getCodes(EDSData);
+function drawSelectionScreen(code, dataSource) {
+    let allCodes = getCodes(dataSource || EDSData);
 
     let currentCodeIndex = allCodes.indexOf(code);
     if (currentCodeIndex === -1) currentCodeIndex = 0;
@@ -74,6 +74,14 @@ function onF1Pressed() {
     }
 }
 
+function onF2Pressed() {
+    if (currentScreen == 'controller-screen-home') {
+        setScreen('controller-screen-extra');
+        drawSelectionScreen(currentCode, EDSExtras);
+        currentScreenCode = currentCode;
+    }
+}
+
 function onUpPressed() {
     if (currentScreen !== 'controller-screen-dest') return;
     let allCodes = getCodes(EDSData);
@@ -100,6 +108,7 @@ function onDownPressed() {
 
 function onCrossPressed() {
     if (currentScreen === 'controller-screen-dest') setScreen('controller-screen-home');
+    if (currentScreen === 'controller-screen-extra') setScreen('controller-screen-home');
 }
 
 function onTickPressed() {
@@ -118,6 +127,7 @@ function onNumberPressed(number) {
 
 window.addEventListener('load', () => {
     document.getElementById('button-f1').addEventListener('click', onF1Pressed);
+    document.getElementById('button-f2').addEventListener('click', onF2Pressed);
     document.getElementById('button-up').addEventListener('click', onUpPressed);
     document.getElementById('button-down').addEventListener('click', onDownPressed);
 

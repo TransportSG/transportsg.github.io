@@ -303,7 +303,7 @@
     font-size: 0.8vw;
 }
 
-#controller-screen-dest {
+#controller-screen-dest, #controller-screen-extra {
     width: 28vw;
 }
 
