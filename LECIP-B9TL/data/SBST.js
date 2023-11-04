@@ -10253,9 +10253,9 @@ EDSData.SBST = {
         1: {
             front: {
                 renderType: "swt",
-                serviceNumber: "163B",
-                terminateAt: "YIO CHU KANG RD",
-                landmark: "(NCS HUB)"
+                serviceNumber: "163A",
+                terminateAt: "FERNVALE LN",
+                landmark: "(BEF SENGKANG WEST RD)"
             },
             rear: {
                 renderType: "rearService",
@@ -10269,7 +10269,7 @@ EDSData.SBST = {
         1: {
             front: {
                 renderType: "swt",
-                serviceNumber: "163b",
+                serviceNumber: "163B",
                 landmark: "YIO CHU KANG RD (NCS HUB)"
             },
             rear: {
