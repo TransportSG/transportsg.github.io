@@ -6758,6 +6758,22 @@ EDSData.SBST = {
             }
         }
     },
+    "102B": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "102B",
+                terminateAt: "SENGKANG W.",
+                landmark: "WAY (S'KANG STN/BLK260A)"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "102B",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
     103: {
         1: {
             front: {
@@ -9943,16 +9959,14 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "160M",
-                destination: "JURONG EAST INT-BT BATOK RD",
+                destination: "JURONG EAST-BT BATOK RD",
                 destinationFont: "LECIP-6:3",
                 scrolls: [
                     "BOON LAY WAY",
                     "JURONG TOWN HALL RD",
                     "BUKIT BATOK WEST AVE 8",
                     "BUKIT BATOK RD",
-                    "BUKIT BATOK WEST AVE 6",
-                    "JURONG TOWN HALL RD",
-                    "BOON LAY WAY"
+                    "JURONG TOWN HALL RD"
                 ],
                 scrollFont: "LECIP-6:3"
             },
@@ -10149,6 +10163,21 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "163A",
+                font: "LECIP-20:6",
+                spacing: 1
+            }
+        }
+    },
+    "163B": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "163b",
+                landmark: "YIO CHU KANG RD (NCS HUB)"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "163B",
                 font: "LECIP-20:6",
                 spacing: 1
             }
@@ -17234,10 +17263,10 @@ EDSData.SBST = {
                 destination: "> SHENTON WAY",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
+                    "YISHUN RING RD",
                     "BRAS BASAH RD",
                     "COLLYER QUAY",
                     "RAFFLES QUAY",
-                    "VICTORIA ST", // ?
                     "SHENTON WAY"
                 ],
                 scrollFont: "LECIP-7:5"
@@ -17256,7 +17285,11 @@ EDSData.SBST = {
                 destination: "> YISHUN RING RD",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
-                    "FULLERTON RD"
+                    "ROBINSON RD",
+                    "FULLERTON RD",
+                    "STAMFORD RD",
+                    "PENANG RD",
+                    "YISHUN RING RD"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -18111,18 +18144,15 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "993",
-                destination: "JURONG EAST INT-BT BATOK RD",
-                destinationFont: "LECIP-6:3",
+                destination: "JURONG E. INT-BT BATOK W. AVE 8",
+                destinationFont: "LECIP-6:4",
                 scrolls: [
                     "BOON LAY WAY",
                     "JURONG TOWN HALL RD",
                     "BUKIT BATOK WEST AVE 8",
-                    "BUKIT BATOK RD",
-                    "BUKIT BATOK WEST AVE 6",
-                    "JURONG TOWN HALL RD",
-                    "BOON LAY WAY"
+                    "BUKIT BATOK RD"
                 ],
-                scrollFont: "LECIP-6:3"
+                scrollFont: "LECIP-6:4"
             },
             rear: {
                 renderType: "rearService",
