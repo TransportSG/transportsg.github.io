@@ -106,6 +106,97 @@ EDSData.GASG = {
             }
         }
     },
+    36: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "36",
+                destination: "TOMLINSON RD",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    "MARINE PARADE RD",
+                    "SUNTEC CITY",
+                    "STAMFORD RD",
+                    "DHOBY GHAUT MRT",
+                    "SOMERSET MRT",
+                    "ORCHARD BOULEVARD"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "36",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        }
+        ,
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "36",
+                destination: "CHANGI AIRPORT",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    "ORCHARD RD",
+                    "SUNTEC CITY",
+                    "MARINE PARADE RD"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "36",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        }
+    },
+    119: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "119",
+                destination: "KOVAN",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    "SENGKANG EAST WAY",
+                    "RIVERVALE DRIVE",
+                    "HOUGANG AVE 8",
+                    "UPPER SERANGOON RD",
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "119",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+        ,
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "119",
+                destination: "PUNGGOL",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    "UPPER SERANGOON RD",
+                    "HOUGANG AVE 8",
+                    "RIVERVALE DRIVE",
+                    "SENGKANG EAST WAY"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "36",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        }
+    },
     "381": {
         1: {
             front: {
