@@ -141,13 +141,6 @@ EDSData.TTSG = {
             {
                 renderType: "destScroll",
                 serviceNumber: "00",
-                top: "鼠年快乐",
-                topFont: "Chinese-14:12",
-                image: "cny"
-            },
-            {
-                renderType: "destScroll",
-                serviceNumber: "00",
                 top: "Happy & Prosperous",
                 topFont: "Hanover-7:3",
                 bottom: "Lunar New Year!",
@@ -197,13 +190,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "41",
-                    top: "鼠年快乐",
-                    topFont: "Chinese-14:12",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "41",
                     top: "Welcome Aboard",
                     topFont: "Mobitec-7:6:2",
                     bottom: "Tower Transit!",
@@ -231,15 +217,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "41",
-                    top: "Happy & Prosperous",
-                    topFont: "Hanover-7:3",
-                    bottom: "Lunar New Year!",
-                    bottomFont: "Hanover-7:3",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "41",
                     top: "Welcome Aboard",
                     topFont: "Mobitec-7:6:2",
                     bottom: "Tower Transit!",
@@ -263,15 +240,6 @@ EDSData.TTSG = {
             serviceNumber: "49",
             destination: "JURONG WEST ST 42",
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "49",
-                    top: "Happy & Prosperous",
-                    topFont: "Hanover-7:3",
-                    bottom: "Lunar New Year!",
-                    bottomFont: "Hanover-7:3",
-                    image: "cny"
-                },
                 {
                     renderType: "destScroll",
                     serviceNumber: "49",
@@ -303,13 +271,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "49",
-                    top: "鼠年快乐",
-                    topFont: "Chinese-14:12",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "49",
                     top: "Welcome Aboard",
                     topFont: "Mobitec-7:6:2",
                     bottom: "Tower Transit!",
@@ -332,15 +293,6 @@ EDSData.TTSG = {
             serviceNumber: "66",
             destination: "JURONG EAST",
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "66",
-                    top: "Happy & Prosperous",
-                    topFont: "Hanover-7:3",
-                    bottom: "Lunar New Year!",
-                    bottomFont: "Hanover-7:3",
-                    image: "cny"
-                },
                 {
                     renderType: "destScroll",
                     serviceNumber: "66",
@@ -373,13 +325,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "66",
-                    top: "鼠年快乐",
-                    topFont: "Chinese-14:12",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "66",
                     top: "Welcome Aboard",
                     topFont: "Mobitec-7:6:2",
                     bottom: "Tower Transit!",
@@ -406,13 +351,6 @@ EDSData.TTSG = {
             serviceNumber: "77",
             destination: "BUKIT BATOK",
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "77",
-                    top: "鼠年快乐",
-                    topFont: "Chinese-14:12",
-                    image: "cny"
-                },
                 {
                     renderType: "destScroll",
                     serviceNumber: "77",
@@ -445,15 +383,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "77",
-                    top: "Happy & Prosperous",
-                    topFont: "Hanover-7:3",
-                    bottom: "Lunar New Year!",
-                    bottomFont: "Hanover-7:3",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "77",
                     top: "Welcome Aboard",
                     topFont: "Mobitec-7:6:2",
                     bottom: "Tower Transit!",
@@ -480,15 +409,6 @@ EDSData.TTSG = {
             serviceNumber: "78",
             destination: "CLEMENTI MRT",
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "78",
-                    top: "Happy & Prosperous",
-                    topFont: "Hanover-7:3",
-                    bottom: "Lunar New Year!",
-                    bottomFont: "Hanover-7:3",
-                    image: "cny"
-                },
                 {
                     renderType: "destScroll",
                     serviceNumber: "78",
@@ -520,13 +440,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "78",
-                    top: "鼠年快乐",
-                    topFont: "Chinese-14:12",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "78",
                     top: "Welcome Aboard",
                     topFont: "Mobitec-7:6:2",
                     bottom: "Tower Transit!",
@@ -549,15 +462,6 @@ EDSData.TTSG = {
             serviceNumber: "79",
             destination: "BOON LAY",
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "79",
-                    top: "Happy & Prosperous",
-                    topFont: "Hanover-7:3",
-                    bottom: "Lunar New Year!",
-                    bottomFont: "Hanover-7:3",
-                    image: "cny"
-                },
                 {
                     renderType: "destScroll",
                     serviceNumber: "79",
@@ -586,13 +490,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "79",
-                    top: "鼠年快乐",
-                    topFont: "Chinese-14:12",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "79",
                     top: "Welcome Aboard",
                     topFont: "Mobitec-7:6:2",
                     bottom: "Tower Transit!",
@@ -615,13 +512,6 @@ EDSData.TTSG = {
             serviceNumber: "96",
             destination: "CLEMENTI",
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "96",
-                    top: "鼠年快乐",
-                    topFont: "Chinese-14:12",
-                    image: "cny"
-                },
                 {
                     renderType: "destScroll",
                     serviceNumber: "96",
@@ -648,15 +538,6 @@ EDSData.TTSG = {
             serviceNumber: "97",
             destination: "MARINA CENTRE",
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "97",
-                    top: "Happy & Prosperous",
-                    topFont: "Hanover-7:3",
-                    bottom: "Lunar New Year!",
-                    bottomFont: "Hanover-7:3",
-                    image: "cny"
-                },
                 {
                     renderType: "destScroll",
                     serviceNumber: "97",
@@ -689,13 +570,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "97",
-                    top: "鼠年快乐",
-                    topFont: "Chinese-14:12",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "97",
                     top: "Welcome Aboard",
                     topFont: "Mobitec-7:6:2",
                     bottom: "Tower Transit!",
@@ -721,15 +595,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "97e",
-                    top: "Happy & Prosperous",
-                    topFont: "Hanover-7:3",
-                    bottom: "Lunar New Year!",
-                    bottomFont: "Hanover-7:3",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "97e",
                     top: "Welcome Aboard",
                     topFont: "Mobitec-7:5:1",
                     bottom: "Tower Transit!",
@@ -751,13 +616,6 @@ EDSData.TTSG = {
             serviceNumber: "97e",
             destination: "JURONG EAST",
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "97e",
-                    top: "鼠年快乐",
-                    topFont: "Chinese-14:12",
-                    image: "cny"
-                },
                 {
                     renderType: "destScroll",
                     serviceNumber: "97e",
@@ -786,15 +644,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "98",
-                    top: "Happy & Prosperous",
-                    topFont: "Hanover-7:3",
-                    bottom: "Lunar New Year!",
-                    bottomFont: "Hanover-7:3",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "98",
                     top: "Welcome Aboard",
                     topFont: "Mobitec-7:6:2",
                     bottom: "Tower Transit!",
@@ -816,15 +665,6 @@ EDSData.TTSG = {
             serviceNumber: "98",
             destination: "JURONG EAST",
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "98",
-                    top: "Happy & Prosperous",
-                    topFont: "Hanover-7:3",
-                    bottom: "Lunar New Year!",
-                    bottomFont: "Hanover-7:3",
-                    image: "cny"
-                },
                 {
                     renderType: "destScroll",
                     serviceNumber: "98",
@@ -853,15 +693,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "98M",
-                    top: "Happy & Prosperous",
-                    topFont: "Hanover-7:3",
-                    bottom: "Lunar New Year!",
-                    bottomFont: "Hanover-7:3",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "98M",
                     top: "Welcome Aboard",
                     topFont: "Mobitec-7:6:2",
                     bottom: "Tower Transit!",
@@ -883,15 +714,6 @@ EDSData.TTSG = {
             serviceNumber: "106",
             destination: "SHENTON WAY",
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "106",
-                    top: "Happy & Prosperous",
-                    topFont: "Hanover-7:3",
-                    bottom: "Lunar New Year!",
-                    bottomFont: "Hanover-7:3",
-                    image: "cny"
-                },
                 {
                     renderType: "destScroll",
                     serviceNumber: "106",
@@ -925,13 +747,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "106",
-                    top: "鼠年快乐",
-                    topFont: "Chinese-14:12",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "106",
                     top: "Welcome Aboard",
                     topFont: "Mobitec-7:5:1",
                     bottom: "Tower Transit!",
@@ -958,13 +773,6 @@ EDSData.TTSG = {
             serviceNumber: "143",
             destination: "JURONG EAST",
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "143",
-                    top: "鼠年快乐",
-                    topFont: "Chinese-14:12",
-                    image: "cny"
-                },
                 {
                     renderType: "destScroll",
                     serviceNumber: "143",
@@ -1000,15 +808,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "143",
-                    top: "Happy & Prosperous",
-                    topFont: "Hanover-7:3",
-                    bottom: "Lunar New Year!",
-                    bottomFont: "Hanover-7:3",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "143",
                     top: "Welcome Aboard",
                     topFont: "Mobitec-7:5:1",
                     bottom: "Tower Transit!",
@@ -1038,13 +837,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "143M",
-                    top: "鼠年快乐",
-                    topFont: "Chinese-14:12",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "143M",
                     top: "Welcome Aboard",
                     topFont: "Mobitec-7:5:1",
                     bottom: "Tower Transit!",
@@ -1068,15 +860,6 @@ EDSData.TTSG = {
             serviceNumber: "173",
             destination: "CLEMENTI",
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "173",
-                    top: "Happy & Prosperous",
-                    topFont: "Hanover-7:3",
-                    bottom: "Lunar New Year!",
-                    bottomFont: "Hanover-7:3",
-                    image: "cny"
-                },
                 {
                     renderType: "destScroll",
                     serviceNumber: "173",
@@ -1109,13 +892,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "173",
-                    top: "鼠年快乐",
-                    topFont: "Chinese-14:12",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "173",
                     top: "Welcome Aboard",
                     topFont: "Mobitec-7:5:1",
                     bottom: "Tower Transit!",
@@ -1144,15 +920,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "177",
-                    top: "Happy & Prosperous",
-                    topFont: "Hanover-7:3",
-                    bottom: "Lunar New Year!",
-                    bottomFont: "Hanover-7:3",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "177",
                     top: "Welcome Aboard",
                     topFont: "Mobitec-7:5:1",
                     bottom: "Tower Transit!",
@@ -1176,13 +943,6 @@ EDSData.TTSG = {
             serviceNumber: "177",
             destination: "BUKIT BATOK",
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "177",
-                    top: "鼠年快乐",
-                    topFont: "Chinese-14:12",
-                    image: "cny"
-                },
                 {
                     renderType: "destScroll",
                     serviceNumber: "177",
@@ -1213,15 +973,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "183",
-                    top: "Happy & Prosperous",
-                    topFont: "Hanover-7:3",
-                    bottom: "Lunar New Year!",
-                    bottomFont: "Hanover-7:3",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "183",
                     top: "Welcome Aboard",
                     topFont: "Mobitec-7:5:1",
                     bottom: "Tower Transit!",
@@ -1246,13 +997,6 @@ EDSData.TTSG = {
             serviceNumber: "183",
             destination: "JURONG EAST",
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "183",
-                    top: "鼠年快乐",
-                    topFont: "Chinese-14:12",
-                    image: "cny"
-                },
                 {
                     renderType: "destScroll",
                     serviceNumber: "183",
@@ -1282,15 +1026,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "189",
-                    top: "Happy & Prosperous",
-                    topFont: "Hanover-7:3",
-                    bottom: "Lunar New Year!",
-                    bottomFont: "Hanover-7:3",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "189",
                     top: "Welcome Aboard",
                     topFont: "Mobitec-7:5:1",
                     bottom: "Tower Transit!",
@@ -1312,13 +1047,6 @@ EDSData.TTSG = {
             serviceNumber: "189",
             destination: "BUKIT BATOK",
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "189",
-                    top: "鼠年快乐",
-                    topFont: "Chinese-14:12",
-                    image: "cny"
-                },
                 {
                     renderType: "destScroll",
                     serviceNumber: "189",
@@ -1344,13 +1072,6 @@ EDSData.TTSG = {
             serviceNumber: "282",
             destination: "CLEMENTI",
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "282",
-                    top: "鼠年快乐",
-                    topFont: "Chinese-14:12",
-                    image: "cny"
-                },
                 {
                     renderType: "destScroll",
                     serviceNumber: "282",
@@ -1381,13 +1102,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "284",
-                    top: "鼠年快乐",
-                    topFont: "Chinese-14:12",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "284",
                     top: "Welcome Aboard",
                     topFont: "Mobitec-7:5:1",
                     bottom: "Tower Transit!",
@@ -1410,13 +1124,6 @@ EDSData.TTSG = {
             serviceNumber: "285",
             destination: "CLEMENTI",
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "285",
-                    top: "鼠年快乐",
-                    topFont: "Chinese-14:12",
-                    image: "cny"
-                },
                 {
                     renderType: "destScroll",
                     serviceNumber: "285",
@@ -1447,13 +1154,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "333",
-                    top: "鼠年快乐",
-                    topFont: "Chinese-14:12",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "333",
                     top: "Welcome Aboard",
                     topFont: "Mobitec-7:5:1",
                     bottom: "Tower Transit!",
@@ -1478,13 +1178,6 @@ EDSData.TTSG = {
             serviceNumber: "334",
             destination: "JURONG EAST",
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "334",
-                    top: "鼠年快乐",
-                    topFont: "Chinese-14:12",
-                    image: "cny"
-                },
                 {
                     renderType: "destScroll",
                     serviceNumber: "334",
@@ -1513,13 +1206,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "335",
-                    top: "鼠年快乐",
-                    topFont: "Chinese-14:12",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "335",
                     top: "Welcome Aboard",
                     topFont: "Mobitec-7:5:1",
                     bottom: "Tower Transit!",
@@ -1542,13 +1228,6 @@ EDSData.TTSG = {
             serviceNumber: "941",
             destination: "BUKIT BATOK",
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "941",
-                    top: "鼠年快乐",
-                    topFont: "Chinese-14:12",
-                    image: "cny"
-                },
                 {
                     renderType: "destScroll",
                     serviceNumber: "941",
@@ -1580,13 +1259,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "945",
-                    top: "鼠年快乐",
-                    topFont: "Chinese-14:12",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "945",
                     top: "Welcome Aboard",
                     topFont: "Mobitec-7:5:1",
                     bottom: "Tower Transit!",
@@ -1613,13 +1285,6 @@ EDSData.TTSG = {
             serviceNumber: "947",
             destination: "BUKIT BATOK",
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "947",
-                    top: "鼠年快乐",
-                    topFont: "Chinese-14:12",
-                    image: "cny"
-                },
                 {
                     renderType: "destScroll",
                     serviceNumber: "947",
@@ -1707,13 +1372,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "974",
-                    top: "鼠年快乐",
-                    topFont: "Chinese-14:12",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "974",
                     top: "Welcome Aboard",
                     topFont: "Mobitec-7:5:1",
                     bottom: "Tower Transit!",
@@ -1740,15 +1398,6 @@ EDSData.TTSG = {
             serviceNumber: "974",
             destination: "BUKIT PANJANG",
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "974",
-                    top: "Happy & Prosperous",
-                    topFont: "Hanover-7:3",
-                    bottom: "Lunar New Year!",
-                    bottomFont: "Hanover-7:3",
-                    image: "cny"
-                },
                 {
                     renderType: "destScroll",
                     serviceNumber: "974",
