@@ -126,6 +126,9 @@ function showRouteInput() {
 }
 
 function startup() {
+    if (location.search === '?FAST') {
+        return firmware()
+    }
     var textSets = [
         ['IPL', 'USB Initializing'],
         ['IPL: D99610', 'APL: D90913'],
