@@ -45,19 +45,37 @@ function setScreenExtra(extra) {
     setScreenInfo(3, 'Extr : ' + extra);
 }
 
-function setCode(code, operator) {
+function parse(code, extra, operator) {
+    if (!EDSData[operator][code]) return null;
+
+    let extraData;
+
+    let data = parseFormat(EDSFormats[operator], EDSData[operator][code].front, EDSImages[operator], frontEDS);
+    if (EDSExtras[operator][extra])
+        extraData = parseFormat(EDSFormats[operator], EDSExtras[operator][extra].front, EDSImages[operator], frontEDS);
+
+    if (extraData) {
+        data.pages = data.pages.concat(extraData.pages);
+        data.scrollSpeed = data.scrollSpeed === -1 ? 3000 : data.scrollSpeed;
+    }
+
+    return data;
+}
+
+function setCode(code, extra, operator) {
     code += '';
 
     if (!EDSData[operator][code]) return;
 
-    let frontDisplay = EDSData[operator][code].front;
-    let parsedFront = parseFormat(EDSFormats[operator], frontDisplay, EDSImages[operator], frontEDS);
-    render(parsedFront, controllerPreview);
-    render(parsedFront, frontEDS);
+    let parsed = parse(code, extra, operator);
+    render(parsed, controllerPreview);
+    render(parsed, frontEDS);
 
     setScreenDest(code);
+    setScreenExtra(extra);
 
     currentCode = code;
+    currentExtra = extra;
 }
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -66,7 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
     frontEDS = new LEDMatrix(frontEDSWidth, edsHeight, document.getElementById('front-eds'));
     controllerPreview = new LEDMatrix(frontEDSWidth, edsHeight, document.getElementById('preview-canvas'), CanvasBasedLEDMatrix, 4);
 
-    setCode(startupCodes[currentOperator], currentOperator);
+    setCode(startupCodes[currentOperator], '0', currentOperator);
 });
 
 window.addEventListener('resize', generateLEDCssCode);

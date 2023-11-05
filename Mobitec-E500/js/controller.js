@@ -1,5 +1,6 @@
 let currentScreen = 'controller-screen-home';
 let currentCode = '0';
+let currentExtra = '0';
 let currentScreenCode = '0';
 let screenFilter = '';
 
@@ -19,8 +20,8 @@ function setScreen(screenName) {
     currentScreen = screenName;
 }
 
-function setSelectionItems(items) {
-    document.getElementById('dest-table').innerHTML = items.map((item, i) => {
+function setSelectionItems(items, dataType) {
+    document.getElementById(`${dataType}-table`).innerHTML = items.map((item, i) => {
         return `
 <div class='dest-table-item'>
 <span>${item.code}</span>
@@ -34,8 +35,9 @@ function getCodes(dataSet) {
     return Object.keys(dataSet[currentOperator]).filter(code => code.startsWith(screenFilter));
 }
 
-function drawSelectionScreen(code, dataSource) {
-    let allCodes = getCodes(dataSource || EDSData);
+function drawSelectionScreen(code, dataType) {
+    let dataSource = dataType === 'dest' ? EDSData : EDSExtras
+    let allCodes = getCodes(dataSource);
 
     let currentCodeIndex = allCodes.indexOf(code);
     if (currentCodeIndex === -1) currentCodeIndex = 0;
@@ -48,7 +50,7 @@ function drawSelectionScreen(code, dataSource) {
     let screenIndex = nextThreeCodes.indexOf(code);
 
     nextThreeCodes = nextThreeCodes.map(code => {
-        let data = EDSData[currentOperator][code];
+        let data = dataSource[currentOperator][code];
 
         let {displayName} = new FormattingTemplate({displayName: EDSFormats[currentOperator][data.front.renderType].text}, data.front).solveAll();
         if (displayName.text) displayName = displayName.text;
@@ -56,20 +58,20 @@ function drawSelectionScreen(code, dataSource) {
         return {code, displayName};
     });
 
-    setSelectionItems(nextThreeCodes);
+    setSelectionItems(nextThreeCodes, dataType);
     if (screenIndex == -1) {
         screenIndex = 0;
         currentScreenCode = nextThreeCodes[0].code;
     }
 
-    document.querySelector(`#dest-table > :nth-child(${screenIndex + 1})`).className = 'dest-table-item table-selected-row';
+    document.querySelector(`#${dataType}-table > :nth-child(${screenIndex + 1})`).className = 'dest-table-item table-selected-row';
 
 }
 
 function onF1Pressed() {
     if (currentScreen == 'controller-screen-home') {
         setScreen('controller-screen-dest');
-        drawSelectionScreen(currentCode);
+        drawSelectionScreen(currentCode, 'dest');
         currentScreenCode = currentCode;
     }
 }
@@ -77,51 +79,53 @@ function onF1Pressed() {
 function onF2Pressed() {
     if (currentScreen == 'controller-screen-home') {
         setScreen('controller-screen-extra');
-        drawSelectionScreen(currentCode, EDSExtras);
-        currentScreenCode = currentCode;
+        drawSelectionScreen(currentCode, 'extra');
+        currentScreenCode = currentExtra === '0' ? '1' : currentExtra;
     }
 }
 
 function onUpPressed() {
-    if (currentScreen !== 'controller-screen-dest') return;
-    let allCodes = getCodes(EDSData);
+    if (currentScreen !== 'controller-screen-dest' && currentScreen !== 'controller-screen-extra') return;
+    let allCodes = getCodes(currentScreen === 'controller-screen-dest' ? EDSData : EDSExtras);
 
     let currentCodeIndex = allCodes.indexOf(currentScreenCode);
     currentCodeIndex = Math.max(currentCodeIndex - 1, 0);
 
     currentScreenCode = allCodes[currentCodeIndex];
 
-    drawSelectionScreen(currentScreenCode);
+    drawSelectionScreen(currentScreenCode, currentScreen === 'controller-screen-dest' ? 'dest' : 'extra');
 }
 
 function onDownPressed() {
-    if (currentScreen !== 'controller-screen-dest') return;
-    let allCodes = getCodes(EDSData);
+    if (currentScreen !== 'controller-screen-dest' && currentScreen !== 'controller-screen-extra') return;
+    let allCodes = getCodes(currentScreen === 'controller-screen-dest' ? EDSData : EDSExtras);
 
     let currentCodeIndex = allCodes.indexOf(currentScreenCode);
     currentCodeIndex = Math.min(currentCodeIndex + 1, allCodes.length - 1);
 
     currentScreenCode = allCodes[currentCodeIndex];
 
-    drawSelectionScreen(currentScreenCode);
+    drawSelectionScreen(currentScreenCode, currentScreen === 'controller-screen-dest' ? 'dest' : 'extra');
 }
 
 function onCrossPressed() {
-    if (currentScreen === 'controller-screen-dest') setScreen('controller-screen-home');
-    if (currentScreen === 'controller-screen-extra') setScreen('controller-screen-home');
+    if (currentScreen === 'controller-screen-dest' || currentScreen === 'controller-screen-extra') setScreen('controller-screen-home');
 }
 
 function onTickPressed() {
     if (currentScreen === 'controller-screen-dest') {
-        setCode(currentScreenCode, currentOperator);
+        setCode(currentScreenCode, currentExtra, currentOperator);
+        setScreen('controller-screen-home');
+    } else if (currentScreen === 'controller-screen-extra') {
+        setCode(currentCode, currentScreenCode, currentOperator);
         setScreen('controller-screen-home');
     }
 }
 
 function onNumberPressed(number) {
-    if (currentScreen === 'controller-screen-dest') {
+    if (currentScreen === 'controller-screen-dest' || currentScreen === 'controller-screen-extra') {
         screenFilter += number;
-        drawSelectionScreen(currentScreenCode);
+        drawSelectionScreen(currentScreenCode, currentScreen === 'controller-screen-dest' ? 'dest' : 'extra');
     }
 }
 
