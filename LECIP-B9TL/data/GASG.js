@@ -1,4 +1,4 @@
-EDSFormats.TTSG = {
+EDSFormats.GASG = {
     standardService: {
         serviceNumber: {
             align: "right",
@@ -81,26 +81,46 @@ EDSFormats.TTSG = {
     }
 }
 
-EDSData.TTSG = {
-    "77": {
+EDSData.GASG = {
+    "1000": {
+        1: {
+            front: {
+                renderType: "twoline",
+                top: "FONTS MAY BE WRONG",
+                topFont: "LECIP-7:5",
+                topSpacing: 1,
+
+                bottom: "WORK IN PROGRESS",
+                bottomFont: "LECIP-7:5",
+                bottomSpacing: 1,
+            },
+            rear: { 
+                renderType: "twoline",
+                top: "GO AHEAD",
+                topFont: "LECIP-6:3",
+                topSpacing: 1,
+
+                bottom: "SG",
+                bottomFont: "LECIP-6:4",
+                bottomSpacing: 1,
+            }
+        }
+    },
+    "381": {
         1: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "77",
-                destination: "BUKIT BATOK",
+                serviceNumber: "381",
+                destination: "PUNGGOL INT",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                    "STAMFORD RD",
-                    "ORCHARD BOULEVARD",
-                    "HOLLAND RD / VILLAGE",
-                    "SIXTH AVE",
-                    "TOH TUCK RD"
+                    "PUNGGOL EAST (LOOP"
                 ],
                 scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "77",
+                serviceNumber: "381",
                 font: "LECIP-20:9",
                 spacing: 2
             }
@@ -108,5 +128,5 @@ EDSData.TTSG = {
     }
 }
 
-EDSImages.TTSG = {
+EDSImages.GASG = {
 }
