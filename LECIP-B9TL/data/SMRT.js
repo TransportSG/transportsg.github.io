@@ -581,6 +581,12 @@ EDSData.SMRT = {
                 text: "SMRT LOGO",
                 image: "logo"
             },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "SMRT",
+                font: "ArialBold-8",
+                spacing: 2
+            },
         }
     },
     118: {

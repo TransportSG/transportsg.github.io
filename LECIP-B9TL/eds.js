@@ -1,5 +1,9 @@
 window.frontEDS = null; window.rearEDS = null;
 
+let currentOperator = location.hash.slice(1) ? location.hash.slice(1) : 'SBST';
+
+let startupCodes = {'SMRT': '117', 'SBST': '1111'}
+
 let EDSFormats = {};
 let EDSData = {};
 let EDSImages = {};
