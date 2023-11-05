@@ -82,8 +82,31 @@ EDSFormats.TTSG = {
 }
 
 EDSData.TTSG = {
-    "77": {
+    77: {
         1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "77",
+                destination: "MARINA CENTRE",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    "STAMFORD RD",
+                    "ORCHARD BOULEVARD",
+                    "HOLLAND RD / VILLAGE",
+                    "SIXTH AVE",
+                    "TOH TUCK RD"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "77",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+        ,
+        2: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "77",
@@ -101,6 +124,75 @@ EDSData.TTSG = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "77",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    "6666": {
+        1: {
+            front: {
+                renderType: "twoline",
+                top: "TOWER TRANSIT SG",
+                topFont: "LECIP-10",
+                topSpacing: 1,
+
+                bottom: "(FONTS ARE STILL WIP)",
+                bottomFont: "LECIP-7:5",
+                bottomSpacing: 1,
+            },
+            rear: { 
+                renderType: "twoline",
+                top: "TOWER",
+                topFont: "LECIP-6:3",
+                topSpacing: 1,
+
+                bottom: "TRANSIT",
+                bottomFont: "LECIP-6:4",
+                bottomSpacing: 1,
+            }
+        }
+    },
+    106: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "106",
+                destination: "SHENTON WAY",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    "COMMONWEALTH AVE WEST",
+                    "HOLLAND VILLAGE / RD",
+                    "ORCHARD RD",
+                    "BAYFRONT AVE / MBS"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "106",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "106",
+                destination: "BUKIT BATOK",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    "CENTRAL BOULEVARD",
+                    "BAYFRONT AVE / MBS",
+                    "ORCHARD BOULEVARD",
+                    "HOLLAND RD / VILLAGE",
+                    "COMMONWEALTH AVE WEST"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "106",
                 font: "LECIP-20:9",
                 spacing: 2
             }

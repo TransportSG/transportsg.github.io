@@ -82,15 +82,15 @@ EDSFormats.GASG = {
 }
 
 EDSData.GASG = {
-    "1000": {
+    "2222": {
         1: {
-            front: {
+            front: { 
                 renderType: "twoline",
-                top: "FONTS MAY BE WRONG",
-                topFont: "LECIP-7:5",
+                top: "GO AHEAD SINGAPORE",
+                topFont: "LECIP-10",
                 topSpacing: 1,
 
-                bottom: "WORK IN PROGRESS",
+                bottom: "(FONTS ARE STILL WIP)",
                 bottomFont: "LECIP-7:5",
                 bottomSpacing: 1,
             },
