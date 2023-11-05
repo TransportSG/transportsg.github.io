@@ -59,13 +59,17 @@ function drawSelectionScreen(code, dataType) {
     });
 
     setSelectionItems(nextThreeCodes, dataType);
-    if (screenIndex == -1) {
-        screenIndex = 0;
-        currentScreenCode = nextThreeCodes[0].code;
+
+    if (nextThreeCodes.length) {
+        if (screenIndex == -1) {
+            screenIndex = 0;
+            currentScreenCode = nextThreeCodes[0].code;
+        }
+
+        document.querySelector(`#${dataType}-table > :nth-child(${screenIndex + 1})`).className = 'dest-table-item table-selected-row';
+    } else {
+        currentScreenCode = '0'
     }
-
-    document.querySelector(`#${dataType}-table > :nth-child(${screenIndex + 1})`).className = 'dest-table-item table-selected-row';
-
 }
 
 function onF1Pressed() {
@@ -117,7 +121,8 @@ function onTickPressed() {
         setCode(currentScreenCode, currentExtra, currentOperator);
         setScreen('controller-screen-home');
     } else if (currentScreen === 'controller-screen-extra') {
-        setCode(currentCode, currentScreenCode, currentOperator);
+        if (screenFilter === '0') setCode(currentCode, 0, currentOperator);
+        else setCode(currentCode, currentScreenCode, currentOperator);
         setScreen('controller-screen-home');
     }
 }
@@ -141,4 +146,22 @@ window.addEventListener('load', () => {
     for (let i = 0; i <= 9; i++) {
         document.getElementById('button-' + i).addEventListener('click', onNumberPressed.bind(null, i));
     }
+
+    document.addEventListener('keydown', event => {
+        let keybinds = {
+            'ArrowUp': onUpPressed,
+            'ArrowDown': onDownPressed,
+            'F1': onF1Pressed,
+            'F2': onF2Pressed,
+            'Escape': onCrossPressed,
+            'Enter': onTickPressed
+        }
+        if (keybinds[event.key]) {
+            event.preventDefault()
+            keybinds[event.key]()
+        } else if (!isNaN(event.key) && !(event.altKey || event.ctrlKey || event.metaKey || event.shiftKey)) {
+            event.preventDefault()
+            onNumberPressed(event.key)
+        }
+    })
 });
