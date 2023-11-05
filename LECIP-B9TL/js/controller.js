@@ -1,11 +1,10 @@
-let currentOperator = 'SBST';
 let currentScreen = '';
 let currentService = '';
 let currentDirection = '';
 let currentDestination = '';
 let inputs = [0,0,0,0];
 
-let operators = ['SBST', 'SMRT'];
+let operators = Object.keys(startupCodes)
 
 function registerNumericalKeyPress(key) {
     if (currentScreen === 'home' || currentScreen === 'service-input') {
@@ -44,6 +43,8 @@ function registerKeyPress(key) {
             let index = operators.indexOf(currentOperator);
             if (++index === operators.length) index = 0;
             currentOperator = operators[index];
+
+            setCode(startupCodes[currentOperator], 1)
         }
     } else if (key === 'UP') {
         if (currentScreen === 'service-input') {
@@ -156,7 +157,7 @@ function firmware() {
     document.getElementById('keypad-f4').addEventListener('click', registerKeyPress.bind(null, 'F4'));
     document.getElementById('keypad-up').addEventListener('click', registerKeyPress.bind(null, 'UP'));
     document.getElementById('keypad-down').addEventListener('click', registerKeyPress.bind(null, 'DOWN'));
-    setCode('2222', 1);
+    setCode(startupCodes[currentOperator], 1);
 
     currentScreen = 'home';
 

@@ -36202,6 +36202,7 @@ exports.fonts = {
 exports.fontSpacers = {
     "ArialBold-8": (prev, curr, spacing) => {
         if (prev === 'R' && curr === 'A') return 0;
+        if (prev === 'R' && curr === 'T') return 0;
         if (prev === "P" && curr === "A") return 0;
         if (prev === 'V' && curr === 'W') return 0;
         if (prev === 'A' && curr === 'V') return -1;

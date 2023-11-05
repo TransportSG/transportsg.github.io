@@ -1785,6 +1785,8 @@ EDSData.TTSG = {
     }
 }
 
+EDSExtras.TTSG = {}
+
 EDSImages.TTSG = {
     blank: [[]],
     logo: [
