@@ -5460,7 +5460,7 @@ EDSData.SBST = {
             }
         }
     },
-    839: {
+    "83P": {
         1: {
             front: {
                 renderType: "standardService",
@@ -7244,9 +7244,9 @@ EDSData.SBST = {
         1: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "993",
-                destination: "JURONG E.-BT BATOK WEST AVE 8",
-                destinationFont: "LECIP-6:3",
+                serviceNumber: "111",
+                destination: "GHIM MOH TER - TEMASEK AVE",
+                destinationFont: "LECIP-6:4",
                 scrolls: [
                     "COMMONWEALTH AVE",
                     "TANGLIN RD",
@@ -10054,8 +10054,8 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "993",
-                destination: "JURONG EAST INT-BT BATOK RD",
-                destinationFont: "LECIP-7:5",
+                destination: "JURONG E.-BT BATOK WEST AVE 8",
+                destinationFont: "LECIP-6:3",
                 scrolls: [
                     "BOON LAY WAY",
                     "JURONG TOWN HALL RD",
@@ -10253,9 +10253,9 @@ EDSData.SBST = {
         1: {
             front: {
                 renderType: "swt",
-                serviceNumber: "163B",
-                terminateAt: "YIO CHU KANG RD",
-                landmark: "(NCS HUB)"
+                serviceNumber: "163A",
+                terminateAt: "FERNVALE LN",
+                landmark: "(BEF SENGKANG WEST RD)"
             },
             rear: {
                 renderType: "rearService",
@@ -10269,7 +10269,7 @@ EDSData.SBST = {
         1: {
             front: {
                 renderType: "swt",
-                serviceNumber: "163b",
+                serviceNumber: "163B",
                 landmark: "YIO CHU KANG RD (NCS HUB)"
             },
             rear: {
@@ -14230,7 +14230,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "C1",
-                font: "LECIP-20:9",
+                font: "LECIP-20:12",
                 spacing: 2
             }
         }
@@ -14279,7 +14279,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "C2",
-                font: "LECIP-20:9",
+                font: "LECIP-20:12",
                 spacing: 2
             }
         }
@@ -14329,7 +14329,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "C2",
-                font: "LECIP-20:9",
+                font: "LECIP-20:12",
                 spacing: 2
             }
         },
@@ -14482,7 +14482,7 @@ EDSData.SBST = {
                 destinationFont: "LECIP-10",
                 scrolls: [{
                         renderType: "brandedSvc",
-                        serviceNumber: "SS2",
+                        serviceNumber: "SS3",
                         branding: "STADIUM DIRECT",
                         font: "LECIP-20:6",
                         spacing: 2
@@ -14634,18 +14634,18 @@ EDSData.SBST = {
         1: {
             front: {
                 renderType: "twoline",
-                top: "KTM BRIDGING BUS",
+                top: "SHUTTLE C",
                 topFont: "LECIP-7:5",
 
-                bottom: "WOODLANDS - JB SENTRAL",
+                bottom: "YISHUN - SELETAR",
                 bottomFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "twoline",
-                top: "KTM -",
+                top: "YISHUN -",
                 topFont: "LECIP-6:3",
 
-                bottom: "BRIDGING",
+                bottom: "- SELETAR",
                 bottomFont: "LECIP-6:3"
             }
         },
@@ -14772,6 +14772,24 @@ EDSData.SBST = {
                 serviceNumber: "M2",
                 font: "LECIP-20:12",
                 spacing: 2
+            }
+        }
+    },
+    498: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "SBS TRANSIT CARES COMMUNITY BUS",
+                font: "LECIP-6:4",
+                spacing: 3
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "SBST",
+                topFont: "LECIP-7:5",
+
+                bottom: "CARES",
+                bottomFont: "LECIP-7:5"
             }
         }
     },
