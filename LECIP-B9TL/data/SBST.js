@@ -14781,7 +14781,7 @@ EDSData.SBST = {
                 renderType: "message",
                 text: "SBS TRANSIT CARES COMMUNITY BUS",
                 font: "LECIP-6:4",
-                spacing: 3
+                spacing: 1
             },
             rear: {
                 renderType: 'twoline',
