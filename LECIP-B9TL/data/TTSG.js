@@ -1313,7 +1313,7 @@ EDSData.TTSG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "853",
-                destination: "GEYLANG LOR ",
+                destination: "LOR 1 GEYLANG",
                 destinationFont: "LECIP-10",
                 scrolls: [
                     "YISHUN AVE 2",
