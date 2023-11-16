@@ -1334,7 +1334,7 @@ EDSData.TTSG = {
             ]
         }
     },
-   9631: {
+   9632: {
         front: {
             renderType: "standardService",
             serviceNumber: "963",
@@ -1360,6 +1360,64 @@ EDSData.TTSG = {
                 "BT BATOK EAST AVE 4",
                 "HILLVIEW AVE",
                 "BT PANJANG RD",
+            ]
+        }
+    },
+    9633: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "963e",
+            destination: "HARBOURFRONT",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "963e",
+                    top: "Welcome Aboard",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "Tower Transit!",
+                    bottomFont: "Mobitec-7:5:1",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "963e",
+                    top: "HARBOURFRONT",
+                    image: "mrt"
+                },
+                "WOODLANDS AVE 3",
+                "BUKIT PANJANG RD",
+                "HILLVIEW AVE",
+                "BT BATOK EAST AVE 3",
+                " A Y E"
+            ]
+        }
+    },
+   9634: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "963e",
+            destination: "WOODLANDS",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "963e",
+                    top: "Welcome Aboard",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "Tower Transit!",
+                    bottomFont: "Mobitec-7:5:1",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "963e",
+                    top: "WOODLANDS",
+                    image: "mrt"
+                },
+                "A Y E",
+                "BT BATOK EAST AVE 3",
+                "HILLVIEW AVE",
+                "BUKIT PANJANG RD",
+                "WOODLANDS AVE 3"
             ]
         }
     },
