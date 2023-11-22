@@ -549,8 +549,10 @@ EDSData.GASG = {
                 destinationFont: "LECIP-10",
                 scrolls: [
                     "ORCHARD RD",
+                    "BRAS BASAH RD",
                     "SUNTEC CITY",
-                    "MARINE PARADE RD"
+                    "MARINE PARADE RD",
+                    "SIGLAP RD / LINK"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -596,13 +598,12 @@ EDSData.GASG = {
                 scrolls: [
                     "MARINE PARADE RD",
                     "SUNTEC CITY",
-                    "STAMFORD RD",
                     "DHOBY GHAUT MRT",
-                    "SOMERSET MRT",
                     "ORCHARD BOULEVARD",
-                    "TOMLINSON RD",
+                    "TOMLINSON RD (LOOP)",
                     "ORCHARD RD",
-                    "SUNTEC CITY"
+                    "SUNTEC CITY",
+                    "MARINE PARADE RD"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -668,6 +669,44 @@ EDSData.GASG = {
                 renderType: "rearService",
                 serviceNumber: "43",
                 font: "LECIP-20:12",
+                spacing: 2
+            }
+        }
+    },
+    "43E": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "43e",
+                destination: "MARINE PARADE RD",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    "PAYA LEBAR MRT"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "43e",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "43e",
+                destination: "PUNGGOL",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    "PAYA LEBAR MRT"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "43e",
+                font: "LECIP-20:9",
                 spacing: 2
             }
         }

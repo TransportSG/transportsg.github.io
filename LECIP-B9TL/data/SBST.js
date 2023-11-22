@@ -1023,6 +1023,22 @@ EDSData.SBST = {
             }
         }
     },
+    "9B": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "9B",
+                terminateAt: "AIRLINE RD",
+                landmark: "(3RD CARGO AGENTS)"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "9B",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        }
+    },
     10: {
         1: {
             front: {
@@ -5411,61 +5427,6 @@ EDSData.SBST = {
                 serviceNumber: "83",
                 destination: "PUNGGOL INT-SENGKANG SQ",
                 destinationFont: "LECIP-6:4",
-                scrolls: [
-                    'PUNGGOL CENTRAL',
-                    'PUNGGOL FIELD',
-                    'PUNGGOL RD',
-                    'COMPASSVALE ST',
-                    'PUNGGOL RD',
-                    'PUNGGOL FIELD'
-                ],
-                scrollFont: "LECIP-6:4"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "83",
-                font: "LECIP-20:12",
-                spacing: 2
-            }
-        },
-        2: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "83",
-                destination: "PUNGGOL INT-SENGKANG SQ",
-                destinationFont: "LECIP-6:4",
-                scrolls: [{
-                renderType: "twoline",
-                top: "PUNGGOL - SENGKANG",
-                topFont: "LECIP-7:5",
-
-                bottom: "(LOOP)",
-                bottomFont: "LECIP-7:5"
-                    },
-                    'PUNGGOL CENTRAL',
-                    'PUNGGOL FIELD',
-                    'PUNGGOL RD',
-                    'COMPASSVALE ST',
-                    'PUNGGOL RD',
-                    'PUNGGOL FIELD'
-                ],
-                scrollFont: "LECIP-6:4"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "83",
-                font: "LECIP-20:12",
-                spacing: 2
-            }
-        }
-    },
-    "83P": {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "83",
-                destination: "PUNGGOL INT-SENGKANG SQ",
-                destinationFont: "LECIP-6:4",
                 scrolls: [{
                         renderType: "centreMessageServiceScroll",
                         serviceNumber: "83",
@@ -6078,6 +6039,21 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "92M",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    "92T": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "92T",
+                landmark: "GHIM MOH TER"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "92T",
                 font: "LECIP-20:9",
                 spacing: 2
             }
@@ -7698,6 +7674,35 @@ EDSData.SBST = {
                 destination: "KG.BAHRU TER-T.BLANGAH",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
+                    "GANGES AVE",
+                    "TIONG BAHRU RD",
+                    "KIM TIAN RD",
+                    "LOWER DELTA RD",
+                    "TELOK BLANGAH RISE",
+                    "LOWER DELTA RD",
+                    "KIM TIAN RD",
+                    "TIONG BAHRU RD",
+                    "GANGES AVE"
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "121",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    "121S": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "121",
+                destination: "SHENTON WAY TER-T.BLANGAH",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                    "CANTOMENT RD",
                     "GANGES AVE",
                     "TIONG BAHRU RD",
                     "KIM TIAN RD",
@@ -10195,6 +10200,53 @@ EDSData.SBST = {
                 serviceNumber: "162M",
                 font: "LECIP-20:6",
                 spacing: 1
+            }
+        }
+    },
+    "162S": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "162",
+                destination: "> SIN MING DR",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    "ANG MO KIO AVE 8",
+                    "ANG MO KIO AVE 6",
+                    "BISHAN ST 22",
+                    "SIN MING AVE",
+                    "UPPER THOMSON RD",
+                    "SHUNFU RD"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "162",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "162",
+                destination: "> YIO CHU KANG INT",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    "UPPER THOMSON RD",
+                    "SIN MING AVE",
+                    "BISHAN ST 22",
+                    "ANG MO KIO AVE 6",
+                    "ANG MO KIO AVE 8"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "162",
+                font: "LECIP-20:9",
+                spacing: 2
             }
         }
     },
