@@ -9975,7 +9975,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "160",
-                destination: "> JURONG EAST INT",
+                destination: "> JURONG TOWN HALL INT",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
                     'WOODLANDS RD',
@@ -10079,7 +10079,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "160",
-                destination: "> JURONG TOWN HALL INT",
+                destination: "> JURONG EAST INT",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
                     'WOODLANDS RD',

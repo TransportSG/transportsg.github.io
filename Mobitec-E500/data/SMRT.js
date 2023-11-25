@@ -9345,6 +9345,55 @@ EDSData.SMRT = {
             scrollFont: "Mobitec-7:7"
         }
     },
+    7508: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "75",
+            destination: {
+                text: "BUKIT MERAH",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "75",
+                    top: "BUKIT MERAH",
+                    topFont: "Mobitec-13:7"
+                },
+                "UPP BT TIMAH RD",
+                "CLEMENTI ROAD",
+                "HOLLAND ROAD",
+                "GREAT WORLD CITY",
+                "KIM TIAN ROAD",
+                "JALAN BUKIT MERAH"
+            ],
+            scrollFont: "Mobitec-7:7"
+        }
+    },
+    7509: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "75",
+            destination: {
+                text: "BUKIT PANJANG",
+                font: "Mobitec-7:5:3"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "75",
+                    top: "BUKIT PANJANG",
+                    topFont: "Mobitec-13:8"
+                },
+                "JALAN BUKIT MERAH",
+                "KIM TIAN RD",
+                "HOLLAND ROAD",
+                "CLEMENTI ROAD",
+                "UPP BT TIMAH RD"
+            ],
+            scrollFont: "Mobitec-7:7"
+        }
+    },
     8251: {
         front: {
             renderType: "standardService",
