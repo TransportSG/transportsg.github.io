@@ -916,6 +916,23 @@ EDSData.SBST = {
             }
         }
     },
+    "7N": {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "7N",
+                branding: "NITE  OWL",
+                font: "LECIP-20:12",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "7N",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        }
+    },
     8: {
         1: {
             front: {
@@ -957,6 +974,23 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "8",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        }
+    },
+    "8N": {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "8N",
+                branding: "NITE  OWL",
+                font: "LECIP-20:12",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "8N",
                 font: "LECIP-20:12",
                 spacing: 2
             }
@@ -1018,6 +1052,22 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "9A",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        }
+    },
+    "9B": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "9B",
+                terminateAt: "AIRLINE RD",
+                landmark: "(3RD CARGO AGENTS)"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "9B",
                 font: "LECIP-20:12",
                 spacing: 2
             }
@@ -5411,61 +5461,6 @@ EDSData.SBST = {
                 serviceNumber: "83",
                 destination: "PUNGGOL INT-SENGKANG SQ",
                 destinationFont: "LECIP-6:4",
-                scrolls: [
-                    'PUNGGOL CENTRAL',
-                    'PUNGGOL FIELD',
-                    'PUNGGOL RD',
-                    'COMPASSVALE ST',
-                    'PUNGGOL RD',
-                    'PUNGGOL FIELD'
-                ],
-                scrollFont: "LECIP-6:4"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "83",
-                font: "LECIP-20:12",
-                spacing: 2
-            }
-        },
-        2: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "83",
-                destination: "PUNGGOL INT-SENGKANG SQ",
-                destinationFont: "LECIP-6:4",
-                scrolls: [{
-                renderType: "twoline",
-                top: "PUNGGOL - SENGKANG",
-                topFont: "LECIP-7:5",
-
-                bottom: "(LOOP)",
-                bottomFont: "LECIP-7:5"
-                    },
-                    'PUNGGOL CENTRAL',
-                    'PUNGGOL FIELD',
-                    'PUNGGOL RD',
-                    'COMPASSVALE ST',
-                    'PUNGGOL RD',
-                    'PUNGGOL FIELD'
-                ],
-                scrollFont: "LECIP-6:4"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "83",
-                font: "LECIP-20:12",
-                spacing: 2
-            }
-        }
-    },
-    "83P": {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "83",
-                destination: "PUNGGOL INT-SENGKANG SQ",
-                destinationFont: "LECIP-6:4",
                 scrolls: [{
                         renderType: "centreMessageServiceScroll",
                         serviceNumber: "83",
@@ -6078,6 +6073,21 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "92M",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    "92T": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "92T",
+                landmark: "GHIM MOH TER"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "92T",
                 font: "LECIP-20:9",
                 spacing: 2
             }
@@ -7698,6 +7708,35 @@ EDSData.SBST = {
                 destination: "KG.BAHRU TER-T.BLANGAH",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
+                    "GANGES AVE",
+                    "TIONG BAHRU RD",
+                    "KIM TIAN RD",
+                    "LOWER DELTA RD",
+                    "TELOK BLANGAH RISE",
+                    "LOWER DELTA RD",
+                    "KIM TIAN RD",
+                    "TIONG BAHRU RD",
+                    "GANGES AVE"
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "121",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    "121S": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "121",
+                destination: "SHENTON WAY TER-T.BLANGAH",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                    "CANTOMENT RD",
                     "GANGES AVE",
                     "TIONG BAHRU RD",
                     "KIM TIAN RD",
@@ -10014,6 +10053,50 @@ EDSData.SBST = {
             }
         }
     },
+    "160J": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "160",
+                destination: "> JB SENTRAL",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    'JURONG TOWN HALL RD',
+                    'BUKIT BATOK RD',
+                    'CHOA CHU KANG RD',
+                    'WOODLANDS RD'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "160",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "160",
+                destination: "> JURONG TOWN HALL INT",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    'WOODLANDS RD',
+                    'CHOA CHU KANG RD',
+                    'BUKIT BATOK RD',
+                    'JURONG TOWN HALL RD'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "160",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
     "160K": {
         1: {
             front: {
@@ -10195,6 +10278,53 @@ EDSData.SBST = {
                 serviceNumber: "162M",
                 font: "LECIP-20:6",
                 spacing: 1
+            }
+        }
+    },
+    "162S": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "162",
+                destination: "> SIN MING DR",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    "ANG MO KIO AVE 8",
+                    "ANG MO KIO AVE 6",
+                    "BISHAN ST 22",
+                    "SIN MING AVE",
+                    "UPPER THOMSON RD",
+                    "SHUNFU RD"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "162",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "162",
+                destination: "> YIO CHU KANG INT",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    "UPPER THOMSON RD",
+                    "SIN MING AVE",
+                    "BISHAN ST 22",
+                    "ANG MO KIO AVE 6",
+                    "ANG MO KIO AVE 8"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "162",
+                font: "LECIP-20:9",
+                spacing: 2
             }
         }
     },
@@ -14772,6 +14902,176 @@ EDSData.SBST = {
             }
         }
     },
+    450: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "16M",
+                branding: "NITE  OWL",
+                font: "LECIP-20:12",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "16M",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    451: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "36M",
+                branding: "NITE  OWL",
+                font: "LECIP-20:12",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "36M",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    452: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "65M",
+                branding: "NITE  OWL",
+                font: "LECIP-20:12",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "65M",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    453: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "85M",
+                branding: "NITE  OWL",
+                font: "LECIP-20:12",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "85M",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    454: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "89M",
+                branding: "NITE  OWL",
+                font: "LECIP-20:12",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "89M",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    455: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "143M",
+                branding: "NITE  OWL",
+                font: "LECIP-20:12",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "143M",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
+    456: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "147M",
+                branding: "NITE  OWL",
+                font: "LECIP-20:12",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "147M",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
+    457: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "162M",
+                branding: "NITE  OWL",
+                font: "LECIP-20:12",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "162M",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
+    457: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "174M",
+                branding: "NITE  OWL",
+                font: "LECIP-20:12",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "174M",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
+    458: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "181M",
+                branding: "NITE  OWL",
+                font: "LECIP-20:12",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "181M",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
     498: {
         1: {
             front: {
@@ -18403,7 +18703,7 @@ EDSData.SBST = {
             },
             rear: {
                 renderType: 'twoline',
-                top: "TRG IN",
+                top: "TRG IN     ",
                 topFont: "LECIP-6:3",
 
                 bottom: "PROGRESS",
