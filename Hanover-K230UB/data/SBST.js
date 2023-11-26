@@ -1193,7 +1193,7 @@ EDSData.SBST = {
                     'STH BUONA VISTA RD',
                     'NTH BUONA VISTA RD',
                     'COMMONWEALTH AVE',
-                    'HOLLAND DR
+                    'HOLLAND DR'
                 ],
                 scrollFont: "Hanover-7:5"
             },

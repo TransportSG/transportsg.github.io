@@ -275,16 +275,16 @@ EDSData.SMRT = {
         1: {
             front: {
                 renderType: 'message',
-                text: 'OFF SERVICE',
-                font: 'Arial-17',
+                text: 'YOUR RIDE OUR PRIDE',
+                font: 'ArialBold-8',
                 spacing: 2
             },
             rear: {
                 renderType: 'twoline',
-                top: "OFF",
+                top: "SMRT",
                 topFont: "ArialBold-8",
 
-                bottom: "SERVICE",
+                bottom: "BUSES",
                 bottomFont: "ArialNarrow-7",
                 bottomMargin: 2
             }
@@ -615,10 +615,10 @@ EDSData.SMRT = {
         1: {
             front: {
                 renderType: "twoline",
-                top: "SMRT Buses thanked you",
+                top: "SMRT BUSES THANKED YOU",
                 topFont: "ArialBold-8",
 
-                bottom: "your support",
+                bottom: "FOR YOUR SUPPORT",
                 bottomFont: "ArialBold-8"
             }
         }
@@ -627,10 +627,10 @@ EDSData.SMRT = {
         1: {
             front: {
                 renderType: "twoline",
-                top: "SMRT Buses thank you",
+                top: "SMRT BUSES THANK YOU FOR",
                 topFont: "ArialBold-8",
 
-                bottom: "your support",
+                bottom: "YOUR SUPPORT",
                 bottomFont: "ArialBold-8"
             }
         }
@@ -2054,7 +2054,10 @@ EDSData.SMRT = {
                     font: "ArialBold-8"
                 },
                 scrolls: [
-                    'BT PANJANG RD'
+                    'BT PANJANG RD',
+                    'CASHEW RD',
+                    'UPPER BUKIT TIMAH RD',
+                    'CLEMENTI RD'
                 ],
                 scrollFont: 'Arial-8'
             },
@@ -2076,6 +2079,9 @@ EDSData.SMRT = {
                     font: "ArialBold-8"
                 },
                 scrolls: [
+                    'CLEMENTI RD',
+                    'UPPER BUKIT TIMAH RD',
+                    'CASHEW RD',
                     'BT PANJANG RD'
                 ],
                 scrollFont: 'Arial-8'
@@ -2391,6 +2397,116 @@ EDSData.SMRT = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "700A",
+                font: "Arial-15",
+                spacing: 2
+            }
+        }
+    },
+    7501: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "75",
+                destination: {
+                    text: "MARINA CENTRE via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "UPP BT TIMAH RD",
+                    "CLEMENTI ROAD",
+                    "HOLLAND ROAD",
+                    "GREAT WORLD CITY",
+                    "OUTRAM ROAD",
+                    "CANTONMENT RD",
+                    "ANSON ROAD",
+                    "ROBINSON ROAD",
+                    "EMPRESS PLACE"
+                ],
+                scrollFont: "Arial-8"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "75",
+                font: "Arial-15",
+                spacing: 2
+            }
+        },
+    },
+    7502: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "75",
+                destination: {
+                    text: "BUKIT PANJANG via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "COLLYER QUAY",
+                    "SHENTON WAY",
+                    "OUTRAM RD, MRT",
+                    "HOLLAND ROAD",
+                    "CLEMENTI ROAD",
+                    "UPP BT TIMAH RD"
+                ],
+                scrollFont: "Arial-8"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "75",
+                font: "Arial-15",
+                spacing: 2
+            }
+        }
+    },
+    7508: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "75",
+                destination: {
+                    text: "BUKIT MERAH via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "UPP BT TIMAH RD",
+                    "CLEMENTI ROAD",
+                    "HOLLAND ROAD",
+                    "GREAT WORLD CITY",
+                    "KIM TIAN ROAD",
+                    "JALAN BUKIT MERAH"
+                ],
+                scrollFont: "Arial-8"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "75",
+                font: "Arial-15",
+                spacing: 2
+            }
+        },
+    },
+    7509: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "75",
+                destination: {
+                    text: "BUKIT PANJANG via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "JALAN BUKIT MERAH",
+                    "KIM TIAN RD",
+                    "HOLLAND ROAD",
+                    "CLEMENTI ROAD",
+                    "UPP BT TIMAH RD"
+                ],
+                scrollFont: "Arial-8"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "75",
                 font: "Arial-15",
                 spacing: 2
             }
@@ -3055,7 +3171,28 @@ EDSData.SMRT = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "960e",
-                font: "Arial-15",
+                font: "Arial-15",    9729: {
+                    1: {
+                        front: {
+                            renderType: "standardService",
+                            serviceNumber: "972",
+                            destination: {
+                                text: "HAPPY 10TH",
+                                font: "ArialBold-8"
+                            },
+                            scrolls: [
+                                "ANNIVERSARY"
+                            ],
+                            scrollFont: "ArialBold-8"
+                        },
+                        rear: {
+                            renderType: "rearService",
+                            serviceNumber: "972",
+                            font: "Arial-15",
+                            spacing: 2
+                        }
+                    }
+                },
                 spacing: 2
             }
         }
@@ -3159,7 +3296,13 @@ EDSData.SMRT = {
                     font: "ArialBold-8"
                 },
                 scrolls: [
-                    "BKE / PIE"
+                    "SENJA ROAD / LINK",
+                    "JELAPANG ROAD",
+                    "SEGAR / FAJAR RD",
+                    "BT PANJANG RING RD",
+                    "BKE / PIE",
+                    "WHITLEY ROAD",
+                    "STEVENS / SCOTTS RD"
                 ],
                 scrollFont: 'Arial-8'
             },
@@ -3181,7 +3324,16 @@ EDSData.SMRT = {
                     font: "ArialBold-8"
                 },
                 scrolls: [
-                    "PIE / BKE"
+                    "PENANG RD",
+                    "ORCHARD TURN",
+                    "SCOTTS / STEVENS RD",
+                    "WHITLEY ROAD",
+                    "PIE / BKE",
+                    "BT PANJANG RING RD",
+                    "FAJAR / SEGAR RD",
+                    "JELAPANG RD",
+                    "SENJA LINK / ROAD",
+                    "BT PANJANG RD"
                 ],
                 scrollFont: 'Arial-8'
             },
@@ -3203,8 +3355,12 @@ EDSData.SMRT = {
                     font: "ArialBold-8"
                 },
                 scrolls: [
+                    "SENJA ROAD / LINK",
+                    "JELAPANG ROAD",
+                    "SEGAR / FAJAR RD",
+                    "BT PANJANG RING RD",
                     "BKE / PIE",
-                    "DUNEARN RD"
+                    "DUNEARN ROAD"
                 ],
                 scrollFont: 'Arial-8'
             },
@@ -3226,14 +3382,43 @@ EDSData.SMRT = {
                     font: "ArialBold-8"
                 },
                 scrolls: [
-                    "DUNEARN RD",
-                    "PIE / BKE"
+                    "PENANG RD",
+                    "ORCHARD TURN",                  
+                    "BUKIT TIMAH ROAD",
+                    "PIE / BKE",
+                    "BT PANJANG RING RD",
+                    "FAJAR / SEGAR RD",
+                    "JELAPANG RD",
+                    "SENJA LINK / ROAD",
+                    "BT PANJANG RD"
                 ],
                 scrollFont: 'Arial-8'
             },
             rear: {
                 renderType: "rearService",
                 serviceNumber: "972M",
+                font: "Arial-15",
+                spacing: 2
+            }
+        }
+    },
+    9729: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "972",
+                destination: {
+                    text: "HAPPY 10TH",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "ANNIVERSARY"
+                ],
+                scrollFont: "ArialBold-8"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "972",
                 font: "Arial-15",
                 spacing: 2
             }

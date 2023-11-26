@@ -6850,13 +6850,13 @@ EDSData.SBST = {
         1: {
             front: {
                 renderType: "swt",
-                serviceNumber: "102B",
-                terminateAt: "SENGKANG EAST",
-                landmark: "(OPP SENGKANG STN/BLK 260A)"
+                serviceNumber: "102A",
+                terminateAt: "SENGKANG",
+                landmark: "WEST WAY (OPP BLK 461B)"
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "102B",
+                serviceNumber: "102A",
                 font: "LECIP-20:6",
                 spacing: 2
             }
@@ -7706,6 +7706,34 @@ EDSData.SBST = {
                 renderType: "standardService",
                 serviceNumber: "121",
                 destination: "KG.BAHRU TER-T.BLANGAH",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                    "GANGES AVE",
+                    "TIONG BAHRU RD",
+                    "KIM TIAN RD",
+                    "LOWER DELTA RD",
+                    "TELOK BLANGAH RISE",
+                    "LOWER DELTA RD",
+                    "KIM TIAN RD",
+                    "TIONG BAHRU RD",
+                    "GANGES AVE"
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "121",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    "121N": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "121",
+                destination: "NEW BRIDGE RD TER-T.BLANGAH",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                     "GANGES AVE",
@@ -9975,7 +10003,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "160",
-                destination: "> JURONG EAST INT",
+                destination: "> JURONG TOWN HALL INT",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
                     'WOODLANDS RD',
@@ -10079,7 +10107,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "160",
-                destination: "> JURONG TOWN HALL INT",
+                destination: "> JURONG EAST INT",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
                     'WOODLANDS RD',
