@@ -11837,6 +11837,27 @@ EDSData.SMRT = {
             bottomFont: "Mobitec-7:5:3"
         }
     },
+    9729: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "972",
+            destination: {
+                text: "10TH ANNIVERSARY",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "972",
+                    top: "HAPPY 10TH",
+                    bottom: "ANNIVERSARY",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                }
+            ],
+            scrollFont: "Mobitec-7:7"
+        }
+    },
     9731: {
         front: {
             renderType: "standardService",
