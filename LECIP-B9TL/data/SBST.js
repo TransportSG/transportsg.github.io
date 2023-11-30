@@ -6936,7 +6936,7 @@ EDSData.SBST = {
                     "JALAN KAYU",
                     "SELETAR A'SPACE DR",
                 ],
-                scrollFont: "LECIP-7:5"
+                scrollFont: "LECIP-6:4"
             },
             rear: {
                 renderType: "rearService",
@@ -6956,7 +6956,7 @@ EDSData.SBST = {
                     "JALAN KAYU",
                     "YIO CHU KANG RD"
                 ],
-                scrollFont: "LECIP-7:5"
+                scrollFont: "LECIP-6:4"
             },
             rear: {
                 renderType: "rearService",
@@ -6978,7 +6978,7 @@ EDSData.SBST = {
                     "JALAN KAYU",
                     "SELETAR A'SPACE DR",
                 ],
-                scrollFont: "LECIP-7:5"
+                scrollFont: "LECIP-6:4"
             },
             rear: {
                 renderType: "rearService",
@@ -6998,7 +6998,7 @@ EDSData.SBST = {
                     "JALAN KAYU",
                     "YIO CHU KANG RD"
                 ],
-                scrollFont: "LECIP-7:5"
+                scrollFont: "LECIP-6:4"
             },
             rear: {
                 renderType: "rearService",
@@ -7409,7 +7409,7 @@ EDSData.SBST = {
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "114",
+                serviceNumber: "115",
                 font: "LECIP-20:9",
                 spacing: 2
             }
@@ -9096,14 +9096,14 @@ EDSData.SBST = {
                         renderType: "message",
                         text: "142",
                         font: "LECIP-20:12",
-                        spacing: 2
+                        spacing: 5
                     },
                     'LOR 6 TOA PAYOH',
                     'JLN TOA PAYOH',
                     'UPP SERANGOON RD',
                     'POTONG PASIR AVE 1, 3, 2'
                 ],
-                scrollFont: "LECIP-7:5"
+                scrollFont: "LECIP-6:4"
             },
             rear: {
                 renderType: "rearService",
@@ -11004,11 +11004,11 @@ EDSData.SBST = {
                     "JURONG WEST AVE 5",
                     "JURONG WEST AVE 3"
                 ],
-                scrollFont: "LECIP-7:5"
+                scrollFont: "LECIP-6:3"
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "182M",
+                serviceNumber: "181M",
                 font: "LECIP-20:6",
                 spacing: 2
             }
@@ -11173,7 +11173,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "183B",
-                font: "LECIP-20:9",
+                font: "LECIP-20:6",
                 spacing: 2
             }
         },
@@ -11187,7 +11187,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "183B",
-                font: "LECIP-20:9",
+                font: "LECIP-20:6",
                 spacing: 2
             }
         },
@@ -15863,14 +15863,14 @@ EDSData.SBST = {
         1: {
             front: {
                 renderType: "brandedSvc",
-                serviceNumber: "142",
-                branding: "142",
+                serviceNumber: "569",
+                branding: "PREMIUM",
                 font: "LECIP-20:9",
                 spacing: 2
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "142",
+                serviceNumber: "569",
                 font: "LECIP-20:9",
                 spacing: 2
             }
