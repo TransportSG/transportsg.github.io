@@ -9523,6 +9523,7 @@ EDSData.SBST = {
                 destination: "> BUKIT MERAH INT",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
+                    'UPPER SERANGOON RD',
                     'BRADDELL RD',
                     'TOA PAYOH CTRL',
                     'WHITLEY RD',
@@ -9547,7 +9548,8 @@ EDSData.SBST = {
                     'FARRER RD',
                     'WHITLEY RD',
                     'TOA PAYOH CTRL',
-                    'BRADDELL RD'
+                    'BRADDELL RD',
+                    'UPPER SERANGOON RD'
                 ],
                 scrollFont: "LECIP-7:5"
             },
