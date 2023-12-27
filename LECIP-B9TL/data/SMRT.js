@@ -2416,7 +2416,7 @@ EDSData.SMRT = {
                     "CLEMENTI ROAD",
                     "HOLLAND ROAD",
                     "GREAT WORLD CITY",
-                    "PUTRAM ROAD",
+                    "OUTRAM ROAD",
                     "JALAN BUKIT MERAH"
                 ],
                 scrollFont: "Arial-8"
