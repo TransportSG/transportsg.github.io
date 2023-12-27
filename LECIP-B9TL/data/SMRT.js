@@ -2408,6 +2408,59 @@ EDSData.SMRT = {
                 renderType: "standardService",
                 serviceNumber: "75",
                 destination: {
+                    text: "BUKIT MERAH via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "UPP BT TIMAH RD",
+                    "CLEMENTI ROAD",
+                    "HOLLAND ROAD",
+                    "GREAT WORLD CITY",
+                    "PUTRAM ROAD",
+                    "JALAN BUKIT MERAH"
+                ],
+                scrollFont: "Arial-8"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "75",
+                font: "Arial-15",
+                spacing: 2
+            }
+        },
+    },
+    7502: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "75",
+                destination: {
+                    text: "BUKIT PANJANG via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "JALAN BUKIT MERAH",
+                    "KIM TIAN RD",
+                    "HOLLAND ROAD",
+                    "CLEMENTI ROAD",
+                    "UPP BT TIMAH RD"
+                ],
+                scrollFont: "Arial-8"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "75",
+                font: "Arial-15",
+                spacing: 2
+            }
+        }
+    },
+    7508: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "75",
+                destination: {
                     text: "MARINA CENTRE via",
                     font: "ArialBold-8"
                 },
@@ -2432,7 +2485,7 @@ EDSData.SMRT = {
             }
         },
     },
-    7502: {
+    7509: {
         1: {
             front: {
                 renderType: "standardService",
@@ -2445,59 +2498,6 @@ EDSData.SMRT = {
                     "COLLYER QUAY",
                     "SHENTON WAY",
                     "OUTRAM RD, MRT",
-                    "HOLLAND ROAD",
-                    "CLEMENTI ROAD",
-                    "UPP BT TIMAH RD"
-                ],
-                scrollFont: "Arial-8"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "75",
-                font: "Arial-15",
-                spacing: 2
-            }
-        }
-    },
-    7508: {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "75",
-                destination: {
-                    text: "BUKIT MERAH via",
-                    font: "ArialBold-8"
-                },
-                scrolls: [
-                    "UPP BT TIMAH RD",
-                    "CLEMENTI ROAD",
-                    "HOLLAND ROAD",
-                    "GREAT WORLD CITY",
-                    "KIM TIAN ROAD",
-                    "JALAN BUKIT MERAH"
-                ],
-                scrollFont: "Arial-8"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "75",
-                font: "Arial-15",
-                spacing: 2
-            }
-        },
-    },
-    7509: {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "75",
-                destination: {
-                    text: "BUKIT PANJANG via",
-                    font: "ArialBold-8"
-                },
-                scrolls: [
-                    "JALAN BUKIT MERAH",
-                    "KIM TIAN RD",
                     "HOLLAND ROAD",
                     "CLEMENTI ROAD",
                     "UPP BT TIMAH RD"
