@@ -7107,8 +7107,8 @@ EDSData.SBST = {
             front: {
                 renderType: "swt",
                 serviceNumber: "105B",
-                terminateAt: "50 YRS OF",
-                landmark: "TRAVELLING TOGETHER WITH SBST"
+                terminateAt: "C'WEALTH AVE",
+                landmark: "WEST (CLEMENTI STN EXIT B)"
             },
             rear: {
                 renderType: "rearService",
@@ -15115,6 +15115,32 @@ EDSData.SBST = {
                 bottom: "50",
                 bottomFont: "LECIP-7:5"
             }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "64",
+                destination: "> MEI LING ST",
+                destinationFont: "LECIP-10",
+                scrolls: [{
+                        renderType: "centreMessageServiceScroll",
+                        serviceNumber: "64",
+                        top: "50 YRS OF TRAVELLING TOGETHER",
+                        topFont: "LECIP-6:3",
+
+                        bottom: "WITH SBS TRANSIT",
+                        bottomFont: "LECIP-6:3"
+                    },
+                    'ALEXANDRA RD'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "64",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
         }
     },
     502: {
@@ -16415,21 +16441,21 @@ EDSData.SBST = {
             }
         }
     },
-    // 602: {
-    //     1: {
-    //         front: {
-    //             renderType: 'on-demand',
-    //             serviceNumber: 'JK-2',
-    //             area: '(JOO KOON)'
-    //         },
-    //         rear: {
-    //             renderType: "rearService",
-    //             serviceNumber: "JK-2",
-    //             font: "LECIP-14:6",
-    //             spacing: 2
-    //         }
-    //     }
-    // },
+    602: {
+        1: {
+            front: {
+                renderType: 'on-demand',
+                serviceNumber: 'JK-2',
+                area: '(JOO KOON)'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "JK-2",
+                font: "LECIP-14:6",
+                spacing: 2
+            }
+        }
+    },
     603: {
         1: {
             front: {
@@ -16635,21 +16661,21 @@ EDSData.SBST = {
             }
         }
     },
-    // 612: {
-    //     1: {
-    //         front: {
-    //             renderType: 'on-demand',
-    //             serviceNumber: 'JK-12',
-    //             area: '(JOO KOON)'
-    //         },
-    //         rear: {
-    //             renderType: "rearService",
-    //             serviceNumber: "JK-12",
-    //             font: "LECIP-14:6",
-    //             spacing: 1
-    //         }
-    //     }
-    // },
+    612: {
+        1: {
+            front: {
+                renderType: 'on-demand',
+                serviceNumber: 'JK-12',
+                area: '(JOO KOON)'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "JK-12",
+                font: "LECIP-14:6",
+                spacing: 1
+            }
+        }
+    },
     613: {
         1: {
             front: {
@@ -16660,6 +16686,96 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "JK-13",
+                font: "LECIP-14:6",
+                spacing: 1
+            }
+        }
+    },
+    621: {
+        1: {
+            front: {
+                renderType: 'on-demand',
+                serviceNumber: 'MD-1',
+                area: '(MARINA-DOWNTOWN)'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "MD-1",
+                font: "LECIP-14:6",
+                spacing: 1
+            }
+        }
+    },
+    622: {
+        1: {
+            front: {
+                renderType: 'on-demand',
+                serviceNumber: 'MD-2',
+                area: '(MARINA-DOWNTOWN)'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "MD-2",
+                font: "LECIP-14:6",
+                spacing: 1
+            }
+        }
+    },
+    623: {
+        1: {
+            front: {
+                renderType: 'on-demand',
+                serviceNumber: 'MD-3',
+                area: '(MARINA-DOWNTOWN)'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "MD-3",
+                font: "LECIP-14:6",
+                spacing: 1
+            }
+        }
+    },
+    624: {
+        1: {
+            front: {
+                renderType: 'on-demand',
+                serviceNumber: 'MD-4',
+                area: '(MARINA-DOWNTOWN)'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "MD-4",
+                font: "LECIP-14:6",
+                spacing: 1
+            }
+        }
+    },
+    625: {
+        1: {
+            front: {
+                renderType: 'on-demand',
+                serviceNumber: 'MD-5',
+                area: '(MARINA-DOWNTOWN)'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "MD-5",
+                font: "LECIP-14:6",
+                spacing: 1
+            }
+        }
+    },
+    626: {
+        1: {
+            front: {
+                renderType: 'on-demand',
+                serviceNumber: 'MD-6',
+                area: '(MARINA-DOWNTOWN)'
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "MD-6",
                 font: "LECIP-14:6",
                 spacing: 1
             }
