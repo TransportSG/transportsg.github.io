@@ -165,10 +165,17 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "3",
-                destination: "PUNGGOL",
+                destination: "TAMPINES",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                    "TAMPINES AVE 4"
+                    "PUNGGOL CENTRAL / FIELD",
+                    "TAMPINES EXPRESSWAY",
+                    "PASIR RIS DR 12 / 1 / 10",
+                    "PASIR RIS ST 71",
+                    "PASIR RIS INT",
+                    "PASIR RIS DR 3 / ST 21",
+                    "TAMPINES EAST MRT",
+                    "TAMPINES ST 21"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -183,10 +190,16 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "3",
-                destination: "TAMPINES",
+                destination: "PUNGGOL",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                    "PUNGGOL CENTRAL"
+                    "TAMPINES ST 21",
+                    "TAMPINES EAST MRT",
+                    "PASIR RIS ST 21 / DR 3",
+                    "PASIR RIS ST 71",
+                    "PASIR RIS DR 10 / 1 / 12", 
+                    "TAMPINES EXPRESSWAY",
+                    "PUNGGOL FIELD / CENTRAL"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -226,7 +239,10 @@ EDSData.GASG = {
                 destination: "PASIR RIS",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                    "LOYANG"
+                    "PASIR RIS DR 3",
+                    "LOYANG AVE",
+                    "LOYANG WAY",
+                    "LOYANG CRES (LOOP)"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -284,7 +300,14 @@ EDSData.GASG = {
                 destination: "KAMPONG BAHRU",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                    "TANAH MERAH MRT"
+                    "PASIR RIS DR 6 / 1",
+                    "TAMPINES AVE 7 / 2",
+                    "SIMEI RD",
+                    "BEDOK SOUTH RD",
+                    "ECP (EXPRESS)",
+                    "BUGIS",
+                    "CLARKE QUAY",
+                    "CHINATOWN"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -302,7 +325,13 @@ EDSData.GASG = {
                 destination: "PASIR RIS",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                    "TANAH MERAH MRT"
+                    "CLARKE QUAY",
+                    "BUGIS",
+                    "ECP (EXPRESS)",
+                    "BEDOK SOUTH RD",
+                    "SIMEI RD",
+                    "TAMPINES AVE 2 / 7",
+                    "PASIR RIS DR 1 / 6"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -322,7 +351,14 @@ EDSData.GASG = {
                 destination: "MARINE PARADE",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                    "BEDOK RESERVOIR RD"
+                    "PASIR RIS ST 52, DR 1 / 8",
+                    "TAMPINES AVE 12 / 7 / 4 / 5 / 1",
+                    "BEDOK NORTH RD",
+                    "BEDOK RESERVOIR RD",
+                    "JALAN EUNOS / MRT",
+                    "STILL RD",
+                    "TELOK KURAU RD",
+                    "JOO CHIAT PLACE"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -340,7 +376,14 @@ EDSData.GASG = {
                 destination: "PASIR RIS",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                    "BEDOK RESERVOIR RD"
+                    "JOO CHIAT PLACE",
+                    "STILL RD",
+                    "JALAN EUNOS / MRT",
+                    "BEDOK RESERVOIR RD",
+                    "BEDOK NORTH RD",
+                    "TAMPINES WEST MRT",
+                    "TAMPINES AVE 1 / 5 / 4 / 7 / 12",
+                    "PASIR RIS DR 8/1, ST 52"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -1262,7 +1305,9 @@ EDSData.GASG = {
                 destination: "PASIR RIS INT",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                    "JALAN LOYANG BESAR"
+                    "DOWNTOWN EAST",
+                    "JALAN LOYANG BESAR",
+                    "PASIR RIS DR 3"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -1382,7 +1427,11 @@ EDSData.GASG = {
                 destination: "PUNGGOL INT",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                 "SUMANG WALK"
+                 "PUNGGOL FIELD",
+                 "SUMANG WALK",
+                 "SUMANG LINK",
+                 "SENTUL CRESCENT",
+                 "PUNGGOL PLACE"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -1402,7 +1451,11 @@ EDSData.GASG = {
                 destination: "PUNGGOL INT",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                 "SUMANG WALK"
+                 "PUNGGOL PLACE",
+                 "SENTUL CRESCENT",
+                 "SUMANG LINK",
+                 "SUMANG WALK",
+                 "PUNGGOL FIELD"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -1494,6 +1547,29 @@ EDSData.GASG = {
                 renderType: "rearService",
                 serviceNumber: "386A",
                 font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
+    403: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "403",
+                destination: "PASIR RIS INT",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                 "PASIR RIS DR 8 / 1",
+                 "ELIAS RD",
+                 "PASIR RIS RD",
+                 "PASIR RIS PARK"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "403",
+                font: "LECIP-20:9",
                 spacing: 2
             }
         }
