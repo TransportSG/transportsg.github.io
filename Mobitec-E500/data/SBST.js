@@ -32,6 +32,36 @@ EDSFormats.SBST = {
         },
         text: "$serviceNumber+' '+$destination.text"
     },
+    swt: {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 1
+            },
+            text: "$serviceNumber",
+            font: "Mobitec-16:8",
+            spacing: 1
+        },
+        destinationRoad: {
+            align: "centre-x,top",
+            margin: {
+                right: 'width(serviceNumber)'
+            },
+            text: "'TERMINATE AT '+$destinationRoad",
+            font: "Mobitec-7:4",
+            spacing: 1
+        },
+        destinationName: {
+            align: "centre-x,bottom",
+            margin: {
+                right: 'width(serviceNumber)'
+            },
+            text: "'('+$destinationName+')'",
+            font: "Mobitec-7:4",
+            spacing: 1
+        },
+        text: "$serviceNumber+' '+$destinationRoad"
+    },
     logo: {
         logo: {
             align: "centre-x,centre-y",
@@ -215,6 +245,22 @@ EDSData.SBST = {
                 "SIMS AVE EAST"
             ],
             scrollFont: "Mobitec-6:5"
+        }
+    },
+    73: {
+        front: {
+            renderType: "swt",
+            serviceNumber: "7A",
+            destinationRoad: "ORCHARD BLVD",
+            destinationName: "BEF ORCHARD STN EXIT B"
+        }
+    },
+    74: {
+        front: {
+            renderType: "swt",
+            serviceNumber: "7B",
+            destinationRoad: "ORCHARD RD",
+            destinationName: "DHOBY GHAUT STN"
         }
     },
     80: {
