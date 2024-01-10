@@ -107,12 +107,87 @@ EDSData.SBST = {
             spacing: 1
         }
     },
+    18: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "LCS1",
+            destination: {
+                text: "> CHANGI AIRFREIGHT CTR",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+                'TAMPINES AVE 3',
+                'TAMPINES AVE 5',
+                'LOYANG WAY',
+                'ALPS AVE',
+                'AIRPORT CARGO RD',
+                'AIRLINE RD'
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    19: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "LCS1",
+            destination: {
+                text: "< TAMPINES AVE 9",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                'AIRPORT CARGO RD',
+                'AIRLINE RD',
+                'ALPS AVE',
+                'LOYANG WAY',
+                'TAMPINES AVE 3',
+                'TAMPINES AVE 5'
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
     20: {
         front: {
             renderType: "message",
             text: "EB2",
             font: "Mobitec-16:8",
             spacing: 1
+        }
+    },
+    28: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "LCS2",
+            destination: {
+                text: "> CHANGI AIRFREIGHT CTR",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+                'PUNGGOL CENTRAL',
+                'LOYANG WAY',
+                'ALPS AVE',
+                'AIRPORT CARGO RD',
+                'AIRLINE RD'
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    29: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "LCS2",
+            destination: {
+                text: "< PUNGGOL WAY",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                'AIRPORT CARGO RD',
+                'AIRLINE RD',
+                'ALPS AVE',
+                'LOYANG WAY',
+                'PUNGGOL CENTRAL',
+                'PUNGGOL WAY'
+            ],
+            scrollFont: "Mobitec-6:5"
         }
     },
     30: {
