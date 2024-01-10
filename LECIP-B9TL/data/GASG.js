@@ -423,7 +423,13 @@ EDSData.GASG = {
                 destination: "BEDOK",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                    "BEDOK NORTH AVE 4"
+                    "PASIR RIS DR 3 / 4",
+                    "PASIR RIS ST 12 / 11",
+                    "TAMPINES AVE 7 / 2",
+                    "TAMPINES EAST MRT",
+                    "SIMEI AVE",
+                    "BEDOK NORTH AVE 4",
+                    "BEDOK NORTH RD"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -441,7 +447,13 @@ EDSData.GASG = {
                 destination: "PASIR RIS",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                    "BEDOK NORTH AVE 4"
+                    "BEDOK NORTH RD",
+                    "BEDOK NORTH AVE 4",
+                    "SIMEI AVE",
+                    "TAMPINES EAST MRT",
+                    "TAMPINES AVE 2 / 7",
+                    "PASIR RIS ST 11 / 12",
+                    "PASIR RIS DR 4 / 3",
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -483,8 +495,9 @@ EDSData.GASG = {
                 destinationFont: "LECIP-10",
                 scrolls: [
                     "PUNGGOL RD",
-                    "TPE",
-                    "TAMPINES AVE 10 / 5 / 2 / 7"
+                    "TAMPINES EXPRESSWAY",
+                    "TAMPINES AVE 10 / 5 / 2",
+                    "TAMPINES EAST MRT"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -502,8 +515,9 @@ EDSData.GASG = {
                 destination: "PUNGGOL",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                    "TAMPINES AVE 7 / 2 / 5 / 10",
-                    "TPE",
+                    "TAMPINES EAST MRT",
+                    "TAMPINES AVE 2 / 5 / 10",
+                    "TAMPINES EXPRESSWAY",
                     "PUNGGOL RD"
                 ],
                 scrollFont: "LECIP-7:5"
@@ -686,7 +700,18 @@ EDSData.GASG = {
                 destination: "UPP EAST COAST",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                    "SERANGOON CENTRAL"
+                    "PUNGGOL WAY",
+                    "SENGKANG EAST RD",
+                    "BUANGKOK MRT",
+                    "BUANGKOK GREEN",
+                    "YIO CHU KANG RD",
+                    "SERANGOON MRT",
+                    "UPPER PAYA LEBAR RD",
+                    "TAI SENG MRT",
+                    "MACPHERSON MRT",
+                    "PAYA LEBAR RD / MRT",
+                    "TANJONG KATONG RD",
+                    "MARINE PARADE RD"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -704,7 +729,18 @@ EDSData.GASG = {
                 destination: "PUNGGOL",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                    "SERANGOON CENTRAL"
+                    "MARINE PARADE RD",
+                    "TANJONG KATONG RD",
+                    "PAYA LEBAR MRT / RD",
+                    "MACPHERSON MRT",
+                    "TAI SENG MRT",
+                    "UPPER PAYA LEBAR RD",
+                    "SERANGOON MRT",
+                    "YIO CHU KANG RD",
+                    "BUANGKOK GREEN",
+                    "BUANGKOK MRT",
+                    "SENGKANG EAST RD",
+                    "PUNGGOL WAY"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -809,7 +845,16 @@ EDSData.GASG = {
                 destination: "SIMS AVE",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                    "ALJUNIED MRT"
+                    "PUNGGOL FIELD / EAST",
+                    "SENGKANG EAST DR",
+                    "UPPER SERANGOON RD",
+                    "HOUGANG AVE 8 / 10",
+                    "HOUGANG MRT",
+                    "LORONG AH SOO",
+                    "UPPER PAYA LEBAR RD",
+                    "MACPHERSON RD",
+                    "ALJUNIED MRT",
+                    "GEYLANG RD"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -827,7 +872,16 @@ EDSData.GASG = {
                 destination: "PUNGGOL",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                    "ALJUNIED MRT"
+                    "ALJUNIED MRT",
+                    "MACPHERSON RD",
+                    "UPPER PAYA LEBAR RD",
+                    "LORONG AH SOO",
+                    "HOUGANG AVE 3",
+                    "HOUGANG MRT",
+                    "HOUGANG AVE 10 / 8",
+                    "UPPER SERANGOON RD",
+                    "SENGKANG EAST DR",
+                    "PUNGGOL EAST / FIELD"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -992,7 +1046,11 @@ EDSData.GASG = {
                 destination: "SENGKANG",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                    "PUNGGOL CENTRAL"
+                    "PUNGGOL CENTRAL",
+                    "PUNGGOL WAY",
+                    "PUNGGOL FIELD",
+                    "PUNGGOL RD",
+                    "SENGKANG EAST RD"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -1010,6 +1068,10 @@ EDSData.GASG = {
                 destination: "PUNGGOL",
                 destinationFont: "LECIP-10",
                 scrolls: [
+                    "SENGKANG EAST RD",
+                    "PUNGGOL RD",
+                    "PUNGGOL FIELD",
+                    "PUNGGOL WAY",
                     "PUNGGOL CENTRAL"
                 ],
                 scrollFont: "LECIP-7:5"
@@ -1070,7 +1132,14 @@ EDSData.GASG = {
                 destination: "YISHUN",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                    "JALAN KAYU"
+                    "PUNGGOL CENTRAL",
+                    "RIVERVALE DR",
+                    "COMPASSVALE DR",
+                    "SENGKANG EAST RD / WAY",
+                    "SENGKANG WEST WAY",
+                    "JALAN KAYU",
+                    "SLE",
+                    "KHATIB MRT"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -1088,7 +1157,13 @@ EDSData.GASG = {
                 destination: "PUNGGOL",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                    "JALAN KAYU"
+                    "SLE",
+                    "JALAN KAYU",
+                    "SENGKANG WEST WAY",
+                    "SENGKANG EAST WAY / RD",
+                    "COMPASSVALE DR",
+                    "RIVERVALE DR",
+                    "PUNGGOL CENTRAL"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -1136,7 +1211,6 @@ EDSData.GASG = {
                     "SIMEI AVE",
                     "XILIN AVE",
                     "EXPO MRT",
-                    "CHANGI SOUTH AVE 1"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -1154,10 +1228,10 @@ EDSData.GASG = {
                 destination: "PUNGGOL",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                    "CHANGI SOUTH AVE 1",
                     "EXPO MRT",
                     "XILIN AVE",
                     "SIMEI AVE",
+                    "TAMPINES WEST MRT",
                     "TAMPINES AVE 1 / 8 / 10",
                     "TPE",
                     "PUNGGOL WAY"
@@ -1223,9 +1297,11 @@ EDSData.GASG = {
                 destination: "KOVAN",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                    "SENGKANG EAST WAY",
+                    "PUNGGOL FIELD / WAY",
+                    "SENGKANG MRT",
                     "RIVERVALE DRIVE",
-                    "HOUGANG AVE 8",
+                    "PUNGGOL RD",
+                    "HOUGANG AVE 10 / 8",
                     "UPPER SERANGOON RD",
                 ],
                 scrollFont: "LECIP-7:5"
@@ -1245,9 +1321,11 @@ EDSData.GASG = {
                 destinationFont: "LECIP-10",
                 scrolls: [
                     "UPPER SERANGOON RD",
-                    "HOUGANG AVE 8",
+                    "HOUGANG AVE 8 / 10",
+                    "PUNGGOL RD",
                     "RIVERVALE DRIVE",
-                    "SENGKANG EAST WAY"
+                    "SENGKANG MRT",
+                    "PUNGGOL WAY / FIELD"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -1327,7 +1405,11 @@ EDSData.GASG = {
                 destination: "PASIR RIS INT",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                    "ELIAS RD"
+                    "PASIR RIS DR 3 / 10",
+                    "ELIAS RD",
+                    "PASIR RIS DR 3 / 6",
+                    "PASIR RIS DR 1 / 4",
+                    "PASIR RIS ST 41"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -1367,7 +1449,13 @@ EDSData.GASG = {
                 destination: "PASIR RIS INT",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                    "PASIR RIS DRIVE 3 / 12"
+                    "PASIR RIS DR 3 / 12",
+                    "PASIR RIS ST 71",
+                    "PASIR RIS DR 12 / 3",
+                    "PASIR RIS ST 51",
+                    "PASIR RIS DR 11, ST 11",
+                    "LOYANG AVE",
+                    "PASIR RIS DR 3 / 2"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -1582,7 +1670,14 @@ EDSData.GASG = {
                 destination: "BAYFRONT",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                    "ORCHARD RD"
+                    "PASIR RIS DR 3 / 12",
+                    "PASIR RIS ST 12 / 11",
+                    "TAMPINES AVE 7 / 2 / 1",
+                    "BEDOK NORTH MRT",
+                    "MOULMEIN RD",
+                    "NEWTON MRT",
+                    "ORCHARD / SUNTEC CITY",
+                    "MARINA BAY SANDS"
                 ],
                 scrollFont: "LECIP-7:5"
             },
