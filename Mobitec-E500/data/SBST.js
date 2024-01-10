@@ -69,6 +69,38 @@ EDSFormats.SBST = {
 }
 
 EDSData.SBST = {
+    10: {
+        front: {
+            renderType: "message",
+            text: "EB1",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    20: {
+        front: {
+            renderType: "message",
+            text: "EB2",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    30: {
+        front: {
+            renderType: "message",
+            text: "EB3",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    40: {
+        front: {
+            renderType: "message",
+            text: "EB4",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
     41: {
         front: {
             renderType: "standardService",
@@ -85,6 +117,14 @@ EDSData.SBST = {
                 "TAMPINES AVE 7"
             ],
             scrollFont: "Mobitec-6:5"
+        }
+    },
+    50: {
+        front: {
+            renderType: "message",
+            text: "EB5",
+            font: "Mobitec-16:8",
+            spacing: 1
         }
     },
     51: {
@@ -121,6 +161,22 @@ EDSData.SBST = {
                 "UPP CHANGI RD EAST"
             ],
             scrollFont: "Mobitec-6:5"
+        }
+    },
+    60: {
+        front: {
+            renderType: "message",
+            text: "EB6",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    70: {
+        front: {
+            renderType: "message",
+            text: "EB7",
+            font: "Mobitec-16:8",
+            spacing: 1
         }
     },
     71: {
@@ -161,6 +217,136 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
+    80: {
+        front: {
+            renderType: "message",
+            text: "EB8",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    81: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "8",
+            destination: {
+                text: "> TOA PAYOH INT",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                "TAMPINES AVE 1",
+                "BEDOK RESERVOIR RD",
+                "UBI AVE 2",
+                'PAYA LEBAR RD',
+                'MACPHERSON RD'
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    82: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "8",
+            destination: {
+                text: "> TAMPINES INT",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                "MACPHERSON RD",
+                'PAYA LEBAR RD',
+                'UBI AVE 2',
+                'BEDOK RESERVOIR RD',
+                'TAMPINES AVE 1, 2, 7'
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    90: {
+        front: {
+            renderType: "message",
+            text: "EB9",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    91: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "9",
+            destination: {
+                text: "> CHANGI AIRFREIGHT CTR",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                "NEW UPPER CHANGI RD",
+                'SIMEI ST 3',
+                'TAMPINES AVE 2, 7',
+                'LOYANG AVE',
+                'CHANGI CARGO RD'
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    92: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "9",
+            destination: {
+                text: "> BEDOK INT",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                "AIRPORT CARGO RD",
+                "LOYANG AVE",
+                "TAMPINES AVE 7, 2",
+                "SIMEI ST 3",
+                'NEW UPPER CHANGI RD'
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    100: {
+        front: {
+            renderType: "message",
+            text: "EB10",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    101: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "10",
+            destination: {
+                text: "> KENT RIDGE TER",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                "EAST COAST RD",
+                'TANJONG KATONG RD',
+                'SHENTON WAY',
+                'PASIR PANJANG RD',
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    102: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "10",
+            destination: {
+                text: "> TAMPINES INT",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                "PASIR PANJANG RD",
+                'NICOLL HIGHWAY',
+                'TANJONG KATONG RD',
+                'EAST COAST RD'
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
     108: {
         front: {
             renderType: "expressService",
@@ -171,6 +357,14 @@ EDSData.SBST = {
         front: {
             renderType: "expressService",
             serviceNumber: "10e"
+        }
+    },
+    110: {
+        front: {
+            renderType: "message",
+            text: "EB11",
+            font: "Mobitec-16:8",
+            spacing: 1
         }
     },
     111: {
@@ -191,6 +385,107 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
+    120: {
+        front: {
+            renderType: "message",
+            text: "EB12",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    130: {
+        front: {
+            renderType: "message",
+            text: "EB13",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    131: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "13",
+            destination: {
+                text: "> UPP EAST COAST TER",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                "ANG MO KIO AVE 6",
+                'BRADDELL RD',
+                'LAVENDER ST',
+                'SIMS AVE',
+                'UPP EAST COAST RD'
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    132: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "13",
+            destination: {
+                text: "> YIO CHU KANG INT",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                "UPP EAST COAST RD",
+                'GEYLANG RD',
+                'LAVENDER ST',
+                'BRADDELL RD',
+                'ANG MO KIO AVE 6, 8'
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    140: {
+        front: {
+            renderType: "message",
+            text: "EB14",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    141: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "14",
+            destination: {
+                text: "> CLEMENTI INT",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                "BEDOK NORTH AVE 3",
+                "UPPER EAST COAST RD",
+                'EAST COAST RD',
+                "MOUNTBATTEN RD",
+                "RIVER VALLEY RD",
+                "JALAN BUKIT MERAH",
+                "COMMONWEALTH AVE WEST"
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    142: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "14",
+            destination: {
+                text: "> BEDOK INT",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                "COMMONWEALTH AVE WEST",
+                "JALAN BUKIT MERAH",
+                "RIVER VALLEY RD",
+                "ORCHARD RD",
+                "MOUNTBATTEN RD",
+                "EAST COAST RD",
+                "UPPER EAST COAST RD",
+                "BEDOK NORTH RD"
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
     148: {
         front: {
             renderType: "expressService",
@@ -203,21 +498,215 @@ EDSData.SBST = {
             serviceNumber: "14e"
         }
     },
-    221: {
+    150: {
+        front: {
+            renderType: "message",
+            text: "EB15",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    160: {
+        front: {
+            renderType: "message",
+            text: "EB16",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    161: {
         front: {
             renderType: "standardService",
-            serviceNumber: "22",
+            serviceNumber: "16",
+            destination: {
+                text: "> BUKIT MERAH INT",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                "UPP EAST COAST RD",
+                "MARINE PARADE RD",
+                "JOO CHIAT RD",
+                "NICOLL HIGHWAY",
+                "ORCHARD BOULEVARD",
+                "TIONG BAHRU RD"
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    162: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "16",
+            destination: {
+                text: "> BEDOK INT",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                "TIONG BAHRU RD",
+                "ORCHARD RD",
+                "NICOLL HIGHWAY",
+                "JOO CHIAT RD",
+                "MARINE PARADE RD",
+                "UPP EAST COAST RD"
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    163: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "16M",
+            destination: {
+                text: "> BUKIT MERAH INT",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                "UPP EAST COAST RD",
+                "MARINE PARADE RD",
+                "JOO CHIAT RD",
+                "NICOLL HIGHWAY",
+                "ORCHARD BOULEVARD",
+                "JALAN BUKIT MERAH"
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    164: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "16M",
+            destination: {
+                text: "> BEDOK INT",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                "JALAN BUKIT MERAH",
+                "ORCHARD RD",
+                "NICOLL HIGHWAY",
+                "JOO CHIAT RD",
+                "MARINE PARADE RD",
+                "UPP EAST COAST RD"
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    170: {
+        front: {
+            renderType: "message",
+            text: "EB17",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    180: {
+        front: {
+            renderType: "message",
+            text: "EB18",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    181: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "18",
+            destination: {
+                text: "> BEDOK NTH DEPOT",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                'TAMPINES NORTH DR 1',
+                'TAMPINES AVE 9',
+                'TAMPINES ST 33',
+                'TAMPINES AVE 2',
+                'BEDOK RESERVOIR RD',
+                'BEDOK NORTH AVE 4'
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    182: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "18",
+            destination: {
+                text: "> TAMP NORTH INT",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                "BEDOK NORTH AVE 4",
+                'BEDOK RESERVOIR RD',
+                'TAMPINES AVE 2',
+                'TAMPINES ST 33',
+                'TAMPINES AVE 9',
+                'TAMPINES NORTH DR 1'
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    190: {
+        front: {
+            renderType: "message",
+            text: "EB19",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    191: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "19",
+            destination: {
+                text: "> CHANGI AIRFREIGHT CTR",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                'TAMPINES AVE 7',
+                "LOYANG AVE",
+                'AIRLINE RD'
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    192: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "19",
             destination: {
                 text: "> TAMPINES INT",
                 font: "Mobitec-7:5:2"
             },
             scrolls: [
-                "ANG MO KIO AVE 8",
-                "SERANGOON CENTRAL",
-                "UPPER PAYA LEBAR RD",
-                "UBI AVE 2",
-                "BEDOK RESERVOIR RD",
-                "TAMPINES AVE 4"
+                'AIRLINE RD',
+                'LOYANG AVE',
+                'TAMPINES AVE 7'
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    20: {
+        front: {
+            renderType: "message",
+            text: "EB20",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    201: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "20",
+            destination: {
+                text: "> CHANGI AIRFREIGHT CTR",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+                "TAMPINES AVE 5",
+                "TAMPINES AVE 2",
+                "SIMEI ST 1",
+                "CHANGI STH AVE 2",
+                'CHANGI BIZ PK CTRL 2',
+                'TAMPINES AVE 2',
             ],
             scrollFont: "Mobitec-6:5"
         }
@@ -774,17 +1263,19 @@ EDSData.SBST = {
     951: {
         front: {
             renderType: "standardService",
-            serviceNumber: "94",
+            serviceNumber: "95",
             destination: {
                 text: "KENT RIDGE - HOLLAND RD",
                 font: "Mobitec-7:4"
             },
             scrolls: [
-                'JALAN EUNOS',
-                'EUNOS LINK',
-                'AIRPORT RD',
-                'EUNOS LINK',
-                'JALAN EUNOS'
+                'KENT RIDGE CRESCENT',
+                'LOWER KENT RIDGE RD',
+                "NORTH BUONA VISTA RD",
+                "HOLLAND AVE",
+                'NORTH BUONA VISTA RD',
+                'LOWER KENT RIDGE RD',
+                'KENT RIDGE CRESENT'
             ],
             scrollFont: "Mobitec-6:5"
         }
@@ -821,6 +1312,44 @@ EDSData.SBST = {
                 "JURONG WEST AVE 4",
                 "JURONG WEST AVE 1",
                 "JURONG EAST AVE 1"
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    1001: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "100",
+            destination: {
+                text: "> GHIM MOH TER",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                'ALJUNIED RD',
+                'GEYLANG RD',
+                'BEACH RD',
+                'SHENTON WAY',
+                'TELOK BLANGAH RD',
+                'ALEXANDRA RD'
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    1002: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "100",
+            destination: {
+                text: "> SERANGOON INT",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                'ALEXANDRA RD',
+                'TELOK BLANGAH RD',
+                'ROBINSON RD',
+                'BEACH RD',
+                'SIMS AVE',
+                'ALJUNIED RD'
             ],
             scrollFont: "Mobitec-6:5"
         }
@@ -898,6 +1427,48 @@ EDSData.SBST = {
                 "SELETAR AEROSPACE DR",
                 "JLN KAYU",
                 "YIO CHU KANG RD"
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    1051: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "103",
+            destination: {
+                text: "> JURONG EAST INT",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                'SERANGOON AVE 3',
+                'TOA PAYOH CENTRAL',
+                'STEVENS RD',
+                'ORCHARD BOUELEVARD',
+                'HOLLAND RD',
+                'COMMONWEALTH AVE',
+                "COMMONWEALTH AVE WEST",
+                'TOH GUAN RD'
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    1052: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "105",
+            destination: {
+                text: "> SERANGOON INT",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                'TOH GUAN RD',
+                "COMMONWEALTH AVE WEST",
+                'COMMONWEALTH AVE',
+                'HOLLAND RD',
+                'ORCHARD RD',
+                'STEVENS RD',
+                'TOA PAYOH CENTRAL',
+                'SERANGOON AVE 3'
             ],
             scrollFont: "Mobitec-6:5"
         }
@@ -1040,19 +1611,16 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "121",
             destination: {
-                text: "KG BAHRU TER-TK BLANGAH",
+                text: "SHENTON WAY TER-TK BLANGAH",
                 font: "Mobitec-7:4"
             },
             scrolls: [
+                "SHENTON WAY",
+                "ZION RD",
                 "GANGES AVE",
-                "TIONG BAHRU RD",
-                "KIM TIAN RD",
+                "JALAN BUKIT MERAH",
                 "LOWER DELTA RD",
                 "TELOK BLANGAH RISE",
-                "LOWER DELTA RD",
-                "KIM TIAN RD",
-                "TIONG BAHRU RD",
-                "GANGES AVE"
             ],
             scrollFont: "Mobitec-6:5"
         }
@@ -1062,11 +1630,10 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "121",
             destination: {
-                text: "SHENTON WAY-TK BLANGAH",
+                text: "KG BAHRU TER-TK BLANGAH",
                 font: "Mobitec-7:4"
             },
             scrolls: [
-                "CANTONMENT RD",
                 "GANGES AVE",
                 "TIONG BAHRU RD",
                 "KIM TIAN RD",
@@ -2202,7 +2769,7 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
-    1604: {
+    1603: {
         front: {
             renderType: "standardService",
             serviceNumber: "160",
@@ -2278,6 +2845,24 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "162",
             destination: {
+                text: "YCK INT - SIN MING DR",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+                'ANG MO KIO AVE 8',
+                'BISHAN ST 22',
+                'SIN MING AVE',
+                'UPPER THOMSON RD',
+                'SHUNFU RD'
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    1622: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "162",
+            destination: {
                 text: "> SHENTON WAY TER",
                 font: "Mobitec-7:5:2"
             },
@@ -2294,7 +2879,7 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
-    1622: {
+    1623: {
         front: {
             renderType: "standardService",
             serviceNumber: "162",
@@ -3302,6 +3887,54 @@ EDSData.SBST = {
             spacing: 1
         }
     },
+    7771: {
+        front: {
+            renderType: "message",
+            text: "CCL BRIDGING BUS",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    7772: {
+        front: {
+            renderType: "message",
+            text: "DTL BRIDGING BUS",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    7773: {
+        front: {
+            renderType: "message",
+            text: "EWL BRIDGING BUS",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    7774: {
+        front: {
+            renderType: "message",
+            text: "NEL BRIDGING BUS",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    7775: {
+        front: {
+            renderType: "message",
+            text: "LRT BRIDGING EAST",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    7776: {
+        front: {
+            renderType: "message",
+            text: "LRT BRIDGING WEST",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
     7777: {
         front: {
             renderType: "message",
@@ -3427,6 +4060,14 @@ EDSData.SBST = {
                 "YISHUN RING RD"
             ],
             scrollFont: "Mobitec-6:5"
+        }
+    },
+    9145: {
+        front: {
+            renderType: "message",
+            text: "EB14A",
+            font: "Mobitec-16:8",
+            spacing: 1
         }
     },
     9741: {
