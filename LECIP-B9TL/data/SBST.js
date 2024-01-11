@@ -4379,17 +4379,13 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "63M",
-                destination: "EUNOS INT-CIRCUIT RD",
+                destination: "EUNOS INT - CIRCUIT RD",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
-                    1026: {
-                        front: {
-                            renderType: "swt",
-                            serviceNumber: "102B",
-                            destinationRoad: "SENGKANG",
-                            destinationName: "E. (S'KANG STN/BLK 461B)"
-                        }
-                    },
+                    'UBI AVE 1',
+                    'UBI AVE 2',
+                    'JALAN EUNOS',
+                    'CIRCUIT RD'
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -4399,7 +4395,7 @@ EDSData.SBST = {
                 font: "LECIP-20:9",
                 spacing: 2
             }
-        }
+        },
     },
     64: {
         1: {
