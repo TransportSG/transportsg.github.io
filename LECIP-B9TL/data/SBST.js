@@ -2528,6 +2528,7 @@ EDSData.SBST = {
                 destination: "> BUONA VISTA TER",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
+                    'FRANKEL AVE',
                     'EAST COAST RD',
                     'NORTH BRIDGE RD',
                     'RIVER VALLEY RD',
@@ -2552,7 +2553,8 @@ EDSData.SBST = {
                     'MARGARET DR',
                     'RIVER VALLEY RD',
                     'VICTORIA ST',
-                    'EASST COAST RD'
+                    'EASST COAST RD',
+                    'FRANKEL AVE'
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -2572,9 +2574,12 @@ EDSData.SBST = {
                 destination: "> KENT RIDGE TER",
                 destinationFont: "LECIP-10",
                 scrolls: [
+                    'JOO CHIAT PLACE',
                     'OLD AIRPORT RD',
                     'VICTORIA ST',
+                    'NEW BRIDGE RD',
                     'TIONG BAHRU RD',
+                    'ALEXANDRA RD',
                     'AYE'
                 ],
                 scrollFont: "LECIP-7:5"
@@ -2594,9 +2599,12 @@ EDSData.SBST = {
                 destinationFont: "LECIP-10",
                 scrolls: [
                     'AYE',
+                    "ALEXANDRA RD",
                     'TIONG BAHRU RD',
+                    "EU TONG SEN ST",
                     'VICTORIA ST',
-                    'OLD AIRPORT RD'
+                    'OLD AIRPORT RD',
+                    "JOO CHIAT PLACE"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -3055,8 +3063,8 @@ EDSData.SBST = {
                 destination: "JLN KEMBANGAN-FIDELIO ST",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
-                    'LENGKOK TIGA',
-                    'LENGKOK EMPAT',
+                    'LENGKONG TIGA',
+                    'LENGKONG EMPAT',
                     'FIDELIO ST',
                     'SIGLAP DR',
                     'FRANKEL AVE'
@@ -4371,7 +4379,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "63M",
-                destination: "EUNOS INT-CIRCUIT RD",
+                destination: "EUNOS INT - CIRCUIT RD",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
                     'UBI AVE 1',
@@ -4387,7 +4395,7 @@ EDSData.SBST = {
                 font: "LECIP-20:9",
                 spacing: 2
             }
-        }
+        },
     },
     64: {
         1: {
