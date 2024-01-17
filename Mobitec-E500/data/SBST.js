@@ -3749,7 +3749,7 @@ EDSData.SBST = {
         front: {
             renderType: "destScroll",
             top: "SHUTTLE 1",
-            topFont: "Mobitec-7:4",
+            topFont: "Mobitec-7:5:2",
 
             bottom: "LONDON - PARIS",
             bottomFont: "Mobitec-7:4",
