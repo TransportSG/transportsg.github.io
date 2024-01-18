@@ -7431,12 +7431,11 @@ EDSData.SBST = {
                 destination: "HOUGANG CTRL INT-S'GOON CTRL",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
-                    'HOUGANG AVE 4',
-                    'HOUGANG AVE 9',
-                    "S'GOON NORTH AVE 4",
-                    'YIO CHU KANG RD',
-                    'ANG MO KIO AVE 3',
-                    'SERANGOON CTRL'
+                    "HOUGANG AVE 4",
+                    "HOUGANG AVE 9",
+                    "YIO CHU KANG RD",
+                    "SERANGOON CENTRAL",
+                    "HOUGANG AVE 9"
                 ],
                 scrollFont: "LECIP-6:4"
             },

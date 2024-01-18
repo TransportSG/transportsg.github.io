@@ -3455,7 +3455,7 @@ EDSData.SBST = {
     1051: {
         front: {
             renderType: "standardService",
-            serviceNumber: "103",
+            serviceNumber: "105",
             destination: {
                 text: "> JURONG EAST INT",
                 font: "Mobitec-7:5:2"
@@ -3731,7 +3731,11 @@ EDSData.SBST = {
                 font: "Mobitec-7:4"
             },
             scrolls: [
-                "HOUGANG AVE 4"
+                "HOUGANG AVE 4",
+                "HOUGANG AVE 9",
+                "YIO CHU KANG RD",
+                "SERANGOON CENTRAL",
+                "HOUGANG AVE 9"
             ],
             scrollFont: "Mobitec-6:5"
         }
@@ -3882,7 +3886,7 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "121",
             destination: {
-                text: "SHENTON WAY TER-TK BLANGAH",
+                text: "SHENTON WY - TK BLANGAH",
                 font: "Mobitec-7:4"
             },
             scrolls: [
@@ -4646,7 +4650,7 @@ EDSData.SBST = {
             },
             scrolls: [{
                 renderType: "message",
-                text: "DTL",
+                text: "142",
                 font: "Mobitec-16:8",
                 spacing: 5
             },
@@ -8170,6 +8174,23 @@ EDSData.SBST = {
                 "JURONG WEST ST 63",
                 "JALAN BOON LAY",
                 "CHOA CHU KANG WAY"
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    9931: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "993",
+            destination: {
+                text: "JUR E - BT BATOK W. AVE 8",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+                "BOON LAY WAY",
+                "JURONG TOWN HALL RD",
+                "BUKIT BATOK WEST AVE 8",
+                "BUKIT BATOK RD"
             ],
             scrollFont: "Mobitec-6:5"
         }
