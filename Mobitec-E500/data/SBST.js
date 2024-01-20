@@ -220,7 +220,7 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "LCS1",
             destination: {
-                text: "< TAMPINES AVE 9",
+                text: "> TAMPINES AVE 9",
                 font: "Mobitec-7:5:2"
             },
             scrolls: [
@@ -274,7 +274,7 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "LCS2",
             destination: {
-                text: "< PUNGGOL WAY",
+                text: "> PUNGGOL WAY",
                 font: "Mobitec-7:5:2"
             },
             scrolls: [
@@ -528,6 +528,58 @@ EDSData.SBST = {
                 'UBI AVE 2',
                 'BEDOK RESERVOIR RD',
                 'TAMPINES AVE 1, 2, 7'
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    282: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "28",
+            destination: {
+                text: "> TAMPINES INT",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                'TOA PAYOH LOR 6, 4',
+                'BRADDELL RD',
+                'PAYA LEBAR RD',
+                'NEW UPP CHANGI RD',
+                'TAMPINES AVE 2, 9'
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    83: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "CT8",
+            destination: {
+                text: "> KAMPONG BAHRU TER",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                'ANG MO KIO AVE 4',
+                'ANG MO KIO AVE 3',
+                'ANG MO KIO AVE 10',
+                'NEW BRIDGE RD'
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    84: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "CT8",
+            destination: {
+                text: "> ANG MO KIO AVE 9",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                'EU TONG SEN ST',
+                'ANG MO KIO AVE 10',
+                'ANG MO KIO AVE 3',
+                'ANG MO KIO AVE 4'
             ],
             scrollFont: "Mobitec-6:5"
         }
@@ -947,6 +999,40 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
+    183: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "CT18",
+            destination: {
+                text: "> KAMPONG BAHRU TER",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                'BEDOK NORTH AVE 3',
+                'BEDOK RESERVOIR RD',
+                'JALAN EUNOS',
+                'NEW BRIDGE RD'
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    184: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "CT18",
+            destination: {
+                text: "> BEDOK NORTH AVE 3",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                'EU TONG SEN ST',
+                'JALAN EUNOS',
+                'BEDOK RESERVOIR RD',
+                'BEDOK NORTH AVE 3'
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
     190: {
         front: {
             renderType: "message",
@@ -987,7 +1073,7 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
-    20: {
+    200: {
         front: {
             renderType: "message",
             text: "EB20",
@@ -1012,6 +1098,14 @@ EDSData.SBST = {
                 'TAMPINES AVE 2',
             ],
             scrollFont: "Mobitec-6:5"
+        }
+    },
+    210: {
+        front: {
+            renderType: "message",
+            text: "EB21",
+            font: "Mobitec-16:8",
+            spacing: 1
         }
     },
     211: {
@@ -1058,6 +1152,14 @@ EDSData.SBST = {
             serviceNumber: "21A",
             destinationRoad: "KITCHENER",
             destinationName: "RD (BEF TAI HOE HOTEL)"
+        }
+    },
+    220: {
+        front: {
+            renderType: "message",
+            text: "EB22",
+            font: "Mobitec-16:8",
+            spacing: 1
         }
     },
     221: {
@@ -1134,6 +1236,14 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
+    230: {
+        front: {
+            renderType: "message",
+            text: "EB23",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
     231: {
         front: {
             renderType: "standardService",
@@ -1167,6 +1277,14 @@ EDSData.SBST = {
                 'NEW UPPER CHANGI RD'
             ],
             scrollFont: "Mobitec-6:5"
+        }
+    },
+    240: {
+        front: {
+            renderType: "message",
+            text: "EB24",
+            font: "Mobitec-16:8",
+            spacing: 1
         }
     },
     242: {
@@ -1203,6 +1321,14 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
+    250: {
+        front: {
+            renderType: "message",
+            text: "EB25",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
     252: {
         front: {
             renderType: "standardService",
@@ -1219,6 +1345,14 @@ EDSData.SBST = {
                 "ANG MO KIO AVE 3"
             ],
             scrollFont: "Mobitec-6:5"
+        }
+    },
+    260: {
+        front: {
+            renderType: "message",
+            text: "EB20",
+            font: "Mobitec-16:8",
+            spacing: 1
         }
     },
     261: {
@@ -1253,6 +1387,14 @@ EDSData.SBST = {
                 'NEW UPPER CHANGI RD'
             ],
             scrollFont: "Mobitec-6:5"
+        }
+    },
+    270: {
+        front: {
+            renderType: "message",
+            text: "EB27",
+            font: "Mobitec-16:8",
+            spacing: 1
         }
     },
     271: {
@@ -1297,6 +1439,14 @@ EDSData.SBST = {
             serviceNumber: "27A",
             destinationRoad: "TAMPINES",
             destinationName: "AVE 4 (OPP CENTUARY S)"
+        }
+    },
+    280: {
+        front: {
+            renderType: "message",
+            text: "EB28",
+            font: "Mobitec-16:8",
+            spacing: 1
         }
     },
     281: {
@@ -1367,6 +1517,14 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
+    290: {
+        front: {
+            renderType: "message",
+            text: "EB29",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
     291: {
         front: {
             renderType: "standardService",
@@ -1394,6 +1552,14 @@ EDSData.SBST = {
             serviceNumber: "29A",
             destinationRoad: "TAMPINES",
             destinationName: "AVE 7 (BLK 497D)"
+        }
+    },
+    300: {
+        front: {
+            renderType: "message",
+            text: "EB30",
+            font: "Mobitec-16:8",
+            spacing: 1
         }
     },
     301: {
@@ -1449,6 +1615,14 @@ EDSData.SBST = {
             serviceNumber: "30e"
         }
     },
+    310: {
+        front: {
+            renderType: "message",
+            text: "EB30",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
     311: {
         front: {
             renderType: "standardService",
@@ -1493,6 +1667,14 @@ EDSData.SBST = {
             destinationName: "(T.MERAH STN EXIT A)"
         }
     },
+    320: {
+        front: {
+            renderType: "message",
+            text: "EB32",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
     321: {
         front: {
             renderType: "standardService",
@@ -1527,6 +1709,14 @@ EDSData.SBST = {
                 'FRANKEL AVE'
             ],
             scrollFont: "Mobitec-6:5"
+        }
+    },
+    330: {
+        front: {
+            renderType: "message",
+            text: "EB33",
+            font: "Mobitec-16:8",
+            spacing: 1
         }
     },
     331: {
@@ -1585,6 +1775,22 @@ EDSData.SBST = {
             destinationName: "OLD AIRPORT RD (BLK 22)"
         }
     },
+    340: {
+        front: {
+            renderType: "message",
+            text: "EB34",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    350: {
+        front: {
+            renderType: "message",
+            text: "EB35",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
     351: {
         front: {
             renderType: "standardService",
@@ -1635,6 +1841,22 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
+    360: {
+        front: {
+            renderType: "message",
+            text: "EB36",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    370: {
+        front: {
+            renderType: "message",
+            text: "EB37",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
     371: {
         front: {
             renderType: "standardService",
@@ -1649,6 +1871,14 @@ EDSData.SBST = {
                 "CHANGI NORTH ST 1"
             ],
             scrollFont: "Mobitec-6:5"
+        }
+    },
+    380: {
+        front: {
+            renderType: "message",
+            text: "EB38",
+            font: "Mobitec-16:8",
+            spacing: 1
         }
     },
     381: {
@@ -1687,6 +1917,14 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
+    39: {
+        front: {
+            renderType: "message",
+            text: "EB39",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
     391: {
         front: {
             renderType: "standardService",
@@ -1721,6 +1959,14 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
+    400: {
+        front: {
+            renderType: "message",
+            text: "EB40",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
     401: {
         front: {
             renderType: "standardService",
@@ -1736,6 +1982,22 @@ EDSData.SBST = {
                 'SIMS AVE'
             ],
             scrollFont: "Mobitec-6:5"
+        }
+    },
+    410: {
+        front: {
+            renderType: "message",
+            text: "EB41",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    420: {
+        front: {
+            renderType: "message",
+            text: "EB42",
+            font: "Mobitec-16:8",
+            spacing: 1
         }
     },
     421: {
@@ -1754,6 +2016,30 @@ EDSData.SBST = {
                 'FRANKEL AVE'
             ],
             scrollFont: "Mobitec-6:5"
+        }
+    },
+    430: {
+        front: {
+            renderType: "message",
+            text: "EB43",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    440: {
+        front: {
+            renderType: "message",
+            text: "EB44",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    450: {
+        front: {
+            renderType: "message",
+            text: "EB45",
+            font: "Mobitec-16:8",
+            spacing: 1
         }
     },
     451: {
@@ -1798,6 +2084,14 @@ EDSData.SBST = {
             serviceNumber: "45A",
             destinationRoad: "UPP S'GOON",
             destinationName: "RD (S'GOON STN EXIT A)"
+        }
+    },
+    460: {
+        front: {
+            renderType: "message",
+            text: "EB46",
+            font: "Mobitec-16:8",
+            spacing: 1
         }
     },
     461: {
@@ -1855,6 +2149,14 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
+    470: {
+        front: {
+            renderType: "message",
+            text: "EB47",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
     471: {
         front: {
             renderType: "standardService",
@@ -1867,6 +2169,14 @@ EDSData.SBST = {
                 "BEDOK SOUTH RD"
             ],
             scrollFont: "Mobitec-6:5"
+        }
+    },
+    480: {
+        front: {
+            renderType: "message",
+            text: "EB48",
+            font: "Mobitec-16:8",
+            spacing: 1
         }
     },
     481: {
@@ -1905,6 +2215,22 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
+    490: {
+        front: {
+            renderType: "message",
+            text: "EB49",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    500: {
+        front: {
+            renderType: "message",
+            text: "EB50",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
     501: {
         front: {
             renderType: "standardService",
@@ -1941,6 +2267,14 @@ EDSData.SBST = {
                 "ANG MO KIO AVE 8"
             ],
             scrollFont: "Mobitec-6:5"
+        }
+    },
+    510: {
+        front: {
+            renderType: "message",
+            text: "EB51",
+            font: "Mobitec-16:8",
+            spacing: 1
         }
     },
     511: {
@@ -1993,6 +2327,14 @@ EDSData.SBST = {
             destinationName: "PANDAN GDNS (BLK 410)"
         }
     },
+    520: {
+        front: {
+            renderType: "message",
+            text: "EB52",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
     521: {
         front: {
             renderType: "standardService",
@@ -2029,6 +2371,14 @@ EDSData.SBST = {
                 'SIN MING AVE'
             ],
             scrollFont: "Mobitec-6:5"
+        }
+    },
+    530: {
+        front: {
+            renderType: "message",
+            text: "EB53",
+            font: "Mobitec-16:8",
+            spacing: 1
         }
     },
     531: {
@@ -2093,6 +2443,14 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
+    540: {
+        front: {
+            renderType: "message",
+            text: "EB54",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
     541: {
         front: {
             renderType: "standardService",
@@ -2127,6 +2485,14 @@ EDSData.SBST = {
                 'MARYMOUNT RD'
             ],
             scrollFont: "Mobitec-6:5"
+        }
+    },
+    550: {
+        front: {
+            renderType: "message",
+            text: "EB55",
+            font: "Mobitec-16:8",
+            spacing: 1
         }
     },
     551: {
