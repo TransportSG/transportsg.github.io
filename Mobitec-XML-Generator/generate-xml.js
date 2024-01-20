@@ -56,7 +56,13 @@ let codeList = Object.keys(data)
 let programsData = ''
 
 codeList.forEach(code => {
-  let parsed = parseFormat(EDSFormats[operator], data[code][edsToRender], EDSImages[operator], matrix)
+  let parsed
+  try {
+    parsed = parseFormat(EDSFormats[operator], data[code][edsToRender], EDSImages[operator], matrix)
+  } catch (e) {
+    console.error('Error parsing code', code)
+    console.error(e)
+  }
 
   let pages = parsed.pages
   let allPages = []
@@ -93,4 +99,6 @@ fs.writeFileSync(outFile, baseTemplate
   .replace(/\$\{name\}/g, 'Mobitec-XML: ' + name)
   .replace('${date}', 'Today')
   .replace('${programs}', programsData)
+  .replaceAll('${width}', matrixWidth)
+  .replaceAll('${height}', matrixHeight)
 )
