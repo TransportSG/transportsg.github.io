@@ -1,0 +1,9 @@
+<rotation>
+  <rotation_idx>${page_number}</rotation_idx>
+  <change_time_interval>3</change_time_interval>
+  <program_rotation_datas>
+    ${objects}
+  </program_rotation_datas>
+  <background>
+  </background>
+</rotation>

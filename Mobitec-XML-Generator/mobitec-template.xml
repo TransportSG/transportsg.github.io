@@ -15,9 +15,9 @@
         <address>6</address>
         <position>2</position>
         <sign>
-          <name>MobiLED 13.4x10 Scroll (y*x)  16 * 140 scroll</name>
-          <width>140</width>
-          <height>16</height>
+          <name>MobiLED 13.4x10 Scroll (y*x)  ${height} * ${width} scroll</name>
+          <width>${width}</width>
+          <height>${height}</height>
           <signconfiguration>
             <name>MobiLED 13.4x10 Scroll</name>
             <sign_type_base>MobiLED</sign_type_base>
@@ -47,7 +47,7 @@
               <index>0</index>
               <template>
                 <name>LineNo Dest</name>
-                <height>16</height>
+                <height>${height}</height>
                 <templateareas>
                   <templatearea>
                     <areatype>1</areatype>

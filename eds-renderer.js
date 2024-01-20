@@ -406,6 +406,7 @@
         y += measure.offset;
 
         text.position = new Position(x, y);
+        text.sizing = measure
 
         if (text instanceof MultiFontTextObject) {
             let totalMeasure = text.takeMeasure();
