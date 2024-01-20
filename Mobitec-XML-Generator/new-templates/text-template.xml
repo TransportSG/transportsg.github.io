@@ -1,0 +1,42 @@
+<program_rotation_data>
+  <start_x>${text_x}</start_x>
+  <start_y>${text_y}</start_y>
+  <width>${text_w}</width>
+  <height>${text_h}</height>
+  <plaintext>${text}</plaintext>
+  <textdata>C001,4809,7,0,0,0,0,Ff,${text_x},${text_y},0,0,0,0,0,0,0,0,0,0,0,"${font}",6,0,33023,0,0,0,"${text}",</textdata>
+  <area_type>1</area_type>
+  <graphics_objects />
+  <video_data />
+  <t_start_x_pct>0</t_start_x_pct>
+  <t_start_y_dot>0</t_start_y_dot>
+  <t_width_pct>0</t_width_pct>
+  <t_height_dot>16</t_height_dot>
+  <t_font_name>${font}</t_font_name>
+  <t_font_size>6</t_font_size>
+  <t_font_style>0</t_font_style>
+  <t_font_color>16777214</t_font_color>
+  <t_background_color>0</t_background_color>
+  <t_can_grow_x>True</t_can_grow_x>
+  <t_language_idx>0</t_language_idx>
+  <t_alignment>64</t_alignment>
+  <t_displaymethod>
+    <t_dm_scrollspeed>0</t_dm_scrollspeed>
+    <t_dm_time_to_show>0</t_dm_time_to_show>
+    <t_dm_scrolldirection>1</t_dm_scrolldirection>
+    <t_dm_loop_delay>0</t_dm_loop_delay>
+    <t_dm_description>Static text</t_dm_description>
+  </t_displaymethod>
+  <t_spacing>0</t_spacing>
+  <t_default_text>
+  </t_default_text>
+  <t_copy_first>True</t_copy_first>
+  <t_background_fade_color>0</t_background_fade_color>
+  <t_background_fadetype>1</t_background_fadetype>
+  <t_text_fade_color_1>0</t_text_fade_color_1>
+  <t_text_fade_color_2>0</t_text_fade_color_2>
+  <t_text_fade_fadetype>1</t_text_fade_fadetype>
+  <t_outline_color_1>0</t_outline_color_1>
+  <t_outline_color_2>0</t_outline_color_2>
+  <t_outlinetype>1</t_outlinetype>
+</program_rotation_data>

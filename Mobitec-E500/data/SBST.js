@@ -2734,13 +2734,13 @@ EDSData.SBST = {
     748: {
         front: {
             renderType: "expressService",
-            serviceNumber: "30e"
+            serviceNumber: "74e"
         }
     },
     749: {
         front: {
             renderType: "expressService",
-            serviceNumber: "30e"
+            serviceNumber: "74e"
         }
     },
     761: {
@@ -5794,7 +5794,7 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "191",
             destination: {
-                text: "BUONA V. TER-ORTSDOWN RD",
+                text: "BUONA V. TER-PORTSDOWN RD",
                 font: "Mobitec-7:4"
             },
             scrolls: [
