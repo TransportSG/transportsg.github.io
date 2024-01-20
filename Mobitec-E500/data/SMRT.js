@@ -6,7 +6,7 @@ EDSFormats.SMRT = {
                 right: 1
             },
             text: "$serviceNumber",
-            font: "Mobitec-LAWO-16",
+            font: "Mobitec-16:8:Bold",
             spacing: 2
         },
 

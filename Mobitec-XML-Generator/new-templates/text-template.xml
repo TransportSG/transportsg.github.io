@@ -4,7 +4,7 @@
   <width>${text_w}</width>
   <height>${text_h}</height>
   <plaintext>${text}</plaintext>
-  <textdata>C001,4809,7,0,0,0,0,Ff,${text_x},${text_y},0,0,0,0,0,0,0,0,0,0,0,"${font}",6,0,33023,0,0,0,"${text}",</textdata>
+  <textdata>C001,4809,7,0,0,0,0,Ff,${text_chunks}</textdata>
   <area_type>1</area_type>
   <graphics_objects />
   <video_data />

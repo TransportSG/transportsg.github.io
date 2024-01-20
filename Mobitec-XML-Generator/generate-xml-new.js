@@ -53,6 +53,7 @@ let programTemplate = fs.readFileSync('./new-templates/program-template.xml').to
 let rotationTemplate = fs.readFileSync('./new-templates/rotation-template.xml').toString()
 let textTemplate = fs.readFileSync('./new-templates/text-template.xml').toString()
 let graphicsTemplate = fs.readFileSync('./new-templates/graphics-template.xml').toString()
+let textChunkTemplate = '${text_x},${text_y},0,0,0,0,0,0,0,0,0,0,0,"${font}",6,0,33023,0,0,0,"${text}",'
 
 let data = EDSData[operator]
 let codeList = Object.keys(data)
@@ -108,12 +109,16 @@ codeList.forEach(code => {
         if (!mobiFont) return textRendered = false
         if (!textObject.text) return false
 
-        return textTemplate.replaceAll('${text_x}', textObject.position.x - 1)
+        let chunks = [textObject.text]
+
+        return textTemplate
+          .replaceAll('${text_chunks}', chunks.map(chunk => textChunkTemplate.replace('${text}', escapeHTML(chunk))))
+          .replaceAll('${text_x}', textObject.position.x - 1)
           .replaceAll('${text_y}', textObject.position.y)
           .replaceAll('${text_w}', textObject.sizing.width + 2)
           .replaceAll('${text_h}', textObject.sizing.height)
           .replaceAll('${font}', mobiFont)
-          .replaceAll('${text}', escapeHTML(textObject.text))
+          .replace('${text}', chunks.join(' '))
       }).filter(Boolean)
     }
 
