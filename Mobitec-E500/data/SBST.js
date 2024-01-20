@@ -4512,7 +4512,7 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "129",
             destination: {
-                text: "> TAMP NORTH INT",
+                text: "> TAMPINES NORTH INT",
                 font: "Mobitec-7:5:2"
             },
             scrolls: [
