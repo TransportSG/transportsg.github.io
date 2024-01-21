@@ -86,6 +86,14 @@ function escapeHTML(text) {
     .replace(/'/g, "&#039;")
 }
 
+function flattenMulti(objects) {
+  return objects.map(object => {
+    if (object instanceof EDSRenderer.MultiFontTextObject) {
+      return object.text
+    } else return [ object ]
+  }).reduce((acc, e) => acc.concat(e), [])
+}
+
 codeList.forEach(code => {
   let parsed
   try {
@@ -103,7 +111,7 @@ codeList.forEach(code => {
     let pageObjects = []
 
     if (allTextObjects) {
-      pageObjects = page.objects.map(textObject => {
+      pageObjects = flattenMulti(page.objects).map(textObject => {
         if (!textObject.font) console.log(code, page, textObject)
         let mobiFont = fontList[textObject.font.name]
         if (!mobiFont) return textRendered = false
@@ -118,7 +126,7 @@ codeList.forEach(code => {
           .replaceAll('${text_w}', textObject.sizing.width + 2)
           .replaceAll('${text_h}', textObject.sizing.height)
           .replaceAll('${font}', mobiFont)
-          .replace('${text}', chunks.join(' '))
+          .replace('${text}', escapeHTML(chunks.join(' ')))
       }).filter(Boolean)
     }
 
@@ -126,7 +134,7 @@ codeList.forEach(code => {
       let graphicData = renderPageAsGraphic(page)
       let text = parsed.displayName || page.objects.filter(o => o instanceof EDSRenderer.TextObject).map(o => o.text).join(', ')
 
-      pageObjects = [graphicsTemplate.replace('${image_data}', graphicData).replace('${text}', text)]
+      pageObjects = [graphicsTemplate.replace('${image_data}', graphicData).replace('${text}', escapeHTML(text))]
     }
 
     return rotationTemplate.replace('${page_number}', i)

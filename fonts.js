@@ -36523,6 +36523,17 @@ exports.fonts = {
          [1, 1, 1, 1, 1]
        ]
     },
+    "Mobitec-Punctuation": {
+        ",": [
+            [0, 0],
+            [0, 0],
+            [0, 0],
+            [0, 0],
+            [0, 0],
+            [0, 1],
+            [1, 0]
+        ]
+    }
 }
 
 exports.fontSpacers = {
@@ -36586,6 +36597,10 @@ exports.fontSpacers = {
             if (spacing == 2) return 3;
         }
         return spacing;
+    },
+    'Mobitec-Punctuation': (prev, curr, spacing) => {
+        if (prev === ',' && curr === ' ') return spacing - 1
+        return spacing
     }
 }
 

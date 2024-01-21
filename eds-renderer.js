@@ -28,9 +28,19 @@
                 if (typeof font == 'string') {
                     font = Font.fromNameString(font);
                 }
-                text = new TextObject(data, font, null, spacing);
+
+                if (font.name.startsWith('Mobitec-7:5') && data.includes(',')) {
+                    let parts = data.match(/(,+|[^,]+)/g)
+                    let multi = parts.map(part => ({ text: part, font: part === ',' ? 'Mobitec-Punctuation' : font.name }))
+                    text = TextObject.fromJSON(multi, font, spacing)
+                } else {
+                    text = new TextObject(data, font, null, spacing);
+                }
             } else if (data instanceof Array) {
-                text = new MultiFontTextObject(data, font, null, spacing);
+                let fontname = font
+                if (typeof font !== 'string') fontname = font.name
+
+                text = new MultiFontTextObject(data, fontname, null, spacing);
             } else { // JSONTextObject
                 text = TextObject.fromJSONTextObject(Object.assign(data, {spacing}));
             }
@@ -104,7 +114,7 @@
         }
 
         takeMeasure() {
-            return this.text.map(textSection => {return {measure: textSection.takeMeasure(), text: textSection}}).reduce((overall, textSection, i) => {
+            return this.text.map(textSection => ({ measure: textSection.takeMeasure(), text: textSection })).reduce((overall, textSection, i) => {
                 let {measure, text} = textSection;
 
                 overall.width += measure.width;
@@ -422,6 +432,7 @@
                     dy += totalMeasure.height - measure.height
                 }
                 textSection.position = new Position(dx, y + dy);
+                textSection.sizing = measure
 
                 dx += measure.width;
                 dx += textSection.spacing;
