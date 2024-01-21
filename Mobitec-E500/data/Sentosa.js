@@ -64,7 +64,7 @@ EDSData.Sentosa = {
             scrolls: [
                 "Harbourfront Bus Int/MRT"
             ],
-            scrollFont: "Mobitec-7:5:2"
+            scrollFont: "Mobitec-7:5:3"
         }
     },
     9999: {
