@@ -7,15 +7,15 @@ EDSFormats.Sentosa = {
             },
             text: "$serviceNumber",
             font: "Mobitec-16:8",
-            spacing: 1
+            spacing: 2
         },
         destination: {
             align: "centre-x,top",
             margin: {
                 right: 'width(serviceNumber)'
             },
-            text: "$destination.text",
-            font: "$destination.font",
+            text: "$destination",
+            font: "Mobitec-7:7",
             spacing: 1
         },
         scroll: {
@@ -27,10 +27,62 @@ EDSFormats.Sentosa = {
             rotate: true,
             rotateSpeed: 3000,
 
-            font: "$scrollFont",
+            font: "Mobitec-7:4",
             spacing: 1
         },
-        text: "$serviceNumber+' '+$destination.text"
+
+        text: "$destination+' '+$serviceNumber"
+    },
+    destScroll: {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 1
+            },
+            text: "$serviceNumber",
+            font: "Mobitec-16:8",
+            spacing: {
+                $$cond: {
+                    "$spacing === null" : 2,
+                    "else": "$spacing"
+                }
+            }
+        },
+        top: {
+            align: {
+                $$cond: {
+                    "$bottom === null": "centre-x,centre-y",
+                    "else": "centre-x,top"
+                }
+            },
+            text: "$top",
+            font: "$topFont",
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber)'
+            }
+        },
+        bottom: {
+            align: "centre-x,bottom",
+            text: {
+                $$cond: {
+                    "$bottom !== null": "$bottom",
+                    "else": "''"
+                }
+            },
+            font: {
+                $$cond: {
+                    "$bottomFont !== null": "$bottomFont",
+                    "else": "Mobitec-6:5"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber)'
+            }
+        },
+
+        text: "$top+' '+$bottom+' '+$serviceNumber"
     },
     message: {
         display: {
@@ -47,35 +99,95 @@ EDSFormats.Sentosa = {
 EDSData.Sentosa = {
     1: {
         front: {
+            renderType: "standardService",
+            serviceNumber: "A",
+            destination: {
+                text: "Beach Station",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                'via Imbiah Lookout',
+                'via Siloso Point',
+                'via Village Hotel',
+                'via Amara Sanctuary Resort',
+                "via Resorts World Sentosa",
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    2: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "B",
+            destination: {
+                text: "Beach Station",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                'via Sentosa Cove Village',
+                'via ',
+                'via ',
+                'via ',
+                "via ",
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    3: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "C",
+            destination: {
+                text: "Beach Station",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                'via Resorts World Sentosa',
+                'via Amara Sanctuary Resort',
+                'via Village Hotel',
+                'via Siloso Point',
+                "via Imbiah Lookout",
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    4: {
+        front: {
+            renderType: "destScroll",
+            top: "Free Shuttle Service",
+            topFont: "Mobitec-7:7",
+
+            bottom: "HarbourFront Bus Int/MRT",
+            bottomFont: "Mobitec-7:5:2",
+
+            serviceNumber: ""
+        }
+    },
+    9000: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "WIP",
+            destination: {
+                text: "SENTOSA",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                'Fonts and data are still WIP',
+                'Thanks for your patience'
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    1111: {
+        front: {
             renderType: "message",
             text: "OFF SERVICE",
             font: "Mobitec-16:8",
             spacing: 1
-        }
+            }
+        },
     },
-    18: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "",
-            destination: {
-                text: "Free Shuttle Service",
-                font: "Mobitec-7:7"
-            },
-            scrolls: [
-                "Harbourfront Bus Int/MRT"
-            ],
-            scrollFont: "Mobitec-7:5:3"
-        }
-    },
-    9999: {
-        front: {
-            renderType: "message",
-            text: "VER.10JUN19-DD",
-            font: "Mobitec-16:8",
-            spacing: 1
-        }
-    },
-}
+
 
 EDSExtras.Sentosa = {}
 

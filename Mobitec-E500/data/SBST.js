@@ -62,6 +62,13 @@ EDSFormats.SBST = {
         },
         text: "$serviceNumber+' '+$destinationRoad"
     },
+    full: {
+        __dynamic__: (matrix, data) => {
+            matrixPrimitives.setStrokeColour(null);
+            matrixPrimitives.fillRectangle(matrix, 0, 0, matrix.width, matrix.height);
+        },
+        text: "FULL"
+    },
     brandedSvc: {
         serviceNumber: {
             align: "right",
@@ -173,10 +180,7 @@ EDSFormats.SBST = {
 EDSData.SBST = {
     1: {
         front: {
-            renderType: "message",
-            text: "ALL",
-            font: "Mobitec-16:8",
-            spacing: 1
+            renderType: "full"
         }
     },
     10: {
