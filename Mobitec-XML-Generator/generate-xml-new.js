@@ -100,8 +100,8 @@ function flattenMulti(objects) {
 let edsData = EDSData[operator]
 let extraData = EDSExtras[operator]
 
-let programList = Object.keys(edsData).map(key => ({ code: key, type: 1, data: edsData[key] }))
-let extraList = Object.keys(extraData).map(key => ({ code: key, type: 2, data: extraData[key] }))
+let programList = Object.keys(edsData).map(key => ({ code: key, type: programTypes.PROGRAM, data: edsData[key] }))
+let extraList = Object.keys(extraData).map(key => ({ code: key, type: programTypes.EXTRA, data: extraData[key] }))
 
 programList.concat(extraList).forEach(program => {
   let { code, type, data } = program
