@@ -4,7 +4,7 @@ let currentExtra = '0';
 let currentScreenCode = '0';
 let screenFilter = '';
 
-let operators = ['SMRT', 'SBST', 'TTSG']
+let operators = ['SMRT', 'SBST', 'TTSG', 'GASG', 'Sentosa']
 let operatorIndex = operators.map((e, i) => i)
 
 function setScreen(screenName) {
