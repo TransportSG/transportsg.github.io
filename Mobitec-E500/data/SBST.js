@@ -5021,7 +5021,6 @@ EDSData.SBST = {
                 spacing: 5
             },
             'LOR 6 TOA PAYOH',
-            'LOR 6 TOA PAYOH',
             'JLN TOA PAYOH',
             'UPP SERANGOON RD',
             'POTONG PASIR AVE 1, 3, 2'
