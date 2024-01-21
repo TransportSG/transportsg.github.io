@@ -31,7 +31,7 @@ EDSFormats.Sentosa = {
             spacing: 1
         },
 
-        text: "$destination+' '+$serviceNumber"
+        text: "$destination.text+' '+$serviceNumber"
     },
     destScroll: {
         serviceNumber: {
