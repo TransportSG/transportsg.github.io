@@ -420,7 +420,7 @@ EDSData.SBST = {
     63: {
         front: {
             renderType: "brandedSvc",
-            serviceNumber: "3N",
+            serviceNumber: "6N",
             branding: "NITE  OWL",
             font: "Mobitec-16:8",
             spacing: 1
@@ -5476,7 +5476,7 @@ EDSData.SBST = {
         front: {
             renderType: "brandedSvc",
             serviceNumber: "160",
-            branding: "JB   SENTRAL",
+            branding: "JB SENTRAL",
             font: "Mobitec-16:8",
             spacing: 1
         }
@@ -5536,7 +5536,7 @@ EDSData.SBST = {
         front: {
             renderType: "brandedSvc",
             serviceNumber: "160",
-            branding: "JURONG   EAST",
+            branding: "JURONG EAST",
             font: "Mobitec-16:8",
             spacing: 1
         }
@@ -5978,7 +5978,7 @@ EDSData.SBST = {
         front: {
             renderType: "brandedSvc",
             serviceNumber: "170",
-            branding: "QUEEN   STREET",
+            branding: "QUEEN STREET",
             font: "Mobitec-16:8",
             spacing: 1
         }
@@ -5987,7 +5987,7 @@ EDSData.SBST = {
         front: {
             renderType: "brandedSvc",
             serviceNumber: "170X",
-            branding: "JB   SENTRAL",
+            branding: "JB SENTRAL",
             font: "Mobitec-16:8",
             spacing: 1
         }
@@ -5996,7 +5996,7 @@ EDSData.SBST = {
         front: {
             renderType: "brandedSvc",
             serviceNumber: "170X",
-            branding: "KRANJI   STN",
+            branding: "KRANJI STN",
             font: "Mobitec-16:8",
             spacing: 1
         }
