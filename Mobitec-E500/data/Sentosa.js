@@ -10,18 +10,18 @@ EDSFormats.Sentosa = {
             spacing: 1
         },
         destination: {
-            align: "left,bottom",
+            align: "centre-x,top",
             margin: {
-                left: 1
+                right: 'width(serviceNumber)'
             },
-            text: "$destination",
+            text: "$destination.text",
+            font: "$destination.font",
             spacing: 1
         },
         scroll: {
-            align: "left,top",
+            align: "centre-x,bottom",
             margin: {
-                left: 1,
-                top: 1
+                right: 'width(serviceNumber)'
             },
             scrolls: "$scrolls",
             rotate: true,
@@ -56,20 +56,15 @@ EDSData.Sentosa = {
     18: {
         front: {
             renderType: "standardService",
-            serviceNumber: "LCS1",
+            serviceNumber: "",
             destination: {
-                text: "> CHANGI AIRFREIGHT CTR",
-                font: "Mobitec-7:4"
+                text: "Free Shuttle Service",
+                font: "Mobitec-7:7"
             },
             scrolls: [
-                'TAMPINES AVE 3',
-                'TAMPINES AVE 5',
-                'LOYANG WAY',
-                'ALPS AVE',
-                'AIRPORT CARGO RD',
-                'AIRLINE RD'
+                "Harbourfront Bus Int/MRT"
             ],
-            scrollFont: "Mobitec-6:5"
+            scrollFont: "Mobitec-7:5:2"
         }
     },
     9999: {
