@@ -9,7 +9,7 @@
       </rotations>
     </position>
   </positions>
-  <program_type_id>1</program_type_id>
+  <program_type_id>${program_type}</program_type_id>
   <bus_pgm_no>${program_id}</bus_pgm_no>
   <bounded>true</bounded>
   <bus_line_no>

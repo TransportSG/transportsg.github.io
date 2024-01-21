@@ -15,6 +15,11 @@ global.EDSData = {}
 global.EDSImages = {}
 global.EDSExtras = {}
 
+let programTypes = {
+  PROGRAM: 1,
+  EXTRA: 2
+}
+
 Object.keys(MatrixPrimitives).forEach(key => global[key] = MatrixPrimitives[key])
 Object.keys(EDSRenderer).forEach(key => global[key] = EDSRenderer[key])
 Object.keys(Fonts).forEach(key => global[key] = Fonts[key])
@@ -55,8 +60,6 @@ let textTemplate = fs.readFileSync('./new-templates/text-template.xml').toString
 let graphicsTemplate = fs.readFileSync('./new-templates/graphics-template.xml').toString()
 let textChunkTemplate = '${text_x},${text_y},0,0,0,0,0,0,0,0,0,0,0,"${font}",6,0,33023,0,0,0,"${text}",'
 
-let data = EDSData[operator]
-let codeList = Object.keys(data)
 let programsData = ''
 
 function renderPageAsGraphic(page) {
@@ -94,10 +97,17 @@ function flattenMulti(objects) {
   }).reduce((acc, e) => acc.concat(e), [])
 }
 
-codeList.forEach(code => {
+let edsData = EDSData[operator]
+let extraData = EDSExtras[operator]
+
+let programList = Object.keys(edsData).map(key => ({ code: key, type: 1, data: edsData[key] }))
+let extraList = Object.keys(extraData).map(key => ({ code: key, type: 2, data: extraData[key] }))
+
+programList.concat(extraList).forEach(program => {
+  let { code, type, data } = program
   let parsed
   try {
-    parsed = parseFormat(EDSFormats[operator], data[code][edsToRender], EDSImages[operator], matrix)
+    parsed = parseFormat(EDSFormats[operator], data[edsToRender], EDSImages[operator], matrix)
   } catch (e) {
     console.error('Error parsing code', code)
     return console.error(e)
@@ -138,10 +148,11 @@ codeList.forEach(code => {
     }
 
     return rotationTemplate.replace('${page_number}', i)
-      .replace('${objects}', pageObjects.join('\n'))
+    .replace('${objects}', pageObjects.join('\n'))
   })
 
   programsData += programTemplate.replaceAll('${program_id}', code)
+    .replaceAll('${program_type}', type)
     .replace('${rotations}', allPages.join('\n'))
 })
 

@@ -18,8 +18,20 @@
             this.spacing = spacing;
         }
 
+        static mobiFonts = ['Mobitec-7:4', 'Mobitec-7:5:1', 'Mobitec-7:5:2', 'Mobitec-7:5:3']
+
         static fromJSONTextObject(data) {
             return new TextObject(data.text, Font.fromNameString(data.font), null, data.spacing);
+        }
+
+        static mobiFontCheck(data, font, spacing) {
+            if (this.mobiFonts.includes(font.name) && data.includes(',')) {
+                let parts = data.match(/(,+|[^,]+)/g)
+                let multi = parts.map(part => ({ text: part, font: part === ',' ? 'Mobitec-Punctuation' : font.name }))
+                return TextObject.fromJSON(multi, font, spacing)
+            } else {
+                return new TextObject(data, font, null, spacing);
+            }
         }
 
         static fromJSON(data, font, spacing) {
@@ -29,13 +41,7 @@
                     font = Font.fromNameString(font);
                 }
 
-                if (font.name.startsWith('Mobitec-7:5') && data.includes(',')) {
-                    let parts = data.match(/(,+|[^,]+)/g)
-                    let multi = parts.map(part => ({ text: part, font: part === ',' ? 'Mobitec-Punctuation' : font.name }))
-                    text = TextObject.fromJSON(multi, font, spacing)
-                } else {
-                    text = new TextObject(data, font, null, spacing);
-                }
+                text = TextObject.mobiFontCheck(data, font, spacing)
             } else if (data instanceof Array) {
                 let fontname = font
                 if (typeof font !== 'string') fontname = font.name
