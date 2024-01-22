@@ -3989,6 +3989,44 @@ EDSData.TTSG = {
                 spacing: 2
             }
         }
+    },
+    9031: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "E31",
+                destination: "CCL EXPRESS BUS",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    "HARBOURFRONT - KENT RIDGE"
+                ],
+                scrollFont: "LECIP-6:3"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "E31",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "E31",
+                destination: "CCL EXPRESS BUS",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    "KENT RIDGE - HARBOURFRONT"
+                ],
+                scrollFont: "LECIP-6:3"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "E51",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
     }
 }
 

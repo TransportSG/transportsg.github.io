@@ -124,11 +124,18 @@ EDSData.Sentosa = {
                 font: "Mobitec-7:7"
             },
             scrolls: [
+                'via Opp Village Hotel',
+                'via Opp Amara Sanctuary',
+                'via Sentosa Pavillon',
+                'via W Hotel',
                 'via Sentosa Cove Village',
-                'via ',
-                'via ',
-                'via ',
-                "via ",
+                'via Opp Sentosa Pavillon',
+                'via Sentosa Golf Club',
+                'via Etonhouse',
+                'via Palawan Beach',
+                'via Opp SO Spa',
+                "via Amara Sanctuary Resort",
+                "via Village Hotel"
             ],
             scrollFont: "Mobitec-6:5"
         }
