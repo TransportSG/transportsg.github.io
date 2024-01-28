@@ -2560,7 +2560,13 @@ EDSData.TTSG = {
                 serviceNumber: "825",
                 destination: "YIO CHU KANG",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "YIO CHU KANG",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "825"
+                },
                     "ANG MO KIO AVE 6",
                     "LENTOR MRT",
                     "LENTOR RD",
@@ -4130,7 +4136,13 @@ EDSData.TTSG = {
                 serviceNumber: "974",
                 destination: "BT PANJANG MRT",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "BT PANJANG MRT",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "974"
+                },
                     "UPPER JURONG RD",
                     "JURONG WEST ST 63",
                     "JALAN BOON LAY",
@@ -4152,7 +4164,13 @@ EDSData.TTSG = {
                 serviceNumber: "974",
                 destination: "JOO KOON",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "JOO KOON",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "974"
+                },
                     "CHOA CHU KANG WAY",
                     "CHOA CHU KANG MRT",
                     "JALAN BOON LAY",
