@@ -97,7 +97,7 @@ EDSData.GASG = {
     32: {
         front: {
             renderType: "standardService",
-            serviceNumber: "2",
+            serviceNumber: "3",
             destination: {
                 text: "PUNGGOL",
                 font: "Mobitec-7:7"
@@ -110,6 +110,133 @@ EDSData.GASG = {
                 "PASIR RIS DR 10 / 1 / 12", 
                 "TAMPINES EXPRESSWAY",
                 "PUNGGOL FIELD / CENTRAL"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    151: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "15",
+            destination: {
+                text: "MARINE PARADE",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "PASIR RIS ST 52, DR 1 / 8",
+                "TAMPINES AVE 12 / 7 / 4 / 5 / 1",
+                "BEDOK NORTH RD",
+                "BEDOK RESERVOIR RD",
+                "JALAN EUNOS / MRT",
+                "STILL RD",
+                "TELOK KURAU RD",
+                "JOO CHIAT PLACE"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    152: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "15",
+            destination: {
+                text: "PASIR RIS",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "JOO CHIAT PLACE",
+                "STILL RD",
+                "JALAN EUNOS / MRT",
+                "BEDOK RESERVOIR RD",
+                "BEDOK NORTH RD",
+                "TAMPINES WEST MRT",
+                "TAMPINES AVE 1 / 5 / 4 / 7 / 12",
+                "PASIR RIS DR 8/1, ST 52"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    341: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "34",
+            destination: {
+                text: "CHANGI AIRPORT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "PUNGGOL RD",
+                "TAMPINES EXPRESSWAY",
+                "TAMPINES AVE 10 / 5 / 2",
+                "TAMPINES EAST MRT"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    342: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "34",
+            destination: {
+                text: "PUNGGOL",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "TAMPINES EAST MRT",
+                "TAMPINES AVE 2 / 5 / 10",
+                "TAMPINES EXPRESSWAY",
+                "PUNGGOL RD"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    361: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "36",
+            destination: {
+                text: "TOMLINSON RD",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "MARINE PARADE RD",
+                "SUNTEC CITY",
+                "STAMFORD RD",
+                "DHOBY GHAUT MRT",
+                "SOMERSET MRT",
+                "ORCHARD BOULEVARD"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    362: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "36",
+            destination: {
+                text: "CHANGI AIRPORT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "ORCHARD RD",
+                "BRAS BASAH RD",
+                "SUNTEC CITY",
+                "MARINE PARADE RD",
+                "SIGLAP RD / LINK"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    365: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "36T",
+            destination: {
+                text: "ENDS AT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "CHANGI AIRPORT T2"
             ],
             scrollFont: "Mobitec-7:4"
         }
