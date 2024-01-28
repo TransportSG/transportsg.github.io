@@ -3316,7 +3316,13 @@ EDSData.TTSG = {
                 serviceNumber: "870",
                 destination: "TENGAH",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "TENGAH",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "870"
+                },
                     "BUKIT BATOK AVE 1",
                     "BUKIT BATOK WEST AVE 6",
                     "BUKIT BATOK WEST AVE 3",
@@ -3337,7 +3343,13 @@ EDSData.TTSG = {
                 serviceNumber: "870",
                 destination: "JUR TOWN HALL",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "JUR TOWN HALL",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "870"
+                },
                     "BUKIT BATOK WEST AVE 3",
                     "BUKIT BATOK WEST AVE 6",
                     "BUKIT BATOK AVE 1"
