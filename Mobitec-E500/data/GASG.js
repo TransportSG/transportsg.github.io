@@ -59,12 +59,83 @@ EDSData.GASG = {
             scrollFont: "Mobitec-7:4"
         }
     },
+    22: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "2",
+            destination: {
+                text: "CHANGI VILLAGE",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "LOYANG AVE"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    31: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "3",
+            destination: {
+                text: "TAMPINES",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "PUNGGOL CENTRAL / FIELD",
+                "TAMPINES EXPRESSWAY",
+                "PASIR RIS DR 12 / 1 / 10",
+                "PASIR RIS ST 71",
+                "PASIR RIS INT",
+                "PASIR RIS DR 3 / ST 21",
+                "TAMPINES EAST MRT",
+                "TAMPINES ST 21"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    32: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "2",
+            destination: {
+                text: "PUNGGOL",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "TAMPINES ST 21",
+                "TAMPINES EAST MRT",
+                "PASIR RIS ST 21 / DR 3",
+                "PASIR RIS ST 71",
+                "PASIR RIS DR 10 / 1 / 12", 
+                "TAMPINES EXPRESSWAY",
+                "PUNGGOL FIELD / CENTRAL"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
     1111: {
         front: {
             renderType: "message",
             text: "OFF SERVICE",
             font: "Mobitec-16:8",
             spacing: 1
+        }
+    },
+    3841: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "384",
+            destination: {
+                text: "PUNGGOL INT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "PUNGGOL CENTRAL",
+                "PUNGGOL WAY",
+                "NORTHSHORE DRIVE"
+            ],
+            scrollFont: "Mobitec-7:4"
         }
     },
     4031: {

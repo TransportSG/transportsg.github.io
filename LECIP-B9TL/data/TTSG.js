@@ -3763,6 +3763,24 @@ EDSData.TTSG = {
             }
         }
     },
+    1111: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "OFF SERVICE",
+                font: "LECIP-20:12",
+                spacing: 2
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "OFF",
+                topFont: "LECIP-7:4", // check font
+
+                bottom: "SERVICE",
+                bottomFont: "LECIP-7:4"
+            }
+        }
+    },
     5000: {
         1: {
             front: {
@@ -4022,9 +4040,27 @@ EDSData.TTSG = {
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "E51",
+                serviceNumber: "E31",
                 font: "LECIP-20:9",
                 spacing: 2
+            }
+        }
+    },
+    9999: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "BUS  UNDER  REPAIR",
+                font: "LECIP-20:9",
+                spacing: 1
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "UNDER",
+                topFont: "LECIP-7:4", // check font
+
+                bottom: "REPAIR",
+                bottomFont: "LECIP-7:4"
             }
         }
     }
