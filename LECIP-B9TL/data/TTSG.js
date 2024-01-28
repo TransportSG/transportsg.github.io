@@ -69,6 +69,65 @@ EDSFormats.TTSG = {
         },
         text: "$top"
     },
+    destScroll: {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 1
+            },
+            text: "$serviceNumber",
+            font: "LECIP-20:12",
+            spacing: {
+                $$cond: {
+                    "$spacing === null" : 3,
+                    "else": "$spacing"
+                }
+            }
+        },
+        top: {
+            align: {
+                $$cond: {
+                    "$bottom === null": "centre-x,centre-y",
+                    "else": "centre-x,top"
+                }
+            },
+            text: "$top",
+            font: "$topFont",
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber)'
+            }
+        },
+        bottom: {
+            align: "centre-x,bottom",
+            text: {
+                $$cond: {
+                    "$bottom !== null": "$bottom",
+                    "else": "''"
+                }
+            },
+            font: {
+                $$cond: {
+                    "$bottomFont !== null": "$bottomFont",
+                    "else": "LECIP-10"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber)'
+            }
+        },
+
+        text: "$top+' '+$bottom+' '+$serviceNumber"
+    },
+    logo: {
+        logo: {
+            align: "centre-x,centre-y",
+            image: "$image"
+        },
+
+        text: "$text"
+    },
     rearService: {
         serviceNumber: {
             align: "centre-x,centre-y",
@@ -89,7 +148,13 @@ EDSData.TTSG = {
                 serviceNumber: "41",
                 destination: "BEAUTY WORLD MRT",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "BEAUTY WORLD MRT",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "41"
+                },
                 "TOH GUAN RD",
                 "TOH GUAN RD EAST",
                 "TOH TUCK RD"
@@ -109,7 +174,13 @@ EDSData.TTSG = {
                 serviceNumber: "41",
                 destination: "JURONG EAST",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "JURONG EAST",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "41"
+                },
                 "TOH TUCK RD",
                 "TOH GUAN RD EAST",
                 "TOH GUAN RD"
@@ -131,7 +202,13 @@ EDSData.TTSG = {
                 serviceNumber: "49",
                 destination: "JURONG WEST ST 42",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "JURONG WEST ST 42",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "49"
+                },
                 "LAKESIDE MRT",
                 "JURONG WEST ST 51"
                 ],
@@ -150,7 +227,13 @@ EDSData.TTSG = {
                 serviceNumber: "49",
                 destination: "JURONG EAST",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "JURONG EAST",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "49"
+                },
                 "JURONG WEST ST 51",
                 "LAKESIDE MRT"
                 ],
@@ -171,7 +254,13 @@ EDSData.TTSG = {
                 serviceNumber: "66",
                 destination: "BEAUTY WORLD MRT",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "BEAUTY WORLD MRT",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "66"
+                },
                     "JURONG TOWN HALL RD",
                     "JALAN JURONG KECHIL"
                 ],
@@ -190,7 +279,13 @@ EDSData.TTSG = {
                 serviceNumber: "66",
                 destination: "JURONG EAST",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "JURONG EAST",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "66"
+                },
                     "JALAN JURONG KECHIL",
                     "JURONG TOWN HALL RD"
                 ],
@@ -272,7 +367,13 @@ EDSData.TTSG = {
                 serviceNumber: "66",
                 destination: "BEDOK",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "BEDOK",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "66"
+                },
                     "BUKIT BATOK CENTRAL",
                     "DUNEARN RD",
                     "LITTLE INDIA",
@@ -294,7 +395,13 @@ EDSData.TTSG = {
                 serviceNumber: "66",
                 destination: "JURONG EAST",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "JURONG EAST",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "66"
+                },
                     "BEDOK RESERVOIR RD",
                     "MACPHERSON EST / RD",
                     "LITTLE INDIA",
@@ -318,7 +425,13 @@ EDSData.TTSG = {
                 serviceNumber: "77",
                 destination: "MARINA CENTRE",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "MARINA CENTRE",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "77"
+                },
                     "TOH TUCK AVE",
                     "SIXTH AVE",
                     "HOLLAND VILLAGE / RD",
@@ -341,7 +454,13 @@ EDSData.TTSG = {
                 serviceNumber: "77",
                 destination: "BUKIT BATOK",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "BUKIT BATOK",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "77"
+                },
                     "STAMFORD RD",
                     "ORCHARD BOULEVARD",
                     "HOLLAND RD / VILLAGE",
@@ -365,7 +484,13 @@ EDSData.TTSG = {
                 serviceNumber: "77",
                 destination: "STAMFORD RD",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "STAMFORD RD",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "77"
+                },
                     "TOH TUCK AVE",
                     "SIXTH AVE",
                     "HOLLAND VILLAGE / RD",
@@ -388,7 +513,13 @@ EDSData.TTSG = {
                 serviceNumber: "77",
                 destination: "BUKIT BATOK",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "BUKIT BATOK",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "77"
+                },
                     "STAMFORD RD",
                     "ORCHARD BOULEVARD",
                     "HOLLAND RD / VILLAGE",
@@ -412,7 +543,13 @@ EDSData.TTSG = {
                 serviceNumber: "78",
                 destination: "CLEMENTI MRT",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "CLEMENTI MRT",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "78"
+                },
                     "PENJURU"
                 ],
                 scrollFont: "LECIP-7:5"
@@ -431,7 +568,13 @@ EDSData.TTSG = {
                 serviceNumber: "78",
                 destination: "JURONG TOWN HALL",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "JURONG TOWN HALL",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "78"
+                },
                     "PENJURU"
                 ],
                 scrollFont: "LECIP-7:5"
@@ -472,7 +615,13 @@ EDSData.TTSG = {
                 serviceNumber: "78",
                 destination: "CLEMENTI MRT",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "CLEMENTI MRT",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "78"
+                },
                     "PENJURU"
                 ],
                 scrollFont: "LECIP-7:5"
@@ -491,7 +640,13 @@ EDSData.TTSG = {
                 serviceNumber: "78",
                 destination: "JURONG EAST MRT",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "JURONG EAST MRT",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "78"
+                },
                     "PENJURU"
                 ],
                 scrollFont: "LECIP-7:5"
@@ -511,7 +666,13 @@ EDSData.TTSG = {
                 serviceNumber: "79",
                 destination: "JURONG EAST MRT",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "JURONG EAST MRT",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "79"
+                },
                     "PENJURU"
                 ],
                 scrollFont: "LECIP-7:5"
@@ -530,7 +691,13 @@ EDSData.TTSG = {
                 serviceNumber: "79",
                 destination: "BOON LAY",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "BOON LAY",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "79"
+                },
                     "PENJURU"
                 ],
                 scrollFont: "LECIP-7:5"
@@ -589,7 +756,13 @@ EDSData.TTSG = {
                 serviceNumber: "96",
                 destination: "CLEMENTI",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "CLEMENTI",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "96"
+                },
                     "CLEMENTI RD",
                     "NAT'L UNIVERSITY OF S'PORE",
                     "KENT RIDGE CRESCENT"
@@ -599,7 +772,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "96",
-                font: "LECIP-20:6",
+                font: "LECIP-20:12",
                 spacing: 2
             }
         }
@@ -652,7 +825,13 @@ EDSData.TTSG = {
                 serviceNumber: "97",
                 destination: "MARINA CENTRE",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "MARINA CENTRE",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "97"
+                },
                     "AYE",
                     "ALEXANDRA RD",
                     "HARBOURFRONT",
@@ -676,7 +855,13 @@ EDSData.TTSG = {
                 serviceNumber: "97",
                 destination: "JURONG EAST",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "JURONG EAST",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "97"
+                },
                     "SUNTEC CITY",
                     "BAYFRONT AVE / MBS",
                     "SHENTON WAY",
@@ -750,7 +935,13 @@ EDSData.TTSG = {
                 serviceNumber: "97",
                 destination: "RAFFLES QUAY",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "RAFFLES QUAY",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "97"
+                },
                     "A Y E",
                     "ALEXANDRA RD",
                     "HARBOURFRONT",
@@ -774,7 +965,13 @@ EDSData.TTSG = {
                 serviceNumber: "97",
                 destination: "JURONG EAST",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "JURONG EAST",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "97"
+                },
                     "SHENTON WAY",
                     "HARBOURFRONT",
                     "ALEXANDRA RD",
@@ -797,7 +994,13 @@ EDSData.TTSG = {
                 serviceNumber: "98",
                 destination: "JURONG PIER WAY",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "JURONG PIER WAY",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "98"
+                },
                     "JURONG EAST AVE 1",
                     "LAKESIDE MRT"
                 ],
@@ -820,7 +1023,13 @@ EDSData.TTSG = {
                 serviceNumber: "98",
                 destination: "JURONG EAST",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "JURONG EAST",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "98"
+                },
                     "LAKESIDE MRT",
                     "JURONG EAST AVE 1"
                 ],
@@ -886,7 +1095,13 @@ EDSData.TTSG = {
                 serviceNumber: "98M",
                 destination: "CORPORATION RD",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "CORPORATION RD",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "98M"
+                },
                     "JURONG EAST AVE 1",
                     "LAKESIDE MRT"
                 ],
@@ -910,7 +1125,13 @@ EDSData.TTSG = {
                 serviceNumber: "98M",
                 destination: "JURONG EAST",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "JURONG EAST",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "98M"
+                },
                     "LAKESIDE MRT",
                     "JURONG EAST AVE 1"
                 ],
@@ -935,7 +1156,13 @@ EDSData.TTSG = {
                 serviceNumber: "106",
                 destination: "SHENTON WAY",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "SHENTON WAY",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "106"
+                },
                     "COMMONWEALTH AVE WEST",
                     "HOLLAND VILLAGE / RD",
                     "ORCHARD RD",
@@ -956,7 +1183,13 @@ EDSData.TTSG = {
                 serviceNumber: "106",
                 destination: "BUKIT BATOK",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "BUKIT BATOK",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "106"
+                },
                     "ROBINSON RD",
                     "CENTRAL BOULEVARD",
                     "BAYFRONT AVE / MBS",
@@ -1050,7 +1283,13 @@ EDSData.TTSG = {
                 serviceNumber: "143",
                 destination: "TOA PAYOH",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "TOA PAYOH",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "143"
+                },
                     "TEBAN GARDENS RD",
                     "WEST COAST RD",
                     "HARBOURFRONT",
@@ -1062,7 +1301,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "143",
-                font: "LECIP-20:12",
+                font: "LECIP-20:9",
                 spacing: 2
             }
         },
@@ -1072,7 +1311,13 @@ EDSData.TTSG = {
                 serviceNumber: "143",
                 destination: "JURONG EAST",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "JURONG EAST",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "143"
+                },
                     "ORCHARD RD",
                     "CHINATOWN",
                     "HARBOURFRONT",
@@ -1084,7 +1329,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "143",
-                font: "LECIP-20:12",
+                font: "LECIP-20:9",
                 spacing: 2
             }
         }
@@ -1096,7 +1341,13 @@ EDSData.TTSG = {
                 serviceNumber: "143M",
                 destination: "JURONG EAST",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "JURONG EAST",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "143M"
+                },
                     "JURONG TOWN HALL RD",
                     "TEBAN GARDEN RD",
                     "PANDAN GARDENS"
@@ -1118,7 +1369,13 @@ EDSData.TTSG = {
                 serviceNumber: "167",
                 destination: "BUKIT MERAH",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "BUKIT MERAH",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "167"
+                },
                     "SEMBAWANG RD",
                     "UPPER THOMSON RD",
                     "THOMSON RD",
@@ -1140,7 +1397,13 @@ EDSData.TTSG = {
                 serviceNumber: "167",
                 destination: "SEMBAWANG",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "SEMBAWANG",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "167"
+                },
                     "CECIL STREET",
                     "ORCHARD TURN",
                     "THOMSON RD",
@@ -1164,7 +1427,13 @@ EDSData.TTSG = {
                 serviceNumber: "167",
                 destination: "BUKIT MERAH",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "BUKIT MERAH",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "167"
+                },
                     "SEMBAWANG RD",
                     "UPPER THOMSON RD",
                     "THOMSON RD",
@@ -1187,7 +1456,13 @@ EDSData.TTSG = {
                 serviceNumber: "167",
                 destination: "SEMBAWANG",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "SEMBAWANG",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "167"
+                },
                     "CECIL STREET",
                     "ORCHARD TURN",
                     "THOMSON RD",
@@ -1212,7 +1487,13 @@ EDSData.TTSG = {
                 serviceNumber: "169",
                 destination: "ANG MO KIO",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "ANG MO KIO",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "169"
+                },
                     "WOODLANDS AVE 9",
                     "ADMIRALTY RD EAST",
                     "YISHUN MRT",
@@ -1234,7 +1515,13 @@ EDSData.TTSG = {
                 serviceNumber: "169",
                 destination: "WOODLANDS",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "WOODLANDS",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "169"
+                },
                     "ANG MO KIO AVE 3",
                     "SEMBAWANG RD",
                     "YISHUN MRT",
@@ -1299,7 +1586,13 @@ EDSData.TTSG = {
                 serviceNumber: "171",
                 destination: "BUKIT PANJANG MRT",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "BUKIT PANJANG MRT",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "171"
+                },
                     "YISHUN AVE 5",
                     "SEMBAWANG RD",
                     "MANDAI RD",
@@ -1320,7 +1613,13 @@ EDSData.TTSG = {
                 serviceNumber: "171",
                 destination: "YISHUN",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "YISHUN",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "171"
+                },
                     "PETIR RD",
                     "MANDAI RD",
                     "SEMBAWANG RD",
@@ -1343,7 +1642,13 @@ EDSData.TTSG = {
                 serviceNumber: "173",
                 destination: "CLEMENTI",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "CLEMENTI",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "173"
+                },
                     "BUKIT BATOK EAST AVE 4",
                     "HILLVIEW AVE",
                     "JALAN BATU NILAM",
@@ -1370,7 +1675,13 @@ EDSData.TTSG = {
                 serviceNumber: "173",
                 destination: "BUKIT BATOK",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "BUKIT BATOK",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "173"
+                },
                     "TOH TUCK RISE / RD",
                     "BEAUTY WORLD MRT",
                     "HUME AVE",
@@ -1420,7 +1731,13 @@ EDSData.TTSG = {
                 serviceNumber: "177",
                 destination: "BUKIT PANJANG",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "BUKIT PANJANG",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "177"
+                },
                     "BUKIT BATOK EAST AVE 4",
                     "HILLVIEW AVE",
                     "M I N D E F",
@@ -1445,7 +1762,13 @@ EDSData.TTSG = {
                 serviceNumber: "177",
                 destination: "BUKIT BATOK",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "BUKIT BATOK",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "177"
+                },
                     "JELEBU RD",
                     "UPPER BUKIT TIMAH RD",
                     "M I N D E F",
@@ -1473,7 +1796,13 @@ EDSData.TTSG = {
                 serviceNumber: "183",
                 destination: "SCIENCE PARK RD",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "SCIENCE PARK RD",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "183"
+                },
                     "TOH GUAN RD EAST",
                     "CLEMENTI MRT",
                     "CLEMENTI RD",
@@ -1494,7 +1823,13 @@ EDSData.TTSG = {
                 serviceNumber: "183",
                 destination: "JURONG EAST",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "JURONG EAST",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "183"
+                },
                     "PASIR PANJANG RD",
                     "CLEMENTI RD",
                     "CLEMENTI MRT",
@@ -1538,7 +1873,13 @@ EDSData.TTSG = {
                 serviceNumber: "189",
                 destination: "CLEMENTI AVE 1",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "CLEMENTI AVE 1",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "189"
+                },
                     "BUKIT BATOK ST 23",
                     "CLEMENTI AVE 6",
                     "CLEMENTI MRT"
@@ -1548,7 +1889,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "189",
-                font: "LECIP-20:12",
+                font: "LECIP-20:9",
                 spacing: 2
             }
         },
@@ -1558,7 +1899,13 @@ EDSData.TTSG = {
                 serviceNumber: "189",
                 destination: "BUKIT BATOK",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "BUKIT BATOK",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "189"
+                },
                     "CLEMENTI MRT",
                     "CLEMENTI AVE 6",
                     "BUKIT BATOK ST 23"
@@ -1568,7 +1915,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "189",
-                font: "LECIP-20:12",
+                font: "LECIP-20:9",
                 spacing: 2
             }
         }
@@ -1601,7 +1948,13 @@ EDSData.TTSG = {
                 serviceNumber: "282",
                 destination: "CLEMENTI",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "CLEMENTI",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "282"
+                },
                     "CLEMENTI AVE 5",
                     "CLEMENTI AVE 2",
                     "CLEMENTI WEST ST 2"
@@ -1623,7 +1976,13 @@ EDSData.TTSG = {
                 serviceNumber: "284",
                 destination: "CLEMENTI",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "CLEMENTI",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "284"
+                },
                     "CLEMENTI AVE 4"
                 ],
                 scrollFont: "LECIP-7:5"
@@ -1643,7 +2002,13 @@ EDSData.TTSG = {
                 serviceNumber: "285",
                 destination: "CLEMENTI",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "CLEMENTI",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "285"
+                },
                     "CLEMENTI AVE 2",
                     "WEST COAST RD",
                     "PANDAN LOOP"
@@ -1665,7 +2030,13 @@ EDSData.TTSG = {
                 serviceNumber: "333",
                 destination: "JURONG EAST",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "JURONG EAST",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "333"
+                },
                     "TOH GUAN RD", 
                     "JURONG EAST AVE 1",
                     "JURONG EAST ST 32"
@@ -1687,7 +2058,13 @@ EDSData.TTSG = {
                 serviceNumber: "334",
                 destination: "JURONG EAST",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "JURONG EAST",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "334"
+                },
                     "JURONG EAST AVE 1", 
                     "JURONG WEST AVE 1",
                     "JURONG EAST ST 42"
@@ -1709,7 +2086,13 @@ EDSData.TTSG = {
                 serviceNumber: "335",
                 destination: "JURONG EAST",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "JURONG EAST",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "335"
+                },
                     "JURONG TOWN HALL RD",
                     "BOON LAY WAY",
                     "JURONG WEST ST 51",
@@ -2147,7 +2530,13 @@ EDSData.TTSG = {
                 serviceNumber: "801",
                 destination: "YISHUN",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "YISHUN",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "801"
+                },
                     "YISHUN CENTRAL",
                     "YISHUN AVE 9",
                     "YISHUN AVE 6",
@@ -2194,7 +2583,13 @@ EDSData.TTSG = {
                 serviceNumber: "853",
                 destination: "LOR 1 GEYLANG",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "LOR 1 GEYLANG",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "853"
+                },
                     "YISHUN AVE 2",
                     "ANG MO KIO AVE 6",
                     "SERANGOON CENTRAL",
@@ -2216,7 +2611,13 @@ EDSData.TTSG = {
                 serviceNumber: "853",
                 destination: "YISHUN",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "YISHUN",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "853"
+                },
                     "GEYLANG BAHRU",
                     "UPPER SERANGOON RD",
                     "SERANGOON CENTRAL",
@@ -2240,7 +2641,13 @@ EDSData.TTSG = {
                 serviceNumber: "853M",
                 destination: "UPP EAST COAST",
                 destinationFont: "LECIP-7:5",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "UPP EAST COAST",
+                    topFont: "LECIP-7:5",
+        
+                    serviceNumber: "853M"
+                },
                     "ANG MO KIO AVE 6",
                     "SERANGOON CENTRAL",
                     "SIMS AVE",
@@ -2286,7 +2693,13 @@ EDSData.TTSG = {
                 serviceNumber: "854",
                 destination: "BEDOK",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "BEDOK",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "854"
+                },
                     "YISHUN AVE 2",
                     "YIO CHU KANG RD",
                     "HOUGANG AVE 3",
@@ -2308,7 +2721,13 @@ EDSData.TTSG = {
                 serviceNumber: "854",
                 destination: "YISHUN",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "YISHUN",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "854"
+                },
                     "NEW UPPER CHANGI RD",
                     "EUNOS LINK",
                     "HOUGANG AVE 3",
@@ -2330,9 +2749,15 @@ EDSData.TTSG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "855",
-                destination: "BEDOK",
+                destination: "HARBOURFRONT",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "HARBOURFRONT",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "855"
+                },
                     "YISHUN AVE 2",
                     "UPPER THOMSON RD",
                     "ADAM RD",
@@ -2354,7 +2779,13 @@ EDSData.TTSG = {
                 serviceNumber: "855",
                 destination: "YISHUN",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "YISHUN",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "855"
+                },
                     "JALAN BUKIT MERAH",
                     "QUEENSWAY",
                     "FARRER RD",
@@ -2378,7 +2809,13 @@ EDSData.TTSG = {
                 serviceNumber: "856",
                 destination: "WOODLANDS",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "WOODLANDS",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "856"
+                },
                     "CANBERRA RD",
                     "ADMIRALTY RD WEST",
                     "SENOKO DR",
@@ -2404,7 +2841,13 @@ EDSData.TTSG = {
                 serviceNumber: "856",
                 destination: "YISHUN",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "YISHUN",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "856"
+                },
                     "WOODLANDS TRAIN CHKPT",
                     "WOODLANDS NORTH MRT",
                     "SENOKO RD",
@@ -2473,7 +2916,13 @@ EDSData.TTSG = {
                 serviceNumber: "857",
                 destination: "TEMASEK AVE",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "TEMASEK AVE",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "857"
+                },
                     "YIO CHU KANG RD",
                     "BENDEMEER RD",
                     "LITTLE INDIA",
@@ -2495,7 +2944,13 @@ EDSData.TTSG = {
                 serviceNumber: "857",
                 destination: "YISHUN",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "YISHUN",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "857"
+                },
                     "STAMFORD RD",
                     "SELEGIE RD",
                     "BOON KENG MRT",
@@ -2580,7 +3035,13 @@ EDSData.TTSG = {
                 serviceNumber: "857",
                 destination: "STAMFORD RD",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "STAMFORD RD",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "857"
+                },
                     "YIO CHU KANG RD",
                     "BENDEMEER RD",
                     "LITTLE INDIA",
@@ -2602,7 +3063,13 @@ EDSData.TTSG = {
                 serviceNumber: "857",
                 destination: "YISHUN",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "YISHUN",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "857"
+                },
                     "STAMFORD RD",
                     "SELEGIE RD",
                     "BOON KENG MRT",
@@ -2626,7 +3093,13 @@ EDSData.TTSG = {
                 serviceNumber: "858",
                 destination: "CHANGI AIRPORT",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "CHANGI AIRPORT",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "858"
+                },
                     "WOODLANDS AVE 9",
                     "SEMBAWANG WAY",
                     "YISHUN MRT",
@@ -2648,7 +3121,13 @@ EDSData.TTSG = {
                 serviceNumber: "858",
                 destination: "WOODLANDS",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "WOODLANDS",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "858"
+                },
                     "T P E",
                     "JALAN KAYU",
                     "YISHUN MRT",
@@ -2713,7 +3192,13 @@ EDSData.TTSG = {
                 serviceNumber: "859",
                 destination: "YISHUN",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "YISHUN",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "859"
+                },
                     "CANBERRA RD",
                     "ADMIRALTY LINK",
                     "SEMBAWANG CRES",
@@ -2735,7 +3220,13 @@ EDSData.TTSG = {
                 serviceNumber: "859",
                 destination: "SEMBAWANG",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "SEMBAWANG",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "859"
+                },
                     "YISHUN AVE 5",
                     "SEMBAWANG RD",
                     "SEMBAWANG CRES",
@@ -2889,7 +3380,13 @@ EDSData.TTSG = {
                 serviceNumber: "882",
                 destination: "SEMBAWANG",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "SEMBAWANG",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "882"
+                },
                     "WELLINGTON CIRCLE",
                     "MONTREAL DR",
                     "MONTREAL LINK",
@@ -2932,9 +3429,15 @@ EDSData.TTSG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "883",
-                destination: "YISHUN CENTRAL",
+                destination: "YISHUN CTRL 2",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "YISHUN CTRL 2",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "883"
+                },
                     "CANBERRA WAY",
                     "CANBERRA ST",
                     "CANBERRA MRT",
@@ -2960,7 +3463,13 @@ EDSData.TTSG = {
                 serviceNumber: "883",
                 destination: "SEMBAWANG",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "SEMBAWANG",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "883"
+                },
                     "YISHUN MRT",
                     "YISHUN AVE 2",
                     "CANBERRA MRT",
@@ -3028,9 +3537,15 @@ EDSData.TTSG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "883M",
-                destination: "YISHUN MRT",
+                destination: "YISHUN AVE 5",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "YISHUN AVE 5",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "883M"
+                },
                     "CANBERRA WAY",
                     "CANBERRA ST",
                     "CANBERRA MRT",
@@ -3056,7 +3571,13 @@ EDSData.TTSG = {
                 serviceNumber: "883M",
                 destination: "SEMBAWANG",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "SEMBWANG",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "883M"
+                },
                     "YISHUN MRT",
                     "YISHUN AVE 2",
                     "CANBERRA MRT",
@@ -3081,10 +3602,16 @@ EDSData.TTSG = {
         1: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "944",
+                serviceNumber: "941",
                 destination: "BUKIT BATOK",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "BUKIT BATOK",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "941"
+                },
                     "BUKIT BATOK"
                 ],
                 scrollFont: "LECIP-7:5"
@@ -3104,7 +3631,13 @@ EDSData.TTSG = {
                 serviceNumber: "944",
                 destination: "BUKIT BATOK",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "BUKIT BATOK",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "944"
+                },
                     "BUKIT BATOK WEST AVE 6",
                     "BUKIT BATOK WEST AVE 8",
                     "BUKIT BATOK RD",
@@ -3126,7 +3659,13 @@ EDSData.TTSG = {
                 serviceNumber: "945",
                 destination: "BUKIT BATOK",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "BUKIT BATOK",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "945"
+                },
                     "BUKIT BATOK"
                 ],
                 scrollFont: "LECIP-7:5"
@@ -3146,7 +3685,13 @@ EDSData.TTSG = {
                 serviceNumber: "947",
                 destination: "BUKIT BATOK",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "BUKIT BATOK",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "947"
+                },
                     "BUKIT BATOK"
                 ],
                 scrollFont: "LECIP-7:5"
@@ -3166,7 +3711,13 @@ EDSData.TTSG = {
                 serviceNumber: "963",
                 destination: "HARBOURFRONT",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "HARBOURFRONT",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "963"
+                },
                     "BUKIT PANJANG RD",
                     "HILLVIEW AVE",
                     "BUKIT BATOK EAST AVE 3",
@@ -3188,7 +3739,13 @@ EDSData.TTSG = {
                 serviceNumber: "963",
                 destination: "WOODLANDS",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "WOODLANDS",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "963"
+                },
                     "ALEXANDRA RD",
                     "A Y E",
                     "BUKIT BATOK EAST AVE 3",
@@ -3304,7 +3861,13 @@ EDSData.TTSG = {
                 serviceNumber: "965",
                 destination: "SENGKANG",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "SENGKANG",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "965"
+                },
                     "WOODLANDS AVE 7",
                     "GAMBAS AVE",
                     "YISHUN MRT",
@@ -3326,7 +3889,13 @@ EDSData.TTSG = {
                 serviceNumber: "965",
                 destination: "WDL TEMP INT",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "WDL TEMP INT",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "965"
+                },
                     "COMPASSVALE RD",
                     "YISHUN MRT",
                     "YISHUN AVE 7",
@@ -3390,7 +3959,13 @@ EDSData.TTSG = {
                 serviceNumber: "966",
                 destination: "MARINE PARADE",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "MARINE PARADE",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "966"
+                },
                     "WOODLANDS AVE 3",
                     "PENDING RD",
                     "JALAN KOLAM AYER",
@@ -3412,7 +3987,13 @@ EDSData.TTSG = {
                 serviceNumber: "966",
                 destination: "WOODLANDS",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "WOODLANDS",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "966"
+                },
                     "MARINE PARADE RD",
                     "JALAN EUNOS",
                     "JALAN KOLAM AYER",
@@ -3458,7 +4039,13 @@ EDSData.TTSG = {
                 serviceNumber: "969",
                 destination: "TAMPINES",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "TAMPINES",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "969"
+                },
                     "WOODLANDS AVE 7",
                     "GAMBAS AVE",
                     "YISHUN MRT",
@@ -3480,7 +4067,13 @@ EDSData.TTSG = {
                 serviceNumber: "969",
                 destination: "WOODLANDS",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "WOODLANDS",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "969"
+                },
                     "TAMPINES CONCOURSE",
                     "T P E",
                     "YISHUN MRT",
@@ -3571,7 +4164,13 @@ EDSData.TTSG = {
                 serviceNumber: "980",
                 destination: "LOR 1 GEYLANG",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "LOR 1 GEYLANG",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "980"
+                },
                     "SEMBAWANG RD",
                     "UPPER THOMSON RD",
                     "THOMSON RD",
@@ -3593,7 +4192,13 @@ EDSData.TTSG = {
                 serviceNumber: "980",
                 destination: "SEMBAWANG",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "SEMBAWANG",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "980"
+                },
                     "BEACH RD",
                     "LITTLE INDIA",
                     "THOMSON RD",
@@ -3617,7 +4222,13 @@ EDSData.TTSG = {
                 serviceNumber: "981",
                 destination: "SENOKO LOOP",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "SENOKO LOOP",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "981"
+                },
                     "CANBERRA RD",
                     "ADMIRALTY RD WEST",
                     "SENOKO DR",
@@ -3638,7 +4249,13 @@ EDSData.TTSG = {
                 serviceNumber: "981",
                 destination: "SEMBAWANG",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "SEMBAWANG",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "981"
+                },
                     "SENOKO RD",
                     "SENOKO LOOP",
                     "SENOKO DR",
@@ -3663,7 +4280,13 @@ EDSData.TTSG = {
                 serviceNumber: "990",
                 destination: "JURONG EAST MRT",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "JURONG EAST MRT",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "990"
+                },
                     "BUKIT BATOK EAST AVE 3",
                     "BUKIT BATOK EAST AVE 6",
                     "TOH GUAN RD"
@@ -3683,7 +4306,13 @@ EDSData.TTSG = {
                 serviceNumber: "990",
                 destination: "BUKIT BATOK",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "BUKIT BATOK",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "990"
+                },
                     "TOH GUAN RD",
                     "BUKIT BATOK EAST AVE 6",
                     "BUKIT BATOK EAST AVE 3"
@@ -3705,7 +4334,13 @@ EDSData.TTSG = {
                 serviceNumber: "992",
                 destination: "TENGAH",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "TENGAH",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "992"
+                },
                     "BUKIT BATOK WEST AVE 6",
                     "BUKIT BATOK WEST AVE 8",
                     "BUKIT BATOK RD",
@@ -3726,7 +4361,13 @@ EDSData.TTSG = {
                 serviceNumber: "992",
                 destination: "BUKIT BATOK",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "BUKIT BATOK",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "992"
+                },
                     "PLANTATION CRESCENT",
                     "BUKIT BATOK RD",
                     "BUKIT BATOK WEST AVE 8",

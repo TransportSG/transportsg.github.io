@@ -69,6 +69,57 @@ EDSFormats.GASG = {
         },
         text: "$top"
     },
+    destScroll: {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 1
+            },
+            text: "$serviceNumber",
+            font: "LECIP-20:12",
+            spacing: {
+                $$cond: {
+                    "$spacing === null" : 3,
+                    "else": "$spacing"
+                }
+            }
+        },
+        top: {
+            align: {
+                $$cond: {
+                    "$bottom === null": "centre-x,centre-y",
+                    "else": "centre-x,top"
+                }
+            },
+            text: "$top",
+            font: "$topFont",
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber)'
+            }
+        },
+        bottom: {
+            align: "centre-x,bottom",
+            text: {
+                $$cond: {
+                    "$bottom !== null": "$bottom",
+                    "else": "''"
+                }
+            },
+            font: {
+                $$cond: {
+                    "$bottomFont !== null": "$bottomFont",
+                    "else": "LECIP-10"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber)'
+            }
+        },
+
+        text: "$top+' '+$bottom+' '+$serviceNumber"
+    },
     rearService: {
         serviceNumber: {
             align: "centre-x,centre-y",
@@ -89,7 +140,13 @@ EDSData.GASG = {
                 serviceNumber: "2",
                 destination: "KAMPONG BAHRU",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "KAMPONG BAHRU",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "2"
+                },
                     "LOYANG AVE"
                 ],
                 scrollFont: "LECIP-7:5"
@@ -107,7 +164,13 @@ EDSData.GASG = {
                 serviceNumber: "2",
                 destination: "CHANGI VILLAGE",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "CHANGI VILLAGE",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "2"
+                },
                     "LOYANG AVE"
                 ],
                 scrollFont: "LECIP-7:5"

@@ -14,7 +14,7 @@ EDSFormats.GASG = {
             margin: {
                 right: 'width(serviceNumber)'
             },
-            text: "$destination.text+' via'",
+            text: "$destination.text",
             font: "$destination.font",
             spacing: 1
         },
