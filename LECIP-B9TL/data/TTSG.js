@@ -209,6 +209,8 @@ EDSData.TTSG = {
         
                     serviceNumber: "49"
                 },
+                "JALAN AHMAD IBRAHIM",
+                "CORPORATION DR",
                 "LAKESIDE MRT",
                 "JURONG WEST ST 51"
                 ],
@@ -235,7 +237,9 @@ EDSData.TTSG = {
                     serviceNumber: "49"
                 },
                 "JURONG WEST ST 51",
-                "LAKESIDE MRT"
+                "LAKESIDE MRT",
+                "CORPORATION DR",
+                "JALAN AHMAD IBRAHIM"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -262,6 +266,8 @@ EDSData.TTSG = {
                     serviceNumber: "66"
                 },
                     "JURONG TOWN HALL RD",
+                    "BUKIT BATOK WEST AVE 8",
+                    "BUKIT BATOK WEST AVE 6",
                     "JALAN JURONG KECHIL"
                 ],
                 scrollFont: "LECIP-7:5"
@@ -287,6 +293,8 @@ EDSData.TTSG = {
                     serviceNumber: "66"
                 },
                     "JALAN JURONG KECHIL",
+                    "BUKIT BATOK WEST AVE 6",
+                    "BUKIT BATOK WEST AVE 8",
                     "JURONG TOWN HALL RD"
                 ],
                 scrollFont: "LECIP-7:5"
@@ -1002,7 +1010,11 @@ EDSData.TTSG = {
                     serviceNumber: "98"
                 },
                     "JURONG EAST AVE 1",
-                    "LAKESIDE MRT"
+                    'JURONG WEST AVE 1',
+                    "LAKESIDE MRT",
+                    "CORPORATION DR",
+                    "JURONG PORT RD",
+                    "JALAN BUROH"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -1030,7 +1042,11 @@ EDSData.TTSG = {
         
                     serviceNumber: "98"
                 },
+                    "JALAN BUROH",
+                    "JURONG PORT RD",
+                    "CORPORATION DR",
                     "LAKESIDE MRT",
+                    "JURONG WEST AVE 1",
                     "JURONG EAST AVE 1"
                 ],
                 scrollFont: "LECIP-7:5"
@@ -1102,8 +1118,10 @@ EDSData.TTSG = {
         
                     serviceNumber: "98M"
                 },
-                    "JURONG EAST AVE 1",
-                    "LAKESIDE MRT"
+                "JURONG EAST AVE 1",
+                'JURONG WEST AVE 1',
+                "LAKESIDE MRT",
+                "CORPORATION DR"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -1132,8 +1150,10 @@ EDSData.TTSG = {
         
                     serviceNumber: "98M"
                 },
-                    "LAKESIDE MRT",
-                    "JURONG EAST AVE 1"
+                "CORPORATION DR",
+                "LAKESIDE MRT",
+                "JURONG WEST AVE 1",
+                "JURONG EAST AVE 1"
                 ],
                 scrollFont: "LECIP-7:5"
             },
