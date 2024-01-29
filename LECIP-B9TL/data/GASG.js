@@ -261,7 +261,13 @@ EDSData.GASG = {
                 serviceNumber: "3",
                 destination: "PUNGGOL",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "PUNGGOL",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "3"
+                },
                     "TAMPINES ST 21",
                     "TAMPINES EAST MRT",
                     "PASIR RIS ST 21 / DR 3",
@@ -336,7 +342,13 @@ EDSData.GASG = {
                 serviceNumber: "12",
                 destination: "KAMPONG BAHRU",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "KAMPONG BAHRU",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "12"
+                },
                     "TANAH MERAH MRT"
                 ],
                 scrollFont: "LECIP-7:5"
@@ -354,7 +366,13 @@ EDSData.GASG = {
                 serviceNumber: "12",
                 destination: "PASIR RIS",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "PASIR RIS",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "12"
+                },
                     "CHINATOWN / CLARKE QUAY MRT",
                     "VICTORIA ST / BUGIS",
                     "LAVENDER / KALLANG MRT",
@@ -384,7 +402,13 @@ EDSData.GASG = {
                 serviceNumber: "12e",
                 destination: "KAMPONG BAHRU",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "KAMPONG BAHRU",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "12e"
+                },
                     "PASIR RIS DR 6 / 1",
                     "TAMPINES AVE 7 / 2",
                     "SIMEI RD",
@@ -409,7 +433,13 @@ EDSData.GASG = {
                 serviceNumber: "12e",
                 destination: "PASIR RIS",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "PASIR RIS",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "12e"
+                },
                     "CLARKE QUAY",
                     "BUGIS",
                     "ECP (EXPRESS)",
@@ -834,7 +864,7 @@ EDSData.GASG = {
                 destinationFont: "LECIP-10",
                 scrolls: [{
                     renderType: "destScroll",
-                    top: "PUNGGOL",
+                    top: "UPP EAST COAST",
                     topFont: "LECIP-10",
         
                     serviceNumber: "43"
@@ -902,11 +932,11 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "43e",
-                destination: "MARINE PARADE RD",
+                destination: "UPP EAST COAST",
                 destinationFont: "LECIP-10",
                 scrolls: [{
                     renderType: "destScroll",
-                    top: "PUNGGOL",
+                    top: "UPP EAST COAST",
                     topFont: "LECIP-10",
         
                     serviceNumber: "43e"
@@ -954,7 +984,13 @@ EDSData.GASG = {
                 serviceNumber: "43M",
                 destination: "SERANGOON MRT",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "SERANGOON MRT",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "43M"
+                },
                     "PUNGGOL WAY",
                     "SENGKANG EAST RD",
                     "BUANGKOK MRT",
@@ -977,7 +1013,13 @@ EDSData.GASG = {
                 serviceNumber: "43M",
                 destination: "PUNGGOL",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "PUNGGOL",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "43M"
+                },
                     "YIO CHU KANG RD",
                     "BUANGKOK GREEN",
                     "BUANGKOK MRT",
@@ -1565,7 +1607,7 @@ EDSData.GASG = {
                     top: "PUNGGOL",
                     topFont: "LECIP-10",
         
-                    serviceNumber: "199"
+                    serviceNumber: "119"
                 },
                     "UPPER SERANGOON RD",
                     "HOUGANG AVE 8 / 10",
@@ -1639,11 +1681,11 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "354",
-                destination: "PASIR RIS",
+                destination: "PASIR RIS INT",
                 destinationFont: "LECIP-10",
                 scrolls: [{
                     renderType: "destScroll",
-                    top: "PASIR RIS",
+                    top: "PASIR RIS INT",
                     topFont: "LECIP-10",
         
                     serviceNumber: "354"
