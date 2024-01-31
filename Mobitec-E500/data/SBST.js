@@ -5086,6 +5086,23 @@ EDSData.SBST = {
             destinationName: "HENDERSON RD (BLK 1)"
         }
     },
+    1461: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "146",
+            destination: {
+                text: "BARTLEY STN - BIDADARI",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+                'BARTLEY RD',
+                'UPPER SERANGOON RD',
+                'BIDADARI PARK DR',
+                'UPPER SERANGOON RD',
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
     1471: {
         front: {
             renderType: "standardService",

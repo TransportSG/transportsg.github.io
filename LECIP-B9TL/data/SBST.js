@@ -9290,6 +9290,29 @@ EDSData.SBST = {
             }
         }
     },
+    146: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "146",
+                destination: "BARTLEY STN - BIDADARI PK DR",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                    'BARTLEY RD',
+                    'UPPER SERANGOON RD',
+                    'BIDADARI PARK DR',
+                    'UPPER SERANGOON RD',
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "146",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
     147: {
         1: {
             front: {

@@ -3376,9 +3376,11 @@ EDSData.TTSG = {
         
                     serviceNumber: "870"
                 },
+                    "BUKIT BATOK RD",
                     "BUKIT BATOK WEST AVE 3",
                     "BUKIT BATOK WEST AVE 6",
-                    "BUKIT BATOK AVE 1"
+                    "BUKIT BATOK AVE 1",
+                    "JURONG EAST CENTRAL"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -3807,7 +3809,13 @@ EDSData.TTSG = {
                 serviceNumber: "963e",
                 destination: "HARBOURFRONT",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "HARBOURFRONT",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "963e"
+                },
                     "WOODLANDS AVE 3",
                     "BUKIT PANJANG RD",
                     "HILLVIEW AVE",
@@ -3829,7 +3837,13 @@ EDSData.TTSG = {
                 serviceNumber: "963e",
                 destination: "WOODLANDS",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "WOODLANDS",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "963e"
+                },
                     "A Y E",
                     "BT BATOK EAST AVE 3",
                     "HILLVIEW AVE",
@@ -3853,7 +3867,13 @@ EDSData.TTSG = {
                 serviceNumber: "963R",
                 destination: "R W S",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "RESORTS WORLD",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "963R"
+                },
                     "WOODLANDS AVE 3",
                     "BUKIT PANJANG RD",
                     "HILLVIEW AVE",
@@ -3875,7 +3895,13 @@ EDSData.TTSG = {
                 serviceNumber: "963R",
                 destination: "WOODLANDS",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "WOODLANDS",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "963R"
+                },
                     "A Y E",
                     "BT BATOK EAST AVE 3",
                     "HILLVIEW AVE",
@@ -4575,7 +4601,13 @@ EDSData.TTSG = {
                 serviceNumber: "97e",
                 destination: "RAFFLES QUAY",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "RAFFLES QUAY",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "97e"
+                },
                     "A Y E",
                     "ALEXANDRA RD",
                     "HARBOURFRONT",
@@ -4599,7 +4631,13 @@ EDSData.TTSG = {
                 serviceNumber: "97e",
                 destination: "JURONG EAST",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "JURONG EAST",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "97e"
+                },
                     "SHENTON WAY",
                     "HARBOURFRONT",
                     "ALEXANDRA RD",

@@ -1140,8 +1140,9 @@ EDSData.GASG = {
                 },
                     "ELIAS RD",
                     "PASIR RIS ST 71",
-                    "PASIR RIS DR 10 / 1 / 12",
-                    "TAMPINES AVE 10 / 11 / 6",
+                    "TAMPINES AVE 10",
+                    "TAMPINES AVE 11",
+                    "TAMPINES AVE 6",
                     "TAMPINES CONCOURSE"
 
                 ],
@@ -1168,8 +1169,9 @@ EDSData.GASG = {
                     serviceNumber: "68"
                 },
                     "TAMPINES CONCOURSE",
-                    "TAMPINES AVE 6 / 11 / 10",
-                    "PASIR RIS DR 12 / 1 / 10",
+                    "TAMPINES AVE 6",
+                    "TAMPINES AVE 11",
+                    "TAMPINES AVE 10",
                     "PASIR RIS ST 71",
                     "ELIAS RD"
                 ],
