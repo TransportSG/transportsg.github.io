@@ -5091,7 +5091,7 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "146",
             destination: {
-                text: "BARTLEY STN - BIDADARI",
+                text: "BARTLEY RD - BIDADARI",
                 font: "Mobitec-7:4"
             },
             scrolls: [
