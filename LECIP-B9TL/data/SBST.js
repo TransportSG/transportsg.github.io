@@ -9295,7 +9295,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "146",
-                destination: "BARTLEY RD - WOODLEIGH STN",
+                destination: "BARTLEY RD - BIDADARI PK DR",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                     'HOUGANG AVE 3',
