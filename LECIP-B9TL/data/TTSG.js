@@ -128,6 +128,13 @@ EDSFormats.TTSG = {
 
         text: "$text"
     },
+    full: {
+        __dynamic__: (matrix, data) => {
+            matrixPrimitives.setStrokeColour(null);
+            matrixPrimitives.fillRectangle(matrix, 0, 0, matrix.width, matrix.height);
+        },
+        text: "FULL"
+    },
     rearService: {
         serviceNumber: {
             align: "centre-x,centre-y",
@@ -4495,6 +4502,34 @@ EDSData.TTSG = {
 
                 bottom: "SERVICE",
                 bottomFont: "LECIP-7:4"
+            }
+        }
+    },
+    2222: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "SPARE  BUS",
+                font: "LECIP-20:12",
+                spacing: 2
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "SPARE",
+                topFont: "LECIP-7:4", // check font
+
+                bottom: "BUS",
+                bottomFont: "LECIP-7:4"
+            }
+        }
+    },
+    3333: {
+        1: {
+            front: {
+                renderType: "full"
+            },
+            rear: {
+                renderType: "full"
             }
         }
     },

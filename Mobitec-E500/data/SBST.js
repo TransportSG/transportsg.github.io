@@ -559,14 +559,14 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "CT8",
             destination: {
-                text: "> KAMPONG BAHRU TER",
+                text: "> ANG MO KIO AVE 9",
                 font: "Mobitec-7:5:2"
             },
             scrolls: [
-                'ANG MO KIO AVE 4',
-                'ANG MO KIO AVE 3',
+                'EU TONG SEN ST',
                 'ANG MO KIO AVE 10',
-                'NEW BRIDGE RD'
+                'ANG MO KIO AVE 3',
+                'ANG MO KIO AVE 4'
             ],
             scrollFont: "Mobitec-6:5"
         }
@@ -576,14 +576,14 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "CT8",
             destination: {
-                text: "> ANG MO KIO AVE 9",
+                text: "> KAMPONG BAHRU TER",
                 font: "Mobitec-7:5:2"
             },
             scrolls: [
-                'EU TONG SEN ST',
-                'ANG MO KIO AVE 10',
+                'ANG MO KIO AVE 4',
                 'ANG MO KIO AVE 3',
-                'ANG MO KIO AVE 4'
+                'ANG MO KIO AVE 10',
+                'NEW BRIDGE RD'
             ],
             scrollFont: "Mobitec-6:5"
         }
@@ -1008,14 +1008,14 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "CT18",
             destination: {
-                text: "> KAMPONG BAHRU TER",
+                text: "> BEDOK NORTH AVE 3",
                 font: "Mobitec-7:5:2"
             },
             scrolls: [
-                'BEDOK NORTH AVE 3',
-                'BEDOK RESERVOIR RD',
+                'EU TONG SEN ST',
                 'JALAN EUNOS',
-                'NEW BRIDGE RD'
+                'BEDOK RESERVOIR RD',
+                'BEDOK NORTH AVE 3'
             ],
             scrollFont: "Mobitec-6:5"
         }
@@ -1025,14 +1025,14 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "CT18",
             destination: {
-                text: "> BEDOK NORTH AVE 3",
+                text: "> KAMPONG BAHRU TER",
                 font: "Mobitec-7:5:2"
             },
             scrolls: [
-                'EU TONG SEN ST',
-                'JALAN EUNOS',
+                'BEDOK NORTH AVE 3',
                 'BEDOK RESERVOIR RD',
-                'BEDOK NORTH AVE 3'
+                'JALAN EUNOS',
+                'NEW BRIDGE RD'
             ],
             scrollFont: "Mobitec-6:5"
         }
@@ -1510,7 +1510,7 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "CT28",
             destination: {
-                text: "> KAMPONG BAHRU TER",
+                text: "> NEW BRIDGE RD TER",
                 font: "Mobitec-7:5:2"
             },
             scrolls: [
@@ -7899,7 +7899,7 @@ EDSData.SBST = {
         front: {
             renderType: "message",
             text: "TRAINING IN PROGRESS",
-            font: "Mobitec-7:5:2",
+            font: "Mobitec-7:7",
             spacing: 1
         }
     },
@@ -8301,6 +8301,106 @@ EDSData.SBST = {
             serviceNumber: "812T",
             destinationRoad: "",
             destinationName: "YISHUN INT"
+        }
+    },
+    8141: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "CT8",
+            destination: {
+                text: "> ANG MO KIO AVE 9",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                'EU TONG SEN ST',
+                'ANG MO KIO AVE 10',
+                'ANG MO KIO AVE 3',
+                'ANG MO KIO AVE 4'
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    8142: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "CT8",
+            destination: {
+                text: "> NEW BRIDGE RD TER",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                'ANG MO KIO AVE 4',
+                'ANG MO KIO AVE 3',
+                'ANG MO KIO AVE 10',
+                'NEW BRIDGE RD'
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    8151: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "CT18",
+            destination: {
+                text: "> BEDOK NORTH AVE 3",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                'EU TONG SEN ST',
+                'JALAN EUNOS',
+                'BEDOK RESERVOIR RD',
+                'BEDOK NORTH AVE 3'
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    8152: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "CT18",
+            destination: {
+                text: "> NEW BRIDGE RD TER",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                'BEDOK NORTH AVE 3',
+                'BEDOK RESERVOIR RD',
+                'JALAN EUNOS',
+                'NEW BRIDGE RD'
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    8161: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "CT28",
+            destination: {
+                text: "> CLEMENTI AVE 4",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                "EU TONG SEN ST",
+                "C'WEALTH AVE WEST",
+                "CLEMENTI AVE 4"
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    8162: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "CT28",
+            destination: {
+                text: "> KG. BAHRU TER",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                "CLEMENTI AVE 4",
+                "C'WEALTH AVE WEST",
+                "NEW BRIDGE RD"
+            ],
+            scrollFont: "Mobitec-6:5"
         }
     },
     8501: {

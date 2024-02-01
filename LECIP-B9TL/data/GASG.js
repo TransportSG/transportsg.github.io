@@ -120,6 +120,13 @@ EDSFormats.GASG = {
 
         text: "$top+' '+$bottom+' '+$serviceNumber"
     },
+    full: {
+        __dynamic__: (matrix, data) => {
+            matrixPrimitives.setStrokeColour(null);
+            matrixPrimitives.fillRectangle(matrix, 0, 0, matrix.width, matrix.height);
+        },
+        text: "FULL"
+    },
     rearService: {
         serviceNumber: {
             align: "centre-x,centre-y",
@@ -133,6 +140,16 @@ EDSFormats.GASG = {
 }
 
 EDSData.GASG = {
+    1: {
+        1: {
+            front: {
+                renderType: "full"
+            },
+            rear: {
+                renderType: "full"
+            }
+        }
+    },
     2: {
         1: {
             front: {
@@ -218,6 +235,56 @@ EDSData.GASG = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "2B",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        }
+    },
+    "2N": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "2",
+                destination: "NEW BRIDGE RD",
+                destinationFont: "LECIP-10",
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "NEW BRIDGE RD",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "2"
+                },
+                    "LOYANG AVE"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "2",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "2",
+                destination: "CHANGI VILLAGE",
+                destinationFont: "LECIP-10",
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "CHANGI VILLAGE",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "2"
+                },
+                    "LOYANG AVE"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "2",
                 font: "LECIP-20:12",
                 spacing: 2
             }
@@ -454,6 +521,66 @@ EDSData.GASG = {
                 renderType: "rearService",
                 serviceNumber: "12e",
                 font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    "12N": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "12",
+                destination: "NEW BRIDGE RD",
+                destinationFont: "LECIP-10",
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "NEW BRIDGE RD",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "12"
+                },
+                    "TANAH MERAH MRT"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "12",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "12",
+                destination: "PASIR RIS",
+                destinationFont: "LECIP-10",
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "PASIR RIS",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "12"
+                },
+                    "CHINATOWN / CLARKE QUAY MRT",
+                    "VICTORIA ST / BUGIS",
+                    "LAVENDER / KALLANG MRT",
+                    "MOUNTBATTEN RD / MRT",
+                    "EAST COAST RD",
+                    "BEDOK SOUTH RD",
+                    "TANAH MERAH MRT",
+                    "SIMEI RD",
+                    "TAMPINES EAST MRT",
+                    "PASIR RIS ST 12 / 13",
+                    "PASIR RIS DR 1 / 6 / 3"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "12",
+                font: "LECIP-20:12",
                 spacing: 2
             }
         }
