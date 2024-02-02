@@ -1921,7 +1921,7 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
-    39: {
+    390: {
         front: {
             renderType: "message",
             text: "EB39",
