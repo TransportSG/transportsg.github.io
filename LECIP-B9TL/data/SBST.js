@@ -16601,23 +16601,10 @@ EDSData.SBST = {
                 destination: "> CHINATOWN",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
-                    "BUKIT PANJANG",
-                    "CASHEW",
-                    "HILLVIEW",
                     "BEAUTY WORLD",
-                    "KING ALBERT PARK",
-                    "SIXTH AVENUE",
-                    "TAN KAH KEE",
                     "BOTANIC GARDENS",
-                    "STEVENS",
                     "NEWTON",
-                    "LITTLE INDIA",
-                    "ROCHOR",
-                    "BUGIS",
-                    "PROMENADE",
-                    "BAYFRONT",
-                    "DOWNTOWN",
-                    "TELOK AYER"
+                    "BUGIS"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -16635,23 +16622,10 @@ EDSData.SBST = {
                 destination: "> BUKIT PANJANG",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
-                    "CHINATOWN",
-                    "TELOK AYER",
-                    "DOWNTOWN",
-                    "BAYFRONT",
-                    "PROMENADE",
                     "BUGIS",
-                    "ROCHOR",
-                    "LITTLE INDIA",
                     "NEWTON",
-                    "STEVENS",
                     "BOTANIC GARDENS",
-                    "TAN KAH KEE",
-                    "SIXTH AVENUE",
-                    "KING ALBERT PARK",
-                    "BEAUTY WORLD",
-                    "HILLVIEW",
-                    "CASHEW"
+                    "BEAUTY WORLD"
                 ],
                 scrollFont: "LECIP-7:5"
             },
