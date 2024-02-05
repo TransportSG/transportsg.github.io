@@ -1007,6 +1007,58 @@ EDSData.SMRT = {
             spacing: 1
         }
     },
+    166: {
+        front: {
+            renderType: "destScroll",
+            top: "MERRY CHRISTMAS",
+            topFont: "Mobitec-7:7",
+
+            bottom: "HAPPY NEW YEAR",
+            bottomFont: "Mobitec-7:7",
+
+            serviceNumber: ""
+        }
+    },
+    167: {
+        front: {
+            renderType: "message",
+            font: "Mobitec-13:7",
+            text: "GONG XI FA CAI",
+            spacing: 1
+        }
+    },
+    168: {
+        front: {
+            renderType: "message",
+            font: "Mobitec-13:7",
+            text: "SELAMAT HARI RAYA",
+            spacing: 1
+        }
+    },
+    169: {
+        front: {
+            renderType: "destScroll",
+            top: "HAPPY",
+            topFont: "Mobitec-7:7",
+
+            bottom: "DEEPAVALI",
+            bottomFont: "Mobitec-7:7",
+
+            serviceNumber: ""
+        }
+    },
+    170: {
+        front: {
+            renderType: "destScroll",
+            top: "HAPPY NATIONAL DAY",
+            topFont: "Mobitec-7:4",
+
+            bottom: "SINGAPORE!",
+            bottomFont: "Mobitec-7:4",
+
+            serviceNumber: ""
+        }
+    },
     199: {
         front: {
             renderType: "message",
@@ -12396,7 +12448,27 @@ EDSExtras.SMRT = {
             text: "LAST BUS",
             spacing: 1
         }
-    }
+    },
+    11: {
+        front: {
+            renderType: "message",
+            font: "Mobitec-13:7",
+            text: "YOUR RIDE OUR PRIDE",
+            spacing: 1
+        },
+    },
+    12: {
+        front: {
+            renderType: "destScroll",
+            top: "SMRT Buses thank you",
+            topFont: "Mobitec-7:5:2",
+
+            bottom: " for your support",
+            bottomFont: "Mobitec-7:5:2",
+
+            serviceNumber: ""
+        },
+    },
 }
 
 EDSImages.SMRT = {

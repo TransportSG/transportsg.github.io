@@ -135,6 +135,37 @@ EDSFormats.TTSG = {
         },
         text: "FULL"
     },
+    'centreMessageServiceScroll': {
+        serviceNumber: {
+            align: 'right,centre-y',
+            margin: {
+                right: 1
+            },
+            text: '$serviceNumber',
+            font: 'LECIP-20:12',
+            spacing: 3
+        },
+        top: {
+            align: 'centre-x,top',
+            margin: {
+                right: 'width(serviceNumber) len(5)',
+                top: 1
+            },
+            text: '$top',
+            font: '$topFont',
+            spacing: 1
+        },
+        bottom: {
+            align: 'centre-x,bottom',
+            margin: {
+                right: 'width(serviceNumber) len(5)',
+                bottom: 1
+            },
+            text: '$bottom',
+            font: '$bottomFont',
+            spacing: 1
+        }
+    },
     rearService: {
         serviceNumber: {
             align: "centre-x,centre-y",
@@ -1369,11 +1400,13 @@ EDSData.TTSG = {
                 destination: "JURONG EAST",
                 destinationFont: "LECIP-10",
                 scrolls: [{
-                    renderType: "destScroll",
-                    top: "JURONG EAST",
-                    topFont: "LECIP-10",
-        
-                    serviceNumber: "143M"
+                    renderType: "centreMessageServiceScroll",
+                    serviceNumber: "143M",
+                    top: "LOOPS AT",
+                    topFont: "LECIP-7:5",
+
+                    bottom: "PANDAN GARDENS",
+                    bottomFont: "LECIP-7:5"
                 },
                     "JURONG TOWN HALL RD",
                     "TEBAN GARDEN RD",
@@ -4498,7 +4531,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: 'twoline',
                 top: "OFF",
-                topFont: "LECIP-7:4", // check font
+                topFont: "LECIP-7:4",
 
                 bottom: "SERVICE",
                 bottomFont: "LECIP-7:4"

@@ -64,7 +64,7 @@ EDSFormats.GASG = {
             font: "$bottomFont",
             spacing: "$bottomSpacing",
             margin: {
-                bottom: 1
+                bottom: 0
             }
         },
         text: "$top"
@@ -126,6 +126,37 @@ EDSFormats.GASG = {
             matrixPrimitives.fillRectangle(matrix, 0, 0, matrix.width, matrix.height);
         },
         text: "FULL"
+    },
+    'centreMessageServiceScroll': {
+        serviceNumber: {
+            align: 'right,centre-y',
+            margin: {
+                right: 1
+            },
+            text: '$serviceNumber',
+            font: 'LECIP-20:12',
+            spacing: 3
+        },
+        top: {
+            align: 'centre-x,top',
+            margin: {
+                right: 'width(serviceNumber) len(5)',
+                top: 1
+            },
+            text: '$top',
+            font: '$topFont',
+            spacing: 1
+        },
+        bottom: {
+            align: 'centre-x,bottom',
+            margin: {
+                right: 'width(serviceNumber) len(5)',
+                bottom: 1
+            },
+            text: '$bottom',
+            font: '$bottomFont',
+            spacing: 1
+        }
     },
     rearService: {
         serviceNumber: {
@@ -358,10 +389,23 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "3A",
-                destination: "TERMINATING AT",
+                destination: "PASIR RIS DR 12",
                 destinationFont: "LECIP-10",
-                scrolls: [
-                    "PASIR RIS DRIVE 12"
+                scrolls: [{
+                    renderType: "centreMessageServiceScroll",
+                    serviceNumber: "3A",
+                    top: "TERMINATING AT",
+                    topFont: "LECIP-7:5",
+
+                    bottom: "PASIR RIS DR 12",
+                    bottomFont: "LECIP-7:5"
+                },
+                    "TAMPINES ST 21",
+                    "TAMPINES EAST MRT",
+                    "TAMPINES AVE 2 / 7",
+                    "PASIR RIS ST 21 / DR 3",
+                    "PASIR RIS MRT",
+                    "PASIR RIS DR 1 / ST 71"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -1059,16 +1103,20 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "43e",
-                destination: "UPP EAST COAST",
+                destination: "MARINE PARADE",
                 destinationFont: "LECIP-10",
                 scrolls: [{
                     renderType: "destScroll",
-                    top: "UPP EAST COAST",
+                    top: "MARINE PARADE",
                     topFont: "LECIP-10",
         
                     serviceNumber: "43e"
                 },
-                    "PAYA LEBAR MRT"
+                    "SENGKANG EAST RD",
+                    "BUANGKOK MRT",
+                    "KPE (EXPRESS)",
+                    "PAYA LEBAR RD",
+                    "TANJONG KATONG RD"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -1092,7 +1140,11 @@ EDSData.GASG = {
         
                     serviceNumber: "43e"
                 },
-                    "PAYA LEBAR MRT"
+                    "TANJONG KATONG RD",
+                    "PAYA LEBAR RD",
+                    "KPE (EXPRESS)",
+                    "BUANGKOK MRT",
+                    "SENGKANG EAST RD"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -1236,10 +1288,21 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "62A",
-                destination: "TERMINATING AT",
+                destination: "ALJUNIED MRT",
                 destinationFont: "LECIP-10",
-                scrolls: [
-                    "AJLUNIED MRT"
+                scrolls: [{
+                    renderType: "centreMessageServiceScroll",
+                    serviceNumber: "62A",
+                    top: "TERMINATING AT",
+                    topFont: "LECIP-7:5",
+
+                    bottom: "ALJUNIED MRT",
+                    bottomFont: "LECIP-7:5"
+                },
+                    "PUNGGOL FIELD / EAST",
+                    "SENGKANG EAST DR",
+                    "UPPER SERANGOON RD",
+
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -1576,7 +1639,15 @@ EDSData.GASG = {
                 serviceNumber: "85A",
                 destination: "SENGKANG E RD",
                 destinationFont: "LECIP-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "centreMessageServiceScroll",
+                    serviceNumber: "85A",
+                    top: "TERMINATING AT",
+                    topFont: "LECIP-7:5",
+
+                    bottom: "SENGKANG EAST RD",
+                    bottomFont: "LECIP-7:5"
+                },
                     "YISHUN AVE 2",
                     "JALAN KAYU",
                     "SENGKANG WEST WAY"
@@ -1657,11 +1728,20 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "118A",
-                destination: "SIMEI AVE ",
+                destination: "SIMEI AVE",
                 destinationFont: "LECIP-10",
-                scrolls: [
-                    "TAMPINES AVE 10 / 5",
-                    "TAMPINES AVE 8 / 1"
+                scrolls: [{
+                    renderType: "centreMessageServiceScroll",
+                    serviceNumber: "118A",
+                    top: "TERMINATING AT",
+                    topFont: "LECIP-7:5",
+
+                    bottom: "ITE COLL EAST ADM BLK",
+                    bottomFont: "LECIP-6:4"
+                },
+                    "TAMPINES AVE 10 / 8",
+                    "TAMPINES AVE 1",
+                    "TAMPINES WEST MRT"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -1678,12 +1758,20 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "118B",
-                destination: "TPE",
+                destination: "SIMEI AVE",
                 destinationFont: "LECIP-10",
-                scrolls: [
-                    "SIMEI AVE",
-                    "TAMPINES AVE 5 / 10",
-                    "TAMPINES AVE 1 / 8"
+                scrolls: [{
+                    renderType: "centreMessageServiceScroll",
+                    serviceNumber: "118B",
+                    top: "TERMINATING AT",
+                    topFont: "LECIP-7:5",
+
+                    bottom: "TPE (BEF PUNGGOL RD)",
+                    bottomFont: "LECIP-7:5"
+                },
+                    "TAMPINES AVE 1",
+                    "TAMPINES AVE 8",
+                    "TAMPINES AVE 10"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -1769,7 +1857,13 @@ EDSData.GASG = {
         
                     serviceNumber: "136"
                 },
-                    "SERANGOON GARDEN WAY"
+                    "PUNGGOL CENTRAL",
+                    "EDGEFIELD PLAINS",
+                    "PUNGGOL FIELD / RD",
+                    "RIVERVALE DR",
+                    "UPPER SERANGOON RD",
+                    "SERANGOON GARDENS",
+                    "ANG MO KIO AVE 1 / 6 / 3"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -2212,7 +2306,11 @@ EDSData.GASG = {
                 destination: "BAYFRONT",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                    "LOYANG AVE"
+                    "PASIR RIS DR 3 / 1",
+                    "LOYANG AVE",
+                    "ORCHARD RD",
+                    "SUNTEC CITY",
+                    "(SKIPS TAMPINES)"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -2232,7 +2330,10 @@ EDSData.GASG = {
                 destination: "MARINA BLVD",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                    "LOYANG AVE"
+                    "PASIR RIS DR 6",
+                    "PASIR RIS ST 11",
+                    "LOYANG AVE",
+                    "ROBINSON RD"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -2250,7 +2351,10 @@ EDSData.GASG = {
                 destination: "PASIR RIS DR 1",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                    "LOYANG AVE"
+                    "SHENTON WAY",
+                    "LOYANG AVE",
+                    "PASIR RIS ST 11",
+                    "PASIR RIS DR 6"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -2270,7 +2374,11 @@ EDSData.GASG = {
                 destination: "MARINA BLVD",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                    "PUNGGOL WAY"
+                    "PUNGGOL DR",
+                    "PUNGGOL EAST",
+                    "PUNGGOL FIELD",
+                    "PUNGGOL WAY",
+                    "ROBINSON RD"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -2288,7 +2396,10 @@ EDSData.GASG = {
                 destination: "PUNGGOL DRIVE",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                    "PUNGGOL WAY"
+                    "SHENTON WAY",
+                    "PUNGGOL WAY",
+                    "PUNGGOL FIELD",
+                    "PUNGGOL EAST"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -2345,6 +2456,642 @@ EDSData.GASG = {
                 bottom: "SG",
                 bottomFont: "LECIP-6:4",
                 bottomSpacing: 1,
+            }
+        }
+    },
+    4000: {
+        1: {
+            front: { 
+                renderType: "message",
+                text: "PASIR RIS - OUTRAM",
+                font: "LECIP-20:6",
+                spacing: 2
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "PSR - ",
+                topFont: "LECIP-7:5",
+
+                bottom: "OTP",
+                bottomFont: "LECIP-7:5"
+            }
+        }
+    },
+    4001: {
+        1: {
+            front: { 
+                renderType: "message",
+                text: "OUTRAM - PASIR RIS",
+                font: "LECIP-20:6",
+                spacing: 2
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "OTP - ",
+                topFont: "LECIP-7:5",
+
+                bottom: "PSR",
+                bottomFont: "LECIP-7:5"
+            }
+        }
+    },
+    4002: {
+        1: {
+            front: { 
+                renderType: "message",
+                text: "OUTRAM-TANAH MERAH-EXPO-CHANGI AIRPORT",
+                font: "LECIP-6:3",
+                spacing: 1
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "OTP - ",
+                topFont: "LECIP-7:5",
+
+                bottom: "CGA",
+                bottomFont: "LECIP-7:5"
+            }
+        }
+    },
+    4003: {
+        1: {
+            front: { 
+                renderType: "message",
+                text: "CHANGI AIRPORT-EXPO-TANAH MERAH-OUTRAM",
+                font: "LECIP-6:3",
+                spacing: 1
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "CGA - ",
+                topFont: "LECIP-7:5",
+
+                bottom: "OTP",
+                bottomFont: "LECIP-7:5"
+            }
+        }
+    },
+    4011: {
+        1: {
+            front: { 
+                renderType: "twoline",
+                top: "SHUTTLE 1",
+                topFont: "LECIP-10",
+                topSpacing: 1,
+
+                bottom: "RAFFLES PLACE - BUONA VISTA",
+                bottomFont: "LECIP-7:5",
+                bottomSpacing: 1,
+            },
+            rear: { 
+                renderType: "twoline",
+                top: "RFP -",
+                topFont: "LECIP-7:5",
+                topSpacing: 1,
+
+                bottom: "BNV",
+                bottomFont: "LECIP-7:5",
+                bottomSpacing: 1,
+            }
+        }
+    },
+    4012: {
+        1: {
+            front: { 
+                renderType: "twoline",
+                top: "SHUTTLE 1",
+                topFont: "LECIP-10",
+                topSpacing: 1,
+
+                bottom: "BUONA VISTA - RAFFLES PLACE",
+                bottomFont: "LECIP-7:5",
+                bottomSpacing: 1,
+            },
+            rear: { 
+                renderType: "twoline",
+                top: "BNV -",
+                topFont: "LECIP-7:5",
+                topSpacing: 1,
+
+                bottom: "RFP",
+                bottomFont: "LECIP-7:5",
+                bottomSpacing: 1,
+            }
+        }
+    },
+    4041: {
+        1: {
+            front: { 
+                renderType: "twoline",
+                top: "SHUTTLE 4",
+                topFont: "LECIP-10",
+                topSpacing: 1,
+
+                bottom: "JURONG EAST - CHOA CHU KANG",
+                bottomFont: "LECIP-7:5",
+                bottomSpacing: 1,
+            },
+            rear: { 
+                renderType: "twoline",
+                top: "JUR -",
+                topFont: "LECIP-7:5",
+                topSpacing: 1,
+
+                bottom: "CCK",
+                bottomFont: "LECIP-7:5",
+                bottomSpacing: 1,
+            }
+        }
+    },
+    4042: {
+        1: {
+            front: { 
+                renderType: "twoline",
+                top: "SHUTTLE 4",
+                topFont: "LECIP-10",
+                topSpacing: 1,
+
+                bottom: "CHOA CHU KANG - JURONG EAST",
+                bottomFont: "LECIP-7:5",
+                bottomSpacing: 1,
+            },
+            rear: { 
+                renderType: "twoline",
+                top: "CCK -",
+                topFont: "LECIP-7:5",
+                topSpacing: 1,
+
+                bottom: "JUR",
+                bottomFont: "LECIP-7:5",
+                bottomSpacing: 1,
+            }
+        }
+    },
+    4071: {
+        1: {
+            front: { 
+                renderType: "twoline",
+                top: "SHUTTLE 7",
+                topFont: "LECIP-10",
+                topSpacing: 1,
+
+                bottom: "PASIR RIS - TANAH MERAH",
+                bottomFont: "LECIP-7:5",
+                bottomSpacing: 1,
+            },
+            rear: { 
+                renderType: "twoline",
+                top: "PSR -",
+                topFont: "LECIP-7:5",
+                topSpacing: 1,
+
+                bottom: "TMN",
+                bottomFont: "LECIP-7:5",
+                bottomSpacing: 1,
+            }
+        }
+    },
+    4072: {
+        1: {
+            front: {
+                renderType: "twoline",
+                top: "SHUTTLE 7",
+                topFont: "LECIP-10",
+                topSpacing: 1,
+
+                bottom: "TANAH MERAH - PASIR RIS",
+                bottomFont: "LECIP-7:5",
+                bottomSpacing: 1,
+            },
+            rear: { 
+                renderType: "twoline",
+                top: "TNM -",
+                topFont: "LECIP-7:5",
+                topSpacing: 1,
+
+                bottom: "PSR",
+                bottomFont: "LECIP-7:5",
+                bottomSpacing: 1,
+            }
+        }
+    },
+    4073: {
+        1: {
+            front: { 
+                renderType: "twoline",
+                top: "SHUTTLE 7",
+                topFont: "LECIP-10",
+                topSpacing: 1,
+
+                bottom: "TANAH MERAH - ALJUNIED",
+                bottomFont: "LECIP-7:5",
+                bottomSpacing: 1,
+            },
+            rear: { 
+                renderType: "twoline",
+                top: "TNM -",
+                topFont: "LECIP-7:5",
+                topSpacing: 1,
+
+                bottom: "ALJ",
+                bottomFont: "LECIP-7:5",
+                bottomSpacing: 1,
+            }
+        }
+    },
+    4074: {
+        1: {
+            front: {
+                renderType: "twoline",
+                top: "SHUTTLE 7",
+                topFont: "LECIP-10",
+                topSpacing: 1,
+
+                bottom: "ALJUNIED - TANAH MERAH",
+                bottomFont: "LECIP-7:5",
+                bottomSpacing: 1,
+            },
+            rear: { 
+                renderType: "twoline",
+                top: "ALJ -",
+                topFont: "LECIP-7:5",
+                topSpacing: 1,
+
+                bottom: "TNM",
+                bottomFont: "LECIP-7:5",
+                bottomSpacing: 1,
+            }
+        }
+    },
+    4101: {
+        1: {
+            front: { 
+                renderType: "twoline",
+                top: "SHUTTLE 10",
+                topFont: "LECIP-10",
+                topSpacing: 1,
+
+                bottom: "WOODLANDS - ANG MO KIO",
+                bottomFont: "LECIP-7:5",
+                bottomSpacing: 1,
+            },
+            rear: { 
+                renderType: "twoline",
+                top: "WDL -",
+                topFont: "LECIP-7:5",
+                topSpacing: 1,
+
+                bottom: "AMK",
+                bottomFont: "LECIP-7:5",
+                bottomSpacing: 1,
+            }
+        }
+    },
+    4012: {
+        1: {
+            front: {
+                renderType: "twoline",
+                top: "SHUTTLE 10",
+                topFont: "LECIP-10",
+                topSpacing: 1,
+
+                bottom: "ANG MO KIO - WOODLANDS",
+                bottomFont: "LECIP-7:5",
+                bottomSpacing: 1,
+            },
+            rear: { 
+                renderType: "twoline",
+                top: "AMK -",
+                topFont: "LECIP-7:5",
+                topSpacing: 1,
+
+                bottom: "WDL",
+                bottomFont: "LECIP-7:5",
+                bottomSpacing: 1,
+            }
+        }
+    },
+    7001: {
+        1: {
+            front: { 
+                renderType: "message",
+                text: "GA 1",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "GA 9",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
+    7002: {
+        1: {
+            front: { 
+                renderType: "message",
+                text: "GA 2",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "GA 2",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
+    7003: {
+        1: {
+            front: { 
+                renderType: "message",
+                text: "GA 3",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "GA 3",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
+    7004: {
+        1: {
+            front: { 
+                renderType: "message",
+                text: "GA 4",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "GA 4",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
+    7005: {
+        1: {
+            front: { 
+                renderType: "message",
+                text: "GA 5",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "GA 5",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
+    7006: {
+        1: {
+            front: { 
+                renderType: "message",
+                text: "GA 6",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "GA 6",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
+    7007: {
+        1: {
+            front: { 
+                renderType: "message",
+                text: "GA 7",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "GA 7",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
+    7008: {
+        1: {
+            front: { 
+                renderType: "message",
+                text: "GA 8",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "GA 8",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
+    7009: {
+        1: {
+            front: { 
+                renderType: "message",
+                text: "GA 9",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "GA 9",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
+    7101: {
+        1: {
+            front: { 
+                renderType: "message",
+                text: "GA RIDE 01",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "GA RIDE",
+                topFont: "LECIP-6:4",
+
+                bottom: "01",
+                bottomFont: "LECIP-10"
+            }
+        }
+    },
+    7102: {
+        1: {
+            front: { 
+                renderType: "message",
+                text: "GA RIDE 02",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "GA RIDE",
+                topFont: "LECIP-6:4",
+
+                bottom: "02",
+                bottomFont: "LECIP-10"
+            }
+        }
+    },
+    7103: {
+        1: {
+            front: { 
+                renderType: "message",
+                text: "GA RIDE 03",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "GA RIDE",
+                topFont: "LECIP-6:4",
+
+                bottom: "03",
+                bottomFont: "LECIP-10"
+            }
+        }
+    },
+    7104: {
+        1: {
+            front: { 
+                renderType: "message",
+                text: "GA RIDE 04",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "GA RIDE",
+                topFont: "LECIP-6:4",
+
+                bottom: "04",
+                bottomFont: "LECIP-10"
+            }
+        }
+    },
+    7105: {
+        1: {
+            front: { 
+                renderType: "message",
+                text: "GA RIDE 05",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "GA RIDE",
+                topFont: "LECIP-6:4",
+
+                bottom: "05",
+                bottomFont: "LECIP-10"
+            }
+        }
+    },
+    7106: {
+        1: {
+            front: { 
+                renderType: "message",
+                text: "GA RIDE 06",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "GA RIDE",
+                topFont: "LECIP-6:4",
+
+                bottom: "06",
+                bottomFont: "LECIP-10"
+            }
+        }
+    },
+    7107: {
+        1: {
+            front: { 
+                renderType: "message",
+                text: "GA RIDE 07",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "GA RIDE",
+                topFont: "LECIP-6:4",
+
+                bottom: "07",
+                bottomFont: "LECIP-10"
+            }
+        }
+    },
+    7108: {
+        1: {
+            front: { 
+                renderType: "message",
+                text: "GA RIDE 08",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "GA RIDE",
+                topFont: "LECIP-6:4",
+
+                bottom: "08",
+                bottomFont: "LECIP-10"
+            }
+        }
+    },
+    7109: {
+        1: {
+            front: { 
+                renderType: "message",
+                text: "GA RIDE 09",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "GA RIDE",
+                topFont: "LECIP-6:4",
+
+                bottom: "09",
+                bottomFont: "LECIP-10"
+            }
+        }
+    },
+    9999: {
+        1: {
+            front: { 
+                renderType: "message",
+                text: "LECIP 24122023",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "LECIP",
+                topFont: "LECIP-6:3",
+
+                bottom: "24122023",
+                bottomFont: "LECIP-6:3"
             }
         }
     }

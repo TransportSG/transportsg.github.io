@@ -5493,37 +5493,6 @@ EDSData.SBST = {
                 font: "LECIP-20:12",
                 spacing: 2
             }
-        },
-        2: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "83",
-                destination: "PUNGGOL INT-SENGKANG SQ",
-                destinationFont: "LECIP-6:4",
-                scrolls: [{
-                        renderType: "centreMessageServiceScroll",
-                        serviceNumber: "83",
-                        top: "PUNGGOL - SENGKANG",
-                        topFont: "LECIP-7:5",
-
-                        bottom: "(LOOP)",
-                        bottomFont: "LECIP-7:5"
-                    },
-                    'PUNGGOL CENTRAL',
-                    'PUNGGOL FIELD',
-                    'PUNGGOL RD',
-                    'COMPASSVALE ST',
-                    'PUNGGOL RD',
-                    'PUNGGOL FIELD'
-                ],
-                scrollFont: "LECIP-6:4"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "83",
-                font: "LECIP-20:12",
-                spacing: 2
-            }
         }
     },
     "83T": {
