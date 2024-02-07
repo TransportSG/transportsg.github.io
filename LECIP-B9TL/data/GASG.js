@@ -2776,12 +2776,12 @@ EDSData.GASG = {
             front: { 
                 renderType: "message",
                 text: "GA 1",
-                font: "LECIP-20:9",
+                font: "LECIP-20:12",
                 spacing: 2
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "GA 9",
+                serviceNumber: "GA 1",
                 font: "LECIP-20:6",
                 spacing: 2
             }
@@ -2792,7 +2792,7 @@ EDSData.GASG = {
             front: { 
                 renderType: "message",
                 text: "GA 2",
-                font: "LECIP-20:9",
+                font: "LECIP-20:12",
                 spacing: 2
             },
             rear: {
@@ -2808,7 +2808,7 @@ EDSData.GASG = {
             front: { 
                 renderType: "message",
                 text: "GA 3",
-                font: "LECIP-20:9",
+                font: "LECIP-20:12",
                 spacing: 2
             },
             rear: {
@@ -2824,7 +2824,7 @@ EDSData.GASG = {
             front: { 
                 renderType: "message",
                 text: "GA 4",
-                font: "LECIP-20:9",
+                font: "LECIP-20:12",
                 spacing: 2
             },
             rear: {
@@ -2840,7 +2840,7 @@ EDSData.GASG = {
             front: { 
                 renderType: "message",
                 text: "GA 5",
-                font: "LECIP-20:9",
+                font: "LECIP-20:12",
                 spacing: 2
             },
             rear: {
@@ -2856,7 +2856,7 @@ EDSData.GASG = {
             front: { 
                 renderType: "message",
                 text: "GA 6",
-                font: "LECIP-20:9",
+                font: "LECIP-20:12",
                 spacing: 2
             },
             rear: {
@@ -2872,7 +2872,7 @@ EDSData.GASG = {
             front: { 
                 renderType: "message",
                 text: "GA 7",
-                font: "LECIP-20:9",
+                font: "LECIP-20:12",
                 spacing: 2
             },
             rear: {
@@ -2888,7 +2888,7 @@ EDSData.GASG = {
             front: { 
                 renderType: "message",
                 text: "GA 8",
-                font: "LECIP-20:9",
+                font: "LECIP-20:12",
                 spacing: 2
             },
             rear: {
@@ -2904,7 +2904,7 @@ EDSData.GASG = {
             front: { 
                 renderType: "message",
                 text: "GA 9",
-                font: "LECIP-20:9",
+                font: "LECIP-20:12",
                 spacing: 2
             },
             rear: {
@@ -2919,8 +2919,8 @@ EDSData.GASG = {
         1: {
             front: { 
                 renderType: "message",
-                text: "GA RIDE 01",
-                font: "LECIP-20:9",
+                text: "GA  RIDE  01",
+                font: "LECIP-20:12",
                 spacing: 2
             },
             rear: {
@@ -2937,8 +2937,8 @@ EDSData.GASG = {
         1: {
             front: { 
                 renderType: "message",
-                text: "GA RIDE 02",
-                font: "LECIP-20:9",
+                text: "GA  RIDE  02",
+                font: "LECIP-20:12",
                 spacing: 2
             },
             rear: {
@@ -2955,8 +2955,8 @@ EDSData.GASG = {
         1: {
             front: { 
                 renderType: "message",
-                text: "GA RIDE 03",
-                font: "LECIP-20:9",
+                text: "GA  RIDE  03",
+                font: "LECIP-20:12",
                 spacing: 2
             },
             rear: {
@@ -2973,8 +2973,8 @@ EDSData.GASG = {
         1: {
             front: { 
                 renderType: "message",
-                text: "GA RIDE 04",
-                font: "LECIP-20:9",
+                text: "GA  RIDE  04",
+                font: "LECIP-20:12",
                 spacing: 2
             },
             rear: {
@@ -2991,8 +2991,8 @@ EDSData.GASG = {
         1: {
             front: { 
                 renderType: "message",
-                text: "GA RIDE 05",
-                font: "LECIP-20:9",
+                text: "GA  RIDE  05",
+                font: "LECIP-20:12",
                 spacing: 2
             },
             rear: {
@@ -3009,8 +3009,8 @@ EDSData.GASG = {
         1: {
             front: { 
                 renderType: "message",
-                text: "GA RIDE 06",
-                font: "LECIP-20:9",
+                text: "GA  RIDE  06",
+                font: "LECIP-20:12",
                 spacing: 2
             },
             rear: {
@@ -3027,8 +3027,8 @@ EDSData.GASG = {
         1: {
             front: { 
                 renderType: "message",
-                text: "GA RIDE 07",
-                font: "LECIP-20:9",
+                text: "GA  RIDE  07",
+                font: "LECIP-20:12",
                 spacing: 2
             },
             rear: {
@@ -3045,8 +3045,8 @@ EDSData.GASG = {
         1: {
             front: { 
                 renderType: "message",
-                text: "GA RIDE 08",
-                font: "LECIP-20:9",
+                text: "GA  RIDE  08",
+                font: "LECIP-20:12",
                 spacing: 2
             },
             rear: {
@@ -3063,8 +3063,8 @@ EDSData.GASG = {
         1: {
             front: { 
                 renderType: "message",
-                text: "GA RIDE 09",
-                font: "LECIP-20:9",
+                text: "GA  RIDE  09",
+                font: "LECIP-20:12",
                 spacing: 2
             },
             rear: {
