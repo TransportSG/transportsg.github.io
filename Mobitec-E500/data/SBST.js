@@ -3683,6 +3683,14 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
+    1000: {
+        front: {
+            renderType: "message",
+            text: "1000TH BSEP BUS",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
     1001: {
         front: {
             renderType: "standardService",

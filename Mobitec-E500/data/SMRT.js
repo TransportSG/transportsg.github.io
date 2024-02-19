@@ -885,6 +885,42 @@ EDSData.SMRT = {
             serviceNumber: ""
         }
     },
+    102: {
+        front: {
+            renderType: "destScroll",
+            top: "e2i & SMRT",
+            topFont: "Mobitec-7:7",
+
+            bottom: "BUS CARNIVAL AND CAREER FAIR",
+            bottomFont: "Mobitec-7:4",
+
+            serviceNumber: ""
+        }
+    },
+    104: {
+        front: {
+            renderType: "destScroll",
+            top: "JOURNEY WITH US",
+            topFont: "Mobitec-7:7",
+
+            bottom: "at BBI",
+            bottomFont: "Mobitec-7:7",
+
+            serviceNumber: ""
+        }
+    },
+    105: {
+        front: {
+            renderType: "destScroll",
+            top: "BUKIT PANJANG XMAS",
+            topFont: "Mobitec-7:7",
+
+            bottom: "BUS CHARTERING",
+            bottomFont: "Mobitec-7:7",
+
+            serviceNumber: ""
+        }
+    },
     106: {
         front: {
             renderType: "message",
@@ -12384,6 +12420,50 @@ EDSData.SMRT = {
             bottom: "OPP C.C.K MARKET",
             topFont: "Mobitec-7:5:2", // sic
             bottomFont: "Mobitec-7:5:2"
+        }
+    },
+    9990: {
+        front: {
+            renderType: "destScroll",
+            top: "DOUBLE DECKER RIDE WITH",
+            topFont: "Mobitec-7:5:2",
+
+            bottom: "BUKIT PANJANG RESIDENTS",
+            bottomFont: "Mobitec-7:5:2",
+
+            serviceNumber: ""
+        }
+    },
+    9997: {
+        front: {
+            renderType: "destScroll",
+            top: "JURONG",
+            topFont: "Mobitec-7:7",
+
+            bottom: "COMMUNITY HOSPITAL",
+            bottomFont: "Mobitec-7:7",
+
+            serviceNumber: ""
+        }
+    },
+    9998: {
+        front: {
+            renderType: "destScroll",
+            top: "RETROFITTED",
+            topFont: "Mobitec-7:7",
+
+            bottom: "ELECTRIC BUS",
+            bottomFont: "Mobitec-7:7",
+
+            serviceNumber: ""
+        }
+    },
+    9999: {
+        front: {
+            renderType: "message",
+            text: "ELECTRIC BUS",
+            font: "Mobitec-13:8",
+            spacing: 1
         },
     },
 }
