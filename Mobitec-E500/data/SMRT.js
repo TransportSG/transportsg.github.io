@@ -129,6 +129,40 @@ EDSFormats.SMRT = {
 
         text: "$top+' '+$bottom+' '+$serviceNumber"
     },
+    TwoLineMessage: {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 1
+            },
+            text: "$serviceNumber",
+            font: "Mobitec-16:8",
+            spacing: 2
+        },
+        destination: {
+            align: "centre-x,top",
+            margin: {
+                right: 'width(serviceNumber)'
+            },
+            text: "$destination.text",
+            font: "$destination.font",
+            spacing: 1
+        },
+        scroll: {
+            align: "centre-x,bottom",
+            margin: {
+                right: 'width(serviceNumber)'
+            },
+            scrolls: "$scrolls",
+            rotate: true,
+            rotateSpeed: 3000,
+
+            font: "$scrollFont",
+            spacing: 1
+        },
+
+        text: "$destination.text+' '+$serviceNumber"
+    },
     logo: {
         logo: {
             align: "centre-x,centre-y",
@@ -899,14 +933,18 @@ EDSData.SMRT = {
     },
     104: {
         front: {
-            renderType: "destScroll",
-            top: "JOURNEY WITH US",
-            topFont: "Mobitec-7:7",
-
-            bottom: "at BBI",
-            bottomFont: "Mobitec-7:7",
-
-            serviceNumber: ""
+            renderType: "TwoLineMessage",
+            serviceNumber: "",
+            destination: {
+                text: "JOURNEY WITH US",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                [{text: "at", font: "Mobitec-7:4"},
+                {text: " BBI", font: "Mobitec-7:7"}]
+            ],
+            scrollFont: 'Mobitec-7:7',
+            bottomMargin: 1
         }
     },
     105: {

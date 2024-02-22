@@ -596,7 +596,10 @@ EDSData.TTSG = {
         
                     serviceNumber: "78"
                 },
-                    "PENJURU"
+                    "PENJURU RD",
+                    "TANJONG PENJURU",
+                    "PANDAN RD / AVE",
+                    "WEST COAST RD"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -621,7 +624,11 @@ EDSData.TTSG = {
         
                     serviceNumber: "78"
                 },
-                    "PENJURU"
+                    "WEST COAST RD",
+                    "PANDAN RD",
+                    "TANJONG PENJURU",
+                    "PENJURU RD",
+
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -668,7 +675,10 @@ EDSData.TTSG = {
         
                     serviceNumber: "78"
                 },
-                    "PENJURU"
+                "PENJURU RD",
+                "TANJONG PENJURU",
+                "PANDAN RD / AVE",
+                "WEST COAST RD"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -693,7 +703,10 @@ EDSData.TTSG = {
         
                     serviceNumber: "78"
                 },
-                    "PENJURU"
+                  "WEST COAST RD",
+                  "PANDAN RD",
+                  "TANJONG PENJURU",
+                  "PENJURU RD",
                 ],
                 scrollFont: "LECIP-7:5"
             },
