@@ -32,6 +32,57 @@ EDSFormats.GASG = {
         },
         text: "$serviceNumber+' '+$destination.text"
     },
+    destScroll: {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 1
+            },
+            text: "$serviceNumber",
+            font: "Mobitec-16:8:Bold",
+            spacing: {
+                $$cond: {
+                    "$spacing === null" : 2,
+                    "else": "$spacing"
+                }
+            }
+        },
+        top: {
+            align: {
+                $$cond: {
+                    "$bottom === null": "centre-x,centre-y",
+                    "else": "centre-x,top"
+                }
+            },
+            text: "$top",
+            font: "$topFont",
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber)'
+            }
+        },
+        bottom: {
+            align: "centre-x,bottom",
+            text: {
+                $$cond: {
+                    "$bottom !== null": "$bottom",
+                    "else": "''"
+                }
+            },
+            font: {
+                $$cond: {
+                    "$bottomFont !== null": "$bottomFont",
+                    "else": "Mobitec-6:5"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber)'
+            }
+        },
+
+        text: "$top+' '+$bottom+' '+$serviceNumber"
+    },
     message: {
         display: {
             align: "centre-x,centre-y",
@@ -46,6 +97,26 @@ EDSFormats.GASG = {
 
 EDSData.GASG = {
  
+    21: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "2",
+            destination: {
+                text: "KAMPONG BAHRU",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "2",
+                    top: "KAMPONG BAHRU",
+                    topFont: "Mobitec-13:7"
+                },
+                "LOYANG AVE"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
     22: {
         front: {
             renderType: "standardService",
@@ -55,6 +126,12 @@ EDSData.GASG = {
                 font: "Mobitec-7:7"
             },
             scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "2",
+                    top: "CHANGI VILLAGE",
+                    topFont: "Mobitec-13:7"
+                },
                 "LOYANG AVE"
             ],
             scrollFont: "Mobitec-7:4"
@@ -69,6 +146,12 @@ EDSData.GASG = {
                 font: "Mobitec-7:7"
             },
             scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "3",
+                    top: "TAMPINES",
+                    topFont: "Mobitec-13:7"
+                },
                 "PUNGGOL CENTRAL / FIELD",
                 "TAMPINES EXPRESSWAY",
                 "PASIR RIS DR 12 / 1 / 10",
@@ -90,6 +173,12 @@ EDSData.GASG = {
                 font: "Mobitec-7:7"
             },
             scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "3",
+                    top: "PUNGGOL",
+                    topFont: "Mobitec-13:7"
+                },
                 "TAMPINES ST 21",
                 "TAMPINES EAST MRT",
                 "PASIR RIS ST 21 / DR 3",
@@ -110,8 +199,14 @@ EDSData.GASG = {
                 font: "Mobitec-7:7"
             },
             scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "15",
+                    top: "MARINE PARADE",
+                    topFont: "Mobitec-13:7"
+                },
                 "PASIR RIS ST 52, DR 1 / 8",
-                "TAMPINES AVE 12 / 7 / 4 / 5 / 1",
+                "TAMPINES AVE 12/7/4/5/1",
                 "BEDOK NORTH RD",
                 "BEDOK RESERVOIR RD",
                 "JALAN EUNOS / MRT",
@@ -131,14 +226,20 @@ EDSData.GASG = {
                 font: "Mobitec-7:7"
             },
             scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "15",
+                    top: "PASIR RIS",
+                    topFont: "Mobitec-13:7"
+                },
                 "JOO CHIAT PLACE",
                 "STILL RD",
                 "JALAN EUNOS / MRT",
                 "BEDOK RESERVOIR RD",
                 "BEDOK NORTH RD",
                 "TAMPINES WEST MRT",
-                "TAMPINES AVE 1 / 5 / 4 / 7 / 12",
-                "PASIR RIS DR 8/1, ST 52"
+                "TAMPINES AVE 1/5/4/7/12",
+                "PASIR RIS DR 8 / 1, ST 52"
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -152,6 +253,12 @@ EDSData.GASG = {
                 font: "Mobitec-7:7"
             },
             scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "34",
+                    top: "CHANGI AIRPORT",
+                    topFont: "Mobitec-13:7"
+                },
                 "PUNGGOL RD",
                 "TAMPINES EXPRESSWAY",
                 "TAMPINES AVE 10 / 5 / 2",
@@ -169,6 +276,12 @@ EDSData.GASG = {
                 font: "Mobitec-7:7"
             },
             scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "34",
+                    top: "PUNGGOL",
+                    topFont: "Mobitec-13:7"
+                },
                 "TAMPINES EAST MRT",
                 "TAMPINES AVE 2 / 5 / 10",
                 "TAMPINES EXPRESSWAY",
@@ -186,6 +299,12 @@ EDSData.GASG = {
                 font: "Mobitec-7:7"
             },
             scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "36",
+                    top: "TOMLINSON RD",
+                    topFont: "Mobitec-13:7"
+                },
                 "MARINE PARADE RD",
                 "SUNTEC CITY",
                 "STAMFORD RD",
@@ -205,6 +324,12 @@ EDSData.GASG = {
                 font: "Mobitec-7:7"
             },
             scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "36",
+                    top: "CHANGI AIRPORT",
+                    topFont: "Mobitec-13:7"
+                },
                 "ORCHARD RD",
                 "BRAS BASAH RD",
                 "SUNTEC CITY",
@@ -216,10 +341,14 @@ EDSData.GASG = {
     },
     1111: {
         front: {
-            renderType: "message",
-            text: "OFF SERVICE",
-            font: "Mobitec-16:8",
-            spacing: 1
+            renderType: "destScroll",
+            top: "Sorry!",
+            topFont: "Mobitec-7:7",
+
+            bottom: "Not In Service",
+            bottomFont: "Mobitec-7:7",
+
+            serviceNumber: ""
         }
     },
     2222: {
@@ -239,6 +368,12 @@ EDSData.GASG = {
                 font: "Mobitec-7:7"
             },
             scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "384",
+                    top: "PUNGGOL",
+                    topFont: "Mobitec-13:7"
+                },
                 "PUNGGOL CENTRAL",
                 "PUNGGOL WAY",
                 "NORTHSHORE DRIVE"
@@ -255,12 +390,30 @@ EDSData.GASG = {
                 font: "Mobitec-7:7"
             },
             scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "403",
+                    top: "PASIR RIS",
+                    topFont: "Mobitec-13:7"
+                },
                 "PASIR RIS DR 8 / 1",
                 "ELIAS RD",
                 "PASIR RIS RD",
                 "PASIR RIS PARK"
             ],
             scrollFont: "Mobitec-7:4"
+        }
+    },
+    9998: {
+        front: {
+            renderType: "destScroll",
+            top: "Go Ahead Singapore",
+            topFont: "Mobitec-7:5:2",
+
+            bottom: "Fonts and scrolls are still WIP",
+            bottomFont: "Mobitec-7:4",
+
+            serviceNumber: ""
         }
     },
     9999: {
