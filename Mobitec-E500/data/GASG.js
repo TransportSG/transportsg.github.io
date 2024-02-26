@@ -45,20 +45,7 @@ EDSFormats.GASG = {
 }
 
 EDSData.GASG = {
-    21: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "2",
-            destination: {
-                text: "KAMPONG BAHRU",
-                font: "Mobitec-7:7"
-            },
-            scrolls: [
-                "LOYANG AVE"
-            ],
-            scrollFont: "Mobitec-7:4"
-        }
-    },
+ 
     22: {
         front: {
             renderType: "standardService",
@@ -258,6 +245,28 @@ EDSData.GASG = {
                 font: "Mobitec-7:7"
             },
             scrolls: [
+                "PUNGGOL CENTRAL",
+                "PUNGGOL WAY",
+                "NORTHSHORE DRIVE"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    9000: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "384",
+            destination: {
+                text: "PUNGGOL INT",
+                font: "Mobitec-7:5:3"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "384",
+                    top: "Punggol",
+                    topFont: "Mobitec-13:10"
+                },
                 "PUNGGOL CENTRAL",
                 "PUNGGOL WAY",
                 "NORTHSHORE DRIVE"
