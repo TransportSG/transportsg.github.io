@@ -1868,10 +1868,20 @@ EDSData.GASG = {
                 scrollFont: "LECIP-7:5"
             },
             rear: {
-                renderType: "rearService",
-                serviceNumber: "136",
-                font: "LECIP-20:9",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TO",
+                destinationFont: "LECIP-7:5",
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "136",
+                    topFont: "LECIP-20:9",
+        
+                    serviceNumber: ""
+                },
+                    "AMK"
+                ],
+                scrollFont: "LECIP-7:5"
             }
         },
         2: {
@@ -1892,10 +1902,20 @@ EDSData.GASG = {
                 scrollFont: "LECIP-7:5"
             },
             rear: {
-                renderType: "rearService",
-                serviceNumber: "136",
-                font: "LECIP-20:9",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TO",
+                destinationFont: "LECIP-6:3",
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "136",
+                    topFont: "LECIP-20:9",
+        
+                    serviceNumber: ""
+                },
+                    "PUNGGOL"
+                ],
+                scrollFont: "LECIP-6:3"
             }
         }
     },
