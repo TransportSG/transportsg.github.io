@@ -222,6 +222,14 @@ EDSData.GASG = {
             spacing: 1
         }
     },
+    2222: {
+        front: {
+            renderType: "message",
+            text: "Go Ahead Singapore",
+            font: "Mobitec-13:8",
+            spacing: 1
+        }
+    },
     3841: {
         front: {
             renderType: "standardService",
