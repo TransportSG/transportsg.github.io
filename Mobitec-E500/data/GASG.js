@@ -214,20 +214,6 @@ EDSData.GASG = {
             scrollFont: "Mobitec-7:4"
         }
     },
-    365: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "36T",
-            destination: {
-                text: "ENDS AT",
-                font: "Mobitec-7:7"
-            },
-            scrolls: [
-                "CHANGI AIRPORT T2"
-            ],
-            scrollFont: "Mobitec-7:4"
-        }
-    },
     1111: {
         front: {
             renderType: "message",
@@ -245,28 +231,6 @@ EDSData.GASG = {
                 font: "Mobitec-7:7"
             },
             scrolls: [
-                "PUNGGOL CENTRAL",
-                "PUNGGOL WAY",
-                "NORTHSHORE DRIVE"
-            ],
-            scrollFont: "Mobitec-7:4"
-        }
-    },
-    9000: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "384",
-            destination: {
-                text: "PUNGGOL INT",
-                font: "Mobitec-7:5:3"
-            },
-            scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "384",
-                    top: "Punggol",
-                    topFont: "Mobitec-13:10"
-                },
                 "PUNGGOL CENTRAL",
                 "PUNGGOL WAY",
                 "NORTHSHORE DRIVE"
