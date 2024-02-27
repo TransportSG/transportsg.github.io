@@ -9267,12 +9267,9 @@ EDSData.SBST = {
                 destination: "BARTLEY RD - BIDADARI PK DR",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
-                    'HOUGANG AVE 3',
                     'BARTLEY RD',
                     'UPPER SERANGOON RD',
-                    'BIDADARI PARK DR',
-                    'UPPER SERANGOON RD',
-                    'BARTLEY RD'
+                    'BIDADARI PARK DR'
                 ],
                 scrollFont: "LECIP-6:4"
             },
