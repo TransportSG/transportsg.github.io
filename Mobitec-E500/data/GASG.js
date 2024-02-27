@@ -190,6 +190,79 @@ EDSData.GASG = {
             scrollFont: "Mobitec-7:4"
         }
     },
+    61: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "6",
+            destination: {
+                text: "PASIR RIS",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "6",
+                    top: "PASIR RIS",
+                    topFont: "Mobitec-13:7"
+                },
+                "PASIR RIS DR 3",
+                "LOYANG AVE",
+                "LOYANG WAY",
+                "LOYANG CRES (LOOP)"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    121: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "12",
+            destination: {
+                text: "KAMPONG BAHRU",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "12",
+                    top: "KAMPONG BAHRU",
+                    topFont: "Mobitec-13:7"
+                },
+                "TANAH MERAH MRT"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    122: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "12",
+            destination: {
+                text: "PASIR RIS",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "12",
+                    top: "PASIR RIS",
+                    topFont: "Mobitec-13:7"
+                },
+                "CHINATOWN / CLARKE QUAY MRT",
+                "VICTORIA ST / BUGIS",
+                "LAVENDER / KALLANG MRT",
+                "MOUNTBATTEN RD / MRT",
+                "EAST COAST RD",
+                "BEDOK SOUTH RD",
+                "TANAH MERAH MRT",
+                "SIMEI RD",
+                "TAMPINES EAST MRT",
+                "PASIR RIS ST 12 / 13",
+                "PASIR RIS DR 1 / 6 / 3"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
     151: {
         front: {
             renderType: "standardService",
@@ -240,6 +313,58 @@ EDSData.GASG = {
                 "TAMPINES WEST MRT",
                 "TAMPINES AVE 1/5/4/7/12",
                 "PASIR RIS DR 8 / 1, ST 52"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    171: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "17",
+            destination: {
+                text: "BEDOK",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "17",
+                    top: "BEDOK",
+                    topFont: "Mobitec-13:7"
+                },
+                "PASIR RIS DR 3 / 4",
+                "PASIR RIS ST 12 / 11",
+                "TAMPINES AVE 7 / 2",
+                "TAMPINES EAST MRT",
+                "SIMEI AVE",
+                "BEDOK NORTH AVE 4",
+                "BEDOK NORTH RD"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    172: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "17",
+            destination: {
+                text: "PASIR RIS",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "17",
+                    top: "PASIR RIS",
+                    topFont: "Mobitec-13:7"
+                },
+                "BEDOK NORTH RD",
+                "BEDOK NORTH AVE 4",
+                "SIMEI AVE",
+                "TAMPINES EAST MRT",
+                "TAMPINES AVE 2 / 7",
+                "PASIR RIS ST 11 / 12",
+                "PASIR RIS DR 4 / 3",
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -339,6 +464,56 @@ EDSData.GASG = {
             scrollFont: "Mobitec-7:4"
         }
     },
+    681: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "68",
+            destination: {
+                text: "TAMPINES",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "68",
+                    top: "TAMPINES",
+                    topFont: "Mobitec-13:7"
+                },
+                "ELIAS RD",
+                "PASIR RIS ST 71",
+                "TAMPINES AVE 10",
+                "TAMPINES AVE 11",
+                "TAMPINES AVE 6",
+                "TAMPINES CONCOURSE"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    682: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "68",
+            destination: {
+                text: "PASIR RIS",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "68",
+                    top: "PASIR RIS",
+                    topFont: "Mobitec-13:7"
+                },
+                "TAMPINES CONCOURSE",
+                "TAMPINES AVE 6",
+                "TAMPINES AVE 11",
+                "TAMPINES AVE 10",
+                "PASIR RIS ST 71",
+                "ELIAS RD"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
     1111: {
         front: {
             renderType: "destScroll",
@@ -357,6 +532,28 @@ EDSData.GASG = {
             text: "Go Ahead Singapore",
             font: "Mobitec-13:8",
             spacing: 1
+        }
+    },
+    3541: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "354",
+            destination: {
+                text: "PASIR RIS INT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "354",
+                    top: "PASIR RIS",
+                    topFont: "Mobitec-13:7"
+                },
+                "DOWNTOWN EAST",
+                "JALAN LOYANG BESAR",
+                "PASIR RIS DR 3"
+            ],
+            scrollFont: "Mobitec-7:4"
         }
     },
     3841: {
