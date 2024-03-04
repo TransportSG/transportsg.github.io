@@ -202,7 +202,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "41",
-                font: "LECIP-20:12",
+                font: "LECIP-19:TowerB9Front",
                 spacing: 2
             }
         },
@@ -228,7 +228,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "41",
-                font: "LECIP-20:12",
+                font: "LECIP-19:TowerB9Front",
                 spacing: 2
             }
         }
@@ -257,7 +257,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "49",
-                font: "LECIP-20:12",
+                font: "LECIP-19:TowerB9Front",
                 spacing: 2
             }
         },
@@ -284,7 +284,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "49",
-                font: "LECIP-20:12",
+                font: "LECIP-19:TowerB9Front",
                 spacing: 2
             }
         }
@@ -313,7 +313,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "66",
-                font: "LECIP-20:12",
+                font: "LECIP-19:TowerB9Front",
                 spacing: 2
             }
         },
@@ -340,7 +340,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "66",
-                font: "LECIP-20:12",
+                font: "LECIP-19:TowerB9Front",
                 spacing: 2
             }
         }
@@ -431,7 +431,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "66",
-                font: "LECIP-20:12",
+                font: "LECIP-19:TowerB9Front",
                 spacing: 2
             }
         },
@@ -459,7 +459,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "66",
-                font: "LECIP-20:12",
+                font: "LECIP-19:TowerB9Front",
                 spacing: 2
             }
         }
@@ -489,7 +489,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "77",
-                font: "LECIP-20:12",
+                font: "LECIP-19:TowerB9Front",
                 spacing: 2
             }
         }
@@ -518,7 +518,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "77",
-                font: "LECIP-20:12",
+                font: "LECIP-19:TowerB9Front",
                 spacing: 2
             }
         }
@@ -548,7 +548,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "77",
-                font: "LECIP-20:12",
+                font: "LECIP-19:TowerB9Front",
                 spacing: 2
             }
         }
@@ -577,7 +577,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "77",
-                font: "LECIP-20:12",
+                font: "LECIP-19:TowerB9Front",
                 spacing: 2
             }
         }
@@ -606,7 +606,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "78",
-                font: "LECIP-20:12",
+                font: "LECIP-19:TowerB9Front",
                 spacing: 2
             }
         }
@@ -635,7 +635,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "78",
-                font: "LECIP-20:12",
+                font: "LECIP-19:TowerB9Front",
                 spacing: 2
             }
         }
@@ -685,7 +685,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "78",
-                font: "LECIP-20:12",
+                font: "LECIP-19:TowerB9Front",
                 spacing: 2
             }
         }
@@ -713,7 +713,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "78",
-                font: "LECIP-20:12",
+                font: "LECIP-19:TowerB9Front",
                 spacing: 2
             }
         }
@@ -739,7 +739,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "79",
-                font: "LECIP-20:12",
+                font: "LECIP-19:TowerB9Front",
                 spacing: 2
             }
         }
@@ -764,7 +764,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "79",
-                font: "LECIP-20:12",
+                font: "LECIP-19:TowerB9Front",
                 spacing: 2
             }
         }
@@ -831,7 +831,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "96",
-                font: "LECIP-20:12",
+                font: "LECIP-19:TowerB9Front",
                 spacing: 2
             }
         }
@@ -903,7 +903,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "97",
-                font: "LECIP-20:12",
+                font: "LECIP-19:TowerB9Front",
                 spacing: 2
             }
         }
@@ -933,7 +933,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "97",
-                font: "LECIP-20:12",
+                font: "LECIP-19:TowerB9Front",
                 spacing: 2
             }
         }
@@ -1013,7 +1013,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "97",
-                font: "LECIP-20:12",
+                font: "LECIP-19:TowerB9Front",
                 spacing: 2
             }
         }
@@ -1041,7 +1041,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "97",
-                font: "LECIP-20:12",
+                font: "LECIP-19:TowerB9Front",
                 spacing: 2
             }
         }
@@ -4791,7 +4791,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "N1",
-                font: "LECIP-20:12",
+                font: "LECIP-19:TowerB9Front",
                 spacing: 2
             }
         }
@@ -4812,7 +4812,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "N2",
-                font: "LECIP-20:12",
+                font: "LECIP-19:TowerB9Front",
                 spacing: 2
             }
         }
