@@ -8,7 +8,7 @@ EDSFormats.TTSG = {
             text: "$serviceNumber",
             font: {
                 $$cond: {
-                    "$serviceFont === null": "LECIP-20:12",
+                    "$serviceFont === null": "LECIP-19:TowerB9Front",
                     "else": "$serviceFont"
                 }
             },
@@ -76,7 +76,7 @@ EDSFormats.TTSG = {
                 right: 1
             },
             text: "$serviceNumber",
-            font: "LECIP-20:12",
+            font: "LECIP-19:TowerB9Front",
             spacing: {
                 $$cond: {
                     "$spacing === null" : 3,
@@ -142,7 +142,7 @@ EDSFormats.TTSG = {
                 right: 1
             },
             text: '$serviceNumber',
-            font: 'LECIP-20:12',
+            font: 'LECIP-19:TowerB9Front',
             spacing: 3
         },
         top: {
@@ -2040,6 +2040,32 @@ EDSData.TTSG = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "282",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    280: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "1234567890",
+                destination: "",
+                destinationFont: "LECIP-10",
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "1234567890"
+                },
+                    ""
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "284",
                 font: "LECIP-20:9",
                 spacing: 2
             }
