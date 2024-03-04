@@ -478,7 +478,7 @@ EDSData.TTSG = {
         
                     serviceNumber: "77"
                 },
-                    "TOH TUCK AVE",
+                    "TOH TUCK RD",
                     "SIXTH AVE",
                     "HOLLAND VILLAGE / RD",
                     "ORCHARD RD",
@@ -1237,6 +1237,7 @@ EDSData.TTSG = {
                     "COMMONWEALTH AVE WEST",
                     "HOLLAND VILLAGE / RD",
                     "ORCHARD RD",
+                    "BRAS BASAH RD",
                     "BAYFRONT AVE / MBS"
                 ],
                 scrollFont: "LECIP-7:5"
@@ -1780,11 +1781,11 @@ EDSData.TTSG = {
         1: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "173",
+                serviceNumber: "173A",
                 destination: "ENDS AT",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                    "BUKIT BATOK EAST AVE 4",
+                    "BT BATOK EAST AVE 4",
                     "BLK 254"
                 ],
                 scrollFont: "LECIP-7:5"
@@ -1953,6 +1954,7 @@ EDSData.TTSG = {
         
                     serviceNumber: "189"
                 },
+                    "BUKIT BATOK EAST AVE 6",                    
                     "BUKIT BATOK ST 23",
                     "CLEMENTI AVE 6",
                     "CLEMENTI MRT"
@@ -1981,7 +1983,8 @@ EDSData.TTSG = {
                 },
                     "CLEMENTI MRT",
                     "CLEMENTI AVE 6",
-                    "BUKIT BATOK ST 23"
+                    "BUKIT BATOK ST 23",
+                    "BUKIT BATOK EAST AVE 6"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -3705,7 +3708,10 @@ EDSData.TTSG = {
         
                     serviceNumber: "941"
                 },
-                    "BUKIT BATOK"
+                    "BUKIT BATOK AVE 1",
+                    "BUKIT BATOK WEST AVE 6",
+                    "BUKIT BATOK WEST AVE 8",
+                    "BUKIT BATOK WEST AVE 9",
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -3759,7 +3765,11 @@ EDSData.TTSG = {
         
                     serviceNumber: "945"
                 },
-                    "BUKIT BATOK"
+                   "BUKIT BATOK EAST AVE 5",
+                   "BUKIT BATOK ST 52",
+                   "BUKIT GOMBAK MRT",
+                   "BUKIT BATOK WEST AVE 7",
+                   "BUKIT BATOK ST 34",
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -4473,7 +4483,8 @@ EDSData.TTSG = {
                     "BUKIT BATOK WEST AVE 6",
                     "BUKIT BATOK WEST AVE 8",
                     "BUKIT BATOK RD",
-                    "PLANTATION CRESCENT"
+                    "PLANTATION CRESCENT",
+                    "TENGAH BOULEVARD"
                 ],
                 scrollFont: "LECIP-7:5"
             },
