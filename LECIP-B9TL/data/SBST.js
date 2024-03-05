@@ -7684,16 +7684,12 @@ EDSData.SBST = {
                 destination: "SHENTON WAY TER-T.BLANGAH",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
-                    "CANTOMENT RD",
+                    "SHENTON WAY",
+                    "ZION RD",
                     "GANGES AVE",
-                    "TIONG BAHRU RD",
-                    "KIM TIAN RD",
+                    "JALAN BUKIT MERAH",
                     "LOWER DELTA RD",
                     "TELOK BLANGAH RISE",
-                    "LOWER DELTA RD",
-                    "KIM TIAN RD",
-                    "TIONG BAHRU RD",
-                    "GANGES AVE"
                 ],
                 scrollFont: "LECIP-6:4"
             },
@@ -15043,7 +15039,7 @@ EDSData.SBST = {
             }
         }
     },
-    457: {
+    458: {
         1: {
             front: {
                 renderType: "brandedSvc",
@@ -15060,7 +15056,7 @@ EDSData.SBST = {
             }
         }
     },
-    458: {
+    459: {
         1: {
             front: {
                 renderType: "brandedSvc",
@@ -15087,10 +15083,10 @@ EDSData.SBST = {
             },
             rear: {
                 renderType: 'twoline',
-                top: "SBST",
+                top: "",
                 topFont: "LECIP-7:5",
 
-                bottom: "CARES",
+                bottom: "",
                 bottomFont: "LECIP-7:5"
             }
         }
