@@ -27,7 +27,7 @@ EDSFormats.TTSG = {
             rotate: true,
             rotateSpeed: 3000,
 
-            font: "Mobitec-6:5",
+            font: "Mobitec-Tower6:4",
             spacing: 1
         },
 
