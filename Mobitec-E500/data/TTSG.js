@@ -6,7 +6,7 @@ EDSFormats.TTSG = {
                 right: 1
             },
             text: "$serviceNumber",
-            font: "TTS-16:8",
+            font: "Mobitec-Tower16:8",
             spacing: 2
         },
         destination: {
@@ -40,7 +40,7 @@ EDSFormats.TTSG = {
                 right: 1
             },
             text: "$serviceNumber",
-            font: "TTS-16:8",
+            font: "Mobitec-Tower16:8",
             spacing: 2
         },
         top: {
