@@ -179,8 +179,27 @@ EDSData.TTSG = {
             ]
         }
     },
-
-
+    6666: {
+        front: {
+            renderType: "logo",
+            image: "logo-full",
+            text: "TOWER TRANSIT LOGO",
+            destination: "",
+            scrolls: [
+                {
+                    renderType: "message",
+                    text: "",
+                    font: "TTS-16:9",
+                    spacing: 3
+                },
+                {
+                    renderType: "logo",
+                    image: "logo-full",
+                    text: "TOWER TRANSIT LOGO"
+                }
+            ]
+        }
+    },
     411: {
         front: {
             renderType: "standardService",
