@@ -242,8 +242,8 @@ EDSData.TTSG = {
                 destinationFont: "LECIP-10",
                 scrolls: [{
                     renderType: "destScroll",
-                    top: "JURONG WEST ST 42",
-                    topFont: "LECIP-10",
+                    top: "JURONG   WEST   ST   42",
+                    topFont: "Hanover-14:6",
         
                     serviceNumber: "49"
                 },
@@ -269,8 +269,8 @@ EDSData.TTSG = {
                 destinationFont: "LECIP-10",
                 scrolls: [{
                     renderType: "destScroll",
-                    top: "JURONG EAST",
-                    topFont: "LECIP-10",
+                    top: "JURONG   EAST",
+                    topFont: "Hanover-14:6",
         
                     serviceNumber: "49"
                 },
@@ -1143,7 +1143,7 @@ EDSData.TTSG = {
                 destinationFont: "LECIP-10",
                 scrolls: [
                     "JURONG PIER WAY",
-                    "JUR ISLAND CHECKPOINT"
+                    "JURONG ISLAND CHECKPT"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -2040,32 +2040,6 @@ EDSData.TTSG = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "282",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        }
-    },
-    280: {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "1234567890",
-                destination: "",
-                destinationFont: "LECIP-10",
-                scrolls: [{
-                    renderType: "destScroll",
-                    top: "",
-                    topFont: "LECIP-10",
-        
-                    serviceNumber: "1234567890"
-                },
-                    ""
-                ],
-                scrollFont: "LECIP-7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "284",
                 font: "LECIP-20:9",
                 spacing: 2
             }
@@ -3843,7 +3817,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "HARBOURFRONT",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-14:6",
         
                     serviceNumber: "963"
                 },

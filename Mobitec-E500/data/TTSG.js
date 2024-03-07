@@ -1501,6 +1501,155 @@ EDSData.TTSG = {
             ]
         }
     },
+    7001: {
+        front: {
+            renderType: "message",
+            font: "Hanover-14:6",
+            text: "NSL  Bridging  Bus",
+            spacing: 2
+        }
+    },
+    7002: {
+        front: {
+            renderType: "message",
+            font: "Hanover-14:6",
+            text: "EWL  Bridging  Bus",
+            spacing: 2
+        }
+    },
+    7003: {
+        front: {
+            renderType: "message",
+            font: "Hanover-14:6",
+            text: "NEL  Bridging  Bus",
+            spacing: 2
+        }
+    },
+    7004: {
+        front: {
+            renderType: "message",
+            font: "Hanover-14:6",
+            text: "CCL  Bridging  Bus",
+            spacing: 2
+        }
+    },
+    7005: {
+        front: {
+            renderType: "message",
+            font: "Hanover-14:6",
+            text: "DTL  Bridging  Bus",
+            spacing: 2
+        }
+    },
+    7006: {
+        front: {
+            renderType: "message",
+            font: "Hanover-14:6",
+            text: "TEL  Bridging  Bus",
+            spacing: 2
+        }
+    },
+    7007: {
+        front: {
+            renderType: "message",
+            font: "Hanover-14:6",
+            text: "LRT  Shuttle  A",
+            spacing: 2
+        }
+    },
+    7008: {
+        front: {
+            renderType: "message",
+            font: "Hanover-14:6",
+            text: "LRT  Shuttle  B",
+            spacing: 2
+        }
+    },
+    7009: {
+        front: {
+            renderType: "message",
+            font: "Hanover-14:6",
+            text: "LRT  Bridging  East",
+            spacing: 2
+        }
+    },
+    7010: {
+        front: {
+            renderType: "message",
+            font: "Hanover-14:6",
+            text: "LRT  Bridging  West",
+            spacing: 2
+        }
+    },
+    7501: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "N1",
+            destination: "YISHUN RING RD",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "N1",
+                    top: "Welcome Aboard",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "Tower Transit!",
+                    bottomFont: "Mobitec-7:5:1",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "N1",
+                    top: "YISHUN RING RD",
+                    bottom: "( KHATIB STN )",
+                    image: "mrt"
+                },
+                "NEWTON RD",
+                "TOA PAYOH CENTRAL",
+                "BISHAN ST 11",
+                "ANG MO KIO AVE 3",
+                "ANG MO KIO AVE 4"
+            ]
+        }
+    },
+    7502: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "N2",
+            destination: "SEMBAWANG DR",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "N2",
+                    top: "Welcome Aboard",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "Tower Transit!",
+                    bottomFont: "Mobitec-7:5:1",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "N2",
+                    top: "SEMBAWANG DR",
+                    bottom: "( KHATIB STN )",
+                    image: "mrt"
+                },
+                "WOODLANDS CENTRE RD",
+                "MARSILING RD",
+                "WOODLANDS AVE 7",
+                "ADMIRALTY DR",
+                "CANBERRA RD"
+            ]
+        }
+    },
+    8000: {
+        front: {
+                renderType: "destScroll",
+                serviceNumber: "%1",
+                top: "Crew  Bus",
+                topFont: "Hanover-14:6",
+                image: "logo"
+        }
+    },
     8011: {
         front: {
             renderType: "standardService",
@@ -1878,6 +2027,17 @@ EDSData.TTSG = {
             ]
         }
     },
+    8563: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "856A",
+            top: "ENDS AT",
+            topFont: "Mobitec-7:5:3",
+            bottom: "WDL TRAIN CHKPT",
+            bottomFont: "Mobitec-Tower6:4",
+            image: "ktm"
+        }
+    },
     8572: {
         front: {
             renderType: "standardService",
@@ -1917,11 +2077,22 @@ EDSData.TTSG = {
             bottomFont: "Mobitec-Tower6:4",
         }
     },
+    8574: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "857B",
+            top: "ENDS AT",
+            topFont: "Mobitec-7:5:3",
+            bottom: "PROMENADE STN",
+            bottomFont: "Mobitec-Tower6:4",
+            image: "mrt"
+        }
+    },
     8581: {
         front: {
             renderType: "standardService",
             serviceNumber: "858",
-            destination: "WOODLANDS",
+            destination: "CHANGI AIRPORT",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -1935,14 +2106,15 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "858",
-                    top: "WOODLANDS",
-                    image: "mrt"
+                    top: "CHANGI AIRPORT",
+                    bottom: "( PTB 3, 1, 2)",
+                    image: "ChangiAirportControlTower"
                 },
-                "TPE",
-                "JALAN KAYU",
-                "YISHUN MRT",
+                "WOODLANDS AVE 9",
                 "SEMBAWANG WAY",
-                "WOODLANDS AVE 9"
+                "YISHUN MRT",
+                "JALAN KAYU",
+                "T P E"
             ]
         }
     },
@@ -2386,6 +2558,38 @@ EDSData.TTSG = {
             ]
         }
     },
+    9635: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "963W",
+            destination: "R W S",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "963W",
+                    top: "Welcome Aboard",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "Tower Transit!",
+                    bottomFont: "Mobitec-7:5:1",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "963W",
+                    top: "RESORTS WORLD",
+                    TopFont: "Mobitec-7:5:3",
+                    bottom: "SENTOSA",
+                    BottomFont: "Mobitec-7:5:3",
+                    image: "SentosaGantry"
+                },
+                "C'WEALTH AVE WEST",
+                "HOLLAND RD / VILLAGE",
+                "ORCHARD RD",
+                "SUNTEC CITY",
+                "BAYFRONT AVE / MBS"
+            ]
+        }
+    },
     9651: {
         front: {
             renderType: "standardService",
@@ -2463,14 +2667,14 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "965",
                     top: "WOODLANDS",
-                    bottom: "TEMPORARY INTERCHANGE",
+                    bottom: "TEMP INTERCHANGE",
                     image: "mrt"
                 },
-                "C'WEALTH AVE WEST",
-                "HOLLAND RD / VILLAGE",
-                "ORCHARD RD",
-                "SUNTEC CITY",
-                "BAYFRONT AVE / MBS"
+                "COMPASSVALE RD",
+                "YISHUN MRT",
+                "YISHUN AVE 7",
+                "GAMBAS AVE",
+                "WOODLANDS AVE 7"
             ]
         }
     },
@@ -2775,7 +2979,33 @@ EDSData.TTSG = {
     }
 }
 
-EDSExtras.TTSG = {}
+EDSExtras.TTSG = {
+    1: {
+        front: {
+            renderType: "message",
+            font: "Hanover-14:6",
+            text: "Last  Bus",
+            spacing: 2
+        }
+    },
+    2: {
+        front: {
+            renderType: "message",
+            font: "Mobitec-7:5:3",
+            text: "Temporary Route Diversion",
+            spacing: 1
+        }
+    },
+    3: {
+        front: {
+            renderType: "message",
+            font: "Hanover-14:6",
+            text: "Bus  Full",
+            spacing: 2
+        },
+    },
+}
+
 
 EDSImages.TTSG = {
     blank: [[]],
@@ -2832,6 +3062,60 @@ EDSImages.TTSG = {
         [1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 1, 0, 1, 1],
         [1, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 1],
         [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    ],
+    ktm: [
+        [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0],
+        [0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0],
+        [0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0],
+        [0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0],
+        [0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0],
+        [0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0],
+        [0, 0, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0],
+        [0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0],
+        [0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1],
+        [1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 1, 0, 0, 1],
+        [1, 0, 1, 0, 1, 1, 0, 1, 1, 0, 1, 0, 1, 0, 1],
+        [1, 0, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+    ],
+    ChangiAirportControlTower: [
+        [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1],
+        [0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0],
+        [0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0],
+        [0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0],
+        [0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0],
+        [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
+    ],
+    SentosaGantry: [
+        [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0],
+        [1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1],
+        [1, 0, 1, 0, 1, 1, 1, 1, 1, 0, 1, 0, 1],
+        [1, 0, 1, 0, 1, 1, 1, 1, 1, 0, 1, 0, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1],
+        [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1],
+        [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1],
+        [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1],
+        [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1],
+        [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1],
+        [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1],
+        [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1],
+        [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1],
     ],
     heart: [
         [0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0],
