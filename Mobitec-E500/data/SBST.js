@@ -2719,6 +2719,14 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
+    596: {
+        front: {
+            renderType: "swt",
+            serviceNumber: "59B",
+            destinationRoad: "TAMP AVE 2",
+            destinationName: "(TAMP EAST STN EXIT C)"
+        }
+    },
     601: {
         front: {
             renderType: "standardService",
