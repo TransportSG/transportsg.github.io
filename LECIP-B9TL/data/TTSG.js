@@ -166,6 +166,37 @@ EDSFormats.TTSG = {
             spacing: 1
         }
     },
+    '944to992': {
+        serviceNumber: {
+            align: 'right,centre-y',
+            margin: {
+                right: 1
+            },
+            text: '$serviceNumber',
+            font: 'LECIP-19:TowerB9Front',
+            spacing: 3
+        },
+        top: {
+            align: 'centre-x,top',
+            margin: {
+                right: 'width(serviceNumber) len(5)',
+                top: 2
+            },
+            text: '$top',
+            font: '$topFont',
+            spacing: 1
+        },
+        bottom: {
+            align: 'centre-x,bottom',
+            margin: {
+                right: 'width(serviceNumber) len(5)',
+                bottom: 1
+            },
+            text: '$bottom',
+            font: '$bottomFont',
+            spacing: 1
+        }
+    },
     rearService: {
         serviceNumber: {
             align: "centre-x,centre-y",
@@ -1414,14 +1445,21 @@ EDSData.TTSG = {
                 destination: "JURONG EAST",
                 destinationFont: "LECIP-10",
                 scrolls: [{
-                    renderType: "centreMessageServiceScroll",
-                    serviceNumber: "143M",
-                    top: "LOOPS AT",
-                    topFont: "LECIP-7:5",
+                        renderType: "centreMessageServiceScroll",
+                        serviceNumber: "143M",
+                        top: "LOOPS AT",
+                        topFont: "LECIP-7:5",
 
-                    bottom: "PANDAN GARDENS",
-                    bottomFont: "LECIP-7:5"
-                },
+                        bottom: "PANDAN GARDENS",
+                        bottomFont: "LECIP-7:5"
+                    },
+                    {
+                        renderType: "destScroll",
+                        top: "JURONG EAST",
+                        topFont: "LECIP-10",
+            
+                        serviceNumber: "143M"
+                    },
                     "JURONG TOWN HALL RD",
                     "TEBAN GARDEN RD",
                     "PANDAN GARDENS"
@@ -4508,10 +4546,10 @@ EDSData.TTSG = {
         
                     serviceNumber: "992"
                 },
-                    "PLANTATION CRESCENT",
-                    "BUKIT BATOK RD",
-                    "BUKIT BATOK WEST AVE 8",
-                    "BUKIT BATOK WEST AVE 6"
+                "PLANTATION CRESCENT",
+                "BUKIT BATOK RD",
+                "BUKIT BATOK WEST AVE 8",
+                "BUKIT BATOK WEST AVE 6"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -4540,6 +4578,81 @@ EDSData.TTSG = {
                 renderType: "rearService",
                 serviceNumber: "992A",
                 font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
+    "992N": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "992",
+                destination: "TENGAH",
+                destinationFont: "LECIP-10",
+                scrolls: [{
+                        renderType: "944to992",
+                        serviceNumber: "944>992",
+                        top: "Start from",
+                        topFont: "Lecip-Tower6:5",
+
+                        bottom: "24 Sep 2023",
+                        bottomFont: "Lecip-Tower6:5"
+                    },
+                    {
+                        renderType: "destScroll",
+                        top: "TENGAH",
+                        topFont: "LECIP-10",
+            
+                        serviceNumber: "992"
+                    },
+                    "BUKIT BATOK WEST AVE 6",
+                    "BUKIT BATOK WEST AVE 8",
+                    "BUKIT BATOK RD",
+                    "PLANTATION CRESCENT",
+                    "TENGAH BOULEVARD"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "992",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "992",
+                destination: "BUKIT BATOK",
+                destinationFont: "LECIP-10",
+                scrolls: [{
+                        renderType: "944to992",
+                        serviceNumber: "944>992",
+                        top: "Start from",
+                        topFont: "Lecip-Tower6:5",
+
+                        bottom: "24 Sep 2023",
+                        bottomFont: "Lecip-Tower6:5"
+                    },
+                    {
+                        renderType: "destScroll",
+                        top: "BUKIT BATOK",
+                        topFont: "LECIP-10",
+            
+                        serviceNumber: "992"
+                    },
+                    "PLANTATION CRESCENT",
+                    "BUKIT BATOK RD",
+                    "BUKIT BATOK WEST AVE 8",
+                    "BUKIT BATOK WEST AVE 6"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "992",
+                font: "LECIP-20:9",
                 spacing: 2
             }
         }
@@ -4888,4 +5001,5 @@ EDSData.TTSG = {
 }
 
 EDSImages.TTSG = {
+
 }
