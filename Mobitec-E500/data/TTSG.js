@@ -2244,6 +2244,38 @@ EDSData.TTSG = {
             ]
         }
     },
+    8702: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "/870",
+            destination: "JURONG TOWN HALL",
+            Destfont: "Mobitec-Tower9:4",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "870",
+                    top: "Welcome Aboard",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "Tower Transit!",
+                    bottomFont: "Mobitec-7:5:1",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "870",
+                    top: "JURONG TOWN HALL",
+                    topfont: "Mobitec-Tower9:4",
+                    bottom: "(JURONG EAST MRT)",
+                    image: "mrt"
+                },
+                "WOODLANDS AVE 7",
+                "GAMBAS AVE",
+                "YISHUN MRT",
+                "YISHUN MRT",
+                "COMPASSVALE RD"
+            ]
+        }
+    },
     8594: {
         front: {
             renderType: "standardService",
@@ -2566,7 +2598,7 @@ EDSData.TTSG = {
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "963W",
+                    serviceNumber: "963R",
                     top: "Welcome Aboard",
                     topFont: "Mobitec-7:5:1",
                     bottom: "Tower Transit!",
@@ -2574,8 +2606,8 @@ EDSData.TTSG = {
                     image: "logo"
                 },
                 {
-                    renderType: "destScroll",
-                    serviceNumber: "963W",
+                    renderType: "destScroll2",
+                    serviceNumber: "963R",
                     top: "RESORTS WORLD",
                     TopFont: "Mobitec-7:5:3",
                     bottom: "SENTOSA",

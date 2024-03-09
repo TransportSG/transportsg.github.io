@@ -1133,6 +1133,14 @@ EDSData.SMRT = {
             serviceNumber: ""
         }
     },
+    171: {
+        front: {
+            renderType: "message",
+            font: "Mobitec-13:7",
+            text: "YOUR RIDE, OUR PRIDE",
+            spacing: 1
+        }
+    },
     199: {
         front: {
             renderType: "message",
@@ -11975,8 +11983,8 @@ EDSData.SMRT = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "972",
-                    top: "HAPPY 10TH",
-                    bottom: "ANNIVERSARY",
+                    top: "HAPPY 10~ YEAR",
+                    bottom: "ANNIVERSARY!",
                     topFont: "Mobitec-7:7",
                     bottomFont: "Mobitec-7:7"
                 }
@@ -12571,7 +12579,7 @@ EDSExtras.SMRT = {
         front: {
             renderType: "message",
             font: "Mobitec-13:7",
-            text: "YOUR RIDE OUR PRIDE",
+            text: "YOUR RIDE, OUR PRIDE",
             spacing: 1
         },
     },

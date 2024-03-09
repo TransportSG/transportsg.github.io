@@ -220,7 +220,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "BEAUTY WORLD MRT",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "41"
                 },
@@ -246,7 +246,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "JURONG EAST",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "41"
                 },
@@ -301,7 +301,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "JURONG   EAST",
-                    topFont: "Hanover-14:6",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "49"
                 },
@@ -330,7 +330,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "BEAUTY WORLD MRT",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "66"
                 },
@@ -357,7 +357,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "JURONG EAST",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "66"
                 },
@@ -447,7 +447,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "BEDOK",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "66"
                 },
@@ -475,7 +475,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "JURONG EAST",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "66"
                 },
@@ -505,7 +505,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "MARINA CENTRE",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "77"
                 },
@@ -523,8 +523,7 @@ EDSData.TTSG = {
                 font: "LECIP-19:TowerB9Front",
                 spacing: 2
             }
-        }
-        ,
+        },
         2: {
             front: {
                 renderType: "standardService",
@@ -534,7 +533,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "BUKIT BATOK",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "77"
                 },
@@ -564,7 +563,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "STAMFORD RD",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "77"
                 },
@@ -582,8 +581,7 @@ EDSData.TTSG = {
                 font: "LECIP-19:TowerB9Front",
                 spacing: 2
             }
-        }
-        ,
+        },
         2: {
             front: {
                 renderType: "standardService",
@@ -593,7 +591,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "BUKIT BATOK",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "77"
                 },
@@ -623,7 +621,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "CLEMENTI MRT",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "78"
                 },
@@ -640,8 +638,7 @@ EDSData.TTSG = {
                 font: "LECIP-19:TowerB9Front",
                 spacing: 2
             }
-        }
-        ,
+        },
         2: {
             front: {
                 renderType: "standardService",
@@ -651,7 +648,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "JURONG TOWN HALL",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "78"
                 },
@@ -702,7 +699,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "CLEMENTI MRT",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "78"
                 },
@@ -719,8 +716,7 @@ EDSData.TTSG = {
                 font: "LECIP-19:TowerB9Front",
                 spacing: 2
             }
-        }
-        ,
+        },
         2: {
             front: {
                 renderType: "standardService",
@@ -730,7 +726,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "JURONG EAST MRT",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "78"
                 },
@@ -759,7 +755,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "JURONG EAST MRT",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "79"
                 },
@@ -773,8 +769,7 @@ EDSData.TTSG = {
                 font: "LECIP-19:TowerB9Front",
                 spacing: 2
             }
-        }
-        ,
+        },
         2: {
             front: {
                 renderType: "standardService",
@@ -784,7 +779,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "BOON LAY",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "79"
                 },
@@ -818,8 +813,7 @@ EDSData.TTSG = {
                 font: "LECIP-20:9",
                 spacing: 2
             }
-        }
-        ,
+        },
         2: {
             front: {
                 renderType: "standardService",
@@ -848,8 +842,8 @@ EDSData.TTSG = {
                 destinationFont: "LECIP-10",
                 scrolls: [{
                     renderType: "destScroll",
-                    top: "CLEMENTI",
-                    topFont: "LECIP-10",
+                    top: "CLEMENTI - NUS",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "96"
                 },
@@ -918,7 +912,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "MARINA CENTRE",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "97"
                 },
@@ -937,8 +931,7 @@ EDSData.TTSG = {
                 font: "LECIP-19:TowerB9Front",
                 spacing: 2
             }
-        }
-        ,
+        },
         2: {
             front: {
                 renderType: "standardService",
@@ -948,7 +941,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "JURONG EAST",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "97"
                 },
@@ -992,8 +985,7 @@ EDSData.TTSG = {
                 font: "LECIP-20:9",
                 spacing: 2
             }
-        }
-        ,
+        },
         2: {
             front: {
                 renderType: "standardService",
@@ -1028,7 +1020,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "RAFFLES QUAY",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "97"
                 },
@@ -1047,8 +1039,7 @@ EDSData.TTSG = {
                 font: "LECIP-19:TowerB9Front",
                 spacing: 2
             }
-        }
-        ,
+        },
         2: {
             front: {
                 renderType: "standardService",
@@ -1058,7 +1049,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "JURONG EAST",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "97"
                 },
@@ -1087,7 +1078,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "JURONG PIER WAY",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "98"
                 },
@@ -1120,7 +1111,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "JURONG EAST",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "98"
                 },
@@ -1196,7 +1187,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "CORPORATION RD",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "98M"
                 },
@@ -1217,8 +1208,7 @@ EDSData.TTSG = {
                 bottomFont: "LECIP-6:3",
                 bottomSpacing: 1,
             }
-        }
-        ,
+        },
         2: {
             front: {
                 renderType: "standardService",
@@ -1228,7 +1218,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "JURONG EAST",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "98M"
                 },
@@ -1261,7 +1251,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "SHENTON WAY",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "106"
                 },
@@ -1289,7 +1279,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "BUKIT BATOK",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "106"
                 },
@@ -1389,7 +1379,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "TOA PAYOH",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "143"
                 },
@@ -1417,7 +1407,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "JURONG EAST",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "143"
                 },
@@ -1456,7 +1446,7 @@ EDSData.TTSG = {
                     {
                         renderType: "destScroll",
                         top: "JURONG EAST",
-                        topFont: "LECIP-10",
+                        topFont: "Hanover-Tower12:7",
             
                         serviceNumber: "143M"
                     },
@@ -1484,7 +1474,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "BUKIT MERAH",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "167"
                 },
@@ -1512,7 +1502,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "SEMBAWANG",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "167"
                 },
@@ -1542,7 +1532,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "BUKIT MERAH",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "167"
                 },
@@ -1571,7 +1561,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "SEMBAWANG",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "167"
                 },
@@ -1602,7 +1592,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "ANG MO KIO",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "169"
                 },
@@ -1630,7 +1620,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "WOODLANDS",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "169"
                 },
@@ -1696,12 +1686,12 @@ EDSData.TTSG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "171",
-                destination: "BUKIT PANJANG MRT",
+                destination: "BUKIT PANJANG",
                 destinationFont: "LECIP-10",
                 scrolls: [{
                     renderType: "destScroll",
-                    top: "BUKIT PANJANG MRT",
-                    topFont: "LECIP-10",
+                    top: "BUKIT PANJANG",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "171"
                 },
@@ -1728,7 +1718,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "YISHUN",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "171"
                 },
@@ -1757,7 +1747,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "CLEMENTI",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "173"
                 },
@@ -1790,7 +1780,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "BUKIT BATOK",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "173"
                 },
@@ -1846,7 +1836,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "BUKIT PANJANG",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "177"
                 },
@@ -1877,7 +1867,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "BUKIT BATOK",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "177"
                 },
@@ -1910,8 +1900,8 @@ EDSData.TTSG = {
                 destinationFont: "LECIP-10",
                 scrolls: [{
                     renderType: "destScroll",
-                    top: "SCIENCE PARK RD",
-                    topFont: "LECIP-10",
+                    top: "SCIENCE  PARK  RD",
+                    topFont: "Hanover-14:6",
         
                     serviceNumber: "183"
                 },
@@ -1938,7 +1928,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "JURONG EAST",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "183"
                 },
@@ -1988,7 +1978,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "CLEMENTI AVE 1",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "189"
                 },
@@ -2015,7 +2005,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "BUKIT BATOK",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "189"
                 },
@@ -2065,7 +2055,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "CLEMENTI",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "282"
                 },
@@ -2093,7 +2083,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "CLEMENTI",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "284"
                 },
@@ -2119,7 +2109,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "CLEMENTI",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "285"
                 },
@@ -2147,7 +2137,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "JURONG EAST",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "333"
                 },
@@ -2175,7 +2165,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "JURONG EAST",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "334"
                 },
@@ -2203,7 +2193,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "JURONG EAST",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "335"
                 },
@@ -2647,7 +2637,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "YISHUN",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "801"
                 },
@@ -2677,7 +2667,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "YIO CHU KANG",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "825"
                 },
@@ -2706,7 +2696,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "LOR 1 GEYLANG",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "853"
                 },
@@ -2734,7 +2724,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "YISHUN",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "853"
                 },
@@ -2764,7 +2754,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "UPP EAST COAST",
-                    topFont: "LECIP-7:5",
+                    topFont: "Hanover-14:6",
         
                     serviceNumber: "853M"
                 },
@@ -2788,8 +2778,14 @@ EDSData.TTSG = {
                 renderType: "standardService",
                 serviceNumber: "853M",
                 destination: "YISHUN",
-                destinationFont: "LECIP-10",
-                scrolls: [
+                destinationFont: "LECIP-7:5",
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "YISHUN",
+                    topFont: "Hanover-Tower12:7",
+        
+                    serviceNumber: "853M"
+                },
                     "MARINE PARADE RD",
                     "TANJONG KATONG RD",
                     "GEYLANG RD",
@@ -2816,7 +2812,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "BEDOK",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "854"
                 },
@@ -2844,7 +2840,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "YISHUN",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "854"
                 },
@@ -2874,7 +2870,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "HARBOURFRONT",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "855"
                 },
@@ -2902,7 +2898,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "YISHUN",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "855"
                 },
@@ -2932,7 +2928,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "WOODLANDS",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "856"
                 },
@@ -2964,7 +2960,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "YISHUN",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "856"
                 },
@@ -3039,7 +3035,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "TEMASEK AVE",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "857"
                 },
@@ -3067,7 +3063,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "YISHUN",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "857"
                 },
@@ -3158,7 +3154,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "STAMFORD RD",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "857"
                 },
@@ -3186,7 +3182,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "YISHUN",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "857"
                 },
@@ -3216,7 +3212,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "CHANGI AIRPORT",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "858"
                 },
@@ -3244,7 +3240,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "WOODLANDS",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "858"
                 },
@@ -3315,7 +3311,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "YISHUN",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "859"
                 },
@@ -3343,7 +3339,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "SEMBAWANG",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "859"
                 },
@@ -3368,7 +3364,7 @@ EDSData.TTSG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "859A",
-                destination: "YISHUN",
+                destination: "SEMBAWANG",
                 destinationFont: "LECIP-10",
                 scrolls: [
                     "CANBERRA RD",
@@ -3391,7 +3387,7 @@ EDSData.TTSG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "859B",
-                destination: "YISHUN",
+                destination: "SEMBAWANG",
                 destinationFont: "LECIP-10",
                 scrolls: [
                     "SEMBAWANG CRES",
@@ -3439,7 +3435,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "TENGAH",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "870"
                 },
@@ -3465,8 +3461,8 @@ EDSData.TTSG = {
                 destinationFont: "LECIP-10",
                 scrolls: [{
                     renderType: "destScroll",
-                    top: "JUR TOWN HALL",
-                    topFont: "LECIP-10",
+                    top: "JURONG  TOWN  HALL",
+                    topFont: "Hanover-14:6",
         
                     serviceNumber: "870"
                 },
@@ -3517,7 +3513,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "SEMBAWANG",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "882"
                 },
@@ -3568,7 +3564,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "YISHUN CTRL 2",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "883"
                 },
@@ -3600,7 +3596,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "SEMBAWANG",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "883"
                 },
@@ -3676,7 +3672,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "YISHUN AVE 5",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "883M"
                 },
@@ -3708,7 +3704,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "SEMBWANG",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "883M"
                 },
@@ -3742,7 +3738,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "BUKIT BATOK",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "941"
                 },
@@ -3771,7 +3767,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "BUKIT BATOK",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "944"
                 },
@@ -3799,7 +3795,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "BUKIT BATOK",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "945"
                 },
@@ -3829,7 +3825,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "BUKIT BATOK",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "947"
                 },
@@ -3855,7 +3851,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "HARBOURFRONT",
-                    topFont: "Hanover-14:6",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "963"
                 },
@@ -3883,7 +3879,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "WOODLANDS",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "963"
                 },
@@ -3913,7 +3909,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "HARBOURFRONT",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "963e"
                 },
@@ -3941,7 +3937,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "WOODLANDS",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "963e"
                 },
@@ -3970,8 +3966,8 @@ EDSData.TTSG = {
                 destinationFont: "LECIP-10",
                 scrolls: [{
                     renderType: "destScroll",
-                    top: "RESORTS WORLD",
-                    topFont: "LECIP-10",
+                    top: "RESORTS  WORLD",
+                    topFont: "Hanover-14:6",
         
                     serviceNumber: "963R"
                 },
@@ -3999,7 +3995,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "WOODLANDS",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "963R"
                 },
@@ -4029,7 +4025,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "SENGKANG",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "965"
                 },
@@ -4056,8 +4052,8 @@ EDSData.TTSG = {
                 destinationFont: "LECIP-10",
                 scrolls: [{
                     renderType: "destScroll",
-                    top: "WDL TEMP INT",
-                    topFont: "LECIP-10",
+                    top: "WOODLANDS TEMP INT",
+                    topFont: "Hanover-14:6",
         
                     serviceNumber: "965"
                 },
@@ -4127,7 +4123,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "MARINE PARADE",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "966"
                 },
@@ -4155,7 +4151,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "WOODLANDS",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7S",
         
                     serviceNumber: "966"
                 },
@@ -4207,7 +4203,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "TAMPINES",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "969"
                 },
@@ -4235,7 +4231,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "WOODLANDS",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "969"
                 },
@@ -4285,8 +4281,8 @@ EDSData.TTSG = {
                 destinationFont: "LECIP-10",
                 scrolls: [{
                     renderType: "destScroll",
-                    top: "BT PANJANG MRT",
-                    topFont: "LECIP-10",
+                    top: "BUKIT PANJANG",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "974"
                 },
@@ -4314,7 +4310,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "JOO KOON",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "974"
                 },
@@ -4344,7 +4340,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "LOR 1 GEYLANG",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "980"
                 },
@@ -4372,7 +4368,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "SEMBAWANG",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "980"
                 },
@@ -4402,7 +4398,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "SENOKO LOOP",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "981"
                 },
@@ -4429,7 +4425,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "SEMBAWANG",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "981"
                 },
@@ -4459,8 +4455,8 @@ EDSData.TTSG = {
                 destinationFont: "LECIP-10",
                 scrolls: [{
                     renderType: "destScroll",
-                    top: "JURONG EAST MRT",
-                    topFont: "LECIP-10",
+                    top: "JURONG  EAST  MRT",
+                    topFont: "Hanover-14:6",
         
                     serviceNumber: "990"
                 },
@@ -4486,7 +4482,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "BUKIT BATOK",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "990"
                 },
@@ -4514,7 +4510,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "TENGAH",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "992"
                 },
@@ -4542,7 +4538,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "BUKIT BATOK",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "992"
                 },
@@ -4601,7 +4597,7 @@ EDSData.TTSG = {
                     {
                         renderType: "destScroll",
                         top: "TENGAH",
-                        topFont: "LECIP-10",
+                        topFont: "Hanover-Tower12:7",
             
                         serviceNumber: "992"
                     },
@@ -4638,7 +4634,7 @@ EDSData.TTSG = {
                     {
                         renderType: "destScroll",
                         top: "BUKIT BATOK",
-                        topFont: "LECIP-10",
+                        topFont: "Hanover-Tower12:7",
             
                         serviceNumber: "992"
                     },
@@ -4775,6 +4771,32 @@ EDSData.TTSG = {
             }
         }
     },
+    6271: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "59",
+                destination: "CHANGI VILLAGE",
+                destinationFont: "LECIP-10",
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "CHANGI VILLAGE",
+                    topFont: "Hanover-Tower12:7",
+        
+                    serviceNumber: "59"
+                },
+                    "BEDOK RESERVOIR RD"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "59",
+                font: "LECIP-19:TowerB9Front",
+                spacing: 2
+            }
+        }
+    },
     6666: {
         1: {
             front: {
@@ -4809,7 +4831,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "RAFFLES QUAY",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "97e"
                 },
@@ -4839,7 +4861,7 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "JURONG EAST",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "97e"
                 },
