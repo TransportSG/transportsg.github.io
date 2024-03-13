@@ -5260,6 +5260,34 @@ EDSData.TTSG = {
                 font: "LECIP-TowerRear17:10",
                 spacing: 2
             }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "%50",
+                destination: "PONTIAN",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "PONTIAN",
+                    topFont: "Hanover-Tower12:7",
+        
+                    serviceNumber: "%50"
+                },
+                    "PARADIGM MALL",
+                    "SKUDAI",
+                    "SRI PULAI / PULAI JAYA",
+                    "KANGKAR PULAI",
+                    "PEKAN NANAS",
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "%50",
+                font: "LECIP-TowerRear17:10",
+                spacing: 1
+            }
         }
     },
     6666: {
