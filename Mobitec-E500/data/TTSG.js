@@ -1592,6 +1592,44 @@ EDSData.TTSG = {
             spacing: 2
         }
     },
+    7098: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "160",
+            destination: "JB SENTRAL",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "160",
+                    top: "JB SENTRAL",
+                    bottom: "( JB SENTRAL KTM )",
+                    image: "ktm"
+                },
+                "BUKIT BATOK RD",
+                "WOODLANDS RD",
+                "KRANJI MRT",
+                "WOODLANDS CENTRE RD"
+            ]
+        }
+    },
+    7099: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "$41",
+            destination: "MALL OF MENDINI",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "$41",
+                    top: "MALL OF MENDINI",
+                    bottom: "( LEGOLAND MALAYSIA )",
+                    image: "SentosaGantry"
+                },
+                "TAMAN TASEK",
+                "BUKIT INDAH",
+            ]
+        }
+    },
     7501: {
         front: {
             renderType: "standardService",

@@ -5236,23 +5236,27 @@ EDSData.TTSG = {
         1: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "59",
-                destination: "CHANGI VILLAGE",
+                serviceNumber: "170",
+                destination: "LARKIN",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [{
                     renderType: "destScroll",
-                    top: "CHANGI VILLAGE",
+                    top: "LARKIN",
                     topFont: "Hanover-Tower12:7",
         
-                    serviceNumber: "59"
+                    serviceNumber: "170"
                 },
-                    "BEDOK RESERVOIR RD"
+                    "UPPER BUKIT TIMAH RD",
+                    "BUKIT PANJANG MRT",
+                    "WOODLANDS RD",
+                    "KRANJI MRT",
+                    "WOODLANDS CENTRE RD"
                 ],
                 scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "59",
+                serviceNumber: "170",
                 font: "LECIP-TowerRear17:10",
                 spacing: 2
             }
