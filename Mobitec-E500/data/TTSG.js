@@ -6,7 +6,7 @@ EDSFormats.TTSG = {
                 right: 1
             },
             text: "$serviceNumber",
-            font: "Mobitec-Tower16:8",
+            font: "Mobitec-Tower16:10",
             spacing: 2
         },
         destination: {
@@ -40,7 +40,7 @@ EDSFormats.TTSG = {
                 right: 1
             },
             text: "$serviceNumber",
-            font: "Mobitec-Tower16:8",
+            font: "Mobitec-Tower16:10",
             spacing: 2
         },
         top: {
@@ -159,17 +159,6 @@ EDSData.TTSG = {
         ]
       }
     },
-    1: {
-        front: {
-            renderType: "destScroll",
-            serviceNumber: "",
-            top: "World's 1st MAN A95",
-            topFont: "Mobitec-Tower6:4",
-            bottom: "Double Decker Bus",
-            bottomFont: "Mobitec-Tower6:4",
-            image: "MAN L0GO"
-        }
-    },
     1111: {
         front: {
             renderType: "standardService",
@@ -209,6 +198,39 @@ EDSData.TTSG = {
                     text: "TOWER TRANSIT LOGO"
                 }
             ]
+        }
+    },
+    22: {
+        front: { //Reserved for MAN A22
+                renderType: "destScroll",
+                serviceNumber: "",
+                top: "NL323F (A22)",
+                topFont: "Mobitec-9:6",
+                bottom: "Mobitec - 150324",
+                bottomFont: "Mobitec-Tower6:4",
+                image: "MAN-Logo37"
+        }
+    },
+    24: {
+        front: { //Reserved for MAN A22
+                renderType: "destScroll",
+                serviceNumber: "",
+                top: "NG363F (A24)",
+                topFont: "Mobitec-9:6",
+                bottom: "Mobitec - 150324",
+                bottomFont: "Mobitec-Tower6:4",
+                image: "MAN-Logo37"
+        }
+    },
+    95: {
+        front: { //Reserved for MAN A22
+                renderType: "destScroll",
+                serviceNumber: "",
+                top: "ND323F (A95)",
+                topFont: "Mobitec-9:6",
+                bottom: "Mobitec - 150324",
+                bottomFont: "Mobitec-Tower6:4",
+                image: "MAN-Logo37"
         }
     },
     411: {
@@ -1307,6 +1329,34 @@ EDSData.TTSG = {
             ]
         }
     },
+    1842: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "963",
+            destination: "HARBOURFRONT",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "963",
+                    top: "HELLO UNCLE",
+                    topFont: "Mobitec-9:6",
+                    bottom: "DOES THIS BUS GO TO HILLVIEW",
+                    bottomFont: "Hanover-5:3",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "963",
+                    top: "HARBOURFRONT",
+                    image: "mrt"
+                },
+                "BUKIT PANJANG RD",
+                "HILLVIEW AVE",
+                "BUKIT BATOK EAST AVE 3",
+                "AYE",
+                "ALEXANDRA RD"
+            ]
+        }
+    },
     1891: {
         front: {
             renderType: "standardService",
@@ -1590,6 +1640,161 @@ EDSData.TTSG = {
             font: "Hanover-14:6",
             text: "LRT  Bridging  West",
             spacing: 2
+        }
+    },
+    5100: {
+        front: {
+                renderType: "destScroll",
+                serviceNumber: "",
+                top: "TT Black 01",
+                topFont: "Mobitec-Tower16:9",
+                image: "logo"
+        }
+    },
+    5101: {
+        front: {
+                renderType: "destScroll",
+                serviceNumber: "",
+                top: "TT Black 02",
+                topFont: "Mobitec-Tower16:9",
+                image: "logo"
+        }
+    },
+    5102: {
+        front: {
+                renderType: "destScroll",
+                serviceNumber: "",
+                top: "TT Black 03",
+                topFont: "Mobitec-Tower16:9",
+                image: "logo"
+        }
+    },
+    5103: {
+        front: {
+                renderType: "destScroll",
+                serviceNumber: "",
+                top: "TT Black 04",
+                topFont: "Mobitec-Tower16:9",
+                image: "logo"
+        }
+    },
+    5104: {
+        front: {
+                renderType: "destScroll",
+                serviceNumber: "",
+                top: "TT Blue 01",
+                topFont: "Mobitec-Tower16:9",
+                image: "logo"
+        }
+    },
+    5105: {
+        front: {
+                renderType: "destScroll",
+                serviceNumber: "",
+                top: "TT Blue 02",
+                topFont: "Mobitec-Tower16:9",
+                image: "logo"
+        }
+    },
+    5106: {
+        front: {
+                renderType: "destScroll",
+                serviceNumber: "",
+                top: "TT Blue 03",
+                topFont: "Mobitec-Tower16:9",
+                image: "logo"
+        }
+    },
+    5107: {
+        front: {
+                renderType: "destScroll",
+                serviceNumber: "",
+                top: "TT Blue 04",
+                topFont: "Mobitec-Tower16:9",
+                image: "logo"
+        }
+    },
+    5108: {
+        front: {
+                renderType: "destScroll",
+                serviceNumber: "",
+                top: "TT Brown 01",
+                topFont: "Mobitec-Tower16:9",
+                image: "logo"
+        }
+    },
+    5109: {
+        front: {
+                renderType: "destScroll",
+                serviceNumber: "",
+                top: "TT Brown 02",
+                topFont: "Mobitec-Tower16:9",
+                image: "logo"
+        }
+    },
+    5110: {
+        front: {
+                renderType: "destScroll",
+                serviceNumber: "",
+                top: "TT Brown 03",
+                topFont: "Mobitec-Tower16:9",
+                image: "logo"
+        }
+    },
+    5111: {
+        front: {
+                renderType: "destScroll",
+                serviceNumber: "",
+                top: "TT Brown 04",
+                topFont: "Mobitec-Tower16:9",
+                image: "logo"
+        }
+    },
+    5112: {
+        front: {
+                renderType: "destScroll",
+                serviceNumber: "",
+                top: "TT Green 01",
+                topFont: "Mobitec-Tower16:9",
+                image: "logo"
+        }
+    },
+    5113: {
+        front: {
+                renderType: "destScroll",
+                serviceNumber: "",
+                top: "TT Green 02",
+                topFont: "Mobitec-Tower16:9",
+                image: "logo"
+        }
+    },
+    5114: {
+        front: {
+                renderType: "destScroll",
+                serviceNumber: "",
+                top: "TT Green 03",
+                topFont: "Mobitec-Tower16:9",
+                image: "logo"
+        }
+    },
+    5115: {
+        front: {
+                renderType: "destScroll",
+                serviceNumber: "",
+                top: "TT Green 04",
+                topFont: "Mobitec-Tower16:9",
+                image: "logo"
+        }
+    },
+    5888: {
+        front: {
+                renderType: "destScroll",
+                serviceNumber: "",
+                top: "World's 1st MAN A95",
+                topFont: "Mobitec-Tower6:4",
+                bottom: "Double Decker Bus",
+                bottomFont: "Mobitec-Tower6:4",
+                image: "MAN-Logo32"
         }
     },
     7098: {
@@ -3198,23 +3403,41 @@ EDSImages.TTSG = {
         [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1],
         [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1],
     ],
-    "MAN LOGO": [
-        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-        [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-        [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
-        [0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0],
-        [0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0],
-        [0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0],
-        [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0],
-        [0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0],
-        [0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0],
-        [0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0],
-        [0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 0],
+    "MAN-Logo37": [ // Logo for non 5888 MAN Bus
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0],
+        [0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0],
+        [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0],
+        [0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0],
+        [0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0],
+        [0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0],
+        [1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1],
+        [1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1],
+        [1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1],
+        [1, 1, 0, 0, 0, 0, 1, 1, 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1],
+        [1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 1],
+        [1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1],
+    ],
+    "MAN-Logo32": [ //Logo for 5888
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
+        [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0], 
+        [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0], 
+        [0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0], 
+        [0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0],
+        [0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0],
+        [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0],
+        [0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0],
+        [0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0],
+        [0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0],
+        [0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0],
         [0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 0, 0, 1, 1, 0],
-        [1, 1, 1, 0, 0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1],
+        [1, 1, 1, 0, 0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1],
         [1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0, 1, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1],
-        [1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1],
+        [1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1],
     ],
     heart: [
         [0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0],
