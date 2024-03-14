@@ -1338,16 +1338,16 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "963",
-                    top: "HELLO UNCLE",
-                    topFont: "Mobitec-9:6",
-                    bottom: "DOES THIS BUS GO TO HILLVIEW",
-                    bottomFont: "Hanover-5:3",
+                    top: "HARBOURFRONT",
+                    image: "mrt"
                 },
                 {
                     renderType: "destScroll",
                     serviceNumber: "963",
-                    top: "HARBOURFRONT",
-                    image: "mrt"
+                    top: "HELLO UNCLE",
+                    topFont: "Mobitec-9:6",
+                    bottom: "DOES THIS BUS GO TO HILLVIEW",
+                    bottomFont: "Hanover-5:3",
                 },
                 "BUKIT PANJANG RD",
                 "HILLVIEW AVE",
