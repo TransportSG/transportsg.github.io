@@ -1512,7 +1512,7 @@ EDSData.TTSG = {
             ]
         }
     },
-    7001: {
+    5001: {
         front: {
             renderType: "message",
             font: "Hanover-14:6",
@@ -1520,7 +1520,7 @@ EDSData.TTSG = {
             spacing: 2
         }
     },
-    7002: {
+    5002: {
         front: {
             renderType: "message",
             font: "Hanover-14:6",
@@ -1528,7 +1528,7 @@ EDSData.TTSG = {
             spacing: 2
         }
     },
-    7003: {
+    5003: {
         front: {
             renderType: "message",
             font: "Hanover-14:6",
@@ -1536,7 +1536,7 @@ EDSData.TTSG = {
             spacing: 2
         }
     },
-    7004: {
+    5004: {
         front: {
             renderType: "message",
             font: "Hanover-14:6",
@@ -1544,7 +1544,7 @@ EDSData.TTSG = {
             spacing: 2
         }
     },
-    7005: {
+    5005: {
         front: {
             renderType: "message",
             font: "Hanover-14:6",
@@ -1552,7 +1552,7 @@ EDSData.TTSG = {
             spacing: 2
         }
     },
-    7006: {
+    5006: {
         front: {
             renderType: "message",
             font: "Hanover-14:6",
@@ -1560,7 +1560,7 @@ EDSData.TTSG = {
             spacing: 2
         }
     },
-    7007: {
+    5007: {
         front: {
             renderType: "message",
             font: "Hanover-14:6",
@@ -1568,7 +1568,7 @@ EDSData.TTSG = {
             spacing: 2
         }
     },
-    7008: {
+    5008: {
         front: {
             renderType: "message",
             font: "Hanover-14:6",
@@ -1576,7 +1576,7 @@ EDSData.TTSG = {
             spacing: 2
         }
     },
-    7009: {
+    5009: {
         front: {
             renderType: "message",
             font: "Hanover-14:6",
@@ -1584,7 +1584,7 @@ EDSData.TTSG = {
             spacing: 2
         }
     },
-    7010: {
+    5010: {
         front: {
             renderType: "message",
             font: "Hanover-14:6",
