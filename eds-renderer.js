@@ -1,4 +1,5 @@
 (function(exports){
+    let globalObject = global || window
 
     exports.Position = class Position {
 
@@ -555,7 +556,7 @@
                 return;
             }
 
-            console.log(`parsing ${sectionName}`);
+            if (!globalObject.hideDebug) console.log(`parsing ${sectionName}`);
 
             if (sectionName === '__dynamic__') {
                 output[sectionName] = {
