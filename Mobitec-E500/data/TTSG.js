@@ -1351,6 +1351,36 @@ EDSData.TTSG = {
             ]
         }
     },
+    1841: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "963",
+            destination: "HILLVIEW",
+            scrolls: [
+                "HILLVIEW RD",
+                "HILLVIEW AVE",
+                "HILLVIEW MRT",
+                "HILLVIEW RISE",
+                "HILLVIEW CRESCENT",
+                "HILLVIEW DRIVE",
+                "HILLVIEW TERRACE",
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "963",
+                    top: "HILLVIEW",
+                    image: "mrt"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "963",
+                    top: "HELLO UNCLE",
+                    topFont: "Mobitec-9:6",
+                    bottom: "DOES THIS BUS GO TO HILLVIEW",
+                    bottomFont: "Hanover-5:3",
+                }
+            ]
+        }
+    },
     1842: {
         front: {
             renderType: "standardService",
