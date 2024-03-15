@@ -1335,6 +1335,11 @@ EDSData.TTSG = {
             serviceNumber: "963",
             destination: "HARBOURFRONT",
             scrolls: [
+                "BUKIT PANJANG RD",
+                "HILLVIEW AVE",
+                "BUKIT BATOK EAST AVE 3",
+                "AYE",
+                "ALEXANDRA RD",
                 {
                     renderType: "destScroll",
                     serviceNumber: "963",
@@ -1348,12 +1353,7 @@ EDSData.TTSG = {
                     topFont: "Mobitec-9:6",
                     bottom: "DOES THIS BUS GO TO HILLVIEW",
                     bottomFont: "Hanover-5:3",
-                },
-                "BUKIT PANJANG RD",
-                "HILLVIEW AVE",
-                "BUKIT BATOK EAST AVE 3",
-                "AYE",
-                "ALEXANDRA RD"
+                }
             ]
         }
     },
