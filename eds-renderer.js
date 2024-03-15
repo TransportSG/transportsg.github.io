@@ -1,5 +1,13 @@
+function getGlobalObject() {
+    try {
+        return Function('return this')() || (42, eval)('this')
+    } catch(e) {
+        return window
+    }
+}
+
 (function(exports){
-    let globalObject = global || window
+    let globalObject = getGlobalObject()
 
     exports.Position = class Position {
 
