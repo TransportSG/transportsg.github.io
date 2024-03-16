@@ -960,7 +960,7 @@ EDSData.TTSG = {
                     "ALEXANDRA RD",
                     "HARBOURFRONT",
                     "ROBINSON RD",
-                    "BAYFRON AVE / MBS",
+                    "BAYFRONT AVE / MBS",
                     "SUNTEC CITY"
                 ],
                 scrollFont: "LECIP-7:5"
@@ -1029,7 +1029,7 @@ EDSData.TTSG = {
                     "ALEXANDRA RD",
                     "HARBOURFRONT",
                     "ROBINSON RD",
-                    "BAYFRON AVE / MBS",
+                    "BAYFRONT AVE / MBS",
                     "SUNTEC CITY"
                 ],
                 scrollFont: "LECIP-7:5"

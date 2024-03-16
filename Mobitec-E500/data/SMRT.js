@@ -12585,14 +12585,54 @@ EDSExtras.SMRT = {
     },
     12: {
         front: {
-            renderType: "destScroll",
-            top: "SMRT Buses thank you",
-            topFont: "Mobitec-7:5:2",
-
-            bottom: " for your support",
-            bottomFont: "Mobitec-7:5:2",
-
-            serviceNumber: ""
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "We hope to",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "SMRT Buses thank you",
+                    bottom: "for your support",
+                    topFont: "Mobitec-7:5:2",
+                    bottomFont: "Mobitec-7:5:2"
+                },
+                "serve you again"
+            ],
+            scrollFont: "Mobitec-7:5:2"
+        },
+    },
+    13: {
+        front: {
+            renderType: "message",
+            font: "Mobitec-7:5:2",
+            text: "Moving WITH you! - 13 June",
+            spacing: 1
+        },
+    },
+    99: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "We hope to",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "SMRT Buses thanked you",
+                    bottom: "for your support",
+                    topFont: "Mobitec-7:5:2",
+                    bottomFont: "Mobitec-7:5:2"
+                },
+                "serve you again"
+            ],
+            scrollFont: "Mobitec-7:5:2"
         },
     },
 }
