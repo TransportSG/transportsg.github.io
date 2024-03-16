@@ -78,6 +78,40 @@ EDSFormats.SMRT = {
 
         text: "$destination.text+' '+$serviceNumber"
     },
+    standardService2: {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 1
+            },
+            text: "$serviceNumber",
+            font: "Mobitec-16:8",
+            spacing: 2
+        },
+        destination: {
+            align: "centre-x,top",
+            margin: {
+                right: 'width(serviceNumber)'
+            },
+            text: "$destination.text",
+            font: "$destination.font",
+            spacing: 1
+        },
+        scroll: {
+            align: "centre-x,bottom",
+            margin: {
+                right: 'width(serviceNumber)'
+            },
+            scrolls: "$scrolls",
+            rotate: true,
+            rotateSpeed: 3000,
+
+            font: "$scrollFont",
+            spacing: 1
+        },
+
+        text: "$destination.text+' '+$serviceNumber"
+    },
     destScroll: {
         serviceNumber: {
             align: "right",
@@ -12585,7 +12619,7 @@ EDSExtras.SMRT = {
     },
     12: {
         front: {
-            renderType: "standardService",
+            renderType: "standardService2",
             serviceNumber: "",
             destination: {
                 text: "We hope to",
@@ -12596,7 +12630,7 @@ EDSExtras.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "",
                     top: "SMRT Buses thank you",
-                    bottom: "for your support",
+                    bottom: " for your support",
                     topFont: "Mobitec-7:5:2",
                     bottomFont: "Mobitec-7:5:2"
                 },
@@ -12609,13 +12643,13 @@ EDSExtras.SMRT = {
         front: {
             renderType: "message",
             font: "Mobitec-7:5:2",
-            text: "Moving WITH you! - 13 June",
+            text: "Moving WITH you - 13 June",
             spacing: 1
         },
     },
     99: {
         front: {
-            renderType: "standardService",
+            renderType: "standardService2",
             serviceNumber: "",
             destination: {
                 text: "We hope to",
