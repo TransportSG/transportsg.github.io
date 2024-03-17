@@ -160,6 +160,57 @@ EDSFormats.TTSG = {
 
         text: "$top+' '+$bottom+' '+$serviceNumber"
     },
+    OngTengHuat: {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 1
+            },
+            text: "$serviceNumber",
+            font: "LECIP-19:TowerB9Front",
+            spacing: 2
+        },
+        top: {
+            align: "centre-x,top",
+            margin: {
+                right: 'width(serviceNumber)',
+                Top: 1
+            },
+            text: "$destination",
+            font: "$topFont",
+            spacing: 1
+        },
+        bottom: {
+            align: "centre-x,bottom",
+            text: {
+                $$cond: {
+                    "$bottom !== null": "$bottom",
+                    "else": "''"
+                }
+            },
+            font: {
+                $$cond: {
+                    "$bottomFont === null": "LECIP-7:5",
+                    "else": "$bottomFont"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber) - width(image)'
+            }
+        },
+        image: {
+            align: "left",
+            image: {
+                $$cond: {
+                    "$image !== null": "$image",
+                    "else": "blank"
+                }
+            }
+        },
+
+        text: "$top+' '+$bottom+' '+$serviceNumber"
+    },
     logo: {
         logo: {
             align: "centre-x,centre-y",
@@ -3818,6 +3869,23 @@ EDSData.TTSG = {
                 font: "LECIP-20:6",
                 spacing: 2
             }
+        },
+        2: {
+            front: {
+                renderType: "OngTengHuat",
+                serviceNumber: "858",
+                top: "CHANGI AIRPORT",
+                topFont: "Hanover-Tower11:7",
+                bottom: "( PTB 3, 1, 2 )",
+                bottomFont: "Hanover-5:3",
+                image: "ChangiAirportControlTower"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "858",
+                font: "LECIP-TowerRear17:10",
+                spacing: 2
+            }
         }
     },
     "858B": {
@@ -5265,7 +5333,7 @@ EDSData.TTSG = {
                 renderType: "message",
                 text: "SGUS",
                 font: "SGBusLogo-Mobitec",
-                spacing: 2
+                spacing: 1
             },
             rear: {
                 renderType: 'twoline',
@@ -6160,5 +6228,23 @@ EDSData.TTSG = {
 }
 
 EDSImages.TTSG = {
-
+    blank: [[]],
+    ChangiAirportControlTower: [
+        [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1],
+        [0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0],
+        [0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0],
+        [0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0],
+        [0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0],
+        [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
+    ],
 }
