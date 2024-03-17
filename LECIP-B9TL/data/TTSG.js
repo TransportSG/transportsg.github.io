@@ -3262,6 +3262,7 @@ EDSData.TTSG = {
                     "YISHUN AVE 2",
                     "YIO CHU KANG RD",
                     "HOUGANG AVE 3",
+                    "EUNOS LINK"
                 ],
                 scrollFont: "LECIP-7:5"
             },
