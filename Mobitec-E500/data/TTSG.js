@@ -342,27 +342,6 @@ EDSData.TTSG = {
             ]
         }
     },
-    6666: {
-        front: {
-            renderType: "logo",
-            image: "logo-full",
-            text: "TOWER TRANSIT LOGO",
-            destination: "",
-            scrolls: [
-                {
-                    renderType: "message",
-                    text: "",
-                    font: "TTS-16:9",
-                    spacing: 3
-                },
-                {
-                    renderType: "logo",
-                    image: "logo-full",
-                    text: "TOWER TRANSIT LOGO"
-                }
-            ]
-        }
-    },
     22: {
         front: { //Reserved for MAN A22
                 renderType: "destScroll",
@@ -372,6 +351,7 @@ EDSData.TTSG = {
                 bottom: "Mobitec - 150324",
                 bottomFont: "Mobitec-Tower6:4",
                 image: "MAN-Logo37"
+                
         }
     },
     24: {
@@ -3089,7 +3069,7 @@ EDSData.TTSG = {
         front: {
             renderType: "message",
             font: "Hanover-14:6",
-            text: "LRT  Shuttle  A",
+            text: "LRT  Bridging  A",
             spacing: 2
         }
     },
@@ -3097,7 +3077,7 @@ EDSData.TTSG = {
         front: {
             renderType: "message",
             font: "Hanover-14:6",
-            text: "LRT  Shuttle  B",
+            text: "LRT  Bridging  B",
             spacing: 2
         }
     },
@@ -3261,6 +3241,111 @@ EDSData.TTSG = {
                 image: "logo"
         }
     },
+    5200: {
+        front: {
+                renderType: "destScroll",
+                serviceNumber: "",
+                top: "~  $  $  0  1",
+                topFont: "Mobitec-Tower16:10",
+                topSpacing: "5",
+        }
+    },
+    5225: {
+        front: {
+                renderType: "destScroll",
+                serviceNumber: "",
+                top: "~  $  $  2  5",
+                topFont: "Mobitec-Tower16:10",
+                topSpacing: "5",
+        }
+    },
+    5300: {
+        front: {
+                renderType: "destScroll",
+                serviceNumber: "%1",
+                top: "Crew  Bus",
+                topFont: "Hanover-14:6",
+                image: "logo"
+        }
+    },
+    5301: {
+        front: {
+                renderType: "destScroll",
+                serviceNumber: "%2",
+                top: "Crew  Bus",
+                topFont: "Hanover-14:6",
+                image: "logo"
+        }
+    },
+    5302: {
+        front: {
+                renderType: "destScroll",
+                serviceNumber: "%3",
+                top: "Crew  Bus",
+                topFont: "Hanover-14:6",
+                image: "logo"
+        }
+    },
+    5303: {
+        front: {
+                renderType: "destScroll",
+                serviceNumber: "%4",
+                top: "Crew  Bus",
+                topFont: "Hanover-14:6",
+                image: "logo"
+        }
+    },
+    5304: {
+        front: {
+                renderType: "destScroll",
+                serviceNumber: "%5",
+                top: "Crew  Bus",
+                topFont: "Hanover-14:6",
+                image: "logo"
+        }
+    },
+    5305: {
+        front: {
+                renderType: "destScroll",
+                serviceNumber: "%6",
+                top: "Crew  Bus",
+                topFont: "Hanover-14:6",
+                image: "logo"
+        }
+    },
+    5400: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "",
+            top: "Bulim - TTS",
+            topFont: "Hanover-7:4",
+            bottom: "Hotel Ferry",
+            bottomFont: "Hanover-7:4",
+            image: "logo"
+        }
+    },
+    5401: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "",
+            top: "Mandai - TTS",
+            topFont: "Hanover-7:4",
+            bottom: "Hotel Ferry",
+            bottomFont: "Hanover-7:4",
+            image: "logo"
+        }
+    },
+    5402: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "",
+            top: "TTS - Hotel Ferry",
+            topFont: "Hanover-7:4",
+            bottom: "Employee Shuttle",
+            bottomFont: "Hanover-7:4",
+            image: "logo"
+        }
+    },
     5888: {
         front: {
                 renderType: "destScroll",
@@ -3308,15 +3393,6 @@ EDSData.TTSG = {
                 "TAMAN TASEK",
                 "BUKIT INDAH",
             ]
-        }
-    },
-    8000: {
-        front: {
-                renderType: "destScroll",
-                serviceNumber: "%1",
-                top: "Crew  Bus",
-                topFont: "Hanover-14:6",
-                image: "logo"
         }
     },
     8011: {
@@ -5515,6 +5591,79 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "981",
                     top: "SEMBAWANG",
+                    image: "mrt"
+                }
+            ]
+        }
+    },
+    9901: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "990",
+            destination: "JURONG EAST MRT",
+            scrolls: [
+                "BT BATOK EAST AVE 3",
+                "BT BATOK EAST AVE 6",
+                "TOH GUAN RD",
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "990",
+                    top: "Welcome on board",
+                    topFont: "Hanover-7:3",
+                    bottom: "Tower Transit",
+                    bottomFont: "Hanover-7:3",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "990",
+                    top: "Have a pleasant",
+                    topFont: "Hanover-7:3",
+                    bottom: "journey!",
+                    bottomFont: "Hanover-7:3",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "990",
+                    top: "JURONG EAST",
+                    bottom: "( BEF JURONG EAST STN )",
+                    image: "mrt"
+                }
+            ]
+        }
+    },
+    9902: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "990",
+            destination: "BUKIT BATOK",
+            scrolls: [
+                "TOH GUAN RD",
+                "BUKIT BATOK EAST AVE 6",
+                "BUKIT BATOK EAST AVE 3",
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "990",
+                    top: "Welcome on board",
+                    topFont: "Hanover-7:3",
+                    bottom: "Tower Transit",
+                    bottomFont: "Hanover-7:3",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "990",
+                    top: "Have a pleasant",
+                    topFont: "Hanover-7:3",
+                    bottom: "journey!",
+                    bottomFont: "Hanover-7:3",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "990",
+                    top: "BUKIT BATOK",
                     image: "mrt"
                 }
             ]
