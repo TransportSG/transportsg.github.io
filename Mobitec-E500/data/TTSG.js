@@ -793,6 +793,38 @@ EDSData.TTSG = {
             ]
         }
     },
+    663: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "66A",
+            top: "Ends At",
+            topFont: "Mobitec-7:5:3",
+            bottom: "Little India Stn Exit A",
+            bottomFont: "Mobitec-Tower6:4",
+            image: "mrt"
+        }
+    },
+    664: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "66B",
+            top: "Ends At",
+            topFont: "Mobitec-7:5:3",
+            bottom: "Tekka Ctr",
+            bottomFont: "Mobitec-Tower6:4",
+        }
+    },    
+    665: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "66C",
+            top: "Ends At",
+            topFont: "Mobitec-7:5:3",
+            bottom: "Opp Beauty World Stn",
+            bottomFont: "Hanover-5:3",
+            image: "mrt"
+        }
+    },
     668: {
         front: {
             renderType: "standardService",
