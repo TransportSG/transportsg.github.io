@@ -66,7 +66,12 @@ EDSFormats.TTSG = {
             rotate: true,
             rotateSpeed: 3000,
 
-            font: "Mobitec-Tower6:4",
+            font: {
+                $$cond: {
+                    "$destFont === null": "Mobitec-Tower6:4",
+                    "else": "$scrollFont"
+                }
+            },
             spacing: 1
         },
 
@@ -686,7 +691,8 @@ EDSData.TTSG = {
             destination: "TEL SHUTTLE",
             scrolls: [
                 "Outram Park > Caldecott"
-            ]
+            ],
+            ScrollFont: "Hanover-7:3"
         }
     },
     522: {
@@ -1532,6 +1538,8 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "98",
                     top: "JURONG PIER WAY",
+                    bottom: "(JURONG ISLAND CHECKPOINT)",
+
                 }
             ]
         }
