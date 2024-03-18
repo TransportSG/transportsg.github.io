@@ -1384,11 +1384,14 @@ EDSData.TTSG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "N2",
-                destination: "WOODLANDS CTR RD",
+                destination: "SEMBAWANG DR",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [
-                    "MARSILING DR",
-                    "WOODLANDS AVE 7"
+                    "WOODLANDS CENTRE RD",
+                    "MARSILING RD",
+                    "WOODLANDS AVE 7",
+                    "ADMIRALTY DR",
+                    "CANBERRA RD",
                 ],
                 scrollFont: "LECIP-7:5"
             },
