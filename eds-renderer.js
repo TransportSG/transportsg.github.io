@@ -536,6 +536,8 @@ function getGlobalObject() {
             let font = sectionFormatting.font;
             let text = sectionFormatting.text;
 
+            if (typeof text === 'undefined') throw new Error('Undefined text in section' + JSON.stringify(sectionFormatting, null, 2))
+
             text = TextObject.fromJSON(text, font, spacing);
             text = resolveTextPosition(text, alignment, matrix);
             text.margins = margins;

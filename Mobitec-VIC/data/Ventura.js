@@ -57,7 +57,12 @@ EDSFormats.Ventura = {
             align: "left,top",
             margin: {
                 left: 1,
-                top: '$topMargin'
+                top: {
+                    $$cond: {
+                        "$topMargin !== null": "$topMargin",
+                        "else": "0"
+                    }
+                }
             },
             text: "$destination",
             spacing: 1
@@ -3684,7 +3689,8 @@ EDSData.Ventura = {
         destination: {
             text: "Chirnside Park",
             font: "Mobitec-7:7"
-        }
+        },
+        topMargin: 4
       }
     },
     6641: {
@@ -3981,8 +3987,8 @@ EDSData.Ventura = {
             renderType: "destService",
             serviceNumber: "672",
             destination: {
-                text: "Croydon Station",
-                font: "Mobitec-13:7"
+                text: "Croydon",
+                font: "Mobitec-13:8"
             },
             topMargin: 1
         }
@@ -4609,8 +4615,8 @@ EDSData.Ventura = {
             renderType: "destService",
             serviceNumber: "703",
             destination: {
-                text: "Bentleigh Station",
-                font: "Mobitec-13:7"
+                text: "Bentleigh Stn",
+                font: "Mobitec-13:8"
             },
             topMargin: 1
         }

@@ -4,9 +4,6 @@ const Fonts = require('../fonts')
 const EDSRenderer = require('../eds-renderer')
 const path = require('path')
 
-require('mocha-steps')
-const assert = require('assert')
-
 global.scaffoldBuilt = true
 global.EDSFormats = {}
 global.EDSData = {}
@@ -20,8 +17,7 @@ Object.keys(Fonts).forEach(key => global[key] = Fonts[key])
 
 let matrix = new LEDMatrix(300, 300, null, BufferedMatrix)
 
-function testT1Operator(operator) {
-  let data = EDSData[operator]
+function testT1Operator(operator, formats, data, images) {
   let operatorPromises = []
 
   let codeList = Object.keys(data)
@@ -30,7 +26,7 @@ function testT1Operator(operator) {
       if (data[code] && data[code][side]) {
         operatorPromises.push(new Promise(codeResolve => {
           it(`Code ${code} should render the ${side} properly`, done => {
-            parseFormat(EDSFormats[operator], data[code][side], EDSImages[operator], matrix)
+            parseFormat(formats, data[code][side], images, matrix)
 
             done()
             codeResolve()
@@ -43,8 +39,7 @@ function testT1Operator(operator) {
   return Promise.all(operatorPromises)
 }
 
-function testT1T2Operator(operator) {
-  let data = EDSData[operator]
+function testT1T2Operator(operator, formats, data, images) {
   let operatorPromises = []
 
   let codeList = Object.keys(data)
@@ -54,7 +49,7 @@ function testT1T2Operator(operator) {
         if (data[code][i] && data[code][i][side]) {
           operatorPromises.push(new Promise(codeResolve => {
             it(`Code ${code} T${i} should render the ${side} properly`, done => {
-              parseFormat(EDSFormats[operator], data[code][i][side], EDSImages[operator], matrix)
+              parseFormat(formats, data[code][i][side], images, matrix)
 
               done()
               codeResolve()
@@ -73,11 +68,15 @@ function testEDS(edsType, testFunc, operators) {
 
   operators.forEach(async operator => {
     require(path.join(__dirname, '..', edsType, 'data', operator + '.js'))
-  
+
+    let formats = EDSFormats[operator]
+    let data = EDSData[operator]
+    let images = EDSImages[operator]
+
     allPromises.push(new Promise(operatorResolve => {
       describe(`${edsType} EDS Data`, () => {
         describe(operator + ' data', async () => {
-          await testFunc(operator)
+          await testFunc(operator, formats, data, images)
           operatorResolve()
         })
       })
@@ -88,12 +87,17 @@ function testEDS(edsType, testFunc, operators) {
 }
 
 async function test() {
-  await testEDS('LECIP-B9TL', testT1T2Operator, ['SBST', 'SMRT', 'TTSG', 'GASG'])
-  await testEDS('Mobitec-E500', testT1Operator, ['SBST', 'SMRT', 'TTSG', 'GASG', 'Sentosa'])
-  await testEDS('Hanover-K230UB', testT1Operator, ['SBST'])
+  let allTestsCompleted = [
+    testEDS('LECIP-B9TL', testT1T2Operator, ['SBST', 'SMRT', 'TTSG', 'GASG']),
+    testEDS('Mobitec-E500', testT1Operator, ['SBST', 'SMRT', 'TTSG', 'GASG', 'Sentosa']),
 
-  await testEDS('Mobitec-VIC', testT1Operator, ['Ventura'])
-  await testEDS('Buse-16', testT1Operator, ['CDC', 'LTVBL'])
+    testEDS('Hanover-K230UB', testT1Operator, ['SBST']),
+
+    testEDS('Mobitec-VIC', testT1Operator, ['Ventura']),
+    testEDS('Buse-16', testT1Operator, ['CDC', 'LTVBL'])
+  ]
+
+  await Promise.all(allTestsCompleted)
 }
 
 test()

@@ -2108,18 +2108,17 @@ EDSData.GASG = {
     "382W": {
         1: {
             front: {
-
-                    renderType: "standardService",
-                    serviceNumber: "382W",
-                    destination: "PUNGGOL INT",
-                    destinationFont: "LECIP-10",
-                    scrolls: [{
-                        renderType: "destScroll",
-                        top: "PUNGGOL INT",
-                        topFont: "LECIP-10",
-            
-                        serviceNumber: "382W"
-                    },
+                renderType: "standardService",
+                serviceNumber: "382W",
+                destination: "PUNGGOL INT",
+                destinationFont: "LECIP-10",
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "PUNGGOL INT",
+                    topFont: "LECIP-10",
+        
+                    serviceNumber: "382W"
+                },
                  "PUNGGOL PLACE",
                  "SENTUL CRESCENT",
                  "SUMANG LINK",

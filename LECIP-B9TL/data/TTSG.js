@@ -173,7 +173,7 @@ EDSFormats.TTSG = {
         top: {
             align: "centre-x,top",
             margin: {
-                right: 'width(serviceNumber)',
+                right: 'width(serviceNumber) - width(image)',
                 Top: 1
             },
             text: "$destination",
@@ -200,7 +200,7 @@ EDSFormats.TTSG = {
             }
         },
         image: {
-            align: "left",
+            align: "left,centre-y",
             image: {
                 $$cond: {
                     "$image !== null": "$image",
@@ -3877,7 +3877,7 @@ EDSData.TTSG = {
             front: {
                 renderType: "OngTengHuat",
                 serviceNumber: "858",
-                top: "CHANGI AIRPORT",
+                destination: "CHANGI AIRPORT",
                 topFont: "Hanover-Tower11:7",
                 bottom: "( PTB 3, 1, 2 )",
                 bottomFont: "Hanover-5:3",

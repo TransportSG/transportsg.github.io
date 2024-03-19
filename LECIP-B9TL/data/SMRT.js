@@ -252,44 +252,44 @@ EDSData.SMRT = {
             }
         }
     },
-    7: {
-        1: {
-            front: {
-                renderType: "message",
-                text: "OUT OF SERVICE",
-                font: "Arial-12",
-                spacing: 2
-            },
-            rear: {
-                renderType: 'twoline',
-                top: "OUT OF",
-                topFont: "ArialNarrow-7",
+    // 7: {
+    //     1: {
+    //         front: {
+    //             renderType: "message",
+    //             text: "OUT OF SERVICE",
+    //             font: "Arial-12",
+    //             spacing: 2
+    //         },
+    //         rear: {
+    //             renderType: 'twoline',
+    //             top: "OUT OF",
+    //             topFont: "ArialNarrow-7",
 
-                bottom: "SERVICE",
-                bottomFont: "ArialNarrow-7",
-                bottomMargin: 2
-            },
-        }
-    },
-    8: {
-        1: {
-            front: {
-                renderType: 'message',
-                text: 'YOUR RIDE OUR PRIDE',
-                font: 'ArialBold-8',
-                spacing: 2
-            },
-            rear: {
-                renderType: 'twoline',
-                top: "SMRT",
-                topFont: "ArialBold-8",
+    //             bottom: "SERVICE",
+    //             bottomFont: "ArialNarrow-7",
+    //             bottomMargin: 2
+    //         },
+    //     }
+    // },
+    // 8: {
+    //     1: {
+    //         front: {
+    //             renderType: 'message',
+    //             text: 'YOUR RIDE OUR PRIDE',
+    //             font: 'ArialBold-8',
+    //             spacing: 2
+    //         },
+    //         rear: {
+    //             renderType: 'twoline',
+    //             top: "SMRT",
+    //             topFont: "ArialBold-8",
 
-                bottom: "BUSES",
-                bottomFont: "ArialNarrow-7",
-                bottomMargin: 2
-            }
-        }
-    },
+    //             bottom: "BUSES",
+    //             bottomFont: "ArialNarrow-7",
+    //             bottomMargin: 2
+    //         }
+    //     }
+    // },
     9: {
         1: {
             front: {
@@ -635,35 +635,35 @@ EDSData.SMRT = {
             }
         }
     },
-    122: {
-        1: {
-            front: {
-                renderType: 'message',
-                text: 'Moving WITH you - 13 Jun',
-                font: 'Arial-12',
-                spacing: 2
-            }
-        }
-    },
-    151: {
-        1: {
-            front: {
-                renderType: "message",
-                text: "FREE BRIDGING BUS",
-                font: "Arial-12",
-                spacing: 2
-            },
-            rear: {
-                renderType: 'twoline',
-                top: "FREE",
-                topFont: "ArialNarrow-7",
+    // 122: {
+    //     1: {
+    //         front: {
+    //             renderType: 'message',
+    //             text: 'Moving WITH you - 13 Jun',
+    //             font: 'Arial-12',
+    //             spacing: 2
+    //         }
+    //     }
+    // },
+    // 151: {
+    //     1: {
+    //         front: {
+    //             renderType: "message",
+    //             text: "FREE BRIDGING BUS",
+    //             font: "Arial-12",
+    //             spacing: 2
+    //         },
+    //         rear: {
+    //             renderType: 'twoline',
+    //             top: "FREE",
+    //             topFont: "ArialNarrow-7",
 
-                bottom: "SHUTTLE",
-                bottomFont: "ArialNarrow-7",
-                bottomMargin: 2
-            },
-        }
-    },
+    //             bottom: "SHUTTLE",
+    //             bottomFont: "ArialNarrow-7",
+    //             bottomMargin: 2
+    //         },
+    //     }
+    // },
     "151A": {
         1: {
             front: {
@@ -728,25 +728,25 @@ EDSData.SMRT = {
             },
         }
     },
-    153: {
-        1: {
-            front: {
-                renderType: "message",
-                text: "LRT BRIDGING BUS",
-                font: "Arial-12",
-                spacing: 2
-            },
-            rear: {
-                renderType: 'twoline',
-                top: "LRT",
-                topFont: "ArialBold-8",
+    // 153: {
+    //     1: {
+    //         front: {
+    //             renderType: "message",
+    //             text: "LRT BRIDGING BUS",
+    //             font: "Arial-12",
+    //             spacing: 2
+    //         },
+    //         rear: {
+    //             renderType: 'twoline',
+    //             top: "LRT",
+    //             topFont: "ArialBold-8",
 
-                bottom: "BRIDGING",
-                bottomFont: "ArialNarrow-7",
-                bottomMargin: 2
-            },
-        }
-    },
+    //             bottom: "BRIDGING",
+    //             bottomFont: "ArialNarrow-7",
+    //             bottomMargin: 2
+    //         },
+    //     }
+    // },
     "153A": {
         1: {
             front: {
@@ -3171,29 +3171,8 @@ EDSData.SMRT = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "960e",
-                font: "Arial-15",    9729: {
-                    1: {
-                        front: {
-                            renderType: "standardService",
-                            serviceNumber: "972",
-                            destination: {
-                                text: "HAPPY 10TH",
-                                font: "ArialBold-8"
-                            },
-                            scrolls: [
-                                "ANNIVERSARY"
-                            ],
-                            scrollFont: "ArialBold-8"
-                        },
-                        rear: {
-                            renderType: "rearService",
-                            serviceNumber: "972",
-                            font: "Arial-15",
-                            spacing: 2
-                        }
-                    }
-                },
-                spacing: 2
+                font: "ArialBold-8",
+                spacing: 1
             }
         }
     },
