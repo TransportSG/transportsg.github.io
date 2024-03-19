@@ -1613,7 +1613,7 @@ EDSData.TTSG = {
                         serviceNumber: "143M"
                     },
                     "JURONG TOWN HALL RD",
-                    "TEBAN GARDEN RD",
+                    "TEBAN GARDENS RD",
                     "PANDAN GARDENS"
                 ],
                 scrollFont: "LECIP-7:5"
@@ -4764,10 +4764,46 @@ EDSData.TTSG = {
                 ],
                 scrollFont: "LECIP-7:5"
             },
+            
             rear: {
                 renderType: "rearService",
                 serviceNumber: "965T",
                 font: "LECIP-TowerRear17:7",
+                spacing: 1
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "963",
+                destination: "WOODLANDS",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [{
+                    renderType: "centreMessageServiceScroll",
+                    serviceNumber: "963",
+                    top: "HELLO UNCLE",
+                    topFont: "Hanover-Tower11:7",
+
+                    bottom: "IS THIS BUS GOING TO HILLVIEW",
+                    bottomFont: "LECIP-6:3"
+                },
+                {
+                    renderType: "centreMessageServiceScroll",
+                    serviceNumber: "963",
+                    top: "HELLO UNCLE",
+                    topFont: "Hanover-Tower11:7",
+
+                    bottom: "IS THIS BUS GOING TO HILLVIEW",
+                    bottomFont: "LECIP-6:3"
+                },
+
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "963",
+                font: "LECIP-TowerRear17:10",
                 spacing: 1
             }
         }
@@ -4986,6 +5022,26 @@ EDSData.TTSG = {
                 serviceNumber: "974",
                 font: "LECIP-TowerRear17:7",
                 spacing: 2
+            }
+        }
+    },
+    "974A": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "974A",
+                destination: "ENDS AT",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [
+                    "LOT 1 SHOPPERS MALL"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "974A",
+                font: "LECIP-TowerRear17:7",
+                spacing: 1
             }
         }
     },

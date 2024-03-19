@@ -10514,6 +10514,16 @@ EDSData.SMRT = {
             bottomFont: "Mobitec-7:7"
         }
     },
+    9113: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "911A",
+            top: "ENDS AT  BLK 146",
+            bottom: "WOODLANDS ST 13",
+            topFont: "Mobitec-7:5:2",
+            bottomFont: "Mobitec-7:5:2"
+        }
+    },
     9121: {
         front: {
             renderType: "standardService",
@@ -12362,6 +12372,16 @@ EDSData.SMRT = {
                 "JELEBU RD (LOOP)"
             ],
             scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    9834: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "983M",
+            top: "TECK WHYE",
+            bottom: "CRESCENT",
+            topFont: "Mobitec-7:7",
+            bottomFont: "Mobitec-7:7"
         }
     },
     9851: {
