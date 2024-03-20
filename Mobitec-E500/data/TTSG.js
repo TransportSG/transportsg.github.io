@@ -1117,7 +1117,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "79",
                     top: "JURONG EAST",
-                    bottom: "BS 28301 - BLK 131",
+                    bottom: "( BS 28301 - BLK 131 )",
                     image: "mrt"
                 }
             ]
