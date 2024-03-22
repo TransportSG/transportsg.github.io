@@ -1684,6 +1684,81 @@ EDSData.TTSG = {
             }
         }
     },
+    "167E": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "167e",
+                destination: "SHENTON WAY",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [{
+                        renderType: "centreMessageServiceScroll",
+                        serviceNumber: "167e",
+                        top: "LIMITED STOPS",
+                        topFont: "Hanover-Tower11:7",
+
+                        bottom: "EXPRESS SERVICE",
+                        bottomFont: "LECIP-7:5"
+                    },
+                    {
+                        renderType: "destScroll",
+                        top: "SHENTON WAY",
+                        topFont: "Hanover-Tower12:7",
+            
+                        serviceNumber: "167e"
+                    },
+                    "SEMBAWANG RD",
+                    "SPRINGLEAF MRT",
+                    "NEWTON MRT",
+                    "ORCHARD RD"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "167e",
+                font: "LECIP-TowerRear17:7",
+                spacing: 1
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "167e",
+                destination: "SEMBAWANG",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [{
+                        renderType: "centreMessageServiceScroll",
+                        serviceNumber: "167e",
+                        top: "LIMITED STOPS",
+                        topFont: "Hanover-Tower11:7",
+
+                        bottom: "EXPRESS SERVICE",
+                        bottomFont: "LECIP-7:5"
+                    },
+                    {
+                        renderType: "destScroll",
+                        top: "SEMBAWANG",
+                        topFont: "Hanover-Tower12:7",
+            
+                        serviceNumber: "167e"
+                    },
+                    "STAMFORD RD",
+                    "ORCHARD TURN",
+                    "NEWTON MRT",
+                    "SPRINGLEAF MRT",
+                    "SEMBAWANG RD",
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "167e",
+                font: "LECIP-TowerRear17:7",
+                spacing: 1
+            }
+        }
+    },
     "167F": {
         1: {
             front: {
