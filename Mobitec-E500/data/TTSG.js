@@ -2690,9 +2690,9 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "963",
                     top: "HELLO UNCLE",
-                    topFont: "Mobitec-9:6",
-                    bottom: "DOES THIS BUS GO TO HILLVIEW",
-                    bottomFont: "Hanover-5:3",
+                    topFont: "Mobitec-7:5:3",
+                    bottom: "Does this bus go to Hillview",
+                    bottomFont: "Hanover-7:3",
                 }
             ]
         }
