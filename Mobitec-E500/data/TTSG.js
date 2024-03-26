@@ -2990,17 +2990,17 @@ EDSData.TTSG = {
     4953: {
         front: {
             renderType: "standardService",
-            serviceNumber: "965",
-            destination: "SENGKANG",
+            serviceNumber: "000",
+            destination: "SERANGOON RD",
             scrolls: [
-                "WOODLANDS AVE 7",
-                "GAMBAS AVE",
-                "YISHUN MRT",
-                "YISHUN MRT",
-                "COMPASSVALE RD",
+                "KIM TIAN RD",
+                "TIONG BAHRU MRT",
+                "REDHILL MRT",
+                "TANGLIN / ORCHARD RD",
+                "SELEGIE RD",
                 {
                     renderType: "destScroll",
-                    serviceNumber: "965",
+                    serviceNumber: "000",
                     top: "Please do not",
                     topFont: "Hanover-7:3",
                     bottom: "the cat",
@@ -3009,8 +3009,9 @@ EDSData.TTSG = {
                 },
                 {
                     renderType: "destScroll",
-                    serviceNumber: "965",
-                    top: "SENGKANG",
+                    serviceNumber: "000",
+                    top: "SERANGOON RD",
+                    bottom: "( LITTLE INDIA MRT )",
                     image: "mrt"
                 }
             ]
