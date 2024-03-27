@@ -257,6 +257,27 @@ EDSFormats.TTSG = {
             spacing: 1
         }
     },
+    'centreMessageServiceScroll2': {
+        serviceNumber: {
+            align: 'right,centre-y',
+            margin: {
+                right: 1
+            },
+            text: '$serviceNumber',
+            font: 'LECIP-19:TowerB9Front',
+            spacing: 3
+        },
+        top: {
+            align: 'centre-x,top',
+            margin: {
+                right: 'width(serviceNumber) len(5)',
+                top: 0
+            },
+            text: '$top',
+            font: '$topFont',
+            spacing: 1
+        }
+    },
     '944to992': {
         serviceNumber: {
             align: 'right,centre-y',
@@ -5447,17 +5468,15 @@ EDSData.TTSG = {
         1: {
             front: {
                 renderType: "message",
-                text: "OFF SERVICE",
-                font: "LECIP-20:12",
+                text: "~  Off Service",
+                font: "Hanover-Tower19:11:1",
                 spacing: 2
             },
             rear: {
-                renderType: 'twoline',
-                top: "OFF",
-                topFont: "LECIP-7:4",
-
-                bottom: "SERVICE",
-                bottomFont: "LECIP-7:4"
+                renderType: "message",
+                text: "~",
+                font: "Hanover-Tower19:11:2",
+                spacing: 1
             }
         }
     },
@@ -5536,8 +5555,8 @@ EDSData.TTSG = {
             front: {
                 renderType: "message",
                 text: "NSL  Bridging  Bus",
-                font: "Hanover-14:6",
-                spacing: 2
+                font: "Hanover-Tower19:11:2",
+                spacing: 1
             },
             rear: {
                 renderType: 'twoline',
@@ -5554,8 +5573,8 @@ EDSData.TTSG = {
             front: {
                 renderType: "message",
                 text: "EWL  Bridging  Bus",
-                font: "Hanover-14:6",
-                spacing: 2
+                font: "Hanover-Tower19:11:2",
+                spacing: 1
             },
             rear: {
                 renderType: 'twoline',
@@ -5572,8 +5591,8 @@ EDSData.TTSG = {
             front: {
                 renderType: "message",
                 text: "NEL  Bridging  Bus",
-                font: "Hanover-14:6",
-                spacing: 2
+                font: "Hanover-Tower19:11:2",
+                spacing: 1
             },
             rear: {
                 renderType: 'twoline',
@@ -5590,8 +5609,8 @@ EDSData.TTSG = {
             front: {
                 renderType: "message",
                 text: "CCL  Bridging  Bus",
-                font: "Hanover-14:6",
-                spacing: 2
+                font: "Hanover-Tower19:11:2",
+                spacing: 1
             },
             rear: {
                 renderType: 'twoline',
@@ -5608,8 +5627,8 @@ EDSData.TTSG = {
             front: {
                 renderType: "message",
                 text: "DTL  Bridging  Bus",
-                font: "Hanover-14:6",
-                spacing: 2
+                font: "Hanover-Tower19:11:2",
+                spacing: 1
             },
             rear: {
                 renderType: 'twoline',
@@ -5626,8 +5645,8 @@ EDSData.TTSG = {
             front: {
                 renderType: "message",
                 text: "TEL  Bridging  Bus",
-                font: "Hanover-14:6",
-                spacing: 2
+                font: "Hanover-Tower19:11:2",
+                spacing: 1
             },
             rear: {
                 renderType: 'twoline',
@@ -5644,8 +5663,8 @@ EDSData.TTSG = {
             front: {
                 renderType: "message",
                 text: "LRT  Bridging  A",
-                font: "Hanover-14:6",
-                spacing: 2
+                font: "Hanover-Tower19:11:2",
+                spacing: 1
             },
             rear: {
                 renderType: 'twoline',
@@ -5662,8 +5681,8 @@ EDSData.TTSG = {
             front: {
                 renderType: "message",
                 text: "LRT  Bridging  B",
-                font: "Hanover-14:6",
-                spacing: 2
+                font: "Hanover-Tower19:11:2",
+                spacing: 1
             },
             rear: {
                 renderType: 'twoline',
@@ -5680,8 +5699,8 @@ EDSData.TTSG = {
             front: {
                 renderType: "message",
                 text: "LRT  Bridging  East",
-                font: "Hanover-14:6",
-                spacing: 2
+                font: "Hanover-Tower19:11:2",
+                spacing: 1
             },
             rear: {
                 renderType: 'twoline',
@@ -5698,8 +5717,8 @@ EDSData.TTSG = {
             front: {
                 renderType: "message",
                 text: "LRT  Bridging  West",
-                font: "Hanover-14:6",
-                spacing: 2
+                font: "Hanover-Tower19:11:2",
+                spacing: 1
             },
             rear: {
                 renderType: 'twoline',
@@ -6003,8 +6022,8 @@ EDSData.TTSG = {
         1: {
             front: {
                 renderType: "message",
-                text: "~  $  $  0  1",
-                font: "Mobitec-Tower16:10",
+                text: "~  T T 0 1",
+                font: "Hanover-Tower19:11:1",
                 spacing: 2
             },
             rear: {
@@ -6019,8 +6038,8 @@ EDSData.TTSG = {
         1: {
             front: {
                 renderType: "message",
-                text: "~  $  $  0  2",
-                font: "Mobitec-Tower16:10",
+                text: "~  T T 0 2",
+                font: "Hanover-Tower19:11:1",
                 spacing: 2
             },
             rear: {
@@ -6035,8 +6054,8 @@ EDSData.TTSG = {
         1: {
             front: {
                 renderType: "message",
-                text: "~  $  $  2  5",
-                font: "Mobitec-Tower16:10",
+                text: "~  T T 2 5",
+                font: "Hanover-Tower19:11:1",
                 spacing: 2
             },
             rear: {
@@ -6050,15 +6069,15 @@ EDSData.TTSG = {
     5300: {
         1: {
             front: {
-                renderType: "message",
-                text: "Crew Bus                     B1",
-                font: "Hanover-14:6",
-                spacing: 2
+                renderType: "centreMessageServiceScroll2",
+                serviceNumber: "b1",
+                top: "Crew  Bus ",
+                topFont: "Hanover-Tower19:11:2",
             },
             rear: {
                 renderType: "message",
-                text: "B1",
-                font: "Mobitec-10:7",
+                text: "b1",
+                font: "LECIP-19:TowerB9Front",
                 spacing: 2
             }
         }
@@ -6254,14 +6273,10 @@ EDSData.TTSG = {
                 bottomSpacing: 1,
             },
             rear: { 
-                renderType: "twoline",
-                top: "TOWER",
-                topFont: "LECIP-6:4",
-                topSpacing: 1,
-
-                bottom: "TRANSIT",
-                bottomFont: "LECIP-6:4",
-                bottomSpacing: 1,
+                renderType: "message",
+                text: "~",
+                font: "Hanover-Tower19:11:2",
+                spacing: 1
             }
         }
     },
