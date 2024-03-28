@@ -2488,7 +2488,7 @@ EDSData.TTSG = {
             serviceNumber: "173",
             destination: "BUKIT BATOK",
             scrolls: [
-                "TOH TUCK RD / TERRACE",
+                "TOH TUCK TERRACE / RD",
                 "BEAUTY WORLD MRT",
                 "HUME AVE",
                 "JLN BATU NILAM",
@@ -6666,7 +6666,7 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "",
-            destination: "BUS UNDER REPAIR",
+            destination: "Bus Under Repair",
             destFont: "Hanover-14:6",
             scrolls: []
         },
