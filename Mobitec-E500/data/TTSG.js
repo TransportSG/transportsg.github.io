@@ -2373,10 +2373,10 @@ EDSData.TTSG = {
             serviceNumber: "171",
             destination: "MARINA CENTRE",
             scrolls: [
-                "YISHUN AVE 5",
                 "MANDAI RD",
-                "BUKIT PANJANG MRT",
-                "BUKIT TIMAH RD",
+                "PETIR RD",
+                "UPPER BUKIT TIMAH RD",
+                "DUNEARN RD",
                 "ORCHARD / BRAS BASAH RD",
                 {
                     renderType: "destScroll",
@@ -2413,10 +2413,10 @@ EDSData.TTSG = {
             destination: "YISHUN",
             scrolls: [
                 "ORCHARD TURN",
-                "DUNEARN RD",
-                "BUKIT PANJANG MRT",
+                "BUKIT TIMAH RD",
+                "UPPER BUKIT TIMAH RD",
+                "PETIR RD",
                 "MANDAI RD",
-                "YISHUN AVE 5",
                 {
                     renderType: "destScroll",
                     serviceNumber: "171",

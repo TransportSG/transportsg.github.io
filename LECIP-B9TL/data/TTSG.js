@@ -88,7 +88,7 @@ EDSFormats.TTSG = {
 
         text: "$text"
     },
-    twoline: {
+    twolinerear: {
         top: {
             align: "centre-x,top",
             text: "$top",
@@ -105,6 +105,27 @@ EDSFormats.TTSG = {
             spacing: "$bottomSpacing",
             margin: {
                 bottom: 1
+            }
+        },
+        text: "$top"
+    },
+    twolinefront: {
+        top: {
+            align: "centre-x,top",
+            text: "$top",
+            font: "$topFont",
+            spacing: "$topSpacing",
+            margin: {
+                top: 0
+            }
+        },
+        bottom: {
+            align: "centre-x,bottom",
+            text: "$bottom",
+            font: "$bottomFont",
+            spacing: "$bottomSpacing",
+            margin: {
+                bottom: 0
             }
         },
         text: "$top"
@@ -329,16 +350,17 @@ EDSData.TTSG = {
                 serviceNumber: "41",
                 destination: "BEAUTY WORLD MRT",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
+                scrolls: [                    
+                    "TOH GUAN RD",
+                    "TOH GUAN RD EAST",
+                    "TOH TUCK RD",   
+                {
                     renderType: "destScroll",
                     top: "BEAUTY WORLD MRT",
                     topFont: "Hanover-Tower12:7",
-        
+    
                     serviceNumber: "41"
                 },
-                "TOH GUAN RD",
-                "TOH GUAN RD EAST",
-                "TOH TUCK RD"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -355,16 +377,17 @@ EDSData.TTSG = {
                 serviceNumber: "41",
                 destination: "JURONG EAST",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
+                scrolls: [                    
+                    "TOH TUCK RD",
+                    "TOH GUAN RD EAST",
+                    "TOH GUAN RD", 
+                {
                     renderType: "destScroll",
                     top: "JURONG EAST",
                     topFont: "Hanover-Tower12:7",
-        
+    
                     serviceNumber: "41"
                 },
-                "TOH TUCK RD",
-                "TOH GUAN RD EAST",
-                "TOH GUAN RD"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -376,6 +399,62 @@ EDSData.TTSG = {
             }
         }
     },   
+    "41J": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "41",
+                destination: "JALAN ANAK BUKIT",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                    "TOH GUAN RD",
+                    "TOH GUAN RD EAST",
+                    "TOH TUCK RD",   
+                {
+                    renderType: "destScroll",
+                    top: "JALAN ANAK BUKIT",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "41"
+                },
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "41",
+                font: "LECIP-TowerRear17:10",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "41",
+                destination: "JURONG EAST",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                    "TOH TUCK RD",
+                    "TOH GUAN RD EAST",
+                    "TOH GUAN RD", 
+                {
+                    renderType: "destScroll",
+                    top: "JURONG EAST",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "41"
+                },
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "41",
+                font: "LECIP-TowerRear17:10",
+                spacing: 2
+            }
+        }
+    },
     49: {
         1: {
             front: {
@@ -383,18 +462,19 @@ EDSData.TTSG = {
                 serviceNumber: "49",
                 destination: "JURONG WEST ST 42",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
+                scrolls: [                    
+                    "JURONG TOWN HALL RD",
+                    "JALAN AHMAD IBRAHIM",
+                    "CORPORATION DR",
+                    "LAKESIDE MRT",
+                    "JURONG WEST ST 51",   
+                {
                     renderType: "destScroll",
-                    top: "JURONG   WEST   ST   42",
+                    top: "JURONG  WEST  ST  42",
                     topFont: "Hanover-14:6",
-        
+    
                     serviceNumber: "49"
                 },
-                "JURONG TOWN HALL RD",
-                "JALAN AHMAD IBRAHIM",
-                "CORPORATION DR",
-                "LAKESIDE MRT",
-                "JURONG WEST ST 51"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -411,19 +491,20 @@ EDSData.TTSG = {
                 serviceNumber: "49",
                 destination: "JURONG EAST",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
+                scrolls: [                    
+                    "JURONG WEST ST 51",
+                    "LAKESIDE MRT",
+                    "CORPORATION DR",
+                    "YUAN CHING RD",
+                    "JALAN AHMAD IBRAHIM",
+                    "BOON LAY WAY", 
+                {
                     renderType: "destScroll",
                     top: "JURONG EAST",
                     topFont: "Hanover-Tower12:7",
-        
+    
                     serviceNumber: "49"
                 },
-                "JURONG WEST ST 51",
-                "LAKESIDE MRT",
-                "CORPORATION DR",
-                "YUAN CHING RD",
-                "JALAN AHMAD IBRAHIM",
-                "BOON LAY WAY"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -434,7 +515,7 @@ EDSData.TTSG = {
                 spacing: 2
             }
         }
-    },   
+    }, 
     66: {
         1: {
             front: {
@@ -442,17 +523,18 @@ EDSData.TTSG = {
                 serviceNumber: "66",
                 destination: "BEAUTY WORLD MRT",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                    renderType: "destScroll",
-                    top: "BEAUTY WORLD MRT",
-                    topFont: "Hanover-Tower12:7",
-        
-                    serviceNumber: "66"
-                },
+                scrolls: [                    
                     "JURONG TOWN HALL RD",
                     "BUKIT BATOK WEST AVE 8",
                     "BUKIT BATOK WEST AVE 6",
-                    "JALAN JURONG KECHIL"
+                    "JALAN JURONG KECHIL",   
+                {
+                    renderType: "destScroll",
+                    top: "BEAUTY WORLD MRT",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "66"
+                },
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -469,17 +551,18 @@ EDSData.TTSG = {
                 serviceNumber: "66",
                 destination: "JURONG EAST",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                    renderType: "destScroll",
-                    top: "JURONG EAST",
-                    topFont: "Hanover-Tower12:7",
-        
-                    serviceNumber: "66"
-                },
+                scrolls: [                    
                     "JALAN JURONG KECHIL",
                     "BUKIT BATOK WEST AVE 6",
                     "BUKIT BATOK WEST AVE 8",
-                    "JURONG TOWN HALL RD"
+                    "JURONG TOWN HALL RD", 
+                {
+                    renderType: "destScroll",
+                    top: "JURONG EAST",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "66"
+                },
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -490,7 +573,7 @@ EDSData.TTSG = {
                 spacing: 2
             }
         }
-    },  
+    },
     "66A": {
         1: {
             front: {
@@ -559,18 +642,19 @@ EDSData.TTSG = {
                 serviceNumber: "66",
                 destination: "BEDOK",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                    renderType: "destScroll",
-                    top: "BEDOK",
-                    topFont: "Hanover-Tower12:7",
-        
-                    serviceNumber: "66"
-                },
+                scrolls: [                    
                     "BUKIT BATOK CENTRAL",
                     "DUNEARN RD",
                     "LITTLE INDIA",
                     "MACPHERSON RD / EST",
-                    "BEDOK RESERVOIR RD",
+                    "BEDOK RESERVOIR RD",,   
+                {
+                    renderType: "destScroll",
+                    top: "BEDOK",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "66"
+                },
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -587,18 +671,19 @@ EDSData.TTSG = {
                 serviceNumber: "66",
                 destination: "JURONG EAST",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                    renderType: "destScroll",
-                    top: "JURONG EAST",
-                    topFont: "Hanover-Tower12:7",
-        
-                    serviceNumber: "66"
-                },
+                scrolls: [                    
                     "BEDOK RESERVOIR RD",
                     "MACPHERSON EST / RD",
                     "LITTLE INDIA",
                     "BUKIT TIMAH RD",
-                    "BUKIT BATOK CENTRAL"
+                    "BUKIT BATOK CENTRAL", 
+                {
+                    renderType: "destScroll",
+                    top: "JURONG EAST",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "66"
+                },
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -609,7 +694,7 @@ EDSData.TTSG = {
                 spacing: 2
             }
         }
-    },  
+    },
     77: {
         1: {
             front: {
@@ -617,18 +702,19 @@ EDSData.TTSG = {
                 serviceNumber: "77",
                 destination: "MARINA CENTRE",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                    renderType: "destScroll",
-                    top: "MARINA CENTRE",
-                    topFont: "Hanover-Tower12:7",
-        
-                    serviceNumber: "77"
-                },
+                scrolls: [                    
                     "TOH TUCK RD",
                     "SIXTH AVE",
                     "HOLLAND VILLAGE / RD",
                     "ORCHARD RD",
-                    "BRAS BASAH RD"
+                    "BRAS BASAH RD",   
+                {
+                    renderType: "destScroll",
+                    top: "MARINA CENTRE",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "77"
+                },
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -645,18 +731,19 @@ EDSData.TTSG = {
                 serviceNumber: "77",
                 destination: "BUKIT BATOK",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
+                scrolls: [                    
+                    "STAMFORD RD",
+                    "ORCHARD BOULEVARD",
+                    "HOLLAND RD / VILLAGE",
+                    "SIXTH AVE",
+                    "TOH TUCK RD", 
+                {
                     renderType: "destScroll",
                     top: "BUKIT BATOK",
                     topFont: "Hanover-Tower12:7",
-        
+    
                     serviceNumber: "77"
                 },
-                    "STAMFORD RD",
-                    "ORCHARD BOULEVARD",
-                    "HOLLAND VILLAGE / RD",
-                    "SIXTH AVE",
-                    "TOH TUCK RD"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -675,18 +762,27 @@ EDSData.TTSG = {
                 serviceNumber: "77",
                 destination: "STAMFORD RD",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                    renderType: "destScroll",
-                    top: "STAMFORD RD",
-                    topFont: "Hanover-Tower12:7",
-        
-                    serviceNumber: "77"
-                },
+                scrolls: [                    
                     "TOH TUCK AVE",
                     "SIXTH AVE",
                     "HOLLAND VILLAGE / RD",
                     "ORCHARD RD",
-                    "BRAS BASAH RD"
+                {
+                    renderType: "centreMessageServiceScroll",
+                    serviceNumber: "77",
+                    top: "SKIP",
+                    topFont: "Hanover-Tower11:7",
+    
+                    bottom: "BRAS BASAH RD",
+                    bottomFont: "LECIP-7:5"
+                },      
+                {
+                    renderType: "destScroll",
+                    top: "STAMFORD RD",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "77"
+                },
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -703,18 +799,19 @@ EDSData.TTSG = {
                 serviceNumber: "77",
                 destination: "BUKIT BATOK",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                    renderType: "destScroll",
-                    top: "BUKIT BATOK",
-                    topFont: "Hanover-Tower12:7",
-        
-                    serviceNumber: "77"
-                },
+                scrolls: [                    
                     "STAMFORD RD",
                     "ORCHARD BOULEVARD",
                     "HOLLAND RD / VILLAGE",
                     "SIXTH AVE",
-                    "TOH TUCK RD"
+                    "TOH TUCK RD", 
+                {
+                    renderType: "destScroll",
+                    top: "BUKIT BATOK",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "77"
+                },
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -733,17 +830,18 @@ EDSData.TTSG = {
                 serviceNumber: "78",
                 destination: "CLEMENTI MRT",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                    renderType: "destScroll",
-                    top: "CLEMENTI MRT",
-                    topFont: "Hanover-Tower12:7",
-        
-                    serviceNumber: "78"
-                },
+                scrolls: [                    
                     "PENJURU RD",
                     "TANJONG PENJURU",
                     "PANDAN RD / AVE",
-                    "WEST COAST RD"
+                    "WEST COAST RD",
+                {
+                    renderType: "destScroll",
+                    top: "CLEMENTI MRT",
+                    topFont: "Hanover-Tower12:7",
+            
+                    serviceNumber: "78"
+                },
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -760,20 +858,20 @@ EDSData.TTSG = {
                 serviceNumber: "78",
                 destination: "JURONG TOWN HALL",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                    renderType: "destScroll",
-                    top: "JURONG TOWN HALL",
-                    topFont: "Hanover-Tower12:7",
-        
-                    serviceNumber: "78"
-                },
+                scrolls: [                    
                     "WEST COAST RD",
                     "PANDAN RD",
                     "TANJONG PENJURU",
-                    "PENJURU RD",
-
-                ],
-                scrollFont: "LECIP-7:5"
+                    "PENJURU RD",,
+                {
+                    renderType: "destScroll",
+                    top: "JURONG TOWN HALL",
+                    topFont: "Hanover-Tower12:7",
+            
+                    serviceNumber: "78"
+                },
+                    ],
+                    scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -811,17 +909,18 @@ EDSData.TTSG = {
                 serviceNumber: "78",
                 destination: "CLEMENTI MRT",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
+                scrolls: [                    
+                    "PENJURU RD",
+                    "TANJONG PENJURU",
+                    "PANDAN RD / AVE",
+                    "WEST COAST RD",
+                {
                     renderType: "destScroll",
                     top: "CLEMENTI MRT",
                     topFont: "Hanover-Tower12:7",
-        
+            
                     serviceNumber: "78"
                 },
-                "PENJURU RD",
-                "TANJONG PENJURU",
-                "PANDAN RD / AVE",
-                "WEST COAST RD"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -836,21 +935,22 @@ EDSData.TTSG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "78",
-                destination: "JURONG EAST MRT",
+                destination: "JURONG EAST",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
+                scrolls: [                    
+                    "WEST COAST RD",
+                    "PANDAN RD",
+                    "TANJONG PENJURU",
+                    "PENJURU RD",,
+                {
                     renderType: "destScroll",
-                    top: "JURONG EAST MRT",
+                    top: "JURONG EAST",
                     topFont: "Hanover-Tower12:7",
-        
+            
                     serviceNumber: "78"
                 },
-                  "WEST COAST RD",
-                  "PANDAN RD",
-                  "TANJONG PENJURU",
-                  "PENJURU RD",
-                ],
-                scrollFont: "LECIP-7:5"
+                    ],
+                    scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -867,18 +967,18 @@ EDSData.TTSG = {
                 serviceNumber: "79",
                 destination: "JURONG EAST MRT",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
+                scrolls: [                    
+                    "QUALITY RD",
+                    "THIRD CHIN BEE RD",
+                    "JURONG PORT RD",
+                    "TEBAN GARDENS RD",
+                {
                     renderType: "destScroll",
                     top: "JURONG EAST MRT",
                     topFont: "Hanover-Tower12:7",
-        
+            
                     serviceNumber: "79"
                 },
-                "QUALITY RD",
-                "THIRD CHIN BEE RD",
-                "JURONG PORT RD",
-                "TEBAN GARDENS RD",
-
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -895,19 +995,20 @@ EDSData.TTSG = {
                 serviceNumber: "79",
                 destination: "BOON LAY",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
+                scrolls: [                    
+                    "TEBAN GARDENS RD",
+                    "JURONG PORT RD",
+                    "THIRD CHIN BEE RD",
+                    "QUALITY RD",
+                {
                     renderType: "destScroll",
                     top: "BOON LAY",
                     topFont: "Hanover-Tower12:7",
-        
+            
                     serviceNumber: "79"
                 },
-                  "TEBAN GARDENS RD",
-                  "JURONG PORT RD",
-                  "THIRD CHIN BEE RD",
-                  "QUALITY RD",
-                ],
-                scrollFont: "LECIP-7:5"
+                    ],
+                    scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -1034,18 +1135,19 @@ EDSData.TTSG = {
                 serviceNumber: "97",
                 destination: "MARINA CENTRE",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                    renderType: "destScroll",
-                    top: "MARINA CENTRE",
-                    topFont: "Hanover-Tower12:7",
-        
-                    serviceNumber: "97"
-                },
+                scrolls: [                    
                     "A Y E",
                     "ALEXANDRA RD",
                     "HARBOURFRONT",
                     "ROBINSON RD",
                     "BAYFRONT AVE / MBS",
+                {
+                    renderType: "destScroll",
+                    top: "MARINA CENTRE",
+                    topFont: "Hanover-Tower12:7",
+            
+                    serviceNumber: "97"
+                },
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -1062,20 +1164,21 @@ EDSData.TTSG = {
                 serviceNumber: "97",
                 destination: "JURONG EAST",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                    renderType: "destScroll",
-                    top: "JURONG EAST",
-                    topFont: "Hanover-Tower12:7",
-        
-                    serviceNumber: "97"
-                },
+                scrolls: [                    
                     "BAYFRONT AVE / MBS",
                     "SHENTON WAY",
                     "HARBOURFRONT",
                     "ALEXANDRA RD",
-                    "A Y E"
-                ],
-                scrollFont: "LECIP-7:5"
+                    "A Y E",
+                {
+                    renderType: "destScroll",
+                    top: "JURONG EAST",
+                    topFont: "Hanover-Tower12:7",
+            
+                    serviceNumber: "97"
+                },
+                    ],
+                    scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -1092,27 +1195,28 @@ EDSData.TTSG = {
                 serviceNumber: "97e",
                 destination: "MARINA CENTRE",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                        renderType: "centreMessageServiceScroll",
-                        serviceNumber: "97e",
-                        top: "LIMITED STOPS",
-                        topFont: "Hanover-Tower11:7",
-
-                        bottom: "EXPRESS SERVICE",
-                        bottomFont: "LECIP-7:5"
-                    },
-                    {
-                        renderType: "destScroll",
-                        top: "MARINA CENTRE",
-                        topFont: "Hanover-Tower12:7",
-            
-                        serviceNumber: "97e"
-                    },
+                scrolls: [                    
                     "A Y E",
                     "ALEXANDRA RD",
                     "HARBOURFRONT",
                     "ROBINSON RD",
                     "BAYFRONT AVE / MBS",
+                {
+                    renderType: "centreMessageServiceScroll",
+                    serviceNumber: "97e",
+                    top: "LIMITED STOPS",
+                    topFont: "Hanover-Tower11:7",
+
+                    bottom: "EXPRESS SERVICE",
+                    bottomFont: "LECIP-7:5"
+                },
+                {
+                    renderType: "destScroll",
+                    top: "MARINA CENTRE",
+                    topFont: "Hanover-Tower12:7",
+            
+                    serviceNumber: "97e"
+                },
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -1129,29 +1233,30 @@ EDSData.TTSG = {
                 serviceNumber: "97e",
                 destination: "JURONG EAST",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                        renderType: "centreMessageServiceScroll",
-                        serviceNumber: "97e",
-                        top: "LIMITED STOPS",
-                        topFont: "Hanover-Tower11:7",
-
-                        bottom: "EXPRESS SERVICE",
-                        bottomFont: "LECIP-7:5"
-                    },
-                    {
-                        renderType: "destScroll",
-                        top: "JURONG EAST",
-                        topFont: "Hanover-Tower12:7",
-            
-                        serviceNumber: "97e"
-                    },
+                scrolls: [                    
                     "BAYFRONT AVE / MBS",
                     "SHENTON WAY",
                     "HARBOURFRONT",
                     "ALEXANDRA RD",
-                    "A Y E"
-                ],
-                scrollFont: "LECIP-7:5"
+                    "A Y E",
+                {
+                    renderType: "centreMessageServiceScroll",
+                    serviceNumber: "97e",
+                    top: "LIMITED STOPS",
+                    topFont: "Hanover-Tower11:7",
+
+                    bottom: "EXPRESS SERVICE",
+                    bottomFont: "LECIP-7:5"
+                },
+                {
+                    renderType: "destScroll",
+                    top: "JURONG EAST",
+                    topFont: "Hanover-Tower12:7",
+            
+                    serviceNumber: "97e"
+                },
+                    ],
+                    scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -1166,21 +1271,29 @@ EDSData.TTSG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "97",
-                destination: "RAFFLES QUAY",
+                destination: "CENTRAL BOULEVARD",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                    renderType: "destScroll",
-                    top: "RAFFLES QUAY",
-                    topFont: "Hanover-Tower12:7",
-        
-                    serviceNumber: "97"
-                },
+                scrolls: [                    
                     "A Y E",
                     "ALEXANDRA RD",
                     "HARBOURFRONT",
                     "ROBINSON RD",
-                    "(SKIP MBS)",
-                    "(SKIP SUNTEC)"
+                {
+                    renderType: "centreMessageServiceScroll",
+                    serviceNumber: "97",
+                    top: "SKIP",
+                    topFont: "Hanover-Tower11:7",
+    
+                    bottom: "MBS / SUNTEC",
+                    bottomFont: "LECIP-7:5"
+                },          
+                {
+                    renderType: "destScroll",
+                    top: "CENTRAL  BOULEVARD",
+                    topFont: "Hanover-14:6",
+    
+                    serviceNumber: "97"
+                },
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -1197,17 +1310,18 @@ EDSData.TTSG = {
                 serviceNumber: "97",
                 destination: "JURONG EAST",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                    renderType: "destScroll",
-                    top: "JURONG EAST",
-                    topFont: "Hanover-Tower12:7",
-        
-                    serviceNumber: "97"
-                },
+                scrolls: [                    
                     "SHENTON WAY",
                     "HARBOURFRONT",
                     "ALEXANDRA RD",
-                    "A Y E"
+                    "A Y E",      
+                {
+                    renderType: "destScroll",
+                    top: "JURONG EAST",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "97"
+                },
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -1226,24 +1340,25 @@ EDSData.TTSG = {
                 serviceNumber: "98",
                 destination: "JURONG PIER WAY",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                    renderType: "destScroll",
-                    top: "JURONG PIER WAY",
-                    topFont: "Hanover-Tower12:7",
-        
-                    serviceNumber: "98"
-                },
+                scrolls: [                    
                     "JURONG EAST AVE 1",
                     'JURONG WEST AVE 1',
                     "LAKESIDE MRT",
                     "CORPORATION DR",
                     "JURONG PORT RD",
-                    "JALAN BUROH"
+                    "JALAN BUROH",         
+                {
+                    renderType: "destScroll",
+                    top: "JUORNG PIER WAY",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "98"
+                },
                 ],
                 scrollFont: "LECIP-7:5"
             },
             rear: {
-                renderType: "twoline",
+                renderType: "twolinerear",
                 top: "98",
                 topFont: "LECIP-TowerRear10:7",
                 topSpacing: 2,
@@ -1259,23 +1374,24 @@ EDSData.TTSG = {
                 serviceNumber: "98",
                 destination: "JURONG EAST",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                    renderType: "destScroll",
-                    top: "JURONG EAST",
-                    topFont: "Hanover-Tower12:7",
-        
-                    serviceNumber: "98"
-                },
+                scrolls: [                    
                     "JURONG PORT RD",
                     "CORPORATION DR",
                     "LAKESIDE MRT",
                     "JURONG WEST AVE 1",
-                    "JURONG EAST AVE 1"
+                    "JURONG EAST AVE 1",
+                {
+                    renderType: "destScroll",
+                    top: "JURONG EAST",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "98"
+                },
                 ],
                 scrollFont: "LECIP-7:5"
             },
             rear: {
-                renderType: "twoline",
+                renderType: "twolinerear",
                 top: "98",
                 topFont: "LECIP-TowerRear10:7",
                 topSpacing: 2,
@@ -1335,17 +1451,18 @@ EDSData.TTSG = {
                 serviceNumber: "98M",
                 destination: "CORPORATION RD",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
+                scrolls: [                    
+                    "JURONG EAST AVE 1",
+                    'JURONG WEST AVE 1',
+                    "LAKESIDE MRT",
+                    "CORPORATION DR",         
+                {
                     renderType: "destScroll",
                     top: "CORPORATION RD",
                     topFont: "Hanover-Tower12:7",
-        
+    
                     serviceNumber: "98M"
                 },
-                "JURONG EAST AVE 1",
-                'JURONG WEST AVE 1',
-                "LAKESIDE MRT",
-                "CORPORATION DR"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -1362,17 +1479,18 @@ EDSData.TTSG = {
                 serviceNumber: "98M",
                 destination: "JURONG EAST",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
+                scrolls: [                    
+                    "CORPORATION DR",
+                    "LAKESIDE MRT",
+                    "JURONG WEST AVE 1",
+                    "JURONG EAST AVE 1",
+                {
                     renderType: "destScroll",
                     top: "JURONG EAST",
                     topFont: "Hanover-Tower12:7",
-        
+    
                     serviceNumber: "98M"
                 },
-                "CORPORATION DR",
-                "LAKESIDE MRT",
-                "JURONG WEST AVE 1",
-                "JURONG EAST AVE 1"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -1391,13 +1509,21 @@ EDSData.TTSG = {
                 serviceNumber: "N1",
                 destination: "YISHUN RING RD",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [
+                scrolls: [                    
                     "NEWTON RD",
                     "TOA PAYOH CENTRAL",
                     "BISHAN ST 11",
                     "ANG MO KIO AVE 3",
                     "ANG MO KIO AVE 4",
-                    "LENTOR AVE"
+                    "LENTOR AVE",
+
+                {
+                    renderType: "destScroll",
+                    top: "YISHUN RING RD",
+                    topFont: "Hanover-Tower12:7",
+        
+                    serviceNumber: "N1"
+                },
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -1405,7 +1531,7 @@ EDSData.TTSG = {
                 renderType: "rearService",
                 serviceNumber: "N1",
                 font: "LECIP-19:TowerB9Front",
-                spacing: 2
+                spacing: 1
             }
         }
     },
@@ -1416,12 +1542,20 @@ EDSData.TTSG = {
                 serviceNumber: "N2",
                 destination: "SEMBAWANG DR",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [
+                scrolls: [                    
                     "WOODLANDS CENTRE RD",
                     "MARSILING RD",
                     "WOODLANDS AVE 7",
                     "ADMIRALTY DR",
-                    "CANBERRA RD",
+                    "CANBERRA RD",,
+
+                {
+                    renderType: "destScroll",
+                    top: "SEMBAWANG DR",
+                    topFont: "Hanover-Tower12:7",
+        
+                    serviceNumber: "N2"
+                },
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -1429,7 +1563,7 @@ EDSData.TTSG = {
                 renderType: "rearService",
                 serviceNumber: "N2",
                 font: "LECIP-19:TowerB9Front",
-                spacing: 2
+                spacing: 1
             }
         }
     },
@@ -1440,18 +1574,19 @@ EDSData.TTSG = {
                 serviceNumber: "106",
                 destination: "SHENTON WAY",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                    renderType: "destScroll",
-                    top: "SHENTON WAY",
-                    topFont: "Hanover-Tower12:7",
-        
-                    serviceNumber: "106"
-                },
+                scrolls: [                    
                     "COMMONWEALTH AVE WEST",
                     "HOLLAND VILLAGE / RD",
                     "ORCHARD RD",
                     "BRAS BASAH RD",
-                    "BAYFRONT AVE / MBS"
+                    "BAYFRONT AVE / MBS",         
+                {
+                    renderType: "destScroll",
+                    top: "SHENTON WAY",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "106"
+                },
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -1468,19 +1603,20 @@ EDSData.TTSG = {
                 serviceNumber: "106",
                 destination: "BUKIT BATOK",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                    renderType: "destScroll",
-                    top: "BUKIT BATOK",
-                    topFont: "Hanover-Tower12:7",
-        
-                    serviceNumber: "106"
-                },
+                scrolls: [                    
                     "ROBINSON RD",
                     "CENTRAL BOULEVARD", //Check if exist irl
                     "BAYFRONT AVE / MBS",
                     "ORCHARD BOULEVARD",
                     "HOLLAND RD / VILLAGE",
-                    "COMMONWEALTH AVE WEST"
+                    "COMMONWEALTH AVE WEST",
+                {
+                    renderType: "destScroll",
+                    top: "BUKIT BATOK",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "106"
+                },
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -1519,13 +1655,37 @@ EDSData.TTSG = {
                 serviceNumber: "106",
                 destination: "SHENTON WAY",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [
+                scrolls: [                    
                     "COMMONWEALTH AVE WEST",
                     "HOLLAND VILLAGE / RD",
                     "ORCHARD RD",
                     "CITY HALL MRT",
                     "SOUTH BRIDGE RD",
-                    "(SKIP SUNTEC / MBS)"
+                {
+                    renderType: "centreMessageServiceScroll",
+                    serviceNumber: "106",
+                    top: "SKIP",
+                    topFont: "Hanover-Tower11:7",
+    
+                    bottom: "BRAS BASAH RD",
+                    bottomFont: "LECIP-7:5"
+                },
+                {
+                    renderType: "centreMessageServiceScroll",
+                    serviceNumber: "106",
+                    top: "SKIP",
+                    topFont: "Hanover-Tower11:7",
+    
+                    bottom: "SUNTEC / MBS",
+                    bottomFont: "LECIP-7:5"
+                },           
+                {
+                    renderType: "destScroll",
+                    top: "SHENTON WAY",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "106"
+                },
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -1542,13 +1702,27 @@ EDSData.TTSG = {
                 serviceNumber: "106",
                 destination: "BUKIT BATOK",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [
+                scrolls: [                    
                     "ROBINSON RD",
                     "ORCHARD BOULEVARD",
                     "HOLLAND RD / VILLAGE",
-                    "COMMONWEALTH AVE WEST",
-                    "(SKIP MBS / SUNTEC)"
-
+                    "COMMONWEALTH AVE WEST",,
+                {
+                    renderType: "centreMessageServiceScroll",
+                    serviceNumber: "106",
+                    top: "SKIP",
+                    topFont: "Hanover-Tower11:7",
+    
+                    bottom: "MBS / ESPLANADE",
+                    bottomFont: "LECIP-7:5"
+                },       
+                {
+                    renderType: "destScroll",
+                    top: "BUKIT BATOK",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "106"
+                },
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -1567,18 +1741,19 @@ EDSData.TTSG = {
                 serviceNumber: "143",
                 destination: "TOA PAYOH",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                    renderType: "destScroll",
-                    top: "TOA PAYOH",
-                    topFont: "Hanover-Tower12:7",
-        
-                    serviceNumber: "143"
-                },
+                scrolls: [                    
                     "TEBAN GARDENS RD",
                     "WEST COAST RD",
                     "HARBOURFRONT",
                     "CHINATOWN",
-                    "ORCHARD TURN"
+                    "ORCHARD TURN",   
+                {
+                    renderType: "destScroll",
+                    top: "TOA PAYOH",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "143"
+                },
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -1595,18 +1770,19 @@ EDSData.TTSG = {
                 serviceNumber: "143",
                 destination: "JURONG EAST",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                    renderType: "destScroll",
-                    top: "JURONG EAST",
-                    topFont: "Hanover-Tower12:7",
-        
-                    serviceNumber: "143"
-                },
+                scrolls: [                    
                     "ORCHARD RD",
                     "CHINATOWN",
                     "HARBOURFRONT",
                     "WEST COAST RD",
-                    "TEBAN GARDENS RD"
+                    "TEBAN GARDENS RD",       
+                {
+                    renderType: "destScroll",
+                    top: "JURONG EAST",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "143"
+                },
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -1664,18 +1840,19 @@ EDSData.TTSG = {
                 serviceNumber: "167",
                 destination: "BUKIT MERAH",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                    renderType: "destScroll",
-                    top: "BUKIT MERAH",
-                    topFont: "Hanover-Tower12:7",
-        
-                    serviceNumber: "167"
-                },
+                scrolls: [                    
                     "SEMBAWANG RD",
                     "UPPER THOMSON RD",
                     "THOMSON RD",
                     "ORCHARD RD",
-                    "SHENTON WAY"
+                    "SHENTON WAY",   
+                {
+                    renderType: "destScroll",
+                    top: "BUKIT MERAH",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "167"
+                },
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -1692,18 +1869,19 @@ EDSData.TTSG = {
                 serviceNumber: "167",
                 destination: "SEMBAWANG",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                    renderType: "destScroll",
-                    top: "SEMBAWANG",
-                    topFont: "Hanover-Tower12:7",
-        
-                    serviceNumber: "167"
-                },
+                scrolls: [                    
                     "CECIL STREET",
                     "ORCHARD TURN",
                     "THOMSON RD",
                     "UPPER THOMSON RD",
-                    "SEMBAWANG RD"
+                    "SEMBAWANG RD",       
+                {
+                    renderType: "destScroll",
+                    top: "SEMBAWANG",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "167"
+                },
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -1722,26 +1900,27 @@ EDSData.TTSG = {
                 serviceNumber: "167e",
                 destination: "SHENTON WAY",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                        renderType: "centreMessageServiceScroll",
-                        serviceNumber: "167e",
-                        top: "LIMITED STOPS",
-                        topFont: "Hanover-Tower11:7",
-
-                        bottom: "EXPRESS SERVICE",
-                        bottomFont: "LECIP-7:5"
-                    },
-                    {
-                        renderType: "destScroll",
-                        top: "SHENTON WAY",
-                        topFont: "Hanover-Tower12:7",
-            
-                        serviceNumber: "167e"
-                    },
+                scrolls: [                    
                     "SEMBAWANG RD",
                     "SPRINGLEAF MRT",
                     "NEWTON MRT",
-                    "ORCHARD RD"
+                    "ORCHARD RD",
+                {
+                    renderType: "centreMessageServiceScroll",
+                    serviceNumber: "167e",
+                    top: "LIMITED STOPS",
+                    topFont: "Hanover-Tower11:7",
+
+                    bottom: "EXPRESS SERVICE",
+                    bottomFont: "LECIP-7:5"
+                },
+                {
+                    renderType: "destScroll",
+                    top: "SHENTON WAY",
+                    topFont: "Hanover-Tower12:7",
+            
+                    serviceNumber: "167e"
+                },
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -1749,7 +1928,7 @@ EDSData.TTSG = {
                 renderType: "rearService",
                 serviceNumber: "167e",
                 font: "LECIP-TowerRear17:7",
-                spacing: 1
+                spacing: 2
             }
         },
         2: {
@@ -1758,35 +1937,36 @@ EDSData.TTSG = {
                 serviceNumber: "167e",
                 destination: "SEMBAWANG",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                        renderType: "centreMessageServiceScroll",
-                        serviceNumber: "167e",
-                        top: "LIMITED STOPS",
-                        topFont: "Hanover-Tower11:7",
-
-                        bottom: "EXPRESS SERVICE",
-                        bottomFont: "LECIP-7:5"
-                    },
-                    {
-                        renderType: "destScroll",
-                        top: "SEMBAWANG",
-                        topFont: "Hanover-Tower12:7",
-            
-                        serviceNumber: "167e"
-                    },
+                scrolls: [                    
                     "STAMFORD RD",
                     "ORCHARD TURN",
                     "NEWTON MRT",
                     "SPRINGLEAF MRT",
-                    "SEMBAWANG RD",
-                ],
-                scrollFont: "LECIP-7:5"
+                    "SEMBAWANG RD",,
+                {
+                    renderType: "centreMessageServiceScroll",
+                    serviceNumber: "167e",
+                    top: "LIMITED STOPS",
+                    topFont: "Hanover-Tower11:7",
+
+                    bottom: "EXPRESS SERVICE",
+                    bottomFont: "LECIP-7:5"
+                },
+                {
+                    renderType: "destScroll",
+                    top: "SEMBAWANG",
+                    topFont: "Hanover-Tower12:7",
+            
+                    serviceNumber: "167e"
+                },
+                    ],
+                    scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
                 serviceNumber: "167e",
                 font: "LECIP-TowerRear17:7",
-                spacing: 1
+                spacing: 2
             }
         }
     },
@@ -1797,19 +1977,37 @@ EDSData.TTSG = {
                 serviceNumber: "167",
                 destination: "BUKIT MERAH",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                    renderType: "destScroll",
-                    top: "BUKIT MERAH",
-                    topFont: "Hanover-Tower12:7",
-        
-                    serviceNumber: "167"
-                },
+                scrolls: [                    
                     "SEMBAWANG RD",
                     "UPPER THOMSON RD",
                     "THOMSON RD",
                     "ORCHARD RD",
                     "SHENTON WAY",
-                    "(SKIP COLLYER QUAY)"
+                {
+                    renderType: "centreMessageServiceScroll",
+                    serviceNumber: "167",
+                    top: "SKIP",
+                    topFont: "Hanover-Tower11:7",
+    
+                    bottom: "BRAS BASAH RD",
+                    bottomFont: "LECIP-7:5"
+                },
+                {
+                    renderType: "centreMessageServiceScroll",
+                    serviceNumber: "167",
+                    top: "SKIP",
+                    topFont: "Hanover-Tower11:7",
+    
+                    bottom: "COLLYER QUAY",
+                    bottomFont: "LECIP-7:5"
+                },           
+                {
+                    renderType: "destScroll",
+                    top: "BUKIT MERAH",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "167"
+                },
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -1826,19 +2024,37 @@ EDSData.TTSG = {
                 serviceNumber: "167",
                 destination: "SEMBAWANG",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                    renderType: "destScroll",
-                    top: "SEMBAWANG",
-                    topFont: "Hanover-Tower12:7",
-        
-                    serviceNumber: "167"
-                },
+                scrolls: [                    
                     "CECIL STREET",
                     "ORCHARD TURN",
                     "THOMSON RD",
                     "UPPER THOMSON RD",
                     "SEMBAWANG RD",
-                    "SKIP FULLERTON RD"
+                {
+                    renderType: "centreMessageServiceScroll",
+                    serviceNumber: "167",
+                    top: "SKIP",
+                    topFont: "Hanover-Tower11:7",
+    
+                    bottom: "FULLERTON RD",
+                    bottomFont: "LECIP-7:5"
+                },
+                {
+                    renderType: "centreMessageServiceScroll",
+                    serviceNumber: "167",
+                    top: "SKIP",
+                    topFont: "Hanover-Tower11:7",
+    
+                    bottom: "ESPLANADE DR",
+                    bottomFont: "LECIP-7:5"
+                },             
+                {
+                    renderType: "destScroll",
+                    top: "SEMBAWANG",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "167"
+                },
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -1857,18 +2073,19 @@ EDSData.TTSG = {
                 serviceNumber: "169",
                 destination: "ANG MO KIO",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
+                scrolls: [                    
+                    "WOODLANDS AVE 9",
+                    "ADMIRALTY RD EAST",
+                    "YISHUN MRT",
+                    "SEMBAWANG RD",
+                    "ANG MO KIO AVE 3",
+                {
                     renderType: "destScroll",
                     top: "ANG MO KIO",
                     topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "169"
                 },
-                    "WOODLANDS AVE 9",
-                    "ADMIRALTY RD EAST",
-                    "YISHUN MRT",
-                    "SEMBAWANG RD",
-                    "ANG MO KIO AVE 3"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -1885,20 +2102,21 @@ EDSData.TTSG = {
                 serviceNumber: "169",
                 destination: "WOODLANDS",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                    renderType: "destScroll",
-                    top: "WOODLANDS",
-                    topFont: "Hanover-Tower12:7",
-        
-                    serviceNumber: "169"
-                },
+                scrolls: [                    
                     "ANG MO KIO AVE 3",
                     "SEMBAWANG RD",
                     "YISHUN MRT",
                     "ADMIRALTY RD EAST",
-                    "WOODLANDS AVE 9"
-                ],
-                scrollFont: "LECIP-7:5"
+                    "WOODLANDS AVE 9",
+                    {
+                        renderType: "destScroll",
+                        top: "WOODLANDS",
+                        topFont: "Hanover-Tower12:7",
+            
+                        serviceNumber: "169"
+                    },
+                    ],
+                    scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -1956,17 +2174,18 @@ EDSData.TTSG = {
                 serviceNumber: "171",
                 destination: "BUKIT PANJANG",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
+                scrolls: [                    
+                    "YISHUN AVE 5",
+                    "SEMBAWANG RD",
+                    "MANDAI RD",
+                    "PETIR RD",
+                {
                     renderType: "destScroll",
                     top: "BUKIT PANJANG",
                     topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "171"
                 },
-                    "YISHUN AVE 5",
-                    "SEMBAWANG RD",
-                    "MANDAI RD",
-                    "PETIR RD"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -1983,19 +2202,80 @@ EDSData.TTSG = {
                 serviceNumber: "171",
                 destination: "YISHUN",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
+                scrolls: [                    
+                    "PETIR RD",
+                    "MANDAI RD",
+                    "SEMBAWANG RD",
+                    "YISHUN AVE 5",
+                    {
+                        renderType: "destScroll",
+                        top: "YISHUN",
+                        topFont: "Hanover-Tower12:7",
+            
+                        serviceNumber: "171"
+                    },
+                    ],
+                    scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "171",
+                font: "LECIP-TowerRear17:10",
+                spacing: 2
+            }
+        }
+    },
+    "171M": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "171",
+                destination: "MARINA CENTRE",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                    "MANDAI RD",
+                    "PETIR RD",
+                    "UPPER BUKIT TIMAH RD",
+                    "DUNEARN RD",
+                    "ORCHARD / BRAS BASAH RD",
+                {
                     renderType: "destScroll",
-                    top: "YISHUN",
+                    top: "MARINA CENTRE",
                     topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "171"
                 },
-                    "PETIR RD",
-                    "MANDAI RD",
-                    "SEMBAWANG RD",
-                    "YISHUN AVE 5"
                 ],
                 scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "171",
+                font: "LECIP-TowerRear17:10",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "171",
+                destination: "YISHUN",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                    "ORCHARD TURN",
+                    "BUKIT TIMAH RD",
+                    "UPPER BUKIT TIMAH RD",
+                    "PETIR RD",
+                    "MANDAI RD",
+                    {
+                        renderType: "destScroll",
+                        top: "YISHUN",
+                        topFont: "Hanover-Tower12:7",
+            
+                        serviceNumber: "171"
+                    },
+                    ],
+                    scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -2012,23 +2292,24 @@ EDSData.TTSG = {
                 serviceNumber: "173",
                 destination: "CLEMENTI",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
+                scrolls: [                    
+                    "BUKIT BATOK EAST AVE 4",
+                    "HILLVIEW AVE",
+                    "HUME AVE",
+                    "BEAUTY WORLD MRT",
+                    "TOH TUCK RD / TERRACE",
+                {
                     renderType: "destScroll",
                     top: "CLEMENTI",
                     topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "173"
                 },
-                    "BUKIT BATOK EAST AVE 4",
-                    "HILLVIEW AVE",
-                    "HUME AVE",
-                    "BEAUTY WORLD MRT",
-                    "TOH TUCK RD / TERRACE"
                 ],
                 scrollFont: "LECIP-7:5"
             },
             rear: {
-                renderType: "twoline",
+                renderType: "twolinerear",
                 top: "173",
                 topFont: "LECIP-TowerRear10:7",
                 topSpacing: 2,
@@ -2044,23 +2325,24 @@ EDSData.TTSG = {
                 serviceNumber: "173",
                 destination: "BUKIT BATOK",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                    renderType: "destScroll",
-                    top: "BUKIT BATOK",
-                    topFont: "Hanover-Tower12:7",
-        
-                    serviceNumber: "173"
-                },
+                scrolls: [                    
                     "TOH TUCK RD / RISE",
                     "BEAUTY WORLD MRT",
                     "HUME AVE",
                     "JALAN BATU NILAM",
-                    "BUKIT BATOK EAST AVE 4"
-                ],
-                scrollFont: "LECIP-7:5"
+                    "BUKIT BATOK EAST AVE 4",
+                    {
+                        renderType: "destScroll",
+                        top: "BUKIT BATOK",
+                        topFont: "Hanover-Tower12:7",
+            
+                        serviceNumber: "173"
+                    },
+                    ],
+                    scrollFont: "LECIP-7:5"
             },
             rear: {
-                renderType: "twoline",
+                renderType: "twolinerear",
                 top: "173",
                 topFont: "LECIP-TowerRear10:7",
                 topSpacing: 2,
@@ -2099,39 +2381,43 @@ EDSData.TTSG = {
                 serviceNumber: "177",
                 destination: "BUKIT PANJANG",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
+                scrolls: [                    
+                    "BUKIT BATOK EAST AVE 4",
+                    "HILLVIEW AVE",
+                    "MINDEF",
+                    "UPPER BUKIT TIMAH RD",
+                {
                     renderType: "destScroll",
                     top: "BUKIT PANJANG",
                     topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "177"
                 },
-                    "BUKIT BATOK EAST AVE 4",
-                    "HILLVIEW AVE",
-                    "MINDEF",
-                    "UPPER BUKIT TIMAH RD"
                 ],
                 scrollFont: "LECIP-7:5"
             },
             rear: {
-                renderType: "standardService2",
-                serviceNumber: "",
-                destination: "177",
-                destinationFont: "LECIP-TowerRear10:7",
-                scrolls: [{
-                    renderType: "twoline",
-                    top: "177",
-                    topFont: "LECIP-TowerRear10:7",
-                    topSpacing: 1,
-    
-                    bottom: "PANJANG",
-                    bottomFont: "Hanover-5:3",
-                    bottomSpacing: 1,
-                },
-                    "BUKIT"
-                ],
-                scrollFont: "Hanover-5:3"
-            }
+                renderType: "twolinerear",
+                top: "177",
+                topFont: "LECIP-TowerRear10:7",
+                topSpacing: 2,
+
+                bottom: "PANJANG",
+                bottomFont: "Hanover-5:3",
+                bottomSpacing: 1,
+                scrolls: [
+                    {
+                        renderType: "twolinerear",
+                        top: "177",
+                        topFont: "LECIP-TowerRear10:7",
+                        topSpacing: 2,
+        
+                        bottom: "PANJANG",
+                        bottomFont: "Hanover-5:3",
+                        bottomSpacing: 1,
+                    }
+                ]
+            },
         },
         2: {
             front: {
@@ -2139,23 +2425,24 @@ EDSData.TTSG = {
                 serviceNumber: "177",
                 destination: "BUKIT BATOK",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                    renderType: "destScroll",
-                    top: "BUKIT BATOK",
-                    topFont: "Hanover-Tower12:7",
-        
-                    serviceNumber: "177"
-                },
+                scrolls: [                    
                     "JELEBU RD",
                     "UPPER BUKIT TIMAH RD",
                     "MINDEF",
                     "HILLVIEW AVE",
-                    "BUKIT BATOK EAST AVE 4"
-                ],
-                scrollFont: "LECIP-7:5"
+                    "BUKIT BATOK EAST AVE 4",
+                    {
+                        renderType: "destScroll",
+                        top: "BUKIT BATOK",
+                        topFont: "Hanover-Tower12:7",
+            
+                        serviceNumber: "177"
+                    },
+                    ],
+                    scrollFont: "LECIP-7:5"
             },
             rear: {
-                renderType: "twoline",
+                renderType: "twolinerear",
                 top: "177",
                 topFont: "LECIP-TowerRear10:7",
                 topSpacing: 2,
@@ -2173,17 +2460,18 @@ EDSData.TTSG = {
                 serviceNumber: "183",
                 destination: "SCIENCE PARK RD",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
+                scrolls: [                    
+                    "TOH GUAN RD EAST",
+                    "CLEMENTI MRT",
+                    "CLEMENTI RD",
+                    "PASIR PANJANG RD",
+                {
                     renderType: "destScroll",
                     top: "SCIENCE  PARK  RD",
                     topFont: "Hanover-14:6",
         
                     serviceNumber: "183"
                 },
-                    "TOH GUAN RD EAST",
-                    "CLEMENTI MRT",
-                    "CLEMENTI RD",
-                    "PASIR PANJANG RD"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -2200,19 +2488,20 @@ EDSData.TTSG = {
                 serviceNumber: "183",
                 destination: "JURONG EAST",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                    renderType: "destScroll",
-                    top: "JURONG EAST",
-                    topFont: "Hanover-Tower12:7",
-        
-                    serviceNumber: "183"
-                },
+                scrolls: [                    
                     "PASIR PANJANG RD",
                     "CLEMENTI RD",
                     "CLEMENTI MRT",
-                    "TOH GUAN RD EAST"
-                ],
-                scrollFont: "LECIP-7:5"
+                    "TOH GUAN RD EAST",
+                    {
+                        renderType: "destScroll",
+                        top: "JURONG EAST",
+                        topFont: "Hanover-Tower12:7",
+            
+                        serviceNumber: "183"
+                    },
+                    ],
+                    scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -2250,17 +2539,18 @@ EDSData.TTSG = {
                 serviceNumber: "189",
                 destination: "CLEMENTI AVE 1",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
+                scrolls: [                    
+                    "BUKIT BATOK EAST AVE 6",                    
+                    "BUKIT BATOK ST 23",
+                    "CLEMENTI AVE 6",
+                    "CLEMENTI MRT",
+                {
                     renderType: "destScroll",
                     top: "CLEMENTI AVE 1",
                     topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "189"
                 },
-                    "BUKIT BATOK EAST AVE 6",                    
-                    "BUKIT BATOK ST 23",
-                    "CLEMENTI AVE 6",
-                    "CLEMENTI MRT"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -2277,19 +2567,20 @@ EDSData.TTSG = {
                 serviceNumber: "189",
                 destination: "BUKIT BATOK",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                    renderType: "destScroll",
-                    top: "BUKIT BATOK",
-                    topFont: "Hanover-Tower12:7",
-        
-                    serviceNumber: "189"
-                },
+                scrolls: [                    
                     "CLEMENTI MRT",
                     "CLEMENTI AVE 6",
                     "BUKIT BATOK ST 23",
-                    "BUKIT BATOK EAST AVE 6"
-                ],
-                scrollFont: "LECIP-7:5"
+                    "BUKIT BATOK EAST AVE 6",
+                    {
+                        renderType: "destScroll",
+                        top: "BUKIT BATOK",
+                        topFont: "Hanover-Tower12:7",
+            
+                        serviceNumber: "189"
+                    },
+                    ],
+                    scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -2576,32 +2867,33 @@ EDSData.TTSG = {
             }
         }
     },
-    651: {
+    651: { 
         1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "651",
-                destination: "MARINA BOULEVARD",
+                destination: "MARINA BLVD",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                        renderType: "destScroll",
-                        top: "CITY DIRECT",
-                        topFont: "Hanover-Tower12:7",
-        
-                        serviceNumber: "651"
-                    },
-                    {
-                        renderType: "destScroll",
-                        top: "MARINA  BOULEVARD",
-                        topFont: "Hanover-14:6",
-            
-                        serviceNumber: "651"
-                    },
+                scrolls: [                    
                     "JURONG WEST AVE 3/5",
                     "JURONG WEST ST 75/64",
                     "JURONG WEST ST 81/61",
                     "ANSON RD",
-                    "ROBINSON RD"
+                    "ROBINSON RD",
+                {
+                    renderType: "destScroll",
+                    top: "CITY DIRECT",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "651"
+                }, 
+                {
+                    renderType: "destScroll",
+                    top: "MARINA  BOULEVARD",
+                    topFont: "Hanover-14:6",
+    
+                    serviceNumber: "651"
+                },
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -2618,25 +2910,26 @@ EDSData.TTSG = {
                 serviceNumber: "651",
                 destination: "JURONG WEST AVE 3",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                        renderType: "destScroll",
-                        top: "CITY DIRECT",
-                        topFont: "Hanover-Tower12:7",
-        
-                        serviceNumber: "651"
-                    },
-                    {
-                        renderType: "destScroll",
-                        top: "JURONG  WEST  AVE  3",
-                        topFont: "Hanover-14:6",
-            
-                        serviceNumber: "651"
-                    },
+                scrolls: [                    
                     "CENTRAL BOULEVARD",
                     "SHENTON WAY",
                     "JURONG WEST ST 61/81",
                     "JURONG WEST ST 64/75",
                     "JURONG WEST AVE 5",
+                {
+                    renderType: "destScroll",
+                    top: "CITY DIRECT",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "651"
+                },                
+                {
+                    renderType: "destScroll",
+                    top: "JURONG  WEST  AVE  3",
+                    topFont: "Hanover-14:6",
+        
+                    serviceNumber: "651"
+                },
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -2648,32 +2941,33 @@ EDSData.TTSG = {
             }
         }
     },
-    653: {
+    653: { 
         1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "653",
-                destination: "MARINA BOULEVARD",
+                destination: "MARINA BLVD",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                        renderType: "destScroll",
-                        top: "CITY DIRECT",
-                        topFont: "Hanover-Tower12:7",
-        
-                        serviceNumber: "653"
-                    },
-                    {
-                        renderType: "destScroll",
-                        top: "MARINA  BOULEVARD",
-                        topFont: "Hanover-14:6",
-            
-                        serviceNumber: "653"
-                    },
+                scrolls: [                    
                     "HILLVIEW AVE",
                     "BUKIT BATOK EAST AVE 2",
                     "BUKIT BATOK EAST AVE 3",
                     "ANSON RD",
-                    "ROBINSON RD"
+                    "ROBINSON RD",
+                {
+                    renderType: "destScroll",
+                    top: "CITY DIRECT",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "653"
+                }, 
+                {
+                    renderType: "destScroll",
+                    top: "MARINA  BOULEVARD",
+                    topFont: "Hanover-14:6",
+    
+                    serviceNumber: "653"
+                },
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -2690,25 +2984,26 @@ EDSData.TTSG = {
                 serviceNumber: "653",
                 destination: "HILLVIEW AVE",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                        renderType: "destScroll",
-                        top: "CITY DIRECT",
-                        topFont: "Hanover-Tower12:7",
-        
-                        serviceNumber: "653"
-                    },
-                    {
-                        renderType: "destScroll",
-                        top: "HILLVIEW AVE",
-                        topFont: "Hanover-Tower12:7",
-            
-                        serviceNumber: "653"
-                    },
+                scrolls: [                    
                     "CENTRAL BOULEVARD",
                     "SHENTON WAY",
                     "BUKIT BATOK EAST AVE 3",
                     "BUKIT BATOK EAST AVE 2",
-                    "HUME AVE"
+                    "HUME AVE",
+                {
+                    renderType: "destScroll",
+                    top: "CITY DIRECT",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "653"
+                },                
+                {
+                    renderType: "destScroll",
+                    top: "HILLVIEW AVE",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "653"
+                },
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -2720,32 +3015,33 @@ EDSData.TTSG = {
             }
         }
     },
-    656: {
+    656: { 
         1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "656",
                 destination: "SHENTON WAY",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                        renderType: "destScroll",
-                        top: "CITY DIRECT",
-                        topFont: "Hanover-Tower12:7",
-        
-                        serviceNumber: "656"
-                    },
-                    {
-                        renderType: "destScroll",
-                        top: "SHENTON WAY",
-                        topFont: "Hanover-Tower12:7",
-            
-                        serviceNumber: "656"
-                    },
+                scrolls: [                    
                     "ADMIRALTY LINK",
                     "SEMBAWANG DR",
                     "DHOBY GHAUT MRT",
                     "BRAS BASAH RD",
-                    "COLLYER QUAY"
+                    "COLLYER QUAY",
+                {
+                    renderType: "destScroll",
+                    top: "CITY DIRECT",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "656"
+                }, 
+                {
+                    renderType: "destScroll",
+                    top: "SHENTON WAY",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "656"
+                },
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -2762,25 +3058,26 @@ EDSData.TTSG = {
                 serviceNumber: "656",
                 destination: "CANBERRA RD",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                        renderType: "destScroll",
-                        top: "CITY DIRECT",
-                        topFont: "Hanover-Tower12:7",
-        
-                        serviceNumber: "656"
-                    },
-                    {
-                        renderType: "destScroll",
-                        top: "CANBERRA RD",
-                        topFont: "Hanover-Tower12:7",
-            
-                        serviceNumber: "656"
-                    },
-                    "ROBINSON RD",
-                    "STAMFORD RD",
-                    "DHOBY GHAUT MRT",
-                    "SEMBAWANG RD",
-                    "ADMIRALTY LINK"
+                scrolls: [                    
+                    "CENTRAL BOULEVARD",
+                    "SHENTON WAY",
+                    "BUKIT BATOK EAST AVE 3",
+                    "BUKIT BATOK EAST AVE 2",
+                    "HUME AVE",
+                {
+                    renderType: "destScroll",
+                    top: "CITY DIRECT",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "656"
+                },                
+                {
+                    renderType: "destScroll",
+                    top: "CANBERRA RD",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "656"
+                },
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -2799,26 +3096,44 @@ EDSData.TTSG = {
                 serviceNumber: "656",
                 destination: "SHENTON WAY",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                        renderType: "destScroll",
-                        top: "CITY DIRECT",
-                        topFont: "Hanover-Tower12:7",
-        
-                        serviceNumber: "656"
-                    },
-                    {
-                        renderType: "destScroll",
-                        top: "SHENTON WAY",
-                        topFont: "Hanover-Tower12:7",
-            
-                        serviceNumber: "656"
-                    },
+                scrolls: [                    
                     "ADMIRALTY LINK",
                     "SEMBAWANG DR",
                     "DHOBY GHAUT MRT",
                     "NORTH BRIDGE RD",
-                    "(SKIP BRAS BASAH RD)",
-                    "(SKIP COLLYER QUAY)"
+                {
+                    renderType: "centreMessageServiceScroll",
+                    serviceNumber: "656",
+                    top: "SKIP",
+                    topFont: "Hanover-Tower11:7",
+    
+                    bottom: "BRAS BASAH RD",
+                    bottomFont: "LECIP-7:5"
+                },
+                {
+                    renderType: "centreMessageServiceScroll",
+                    serviceNumber: "656",
+                    top: "SKIP",
+                    topFont: "Hanover-Tower11:7",
+    
+                    bottom: "COLLYER QUAY",
+                    bottomFont: "LECIP-7:5"
+                },
+
+                {
+                    renderType: "destScroll",
+                    top: "CITY DIRECT",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "656"
+                },                
+                {
+                    renderType: "destScroll",
+                    top: "SHENTON WAY",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "656"
+                },
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -2835,26 +3150,45 @@ EDSData.TTSG = {
                 serviceNumber: "656",
                 destination: "CANBERRA RD",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                        renderType: "destScroll",
-                        top: "CITY DIRECT",
-                        topFont: "Hanover-Tower12:7",
-        
-                        serviceNumber: "656"
-                    },
-                    {
-                        renderType: "destScroll",
-                        top: "CANBERRA RD",
-                        topFont: "Hanover-Tower12:7",
-            
-                        serviceNumber: "656"
-                    },
+                scrolls: [                    
                     "ROBINSON RD",
                     "STAMFORD RD",
                     "DHOBY GHAUT MRT",
                     "SEMBAWANG RD",
                     "ADMIRALTY LINK",
-                    "(SKIP FULLERTON RD)"
+                {
+                    renderType: "centreMessageServiceScroll",
+                    serviceNumber: "656",
+                    top: "SKIP",
+                    topFont: "Hanover-Tower11:7",
+    
+                    bottom: "FULLERTON RD",
+                    bottomFont: "LECIP-7:5"
+                },
+                {
+                    renderType: "centreMessageServiceScroll",
+                    serviceNumber: "656",
+                    top: "SKIP",
+                    topFont: "Hanover-Tower11:7",
+    
+                    bottom: "ESPLANADE DR",
+                    bottomFont: "LECIP-7:5"
+                },
+
+                {
+                    renderType: "destScroll",
+                    top: "CITY DIRECT",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "656"
+                },                
+                {
+                    renderType: "destScroll",
+                    top: "CANBERRA RD",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "656"
+                },
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -2866,31 +3200,32 @@ EDSData.TTSG = {
             }
         }
     },
-    657: {
+    657: { 
         1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "657",
-                destination: "MARINA BOULEVARD",
+                destination: "MARINA BLVD",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                        renderType: "destScroll",
-                        top: "CITY DIRECT",
-                        topFont: "Hanover-Tower12:7",
-        
-                        serviceNumber: "657"
-                    },
-                    {
-                        renderType: "destScroll",
-                        top: "MARINA  BOULEVARD",
-                        topFont: "Hanover-14:6",
-            
-                        serviceNumber: "657"
-                    },
+                scrolls: [                    
                     "JURONG EAST AVE 1",
                     "TOH GUAN RD",
                     "ANSON RD",
-                    "ROBINSON RD"
+                    "ROBINSON RD",
+                {
+                    renderType: "destScroll",
+                    top: "CITY DIRECT",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "657"
+                }, 
+                {
+                    renderType: "destScroll",
+                    top: "MARINA  BOULEVARD",
+                    topFont: "Hanover-14:6",
+    
+                    serviceNumber: "657"
+                },
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -2907,24 +3242,25 @@ EDSData.TTSG = {
                 serviceNumber: "657",
                 destination: "JURONG WEST AVE 1",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                        renderType: "destScroll",
-                        top: "CITY DIRECT",
-                        topFont: "Hanover-Tower12:7",
-        
-                        serviceNumber: "657"
-                    },
-                    {
-                        renderType: "destScroll",
-                        top: "JURONG  WEST  AVE  1",
-                        topFont: "Hanover-14:6",
-            
-                        serviceNumber: "657"
-                    },
+                scrolls: [                    
                     "CENTRAL BOULEVARD",
                     "SHENTON WAY",
                     "TOH GUAN RD",
-                    'JURONG EAST AVE 1'
+                    'JURONG EAST AVE 1',
+                {
+                    renderType: "destScroll",
+                    top: "CITY DIRECT",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "657"
+                },                
+                {
+                    renderType: "destScroll",
+                    top: "JURONG  WEST  AVE  1",
+                    topFont: "Hanover-14:6",
+    
+                    serviceNumber: "657"
+                },
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -2936,32 +3272,34 @@ EDSData.TTSG = {
             }
         }
     },
-    663: {
+    663: { 
         1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "663",
                 destination: "SHENTON WAY",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                        renderType: "destScroll",
-                        top: "CITY DIRECT",
-                        topFont: "Hanover-Tower12:7",
-        
-                        serviceNumber: "663"
-                    },
-                    {
-                        renderType: "destScroll",
-                        top: "SHENTON WAY",
-                        topFont: "Hanover-Tower12:7",
-            
-                        serviceNumber: "663"
-                    },
+                scrolls: [                    
                     "YISHUN AVE 6 / RING RD",
                     "YISHUN CTRL / AVE 2",
                     "DHOBY GHAUT MRT",
                     "BRAS BASAH RD",
-                    "COLLYER QUAY"
+                    "COLLYER QUAY",
+
+                {
+                    renderType: "destScroll",
+                    top: "CITY DIRECT",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "663"
+                },                
+                {
+                    renderType: "destScroll",
+                    top: "SHENTON WAY",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "663"
+                },
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -2978,25 +3316,27 @@ EDSData.TTSG = {
                 serviceNumber: "663",
                 destination: "YISHUN AVE 6",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                        renderType: "destScroll",
-                        top: "CITY DIRECT",
-                        topFont: "Hanover-Tower12:7",
-        
-                        serviceNumber: "663"
-                    },
-                    {
-                        renderType: "destScroll",
-                        top: "YISHUN AVE 6",
-                        topFont: "Hanover-Tower12:7",
-            
-                        serviceNumber: "663"
-                    },
+                scrolls: [                    
                     "ROBINSON RD",
                     "STAMFORD RD",
                     "DHOBY GHAUT MRT",
                     "YISHUN AVE 2 / CTRL",
-                    "YISHUN AVE 11 / RING RD"
+                    "YISHUN AVE 11 / RING RD",
+
+                {
+                    renderType: "destScroll",
+                    top: "CITY DIRECT",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "663"
+                },
+                {
+                    renderType: "destScroll",
+                    top: "YISHUN AVE 6",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "665"
+                },
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -3015,25 +3355,44 @@ EDSData.TTSG = {
                 serviceNumber: "663",
                 destination: "SHENTON WAY",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                        renderType: "destScroll",
-                        top: "CITY DIRECT",
-                        topFont: "Hanover-Tower12:7",
-        
-                        serviceNumber: "663"
-                    },
-                    {
-                        renderType: "destScroll",
-                        top: "SHENTON WAY",
-                        topFont: "Hanover-Tower12:7",
-            
-                        serviceNumber: "663"
-                    },
+                scrolls: [                    
                     "YISHUN AVE 6 / RING RD",
                     "YISHUN CTRL / AVE 2",
                     "DHOBY GHAUT MRT",
                     "NORTH BRIDGE RD",
-                    "(SKIP COLLYER QUAY)"
+                {
+                    renderType: "centreMessageServiceScroll",
+                    serviceNumber: "663",
+                    top: "SKIP",
+                    topFont: "Hanover-Tower11:7",
+    
+                    bottom: "BRAS BASAH RD",
+                    bottomFont: "LECIP-7:5"
+                },
+                {
+                    renderType: "centreMessageServiceScroll",
+                    serviceNumber: "663",
+                    top: "SKIP",
+                    topFont: "Hanover-Tower11:7",
+    
+                    bottom: "COLLYER QUAY",
+                    bottomFont: "LECIP-7:5"
+                },
+
+                {
+                    renderType: "destScroll",
+                    top: "CITY DIRECT",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "663"
+                },                
+                {
+                    renderType: "destScroll",
+                    top: "SHENTON WAY",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "663"
+                },
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -3050,26 +3409,45 @@ EDSData.TTSG = {
                 serviceNumber: "663",
                 destination: "YISHUN AVE 6",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                        renderType: "destScroll",
-                        top: "CITY DIRECT",
-                        topFont: "Hanover-Tower12:7",
-        
-                        serviceNumber: "663"
-                    },
-                    {
-                        renderType: "destScroll",
-                        top: "YISHUN AVE 6",
-                        topFont: "Hanover-Tower12:7",
-            
-                        serviceNumber: "663"
-                    },
+                scrolls: [                    
                     "ROBINSON RD",
                     "STAMFORD RD",
                     "DHOBY GHAUT MRT",
                     "YISHUN AVE 2 / CTRL",
                     "YISHUN AVE 11 / RING RD",
-                    "(SKIP FULLERTON RD)"
+                {
+                    renderType: "centreMessageServiceScroll",
+                    serviceNumber: "663",
+                    top: "SKIP",
+                    topFont: "Hanover-Tower11:7",
+    
+                    bottom: "FULLERTON RD",
+                    bottomFont: "LECIP-7:5"
+                },
+                {
+                    renderType: "centreMessageServiceScroll",
+                    serviceNumber: "663",
+                    top: "SKIP",
+                    topFont: "Hanover-Tower11:7",
+    
+                    bottom: "ESPLANADE DR",
+                    bottomFont: "LECIP-7:5"
+                },
+
+                {
+                    renderType: "destScroll",
+                    top: "CITY DIRECT",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "663"
+                },                
+                {
+                    renderType: "destScroll",
+                    top: "YISHUN AVE 6",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "663"
+                },
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -3081,7 +3459,7 @@ EDSData.TTSG = {
             }
         }
     },
-    665: { //Left Off here continue ^^
+    665: { 
         1: {
             front: {
                 renderType: "standardService",
@@ -3094,16 +3472,17 @@ EDSData.TTSG = {
                     "DHOBY GHAUT MRT",
                     "BRAS BASAH RD",
                     "COLLYER QUAY",
-                {
-                    renderType: "destScroll",
-                    top: "SHENTON WAY",
-                    topFont: "Hanover-Tower12:7",
-    
-                    serviceNumber: "665"
-                },
+
                 {
                     renderType: "destScroll",
                     top: "CITY DIRECT",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "665"
+                },                
+                {
+                    renderType: "destScroll",
+                    top: "SHENTON WAY",
                     topFont: "Hanover-Tower12:7",
     
                     serviceNumber: "665"
@@ -3130,16 +3509,17 @@ EDSData.TTSG = {
                     "DHOBY GHAUT MRT",
                     "WOODLANDS AVE 1 / 4 / 5",
                     "MARSILING RISE / LANE",
-                {
-                    renderType: "destScroll",
-                    top: "MARSILING DRIVE",
-                    topFont: "Hanover-Tower12:7",
-    
-                    serviceNumber: "665"
-                },
+
                 {
                     renderType: "destScroll",
                     top: "CITY DIRECT",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "665"
+                },                
+                {
+                    renderType: "destScroll",
+                    top: "MARSILING DRIVE",
                     topFont: "Hanover-Tower12:7",
     
                     serviceNumber: "665"
@@ -3185,16 +3565,17 @@ EDSData.TTSG = {
                     bottom: "COLLYER QUAY",
                     bottomFont: "LECIP-7:5"
                 },
-                {
-                    renderType: "destScroll",
-                    top: "SHENTON WAY",
-                    topFont: "Hanover-Tower12:7",
-    
-                    serviceNumber: "665"
-                },
+
                 {
                     renderType: "destScroll",
                     top: "CITY DIRECT",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "665"
+                },                
+                {
+                    renderType: "destScroll",
+                    top: "SHENTON WAY",
                     topFont: "Hanover-Tower12:7",
     
                     serviceNumber: "665"
@@ -3239,16 +3620,17 @@ EDSData.TTSG = {
                     bottom: "ESPLANADE DR",
                     bottomFont: "LECIP-7:5"
                 },
-                {
-                    renderType: "destScroll",
-                    top: "MARSILING DRIVE",
-                    topFont: "Hanover-Tower12:7",
-    
-                    serviceNumber: "665"
-                },
+
                 {
                     renderType: "destScroll",
                     top: "CITY DIRECT",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "665"
+                },                
+                {
+                    renderType: "destScroll",
+                    top: "MARSILING DRIVE",
                     topFont: "Hanover-Tower12:7",
     
                     serviceNumber: "665"
@@ -3618,7 +4000,6 @@ EDSData.TTSG = {
             }
         }
     },
-   
     855: {
         1: {
             front: {
@@ -3703,7 +4084,7 @@ EDSData.TTSG = {
                 scrollFont: "LECIP-7:5"
             },
             rear: {
-                renderType: "twoline",
+                renderType: "twolinerear",
                 top: "856",
                 topFont: "LECIP-TowerRear10:7",
                 topSpacing: 2,
@@ -3736,7 +4117,7 @@ EDSData.TTSG = {
                     scrollFont: "LECIP-7:5"
             },
             rear: {
-                renderType: "twoline",
+                renderType: "twolinerear",
                 top: "856",
                 topFont: "LECIP-TowerRear10:7",
                 topSpacing: 2,
@@ -3921,7 +4302,6 @@ EDSData.TTSG = {
                     "BENDEMEER RD",
                     "LITTLE INDIA",
                     "BENCOOLEN ST",
-                    "BRAS BASAH RD",
             {
                 renderType: "centreMessageServiceScroll",
                 serviceNumber: "857",
@@ -4401,7 +4781,7 @@ EDSData.TTSG = {
                 scrollFont: "LECIP-7:5"
             },
             rear: {
-                renderType: "twoline",
+                renderType: "twolinerear",
                 top: "883",
                 topFont: "LECIP-TowerRear10:7",
                 topSpacing: 2,
@@ -4434,7 +4814,7 @@ EDSData.TTSG = {
                     scrollFont: "LECIP-7:5"
             },
             rear: {
-                renderType: "twoline",
+                renderType: "twolinerear",
                 top: "883",
                 topFont: "LECIP-TowerRear10:7",
                 topSpacing: 2,
@@ -4511,7 +4891,7 @@ EDSData.TTSG = {
                 scrollFont: "LECIP-7:5"
             },
             rear: {
-                renderType: "twoline",
+                renderType: "twolinerear",
                 top: "883M",
                 topFont: "LECIP-TowerRear10:7",
                 topSpacing: 1,
@@ -4544,7 +4924,7 @@ EDSData.TTSG = {
                     scrollFont: "LECIP-7:5"
             },
             rear: {
-                renderType: "twoline",
+                renderType: "twolinerear",
                 top: "883M",
                 topFont: "LECIP-TowerRear10:7",
                 topSpacing: 1,
@@ -4757,7 +5137,7 @@ EDSData.TTSG = {
                 },
                 {
                     renderType: "destScroll",
-                    top: "WOODLANDS",
+                    top: "HARBOURFRONT",
                     topFont: "Hanover-Tower12:7",
             
                     serviceNumber: "963e"
@@ -5641,7 +6021,7 @@ EDSData.TTSG = {
                 spacing: 2
             },
             rear: {
-                renderType: 'twoline',
+                renderType: 'twolinerear',
                 top: "SPARE",
                 topFont: "LECIP-7:4", // check font
 
@@ -5660,10 +6040,28 @@ EDSData.TTSG = {
             }
         }
     },
+    4444: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "On Test",
+                font: "Hanover-Tower19:11",
+                spacing: 2
+            },
+            rear: {
+                renderType: 'twolinerear',
+                top: "ON",
+                topFont: "LECIP-7:4", // check font
+
+                bottom: "TEST",
+                bottomFont: "LECIP-7:4"
+            }
+        }
+    },
     5000: {
         1: {
             front: {
-                renderType: "twoline",
+                renderType: "twolinefront",
                 top: "ROUTE FAMILIARISATION",
                 topFont: "LECIP-7:5",
                 topSpacing: 1,
@@ -5673,7 +6071,7 @@ EDSData.TTSG = {
                 bottomSpacing: 1,
             },
             rear: { 
-                renderType: "twoline",
+                renderType: "twolinerear",
                 top: "ROUTE",
                 topFont: "LECIP-6:3",
                 topSpacing: 1,
@@ -5693,7 +6091,7 @@ EDSData.TTSG = {
                 spacing: 2
             },
             rear: {
-                renderType: 'twoline',
+                renderType: 'twolinefront',
                 top: "NSL",
                 topFont: "Mobitec-10:7",
 
@@ -5711,7 +6109,7 @@ EDSData.TTSG = {
                 spacing: 2
             },
             rear: {
-                renderType: 'twoline',
+                renderType: 'twolinefront',
                 top: "EWL",
                 topFont: "Mobitec-10:7",
 
@@ -5729,7 +6127,7 @@ EDSData.TTSG = {
                 spacing: 2
             },
             rear: {
-                renderType: 'twoline',
+                renderType: 'twolinefront',
                 top: "NEL",
                 topFont: "Mobitec-10:7",
 
@@ -5747,7 +6145,7 @@ EDSData.TTSG = {
                 spacing: 2
             },
             rear: {
-                renderType: 'twoline',
+                renderType: 'twolinefront',
                 top: "CCL",
                 topFont: "Mobitec-10:7",
 
@@ -5765,7 +6163,7 @@ EDSData.TTSG = {
                 spacing: 2
             },
             rear: {
-                renderType: 'twoline',
+                renderType: 'twolinefront',
                 top: "DTL",
                 topFont: "Mobitec-10:7",
 
@@ -5783,7 +6181,7 @@ EDSData.TTSG = {
                 spacing: 2
             },
             rear: {
-                renderType: 'twoline',
+                renderType: 'twolinefront',
                 top: "TEL",
                 topFont: "Mobitec-10:7",
 
@@ -5801,7 +6199,7 @@ EDSData.TTSG = {
                 spacing: 2
             },
             rear: {
-                renderType: 'twoline',
+                renderType: 'twolinefront',
                 top: "LRT",
                 topFont: "Mobitec-10:7",
 
@@ -5819,7 +6217,7 @@ EDSData.TTSG = {
                 spacing: 2
             },
             rear: {
-                renderType: 'twoline',
+                renderType: 'twolinefront',
                 top: "LRT",
                 topFont: "Mobitec-10:7",
 
@@ -5837,7 +6235,7 @@ EDSData.TTSG = {
                 spacing: 1
             },
             rear: {
-                renderType: 'twoline',
+                renderType: 'twolinefront',
                 top: "LRT",
                 topFont: "Mobitec-10:7",
 
@@ -5855,7 +6253,7 @@ EDSData.TTSG = {
                 spacing: 1
             },
             rear: {
-                renderType: 'twoline',
+                renderType: 'twolinefront',
                 top: "LRT",
                 topFont: "Mobitec-10:7",
 
@@ -5873,7 +6271,7 @@ EDSData.TTSG = {
                 spacing: 2
             },
             rear: {
-                renderType: 'twoline',
+                renderType: 'twolinerear',
                 top: "BLACK",
                 topFont: "LECIP-7:5",
 
@@ -5891,7 +6289,7 @@ EDSData.TTSG = {
                 spacing: 2
             },
             rear: {
-                renderType: 'twoline',
+                renderType: 'twolinerear',
                 top: "BLACK",
                 topFont: "LECIP-7:5",
 
@@ -5909,7 +6307,7 @@ EDSData.TTSG = {
                 spacing: 2
             },
             rear: {
-                renderType: 'twoline',
+                renderType: 'twolinerear',
                 top: "BLACK",
                 topFont: "LECIP-7:5",
 
@@ -5927,7 +6325,7 @@ EDSData.TTSG = {
                 spacing: 2
             },
             rear: {
-                renderType: 'twoline',
+                renderType: 'twolinerear',
                 top: "BLACK",
                 topFont: "LECIP-7:5",
 
@@ -5945,7 +6343,7 @@ EDSData.TTSG = {
                 spacing: 2
             },
             rear: {
-                renderType: 'twoline',
+                renderType: 'twolinerear',
                 top: "BLUE",
                 topFont: "LECIP-7:5",
 
@@ -5963,7 +6361,7 @@ EDSData.TTSG = {
                 spacing: 2
             },
             rear: {
-                renderType: 'twoline',
+                renderType: 'twolinerear',
                 top: "BLUE",
                 topFont: "LECIP-7:5",
 
@@ -5981,7 +6379,7 @@ EDSData.TTSG = {
                 spacing: 2
             },
             rear: {
-                renderType: 'twoline',
+                renderType: 'twolinerear',
                 top: "BLUE",
                 topFont: "LECIP-7:5",
 
@@ -5999,7 +6397,7 @@ EDSData.TTSG = {
                 spacing: 2
             },
             rear: {
-                renderType: 'twoline',
+                renderType: 'twolinerear',
                 top: "BLUE",
                 topFont: "LECIP-7:5",
 
@@ -6017,7 +6415,7 @@ EDSData.TTSG = {
                 spacing: 2
             },
             rear: {
-                renderType: 'twoline',
+                renderType: 'twolinerear',
                 top: "BROWN",
                 topFont: "LECIP-7:5",
 
@@ -6035,7 +6433,7 @@ EDSData.TTSG = {
                 spacing: 2
             },
             rear: {
-                renderType: 'twoline',
+                renderType: 'twolinerear',
                 top: "BROWN",
                 topFont: "LECIP-7:5",
 
@@ -6053,7 +6451,7 @@ EDSData.TTSG = {
                 spacing: 2
             },
             rear: {
-                renderType: 'twoline',
+                renderType: 'twolinerear',
                 top: "BROWN",
                 topFont: "LECIP-7:5",
 
@@ -6071,7 +6469,7 @@ EDSData.TTSG = {
                 spacing: 2
             },
             rear: {
-                renderType: 'twoline',
+                renderType: 'twolinerear',
                 top: "BROWN",
                 topFont: "LECIP-7:5",
 
@@ -6089,7 +6487,7 @@ EDSData.TTSG = {
                 spacing: 2
             },
             rear: {
-                renderType: 'twoline',
+                renderType: 'twolinerear',
                 top: "GREEN",
                 topFont: "LECIP-7:5",
 
@@ -6107,7 +6505,7 @@ EDSData.TTSG = {
                 spacing: 2
             },
             rear: {
-                renderType: 'twoline',
+                renderType: 'twolinerear',
                 top: "GREEN",
                 topFont: "LECIP-7:5",
 
@@ -6125,7 +6523,7 @@ EDSData.TTSG = {
                 spacing: 2
             },
             rear: {
-                renderType: 'twoline',
+                renderType: 'twolinerear',
                 top: "GREEN",
                 topFont: "LECIP-7:5",
 
@@ -6143,7 +6541,7 @@ EDSData.TTSG = {
                 spacing: 2
             },
             rear: {
-                renderType: 'twoline',
+                renderType: 'twolinerear',
                 top: "GREEN",
                 topFont: "LECIP-7:5",
 
@@ -6219,9 +6617,9 @@ EDSData.TTSG = {
     5400: {
         1: {
             front: {
-                renderType: "twoline",
-                top: "BULIM   TTS",
-                topFont: "LECIP-10",
+                renderType: "twolinefront",
+                top: "BULIM - TTS",
+                topFont: "Hanover-Tower11:7",
                 topSpacing: 1,
 
                 bottom: "HOTEL FERRY",
@@ -6229,7 +6627,7 @@ EDSData.TTSG = {
                 bottomSpacing: 1,
             },
             rear: { 
-                renderType: "twoline",
+                renderType: "twolinerear",
                 top: "BULIM",
                 topFont: "LECIP-7:5",
                 topSpacing: 1,
@@ -6243,9 +6641,9 @@ EDSData.TTSG = {
     5401: {
         1: {
             front: {
-                renderType: "twoline",
-                top: "MANDAI   TTS",
-                topFont: "LECIP-10",
+                renderType: "twolinefront",
+                top: "MANDAI - TTS",
+                topFont: "Hanover-Tower11:7",
                 topSpacing: 1,
 
                 bottom: "HOTEL FERRY",
@@ -6253,7 +6651,7 @@ EDSData.TTSG = {
                 bottomSpacing: 1,
             },
             rear: { 
-                renderType: "twoline",
+                renderType: "twolinerear",
                 top: "MANDAI",
                 topFont: "LECIP-7:5",
                 topSpacing: 1,
@@ -6264,12 +6662,12 @@ EDSData.TTSG = {
             }
         }
     },
-    5401: {
+    5402: {
         1: {
             front: {
-                renderType: "twoline",
+                renderType: "twolinefront",
                 top: "TTS HOTEL FERRY",
-                topFont: "LECIP-10",
+                topFont: "Hanover-Tower11:7",
                 topSpacing: 1,
 
                 bottom: "EMPLOYEE SHUTTLE",
@@ -6277,7 +6675,7 @@ EDSData.TTSG = {
                 bottomSpacing: 1,
             },
             rear: { 
-                renderType: "twoline",
+                renderType: "twolinerear",
                 top: "HOTEL",
                 topFont: "LECIP-7:5",
                 topSpacing: 1,
@@ -6288,12 +6686,30 @@ EDSData.TTSG = {
             }
         }
     },
+    5555: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "Training  Bus",
+                font: "Hanover-Tower19:11",
+                spacing: 2
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "TRAINING",
+                topFont: "LECIP-7:4", // check font
+
+                bottom: "BUS",
+                bottomFont: "LECIP-7:4"
+            }
+        }
+    },
     5998: {
         1: {
             front: {
-                renderType: "twoline",
+                renderType: "twolinefront",
                 top: "BULIM DEPOT",
-                topFont: "LECIP-10",
+                topFont: "Hanover-Tower11:7",
                 topSpacing: 1,
 
                 bottom: "CREW BUS",
@@ -6301,7 +6717,7 @@ EDSData.TTSG = {
                 bottomSpacing: 1,
             },
             rear: { 
-                renderType: "twoline",
+                renderType: "twolinerear",
                 top: "BULIM",
                 topFont: "LECIP-7:5",
                 topSpacing: 1,
@@ -6315,9 +6731,9 @@ EDSData.TTSG = {
     5999: {
         1: {
             front: {
-                renderType: "twoline",
+                renderType: "twolinefront",
                 top: "MANDAI DEPOT",
-                topFont: "LECIP-10",
+                topFont: "Hanover-Tower11:7",
                 topSpacing: 1,
 
                 bottom: "CREW BUS",
@@ -6325,7 +6741,7 @@ EDSData.TTSG = {
                 bottomSpacing: 1,
             },
             rear: { 
-                renderType: "twoline",
+                renderType: "twolinerear",
                 top: "MANDAI",
                 topFont: "LECIP-7:5",
                 topSpacing: 1,
@@ -6397,7 +6813,23 @@ EDSData.TTSG = {
     6666: {
         1: {
             front: {
-                renderType: "twoline",
+                renderType: "message",
+                text: "`",
+                font: "Hanover-Tower19:11",
+                spacing: 2
+            },
+            rear: { 
+                renderType: "message",
+                text: "~",
+                font: "Hanover-Tower19:11",
+                spacing: 1
+            }
+        }
+    },
+    6667: {
+        1: {
+            front: {
+                renderType: "twolinefront",
                 top: "TOWER TRANSIT SG",
                 topFont: "LECIP-10",
                 topSpacing: 1,
@@ -6419,7 +6851,7 @@ EDSData.TTSG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "97e",
-                destination: "RAFFLES QUAY",
+                destination: "CENTRAL BLVD",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [
                     "A Y E",
@@ -6436,13 +6868,6 @@ EDSData.TTSG = {
                         bottomFont: "LECIP-7:5"
                     },
                     {
-                        renderType: "destScroll",
-                        top: "RAFFLES QUAY",
-                        topFont: "Hanover-Tower12:7",
-            
-                        serviceNumber: "97e"
-                    },
-                    {
                         renderType: "centreMessageServiceScroll",
                         serviceNumber: "97e",
                         top: "SKIPS",
@@ -6450,6 +6875,13 @@ EDSData.TTSG = {
 
                         bottom: "MBS / SUNTEC",
                         bottomFont: "LECIP-7:5"
+                    },                    
+                    {
+                        renderType: "destScroll",
+                        top: "CENTRAL  BOULEVARD",
+                        topFont: "Hanover-14:6",
+            
+                        serviceNumber: "97e"
                     },
                 ],
                 scrollFont: "LECIP-7:5"
@@ -6480,22 +6912,13 @@ EDSData.TTSG = {
 
                         bottom: "EXPRESS SERVICE",
                         bottomFont: "LECIP-7:5"
-                    },
+                    },                  
                     {
                         renderType: "destScroll",
                         top: "JURONG EAST",
                         topFont: "Hanover-Tower12:7",
             
                         serviceNumber: "97e"
-                    },
-                    {
-                        renderType: "centreMessageServiceScroll",
-                        serviceNumber: "97e",
-                        top: "SKIPS",
-                        topFont: "Hanover-Tower11:7",
-
-                        bottom: "SUNTEC / MBS",
-                        bottomFont: "LECIP-7:5"
                     },
                 ],
                 scrollFont: "LECIP-7:5"
@@ -6517,7 +6940,7 @@ EDSData.TTSG = {
                 spacing: 1
             },
             rear: {
-                renderType: 'twoline',
+                renderType: 'twolinerear',
                 top: "UNDER",
                 topFont: "LECIP-7:4", // check font
 
