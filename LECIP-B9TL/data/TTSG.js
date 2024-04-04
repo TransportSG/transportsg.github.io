@@ -6004,10 +6004,10 @@ EDSData.TTSG = {
             },
             rear: {
                 renderType: 'twoline',
-                top: "",
+                top: "~",
                 topFont: "LECIP-7:4",
 
-                bottom: "",
+                bottom: "~",
                 bottomFont: "LECIP-7:4"
             }
         }
