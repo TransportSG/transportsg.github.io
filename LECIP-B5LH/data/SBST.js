@@ -6030,6 +6030,33 @@ EDSData.SBST = {
             }
         }
     },
+    296: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "296",
+                destination: {
+                    text: "TAMPINES INT-TAMPINES NTH DR 2",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "TAMPINES AVE 5",
+                    "TAMPINES AVE 6",
+                    "TAMPINES NORTH DR 1",
+                    "TAMPINES ST 64"
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "296",
+                destination: "TAMPINES INT",
+                scrolls: [
+                    "IKEA TAMPINES"
+                ]
+            }
+        }
+    },
     298: {
         1: {
             front: {
