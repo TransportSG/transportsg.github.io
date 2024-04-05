@@ -7465,6 +7465,23 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
+    2961: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "296",
+            destination: {
+                text: "TAMP INT - TAMP NTH DR 2",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+                "TAMPINES AVE 5",
+                "TAMPINES AVE 6",
+                "TAMPINES NORTH DR 1",
+                "TAMPINES ST 64"
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },   
     2981: {
         front: {
             renderType: "standardService",

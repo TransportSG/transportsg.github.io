@@ -13016,6 +13016,29 @@ EDSData.SBST = {
             }
         }
     },
+    296: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "296",
+                destination: "TAMPINES INT-TAMPINES NTH DR 2",
+                destinationFont: "LECIP-6:3",
+                scrolls: [
+                    "TAMPINES AVE 5",
+                    "TAMPINES AVE 6",
+                    "TAMPINES NORTH DR 1",
+                    "TAMPINES ST 64"
+                ],
+                scrollFont: "LECIP-6:3"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "296",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
     298: {
         1: {
             front: {
