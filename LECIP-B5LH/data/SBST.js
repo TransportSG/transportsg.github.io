@@ -6036,7 +6036,7 @@ EDSData.SBST = {
                 renderType: "standardService",
                 serviceNumber: "296",
                 destination: {
-                    text: "TAMPINES INT-TAMP NTH DR 2",
+                    text: "TAMP INT - TAMP NTH DR 2",
                     font: "LECIP-8"
                 },
                 scrolls: [
