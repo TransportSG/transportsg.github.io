@@ -8,7 +8,7 @@ EDSFormats.GASG = {
             text: "$serviceNumber",
             font: {
                 $$cond: {
-                    "$serviceFont === null": "LECIP-20:12",
+                    "$serviceFont === null": "LECIP-19:GoAheadB9Front",
                     "else": "$serviceFont"
                 }
             },
@@ -76,7 +76,7 @@ EDSFormats.GASG = {
                 right: 1
             },
             text: "$serviceNumber",
-            font: "LECIP-20:12",
+            font: "LECIP-19:GoAheadB9Front",
             spacing: {
                 $$cond: {
                     "$spacing === null" : 3,
@@ -134,7 +134,7 @@ EDSFormats.GASG = {
                 right: 1
             },
             text: '$serviceNumber',
-            font: 'LECIP-20:12',
+            font: 'LECIP-19:GoAheadB9Front',
             spacing: 3
         },
         top: {
@@ -961,8 +961,16 @@ EDSData.GASG = {
                 renderType: "standardService",
                 serviceNumber: "36A",
                 destination: "TOMLINSON RD",
-                destinationFont: "LECIP-10",
-                scrolls: [
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "centreMessageServiceScroll",
+                    serviceNumber: "36A",
+                    top: "TERMINATING AT",
+                    topFont: "LECIP-7:5",
+
+                    bottom: "TOMLINSON RD",
+                    bottomFont: "LECIP-7:5"
+                },
                     "MARINE PARADE RD",
                     "SUNTEC CITY",
                     "STAMFORD RD",
@@ -985,8 +993,16 @@ EDSData.GASG = {
                 renderType: "standardService",
                 serviceNumber: "36B",
                 destination: "SIGLAP RD",
-                destinationFont: "LECIP-10",
-                scrolls: [
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "centreMessageServiceScroll",
+                    serviceNumber: "36B",
+                    top: "TERMINATING AT SIGLAP RD",
+                    topFont: "LECIP-6:4",
+
+                    bottom: "(BEF SEASIDE RESIDENCES)",
+                    bottomFont: "LECIP-6:4"
+                },
                     "MARINE PARADE RD",
                     "SUNTEC CITY",
                     "DHOBY GHAUT MRT",
@@ -994,9 +1010,9 @@ EDSData.GASG = {
                     "TOMLINSON RD (LOOP)",
                     "ORCHARD RD",
                     "SUNTEC CITY",
-                    "MARINE PARADE RD"
-                ],
-                scrollFont: "LECIP-7:5"
+                    "MARINE PARADE RD",
+                    ],
+                    scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -1031,12 +1047,12 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "43",
-                destination: "UPP EAST COAST",
-                destinationFont: "LECIP-10",
+                destination: "UPPER EAST COAST",
+                destinationFont: "Hanover-10",
                 scrolls: [{
                     renderType: "destScroll",
-                    top: "UPP EAST COAST",
-                    topFont: "LECIP-10",
+                    top: "UPPER EAST COAST",
+                    topFont: "Hanover-10",
         
                     serviceNumber: "43"
                 },
@@ -1067,11 +1083,11 @@ EDSData.GASG = {
                 renderType: "standardService",
                 serviceNumber: "43",
                 destination: "PUNGGOL",
-                destinationFont: "LECIP-10",
+                destinationFont: "Hanover-10",
                 scrolls: [{
                     renderType: "destScroll",
                     top: "PUNGGOL",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-10",
         
                     serviceNumber: "43"
                 },
@@ -2457,6 +2473,32 @@ EDSData.GASG = {
     2222: {
         1: {
             front: { 
+                renderType: "message",
+                text: "GO AHEAD SINGAPORE",
+                font: "Hanover-10",
+                spacing: 1
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "GO-AHEAD",
+                destinationFont: "LECIP-6:3",
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "~",
+                    topFont: "LECIP-19:GoAheadB9Front",
+        
+                    serviceNumber: ""
+                },
+                    "S'PORE"
+                ],
+                scrollFont: "LECIP-6:3"
+            },
+        }
+    },
+    2223: {
+        1: {
+            front: { 
                 renderType: "twoline",
                 top: "GO AHEAD SINGAPORE",
                 topFont: "LECIP-10",
@@ -2466,15 +2508,21 @@ EDSData.GASG = {
                 bottomFont: "LECIP-7:5",
                 bottomSpacing: 1,
             },
-            rear: { 
-                renderType: "twoline",
-                top: "GO AHEAD",
-                topFont: "LECIP-6:3",
-                topSpacing: 1,
-
-                bottom: "SG",
-                bottomFont: "LECIP-6:4",
-                bottomSpacing: 1,
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "GO-AHEAD",
+                destinationFont: "LECIP-6:3",
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "~",
+                    topFont: "LECIP-19:GoAheadB9Front",
+        
+                    serviceNumber: ""
+                },
+                    "S'PORE"
+                ],
+                scrollFont: "LECIP-6:3"
             }
         }
     },
@@ -3092,6 +3140,24 @@ EDSData.GASG = {
                 topFont: "LECIP-6:4",
 
                 bottom: "09",
+                bottomFont: "LECIP-10"
+            }
+        }
+    },
+    8888: {
+        1: {
+            front: { 
+                renderType: "message",
+                text: "0123456789",
+                font: "LECIP-19:GoAheadB9Front",
+                spacing: 1
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "",
+                topFont: "LECIP-6:4",
+
+                bottom: "",
                 bottomFont: "LECIP-10"
             }
         }
