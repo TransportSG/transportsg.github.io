@@ -740,39 +740,45 @@ EDSData.TTSG = {
             ]
         }
     },
-    663: {
-        front: {
-            renderType: "destScroll",
-            serviceNumber: "66A",
-            top: "Ends At",
-            topFont: "Mobitec-7:5:3",
-            bottom: "Little India Stn Exit A",
-            bottomFont: "Mobitec-Tower6:4",
-            image: "mrt"
-        }
-    },
-    664: {
-        front: {
-            renderType: "destScroll",
-            serviceNumber: "66B",
-            top: "Ends At",
-            topFont: "Mobitec-7:5:3",
-            bottom: "Tekka Ctr",
-            bottomFont: "Mobitec-Tower6:4",
-        }
-    },    
     665: {
         front: {
-            renderType: "destScroll",
-            serviceNumber: "66C",
-            top: "Ends At",
-            topFont: "Mobitec-7:5:3",
-            bottom: "Opp Beauty World Stn",
-            bottomFont: "Hanover-5:3",
-            image: "mrt"
+            renderType: "standardService",
+            serviceNumber: "66",
+            destination: "BEDOK",
+            scrolls: [
+                "BUKIT BATOK CENTRAL",
+                "DUNEARN RD",
+                "LITTLE INDIA",
+                "MACPHERSON RD / EST",
+                "BEDOK RESERVOIR RD",
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "66",
+                    top: "Welcome on board",
+                    topFont: "Hanover-7:3",
+                    bottom: "Tower Transit",
+                    bottomFont: "Hanover-7:3",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "66",
+                    top: "Have a pleasant",
+                    topFont: "Hanover-7:3",
+                    bottom: "journey!",
+                    bottomFont: "Hanover-7:3",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "66",
+                    top: "BEDOK",
+                    image: "mrt"
+                }
+            ]
         }
     },
-    668: {
+    666: {
         front: {
             renderType: "standardService",
             serviceNumber: "66",
@@ -810,42 +816,36 @@ EDSData.TTSG = {
             ]
         }
     },
+    667: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "66A",
+            top: "Ends At",
+            topFont: "Mobitec-7:5:3",
+            bottom: "Little India Stn Exit A",
+            bottomFont: "Mobitec-Tower6:4",
+            image: "mrt"
+        }
+    },
+    668: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "66B",
+            top: "Ends At",
+            topFont: "Mobitec-7:5:3",
+            bottom: "Tekka Ctr",
+            bottomFont: "Mobitec-Tower6:4",
+        }
+    },    
     669: {
         front: {
-            renderType: "standardService",
-            serviceNumber: "66",
-            destination: "BEDOK",
-            scrolls: [
-                "BUKIT BATOK CENTRAL",
-                "DUNEARN RD",
-                "LITTLE INDIA",
-                "MACPHERSON RD / EST",
-                "BEDOK RESERVOIR RD",
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "66",
-                    top: "Welcome on board",
-                    topFont: "Hanover-7:3",
-                    bottom: "Tower Transit",
-                    bottomFont: "Hanover-7:3",
-                    image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "66",
-                    top: "Have a pleasant",
-                    topFont: "Hanover-7:3",
-                    bottom: "journey!",
-                    bottomFont: "Hanover-7:3",
-                    image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "66",
-                    top: "BEDOK",
-                    image: "mrt"
-                }
-            ]
+            renderType: "destScroll",
+            serviceNumber: "66C",
+            top: "Ends At",
+            topFont: "Mobitec-7:5:3",
+            bottom: "Opp Beauty World Stn",
+            bottomFont: "Hanover-5:3",
+            image: "mrt"
         }
     },
     771: {
@@ -1048,6 +1048,18 @@ EDSData.TTSG = {
             ]
         }
     },
+    783: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "78A",
+            destination: "Ends At",
+            destFont: "Mobitec-7:5:3",
+            scrolls: [
+                "Tanjong Penjuru",
+                "(Opp CLP Intl)",
+            ]
+        }
+    },
     789: {
         front: {
             renderType: "standardService",
@@ -1160,6 +1172,18 @@ EDSData.TTSG = {
             ]
         }
     },
+    793: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "79A",
+            destination: "Ends At",
+            destFont: "Mobitec-7:5:3",
+            scrolls: [
+                "Jurong Town Hall Rd",
+                "(Jurong East Lib)",
+            ]
+        }
+    },
     961: {
         front: {
             renderType: "standardService",
@@ -1194,6 +1218,29 @@ EDSData.TTSG = {
                     image: "mrt"
                 }
             ]
+        }
+    },
+    963: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "96A",
+            destination: "Ends At",
+            destFont: "Mobitec-7:5:3",
+            scrolls: [
+                "Kent Ridge Cres",
+                "(NUS Raffles Hall)",
+            ]
+        }
+    },
+    964: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "96B",
+            top: "Ends At",
+            topFont: "Mobitec-7:5:3",
+            bottom: "Clementi Stn Exit A",
+            bottomFont: "Mobitec-Tower6:4",
+            image: "mrt"
         }
     },
     971: {
@@ -1548,6 +1595,30 @@ EDSData.TTSG = {
     983: {
         front: {
             renderType: "standardService",
+            serviceNumber: "98A",
+            destination: "Ends At",
+            destFont: "Mobitec-7:5:3",
+            scrolls: [
+                "Corporation Rd",
+                "(Corporation Pl)",
+            ]
+        }
+    },
+    984: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "98B",
+            destination: "Ends At",
+            destFont: "Mobitec-7:5:3",
+            scrolls: [
+                "Jurong Pier Way",
+                "(Jurong Island Chkpt)",
+            ]
+        }
+    },
+    988: {
+        front: {
+            renderType: "standardService",
             serviceNumber: "98M",
             destination: "CORPORATION RD",
             scrolls: [
@@ -1555,6 +1626,14 @@ EDSData.TTSG = {
                 'JURONG WEST AVE 1',
                 "LAKESIDE MRT",
                 "CORPORATION DR",
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "98M",
+                    top: " ",
+                    topFont: "Hanover-7:3",
+                    bottom: " ",
+                    bottomFont: "Hanover-7:3",
+                },
                 {
                     renderType: "destScroll",
                     serviceNumber: "98M",
@@ -1581,7 +1660,7 @@ EDSData.TTSG = {
             ]
         }
     },
-    984: {
+    989: {
         front: {
             renderType: "standardService",
             serviceNumber: "98M",
@@ -2256,6 +2335,29 @@ EDSData.TTSG = {
             ]
         }
     },
+    1693: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "169A",
+            top: "Ends At",
+            topFont: "Mobitec-7:5:3",
+            bottom: "Opp Yishun Stn",
+            bottomFont: "Mobitec-Tower6:4",
+            image: "mrt"
+        }
+    },
+    1694: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "169B",
+            destination: "Ends At",
+            destFont: "Mobitec-7:5:3",
+            scrolls: [
+                "Woodlands Ave 8",
+                "(Bef W'lands Ind Pk E3)",
+            ]
+        }
+    },
     1711: {
         front: {
             renderType: "standardService",
@@ -2520,6 +2622,18 @@ EDSData.TTSG = {
             ]
         }
     },
+    1733: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "173A",
+            destination: "Ends At",
+            destFont: "Mobitec-7:5:3",
+            scrolls: [
+                "Bukit Batok East Ave 4",
+                "(Blk 254)",
+            ]
+        }
+    },
     1771: {
         front: {
             renderType: "standardService",
@@ -2669,6 +2783,18 @@ EDSData.TTSG = {
             ]
         }
     },
+    1833: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "183B",
+            destination: "Ends At",
+            destFont: "Mobitec-7:5:3",
+            scrolls: [
+                "Toh Tuck Ave",
+                "(Aft Toh Tuck Link)",
+            ]
+        }
+    },
     1842: {
         front: {
             renderType: "standardService",
@@ -2768,6 +2894,18 @@ EDSData.TTSG = {
                     top: "BUKIT BATOK",
                     image: "mrt"
                 }
+            ]
+        }
+    },
+    1893: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "189A",
+            destination: "Ends At",
+            destFont: "Mobitec-7:5:3",
+            scrolls: [
+                "Bukit Batok St 23",
+                "(Opp Midview Bldg)",
             ]
         }
     },
@@ -4902,6 +5040,18 @@ EDSData.TTSG = {
             image: "ktm"
         }
     },
+    8564: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "856B",
+            destination: "Ends At",
+            destFont: "Mobitec-7:5:3",
+            scrolls: [
+                "Canberra Rd",
+                "(Aft Admiral Hill)",
+            ]
+        }
+    },
     8571: {
         front: {
             renderType: "standardService",
@@ -4983,9 +5133,9 @@ EDSData.TTSG = {
         front: {
             renderType: "destScroll",
             serviceNumber: "857A",
-            top: "ENDS AT",
+            top: "Ends At",
             topFont: "Mobitec-7:5:3",
-            bottom: "OPP SUNRISE GDNS",
+            bottom: "Opp Sunrise Gdns",
             bottomFont: "Mobitec-Tower6:4",
         }
     },
@@ -4993,9 +5143,9 @@ EDSData.TTSG = {
         front: {
             renderType: "destScroll",
             serviceNumber: "857B",
-            top: "ENDS AT",
+            top: "Ends At",
             topFont: "Mobitec-7:5:3",
-            bottom: "PROMENADE STN",
+            bottom: "Promenade Stn",
             bottomFont: "Mobitec-Tower6:4",
             image: "mrt"
         }
@@ -5147,9 +5297,9 @@ EDSData.TTSG = {
         front: {
             renderType: "destScroll",
             serviceNumber: "858A",
-            top: "ENDS AT",
+            top: "Ends At",
             topFont: "Mobitec-7:5:3",
-            bottom: "OPP YISHUN STN",
+            bottom: "Opp Yishun Stn",
             bottomFont: "Mobitec-Tower6:4",
             image: "mrt"
         }
@@ -5304,6 +5454,17 @@ EDSData.TTSG = {
             ]
         }
     },
+    8595: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "859T",
+            top: "Ends At",
+            topFont: "Mobitec-7:5:3",
+            bottom: "Yishun Int",
+            bottomFont: "Mobitec-Tower6:4",
+            image: "mrt"
+        }
+    },
     8701: {
         front: {
             renderType: "standardService",
@@ -5419,6 +5580,18 @@ EDSData.TTSG = {
             ]
         }
     },
+    8822: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "882A",
+            destination: "Ends At",
+            destFont: "Mobitec-7:5:3",
+            scrolls: [
+                "Montreal Link",
+                "(Blk 592A)",
+            ]
+        }
+    },
     8830: {
         front: {
             renderType: "standardService",
@@ -5528,6 +5701,30 @@ EDSData.TTSG = {
     8833: {
         front: {
             renderType: "standardService",
+            serviceNumber: "883A",
+            destination: "Ends At",
+            destFont: "Mobitec-7:5:3",
+            scrolls: [
+                "Canberra Way",
+                "(Blk 129A)",
+            ]
+        }
+    },
+    8834: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "883B",
+            destination: "Ends At",
+            destFont: "Mobitec-7:5:3",
+            scrolls: [
+                "Sembawang Rd",
+                "(Opp Blk 590C)",
+            ]
+        }
+    },
+    8835: {
+        front: {
+            renderType: "standardService",
             serviceNumber: "883M",
             destination: "YISHUN AVE 5",
             scrolls: [
@@ -5562,7 +5759,7 @@ EDSData.TTSG = {
             ]
         }
     },
-    8834: {
+    8836: {
         front: {
             renderType: "standardService",
             serviceNumber: "883M",
@@ -6085,6 +6282,28 @@ EDSData.TTSG = {
             ]
         }
     },
+    9653: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "965A",
+            top: "Ends At",
+            topFont: "Mobitec-7:5:3",
+            bottom: "Opp Yishun Stn",
+            bottomFont: "Mobitec-Tower6:4",
+            image: "mrt"
+        }
+    },
+    9654: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "965T",
+            top: "Ends At",
+            topFont: "Mobitec-7:5:3",
+            bottom: "Sengkang Int",
+            bottomFont: "Mobitec-Tower6:4",
+            image: "mrt"
+        }
+    },
     9659: {
         front: {
             renderType: "standardService",
@@ -6199,6 +6418,18 @@ EDSData.TTSG = {
             ]
         }
     },
+    9663: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "96A",
+            destination: "Ends At",
+            destFont: "Mobitec-7:5:3",
+            scrolls: [
+                "Marine Parade Rd",
+                "(Opp Parkway Parade)",
+            ]
+        }
+    },
     9691: {
         front: {
             renderType: "standardService",
@@ -6273,6 +6504,17 @@ EDSData.TTSG = {
                     image: "mrt"
                 }
             ]
+        }
+    },
+    9693: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "969A",
+            top: "Ends At",
+            topFont: "Mobitec-7:5:3",
+            bottom: "Yishun Stn",
+            bottomFont: "Mobitec-Tower6:4",
+            image: "mrt"
         }
     },
     9741: {

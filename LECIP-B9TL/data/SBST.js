@@ -14254,7 +14254,7 @@ EDSData.SBST = {
                 top: "AMK - SERANGOON",
                 topFont: "LECIP-7:5",
 
-                bottom: "BRIDGING BUS",
+                bottom: " ",
                 bottomFont: "LECIP-7:5"
             },
             rear: {

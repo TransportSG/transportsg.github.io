@@ -4692,8 +4692,8 @@ EDSData.TTSG = {
                 destination: "ENDS AT",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [
-                    "PLANTATION CRES",
-                    "BLK 111"
+                    "TENGAH BOULEVARD",
+                    "BLK 231B"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -5890,8 +5890,8 @@ EDSData.TTSG = {
                 destination: "ENDS AT",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [
-                    "PLANTATION CRES",
-                    "BLK 111"
+                    "TENGAH BOULEVARD",
+                    "BLK 132B"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -6464,7 +6464,7 @@ EDSData.TTSG = {
         1: {
             front: {
                 renderType: "message",
-                text: "~ TT Brown 04",
+                text: "~ TT Brown 0$",
                 font: "Hanover-Tower19:11",
                 spacing: 2
             },
@@ -6536,7 +6536,7 @@ EDSData.TTSG = {
         1: {
             front: {
                 renderType: "message",
-                text: "~ TT Green 04",
+                text: "~ TT Green 0$",
                 font: "Hanover-Tower19:11",
                 spacing: 2
             },
@@ -6577,6 +6577,22 @@ EDSData.TTSG = {
             rear: {
                 renderType: "message",
                 text: "TT02",
+                font: "Mobitec-10:7",
+                spacing: 2
+            }
+        }
+    },
+    5223: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "~  T T 2 4",
+                font: "Hanover-Tower19:11",
+                spacing: 2
+            },
+            rear: {
+                renderType: "message",
+                text: "TT24",
                 font: "Mobitec-10:7",
                 spacing: 2
             }
