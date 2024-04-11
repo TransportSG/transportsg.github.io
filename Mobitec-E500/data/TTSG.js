@@ -5304,6 +5304,27 @@ EDSData.TTSG = {
             image: "mrt"
         }
     },
+    8584: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "858B",
+            destination: "Ends At",
+            destFont: "Mobitec-7:5:3",
+            scrolls: [
+                "Jln Kayu",
+                "(Aft Seletar Camp G)",
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "858B",
+                    top: "JLN KAYU",
+                    topFont: "Mobitec-9:6",
+                    bottom: "CHANGI AIRPORT",
+                    bottomFont: "Mobitec-Tower6:4",
+                    image: "ChangiAirportControlTower"
+                }
+            ]
+        }
+    },
     8591: {
         front: {
             renderType: "standardService",
@@ -5539,6 +5560,18 @@ EDSData.TTSG = {
                     bottom: "( JURONG EAST STN )",
                     image: "mrt"
                 }
+            ]
+        }
+    },
+    8703: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "870A",
+            destination: "Ends At",
+            destFont: "Mobitec-7:5:3",
+            scrolls: [
+                "Tengah Boulevard",
+                "(Blk 231B)",
             ]
         }
     },
@@ -6421,7 +6454,7 @@ EDSData.TTSG = {
     9663: {
         front: {
             renderType: "standardService",
-            serviceNumber: "96A",
+            serviceNumber: "966A",
             destination: "Ends At",
             destFont: "Mobitec-7:5:3",
             scrolls: [
@@ -6901,6 +6934,129 @@ EDSData.TTSG = {
                     top: "BUKIT BATOK",
                     image: "mrt"
                 }
+            ]
+        }
+    },
+    9921: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "992",
+            destination: "TENGAH",
+            scrolls: [
+                "BUKIT BATOK WEST AVE 6",
+                "BUKIT BATOK WEST AVE 8",
+                "BUKIT BATOK RD",
+                "PLANTATION CRESCENT",
+                "TENGAH BOULEVARD",
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "992",
+                    top: "Welcome on board",
+                    topFont: "Hanover-7:3",
+                    bottom: "Tower Transit",
+                    bottomFont: "Hanover-7:3",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "992",
+                    top: "Have a pleasant",
+                    topFont: "Hanover-7:3",
+                    bottom: "journey!",
+                    bottomFont: "Hanover-7:3",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "992",
+                    top: "TENGAH",
+                }
+            ]
+        }
+    },
+    9921: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "992",
+            destination: "TENGAH",
+            scrolls: [
+                "BUKIT BATOK WEST AVE 6",
+                "BUKIT BATOK WEST AVE 8",
+                "BUKIT BATOK RD",
+                "PLANTATION CRESCENT",
+                "TENGAH BOULEVARD",
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "992",
+                    top: "Welcome on board",
+                    topFont: "Hanover-7:3",
+                    bottom: "Tower Transit",
+                    bottomFont: "Hanover-7:3",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "992",
+                    top: "Have a pleasant",
+                    topFont: "Hanover-7:3",
+                    bottom: "journey!",
+                    bottomFont: "Hanover-7:3",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "992",
+                    top: "TENGAH",
+                }
+            ]
+        }
+    },
+    9922: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "992",
+            destination: "BUKIT BATOK",
+            scrolls: [
+                "PLANTATION CRESCENT",
+                "BUKIT BATOK RD",
+                "BUKIT BATOK WEST AVE 8",
+                "BUKIT BATOK WEST AVE 6",
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "992",
+                    top: "Welcome on board",
+                    topFont: "Hanover-7:3",
+                    bottom: "Tower Transit",
+                    bottomFont: "Hanover-7:3",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "992",
+                    top: "Have a pleasant",
+                    topFont: "Hanover-7:3",
+                    bottom: "journey!",
+                    bottomFont: "Hanover-7:3",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "992",
+                    top: "BUKIT BATOK",
+                    image: "mrt"
+                }
+            ]
+        }
+    },
+    9923: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "992A",
+            destination: "Ends At",
+            destFont: "Mobitec-7:5:3",
+            scrolls: [
+                "Tengah Boulevard",
+                "(Blk 132B)",
             ]
         }
     },
