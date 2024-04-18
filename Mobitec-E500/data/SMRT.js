@@ -8729,6 +8729,28 @@ EDSData.SMRT = {
             bottomFont: "Mobitec-7:5:3"
         }
     },
+    1941: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "194",
+            destination: {
+                text: "BOON LAY",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "194",
+                    top: "BOON LAY",
+                    bottom: "INT / MRT",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
+                "JLN AHMAD IBRAHIM",
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
     3001: {
         front: {
             renderType: "standardService",
@@ -8940,6 +8962,64 @@ EDSData.SMRT = {
             topFont: "Mobitec-7:4",
             bottomFont: "Mobitec-7:4"
         },
+    },
+    4051: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "405",
+            destination: {
+                text: "BOON LAY",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "405",
+                    top: "BOON LAY",
+                    bottom: "INT / MRT",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
+                "JLN BOON LAY",
+                "JALAN BAHAR",
+                {
+                    text: "OLD CHOA CHU KANG RD",
+                    font: "Mobitec-7:4"
+                },
+                {
+                    text: "LIM CHU KANG RD (LOOP)",
+                    font: "Mobitec-7:4"
+                }
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    4059: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "405M",
+            destination: {
+                text: "BOON LAY",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "405M",
+                    top: "BOON LAY",
+                    bottom: "INT / MRT",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
+                "JLN BOON LAY",
+                "JALAN BAHAR",
+                {
+                    text: "OLD C.C.K RD (LOOP)",
+                    font: "Mobitec-7:5:3"
+                },
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
     },
     6011: {
         front: {
@@ -12058,6 +12138,68 @@ EDSData.SMRT = {
                 "HUME AVE (LOOP)"
             ],
             scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    9741: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "974",
+            destination: {
+                text: "BUKIT PANJANG",
+                font: "Mobitec-7:5:3"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "974",
+                    top: "BOON LAY",
+                    bottom: "MRT / LRT",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
+                "UPPER JURONG ROAD",
+                "JURONG WEST ST 63",
+                "JALAN BOON LAY",
+                "CHOA CHU KANG MRT",
+                "CHOA CHU KANG WAY",
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    9742: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "974",
+            destination: {
+                text: "JOO KOON",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "974",
+                    top: "JOO KOON",
+                    bottom: "INT / MRT",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
+                "CHOA CHU KANG WAY",
+                "CHOA CHU KANG MRT",
+                "JALAN BOON LAY",
+                "JURONG WEST ST 63",
+                "UPPER JURONG ROAD",
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    9743: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "974A",
+            top: "ENDS AT LOT 1 / ",
+            bottom: "CHOA CHU KANG STN",
+            topFont: "Mobitec-7:5:3",
+            bottomFont: "Mobitec-7:5:3"
         }
     },
     9751: {

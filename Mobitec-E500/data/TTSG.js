@@ -1773,6 +1773,16 @@ EDSData.TTSG = {
             ]
         }
     },
+    1063: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "106A",
+            top: "Ends At",
+            topFont: "Mobitec-7:5:3",
+            bottom: "Clementi Stn Exit B",
+            bottomFont: "Mobitec-Tower6:4",
+        }
+    },
     1068: {
         front: {
             renderType: "standardService",
@@ -5301,7 +5311,6 @@ EDSData.TTSG = {
             topFont: "Mobitec-7:5:3",
             bottom: "Opp Yishun Stn",
             bottomFont: "Mobitec-Tower6:4",
-            image: "mrt"
         }
     },
     8584: {
@@ -5985,7 +5994,7 @@ EDSData.TTSG = {
                 "BUKIT PANJANG RD",
                 "HILLVIEW AVE",
                 "BT BATOK EAST AVE 4",
-                "AYE",
+                "A Y E",
                 "ALEXANDRA RD",
                 {
                     renderType: "destScroll",
@@ -6021,7 +6030,7 @@ EDSData.TTSG = {
             destination: "WOODLANDS",
             scrolls: [
                 "ALEXANDRA RD",
-                "AYE",
+                "A Y E",
                 "BT BATOK EAST AVE 4",
                 "HILLVIEW AVE",
                 "BT PANJANG RD",,
@@ -6628,16 +6637,18 @@ EDSData.TTSG = {
     },
     9743: {
         front: {
-            renderType: "destScroll",
+            renderType: "standardService",
             serviceNumber: "974A",
-            top: "ENDS AT",
-            topFont: "Mobitec-7:7",
-            bottom: "LOT 1 SHOPPERS MALL",
-            bottomFont: "Hanover-6:3",
-            image: "mrt"
+            destination: "Ends At",
+            destFont: "Mobitec-7:5:3",
+            scrolls: [
+                "Choa Chu Kang Ave 4",
+                "(Choa Chu Kang Stn)",
+                "(Lot 1 Shopper's Mall)",
+            ]
         }
     },
-    9748: {
+    9747: {
         front: {
             renderType: "StandardServiceOldFont",
             serviceNumber: "974",
@@ -6675,7 +6686,7 @@ EDSData.TTSG = {
             ]
         }
     },
-    9749: {
+    9748: {
         front: {
             renderType: "StandardServiceOldFont",
             serviceNumber: "974",
@@ -6711,6 +6722,18 @@ EDSData.TTSG = {
                     image: "mrt"
                 }
             ]
+        }
+    },
+    9749: {
+        front: {
+            renderType: "destScrollOldFont",
+            serviceNumber: "974A",
+            serviceFont: "TTS-16:8",
+            top: "ENDS AT",
+            topFont: "Mobitec-7:7",
+            bottom: "LOT 1 SHOPPERS MALL",
+            bottomFont: "Hanover-6:3",
+            image: "mrt"
         }
     },
     9801: {
@@ -7076,8 +7099,8 @@ EDSExtras.TTSG = {
     1: {
         front: {
             renderType: "message",
-            font: "Hanover-14:6",
-            text: "Last  Bus",
+            font: "Mobitec-13:8",
+            text: "Last Bus",
             spacing: 2
         }
     },
@@ -7092,8 +7115,8 @@ EDSExtras.TTSG = {
     3: {
         front: {
             renderType: "message",
-            font: "Hanover-14:6",
-            text: "Bus  Full",
+            font: "Mobitec-13:8",
+            text: "Bus Full",
             spacing: 2
         },
     },

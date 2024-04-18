@@ -112,7 +112,15 @@ EDSData.GASG = {
                     top: "Kampong Bahru",
                     topFont: "Mobitec-13:8"
                 },
-                "LOYANG AVE"
+                "LOYANG AVE / WAY",
+                "UPPER CHANGI RD / MRT",
+                "TANAH MERAH MRT",
+                "BEDOK MRT",
+                "GEYLANG RD",
+                "LAVENDER MRT",
+                "VICTORIA ST / BUGIS",
+                "CLARKE QUAY",
+                "CHINATOWN",
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -132,7 +140,16 @@ EDSData.GASG = {
                     top: "Changi Village",
                     topFont: "Mobitec-13:8"
                 },
-                "LOYANG AVE"
+                "CHINATOWN",
+                "CLARKE QUAY",
+                "BUGIS / VICTORIA ST",
+                "LAVENDER MRT",
+                "KALLANG MRT",
+                "NEW UPPER CHANGI RD",
+                "BEDOK MRT",
+                "TANAH MERAH MRT",
+                "UPPER CHANGI MRT / RD",                
+                "LOYANG WAY / AVE",
             ],
             scrollFont: "Mobitec-7:4"
         }
