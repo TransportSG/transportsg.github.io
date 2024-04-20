@@ -1531,7 +1531,7 @@ EDSData.TTSG = {
                 renderType: "rearService",
                 serviceNumber: "N1",
                 font: "LECIP-19:TowerB9Front",
-                spacing: 1
+                spacing: 2
             }
         }
     },
@@ -1563,7 +1563,7 @@ EDSData.TTSG = {
                 renderType: "rearService",
                 serviceNumber: "N2",
                 font: "LECIP-19:TowerB9Front",
-                spacing: 1
+                spacing: 2
             }
         }
     },
@@ -5197,7 +5197,7 @@ EDSData.TTSG = {
                 renderType: "standardService",
                 serviceNumber: "963R",
                 destination: "RESORTS WORLD SENTOSA",
-                destinationFont: "Mobitec-Tower9:4",
+                destinationFont: "Mobitec-Tower11:4",
                 scrolls: [                    
                     "WOODLANDS AVE 3",
                     "BUKIT PANJANG RD",
@@ -6022,11 +6022,11 @@ EDSData.TTSG = {
             },
             rear: {
                 renderType: 'twolinerear',
-                top: "SPARE",
-                topFont: "LECIP-7:4", // check font
+                top: "Spare",
+                topFont: "Hanover-7:5", 
 
-                bottom: "BUS",
-                bottomFont: "LECIP-7:4"
+                bottom: "Bus",
+                bottomFont: "Hanover-7:5"
             }
         }
     },
@@ -6050,11 +6050,11 @@ EDSData.TTSG = {
             },
             rear: {
                 renderType: 'twolinerear',
-                top: "ON",
-                topFont: "LECIP-7:4", // check font
+                top: "On",
+                topFont: "Hanover-7:5", // check font
 
-                bottom: "TEST",
-                bottomFont: "LECIP-7:4"
+                bottom: "Test",
+                bottomFont: "Hanover-7:5"
             }
         }
     },
@@ -6582,6 +6582,342 @@ EDSData.TTSG = {
             }
         }
     },
+    5202: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "~  T T 0 3",
+                font: "Hanover-Tower19:11",
+                spacing: 2
+            },
+            rear: {
+                renderType: "message",
+                text: "TT03",
+                font: "Mobitec-10:7",
+                spacing: 2
+            }
+        }
+    },
+    5203: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "~  T T 0 4",
+                font: "Hanover-Tower19:11",
+                spacing: 2
+            },
+            rear: {
+                renderType: "message",
+                text: "TT04",
+                font: "Mobitec-10:7",
+                spacing: 2
+            }
+        }
+    },
+    5204: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "~  T T 0 5",
+                font: "Hanover-Tower19:11",
+                spacing: 2
+            },
+            rear: {
+                renderType: "message",
+                text: "TT05",
+                font: "Mobitec-10:7",
+                spacing: 2
+            }
+        }
+    },
+    5205: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "~  T T 0 6",
+                font: "Hanover-Tower19:11",
+                spacing: 2
+            },
+            rear: {
+                renderType: "message",
+                text: "TT06",
+                font: "Mobitec-10:7",
+                spacing: 2
+            }
+        }
+    },
+    5206: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "~  T T 0 7",
+                font: "Hanover-Tower19:11",
+                spacing: 2
+            },
+            rear: {
+                renderType: "message",
+                text: "TT07",
+                font: "Mobitec-10:7",
+                spacing: 2
+            }
+        }
+    },
+    5207: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "~  T T 0 8",
+                font: "Hanover-Tower19:11",
+                spacing: 2
+            },
+            rear: {
+                renderType: "message",
+                text: "TT08",
+                font: "Mobitec-10:7",
+                spacing: 2
+            }
+        }
+    },
+    5208: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "~  T T 0 9",
+                font: "Hanover-Tower19:11",
+                spacing: 2
+            },
+            rear: {
+                renderType: "message",
+                text: "TT09",
+                font: "Mobitec-10:7",
+                spacing: 2
+            }
+        }
+    },
+    5209: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "~  T T 1 0",
+                font: "Hanover-Tower19:11",
+                spacing: 2
+            },
+            rear: {
+                renderType: "message",
+                text: "TT10",
+                font: "Mobitec-10:7",
+                spacing: 2
+            }
+        }
+    },
+    5210: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "~  T T 1 1",
+                font: "Hanover-Tower19:11",
+                spacing: 2
+            },
+            rear: {
+                renderType: "message",
+                text: "TT11",
+                font: "Mobitec-10:7",
+                spacing: 2
+            }
+        }
+    },
+    5211: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "~  T T 1 2",
+                font: "Hanover-Tower19:11",
+                spacing: 2
+            },
+            rear: {
+                renderType: "message",
+                text: "TT12",
+                font: "Mobitec-10:7",
+                spacing: 2
+            }
+        }
+    },
+    5212: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "~  T T 1 3",
+                font: "Hanover-Tower19:11",
+                spacing: 2
+            },
+            rear: {
+                renderType: "message",
+                text: "TT13",
+                font: "Mobitec-10:7",
+                spacing: 2
+            }
+        }
+    },
+    5213: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "~  T T 1 4",
+                font: "Hanover-Tower19:11",
+                spacing: 2
+            },
+            rear: {
+                renderType: "message",
+                text: "TT14",
+                font: "Mobitec-10:7",
+                spacing: 2
+            }
+        }
+    },
+    5214: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "~  T T 1 5",
+                font: "Hanover-Tower19:11",
+                spacing: 2
+            },
+            rear: {
+                renderType: "message",
+                text: "TT15",
+                font: "Mobitec-10:7",
+                spacing: 2
+            }
+        }
+    },
+    5215: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "~  T T 1 6",
+                font: "Hanover-Tower19:11",
+                spacing: 2
+            },
+            rear: {
+                renderType: "message",
+                text: "TT16",
+                font: "Mobitec-10:7",
+                spacing: 2
+            }
+        }
+    },
+    5216: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "~  T T 1 7",
+                font: "Hanover-Tower19:11",
+                spacing: 2
+            },
+            rear: {
+                renderType: "message",
+                text: "TT17",
+                font: "Mobitec-10:7",
+                spacing: 2
+            }
+        }
+    },
+    5217: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "~  T T 1 8",
+                font: "Hanover-Tower19:11",
+                spacing: 2
+            },
+            rear: {
+                renderType: "message",
+                text: "TT18",
+                font: "Mobitec-10:7",
+                spacing: 2
+            }
+        }
+    },
+    5218: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "~  T T 1 9",
+                font: "Hanover-Tower19:11",
+                spacing: 2
+            },
+            rear: {
+                renderType: "message",
+                text: "TT19",
+                font: "Mobitec-10:7",
+                spacing: 2
+            }
+        }
+    },
+    5219: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "~  T T 2 0",
+                font: "Hanover-Tower19:11",
+                spacing: 2
+            },
+            rear: {
+                renderType: "message",
+                text: "TT20",
+                font: "Mobitec-10:7",
+                spacing: 2
+            }
+        }
+    },
+    5220: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "~  T T 2 1",
+                font: "Hanover-Tower19:11",
+                spacing: 2
+            },
+            rear: {
+                renderType: "message",
+                text: "TT21",
+                font: "Mobitec-10:7",
+                spacing: 2
+            }
+        }
+    },
+    5221: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "~  T T 2 2",
+                font: "Hanover-Tower19:11",
+                spacing: 2
+            },
+            rear: {
+                renderType: "message",
+                text: "TT22",
+                font: "Mobitec-10:7",
+                spacing: 2
+            }
+        }
+    },
+    5222: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "~  T T 2 3",
+                font: "Hanover-Tower19:11",
+                spacing: 2
+            },
+            rear: {
+                renderType: "message",
+                text: "TT23",
+                font: "Mobitec-10:7",
+                spacing: 2
+            }
+        }
+    },
     5223: {
         1: {
             front: {
@@ -6614,6 +6950,22 @@ EDSData.TTSG = {
             }
         }
     },
+    5225: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "~  T T 2 6",
+                font: "Hanover-Tower19:11",
+                spacing: 2
+            },
+            rear: {
+                renderType: "message",
+                text: "TT26",
+                font: "Mobitec-10:7",
+                spacing: 2
+            }
+        }
+    },
     5300: {
         1: {
             front: {
@@ -6625,6 +6977,134 @@ EDSData.TTSG = {
             rear: {
                 renderType: "message",
                 text: "b1",
+                font: "LECIP-19:TowerB9Front",
+                spacing: 2
+            }
+        }
+    },
+    5301: {
+        1: {
+            front: {
+                renderType: "centreMessageServiceScroll2",
+                serviceNumber: "b2",
+                top: "~ Crew  Bus ",
+                topFont: "Hanover-Tower19:11",
+            },
+            rear: {
+                renderType: "message",
+                text: "b2",
+                font: "LECIP-19:TowerB9Front",
+                spacing: 2
+            }
+        }
+    },
+    5302: {
+        1: {
+            front: {
+                renderType: "centreMessageServiceScroll2",
+                serviceNumber: "b3",
+                top: "~ Crew  Bus ",
+                topFont: "Hanover-Tower19:11",
+            },
+            rear: {
+                renderType: "message",
+                text: "b3",
+                font: "LECIP-19:TowerB9Front",
+                spacing: 2
+            }
+        }
+    },
+    5303: {
+        1: {
+            front: {
+                renderType: "centreMessageServiceScroll2",
+                serviceNumber: "b4",
+                top: "~ Crew  Bus ",
+                topFont: "Hanover-Tower19:11",
+            },
+            rear: {
+                renderType: "message",
+                text: "b4",
+                font: "LECIP-19:TowerB9Front",
+                spacing: 2
+            }
+        }
+    },
+    5304: {
+        1: {
+            front: {
+                renderType: "centreMessageServiceScroll2",
+                serviceNumber: "b5",
+                top: "~ Crew  Bus ",
+                topFont: "Hanover-Tower19:11",
+            },
+            rear: {
+                renderType: "message",
+                text: "b5",
+                font: "LECIP-19:TowerB9Front",
+                spacing: 2
+            }
+        }
+    },
+    5305: {
+        1: {
+            front: {
+                renderType: "centreMessageServiceScroll2",
+                serviceNumber: "b6",
+                top: "~ Crew  Bus ",
+                topFont: "Hanover-Tower19:11",
+            },
+            rear: {
+                renderType: "message",
+                text: "b6",
+                font: "LECIP-19:TowerB9Front",
+                spacing: 2
+            }
+        }
+    },
+    5306: {
+        1: {
+            front: {
+                renderType: "centreMessageServiceScroll2",
+                serviceNumber: "b7",
+                top: "~ Crew  Bus ",
+                topFont: "Hanover-Tower19:11",
+            },
+            rear: {
+                renderType: "message",
+                text: "b7",
+                font: "LECIP-19:TowerB9Front",
+                spacing: 2
+            }
+        }
+    },
+    5307: {
+        1: {
+            front: {
+                renderType: "centreMessageServiceScroll2",
+                serviceNumber: "b8",
+                top: "~ Crew  Bus ",
+                topFont: "Hanover-Tower19:11",
+            },
+            rear: {
+                renderType: "message",
+                text: "b8",
+                font: "LECIP-19:TowerB9Front",
+                spacing: 2
+            }
+        }
+    },
+    5308: {
+        1: {
+            front: {
+                renderType: "centreMessageServiceScroll2",
+                serviceNumber: "b9",
+                top: "~ Crew  Bus ",
+                topFont: "Hanover-Tower19:11",
+            },
+            rear: {
+                renderType: "message",
+                text: "b9",
                 font: "LECIP-19:TowerB9Front",
                 spacing: 2
             }
@@ -6644,12 +7124,12 @@ EDSData.TTSG = {
             },
             rear: { 
                 renderType: "twolinerear",
-                top: "BULIM",
-                topFont: "LECIP-7:5",
+                top: "Bulim -",
+                topFont: "Hanover-7:5",
                 topSpacing: 1,
 
-                bottom: "DEPOT",
-                bottomFont: "LECIP-7:5",
+                bottom: "Hotel",
+                bottomFont: "Hanover-7:5",
                 bottomSpacing: 1,
             }
         }
@@ -6668,12 +7148,12 @@ EDSData.TTSG = {
             },
             rear: { 
                 renderType: "twolinerear",
-                top: "MANDAI",
-                topFont: "LECIP-7:5",
+                top: "Mandai -",
+                topFont: "Hanover-7:3",
                 topSpacing: 1,
 
-                bottom: "DEPOT",
-                bottomFont: "LECIP-7:5",
+                bottom: "Hotel",
+                bottomFont: "Hanover-7:3",
                 bottomSpacing: 1,
             }
         }
@@ -6692,12 +7172,12 @@ EDSData.TTSG = {
             },
             rear: { 
                 renderType: "twolinerear",
-                top: "HOTEL",
-                topFont: "LECIP-7:5",
+                top: "Hotel",
+                topFont: "Hanover-7:5",
                 topSpacing: 1,
 
-                bottom: "FERRY",
-                bottomFont: "LECIP-7:5",
+                bottom: "Ferry",
+                bottomFont: "Hanover-7:5",
                 bottomSpacing: 1,
             }
         }
@@ -6711,12 +7191,12 @@ EDSData.TTSG = {
                 spacing: 2
             },
             rear: {
-                renderType: 'twoline',
-                top: "TRAINING",
-                topFont: "LECIP-7:4", // check font
+                renderType: 'twolinerear',
+                top: "Training",
+                topFont: "Hanover-7:3",
 
-                bottom: "BUS",
-                bottomFont: "LECIP-7:4"
+                bottom: "Bus",
+                bottomFont: "Hanover-7:3"
             }
         }
     },
@@ -6734,12 +7214,12 @@ EDSData.TTSG = {
             },
             rear: { 
                 renderType: "twolinerear",
-                top: "BULIM",
-                topFont: "LECIP-7:5",
+                top: "Bulim",
+                topFont: "Hanover-7:5",
                 topSpacing: 1,
 
-                bottom: "DEPOT",
-                bottomFont: "LECIP-7:5",
+                bottom: "Depot",
+                bottomFont: "Hanover-7:5",
                 bottomSpacing: 1,
             }
         }
@@ -6758,12 +7238,12 @@ EDSData.TTSG = {
             },
             rear: { 
                 renderType: "twolinerear",
-                top: "MANDAI",
-                topFont: "LECIP-7:5",
+                top: "Mandai",
+                topFont: "Hanover-7:5",
                 topSpacing: 1,
 
-                bottom: "DEPOT",
-                bottomFont: "LECIP-7:5",
+                bottom: "Depot",
+                bottomFont: "Hanover-7:5",
                 bottomSpacing: 1,
             }
         }
@@ -6957,11 +7437,11 @@ EDSData.TTSG = {
             },
             rear: {
                 renderType: 'twolinerear',
-                top: "UNDER",
-                topFont: "LECIP-7:4", // check font
+                top: "Under",
+                topFont: "Hanover-7:5", 
 
-                bottom: "REPAIR",
-                bottomFont: "LECIP-7:4"
+                bottom: "Repair",
+                bottomFont: "Hanover-7:5"
             }
         }
     }

@@ -12152,7 +12152,7 @@ EDSData.SMRT = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "974",
-                    top: "BOON LAY",
+                    top: "BUKIT PANJANG",
                     bottom: "MRT / LRT",
                     topFont: "Mobitec-7:7",
                     bottomFont: "Mobitec-7:7"
