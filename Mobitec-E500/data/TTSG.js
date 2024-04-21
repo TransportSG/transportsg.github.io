@@ -624,6 +624,42 @@ EDSData.TTSG = {
             ]
         }
     },
+    500: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "0500",
+            destination: "PULAU TEKONG",
+            scrolls: [
+                "JURONG TOWN HALL RD",
+                "P I E",
+                "UPP CHANGI RD NORTH",
+                "LOYANG AVE",
+                "SAF FERRY TERMINAL",
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "0500",
+                    top: "Welcome on board",
+                    topFont: "Hanover-7:3",
+                    bottom: "Tower Transit",
+                    bottomFont: "Hanover-7:3",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "0500",
+                    top: "Singapore's First",
+                    topFont: "Hanover-7:3",
+                    bottom: "amphibious bus route!",
+                    bottomFont: "Hanover-7:3",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "0500",
+                    top: "PULAU TEKONG",
+                }
+            ]
+        }
+    },
     501: {
         front: { //NEW ADL LOGO
                 renderType: "destScroll",
@@ -1630,10 +1666,10 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "98M",
-                    top: " ",
-                    topFont: "Hanover-7:3",
-                    bottom: " ",
-                    bottomFont: "Hanover-7:3",
+                    top: "SKIPS JURONG ISLAND",
+                    topFont: "Mobitec-Tower6:4",
+                    bottom: "& JURONG PORT RD",
+                    bottomFont: "Mobitec-Tower6:4",
                 },
                 {
                     renderType: "destScroll",

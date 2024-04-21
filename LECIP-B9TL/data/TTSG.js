@@ -2827,6 +2827,46 @@ EDSData.TTSG = {
             }
         }
     },
+    "500": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "0500",
+                destination: "PULAU TEKONG",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [
+                    "JURONG TOWN HALL RD",
+                    "P I E",
+                    "UPP CHANGI RD NORTH",
+                    "LOYANG AVE",
+                    "SAF FERRY TERMINAL",
+                    {
+                        renderType: "destScroll",
+                        top: "PULAU TEKONG",
+                        topFont: "Hanover-Tower12:7",
+            
+                        serviceNumber: "0500"
+                    },
+                    {
+                        renderType: "centreMessageServiceScroll",
+                        top: "Singapore's First",
+                        topFont: "Hanover-7:5",
+                        bottom: "amphibious bus route!",
+                        bottomFont: "Hanover-7:5",
+            
+                        serviceNumber: "0500"
+                    },
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "0500",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
     521: {
         1: {
             front: {
