@@ -6012,12 +6012,12 @@ EDSData.TTSG = {
                 spacing: 1
             },
             rear: {
-                renderType: 'twoline',
+                renderType: 'twolinerear',
                 top: "~",
-                topFont: "LECIP-7:4",
+                topFont: "SGBusLogo-Mobitec",
 
                 bottom: "~",
-                bottomFont: "LECIP-7:4"
+                bottomFont: "SGBusLogo-Mobitec"
             }
         }
     },
@@ -7348,6 +7348,24 @@ EDSData.TTSG = {
                 text: "~",
                 font: "Hanover-Tower19:11",
                 spacing: 1
+            }
+        }
+    },
+    7777: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "LECIP 220$2$",
+                font: "Hanover-Tower19:11",
+                spacing: 1
+            },
+            rear: {
+                renderType: 'twolinerear',
+                top: "LECIP",
+                topFont: "Hanover-7:3", 
+
+                bottom: "220424",
+                bottomFont: "Hanover-7:3"
             }
         }
     },
