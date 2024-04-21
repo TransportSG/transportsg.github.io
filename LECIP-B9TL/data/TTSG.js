@@ -4473,7 +4473,16 @@ EDSData.TTSG = {
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [
                     "JALAN KAYU",
-                    "AFT SELETAR CAMP G"
+                    "AFT SELETAR CAMP G",
+                    {
+                        renderType: "destScroll",
+                        top: "JALAN KAYU",
+                        topFont: "Hanover-Tower11:7",
+                        bottom: "CHANGI AIRPORT",
+                        bottomFont: "LECIP-7:5",
+            
+                        serviceNumber: "858B"
+                    },
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -4519,7 +4528,7 @@ EDSData.TTSG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "859",
-                destination: "YISHUN",
+                destination: "SEMBAWANG",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [                    
                     "YISHUN AVE 5",
@@ -5440,7 +5449,7 @@ EDSData.TTSG = {
         2: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "969",
+                serviceNumber: "966",
                 destination: "WOODLANDS",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [                    
