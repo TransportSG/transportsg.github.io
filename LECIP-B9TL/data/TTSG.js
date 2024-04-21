@@ -4372,7 +4372,7 @@ EDSData.TTSG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "858",
-                destination: "CHNGI AIRPORT",
+                destination: "CHANGI AIRPORT",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [                    
                     "WOODLANDS AVE 9",
