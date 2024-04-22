@@ -187,11 +187,11 @@ EDSData.GASG = {
                 renderType: "standardService",
                 serviceNumber: "2",
                 destination: "KAMPONG BAHRU",
-                destinationFont: "LECIP-10",
+                destinationFont: "Hanover-10",
                 scrolls: [{
                     renderType: "destScroll",
                     top: "KAMPONG BAHRU",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-10",
         
                     serviceNumber: "2"
                 },
@@ -484,17 +484,18 @@ EDSData.GASG = {
         
                     serviceNumber: "12"
                 },
-                    "CHINATOWN / CLARKE QUAY MRT",
-                    "VICTORIA ST / BUGIS",
-                    "LAVENDER / KALLANG MRT",
-                    "MOUNTBATTEN RD / MRT",
-                    "EAST COAST RD",
-                    "BEDOK SOUTH RD",
-                    "TANAH MERAH MRT",
-                    "SIMEI RD",
-                    "TAMPINES EAST MRT",
-                    "PASIR RIS ST 12 / 13",
-                    "PASIR RIS DR 1 / 6 / 3"
+                "CHINATOWN", 
+                "CLARKE QUAY MRT",
+                "HILL ST / VICTORIA ST",
+                "BUGIS / LAVENDER MRT",
+                "KALLANG MRT",
+                "MOUNTBATTEN MRT",
+                "EAST COAST RD",
+                "BEDOK SOUTH RD",
+                "TANAH MERAH MRT",
+                "SIMEI RD",
+                "TAMPINES EAST MRT",
+                "PASIR RIS DR 1 / 6 / 3"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -1336,11 +1337,11 @@ EDSData.GASG = {
                 renderType: "standardService",
                 serviceNumber: "68",
                 destination: "TAMPINES",
-                destinationFont: "LECIP-10",
+                destinationFont: "Hanover-10",
                 scrolls: [{
                     renderType: "destScroll",
                     top: "TAMPINES",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-10",
         
                     serviceNumber: "68"
                 },
@@ -1366,11 +1367,11 @@ EDSData.GASG = {
                 renderType: "standardService",
                 serviceNumber: "68",
                 destination: "PASIR RIS",
-                destinationFont: "LECIP-10",
+                destinationFont: "Hanover-10",
                 scrolls: [{
                     renderType: "destScroll",
                     top: "PASIR RIS",
-                    topFont: "LECIP-10",
+                    topFont: "Hanover-10",
         
                     serviceNumber: "68"
                 },
@@ -2291,13 +2292,12 @@ EDSData.GASG = {
                     serviceNumber: "518"
                 },
                     "PASIR RIS DR 3 / 12",
-                    "PASIR RIS ST 12 / 11",
-                    "TAMPINES AVE 7 / 2 / 1",
+                    "TAMPINES AVE 7",
+                    "TAMPINES AVE 2 / 1",
                     "BEDOK NORTH MRT",
-                    "MOULMEIN RD",
                     "NEWTON MRT",
-                    "ORCHARD / SUNTEC CITY",
-                    "MARINA BAY SANDS"
+                    "ORCHARD RD", 
+                    "SUNTEC CITY",
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -2321,7 +2321,14 @@ EDSData.GASG = {
         
                     serviceNumber: "518"
                 },
-                    "ORCHARD RD"
+                    "ORCHARD RD",
+                    "SUNTEC CITY",
+                    "MARINA BAY SANDS",
+                    "BEDOK NORTH MRT",
+                    "TAMPINES WEST MRT",
+                    "TAMPINES AVE 1 / 2",
+                    "TAMPINES EAST MRT",
+                    "PASIR RIS DR 1 / 3"
                 ],
                 scrollFont: "LECIP-7:5"
             },
