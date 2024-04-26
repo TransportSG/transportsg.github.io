@@ -344,6 +344,35 @@ EDSData.GASG = {
             scrollFont: "Mobitec-7:4"
         }
     },
+    153: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "15A",
+            destination: {
+                text: "JLN EUNOS",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "15A",
+                    top: "TERMINATING AT",
+                    bottom: "JLN EUNOS",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "15A",
+                    top: "TERMINATING AT",
+                    bottom: "OPP EUNOS MRT",
+                },
+                "PASIR RIS ST 52",
+                "TAMPINES AVE 4 / 5",
+                "TAMPINES AVE 1",
+                "KAKI BUKIT AVE 1",
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
     171: {
         front: {
             renderType: "standardService",
@@ -396,6 +425,33 @@ EDSData.GASG = {
             scrollFont: "Mobitec-7:4"
         }
     },
+    173: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "17A",
+            destination: {
+                text: "BEDOK NORTH AVE 4",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "17A",
+                    top: "TERMINATING AT",
+                    bottom: "BEDOK NORTH AVE 4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "17A",
+                    top: "TERMINATING AT",
+                    bottom: "SBST BDK NTH DEPOT",
+                },
+                "BEDOK NORTH AVE 1",
+                "BEDOK NORTH RD",
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
     341: {
         front: {
             renderType: "standardService",
@@ -438,6 +494,64 @@ EDSData.GASG = {
                 "TAMPINES AVE 2 / 5 / 10",
                 "TAMPINES EXPRESSWAY",
                 "PUNGGOL RD"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    343: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "34A",
+            destination: {
+                text: "TAMPINES AVE 5",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "34A",
+                    top: "TERMINATING AT",
+                    bottom: "TAMPINES AVE 5",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "34A",
+                    top: "TERMINATING AT",
+                    bottom: "OPP OUR TAMPINES HUB",
+                    bottomFont: "Mobitec-7:4",
+                },
+                "PUNGGOL RD",
+                "TPE",
+                "TAMPINES AVE 10",
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    344: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "34B",
+            destination: {
+                text: "TAMPINES AVE 10",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "34B",
+                    top: "TERMINATING AT",
+                    bottom: "TAMPINES AVE 10",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "34B",
+                    top: "TERMINATING AT",
+                    bottom: "TAMPIINES WATER FAB PK",
+                    bottomFont: "Mobitec-7:4",
+                },
+                "TAMPINES AVE 5 / 2 / 7",
+                "CHANGI AIRPORT",
+                "TAMPINES AVE 7 / 2 / 5",
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -487,6 +601,86 @@ EDSData.GASG = {
                 "SUNTEC CITY",
                 "MARINE PARADE RD",
                 "SIGLAP RD / LINK"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    363: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "36A",
+            destination: {
+                text: "TOMLINSON RD",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "36A",
+                    top: "TERMINATING AT",
+                    bottom: "TOMLINSON RD",
+                },
+                "MARINE PARADE",
+                "SUNTEC CITY",
+                "STAMFORD RD",
+                "PENANG RD",
+                "SOMERSET RD",
+                "ORCHARD BOULEVARD",
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    364: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "36B",
+            destination: {
+                text: "SIGLAP RD",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "36B",
+                    top: "TERMINATING AT",
+                    bottom: "SIGLAP RD",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "36B",
+                    top: "TERMINATING AT",
+                    bottom: "OPP MANDARIN GDNS",
+                },
+                "MARINE PARADE",
+                "SUNTEC CITY",
+                "STAMFORD RD",
+                "PENANG RD",
+                "SOMERSET RD",
+                "ORCHARD BOULEVARD",
+                "TOMLINSON RD",
+                "ORCHARD RD",
+                "SUNTEC CITY",
+                "MARINE PARADE RD"  
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    365: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "36T",
+            destination: {
+                text: "CHANGI AIRPORT T2",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "36T",
+                    top: "TERMINATING AT",
+                    bottom: "CHANGI AIRPORT T2",
+                },
+
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -545,6 +739,32 @@ EDSData.GASG = {
                 "UPPER SERANGOON RD",
                 "SENGKANG EAST DR",
                 "PUNGGOL EAST / FIELD",
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    623: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "62A",
+            destination: {
+                text: "ALJUNIED MRT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "62A",
+                    top: "TERMINATING AT",
+                    bottom: "ALJUNIED MRT",
+                },
+                "PUNGGOL FIELD",
+                "SENGKANG EAST DR",
+                "HOUGANG AVE 8 / 6 / 10",
+                "HOUGANG AVE 3 / 1",
+                "LORONG AH SOO",
+                "UPPER PAYA LEBAR RD",
+                "MACPHERSON RD",
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -910,6 +1130,42 @@ EDSData.GASG = {
                 "TAMPINES AVE 1 / 2",
                 "TAMPINES AVE 7",
                 "PASIR RIS DR 1 / 3"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    5183: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "518A",
+            destination: {
+                text: "BAYFRONT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "518A",
+                    top: "ENDS AT",
+                    topFont: "Mobitec-7:4",
+                    bottom: "BAYFRONT",
+                    bottomFont: "Mobitec-7:4",
+                    image: "express",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "518A",
+                    top: "SKIPS",
+                    topFont: "Mobitec-7:4",
+                    bottom: "TAMPINES",
+                    bottomFont: "Mobitec-7:4",
+                    image: "express",
+                },
+                "PASIR RIS DR 3 / 1",
+                "LOYANG AVE",
+                "NEWTON MRT",
+                "ORCHARD RD",
+                "SUNTEC CITY",
             ],
             scrollFont: "Mobitec-7:4"
         }
