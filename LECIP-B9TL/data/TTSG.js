@@ -88,6 +88,67 @@ EDSFormats.TTSG = {
 
         text: "$text"
     },
+    TowerSpecialEDS: {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 1
+            },
+            text: "$serviceNumber",
+            font: "LECIP-19:TowerB9Front",
+            spacing: 2
+        },
+        top: {
+            align: {
+                $$cond: {
+                    "$bottom === null": "centre-x,centre-y",
+                    "else": "centre-x,top"
+                }
+            },
+            text: "$top",
+            font: {
+                $$cond: {
+                    "$topFont === null": "Mobitec-9:6",
+                    "else": "$topFont"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber) - width(image)'
+            }
+        },
+        bottom: {
+            align: "centre-x,bottom",
+            text: {
+                $$cond: {
+                    "$bottom !== null": "$bottom",
+                    "else": "''"
+                }
+            },
+            font: {
+                $$cond: {
+                    "$bottomFont === null": "HMobitec-9:6",
+                    "else": "$bottomFont"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber) - width(image)'
+            }
+        },
+        image: {
+            align: "left",
+            image: {
+                $$cond: {
+                    "$image !== null": "$image",
+                    "else": "blank"
+                }
+            }
+        },
+
+        text: "$text"
+        
+    },
     twolinerear: {
         top: {
             align: "centre-x,top",
@@ -3936,7 +3997,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "853M",
-                font: "LECIP-TowerRear17:10",
+                font: "LECIP-TowerRear17:7",
                 spacing: 1
             }
         }
@@ -6050,6 +6111,27 @@ EDSData.TTSG = {
                 text: "SGUS",
                 font: "SGBusLogo-Mobitec",
                 spacing: 1
+            },
+            rear: {
+                renderType: 'twolinerear',
+                top: "~",
+                topFont: "SGBusLogo-Mobitec",
+
+                bottom: "~",
+                bottomFont: "SGBusLogo-Mobitec"
+            }
+        }
+    },
+    1113: {
+        1: {
+            front: {
+                renderType: "TowerSpecialEDS",
+                serviceNumber: "",
+                top: "SGUS",
+                topFont: "SGBusLogo-Mobitec",
+                bottom: "",
+                bottomFont: " ",
+                text: "SG🎔Bus Logo"
             },
             rear: {
                 renderType: 'twolinerear',

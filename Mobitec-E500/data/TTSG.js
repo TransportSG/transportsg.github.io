@@ -201,6 +201,67 @@ EDSFormats.TTSG = {
 
         text: "$text"
     },
+    TowerSpecialEDS: {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 1
+            },
+            text: "$serviceNumber",
+            font: "Mobitec-Tower16:10",
+            spacing: 2
+        },
+        top: {
+            align: {
+                $$cond: {
+                    "$bottom === null": "centre-x,centre-y",
+                    "else": "centre-x,top"
+                }
+            },
+            text: "$top",
+            font: {
+                $$cond: {
+                    "$topFont === null": "Mobitec-9:6",
+                    "else": "$topFont"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber) - width(image)'
+            }
+        },
+        bottom: {
+            align: "centre-x,bottom",
+            text: {
+                $$cond: {
+                    "$bottom !== null": "$bottom",
+                    "else": "''"
+                }
+            },
+            font: {
+                $$cond: {
+                    "$bottomFont === null": "Hanover-5:3",
+                    "else": "$bottomFont"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber) - width(image)'
+            }
+        },
+        image: {
+            align: "left",
+            image: {
+                $$cond: {
+                    "$image !== null": "$image",
+                    "else": "blank"
+                }
+            }
+        },
+
+        text: "$text"
+        
+    },
     message: {
         display: {
             align: "centre-x,centre-y",
@@ -210,9 +271,8 @@ EDSFormats.TTSG = {
         },
 
         text: "$text"
-    },
+},
 }
-
 EDSData.TTSG = {
     
     1: {
@@ -282,17 +342,18 @@ EDSData.TTSG = {
     },
     1112: {
         front: {
-            renderType: "message",
-            font: "SGBusLogo-Mobitec",
-            text: "SGUS",
-            spacing: 1
+                renderType: "TowerSpecialEDS",
+                serviceNumber: "",
+                top: "SGUS",
+                topFont: "SGBusLogo-Mobitec",
+                text: "SG🎔Bus Logo"
         }
     },
     6666: {
         front: {
             renderType: "logo",
             image: "logo-full",
-            text: "TOWER TRANSIT LOGO",
+            text: "Tower Transit Logo",
             destination: "",
             scrolls: [
                 {
@@ -310,37 +371,39 @@ EDSData.TTSG = {
         }
     },
     22: {
-        front: { //Reserved for MAN A22
-                renderType: "destScroll",
+        front: { // Reserved code for MAN A22 Logo
+                renderType: "TowerSpecialEDS",
                 serviceNumber: "",
                 top: "NL323F (A22)",
                 topFont: "Mobitec-9:6",
-                bottom: "Mobitec - 150324",
+                bottom: "Mobitec - 270424",
                 bottomFont: "Mobitec-Tower6:4",
-                image: "MAN-Logo37"
-                
+                image: "MAN-Logo37",
+                text: "MAN A22"
         }
     },
     24: {
-        front: { //Reserved for MAN A22
-                renderType: "destScroll",
+        front: { // Reserved code for MAN A24 Logo
+                renderType: "TowerSpecialEDS",
                 serviceNumber: "",
                 top: "NG363F (A24)",
                 topFont: "Mobitec-9:6",
-                bottom: "Mobitec - 150324",
+                bottom: "Mobitec - 270424",
                 bottomFont: "Mobitec-Tower6:4",
-                image: "MAN-Logo37"
+                image: "MAN-Logo37",
+                text: "MAN A24"
         }
     },
     95: {
-        front: { //Reserved for MAN A22
-                renderType: "destScroll",
+        front: { // Reserved code for MAN A25 Logo
+                renderType: "TowerSpecialEDS",
                 serviceNumber: "",
                 top: "ND323F (A95)",
                 topFont: "Mobitec-9:6",
-                bottom: "Mobitec - 150324",
+                bottom: "Mobitec - 270424",
                 bottomFont: "Mobitec-Tower6:4",
-                image: "MAN-Logo37"
+                image: "MAN-Logo37",
+                text: "MAN A95"
         }
     },
     101: {
@@ -661,25 +724,27 @@ EDSData.TTSG = {
         }
     },
     501: {
-        front: { //NEW ADL LOGO
-                renderType: "destScroll",
+        front: { // Reserved code for Enviro 500 (Old ADL Logo)
+                renderType: "TowerSpecialEDS",
                 serviceNumber: "",
                 top: "ENVIRO 500",
                 topFont: "Mobitec-Enviro500 Wording",
                 bottom: "Mobitec - 150324",
                 bottomFont: "Mobitec-Tower6:4",
-                image: "NEW ADL LOGO"
+                image: "NEW ADL LOGO",
+                text: "Enviro 500 (Old Logo)"
         }
     },
-    502: {
-        front: { //OLD ADL LOGO
-                renderType: "destScroll",
+    502: { // Reserved code for Enviro 500 (New ADL Logo)
+        front: {
+                renderType: "TowerSpecialEDS",
                 serviceNumber: "",
                 top: "ENVIRO 500",
                 topFont: "Mobitec-Enviro500 Wording",
                 bottom: "Mobitec - 170921",
                 bottomFont: "Mobitec-Tower6:4",
-                image: "OLD ADL LOGO"
+                image: "OLD ADL LOGO",
+                text: "Enviro 500 (Old Logo)"
         }
     },
     521: {
@@ -3428,317 +3493,353 @@ EDSData.TTSG = {
     },
     5200: {
         front: {
-                renderType: "destScroll",
+                renderType: "TowerSpecialEDS",
                 serviceNumber: "",
                 top: "~  $  $  0  1",
                 topFont: "Mobitec-Tower16:10",
                 topSpacing: "5",
+                text: "TT 01"
         }
     },
     5201: {
         front: {
-                renderType: "destScroll",
+                renderType: "TowerSpecialEDS",
                 serviceNumber: "",
                 top: "~  $  $  0  2",
                 topFont: "Mobitec-Tower16:10",
                 topSpacing: "5",
+                text: "TT 02"
         }
     },
     5202: {
         front: {
-                renderType: "destScroll",
+                renderType: "TowerSpecialEDS",
                 serviceNumber: "",
                 top: "~  $  $  0  3",
                 topFont: "Mobitec-Tower16:10",
                 topSpacing: "5",
+                text: "TT 03"
         }
     },
     5023: {
         front: {
-                renderType: "destScroll",
+                renderType: "TowerSpecialEDS",
                 serviceNumber: "",
                 top: "~  $  $  0  4",
                 topFont: "Mobitec-Tower16:10",
                 topSpacing: "5",
+                text: "TT 04"
         }
     },
     5204: {
         front: {
-                renderType: "destScroll",
+                renderType: "TowerSpecialEDS",
                 serviceNumber: "",
                 top: "~  $  $  0  5",
                 topFont: "Mobitec-Tower16:10",
                 topSpacing: "5",
+                text: "TT 05"
         }
     },
     5205: {
         front: {
-                renderType: "destScroll",
+                renderType: "TowerSpecialEDS",
                 serviceNumber: "",
                 top: "~  $  $  0  6",
                 topFont: "Mobitec-Tower16:10",
                 topSpacing: "5",
+                text: "TT 06"
         }
     },
     5206: {
         front: {
-                renderType: "destScroll",
+                renderType: "TowerSpecialEDS",
                 serviceNumber: "",
                 top: "~  $  $  0  7",
                 topFont: "Mobitec-Tower16:10",
                 topSpacing: "5",
+                text: "TT 07"
+
         }
     },
     5207: {
         front: {
-                renderType: "destScroll",
+                renderType: "TowerSpecialEDS",
                 serviceNumber: "",
                 top: "~  $  $  0  8",
                 topFont: "Mobitec-Tower16:10",
                 topSpacing: "5",
+                text: "TT 08"
         }
     },
     5208: {
         front: {
-                renderType: "destScroll",
+                renderType: "TowerSpecialEDS",
                 serviceNumber: "",
                 top: "~  $  $  0  9",
                 topFont: "Mobitec-Tower16:10",
                 topSpacing: "5",
+                text: "TT 09"
         }
     },
     5209: {
         front: {
-                renderType: "destScroll",
+                renderType: "TowerSpecialEDS",
                 serviceNumber: "",
                 top: "~  $  $  1  0",
                 topFont: "Mobitec-Tower16:10",
                 topSpacing: "5",
+                text: "TT 10"
         }
     },
     5210: {
         front: {
-                renderType: "destScroll",
+                renderType: "TowerSpecialEDS",
                 serviceNumber: "",
                 top: "~  $  $  1  1",
                 topFont: "Mobitec-Tower16:10",
                 topSpacing: "5",
+                text: "TT 11"
         }
     },
     5211: {
         front: {
-                renderType: "destScroll",
+                renderType: "TowerSpecialEDS",
                 serviceNumber: "",
                 top: "~  $  $  1  2",
                 topFont: "Mobitec-Tower16:10",
                 topSpacing: "5",
+                text: "TT 12"
         }
     },
     5212: {
         front: {
-                renderType: "destScroll",
+                renderType: "TowerSpecialEDS",
                 serviceNumber: "",
                 top: "~  $  $  1  3",
                 topFont: "Mobitec-Tower16:10",
                 topSpacing: "5",
+                text: "TT 13"
         }
     },
     5213: {
         front: {
-                renderType: "destScroll",
+                renderType: "TowerSpecialEDS",
                 serviceNumber: "",
                 top: "~  $  $  1  4",
                 topFont: "Mobitec-Tower16:10",
                 topSpacing: "5",
+                text: "TT 14"
         }
     },
     5214: {
         front: {
-                renderType: "destScroll",
+                renderType: "TowerSpecialEDS",
                 serviceNumber: "",
                 top: "~  $  $  1  5",
                 topFont: "Mobitec-Tower16:10",
                 topSpacing: "5",
+                text: "TT 15"
         }
     },
     5215: {
         front: {
-                renderType: "destScroll",
+                renderType: "TowerSpecialEDS",
                 serviceNumber: "",
                 top: "~  $  $  1  6",
                 topFont: "Mobitec-Tower16:10",
                 topSpacing: "5",
+                text: "TT 16"
         }
     },
     5216: {
         front: {
-                renderType: "destScroll",
+                renderType: "TowerSpecialEDS",
                 serviceNumber: "",
                 top: "~  $  $  1  7",
                 topFont: "Mobitec-Tower16:10",
                 topSpacing: "5",
+                text: "TT 17"
         }
     },
     5217: {
         front: {
-                renderType: "destScroll",
+                renderType: "TowerSpecialEDS",
                 serviceNumber: "",
                 top: "~  $  $  1  8",
                 topFont: "Mobitec-Tower16:10",
                 topSpacing: "5",
+                text: "TT 18"
         }
     },
     5218: {
         front: {
-                renderType: "destScroll",
+                renderType: "TowerSpecialEDS",
                 serviceNumber: "",
                 top: "~  $  $  1  9",
                 topFont: "Mobitec-Tower16:10",
                 topSpacing: "5",
+                text: "TT 19"
         }
     },
     5219: {
         front: {
-                renderType: "destScroll",
+                renderType: "TowerSpecialEDS",
                 serviceNumber: "",
                 top: "~  $  $  2  0",
                 topFont: "Mobitec-Tower16:10",
                 topSpacing: "5",
+                text: "TT 20"
         }
     },
     5220: {
         front: {
-                renderType: "destScroll",
+                renderType: "TowerSpecialEDS",
                 serviceNumber: "",
                 top: "~  $  $  2  1",
                 topFont: "Mobitec-Tower16:10",
                 topSpacing: "5",
+                text: "TT 21"
         }
     },
     5221: {
         front: {
-                renderType: "destScroll",
+                renderType: "TowerSpecialEDS",
                 serviceNumber: "",
                 top: "~  $  $  2  2",
                 topFont: "Mobitec-Tower16:10",
                 topSpacing: "5",
+                text: "TT 22"
         }
     },
     5222: {
         front: {
-                renderType: "destScroll",
+                renderType: "TowerSpecialEDS",
                 serviceNumber: "",
                 top: "~  $  $  2  3",
                 topFont: "Mobitec-Tower16:10",
                 topSpacing: "5",
+                text: "TT 23"
         }
     },
     5223: {
         front: {
-                renderType: "destScroll",
+                renderType: "TowerSpecialEDS",
                 serviceNumber: "",
                 top: "~  $  $  2  4",
                 topFont: "Mobitec-Tower16:10",
                 topSpacing: "5",
+                text: "TT 24"
         }
     },
     5224: {
         front: {
-                renderType: "destScroll",
+                renderType: "TowerSpecialEDS",
                 serviceNumber: "",
                 top: "~  $  $  2  5",
                 topFont: "Mobitec-Tower16:10",
                 topSpacing: "5",
+                text: "TT 25"
         }
     },
     5225: {
         front: {
-                renderType: "destScroll",
+                renderType: "TowerSpecialEDS",
                 serviceNumber: "",
                 top: "~  $  $  2  6",
                 topFont: "Mobitec-Tower16:10",
                 topSpacing: "5",
+                text: "TT 26"
         }
     },
     5300: {
         front: {
-                renderType: "destScroll",
+                renderType: "TowerSpecialEDS",
                 serviceNumber: "%1",
                 top: "Crew  Bus",
                 topFont: "Hanover-14:6",
-                image: "logo"
+                image: "logo",
+                text: "Crew Bus B1"
         }
     },
     5301: {
         front: {
-                renderType: "destScroll",
+                renderType: "TowerSpecialEDS",
                 serviceNumber: "%2",
                 top: "Crew  Bus",
                 topFont: "Hanover-14:6",
-                image: "logo"
+                image: "logo",
+                text: "Crew Bus B2"
         }
     },
     5302: {
         front: {
-                renderType: "destScroll",
+                renderType: "TowerSpecialEDS",
                 serviceNumber: "%3",
                 top: "Crew  Bus",
                 topFont: "Hanover-14:6",
-                image: "logo"
+                image: "logo",
+                text: "Crew Bus B3"
         }
     },
     5303: {
         front: {
-                renderType: "destScroll",
+                renderType: "TowerSpecialEDS",
                 serviceNumber: "%4",
                 top: "Crew  Bus",
                 topFont: "Hanover-14:6",
-                image: "logo"
+                image: "logo",
+                text: "Crew Bus B4"
         }
     },
     5304: {
         front: {
-                renderType: "destScroll",
+                renderType: "TowerSpecialEDS",
                 serviceNumber: "%5",
                 top: "Crew  Bus",
                 topFont: "Hanover-14:6",
-                image: "logo"
+                image: "logo",
+                text: "Crew Bus B5"
         }
     },
     5305: {
         front: {
-                renderType: "destScroll",
+                renderType: "TowerSpecialEDS",
                 serviceNumber: "%6",
                 top: "Crew  Bus",
                 topFont: "Hanover-14:6",
-                image: "logo"
+                image: "logo",
+                text: "Crew Bus B6"
         }
     },
     5306: {
         front: {
-                renderType: "destScroll",
+                renderType: "TowerSpecialEDS",
                 serviceNumber: "%7",
                 top: "Crew  Bus",
                 topFont: "Hanover-14:6",
-                image: "logo"
+                image: "logo",
+                text: "Crew Bus B7"
         }
     },
     5307: {
         front: {
-                renderType: "destScroll",
+                renderType: "TowerSpecialEDS",
                 serviceNumber: "%8",
                 top: "Crew  Bus",
                 topFont: "Hanover-14:6",
-                image: "logo"
+                image: "logo",
+                text: "Crew Bus B8"
         }
     },
     5308: {
         front: {
-                renderType: "destScroll",
+                renderType: "TowerSpecialEDS",
                 serviceNumber: "%9",
                 top: "Crew  Bus",
                 topFont: "Hanover-14:6",
-                image: "logo"
+                image: "logo",
+                text: "Crew Bus B9"
         }
     },
     5400: {
@@ -7361,6 +7462,19 @@ EDSData.TTSG = {
                 "Tengah Boulevard",
                 "(Blk 132B)",
             ]
+        }
+    },
+    9998: {
+        front: {
+            renderType: "TowerSpecialEDS",
+            serviceNumber: "/",
+            serviceFont: "Mobitec-Tower16:10",
+            top: "Bus Under",
+            topFont: "Mobitec-7:4",
+            bottom: "Repair",
+            bottomFont: "Mobitec-7:4",
+            image: "warning",
+            text: "Bus Under Repair",
         }
     },
     9999: {
