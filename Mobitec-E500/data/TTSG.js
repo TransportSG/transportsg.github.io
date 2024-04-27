@@ -4899,24 +4899,6 @@ EDSData.TTSG = {
             ]
         }
     },
-    7099: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "$41",
-            destination: "MALL OF MENDINI",
-            scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "$41",
-                    top: "MALL OF MENDINI",
-                    bottom: "( LEGOLAND MALAYSIA )",
-                    image: "SentosaGantry"
-                },
-                "TAMAN TASEK",
-                "BUKIT INDAH",
-            ]
-        }
-    },
     8011: {
         front: {
             renderType: "standardService",
