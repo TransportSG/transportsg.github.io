@@ -3521,7 +3521,7 @@ EDSData.TTSG = {
                 text: "TT 03"
         }
     },
-    5023: {
+    5203: {
         front: {
                 renderType: "TowerSpecialEDS",
                 serviceNumber: "",
