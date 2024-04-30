@@ -5934,7 +5934,8 @@ EDSData.SBST = {
             serviceNumber: "168A",
             destinationRoad: "TAMP. AVE 4",
             destinationName: "(OPP TAMPINES STN/INT)"
-    
+       }
+    },
     1701: {
         front: {
             renderType: "standardService",
