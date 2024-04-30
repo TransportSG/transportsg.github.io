@@ -5928,6 +5928,13 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
+ 1685: {
+        front: {
+            renderType: "swt",
+            serviceNumber: "168A",
+            destinationRoad: "TAMP. AVE 4",
+            destinationName: "(OPP TAMPINES STN/INT)"
+    
     1701: {
         front: {
             renderType: "standardService",
