@@ -10592,6 +10592,22 @@ EDSData.SBST = {
             }
         }
     },
+        "168A": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "168A",
+                terminateAt: "TAMP AVE 4",
+                landmark: "(OPP TAMPINES STN/INT)"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "168A",
+                font: "LECIP-20:6",
+                spacing: 1
+            }
+        }
+    },
     170: {
         1: {
             front: {
