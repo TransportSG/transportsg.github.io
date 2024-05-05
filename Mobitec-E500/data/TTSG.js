@@ -263,6 +263,13 @@ EDSFormats.TTSG = {
         text: "$text"
         
     },
+    full: {
+        __dynamic__: (matrix, data) => {
+            matrixPrimitives.setStrokeColour(null);
+            matrixPrimitives.fillRectangle(matrix, 0, 0, matrix.width, matrix.height);
+    },
+    text: "All LED Lit"
+    },
     message: {
         display: {
             align: "centre-x,centre-y",
@@ -3180,6 +3187,12 @@ EDSData.TTSG = {
                     image: "mrt"
                 }
             ]
+        }
+    },
+    3333: {
+        front: {
+            renderType: "full",
+            text: "All LED Lit",
         }
     },
     3341: {

@@ -66,8 +66,8 @@ EDSFormats.SBST = {
         __dynamic__: (matrix, data) => {
             matrixPrimitives.setStrokeColour(null);
             matrixPrimitives.fillRectangle(matrix, 0, 0, matrix.width, matrix.height);
-        },
-        text: "FULL"
+    },
+    text: "All LED Lit"
     },
     brandedSvc: {
         serviceNumber: {
