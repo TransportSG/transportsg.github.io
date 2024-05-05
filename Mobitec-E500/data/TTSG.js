@@ -37,6 +37,7 @@ EDSFormats.TTSG = {
         },
 
         text: "$destination+' '+$serviceNumber"
+        
     },
     StandardServiceOldFont: {
         serviceNumber: {
@@ -486,22 +487,24 @@ EDSData.TTSG = {
     },
     311: {
         front: {
-            renderType: "standardService",
-            serviceNumber: "E31",
-            destination: "CCL EXPRESS BUS",
-            scrolls: [
-                "Kent Ridge - Harbourfront"
-            ]
+                renderType: "TowerSpecialEDS",
+                serviceNumber: "E31",
+                top: "CCL EXPRESS BUS",
+                topFont: "Mobitec-9:6",
+                bottom: "Kent Ridge - Harbourfront",
+                bottomFont: "Mobitec-Tower6:4",
+                text: "E31 Harbourfront"
         }
     },
     312: {
         front: {
-            renderType: "standardService",
-            serviceNumber: "E31",
-            destination: "CCL EXPRESS BUS",
-            scrolls: [
-                "Harbourfront - Kent Ridge"
-            ]
+                renderType: "TowerSpecialEDS",
+                serviceNumber: "E31",
+                top: "CCL EXPRESS BUS",
+                topFont: "Mobitec-9:6",
+                bottom: "Harbourfront - Kent Ridge",
+                bottomFont: "Mobitec-Tower6:4",
+                text: "E31 Kent Ridge"
         }
     },
     411: {
@@ -732,7 +735,7 @@ EDSData.TTSG = {
                 bottom: "Mobitec - 150324",
                 bottomFont: "Mobitec-Tower6:4",
                 image: "NEW ADL LOGO",
-                text: "Enviro 500 (Old Logo)"
+                text: "Enviro 500 (New Logo)"
         }
     },
     502: { // Reserved code for Enviro 500 (New ADL Logo)
@@ -749,23 +752,24 @@ EDSData.TTSG = {
     },
     521: {
         front: {
-            renderType: "standardService",
-            serviceNumber: "S52",
-            destination: "TEL SHUTTLE",
-            scrolls: [
-                "Outram Park > Caldecott"
-            ],
-            ScrollFont: "Hanover-7:3"
+                renderType: "TowerSpecialEDS",
+                serviceNumber: "S52",
+                top: "TEL SHUTTLE",
+                topFont: "Mobitec-9:6",
+                bottom: "Outram Park > Caldecott",
+                bottomFont: "Mobitec-Tower6:4",
+                text: "S52 Caldecott"
         }
     },
     522: {
         front: {
-            renderType: "standardService",
-            serviceNumber: "S52",
-            destination: "TEL SHUTTLE",
-            scrolls: [
-                "Caldecott > Outram Park"
-            ]
+                renderType: "TowerSpecialEDS",
+                serviceNumber: "S52",
+                top: "TEL SHUTTLE",
+                topFont: "Mobitec-9:6",
+                bottom: "Caldecott > Outram Park",
+                bottomFont: "Mobitec-Tower6:4",
+                text: "S52 Outram Park"
         }
     },
     661: {
@@ -919,37 +923,40 @@ EDSData.TTSG = {
         }
     },
     667: {
-        front: {
-            renderType: "destScroll",
-            serviceNumber: "66A",
-            top: "Ends At",
-            topFont: "Mobitec-7:5:3",
-            bottom: "Little India Stn Exit A",
-            bottomFont: "Mobitec-Tower6:4",
-            image: "mrt"
+        front: { 
+                renderType: "TowerSpecialEDS",
+                serviceNumber: "66A",
+                top: "Ends At",
+                topFont: "Mobitec-7:5:3",
+                bottom: "Little India Stn Exit A",
+                bottomFont: "Mobitec-Tower6:4",
+                image: "mrt",
+                text: "66A LITTLE INDIA MRT"
         }
     },
     668: {
-        front: {
-            renderType: "destScroll",
-            serviceNumber: "66B",
-            top: "Ends At",
-            topFont: "Mobitec-7:5:3",
-            bottom: "Tekka Ctr",
-            bottomFont: "Mobitec-Tower6:4",
+        front: { 
+                renderType: "TowerSpecialEDS",
+                serviceNumber: "66A",
+                top: "Ends At",
+                topFont: "Mobitec-7:5:3",
+                bottom: "Tekka Ctr",
+                bottomFont: "Mobitec-Tower6:4",
+                text: "66B TEKKA CTR"
         }
-    },    
+    },   
     669: {
-        front: {
-            renderType: "destScroll",
-            serviceNumber: "66C",
-            top: "Ends At",
-            topFont: "Mobitec-7:5:3",
-            bottom: "Opp Beauty World Stn",
-            bottomFont: "Hanover-5:3",
-            image: "mrt"
+        front: { 
+                renderType: "TowerSpecialEDS",
+                serviceNumber: "66C",
+                top: "Ends At",
+                topFont: "Mobitec-7:5:3",
+                bottom: "Opp Beauty World Stn",
+                bottomFont: "Hanover-5:3",
+                image: "mrt",
+                text: "66C BEAUTY WORLD MRT"
         }
-    },
+    },     
     771: {
         front: {
             renderType: "standardService",
@@ -1345,6 +1352,18 @@ EDSData.TTSG = {
             image: "mrt"
         }
     },
+    969: {
+        front: { 
+                renderType: "TowerSpecialEDS",
+                serviceNumber: "96B",
+                top: "Ends At",
+                topFont: "Mobitec-7:5:3",
+                bottom: "Clementi Stn Exit A",
+                bottomFont: "Mobitec-Tower6:4",
+                image: "mrt",
+                text: "96B CLEMENTI MRT"
+        }
+    },     
     971: {
         front: {
             renderType: "standardService",
@@ -5370,7 +5389,14 @@ EDSData.TTSG = {
             serviceNumber: "856",
             destination: "YISHUN",
             scrolls: [
-                "WOODLANDS TRAIN CHECKPOINT",
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "856",
+                    top: "YISHUN",
+                    topFont: "Mobitec-9:6",
+                    bottom: "WOODLANDS TRAIN CHKPT",
+                    bottomFont: "Mobitec-5:3",
+                },
                 "WOODLANDS NORTH MRT",
                 "SENOKO RD",
                 "ADMIRALTY RD WEST",
@@ -7446,10 +7472,10 @@ EDSData.TTSG = {
             ]
         }
     },
-    9998: {
+    9999: {
         front: {
             renderType: "TowerSpecialEDS",
-            serviceNumber: "/",
+            serviceNumber: "!",
             serviceFont: "Mobitec-Tower16:10",
             top: "Bus Under",
             topFont: "Mobitec-7:4",
@@ -7458,15 +7484,6 @@ EDSData.TTSG = {
             image: "warning",
             text: "Bus Under Repair",
         }
-    },
-    9999: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "",
-            destination: "Bus Under Repair",
-            destFont: "Hanover-14:6",
-            scrolls: []
-        },
     },
 }
 

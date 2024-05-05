@@ -10597,14 +10597,14 @@ EDSData.SBST = {
             front: {
                 renderType: "swt",
                 serviceNumber: "168A",
-                terminateAt: "TAMP AVE 4",
-                landmark: "(OPP TAMPINES STN/INT)"
+                terminateAt: "TAMPINES",
+                landmark: "AVE 4 (OPP TAMPINES STN/INT)"
             },
             rear: {
                 renderType: "rearService",
                 serviceNumber: "168A",
                 font: "LECIP-20:6",
-                spacing: 1
+                spacing: 2
             }
         }
     },
