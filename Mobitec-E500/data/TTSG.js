@@ -2947,7 +2947,7 @@ EDSData.TTSG = {
                     serviceNumber: "963",
                     top: "Hello Uncle",
                     topFont: "Mobitec-7:7",
-                    bottom: "Does this bus go to Hillview?",
+                    bottom: "Is this bus going to Hillview?",
                     bottomFont: "Hanover-7:3",
                 }
             ]
