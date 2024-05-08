@@ -4894,10 +4894,10 @@ EDSData.TTSG = {
                 },
                 {
                     renderType: "destScroll",
-                    serviceNumber: "657",
+                    serviceNumber: "670",
                     top: "City Direct",
                     topFont: "Mobitec-Tower10:7",
-                    bottom: "CBD >> JURONG WEST",
+                    bottom: "CBD >> YISHUN",
                     bottomFont: "Mobitec-5:3",
                 }
             ]
