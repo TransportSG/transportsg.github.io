@@ -9601,6 +9601,149 @@ EDSData.SMRT = {
             scrollFont: "Mobitec-7:7"
         }
     },
+    7051: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "WT5",
+            top: "KRANJI DEPOT",
+            topFont: "Mobitec-13:7"
+  
+        }
+    },
+    7071: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "WT7",
+            top: "KRANJI DEPOT",
+            topFont: "Mobitec-13:7"
+  
+        }
+    },
+    7081: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "WT8",
+            top: "KRANJI DEPOT",
+            topFont: "Mobitec-13:7"
+  
+        }
+    },
+    7081: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "WT8",
+            top: "BULIM DEPOT",
+            topFont: "Mobitec-13:7"
+  
+        }
+    },
+    7161: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "WT16",
+            top: "KRANJI DEPOT",
+            topFont: "Mobitec-13:7"
+  
+        }
+    },
+    7162: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "WT16",
+            top: "WOODLANDS",
+            topFont: "Mobitec-7:7",
+            bottom: "BUS PARK",
+            bottomFont: "Mobitec-7:7"
+  
+        }
+    },
+    7171: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "WT17",
+            top: "KRANJI DEPOT",
+            topFont: "Mobitec-13:7"
+  
+        }
+    },
+    7172: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "WT17",
+            top: "BULIM DEPOT",
+            topFont: "Mobitec-13:7"
+  
+        }
+    },
+    7201: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "WT20",
+            top: "BULIM DEPOT",
+            topFont: "Mobitec-13:7"
+  
+        }
+    },
+    7202: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "WT20",
+            top: "WOODLANDS",
+            topFont: "Mobitec-7:7",
+            bottom: "BUS PARK",
+            bottomFont: "Mobitec-7:7"
+  
+        }
+    },
+    7221: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "WT22",
+            top: "BULIM DEPOT",
+            topFont: "Mobitec-13:7"
+  
+        }
+    },
+    7222: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "WT22",
+            top: "WOODLANDS",
+            topFont: "Mobitec-7:7",
+            bottom: "BUS PARK",
+            bottomFont: "Mobitec-7:7"
+  
+        }
+    },
+    7231: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "WT23",
+            top: "BULIM DEPOT",
+            topFont: "Mobitec-13:7"
+  
+        }
+    },
+    7232: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "WT23",
+            top: "KRANJI DEPOT",
+            topFont: "Mobitec-13:7"
+  
+        }
+    },
+    7241: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "WT24",
+            top: "WOODLANDS",
+            topFont: "Mobitec-7:7",
+            bottom: "BUS PARK",
+            bottomFont: "Mobitec-7:7"
+  
+        }
+    },
     7501: {
         front: {
             renderType: "standardService",
@@ -9701,6 +9844,47 @@ EDSData.SMRT = {
                 "UPP BT TIMAH RD"
             ],
             scrollFont: "Mobitec-7:7"
+        }
+    },
+    7996: {
+        front: {
+            renderType: "message",
+            text: "SMRT STAFF FERRY @",
+            font: "Mobitec-SMRTStaffFerry",
+            spacing: 1
+        }
+    },
+    7997: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "K1",
+            top: "HOTEL FERRY",
+            topFont: "Mobitec-7:7",
+            bottom: "WLD BUS PARK",
+            bottomFont: "Mobitec-7:5:2"
+  
+        }
+    },
+    7998: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "F1",
+            top: "HOTEL FERRY",
+            topFont: "Mobitec-7:7",
+            bottom: "KRANJI DEPOT",
+            bottomFont: "Mobitec-7:7"
+  
+        }
+    },
+    7999: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "F2",
+            top: "HOTEL FERRY",
+            topFont: "Mobitec-7:7",
+            bottom: "BULIM DEPOT",
+            bottomFont: "Mobitec-7:7"
+  
         }
     },
     8251: {
@@ -11097,8 +11281,8 @@ EDSData.SMRT = {
                     serviceNumber: "950",
                     top: "JB SENTRAL TER (LOOP)",
                     bottom: "JOHOR BAHRU",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-7:5:3",
+                    bottomFont: "Mobitec-7:5:3"
                 }
             ],
             scrollFont: "Mobitec-7:7"
