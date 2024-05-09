@@ -9628,7 +9628,7 @@ EDSData.SMRT = {
   
         }
     },
-    7081: {
+    7082: {
         front: {
             renderType: "destScroll",
             serviceNumber: "WT8",
