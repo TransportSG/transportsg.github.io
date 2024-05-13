@@ -7910,6 +7910,18 @@ EDSData.SBST = {
             serviceNumber: ""
         }
     },
+    5001: {
+        front: {
+            renderType: "destScroll",
+            top: "JOURNEYING WITH YOU",
+            topFont: "Mobitec-7:4",
+
+            bottom: "50 Years of Mobility Excellence",
+            bottomFont: "Mobitec-7:4",
+
+            serviceNumber: ""
+        }
+    },
     5021: {
         front: {
             renderType: "expressService",
@@ -8745,7 +8757,19 @@ EDSExtras.SBST = {
             serviceNumber: ""
         }
     },
-}
+    2: {
+        front: {
+            renderType: "destScroll",
+            top: "JOURNEYING WITH YOU",
+            topFont: "Mobitec-7:4",
+    
+            bottom: "50 Years of Mobility Excellence",
+            bottomFont: "Mobitec-7:4",
+    
+            serviceNumber: ""
+            }
+        },
+    }
 
 EDSImages.SBST = {
     express: [
