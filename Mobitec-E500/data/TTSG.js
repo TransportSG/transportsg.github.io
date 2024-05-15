@@ -592,7 +592,7 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "41",
-            destination: "JURONG WEST AVE 1",
+            destination: "JALAN ANAK BUKIT",
             scrolls: [
                 "TOH GUAN RD",
                 "TOH GUAN RD EAST",
@@ -600,7 +600,7 @@ EDSData.TTSG = {
                 "BEAUTY WORLD MRT",
                 {
                     renderType: "destScroll",
-                    serviceNumber: "49",
+                    serviceNumber: "41",
                     top: "Welcome on board",
                     topFont: "Hanover-7:3",
                     bottom: "Tower Transit",
@@ -609,7 +609,7 @@ EDSData.TTSG = {
                 },
                 {
                     renderType: "destScroll",
-                    serviceNumber: "49",
+                    serviceNumber: "41",
                     top: "Have a pleasant",
                     topFont: "Hanover-7:3",
                     bottom: "journey!",
@@ -618,8 +618,8 @@ EDSData.TTSG = {
                 },
                 {
                     renderType: "destScroll",
-                    serviceNumber: "49",
-                    top: "JURONG WEST ST 42",
+                    serviceNumber: "41",
+                    top: "JALAN ANAK BUKIT",
                 }
             ]
         }
@@ -5690,7 +5690,7 @@ EDSData.TTSG = {
                 },
                 {
                     renderType: "destScroll",
-                    serviceNumber: "857",
+                    serviceNumber: "858",
                     top: "WOODLANDS",
                     image: "mrt"
                 }

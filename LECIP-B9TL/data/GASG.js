@@ -1241,8 +1241,8 @@ EDSData.GASG = {
                 destinationFont: "LECIP-10",
                 scrolls: [{
                     renderType: "destScroll",
-                    top: "SIMS AVE",
-                    topFont: "LECIP-10",
+                    top: "Sims Ave",
+                    topFont: "Lecip-GoAhead16:10",
         
                     serviceNumber: "62"
                 },
@@ -1275,7 +1275,7 @@ EDSData.GASG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "PUNGGOL",
-                    topFont: "LECIP-10",
+                    topFont: "Lecip-GoAhead16:10",
         
                     serviceNumber: "62"
                 },
