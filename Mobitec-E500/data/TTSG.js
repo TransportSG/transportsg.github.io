@@ -1300,6 +1300,93 @@ EDSData.TTSG = {
             ]
         }
     },
+    797: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "79",
+            destination: "BOON LAY",
+            scrolls: [
+                "TEBAN GARDENS RD",
+                "JURONG PORT RD",
+                "THIRD CHIN BEE RD",
+                "QUALITY RD",
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "79",
+                    top: "Welcome on board",
+                    topFont: "Hanover-7:3",
+                    bottom: "Tower Transit",
+                    bottomFont: "Hanover-7:3",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "79",
+                    top: "Have a pleasant",
+                    topFont: "Hanover-7:3",
+                    bottom: "journey!",
+                    bottomFont: "Hanover-7:3",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "79",
+                    top: "BOON LAY",
+                    image: "mrt"
+                }
+            ]
+        }
+    },
+    798: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "79",
+            destination: "JURONG TOWN HALL",
+            scrolls: [
+                "QUALITY RD",
+                "THIRD CHIN BEE RD",
+                "JURONG PORT RD",
+                "TEBAN GARDENS RD",
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "79",
+                    top: "Welcome on board",
+                    topFont: "Hanover-7:3",
+                    bottom: "Tower Transit",
+                    bottomFont: "Hanover-7:3",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "79",
+                    top: "Have a pleasant",
+                    topFont: "Hanover-7:3",
+                    bottom: "journey!",
+                    bottomFont: "Hanover-7:3",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "79",
+                    top: "JURONG TOWN HALL",
+                    topFont: "Mobitec-Tower9:4",
+                    bottom: "( JURONG EAST STN )",
+                    image: "mrt"
+                }
+            ]
+        }
+    },
+    799: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "79T",
+            top: "Ends At",
+            topFont: "Mobitec-7:5:3",
+            bottom: "Boon Lay Int",
+            bottomFont: "Mobitec-Tower6:4",
+            image: "mrt"
+        }
+    },
     961: {
         front: {
             renderType: "standardService",
@@ -5724,6 +5811,42 @@ EDSData.TTSG = {
                     bottom: "CHANGI AIRPORT",
                     bottomFont: "Mobitec-Tower6:4",
                     image: "ChangiAirportControlTower"
+                }
+            ]
+        }
+    },
+    8589: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "858",
+            destination: "WOODLANDS",
+            scrolls: [
+                "YISHUN MRT",
+                "SEMBAWANG WAY",
+                "WOODLANDS AVE 9",
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "858",
+                    top: "Welcome on board",
+                    topFont: "Hanover-7:3",
+                    bottom: "Tower Transit",
+                    bottomFont: "Hanover-7:3",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "858",
+                    top: "Have a pleasant",
+                    topFont: "Hanover-7:3",
+                    bottom: "journey!",
+                    bottomFont: "Hanover-7:3",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "858",
+                    top: "WOODLANDS",
+                    image: "mrt"
                 }
             ]
         }

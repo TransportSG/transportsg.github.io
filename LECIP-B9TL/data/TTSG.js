@@ -1118,6 +1118,84 @@ EDSData.TTSG = {
             }
         }
     },
+    "79J": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "79",
+                destination: "BOON LAY",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                    "TEBAN GARDENS RD",
+                    "JURONG PORT RD",
+                    "THIRD CHIN BEE RD",
+                    "QUALITY RD",
+                {
+                    renderType: "destScroll",
+                    top: "BOON LAY",
+                    topFont: "Hanover-Tower12:7",
+            
+                    serviceNumber: "79"
+                },
+                    ],
+                    scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "79",
+                font: "LECIP-TowerRear17:10",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "79",
+                destination: "JURONG TOWN HALL",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                    "QUALITY RD",
+                    "THIRD CHIN BEE RD",
+                    "JURONG PORT RD",
+                    "TEBAN GARDENS RD",
+                {
+                    renderType: "destScroll",
+                    top: "JURONG TOWN HALL",
+                    topFont: "Hanover-Tower12:7",
+            
+                    serviceNumber: "79"
+                },
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "79",
+                font: "LECIP-TowerRear17:10",
+                spacing: 2
+            }
+        }
+    },
+    "79T": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "79T",
+                destination: "ENDS AT",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [
+                    "BOON LAY INT"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "79T",
+                font: "LECIP-TowerRear17:7",
+                spacing: 2
+            }
+        }
+    },
     96: {
         1: {
             front: {
@@ -4595,6 +4673,35 @@ EDSData.TTSG = {
             }
         }
     },
+    "858D": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "858",
+                destination: "WOODLANDS",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                    "YISHUN MRT",
+                    "SEMBAWANG WAY",
+                    "WOODLANDS AVE 9",
+            {
+                    renderType: "destScroll",
+                    top: "WOODLANDS",
+                    topFont: "Hanover-Tower12:7",
+        
+                    serviceNumber: "858"
+            },
+            ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "858",
+                font: "LECIP-TowerRear17:10",
+                spacing: 1
+            }
+        }
+    }, 
     859: {
         1: {
             front: {

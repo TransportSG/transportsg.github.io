@@ -1023,13 +1023,14 @@ EDSData.GASG = {
                     top: "Ang Mo Kio",
                     topFont: "Mobitec-13:8"
                 },
-                "PUNGGOL CENTRAL",
                 "EDGEFIELD PLAINS",
-                "PUNGGOL FIELD / RD",
-                "RIVERVALE DR",
+                "PUNGGOL RD",
+                "RIVERVALE DRIVE",
                 "UPPER SERANGOON RD",
+                "KOVAN MRT",
+                "YIO CHU KANG RD",
                 "SERANGOON GARDENS",
-                "ANG MO KIO AVE 1 / 6 / 3",
+                "ANG MO KIO AVE 1 / 6",
             ],
             scrollFont: "Mobitec-7:4"
         }
