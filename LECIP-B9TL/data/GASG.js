@@ -457,8 +457,8 @@ EDSData.GASG = {
                 destinationFont: "LECIP-10",
                 scrolls: [{
                     renderType: "destScroll",
-                    top: "KAMPONG BAHRU",
-                    topFont: "LECIP-10",
+                    top: "Kampong Bahru",
+                    topFont: "Lecip-GoAhead16:10",
         
                     serviceNumber: "12"
                 },
@@ -481,8 +481,8 @@ EDSData.GASG = {
                 destinationFont: "LECIP-10",
                 scrolls: [{
                     renderType: "destScroll",
-                    top: "PASIR RIS",
-                    topFont: "LECIP-10",
+                    top: "Pasir Ris",
+                    topFont: "Lecip-GoAhead16:10",
         
                     serviceNumber: "12"
                 },
@@ -725,8 +725,8 @@ EDSData.GASG = {
                 destinationFont: "LECIP-10",
                 scrolls: [{
                     renderType: "destScroll",
-                    top: "BEDOK",
-                    topFont: "LECIP-10",
+                    top: "Bedok",
+                    topFont: "Lecip-GoAhead16:10",
         
                     serviceNumber: "17"
                 },
@@ -755,8 +755,8 @@ EDSData.GASG = {
                 destinationFont: "LECIP-10",
                 scrolls: [{
                     renderType: "destScroll",
-                    top: "PASIR RIS",
-                    topFont: "LECIP-10",
+                    top: "Pasir Ris",
+                    topFont: "Lecip-GoAhead16:10",
         
                     serviceNumber: "17"
                 },
@@ -2478,7 +2478,7 @@ EDSData.GASG = {
                 bottomSpacing: 1,
             }
         }
-    },
+    },a
     1112: {
         1: {
             front: { 
