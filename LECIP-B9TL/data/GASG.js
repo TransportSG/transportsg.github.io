@@ -1811,8 +1811,8 @@ EDSData.GASG = {
                 destinationFont: "LECIP-10",
                 scrolls: [{
                     renderType: "destScroll",
-                    top: "KOVAN",
-                    topFont: "LECIP-10",
+                    top: "Kovan",
+                    topFont: "Lecip-GoAhead16:10",
         
                     serviceNumber: "119"
                 },
@@ -1840,8 +1840,8 @@ EDSData.GASG = {
                 destinationFont: "LECIP-10",
                 scrolls: [{
                     renderType: "destScroll",
-                    top: "PUNGGOL",
-                    topFont: "LECIP-10",
+                    top: "Punggol",
+                    topFont: "Lecip-GoAhead16:10",
         
                     serviceNumber: "119"
                 },
@@ -1871,8 +1871,8 @@ EDSData.GASG = {
                 destinationFont: "LECIP-10",
                 scrolls: [{
                     renderType: "destScroll",
-                    top: "ANG MO KIO",
-                    topFont: "LECIP-10",
+                    top: "Ang Mo Kio",
+                    topFont: "Lecip-GoAhead16:10",
         
                     serviceNumber: "136"
                 },
@@ -1911,8 +1911,8 @@ EDSData.GASG = {
                 destinationFont: "LECIP-10",
                 scrolls: [{
                     renderType: "destScroll",
-                    top: "PUNGGOL",
-                    topFont: "LECIP-10",
+                    top: "Punggol",
+                    topFont: "Lecip-GoAhead16:10",
         
                     serviceNumber: "136"
                 },
@@ -2478,15 +2478,15 @@ EDSData.GASG = {
                 bottomSpacing: 1,
             }
         }
-    },a
+    },
     1112: {
         1: {
             front: { 
                 renderType: "destScroll",
-                top: "New Bridge Rd",
+                top: "Ang Mo Kio",
                 topFont: "Lecip-GoAhead16:10",
     
-                serviceNumber: ""
+                serviceNumber: "12"
             },
             rear: { 
                 renderType: "twoline",
