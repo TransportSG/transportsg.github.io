@@ -1780,8 +1780,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "118B",
-                destination: "TPE (PUNGGOL RD)",
-                destinationFont: "LECIP-10",
+                destination: "tpe (bef punggol rd)",
+                destinationFont: "Lecip-GoAhead10:6",
                 scrolls: [{
                     renderType: "centreMessageServiceScroll",
                     serviceNumber: "118B",
