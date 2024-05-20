@@ -1821,6 +1821,22 @@ EDSData.SBST = {
             }
         }
     },
+    "20A": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "20A",
+                terminateAt: "CHANGI STH AVE 1",
+                landmark: "(EXPO STN EXIT B)"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "20A",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
     21: {
         1: {
             front: {
@@ -3008,6 +3024,37 @@ EDSData.SBST = {
                 spacing: 2
             }
         },
+    },
+    "39A": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "39A",
+                landmark: "JLN KAYU (AFT SELETAR CAMP G)"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "39A",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    "39B": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "39B",
+                terminateAt: "PASIR RIS CTRL",
+                landmark: "(PASIR RIS STN EXIT B)"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "39B",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
     },
     40: {
         1: {

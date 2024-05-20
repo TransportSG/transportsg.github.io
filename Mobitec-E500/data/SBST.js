@@ -1104,6 +1104,14 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
+    205: {
+        front: {
+            renderType: "swt",
+            serviceNumber: "20A",
+            destinationRoad: "CHANGI STH",
+            destinationName: "AVE 1 (EXPO STN EXIT B)"
+        }
+    },
     210: {
         front: {
             renderType: "message",
@@ -1961,6 +1969,22 @@ EDSData.SBST = {
                 "TAMPINES AVE 2"
             ],
             scrollFont: "Mobitec-6:5"
+        }
+    },
+    395: {
+        front: {
+            renderType: "swt",
+            serviceNumber: "39A",
+            destinationRoad: "JALAN KAYU",
+            destinationName: "(AFT SELETAR CAMP G)"
+        }
+    },
+    396: {
+        front: {
+            renderType: "swt",
+            serviceNumber: "39B",
+            destinationRoad: "",
+            destinationName: "PASIR RIS STN EXIT B"
         }
     },
     400: {

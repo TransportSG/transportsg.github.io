@@ -181,7 +181,7 @@ EDSData.GASG = {
             }
         }
     },
-    2: {
+    2: { 
         1: {
             front: {
                 renderType: "standardService",
@@ -195,7 +195,16 @@ EDSData.GASG = {
         
                     serviceNumber: "2"
                 },
-                    "LOYANG AVE"
+                    "LOYANG AVE / WAY",
+                    "UPPER CHANGI MRT / RD",
+                    "BEDOK RD",
+                    "TANAH MERAH MRT",
+                    "BEDOK MRT",
+                    "CHANGI RD",
+                    "GEYLANG RD",
+                    "LAVENDER / BUGIS MRT",
+                    "VICTORIA ST / HILL ST",
+                    "CLARKE QUAY MRT",
                 ],
                 scrollFont: "Hanover-7:5"
             },
@@ -219,7 +228,16 @@ EDSData.GASG = {
         
                     serviceNumber: "2"
                 },
-                    "LOYANG AVE"
+                    "CHINATOWN / CLARKE QUAY",
+                    "HILL ST / VICTORIA ST",
+                    "BUGIS / LAVENDER MRT",
+                    "KALLANG MRT",
+                    "SIMS AVE",
+                    "EUNOS / KEMBANGAN MRT",
+                    "BEDOK / TANAH MERAH MRT",
+                    "BEDOK RD",
+                    "UPPER CHANGI MRT",
+                    "LOYANG WAY / AVE",
                 ],
                 scrollFont: "Hanover-7:5"
             },
@@ -285,7 +303,16 @@ EDSData.GASG = {
         
                     serviceNumber: "2"
                 },
-                    "LOYANG AVE"
+                    "LOYANG AVE / WAY",
+                    "UPPER CHANGI MRT / RD",
+                    "BEDOK RD",
+                    "TANAH MERAH MRT",
+                    "BEDOK MRT",
+                    "CHANGI RD",
+                    "GEYLANG RD",
+                    "LAVENDER / BUGIS MRT",
+                    "VICTORIA ST / HILL ST",
+                    "CLARKE QUAY MRT",
                 ],
                 scrollFont: "Hanover-7:5"
             },
@@ -309,7 +336,16 @@ EDSData.GASG = {
         
                     serviceNumber: "2"
                 },
-                    "LOYANG AVE"
+                    "CHINATOWN / CLARKE QUAY",
+                    "HILL ST / VICTORIA ST",
+                    "BUGIS / LAVENDER MRT",
+                    "KALLANG MRT",
+                    "SIMS AVE",
+                    "EUNOS / KEMBANGAN MRT",
+                    "BEDOK / TANAH MERAH MRT",
+                    "BEDOK RD",
+                    "UPPER CHANGI MRT",
+                    "LOYANG WAY / AVE",
                 ],
                 scrollFont: "Hanover-7:5"
             },
@@ -462,7 +498,16 @@ EDSData.GASG = {
         
                     serviceNumber: "12"
                 },
-                    "TANAH MERAH MRT"
+                    "TAMPINE EAST MRT",
+                    "SIMEI RD",
+                    "TANAH MERAH MRT",
+                    "BEDOK SOUTH RD",
+                    "EAST COAST RD",
+                    "MOUNTBATTEN MRT",
+                    "GEYLANG RD",
+                    "LAVENDER / BUGIS MRT",
+                    "VICTORIA ST / HILL ST",
+                    "CLARKE QUAY / CHINATOWN",
                 ],
                 scrollFont: "Hanover-7:5"
             },
@@ -632,7 +677,7 @@ EDSData.GASG = {
             }
         }
     },
-    15: {
+    15: { // Referred from Citaro
         1: {
             front: {
                 renderType: "standardService",
@@ -696,7 +741,7 @@ EDSData.GASG = {
             }
         }
     },
-    "15A": {
+    "15A": { // Referred from Citaro
         1: {
             front: {
                 renderType: "standardService",
@@ -783,11 +828,28 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "17A",
-                destination: "TERMINATING AT",
+                destination: "BEDOK NORTH AVE 4",
                 destinationFont: "Hanover-10",
-                scrolls: [
-                    "BEDOK NORTH AVE 4",
-                    "SBST BEDOK NTH DEPOT"
+                scrolls: [{
+                    renderType: "centreMessageServiceScroll",
+                    serviceNumber: "17A",
+                    top: "TERMINATING AT",
+                    topFont: "Hanover-10",
+
+                    bottom: "BEDOK NORTH AVE 4",
+                    bottomFont: "Hanover-7:5"
+                },
+                {
+                    renderType: "centreMessageServiceScroll",
+                    serviceNumber: "17A",
+                    top: "TERMINATING AT",
+                    topFont: "Hanover-10",
+
+                    bottom: "SBST BEDOK NTH DEPOT",
+                    bottomFont: "Hanover-7:5"
+                },
+                    "BEDOK NORTH AVE 1",
+                    "BEDOK NORTH RD",
                 ],
                 scrollFont: "Hanover-7:5"
             },
@@ -799,7 +861,7 @@ EDSData.GASG = {
             }
         }
     },
-    34: {
+    34: { // Referred from Citaro
         1: {
             front: {
                 renderType: "standardService",
@@ -855,7 +917,7 @@ EDSData.GASG = {
             }
         }
     },
-    "34A": {
+    "34A": { // Referred from Citaro
         1: {
             front: {
                 renderType: "standardService",
@@ -877,7 +939,7 @@ EDSData.GASG = {
             }
         }
     },
-    "34B": {
+    "34B": { // Referred from Citaro
         1: {
             front: {
                 renderType: "standardService",
@@ -899,7 +961,7 @@ EDSData.GASG = {
             }
         }
     },
-    36: {
+    36: { // Referred from Citaro
         1: {
             front: {
                 renderType: "standardService",
@@ -958,7 +1020,7 @@ EDSData.GASG = {
             }
         }
     },
-    "36A": {
+    "36A": { // Referred from Citaro
         1: {
             front: {
                 renderType: "standardService",
@@ -990,7 +1052,7 @@ EDSData.GASG = {
             }
         }
     },
-    "36B": {
+    "36B": { // Referred from Citaro
         1: {
             front: {
                 renderType: "standardService",
@@ -1025,7 +1087,7 @@ EDSData.GASG = {
             }
         }
     },
-    "36T": {
+    "36T": { // Referred from Citaro
         1: {
             front: {
                 renderType: "standardService",
@@ -1321,7 +1383,13 @@ EDSData.GASG = {
                     "PUNGGOL FIELD / EAST",
                     "SENGKANG EAST DR",
                     "UPPER SERANGOON RD",
-
+                    "HOUGANG AVE 8 / 10",
+                    "HOUGANG MRT",
+                    "HOUGANG AVE 2 / 3 / 1",
+                    "LORONG AH SOO",
+                    "UPPER PAYA LEBAR RD",
+                    "TAI SENG MRT",
+                    "MACPHERSON RD"
                 ],
                 scrollFont: "Hanover-7:5"
             },
@@ -1448,7 +1516,10 @@ EDSData.GASG = {
         
                     serviceNumber: "82"
                 },
-                    "UPPER SERANGOON RD"
+                    "PUNGGOL RD", 
+                    "HOUGANG AVE 10", 
+                    "HOUGANG AVE 2", 
+                    "UPPER SERANGOON RD", 
                 ],
                 scrollFont: "Hanover-7:5"
             },
@@ -1472,7 +1543,10 @@ EDSData.GASG = {
         
                     serviceNumber: "82"
                 },
-                    "UPPER SERANGOON RD"
+                    "UPPER SERANGOON RD",
+                    "HOUGANG AVE 2",
+                    "HOUGANG AVE 10",
+                    "PUNGGOL RD"
                 ],
                 scrollFont: "Hanover-7:5"
             },
@@ -1636,6 +1710,7 @@ EDSData.GASG = {
         
                     serviceNumber: "85"
                 },
+                    "KHATIB MRT",
                     "SLE",
                     "JALAN KAYU",
                     "SENGKANG WEST WAY",
@@ -1672,7 +1747,8 @@ EDSData.GASG = {
                 },
                     "YISHUN AVE 2",
                     "JALAN KAYU",
-                    "SENGKANG WEST WAY"
+                    "SENGKANG WEST WAY",
+                    "SENGKANG EAST WAY"
                 ],
                 scrollFont: "Hanover-7:5"
             },
@@ -1819,8 +1895,9 @@ EDSData.GASG = {
         
                     serviceNumber: "119"
                 },
-                    "PUNGGOL FIELD / WAY",
+                    "PUNGGOL FIELD",
                     "SENGKANG MRT",
+                    "SENGKANG EAST WAY",
                     "RIVERVALE DRIVE",
                     "PUNGGOL RD",
                     "HOUGANG AVE 10 / 8",
@@ -1852,8 +1929,9 @@ EDSData.GASG = {
                     "HOUGANG AVE 8 / 10",
                     "PUNGGOL RD",
                     "RIVERVALE DRIVE",
+                    "SENGKANG EAST WAY",
                     "SENGKANG MRT",
-                    "PUNGGOL WAY / FIELD"
+                    "PUNGGOL FIELD"
                 ],
                 scrollFont: "Hanover-7:5"
             },
@@ -1919,7 +1997,13 @@ EDSData.GASG = {
         
                     serviceNumber: "136"
                 },
-                    "SERANGOON GARDEN WAY"
+                    "ANG MO KIO AVE 3 / 6 / 1",
+                    "SERANGOON GARDENS",
+                    "YIO CHU KANG RD",
+                    "UPPER SERANGOON RD",
+                    "RIVERVALE DR",
+                    "PUNGGOL RD",
+                    "PUNGGOL CENTRAL"
                 ],
                 scrollFont: "Hanover-7:5"
             },
@@ -1941,7 +2025,7 @@ EDSData.GASG = {
             }
         }
     },
-    354: {
+    354: { // Referred from Citaro
         1: {
             front: {
                 renderType: "standardService",
@@ -1969,7 +2053,7 @@ EDSData.GASG = {
             }
         }
     },
-    358: {
+    358: { // Referred from Citaro
         1: {
             front: {
                 renderType: "standardService",
@@ -1999,7 +2083,7 @@ EDSData.GASG = {
             }
         }
     },
-    "358T": {
+    "358T": { // Referred from Citaro
         1: {
             front: {
                 renderType: "standardService",
@@ -2019,7 +2103,7 @@ EDSData.GASG = {
             }
         }
     },
-    359: {
+    359: { // Referred from Citaro
         1: {
             front: {
                 renderType: "standardService",
@@ -2051,7 +2135,7 @@ EDSData.GASG = {
             }
         }
     },
-    "359T": {
+    "359T": { // Referred from Citaro
         1: {
             front: {
                 renderType: "standardService",
@@ -2085,7 +2169,10 @@ EDSData.GASG = {
         
                     serviceNumber: "381"
                 },
-                 "PUNGGOL EAST (LOOP)"
+                 "PUNGGOL WAY",
+                 "PUNGGOL CENTRAL / MRT",
+                 "EDGEFIELD PLAINS",
+                 "PUNGGOL FIELD / EAST",
                 ],
                 scrollFont: "Hanover-7:5"
             },
@@ -2193,8 +2280,10 @@ EDSData.GASG = {
                         serviceNumber: "384"
                     },
                  "PUNGGOL CENTRAL",
+                 "SENTUL CRESCENT",
                  "PUNGGOL WAY",
-                 "NORTHSHORE DRIVE"
+                 "NORTHSHORE DRIVE",
+                 "NEW PUNGGOL RD"
                 ],
                 scrollFont: "Hanover-7:5"
             },
@@ -2220,7 +2309,10 @@ EDSData.GASG = {
             
                         serviceNumber: "386"
                     },
-                 "PUNGGOL FIELD"
+                 "PUNGGOL CENTRAL",
+                 "EDGEFIELD PLAINS",
+                 "PUNGGOL FIELD",
+                 "PUNGGOL EAST"
                 ],
                 scrollFont: "Hanover-7:5"
             },
@@ -2253,7 +2345,7 @@ EDSData.GASG = {
             }
         }
     },
-    403: {
+    403: { // Referred from Citaro
         1: {
             front: {
                 renderType: "standardService",
