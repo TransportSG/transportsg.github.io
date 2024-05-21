@@ -1928,7 +1928,7 @@ EDSData.TTSG = {
                     serviceNumber: "106",
                     top: "Hop on this bus to",
                     topFont: "Mobitec-Tower6:4",
-                    bottom: "MBS & Lau Pa Sat",
+                    bottom: "Orchard & MBS",
                     bottomFont: "Mobitec-Tower6:4",
                 },
                 {
@@ -1964,7 +1964,7 @@ EDSData.TTSG = {
                     serviceNumber: "106",
                     top: "Hop on this bus to",
                     topFont: "Mobitec-Tower6:4",
-                    bottom: "Lau Pa Sat & MBS",
+                    bottom: "MBS & Orchard",
                     bottomFont: "Mobitec-Tower6:4",
                 },
                 {
