@@ -1700,7 +1700,7 @@ EDSData.GASG = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "83T",
-                font: "LECIP-20:9",
+                font: "Lecip-GoAhead20:9",
                 spacing: 2
             }
         }
@@ -2679,14 +2679,10 @@ EDSData.GASG = {
                 image: "ExpressLogo"
             },
             rear: { 
-                renderType: "twoline",
-                top: "ON",
-                topFont: "LECIP-6:4",
-                topSpacing: 1,
-
-                bottom: "TEST",
-                bottomFont: "LECIP-6:4",
-                bottomSpacing: 1,
+                renderType: "rearService",
+                serviceNumber: "43",
+                font: "Lecip-GoAhead20:12",
+                spacing: 2
             }
         }
     },
