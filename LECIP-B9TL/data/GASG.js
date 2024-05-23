@@ -2843,23 +2843,24 @@ EDSData.GASG = {
                 bottomSpacing: 1,
             },
             rear: {
-                renderType: "standardService",
-                serviceNumber: "",
-                destination: "GO-AHEAD",
-                destinationFont: "LECIP-6:3",
-                scrolls: [{
-                    renderType: "destScroll",
-                    top: "~",
-                    topFont: "LECIP-19:GoAheadB9Front",
-        
-                    serviceNumber: ""
+                rear: {
+                    renderType: "standardService",
+                    serviceNumber: "",
+                    destination: "~",
+                    destinationFont: "Lecip-GoAhead20:12",
+                    scrolls: [{
+                        renderType: "logo",
+                        text: "Go Ahead Logo",
+                        image: "GoAheadWordingRear",
+            
+                        serviceNumber: ""
+                    },
+                        ""
+                    ],
+                    scrollFont: "LECIP-7:5"
                 },
-                    "S'PORE"
-                ],
-                scrollFont: "LECIP-6:3"
             }
-        }
-    },
+        },
     4000: {
         1: {
             front: { 
