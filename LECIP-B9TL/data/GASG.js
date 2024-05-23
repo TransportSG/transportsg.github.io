@@ -38,6 +38,14 @@ EDSFormats.GASG = {
 
         text: "$destination"
     },
+    logo: {
+        logo: {
+            align: "centre-x,bottom",
+            image: "$image"
+        },
+
+        text: "$text"
+    },
     message: {
         display: {
             align: "centre-x,centre-y",
@@ -332,14 +340,12 @@ EDSData.GASG = {
     "2B": {
         1: {
             front: {
-                renderType: "standardService",
+                renderType: "destScrollWithImage",
                 serviceNumber: "2B",
-                destination: "TERMINATING AT",
-                destinationFont: "Hanover-10",
-                scrolls: [
-                    "BEDOK STN EXIT A"
-                ],
-                scrollFont: "Hanover-7:5"
+                top: "TERMINATING AT",
+                topFont: "Lecip-GoAhead8:6:2",
+                bottom: "BEDOK STN EXIT A",
+                bottomFont: "Lecip-GoAhead8:6:2",
             },
             rear: {
                 renderType: "rearService",
@@ -490,13 +496,20 @@ EDSData.GASG = {
                 destination: "PASIR RIS DR 12",
                 destinationFont: "Hanover-10",
                 scrolls: [{
-                    renderType: "centreMessageServiceScroll",
+                    renderType: "destScrollWithImage",
                     serviceNumber: "3A",
                     top: "TERMINATING AT",
-                    topFont: "Hanover-10",
-
+                    topFont: "Lecip-GoAhead8:6:2",
                     bottom: "PASIR RIS DR 12",
-                    bottomFont: "Hanover-7:5"
+                    bottomFont: "Lecip-GoAhead8:6:2",
+                },
+                {
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "3A",
+                    top: "TERMINATING AT",
+                    topFont: "Lecip-GoAhead8:6:2",
+                    bottom: "PASIR RIS DR 12",
+                    bottomFont: "Lecip-GoAhead8:6:2",
                 },
                     "TAMPINES ST 21",
                     "TAMPINES EAST MRT",
@@ -510,7 +523,60 @@ EDSData.GASG = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "3A",
-                font: "LECIP-20:12",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    "3B": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "3B",
+                destination: "PASIR RIS INT",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "3B",
+                    top: "TERMINATING AT",
+                    topFont: "Lecip-GoAhead8:6:2",
+                    bottom: "PASIR RIS INT",
+                    bottomFont: "Lecip-GoAhead8:6:2",
+                },
+                "PASIR RIS ST 71",
+                "PASIR RIS DR 1"
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "3B",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "3B",
+                destination: "TERMINATING AT",
+                destinationFont: "Lecip-GoAhead8:6:2",
+                scrolls: [{
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "3B",
+                    top: "TERMINATING AT",
+                    topFont: "Lecip-GoAhead8:6:2",
+                    bottom: "PASIR RIS INT",
+                    bottomFont: "Lecip-GoAhead8:6:2",
+                },
+                "PASIR RIS INT",
+                ],
+                scrollFont: "Lecip-GoAhead8:6:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "3B",
+                font: "LECIP-20:9",
                 spacing: 2
             }
         }
@@ -622,11 +688,13 @@ EDSData.GASG = {
                 destination: "KAMPONG BAHRU",
                 destinationFont: "Hanover-10",
                 scrolls: [{
-                    renderType: "destScroll",
-                    top: "KAMPONG BAHRU",
-                    topFont: "LECIP-10",
-        
-                    serviceNumber: "12e"
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "12e",
+                    top: "Kampong",
+                    topFont: "Lecip-GoAhead8:6:2",
+                    bottom: "Bahru",
+                    bottomFont: "Lecip-GoAhead8:6:2",
+                    image: "ExpressLogo-49",
                 },
                     "PASIR RIS DR 6 / 1",
                     "TAMPINES AVE 7 / 2",
@@ -653,11 +721,11 @@ EDSData.GASG = {
                 destination: "PASIR RIS",
                 destinationFont: "Hanover-10",
                 scrolls: [{
-                    renderType: "destScroll",
-                    top: "PASIR RIS",
-                    topFont: "LECIP-10",
-        
-                    serviceNumber: "12e"
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "12e",
+                    top: "Pasir Ris",
+                    topFont: "Lecip-GoAhead9:6",
+                    image: "ExpressLogo-49",
                 },
                     "CLARKE QUAY",
                     "BUGIS",
@@ -1152,17 +1220,17 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "36T",
-                destination: "ENDS AT",
-                destinationFont: "Hanover-10",
+                destination: "TERMINATING AT",
+                destinationFont: "Lecip-GoAhead8:6:2",
                 scrolls: [
                     "CHANGI AIRPORT T2"
                 ],
-                scrollFont: "Hanover-7:5"
+                scrollFont: "Lecip-GoAhead8:6:2"
             },
             rear: {
                 renderType: "rearService",
                 serviceNumber: "36T",
-                font: "LECIP-20:9",
+                font: "Lecip-GoAhead20:9",
                 spacing: 2
             }
         }
@@ -1250,10 +1318,10 @@ EDSData.GASG = {
                     renderType: "destScrollWithImage",
                     serviceNumber: "43e",
                     top: "Marine",
-                    topFont: "Lecip-GoAhead8:6",
+                    topFont: "Lecip-GoAhead8:6:1",
                     bottom: "Parade",
-                    bottomFont: "Lecip-GoAhead8:6",
-                    image: "ExpressLogo"
+                    bottomFont: "Lecip-GoAhead8:6:1",
+                    image: "ExpressLogo-49"
                 },
                 {
                     renderType: "destScrollWithImage",
@@ -1289,7 +1357,7 @@ EDSData.GASG = {
                     serviceNumber: "43e",
                     top: "Punggol",
                     topFont: "Hanover-GoAhead14:6",
-                    image: "ExpressLogo"
+                    image: "ExpressLogo-49"
                 },
                     "TANJONG KATONG RD",
                     "PAYA LEBAR RD",
@@ -1442,13 +1510,12 @@ EDSData.GASG = {
                 destination: "ALJUNIED MRT",
                 destinationFont: "Hanover-10",
                 scrolls: [{
-                    renderType: "centreMessageServiceScroll",
+                    renderType: "destScrollWithImage",
                     serviceNumber: "62A",
                     top: "TERMINATING AT",
-                    topFont: "Hanover-10",
-
+                    topFont: "Lecip-GoAhead8:6:2",
                     bottom: "ALJUNIED MRT",
-                    bottomFont: "LECIP-7:5"
+                    bottomFont: "Lecip-GoAhead8:6:2",
                 },
                     "PUNGGOL FIELD / EAST",
                     "SENGKANG EAST DR",
@@ -1535,14 +1602,12 @@ EDSData.GASG = {
     "68A": {
         1: {
             front: {
-                renderType: "standardService",
+                renderType: "destScrollWithImage",
                 serviceNumber: "68A",
-                destination: "TERMINATING AT",
-                destinationFont: "Hanover-10",
-                scrolls: [
-                    "TAMPINES INT"
-                ],
-                scrollFont: "Hanover-7:5"
+                top: "TERMINATING AT",
+                topFont: "Lecip-GoAhead8:6:2",
+                bottom: "TAMPINES INT",
+                bottomFont: "Lecip-GoAhead8:6:2",
             },
             rear: {
                 renderType: "rearService",
@@ -1558,17 +1623,33 @@ EDSData.GASG = {
                 renderType: "standardService",
                 serviceNumber: "68B",
                 destination: "TERMINATING AT",
-                destinationFont: "Hanover-10",
-                scrolls: [
-                    "TAMPINES AVE 11"
+                destinationFont: "Lecip-GoAhead8:6:2",
+                scrolls: [{
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "68B",
+                    top: "TERMINATING AT",
+                    topFont: "Lecip-GoAhead8:6:2",
+                    bottom: "TAMPINES AVE 11",
+                    bottomFont: "Lecip-GoAhead8:6:2",
+                },
+                {
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "68B",
+                    top: "TERMINATING AT",
+                    topFont: "Lecip-GoAhead8:6:2",
+                    bottom: "REEBONZ BLDG",
+                    bottomFont: "Lecip-GoAhead8:6:2",
+                },
+                "TAMPINES AVE 11",
+                "REEBONZ BLDG",
                 ],
-                scrollFont: "Hanover-7:5"
+                scrollFont: "Lecip-GoAhead8:6:2"
             },
             rear: {
                 renderType: "rearService",
                 serviceNumber: "68B",
                 font: "Lecip-GoAhead20:9",
-                spacing: 3
+                spacing: 2
             }
         }
     },
@@ -1688,14 +1769,12 @@ EDSData.GASG = {
     "83T": {
         1: {
             front: {
-                renderType: "standardService",
+                renderType: "destScrollWithImage",
                 serviceNumber: "83T",
-                destination: "TERMINATING AT",
-                destinationFont: "Hanover-10",
-                scrolls: [
-                    "SENGKANG INT"
-                ],
-                scrollFont: "LECIP-7:5"
+                top: "TERMINATING AT",
+                topFont: "Lecip-GoAhead8:6:2",
+                bottom: "SENGKANG INT",
+                bottomFont: "Lecip-GoAhead8:6:2",
             },
             rear: {
                 renderType: "rearService",
@@ -2155,14 +2234,12 @@ EDSData.GASG = {
     "358T": { // Referred from Citaro
         1: {
             front: {
-                renderType: "standardService",
+                renderType: "destScrollWithImage",
                 serviceNumber: "358T",
-                destination: "TERMINATING AT",
-                destinationFont: "Hanover-10",
-                scrolls: [
-                 "PASIR RIS INT"
-                ],
-                scrollFont: "Hanover-7:5"
+                top: "TERMINATING AT",
+                topFont: "Lecip-GoAhead8:6:2",
+                bottom: "PASIR RIS INT",
+                bottomFont: "Lecip-GoAhead8:6:2",
             },
             rear: {
                 renderType: "rearService",
@@ -2207,14 +2284,12 @@ EDSData.GASG = {
     "359T": { // Referred from Citaro
         1: {
             front: {
-                renderType: "standardService",
+                renderType: "destScrollWithImage",
                 serviceNumber: "359T",
-                destination: "TERMINATING AT",
-                destinationFont: "Hanover-10",
-                scrolls: [
-                 "PASIR RIS INT"
-                ],
-                scrollFont: "Hanover-7:5"
+                top: "TERMINATING AT",
+                topFont: "Lecip-GoAhead8:6:2",
+                bottom: "PASIR RIS INT",
+                bottomFont: "Lecip-GoAhead8:6:2",
             },
             rear: {
                 renderType: "rearService",
@@ -2319,12 +2394,27 @@ EDSData.GASG = {
                 renderType: "standardService",
                 serviceNumber: "382A",
                 destination: "TERMINATING AT",
-                destinationFont: "Hanover-10",
-                scrolls: [
-                 "SUMANG LANE",
-                 "BLK 226A"
+                destinationFont: "Lecip-GoAhead8:6:2",
+                scrolls: [{
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "382A",
+                    top: "TERMINATING AT",
+                    topFont: "Lecip-GoAhead8:6:2",
+                    bottom: "SUMANG LANE",
+                    bottomFont: "Lecip-GoAhead8:6:2",
+                },
+                {
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "382A",
+                    top: "TERMINATING AT",
+                    topFont: "Lecip-GoAhead8:6:2",
+                    bottom: "BLK 226A",
+                    bottomFont: "Lecip-GoAhead8:6:2",
+                },
+                "SUMANG LANE",
+                "BLK 226A",
                 ],
-                scrollFont: "Hanover-7:5"
+                scrollFont: "Lecip-GoAhead8:6:2"
             },
             rear: {
                 renderType: "rearService",
@@ -2399,12 +2489,27 @@ EDSData.GASG = {
                 renderType: "standardService",
                 serviceNumber: "386A",
                 destination: "TERMINATING AT",
-                destinationFont: "Hanover-10",
-                scrolls: [
-                 "EDGEDALE PLAINS",
-                 "BLK 682A"
+                destinationFont: "Lecip-GoAhead8:6:2",
+                scrolls: [{
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "386A",
+                    top: "TERMINATING AT",
+                    topFont: "Lecip-GoAhead8:6:2",
+                    bottom: "EDGEDALE PLAINS",
+                    bottomFont: "Lecip-GoAhead8:6:2",
+                },
+                {
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "386A",
+                    top: "TERMINATING AT",
+                    topFont: "Lecip-GoAhead8:6:2",
+                    bottom: "BLK 682A",
+                    bottomFont: "Lecip-GoAhead8:6:2",
+                },
+                "EDGEDALE PLAINS",
+                "BLK 682A",
                 ],
-                scrollFont: "Hanover-7:5"
+                scrollFont: "Lecip-GoAhead8:6:2"
             },
             rear: {
                 renderType: "rearService",
@@ -2451,11 +2556,11 @@ EDSData.GASG = {
                 destination: "BAYFRONT",
                 destinationFont: "Hanover-10",
                 scrolls: [{
-                    renderType: "destScroll",
-                    top: "BAYFRONT",
-                    topFont: "LECIP-10",
-        
-                    serviceNumber: "518"
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "518",
+                    top: "Bayfront",
+                    topFont: "Lecip-GoAhead9:6",
+                    image: "ExpressLogo-51",
                 },
                     "PASIR RIS DR 3 / 12",
                     "TAMPINES AVE 7",
@@ -2481,11 +2586,11 @@ EDSData.GASG = {
                 destination: "PASIR RIS",
                 destinationFont: "Hanover-10",
                 scrolls: [{
-                    renderType: "destScroll",
-                    top: "PASIR RIS",
-                    topFont: "LECIP-10",
-        
-                    serviceNumber: "518"
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "518",
+                    top: "Pasir Ris",
+                    topFont: "Lecip-GoAhead9:6",
+                    image: "ExpressLogo-51",
                 },
                     "ORCHARD RD",
                     "SUNTEC CITY",
@@ -2513,12 +2618,28 @@ EDSData.GASG = {
                 serviceNumber: "518A",
                 destination: "BAYFRONT",
                 destinationFont: "Hanover-10",
-                scrolls: [
-                    "PASIR RIS DR 3 / 1",
-                    "LOYANG AVE",
-                    "ORCHARD RD",
-                    "SUNTEC CITY",
-                    "(SKIPS TAMPINES)"
+                scrolls: [{
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "518A",
+                    top: "ENDS AT",
+                    topFont: "Hanover-7:5",
+                    bottom: "BAYFRONT",
+                    bottomFont: "Hanover-7:5",
+                    image: "ExpressLogo-51"
+                },
+                {
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "518A",
+                    top: "SKIPS",
+                    topFont: "Hanover-7:5",
+                    bottom: "TAMPINES",
+                    bottomFont: "Hanover-7:5",
+                    image: "ExpressLogo-51"
+                },
+                 "PASIR RIS DR 3 / 1",
+                 "LOYANG AVE",
+                 "ORCHARD RD",
+                 "SUNTEC CITY",
                 ],
                 scrollFont: "Hanover-7:5"
             },
@@ -2671,12 +2792,10 @@ EDSData.GASG = {
         1: {
             front: {
                 renderType: "destScrollWithImage",
-                serviceNumber: "43e",
-                top: "Marine",
-                topFont: "Lecip-GoAhead8:6",
-                bottom: "Parade",
-                bottomFont: "Lecip-GoAhead8:6",
-                image: "ExpressLogo"
+                serviceNumber: "12e",
+                top: "Bayfront",
+                topFont: "Lecip-GoAhead9:6",
+                image: "ExpressLogo-51",
             },
             rear: { 
                 renderType: "rearService",
@@ -2689,26 +2808,25 @@ EDSData.GASG = {
     2222: {
         1: {
             front: { 
-                renderType: "message",
-                text: "GO AHEAD SINGAPORE",
-                font: "Hanover-10",
-                spacing: 1
+                renderType: "logo",
+                text: "Go Ahead Logo",
+                image: "GoAheadLogoFull"
             },
             rear: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "GO-AHEAD",
-                destinationFont: "LECIP-6:3",
+                destination: "~",
+                destinationFont: "Lecip-GoAhead20:12",
                 scrolls: [{
-                    renderType: "destScroll",
-                    top: "~",
-                    topFont: "LECIP-19:GoAheadB9Front",
+                    renderType: "logo",
+                    text: "Go Ahead Logo",
+                    image: "GoAheadWordingRear",
         
                     serviceNumber: ""
                 },
-                    "S'PORE"
+                    ""
                 ],
-                scrollFont: "LECIP-6:3"
+                scrollFont: "LECIP-7:5"
             },
         }
     },
@@ -3383,6 +3501,72 @@ EDSData.GASG = {
 EDSImages.GASG = {
     blank: [[]
     ],
+    'GoAheadLogoFull': [
+        [0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0],
+        [0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0],
+        [0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,1,0,0,1,1,0,1,1,0,0,0,0,1,1,1,0,0,0,0,1,1,1,1,1,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0],
+        [1,1,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,1,0,0,1,1,1,0,1,1,0,0,1,1,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0],
+        [1,1,0,0,1,1,1,1,0,0,1,1,0,0,1,1,0,0,1,1,1,1,1,1,0,0,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,1,1,0,0,1,1,0,1,1,0,0,0,1,1,0,1,1,0,0,0,1,1,0,0,0,0,0,1,1,0,1,1,1,1,1,1,1,1,0,0,0],
+        [1,1,0,0,0,0,1,1,0,1,1,0,0,0,1,1,0,0,1,1,1,1,0,0,0,0,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,1,1,1,1,1,0,0,1,1,0,0,0,1,1,0,1,1,0,0,0,1,1,0,0,0,0,1,1,0,0,1,1,1,0,1,1,0,0,1,0,0],
+        [1,1,0,0,0,0,1,1,0,1,1,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,1,1,0,0,1,1,0,0,1,1,0,0,0,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,0,0,0,1,0,1,0,1,1,1,0,1,1,1,1,1,1,0],
+        [1,1,0,0,0,1,1,0,0,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,0,1,1,0,0,1,1,0,0,1,1,0,0,0,0,0,1,1,0,1,1,1,0,0,1,1,0,1,1,1,0,0,0,0,1,1,0,1,0,0,1,1,1,0,1,1,1,1,1,0],
+        [0,1,1,1,1,1,1,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,0,1,1,0,0,1,1,0,0,0,1,1,1,1,0,0,0,1,1,0,1,1,0,0,0,1,1,0,1,1,0,0,0,0,1,0,0,1,0,0,0,1,1,1,0,1,1,1,0,0],
+        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,1,0,1,1,1,1,0],
+        [0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,1,0,1,1,0,0],
+        [0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,1,0,0,0,0],
+        [0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,1,1,0,0,0,0,1,1,1,0,1,0,0,1,1,1,0,0,0,1,0,1,1,0,0,0,0,1,1,1,0,0,0,1,0,1,1,0,0,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,1,0,0,0],
+        [0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,1,0,0,1,0,0,1,0,0,0,1,0,0,1,0,0,0,1,0,0,1,1,0,0,1,0,0,1,0,0,0,1,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,1,1,0,0],
+        [0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,1,1,1,0,0,0,0,1,1,1,1,0,0,1,0,0,0,1,0,1,0,0,0,0,1,0,0,1,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,1,1,0,1,1,0,0,0,0,0,1,1,0],
+        [0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,1,0,0,1,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,1,0,0,0,0,1,1,0],
+        [0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,1,0,0,0,1,0,0,0,1,1,1,1,0,0,1,0,0,1,1,0,0,1,1,1,1,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,1,0,0,0,0,0,1,1],
+        [0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,1,0,0,0,1,0,0,1,0,0,0,0,1,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,1,1,0,0,1,1,0,0,0,0,1,1],
+        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,1,0,0,0,0,1,1],
+        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,1,0,0,0,0,1],
+    ],
+    'GoAheadLionHead': [
+        [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0],
+        [0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0],
+        [0, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0],
+        [0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 1, 0, 0],
+        [0, 1, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0],
+        [1, 1, 0, 1, 0, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0],
+        [1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0],
+        [1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 1, 0],
+        [0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0],
+        [0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0],
+        [0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0],
+        [0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0],
+        [0, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0],
+        [0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0],
+        [0, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1],
+        [0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1],
+        [0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 1, 1],
+        [0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1],
+    ],
+    'GoAheadWordingRear': [
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1],
+        [1, 0, 1, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1],
+        [1, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 1, 0, 1],
+        [1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1],
+        [0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    ],
     'CityDirect': [
         [1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,1,1,0,0,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
         [1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,0,0,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
@@ -3400,8 +3584,8 @@ EDSImages.GASG = {
         [1,1,1,1,1,0,0,1,1,1,0,0,1,0,0,1,0,0,1,1,1,1,0,0,0,0,0,0,0,1,0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,1],
         [1,1,1,1,1,0,0,1,1,1,0,0,1,0,0,1,0,0,1,1,1,1,0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,1],
         [1,1,1,1,1,0,0,0,0,0,0,1,1,0,0,1,0,0,1,1,1,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,1,1,1,0,0,1,1,1,1,1],
-        ],
-    'ExpressLogo': [
+    ],
+    'ExpressLogo-49': [
         [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
         [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
         [1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
@@ -3410,17 +3594,37 @@ EDSImages.GASG = {
         [1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1],
         [1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1],
         [1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1],
-        [1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1],
-        [1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1],
-        [1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1],
+        [1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1],
+        [1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1],
+        [1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1],
         [1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1],
-        [1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1],
-        [1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1],
-        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1],
+        [1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1],
+        [1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
         [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
         [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
         [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
         [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
-    
+        ],
+        'ExpressLogo-51': [
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],            
+        [1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1],
+        [1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1],
+        [1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 1],
+        [1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1],
+        [1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1],
+        [1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1],
+        [1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1],
+        [1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 1],
+        [1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 1],
+        [1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1],
+        [1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],  
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],   
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],   
         ],
 }
