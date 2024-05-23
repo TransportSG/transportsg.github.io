@@ -2842,7 +2842,6 @@ EDSData.GASG = {
                 bottomFont: "LECIP-7:5",
                 bottomSpacing: 1,
             },
-            rear: {
                 rear: {
                     renderType: "standardService",
                     serviceNumber: "",
