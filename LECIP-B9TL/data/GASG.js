@@ -1065,7 +1065,22 @@ EDSData.GASG = {
                 serviceNumber: "34A",
                 destination: "TAMPINES AVE 5",
                 destinationFont: "Hanover-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "34A",
+                    top: "TERMINATING AT",
+                    topFont: "Lecip-GoAhead8:6:2",
+                    bottom: "TAMPINES AVE 5",
+                    bottomFont: "Lecip-GoAhead8:6:2",
+                },
+                {
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "34A",
+                    top: "TERMINATING AT",
+                    topFont: "Lecip-GoAhead8:6:2",
+                    bottom: "OPP OUR TAMPINES HUB",
+                    bottomFont: "Hanover-7:5",
+                },
                     "PUNGGOL RD",
                     "TPE",
                     "TAMPINES AVE 10"
@@ -1087,7 +1102,22 @@ EDSData.GASG = {
                 serviceNumber: "34B",
                 destination: "TAMPINES AVE 10",
                 destinationFont: "Hanover-10",
-                scrolls: [
+                scrolls: [{
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "34B",
+                    top: "TERMINATING AT",
+                    topFont: "Lecip-GoAhead8:6:2",
+                    bottom: "TAMPINES AVE 10",
+                    bottomFont: "Lecip-GoAhead8:6:2",
+                },
+                {
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "34B",
+                    top: "TERMINATING AT",
+                    topFont: "Lecip-GoAhead8:6:2",
+                    bottom: "TAMPINES WATER FAB PK",
+                    bottomFont: "Hanover-7:5",
+                },
                     "TAMPINES AVE 5 / 2 / 7",
                     "CHANGI AIRPORT",
                     "TAMPINES AVE 7 / 2 / 5"
