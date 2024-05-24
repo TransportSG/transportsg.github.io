@@ -324,15 +324,28 @@ EDSData.GASG = {
                 serviceNumber: "2A",
                 destination: "TANAH MERAH MRT",
                 destinationFont: "Hanover-10",
-                scrolls: [
-                    "EU TONG SEN ST"
+                scrolls: [{
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "2A",
+                    top: "TERMINATING AT",
+                    topFont: "Lecip-GoAhead8:6:2",
+                    bottom: "TANAH MERAH MRT",
+                    bottomFont: "Lecip-GoAhead8:6:2",
+                },
+                "CHINATOWN / CLARKE QUAY",
+                "HILL ST / VICTORIA ST",
+                "BUGIS / LAVENDER MRT",
+                "KALLANG MRT",
+                "SIMS AVE",
+                "EUNOS / KEMBANGAN MRT",
+                "BEDOK / TANAH MERAH MRT",
                 ],
                 scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",
                 serviceNumber: "2A",
-                font: "LECIP-20:12",
+                font: "LECIP-20:9",
                 spacing: 2
             }
         }
@@ -1156,13 +1169,20 @@ EDSData.GASG = {
                 destination: "TOMLINSON RD",
                 destinationFont: "Hanover-10",
                 scrolls: [{
-                    renderType: "centreMessageServiceScroll",
+                    renderType: "destScrollWithImage",
                     serviceNumber: "36A",
                     top: "TERMINATING AT",
-                    topFont: "Hanover-10",
-
+                    topFont: "Lecip-GoAhead8:6:2",
                     bottom: "TOMLINSON RD",
-                    bottomFont: "Hanover-7:5"
+                    bottomFont: "Lecip-GoAhead8:6:2",
+                },
+                {
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "36A",
+                    top: "TERMINATING AT",
+                    topFont: "Lecip-GoAhead8:6:2",
+                    bottom: "AFT CAUSCADEN RD",
+                    bottomFont: "Lecip-GoAhead8:6:2",
                 },
                     "MARINE PARADE RD",
                     "SUNTEC CITY",
@@ -1327,7 +1347,7 @@ EDSData.GASG = {
                     renderType: "destScrollWithImage",
                     serviceNumber: "43e",
                     top: "TERMINATING AT",
-                    topFont: "Hanover-10",
+                    topFont: "Lecip-GoAhead8:6:2",
                     bottom: "MARINE PARADE RD (OPP BLK 72)",
                     bottomFont: "Hanover-7:3",
                 },
@@ -2768,13 +2788,13 @@ EDSData.GASG = {
         1: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "136",
+                serviceNumber: "0",
                 destination: "TERMINATING AT",
-                destinationFont: "Mobitec-7:5:2",
+                destinationFont: "Lecip-GoAhead8:6:2",
                 scrolls: [
                     "BUANGKOK MRT",
                 ],
-                scrollFont: "Hanover-7:5"
+                scrollFont: "Lecip-GoAhead8:6:2"
             },
             rear: { 
                 renderType: "twoline",
@@ -2792,14 +2812,14 @@ EDSData.GASG = {
         1: {
             front: {
                 renderType: "destScrollWithImage",
-                serviceNumber: "12e",
+                serviceNumber: "518",
                 top: "Bayfront",
                 topFont: "Lecip-GoAhead9:6",
                 image: "ExpressLogo-51",
             },
             rear: { 
                 renderType: "rearService",
-                serviceNumber: "43",
+                serviceNumber: "518",
                 font: "Lecip-GoAhead20:12",
                 spacing: 2
             }
