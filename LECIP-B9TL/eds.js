@@ -2,7 +2,7 @@ window.frontEDS = null; window.rearEDS = null;
 
 let currentOperator = location.hash.slice(1) ? location.hash.slice(1) : 'SBST';
 
-let startupCodes = {'SMRT': '117', 'SBST': '2222', 'TTSG': '6666', 'GASG': '2223'}
+let startupCodes = {'SMRT': '117', 'SBST': '2222', 'TTSG': '6666', 'GASG': '1113'}
 
 let EDSFormats = {};
 let EDSData = {};

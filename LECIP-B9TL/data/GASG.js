@@ -247,6 +247,20 @@ EDSData.GASG = {
             rear: {
                 renderType: "full"
             }
+        },
+        2: {
+            front: {
+                renderType: "message",
+                text: "ALL",
+                font: "LECIP-20:12",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "ALL",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
         }
     },
     2: { 
@@ -564,7 +578,7 @@ EDSData.GASG = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "3B",
-                font: "LECIP-20:9",
+                font: "Lecip-GoAhead20:9",
                 spacing: 2
             }
         },
@@ -887,17 +901,27 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "15A",
-                destination: "TERMINATING AT",
+                destination: "JALAN EUNOS",
                 destinationFont: "Hanover-10",
-                scrolls: [
-                    "JALAN EUNOS"
+                scrolls: [{
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "15A",
+                    top: "TERMINATING AT",
+                    topFont: "Lecip-GoAhead8:6:2",
+                    bottom: "OPP EUNOS STN",
+                    bottomFont: "Lecip-GoAhead8:6:2",
+                },
+                    "PASIR RIS ST 52, DR 1 / 8",
+                    "TAMPINES AVE 7 / 4 / 5 / 1",
+                    "BEDOK RESERVOIR RD",
+                    "KAKI BUKIT AVE 1 / MRT"
                 ],
                 scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",
                 serviceNumber: "15A",
-                font: "LECIP-20:9",
+                font: "Lecip-GoAhead20:6",
                 spacing: 2
             }
         }
@@ -1238,13 +1262,12 @@ EDSData.GASG = {
                 destination: "SIGLAP RD",
                 destinationFont: "Hanover-10",
                 scrolls: [{
-                    renderType: "centreMessageServiceScroll",
+                    renderType: "destScrollWithImage",
                     serviceNumber: "36B",
-                    top: "TERMINATING AT SIGLAP RD",
-                    topFont: "LECIP-6:4",
-
-                    bottom: "(BEF SEASIDE RESIDENCES)",
-                    bottomFont: "LECIP-6:4"
+                    top: "TERMINATING AT",
+                    topFont: "Hanover-10",
+                    bottom: "SIGLAP RD (BEF SEASIDE RESIDENCE)",
+                    bottomFont: "Hanover-7:3",
                 },
                     "MARINE PARADE RD",
                     "SUNTEC CITY",
@@ -1935,13 +1958,12 @@ EDSData.GASG = {
                 destination: "SENGKANG EAST RD",
                 destinationFont: "Hanover-10",
                 scrolls: [{
-                    renderType: "centreMessageServiceScroll",
+                    renderType: "destScrollWithImage",
                     serviceNumber: "85A",
                     top: "TERMINATING AT",
-                    topFont: "LECIP-7:5",
-
-                    bottom: "SENGKANG EAST RD",
-                    bottomFont: "LECIP-7:5"
+                    topFont: "Lecip-GoAheadShortTripNonsenseFont",
+                    bottom: "sengkang east road",
+                    bottomFont: "Lecip-GoAheadShortTripNonsenseFont",
                 },
                     "YISHUN AVE 2",
                     "JALAN KAYU",
@@ -2027,13 +2049,20 @@ EDSData.GASG = {
                 destination: "SIMEI AVE",
                 destinationFont: "Hanover-10",
                 scrolls: [{
-                    renderType: "centreMessageServiceScroll",
+                    renderType: "destScrollWithImage",
                     serviceNumber: "118A",
                     top: "TERMINATING AT",
-                    topFont: "LECIP-7:5",
-
-                    bottom: "ITE COLL EAST ADM BLK",
-                    bottomFont: "LECIP-6:4"
+                    topFont: "Lecip-GoAhead8:6:2",
+                    bottom: "SIMEI AVE",
+                    bottomFont: "Lecip-GoAhead8:6:2",
+                },
+                {
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "118A",
+                    top: "TERMINATING AT",
+                    topFont: "Lecip-GoAhead8:6:2",
+                    bottom: "ite coll east adm blk",
+                    bottomFont: "Lecip-GoAheadShortTripNonsenseFont",
                 },
                     "TAMPINES AVE 10 / 8",
                     "TAMPINES AVE 1",
@@ -2044,7 +2073,7 @@ EDSData.GASG = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "118A",
-                font: "LECIP-20:6",
+                font: "Lecip-GoAhead20:6",
                 spacing: 2
             }
         }
@@ -2057,13 +2086,12 @@ EDSData.GASG = {
                 destination: "tpe (bef punggol rd)",
                 destinationFont: "Lecip-GoAhead10:6",
                 scrolls: [{
-                    renderType: "centreMessageServiceScroll",
+                    renderType: "destScrollWithImage",
                     serviceNumber: "118B",
                     top: "TERMINATING AT",
-                    topFont: "LECIP-7:5",
-
+                    topFont: "Lecip-GoAheadShortTripNonsenseFont",
                     bottom: "TPE (BEF PUNGGOL RD)",
-                    bottomFont: "LECIP-7:5"
+                    bottomFont: "Lecip-GoAheadShortTripNonsenseFont",
                 },
                     "TAMPINES AVE 1",
                     "TAMPINES AVE 8",
@@ -2074,7 +2102,7 @@ EDSData.GASG = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "118B",
-                font: "LECIP-20:6",
+                font: "Lecip-GoAhead20:6",
                 spacing: 2
             }
         }
@@ -2842,15 +2870,16 @@ EDSData.GASG = {
         1: {
             front: {
                 renderType: "destScrollWithImage",
-                serviceNumber: "518",
-                top: "Bayfront",
-                topFont: "Lecip-GoAhead9:6",
-                image: "ExpressLogo-51",
+                serviceNumber: "36B",
+                top: "TERMINATING AT",
+                topFont: "Hanover-10",
+                bottom: "SIGLAP RD (BEF SEASIDE RESIDENCE)",
+                bottomFont: "Hanover-7:3",
             },
             rear: { 
                 renderType: "rearService",
-                serviceNumber: "518",
-                font: "Lecip-GoAhead20:12",
+                serviceNumber: "358",
+                font: "Lecip-GoAhead20:9",
                 spacing: 2
             }
         }
