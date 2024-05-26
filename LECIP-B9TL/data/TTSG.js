@@ -149,6 +149,66 @@ EDSFormats.TTSG = {
         text: "$text"
         
     },
+    destScrollWithImage: {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 1
+            },
+            text: "$serviceNumber",
+            font: "LECIP-19:TowerB9Front",
+            spacing: 3
+        },
+        top: {
+            align: {
+                $$cond: {
+                    "$bottom === null": "centre-x,centre-y",
+                    "else": "centre-x,top"
+                }
+            },
+            text: "$top",
+            font: {
+                $$cond: {
+                    "$topFont === null": "Hanover-Tower11:7",
+                    "else": "$topFont"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber) - width(image)'
+            }
+        },
+        bottom: {
+            align: "centre-x,bottom",
+            text: {
+                $$cond: {
+                    "$bottom !== null": "$bottom",
+                    "else": "''"
+                }
+            },
+            font: {
+                $$cond: {
+                    "$bottomFont === null": "LECIP-7:5",
+                    "else": "$bottomFont"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber) - width(image)'
+            }
+        },
+        image: {
+            align: "left",
+            image: {
+                $$cond: {
+                    "$image !== null": "$image",
+                    "else": "blank"
+                }
+            }
+        },
+
+        text: "$top+' '+$bottom+' '+$serviceNumber"
+    },
     twolinerear: {
         top: {
             align: "centre-x,top",
@@ -1026,34 +1086,6 @@ EDSData.TTSG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "79",
-                destination: "JURONG EAST MRT",
-                destinationFont: "Hanover-Tower11:7",
-                scrolls: [                    
-                    "QUALITY RD",
-                    "THIRD CHIN BEE RD",
-                    "JURONG PORT RD",
-                    "TEBAN GARDENS RD",
-                {
-                    renderType: "destScroll",
-                    top: "JURONG EAST MRT",
-                    topFont: "Hanover-Tower12:7",
-            
-                    serviceNumber: "79"
-                },
-                ],
-                scrollFont: "LECIP-7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "79",
-                font: "LECIP-TowerRear17:10",
-                spacing: 2
-            }
-        },
-        2: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "79",
                 destination: "BOON LAY",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [                    
@@ -1068,8 +1100,52 @@ EDSData.TTSG = {
             
                     serviceNumber: "79"
                 },
+                {
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "79",
+                    top: "`",
+                    topFont: "Mobitec-Tower11:4",
+                    bottom: "~",
+                    bottomFont: "Mobitec-Tower11:4",
+                },
                     ],
                     scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "79",
+                font: "LECIP-TowerRear17:10",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "79",
+                destination: "JURONG TOWN HALL",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                    "QUALITY RD",
+                    "THIRD CHIN BEE RD",
+                    "JURONG PORT RD",
+                    "TEBAN GARDENS RD",
+                {
+                    renderType: "destScroll",
+                    top: "JURONG TOWN HALL",
+                    topFont: "Hanover-Tower12:7",
+            
+                    serviceNumber: "79"
+                },
+                {
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "79",
+                    top: "extend to jurong town hall int",
+                    topFont: "Mobitec-Tower11:4",
+                    bottom: "~",
+                    bottomFont: "Mobitec-Tower11:4",
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -1123,6 +1199,34 @@ EDSData.TTSG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "79",
+                destination: "JURONG EAST MRT",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                    "QUALITY RD",
+                    "THIRD CHIN BEE RD",
+                    "JURONG PORT RD",
+                    "TEBAN GARDENS RD",
+                {
+                    renderType: "destScroll",
+                    top: "JURONG EAST MRT",
+                    topFont: "Hanover-Tower12:7",
+            
+                    serviceNumber: "79"
+                },
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "79",
+                font: "LECIP-TowerRear17:10",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "79",
                 destination: "BOON LAY",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [                    
@@ -1139,34 +1243,6 @@ EDSData.TTSG = {
                 },
                     ],
                     scrollFont: "LECIP-7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "79",
-                font: "LECIP-TowerRear17:10",
-                spacing: 2
-            }
-        },
-        2: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "79",
-                destination: "JURONG TOWN HALL",
-                destinationFont: "Hanover-Tower11:7",
-                scrolls: [                    
-                    "QUALITY RD",
-                    "THIRD CHIN BEE RD",
-                    "JURONG PORT RD",
-                    "TEBAN GARDENS RD",
-                {
-                    renderType: "destScroll",
-                    top: "JURONG TOWN HALL",
-                    topFont: "Hanover-Tower12:7",
-            
-                    serviceNumber: "79"
-                },
-                ],
-                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -6229,24 +6305,25 @@ EDSData.TTSG = {
             }
         }
     },
-    1113: {
+    1119: {
         1: {
             front: {
-                renderType: "TowerSpecialEDS",
-                serviceNumber: "",
-                top: "SGUS",
-                topFont: "SGBusLogo-Mobitec",
-                bottom: "",
-                bottomFont: " ",
-                text: "SG🎔Bus Logo"
-            },
-            rear: {
-                renderType: 'twolinerear',
-                top: "~",
-                topFont: "SGBusLogo-Mobitec",
-
+                renderType: "destScrollWithImage",
+                serviceNumber: "79",
+                top: "`",
+                topFont: "Mobitec-Tower11:4",
                 bottom: "~",
-                bottomFont: "SGBusLogo-Mobitec"
+                bottomFont: "Mobitec-Tower11:4",
+            },
+            rear: { 
+                renderType: "twolinerear",
+                top: "ROUTE",
+                topFont: "LECIP-6:3",
+                topSpacing: 1,
+
+                bottom: "FAM. TRG",
+                bottomFont: "LECIP-6:3",
+                bottomSpacing: 1,
             }
         }
     },
