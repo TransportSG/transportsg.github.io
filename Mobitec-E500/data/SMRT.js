@@ -12764,12 +12764,27 @@ EDSData.SMRT = {
     },
     9834: {
         front: {
-            renderType: "destScroll",
+            renderType: "standardService",
             serviceNumber: "983M",
-            top: "TECK WHYE",
-            bottom: "CRESCENT",
-            topFont: "Mobitec-7:7",
-            bottomFont: "Mobitec-7:7"
+            destination: {
+                text: "TECK WHYE CRES",
+                font: "Mobitec-7:5:3"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "983M",
+                    top: "TECK WHYE",
+                    bottom: "CRESCENT",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
+                "C.C.K AVE 6, 1, 7",
+                "C.C.K GROVE",
+                "C.C.K WAY",
+                "C.C.K AVE 1",
+            ],
+            scrollFont: "Mobitec-7:5:3"
         }
     },
     9851: {
