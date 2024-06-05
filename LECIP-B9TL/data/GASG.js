@@ -103,6 +103,68 @@ EDSFormats.GASG = {
             },
             spacing: 1,
             margin: {
+                right: 'width(serviceNumber) - width(image)',
+                top: 1
+            }
+        },
+        bottom: {
+            align: "centre-x,bottom",
+            text: {
+                $$cond: {
+                    "$bottom !== null": "$bottom",
+                    "else": "''"
+                }
+            },
+            font: {
+                $$cond: {
+                    "$bottomFont === null": "Hanover-5:3",
+                    "else": "$bottomFont"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber) - width(image)',
+                bottom: 1
+            }
+        },
+        image: {
+            align: "left",
+            image: {
+                $$cond: {
+                    "$image !== null": "$image",
+                    "else": "blank"
+                }
+            }
+        },
+
+        text: "$top+' '+$bottom+' '+$serviceNumber"
+    },
+    destScrollWithImage2: {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 1
+            },
+            text: "$serviceNumber",
+            font: "LECIP-19:GoAheadB9Front",
+            spacing: 3
+        },
+        top: {
+            align: {
+                $$cond: {
+                    "$bottom === null": "centre-x,centre-y",
+                    "else": "centre-x,top"
+                }
+            },
+            text: "$top",
+            font: {
+                $$cond: {
+                    "$topFont === null": "Mobitec-9:6",
+                    "else": "$topFont"
+                }
+            },
+            spacing: 1,
+            margin: {
                 right: 'width(serviceNumber) - width(image)'
             }
         },
@@ -715,7 +777,7 @@ EDSData.GASG = {
                 destination: "KAMPONG BAHRU",
                 destinationFont: "Hanover-10",
                 scrolls: [{
-                    renderType: "destScrollWithImage",
+                    renderType: "destScrollWithImage2",
                     serviceNumber: "12e",
                     top: "Kampong",
                     topFont: "Lecip-GoAhead8:6:2",
@@ -748,7 +810,7 @@ EDSData.GASG = {
                 destination: "PASIR RIS",
                 destinationFont: "Hanover-10",
                 scrolls: [{
-                    renderType: "destScrollWithImage",
+                    renderType: "destScrollWithImage2",
                     serviceNumber: "12e",
                     top: "Pasir Ris",
                     topFont: "Lecip-GoAhead9:6",
@@ -1262,7 +1324,7 @@ EDSData.GASG = {
                 destination: "SIGLAP RD",
                 destinationFont: "Hanover-10",
                 scrolls: [{
-                    renderType: "destScrollWithImage",
+                    renderType: "destScrollWithImage2",
                     serviceNumber: "36B",
                     top: "TERMINATING AT",
                     topFont: "Hanover-10",
@@ -1388,7 +1450,7 @@ EDSData.GASG = {
                 destination: "MARINE PARADE",
                 destinationFont: "Hanover-10",
                 scrolls: [{
-                    renderType: "destScrollWithImage",
+                    renderType: "destScrollWithImage2",
                     serviceNumber: "43e",
                     top: "Marine",
                     topFont: "Lecip-GoAhead8:6:1",
@@ -1397,7 +1459,7 @@ EDSData.GASG = {
                     image: "ExpressLogo-49"
                 },
                 {
-                    renderType: "destScrollWithImage",
+                    renderType: "destScrollWithImage2",
                     serviceNumber: "43e",
                     top: "TERMINATING AT",
                     topFont: "Lecip-GoAhead8:6:2",
