@@ -1844,6 +1844,37 @@ EDSData.GASG = {
             }
         }
     },
+    "82F": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "82",
+                destination: "PUNGGOL-S'GOON CTRL",
+                destinationFont: "Mobitec-9:6",
+                scrolls: [{
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "82",
+                    top: "FIRST BUS",
+                    topFont: "Mobitec-7:5:3",
+                    bottom: "SERVICE",
+                    bottomFont: "Mobitec-7:5:3",
+                    image: "GoAheadLogoFull",
+                },
+                    "PUNGGOL RD", 
+                    "HOUGANG AVE 10", 
+                    "HOUGANG AVE 2", 
+                    "UPPER SERANGOON RD", 
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "82",
+                font: "Lecip-GoAhead20:12",
+                spacing: 3
+            }
+        }
+    },
     83: {
         1: {
             front: {
@@ -2921,21 +2952,6 @@ EDSData.GASG = {
                 bottom: "TEST",
                 bottomFont: "LECIP-6:4",
                 bottomSpacing: 1,
-            }
-        }
-    },
-    1113: {
-        1: {
-            front: {
-                renderType: "logo",
-                text: "Go Ahead Logo",
-                image: "136Rear"
-            },
-            rear: { 
-                renderType: "rearService",
-                serviceNumber: "136",
-                font: "Lecip-GoAhead20:9",
-                spacing: 2
             }
         }
     },
