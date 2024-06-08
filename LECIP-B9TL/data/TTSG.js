@@ -1088,7 +1088,15 @@ EDSData.TTSG = {
                 serviceNumber: "79",
                 destination: "BOON LAY",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [                    
+                scrolls: [    
+                    {
+                        renderType: "destScrollWithImage",
+                        serviceNumber: "79",
+                        top: "`",
+                        topFont: "Mobitec-Tower11:4",
+                        bottom: "~",
+                        bottomFont: "Mobitec-Tower11:4",
+                    },                
                     "TEBAN GARDENS RD",
                     "JURONG PORT RD",
                     "THIRD CHIN BEE RD",
@@ -1099,14 +1107,6 @@ EDSData.TTSG = {
                     topFont: "Hanover-Tower12:7",
             
                     serviceNumber: "79"
-                },
-                {
-                    renderType: "destScrollWithImage",
-                    serviceNumber: "79",
-                    top: "`",
-                    topFont: "Mobitec-Tower11:4",
-                    bottom: "~",
-                    bottomFont: "Mobitec-Tower11:4",
                 },
                     ],
                     scrollFont: "LECIP-7:5"
@@ -1124,7 +1124,15 @@ EDSData.TTSG = {
                 serviceNumber: "79",
                 destination: "JURONG TOWN HALL",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [                    
+                scrolls: [     
+                    {
+                        renderType: "destScrollWithImage",
+                        serviceNumber: "79",
+                        top: "extend to jurong town hall int",
+                        topFont: "Mobitec-Tower11:4",
+                        bottom: "~",
+                        bottomFont: "Mobitec-Tower11:4",
+                    },               
                     "QUALITY RD",
                     "THIRD CHIN BEE RD",
                     "JURONG PORT RD",
@@ -1135,14 +1143,6 @@ EDSData.TTSG = {
                     topFont: "Hanover-Tower12:7",
             
                     serviceNumber: "79"
-                },
-                {
-                    renderType: "destScrollWithImage",
-                    serviceNumber: "79",
-                    top: "extend to jurong town hall int",
-                    topFont: "Mobitec-Tower11:4",
-                    bottom: "~",
-                    bottomFont: "Mobitec-Tower11:4",
                 },
                 ],
                 scrollFont: "LECIP-7:5"
