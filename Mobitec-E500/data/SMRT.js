@@ -44,6 +44,40 @@ EDSFormats.SMRT = {
         text: "Kindness is Greater; Be Greater"
     },
 
+    "950KotaRaya": {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 1
+            },
+            text: "$serviceNumber",
+            font: "Mobitec-16:8",
+            spacing: 2
+        },
+        destination: {
+            align: "left-x,top",
+            margin: {
+                right: 'width(serviceNumber)'
+            },
+            text: "$destination.text+' via    '",
+            font: "$destination.font",
+            spacing: 1
+        },
+        scroll: {
+            align: "centre-x,bottom",
+            margin: {
+                right: 'width(serviceNumber)'
+            },
+            scrolls: "$scrolls",
+            rotate: true,
+            rotateSpeed: 3000,
+
+            font: "$scrollFont",
+            spacing: 1
+        },
+
+        text: "$destination.text+' '+$serviceNumber"
+    },
     standardService: {
         serviceNumber: {
             align: "right",
@@ -101,6 +135,40 @@ EDSFormats.SMRT = {
             align: "centre-x,bottom",
             margin: {
                 right: 'width(serviceNumber)'
+            },
+            scrolls: "$scrolls",
+            rotate: true,
+            rotateSpeed: 3000,
+
+            font: "$scrollFont",
+            spacing: 1
+        },
+
+        text: "$destination.text+' '+$serviceNumber"
+    },
+    SpecialMRTShuttle: {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 1
+            },
+            text: "$serviceNumber",
+            font: "Mobitec-16:8",
+            spacing: 2
+        },
+        destination: {
+            align: "centre-x,top",
+            margin: {
+                right: 'width(serviceNumber)'
+            },
+            text: "$destination.text",
+            font: "$destination.font",
+            spacing: 1
+        },
+        scroll: {
+            align: "centre-x,bottom",
+            margin: {
+                right: 'width+(serviceNumber)'
             },
             scrolls: "$scrolls",
             rotate: true,
@@ -1218,14 +1286,24 @@ EDSData.SMRT = {
     },
     170: {
         front: {
-            renderType: "destScroll",
-            top: "HAPPY NATIONAL DAY",
-            topFont: "Mobitec-7:4",
-
-            bottom: "SINGAPORE!",
-            bottomFont: "Mobitec-7:4",
-
-            serviceNumber: ""
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "HAPPY NATIONAL DAY S'PORE",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+                {
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "",
+                    top: "HAPPY NATIONAL DAY",
+                    bottom: "SINGAPORE !",
+                    topFont: "Mobitec-7:4",
+                    bottomFont: "Mobitec-7:4",
+                    image: "SingaporeFlag"
+                }
+            ],
+            scrollFont: "Mobitec-7:7"
         }
     },
     171: {
@@ -9846,6 +9924,135 @@ EDSData.SMRT = {
             scrollFont: "Mobitec-7:7"
         }
     },
+    7600: {
+        front: {
+            renderType: "SpecialMRTShuttle",
+            serviceNumber: "EW1",
+            destination: {
+                text: "TLK-GCL-JKN-BNL",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                "→ TUAS LINK",
+                "→ GUL CIRCLE",
+                "→ JOO KOON",
+                "→ BOON LAY"
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    7601: {
+        front: {
+            renderType: "SpecialMRTShuttle",
+            serviceNumber: "EW2",
+            destination: {
+                text: "BNV-CLE-JUR-BNL",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                "→ BUONA VISTA",
+                "→ CLEMENTI",
+                "→ JURONG EAST",
+                "→ BOON LAY"
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    7602: {
+        front: {
+            renderType: "SpecialMRTShuttle",
+            serviceNumber: "EW3",
+            destination: {
+                text: "PYL-BDK-TAM",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                "→ PAYA LEBAR",
+                "→ BEDOK",
+                "→ TAMPINES",
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    7603: {
+        front: {
+            renderType: "SpecialMRTShuttle",
+            serviceNumber: "NS1",
+            destination: {
+                text: "JUR-BBT-CCK-WDL",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                "→ JURONG EAST",
+                "→ BUKIT BATOK",
+                "→ CHOA CHU KANG",
+                "→ WOODLANDS",
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    7604: {
+        front: {
+            renderType: "SpecialMRTShuttle",
+            serviceNumber: "NS2",
+            destination: {
+                text: "BSH-AMK-YIS-WDL",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                "→ BISHAN",
+                "→ ANG MO KIO",
+                "→ YISHUN",
+                "→ WOODLANDS",
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    7605: {
+        front: {
+            renderType: "SpecialMRTShuttle",
+            serviceNumber: "EX1",
+            destination: {
+                text: "WDL - BKP",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "→ WOODLANDS",
+                "→ BUKIT PANJANG",
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    7606: {
+        front: {
+            renderType: "SpecialMRTShuttle",
+            serviceNumber: "EX2",
+            destination: {
+                text: "AMK - SER",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "→ ANG MO KIO",
+                "→ SERANGOON",
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    7607: {
+        front: {
+            renderType: "SpecialMRTShuttle",
+            serviceNumber: "EX3",
+            destination: {
+                text: "EUN - UBI",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "→ EUNOS",
+                "→ UBI",
+            ],
+            scrollFont: "Mobitec-7:7"
+        }
+    },
     7996: {
         front: {
             renderType: "message",
@@ -11054,23 +11261,26 @@ EDSData.SMRT = {
     9251: {
         front: {
             renderType: "standardService",
-            serviceNumber: "926",
+            serviceNumber: "925",
             destination: {
-                text: "SINGAPORE ZOO",
+                text: "CHOA CHU KANG",
                 font: "Mobitec-7:5:3"
             },
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "926",
-                    top: "SINGAPORE",
-                    bottom: "ZOOLOGICAL GDN",
+                    serviceNumber: "925",
+                    top: "CHOA CHU KANG",
+                    bottom: "INT / MRT / LRT",
                     topFont: "Mobitec-7:7",
                     bottomFont: "Mobitec-7:7"
                 },
-                "WOODLANDS CENTRE",
-                "MANDAI ROAD",
-                "MANDAI LAKE RD"
+                "WOODLANDS AVE 3",
+                "KRANJI ROAD, WAY",
+                "SUNGEI KADUT ST 1",
+                "WOODLANDS ROAD",
+                "KRANJI EXP WAY"
+
             ],
             scrollFont: "Mobitec-7:5:3"
         }
@@ -11080,18 +11290,10 @@ EDSData.SMRT = {
             renderType: "standardService",
             serviceNumber: "925",
             destination: {
-                text: "WOODLANDS INT",
+                text: "WDL TEMP INT",
                 font: "Mobitec-7:5:3"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "925",
-                    top: "WOODLANDS",
-                    bottom: "INT / MRT",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
-                },
                 "KRANJI EXP WAY",
                 "WOODLANDS RD",
                 "SUNGEI KANDUT ST 1",
@@ -11102,6 +11304,47 @@ EDSData.SMRT = {
         }
     },
     9253: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "925M",
+            destination: {
+                text: "SUNGEI BULOH",
+                font: "Mobitec-7:5:3"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "925M",
+                    top: "SUNGEI BULOH",
+                    bottom: "NATURE PARK",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
+                "WOODLANDS AVE 3",
+                "KRANJI RD, LOOP",
+                "KRANJI WAY",
+                "NEO TIEW LANE",
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    9254: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "925M",
+            destination: {
+                text: "WDL TEMP INT",
+                font: "Mobitec-7:5:3"
+            },
+            scrolls: [
+                "KRANJI WAY",
+                "KRANJI RD, LOOP",
+                "WOODLANDS AVE 3"
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    9258: {
         front: {
             renderType: "standardService",
             serviceNumber: "925C",
@@ -11132,7 +11375,7 @@ EDSData.SMRT = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
-    9254: {
+    9259: {
         front: {
             renderType: "standardService",
             serviceNumber: "925C",
@@ -11271,6 +11514,35 @@ EDSData.SMRT = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "950",
+                    top: "WOODLANDS TEMP INT",
+                    bottom: "SINGAPORE",
+                    topFont: "Mobitec-7:5:2",
+                    bottomFont: "Mobitec-7:7"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "950",
+                    top: "JB SENTRAL TER(LOOP)",
+                    bottom: "JOHOR BAHRU",
+                    topFont: "Mobitec-7:5:3",
+                    bottomFont: "Mobitec-7:7"
+                }
+            ],
+            scrollFont: "Mobitec-7:7"
+        }
+    },
+    9507: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "950",
+            destination: {
+                text: "JB SENTRAL TER",
+                font: "Mobitec-7:5:3"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "950",
                     top: "WOODLANDS INT",
                     bottom: "SINGAPORE",
                     topFont: "Mobitec-7:7",
@@ -11286,6 +11558,52 @@ EDSData.SMRT = {
                 }
             ],
             scrollFont: "Mobitec-7:7"
+        }
+    },
+    9508: {
+        front: {
+            renderType: "950KotaRaya",
+            serviceNumber: "950~",
+            destination: {
+                text: "KOTARAYA II TER",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "950",
+                    top: "KOTARAYA II TER /       ",
+                    bottom: "JOHORE BAHRU            ",
+                    topFont: "Mobitec-7:5:2",
+                    bottomFont: "Mobitec-7:5:2"
+                },
+                "WOODLANDS AVE 3",
+                "JOHORE BAHRU"
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    9508: {
+        front: {
+            renderType: "950KotaRaya",
+            serviceNumber: "950~",
+            destination: {
+                text: "WOODLANDS",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "950",
+                    top: "KOTARAYA II TER /       ",
+                    bottom: "JOHORE BAHRU            ",
+                    topFont: "Mobitec-7:5:2",
+                    bottomFont: "Mobitec-7:5:2"
+                },
+                "WOODLANDS AVE 3",
+                "JOHORE BAHRU"
+            ],
+            scrollFont: "Mobitec-7:5:3"
         }
     },
     9511: {
@@ -11453,6 +11771,72 @@ EDSData.SMRT = {
     9613: {
         front: {
             renderType: "standardService",
+            serviceNumber: "961M",
+            destination: {
+                text: "GEYLANG LOR 1",
+                font: "Mobitec-7:5:3"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "961M",
+                    top: "GEYLANG LOR 1/",
+                    bottom: "KALLANG MRT",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
+                {
+                    text: "WOODLANDS AVE 3",
+                    font: "Mobitec-7:5:3"
+                },
+                {
+                    text: "UPP BT TIMAH RD",
+                    font: "Mobitec-7:5:3"
+                },
+                "QUEENSWAY",
+                {
+                    text: "JLN BUKIT MERAH",
+                    font: "Mobitec-7:5:3"
+                },
+                "CHINATOWN",
+                "BEACH ROAD",
+                "KALLANG BAHRU"
+            ],
+            scrollFont: "Mobitec-7:7"
+        }
+    },
+    9614: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "961M",
+            destination: {
+                text: "WDL TEMP INT",
+                font: "Mobitec-7:5:3"
+            },
+            scrolls: [
+                "KALLANG BAHRU",
+                {
+                    text: "BEACH ROAD",
+                    font: "Mobitec-7:7"
+                },
+                {
+                    text: "CHINATOWN",
+                    font: "Mobitec-7:7"
+                },
+                "JLN BUKIT MERAH",
+                {
+                    text: "QUEENSWAY",
+                    font: "Mobitec-7:7"
+                },
+                "UPP BT TIMAH RD",
+                "WOODLANDS AVE 3"
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    9618: {
+        front: {
+            renderType: "standardService",
             serviceNumber: "961C",
             destination: {
                 text: "GEYLANG LOR 1",
@@ -11487,7 +11871,7 @@ EDSData.SMRT = {
             scrollFont: "Mobitec-7:7"
         }
     },
-    9614: {
+    9619: {
         front: {
             renderType: "standardService",
             serviceNumber: "961C",
@@ -12180,6 +12564,73 @@ EDSData.SMRT = {
     9711: {
         front: {
             renderType: "standardService",
+            serviceNumber: "971",
+            destination: {
+                text: "CECIL STREET",
+                font: "Mobitec-7:5:3"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "971",
+                    top: "CECIL",
+                    bottom: "STREET",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
+                "JELAPANG ROAD",
+                "SEGAR / FAJAR RD",
+                "PENDING / PETIR RD",
+                {
+                    text: "WHITLEY / STEVENS RD",
+                    font: "Mobitec-7:4"
+                },
+                "SCOTTS / ORCARD RD",
+                "NICOLL HIGHWAY",
+                "COLLYER QUAY",
+                "RAFFES QUAY",
+                "SHENTON WAY",
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    9712: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "971",
+            destination: {
+                text: "BUKIT PANJANG",
+                font: "Mobitec-7:5:3"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "971",
+                    top: "BUKIT",
+                    bottom: "PANJANG",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
+                "FULLERTON ROAD",
+                "ESPLANADE DR",
+                "STAMFORD ROAD",
+                "ORCHARD/ PENANG RD",
+                "SOMERSET ROAD",
+                "GARAGE / SCOTTS RD",
+                {
+                    text: "STEVENS / WHITLEY RD",
+                    font: "Mobitec-7:4"
+                },
+                "PETIR / PENDING RD",
+                "FAJAR / SEGAR RD",
+                "JELAPANG RD",
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    9718: {
+        front: {
+            renderType: "standardService",
             serviceNumber: "971E",
             destination: {
                 text: "CECIL STREET",
@@ -12218,7 +12669,7 @@ EDSData.SMRT = {
             scrollFont: "Mobitec-7:7"
         }
     },
-    9712: {
+    9719: {
         front: {
             renderType: "standardService",
             serviceNumber: "971E",
@@ -13032,6 +13483,28 @@ EDSExtras.SMRT = {
             spacing: 1
         }
     },
+    7: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "HAPPY NATIONAL DAY S'PORE",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+                {
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "",
+                    top: " HAPPY NATIONAL DAY",
+                    bottom: " SINGAPORE !",
+                    topFont: "Mobitec-7:4",
+                    bottomFont: "Mobitec-7:4",
+                    image: "SingaporeFlag"
+                }
+            ],
+            scrollFont: "Mobitec-7:7"
+        }
+    },
     11: {
         front: {
             renderType: "message",
@@ -13148,6 +13621,24 @@ EDSImages.SMRT = {
             [1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0],
             [0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1],
             [0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1]
+    ],
+    "SingaporeFlag": [
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 0, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 0, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
     ],
     'gas-temp-flower': [
         [0, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0],
