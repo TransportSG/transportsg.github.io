@@ -11402,6 +11402,30 @@ EDSData.SMRT = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
+    9261: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "926",
+            destination: {
+                text: "SINGAPORE ZOO",
+                font: "Mobitec-7:5:3"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "926",
+                    top: "SINGAPORE",
+                    bottom: "ZOOLOGICAL GDN",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
+                "WDL CENTRE",
+                "MANDAI ROAD",
+                "MANDAI LAKE RD",
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
     9262: {
         front: {
             renderType: "standardService",
