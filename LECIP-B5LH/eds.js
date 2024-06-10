@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
     frontEDS = new LEDMatrix(frontEDSWidth, edsHeight, document.getElementById('front-eds'));
     internalPIDS = new LEDMatrix(internalPIDSWidth, internalPIDSHeight, document.getElementById('internal-pids'));
 
-    setCode(7, 'SMRT', 1);
+    setCode(117, 'SMRT', 1);
 });
 
 window.addEventListener('resize', generateLEDCssCode);

@@ -478,7 +478,7 @@ EDSData.SMRT = {
             pids: {
                 renderType: "pids",
                 serviceNumber: "",
-                destination: "SMRT BUSES",
+                destination: "",
                 scrolls: [""]
             }
         }
