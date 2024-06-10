@@ -3335,6 +3335,22 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
+    865: {
+        front: {
+            renderType: "swt",
+            serviceNumber: "86A",
+            destinationRoad: "AMK AVE 6",
+            destinationName: "(YIO CHU KANG STN)"
+        }
+    },
+    866: {
+        front: {
+            renderType: "swt",
+            serviceNumber: "86B",
+            destinationRoad: "JALAN KAYU",
+            destinationName: "(BEF SELETAR CAMP)"
+        }
+    },
     871: {
         front: {
             renderType: "standardService",

@@ -4602,7 +4602,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "66A",
-                font: "LECIP-20:6",
+                font: "LECIP-20:9",
                 spacing: 1
             }
         }
@@ -4617,7 +4617,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "66B",
-                font: "LECIP-20:6",
+                font: "LECIP-20:9",
                 spacing: 1
             }
         }
@@ -5063,7 +5063,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "73T",
-                font: "LECIP-20:6",
+                font: "LECIP-20:9",
                 spacing: 1
             }
         }
@@ -5665,6 +5665,37 @@ EDSData.SBST = {
                 renderType: "rearService",
                 serviceNumber: "86",
                 font: "LECIP-20:12",
+                spacing: 2
+            }
+        }
+    },
+    "86A": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "86A",
+                terminateAt: "AMK AVE 6",
+                landmark: "(YIO CHU KANG STN)"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "86A",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    "86B": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "86B",
+                landmark: "JALAN KAYU (BEF SELETAR CAMP)"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "86B",
+                font: "LECIP-20:9",
                 spacing: 2
             }
         }
@@ -18366,6 +18397,22 @@ EDSData.SBST = {
                 serviceNumber: "EB14",
                 font: "LECIP-20:6",
                 spacing: 2
+            }
+        }
+    },
+    "914A": {
+        1: {
+            front: {
+                renderType: "message",
+                text: "EB 14A",
+                font: "LECIP-20:12",
+                spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB14A",
+                font: "LECIP-20:6",
+                spacing: 1
             }
         }
     },
