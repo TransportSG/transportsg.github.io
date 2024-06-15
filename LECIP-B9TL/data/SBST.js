@@ -12870,8 +12870,6 @@ EDSData.SBST = {
                     "HENDERSON RD",
                     "TELOK BLANGAH HTS",
                     "TELOK BLANGAH ST 32",
-                    "TELOK BLANGAH DRIVE",
-                    "HENDERSON RD"
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -15186,6 +15184,32 @@ EDSData.SBST = {
                 renderType: "rearService",
                 serviceNumber: "181M",
                 font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
+    460: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "T10",
+                destination: "> KOTA TINGGI TER",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    "JALAN YAHA AWAL",
+                    "LARKIN TERMINAL",
+                    "JALAN TAMPOI",
+                    "TEBRAU HIGHWAY",
+                    "JALAN KOTA TINGGI",
+                    "ULU TIRAM TERMINAL",
+                    "JALAN JOHOR"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "T10",
+                font: "LECIP-20:9",
                 spacing: 2
             }
         }
