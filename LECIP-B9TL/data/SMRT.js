@@ -34,6 +34,66 @@ EDSFormats.SMRT = {
 
         text: "$destination"
     },
+    destScroll: {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 1
+            },
+            text: "$serviceNumber",
+            font: "Arial-17",
+            spacing: 3
+        },
+        top: {
+            align: {
+                $$cond: {
+                    "$bottom === null": "centre-x,centre-y",
+                    "else": "centre-x,top"
+                }
+            },
+            text: "$top",
+            font: {
+                $$cond: {
+                    "$topFont === null": "ArialBold-8",
+                    "else": "$topFont"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber) - width(image)'
+            }
+        },
+        bottom: {
+            align: "centre-x,bottom",
+            text: {
+                $$cond: {
+                    "$bottom !== null": "$bottom",
+                    "else": "''"
+                }
+            },
+            font: {
+                $$cond: {
+                    "$bottomFont === null": "ArialBold-8",
+                    "else": "$bottomFont"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber) - width(image)'
+            }
+        },
+        image: {
+            align: "left",
+            image: {
+                $$cond: {
+                    "$image !== null": "$image",
+                    "else": "blank"
+                }
+            }
+        },
+
+        text: "$top+' '+$bottom+' '+$serviceNumber"
+    },
     calibriOldService: {
         serviceNumber: {
             align: "right,centre-y",
@@ -2044,6 +2104,31 @@ EDSData.SMRT = {
             }
         },
     },
+    1791: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "179",
+                destination: {
+                    text: "BOON LAY via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "JURONG WEST ST 64",
+                    "PIONEER ROAD NORTH",
+                    "LIEN YING CHOW DR",
+                    "NANYANG DRIVE (LOOP)",
+                ],
+                scrollFont: "Arial-8"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "179",
+                font: "Arial-15",
+                spacing: 2
+            }
+        },
+    },
     1841: {
         1: {
             front: {
@@ -2291,6 +2376,31 @@ EDSData.SMRT = {
                 scrollFont: 'Arial-8'
             }
         }
+    },
+    4051: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "405",
+                destination: {
+                    text: "BOON LAY via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "JALAN BOON LAY",
+                    "JALAN BAHAR",
+                    "OLD C.C.K ROAD",
+                    "LIM CHU KANG RD"
+                ],
+                scrollFont: "Arial-8"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "405",
+                font: "Arial-15",
+                spacing: 2
+            }
+        },
     },
     7001: {
         1: {
