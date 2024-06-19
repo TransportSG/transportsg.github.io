@@ -1278,12 +1278,12 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "79",
-            destination: "JURONG EAST MRT",
+            destination: "BOON LAY",
             scrolls: [
-                "QUALITY RD",
-                "THIRD CHIN BEE RD",
-                "JURONG PORT RD",
                 "TEBAN GARDENS RD",
+                "JURONG PORT RD",
+                "THIRD CHIN BEE RD",
+                "QUALITY RD",
                 {
                     renderType: "destScroll",
                     serviceNumber: "79",
@@ -1305,100 +1305,13 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "79",
-                    top: "JURONG EAST",
-                    bottom: "( BS 28301 - BLK 131 )",
+                    top: "BOON LAY",
                     image: "mrt"
                 }
             ]
         }
     },
     792: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "79",
-            destination: "BOON LAY",
-            scrolls: [
-                "TEBAN GARDENS RD",
-                "JURONG PORT RD",
-                "THIRD CHIN BEE RD",
-                "QUALITY RD",
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "79",
-                    top: "Welcome on board",
-                    topFont: "Hanover-7:3",
-                    bottom: "Tower Transit",
-                    bottomFont: "Hanover-7:3",
-                    image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "79",
-                    top: "Have a pleasant",
-                    topFont: "Hanover-7:3",
-                    bottom: "journey!",
-                    bottomFont: "Hanover-7:3",
-                    image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "79",
-                    top: "BOON LAY",
-                    image: "mrt"
-                }
-            ]
-        }
-    },
-    793: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "79A",
-            destination: "Ends At",
-            destFont: "Mobitec-7:5:3",
-            scrolls: [
-                "Jurong Town Hall Rd",
-                "(Jurong East Lib)",
-            ]
-        }
-    },
-    797: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "79",
-            destination: "BOON LAY",
-            scrolls: [
-                "TEBAN GARDENS RD",
-                "JURONG PORT RD",
-                "THIRD CHIN BEE RD",
-                "QUALITY RD",
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "79",
-                    top: "Welcome on board",
-                    topFont: "Hanover-7:3",
-                    bottom: "Tower Transit",
-                    bottomFont: "Hanover-7:3",
-                    image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "79",
-                    top: "Have a pleasant",
-                    topFont: "Hanover-7:3",
-                    bottom: "journey!",
-                    bottomFont: "Hanover-7:3",
-                    image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "79",
-                    top: "BOON LAY",
-                    image: "mrt"
-                }
-            ]
-        }
-    },
-    798: {
         front: {
             renderType: "standardService",
             serviceNumber: "79",
@@ -1437,7 +1350,7 @@ EDSData.TTSG = {
             ]
         }
     },
-    799: {
+    793: {
         front: {
             renderType: "destScroll",
             serviceNumber: "79T",
@@ -1446,6 +1359,93 @@ EDSData.TTSG = {
             bottom: "Boon Lay Int",
             bottomFont: "Mobitec-Tower6:4",
             image: "mrt"
+        }
+    },
+    797: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "79",
+            destination: "JURONG EAST MRT",
+            scrolls: [
+                "QUALITY RD",
+                "THIRD CHIN BEE RD",
+                "JURONG PORT RD",
+                "TEBAN GARDENS RD",
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "79",
+                    top: "Welcome on board",
+                    topFont: "Hanover-7:3",
+                    bottom: "Tower Transit",
+                    bottomFont: "Hanover-7:3",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "79",
+                    top: "Have a pleasant",
+                    topFont: "Hanover-7:3",
+                    bottom: "journey!",
+                    bottomFont: "Hanover-7:3",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "79",
+                    top: "JURONG EAST",
+                    bottom: "( BS 28301 - BLK 131 )",
+                    image: "mrt"
+                }
+            ]
+        }
+    },
+    798: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "79",
+            destination: "BOON LAY",
+            scrolls: [
+                "TEBAN GARDENS RD",
+                "JURONG PORT RD",
+                "THIRD CHIN BEE RD",
+                "QUALITY RD",
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "79",
+                    top: "Welcome on board",
+                    topFont: "Hanover-7:3",
+                    bottom: "Tower Transit",
+                    bottomFont: "Hanover-7:3",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "79",
+                    top: "Have a pleasant",
+                    topFont: "Hanover-7:3",
+                    bottom: "journey!",
+                    bottomFont: "Hanover-7:3",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "79",
+                    top: "BOON LAY",
+                    image: "mrt"
+                }
+            ]
+        }
+    },
+    799: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "79A",
+            destination: "Ends At",
+            destFont: "Mobitec-7:5:3",
+            scrolls: [
+                "Jurong Town Hall Rd",
+                "(Jurong East Lib)",
+            ]
         }
     },
     961: {
