@@ -4463,6 +4463,14 @@ EDSData.SMRT = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
+    487: {
+        front: {
+            renderType: "message",
+            text: "T40  LARKIN SENTRAL ",
+            font: "Tongda-16:7",
+            spacing: 1
+        }
+    },
     492: {
         front: {
             renderType: "standardService",
@@ -10921,6 +10929,7 @@ EDSData.SMRT = {
             scrollFont: "Mobitec-7:7"
         }
     },
+
     9031: {
         front: {
             renderType: "standardService",

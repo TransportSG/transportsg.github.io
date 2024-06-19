@@ -84,6 +84,62 @@ EDSFormats.Sentosa = {
 
         text: "$top+' '+$bottom+' '+$serviceNumber"
     },
+    myBas: {
+        serviceNumber: {
+            align: "left",
+            margin: {
+                right: 1
+            },
+            text: "$serviceNumber",
+            font: "Tongda-16:7",
+            spacing: {
+                $$cond: {
+                    "$spacing === null" : 1,
+                    "else": "$spacing"
+                }
+            }
+        },
+        top: {
+            align: {
+                $$cond: {
+                    "$bottom === null": "centre-x,centre-y",
+                    "else": "centre-x,top"
+                }
+            },
+            text: "$top",
+            font: {
+                $$cond: {
+                    "$bottomFont !== null": "$bottomFont",
+                    "else": "Tongda-16:7"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber)'
+            }
+        },
+        bottom: {
+            align: "centre-x,bottom",
+            text: {
+                $$cond: {
+                    "$bottom !== null": "$bottom",
+                    "else": "''"
+                }
+            },
+            font: {
+                $$cond: {
+                    "$bottomFont !== null": "$bottomFont",
+                    "else": "Tongda-16:7"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber)'
+            }
+        },
+
+        text: "$top+' '+$bottom+' '+$serviceNumber"
+    },
     message: {
         display: {
             align: "centre-x,centre-y",
