@@ -597,9 +597,9 @@ EDSData.GASG = {
                     serviceNumber: "3A",
                     top: "TERMINATING AT",
                     topFont: "Lecip-GoAhead8:6:2",
-                    bottom: "PASIR RIS DR 12",
+                    bottom: "BLK 747A",
                     bottomFont: "Lecip-GoAhead8:6:2",
-                },
+                },    
                     "TAMPINES ST 21",
                     "TAMPINES EAST MRT",
                     "TAMPINES AVE 2 / 7",
@@ -2859,7 +2859,7 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "661",
-                destination: "PASIR RIS DRIVE 1",
+                destination: "PASIR RIS DRIVE 3",
                 destinationFont: "Hanover-10",
                 scrolls: [{
                     renderType: "destScrollWithImage2",
