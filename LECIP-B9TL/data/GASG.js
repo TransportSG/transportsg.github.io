@@ -51,7 +51,7 @@ EDSFormats.GASG = {
             align: "centre-x,centre-y",
             text: "$text",
             font: "$font",
-            spacing: "$spacing"
+            spacing: "$spacing",
         },
 
         text: "$text"
@@ -2970,26 +2970,33 @@ EDSData.GASG = {
             }
         }
     },
-    1112: {
+    2221: { // Referred from Citaro
         1: {
             front: {
                 renderType: "destScrollWithImage",
-                serviceNumber: "85A",
-                top: "TERMINATING AT",
-                topFont: "Lecip-GoAhead8:6:2",
-                bottom: "SENGKANG COMMUNITY HUB",
+                serviceNumber: "",
+                top: "WELCOME TO",
+                topFont: "Lecip-GoAhead8:4",
+                bottom: "LOYANG DEPOT",
                 bottomFont: "Lecip-GoAhead8:4",
+                image: "GoAheadLogoFull",
             },
-            rear: { 
-                renderType: "twoline",
-                top: "ON",
-                topFont: "LECIP-6:4",
-                topSpacing: 1,
-
-                bottom: "TEST",
-                bottomFont: "LECIP-6:4",
-                bottomSpacing: 1,
-            }
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "~",
+                destinationFont: "Lecip-GoAhead20:12",
+                scrolls: [{
+                    renderType: "logo",
+                    text: "Go Ahead Logo",
+                    image: "GoAheadWordingRear",
+        
+                    serviceNumber: ""
+                },
+                    ""
+                ],
+                scrollFont: "LECIP-7:5"
+            },
         }
     },
     2222: {
@@ -3363,14 +3370,14 @@ EDSData.GASG = {
         1: {
             front: { 
                 renderType: "message",
-                text: "GA 1",
-                font: "LECIP-20:12",
+                text: "~ GA 1",
+                font: "LECIP-19:GoAheadSpecialB9Front",
                 spacing: 2
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "GA 1",
-                font: "LECIP-20:6",
+                serviceNumber: "~ 1",
+                font: "Lecip-GoAhead20:6",
                 spacing: 2
             }
         }
@@ -3379,14 +3386,14 @@ EDSData.GASG = {
         1: {
             front: { 
                 renderType: "message",
-                text: "GA 2",
-                font: "LECIP-20:12",
+                text: "~ GA 2",
+                font: "LECIP-19:GoAheadSpecialB9Front",
                 spacing: 2
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "GA 2",
-                font: "LECIP-20:6",
+                serviceNumber: "~ 2",
+                font: "Lecip-GoAhead20:6",
                 spacing: 2
             }
         }
@@ -3395,14 +3402,14 @@ EDSData.GASG = {
         1: {
             front: { 
                 renderType: "message",
-                text: "GA 3",
-                font: "LECIP-20:12",
+                text: "~ GA 3",
+                font: "LECIP-19:GoAheadSpecialB9Front",
                 spacing: 2
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "GA 3",
-                font: "LECIP-20:6",
+                serviceNumber: "~ 3",
+                font: "Lecip-GoAhead20:6",
                 spacing: 2
             }
         }
@@ -3411,14 +3418,14 @@ EDSData.GASG = {
         1: {
             front: { 
                 renderType: "message",
-                text: "GA 4",
-                font: "LECIP-20:12",
+                text: "~ GA 4",
+                font: "LECIP-19:GoAheadSpecialB9Front",
                 spacing: 2
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "GA 4",
-                font: "LECIP-20:6",
+                serviceNumber: "~ 4",
+                font: "Lecip-GoAhead20:6",
                 spacing: 2
             }
         }
@@ -3427,14 +3434,14 @@ EDSData.GASG = {
         1: {
             front: { 
                 renderType: "message",
-                text: "GA 5",
-                font: "LECIP-20:12",
+                text: "~ GA 5",
+                font: "LECIP-19:GoAheadSpecialB9Front",
                 spacing: 2
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "GA 5",
-                font: "LECIP-20:6",
+                serviceNumber: "~ 5",
+                font: "Lecip-GoAhead20:6",
                 spacing: 2
             }
         }
@@ -3443,14 +3450,14 @@ EDSData.GASG = {
         1: {
             front: { 
                 renderType: "message",
-                text: "GA 6",
-                font: "LECIP-20:12",
+                text: "~ GA 6",
+                font: "LECIP-19:GoAheadSpecialB9Front",
                 spacing: 2
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "GA 6",
-                font: "LECIP-20:6",
+                serviceNumber: "~ 6",
+                font: "Lecip-GoAhead20:6",
                 spacing: 2
             }
         }
@@ -3459,14 +3466,14 @@ EDSData.GASG = {
         1: {
             front: { 
                 renderType: "message",
-                text: "GA 7",
-                font: "LECIP-20:12",
+                text: "~ GA 7",
+                font: "LECIP-19:GoAheadSpecialB9Front",
                 spacing: 2
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "GA 7",
-                font: "LECIP-20:6",
+                serviceNumber: "~ 7",
+                font: "Lecip-GoAhead20:6",
                 spacing: 2
             }
         }
@@ -3475,14 +3482,14 @@ EDSData.GASG = {
         1: {
             front: { 
                 renderType: "message",
-                text: "GA 8",
-                font: "LECIP-20:12",
+                text: "~ GA 8",
+                font: "LECIP-19:GoAheadSpecialB9Front",
                 spacing: 2
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "GA 8",
-                font: "LECIP-20:6",
+                serviceNumber: "~ 8",
+                font: "Lecip-GoAhead20:6",
                 spacing: 2
             }
         }
@@ -3491,14 +3498,110 @@ EDSData.GASG = {
         1: {
             front: { 
                 renderType: "message",
-                text: "GA 9",
-                font: "LECIP-20:12",
+                text: "~ GA 9",
+                font: "LECIP-19:GoAheadSpecialB9Front",
                 spacing: 2
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "GA 9",
-                font: "LECIP-20:6",
+                serviceNumber: "~ 9",
+                font: "Lecip-GoAhead20:6",
+                spacing: 2
+            }
+        }
+    },
+    7010: {
+        1: {
+            front: { 
+                renderType: "message",
+                text: "~ GA 10",
+                font: "LECIP-19:GoAheadSpecialB9Front",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "~10",
+                font: "Lecip-GoAhead20:6",
+                spacing: 2
+            }
+        }
+    },
+    7011: {
+        1: {
+            front: { 
+                renderType: "message",
+                text: "~ GA 11",
+                font: "LECIP-19:GoAheadSpecialB9Front",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "~11",
+                font: "Lecip-GoAhead20:6",
+                spacing: 2
+            }
+        }
+    },
+    7012: {
+        1: {
+            front: { 
+                renderType: "message",
+                text: "~ GA 12",
+                font: "LECIP-19:GoAheadSpecialB9Front",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "~12",
+                font: "Lecip-GoAhead20:6",
+                spacing: 2
+            }
+        }
+    },
+    7013: {
+        1: {
+            front: { 
+                renderType: "message",
+                text: "~ GA 13",
+                font: "LECIP-19:GoAheadSpecialB9Front",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "~13",
+                font: "Lecip-GoAhead20:6",
+                spacing: 2
+            }
+        }
+    },
+    7014: {
+        1: {
+            front: { 
+                renderType: "message",
+                text: "~ GA 14",
+                font: "LECIP-19:GoAheadSpecialB9Front",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "~14",
+                font: "Lecip-GoAhead20:6",
+                spacing: 2
+            }
+        }
+    },
+    7015: {
+        1: {
+            front: { 
+                renderType: "message",
+                text: "~ GA 15",
+                font: "LECIP-19:GoAheadSpecialB9Front",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "~15",
+                font: "Lecip-GoAhead20:6",
                 spacing: 2
             }
         }
@@ -3507,8 +3610,8 @@ EDSData.GASG = {
         1: {
             front: { 
                 renderType: "message",
-                text: "GA  RIDE  01",
-                font: "LECIP-20:12",
+                text: "~ GA RIDE 01",
+                font: "LECIP-19:GoAheadSpecialB9Front",
                 spacing: 2
             },
             rear: {
@@ -3525,8 +3628,8 @@ EDSData.GASG = {
         1: {
             front: { 
                 renderType: "message",
-                text: "GA  RIDE  02",
-                font: "LECIP-20:12",
+                text: "~ GA RIDE 02",
+                font: "LECIP-19:GoAheadSpecialB9Front",
                 spacing: 2
             },
             rear: {
@@ -3543,8 +3646,8 @@ EDSData.GASG = {
         1: {
             front: { 
                 renderType: "message",
-                text: "GA  RIDE  03",
-                font: "LECIP-20:12",
+                text: "~ GA RIDE 03",
+                font: "LECIP-19:GoAheadSpecialB9Front",
                 spacing: 2
             },
             rear: {
@@ -3561,8 +3664,8 @@ EDSData.GASG = {
         1: {
             front: { 
                 renderType: "message",
-                text: "GA  RIDE  04",
-                font: "LECIP-20:12",
+                text: "~ GA RIDE 04",
+                font: "LECIP-19:GoAheadSpecialB9Front",
                 spacing: 2
             },
             rear: {
@@ -3579,8 +3682,8 @@ EDSData.GASG = {
         1: {
             front: { 
                 renderType: "message",
-                text: "GA  RIDE  05",
-                font: "LECIP-20:12",
+                text: "~ GA RIDE 05",
+                font: "LECIP-19:GoAheadSpecialB9Front",
                 spacing: 2
             },
             rear: {
@@ -3597,8 +3700,8 @@ EDSData.GASG = {
         1: {
             front: { 
                 renderType: "message",
-                text: "GA  RIDE  06",
-                font: "LECIP-20:12",
+                text: "~ GA RIDE 06",
+                font: "LECIP-19:GoAheadSpecialB9Front",
                 spacing: 2
             },
             rear: {
@@ -3615,8 +3718,8 @@ EDSData.GASG = {
         1: {
             front: { 
                 renderType: "message",
-                text: "GA  RIDE  07",
-                font: "LECIP-20:12",
+                text: "~ GA RIDE 07",
+                font: "LECIP-19:GoAheadSpecialB9Front",
                 spacing: 2
             },
             rear: {
@@ -3633,8 +3736,8 @@ EDSData.GASG = {
         1: {
             front: { 
                 renderType: "message",
-                text: "GA  RIDE  08",
-                font: "LECIP-20:12",
+                text: "~ GA RIDE 08",
+                font: "LECIP-19:GoAheadSpecialB9Front",
                 spacing: 2
             },
             rear: {
@@ -3651,8 +3754,8 @@ EDSData.GASG = {
         1: {
             front: { 
                 renderType: "message",
-                text: "GA  RIDE  09",
-                font: "LECIP-20:12",
+                text: "~ GA RIDE 09",
+                font: "LECIP-19:GoAheadSpecialB9Front",
                 spacing: 2
             },
             rear: {
@@ -3687,6 +3790,28 @@ EDSData.GASG = {
 
 EDSImages.GASG = {
     blank: [[]
+    ],
+    'L-Plate': [
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1],
+        [1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1],
+        [1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
     ],
     '136Rear': [
         [0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1],
