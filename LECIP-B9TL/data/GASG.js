@@ -2039,6 +2039,58 @@ EDSData.GASG = {
             }
         }
     },
+    "84G": {
+        1: {
+            front: {
+                    renderType: "standardService",
+                    serviceNumber: "84G",
+                    destination: "PUNGGOL",
+                    destinationFont: "Hanover-10",
+                    scrolls: [{
+                        renderType: "destScroll",
+                        top: "Punggol",
+                        topFont: "Lecip-GoAhead16:10",
+            
+                        serviceNumber: "84G"
+                    },
+                 "NIBONG > NORTHSHORE > SIT"
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "84G",
+                font: "Lecip-GoAhead20:6",
+                spacing: 2
+            }
+        }
+    },
+    "84W": {
+        1: {
+            front: {
+                    renderType: "standardService",
+                    serviceNumber: "84W",
+                    destination: "PUNGGOL",
+                    destinationFont: "Hanover-10",
+                    scrolls: [{
+                        renderType: "destScroll",
+                        top: "Punggol",
+                        topFont: "Lecip-GoAhead16:10",
+            
+                        serviceNumber: "84W"
+                    },
+                 "SIT > NORTHSHORE > NIBONG"
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "84W",
+                font: "Lecip-GoAhead20:6",
+                spacing: 2
+            }
+        }
+    },
     85: {
         1: {
             front: {
@@ -2049,18 +2101,19 @@ EDSData.GASG = {
                 scrolls: [{
                     renderType: "destScroll",
                     top: "Yishun",
-                    topFont: "Lecip-GoAhead15:10",
+                    topFont: "Lecip-GoAhead16:10",
         
                     serviceNumber: "85"
                 },
-                    "PUNGGOL CENTRAL",
-                    "RIVERVALE DR",
-                    "COMPASSVALE DR",
-                    "SENGKANG EAST RD / WAY",
-                    "SENGKANG WEST WAY",
-                    "JALAN KAYU",
-                    "SLE",
-                    "KHATIB MRT"
+                "PUNGGOL CENTRAL",
+                "RIVERVALE DR",
+                "COMPASSVALE DR",
+                "SENGKANG EAST RD / WAY",
+                "SENGKANG WEST WAY",
+                "JALAN KAYU",
+                "SLE",
+                "KHATIB MRT"
+
                 ],
                 scrollFont: "Hanover-7:5"
             },
@@ -2084,19 +2137,18 @@ EDSData.GASG = {
         
                     serviceNumber: "85"
                 },
-                    "KHATIB MRT",
-                    "SLE",
-                    "JALAN KAYU",
-                    "SENGKANG WEST WAY",
-                    "SENGKANG EAST WAY / RD",
-                    "COMPASSVALE DR",
-                    "RIVERVALE DR",
-                    "PUNGGOL CENTRAL"
+                "KHATIB MRT",
+                "SLE",
+                "JALAN KAYU",
+                "SENGKANG WEST WAY",
+                "SENGKANG EAST WAY / RD",
+                "COMPASSVALE DR",
+                "RIVERVALE DR",
+                "PUNGGOL CENTRAL"
                 ],
                 scrollFont: "Hanover-7:5"
             },
             rear: {
-                renderType: "rearService",
                 serviceNumber: "85",
                 font: "Lecip-GoAhead20:12",
                 spacing: 3
@@ -3302,7 +3354,7 @@ EDSData.GASG = {
         1: {
             front: { 
                 renderType: "twoline",
-                top: "Shuʒle 4",
+                top: "Shuыыle 4",
                 topFont: "Lecip-GoAhead8:6:3",
                 topSpacing: 1,
 
@@ -3326,7 +3378,7 @@ EDSData.GASG = {
         1: {
             front: { 
                 renderType: "twoline",
-                top: "Shuʒʒle 4",
+                top: "Shuыыle 4",
                 topFont: "Lecip-GoAhead8:6:3",
                 topSpacing: 1,
 
