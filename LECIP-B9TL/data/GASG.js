@@ -1915,9 +1915,9 @@ EDSData.GASG = {
                     renderType: "destScrollWithImage",
                     serviceNumber: "82",
                     top: "FIRST BUS",
-                    topFont: "Mobitec-7:5:3",
+                    topFont: "Lecip-GoAhead8:4",
                     bottom: "SERVICE",
-                    bottomFont: "Mobitec-7:5:3",
+                    bottomFont: "Lecip-GoAhead8:4",
                     image: "GoAheadLogoFull",
                 },
                     "PUNGGOL RD", 
@@ -3366,15 +3366,21 @@ EDSData.GASG = {
     },
     4041: {
         1: {
-            front: { 
-                renderType: "twoline",
-                top: "Shuыыle 4",
-                topFont: "Lecip-GoAhead8:6:3",
-                topSpacing: 1,
-
-                bottom: "ChØä Chü 𐌊äñʒ >> JüʁØñʒ Eäθы",
-                bottomFont: "Lecip-GoAhead8:6:3",
-                bottomSpacing: 1,
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "SHUTTLE 4",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "Shuыыle 4",
+                    topFont: "Lecip-GoAhead8:6:3",
+                    bottom: "ChØä Chü 𐌊äñʒ >> JüʁØñʒ Eäθы",
+                    bottomFont: "Lecip-GoAhead8:6:3",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: { 
                 renderType: "twoline",
@@ -3390,23 +3396,29 @@ EDSData.GASG = {
     },
     4042: {
         1: {
-            front: { 
-                renderType: "twoline",
-                top: "Shuыыle 4",
-                topFont: "Lecip-GoAhead8:6:3",
-                topSpacing: 1,
-
-                bottom: "JüʁØñʒ Eäθы >> ChØä Chü 𐌊äñʒ",
-                bottomFont: "Lecip-GoAhead8:6:3",
-                bottomSpacing: 1,
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "SHUTTLE 4",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "Shuыыle 4",
+                    topFont: "Lecip-GoAhead8:6:3",
+                    bottom: "JüʁØñʒ Eäθы >> ChØä Chü 𐌊äñʒ ",
+                    bottomFont: "Lecip-GoAhead8:6:3",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: { 
                 renderType: "twoline",
-                top: "CCK -",
+                top: "JUR -",
                 topFont: "LECIP-7:5",
                 topSpacing: 1,
 
-                bottom: "JUR",
+                bottom: "CCK",
                 bottomFont: "LECIP-7:5",
                 bottomSpacing: 1,
             }
@@ -3659,11 +3671,19 @@ EDSData.GASG = {
     },
     7001: {
         1: {
-            front: { 
-                renderType: "message",
-                text: "~ GA 1",
-                font: "LECIP-19:GoAheadSpecialB9Front",
-                spacing: 2
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "GA 1",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  GA  1",
+                    topFont: "LECIP-19:GoAheadSpecialB9Front",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -3675,11 +3695,19 @@ EDSData.GASG = {
     },
     7002: {
         1: {
-            front: { 
-                renderType: "message",
-                text: "~ GA 2",
-                font: "LECIP-19:GoAheadSpecialB9Front",
-                spacing: 2
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "GA 2",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  GA  2",
+                    topFont: "LECIP-19:GoAheadSpecialB9Front",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -3691,11 +3719,19 @@ EDSData.GASG = {
     },
     7003: {
         1: {
-            front: { 
-                renderType: "message",
-                text: "~ GA 3",
-                font: "LECIP-19:GoAheadSpecialB9Front",
-                spacing: 2
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "GA 3",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  GA  3",
+                    topFont: "LECIP-19:GoAheadSpecialB9Front",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -3707,11 +3743,19 @@ EDSData.GASG = {
     },
     7004: {
         1: {
-            front: { 
-                renderType: "message",
-                text: "~ GA 4",
-                font: "LECIP-19:GoAheadSpecialB9Front",
-                spacing: 2
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "GA 4",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  GA  4",
+                    topFont: "LECIP-19:GoAheadSpecialB9Front",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -3723,11 +3767,19 @@ EDSData.GASG = {
     },
     7005: {
         1: {
-            front: { 
-                renderType: "message",
-                text: "~ GA 5",
-                font: "LECIP-19:GoAheadSpecialB9Front",
-                spacing: 2
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "GA 5",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  GA  5",
+                    topFont: "LECIP-19:GoAheadSpecialB9Front",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -3739,11 +3791,19 @@ EDSData.GASG = {
     },
     7006: {
         1: {
-            front: { 
-                renderType: "message",
-                text: "~ GA 6",
-                font: "LECIP-19:GoAheadSpecialB9Front",
-                spacing: 2
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "GA 6",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  GA  6",
+                    topFont: "LECIP-19:GoAheadSpecialB9Front",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -3755,11 +3815,19 @@ EDSData.GASG = {
     },
     7007: {
         1: {
-            front: { 
-                renderType: "message",
-                text: "~ GA 7",
-                font: "LECIP-19:GoAheadSpecialB9Front",
-                spacing: 2
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "GA 7",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  GA  7",
+                    topFont: "LECIP-19:GoAheadSpecialB9Front",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -3771,11 +3839,19 @@ EDSData.GASG = {
     },
     7008: {
         1: {
-            front: { 
-                renderType: "message",
-                text: "~ GA 8",
-                font: "LECIP-19:GoAheadSpecialB9Front",
-                spacing: 2
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "GA 8",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  GA  8",
+                    topFont: "LECIP-19:GoAheadSpecialB9Front",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -3787,11 +3863,19 @@ EDSData.GASG = {
     },
     7009: {
         1: {
-            front: { 
-                renderType: "message",
-                text: "~ GA 9",
-                font: "LECIP-19:GoAheadSpecialB9Front",
-                spacing: 2
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "GA 9",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  GA  9",
+                    topFont: "LECIP-19:GoAheadSpecialB9Front",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -3803,11 +3887,19 @@ EDSData.GASG = {
     },
     7010: {
         1: {
-            front: { 
-                renderType: "message",
-                text: "~ GA 10",
-                font: "LECIP-19:GoAheadSpecialB9Front",
-                spacing: 2
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "GA 10",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  GA  10",
+                    topFont: "LECIP-19:GoAheadSpecialB9Front",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -3819,11 +3911,19 @@ EDSData.GASG = {
     },
     7011: {
         1: {
-            front: { 
-                renderType: "message",
-                text: "~ GA 11",
-                font: "LECIP-19:GoAheadSpecialB9Front",
-                spacing: 2
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "GA 11",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  GA  11",
+                    topFont: "LECIP-19:GoAheadSpecialB9Front",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -3835,11 +3935,19 @@ EDSData.GASG = {
     },
     7012: {
         1: {
-            front: { 
-                renderType: "message",
-                text: "~ GA 12",
-                font: "LECIP-19:GoAheadSpecialB9Front",
-                spacing: 2
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "GA 12",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  GA  12",
+                    topFont: "LECIP-19:GoAheadSpecialB9Front",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -3851,11 +3959,19 @@ EDSData.GASG = {
     },
     7013: {
         1: {
-            front: { 
-                renderType: "message",
-                text: "~ GA 13",
-                font: "LECIP-19:GoAheadSpecialB9Front",
-                spacing: 2
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "GA 13",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  GA  13",
+                    topFont: "LECIP-19:GoAheadSpecialB9Front",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -3867,11 +3983,19 @@ EDSData.GASG = {
     },
     7014: {
         1: {
-            front: { 
-                renderType: "message",
-                text: "~ GA 14",
-                font: "LECIP-19:GoAheadSpecialB9Front",
-                spacing: 2
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "GA 14",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  GA  14",
+                    topFont: "LECIP-19:GoAheadSpecialB9Front",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -3883,11 +4007,19 @@ EDSData.GASG = {
     },
     7015: {
         1: {
-            front: { 
-                renderType: "message",
-                text: "~ GA 15",
-                font: "LECIP-19:GoAheadSpecialB9Front",
-                spacing: 2
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "GA 15",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  GA  15",
+                    topFont: "LECIP-19:GoAheadSpecialB9Front",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -3899,11 +4031,19 @@ EDSData.GASG = {
     },
     7101: {
         1: {
-            front: { 
-                renderType: "message",
-                text: "~ GA RIDE 01",
-                font: "LECIP-19:GoAheadSpecialB9Front",
-                spacing: 2
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "GA RIDE 01",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  GA  RIDE  01",
+                    topFont: "LECIP-19:GoAheadSpecialB9Front",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: 'twoline',
@@ -3917,11 +4057,19 @@ EDSData.GASG = {
     },
     7102: {
         1: {
-            front: { 
-                renderType: "message",
-                text: "~ GA RIDE 02",
-                font: "LECIP-19:GoAheadSpecialB9Front",
-                spacing: 2
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "GA RIDE 02",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  GA  RIDE  02",
+                    topFont: "LECIP-19:GoAheadSpecialB9Front",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: 'twoline',
@@ -3935,11 +4083,19 @@ EDSData.GASG = {
     },
     7103: {
         1: {
-            front: { 
-                renderType: "message",
-                text: "~ GA RIDE 03",
-                font: "LECIP-19:GoAheadSpecialB9Front",
-                spacing: 2
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "GA RIDE 03",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  GA  RIDE  03",
+                    topFont: "LECIP-19:GoAheadSpecialB9Front",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: 'twoline',
@@ -3953,11 +4109,19 @@ EDSData.GASG = {
     },
     7104: {
         1: {
-            front: { 
-                renderType: "message",
-                text: "~ GA RIDE 04",
-                font: "LECIP-19:GoAheadSpecialB9Front",
-                spacing: 2
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "GA RIDE 04",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  GA  RIDE  04",
+                    topFont: "LECIP-19:GoAheadSpecialB9Front",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: 'twoline',
@@ -3971,11 +4135,19 @@ EDSData.GASG = {
     },
     7105: {
         1: {
-            front: { 
-                renderType: "message",
-                text: "~ GA RIDE 05",
-                font: "LECIP-19:GoAheadSpecialB9Front",
-                spacing: 2
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "GA RIDE 05",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  GA  RIDE  05",
+                    topFont: "LECIP-19:GoAheadSpecialB9Front",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: 'twoline',
@@ -3989,11 +4161,19 @@ EDSData.GASG = {
     },
     7106: {
         1: {
-            front: { 
-                renderType: "message",
-                text: "~ GA RIDE 06",
-                font: "LECIP-19:GoAheadSpecialB9Front",
-                spacing: 2
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "GA RIDE 06",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  GA  RIDE  06",
+                    topFont: "LECIP-19:GoAheadSpecialB9Front",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: 'twoline',
@@ -4007,11 +4187,19 @@ EDSData.GASG = {
     },
     7107: {
         1: {
-            front: { 
-                renderType: "message",
-                text: "~ GA RIDE 07",
-                font: "LECIP-19:GoAheadSpecialB9Front",
-                spacing: 2
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "GA RIDE 07",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  GA  RIDE  07",
+                    topFont: "LECIP-19:GoAheadSpecialB9Front",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: 'twoline',
@@ -4025,11 +4213,19 @@ EDSData.GASG = {
     },
     7108: {
         1: {
-            front: { 
-                renderType: "message",
-                text: "~ GA RIDE 08",
-                font: "LECIP-19:GoAheadSpecialB9Front",
-                spacing: 2
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "GA RIDE 08",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  GA  RIDE  08",
+                    topFont: "LECIP-19:GoAheadSpecialB9Front",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: 'twoline',
@@ -4043,11 +4239,19 @@ EDSData.GASG = {
     },
     7109: {
         1: {
-            front: { 
-                renderType: "message",
-                text: "~ GA RIDE 09",
-                font: "LECIP-19:GoAheadSpecialB9Front",
-                spacing: 2
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "GA RIDE 09",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  GA  RIDE  09",
+                    topFont: "LECIP-19:GoAheadSpecialB9Front",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: 'twoline',

@@ -149,6 +149,68 @@ EDSFormats.TTSG = {
         text: "$text"
         
     },
+    message2: {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 1
+            },
+            text: "$serviceNumber",
+            font: "LECIP-19:TowerB9Front",
+            spacing: 3
+        },
+        top: {
+            align: {
+                $$cond: {
+                    "$bottom === null": "centre-x,centre-y",
+                    "else": "centre-x,top"
+                }
+            },
+            text: "$top",
+            font: {
+                $$cond: {
+                    "$topFont === null": "Mobitec-9:6",
+                    "else": "$topFont"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber) - width(image)',
+                top: 0
+            }
+        },
+        bottom: {
+            align: "centre-x,bottom",
+            text: {
+                $$cond: {
+                    "$bottom !== null": "$bottom",
+                    "else": "''"
+                }
+            },
+            font: {
+                $$cond: {
+                    "$bottomFont === null": "Hanover-5:3",
+                    "else": "$bottomFont"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber) - width(image)',
+                bottom: 1
+            }
+        },
+        image: {
+            align: "left",
+            image: {
+                $$cond: {
+                    "$image !== null": "$image",
+                    "else": "blank"
+                }
+            }
+        },
+
+        text: "$top+' '+$bottom+' '+$serviceNumber"
+    },
     destScrollWithImage: {
         serviceNumber: {
             align: "right",
@@ -2612,27 +2674,29 @@ EDSData.TTSG = {
                 scrollFont: "LECIP-7:5"
             },
             rear: {
-                renderType: "twolinerear",
-                top: "177",
-                topFont: "LECIP-TowerRear10:7",
-                topSpacing: 2,
-
-                bottom: "PANJANG",
-                bottomFont: "Hanover-5:3",
-                bottomSpacing: 1,
-                scrolls: [
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TT 17",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "177",
+                    topFont: "LECIP-TowerRear10:7",
+                    bottom: "BUKIT",
+                    bottomFont: "Hanover-5:3"
+                    },
                     {
-                        renderType: "twolinerear",
+                        renderType: "message2",
+                        serviceNumber: "",
                         top: "177",
                         topFont: "LECIP-TowerRear10:7",
-                        topSpacing: 2,
-        
                         bottom: "PANJANG",
-                        bottomFont: "Hanover-5:3",
-                        bottomSpacing: 1,
-                    }
-                ]
-            },
+                        bottomFont: "Hanover-5:3"
+                        },
+                ],
+                scrollFont: "Hanover-7:5"
+            }
         },
         2: {
             front: {
@@ -4703,18 +4767,30 @@ EDSData.TTSG = {
         },
         2: {
             front: {
-                renderType: "OngTengHuat",
+                renderType: "standardService",
                 serviceNumber: "858",
                 destination: "CHANGI AIRPORT",
-                topFont: "Hanover-Tower11:7",
-                bottom: "( PTB 3, 1, 2 )",
-                bottomFont: "Hanover-5:3",
-                image: "ChangiAirportControlTower"
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                    "WOODLANDS AVE 9",
+                    "SEMBAWANG WAY",
+                    "YISHUN MRT",
+                    "JALAN KAYU",
+                    "T P E",
+                {
+                    renderType: "message2",
+                    serviceNumber: "858",
+                    top: "CHANGI AIRPORT",
+                    topFont: "Hanover-Tower11:7",
+                    image: "ChangiAirportControlTower"
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "858A",
-                font: "LECIP-TowerRear17:7",
+                serviceNumber: "858",
+                font: "LECIP-TowerRear17:10",
                 spacing: 1
             }
         }
@@ -6290,18 +6366,24 @@ EDSData.TTSG = {
     1112: {
         1: {
             front: {
-                renderType: "message",
-                text: "SGUS",
-                font: "SGBusLogo-Mobitec",
-                spacing: 1
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "SG BUS LOGO",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "SGUS",
+                    topFont: "SGBusLogo-Mobitec",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
-            rear: {
-                renderType: 'twolinerear',
-                top: "~",
-                topFont: "SGBusLogo-Mobitec",
-
-                bottom: "~",
-                bottomFont: "SGBusLogo-Mobitec"
+            rear: { 
+                renderType: "message",
+                text: " ",
+                font: "Hanover-Tower19:11",
+                spacing: 1
             }
         }
     },
@@ -6580,10 +6662,19 @@ EDSData.TTSG = {
     5100: {
         1: {
             front: {
-                renderType: "message",
-                text: "~ TT Black 01",
-                font: "Hanover-Tower19:11",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TT BLACK 01",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "TT  Black  01",
+                    topFont: "Hanover-Tower19:11",
+                    image: "TTSRoundel"
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: 'twolinerear',
@@ -6598,10 +6689,19 @@ EDSData.TTSG = {
     5101: {
         1: {
             front: {
-                renderType: "message",
-                text: "~ TT Black 02",
-                font: "Hanover-Tower19:11",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TT BLACK 02",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "TT  Black  02",
+                    topFont: "Hanover-Tower19:11",
+                    image: "TTSRoundel"
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: 'twolinerear',
@@ -6616,10 +6716,19 @@ EDSData.TTSG = {
     5102: {
         1: {
             front: {
-                renderType: "message",
-                text: "~ TT Black 03",
-                font: "Hanover-Tower19:11",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TT BLACK 03",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "TT  Black  03",
+                    topFont: "Hanover-Tower19:11",
+                    image: "TTSRoundel"
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: 'twolinerear',
@@ -6634,10 +6743,19 @@ EDSData.TTSG = {
     5103: {
         1: {
             front: {
-                renderType: "message",
-                text: "~ TT Black 04",
-                font: "Hanover-Tower19:11",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TT BLACK 04",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "TT  Black  04",
+                    topFont: "Hanover-Tower19:11",
+                    image: "TTSRoundel"
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: 'twolinerear',
@@ -6652,10 +6770,19 @@ EDSData.TTSG = {
     5104: {
         1: {
             front: {
-                renderType: "message",
-                text: "~ TT Blue 01",
-                font: "Hanover-Tower19:11",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TT BLUE 01",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "TT  Blue  01",
+                    topFont: "Hanover-Tower19:11",
+                    image: "TTSRoundel"
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: 'twolinerear',
@@ -6670,10 +6797,19 @@ EDSData.TTSG = {
     5105: {
         1: {
             front: {
-                renderType: "message",
-                text: "~ TT Blue 02",
-                font: "Hanover-Tower19:11",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TT BLUE 02",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "TT  Blue  02",
+                    topFont: "Hanover-Tower19:11",
+                    image: "TTSRoundel"
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: 'twolinerear',
@@ -6688,10 +6824,19 @@ EDSData.TTSG = {
     5106: {
         1: {
             front: {
-                renderType: "message",
-                text: "~ TT Blue 03",
-                font: "Hanover-Tower19:11",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TT BLUE 03",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "TT  Blue  03",
+                    topFont: "Hanover-Tower19:11",
+                    image: "TTSRoundel"
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: 'twolinerear',
@@ -6706,10 +6851,19 @@ EDSData.TTSG = {
     5107: {
         1: {
             front: {
-                renderType: "message",
-                text: "~ TT Blue 04",
-                font: "Hanover-Tower19:11",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TT BLUE 04",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "TT  Blue  04",
+                    topFont: "Hanover-Tower19:11",
+                    image: "TTSRoundel"
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: 'twolinerear',
@@ -6724,10 +6878,19 @@ EDSData.TTSG = {
     5108: {
         1: {
             front: {
-                renderType: "message",
-                text: "~ TT Brown 01",
-                font: "Hanover-Tower19:11",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TT BROWN 01",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "TT  Brown  01",
+                    topFont: "Hanover-Tower19:11",
+                    image: "TTSRoundel"
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: 'twolinerear',
@@ -6742,10 +6905,19 @@ EDSData.TTSG = {
     5109: {
         1: {
             front: {
-                renderType: "message",
-                text: "~ TT Brown 02",
-                font: "Hanover-Tower19:11",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TT BROWN 02",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "TT  Brown  02",
+                    topFont: "Hanover-Tower19:11",
+                    image: "TTSRoundel"
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: 'twolinerear',
@@ -6760,10 +6932,19 @@ EDSData.TTSG = {
     5110: {
         1: {
             front: {
-                renderType: "message",
-                text: "~ TT Brown 03",
-                font: "Hanover-Tower19:11",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TT BROWN 03",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "TT  Brown  03",
+                    topFont: "Hanover-Tower19:11",
+                    image: "TTSRoundel"
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: 'twolinerear',
@@ -6778,10 +6959,19 @@ EDSData.TTSG = {
     5111: {
         1: {
             front: {
-                renderType: "message",
-                text: "~ TT Brown 0$",
-                font: "Hanover-Tower19:11",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TT BROWN 04",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "TT  Brown  0$",
+                    topFont: "Hanover-Tower19:11",
+                    image: "TTSRoundel"
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: 'twolinerear',
@@ -6796,10 +6986,19 @@ EDSData.TTSG = {
     5112: {
         1: {
             front: {
-                renderType: "message",
-                text: "~ TT Green 01",
-                font: "Hanover-Tower19:11",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TT GREEN 01",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "TT  Green  01",
+                    topFont: "Hanover-Tower19:11",
+                    image: "TTSRoundel"
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: 'twolinerear',
@@ -6814,10 +7013,19 @@ EDSData.TTSG = {
     5113: {
         1: {
             front: {
-                renderType: "message",
-                text: "~ TT Green 02",
-                font: "Hanover-Tower19:11",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TT GREEN 02",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "TT  Green  02",
+                    topFont: "Hanover-Tower19:11",
+                    image: "TTSRoundel"
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: 'twolinerear',
@@ -6832,10 +7040,19 @@ EDSData.TTSG = {
     5114: {
         1: {
             front: {
-                renderType: "message",
-                text: "~ TT Green 03",
-                font: "Hanover-Tower19:11",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TT GREEN 03",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "TT  Green  03",
+                    topFont: "Hanover-Tower19:11",
+                    image: "TTSRoundel"
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: 'twolinerear',
@@ -6850,10 +7067,19 @@ EDSData.TTSG = {
     5115: {
         1: {
             front: {
-                renderType: "message",
-                text: "~ TT Green 0$",
-                font: "Hanover-Tower19:11",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TT GREEN 04",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "TT  Green  04",
+                    topFont: "Hanover-Tower19:11",
+                    image: "TTSRoundel"
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: 'twolinerear',
@@ -6868,14 +7094,22 @@ EDSData.TTSG = {
     5200: {
         1: {
             front: {
-                renderType: "message",
-                text: "~  T T 0 1",
-                font: "Hanover-Tower19:11",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TT 01",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  T T  0 1",
+                    topFont: "Hanover-Tower19:11",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
-                renderType: "message",
-                text: "TT01",
+                renderType: "rearService",
+                serviceNumber: "TT01",
                 font: "Mobitec-10:7",
                 spacing: 2
             }
@@ -6884,10 +7118,18 @@ EDSData.TTSG = {
     5201: {
         1: {
             front: {
-                renderType: "message",
-                text: "~  T T 0 2",
-                font: "Hanover-Tower19:11",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TT 02",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  T T  0 2",
+                    topFont: "Hanover-Tower19:11",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "message",
@@ -6900,10 +7142,18 @@ EDSData.TTSG = {
     5202: {
         1: {
             front: {
-                renderType: "message",
-                text: "~  T T 0 3",
-                font: "Hanover-Tower19:11",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TT 03",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  T T  0 3",
+                    topFont: "Hanover-Tower19:11",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "message",
@@ -6916,10 +7166,18 @@ EDSData.TTSG = {
     5203: {
         1: {
             front: {
-                renderType: "message",
-                text: "~  T T 0 4",
-                font: "Hanover-Tower19:11",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TT 04",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  T T  0 4",
+                    topFont: "Hanover-Tower19:11",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "message",
@@ -6932,10 +7190,18 @@ EDSData.TTSG = {
     5204: {
         1: {
             front: {
-                renderType: "message",
-                text: "~  T T 0 5",
-                font: "Hanover-Tower19:11",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TT 05",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  T T  0 5",
+                    topFont: "Hanover-Tower19:11",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "message",
@@ -6948,10 +7214,18 @@ EDSData.TTSG = {
     5205: {
         1: {
             front: {
-                renderType: "message",
-                text: "~  T T 0 6",
-                font: "Hanover-Tower19:11",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TT 06",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  T T  0 6",
+                    topFont: "Hanover-Tower19:11",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "message",
@@ -6964,10 +7238,18 @@ EDSData.TTSG = {
     5206: {
         1: {
             front: {
-                renderType: "message",
-                text: "~  T T 0 7",
-                font: "Hanover-Tower19:11",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TT 07",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  T T  0 7",
+                    topFont: "Hanover-Tower19:11",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "message",
@@ -6980,10 +7262,18 @@ EDSData.TTSG = {
     5207: {
         1: {
             front: {
-                renderType: "message",
-                text: "~  T T 0 8",
-                font: "Hanover-Tower19:11",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TT 08",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  T T  0 8",
+                    topFont: "Hanover-Tower19:11",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "message",
@@ -6996,10 +7286,18 @@ EDSData.TTSG = {
     5208: {
         1: {
             front: {
-                renderType: "message",
-                text: "~  T T 0 9",
-                font: "Hanover-Tower19:11",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TT 09",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  T T  0 9",
+                    topFont: "Hanover-Tower19:11",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "message",
@@ -7012,10 +7310,18 @@ EDSData.TTSG = {
     5209: {
         1: {
             front: {
-                renderType: "message",
-                text: "~  T T 1 0",
-                font: "Hanover-Tower19:11",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TT 10",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  T T  1 0",
+                    topFont: "Hanover-Tower19:11",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "message",
@@ -7028,10 +7334,18 @@ EDSData.TTSG = {
     5210: {
         1: {
             front: {
-                renderType: "message",
-                text: "~  T T 1 1",
-                font: "Hanover-Tower19:11",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TT 11",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  T T  1 1",
+                    topFont: "Hanover-Tower19:11",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "message",
@@ -7044,10 +7358,18 @@ EDSData.TTSG = {
     5211: {
         1: {
             front: {
-                renderType: "message",
-                text: "~  T T 1 2",
-                font: "Hanover-Tower19:11",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TT 12",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  T T  1 2",
+                    topFont: "Hanover-Tower19:11",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "message",
@@ -7060,10 +7382,18 @@ EDSData.TTSG = {
     5212: {
         1: {
             front: {
-                renderType: "message",
-                text: "~  T T 1 3",
-                font: "Hanover-Tower19:11",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TT 13",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  T T  1 3",
+                    topFont: "Hanover-Tower19:11",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "message",
@@ -7076,10 +7406,18 @@ EDSData.TTSG = {
     5213: {
         1: {
             front: {
-                renderType: "message",
-                text: "~  T T 1 4",
-                font: "Hanover-Tower19:11",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TT 14",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  T T  1 4",
+                    topFont: "Hanover-Tower19:11",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "message",
@@ -7092,10 +7430,18 @@ EDSData.TTSG = {
     5214: {
         1: {
             front: {
-                renderType: "message",
-                text: "~  T T 1 5",
-                font: "Hanover-Tower19:11",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TT 15",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  T T  1 5",
+                    topFont: "Hanover-Tower19:11",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "message",
@@ -7108,10 +7454,18 @@ EDSData.TTSG = {
     5215: {
         1: {
             front: {
-                renderType: "message",
-                text: "~  T T 1 6",
-                font: "Hanover-Tower19:11",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TT 16",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  T T  1 6",
+                    topFont: "Hanover-Tower19:11",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "message",
@@ -7124,10 +7478,18 @@ EDSData.TTSG = {
     5216: {
         1: {
             front: {
-                renderType: "message",
-                text: "~  T T 1 7",
-                font: "Hanover-Tower19:11",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TT 17",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  T T  1 7",
+                    topFont: "Hanover-Tower19:11",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "message",
@@ -7140,10 +7502,18 @@ EDSData.TTSG = {
     5217: {
         1: {
             front: {
-                renderType: "message",
-                text: "~  T T 1 8",
-                font: "Hanover-Tower19:11",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TT 18",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  T T  1 8",
+                    topFont: "Hanover-Tower19:11",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "message",
@@ -7156,10 +7526,18 @@ EDSData.TTSG = {
     5218: {
         1: {
             front: {
-                renderType: "message",
-                text: "~  T T 1 9",
-                font: "Hanover-Tower19:11",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TT 19",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  T T  1 9",
+                    topFont: "Hanover-Tower19:11",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "message",
@@ -7172,10 +7550,18 @@ EDSData.TTSG = {
     5219: {
         1: {
             front: {
-                renderType: "message",
-                text: "~  T T 2 0",
-                font: "Hanover-Tower19:11",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TT 20",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  T T  2 0",
+                    topFont: "Hanover-Tower19:11",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "message",
@@ -7188,10 +7574,18 @@ EDSData.TTSG = {
     5220: {
         1: {
             front: {
-                renderType: "message",
-                text: "~  T T 2 1",
-                font: "Hanover-Tower19:11",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TT 21",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  T T  2 1",
+                    topFont: "Hanover-Tower19:11",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "message",
@@ -7204,10 +7598,18 @@ EDSData.TTSG = {
     5221: {
         1: {
             front: {
-                renderType: "message",
-                text: "~  T T 2 2",
-                font: "Hanover-Tower19:11",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TT 22",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  T T  2 2",
+                    topFont: "Hanover-Tower19:11",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "message",
@@ -7220,10 +7622,18 @@ EDSData.TTSG = {
     5222: {
         1: {
             front: {
-                renderType: "message",
-                text: "~  T T 2 3",
-                font: "Hanover-Tower19:11",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TT 23",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  T T  2 3",
+                    topFont: "Hanover-Tower19:11",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "message",
@@ -7236,10 +7646,18 @@ EDSData.TTSG = {
     5223: {
         1: {
             front: {
-                renderType: "message",
-                text: "~  T T 2 4",
-                font: "Hanover-Tower19:11",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TT 24",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  T T  2 4",
+                    topFont: "Hanover-Tower19:11",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "message",
@@ -7252,10 +7670,18 @@ EDSData.TTSG = {
     5224: {
         1: {
             front: {
-                renderType: "message",
-                text: "~  T T 2 5",
-                font: "Hanover-Tower19:11",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TT 25",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  T T  2 5",
+                    topFont: "Hanover-Tower19:11",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "message",
@@ -7268,10 +7694,18 @@ EDSData.TTSG = {
     5225: {
         1: {
             front: {
-                renderType: "message",
-                text: "~  T T 2 6",
-                font: "Hanover-Tower19:11",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TT 26",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "~  T T  2 6",
+                    topFont: "Hanover-Tower19:11",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "message",
@@ -7284,10 +7718,19 @@ EDSData.TTSG = {
     5300: {
         1: {
             front: {
-                renderType: "centreMessageServiceScroll2",
-                serviceNumber: "b1",
-                top: "~ Crew  Bus ",
-                topFont: "Hanover-Tower19:11",
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "CREW BUS B1",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "b1",
+                    top: "Crew  Bus",
+                    topFont: "Hanover-Tower19:11",
+                    image: "TTSRoundel"
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "message",
@@ -7300,10 +7743,19 @@ EDSData.TTSG = {
     5301: {
         1: {
             front: {
-                renderType: "centreMessageServiceScroll2",
-                serviceNumber: "b2",
-                top: "~ Crew  Bus ",
-                topFont: "Hanover-Tower19:11",
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "CREW BUS B2",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "b2",
+                    top: "Crew  Bus",
+                    topFont: "Hanover-Tower19:11",
+                    image: "TTSRoundel"
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "message",
@@ -7316,10 +7768,19 @@ EDSData.TTSG = {
     5302: {
         1: {
             front: {
-                renderType: "centreMessageServiceScroll2",
-                serviceNumber: "b3",
-                top: "~ Crew  Bus ",
-                topFont: "Hanover-Tower19:11",
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "CREW BUS B3",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "b3",
+                    top: "Crew  Bus",
+                    topFont: "Hanover-Tower19:11",
+                    image: "TTSRoundel"
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "message",
@@ -7332,10 +7793,19 @@ EDSData.TTSG = {
     5303: {
         1: {
             front: {
-                renderType: "centreMessageServiceScroll2",
-                serviceNumber: "b4",
-                top: "~ Crew  Bus ",
-                topFont: "Hanover-Tower19:11",
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "CREW BUS B4",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "b4",
+                    top: "Crew  Bus",
+                    topFont: "Hanover-Tower19:11",
+                    image: "TTSRoundel"
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "message",
@@ -7348,10 +7818,19 @@ EDSData.TTSG = {
     5304: {
         1: {
             front: {
-                renderType: "centreMessageServiceScroll2",
-                serviceNumber: "b5",
-                top: "~ Crew  Bus ",
-                topFont: "Hanover-Tower19:11",
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "CREW BUS B5",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "b5",
+                    top: "Crew  Bus",
+                    topFont: "Hanover-Tower19:11",
+                    image: "TTSRoundel"
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "message",
@@ -7364,10 +7843,19 @@ EDSData.TTSG = {
     5305: {
         1: {
             front: {
-                renderType: "centreMessageServiceScroll2",
-                serviceNumber: "b6",
-                top: "~ Crew  Bus ",
-                topFont: "Hanover-Tower19:11",
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "CREW BUS B6",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "b6",
+                    top: "Crew  Bus",
+                    topFont: "Hanover-Tower19:11",
+                    image: "TTSRoundel"
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "message",
@@ -7380,10 +7868,19 @@ EDSData.TTSG = {
     5306: {
         1: {
             front: {
-                renderType: "centreMessageServiceScroll2",
-                serviceNumber: "b7",
-                top: "~ Crew  Bus ",
-                topFont: "Hanover-Tower19:11",
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "CREW BUS B7",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "b7",
+                    top: "Crew  Bus",
+                    topFont: "Hanover-Tower19:11",
+                    image: "TTSRoundel"
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "message",
@@ -7396,10 +7893,19 @@ EDSData.TTSG = {
     5307: {
         1: {
             front: {
-                renderType: "centreMessageServiceScroll2",
-                serviceNumber: "b8",
-                top: "~ Crew  Bus ",
-                topFont: "Hanover-Tower19:11",
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "CREW BUS B8",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "b8",
+                    top: "Crew  Bus",
+                    topFont: "Hanover-Tower19:11",
+                    image: "TTSRoundel"
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "message",
@@ -7412,10 +7918,19 @@ EDSData.TTSG = {
     5308: {
         1: {
             front: {
-                renderType: "centreMessageServiceScroll2",
-                serviceNumber: "b9",
-                top: "~ Crew  Bus ",
-                topFont: "Hanover-Tower19:11",
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "CREW BUS B9",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "b9",
+                    top: "Crew  Bus",
+                    topFont: "Hanover-Tower19:11",
+                    image: "TTSRoundel"
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "message",
@@ -7624,10 +8139,18 @@ EDSData.TTSG = {
     6666: {
         1: {
             front: {
-                renderType: "message",
-                text: "`",
-                font: "Hanover-Tower19:11",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TOWER TRANSIT LOGO",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "`",
+                    topFont: "Hanover-Tower19:11",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: { 
                 renderType: "message",
@@ -7796,6 +8319,10 @@ EDSImages.TTSG = {
         [0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0],
         [0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0],
         [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
         [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0],
         [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
         [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0],
