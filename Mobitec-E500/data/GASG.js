@@ -783,6 +783,166 @@ EDSData.GASG = {
             scrollFont: "Mobitec-7:4"
         }
     },
+    431: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "43",
+            destination: {
+                text: "UPPER EAST COAST",
+                font: "Mobitec-7:5:3"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "43",
+                    top: "Upper East Coast",
+                    topFont: "Mobitec-7:5:3"
+                },
+                "PUNGGOL WAY",
+                "SENGKANG EAST RD",
+                "BUANGKOK MRT",
+                "BUANGKOK GREEN",
+                "YIO CHU KANG RD",
+                "SERANGOON MRT",
+                "UPPER PAYA LEBAR RD",
+                "TAI SENG MRT",
+                "MACPHERSON MRT",
+                "PAYA LEBAR RD / MRT",
+                "TANJONG KATONG RD",
+                "MARINE PARADE RD"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    432: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "43",
+            destination: {
+                text: "PUNGGOL",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "43",
+                    top: "Punggol",
+                    topFont: "Mobitec-13:8"
+                },
+                "MARINE PARADE RD",
+                "TANJONG KATONG RD",
+                "PAYA LEBAR MRT / RD",
+                "MACPHERSON MRT",
+                "TAI SENG MRT",
+                "UPPER PAYA LEBAR RD",
+                "SERANGOON MRT",
+                "YIO CHU KANG RD",
+                "BUANGKOK GREEN",
+                "BUANGKOK MRT",
+                "SENGKANG EAST RD",
+                "PUNGGOL WAY"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    433: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "43e",
+            destination: {
+                text: "MARINE PARADE",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "43e",
+                    top: "Marine",
+                    bottom: "Parade",
+                    image: "express",
+                },
+                "SENGKANG EAST RD",
+                "BUANGKOK MRT",
+                "KPE (EXPRESS)",
+                "PAYA LEBAR RD",
+                "TANJONG KATONG RD"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    434: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "43e",
+            destination: {
+                text: "PUNGGOL",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "43e",
+                    top: "Punggol",
+                    topFont: "Mobitec-12:7",
+                    image: "express",
+                },
+                "TANJONG KATONG RD",
+                "PAYA LEBAR RD",
+                "KPE (EXPRESS)",
+                "BUANGKOK MRT",
+                "SENGKANG EAST RD"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    435: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "43M",
+            destination: {
+                text: "SERANGOON MRT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "43M",
+                    top: "Serangoon MRT",
+                    topFont: "Mobitec-12:7"
+                },
+                "PUNGGOL WAY",
+                "SENGKANG EAST RD",
+                "BUANGKOK MRT",
+                "BUANGKOK GREEN",
+                "YIO CHU KANG RD"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    436: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "43M",
+            destination: {
+                text: "PUNGGOL",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "43M",
+                    top: "Punggol",
+                    topFont: "Mobitec-13:8"
+                },
+                "YIO CHU KANG RD",
+                "BUANGKOK GREEN",
+                "BUANGKOK MRT",
+                "SENGKANG EAST RD",
+                "PUNGGOL WAY"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
     621: {
         front: {
             renderType: "standardService",
@@ -946,6 +1106,273 @@ EDSData.GASG = {
             scrollFont: "Mobitec-7:5:2"
         }
     },
+    821: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "82",
+            destination: {
+                text: "SERANGOON MRT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "82",
+                    top: "Serangoon MRT",
+                    topFont: "Mobitec-13:8"
+                },
+                "PUNGGOL RD", 
+                "HOUGANG AVE 10", 
+                "HOUGANG AVE 2", 
+                "UPPER SERANGOON RD", 
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    822: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "82",
+            destination: {
+                text: "PUNGGOL",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "82",
+                    top: "Punggol",
+                    topFont: "Mobitec-13:8"
+                },
+                "UPPER SERANGOON RD",
+                "HOUGANG AVE 2",
+                "HOUGANG AVE 10",
+                "PUNGGOL RD"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    831: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "83",
+            destination: {
+                text: "SENGKANG",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "83",
+                    top: "Sengkang",
+                    topFont: "Mobitec-13:8"
+                },
+                "PUNGGOL CENTRAL",
+                "PUNGGOL WAY",
+                "PUNGGOL FIELD",
+                "PUNGGOL RD",
+                "SENGKANG EAST RD"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    832: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "83",
+            destination: {
+                text: "PUNGGOL",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "83",
+                    top: "Punggol",
+                    topFont: "Mobitec-13:8"
+                },
+                "SENGKANG EAST RD",
+                "PUNGGOL RD",
+                "PUNGGOL FIELD",
+                "PUNGGOL WAY",
+                "PUNGGOL CENTRAL"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    833: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "83T",
+            destination: {
+                text: "TERMINATING AT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                "SENGKANG INT"
+            ],
+            scrollFont: "Mobitec-7:7"
+        }
+    },
+    841: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "84G",
+            destination: {
+                text: "PUNGGOL",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "84G",
+                    top: "Punggol",
+                    topFont: "Mobitec-13:8"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "84G",
+                    top: "via Sentul Cres",
+                    topFont: "Mobitec-12:7"
+                },
+              "NIBONG > NORTHSHORE > SIT"
+            ],
+            scrollFont: "Mobitec-5:3"
+        }
+    },
+    842: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "84W",
+            destination: {
+                text: "PUNGGOL",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "84W",
+                    top: "Punggol",
+                    topFont: "Mobitec-13:8"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "84W",
+                    top: "via SIT Punggol",
+                    topFont: "Mobitec-12:7"
+                },
+              "SIT > NORTHSHORE > NIBONG"
+            ],
+            scrollFont: "Mobitec-5:3"
+        }
+    },
+    849: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "84",
+            destination: {
+                text: "PUNGGOL",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "84",
+                    top: "Punggol",
+                    topFont: "Mobitec-13:8"
+                },
+                "SENTUL CRESCENT",
+                "PUNGGOL WAY",
+                "NORTHSHORE DRIVE",
+                "NEW PUNGGOL RD"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    851: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "85",
+            destination: {
+                text: "YISHUN",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "85",
+                    top: "Yishun",
+                    topFont: "Mobitec-13:8"
+                },
+                "PUNGGOL CENTRAL",
+                "RIVERVALE DR",
+                "COMPASSVALE DR",
+                "SENGKANG EAST RD / WAY",
+                "SENGKANG WEST WAY",
+                "JALAN KAYU",
+                "SLE",
+                "KHATIB MRT"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    852: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "85",
+            destination: {
+                text: "PUNGGOL",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "85",
+                    top: "Punggol",
+                    topFont: "Mobitec-13:8"
+                },
+                "KHATIB MRT",
+                "SLE",
+                "JALAN KAYU",
+                "SENGKANG WEST WAY",
+                "SENGKANG EAST WAY / RD",
+                "COMPASSVALE DR",
+                "RIVERVALE DR",
+                "PUNGGOL CENTRAL"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    853: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "85A",
+            destination: {
+                text: "SENGKANG EAST RD",
+                font: "Mobitec-7:5:3"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "85A",
+                    top: "TERMINATING AT",
+                    bottom: "SENGKANG EAST RD",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "85A",
+                    top: "TERMINATING AT",
+                    bottom: "SENGKANG COMMUNITY HUB",
+                    bottomFont: "Mobitec-7:4"
+                },
+                "YISHUN AVE 2",
+                "JALAN KAYU",
+                "SENGKANG WEST WAY",
+                "SENGKANG EAST WAY"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
     1111: {
         front: {
             renderType: "destScroll",
@@ -956,6 +1383,57 @@ EDSData.GASG = {
             bottomFont: "Mobitec-7:7",
 
             serviceNumber: ""
+        }
+    },
+    1181: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "118",
+            destination: {
+                text: "CHANGI BUSINESS PARK",
+                font: "Mobitec-7:5:3"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "118",
+                    top: "Changi Business Park",
+                    topFont: "Mobitec-7:5:3"
+                },
+                "PUNGGOL WAY",
+                "TPE",
+                "TAMPINES AVE 10 / 8 / 1",
+                "SIMEI AVE",
+                "XILIN AVE",
+                "EXPO MRT",
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    1182: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "118",
+            destination: {
+                text: "PUNGGOL",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "118",
+                    top: "Punggol",
+                    topFont: "Mobitec-13:8"
+                },
+                "EXPO MRT",
+                "XILIN AVE",
+                "SIMEI AVE",
+                "TAMPINES WEST MRT",
+                "TAMPINES AVE 1 / 8 / 10",
+                "TPE",
+                "PUNGGOL WAY"
+            ],
+            scrollFont: "Mobitec-7:4"
         }
     },
     1191: {
@@ -1095,6 +1573,107 @@ EDSData.GASG = {
             scrollFont: "Mobitec-7:4"
         }
     },
+    3581: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "358",
+            destination: {
+                text: "PASIR RIS INT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "358",
+                    top: "Pasir Ris",
+                    topFont: "Mobitec-13:8"
+                },
+                "PASIR RIS DR 3 / 10",
+                "ELIAS RD",
+                "PASIR RIS DR 3 / 6",
+                "PASIR RIS DR 1 / 4",
+                "PASIR RIS ST 41"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    3582: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "358T",
+            destination: {
+                text: "TERMINATING AT",
+                font: "Mobitec-7:5:3"
+            },
+            scrolls: [
+                "PASIR RIS INT"
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    3591: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "359",
+            destination: {
+                text: "PASIR RIS INT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "359",
+                    top: "Pasir Ris",
+                    topFont: "Mobitec-13:8"
+                },
+                "PASIR RIS DR 3 / 12",
+                "PASIR RIS ST 71",
+                "PASIR RIS DR 12 / 3",
+                "PASIR RIS ST 51",
+                "PASIR RIS DR 11, ST 11",
+                "LOYANG AVE",
+                "PASIR RIS DR 3 / 2"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    3592: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "359T",
+            destination: {
+                text: "TERMINATING AT",
+                font: "Mobitec-7:5:3"
+            },
+            scrolls: [
+                "PASIR RIS INT"
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    3811: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "381",
+            destination: {
+                text: "PUNGGOL INT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "381",
+                    top: "Punggol",
+                    topFont: "Mobitec-13:8"
+                },
+                "PUNGGOL WAY",
+                "PUNGGOL CENTRAL / MRT",
+                "EDGEFIELD PLAINS",
+                "PUNGGOL FIELD / EAST",
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
     3821: {
         front: {
             renderType: "standardService",
@@ -1143,6 +1722,21 @@ EDSData.GASG = {
             scrollFont: "Mobitec-7:4"
         }
     },
+    3823: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "382A",
+            destination: {
+                text: "TERMINATING AT",
+                font: "Mobitec-7:5:3"
+            },
+            scrolls: [
+                "SUMANG LANE",
+                "BLK 226A"
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
     3841: {
         front: {
             renderType: "standardService",
@@ -1163,6 +1757,44 @@ EDSData.GASG = {
                 "NORTHSHORE DRIVE"
             ],
             scrollFont: "Mobitec-7:4"
+        }
+    },
+    3861: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "386",
+            destination: {
+                text: "PUNGGOL INT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "386",
+                    top: "Punggol",
+                    topFont: "Mobitec-13:8"
+                },
+                "PUNGGOL CENTRAL",
+                "EDGEFIELD PLAINS",
+                "PUNGGOL FIELD",
+                "PUNGGOL EAST"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    3862: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "386A",
+            destination: {
+                text: "TERMINATING AT",
+                font: "Mobitec-7:5:3"
+            },
+            scrolls: [
+                "EDGEDALE PLAINS",
+                "BLK 682A"
+            ],
+            scrollFont: "Mobitec-7:5:3"
         }
     },
     4031: {

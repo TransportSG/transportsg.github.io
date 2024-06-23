@@ -2053,6 +2053,13 @@ EDSData.GASG = {
             
                         serviceNumber: "84G"
                     },
+                    {
+                        renderType: "destScroll",
+                        top: "via Sentul Cres ",
+                        topFont: "Lecip-GoAhead16:10",
+            
+                        serviceNumber: "84G"
+                    },
                  "NIBONG > NORTHSHORE > SIT"
                 ],
                 scrollFont: "LECIP-6:4"
@@ -2060,7 +2067,7 @@ EDSData.GASG = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "84G",
-                font: "Lecip-GoAhead20:6",
+                font: "Lecip-GoAhead20:9",
                 spacing: 2
             }
         }
@@ -2079,6 +2086,13 @@ EDSData.GASG = {
             
                         serviceNumber: "84W"
                     },
+                    {
+                        renderType: "destScroll",
+                        top: "via SIT Punggol ",
+                        topFont: "Lecip-GoAhead14:9:2",
+            
+                        serviceNumber: "84W"
+                    },
                  "SIT > NORTHSHORE > NIBONG"
                 ],
                 scrollFont: "LECIP-6:4"
@@ -2086,7 +2100,7 @@ EDSData.GASG = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "84W",
-                font: "Lecip-GoAhead20:6",
+                font: "Lecip-GoAhead20:9",
                 spacing: 2
             }
         }
@@ -3550,7 +3564,7 @@ EDSData.GASG = {
                     renderType: "message2",
                     serviceNumber: "#",
                     top: "Training Bus",
-                    topFont: "Lecip-GoAhead14:9",
+                    topFont: "Lecip-GoAhead14:9:1",
                     image: "L-Plate"
                     },
                 ],
