@@ -6387,28 +6387,6 @@ EDSData.TTSG = {
             }
         }
     },
-    1119: {
-        1: {
-            front: {
-                renderType: "destScrollWithImage",
-                serviceNumber: "79",
-                top: "`",
-                topFont: "Mobitec-Tower11:4",
-                bottom: "~",
-                bottomFont: "Mobitec-Tower11:4",
-            },
-            rear: { 
-                renderType: "twolinerear",
-                top: "ROUTE",
-                topFont: "LECIP-6:3",
-                topSpacing: 1,
-
-                bottom: "FAM. TRG",
-                bottomFont: "LECIP-6:3",
-                bottomSpacing: 1,
-            }
-        }
-    },
     2222: {
         1: {
             front: {
