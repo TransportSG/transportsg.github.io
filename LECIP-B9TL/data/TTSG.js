@@ -211,6 +211,69 @@ EDSFormats.TTSG = {
 
         text: "$top+' '+$bottom+' '+$serviceNumber"
     },
+    message3: {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 1
+            },
+            text: "$serviceNumber",
+            font: "LECIP-19:TowerB9Front",
+            spacing: 3
+        },
+        top: {
+            align: {
+                $$cond: {
+                    "$bottom === null": "centre-x,centre-y",
+                    "else": "centre-x,top"
+                }
+            },
+            text: "$top",
+            font: {
+                $$cond: {
+                    "$topFont === null": "Mobitec-9:6",
+                    "else": "$topFont"
+                }
+            },
+            spacing: 2,
+            margin: {
+                right: 'width(serviceNumber) - width(image)',
+                top: 1
+            }
+        },
+        bottom: {
+            align: "centre-x,bottom",
+            text: {
+                $$cond: {
+                    "$bottom !== null": "$bottom",
+                    "else": "''"
+                }
+            },
+            font: {
+                $$cond: {
+                    "$bottomFont === null": "Hanover-5:3",
+                    "else": "$bottomFont"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber) - width(image)',
+                bottom: 1
+            }
+        },
+        image: {
+            align: "left",
+            image: {
+                $$cond: {
+                    "$image !== null": "$image",
+                    "else": "blank"
+                }
+            }
+        },
+
+        text: "$top+' '+$bottom+' '+$serviceNumber"
+    },
+    
     destScrollWithImage: {
         serviceNumber: {
             align: "right",
@@ -2679,7 +2742,7 @@ EDSData.TTSG = {
                 destination: "TT 17",
                 destinationFont: "Hanover-10",
                 scrolls: [{
-                    renderType: "message2",
+                    renderType: "message3",
                     serviceNumber: "",
                     top: "177",
                     topFont: "LECIP-TowerRear10:7",
@@ -2687,7 +2750,7 @@ EDSData.TTSG = {
                     bottomFont: "Hanover-5:3"
                     },
                     {
-                        renderType: "message2",
+                        renderType: "message3",
                         serviceNumber: "",
                         top: "177",
                         topFont: "LECIP-TowerRear10:7",
@@ -6437,12 +6500,12 @@ EDSData.TTSG = {
         1: {
             front: {
                 renderType: "twolinefront",
-                top: "ROUTE FAMILIARISATION",
-                topFont: "LECIP-7:5",
+                top: "ROUTE  FAMILIARISATION",
+                topFont: "Mobitec-9:6",
                 topSpacing: 1,
 
                 bottom: "TRAINING",
-                bottomFont: "LECIP-7:5",
+                bottomFont: "Mobitec-9:6",
                 bottomSpacing: 1,
             },
             rear: { 
