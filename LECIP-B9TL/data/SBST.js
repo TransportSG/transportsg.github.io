@@ -17321,6 +17321,82 @@ EDSData.SBST = {
             }
         }
     },
+    721: {
+        1: {
+            front: {
+                renderType: "twoline",
+                top: "SHUTTLE 21",
+                topFont: "LECIP-7:5",
+
+                bottom: "SERANGOON - PUNGGOL",
+                bottomFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "twoline",
+                top: "SRG -",
+                topFont: "LECIP-7:5",
+
+                bottom: "PGL",
+                bottomFont: "LECIP-7:5"
+            }
+        },
+        2: {
+            front: {
+                renderType: "twoline",
+                top: "SHUTTLE 21",
+                topFont: "LECIP-7:5",
+
+                bottom: "PUNGGOL - SERANGOON",
+                bottomFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "twoline",
+                top: "PGL -",
+                topFont: "LECIP-7:5",
+
+                bottom: "SRG",
+                bottomFont: "LECIP-7:5"
+            }
+        }
+    },
+    722: {
+        1: {
+            front: {
+                renderType: "twoline",
+                top: "SHUTTLE 22",
+                topFont: "LECIP-7:5",
+
+                bottom: "SERANGOON - HARBOURFRONT",
+                bottomFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "twoline",
+                top: "SRG -",
+                topFont: "LECIP-7:5",
+
+                bottom: "HBF",
+                bottomFont: "LECIP-7:5"
+            }
+        },
+        2: {
+            front: {
+                renderType: "twoline",
+                top: "SHUTTLE 22",
+                topFont: "LECIP-7:5",
+
+                bottom: "HARBOURFRONT - SERANGOON",
+                bottomFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "twoline",
+                top: "HBF -",
+                topFont: "LECIP-7:5",
+
+                bottom: "SRG",
+                bottomFont: "LECIP-7:5"
+            }
+        }
+    },
     770: {
         1: {
             front: {
