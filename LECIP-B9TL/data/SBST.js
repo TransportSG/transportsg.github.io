@@ -15199,6 +15199,22 @@ EDSData.SBST = {
             }
         }
     },
+    461: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "TIADA PERKHIDMATAN",
+                font: "Tongda-16:7",
+                spacing: 1
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "OFF",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
     498: {
         1: {
             front: {
