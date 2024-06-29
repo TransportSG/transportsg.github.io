@@ -170,6 +170,27 @@ EDSFormats.SBST = {
             spacing: '$spacing'
         }
     },
+    "JB": {
+        serviceNumber: {
+            align: "left-x, left-y",
+            margin: {
+                left: 1,
+                top: 2
+            },
+            text: "$serviceNumber",
+            font: "Tongda-16:7",
+            spacing: 1
+        },
+        branding: {
+            align: "centre-x,centre-y",
+            margin: {
+                left: 0
+            },
+            text: "$branding",
+            font: "$font",
+            spacing: '$spacing'
+        }
+    },
     twoline: {
         top: {
             align: "centre-x,top",
@@ -15210,6 +15231,93 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "OFF",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    462: {
+        1: {
+            front: {
+                renderType: "JB",
+                serviceNumber: "T50",
+                branding: "      PONTIAN",
+                font: "Tongda-16:7",
+                spacing: 1
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "T50",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    463: {
+        1: {
+            front: {
+                renderType: "JB",
+                serviceNumber: "CW2",
+                branding: "          QUEEN STREET",
+                font: "Tongda-16:7",
+                spacing: 1
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "CW2",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    464: {
+        1: {
+            front: {
+                renderType: "JB",
+                serviceNumber: "P211",
+                branding: "            TAMAN UNIVERSITI",
+                font: "Tongda-16:7",
+                spacing: 1
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "P211",
+                font: "LECIP-20:9",
+                spacing: 1
+            }
+        }
+    },
+    465: {
+        1: {
+            front: {
+                renderType: "JB",
+                serviceNumber: "VTL",
+                branding: "    SG - MY",
+                font: "Tongda-16:7",
+                spacing: 1
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "VTL",
+                topFont: "LECIP-10",
+
+                bottom: "SG - MY",
+                bottomFont: "LECIP-6:3"
+            }
+        }
+    },
+    466: {
+        1: {
+            front: {
+                renderType: "JB",
+                serviceNumber: "AA1",
+                branding: "       SENAI AIRPORT",
+                font: "Tongda-16:7",
+                spacing: 1
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "AA1",
                 font: "LECIP-20:9",
                 spacing: 2
             }
