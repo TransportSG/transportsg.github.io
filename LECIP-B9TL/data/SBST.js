@@ -15251,6 +15251,21 @@ EDSData.SBST = {
                 font: "LECIP-20:9",
                 spacing: 2
             }
+        },
+        2: {
+            front: {
+                renderType: "JB",
+                serviceNumber: "T31",
+                branding: "         TMN PULAI INDAH",
+                font: "Tongda-16:7",
+                spacing: 1
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "T31",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
         }
     },
     463: {
@@ -15266,6 +15281,21 @@ EDSData.SBST = {
                 renderType: "rearService",
                 serviceNumber: "CW2",
                 font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "JB",
+                serviceNumber: "CW3L",
+                branding: "          PERLING",
+                font: "Tongda-16:7",
+                spacing: 1
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "CW3L",
+                font: "LECIP-20:6",
                 spacing: 2
             }
         }
