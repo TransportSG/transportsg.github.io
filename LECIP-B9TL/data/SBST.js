@@ -4648,25 +4648,6 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "68",
-                destination: "> TAMPINES",
-                destinationFont: "LECIP-10",
-                scrolls: [
-                    'TAMPINES AVE 4',
-                    'TAMPINES ST 92'
-                ],
-                scrollFont: "LECIP-7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "68",
-                font: "LECIP-20:12",
-                spacing: 2
-            }
-        },
-        2: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "68",
                 destination: "TAMPINES - TAMPINES ST 92",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
@@ -4681,9 +4662,28 @@ EDSData.SBST = {
                 font: "LECIP-20:12",
                 spacing: 2
             }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "68",
+                destination: "> TAMPINES",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    'TAMPINES AVE 4',
+                    'TAMPINES ST 92'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "68",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
         }
     },
-    "68T": {
+    "68G": {
         1: {
             front: {
                 renderType: "standardService",
@@ -15353,6 +15353,7 @@ EDSData.SBST = {
             }
         }
     },
+
     498: {
         1: {
             front: {
