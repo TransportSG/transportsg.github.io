@@ -272,8 +272,70 @@ EDSFormats.TTSG = {
         },
 
         text: "$top+' '+$bottom+' '+$serviceNumber"
+        
     },
-    
+    message4: {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 1
+            },
+            text: "$serviceNumber",
+            font: "LECIP-19:TowerB9Front",
+            spacing: 3
+        },
+        top: {
+            align: {
+                $$cond: {
+                    "$bottom === null": "centre-x,centre-y",
+                    "else": "centre-x,top"
+                }
+            },
+            text: "$top",
+            font: {
+                $$cond: {
+                    "$topFont === null": "Mobitec-9:6",
+                    "else": "$topFont"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber) - width(image)',
+                top: 0
+            }
+        },
+        bottom: {
+            align: "centre-x,bottom",
+            text: {
+                $$cond: {
+                    "$bottom !== null": "$bottom",
+                    "else": "''"
+                }
+            },
+            font: {
+                $$cond: {
+                    "$bottomFont === null": "Hanover-5:3",
+                    "else": "$bottomFont"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber) - width(image)',
+                bottom: 0
+            }
+        },
+        image: {
+            align: "left",
+            image: {
+                $$cond: {
+                    "$image !== null": "$image",
+                    "else": "blank"
+                }
+            }
+        },
+
+        text: "$top+' '+$bottom+' '+$serviceNumber"
+    },
     destScrollWithImage: {
         serviceNumber: {
             align: "right",
@@ -5901,6 +5963,38 @@ EDSData.TTSG = {
     },
     "966A": {
         1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "MARINE PARADE",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message4",
+                    serviceNumber: "966A",
+                    top: "ENDS AT",
+                    topFont: "Hanover-Tower11:7",
+                    bottom: "MARINE PARADE RD",
+                    bottomFont: "LECIP-7:5",
+                    },
+                    {
+                    renderType: "message4",
+                    serviceNumber: "966A",
+                    top: "ENDS AT",
+                    topFont: "Hanover-Tower11:7",
+                    bottom: "MARINE PDE STN EXIT 2",
+                    bottomFont: "LECIP-7:5",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "message",
+                text: "966A",
+                font: "LECIP-TowerRear17:7",
+                spacing: 1
+            }
+        },
+        2: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "966A",

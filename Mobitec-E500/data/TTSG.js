@@ -7046,6 +7046,18 @@ EDSData.TTSG = {
             destFont: "Mobitec-7:5:3",
             scrolls: [
                 "Marine Parade Rd",
+                "(Marine Pde Stn Exit 2)",
+            ]
+        }
+    },
+    9669: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "966A",
+            destination: "Ends At",
+            destFont: "Mobitec-7:5:3",
+            scrolls: [
+                "Marine Parade Rd",
                 "(Opp Parkway Parade)",
             ]
         }
