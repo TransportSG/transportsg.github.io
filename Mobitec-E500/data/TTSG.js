@@ -6073,6 +6073,73 @@ EDSData.TTSG = {
             image: "mrt"
         }
     },
+    8711: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "871",
+            destination: "BEAUTY WORLD MRT",
+            scrolls: [
+                "BUKIT GOMBAK MRT",
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "871",
+                    top: "Welcome on board",
+                    topFont: "Hanover-7:3",
+                    bottom: "Tower Transit",
+                    bottomFont: "Hanover-7:3",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "871",
+                    top: "Have a pleasant",
+                    topFont: "Hanover-7:3",
+                    bottom: "journey!",
+                    bottomFont: "Hanover-7:3",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "871",
+                    top: "BEAUTY WORLD",
+                    image: "mrt"
+                }
+            ]
+        }
+    },
+    8712: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "871",
+            destination: "TENGAH",
+            scrolls: [
+                "BUKIT GOMBAK MRT",
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "871",
+                    top: "Welcome on board",
+                    topFont: "Hanover-7:3",
+                    bottom: "Tower Transit",
+                    bottomFont: "Hanover-7:3",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "871",
+                    top: "Have a pleasant",
+                    topFont: "Hanover-7:3",
+                    bottom: "journey!",
+                    bottomFont: "Hanover-7:3",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "871",
+                    top: "TENGAH",
+                }
+            ]
+        }
+    },
     8701: {
         front: {
             renderType: "standardService",

@@ -5199,6 +5199,58 @@ EDSData.TTSG = {
             }
         }
     },
+    871: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "871",
+                destination: "BEAUTY WORLD MRT",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                    "BUKIT GOMBAK MRT",   
+                {
+                    renderType: "destScroll",
+                    top: "BEAUTY WORLD MRT",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "871"
+                },
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "871",
+                font: "LECIP-TowerRear17:10",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "871",
+                destination: "TENGAH",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                    "BUKIT GOMBAK MRT",
+            {
+                    renderType: "destScroll",
+                    top: "TENGAH",
+                    topFont: "Hanover-Tower12:7",
+        
+                    serviceNumber: "871"
+            },
+            ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "871",
+                font: "LECIP-TowerRear17:10",
+                spacing: 2
+            }
+        }
+    },
     882: {
         1: {
             front: {
@@ -8286,26 +8338,6 @@ EDSData.TTSG = {
                     },
                 ],
                 scrollFont: "Hanover-7:5"
-            },
-            rear: { 
-                renderType: "message",
-                text: "~",
-                font: "Hanover-Tower19:11",
-                spacing: 1
-            }
-        }
-    },
-    6667: {
-        1: {
-            front: {
-                renderType: "twolinefront",
-                top: "TOWER TRANSIT SG",
-                topFont: "LECIP-10",
-                topSpacing: 1,
-
-                bottom: "(FONTS ARE STILL WIP)",
-                bottomFont: "LECIP-7:5",
-                bottomSpacing: 1,
             },
             rear: { 
                 renderType: "message",
