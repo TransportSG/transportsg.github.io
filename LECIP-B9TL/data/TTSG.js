@@ -5210,8 +5210,8 @@ EDSData.TTSG = {
                     "BUKIT GOMBAK MRT",   
                 {
                     renderType: "destScroll",
-                    top: "BEAUTY WORLD MRT",
-                    topFont: "Hanover-Tower12:7",
+                    top: "BEAUTY  WORLD  MRT",
+                    topFont: "Hanover-14:6",
     
                     serviceNumber: "871"
                 },
