@@ -12060,8 +12060,8 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "231G",
-                destination: "> TOA PAYOH INT",
-                destinationFont: "LECIP-7:5",
+                destination: "> TOA PAYOH",
+                destinationFont: "LECIP-10",
                 scrolls: [
                     "LOR 4 TOA PAYOH",
                     "LOR 1 TOA PAYOH"
@@ -12081,8 +12081,8 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "231W",
-                destination: "> TOA PAYOH INT",
-                destinationFont: "LECIP-7:5",
+                destination: "> TOA PAYOH",
+                destinationFont: "LECIP-10",
                 scrolls: [
                     "LOR 1 TOA PAYOH",
                     "LOR 4 TOA PAYOH"
@@ -12892,8 +12892,8 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "274",
-                destination: "> BUKIT MERAH INT",
-                destinationFont: "LECIP-7:5",
+                destination: "> BUKIT MERAH",
+                destinationFont: "LECIP-10",
                 scrolls: [
                     "DEPOT RD"
                 ],
@@ -12912,8 +12912,8 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "275",
-                destination: "> BUKIT MERAH INT",
-                destinationFont: "LECIP-7:5",
+                destination: "> BUKIT MERAH",
+                destinationFont: "LECIP-10",
                 scrolls: [
                     "JALAN BUKIT MERAH",
                     "LOWER DELTA RD",
@@ -14894,7 +14894,7 @@ EDSData.SBST = {
                 top: "YISHUN -",
                 topFont: "LECIP-6:3",
 
-                bottom: "- SELETAR",
+                bottom: "SELETAR",
                 bottomFont: "LECIP-6:3"
             }
         },

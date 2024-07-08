@@ -1709,7 +1709,19 @@ EDSData.SMRT = {
             }
         }
     },
+    6000: {
+        1: {
+            front: {
+                renderType: 'twoline',
+                top: "SMRT BUSES THANK YOU",
+                topFont: "ArialBold-8",
 
+                bottom: "FOR YOUR SUPPORT",
+                bottomFont: "ArialBold-8;Space-Width=0",
+                bottomMargin: 2
+            }
+        }
+    },
     6101: {
         1: {
             front: {
