@@ -1719,8 +1719,14 @@ EDSData.SMRT = {
                 bottom: "FOR YOUR SUPPORT",
                 bottomFont: "ArialBold-8;Space-Width=0",
                 bottomMargin: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "167",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
             }
-        }
+        },
     },
     6101: {
         1: {
