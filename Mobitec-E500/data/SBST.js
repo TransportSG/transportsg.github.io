@@ -8102,6 +8102,14 @@ EDSData.SBST = {
             spacing: 1
         }
     },
+    7070: {
+        front: {
+            renderType: "message",
+            text: "EB707",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
     7701: {
         front: {
             renderType: "standardService",

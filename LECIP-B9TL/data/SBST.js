@@ -19504,6 +19504,22 @@ EDSData.SBST = {
             }
         }
     },
+    9707: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "EB 707",
+                font: "LECIP-20:12",
+                spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB707",
+                font: "LECIP-7:5",
+                spacing: 1
+            }
+        }
+    },
     9999: {
         1: {
             front: {
