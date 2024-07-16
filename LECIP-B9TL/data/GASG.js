@@ -2009,6 +2009,7 @@ EDSData.GASG = {
                 scrollFont: "Hanover-7:5"
             },
             rear: {
+                renderType: "rearService",
                 serviceNumber: "83",
                 font: "Lecip-GoAhead20:12",
                 spacing: 3
@@ -2186,6 +2187,7 @@ EDSData.GASG = {
                 scrollFont: "Hanover-7:5"
             },
             rear: {
+                renderType: "rearService",
                 serviceNumber: "85",
                 font: "Lecip-GoAhead20:12",
                 spacing: 3

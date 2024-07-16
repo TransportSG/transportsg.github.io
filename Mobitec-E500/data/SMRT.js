@@ -11596,7 +11596,7 @@ EDSData.SMRT = {
     9508: {
         front: {
             renderType: "950KotaRaya",
-            serviceNumber: "950~",
+            serviceNumber: "950",
             destination: {
                 text: "KOTARAYA II TER",
                 font: "Mobitec-7:5:2"
@@ -11619,7 +11619,7 @@ EDSData.SMRT = {
     9508: {
         front: {
             renderType: "950KotaRaya",
-            serviceNumber: "950~",
+            serviceNumber: "950",
             destination: {
                 text: "WOODLANDS",
                 font: "Mobitec-7:5:2"

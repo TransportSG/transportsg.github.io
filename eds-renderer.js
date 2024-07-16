@@ -548,6 +548,7 @@ function getGlobalObject() {
     }
 
     exports.parseFormat = function parseFormat(formats, data, images, matrix) {
+        if (!data.renderType) throw new Error('No template specified!')
         let format = new FormattingTemplate(formats[data.renderType], data).solveAll();
 
         let sections = Object.keys(format);
