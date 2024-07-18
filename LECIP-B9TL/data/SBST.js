@@ -18078,7 +18078,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "CT28",
-                destination: "> NEW BRIDGE RD TER",
+                destination: "> NEW BRIDGE RD",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
                     "CLEMENTI AVE 4",

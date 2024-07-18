@@ -488,15 +488,23 @@ EDSData.GASG = {
             }
         }
     },
-    "2B": {
+    "2B": { // Referred from Citaro
         1: {
             front: {
-                renderType: "destScrollWithImage",
+                renderType: "standardService",
                 serviceNumber: "2B",
-                top: "TERMINATING AT",
-                topFont: "Lecip-GoAhead8:6:2",
-                bottom: "BEDOK STN EXIT A",
-                bottomFont: "Lecip-GoAhead8:6:2",
+                destination: "BEDOK MRT",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "2B",
+                    top: "TERMINATING AT",
+                    topFont: "Lecip-GoAhead8:6:2",
+                    bottom: "BEDOK STN EXIT A",
+                    bottomFont: "Lecip-GoAhead8:6:2",
+                },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -1422,13 +1430,19 @@ EDSData.GASG = {
         1: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "36T",
-                destination: "TERMINATING AT",
-                destinationFont: "Lecip-GoAhead8:6:2",
-                scrolls: [
-                    "CHANGI AIRPORT T2"
+                serviceNumber: "34T",
+                destination: "TERMINATE AT CHANGI AIRPORT",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "36T",
+                    top: "TERMINATING AT",
+                    topFont: "Lecip-GoAhead8:6:2",
+                    bottom: "CHANGI AIRPORT T2",
+                    bottomFont: "Lecip-GoAhead8:6:2",
+                },
                 ],
-                scrollFont: "Lecip-GoAhead8:6:2"
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -1819,15 +1833,23 @@ EDSData.GASG = {
             }
         }
     },
-    "68A": {
+    "68A": { 
         1: {
             front: {
-                renderType: "destScrollWithImage",
+                renderType: "standardService",
                 serviceNumber: "68A",
-                top: "TERMINATING AT",
-                topFont: "Lecip-GoAhead8:6:2",
-                bottom: "TAMPINES INT",
-                bottomFont: "Lecip-GoAhead8:6:2",
+                destination: "TAMPINES INT",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "68A",
+                    top: "TERMINATING AT",
+                    topFont: "Lecip-GoAhead8:6:2",
+                    bottom: "TAMPINES INT",
+                    bottomFont: "Lecip-GoAhead8:6:2",
+                },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -1837,13 +1859,13 @@ EDSData.GASG = {
             }
         }
     },
-    "68B": {
+    "68B": { 
         1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "68B",
-                destination: "TERMINATING AT",
-                destinationFont: "Lecip-GoAhead8:6:2",
+                destination: "TAMPINES AVE 11",
+                destinationFont: "Hanover-10",
                 scrolls: [{
                     renderType: "destScrollWithImage",
                     serviceNumber: "68B",
@@ -1861,11 +1883,11 @@ EDSData.GASG = {
                     bottomFont: "Lecip-GoAhead8:6:2",
                 },
                 ],
-                scrollFont: "Lecip-GoAhead8:6:2"
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "68B",
+                serviceNumber: "68A",
                 font: "Lecip-GoAhead20:9",
                 spacing: 2
             }
@@ -2016,15 +2038,23 @@ EDSData.GASG = {
             }
         }
     },
-    "83T": {
+    "83T": { 
         1: {
             front: {
-                renderType: "destScrollWithImage",
+                renderType: "standardService",
                 serviceNumber: "83T",
-                top: "TERMINATING AT",
-                topFont: "Lecip-GoAhead8:6:2",
-                bottom: "SENGKANG INT",
-                bottomFont: "Lecip-GoAhead8:6:2",
+                destination: "SENGKANG INT",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "83T",
+                    top: "TERMINATING AT",
+                    topFont: "Lecip-GoAhead8:6:2",
+                    bottom: "SENGKANG INT",
+                    bottomFont: "Lecip-GoAhead8:6:2",
+                },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -2557,15 +2587,23 @@ EDSData.GASG = {
             }
         }
     },
-    "358T": { // Referred from Citaro
+    "358T": { 
         1: {
             front: {
-                renderType: "destScrollWithImage",
+                renderType: "standardService",
                 serviceNumber: "358T",
-                top: "TERMINATING AT",
-                topFont: "Lecip-GoAhead8:6:2",
-                bottom: "PASIR RIS INT",
-                bottomFont: "Lecip-GoAhead8:6:2",
+                destination: "PASIR RIS INT",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "358T",
+                    top: "TERMINATING AT",
+                    topFont: "Lecip-GoAhead8:6:2",
+                    bottom: "PASIR RIS INT",
+                    bottomFont: "Lecip-GoAhead8:6:2",
+                },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -2607,15 +2645,23 @@ EDSData.GASG = {
             }
         }
     },
-    "359T": { // Referred from Citaro
+    "359T": { 
         1: {
             front: {
-                renderType: "destScrollWithImage",
+                renderType: "standardService",
                 serviceNumber: "359T",
-                top: "TERMINATING AT",
-                topFont: "Lecip-GoAhead8:6:2",
-                bottom: "PASIR RIS INT",
-                bottomFont: "Lecip-GoAhead8:6:2",
+                destination: "PASIR RIS INT",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "359T",
+                    top: "TERMINATING AT",
+                    topFont: "Lecip-GoAhead8:6:2",
+                    bottom: "PASIR RIS INT",
+                    bottomFont: "Lecip-GoAhead8:6:2",
+                },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -2719,7 +2765,7 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "382A",
-                destination: "TERMINATING AT",
+                destination: "SUMANG LANE",
                 destinationFont: "Lecip-GoAhead8:6:2",
                 scrolls: [{
                     renderType: "destScrollWithImage",
@@ -2812,7 +2858,7 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "386A",
-                destination: "TERMINATING AT",
+                destination: "EDGEDALE PLAINS",
                 destinationFont: "Lecip-GoAhead8:6:2",
                 scrolls: [{
                     renderType: "destScrollWithImage",
