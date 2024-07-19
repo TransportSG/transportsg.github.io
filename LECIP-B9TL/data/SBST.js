@@ -2056,6 +2056,37 @@ EDSData.SBST = {
             }
         }
     },
+    "23C": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "23",
+                destination: "TAMPINES INT-ROCHOR",
+                destinationFont: "LECIP-7:5",
+                scrolls: [{
+                    renderType: "brandedSvc",
+                    serviceNumber: "23",
+                    branding: "  ~",
+                    font: "LECIP-20:12",
+                    spacing: 2
+                    },
+                    "TAMPINES AVE 1",
+                    "BEDOK NORTH RD",
+                    "BENDEMEER RD",
+                    "SERANGOON RD",
+                    "BEDOK NORTH RD",
+                    "TAMPINES AVE 1"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "23",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        }
+    },
     24: {
         1: {
             front: {
@@ -5880,6 +5911,64 @@ EDSData.SBST = {
                 renderType: "rearService",
                 serviceNumber: "88B",
                 font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    "88C": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "88",
+                destination: "> PASIR RIS INT",
+                destinationFont: "LECIP-10",
+                scrolls: [{
+                    renderType: "brandedSvc",
+                    serviceNumber: "88",
+                    branding: "  ~",
+                    font: "LECIP-20:12",
+                    spacing: 2
+                    },
+                    'PASIR RIS DR 3',
+                    'PUNGGOL RD',
+                    'HOUGANG AVE 8',
+                    'ANG MO KIO AVE 5',
+                    'BISHAN ST 22'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "88",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "88",
+                destination: "> SENGKANG INT",
+                destinationFont: "LECIP-10",
+                scrolls: [{
+                    renderType: "brandedSvc",
+                    serviceNumber: "88",
+                    branding: "  ~",
+                    font: "LECIP-20:12",
+                    spacing: 2
+                    },
+                    'BISHAN ST 22',
+                    'ANG MO KIO AVE 5',
+                    'HOUGANG AVE 8',
+                    'PUNGGOL RD',
+                    'PASIR RIS DR 3'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "88",
+                font: "LECIP-20:12",
                 spacing: 2
             }
         }
@@ -13092,6 +13181,35 @@ EDSData.SBST = {
             }
         }
     },
+    "293C": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "293",
+                destination: "> TAMPINES ST 71&AVE 7",
+                destinationFont: "LECIP-7:5",
+                scrolls: [{
+                    renderType: "brandedSvc",
+                    serviceNumber: "293",
+                    branding: "~",
+                    font: "LECIP-20:12",
+                    spacing: 2
+                    },
+                    "TAMPINES AVE 4 & 3",
+                    "TAMPINES AVE 8 & 9",
+                    "TAMPINES ST 45&42",
+                    "TAMPINES AVE 4 & 3"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "293",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
     "293T": {
         1: {
             front: {
@@ -15353,7 +15471,6 @@ EDSData.SBST = {
             }
         }
     },
-
     498: {
         1: {
             front: {
@@ -16875,7 +16992,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "DTL",
-                font: "LECIP-20:12",
+                font: "LECIP-20:9",
                 spacing: 2
             }
         }
