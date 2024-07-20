@@ -5207,7 +5207,11 @@ EDSData.TTSG = {
                 destination: "BEAUTY WORLD MRT",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [                    
-                    "BUKIT GOMBAK MRT",   
+                    "TENGAH GARDEN WALK",   
+                    "BUKIT BATOK WEST AVE 6",
+                    "BUKIT BATOK ST 52",
+                    "BUKIT BATOK EAST AVE 3",
+                    "JLN JURONG KECHIL"
                 {
                     renderType: "destScroll",
                     top: "BEAUTY  WORLD  MRT",
@@ -5232,7 +5236,11 @@ EDSData.TTSG = {
                 destination: "TENGAH",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [                    
-                    "BUKIT GOMBAK MRT",
+                    "JLN JURONG KECHIL",
+                    "BUKIT BATOK EAST AVE 3",
+                    "BUKIT BATOK ST 52",
+                    "BUKIT BATOK WEST AVE 6",
+                    "TENGAH GARDEN WALK"
             {
                     renderType: "destScroll",
                     top: "TENGAH",
@@ -6401,7 +6409,65 @@ EDSData.TTSG = {
             }
         }
     },
-    992: {
+   "992": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "992",
+                destination: "TENGAH",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                "BUKIT BATOK WEST AVE 6",
+                "BUKIT BATOK WEST AVE 8",
+                "BUKIT BATOK RD",
+                "PLANTATION CRESCENT",
+                {
+                    renderType: "destScroll",
+                    top: "TENGAH",
+                    topFont: "Hanover-Tower12:7",
+        
+                    serviceNumber: "992"
+                },
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "992",
+                font: "LECIP-TowerRear17:10",
+                spacing: 1
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "992",
+                destination: "BUKIT BATOK",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                    "PLANTATION CRESCENT",
+                    "BUKIT BATOK RD",
+                    "BUKIT BATOK WEST AVE 8",
+                    "BUKIT BATOK WEST AVE 6",
+                    {
+                        renderType: "destScroll",
+                        top: "BUKIT BATOK",
+                        topFont: "Hanover-Tower12:7",
+            
+                        serviceNumber: "992"
+                    },
+                    ],
+                    scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "992",
+                font: "LECIP-TowerRear17:10",
+                spacing: 1
+            }
+        }
+    },
+    "992T": {
         1: {
             front: {
                 renderType: "standardService",
