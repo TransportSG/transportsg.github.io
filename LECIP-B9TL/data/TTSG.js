@@ -5211,7 +5211,7 @@ EDSData.TTSG = {
                     "BUKIT BATOK WEST AVE 6",
                     "BUKIT BATOK ST 52",
                     "BUKIT BATOK EAST AVE 3",
-                    "JLN JURONG KECHIL"
+                    "JLN JURONG KECHIL",
                 {
                     renderType: "destScroll",
                     top: "BEAUTY  WORLD  MRT",
@@ -5240,7 +5240,7 @@ EDSData.TTSG = {
                     "BUKIT BATOK EAST AVE 3",
                     "BUKIT BATOK ST 52",
                     "BUKIT BATOK WEST AVE 6",
-                    "TENGAH GARDEN WALK"
+                    "TENGAH GARDEN WALK",
             {
                     renderType: "destScroll",
                     top: "TENGAH",
@@ -6751,7 +6751,7 @@ EDSData.TTSG = {
         }
     },
     5002: {
-        1: {
+        1: {q
             front: {
                 renderType: "message",
                 text: "EWL Bridging Bus",
