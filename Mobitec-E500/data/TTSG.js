@@ -343,7 +343,15 @@ EDSFormats.TTSG = {
 },
 }
 EDSData.TTSG = {
-    
+    0: {
+        front: {
+                renderType: "TowerSpecialEDS",
+                serviceNumber: "",
+                top: "",
+                topFont: "Mobitec-7:6:2",
+                text: ""
+        }
+    },
     1: {
       front: {
         renderType: "standardService",
@@ -448,7 +456,7 @@ EDSData.TTSG = {
                 bottom: "Mobitec - 270424",
                 bottomFont: "Mobitec-Tower6:4",
                 image: "MAN-Logo37",
-                text: "MAN A22"
+                text: "EDS Version (MAN A22)"
         }
     },
     24: {
@@ -460,11 +468,11 @@ EDSData.TTSG = {
                 bottom: "Mobitec - 270424",
                 bottomFont: "Mobitec-Tower6:4",
                 image: "MAN-Logo37",
-                text: "MAN A24"
+                text: "EDS Version (MAN A24)"
         }
     },
     95: {
-        front: { // Reserved code for MAN A25 Logo
+        front: { // Reserved code for MAN A95 Logo
                 renderType: "TowerSpecialEDS",
                 serviceNumber: "",
                 top: "ND323F (A95)",
@@ -472,7 +480,7 @@ EDSData.TTSG = {
                 bottom: "Mobitec - 270424",
                 bottomFont: "Mobitec-Tower6:4",
                 image: "MAN-Logo37",
-                text: "MAN A95"
+               text: "EDS Version (MAN A95)"
         }
     },
     101: {
@@ -803,7 +811,7 @@ EDSData.TTSG = {
                 bottom: "Mobitec - 150324",
                 bottomFont: "Mobitec-Tower6:4",
                 image: "NEW ADL LOGO",
-                text: "Enviro 500 (New Logo)"
+                text: "EDS Version (ADL E500 New Logo)"
         }
     },
     502: { // Reserved code for Enviro 500 (New ADL Logo)
@@ -815,7 +823,7 @@ EDSData.TTSG = {
                 bottom: "Mobitec - 170921",
                 bottomFont: "Mobitec-Tower6:4",
                 image: "OLD ADL LOGO",
-                text: "Enviro 500 (Old Logo)"
+                text: "EDS Version (ADL E500 Old Logo)"
         }
     },
     521: {
@@ -4049,13 +4057,30 @@ EDSData.TTSG = {
     },
     5888: {
         front: {
-                renderType: "destScroll",
-                serviceNumber: "",
-                top: "World's 1st MAN A95",
-                topFont: "Mobitec-Tower6:4",
-                bottom: "Double Decker Bus",
-                bottomFont: "Mobitec-Tower6:4",
-                image: "MAN-Logo32"
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: "EDS VERSION (SMB5888H)",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "World's 1st MAN A95",
+                    topFont: "Mobitec-Tower6:4",
+                    bottom: "Double Decker Bus",
+                    bottomFont: "Mobitec-Tower6:4",
+                    image: "MAN-Logo32"
+                },
+                {
+                    renderType: "TowerSpecialEDS",
+                    serviceNumber: "",
+                    top: "ND323F (A95)",
+                    topFont: "Mobitec-9:6",
+                    bottom: "Mobitec - 210724 (D)",
+                    bottomFont: "Mobitec-Tower6:4",
+                    image: "MAN-Logo32",
+                    text: "MAN A95"
+                }
+            ]
         }
     },
     6511: {
@@ -6121,7 +6146,7 @@ EDSData.TTSG = {
                 "BUKIT BATOK EAST AVE 3",
                 "BUKIT BATOK ST 52",
                 "BUKIT BATOK WEST AVE 6",
-                "TENGAH GARDEN WALK",
+                "TENGAH DR",
                 {
                     renderType: "destScroll",
                     serviceNumber: "871",
@@ -6148,7 +6173,7 @@ EDSData.TTSG = {
             ]
         }
     },
-    8707: {
+    8701: {
         front: {
             renderType: "standardService",
             serviceNumber: "870",
@@ -6184,7 +6209,7 @@ EDSData.TTSG = {
             ]
         }
     },
-    8708: {
+    8702: {
         front: {
             renderType: "standardService",
             serviceNumber: "870",

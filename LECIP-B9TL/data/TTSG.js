@@ -5240,7 +5240,7 @@ EDSData.TTSG = {
                     "BUKIT BATOK EAST AVE 3",
                     "BUKIT BATOK ST 52",
                     "BUKIT BATOK WEST AVE 6",
-                    "TENGAH GARDEN WALK",
+                    "TENGAH DR",
             {
                     renderType: "destScroll",
                     top: "TENGAH",
@@ -8331,7 +8331,7 @@ EDSData.TTSG = {
             }
         }
     },
-    6271: {
+    "99999": {
         1: {
             front: {
                 renderType: "standardService",
