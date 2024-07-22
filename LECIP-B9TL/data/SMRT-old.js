@@ -3120,7 +3120,7 @@ EDSData['SMRT-old'] = {
                 },
                 scrolls: [
                     "WOODLANDS AVE 3",
-                    "WDL TRAIN CHECKPOINT"
+                    "WDL TRAIN CHKPT"
                 ],
                 scrollFont: 'Arial-8'
             },

@@ -235,14 +235,15 @@ EDSData.SMRT = {
                 renderType: "standardService",
                 serviceNumber: "",
                 destination: {
-                    text: "NEW",
-                    font: "ArialBold-8"
+                    text: "  NEW VER",
+                    font: "LECIP-6:4"
                 },
                 scrolls: [
-                    "VER",
-                    "WIP"
+                    "  COMING",
+                    "   SOON ",
+                    "   WIP  "
                 ],
-                scrollFont: 'ArialBold-8'
+                scrollFont: 'LECIP-6:4'
             }
         }
     }
