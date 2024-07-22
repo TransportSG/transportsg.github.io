@@ -1542,20 +1542,18 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "97",
-                    top: "Welcome on board",
-                    topFont: "Hanover-7:3",
-                    bottom: "Tower Transit",
-                    bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    top: "Hop on this bus to",
+                    topFont: "Mobitec-Tower6:4",
+                    bottom: "Lau Pa Sat & Merlion",
+                    bottomFont: "Mobitec-Tower6:4",
                 },
                 {
                     renderType: "destScroll",
                     serviceNumber: "97",
-                    top: "Have a pleasant",
+                    top: "Enjoy the vibrant city view",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "through this route",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
                 },
                 {
                     renderType: "destScroll",
