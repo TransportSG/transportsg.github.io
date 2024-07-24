@@ -397,56 +397,6 @@ EDSData.TTSG = {
         ]
       }
     },
-    1111: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "",
-            destination: "OFF SERVICE",
-            scrolls: [
-                {
-                    renderType: "message",
-                    text: "Off Service",
-                    font: "TTS-16:9",
-                    spacing: 3
-                },
-                {
-                    renderType: "logo",
-                    image: "logo-full",
-                    text: ""
-                }
-            ]
-        }
-    },
-    1112: {
-        front: {
-                renderType: "TowerSpecialEDS",
-                serviceNumber: "",
-                top: "SGUS",
-                topFont: "SGBusLogo-Mobitec",
-                text: "SG🎔Bus Logo"
-        }
-    },
-    6666: {
-        front: {
-            renderType: "logo",
-            image: "logo-full",
-            text: "Tower Transit Logo",
-            destination: "",
-            scrolls: [
-                {
-                    renderType: "message",
-                    text: "",
-                    font: "TTS-16:9",
-                    spacing: 3
-                },
-                {
-                    renderType: "logo",
-                    image: "logo-full",
-                    text: "TOWER TRANSIT LOGO"
-                }
-            ]
-        }
-    },
     22: {
         front: { // Reserved code for MAN A22 Logo
                 renderType: "TowerSpecialEDS",
@@ -2155,6 +2105,26 @@ EDSData.TTSG = {
             ]
         }
     },
+    1111: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: "OFF SERVICE",
+            scrolls: [
+                {
+                    renderType: "message",
+                    text: "Off Service",
+                    font: "Hanover-Tower16:10",
+                    spacing: 2
+                },
+                {
+                    renderType: "logo",
+                    image: "logo-full",
+                    text: ""
+                }
+            ]
+        }
+    },
     1431: {
         front: {
             renderType: "standardService",
@@ -3193,6 +3163,21 @@ EDSData.TTSG = {
             ]
         }
     },
+    2222: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: "SPARE BUS",
+            scrolls: [
+                {
+                    renderType: "message",
+                    text: "Spare Bus",
+                    font: "Hanover-Tower16:10",
+                    spacing: 2
+                },
+            ]
+        }
+    },
     2821: {
         front: {
             renderType: "standardService",
@@ -3415,6 +3400,21 @@ EDSData.TTSG = {
             ]
         }
     },
+    4444: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: "ON TEST",
+            scrolls: [
+                {
+                    renderType: "message",
+                    text: "On Test",
+                    font: "Hanover-Tower16:10",
+                    spacing: 2
+                },
+            ]
+        }
+    },
     4953: {
         front: {
             renderType: "standardService",
@@ -3442,6 +3442,23 @@ EDSData.TTSG = {
                     bottom: "( LITTLE INDIA MRT )",
                     image: "mrt"
                 }
+            ]
+        }
+    },
+    5000: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: "ROUTE FAMILIARISATION TRAINING",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "Route Familiarisation ",
+                    topFont: "Mobitec-7:5:3",
+                    bottom: "Training",
+                    bottomFont: "Mobitec-7:5:3",
+                },
             ]
         }
     },
@@ -4051,6 +4068,21 @@ EDSData.TTSG = {
             bottom: "Employee Shuttle",
             bottomFont: "Hanover-7:4",
             image: "logo"
+        }
+    },
+    5555: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: "TRAINING BUS",
+            scrolls: [
+                {
+                    renderType: "message",
+                    text: "Training  Bus",
+                    font: "TTS-16:9",
+                    spacing: 2
+                },
+            ]
         }
     },
     5888: {
@@ -4984,6 +5016,27 @@ EDSData.TTSG = {
             ]
         }
     },
+    6666: {
+        front: {
+            renderType: "logo",
+            image: "logo-full",
+            text: "Tower Transit Logo",
+            destination: "",
+            scrolls: [
+                {
+                    renderType: "message",
+                    text: "",
+                    font: "TTS-16:9",
+                    spacing: 3
+                },
+                {
+                    renderType: "logo",
+                    image: "logo-full",
+                    text: "TOWER TRANSIT LOGO"
+                }
+            ]
+        }
+    },
     6701: {
         front: {
             renderType: "standardService",
@@ -5092,6 +5145,15 @@ EDSData.TTSG = {
                 "KRANJI MRT",
                 "WOODLANDS CENTRE RD"
             ]
+        }
+    },
+    7777: {
+        front: {
+                renderType: "TowerSpecialEDS",
+                serviceNumber: "",
+                top: "SGUS",
+                topFont: "SGBusLogo-Mobitec",
+                text: "SG🎔Bus Logo"
         }
     },
     8011: {
@@ -7859,8 +7921,8 @@ EDSImages.TTSG = {
         [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0],
         [0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0],
         [0, 0, 1, 0, 0, 0, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0],
-        [0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0],
-        [0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 1, 0],
+        [0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0],
+        [1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1],
         [1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1],
         [1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1],
         [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
@@ -7877,8 +7939,8 @@ EDSImages.TTSG = {
         [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
         [0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
         [0, 0, 1, 0, 0, 0, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-        [0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-        [0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
         [1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
         [1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
         [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
