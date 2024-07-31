@@ -3232,36 +3232,6 @@ EDSData.GASG = {
             },
         }
     },
-    2223: {
-        1: {
-            front: { 
-                renderType: "twoline",
-                top: "GO AHEAD SINGAPORE",
-                topFont: "LECIP-10",
-                topSpacing: 1,
-
-                bottom: "(FONTS ARE STILL WIP)",
-                bottomFont: "LECIP-7:5",
-                bottomSpacing: 1,
-            },
-                rear: {
-                    renderType: "standardService",
-                    serviceNumber: "",
-                    destination: "~",
-                    destinationFont: "Lecip-GoAhead20:12",
-                    scrolls: [{
-                        renderType: "logo",
-                        text: "Go Ahead Logo",
-                        image: "GoAheadWordingRear",
-            
-                        serviceNumber: ""
-                    },
-                        ""
-                    ],
-                    scrollFont: "LECIP-7:5"
-                },
-            }
-        },
     3333: {
         1: {
             front: { 

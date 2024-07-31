@@ -1,28 +1,32 @@
 EDSFormats.SMRT = {
     standardService: {
         serviceNumber: {
-            align: "right,centre-y",
+            align: "right",
             margin: {
-                right: 4
+                right: 1
             },
             text: "$serviceNumber",
-            font: "Arial-17",
+            font: {
+                $$cond: {
+                    "$serviceFont === null": "Arial-17",
+                    "else": "$serviceFont"
+                }
+            },
             spacing: 2
         },
         destination: {
             align: "centre-x,top",
             margin: {
-                top: 1,
-                right: 'width(serviceNumber) + len(4)'
+                right: 'width(serviceNumber)'
             },
             text: "$destination",
+            font: "$destinationFont",
             spacing: 1
         },
         scroll: {
-            align: "centre-x,top",
+            align: "centre-x,bottom",
             margin: {
-                top: 11,
-                right: 'width(serviceNumber) + len(4)'
+                right: 'width(serviceNumber)'
             },
             scrolls: "$scrolls",
             rotate: true,
@@ -42,7 +46,12 @@ EDSFormats.SMRT = {
             },
             text: "$serviceNumber",
             font: "Arial-17",
-            spacing: 3
+            spacing: {
+                $$cond: {
+                    "$spacing === null" : 2,
+                    "else": "$spacing"
+                }
+            }
         },
         top: {
             align: {
@@ -52,15 +61,10 @@ EDSFormats.SMRT = {
                 }
             },
             text: "$top",
-            font: {
-                $$cond: {
-                    "$topFont === null": "ArialBold-8",
-                    "else": "$topFont"
-                }
-            },
+            font: "$topFont",
             spacing: 1,
             margin: {
-                right: 'width(serviceNumber) - width(image)'
+                right: 'width(serviceNumber)'
             }
         },
         bottom: {
@@ -73,61 +77,17 @@ EDSFormats.SMRT = {
             },
             font: {
                 $$cond: {
-                    "$bottomFont === null": "ArialBold-8",
-                    "else": "$bottomFont"
+                    "$bottomFont !== null": "$bottomFont",
+                    "else": "ArialBold-8"
                 }
             },
             spacing: 1,
             margin: {
-                right: 'width(serviceNumber) - width(image)'
-            }
-        },
-        image: {
-            align: "left",
-            image: {
-                $$cond: {
-                    "$image !== null": "$image",
-                    "else": "blank"
-                }
+                right: 'width(serviceNumber)'
             }
         },
 
         text: "$top+' '+$bottom+' '+$serviceNumber"
-    },
-    calibriOldService: {
-        serviceNumber: {
-            align: "right,centre-y",
-            margin: {
-                right: 4
-            },
-            text: "$serviceNumber",
-            font: "Calibri-17",
-            spacing: 2
-        },
-        destination: {
-            align: "left,top",
-            margin: {
-                left: 1,
-                top: 1
-            },
-            text: "$destination",
-            spacing: 1
-        },
-        scroll: {
-            align: "left,bottom",
-            margin: {
-                left: 1,
-                bottom: 2
-            },
-            scrolls: "$scrolls",
-            rotate: true,
-            rotateSpeed: 3000,
-
-            font: "$scrollFont",
-            spacing: 1
-        },
-
-        text: "$destination"
     },
     logo: {
         logo: {
@@ -235,18 +195,48 @@ EDSData.SMRT = {
                 renderType: "standardService",
                 serviceNumber: "",
                 destination: {
-                    text: "  NEW VER",
-                    font: "LECIP-6:4"
+                    text: "NEW VER",
+                    font: "Hanover-7:3"
                 },
                 scrolls: [
-                    "  COMING",
-                    "   SOON ",
-                    "   WIP  "
+                    "COMING",
+                    "SOON",
+                    "WIP"
                 ],
-                scrollFont: 'LECIP-6:4'
+                scrollFont: "Hanover-7:3"
             }
         }
-    }
+    },
+    9999: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "176",
+                destination: "BUKIT PANJANG via",
+                destinationFont: "ArialBold-8",
+                scrolls: [
+                    {
+                    renderType: "destScroll",
+                    top: "BUKIT PANJANG",
+                    topFont: "ArialBold-8",
+                    bottom: "INT / MRT / LRT",
+                    bottomFont: "ArialBold-8",
+        
+                    serviceNumber: "176"
+                    },
+                    'WEST COAST HIGHWAY',
+                    "JURONG TOWN HALL"
+                ],
+                scrollFont: "ArialBold-8"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "176",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
 }
 
 
