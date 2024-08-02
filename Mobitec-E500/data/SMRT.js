@@ -43,7 +43,57 @@ EDSFormats.SMRT = {
         },
         text: "Kindness is Greater; Be Greater"
     },
+    "950AncientFormat": {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 1
+            },
+            text: "$serviceNumber",
+            font: "Mobitec-16:8",
+            spacing: {
+                $$cond: {
+                    "$spacing === null" : 2,
+                    "else": "$spacing"
+                }
+            }
+        },
+        top: {
+            align: {
+                $$cond: {
+                    "$bottom === null": "left,top",
+                    "else": "left,top",
+                }
+            },
+            text: "$top",
+            font: "$topFont",
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber)'
+            }
+        },
+        bottom: {
+            align: "centre-x,bottom",
+            text: {
+                $$cond: {
+                    "$bottom !== null": "$bottom",
+                    "else": "''"
+                }
+            },
+            font: {
+                $$cond: {
+                    "$bottomFont !== null": "$bottomFont",
+                    "else": "Mobitec-6:5"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber)'
+            }
+        },
 
+        text: "$top+' '+$bottom+' '+$serviceNumber"
+    },
     "950KotaRaya": {
         serviceNumber: {
             align: "right",
@@ -55,7 +105,7 @@ EDSFormats.SMRT = {
             spacing: 2
         },
         destination: {
-            align: "left-x,top",
+            align: "left,top",
             margin: {
                 right: 'width(serviceNumber)'
             },
@@ -11603,20 +11653,34 @@ EDSData.SMRT = {
             },
             scrolls: [
                 {
-                    renderType: "destScroll",
+                    renderType: "950AncientFormat",
                     serviceNumber: "950",
-                    top: "KOTARAYA II TER /       ",
+                    top: "       KOTARAYA II TER /",
                     bottom: "JOHORE BAHRU            ",
                     topFont: "Mobitec-7:5:2",
                     bottomFont: "Mobitec-7:5:2"
                 },
-                "WOODLANDS AVE 3",
-                "JOHORE BAHRU"
+                {
+                    renderType: "950AncientFormat",
+                    serviceNumber: "950",
+                    top: "       KOTARAYA II TER via",
+                    bottom: "WDL CENTRE RD          ",
+                    topFont: "Mobitec-7:5:2",
+                    bottomFont: "Mobitec-7:5:2"
+                },
+                {
+                    renderType: "950AncientFormat",
+                    serviceNumber: "950",
+                    top: "       KOTARAYA II TER via",
+                    bottom: "WOODLANDS CROSSING          ",
+                    topFont: "Mobitec-7:5:2",
+                    bottomFont: "Mobitec-7:4"
+                },
             ],
             scrollFont: "Mobitec-7:5:3"
         }
     },
-    9508: {
+    9509: {
         front: {
             renderType: "950KotaRaya",
             serviceNumber: "950",
@@ -11626,15 +11690,46 @@ EDSData.SMRT = {
             },
             scrolls: [
                 {
-                    renderType: "destScroll",
+                    renderType: "950AncientFormat",
                     serviceNumber: "950",
-                    top: "KOTARAYA II TER /       ",
-                    bottom: "JOHORE BAHRU            ",
+                    top: "       WOODLANDS INT /",
+                    bottom: "SINGAPORE                ",
                     topFont: "Mobitec-7:5:2",
                     bottomFont: "Mobitec-7:5:2"
                 },
-                "WOODLANDS AVE 3",
-                "JOHORE BAHRU"
+                {
+                    renderType: "950AncientFormat",
+                    serviceNumber: "950",
+                    top: "       WOODLANDS INT via",
+                    bottom: "WOODLANDS CROSSING          ",
+                    topFont: "Mobitec-7:5:2",
+                    bottomFont: "Mobitec-7:4"
+                },
+                {
+                    renderType: "950AncientFormat",
+                    serviceNumber: "950",
+                    top: "       WOODLANDS INT via",
+                    bottom: "   WDL TRAIN CHECKPOINT          ",
+                    topFont: "Mobitec-7:5:2",
+                    bottomFont: "Mobitec-7:4"
+                },
+                {
+                    renderType: "950AncientFormat",
+                    serviceNumber: "950",
+                    top: "       WOODLANDS INT via",
+                    bottom: "WDL CENTRE RD          ",
+                    topFont: "Mobitec-7:5:2",
+                    bottomFont: "Mobitec-7:5:2"
+                },
+                {
+                    renderType: "950AncientFormat",
+                    serviceNumber: "950",
+                    top: "       WOODLANDS INT via",
+                    bottom: "   WOODLANDS AVE 3          ",
+                    topFont: "Mobitec-7:5:2",
+                    bottomFont: "Mobitec-7:5:2"
+                },
+
             ],
             scrollFont: "Mobitec-7:5:3"
         }
@@ -13551,7 +13646,7 @@ EDSExtras.SMRT = {
             renderType: "standardService2",
             serviceNumber: "",
             destination: {
-                text: "We hope to",
+                text: "SMRT Buses thank you for your support",
                 font: "Mobitec-7:5:2"
             },
             scrolls: [
@@ -13563,7 +13658,14 @@ EDSExtras.SMRT = {
                     topFont: "Mobitec-7:5:2",
                     bottomFont: "Mobitec-7:5:2"
                 },
-                "serve you again"
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "We hope to",
+                    bottom: "serve you again",
+                    topFont: "Mobitec-7:5:2",
+                    bottomFont: "Mobitec-7:5:2"
+                },
             ],
             scrollFont: "Mobitec-7:5:2"
         },
@@ -13576,12 +13678,24 @@ EDSExtras.SMRT = {
             spacing: 1
         },
     },
-    99: {
+    50: {
+        front: {
+            renderType: "destScroll",
+            top: "SMRT SALUTES",
+            topFont: "Mobitec-7:7",
+
+            bottom: "OUR NSMEN",
+            bottomFont: "Mobitec-7:7",
+
+            serviceNumber: ""
+        }
+    },
+    98: {
         front: {
             renderType: "standardService2",
             serviceNumber: "",
             destination: {
-                text: "We hope to",
+                text: "SMRT Buses thanked you for your support",
                 font: "Mobitec-7:5:2"
             },
             scrolls: [
@@ -13589,11 +13703,18 @@ EDSExtras.SMRT = {
                     renderType: "destScroll",
                     serviceNumber: "",
                     top: "SMRT Buses thanked you",
-                    bottom: "for your support",
+                    bottom: " for your support",
                     topFont: "Mobitec-7:5:2",
                     bottomFont: "Mobitec-7:5:2"
                 },
-                "serve you again"
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "We hope to",
+                    bottom: "serve you again",
+                    topFont: "Mobitec-7:5:2",
+                    bottomFont: "Mobitec-7:5:2"
+                },
             ],
             scrollFont: "Mobitec-7:5:2"
         },
