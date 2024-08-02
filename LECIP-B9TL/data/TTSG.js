@@ -895,7 +895,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "BUKIT TIMAH RD",
-                    bottomFont: "LECIP-7:5",
+                    bottomFont: "Hanover-Tower8",
                     },
                     {
                     renderType: "message4",
@@ -929,7 +929,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "TEKKA CTR",
-                    bottomFont: "LECIP-7:5",
+                    bottomFont: "Hanover-Tower8",
                     },
                 ],
                 scrollFont: "Hanover-7:5"
@@ -1227,7 +1227,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "TANJONG PENJURU",
-                    bottomFont: "LECIP-7:5",
+                    bottomFont: "Hanover-Tower8",
                     },
                     {
                     renderType: "message4",
@@ -1235,7 +1235,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "OPP CLP INTL",
-                    bottomFont: "LECIP-7:5",
+                    bottomFont: "Hanover-Tower8",
                         },
                 ],
                 scrollFont: "Hanover-7:5"
@@ -1393,7 +1393,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "JURONG TOWN HALL RD",
-                    bottomFont: "LECIP-7:5",
+                    bottomFont: "Hanover-Tower8",
                     },
                     {
                     renderType: "message4",
@@ -1401,7 +1401,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "JURONG EAST LIB",
-                    bottomFont: "LECIP-7:5",
+                    bottomFont: "Hanover-Tower8",
                         },
                 ],
                 scrollFont: "Hanover-7:5"
@@ -1425,7 +1425,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "BOON LAY INT",
-                    bottomFont: "LECIP-7:5",
+                    bottomFont: "Hanover-Tower8",
                     },
                 ],
                 scrollFont: "Hanover-7:5"
@@ -1509,7 +1509,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "BOON LAY INT",
-                    bottomFont: "LECIP-7:5",
+                    bottomFont: "Hanover-Tower8",
                     },
                 ],
                 scrollFont: "Hanover-7:5"
@@ -1565,7 +1565,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "KENT RIDGE CRES",
-                    bottomFont: "LECIP-7:5",
+                    bottomFont: "Hanover-Tower8",
                     },
                     {
                     renderType: "message4",
@@ -1573,7 +1573,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "NUS RAFFLES HALL",
-                    bottomFont: "LECIP-7:5",
+                    bottomFont: "Hanover-Tower8",
                         },
                 ],
                 scrollFont: "Hanover-7:5"
@@ -1600,7 +1600,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "CLEMENTI STN EXIT A",
-                    bottomFont: "LECIP-7:5",
+                    bottomFont: "Hanover-Tower8",
                     },
                 ],
                 scrollFont: "Hanover-7:5"
@@ -1900,7 +1900,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "CORPORATION RD",
-                    bottomFont: "LECIP-7:5",
+                    bottomFont: "Hanover-Tower8",
                     },
                     {
                     renderType: "message4",
@@ -1908,7 +1908,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "CORPORATION PL",
-                    bottomFont: "LECIP-7:5",
+                    bottomFont: "Hanover-Tower8",
                     },
                 ],
                 scrollFont: "Hanover-7:5"
@@ -1934,7 +1934,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "JURONG PIER WAY",
-                    bottomFont: "LECIP-7:5",
+                    bottomFont: "Hanover-Tower8",
                     },
                     {
                     renderType: "message4",
@@ -1942,7 +1942,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "JURONG ISLAND CHECKPT",
-                    bottomFont: "LECIP-7:5",
+                    bottomFont: "Hanover-Tower8",
                     },
                 ],
                 scrollFont: "Hanover-7:5"
@@ -2152,7 +2152,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "CLEMENTI STN EXIT B",
-                    bottomFont: "LECIP-7:5",
+                    bottomFont: "Hanover-8",
                     },
                 ],
                 scrollFont: "Hanover-7:5"
@@ -2656,7 +2656,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "OPP YISHUN STN",
-                    bottomFont: "LECIP-7:5",
+                    bottomFont: "Hanover-Tower8",
                     },
                 ],
                 scrollFont: "Hanover-7:5"
@@ -2682,7 +2682,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "WOODLANDS AVE 8",
-                    bottomFont: "LECIP-7:5",
+                    bottomFont: "Hanover-Tower8",
                     },
                     {
                     renderType: "message4",
@@ -2902,7 +2902,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "BT BATOK EAST AVE 4",
-                    bottomFont: "LECIP-7:5",
+                    bottomFont: "Hanover-Tower8",
                     },
                     {
                     renderType: "message4",
@@ -2910,7 +2910,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "BLK 254",
-                    bottomFont: "LECIP-7:5",
+                    bottomFont: "Hanover-Tower8",
                     },
                 ],
                 scrollFont: "Hanover-7:5"
@@ -3075,7 +3075,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "TOH TUCK AVE",
-                    bottomFont: "LECIP-7:5",
+                    bottomFont: "Hanover-Tower8",
                     },
                     {
                     renderType: "message4",
@@ -3083,7 +3083,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "AFT TOH TUCK LINK",
-                    bottomFont: "LECIP-7:5",
+                    bottomFont: "Hanover-Tower8",
                     },
                 ],
                 scrollFont: "Hanover-7:5"
@@ -3167,7 +3167,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "BUKIT BATOK ST 23",
-                    bottomFont: "LECIP-7:5",
+                    bottomFont: "Hanover-Tower8",
                     },
                     {
                     renderType: "message4",
@@ -3175,7 +3175,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "OPP MIDVIEW BUILDING",
-                    bottomFont: "LECIP-7:5",
+                    bottomFont: "Hanover-Tower8",
                     },
                 ],
                 scrollFont: "Hanover-7:5"
@@ -4758,7 +4758,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "WDL TRAIN CHECKPT",
-                    bottomFont: "LECIP-7:5",
+                    bottomFont: "Hanover-Tower8",
                     },
                 ],
                 scrollFont: "Hanover-7:5"
@@ -4784,7 +4784,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "CANBERRA RD",
-                    bottomFont: "LECIP-7:5",
+                    bottomFont: "Hanover-Tower8",
                     },
                     {
                     renderType: "message4",
@@ -4792,7 +4792,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "AFT ADMIRAL HILL",
-                    bottomFont: "LECIP-7:5",
+                    bottomFont: "Hanover-Tower8",
                     },
                 ],
                 scrollFont: "Hanover-7:5"
@@ -4878,15 +4878,15 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "YIO CHU KANG RD",
-                    bottomFont: "LECIP-7:5",
+                    bottomFont: "Hanover-Tower8",
                     },
                     {
                     renderType: "message4",
                     serviceNumber: "857A",
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
-                    bottom: "OPP SUNRISE GARDENS",
-                    bottomFont: "LECIP-7:5",
+                    bottom: "OPP SUNRISE GDNS",
+                    bottomFont: "Hanover-Tower8",
                     },
                 ],
                 scrollFont: "Hanover-7:5"
@@ -4912,7 +4912,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "TEMASEK AVE",
-                    bottomFont: "LECIP-7:5",
+                    bottomFont: "Hanover-Tower8",
                     },
                     {
                     renderType: "message4",
@@ -4920,7 +4920,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "PROMENADE STN",
-                    bottomFont: "LECIP-7:5",
+                    bottomFont: "Hanover-Tower8",
                     },
                 ],
                 scrollFont: "Hanover-7:5"
@@ -4944,7 +4944,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "STAMFORD RD",
-                    bottomFont: "LECIP-7:5",
+                    bottomFont: "Hanover-Tower8",
                     },
                     {
                     renderType: "message4",
@@ -4952,7 +4952,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "CAPITOL BUILDING",
-                    bottomFont: "LECIP-7:5",
+                    bottomFont: "Hanover-Tower8",
                     },
                 ],
                 scrollFont: "Hanover-7:5"
@@ -5115,7 +5115,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "OPP YISHUN STN",
-                    bottomFont: "LECIP-7:5",
+                    bottomFont: "Hanover-Tower8",
                     },
                 ],
                 scrollFont: "Hanover-7:5"
@@ -5170,7 +5170,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "JALAN KAYU",
-                    bottomFont: "LECIP-7:5",
+                    bottomFont: "Hanover-Tower8",
                     },
                     {
                     renderType: "message4",
@@ -5178,7 +5178,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "AFT SELETAR CAMP G",
-                    bottomFont: "LECIP-7:5",                        
+                    bottomFont: "Hanover-Tower8",                        
                     },
                     {
                     renderType: "message4",
@@ -5193,7 +5193,7 @@ EDSData.TTSG = {
             },
             rear: { 
                 renderType: "rearService",
-                serviceNumber: "856B",
+                serviceNumber: "858B",
                 font: "LECIP-TowerRear17:7",
                 spacing: 1
             }
@@ -5361,7 +5361,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "YISHUN INT",
-                    bottomFont: "LECIP-7:5",
+                    bottomFont: "Hanover-Tower8",
                     },
                 ],
                 scrollFont: "Hanover-7:5"
@@ -5446,7 +5446,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "TENGAH BOULEVARD",
-                    bottomFont: "LECIP-7:5",
+                    bottomFont: "Hanover-Tower8",
                     },
                     {
                     renderType: "message4",
@@ -5454,7 +5454,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "BLK 231B",
-                    bottomFont: "LECIP-7:5",                        
+                    bottomFont: "Hanover-Tower8",                        
                     },
                 ],
                 scrollFont: "Hanover-7:5"
@@ -5571,7 +5571,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "MONTREAL LINK",
-                    bottomFont: "LECIP-7:5",
+                    bottomFont: "Hanover-Tower8",
                     },
                     {
                     renderType: "message4",
@@ -5579,7 +5579,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "BLK 592A",
-                    bottomFont: "LECIP-7:5",
+                    bottomFont: "Hanover-Tower8",
                     },
                 ],
                 scrollFont: "Hanover-7:5"
@@ -5673,7 +5673,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "CANBERRA WAY",
-                    bottomFont: "LECIP-7:5",
+                    bottomFont: "Hanover-Tower8",
                     },
                     {
                     renderType: "message4",
@@ -5681,7 +5681,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "BLK 129A",
-                    bottomFont: "LECIP-7:5",
+                    bottomFont: "Hanover-Tower8",
                     },
                 ],
                 scrollFont: "Hanover-7:5"
@@ -5707,7 +5707,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "SEMBAWANG RD",
-                    bottomFont: "LECIP-7:5",
+                    bottomFont: "Hanover-Tower8",
                     },
                     {
                     renderType: "message4",
@@ -5715,7 +5715,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "OPP BLK 590C",
-                    bottomFont: "LECIP-7:5",
+                    bottomFont: "Hanover-Tower8",
                     },
                 ],
                 scrollFont: "Hanover-7:5"
@@ -6206,7 +6206,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "OPP YISHUN STN",
-                    bottomFont: "LECIP-7:5",
+                    bottomFont: "Hanover-Tower8",
                     },
                 ],
                 scrollFont: "Hanover-7:5"
@@ -6232,7 +6232,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "SENGKANG INT",
-                    bottomFont: "LECIP-7:5",
+                    bottomFont: "Hanover-Tower8",
                     },
                 ],
                 scrollFont: "Hanover-7:5"
@@ -6353,7 +6353,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "MARINE PARADE RD",
-                    bottomFont: "LECIP-7:5",
+                    bottomFont: "Hanover-Tower8",
                     },
                     {
                     renderType: "message4",
@@ -6385,7 +6385,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "MARINE PARADE RD",
-                    bottomFont: "LECIP-7:5",
+                    bottomFont: "Hanover-Tower8",
                     },
                     {
                     renderType: "message4",
@@ -6479,7 +6479,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "YISHUN STN",
-                    bottomFont: "LECIP-7:5",
+                    bottomFont: "Hanover-Tower8",
                     },
                 ],
                 scrollFont: "Hanover-7:5"
@@ -6884,7 +6884,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "TENGAH BOULEVARD",
-                    bottomFont: "LECIP-7:5",
+                    bottomFont: "Hanover-Tower8",
                     },
                     {
                     renderType: "message4",
@@ -6892,7 +6892,7 @@ EDSData.TTSG = {
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "BLK 132B",
-                    bottomFont: "LECIP-7:5",                        
+                    bottomFont: "Hanover-Tower8",                        
                     },
                 ],
                 scrollFont: "Hanover-7:5"
