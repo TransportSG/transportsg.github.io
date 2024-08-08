@@ -1974,6 +1974,15 @@ EDSData.TTSG = {
     
                     serviceNumber: "98M"
                 },
+                {
+                    renderType: "message4",
+                    serviceNumber: "98M",
+                    top: "LOOPS AT",
+                    topFont: "Hanover-Tower11:7",
+
+                    bottom: "CORPORATION RD",
+                    bottomFont: "Hanover-8"
+                },
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -2324,13 +2333,13 @@ EDSData.TTSG = {
                     "PANDAN GARDENS",
 
                 {
-                    renderType: "centreMessageServiceScroll",
+                    renderType: "message4",
                     serviceNumber: "143M",
                     top: "LOOPS AT",
                     topFont: "Hanover-Tower11:7",
 
                     bottom: "PANDAN GARDENS",
-                    bottomFont: "LECIP-7:5"
+                    bottomFont: "Hanover-8"
                 },
                 {
                     renderType: "destScroll",
@@ -2423,13 +2432,13 @@ EDSData.TTSG = {
                     "NEWTON MRT",
                     "ORCHARD RD",
                 {
-                    renderType: "centreMessageServiceScroll",
+                    renderType: "message4",
                     serviceNumber: "167e",
                     top: "LIMITED STOPS",
                     topFont: "Hanover-Tower11:7",
 
                     bottom: "EXPRESS SERVICE",
-                    bottomFont: "LECIP-7:5"
+                    bottomFont: "Hanover-8"
                 },
                 {
                     renderType: "destScroll",
@@ -2461,13 +2470,13 @@ EDSData.TTSG = {
                     "SPRINGLEAF MRT",
                     "SEMBAWANG RD",,
                 {
-                    renderType: "centreMessageServiceScroll",
+                    renderType: "message4",
                     serviceNumber: "167e",
                     top: "LIMITED STOPS",
                     topFont: "Hanover-Tower11:7",
 
                     bottom: "EXPRESS SERVICE",
-                    bottomFont: "LECIP-7:5"
+                    bottomFont: "Hanover-8"
                 },
                 {
                     renderType: "destScroll",

@@ -5948,7 +5948,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "88",
-                destination: "> SENGKANG INT",
+                destination: "> TOA PAYOH INT",
                 destinationFont: "LECIP-10",
                 scrolls: [{
                     renderType: "brandedSvc",
@@ -6176,6 +6176,20 @@ EDSData.SBST = {
     },
     "92A": {
         1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "92A",
+                terminateAt: "SCIENCE PARK DR",
+                landmark: "(OPP NORMANTON PK/R'FORD)" // check
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "92A",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
             front: {
                 renderType: "swt",
                 serviceNumber: "92A",
