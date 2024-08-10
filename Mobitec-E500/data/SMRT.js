@@ -1233,15 +1233,6 @@ EDSData.SMRT = {
                     image: "logo",
                     text: "SMRT LOGO"
                 },
-                {
-                renderType: "destScrollWithImage",
-                serviceNumber: "",
-                top: "HAPPY NATIONAL DAY",
-                bottom: "SINGAPORE !",
-                topFont: "Mobitec-7:4",
-                bottomFont: "Mobitec-7:4",
-                image: "SingaporeFlag"
-            },
             ],
             scrollFont: "Mobitec-7:5:3"
         }

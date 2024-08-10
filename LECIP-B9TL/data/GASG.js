@@ -576,6 +576,88 @@ EDSData.GASG = {
             }
         }
     },
+    "2C": { 
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "2",
+                destination: "KAMPONG BAHRU",
+                destinationFont: "Hanover-10",
+                scrolls: [
+                {
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "2",
+                    top: "6",
+                    topFont: "LECIP-19:GoAheadB9Front2",
+                },
+                {
+                    renderType: "destScroll",
+                    top: "Kampong Bahru",
+                    topFont: "Lecip-GoAhead16:10",
+        
+                    serviceNumber: "2"
+                },
+                    "LOYANG AVE / WAY",
+                    "UPPER CHANGI MRT / RD",
+                    "BEDOK RD",
+                    "TANAH MERAH MRT",
+                    "BEDOK MRT",
+                    "CHANGI RD",
+                    "GEYLANG RD",
+                    "LAVENDER / BUGIS MRT",
+                    "VICTORIA ST / HILL ST",
+                    "CLARKE QUAY MRT",
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "2",
+                font: "Lecip-GoAhead20:12",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "2",
+                destination: "CHANGI VILLAGE",
+                destinationFont: "Hanover-10",
+                scrolls: [
+                {   
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "2",
+                    top: "6",
+                    topFont: "LECIP-19:GoAheadB9Front2",
+                },
+                {
+                    renderType: "destScroll",
+                    top: "Changi Village",
+                    topFont: "Lecip-GoAhead16:10",
+        
+                    serviceNumber: "2"
+                },
+                    "CHINATOWN / CLARKE QUAY",
+                    "HILL ST / VICTORIA ST",
+                    "BUGIS / LAVENDER MRT",
+                    "KALLANG MRT",
+                    "SIMS AVE",
+                    "EUNOS / KEMBANGAN MRT",
+                    "BEDOK / TANAH MERAH MRT",
+                    "BEDOK RD",
+                    "UPPER CHANGI MRT",
+                    "LOYANG WAY / AVE",
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "2",
+                font: "Lecip-GoAhead20:12",
+                spacing: 2
+            }
+        }
+    },
     "2N": {
         1: {
             front: {
@@ -872,6 +954,89 @@ EDSData.GASG = {
                 destination: "PASIR RIS",
                 destinationFont: "Hanover-10",
                 scrolls: [{
+                    renderType: "destScroll",
+                    top: "Pasir Ris",
+                    topFont: "Lecip-GoAhead16:10",
+        
+                    serviceNumber: "12"
+                },
+                "CHINATOWN", 
+                "CLARKE QUAY MRT",
+                "HILL ST / VICTORIA ST",
+                "BUGIS / LAVENDER MRT",
+                "KALLANG MRT",
+                "MOUNTBATTEN MRT",
+                "EAST COAST RD",
+                "BEDOK SOUTH RD",
+                "TANAH MERAH MRT",
+                "SIMEI RD",
+                "TAMPINES EAST MRT",
+                "PASIR RIS DR 1 / 6 / 3"
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "12",
+                font: "Lecip-GoAhead20:12",
+                spacing: 3
+            }
+        }
+    },
+    "12C": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "12",
+                destination: "KAMPONG BAHRU",
+                destinationFont: "Hanover-10",
+                scrolls: [
+                    {
+                        renderType: "destScrollWithImage",
+                        serviceNumber: "12",
+                        top: "6",
+                        topFont: "LECIP-19:GoAheadB9Front2",
+                    },
+                    {
+                        renderType: "destScroll",
+                        top: "Kampong Bahru",
+                        topFont: "Lecip-GoAhead16:10",
+            
+                        serviceNumber: "12"
+                    },
+                    "TAMPINE EAST MRT",
+                    "SIMEI RD",
+                    "TANAH MERAH MRT",
+                    "BEDOK SOUTH RD",
+                    "EAST COAST RD",
+                    "MOUNTBATTEN MRT",
+                    "GEYLANG RD",
+                    "LAVENDER / BUGIS MRT",
+                    "VICTORIA ST / HILL ST",
+                    "CLARKE QUAY / CHINATOWN",
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "12",
+                font: "Lecip-GoAhead20:12",
+                spacing: 3
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "12",
+                destination: "PASIR RIS",
+                destinationFont: "Hanover-10",
+                scrolls: [                    {
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "12",
+                    top: "6",
+                    topFont: "LECIP-19:GoAheadB9Front2",
+                },
+                {
                     renderType: "destScroll",
                     top: "Pasir Ris",
                     topFont: "Lecip-GoAhead16:10",
@@ -1586,6 +1751,92 @@ EDSData.GASG = {
             }
         }
     },
+    "43C": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "43",
+                destination: "UPPER EAST COAST",
+                destinationFont: "Hanover-10",
+                scrolls: [
+                {
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "43",
+                    top: "6",
+                    topFont: "LECIP-19:GoAheadB9Front2",
+                },
+                {
+                    renderType: "destScroll",
+                    top: "Upper East Coast",
+                    topFont: "Hanover-GoAhead14:7",
+        
+                    serviceNumber: "43"
+                },
+                    "PUNGGOL WAY",
+                    "SENGKANG EAST RD",
+                    "BUANGKOK MRT",
+                    "BUANGKOK GREEN",
+                    "YIO CHU KANG RD",
+                    "SERANGOON MRT",
+                    "UPPER PAYA LEBAR RD",
+                    "TAI SENG MRT",
+                    "MACPHERSON MRT",
+                    "PAYA LEBAR RD / MRT",
+                    "TANJONG KATONG RD",
+                    "MARINE PARADE RD"
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "43",
+                font: "Lecip-GoAhead20:12",
+                spacing: 3
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "43",
+                destination: "PUNGGOL",
+                destinationFont: "Hanover-10",
+                scrolls: [
+                {
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "43",
+                    top: "6",
+                    topFont: "LECIP-19:GoAheadB9Front2",
+                },
+                {
+                    renderType: "destScroll",
+                    top: "Punggol",
+                    topFont: "Lecip-GoAhead16:10",
+        
+                    serviceNumber: "43"
+                },
+                    "MARINE PARADE RD",
+                    "TANJONG KATONG RD",
+                    "PAYA LEBAR MRT / RD",
+                    "MACPHERSON MRT",
+                    "TAI SENG MRT",
+                    "UPPER PAYA LEBAR RD",
+                    "SERANGOON MRT",
+                    "YIO CHU KANG RD",
+                    "BUANGKOK GREEN",
+                    "BUANGKOK MRT",
+                    "SENGKANG EAST RD",
+                    "PUNGGOL WAY"
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "43",
+                font: "Lecip-GoAhead20:12",
+                spacing: 3
+            }
+        }
+    },
     "43E": {
         1: {
             front: {
@@ -1713,20 +1964,107 @@ EDSData.GASG = {
             }
         }
     },
+    "43X": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "43M",
+                destination: "SERANGOON MRT",
+                destinationFont: "Hanover-10",
+                scrolls: [
+                {
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "43M",
+                    top: "6",
+                    topFont: "LECIP-19:GoAheadB9Front2",
+                },
+                {
+                    renderType: "destScroll",
+                    top: "Serangoon MRT",
+                    topFont: "Hanover-GoAhead14:7",
+        
+                    serviceNumber: "43M"
+                },
+                    "PUNGGOL WAY",
+                    "SENGKANG EAST RD",
+                    "BUANGKOK MRT",
+                    "BUANGKOK GREEN",
+                    "YIO CHU KANG RD"
+
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "43M",
+                font: "Lecip-GoAhead20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "43M",
+                destination: "PUNGGOL",
+                destinationFont: "Hanover-10",
+                scrolls: [
+                {
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "43M",
+                    top: "6",
+                    topFont: "LECIP-19:GoAheadB9Front2",
+                },
+                {
+                    renderType: "destScroll",
+                    top: "Punggol",
+                    topFont: "Lecip-GoAhead16:10",
+        
+                    serviceNumber: "43M"
+                },
+                    "YIO CHU KANG RD",
+                    "BUANGKOK GREEN",
+                    "BUANGKOK MRT",
+                    "SENGKANG EAST RD",
+                    "PUNGGOL WAY"
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "43M",
+                font: "Lecip-GoAhead20:9",
+                spacing: 2
+            }
+        }
+    },
     "50C": {
         1: {
             front: { 
                 renderType: "logo",
-                text: "Chingay50",
-                image: "blank"
+                text: "Chingay 50 Logo",
+                image: "ChingayLogo-Full"
             },
-            rear: { 
-                renderType: "message2",
+            rear: {
+                renderType: "standardService",
                 serviceNumber: "",
-                top: "",
-                topFont: "Hanover-7:5",
-                bottom: "",
-                topFont: "Hanover-7:5",
+                destination: "CG50",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "logo",
+                    text: "Chingay 50 Logo",
+                    image: "Chingay50-Fireworks"
+                },
+                {
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "Chingay",
+                    topFont: "Hanover-7:5",
+                    bottom: "50",
+                    bottomFont: "Hanover-7:5",
+                },
+                    
+                ],
+                scrollFont: "Hanover-7:5"
             }
         }
     },
@@ -2358,6 +2696,85 @@ EDSData.GASG = {
             }
         }
     },
+    "85C": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "85",
+                destination: "YISHUN",
+                destinationFont: "Hanover-10",
+                scrolls: [
+                {
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "85",
+                    top: "6",
+                    topFont: "LECIP-19:GoAheadB9Front2",
+                },
+                {
+                    renderType: "destScroll",
+                    top: "Yishun",
+                    topFont: "Lecip-GoAhead16:10",
+        
+                    serviceNumber: "85"
+                },
+                "PUNGGOL CENTRAL",
+                "RIVERVALE DR",
+                "COMPASSVALE DR",
+                "SENGKANG EAST RD / WAY",
+                "SENGKANG WEST WAY",
+                "JALAN KAYU",
+                "SLE",
+                "KHATIB MRT"
+
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "85",
+                font: "Lecip-GoAhead20:12",
+                spacing: 3
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "85",
+                destination: "PUNGGOL",
+                destinationFont: "Hanover-10",
+                scrolls: [
+                {
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "85",
+                    top: "6",
+                    topFont: "LECIP-19:GoAheadB9Front2",
+                },
+                {
+                    renderType: "destScroll",
+                    top: "Punggol",
+                    topFont: "Lecip-GoAhead16:10",
+        
+                    serviceNumber: "85"
+                },
+                "KHATIB MRT",
+                "SLE",
+                "JALAN KAYU",
+                "SENGKANG WEST WAY",
+                "SENGKANG EAST WAY / RD",
+                "COMPASSVALE DR",
+                "RIVERVALE DR",
+                "PUNGGOL CENTRAL"
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "85",
+                font: "Lecip-GoAhead20:12",
+                spacing: 3
+            }
+        }
+    },
     118: {
         1: {
             front: {
@@ -2625,6 +3042,98 @@ EDSData.GASG = {
             }
         }
     },
+    "136C": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "136",
+                destination: "ANG MO KIO",
+                destinationFont: "Hanover-10",
+                scrolls: [
+                {
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "136",
+                    top: "6",
+                    topFont: "LECIP-19:GoAheadB9Front2",
+                },
+                {
+                    renderType: "destScroll",
+                    top: "Ang Mo Kio",
+                    topFont: "Lecip-GoAhead16:10",
+        
+                    serviceNumber: "136"
+                },
+                    "PUNGGOL CENTRAL",
+                    "EDGEFIELD PLAINS",
+                    "PUNGGOL FIELD / RD",
+                    "RIVERVALE DR",
+                    "UPPER SERANGOON RD",
+                    "SERANGOON GARDENS",
+                    "ANG MO KIO AVE 1 / 6 / 3"
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TO",
+                destinationFont: "LECIP-7:5",
+                scrolls: [{
+                    renderType: "logo",
+                    text: "Go Ahead Logo",
+                    image: "136Rear",
+                },
+                    "AMK"
+                ],
+                scrollFont: "LECIP-7:5"
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "136",
+                destination: "PUNGGOL",
+                destinationFont: "Hanover-10",
+                scrolls: [
+                {
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "136",
+                    top: "6",
+                    topFont: "LECIP-19:GoAheadB9Front2",
+                },
+                {
+                    renderType: "destScroll",
+                    top: "Punggol",
+                    topFont: "Lecip-GoAhead16:10",
+        
+                    serviceNumber: "136"
+                },
+                    "ANG MO KIO AVE 3 / 6 / 1",
+                    "SERANGOON GARDENS",
+                    "YIO CHU KANG RD",
+                    "UPPER SERANGOON RD",
+                    "RIVERVALE DR",
+                    "PUNGGOL RD",
+                    "PUNGGOL CENTRAL"
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TO",
+                destinationFont: "LECIP-6:3",
+                scrolls: [{
+                    renderType: "logo",
+                    text: "Go Ahead Logo",
+                    image: "136Rear",
+                },
+                    "PUNGGOL"
+                ],
+                scrollFont: "LECIP-6:3"
+            }
+        }
+    },
     354: { // Referred from Citaro
         1: {
             front: {
@@ -2661,6 +3170,43 @@ EDSData.GASG = {
                 destination: "PASIR RIS INT",
                 destinationFont: "Hanover-10",
                 scrolls: [{
+                    renderType: "destScroll",
+                    top: "Pasir Ris",
+                    topFont: "Lecip-GoAhead16:10",
+        
+                    serviceNumber: "358"
+                },
+                    "PASIR RIS DR 3 / 10",
+                    "ELIAS RD",
+                    "PASIR RIS DR 3 / 6",
+                    "PASIR RIS DR 1 / 4",
+                    "PASIR RIS ST 41"
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "358",
+                font: "Lecip-GoAhead20:9",
+                spacing: 2
+            }
+        }
+    },
+    "358C": { // Referred from Citaro
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "358",
+                destination: "PASIR RIS INT",
+                destinationFont: "Hanover-10",
+                scrolls: [
+                    {
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "358",
+                    top: "6",
+                    topFont: "LECIP-19:GoAheadB9Front2",
+                },
+                {
                     renderType: "destScroll",
                     top: "Pasir Ris",
                     topFont: "Lecip-GoAhead16:10",
@@ -3246,21 +3792,51 @@ EDSData.GASG = {
                 destinationFont: "Hanover-10",
                 scrolls: [{
                     renderType: "GASSeasonalGreetings",
-                    serviceNumber: "0",
+                    serviceNumber: "1",
                     top: "MERRY CHRISTMAS",
                     topFont: "Lecip-GoAhead8:6:2",
                     bottom: "HAPPY NEW YEAR",
                     bottomFont: "Lecip-GoAhead8:6:2",
-                    image: "Fireworks-1",
+                    image: "ChristmasTree",
                     },
                 ],
                 scrollFont: "Hanover-7:5"
             },
             rear: {
-                renderType: "rearService",
-                serviceNumber: "1",
-                font: "LECIP-19:GoAheadB9Front2",
-                spacing: 3
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "CHRISTMAS",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                      renderType: "GASSeasonalGreetings",
+                      serviceNumber: "",
+                      top: "0",
+                      topFont: "LECIP-19:GoAheadB9Front2",
+                    },
+                    {
+                      renderType: "GASSeasonalGreetings",
+                      serviceNumber: "",
+                      top: "Merry",
+                      topFont: "Hanover-7:5",
+                      bottom: "X-Mas",
+                      bottomFont: "Hanover-7:5",
+                    },
+                    {
+                      renderType: "GASSeasonalGreetings",
+                      serviceNumber: "",
+                      top: "1",
+                      topFont: "LECIP-19:GoAheadB9Front2",
+                    },
+                    {
+                      renderType: "GASSeasonalGreetings",
+                      serviceNumber: "",
+                      top: "Happy",
+                      topFont: "Hanover-7:3",
+                      bottom: "NewYear",
+                      bottomFont: "Hanover-7:3",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             }
         }
     },
@@ -3282,10 +3858,26 @@ EDSData.GASG = {
                 scrollFont: "Hanover-7:5"
             },
             rear: {
-                renderType: "rearService",
-                serviceNumber: "2",
-                font: "LECIP-19:GoAheadB9Front2",
-                spacing: 3
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "GONG XI FA CAI",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                      renderType: "GASSeasonalGreetings",
+                      serviceNumber: "",
+                      top: "2",
+                      topFont: "LECIP-19:GoAheadB9Front2",
+                    },
+                    {
+                      renderType: "GASSeasonalGreetings",
+                      serviceNumber: "",
+                      top: "Gong Xi",
+                      topFont: "Hanover-7:5",
+                      bottom: "Fa Cai",
+                      bottomFont: "Hanover-7:5",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             }
         }
     },
@@ -3294,11 +3886,46 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
+                destination: "KINDNESS DAY",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "GASSeasonalGreetings",
+                    serviceNumber: "7",
+                    top: "Greatness is Kindness",
+                    topFont: "Hanover-8",
+                    bottom: "Be Greater",
+                    bottomFont: "Hanover-8",
+                    image: "flower-1",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "KINDNESS DAY",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                      renderType: "GASSeasonalGreetings",
+                      serviceNumber: "",
+                      top: "7",
+                      topFont: "LECIP-19:GoAheadB9Front2",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
+            }
+        }
+    },
+    1003: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
                 destination: "HAPPY NATIONAL DAY",
                 destinationFont: "Hanover-10",
                 scrolls: [{
                     renderType: "GASSeasonalGreetings",
-                    serviceNumber: "1",
+                    serviceNumber: "4",
                     top: "MAJULAH",
                     topFont: "Lecip-GoAhead8:6:2",
                     bottom: "SINGAPURA!",
@@ -3312,16 +3939,47 @@ EDSData.GASG = {
                     topFont: "Lecip-GoAhead8:6:2",
                     bottom: "NATIONAL DAY",
                     bottomFont: "Lecip-GoAhead8:6:2",
-                    image: "Merlion-1",
+                    image: "Fireworks-1",
                     },
                 ],
                 scrollFont: "Hanover-7:5"
             },
             rear: {
-                renderType: "rearService",
-                serviceNumber: "3",
-                font: "LECIP-19:GoAheadB9Front2",
-                spacing: 3
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "HAPPY NATIONAL DAY",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "GASSeasonalGreetings",
+                    serviceNumber: "",
+                    top: "4",
+                    topFont: "LECIP-19:GoAheadB9Front2",
+                    },
+                    {
+                    renderType: "GASSeasonalGreetings",
+                    serviceNumber: "",
+                    top: "Happy",
+                    topFont: "Hanover-7:5",
+                    bottom: "NDP",
+                    bottomFont: "Hanover-7:5",
+                    },
+                    {
+                    renderType: "GASSeasonalGreetings",
+                    serviceNumber: "",
+                    top: "4",
+                    topFont: "LECIP-19:GoAheadB9Front2",
+                    },
+                    {
+                    renderType: "GASSeasonalGreetings",
+                    serviceNumber: "",
+                    top: "Happy",
+                    topFont: "Hanover-7:5",
+                    bottom: "NDP",
+                    bottomFont: "Hanover-7:5",
+                    },
+
+                ],
+                scrollFont: "Hanover-7:5"
             }
         }
     },
@@ -3398,28 +4056,10 @@ EDSData.GASG = {
                 serviceNumber: "",
                 destination: "GO AHEAD LOGO",
                 destinationFont: "Hanover-10",
-                scrolls: [{
-                    renderType: "GASSeasonalGreetings",
-                    serviceNumber: "1",
-                    top: "MAJULAH",
-                    topFont: "Lecip-GoAhead8:6:2",
-                    bottom: "SINGAPURA!",
-                    bottomFont: "Lecip-GoAhead8:6:2",
-                    image: "Merlion-1",
-                    },
-                    {
-                    renderType: "GASSeasonalGreetings",
-                    serviceNumber: "1",
-                    top: "HAPPY",
-                    topFont: "Lecip-GoAhead8:6:2",
-                    bottom: "NATIONAL DAY",
-                    bottomFont: "Lecip-GoAhead8:6:2",
-                    image: "Merlion-1",
-                    },
-                    { 
-                        renderType: "logo",
-                        text: "Go Ahead Logo",
-                        image: "GoAheadLogoFull"
+                scrolls: [{ 
+                    renderType: "logo",
+                    text: "Go Ahead Logo",
+                    image: "GoAheadLogoFull"
                     },
                 ],
                 scrollFont: "Hanover-7:5"
@@ -3442,31 +4082,7 @@ EDSData.GASG = {
             },
         }
     },
-    2999: {
-        1: {
-            front: { 
-                renderType: "logo",
-                text: "Go Ahead Logo",
-                image: "GoAheadLogoFull"
-            },
-            rear: {
-                renderType: "standardService",
-                serviceNumber: "",
-                destination: "~",
-                destinationFont: "Lecip-GoAhead20:12",
-                scrolls: [{
-                    renderType: "logo",
-                    text: "Go Ahead Logo",
-                    image: "GoAheadWordingRear",
-        
-                    serviceNumber: ""
-                },
-                    ""
-                ],
-                scrollFont: "LECIP-7:5"
-            },
-        }
-    },
+
     3333: {
         1: {
             front: { 
@@ -4576,28 +5192,93 @@ EDSImages.GASG = {
     blank: [
         [0]
     ],
-    "ChingayLogo": [
-        [0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0],
-        [0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0],
-        [1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-        [1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-        [1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-        [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-        [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-        [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-        [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-        [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-        [1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-        [1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-        [1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-        [0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-        [0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-        
+    "ChingayLogo-Full": [
+        [0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0],
+        [0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0],
+        [1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0],
+        [1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0],
+        [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0],
+        [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0],
+        [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0],
+        [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1],
+        [1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0],
+        [1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0],
+        [0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    ],
+    'Chingay50-Fireworks': [
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0], 
+        [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0], 
+        [0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0], 
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
+        [0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0], 
+        [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0], 
+        [0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
+        [0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0], 
+        [1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0], 
+        [0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
+        [0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1], 
+        [0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0], 
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
+        [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0], 
+        [0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
+        [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
+        [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    ],
+    'flower-1': [ // Kindness Day Flower 1
+        [0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0],
+        [1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0],
+        [1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0],
+        [0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0],
+        [0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0],
+        [1, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0],
+        [1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0],
+        [0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1],
+        [0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 1],
+        [0, 1, 1, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1],
+        [1, 1, 1, 1, 0, 1, 1, 0, 1, 0, 0, 1, 1],
+        [1, 0, 0, 0, 1, 1, 1, 1, 1, 0, 1, 1, 0],
+        [1, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0],
+        [0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 0],
+        [0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0],
+    ],
+    'flower 2': [ // Kindness Day Flower 2
+        [0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 0],
+        [0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1],
+        [0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 1],
+        [0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 1, 0], 
+        [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0], 
+        [0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1], 
+        [0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 0, 1, 1], 
+        [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0], 
+        [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0], 
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0], 
+        [1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0], 
+        [1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0], 
+        [1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 1, 1, 0], 
+        [1, 1, 0, 0, 1, 0, 1, 1, 0, 1, 1, 1, 1], 
+        [0, 1, 1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1], 
+        [0, 0, 1, 1, 0, 1, 1, 1, 0, 0, 0, 1, 1], 
+        [0, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0], 
+        [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0], 
+        [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0], 
+        [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0], 
     ],
     'Merlion-1': [ 
         [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -4619,6 +5300,28 @@ EDSImages.GASG = {
         [0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
         [0, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
         [0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    ],
+    'Merlion-2': [ 
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0],
+        [0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 0],
+        [0, 0, 1, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 1, 1, 0, 1, 0, 1, 0], 
+        [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0],
+        [1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 0, 0],
+        [0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 0, 0],
+        [0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 1, 0],
+        [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 1, 1],
+        [0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0],
+        [0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0],
+        [0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0],
         [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
     ],
     'CNYOrange': [ // Orange You Take

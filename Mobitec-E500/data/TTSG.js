@@ -466,7 +466,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "N1",
                     top: "YISHUN RING RD",
-                    bottom: "( KHATIB STN )",
+                    bottom: "(KHATIB STN)",
                     image: "mrt"
                 }
             ]
@@ -505,7 +505,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "N2",
                     top: "SEMBAWANG DR",
-                    bottom: "( SEMBAWANG STN )",
+                    bottom: "(SEMBAWANG STN)",
                     image: "mrt"
                 }
             ]
@@ -1016,7 +1016,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "77",
                     top: "MARINA CENTRE",
-                    bottom: "( PROMENADE STN )",
+                    bottom: "(PROMENADE STN)",
                     image: "mrt"
                 }
             ]
@@ -1101,7 +1101,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "77",
                     top: "STAMFORD RD",
-                    bottom: "( CITY HALL STN )",
+                    bottom: "(CITY HALL STN)",
                     image: "mrt"
                 }
             ]
@@ -1177,7 +1177,7 @@ EDSData.TTSG = {
                     serviceNumber: "78",
                     top: "JURONG TOWN HALL",
                     topFont: "Mobitec-Tower9:4",
-                    bottom: "( JURONG EAST STN )",
+                    bottom: "(JURONG EAST STN)",
                     image: "mrt"
                 }
             ]
@@ -1315,7 +1315,7 @@ EDSData.TTSG = {
                     serviceNumber: "79",
                     top: "JURONG TOWN HALL",
                     topFont: "Mobitec-Tower9:4",
-                    bottom: "( JURONG EAST STN )",
+                    bottom: "(JURONG EAST STN)",
                     image: "mrt"
                 }
             ]
@@ -1371,7 +1371,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "79",
                     top: "JURONG EAST",
-                    bottom: "( BS 28301 - BLK 131 )",
+                    bottom: "(BS 28301 - BLK 131)",
                     image: "mrt"
                 }
             ]
@@ -1534,7 +1534,7 @@ EDSData.TTSG = {
                     serviceNumber: "97",
                     top: "Hop on this bus to",
                     topFont: "Mobitec-Tower6:4",
-                    bottom: "Lau Pa Sat & Merlion",
+                    bottom: "Harbourfront & Lau Pa Sat",
                     bottomFont: "Mobitec-Tower6:4",
                 },
                 {
@@ -1549,7 +1549,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "97",
                     top: "MARINA CENTRE",
-                    bottom: "( PROMENADE STN )",
+                    bottom: "(PROMENADE STN)",
                     image: "mrt"
                 }
             ]
@@ -1634,7 +1634,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "97e",
                     top: "MARINA CENTRE",
-                    bottom: "( PROMENADE STN )",
+                    bottom: "(PROMENADE STN)",
                     image: "mrt"
                 }
             ]
@@ -2142,7 +2142,15 @@ EDSData.TTSG = {
                     serviceNumber: "106",
                     top: "Skip",
                     topFont: "Mobitec-7:5:3",
-                    bottom: "Marina Centre / Suntec",
+                    bottom: "Marina Bay",
+                    bottomFont: "Mobitec-Tower6:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "106",
+                    top: "Skip",
+                    topFont: "Mobitec-7:5:3",
+                    bottom: "Raffles Ave",
                     bottomFont: "Mobitec-Tower6:4",
                 },
                 "ROBINSON RD",
@@ -2849,7 +2857,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "171",
                     top: "MARINA CENTRE",
-                    bottom: "( PROMENADE STN )",
+                    bottom: "(PROMENADE STN)",
                     image: "mrt"
                 }
             ]
@@ -3571,7 +3579,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "",
                     top: "SERANGOON RD",
-                    bottom: "( LITTLE INDIA MRT )",
+                    bottom: "(LITTLE INDIA MRT)",
                     image: "mrt"
                 }
             ]
@@ -5294,7 +5302,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "160",
                     top: "JB SENTRAL",
-                    bottom: "( JB SENTRAL KTM )",
+                    bottom: "(JB SENTRAL KTM)",
                     image: "ktm"
                 },
                 "BUKIT BATOK RD",
@@ -5421,7 +5429,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "853",
                     top: "LOR 1 GEYLANG",
-                    bottom: "( KALLANG STN )",
+                    bottom: "(KALLANG STN)",
                     image: "mrt"
                 }
             ]
@@ -5834,9 +5842,8 @@ EDSData.TTSG = {
                     serviceNumber: "856A",
                     top: "ENDS AT",
                     topFont: "Mobitec-7:5:3",
-                    bottom: "WDL TRAIN CHKPT",
-                    bottomFont: "Mobitec-Tower6:4",
-                    image: "ktm"
+                    bottom: "Woodlands Train Checkpoint",
+                    bottomFont: "Hanover-6:3",
                 },
             ]
         }
@@ -5862,6 +5869,24 @@ EDSData.TTSG = {
                     topFont: "Mobitec-7:5:3",
                     bottom: "(Aft Admiral Hill)",
                     bottomFont: "Mobitec-Tower6:4",
+                },
+            ]
+        }
+    },
+    8565: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: "856A WOODLANDS TRAIN CHECKPOINT",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "856A",
+                    top: "ENDS AT",
+                    topFont: "Mobitec-7:5:3",
+                    bottom: "WDL TRAIN CHKPT",
+                    bottomFont: "Mobitec-Tower6:4",
+                    image: "ktm"
                 },
             ]
         }
@@ -5899,7 +5924,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "857",
                     top: "TEMASEK AVE",
-                    bottom: "( PROMENADE STN )",
+                    bottom: "(PROMENADE STN)",
                     image: "mrt"
                 }
             ]
@@ -6026,7 +6051,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "857",
                     top: "STAMFORD RD",
-                    bottom: "( CITY HALL STN )",
+                    bottom: "(CITY HALL STN)",
                     image: "mrt"
                 }
             ]
@@ -6082,7 +6107,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "858",
                     top: "CHANGI AIRPORT",
-                    bottom: "( PTB 3, 1, 2 )",
+                    bottom: "(PTB 3, 1, 2)",
                     image: "ChangiAirportControlTower"
                 }
             ]
@@ -6451,7 +6476,7 @@ EDSData.TTSG = {
                     serviceNumber: "870",
                     top: "JURONG TOWN HALL",
                     topFont: "Mobitec-Tower9:4",
-                    bottom: "( JURONG EAST STN )",
+                    bottom: "(JURONG EAST STN)",
                     image: "mrt"
                 }
             ]
@@ -6683,7 +6708,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "883",
                     top: "YISHUN CTRL 2",
-                    bottom: "( YISHUN COMMUNITY HOSP )",
+                    bottom: "(YISHUN COMMUNITY HOSP)",
                 }
             ]
         }
@@ -7497,16 +7522,9 @@ EDSData.TTSG = {
                     serviceNumber: "966A",
                     top: "Ends At",
                     topFont: "Mobitec-7:5:3",
-                    bottom: "Marine Parade Rd",
-                    bottomFont: "Mobitec-Tower6:4",
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "966A",
-                    top: "Ends At",
-                    topFont: "Mobitec-7:5:3",
-                    bottom: "(Marine Pde Stn Exit 2)",
-                    bottomFont: "Mobitec-Tower6:4",
+                    bottom: " (Marine Pde Stn Exit 2)",
+                    bottomFont: "Hanover-6:3",
+                    image: "mrt"
                 },
             ]
         }
@@ -7871,7 +7889,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "980",
                     top: "LOR 1 GEYLANG",
-                    bottom: "( KALLANG STN )",
+                    bottom: "(KALLANG STN)",
                     image: "mrt"
                 }
             ]
@@ -8020,7 +8038,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "990",
                     top: "JURONG EAST",
-                    bottom: "( BEF JURONG EAST STN )",
+                    bottom: "(BEF JURONG EAST STN)",
                     image: "mrt"
                 }
             ]
