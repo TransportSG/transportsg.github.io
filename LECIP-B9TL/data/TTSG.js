@@ -6259,25 +6259,64 @@ EDSData.TTSG = {
                 serviceNumber: "963",
                 destination: "WOODLANDS",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                    renderType: "centreMessageServiceScroll",
-                    serviceNumber: "963",
-                    top: "HELLO UNCLE",
+                scrolls: [
+                {
+                    renderType: "message4",
+                    serviceNumber: "965T",
+                    top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
-
-                    bottom: "IS THIS BUS GOING TO HILLVIEW",
-                    bottomFont: "LECIP-6:3"
-                },
+                    bottom: "SENGKANG INT",
+                    bottomFont: "Hanover-Tower8",
+                }, 
+                {
+                    renderType: "message4",
+                    serviceNumber: "965T",
+                    top: "ENDS AT",
+                    topFont: "Hanover-Tower11:7",
+                    bottom: "SENGKANG INT",
+                    bottomFont: "Hanover-Tower8",
+                }, 
+                {
+                    renderType: "message4",
+                    serviceNumber: "965T",
+                    top: "ENDS AT",
+                    topFont: "Hanover-Tower11:7",
+                    bottom: "SENGKANG INT",
+                    bottomFont: "Hanover-Tower8",
+                }, 
+                {
+                    renderType: "message4",
+                    serviceNumber: "965T",
+                    top: "ENDS AT",
+                    topFont: "Hanover-Tower11:7",
+                    bottom: "SENGKANG INT",
+                    bottomFont: "Hanover-Tower8",
+                }, 
+                {
+                    renderType: "message4",
+                    serviceNumber: "965T",
+                    top: "ENDS AT",
+                    topFont: "Hanover-Tower11:7",
+                    bottom: "SENGKANG INT",
+                    bottomFont: "Hanover-Tower8",
+                }, 
+                {
+                    renderType: "message4",
+                    serviceNumber: "965T",
+                    top: "ENDS AT",
+                    topFont: "Hanover-Tower11:7",
+                    bottom: "SENGKANG INT",
+                    bottomFont: "Hanover-Tower8",
+                },  
                 {
                     renderType: "centreMessageServiceScroll",
                     serviceNumber: "963",
                     top: "HELLO UNCLE",
                     topFont: "Hanover-Tower11:7",
 
-                    bottom: "IS THIS BUS GOING TO HILLVIEW",
-                    bottomFont: "LECIP-6:3"
+                    bottom: "Is this bus going to Hillview?",
+                    bottomFont: "Hanover-7:3"
                 },
-
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
