@@ -417,6 +417,27 @@ EDSFormats.TTSG = {
         },
         text: "$top"
     },
+    twolinerear2: {
+        top: {
+            align: "centre-x,top",
+            text: "$top",
+            font: "$topFont",
+            spacing: "$topSpacing",
+            margin: {
+                top: 2
+            }
+        },
+        bottom: {
+            align: "centre-x,bottom",
+            text: "$bottom",
+            font: "$bottomFont",
+            spacing: "$bottomSpacing",
+            margin: {
+                bottom: 2
+            }
+        },
+        text: "$top"
+    },
     twolinefront: {
         top: {
             align: "centre-x,top",
@@ -824,6 +845,82 @@ EDSData.TTSG = {
             }
         }
     }, 
+    "50C": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "CHINGAY 50 LOGO",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "logo",
+                    text: "Chingay 50 Logo",
+                    image: "Chingay50Logo2"
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "CHINGAY 50 LOGO",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "logo",
+                    text: "Chingay 50 Logo",
+                    image: "Chingay50Logo3"
+                    },
+                    {
+                    renderType: "twolinerear2",
+                    top: "CHINGAY",
+                    topFont: "LECIP-6:4",
+                    bottom: "50",
+                    bottomFont: "LECIP-7:5",
+        
+                        serviceNumber: ""
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "CHINGAY 50 LOGO",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "logo",
+                    text: "Chingay 50 Logo",
+                    image: "Chingay50Logo1"
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "CHINGAY 50 LOGO",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "logo",
+                    text: "Chingay 50 Logo",
+                    image: "Chingay50Logo3"
+                    },
+                    {
+                    renderType: "twolinerear2",
+                    top: "CHINGAY",
+                    topFont: "LECIP-6:4",
+                    bottom: "50",
+                    bottomFont: "LECIP-7:5",
+        
+                        serviceNumber: ""
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
+            }
+        }
+    },
     66: {
         1: {
             front: {
@@ -1010,6 +1107,78 @@ EDSData.TTSG = {
                     "LITTLE INDIA",
                     "BUKIT TIMAH RD",
                     "BUKIT BATOK CENTRAL", 
+                {
+                    renderType: "destScroll",
+                    top: "JURONG EAST",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "66"
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "66",
+                font: "LECIP-TowerRear17:10",
+                spacing: 2
+            }
+        }
+    },
+    "66X": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "66",
+                destination: "BEAUTY WORLD MRT",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                    "JURONG TOWN HALL RD",
+                    "BUKIT BATOK WEST AVE 8",
+                    "BUKIT BATOK WEST AVE 6",
+                    "JALAN JURONG KECHIL",   
+                {
+                    renderType: "destScroll",
+                    top: "?",
+                    topFont: "Hanover-Tower19:11",
+        
+                    serviceNumber: "66"
+                },
+                {
+                    renderType: "destScroll",
+                    top: "BEAUTY WORLD MRT",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "66"
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "66",
+                font: "LECIP-TowerRear17:10",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "66",
+                destination: "JURONG EAST",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                    "JALAN JURONG KECHIL",
+                    "BUKIT BATOK WEST AVE 6",
+                    "BUKIT BATOK WEST AVE 8",
+                    "JURONG TOWN HALL RD", 
+                {
+                    renderType: "destScroll",
+                    top: "?",
+                    topFont: "Hanover-Tower19:11",
+        
+                    serviceNumber: "66"
+                },    
                 {
                     renderType: "destScroll",
                     top: "JURONG EAST",
@@ -2320,6 +2489,80 @@ EDSData.TTSG = {
             }
         }
     },
+    "143C": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "143",
+                destination: "TOA PAYOH",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                    "TEBAN GARDENS RD",
+                    "WEST COAST RD",
+                    "HARBOURFRONT",
+                    "CHINATOWN",
+                    "ORCHARD TURN",   
+                {
+                    renderType: "destScroll",
+                    top: "?",
+                    topFont: "Hanover-Tower19:11",
+        
+                    serviceNumber: "143"
+                },
+                {
+                    renderType: "destScroll",
+                    top: "TOA PAYOH",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "143"
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "143",
+                font: "LECIP-TowerRear17:10",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "143",
+                destination: "JURONG EAST",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                    "ORCHARD RD",
+                    "CHINATOWN",
+                    "HARBOURFRONT",
+                    "WEST COAST RD",
+                    "TEBAN GARDENS RD",       
+                {
+                    renderType: "destScroll",
+                    top: "?",
+                    topFont: "Hanover-Tower19:11",
+    
+                    serviceNumber: "143"
+                },
+                {
+                    renderType: "destScroll",
+                    top: "JURONG EAST",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "143"
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "143",
+                font: "LECIP-TowerRear17:10",
+                spacing: 2
+            }
+        }
+    },
     "143M": {
         1: {
             front: {
@@ -2340,6 +2583,52 @@ EDSData.TTSG = {
 
                     bottom: "PANDAN GARDENS",
                     bottomFont: "Hanover-8"
+                },
+                {
+                    renderType: "destScroll",
+                    top: "JURONG EAST",
+                    topFont: "Hanover-Tower12:7",
+        
+                    serviceNumber: "143M"
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "143M",
+                font: "LECIP-TowerRear17:7",
+                spacing: 2
+            }
+        }
+    },
+    "143X": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "143M",
+                destination: "JURONG EAST",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                    "JURONG TOWN HALL RD",
+                    "TEBAN GARDENS RD",
+                    "PANDAN GARDENS",
+
+                {
+                    renderType: "message4",
+                    serviceNumber: "143M",
+                    top: "LOOPS AT",
+                    topFont: "Hanover-Tower11:7",
+
+                    bottom: "PANDAN GARDENS",
+                    bottomFont: "Hanover-8"
+                },
+                {
+                    renderType: "destScroll",
+                    top: "?",
+                    topFont: "Hanover-Tower19:11",
+        
+                    serviceNumber: "143M"
                 },
                 {
                     renderType: "destScroll",
@@ -2402,6 +2691,80 @@ EDSData.TTSG = {
                     "UPPER THOMSON RD",
                     "SEMBAWANG RD",       
                 {
+                    renderType: "destScroll",
+                    top: "SEMBAWANG",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "167"
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "167",
+                font: "LECIP-TowerRear17:10",
+                spacing: 2
+            }
+        }
+    },
+    "167C": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "167",
+                destination: "BUKIT MERAH",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                    "SEMBAWANG RD",
+                    "UPPER THOMSON RD",
+                    "THOMSON RD",
+                    "ORCHARD RD",
+                    "SHENTON WAY",   
+                {
+                    renderType: "destScroll",
+                    top: "?",
+                    topFont: "Hanover-Tower19:11",
+            
+                    serviceNumber: "167"
+                },
+                {
+                    renderType: "destScroll",
+                    top: "BUKIT MERAH",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "167"
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "167",
+                font: "LECIP-TowerRear17:10",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "167",
+                destination: "SEMBAWANG",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                    "CECIL STREET",
+                    "ORCHARD TURN",
+                    "THOMSON RD",
+                    "UPPER THOMSON RD",
+                    "SEMBAWANG RD",       
+                {
+                    renderType: "destScroll",
+                    top: "?",
+                    topFont: "Hanover-Tower19:11",
+            
+                    serviceNumber: "167"
+                },    
+                    {
                     renderType: "destScroll",
                     top: "SEMBAWANG",
                     topFont: "Hanover-Tower12:7",
@@ -4974,6 +5337,80 @@ EDSData.TTSG = {
             }
         }
     },  
+    "857C": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "857",
+                destination: "TEMASEK AVE",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                "YIO CHU KANG RD",
+                "BENDEMEER RD",
+                "LITTLE INDIA",
+                "BENCOOLEN ST",
+                "BRAS BASAH RD",
+            {
+                renderType: "destScroll",
+                top: "?",
+                topFont: "Hanover-Tower19:11",
+            
+                serviceNumber: "857"
+            },            
+            {
+                renderType: "destScroll",
+                top: "TEMASEK AVE",
+                topFont: "Hanover-Tower12:7",
+    
+                serviceNumber: "857"
+            },
+            ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "857",
+                font: "LECIP-TowerRear17:10",
+                spacing: 1
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "857",
+                destination: "YISHUN",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                    "STAMFORD RD",
+                    "SELEGIE RD",
+                    "BOON KENG MRT",
+                    "SERANGOON RD",
+                    "YIO CHU KANG RD",
+                {
+                    renderType: "destScroll",
+                    top: "?",
+                    topFont: "Hanover-Tower19:11",
+            
+                    serviceNumber: "857"
+                },
+                {
+                    renderType: "destScroll",
+                    top: "YISHUN",
+                    topFont: "Hanover-Tower12:7",
+            
+                    serviceNumber: "857"
+                },
+                ],
+                    scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "857",
+                font: "LECIP-TowerRear17:10",
+                spacing: 1
+            }
+        }
+    }, 
     "857F": {
         1: {
             front: {
@@ -5064,13 +5501,13 @@ EDSData.TTSG = {
                     "YISHUN MRT",
                     "JALAN KAYU",
                     "T P E",
-            {
+                {
                     renderType: "destScroll",
                     top: "CHANGI AIRPORT",
                     topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "858"
-            },
+                },
             ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -5208,6 +5645,80 @@ EDSData.TTSG = {
             }
         }
     },
+    "858C": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "858",
+                destination: "CHANGI AIRPORT",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                    "WOODLANDS AVE 9",
+                    "SEMBAWANG WAY",
+                    "YISHUN MRT",
+                    "JALAN KAYU",
+                    "T P E",
+                {
+                    renderType: "destScroll",
+                    top: "?",
+                    topFont: "Hanover-Tower19:11",
+                    
+                    serviceNumber: "858"
+                },
+                {
+                    renderType: "destScroll",
+                    top: "CHANGI AIRPORT",
+                    topFont: "Hanover-Tower12:7",
+        
+                    serviceNumber: "858"
+                },
+            ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "858",
+                font: "LECIP-TowerRear17:10",
+                spacing: 1
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "858",
+                destination: "WOODLANDS",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                    "T P E",
+                    "JALAN KAYU",
+                    "YISHUN MRT",
+                    "SEMBAWANG WAY",
+                    "WOODLANDS AVE 9",
+                {
+                    renderType: "destScroll",
+                    top: "?",
+                    topFont: "Hanover-Tower19:11",
+                        
+                   serviceNumber: "858"
+                },
+                {
+                    renderType: "destScroll",
+                    top: "WOODLANDS",
+                    topFont: "Hanover-Tower12:7",
+            
+                    serviceNumber: "858"
+                },
+                ],
+                    scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "858",
+                font: "LECIP-TowerRear17:10",
+                spacing: 1
+            }
+        }
+    },  
     "858D": {
         1: {
             front: {
@@ -5983,6 +6494,80 @@ EDSData.TTSG = {
             }
         }
     },
+    "963C": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "963",
+                destination: "HARBOURFRONT",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                    "BUKIT PANJANG RD",
+                    "HILLVIEW AVE",
+                    "BUKIT BATOK EAST AVE 3",
+                    "A Y E",
+                    "ALEXANDRA RD",
+                {
+                    renderType: "destScroll",
+                    top: "?",
+                    topFont: "Hanover-Tower19:11",
+                    
+                    serviceNumber: "963"
+                },
+                {
+                    renderType: "destScroll",
+                    top: "HARBOURFRONT",
+                    topFont: "Hanover-Tower12:7",
+        
+                    serviceNumber: "963"
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "963",
+                font: "LECIP-TowerRear17:10",
+                spacing: 1
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "963",
+                destination: "WOODLANDS",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                    "ALEXANDRA RD",
+                    "A Y E",
+                    "BUKIT BATOK EAST AVE 3",
+                    "HILLVIEW AVE",
+                    "BUKIT PANJANG RD",
+                {
+                    renderType: "destScroll",
+                    top: "?",
+                    topFont: "Hanover-Tower19:11",
+                        
+                    serviceNumber: "963"
+                },
+                {
+                    renderType: "destScroll",
+                    top: "WOODLANDS",
+                    topFont: "Hanover-Tower12:7",
+            
+                    serviceNumber: "963"
+                },
+                ],
+                    scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "963",
+                font: "LECIP-TowerRear17:10",
+                spacing: 1
+            }
+        }
+    },
     "963E": {
         1: {
             front: {
@@ -6228,6 +6813,80 @@ EDSData.TTSG = {
             }
         }
     },
+    "965C": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "965",
+                destination: "SENGKANG",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                    "WOODLANDS AVE 7",
+                    "GAMBAS AVE",
+                    "YISHUN MRT",
+                    "YISHUN MRT",
+                    "COMPASSVALE RD",
+                {
+                    renderType: "destScroll",
+                    top: "?",
+                    topFont: "Hanover-Tower19:11",
+                        
+                    serviceNumber: "965"
+                },
+                {
+                    renderType: "destScroll",
+                    top: "SENGKANG",
+                    topFont: "Hanover-Tower12:7",
+        
+                    serviceNumber: "965"
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "965",
+                font: "LECIP-TowerRear17:10",
+                spacing: 1
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "965",
+                destination: "WOODLANDS",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                    "COMPASSVALE RD",
+                    "YISHUN MRT",
+                    "YISHUN AVE 7",
+                    "GAMBAS AVE",
+                    "WOODLANDS AVE 7",
+                    {
+                        renderType: "destScroll",
+                        top: "?",
+                        topFont: "Hanover-Tower19:11",
+                            
+                        serviceNumber: "965"
+                    },
+                    {
+                        renderType: "destScroll",
+                        top: "WOODLANDS",
+                        topFont: "Hanover-Tower12:7",
+            
+                        serviceNumber: "965"
+                    },
+                    ],
+                    scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "965",
+                font: "LECIP-TowerRear17:10",
+                spacing: 1
+            }
+        }
+    },
     "965T": {
         1: {
             front: {
@@ -6454,6 +7113,80 @@ EDSData.TTSG = {
             }
         }
     },
+    "966C": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "966",
+                destination: "MARINE PARADE",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                    "WOODLANDS AVE 3",
+                    "PENDING RD",
+                    "JALAN KOLAM AYER",
+                    "JALAN TOA PAYOH",
+                    "JALAN EUNOS",
+                {
+                    renderType: "destScroll",
+                    top: "?",
+                    topFont: "Hanover-Tower19:11",
+                            
+                    serviceNumber: "966"
+                },
+                {
+                    renderType: "destScroll",
+                    top: "MARINE PARADE",
+                    topFont: "Hanover-Tower12:7",
+        
+                    serviceNumber: "966"
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "966",
+                font: "LECIP-TowerRear17:10",
+                spacing: 1
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "966",
+                destination: "WOODLANDS",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                    "MARINE PARADE RD",
+                    "JALAN EUNOS",
+                    "JALAN KOLAM AYER",
+                    "JALAN TOA PAYOH",
+                    "PENDING RD",
+                    {
+                        renderType: "destScroll",
+                        top: "?",
+                        topFont: "Hanover-Tower19:11",
+                                
+                        serviceNumber: "966"
+                    },
+                    {
+                        renderType: "destScroll",
+                        top: "WOODLANDS",
+                        topFont: "Hanover-Tower12:7",
+            
+                        serviceNumber: "966"
+                    },
+                    ],
+                    scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "966",
+                font: "LECIP-TowerRear17:10",
+                spacing: 1
+            }
+        }
+    },
     969: {
         1: {
             front: {
@@ -6536,6 +7269,80 @@ EDSData.TTSG = {
                 renderType: "rearService",
                 serviceNumber: "969A",
                 font: "LECIP-TowerRear17:7",
+                spacing: 1
+            }
+        }
+    },
+    "969C": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "969",
+                destination: "TAMPINES",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                    "WOODLANDS AVE 7",
+                    "GAMBAS AVE",
+                    "YISHUN MRT",
+                    "T P E",
+                    "TAMPINES CONCOURSE",
+                {
+                    renderType: "destScroll",
+                    top: "?",
+                    topFont: "Hanover-Tower19:11",
+                            
+                    serviceNumber: "969"
+                },
+                {
+                    renderType: "destScroll",
+                    top: "TAMPINES",
+                    topFont: "Hanover-Tower12:7",
+        
+                    serviceNumber: "969"
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "969",
+                font: "LECIP-TowerRear17:10",
+                spacing: 1
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "969",
+                destination: "WOODLANDS",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                    "TAMPINES CONCOURSE",
+                    "T P E",
+                    "YISHUN MRT",
+                    "GAMBAS AVE",
+                    "WOODLANDS AVE 7",
+                    {
+                        renderType: "destScroll",
+                        top: "?",
+                        topFont: "Hanover-Tower19:11",
+                                
+                        serviceNumber: "969"
+                    },
+                    {
+                        renderType: "destScroll",
+                        top: "WOODLANDS",
+                        topFont: "Hanover-Tower12:7",
+            
+                        serviceNumber: "969"
+                    },
+                    ],
+                    scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "969",
+                font: "LECIP-TowerRear17:10",
                 spacing: 1
             }
         }
@@ -8604,11 +9411,11 @@ EDSData.TTSG = {
             front: {
                 renderType: "twolinefront",
                 top: "BULIM - TTS",
-                topFont: "Hanover-Tower11:7",
+                topFont: "Hanover-8",
                 topSpacing: 1,
 
                 bottom: "HOTEL FERRY",
-                bottomFont: "Hanover-Tower7:5",
+                bottomFont: "Hanover-8",
                 bottomSpacing: 1,
             },
             rear: { 
@@ -8671,6 +9478,42 @@ EDSData.TTSG = {
             }
         }
     },
+    5403: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TTS HOTEL FERRY",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "TTS  - HOTEL FERRY",
+                    topFont: "Hanover-Tower11:7",
+                    bottom: "EMPLOYEE SHUTTLE",
+                    bottomFont: "Hanover-7:5",
+                    image: "DDBusIcon"
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TT BLACK 01",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "",
+                    topFont: "Hanover-Tower19:11",
+                    image: "DDBusIcon"
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
+            }
+        }
+    },
     5555: {
         1: {
             front: {
@@ -8699,11 +9542,9 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "message4",
                     serviceNumber: "",
-                    top: "BULIM DEPOT",
-                    topFont: "Hanover-Tower11:7",
-                    bottom: "CREW BUS",
-                    bottomFont: "Hanover-Tower7:5",
-                    image: "TTSRoundel"
+                    top: "BULIM  DEPOT",
+                    topFont: "LECIP-20:9",
+                    image: "DDBusIcon"
                     },
                 ],
                 scrollFont: "Hanover-7:5"
@@ -8732,7 +9573,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-Tower11:7",
                     bottom: "CREW BUS",
                     bottomFont: "Hanover-Tower7:5",
-                    image: "TTSRoundel"
+                    image: "DDBusIcon"
                     },
                 ],
                 scrollFont: "Hanover-7:5"
@@ -8759,11 +9600,9 @@ EDSData.TTSG = {
                 scrolls: [{
                     renderType: "message4",
                     serviceNumber: "",
-                    top: "MANDAI DEPOT",
-                    topFont: "Hanover-Tower11:7",
-                    bottom: "CREW BUS",
-                    bottomFont: "Hanover-Tower7:5",
-                    image: "TTSRoundel"
+                    top: "MANDAI  DEPOT",
+                    topFont: "LECIP-20:9",
+                    image: "DDBusIcon"
                     },
                 ],
                 scrollFont: "Hanover-7:5"
@@ -8792,7 +9631,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-Tower11:7",
                     bottom: "CREW BUS",
                     bottomFont: "Hanover-Tower7:5",
-                    image: "TTSRoundel"
+                    image: "DDBusIcon"
                     },
                 ],
                 scrollFont: "Hanover-7:5"
@@ -8866,8 +9705,7 @@ EDSData.TTSG = {
                 spacing: 1
             }
         }
-    },
-    6666: {
+    },    6666: {
         1: {
             front: {
                 renderType: "standardService",
@@ -8895,7 +9733,7 @@ EDSData.TTSG = {
         1: {
             front: {
                 renderType: "message",
-                text: "LECIP 220$2$",
+                text: "LECIP 220424",
                 font: "Hanover-Tower19:11",
                 spacing: 1
             },
@@ -9015,7 +9853,7 @@ EDSData.TTSG = {
 }
 
 EDSImages.TTSG = {
-    blank: [[]
+    blank: [[0]
      ],
     ChangiAirportControlTower: [
         [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -9038,6 +9876,116 @@ EDSImages.TTSG = {
         [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
         [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0],
         [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
+    ],
+    DDBusIcon: [
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1],
+        [1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1],
+        [1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 0, 1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1],
+        [1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1],
+        [1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1],
+        [1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0],
+        [0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    ],
+    Chingay50Logo1: [ // Side EDS
+        [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0],
+        [0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 1, 1, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0],
+        [0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0],
+        [0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0],
+        [0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0],
+        [0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0, 1, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0],
+        [1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 0, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0],
+        [1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0],
+        [1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0],
+        [1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 1, 1, 0, 1, 0, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0],
+        [1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0],
+        [0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0],
+        [0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    ],
+    Chingay50Logo2: [ // Front EDS
+        [0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0],
+        [1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0],
+        [1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0],
+        [1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0],
+        [1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0],
+        [1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0],
+        [1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0],
+        [1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0],
+        [1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0],
+        [1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0],
+        [1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0],
+        [1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0],
+        [0, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0],
+        [0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    ],
+    Chingay50Logo9: [ // Fireworks/Star only
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0], 
+        [0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0],
+        [0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0],
+        [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0],
+        [0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0],
+        [1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0],
+        [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0],
+        [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    ],
+    Chingay50Logo3: [ // Fireworks/Star only
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0], 
+        [0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0],
+        [0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0],
+        [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0],
+        [0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0],
+        [1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0],
+        [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0],
+        [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0],
+        [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
     ],
     TTSRoundel: [ //TTS Roundel
         [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0],
