@@ -207,6 +207,99 @@ EDSData.SMRT = {
             }
         }
     },
+    1791: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "179",
+                destination: "BOON LAY INT via",
+                destinationFont: "ArialBold-8",
+                scrolls: [
+                    {
+                    renderType: "destScroll",
+                    top: "BOON LAY",
+                    topFont: "ArialBold-8",
+                    bottom: "INT / MRT",
+                    bottomFont: "ArialBold-8",
+        
+                    serviceNumber: "179"
+                    },
+                    "PIONEER RD NTH",
+                    "LIEN YING CHOW DR"
+                ],
+                scrollFont: "ArialBold-8"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "179",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    1901: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "190",
+                destination: "KG. BAHRU TER via",
+                destinationFont: "ArialBold-8",
+                scrolls: [
+                    {
+                    renderType: "destScroll",
+                    top: "KAMPONG BAHRU",
+                    topFont: "ArialBold-8",
+                    bottom: "TERMINAL",
+                    bottomFont: "ArialBold-8",
+        
+                    serviceNumber: "190"
+                    },
+                    'BT PANJANG RD',
+                    'STEVENS ROAD',
+                    'ORCHARD ROAD',
+                    'HILL STREET',
+                    'CHINATOWN'
+                ],
+                scrollFont: "ArialBold-8"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "190",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    1991: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "199",
+                destination: "BOON LAY INT via",
+                destinationFont: "ArialBold-8",
+                scrolls: [
+                    {
+                    renderType: "destScroll",
+                    top: "BOON LAY",
+                    topFont: "ArialBold-8",
+                    bottom: "INT / MRT",
+                    bottomFont: "ArialBold-8",
+        
+                    serviceNumber: "199"
+                    },
+                    "JALAN BOON LAY",
+                    ""
+                ],
+                scrollFont: "ArialBold-8"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "199",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
     9999: {
         1: {
             front: {
@@ -219,7 +312,7 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     top: "BUKIT PANJANG",
                     topFont: "ArialBold-8",
-                    bottom: "INT / MRT / LRT",
+                    bottom: "INT / MRT",
                     bottomFont: "ArialBold-8",
         
                     serviceNumber: "176"

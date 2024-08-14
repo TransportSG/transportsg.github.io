@@ -9096,9 +9096,9 @@ EDSData.SMRT = {
         front: {
             renderType: "destScroll",
             serviceNumber: "307A",
-            top: "ENDS AT",
-            bottom: "OPP C. C. K. MRT",
-            topFont: "Mobitec-7:5:3",
+            top: "ENDS AT OPP CCK MRT",
+            topFont: "Mobitec-7:4",
+            bottom: "via YEW TEE MRT",
             bottomFont: "Mobitec-7:5:3"
         }
     },
@@ -9106,9 +9106,9 @@ EDSData.SMRT = {
         front: {
             renderType: "destScroll",
             serviceNumber: "307T",
-            top: "ENDS AT",
-            bottom: "C.C.K INT/MRT/LRT",
-            topFont: "Mobitec-7:7",
+            top: "ENDS AT CCK INT via",
+            topFont: "Mobitec-7:5:3",
+            bottom: "TECK WHYE",
             bottomFont: "Mobitec-7:5:3"
         }
     },
