@@ -1,36 +1,104 @@
 EDSFormats.SBST = {
     standardService: {
         serviceNumber: {
-            align: "left",
-            margin: {
-                left: 1
-            },
-            text: "$serviceNumber",
-            font: "Mobitec-16:8",
-            spacing: 1
-        },
-        destination: {
-            align: "right,bottom",
+            align: "right",
             margin: {
                 right: 1
             },
+            text: "$serviceNumber",
+            font: "Mobitec-Tower16:10",
+            spacing: 2
+        },
+        destination: {
+            align: "centre-x,top",
+            margin: {
+                right: 'width(serviceNumber)'
+            },
             text: "$destination",
+            font: {
+                $$cond: {
+                    "$destFont === null": "Mobitec-7:4",
+                    "else": "$destFont"
+                }
+            },
             spacing: 1
         },
         scroll: {
-            align: "right,top",
+            align: "centre-x,bottom",
             margin: {
-                right: 1,
-                top: 1
+                right: 'width(serviceNumber)'
             },
             scrolls: "$scrolls",
             rotate: true,
             rotateSpeed: 3000,
 
-            font: "$scrollFont",
+            font: "Mobitec-Tower6:4",
             spacing: 1
         },
-        text: "$serviceNumber+' '+$destination.text"
+
+        text: "$destination+' '+$serviceNumber"
+        
+    },
+    destScroll: {
+        serviceNumber: {
+            align: "left",
+            margin: {
+                right: 1
+            },
+            text: "$serviceNumber",
+            font: "Tongda-16:7",
+            spacing: 2
+        },
+        top: {
+            align: {
+                $$cond: {
+                    "$bottom === null": "centre-x,centre-y",
+                    "else": "centre-x,top"
+                }
+            },
+            text: "$top",
+            font: {
+                $$cond: {
+                    "$topFont === null": "Tongda-16:7",
+                    "else": "$topFont"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber) - width(image)'
+            }
+        },
+        bottom: {
+            align: "centre-x,bottom",
+            text: {
+                $$cond: {
+                    "$bottom !== null": "$bottom",
+                    "else": "''"
+                }
+            },
+            font: {
+                $$cond: {
+                    "$bottomFont === null": "Mobitec-7:4",
+                    "else": "$bottomFont"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber) - width(image)'
+            }
+        },
+        image: {
+            align: "left",
+            image: {
+                $$cond: {
+                    "$image !== null": "$image",
+                    "else": "blank"
+                }
+            }
+        },
+
+        text: "$top+' '+$bottom+' '+$serviceNumber"
+        
     },
     full: {
         __dynamic__: (matrix, data) => {
@@ -61,8 +129,38 @@ EDSData.SBST = {
         front: {
             renderType: "message",
             text: "TONGDA",
-            font: "Mobitec-16:8",
+            font: "Tongda-16:7",
             spacing: 2,
+        }
+    },
+    1111: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: "Tiada Perkhidmatan",
+            scrolls: [
+                {
+                    renderType: "message",
+                    text: "TIADA PERKHIDMATAN",
+                    font: "Tongda-16:7",
+                    spacing: 1
+                }
+            ]
+        }
+    },
+    1001: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "F100",
+            destination: "Bandaraya",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "F100",
+                    top: "LARKIN",
+                    topFont: "Tongda-16:7",
+                }
+            ]
         }
     },
     72: {
