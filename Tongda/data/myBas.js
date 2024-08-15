@@ -1,26 +1,26 @@
 EDSFormats.myBas = {
     standardService: {
         serviceNumber: {
-            align: "right",
+            align: "left",
             margin: {
-                right: 1
+                left: 1
             },
             text: "$serviceNumber",
             font: "Mobitec-16:8",
             spacing: 1
         },
         destination: {
-            align: "left,bottom",
+            align: "right,bottom",
             margin: {
-                left: 1
+                right: 1
             },
             text: "$destination",
             spacing: 1
         },
         scroll: {
-            align: "left,top",
+            align: "right,top",
             margin: {
-                left: 1,
+                right: 1,
                 top: 1
             },
             scrolls: "$scrolls",
@@ -36,88 +36,8 @@ EDSFormats.myBas = {
         __dynamic__: (matrix, data) => {
             matrixPrimitives.setStrokeColour(null);
             matrixPrimitives.fillRectangle(matrix, 0, 0, matrix.width, matrix.height);
-    },
-    text: "All LED Lit"
-    },
-    brandedSvc: {
-        serviceNumber: {
-            align: "right",
-            margin: {
-                right: 1
-            },
-            text: "$serviceNumber",
-            font: "Mobitec-16:8",
-            spacing: 1
         },
-        branding: {
-            align: "left",
-            margin: {
-                left: 1
-            },
-            text: "$branding",
-            font: "$font",
-            spacing: '$spacing'
-        },
-        text: "$serviceNumber+' '+$branding"
-    },
-    destScroll: {
-        serviceNumber: {
-            align: "right",
-            margin: {
-                right: 1
-            },
-            text: "$serviceNumber",
-            font: "Mobitec-16:8",
-            spacing: {
-                $$cond: {
-                    "$spacing === null" : 2,
-                    "else": "$spacing"
-                }
-            }
-        },
-        top: {
-            align: {
-                $$cond: {
-                    "$bottom === null": "centre-x,centre-y",
-                    "else": "centre-x,top"
-                }
-            },
-            text: "$top",
-            font: "$topFont",
-            spacing: 1,
-            margin: {
-                right: 'width(serviceNumber)'
-            }
-        },
-        bottom: {
-            align: "centre-x,bottom",
-            text: {
-                $$cond: {
-                    "$bottom !== null": "$bottom",
-                    "else": "''"
-                }
-            },
-            font: {
-                $$cond: {
-                    "$bottomFont !== null": "$bottomFont",
-                    "else": "Mobitec-6:5"
-                }
-            },
-            spacing: 1,
-            margin: {
-                right: 'width(serviceNumber)'
-            }
-        },
-
-        text: "$top+' '+$bottom+' '+$serviceNumber"
-    },
-    logo: {
-        logo: {
-            align: "centre-x,centre-y",
-            image: "$image"
-        },
-
-        text: "$text"
+        text: "All LED Lit"
     },
     message: {
         display: {
