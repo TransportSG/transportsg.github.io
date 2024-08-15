@@ -237,6 +237,39 @@ EDSData.SMRT = {
             }
         }
     },
+    1841: { // Confirmed
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "184",
+                destination: "CLEMENTI via",
+                destinationFont: "ArialBold-8",
+                scrolls: [
+                    {
+                    renderType: "destScroll",
+                    top: "CLEMENTI",
+                    topFont: "ArialBold-8",
+                    bottom: "MRT",
+                    bottomFont: "ArialBold-8",
+        
+                    serviceNumber: "184"
+                    },
+                    "BT PANJANG",
+                    "CASHEW RD",
+                    "UPP BT TIMAH",
+                    "JLN ANAK BUKIT",
+                    "CLEMENTI RD"
+                ],
+                scrollFont: "ArialBold-8"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "184",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
     1901: {
         1: {
             front: {
@@ -295,6 +328,37 @@ EDSData.SMRT = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "199",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    405: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "199",
+                destination: "BOON LAY INT via",
+                destinationFont: "ArialBold-8",
+                scrolls: [
+                    {
+                    renderType: "destScroll",
+                    top: "BOON LAY",
+                    topFont: "ArialBold-8",
+                    bottom: "INT / MRT",
+                    bottomFont: "ArialBold-8",
+        
+                    serviceNumber: "405"
+                    },
+                    "JALAN BOON LAY",
+                    "JALAN BAHAR",
+                    "OLD C.C.K. RD"
+                ],
+                scrollFont: "ArialBold-8"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "405",
                 font: "LECIP-SMRTRear14:9",
                 spacing: 2
             }
