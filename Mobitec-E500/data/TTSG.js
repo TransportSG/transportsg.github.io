@@ -2200,9 +2200,12 @@ EDSData.TTSG = {
                     spacing: 2
                 },
                 {
-                    renderType: "logo",
-                    image: "logo-full",
-                    text: ""
+                    renderType: "TowerSpecialEDS",
+                    serviceNumber: "",
+                    top: "~+",
+                    topFont: "Mobitec-Tower16:10",
+    
+                    text: "Tower Transit Logo"
                 }
             ]
         }

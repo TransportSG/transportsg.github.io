@@ -32,36 +32,6 @@ EDSFormats.myBas = {
         },
         text: "$serviceNumber+' '+$destination.text"
     },
-    swt: {
-        serviceNumber: {
-            align: "right",
-            margin: {
-                right: 1
-            },
-            text: "$serviceNumber",
-            font: "Mobitec-16:8",
-            spacing: 1
-        },
-        destinationRoad: {
-            align: "centre-x,top",
-            margin: {
-                right: 'width(serviceNumber)'
-            },
-            text: "'TERMINATE AT '+$destinationRoad",
-            font: "Mobitec-7:4",
-            spacing: 1
-        },
-        destinationName: {
-            align: "centre-x,bottom",
-            margin: {
-                right: 'width(serviceNumber)'
-            },
-            text: "$destinationName",
-            font: "Mobitec-7:4",
-            spacing: 1
-        },
-        text: "$serviceNumber+' '+$destinationRoad"
-    },
     full: {
         __dynamic__: (matrix, data) => {
             matrixPrimitives.setStrokeColour(null);
@@ -165,6 +135,25 @@ EDSData.myBas = {
     1: {
         front: {
             renderType: "full"
+        }
+    },
+    641: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "64",
+            destination: {
+                text: "> MEI LING ST",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                "ALJUNIED RD",
+                "BENDEMEER RD",
+                "JALAN BESAR",
+                "CLEMENCEAU AVE",
+                "TIONG BAHRU RD",
+                "STIRLING RD"
+            ],
+            scrollFont: "Mobitec-6:5"
         }
     },
     2: {
