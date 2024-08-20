@@ -4604,6 +4604,22 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
+    1295: {
+        front: {
+            renderType: "swt",
+            serviceNumber: "129A",
+            destinationRoad: "BARTLEY",
+            destinationName: "RD (BARTLEY STN EXIT A)"
+        }
+    },
+    1296: {
+        front: {
+            renderType: "swt",
+            serviceNumber: "129B",
+            destinationRoad: "",
+            destinationName: "OPP TEMASEK POLY EAST G"
+        }
+    },
     1301: {
         front: {
             renderType: "standardService",

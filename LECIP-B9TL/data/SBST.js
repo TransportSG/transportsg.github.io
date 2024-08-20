@@ -8415,6 +8415,38 @@ EDSData.SBST = {
             }
         }
     },
+    "129A": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "129A",
+                terminateAt: "BARTLEY RD",
+                landmark: "(BARTLEY STN EXIT A)"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "129A",
+                font: "LECIP-20:6",
+                spacing: 1
+            }
+        }
+    },
+    "129B": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "129B",
+                terminateAt: "TAMP. AVE 1",
+                landmark: "(OPP TEMASEK POLY EAST G)"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "129B",
+                font: "LECIP-20:6",
+                spacing: 1
+            }
+        }
+    },
     "129T": {
         1: {
             front: {
