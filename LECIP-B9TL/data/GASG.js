@@ -2543,14 +2543,14 @@ EDSData.GASG = {
                     },
                     {
                         renderType: "destScroll",
-                        top: "via Sentul Cres ",
-                        topFont: "Lecip-GoAhead16:10",
+                        top: "via Sentul Cres",
+                        topFont: "Hanover-GoAhead14:7",
             
                         serviceNumber: "84G"
                     },
                  "NIBONG > NORTHSHORE > SIT"
                 ],
-                scrollFont: "LECIP-6:4"
+                scrollFont: "Hanover-7:4"
             },
             rear: {
                 renderType: "rearService",
@@ -2577,13 +2577,13 @@ EDSData.GASG = {
                     {
                         renderType: "destScroll",
                         top: "via SIT Punggol ",
-                        topFont: "Lecip-GoAhead14:9:2",
+                        topFont: "Hanover-GoAhead14:7",
             
                         serviceNumber: "84W"
                     },
                  "SIT > NORTHSHORE > NIBONG"
                 ],
-                scrollFont: "LECIP-6:4"
+                scrollFont: "Hanover-7:4"
             },
             rear: {
                 renderType: "rearService",
@@ -4035,6 +4035,25 @@ EDSData.GASG = {
                 topFont: "Lecip-GoAhead9:6:2",
                 bottom: "Not in Service",
                 bottomFont: "Lecip-GoAhead9:6:2",
+            },
+            rear: { 
+                renderType: "message2",
+                serviceNumber: "",
+                top: "Not in",
+                topFont: "Lecip-GoAhead7:4:2",
+                bottom: "Service",
+                bottomFont: "Lecip-GoAhead7:4:2",
+            }
+        }
+    },
+    1119: {
+        1: {
+            front: { 
+                renderType: "destScroll",
+                top: "via SIT Punggol",
+                topFont: "Hanover-GoAhead14:7",
+    
+                serviceNumber: "84W"
             },
             rear: { 
                 renderType: "message2",
