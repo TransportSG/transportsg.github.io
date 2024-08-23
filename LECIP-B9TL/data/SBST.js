@@ -1138,6 +1138,64 @@ EDSData.SBST = {
             }
         }
     },
+    "10C": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "10",
+                destination: "> KENT RIDGE TER",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    {
+                        renderType: "brandedSvc",
+                        serviceNumber: "10",
+                        branding: "  ~",
+                        font: "LECIP-20:12",
+                        spacing: 2
+                    },
+                    "EAST COAST RD",
+                    'TANJONG KATONG RD',
+                    'SHENTON WAY',
+                    'PASIR PANJANG RD',
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "10",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "10",
+                destination: "> TAMPINES INT",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    {
+                        renderType: "brandedSvc",
+                        serviceNumber: "10",
+                        branding: "  ~",
+                        font: "LECIP-20:12",
+                        spacing: 2
+                    },
+                    "PASIR PANJANG RD",
+                    'NICOLL HIGHWAY',
+                    'TANJONG KATONG RD',
+                    'EAST COAST RD'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "10",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        }
+    },
     "10E": {
         1: {
             front: {
@@ -2493,6 +2551,71 @@ EDSData.SBST = {
                 renderType: "rearService",
                 serviceNumber: "30B",
                 font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    "30C": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "30",
+                destination: "> BOON LAY INT",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    {
+                        renderType: "brandedSvc",
+                        serviceNumber: "30",
+                        branding: "  ~",
+                        font: "LECIP-20:12",
+                        spacing: 2
+                    },
+                    "CHANGI RD",
+                    'TANJONG KATONG RD',
+                    'OLD AIRPORT RD',
+                    'KEPPEL RD',
+                    'TELOK BLANGAH RD',
+                    'PASIR PANJANG RD',
+                    'WEST COAST RD',
+                    'CORPORATION RD'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "30",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "30",
+                destination: "> BEDOK INT",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    {
+                        renderType: "brandedSvc",
+                        serviceNumber: "30",
+                        branding: "  ~",
+                        font: "LECIP-20:12",
+                        spacing: 2
+                    },
+                    "COPORATION DR",
+                    "WEST COAST RD",
+                    "PASIR PANJANG RD",
+                    "TELOK BLANGAH RD",
+                    "KEPPEL RD",
+                    "OLD AIRPORT RD",
+                    "SIMS AVE EAST"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "30",
+                font: "LECIP-20:12",
                 spacing: 2
             }
         }
@@ -5783,7 +5906,7 @@ EDSData.SBST = {
             }
         }
     },
-    "87C": {
+    "87H": {
         1: {
             front: {
                 renderType: "standardService",
@@ -12055,6 +12178,37 @@ EDSData.SBST = {
             }
         }
     },
+    "222C": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "222",
+                destination: "BEDOK INT-CHAI CHEE DR",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    {
+                        renderType: "brandedSvc",
+                        serviceNumber: "222",
+                        branding: "~",
+                        font: "LECIP-20:12",
+                        spacing: 2
+                    },
+                    'BEDOK NORTH ST 1',
+                    'BEDOK NORTH AVE 3',
+                    'BEDOK NORTH RD',
+                    'CHAI CHEE RD',
+                    'CHAI CHEE ST'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "222",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
     "225G": {
         1: {
             front: {
@@ -12863,6 +13017,35 @@ EDSData.SBST = {
                 renderType: "rearService",
                 serviceNumber: "265A",
                 font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
+    "265C": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "265",
+                destination: "AMK-AMK AVE 10",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    {
+                        renderType: "brandedSvc",
+                        serviceNumber: "265",
+                        branding: "~",
+                        font: "LECIP-20:12",
+                        spacing: 2
+                    },
+                    'ANG MO KIO AVE 9',
+                    'ANG MO KIO AVE 4',
+                    'ANG MO KIO AVE 3'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "265",
+                font: "LECIP-20:9",
                 spacing: 2
             }
         }
@@ -18358,6 +18541,74 @@ EDSData.SBST = {
                 destination: "> YISHUN INT",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
+                    "TIONG BAHRU RD",
+                    'EU TONG SEN ST',
+                    "VICTORIA ST",
+                    "THOMSON RD",
+                    "MARYMOUNT RD",
+                    "ANG MO KIO AVE 5",
+                    "ANG MO KIO AVE 6",
+                    "LENTOR AVE",
+                    "YISHUN AVE 2"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "851",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    "851C": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "851",
+                destination: "> BUKIT MERAH INT",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    {
+                        renderType: "brandedSvc",
+                        serviceNumber: "851",
+                        branding: " ~",
+                        font: "LECIP-20:12",
+                        spacing: 2
+                    },
+                    'YISHUN AVE 2',
+                    'LENTOR AVE',
+                    'ANG MO KIO AVE 6',
+                    'ANG MO KIO AVE 5',
+                    'MARYMOUNT RD',
+                    'THOMSON RD',
+                    'VICTORIA ST',
+                    'NEW BRIDGE RD',
+                    'TIONG BAHRU RD'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "851",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "851",
+                destination: "> YISHUN INT",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    {
+                        renderType: "brandedSvc",
+                        serviceNumber: "851",
+                        branding: " ~",
+                        font: "LECIP-20:12",
+                        spacing: 2
+                    },
                     "TIONG BAHRU RD",
                     'EU TONG SEN ST',
                     "VICTORIA ST",

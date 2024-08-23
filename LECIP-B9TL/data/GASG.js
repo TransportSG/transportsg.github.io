@@ -862,8 +862,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "3B",
-                destination: "TERMINATING AT",
-                destinationFont: "Lecip-GoAhead8:6:2",
+                destination: "PASIR RIS INT",
+                destinationFont: "Hanover-10",
                 scrolls: [{
                     renderType: "destScrollWithImage",
                     serviceNumber: "3B",
@@ -872,14 +872,13 @@ EDSData.GASG = {
                     bottom: "PASIR RIS INT",
                     bottomFont: "Lecip-GoAhead8:6:2",
                 },
-                "PASIR RIS INT",
                 ],
-                scrollFont: "Lecip-GoAhead8:6:2"
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",
                 serviceNumber: "3B",
-                font: "LECIP-20:9",
+                font: "Lecip-GoAhead20:9",
                 spacing: 2
             }
         }
@@ -1658,7 +1657,7 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "34T",
-                destination: "TERMINATE AT CHANGI AIRPORT",
+                destination: "TERMINATES AT CHANGI AIRPORT",
                 destinationFont: "Hanover-10",
                 scrolls: [{
                     renderType: "destScrollWithImage",
@@ -2354,7 +2353,7 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "82",
-                destination: "PUNGGOL-S'GOON CTRL",
+                destination: "82 FIRST SERVICE",
                 destinationFont: "Mobitec-9:6",
                 scrolls: [{
                     renderType: "destScrollWithImage",
@@ -2365,10 +2364,38 @@ EDSData.GASG = {
                     bottomFont: "Lecip-GoAhead8:4",
                     image: "GoAheadLogoFull",
                 },
-                    "PUNGGOL RD", 
-                    "HOUGANG AVE 10", 
-                    "HOUGANG AVE 2", 
-                    "UPPER SERANGOON RD", 
+                {
+                    renderType: "destScrollWithImage2",
+                    serviceNumber: "82",
+                    top: "PUNGGOL-S'GOON CTRL",
+                    topFont: "Mobitec-9:6",
+                    bottom: "PUNGGOL RD",
+                    bottomFont: "Hanover-7:5",
+                },
+                {
+                    renderType: "destScrollWithImage2",
+                    serviceNumber: "82",
+                    top: "PUNGGOL-S'GOON CTRL",
+                    topFont: "Mobitec-9:6",
+                    bottom: "HOUGANG AVE 10",
+                    bottomFont: "Hanover-7:5",
+                },
+                {
+                    renderType: "destScrollWithImage2",
+                    serviceNumber: "82",
+                    top: "PUNGGOL-S'GOON CTRL",
+                    topFont: "Mobitec-9:6",
+                    bottom: "HOUGANG AVE 2",
+                    bottomFont: "Hanover-7:5",
+                },
+                {
+                    renderType: "destScrollWithImage2",
+                    serviceNumber: "82",
+                    top: "PUNGGOL-S'GOON CTRL",
+                    topFont: "Mobitec-9:6",
+                    bottom: "UPPER SERANGOON RD",
+                    bottomFont: "Hanover-7:5",
+                },
                 ],
                 scrollFont: "Hanover-7:5"
             },
@@ -2498,7 +2525,7 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "84A",
-                destination: "SUMANG LANE",
+                destination: "NEW PUNGGOL RD",
                 destinationFont: "Lecip-GoAhead8:6:2",
                 scrolls: [{
                     renderType: "destScrollWithImage",
@@ -2532,8 +2559,8 @@ EDSData.GASG = {
             front: {
                     renderType: "standardService",
                     serviceNumber: "84G",
-                    destination: "PUNGGOL",
-                    destinationFont: "Hanover-10",
+                    destination: "PUNGGOL via Sentul",
+                    destinationFont: "Mobitec-7:5:2",
                     scrolls: [{
                         renderType: "destScroll",
                         top: "Punggol",
@@ -2548,7 +2575,14 @@ EDSData.GASG = {
             
                         serviceNumber: "84G"
                     },
-                 "NIBONG > NORTHSHORE > SIT"
+                    {
+                        renderType: "destScrollWithImage2",
+                        serviceNumber: "84G",
+                        top: "PUNGGOL",
+                        topFont: "Hanover-10",
+                        bottom: "NIBONG > NORTHSHORE > SIT",
+                        bottomFont: "Hanover-7:4",
+                    },
                 ],
                 scrollFont: "Hanover-7:4"
             },
@@ -2565,8 +2599,8 @@ EDSData.GASG = {
             front: {
                     renderType: "standardService",
                     serviceNumber: "84W",
-                    destination: "PUNGGOL",
-                    destinationFont: "Hanover-10",
+                    destination: "PUNGGOL via SIT",
+                    destinationFont: "Mobitec-7:5:2",
                     scrolls: [{
                         renderType: "destScroll",
                         top: "Punggol",
@@ -2581,7 +2615,14 @@ EDSData.GASG = {
             
                         serviceNumber: "84W"
                     },
-                 "SIT > NORTHSHORE > NIBONG"
+                    {
+                        renderType: "destScrollWithImage2",
+                        serviceNumber: "84W",
+                        top: "PUNGGOL",
+                        topFont: "Hanover-10",
+                        bottom: "SIT > NORTHSHORE > NIBONG",
+                        bottomFont: "Hanover-7:4",
+                    },
                 ],
                 scrollFont: "Hanover-7:4"
             },
@@ -2878,8 +2919,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "118B",
-                destination: "tpe (bef punggol rd)",
-                destinationFont: "Lecip-GoAhead10:6",
+                destination: "TPE (BEF PUNGGOL RD)",
+                destinationFont: "LECIP-7:5",
                 scrolls: [{
                     renderType: "destScrollWithImage2",
                     serviceNumber: "118B",
@@ -2888,9 +2929,30 @@ EDSData.GASG = {
                     bottom: "TPE (BEF PUNGGOL RD)",
                     bottomFont: "Lecip-GoAheadShortTripNonsenseFont",
                 },
-                    "TAMPINES AVE 1",
-                    "TAMPINES AVE 8",
-                    "TAMPINES AVE 10"
+                {
+                    renderType: "destScrollWithImage2",
+                    serviceNumber: "118B",
+                    top: "tpe (bef punggol rd)",
+                    topFont: "Lecip-GoAhead10:6",
+                    bottom: "TAMPINES AVE 1",
+                    bottomFont: "Hanover-7:5",
+                },
+                {
+                    renderType: "destScrollWithImage2",
+                    serviceNumber: "118B",
+                    top: "tpe (bef punggol rd)",
+                    topFont: "Lecip-GoAhead10:6",
+                    bottom: "TAMPINES AVE 8",
+                    bottomFont: "Hanover-7:5",
+                },
+                {
+                    renderType: "destScrollWithImage2",
+                    serviceNumber: "118B",
+                    top: "tpe (bef punggol rd)",
+                    topFont: "Lecip-GoAhead10:6",
+                    bottom: "TAMPINES AVE 10",
+                    bottomFont: "Hanover-7:5",
+                },
                 ],
                 scrollFont: "Hanover-7:5"
             },
@@ -4035,25 +4097,6 @@ EDSData.GASG = {
                 topFont: "Lecip-GoAhead9:6:2",
                 bottom: "Not in Service",
                 bottomFont: "Lecip-GoAhead9:6:2",
-            },
-            rear: { 
-                renderType: "message2",
-                serviceNumber: "",
-                top: "Not in",
-                topFont: "Lecip-GoAhead7:4:2",
-                bottom: "Service",
-                bottomFont: "Lecip-GoAhead7:4:2",
-            }
-        }
-    },
-    1119: {
-        1: {
-            front: { 
-                renderType: "destScroll",
-                top: "via SIT Punggol",
-                topFont: "Hanover-GoAhead14:7",
-    
-                serviceNumber: "84W"
             },
             rear: { 
                 renderType: "message2",
