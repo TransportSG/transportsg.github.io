@@ -333,11 +333,11 @@ EDSData.SMRT = {
             }
         }
     },
-    405: {
+    4051: {
         1: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "199",
+                serviceNumber: "405",
                 destination: "BOON LAY INT via",
                 destinationFont: "ArialBold-8",
                 scrolls: [
