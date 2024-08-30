@@ -6426,6 +6426,99 @@ EDSData.TTSG = {
             ]
         }
     },
+    8611: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "861",
+            destination: "KHATIB MRT",
+            scrolls: [
+                "CANBERRA ST",
+                "CANBERRA WAY",
+                "CANBERRA MRT",
+                "YISHUN AVE 6",
+                "YISHUN AVE 1",
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "861",
+                    top: "Welcome on board",
+                    topFont: "Hanover-7:3",
+                    bottom: "Tower Transit",
+                    bottomFont: "Hanover-7:3",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "861",
+                    top: "Have a pleasant",
+                    topFont: "Hanover-7:3",
+                    bottom: "journey!",
+                    bottomFont: "Hanover-7:3",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "861",
+                    top: "KHATIB MRT",
+                    image: "mrt",
+                }
+            ]
+        }
+    },
+    8612: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "861",
+            destination: "SEMBAWANG",
+            scrolls: [
+                "YISHUN AVE 1",
+                "YISHUN AVE 6",
+                "CANBERRA MRT",
+                "CANBERRA WAY",
+                "CANBERRA ST",
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "861",
+                    top: "Welcome on board",
+                    topFont: "Hanover-7:3",
+                    bottom: "Tower Transit",
+                    bottomFont: "Hanover-7:3",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "861",
+                    top: "Have a pleasant",
+                    topFont: "Hanover-7:3",
+                    bottom: "journey!",
+                    bottomFont: "Hanover-7:3",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "861",
+                    top: "SEMBAWANG",
+                    image: "mrt"
+                }
+            ]
+        }
+    },
+    8613: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: "861A KHATIB STN",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "861A",
+                    top: "Ends At",
+                    topFont: "Mobitec-7:5:3",
+                    bottom: "Khatib Stn Exit D",
+                    bottomFont: "Mobitec-Tower6:4",
+                },
+            ]
+        }
+    },
     8701: {
         front: {
             renderType: "standardService",
@@ -7465,8 +7558,8 @@ EDSData.TTSG = {
             scrolls: [
                 "WOODLANDS AVE 3",
                 "PENDING RD",
-                "JALAN KOLAM AYER",
                 "JALAN TOA PAYOH",
+                "JALAN KOLAM AYER",
                 "JALAN EUNOS",
                 {
                     renderType: "destScroll",
