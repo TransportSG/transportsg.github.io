@@ -1995,6 +1995,24 @@ EDSData.TTSG = {
             ]
         }
     },
+    1000: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: "TEL 3 OPENING EVENT",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "TEL # Opening Event",
+                    topFont: "Hanover-7:4",
+                    bottom: "цaldecott ⇔ Жtevens",
+                    bottomFont: "Hanover-7:4",
+                    image: "mrt"
+                },
+            ]
+        }
+    },
     1061: {
         front: {
             renderType: "standardService",
