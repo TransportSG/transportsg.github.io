@@ -13805,49 +13805,6 @@ EDSData.SBST = {
             }
         }
     },
-    "358T": {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "358T",
-                destination: "> PASIR RIS DR 10 & ST 41",
-                destinationFont: "LECIP-6:4",
-                scrolls: [{
-                        renderType: "swt",
-                        serviceNumber: "358T",
-                        landmark: "PASIR RIS INT",
-                    },
-                    "PASIR RIS DR 3",
-                    "PASIR RIS DR 1",
-                    "ELIAS RD",
-                    "PASIR RIS DR 6",
-                    "PASIR RIS DR 4",
-                    "PASIR RIS ST 41"     
-                          
-                ],
-                scrollFont: "LECIP-6:3"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "358T",
-                font: "LECIP-20:6",
-                spacing: 2
-            }
-        },
-        2: {
-            front: {
-                renderType: "swt",
-                serviceNumber: "358T",
-                landmark: "PASIR RIS INT"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "358T",
-                font: "LECIP-20:6",
-                spacing: 2
-            }
-        }
-    },
     359: {
         1: {
             front: {
@@ -13870,54 +13827,8 @@ EDSData.SBST = {
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "358",
+                serviceNumber: "359",
                 font: "LECIP-20:9",
-                spacing: 2
-            }
-        }
-    },
-    "359T": {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "359T",
-                destination: "> PASIR RIS ST 71 & ST 11",
-                destinationFont: "LECIP-6:4",
-                scrolls: [{
-                        renderType: "swt",
-                        serviceNumber: "359T",
-                        landmark: "PASIR RIS INT",
-                    },
-                    "PASIR RIS DR 3",
-                    "PASIR RIS DR 12",
-                    "PASIR RIS DR 10",
-                    "PASIR RIS DR 12",
-                    "PASIR RIS DR 3",
-                    "PASIR RIS ST 51",
-                    "LOYANG AVE",
-                    "PASIR RIS DR 2",
-                    "PASIR RIS ST 51"    
-                          
-                ],
-                scrollFont: "LECIP-6:3"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "359T",
-                font: "LECIP-20:6",
-                spacing: 2
-            }
-        },
-        2: {
-            front: {
-                renderType: "swt",
-                serviceNumber: "359T",
-                landmark: "PASIR RIS INT"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "359T",
-                font: "LECIP-20:6",
                 spacing: 2
             }
         }
