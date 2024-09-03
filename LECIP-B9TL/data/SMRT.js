@@ -343,7 +343,7 @@ EDSData.SMRT = {
                     top: "BOON LAY INT",
                     topFont: "ArialBold-8:2",
                     bottom: "NTU (LOOP)",
-                    bottomFont: "Calibri-7",
+                    bottomFont: "Calibri-7:2",
         
                     serviceNumber: "179A"
                     },
@@ -358,7 +358,7 @@ EDSData.SMRT = {
             }
         }
     },
-    1811: {
+    1811: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -375,6 +375,8 @@ EDSData.SMRT = {
         
                     serviceNumber: "181"
                     },
+                    "JURONG WEST ST 64",
+                    "JURONG WEST ST 75",
                     "JURONG WEST AVE 5",
                     "JURONG WEST AVE 3",
                 ],
@@ -388,7 +390,7 @@ EDSData.SMRT = {
             }
         }
     },
-    1841: { // Confirmed
+    1841: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -651,6 +653,80 @@ EDSData.SMRT = {
             }
         }
     },
+    2402: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "240A",
+                destination: "LAKESIDE MRT",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll2",
+                    top: "ENDS AT",
+                    topFont: "ArialBold-8:2",
+                    bottom: "LAKESIDE MRT",
+                    bottomFont: "Calibri-7",
+        
+                    serviceNumber: "240A"
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "240A",
+                font: "ArialBold-8:2",
+                spacing: 1
+            }
+        }
+    },
+    2403: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "240M",
+                destination: "LAKESIDE MRT",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll2",
+                    top: "LAKESIDE MRT via",
+                    topFont: "ArialBold-8:2",
+                    bottom: "BOON LAY DR",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "240M"
+                },
+                {
+                    renderType: "destScroll2",
+                    top: "LAKESIDE MRT via",
+                    topFont: "ArialBold-8:2",
+                    bottom: "BOON LAY PLACE",
+                    bottomFont: "ArialBold-8:2",
+            
+                    serviceNumber: "240M"
+                },
+                {
+                    renderType: "destScroll2",
+                    top: "LAKESIDE MRT via",
+                    topFont: "ArialBold-8:2",
+                    bottom: "JUR WEST ST 64",
+                    bottomFont: "ArialBold-8:2",
+                
+                    serviceNumber: "240M"
+                },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "240M",
+                font: "ArialBold-8:2",
+                spacing: 2
+            }
+        }
+    },
     2411: { // Done
         1: {
             front: {
@@ -761,10 +837,9 @@ EDSData.SMRT = {
                     serviceNumber: "243G"
                     },
                     "JURONG WEST ST 64",
-                    "JURONG WEST ST 61",
-                    "JURONG WEST AVE 5",
-                    "JURONG WEST ST 82",
                     "JURONG WEST ST 75",
+                    "JURONG WEST ST 81",
+                    "JURONG WEST AVE 4",
                     "JURONG WEST ST 62",
                 ],
                 scrollFont: "Calibri-7"
@@ -777,7 +852,7 @@ EDSData.SMRT = {
             }
         }
     },
-    2432: {
+    2432: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -795,13 +870,9 @@ EDSData.SMRT = {
         
                     serviceNumber: "243W"
                     },
-
-                    "JURONG WEST ST 64",
                     "JURONG WEST ST 61",
                     "JURONG WEST AVE 5",
                     "JURONG WEST ST 82",
-
-                    
                     "JURONG WEST ST 75",
                     "JURONG WEST ST 64", // Ending scroll
                 ],
@@ -843,7 +914,7 @@ EDSData.SMRT = {
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "249",
+                serviceNumber: "246",
                 font: "LECIP-SMRTRear14:9",
                 spacing: 2
             }
@@ -928,6 +999,7 @@ EDSData.SMRT = {
                     serviceNumber: "251"
                     },
                     "BOON LAY WAY",
+                    "PIONEER RD NTH",
                     "PIONEER RD",
                     "SHIPYARD RD"
                 ],
@@ -978,7 +1050,7 @@ EDSData.SMRT = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "405",
-                destination: "BOON LAY INT via",
+                destination: "BOON LAY via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
                     {
