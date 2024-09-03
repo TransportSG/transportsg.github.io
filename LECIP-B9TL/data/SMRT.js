@@ -96,6 +96,7 @@ EDSFormats.SMRT = {
             align: "right",
             margin: {
                 right: 1,
+                top: 1,
             },
             text: "$serviceNumber",
             font: "Calibri-15",
@@ -138,6 +139,58 @@ EDSFormats.SMRT = {
             margin: {
                 right: 'width(serviceNumber)',
                 bottom: 1
+            }
+        },
+
+        text: "$top+' '+$bottom+' '+$serviceNumber"
+    },
+    destScroll2A: {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 1,
+                top: 1,
+            },
+            text: "$serviceNumber",
+            font: "Calibri-15",
+            spacing: {
+                $$cond: {
+                    "$spacing === null" : 2,
+                    "else": "$spacing"
+                }
+            }
+        },
+        top: {
+            align: {
+                $$cond: {
+                    "$bottom === null": "centre-x,centre-y",
+                    "else": "centre-x,top"
+                }
+            },
+            text: "$top",
+            font: "$topFont",
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber)'
+            }
+        },
+        bottom: {
+            align: "centre-x,bottom",
+            text: {
+                $$cond: {
+                    "$bottom !== null": "$bottom",
+                    "else": "''"
+                }
+            },
+            font: {
+                $$cond: {
+                    "$bottomFont !== null": "$bottomFont",
+                    "else": "ArialBold-8:2"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber)',
             }
         },
 
@@ -283,6 +336,34 @@ EDSData.SMRT = {
                 renderType: "rearService",
                 serviceNumber: "179",
                 font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    1792: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "179A",
+                destination: "BOON LAY",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll2A",
+                    top: "BOON LAY INT",
+                    topFont: "ArialBold-8:2",
+                    bottom: "NTU (LOOP)",
+                    bottomFont: "Calibri-7",
+        
+                    serviceNumber: "179A"
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "179A",
+                font: "ArialBold-8:2",
                 spacing: 2
             }
         }
@@ -547,7 +628,7 @@ EDSData.SMRT = {
             }
         }
     },
-    2401: {
+    2401: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -567,6 +648,8 @@ EDSData.SMRT = {
                     "BOON LAY DR",
                     "BOON LAY PLACE",
                     "KANG CHING RD",
+                    "CORPORATION DR",
+                    "JLN AHMAD IBRAHIM",
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -606,6 +689,34 @@ EDSData.SMRT = {
                 renderType: "rearService",
                 serviceNumber: "241",
                 font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    2412: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "241A",
+                destination: "PIONEER MRT",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll2",
+                    top: "ENDS AT",
+                    topFont: "ArialBold-8:2",
+                    bottom: "PIONEER MRT",
+                    bottomFont: "Calibri-7",
+        
+                    serviceNumber: "241A"
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "241A",
+                font: "ArialBold-8:2",
                 spacing: 2
             }
         }
@@ -708,7 +819,7 @@ EDSData.SMRT = {
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "243G",
+                serviceNumber: "243W",
                 font: "ArialBold-8:2",
                 spacing: 2
             }
@@ -777,6 +888,34 @@ EDSData.SMRT = {
                 renderType: "rearService",
                 serviceNumber: "249",
                 font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    2492: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "249A",
+                destination: "JURONG SHIPYARD",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll2",
+                    top: "ENDS AT",
+                    topFont: "ArialBold-8:2",
+                    bottom: "JURONG SHIPYARD",
+                    bottomFont: "Calibri-7",
+        
+                    serviceNumber: "249A"
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "249A",
+                font: "ArialBold-8:2",
                 spacing: 2
             }
         }
@@ -903,31 +1042,59 @@ EDSData.SMRT = {
             }
         }
     },
-    9998: {
+    9997: { // Done
         1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: {
-                    text: "SMRT FIRST",
-                    font: "ArialBold-8:2"
-                },
+                destination: "MCHNY",
+                destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    "JURONG WEST BUS"
+                    {
+                    renderType: "destScroll2",
+                    top: "MERRY CHRISTMAS",
+                    topFont: "ArialBold-8:2",
+                    bottom: "HAPPY NEW YEAR",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: ""
+                    },
                 ],
-                scrollFont: 'ArialBold-8:2'
+                scrollFont: "ArialBold-8:2"
             },
             rear: {
+                renderType: "rearService",
+                serviceNumber: "",
+                font: "ArialBold-8:2",
+                spacing: 2
+            }
+        }
+    },
+    9998: { // Done
+        1: {
+            front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: {
-                    text: "",
-                    font: "Hanover-7:3"
-                },
+                destination: "SMRT FIRST JURONG WEST BUS",
+                destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    ""
+                    {
+                    renderType: "destScroll2",
+                    top: "SMRT FIRST",
+                    topFont: "ArialBold-8:2",
+                    bottom: "JURONG WEST BUS",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: ""
+                    },
                 ],
-                scrollFont: "Hanover-7:3"
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "",
+                font: "ArialBold-8:2",
+                spacing: 2
             }
         }
     },
