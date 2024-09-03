@@ -283,29 +283,19 @@ EDSFormats.SMRT.calibriSmallService = JSON.parse(JSON.stringify(EDSFormats.SMRT.
 EDSFormats.SMRT.calibriSmallService.serviceNumber.font = 'Calibri-15'; // TODO: make font
 
 EDSData.SMRT = {
-        117: {
+    117: {
         1: {
             front: {
-                renderType: "standardService",
-                serviceNumber: "",
-                destination: {
-                    text: "SMRT LECIP NEW VERSION",
-                    font: "ArialBold-8:2"
-                },
-                scrolls: [
-                    "WORK IN PROGRESS"
-                ],
-                scrollFont: 'ArialBold-8:2'
+                renderType: "logo",
+                text: "SMRT LOGO",
+                image: "logo"
             },
             rear: {
-                renderType: "destScroll",
-                top: "Work In",
-                topFont: "Hanover-7:3",
-                bottom: "Progress",
-                bottomFont: "Hanover-7:3",
-    
-                serviceNumber: ""
-            }
+                renderType: "rearService",
+                serviceNumber: "SMRT",
+                font: "ArialBold-8",
+                spacing: 2
+            },
         }
     },
     1791: { // Done
@@ -1014,7 +1004,47 @@ EDSData.SMRT = {
             }
         }
     },
-    9000: {
+    9000: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "WELCOME",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll2",
+                    top: "SMRT LECIP - NEW VERSION",
+                    topFont: "ArialBold-8:2",
+                    bottom: "WORK IN PROGRESS",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: ""
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "WELCOME",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll",
+                    top: "Work In",
+                    topFont: "Hanover-7:3",
+                    bottom: "Progress",
+                    bottomFont: "Hanover-7:3",
+        
+                    serviceNumber: ""
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            }
+        }
+    },
+    9990: {
         1: {
             front: {
                 renderType: "standardService",
