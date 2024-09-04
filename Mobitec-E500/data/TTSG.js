@@ -2242,20 +2242,18 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "143",
-                    top: "Welcome on board",
-                    topFont: "Hanover-7:3",
-                    bottom: "Tower Transit",
-                    bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    top: "Hop on this bus to",
+                    topFont: "Mobitec-Tower6:4",
+                    bottom: "Chinatown & Orchard",
+                    bottomFont: "Mobitec-Tower6:4",
                 },
                 {
                     renderType: "destScroll",
                     serviceNumber: "143",
-                    top: "Have a pleasant",
+                    top: "Enjoy the vibrant city",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "on this route",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
                 },
                 {
                     renderType: "destScroll",
