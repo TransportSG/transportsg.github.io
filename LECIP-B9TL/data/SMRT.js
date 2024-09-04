@@ -308,15 +308,7 @@ EDSData.SMRT = {
                 destination: "BOON LAY via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
-                    renderType: "destScroll",
-                    top: "BOON LAY",
-                    topFont: "ArialBold-8:2",
-                    bottom: "INT / MRT",
-                    bottomFont: "ArialBold-8:2",
-        
-                    serviceNumber: "179"
-                    },
+
                     "JURONG WEST ST 63",
                     "PIONEER RD NTH",
                     "LIEN YING CHOW DR",
@@ -368,15 +360,7 @@ EDSData.SMRT = {
                 destination: "BOON LAY via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
-                    renderType: "destScroll",
-                    top: "BOON LAY",
-                    topFont: "ArialBold-8:2",
-                    bottom: "INT / MRT",
-                    bottomFont: "ArialBold-8:2",
-        
-                    serviceNumber: "181"
-                    },
+
                     "JURONG WEST ST 64",
                     "JURONG WEST ST 75",
                     "JURONG WEST AVE 5",
@@ -466,15 +450,7 @@ EDSData.SMRT = {
                 destination: "TUAS TER via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
-                    renderType: "destScroll",
-                    top: "TUAS",
-                    topFont: "ArialBold-8:2",
-                    bottom: "",
-                    bottomFont: "ArialBold-8:2",
-        
-                    serviceNumber: "192"
-                    },
+
                     "JURONG WEST ST 62",
                     "UPP JURONG RD",
                     "TUAS AVE 3, 1, 12",
@@ -498,15 +474,7 @@ EDSData.SMRT = {
                 destination: "BOON LAY via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
-                    renderType: "destScroll",
-                    top: "TUAS",
-                    topFont: "ArialBold-8:2",
-                    bottom: "",
-                    bottomFont: "ArialBold-8:2",
-        
-                    serviceNumber: "192"
-                    },
+
                     "TUAS WEST DR",
                     "TUAS AVE 12, 1, 3",
                     "UPPER JURONG RD",
@@ -530,15 +498,7 @@ EDSData.SMRT = {
                 destination: "BOON LAY via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
-                    renderType: "destScroll",
-                    top: "BOON LAY",
-                    topFont: "ArialBold-8:2",
-                    bottom: "INT / MRT",
-                    bottomFont: "ArialBold-8:2",
-        
-                    serviceNumber: "193"
-                    },
+
                     "TUAS WEST DR",
                     "TUAS AVE 9, 4, 2, 5",
                     "SIXTH LOK YANG RD",
@@ -563,15 +523,7 @@ EDSData.SMRT = {
                 destination: "TUAS TER via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
-                    renderType: "destScroll",
-                    top: "TUAS",
-                    topFont: "ArialBold-8:2",
-                    bottom: "T",
-                    bottomFont: "ArialBold-8:2",
-        
-                    serviceNumber: "193"
-                    },
+
                     "JURONG WEST AVE 4",
                     "PIONEER RD NTH",
                     "LOK YANG WAY",
@@ -597,15 +549,7 @@ EDSData.SMRT = {
                 destination: "BOON LAY via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
-                    renderType: "destScroll",
-                    top: "BOON LAY",
-                    topFont: "ArialBold-8:2",
-                    bottom: "INT / MRT",
-                    bottomFont: "ArialBold-8:2",
-        
-                    serviceNumber: "194"
-                    },
+
                     "AHMAD IBRAHIM (LOOP)"
                 ],
                 scrollFont: "Calibri-7:2"
@@ -626,15 +570,7 @@ EDSData.SMRT = {
                 destination: "BOON LAY via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
-                    renderType: "destScroll",
-                    top: "BOON LAY",
-                    topFont: "ArialBold-8:2",
-                    bottom: "INT / MRT",
-                    bottomFont: "ArialBold-8:2",
-        
-                    serviceNumber: "199"
-                    },
+
                     "JALAN BOON LAY",
                     "JALAN BAHAR",
                     "NANYANG AVE",
@@ -659,15 +595,7 @@ EDSData.SMRT = {
                 destination: "BOON LAY via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
-                    renderType: "destScroll",
-                    top: "BOON LAY",
-                    topFont: "ArialBold-8:2",
-                    bottom: "INT / MRT",
-                    bottomFont: "ArialBold-8:2",
-        
-                    serviceNumber: "240"
-                    },
+
                     "BOON LAY DR",
                     "BOON LAY PLACE",
                     "KANG CHING RD",
@@ -766,15 +694,7 @@ EDSData.SMRT = {
                 destination: "BOON LAY via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
-                    renderType: "destScroll",
-                    top: "BOON LAY",
-                    topFont: "ArialBold-8:2",
-                    bottom: "INT / MRT",
-                    bottomFont: "ArialBold-8:2",
-        
-                    serviceNumber: "241"
-                    },
+
                     "JURONG WEST ST 63",
                     "PIONEER RD NTH",
                     "JURONG WEST ST 91",
@@ -826,15 +746,7 @@ EDSData.SMRT = {
                 destination: "BOON LAY via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
-                    renderType: "destScroll",
-                    top: "BOON LAY",
-                    topFont: "ArialBold-8:2",
-                    bottom: "INT / MRT",
-                    bottomFont: "ArialBold-8:2",
-        
-                    serviceNumber: "242"
-                    },
+
                     "JLN BOON LAY",
                     "JURONG WEST AVE 4",
                     "JURONG WEST ST 71",
@@ -858,15 +770,7 @@ EDSData.SMRT = {
                 destination: "BOON LAY via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
-                    renderType: "destScroll2",
-                    top: "BOON LAY",
-                    topFont: "ArialBold-8:2",
-                    bottom: "INT / MRT",
-                    bottomFont: "ArialBold-8:2",
-        
-                    serviceNumber: "243G"
-                    },
+
                     "JURONG WEST ST 64",
                     "JURONG WEST ST 75",
                     "JURONG WEST ST 81",
@@ -892,15 +796,7 @@ EDSData.SMRT = {
                 destination: "BOON LAY via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
-                    renderType: "destScroll2",
-                    top: "BOON LAY",
-                    topFont: "ArialBold-8:2",
-                    bottom: "INT / MRT",
-                    bottomFont: "ArialBold-8:2",
-        
-                    serviceNumber: "243W"
-                    },
+
                     "JURONG WEST ST 61",
                     "JURONG WEST AVE 5",
                     "JURONG WEST ST 82",
@@ -925,15 +821,7 @@ EDSData.SMRT = {
                 destination: "BOON LAY via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
-                    renderType: "destScroll",
-                    top: "BOON LAY",
-                    topFont: "ArialBold-8:2",
-                    bottom: "INT / MRT",
-                    bottomFont: "ArialBold-8:2",
-        
-                    serviceNumber: "246"
-                    },
+
                     "BOON LAY PLACE, DR",
                     "CHIN BEE DR",
                     "QUALITY RD",
@@ -959,15 +847,7 @@ EDSData.SMRT = {
                 destination: "BOON LAY via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
-                    renderType: "destScroll",
-                    top: "BOON LAY",
-                    topFont: "ArialBold-8:2",
-                    bottom: "INT / MRT",
-                    bottomFont: "ArialBold-8:2",
-        
-                    serviceNumber: "249"
-                    },
+
                     "JLN BOON LAY",
                     "JURONG PIER RD",
                     "JLN BUROH",
@@ -1020,15 +900,7 @@ EDSData.SMRT = {
                 destination: "BOON LAY via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
-                    renderType: "destScroll",
-                    top: "BOON LAY",
-                    topFont: "ArialBold-8:2",
-                    bottom: "INT / MRT",
-                    bottomFont: "ArialBold-8:2",
-        
-                    serviceNumber: "251"
-                    },
+
                     "BOON LAY WAY",
                     "PIONEER RD NTH",
                     "PIONEER RD",
@@ -1052,15 +924,7 @@ EDSData.SMRT = {
                 destination: "BOON LAY via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
-                    renderType: "destScroll",
-                    top: "BOON LAY",
-                    topFont: "ArialBold-8:2",
-                    bottom: "INT / MRT",
-                    bottomFont: "ArialBold-8:2",
-        
-                    serviceNumber: "252"
-                    },
+
                     "JOO KOON CIRCLE",
                     "JOO KOON RD",
                     "ENTERPRISE RD",
@@ -1084,15 +948,7 @@ EDSData.SMRT = {
                 destination: "BOON LAY via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
-                    renderType: "destScroll",
-                    top: "BOON LAY",
-                    topFont: "ArialBold-8:2",
-                    bottom: "INT / MRT",
-                    bottomFont: "ArialBold-8:2",
-        
-                    serviceNumber: "405"
-                    },
+
                     "JALAN BOON LAY",
                     "JALAN BAHAR",
                     "OLD C.C.K. RD"
@@ -1104,6 +960,30 @@ EDSData.SMRT = {
                 serviceNumber: "405",
                 font: "LECIP-SMRTRear14:9",
                 spacing: 2
+            }
+        }
+    },
+    4059: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "405M",
+                serviceFont: "Calibri-15",
+                destination: "BOON LAY via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+
+                    "JALAN BOON LAY",
+                    "JALAN BAHAR",
+                    "OLD C.C.K. RD"
+                ],
+                scrollFont: "Calibri-7:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "405M",
+                font: "Arial-10",
+                spacing: 1
             }
         }
     },
