@@ -3,7 +3,8 @@ EDSFormats.SMRT = {
         serviceNumber: {
             align: "right",
             margin: {
-                right: 1
+                right: 1,
+                top: 1
             },
             text: "$serviceNumber",
             font: {
@@ -44,6 +45,7 @@ EDSFormats.SMRT = {
             align: "right",
             margin: {
                 right: 1,
+                top: 1
             },
             text: "$serviceNumber",
             font: "Arial-17",
@@ -587,6 +589,35 @@ EDSData.SMRT = {
             }
         }
     },
+    1941: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "194",
+                destination: "BOON LAY via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll",
+                    top: "BOON LAY",
+                    topFont: "ArialBold-8:2",
+                    bottom: "INT / MRT",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "194"
+                    },
+                    "AHMAD IBRAHIM (LOOP)"
+                ],
+                scrollFont: "Calibri-7:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "194",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
     1991: {
         1: {
             front: {
@@ -676,7 +707,7 @@ EDSData.SMRT = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "240A",
-                font: "ArialBold-8:2",
+                font: "Arial-10",
                 spacing: 1
             }
         }
@@ -722,8 +753,8 @@ EDSData.SMRT = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "240M",
-                font: "ArialBold-8:2",
-                spacing: 2
+                font: "Arial-10",
+                spacing: 1
             }
         }
     },
@@ -782,7 +813,7 @@ EDSData.SMRT = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "241A",
-                font: "ArialBold-8:2",
+                font: "Arial-10",
                 spacing: 2
             }
         }
@@ -847,8 +878,8 @@ EDSData.SMRT = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "243G",
-                font: "ArialBold-8:2",
-                spacing: 2
+                font: "Arial-10",
+                spacing: 1
             }
         }
     },
@@ -976,7 +1007,7 @@ EDSData.SMRT = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "249A",
-                font: "ArialBold-8:2",
+                font: "Arial-10",
                 spacing: 2
             }
         }
@@ -1116,31 +1147,58 @@ EDSData.SMRT = {
             }
         }
     },
+    9501: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "950",
+                destination: "S'PORE ⇔ JB",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+
+                    "JB SENTRAL TER",
+                    "WDL TEMP INT"
+                ],
+                scrollFont: "Arial-8"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "950",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
     9990: {
         1: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "",
-                destination: {
-                    text: "243W",
-                    font: "Calibri-15"
-                },
+                serviceNumber: "985",
+                destination: "GEYLANG LOR 1",
+                destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    ""
+                    {
+                    renderType: "destScroll",
+                    top: "HARBOURFRONT",
+                    topFont: "Arial-10",
+        
+                    serviceNumber: "188"
+                    },
+                    {
+                        renderType: "destScroll",
+                        top: "GEYLANG LOR 1",
+                        topFont: "Arial-10",
+            
+                        serviceNumber: "985"
+                        },
                 ],
-                scrollFont: 'Calibri-15'
+                scrollFont: "ArialBold-8:2"
             },
             rear: {
-                renderType: "standardService",
-                serviceNumber: "",
-                destination: {
-                    text: "",
-                    font: "Hanover-7:3"
-                },
-                scrolls: [
-                    ""
-                ],
-                scrollFont: "Hanover-7:3"
+                renderType: "rearService",
+                serviceNumber: "985",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
             }
         }
     },
