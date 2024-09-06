@@ -4,7 +4,7 @@ EDSFormats.SMRT = {
             align: "right",
             margin: {
                 right: 1,
-                top: 1
+                top: 2
             },
             text: "$serviceNumber",
             font: {
