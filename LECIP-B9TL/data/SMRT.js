@@ -512,32 +512,7 @@ EDSData.SMRT = {
             }
         }
     },
-    1931: { // Done
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "193",
-                destination: "BOON LAY via",
-                destinationFont: "ArialBold-8:2",
-                scrolls: [
-
-                    "TUAS WEST DR",
-                    "TUAS AVE 9, 4, 2, 5",
-                    "SIXTH LOK YANG RD",
-                    "LOK YANG WAY",
-                    "PIONEER RD NTH"
-                ],
-                scrollFont: "ArialBold-8:2"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "193",
-                font: "LECIP-SMRTRear14:9",
-                spacing: 2
-            }
-        }
-    },
-    1932: { // Done / Bomb
+    1931: { // Done / Bomb
         1: {
             front: {
                 renderType: "standardService",
@@ -563,6 +538,32 @@ EDSData.SMRT = {
             }
         }
     },
+    1932: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "193",
+                destination: "BOON LAY via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+
+                    "TUAS WEST DR",
+                    "TUAS AVE 9, 4, 2, 5",
+                    "SIXTH LOK YANG RD",
+                    "LOK YANG WAY",
+                    "PIONEER RD NTH"
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "193",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+
     1941: { // Done
         1: {
             front: {
@@ -829,9 +830,9 @@ EDSData.SMRT = {
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "243W",
-                font: "ArialBold-8:2",
-                spacing: 2
+                serviceNumber: "243w",
+                font: "Arial-10",
+                spacing: 1
             }
         }
     },
@@ -843,13 +844,12 @@ EDSData.SMRT = {
                 destination: "BOON LAY via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-
-                    "BOON LAY PLACE, DR",
                     "CHIN BEE DR",
                     "QUALITY RD",
                     "JLN TUKANG",
                     "CORPORATION DR",
-                    "TAH CHING RD"
+                    "TAH CHING RD", 
+                    "BOON LAY PLACE, DR",
                 ],
                 scrollFont: "ArialBold-8:2"
             },
