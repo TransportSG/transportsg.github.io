@@ -45,7 +45,7 @@ EDSFormats.SMRT = {
             align: "right",
             margin: {
                 right: 1,
-                top: 1
+                top: 2
             },
             text: "$serviceNumber",
             font: "Arial-17",
@@ -151,7 +151,7 @@ EDSFormats.SMRT = {
             align: "right",
             margin: {
                 right: 1,
-                top: 1,
+                top: 2,
             },
             text: "$serviceNumber",
             font: "Calibri-15",
@@ -347,8 +347,8 @@ EDSData.SMRT = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "179A",
-                font: "ArialBold-8:2",
-                spacing: 2
+                font: "Arial-10",
+                spacing: 1
             }
         }
     },
@@ -372,6 +372,28 @@ EDSData.SMRT = {
                 renderType: "rearService",
                 serviceNumber: "181",
                 font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    1812: { // 
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "181M",
+                serviceFont: "Calibri-15",
+                destination: "BOON LAY via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+
+                    "JURONG WEST"
+                ],
+                scrollFont: "Calibri-7:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "181M",
+                font: "Arial-10",
                 spacing: 2
             }
         }
@@ -621,7 +643,7 @@ EDSData.SMRT = {
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
                     {
-                    renderType: "destScroll2",
+                    renderType: "destScroll2A",
                     top: "ENDS AT",
                     topFont: "ArialBold-8:2",
                     bottom: "LAKESIDE MRT",
@@ -649,7 +671,7 @@ EDSData.SMRT = {
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
                     {
-                    renderType: "destScroll2",
+                    renderType: "destScroll2A",
                     top: "LAKESIDE MRT via",
                     topFont: "ArialBold-8:2",
                     bottom: "BOON LAY DR",
@@ -658,7 +680,7 @@ EDSData.SMRT = {
                     serviceNumber: "240M"
                 },
                 {
-                    renderType: "destScroll2",
+                    renderType: "destScroll2A",
                     top: "LAKESIDE MRT via",
                     topFont: "ArialBold-8:2",
                     bottom: "BOON LAY PLACE",
@@ -667,7 +689,7 @@ EDSData.SMRT = {
                     serviceNumber: "240M"
                 },
                 {
-                    renderType: "destScroll2",
+                    renderType: "destScroll2A",
                     top: "LAKESIDE MRT via",
                     topFont: "ArialBold-8:2",
                     bottom: "JUR WEST ST 64",
@@ -873,7 +895,7 @@ EDSData.SMRT = {
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
                     {
-                    renderType: "destScroll2",
+                    renderType: "destScroll2A",
                     top: "ENDS AT",
                     topFont: "ArialBold-8:2",
                     bottom: "JURONG SHIPYARD",
@@ -888,7 +910,7 @@ EDSData.SMRT = {
                 renderType: "rearService",
                 serviceNumber: "249A",
                 font: "Arial-10",
-                spacing: 2
+                spacing: 1
             }
         }
     },
@@ -1024,6 +1046,34 @@ EDSData.SMRT = {
                     },
                 ],
                 scrollFont: "ArialBold-8:2"
+            }
+        }
+    },
+    9021: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "902",
+                destination: "REPUBLIC POLY",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll",
+                    top: "REPUBLIC",
+                    topFont: "ArialBold-8:2",
+                    bottom: "POLYTECHNIC",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "902"
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "902",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
             }
         }
     },
