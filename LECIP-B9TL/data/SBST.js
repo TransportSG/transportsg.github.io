@@ -12907,13 +12907,13 @@ EDSData.SBST = {
                     "GUL RD"
                 ],
                 scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "257",
+                font: "LECIP-20:9",
+                spacing: 2
             }
-        },
-        rear: {
-            renderType: "rearService",
-            serviceNumber: "257",
-            font: "LECIP-20:12",
-            spacing: 2
         }
     },
     258: {
