@@ -249,21 +249,6 @@ EDSData.Sentosa = {
             text: "Sentosa Logo"
             }
         },
-    9000: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "WIP",
-            destination: {
-                text: "SENTOSA",
-                font: "Mobitec-7:7"
-            },
-            scrolls: [
-                'Fonts and data are still WIP',
-                'Thanks for your patience'
-            ],
-            scrollFont: "Mobitec-6:5"
-        }
-    },
     },
 EDSExtras.Sentosa = {}
 
