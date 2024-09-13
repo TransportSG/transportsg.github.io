@@ -312,25 +312,25 @@ EDSData['SMRT-old'] = {
             }
         }
     },
-    // 7: {
-    //     1: {
-    //         front: {
-    //             renderType: "message",
-    //             text: "OUT OF SERVICE",
-    //             font: "Arial-12",
-    //             spacing: 2
-    //         },
-    //         rear: {
-    //             renderType: 'twoline',
-    //             top: "OUT OF",
-    //             topFont: "ArialNarrow-7",
+    7: {
+         1: {
+             front: {
+                 renderType: "message",
+                 text: "OUT OF SERVICE",
+                 font: "Arial-12",
+                 spacing: 2
+             },
+             rear: {
+                 renderType: 'twoline',
+                 top: "OUT OF",
+                 topFont: "ArialNarrow-7",
 
-    //             bottom: "SERVICE",
-    //             bottomFont: "ArialNarrow-7",
-    //             bottomMargin: 2
-    //         },
-    //     }
-    // },
+                 bottom: "SERVICE",
+                 bottomFont: "ArialNarrow-7",
+                 bottomMargin: 2
+             },
+         }
+    },
     // 8: {
     //     1: {
     //         front: {

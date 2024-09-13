@@ -315,7 +315,7 @@ EDSData.SMRT = {
                 renderType: "rearService",
                 serviceNumber: "SMRT",
                 font: "ArialBold-8",
-                spacing: 2
+                spacing: 1
             },
         }
     },
