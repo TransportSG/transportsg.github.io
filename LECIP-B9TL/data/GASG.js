@@ -2543,6 +2543,13 @@ EDSData.GASG = {
                     bottom: "PUNGGOL COAST STN",
                     bottomFont: "Lecip-GoAhead8:6:2",
                 },
+                {
+                    renderType: "destScroll",
+                    top: "via SIT Punggol ",
+                    topFont: "Hanover-GoAhead14:7",
+        
+                    serviceNumber: "84A"
+                },
                 ],
                 scrollFont: "Lecip-GoAhead8:6:2"
             },
