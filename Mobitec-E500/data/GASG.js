@@ -1532,6 +1532,27 @@ EDSData.GASG = {
             scrollFont: "Mobitec-7:4"
         }
     },
+    1184: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "118B",
+            destination: {
+                text: "TPE (PUNGGOL RD)",
+                font: "Mobitec-7:5:1"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "118B",
+                    top: "TERMINATING AT",
+                    bottom: "TPE (BEF PUNGGOL RD)"
+                },
+                "TAMPINES WEST MRT",
+                "TAMPINES AVE 1 / 8 / 10",
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
     1191: {
         front: {
             renderType: "standardService",
