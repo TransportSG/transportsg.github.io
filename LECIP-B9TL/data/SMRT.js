@@ -40,6 +40,26 @@ EDSFormats.SMRT = {
 
         text: "$destination"
     },
+    logoSvc: {
+        logo: {
+            align: "left",
+            image: "$image",
+            margin: {
+                bottom: "-3"
+            },
+        },
+        serviceNumber: {
+            align: "right",
+            text: "$serviceNumber",
+            font: "$serviceFont",
+            spacing: "$serviceSpacing",
+            margin: {
+                top: 2
+            },
+        },
+
+        text: "$destination"
+    },
     destScroll: {
         serviceNumber: {
             align: "right",
@@ -193,6 +213,59 @@ EDSFormats.SMRT = {
             spacing: 1,
             margin: {
                 right: 'width(serviceNumber)',
+            }
+        },
+
+        text: "$top+' '+$bottom+' '+$serviceNumber"
+    },
+    destScroll2B: {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 1,
+                top: 2,
+            },
+            text: "$serviceNumber",
+            font: "Calibri-15",
+            spacing: {
+                $$cond: {
+                    "$spacing === null" : 1,
+                    "else": "$spacing"
+                }
+            }
+        },
+        top: {
+            align: {
+                $$cond: {
+                    "$bottom === null": "centre-x,centre-y",
+                    "else": "centre-x,top"
+                }
+            },
+            text: "$top",
+            font: "$topFont",
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber)'
+            }
+        },
+        bottom: {
+            align: "centre-x,bottom",
+            text: {
+                $$cond: {
+                    "$bottom !== null": "$bottom",
+                    "else": "''"
+                }
+            },
+            font: {
+                $$cond: {
+                    "$bottomFont !== null": "$bottomFont",
+                    "else": "ArialBold-8:2"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber)',
+                bottom: "1"
             }
         },
 
@@ -534,21 +607,21 @@ EDSData.SMRT = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "182M",
-                destination: "TUAS STH AVE 3",
+                destination: "TUAS STH AVE 4",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
                     {
-                    renderType: "destScroll",
-                    top: "TUAS STH AVE 3 via",
+                    renderType: "destScroll2B",
+                    top: "TUAS STH AVE 4 via",
                     topFont: "ArialBold-8:2",
                     bottom: "UPP JURONG RD",
-                    bottomFont: "Calibri-8:2",
+                    bottomFont: "ArialBold-8:2",
         
                     serviceNumber: "182M"
                     },
                     {
-                    renderType: "destScroll2A",
-                    top: "TUAS STH AVE 3 via",
+                    renderType: "destScroll2B",
+                    top: "TUAS STH AVE 4 via",
                     topFont: "ArialBold-8:2",
                     bottom: "JLN AHMAD IBRAHIM",
                     bottomFont: "Calibri-7:2",
@@ -556,34 +629,98 @@ EDSData.SMRT = {
                     serviceNumber: "182M"
                     },
                     {
-                    renderType: "destScroll",
-                    top: "TUAS STH AVE 3 via",
+                    renderType: "destScroll2B",
+                    top: "TUAS STH AVE 4 via",
                     topFont: "ArialBold-8:2",
                     bottom: "TUAS WEST DR",
-                    bottomFont: "Calibri-8:2",
+                    bottomFont: "ArialBold-8:2",
             
                     serviceNumber: "182M"
                     },
                     {
-                    renderType: "destScroll2A",
-                    top: "TUAS STH AVE 3 via",
+                    renderType: "destScroll2B",
+                    top: "TUAS STH AVE 4 via",
                     topFont: "ArialBold-8:2",
-                    bottom: "TUAS STH AVE 8, 9",
-                    bottomFont: "Calibri-7:2",
+                    bottom: "TUAS STH AVE 3, 9",
+                    bottomFont: "ArialBold-8:2",
                 
                     serviceNumber: "182M"
                     },
                     {
-                    renderType: "destScroll2A",
-                    top: "TUAS STH AVE 3 via",
+                    renderType: "destScroll2B",
+                    top: "TUAS STH AVE 4 via",
                     topFont: "ArialBold-8:2",
-                    bottom: "TUAS STH AVE 3, 5",
+                    bottom: "TUAS STH AVE 8, 5",
                     bottomFont: "Calibri-7:2",
                 
                     serviceNumber: "182M"
                     },
                 ],
-                scrollFont: "ArialBold-7:2"
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "182M",
+                font: "Arial-10",
+                spacing: 1
+            }
+        }
+    },
+    1824: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "182M",
+                destination: "JOO KOON",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll2B",
+                    top: "JOO KOON INT via",
+                    topFont: "ArialBold-8:2",
+                    bottom: "TUAS STH AVE 3",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "182M"
+                    },
+                    {
+                    renderType: "destScroll2B",
+                    top: "JOO KOON INT via",
+                    topFont: "ArialBold-8:2",
+                    bottom: "TUAS WEST DR",
+                    bottomFont: "ArialBold-8:2",
+            
+                    serviceNumber: "182M"
+                    },
+                    {
+                    renderType: "destScroll2B",
+                    top: "JOO KOON INT via",
+                    topFont: "ArialBold-8:2",
+                    bottom: "TUAS CHECKPOINT",
+                    bottomFont: "ArialBold-8:2",
+            
+                    serviceNumber: "182M"
+                    },
+                    {
+                    renderType: "destScroll2B",
+                    top: "JOO KOON INT via",
+                    topFont: "ArialBold-8:2",
+                    bottom: "JLN AHMAD IBRAHIM",
+                    bottomFont: "Calibri-7:2",
+                
+                    serviceNumber: "182M"
+                    },
+                    {
+                    renderType: "destScroll2B",
+                    top: "JOO KOON INT via",
+                    topFont: "ArialBold-8:2",
+                    bottom: "UPP JURONG RD",
+                    bottomFont: "ArialBold-8:2",
+                
+                    serviceNumber: "182M"
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
             },
             rear: {
                 renderType: "rearService",
@@ -1252,25 +1389,25 @@ EDSData.SMRT = {
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
                     {
-                    renderType: "destScroll",
+                    renderType: "destScroll2B",
                     top: "TUAS TER via",
                     topFont: "ArialBold-8:2",
                     bottom: "TUAS AVE 20",
-                    bottomFont: "Calibri-8:2",
+                    bottomFont: "ArialBold-8:2",
         
                     serviceNumber: "248M"
                     },
                     {
-                    renderType: "destScroll2A",
+                    renderType: "destScroll2B",
                     top: "TUAS TER via",
                     topFont: "ArialBold-8:2",
                     bottom: "TUAS CRESCENT",
-                    bottomFont: "Calibri-8:2",
+                    bottomFont: "ArialBold-8:2",
             
                     serviceNumber: "248M"
                     },
                     {
-                    renderType: "destScroll",
+                    renderType: "destScroll2B",
                     top: "TUAS TER via",
                     topFont: "ArialBold-8:2",
                     bottom: "TUAS STH AVE 5, 12",
@@ -1279,25 +1416,25 @@ EDSData.SMRT = {
                     serviceNumber: "248M"
                     },
                     {
-                    renderType: "destScroll2A",
+                    renderType: "destScroll2B",
                     top: "TUAS TER via",
                     topFont: "ArialBold-8:2",
                     bottom: "TUAS STH WAY",
-                    bottomFont: "Calibri-8:2",
+                    bottomFont: "ArialBold-8:2",
                 
                     serviceNumber: "248M"
                     },
                     {
-                    renderType: "destScroll2A",
+                    renderType: "destScroll2B",
                     top: "TUAS TER via",
                     topFont: "ArialBold-8:2",
-                    bottom: "TUAS STH AVE 14, 9, 10",
+                    bottom: "TUAS STH AVE 14,9,10",
                     bottomFont: "Calibri-7:2",
                 
                     serviceNumber: "248M"
                     },
                 ],
-                scrollFont: "ArialBold-7:2"
+                scrollFont: "ArialBold-8:2"
             },
             rear: {
                 renderType: "rearService",
@@ -1574,23 +1711,15 @@ EDSData.SMRT = {
             }
         }
     },
-    5021: { // Done
+    5021: {
         1: {
             front: {
-                renderType: "standardService",
+                renderType: "logoSvc",
                 serviceNumber: "502",
-                destination: "EXPRESS",
-                destinationFont: "ArialBold-8:2",
-                scrolls: [
-                    {
-                    renderType: "destScroll",
-                    top: "EXPRESS",
-                    topFont: "Arial-10",
-        
-                    serviceNumber: "502"
-                    },
-                ],
-                scrollFont: "ArialBold-8:2"
+                serviceSpacing: "2",
+                serviceFont: "Arial-17",
+                image: "express",
+                destination: "EXPRESS 502"
             },
             rear: {
                 renderType: "rearService",
@@ -1603,26 +1732,18 @@ EDSData.SMRT = {
     5022: { // Done
         1: {
             front: {
-                renderType: "standardService",
+                renderType: "logoSvc",
                 serviceNumber: "502A",
-                destination: "EXPRESS",
-                destinationFont: "ArialBold-8:2",
-                scrolls: [
-                    {
-                    renderType: "destScroll",
-                    top: "EXPRESS",
-                    topFont: "Arial-10",
-        
-                    serviceNumber: "502A"
-                    },
-                ],
-                scrollFont: "ArialBold-8:2"
+                serviceSpacing: "2",
+                serviceFont: "Arial-17",
+                image: "express",
+                destination: "EXPRESS 502"
             },
             rear: {
                 renderType: "rearService",
                 serviceNumber: "502A",
                 font: "Arial-10",
-                spacing: 2
+                spacing: 1
             }
         }
     },
@@ -2026,5 +2147,21 @@ EDSImages.SMRT = {
         [0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
         [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0],
         [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-    ]
+    ],
+    express: [
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0],
+        [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1],
+        [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0],
+        [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1],
+        [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1],
+        [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0],
+    ],
 }
