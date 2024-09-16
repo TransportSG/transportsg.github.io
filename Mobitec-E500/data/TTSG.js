@@ -6431,10 +6431,10 @@ EDSData.TTSG = {
             destination: "KHATIB MRT",
             scrolls: [
                 "CANBERRA ST",
-                "CANBERRA WAY",
                 "CANBERRA MRT",
+                "YISHUN AVE 7",
                 "YISHUN AVE 6",
-                "YISHUN AVE 1",
+                "YISHUN RING RD",
                 {
                     renderType: "destScroll",
                     serviceNumber: "861",
@@ -6468,10 +6468,10 @@ EDSData.TTSG = {
             serviceNumber: "861",
             destination: "SEMBAWANG",
             scrolls: [
-                "YISHUN AVE 1",
+                "YISHUN RING RD",          
                 "YISHUN AVE 6",
+                "YISHUN AVE 7",
                 "CANBERRA MRT",
-                "CANBERRA WAY",
                 "CANBERRA ST",
                 {
                     renderType: "destScroll",
