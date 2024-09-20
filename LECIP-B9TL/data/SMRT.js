@@ -42,7 +42,7 @@ EDSFormats.SMRT = {
     },
     logoSvc: {
         logo: {
-            align: "left",
+            align: "centre-y,centre-x",
             image: "$image",
             margin: {
                 bottom: "-3"
@@ -390,6 +390,44 @@ EDSData.SMRT = {
                 font: "ArialBold-8",
                 spacing: 1
             },
+        }
+    },
+    172: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "Moving WITH you",
+                destinationFont: "ArialBold-8:3",
+                scrolls: [
+                    {
+                    renderType: "destScroll2",
+                    top: "Moving WITH you - 13 June",
+                    topFont: "ArialBold-8:3",
+        
+                    serviceNumber: ""
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "WELCOME",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll",
+                    top: "",
+                    topFont: "Hanover-7:3",
+                    bottom: "",
+                    bottomFont: "Hanover-7:3",
+        
+                    serviceNumber: ""
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            }
         }
     },
     1791: { // Done
@@ -1711,15 +1749,23 @@ EDSData.SMRT = {
             }
         }
     },
-    5021: {
+    5021: { // Done
         1: {
             front: {
-                renderType: "logoSvc",
+                renderType: "standardService",
                 serviceNumber: "502",
-                serviceSpacing: "2",
-                serviceFont: "Arial-17",
-                image: "express",
-                destination: "EXPRESS 502"
+                destination: "EXPRESS 502",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                        renderType: "destScroll",
+                        top: "!",
+                        topFont: "Lecip-SMRTB9Speial",
+            
+                        serviceNumber: "502"
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
             },
             rear: {
                 renderType: "rearService",
@@ -1732,12 +1778,20 @@ EDSData.SMRT = {
     5022: { // Done
         1: {
             front: {
-                renderType: "logoSvc",
-                serviceNumber: "502A",
-                serviceSpacing: "2",
-                serviceFont: "Arial-17",
-                image: "express",
-                destination: "EXPRESS 502"
+                renderType: "standardService",
+                serviceNumber: "502",
+                destination: "EXPRESS 502A",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                        renderType: "destScroll",
+                        top: "!",
+                        topFont: "Lecip-SMRTB9Speial",
+            
+                        serviceNumber: "502A"
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
             },
             rear: {
                 renderType: "rearService",
