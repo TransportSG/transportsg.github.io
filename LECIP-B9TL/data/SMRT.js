@@ -1801,6 +1801,32 @@ EDSData.SMRT = {
             }
         }
     },
+    6651: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "665",
+                destination: "SHENTON WAY via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    'MARSILING LANE',
+                    "WDL AVE 5, 4",
+                    "WDL AVE 1",
+                    "ORCHARD RD",
+                    "BRAS BASAH RD",
+                    "RAFFLES QUAY"
+
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "665",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
     9000: { // Done
         1: {
             front: {
@@ -1950,6 +1976,126 @@ EDSData.SMRT = {
                 serviceNumber: "960",
                 font: "LECIP-SMRTRear14:9",
                 spacing: 2
+            }
+        }
+    },
+    9611: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "961",
+                destination: "LOR 1 GEYLANG via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll",
+                    top: "GEYLANG LOR 1 / ",
+                    topFont: "ArialBold-8:2",
+                    bottom: "KALLANG MRT",
+                    bottomFont: "ArialBold-8:2",
+            
+                    serviceNumber: "961"
+                    },
+                    "WDL AVE 3",
+                    "UPP BT TIMAH RD",
+                    "JLN BT MERAH",
+                    "CHINATOWN",
+                    "BEACH RD",
+                    'KALLANG BAHRU',
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "961",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    9612: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "961",
+                destination: "WDL TEMP INT via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    'KALLANG BAHRU',
+                    "BEACH RD",
+                    "CHINATOWN",
+                    "JLN BT MERAH",
+                    "UPP BT TIMAH RD",
+                    "WDL AVE 3"
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "961",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    9613: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "961M",
+                destination: "LOR 1 GEYLANG via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll",
+                    top: "GEYLANG LOR 1 / ",
+                    topFont: "ArialBold-8:2",
+                    bottom: "KALLANG MRT",
+                    bottomFont: "ArialBold-8:2",
+            
+                    serviceNumber: "961M"
+                    },
+                    "WDL AVE 3",
+                    "UPP BT TIMAH RD",
+                    "JLN BT MERAH",
+                    "CHINATOWN",
+                    "MARINA CENTRE",
+                    "BEACH RD",
+                    'KALLANG BAHRU',
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "961M",
+                font: "Arial-10",
+                spacing: 1
+            }
+        }
+    },
+    9614: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "961M",
+                destination: "WDL TEMP INT via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    'KALLANG BAHRU',
+                    "BEACH RD",
+                    "MARINA CENTRE",
+                    "CHINATOWN",
+                    "JLN BT MERAH",
+                    "UPP BT TIMAH RD",
+                    "WDL AVE 3"                
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "961M",
+                font: "Arial-10",
+                spacing: 1
             }
         }
     },

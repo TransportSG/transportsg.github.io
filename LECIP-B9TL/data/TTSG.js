@@ -2362,7 +2362,7 @@ EDSData.TTSG = {
                     top: "SKIP",
                     topFont: "Hanover-Tower11:7",
     
-                    bottom: "BRAS BASAH RD",
+                    bottom: "MARINA CENTRE / SUNTEC",
                     bottomFont: "Hanover-Tower7:5"
                 },
                 {
@@ -2371,7 +2371,7 @@ EDSData.TTSG = {
                     top: "SKIP",
                     topFont: "Hanover-Tower11:7",
     
-                    bottom: "SUNTEC / MBS",
+                    bottom: "MARINA BAY / BAYFRONT",
                     bottomFont: "Hanover-Tower7:5"
                 },           
                 {

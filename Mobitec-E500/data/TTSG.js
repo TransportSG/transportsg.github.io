@@ -2117,6 +2117,14 @@ EDSData.TTSG = {
                     bottom: "Marina Centre / Suntec",
                     bottomFont: "Mobitec-Tower6:4",
                 },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "106",
+                    top: "Skip",
+                    topFont: "Mobitec-7:5:3",
+                    bottom: "Marina Bay / Bayfront",
+                    bottomFont: "Mobitec-Tower6:4",
+                },
                 "C'WEALTH AVE WEST",
                 "HOLLAND VILLAGE / RD",
                 "ORCHARD RD",
@@ -6047,7 +6055,6 @@ EDSData.TTSG = {
                 "BENDEMEER RD",
                 "LITTLE INDIA",
                 "BENCOOLEN ST",
-                "BRAS BASAH RD",
                 {
                     renderType: "destScroll",
                     serviceNumber: "857",
