@@ -499,6 +499,119 @@ EDSData.SMRT = {
             }
         }
     },  
+    1821: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "182",
+                destination: {
+                    text: "TUAS STH AVE 4 via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "UPP JURONG RD",
+                    "JLN AHMAD IBRAHIM",
+                    "TUAS CHECKPOINT",
+                    "TUAS WEST DR",
+                    "TUAS STH AVE 3, 9",
+                    "TUAS STH AVE 8, 5"
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "182",
+                destination: "TUAS STH AVE 4",
+                scrolls: [
+                    "JOO KOON INT"
+                ]
+            }
+        },
+    },    
+    1822: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "182",
+                destination: {
+                    text: "JOO KOON INT via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "TUAS STH AVE 3",
+                    "TUAS WEST DR",
+                    "TUAS CHECKPOINT",
+                    "JLN AHMAD IBRAHIM",
+                    "UPP JURONG RD"
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "182",
+                destination: "JOO KOON INT",
+                scrolls: [
+                    "JOO KOON INT"
+                ]
+            }
+        },
+    },   
+    1823: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "182M",
+                destination: {
+                    text: "TUAS STH AVE 4 via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "UPP JURONG RD",
+                    "JLN AHMAD IBRAHIM",
+                    "TUAS WEST DR",
+                    "TUAS STH AVE 3, 9",
+                    "TUAS STH AVE 8, 5"
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "182",
+                destination: "TUAS STH AVE 4",
+                scrolls: [
+                    "JOO KOON INT"
+                ]
+            }
+        },
+    },
+    1824: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "182M",
+                destination: {
+                    text: "JOO KOON INT via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "TUAS STH AVE 3",
+                    "TUAS WEST DR",
+                    "TUAS CHECKPOINT",
+                    "JLN AHMAD IBRAHIM",
+                    "UPP JURONG RD"
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "182M",
+                destination: "JOO KOON INT",
+                scrolls: [
+                    "JOO KOON INT"
+                ]
+            }
+        },
+    },       
     1841: {
         1: {
             front: {
@@ -567,7 +680,168 @@ EDSData.SMRT = {
                 ]
             }
         },
-    },        
+    },   
+    2531: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "253",
+                destination: {
+                    text: "JOO KOON INT via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "BENOI RD",
+                    "BENOI SECTOR",
+                    "PIONEER RD",
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "253",
+                destination: "JOO KOON INT",
+                scrolls: [
+                    "JOO KOON INT"
+                ]
+            }
+        },
+    },      
+    2541: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "254",
+                destination: {
+                    text: "JOO KOON INT via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "PIONEER RD",
+                    "TUAS RD",
+                    "TUAS AVE 20, 11",
+                    "TUAS BASIN LK",
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "254",
+                destination: "JOO KOON INT",
+                scrolls: [
+                    "JOO KOON INT"
+                ]
+            }
+        },
+    },   
+    2551: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "255",
+                destination: {
+                    text: "JOO KOON INT via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "GUL CIRCLE",
+                    "GUL CRES",
+                    "GUL AVE, WAY",
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "255",
+                destination: "JOO KOON INT",
+                scrolls: [
+                    "JOO KOON INT"
+                ]
+            }
+        },
+    },       
+    2571: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "257",
+                destination: {
+                    text: "JOO KOON INT via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "BENOI RD",
+                    "PIONEER RD",
+                    "GUL RD",
+                    "PIONEER SECTOR LN",
+                    "PIONEER SECTOR 3",
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "257",
+                destination: "JOO KOON INT",
+                scrolls: [
+                    "JOO KOON INT"
+                ]
+            }
+        },
+    },    
+    2581: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "258",
+                destination: {
+                    text: "JOO KOON INT via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "JLN AHMAD IBRAHIM",
+                    "PIONEER RD NTH",
+                    "JURONG WEST ST 63, 61",
+                    "JURONG WEST ST 71, 81",
+                    "JURONG WEST ST 64",
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "258",
+                destination: "JOO KOON INT",
+                scrolls: [
+                    "JOO KOON INT"
+                ]
+            }
+        },
+    },   
+    4051: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "405",
+                destination: {
+                    text: "BOON LAY via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "JALAN BOON LAY",
+                    "JALAN BAHAR",
+                    "OLD C.C.K. RD"
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "405",
+                destination: "BOON LAY INT",
+                scrolls: [
+                    "BOON LAY INT"
+                ]
+            }
+        },
+    },   
     6701: {
         1: {
             front: {
@@ -854,6 +1128,35 @@ EDSData.SMRT = {
             }
         }
     },
+    6651: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "665",
+                destination: {
+                    text: "SHENTON WAY via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    'MARSILING LANE',
+                    "WDL AVE 5, 4",
+                    "WDL AVE 1",
+                    "ORCHARD RD",
+                    "BRAS BASAH RD",
+                    "RAFFLES QUAY"
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "665",
+                destination: "SHENTON WAY",
+                scrolls: [
+                    "DHOBY GHAUT STN"
+                ]
+            }
+        },
+    },   
     9201: {
         1: {
             front: {
@@ -1137,6 +1440,66 @@ EDSData.SMRT = {
             }
         },
     },       
+    9741: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "974",
+                destination: {
+                    text: "BT PANJANG via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "UPP JURONG RD",
+                    "JURONG WEST ST 63, 64",
+                    "JLN BOON LAY",
+                    "JLN BAHAR",
+                    "PIE, KJE",
+                    "C. C. K DR, MRT",
+                    "C. C. K WAY"
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "974",
+                destination: "UPP BT TIMAH RD",
+                scrolls: [
+                    "JOO KOON INT"
+                ]
+            }
+        },
+    },  
+    9742: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "974",
+                destination: {
+                    text: "JOO KOON INT via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "C. C. K WAY",
+                    "C. C. K MRT, DR",
+                    "KJE, PIE",
+                    "JLN BAHAR",
+                    "JLN BOON LAY",
+                    "JURONG WEST ST 64, 63",
+                    "UPPER JURONG RD",
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "974",
+                destination: "JOO KOON INT",
+                scrolls: [
+                    "JOO KOON INT"
+                ]
+            }
+        },
+    },   
     9801: {
         1: {
             front: {
