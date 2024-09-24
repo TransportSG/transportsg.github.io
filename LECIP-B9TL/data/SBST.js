@@ -3766,6 +3766,22 @@ EDSData.SBST = {
             }
         }
     },
+    "50A": {
+        1: {
+            front: {
+                renderType: "swt",
+                serviceNumber: "50A",
+                terminateAt: "AMK AVE 8",
+                landmark: "(ANG MO KIO STN EXIT B)"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "50A",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
     "50C": {
         1: {
             front: {

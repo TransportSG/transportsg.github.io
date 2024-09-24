@@ -2078,18 +2078,74 @@ EDSData.SMRT = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "961M",
-                destination: "WDL TEMP INT via",
+                destination: "WDL TEMP INT",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    'KALLANG BAHRU',
-                    "BEACH RD",
-                    "MARINA CENTRE",
-                    "CHINATOWN",
-                    "JLN BT MERAH",
-                    "UPP BT TIMAH RD",
-                    "WDL AVE 3"                
+                    {
+                    renderType: "destScroll2",
+                    top: "WDL TEMP INT via",
+                    topFont: "ArialBold-8:2",
+                    bottom: "KALLANG BAHRU",
+                    bottomFont: "Calibri-7:2",
+                    
+                    serviceNumber: "961M"
+                    },
+                    {
+                    renderType: "destScroll2",
+                    top: "WDL TEMP INT via",
+                    topFont: "ArialBold-8:2",
+                    bottom: "BEACH RD",
+                    bottomFont: "Calibri-7:2",
+                        
+                    serviceNumber: "961M"
+                    },
+                    {
+                    renderType: "destScroll2",
+                    top: "WDL TEMP INT via",
+                    topFont: "ArialBold-8:2",
+                    bottom: "MARINA CENTRE",
+                    bottomFont: "Calibri-7:2",
+                            
+                    serviceNumber: "961M"
+                    },
+                    {
+                    renderType: "destScroll2",
+                    top: "WDL TEMP INT via",
+                    topFont: "ArialBold-8:2",
+                    bottom: "CHINATOWN",
+                    bottomFont: "Calibri-7:2",
+                                
+                    serviceNumber: "961M"
+                    },
+                    {
+                    renderType: "destScroll2",
+                    top: "WDL TEMP INT via",
+                    topFont: "ArialBold-8:2",
+                    bottom: "JLN BT MERAH",
+                    bottomFont: "Calibri-7:2",
+                                
+                    serviceNumber: "961M"
+                    },
+                    {
+                    renderType: "destScroll2",
+                    top: "WDL TEMP INT via",
+                    topFont: "ArialBold-8:2",
+                    bottom: "UPP BT TIMAH RD",
+                    bottomFont: "Calibri-7:2",
+                                
+                    serviceNumber: "961M"
+                    },
+                    {
+                    renderType: "destScroll2",
+                    top: "WDL TEMP INT via",
+                    topFont: "ArialBold-8:2",
+                    bottom: "WDL AVE 3",
+                    bottomFont: "Calibri-7:2",
+                                
+                    serviceNumber: "961M"
+                    },               
                 ],
-                scrollFont: "ArialBold-8:2"
+                scrollFont: "Calibri-7:2"
             },
             rear: {
                 renderType: "rearService",

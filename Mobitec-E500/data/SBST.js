@@ -100,7 +100,7 @@ EDSFormats.SBST = {
             font: "Mobitec-16:8",
             spacing: {
                 $$cond: {
-                    "$spacing === null" : 2,
+                    "$spacing === null" : 1,
                     "else": "$spacing"
                 }
             }
@@ -2295,6 +2295,16 @@ EDSData.SBST = {
                 "ANG MO KIO AVE 8"
             ],
             scrollFont: "Mobitec-6:5"
+        }
+    },
+    505: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "50A",
+            top: "TERMINATES BEFORE",
+            topFont: "Mobitec-7:4",
+            bottom: "ANG MO KIO STN EXIT B",
+            bottomFont: "Mobitec-7:4",
         }
     },
     510: {
