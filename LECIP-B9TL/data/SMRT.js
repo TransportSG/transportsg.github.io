@@ -2282,8 +2282,10 @@ EDSData.SMRT = {
                     },
                 'MACPHERSON RD',
                 'JLN BESAR',
+                "BENCOOLEN ST, MRT",
                 'CLEMENCEAU AVE',
                 'HAVELOCK RD, MRT',
+                "TIONG BAHRU RD",
                 'ALEXANDRA ROAD'    
                 ],
                 scrollFont: "ArialBold-8:2"
