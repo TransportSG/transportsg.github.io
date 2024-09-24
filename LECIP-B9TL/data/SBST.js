@@ -3772,7 +3772,7 @@ EDSData.SBST = {
                 renderType: "swt",
                 serviceNumber: "50A",
                 terminateAt: "AMK AVE 8",
-                landmark: "(ANG MO KIO STN EXIT B)"
+                landmark: "(BEF ANG MO KIO STN EXIT B)"
             },
             rear: {
                 renderType: "rearService",
