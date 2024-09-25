@@ -929,7 +929,7 @@ EDSData.SMRT = {
                     serviceNumber: "190"
                     },
                     'BT PANJANG RD',
-                    'STEVENS ROAD',
+                    'STEVEN ROAD',
                     'ORCHARD ROAD',
                     'HILL STREET',
                     'CHINATOWN'
@@ -961,6 +961,10 @@ EDSData.SMRT = {
         
                     serviceNumber: "190"
                     },
+                    "HILL STREET",
+                    "SOMERSET RD",
+                    "SCOTTS RD",
+                    "STEVEN RD",
                     'BT PANJANG RD',
                 ],
                 scrollFont: "ArialBold-8:2"
@@ -2208,6 +2212,44 @@ EDSData.SMRT = {
                 serviceNumber: "985",
                 font: "LECIP-SMRTRear14:9",
                 spacing: 2
+            }
+        }
+    },
+    9724: { 
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "972M",
+                serviceFont: "Calibri-15",
+                destination: "BT PANJANG INT",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll2B",
+                    top: "BT PANJANG INT via",
+                    topFont: "ArialBold-8:2",
+                    bottom: "ORCHARD TURN",
+                    bottomFont: "Calibri-7:2",
+                
+                    serviceNumber: "972M"
+                    },
+                    {
+                    renderType: "destScroll2B",
+                    top: "BT PANJANG INT via",
+                    topFont: "ArialBold-8:2",
+                    bottom: "SCOTTS RD",
+                    bottomFont: "Calibri-7:2",
+                    
+                    serviceNumber: "972M"
+                    },
+                ],
+                scrollFont: "Calibri-7"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "972M",
+                font: "Arial-10",
+                spacing: 1
             }
         }
     },
