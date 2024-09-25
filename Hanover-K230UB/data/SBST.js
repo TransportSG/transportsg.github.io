@@ -1224,17 +1224,7 @@ EDSData.SBST = {
                 destination: "> SENTOSA",
                 destinationFont: "Hanover-10",
                 scrolls: [
-                    {
-                        renderType: "holidayMessage",
-                        serviceNumber: "123",
-                        image: "fireworks",
 
-                        top: "I AM THE",
-                        topFont: "Hanover-7:5",
-
-                        bottom: "WORST SERVICE",
-                        bottomFont: "Hanover-7:5"
-                    },
                     "QUEENSWAY",
                     "HOLLAND RD",
                     "ORCHARD RD",
