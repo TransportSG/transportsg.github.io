@@ -8088,22 +8088,22 @@ EDSData.TTSG = {
         1: {
             front: {
                 renderType: "twolinefront",
-                top: "ROUTE  FAMILIARISATION",
-                topFont: "Mobitec-9:6",
+                top: "Route Familiarisation",
+                topFont: "Hanover-8:4",
                 topSpacing: 1,
 
-                bottom: "TRAINING",
-                bottomFont: "Mobitec-9:6",
+                bottom: "Training",
+                bottomFont: "Hanover-8:4",
                 bottomSpacing: 1,
             },
             rear: { 
                 renderType: "twolinerear",
-                top: "ROUTE",
-                topFont: "LECIP-6:3",
+                top: "Route",
+                topFont: "Hanover-8:3",
                 topSpacing: 1,
 
-                bottom: "FAM. TRG",
-                bottomFont: "LECIP-6:3",
+                bottom: "Fam Trg",
+                bottomFont: "Hanover-8:3",
                 bottomSpacing: 1,
             }
         }
@@ -8117,12 +8117,12 @@ EDSData.TTSG = {
                 spacing: 2
             },
             rear: {
-                renderType: 'twolinefront',
+                renderType: 'twolinerear',
                 top: "NSL",
-                topFont: "Mobitec-10:7",
+                topFont: "Hanover-8:4",
 
                 bottom: "Bridging",
-                bottomFont: "Hanover-7:3"
+                bottomFont: "Hanover-8:3"
             }
         }
     },
@@ -8135,12 +8135,12 @@ EDSData.TTSG = {
                 spacing: 2
             },
             rear: {
-                renderType: 'twolinefront',
+                renderType: 'twolinerear',
                 top: "EWL",
-                topFont: "Mobitec-10:7",
+                topFont: "Hanover-8:4",
 
                 bottom: "Bridging",
-                bottomFont: "Hanover-7:3"
+                bottomFont: "Hanover-8:3"
             }
         }
     },
@@ -8153,12 +8153,12 @@ EDSData.TTSG = {
                 spacing: 2
             },
             rear: {
-                renderType: 'twolinefront',
+                renderType: 'twolinerear',
                 top: "NEL",
-                topFont: "Mobitec-10:7",
+                topFont: "Hanover-8:4",
 
                 bottom: "Bridging",
-                bottomFont: "Hanover-7:3"
+                bottomFont: "Hanover-8:3"
             }
         }
     },
@@ -8171,12 +8171,12 @@ EDSData.TTSG = {
                 spacing: 2
             },
             rear: {
-                renderType: 'twolinefront',
+                renderType: 'twolinerear',
                 top: "CCL",
-                topFont: "Mobitec-10:7",
+                topFont: "Hanover-8:4",
 
                 bottom: "Bridging",
-                bottomFont: "Hanover-7:3"
+                bottomFont: "Hanover-8:3"
             }
         }
     },
@@ -8189,12 +8189,12 @@ EDSData.TTSG = {
                 spacing: 2
             },
             rear: {
-                renderType: 'twolinefront',
+                renderType: 'twolinerear',
                 top: "DTL",
-                topFont: "Mobitec-10:7",
+                topFont: "Hanover-8:4",
 
                 bottom: "Bridging",
-                bottomFont: "Hanover-7:3"
+                bottomFont: "Hanover-8:3"
             }
         }
     },
@@ -8207,12 +8207,12 @@ EDSData.TTSG = {
                 spacing: 2
             },
             rear: {
-                renderType: 'twolinefront',
+                renderType: 'twolinerear',
                 top: "TEL",
-                topFont: "Mobitec-10:7",
+                topFont: "Hanover-8:4",
 
                 bottom: "Bridging",
-                bottomFont: "Hanover-7:3"
+                bottomFont: "Hanover-8:3"
             }
         }
     },
@@ -8225,12 +8225,13 @@ EDSData.TTSG = {
                 spacing: 2
             },
             rear: {
-                renderType: 'twolinefront',
+                renderType: 'destScroll',
                 top: "LRT",
-                topFont: "Mobitec-10:7",
-
+                topFont: "Hanover-8:4",
                 bottom: "A",
-                bottomFont: "Hanover-Tower7:5"
+                bottomFont: "Hanover-10",
+           
+                serviceNumber: ""
             }
         }
     },
@@ -8243,12 +8244,13 @@ EDSData.TTSG = {
                 spacing: 2
             },
             rear: {
-                renderType: 'twolinefront',
+                renderType: 'destScroll',
                 top: "LRT",
-                topFont: "Mobitec-10:7",
-
+                topFont: "Hanover-8:4",
                 bottom: "B",
-                bottomFont: "Hanover-Tower7:5"
+                bottomFont: "Hanover-10",
+           
+                serviceNumber: ""
             }
         }
     },
@@ -8261,12 +8263,13 @@ EDSData.TTSG = {
                 spacing: 1
             },
             rear: {
-                renderType: 'twolinefront',
+                renderType: 'destScroll',
                 top: "LRT",
-                topFont: "Mobitec-10:7",
-
+                topFont: "Hanover-8:4",
                 bottom: "EAST",
-                bottomFont: "Hanover-Tower7:5"
+                bottomFont: "Hanover-10",
+           
+                serviceNumber: ""
             }
         }
     },
@@ -8279,12 +8282,13 @@ EDSData.TTSG = {
                 spacing: 1
             },
             rear: {
-                renderType: 'twolinefront',
+                renderType: 'destScroll',
                 top: "LRT",
-                topFont: "Mobitec-10:7",
-
+                topFont: "Hanover-8:4",
                 bottom: "WEST",
-                bottomFont: "Hanover-Tower7:5"
+                bottomFont: "Hanover-10",
+           
+                serviceNumber: ""
             }
         }
     },
@@ -8306,12 +8310,13 @@ EDSData.TTSG = {
                 scrollFont: "Hanover-7:5"
             },
             rear: {
-                renderType: 'twolinerear',
-                top: "BLACK",
-                topFont: "Hanover-Tower7:5",
-
+                renderType: 'destScroll',
+                top: "TT Black",
+                topFont: "Hanover-8:3",
                 bottom: "01",
-                bottomFont: "Mobitec-10:7"
+                bottomFont: "Hanover-10",
+           
+                serviceNumber: ""
             }
         }
     },
@@ -8333,12 +8338,13 @@ EDSData.TTSG = {
                 scrollFont: "Hanover-7:5"
             },
             rear: {
-                renderType: 'twolinerear',
-                top: "BLACK",
-                topFont: "Hanover-Tower7:5",
-
+                renderType: 'destScroll',
+                top: "TT Black",
+                topFont: "Hanover-8:3",
                 bottom: "02",
-                bottomFont: "Mobitec-10:7"
+                bottomFont: "Hanover-10",
+           
+                serviceNumber: ""
             }
         }
     },
@@ -8360,12 +8366,13 @@ EDSData.TTSG = {
                 scrollFont: "Hanover-7:5"
             },
             rear: {
-                renderType: 'twolinerear',
-                top: "BLACK",
-                topFont: "Hanover-Tower7:5",
-
+                renderType: 'destScroll',
+                top: "TT Black",
+                topFont: "Hanover-8:3",
                 bottom: "03",
-                bottomFont: "Mobitec-10:7"
+                bottomFont: "Hanover-10",
+           
+                serviceNumber: ""
             }
         }
     },
@@ -8387,12 +8394,13 @@ EDSData.TTSG = {
                 scrollFont: "Hanover-7:5"
             },
             rear: {
-                renderType: 'twolinerear',
-                top: "BLACK",
-                topFont: "Hanover-Tower7:5",
-
+                renderType: 'destScroll',
+                top: "TT Black",
+                topFont: "Hanover-8:3",
                 bottom: "04",
-                bottomFont: "Mobitec-10:7"
+                bottomFont: "Hanover-10",
+           
+                serviceNumber: ""
             }
         }
     },
@@ -8414,12 +8422,13 @@ EDSData.TTSG = {
                 scrollFont: "Hanover-7:5"
             },
             rear: {
-                renderType: 'twolinerear',
-                top: "BLUE",
-                topFont: "Hanover-Tower7:5",
-
+                renderType: 'destScroll',
+                top: "TT Blue",
+                topFont: "Hanover-8:3",
                 bottom: "01",
-                bottomFont: "Mobitec-10:7"
+                bottomFont: "Hanover-10",
+           
+                serviceNumber: ""
             }
         }
     },
@@ -8441,12 +8450,13 @@ EDSData.TTSG = {
                 scrollFont: "Hanover-7:5"
             },
             rear: {
-                renderType: 'twolinerear',
-                top: "BLUE",
-                topFont: "Hanover-Tower7:5",
-
+                renderType: 'destScroll',
+                top: "TT Blue",
+                topFont: "Hanover-8:3",
                 bottom: "02",
-                bottomFont: "Mobitec-10:7"
+                bottomFont: "Hanover-10",
+           
+                serviceNumber: ""
             }
         }
     },
@@ -8468,12 +8478,13 @@ EDSData.TTSG = {
                 scrollFont: "Hanover-7:5"
             },
             rear: {
-                renderType: 'twolinerear',
-                top: "BLUE",
-                topFont: "Hanover-Tower7:5",
-
+                renderType: 'destScroll',
+                top: "TT Blue",
+                topFont: "Hanover-8:3",
                 bottom: "03",
-                bottomFont: "Mobitec-10:7"
+                bottomFont: "Hanover-10",
+           
+                serviceNumber: ""
             }
         }
     },
@@ -8495,12 +8506,13 @@ EDSData.TTSG = {
                 scrollFont: "Hanover-7:5"
             },
             rear: {
-                renderType: 'twolinerear',
-                top: "BLUE",
-                topFont: "Hanover-Tower7:5",
-
+                renderType: 'destScroll',
+                top: "TT Blue",
+                topFont: "Hanover-8:3",
                 bottom: "04",
-                bottomFont: "Mobitec-10:7"
+                bottomFont: "Hanover-10",
+           
+                serviceNumber: ""
             }
         }
     },
@@ -8522,12 +8534,13 @@ EDSData.TTSG = {
                 scrollFont: "Hanover-7:5"
             },
             rear: {
-                renderType: 'twolinerear',
-                top: "BROWN",
-                topFont: "Hanover-Tower7:5",
-
+                renderType: 'destScroll',
+                top: "TT Brown",
+                topFont: "Hanover-8:3",
                 bottom: "01",
-                bottomFont: "Mobitec-10:7"
+                bottomFont: "Hanover-10",
+           
+                serviceNumber: ""
             }
         }
     },
@@ -8549,12 +8562,13 @@ EDSData.TTSG = {
                 scrollFont: "Hanover-7:5"
             },
             rear: {
-                renderType: 'twolinerear',
-                top: "BROWN",
-                topFont: "Hanover-Tower7:5",
-
+                renderType: 'destScroll',
+                top: "TT Blue",
+                topFont: "Hanover-8:3",
                 bottom: "02",
-                bottomFont: "Mobitec-10:7"
+                bottomFont: "Hanover-10",
+           
+                serviceNumber: ""
             }
         }
     },
@@ -8576,12 +8590,13 @@ EDSData.TTSG = {
                 scrollFont: "Hanover-7:5"
             },
             rear: {
-                renderType: 'twolinerear',
-                top: "BROWN",
-                topFont: "Hanover-Tower7:5",
-
+                renderType: 'destScroll',
+                top: "TT Blue",
+                topFont: "Hanover-8:3",
                 bottom: "03",
-                bottomFont: "Mobitec-10:7"
+                bottomFont: "Hanover-10",
+           
+                serviceNumber: ""
             }
         }
     },
@@ -8603,12 +8618,13 @@ EDSData.TTSG = {
                 scrollFont: "Hanover-7:5"
             },
             rear: {
-                renderType: 'twolinerear',
-                top: "BROWN",
-                topFont: "Hanover-Tower7:5",
-
+                renderType: 'destScroll',
+                top: "TT Blue",
+                topFont: "Hanover-8:3",
                 bottom: "04",
-                bottomFont: "Mobitec-10:7"
+                bottomFont: "Hanover-10",
+           
+                serviceNumber: ""
             }
         }
     },
@@ -8630,12 +8646,13 @@ EDSData.TTSG = {
                 scrollFont: "Hanover-7:5"
             },
             rear: {
-                renderType: 'twolinerear',
-                top: "GREEN",
-                topFont: "Hanover-Tower7:5",
-
+                renderType: 'destScroll',
+                top: "TT Green",
+                topFont: "Hanover-8:3",
                 bottom: "01",
-                bottomFont: "Mobitec-10:7"
+                bottomFont: "Hanover-10",
+           
+                serviceNumber: ""
             }
         }
     },
@@ -8657,12 +8674,13 @@ EDSData.TTSG = {
                 scrollFont: "Hanover-7:5"
             },
             rear: {
-                renderType: 'twolinerear',
-                top: "GREEN",
-                topFont: "Hanover-Tower7:5",
-
+                renderType: 'destScroll',
+                top: "TT Green",
+                topFont: "Hanover-8:3",
                 bottom: "02",
-                bottomFont: "Mobitec-10:7"
+                bottomFont: "Hanover-10",
+           
+                serviceNumber: ""
             }
         }
     },
@@ -8684,12 +8702,13 @@ EDSData.TTSG = {
                 scrollFont: "Hanover-7:5"
             },
             rear: {
-                renderType: 'twolinerear',
-                top: "GREEN",
-                topFont: "Hanover-Tower7:5",
-
+                renderType: 'destScroll',
+                top: "TT Green",
+                topFont: "Hanover-8:3",
                 bottom: "03",
-                bottomFont: "Mobitec-10:7"
+                bottomFont: "Hanover-10",
+           
+                serviceNumber: ""
             }
         }
     },
@@ -8711,12 +8730,13 @@ EDSData.TTSG = {
                 scrollFont: "Hanover-7:5"
             },
             rear: {
-                renderType: 'twolinerear',
-                top: "GREEN",
-                topFont: "Hanover-Tower7:5",
-
+                renderType: 'destScroll',
+                top: "TT Green",
+                topFont: "Hanover-8:3",
                 bottom: "04",
-                bottomFont: "Mobitec-10:7"
+                bottomFont: "Hanover-10",
+           
+                serviceNumber: ""
             }
         }
     },
@@ -8739,7 +8759,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "TT01",
-                font: "Mobitec-10:7",
+                font: "Hanover-10",
                 spacing: 2
             }
         }
@@ -8763,7 +8783,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "message",
                 text: "TT02",
-                font: "Mobitec-10:7",
+                font: "Hanover-10",
                 spacing: 2
             }
         }
@@ -8787,7 +8807,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "message",
                 text: "TT03",
-                font: "Mobitec-10:7",
+                font: "Hanover-10",
                 spacing: 2
             }
         }
@@ -8811,7 +8831,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "message",
                 text: "TT04",
-                font: "Mobitec-10:7",
+                font: "Hanover-10",
                 spacing: 2
             }
         }
@@ -8835,7 +8855,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "message",
                 text: "TT05",
-                font: "Mobitec-10:7",
+                font: "Hanover-10",
                 spacing: 2
             }
         }
@@ -8859,7 +8879,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "message",
                 text: "TT06",
-                font: "Mobitec-10:7",
+                font: "Hanover-10",
                 spacing: 2
             }
         }
@@ -8883,7 +8903,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "message",
                 text: "TT07",
-                font: "Mobitec-10:7",
+                font: "Hanover-10",
                 spacing: 2
             }
         }
@@ -8907,7 +8927,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "message",
                 text: "TT08",
-                font: "Mobitec-10:7",
+                font: "Hanover-10",
                 spacing: 2
             }
         }
@@ -8931,7 +8951,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "message",
                 text: "TT09",
-                font: "Mobitec-10:7",
+                font: "Hanover-10",
                 spacing: 2
             }
         }
@@ -8955,7 +8975,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "message",
                 text: "TT10",
-                font: "Mobitec-10:7",
+                font: "Hanover-10",
                 spacing: 2
             }
         }
@@ -8979,7 +8999,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "message",
                 text: "TT11",
-                font: "Mobitec-10:7",
+                font: "Hanover-10",
                 spacing: 2
             }
         }
@@ -9003,7 +9023,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "message",
                 text: "TT12",
-                font: "Mobitec-10:7",
+                font: "Hanover-10",
                 spacing: 2
             }
         }
@@ -9027,7 +9047,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "message",
                 text: "TT13",
-                font: "Mobitec-10:7",
+                font: "Hanover-10",
                 spacing: 2
             }
         }
@@ -9051,7 +9071,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "message",
                 text: "TT14",
-                font: "Mobitec-10:7",
+                font: "Hanover-10",
                 spacing: 2
             }
         }
@@ -9075,7 +9095,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "message",
                 text: "TT15",
-                font: "Mobitec-10:7",
+                font: "Hanover-10",
                 spacing: 2
             }
         }
@@ -9099,7 +9119,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "message",
                 text: "TT16",
-                font: "Mobitec-10:7",
+                font: "Hanover-10",
                 spacing: 2
             }
         }
@@ -9123,7 +9143,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "message",
                 text: "TT17",
-                font: "Mobitec-10:7",
+                font: "Hanover-10",
                 spacing: 2
             }
         }
@@ -9147,7 +9167,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "message",
                 text: "TT18",
-                font: "Mobitec-10:7",
+                font: "Hanover-10",
                 spacing: 2
             }
         }
@@ -9171,7 +9191,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "message",
                 text: "TT19",
-                font: "Mobitec-10:7",
+                font: "Hanover-10",
                 spacing: 2
             }
         }
@@ -9195,7 +9215,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "message",
                 text: "TT20",
-                font: "Mobitec-10:7",
+                font: "Hanover-10",
                 spacing: 2
             }
         }
@@ -9219,7 +9239,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "message",
                 text: "TT21",
-                font: "Mobitec-10:7",
+                font: "Hanover-10",
                 spacing: 2
             }
         }
@@ -9243,7 +9263,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "message",
                 text: "TT22",
-                font: "Mobitec-10:7",
+                font: "Hanover-10",
                 spacing: 2
             }
         }
@@ -9267,7 +9287,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "message",
                 text: "TT23",
-                font: "Mobitec-10:7",
+                font: "Hanover-10",
                 spacing: 2
             }
         }
@@ -9291,7 +9311,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "message",
                 text: "TT24",
-                font: "Mobitec-10:7",
+                font: "Hanover-10",
                 spacing: 2
             }
         }
@@ -9315,7 +9335,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "message",
                 text: "TT25",
-                font: "Mobitec-10:7",
+                font: "Hanover-10",
                 spacing: 2
             }
         }
@@ -9339,7 +9359,7 @@ EDSData.TTSG = {
             rear: {
                 renderType: "message",
                 text: "TT26",
-                font: "Mobitec-10:7",
+                font: "Hanover-10",
                 spacing: 2
             }
         }
@@ -9573,12 +9593,12 @@ EDSData.TTSG = {
         1: {
             front: {
                 renderType: "twolinefront",
-                top: "BULIM - TTS",
-                topFont: "Hanover-8",
+                top: "Bulim - TTS",
+                topFont: "Hanover-8:4",
                 topSpacing: 1,
 
-                bottom: "HOTEL FERRY",
-                bottomFont: "Hanover-8",
+                bottom: "Hotel Ferry",
+                bottomFont: "Hanover-8:4",
                 bottomSpacing: 1,
             },
             rear: { 
@@ -9597,12 +9617,12 @@ EDSData.TTSG = {
         1: {
             front: {
                 renderType: "twolinefront",
-                top: "MANDAI - TTS",
-                topFont: "Hanover-Tower11:7",
+                top: "Mandai - TTS",
+                topFont: "Hanover-8:4",
                 topSpacing: 1,
 
-                bottom: "HOTEL FERRY",
-                bottomFont: "Hanover-Tower7:5",
+                bottom: "Hotel Ferry",
+                bottomFont: "Hanover-8:4",
                 bottomSpacing: 1,
             },
             rear: { 
@@ -9688,10 +9708,10 @@ EDSData.TTSG = {
             rear: {
                 renderType: 'twolinerear',
                 top: "Training",
-                topFont: "Hanover-7:3",
+                topFont: "Hanover-8:3",
 
                 bottom: "Bus",
-                bottomFont: "Hanover-7:3"
+                bottomFont: "Hanover-8:3"
             }
         }
     },
@@ -9713,13 +9733,13 @@ EDSData.TTSG = {
                 scrollFont: "Hanover-7:5"
             },
             rear: { 
-                renderType: "twolinerear",
+                renderType: "twolinefront",
                 top: "Bulim",
-                topFont: "Hanover-7:5",
+                topFont: "Hanover-8:4",
                 topSpacing: 1,
 
                 bottom: "Depot",
-                bottomFont: "Hanover-7:5",
+                bottomFont: "Hanover-8:4",
                 bottomSpacing: 1,
             }
         },
@@ -9742,13 +9762,13 @@ EDSData.TTSG = {
                 scrollFont: "Hanover-7:5"
             },
             rear: { 
-                renderType: "twolinerear",
+                renderType: "twolinefront",
                 top: "Bulim",
-                topFont: "Hanover-7:5",
+                topFont: "Hanover-8:4",
                 topSpacing: 1,
-    
+
                 bottom: "Depot",
-                bottomFont: "Hanover-7:5",
+                bottomFont: "Hanover-8:4",
                 bottomSpacing: 1,
             }
         }
@@ -9771,13 +9791,13 @@ EDSData.TTSG = {
                 scrollFont: "Hanover-7:5"
             },
             rear: { 
-                renderType: "twolinerear",
+                renderType: "twolinefront",
                 top: "Mandai",
-                topFont: "Hanover-7:5",
+                topFont: "Hanover-8:4",
                 topSpacing: 1,
 
                 bottom: "Depot",
-                bottomFont: "Hanover-7:5",
+                bottomFont: "Hanover-8:4",
                 bottomSpacing: 1,
             }
         },
@@ -9800,13 +9820,13 @@ EDSData.TTSG = {
                 scrollFont: "Hanover-7:5"
             },
             rear: { 
-                renderType: "twolinerear",
+                renderType: "twolinefront",
                 top: "Mandai",
-                topFont: "Hanover-7:5",
+                topFont: "Hanover-8:4",
                 topSpacing: 1,
-    
+
                 bottom: "Depot",
-                bottomFont: "Hanover-7:5",
+                bottomFont: "Hanover-8:4",
                 bottomSpacing: 1,
             }
         }
@@ -9868,7 +9888,8 @@ EDSData.TTSG = {
                 spacing: 1
             }
         }
-    },    6666: {
+    },    
+    6666: {
         1: {
             front: {
                 renderType: "standardService",
@@ -9903,10 +9924,10 @@ EDSData.TTSG = {
             rear: {
                 renderType: 'twolinerear',
                 top: "LECIP",
-                topFont: "Hanover-7:3", 
+                topFont: "Hanover-8:3", 
 
                 bottom: "220424",
-                bottomFont: "Hanover-7:3"
+                bottomFont: "Hanover-8:3"
             }
         }
     },
