@@ -19521,7 +19521,7 @@ EDSData.SBST = {
             front: {
                 renderType: "message",
                 text: "NEL BRIDGING BUS",
-                font: "LECIP-20:9",
+                font: "LECIP-14:6",
                 spacing: 2
             },
             rear: {
@@ -19539,7 +19539,7 @@ EDSData.SBST = {
             front: {
                 renderType: "message",
                 text: "DTL BRIDGING BUS",
-                font: "LECIP-20:9",
+                font: "LECIP-14:6",
                 spacing: 2
             },
             rear: {
@@ -19557,7 +19557,7 @@ EDSData.SBST = {
             front: {
                 renderType: "message",
                 text: "CCL BRIDGING BUS",
-                font: "LECIP-20:9",
+                font: "LECIP-14:6",
                 spacing: 2
             },
             rear: {
@@ -19575,7 +19575,7 @@ EDSData.SBST = {
             front: {
                 renderType: "message",
                 text: "EWL BRIDGING BUS",
-                font: "LECIP-20:9",
+                font: "LECIP-14:6",
                 spacing: 2
             },
             rear: {
@@ -19593,7 +19593,7 @@ EDSData.SBST = {
             front: {
                 renderType: "message",
                 text: "NSL BRIDGING BUS",
-                font: "LECIP-20:9",
+                font: "LECIP-14:6",
                 spacing: 2
             },
             rear: {
@@ -19611,7 +19611,7 @@ EDSData.SBST = {
             front: {
                 renderType: "message",
                 text: "TEL BRIDGING BUS",
-                font: "LECIP-20:9",
+                font: "LECIP-14:6",
                 spacing: 2
             },
             rear: {
@@ -19629,7 +19629,7 @@ EDSData.SBST = {
             front: {
                 renderType: "message",
                 text: "CRL BRIDGING BUS",
-                font: "LECIP-20:9",
+                font: "LECIP-14:6",
                 spacing: 2
             },
             rear: {
@@ -19647,7 +19647,7 @@ EDSData.SBST = {
             front: {
                 renderType: "message",
                 text: "JRL BRIDGING BUS",
-                font: "LECIP-20:9",
+                font: "LECIP-14:6",
                 spacing: 2
             },
             rear: {
@@ -19665,7 +19665,7 @@ EDSData.SBST = {
             front: {
                 renderType: "message",
                 text: "LRT BRIDGING BUS",
-                font: "LECIP-20:9",
+                font: "LECIP-14:6",
                 spacing: 2
             },
             rear: {
