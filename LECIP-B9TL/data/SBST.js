@@ -19526,10 +19526,10 @@ EDSData.SBST = {
             },
             rear: {
                 renderType: 'twoline',
-                top: "NEL",
+                top: "NEL BRDG",
                 topFont: "LECIP-6:3",
 
-                bottom: "BRIDGING",
+                bottom: "BUS",
                 bottomFont: "LECIP-6:3"
             }
         }
@@ -19544,10 +19544,10 @@ EDSData.SBST = {
             },
             rear: {
                 renderType: 'twoline',
-                top: "DTL",
+                top: "DTL BRDG",
                 topFont: "LECIP-6:3",
 
-                bottom: "BRIDGING",
+                bottom: "BUS",
                 bottomFont: "LECIP-6:3"
             }
         }
@@ -19562,10 +19562,10 @@ EDSData.SBST = {
             },
             rear: {
                 renderType: 'twoline',
-                top: "CCL",
+                top: "CCL BRDG",
                 topFont: "LECIP-6:3",
 
-                bottom: "BRIDGING",
+                bottom: "BUS",
                 bottomFont: "LECIP-6:3"
             }
         }
@@ -19580,10 +19580,10 @@ EDSData.SBST = {
             },
             rear: {
                 renderType: 'twoline',
-                top: "EWL",
+                top: "EWL BRDG",
                 topFont: "LECIP-6:3",
 
-                bottom: "BRIDGING",
+                bottom: "BUS",
                 bottomFont: "LECIP-6:3"
             }
         }
@@ -19598,10 +19598,10 @@ EDSData.SBST = {
             },
             rear: {
                 renderType: 'twoline',
-                top: "NSL",
+                top: "NSL BRDG",
                 topFont: "LECIP-6:3",
 
-                bottom: "BRIDGING",
+                bottom: "BUS",
                 bottomFont: "LECIP-6:3"
             }
         }
@@ -19616,10 +19616,10 @@ EDSData.SBST = {
             },
             rear: {
                 renderType: 'twoline',
-                top: "TEL",
+                top: "TEL BRDG",
                 topFont: "LECIP-6:3",
 
-                bottom: "BRIDGING",
+                bottom: "BUS",
                 bottomFont: "LECIP-6:3"
             }
         }
@@ -19634,10 +19634,10 @@ EDSData.SBST = {
             },
             rear: {
                 renderType: 'twoline',
-                top: "CRL",
+                top: "CRL BRDG",
                 topFont: "LECIP-6:3",
 
-                bottom: "BRIDGING",
+                bottom: "BUS",
                 bottomFont: "LECIP-6:3"
             }
         }
@@ -19652,10 +19652,10 @@ EDSData.SBST = {
             },
             rear: {
                 renderType: 'twoline',
-                top: "JRL",
+                top: "JRL BRDG",
                 topFont: "LECIP-6:3",
 
-                bottom: "BRIDGING",
+                bottom: "BUS",
                 bottomFont: "LECIP-6:3"
             }
         }
@@ -19670,10 +19670,10 @@ EDSData.SBST = {
             },
             rear: {
                 renderType: 'twoline',
-                top: "LRT",
+                top: "LRT BRDG",
                 topFont: "LECIP-6:3",
 
-                bottom: "BRIDGING",
+                bottom: "BUS",
                 bottomFont: "LECIP-6:3"
             }
         }
@@ -19706,11 +19706,11 @@ EDSData.SBST = {
             },
             rear: {
                 renderType: 'twoline',
-                top: "LRT",
-                topFont: "LECIP-7:4",
+                top: "LRT BRDG",
+                topFont: "LECIP-6:3",
 
                 bottom: "EAST",
-                bottomFont: "LECIP-7:4"
+                bottomFont: "LECIP-6:3"
             }
         },
         2: {
@@ -19722,11 +19722,11 @@ EDSData.SBST = {
             },
             rear: {
                 renderType: 'twoline',
-                top: "LRT",
-                topFont: "LECIP-7:4",
+                top: "LRT BRDG",
+                topFont: "LECIP-6:3",
 
                 bottom: "WEST",
-                bottomFont: "LECIP-7:4"
+                bottomFont: "LECIP-6:3"
             }
         }
     },
