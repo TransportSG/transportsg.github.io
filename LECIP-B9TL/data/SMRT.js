@@ -377,6 +377,44 @@ EDSData.SMRT = {
             }
         }
     },
+    4: {
+        1: {
+            front: {
+                renderType: 'message',
+                text: 'SMRT BUSES',
+                font: 'Arial-17',
+                spacing: 2
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "",
+                topFont: "ArialNarrow-7",
+
+                bottom: "",
+                bottomFont: "ArialNarrow-7",
+                bottomMargin: 2
+            }
+        }
+    },
+    5: {
+        1: {
+            front: {
+                renderType: 'message',
+                text: 'OFF SERVICE',
+                font: 'Arial-17',
+                spacing: 2
+            },
+            rear: { 
+                renderType: 'twoline',
+                top: "OFF",
+                topFont: "ArialBold-8",
+
+                bottom: "SERVICE",
+                bottomFont: "ArialNarrow-7",
+                bottomMargin: 2
+            }
+        }
+    },
     117: {
         1: {
             front: {
@@ -386,7 +424,7 @@ EDSData.SMRT = {
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "SMRT",
+                serviceNumber: "",
                 font: "ArialBold-8",
                 spacing: 1
             },
