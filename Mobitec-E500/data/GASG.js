@@ -2200,6 +2200,50 @@ EDSData.GASG = {
             scrollFont: "Mobitec-7:4"
         }
     },
+    6731: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "673",
+            destination: {
+                text: "TEMASEK BLVD",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "673",
+                    top: "Temasek",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "Boulevard",
+                    bottomFont: "Mobitec-7:5:1",
+                    image: "CityDirect",
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    6732: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "673",
+            destination: {
+                text: "PUNGGOL WAY",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "673",
+                    top: "Punggol",
+                    topFont: "Mobitec-7:5:2",
+                    bottom: "Way",
+                    bottomFont: "Mobitec-7:5:2",
+                    image: "CityDirect",
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
     9000: {
         front: {
             renderType: 'message',

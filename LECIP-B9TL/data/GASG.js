@@ -3852,6 +3852,59 @@ EDSData.GASG = {
             }
         }
     },
+    673: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "673",
+                destination: "MARINA BOULEVARD",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "destScrollWithImage2",
+                    serviceNumber: "673",
+                    top: "",
+                    topFont: "Lecip-GoAhead8:6:3",
+                    bottom: "",
+                    bottomFont: "Lecip-GoAhead8:6:2",
+                    image: "CityDirect-35"
+                },
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "673",
+                font: "Lecip-GoAhead20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "673",
+                destination: "PUNGGOL WAY",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "destScrollWithImage2",
+                    serviceNumber: "673",
+                    top: "",
+                    topFont: "Lecip-GoAhead8:6:3",
+                    bottom: "",
+                    bottomFont: "Lecip-GoAhead8:6:3",
+                    image: "CityDirect-35"
+                },
+
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "673",
+                font: "Lecip-GoAhead20:9",
+                spacing: 2
+            }
+        }
+    },
     1000: {
         1: {
             front: {
