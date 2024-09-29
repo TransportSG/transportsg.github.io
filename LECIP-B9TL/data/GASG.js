@@ -3862,9 +3862,9 @@ EDSData.GASG = {
                 scrolls: [{
                     renderType: "destScrollWithImage2",
                     serviceNumber: "673",
-                    top: "",
+                    top: "Temasek",
                     topFont: "Lecip-GoAhead8:6:3",
-                    bottom: "",
+                    bottom: "Boulevard",
                     bottomFont: "Lecip-GoAhead8:6:2",
                     image: "CityDirect-35"
                 },
@@ -3887,10 +3887,10 @@ EDSData.GASG = {
                 scrolls: [{
                     renderType: "destScrollWithImage2",
                     serviceNumber: "673",
-                    top: "",
+                    top: "Punggol",
                     topFont: "Lecip-GoAhead8:6:3",
-                    bottom: "",
-                    bottomFont: "Lecip-GoAhead8:6:3",
+                    bottom: "Way",
+                    bottomFont: "Lecip-GoAhead8:6:2",
                     image: "CityDirect-35"
                 },
 

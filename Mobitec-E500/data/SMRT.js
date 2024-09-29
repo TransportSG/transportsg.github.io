@@ -1234,12 +1234,6 @@ EDSData.SMRT = {
                     font: "Mobitec-13:8",
                     spacing: 1
                 },
-                {
-                    renderType: "message",
-                    font: "Mobitec-13:7",
-                    text: "GONG XI FA CAI",
-                    spacing: 1
-                },
             ],
             scrollFont: "Mobitec-7:5:3"
         }

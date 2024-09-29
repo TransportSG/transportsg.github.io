@@ -403,6 +403,27 @@ EDSData.GASG = {
             scrollFont: "Mobitec-7:4"
         }
     },
+    123: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "12e",
+            destination: {
+                text: "KAMPONG BAHRU",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "12e",
+                    top: "Kampong",
+                    bottom: "Bahru ",
+                    image: "express",
+                },
+                "CHINATOWN"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
     151: {
         front: {
             renderType: "standardService",
