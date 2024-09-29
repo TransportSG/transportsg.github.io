@@ -1869,6 +1869,25 @@ EDSData.SMRT = {
             }
         }
     },
+    7996: {
+        1: {
+        front: {
+            renderType: "message",
+            text: "SMRT STAFF FERRY @",
+            font: "Mobitec-SMRTStaffFerry",
+            spacing: 1,
+            marginTop: 2
+        },
+        rear: { 
+            renderType: 'twoline',
+            top: "STAFF",
+            topFont: "Calibri-7:2",
+
+            bottom: "FERRY",
+            bottomFont: "Calibri-7:2",
+        }
+    }
+},
     9000: { // Done
         1: {
             front: {

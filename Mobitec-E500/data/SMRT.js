@@ -1224,14 +1224,21 @@ EDSData.SMRT = {
             renderType: "standardService",
             serviceNumber: "",
             destination: {
-                text: "SMRT LOGO",
+                text: "EWL BRIDGING BUS",
                 font: "Mobitec-7:4"
             },
             scrolls: [
                 {
-                    renderType: "logo",
-                    image: "logo",
-                    text: "SMRT LOGO"
+                    renderType: "message",
+                    text: "EWL BRIDGING BUS",
+                    font: "Mobitec-13:8",
+                    spacing: 1
+                },
+                {
+                    renderType: "message",
+                    font: "Mobitec-13:7",
+                    text: "GONG XI FA CAI",
+                    spacing: 1
                 },
             ],
             scrollFont: "Mobitec-7:5:3"
@@ -9110,6 +9117,78 @@ EDSData.SMRT = {
             topFont: "Mobitec-7:5:3",
             bottom: "TECK WHYE",
             bottomFont: "Mobitec-7:5:3"
+        }
+    },
+    3151: {
+        front: {
+            renderType: "message",
+            text: "FREE BRIDGING BUS",
+            font: "Mobitec-13:8",
+            spacing: 1
+        }
+    },
+    3152: {
+        front: {
+            renderType: "message",
+            text: "LRT SHUTTLE A",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    3153: {
+        front: {
+            renderType: "message",
+            text: "LRT SHUTTLE B",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    3154: {
+        front: {
+            renderType: "message",
+            text: "NSL BRIDGING BUS",
+            font: "Mobitec-13:8",
+            spacing: 1
+        }
+    },
+    3155: {
+        front: {
+            renderType: "message",
+            text: "EWL BRIDGING BUS",
+            font: "Mobitec-13:8",
+            spacing: 1
+        }
+    },
+    3156: {
+        front: {
+            renderType: "message",
+            text: "CCL BRIDGING BUS",
+            font: "Mobitec-13:8",
+            spacing: 1
+        }
+    },
+    3157: {
+        front: {
+            renderType: "message",
+            text: "TEL BRIDGING BUS",
+            font: "Mobitec-13:8",
+            spacing: 1
+        }
+    },
+    3160: {
+        front: {
+            renderType: "message",
+            text: "NEL BRIDGING BUS",
+            font: "Mobitec-13:8",
+            spacing: 1
+        }
+    },
+    3161: {
+        front: {
+            renderType: "message",
+            text: "DTL BRIDGING BUS",
+            font: "Mobitec-13:8",
+            spacing: 1
         }
     },
     3421: {
