@@ -222,7 +222,9 @@ EDSData.GASG = {
                     renderType: "destScroll",
                     serviceNumber: "2B",
                     top: "TERMINATING AT",
+                    topFont: "Mobitec-7:7",
                     bottom: "BEDOK STN EXIT A",
+                    bottomFont: "Mobitec-7:7",
                 },
             ],
             scrollFont: "Mobitec-7:4"
@@ -368,7 +370,18 @@ EDSData.GASG = {
                     top: "Kampong Bahru",
                     topFont: "Mobitec-13:8"
                 },
-                "TANAH MERAH MRT"
+                "PASIR RIS DR 6 / 1",
+                "PASIR RIS ST 12 / 11",
+                "TAMPINES EAST MRT",
+                "SIMEI RD",
+                "TANAH MERAH MRT",
+                "BEDOK SOUTH RD",
+                "EAST COAST RD",
+                "MOUNTBATTEN RD / MRT",
+                "LAVENDER MRT",
+                "VICTORIA ST / BUGIS",
+                "CLARKE QUAY",
+                "CHINATOWN"
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -397,8 +410,8 @@ EDSData.GASG = {
                 "TANAH MERAH MRT",
                 "SIMEI RD",
                 "TAMPINES EAST MRT",
-                "PASIR RIS ST 12 / 13",
-                "PASIR RIS DR 1 / 6 / 3"
+                "PASIR RIS ST 12 / 11",
+                "PASIR RIS DR 1 / 6"
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -416,10 +429,46 @@ EDSData.GASG = {
                     renderType: "destScroll",
                     serviceNumber: "12e",
                     top: "Kampong",
+                    topFont: "Mobitec-7:5:2",
                     bottom: "Bahru ",
+                    bottomFont: "Mobitec-7:5:2",
                     image: "express",
                 },
+                "PASIR RIS DR 6 / 1",
+                "PASIR RIS ST 12 / 11",
+                "TAMPINES AVE 7 / 2",
+                "SIMEI RD",
+                "BEDOK SOUTH RD",
+                "ECP (EXPRESS)",
+                "BUGIS",
                 "CHINATOWN"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    124: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "12e",
+            destination: {
+                text: "PASIR RIS",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "12e",
+                    top: "Pasir Ris",
+                    image: "express",
+                },
+                "CHINATOWN",
+                "BUGIS",
+                "ECP (EXPRESS)",
+                "BEDOK SOUTH RD",
+                "SIMEI RD",
+                "TAMPINES AVE 2 / 7",
+                "PASIR RIS ST 11 / 12",
+                "PASIR RIS DR 1 / 6"
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -897,9 +946,20 @@ EDSData.GASG = {
                     bottom: "Parade",
                     image: "express",
                 },
+                {
+                renderType: "destScroll",
+                serviceNumber: "43e",
+                top: "TERMINATING AT",
+                topFont: "Mobitec-7:5:2",
+                bottom: "MARINE PDE STN EXIT 4 ",
+                bottomFont: "Mobitec-7:4",
+                },
+                "PUNGGOL WAY",
                 "SENGKANG EAST RD",
-                "BUANGKOK MRT",
+                "BUANGKOK MRT / DR",
                 "KPE (EXPRESS)",
+                "AIRPORT RD",
+                "MACPHERSON MRT",
                 "PAYA LEBAR RD",
                 "TANJONG KATONG RD"
             ],
@@ -2128,7 +2188,10 @@ EDSData.GASG = {
                     bottomFont: "Mobitec-7:5:1",
                     image: "CityDirect",
                 },
-                "PASIR RIS"
+                "PASIR RIS DR 6",
+                "PASIR RIS ST 11",
+                "LOYANG AVE",
+                "ROBINSON RD",
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -2151,7 +2214,10 @@ EDSData.GASG = {
                     bottomFont: "Mobitec-7:5:1",
                     image: "CityDirect",
                 },
-                "PASIR RIS"
+                "SHENTON WAY",
+                "LOYANG AVE",
+                "PASIR RIS ST 11",
+                "PASIR RIS DR 6"
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -2174,7 +2240,11 @@ EDSData.GASG = {
                     bottomFont: "Mobitec-7:5:1",
                     image: "CityDirect",
                 },
-                "PUNGGOL"
+                "PUNGGOL DR",
+                "PUNGGOL EAST",
+                "PUNGGOL FIELD",
+                "PUNGGOL WAY",
+                "ROBINSON RD"
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -2197,6 +2267,10 @@ EDSData.GASG = {
                     bottomFont: "Mobitec-7:5:2",
                     image: "CityDirect",
                 },
+                "SHENTON WAY",
+                "PUNGGOL WAY",
+                "PUNGGOL FIELD",
+                "PUNGGOL EAST",
             ],
             scrollFont: "Mobitec-7:4"
         }

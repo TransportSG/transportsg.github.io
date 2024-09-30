@@ -1224,13 +1224,13 @@ EDSData.SMRT = {
             renderType: "standardService",
             serviceNumber: "",
             destination: {
-                text: "EWL BRIDGING BUS",
+                text: "",
                 font: "Mobitec-7:4"
             },
             scrolls: [
                 {
                     renderType: "message",
-                    text: "EWL BRIDGING BUS",
+                    text: "",
                     font: "Mobitec-13:8",
                     spacing: 1
                 },
