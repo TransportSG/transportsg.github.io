@@ -363,7 +363,7 @@ EDSData.SMRT = {
             front: {
                 renderType: 'message',
                 text: 'SOON LEE DEPOT',
-                font: 'Calibri-11',
+                font: 'Calibri-11:1',
                 spacing: 2,
                 marginTop: 4
             },
@@ -2393,6 +2393,34 @@ EDSData.SMRT = {
                 renderType: "rearService",
                 serviceNumber: "64",
                 font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    9996: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "THINK SAFETY",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll2",
+                    top: "THINK SAFETY. WORK SAFELY",
+                    topFont: "ArialBold-8:2",
+                    bottom: "GO HOME SAFE",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: ""
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "",
+                font: "ArialBold-8:2",
                 spacing: 2
             }
         }
