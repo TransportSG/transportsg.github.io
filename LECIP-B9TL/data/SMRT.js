@@ -118,7 +118,7 @@ EDSFormats.SMRT = {
             align: "right",
             margin: {
                 right: 1,
-                top: 1,
+                top: 2,
             },
             text: "$serviceNumber",
             font: "Calibri-15",
@@ -358,7 +358,7 @@ EDSFormats.SMRT.calibriSmallService = JSON.parse(JSON.stringify(EDSFormats.SMRT.
 EDSFormats.SMRT.calibriSmallService.serviceNumber.font = 'Calibri-15'; // TODO: make font
 
 EDSData.SMRT = {
-    2: {
+    2: { // Done
         1: {
             front: {
                 renderType: 'message',
@@ -377,7 +377,7 @@ EDSData.SMRT = {
             }
         }
     },
-    4: {
+    4: { // Done
         1: {
             front: {
                 renderType: 'message',
@@ -396,7 +396,7 @@ EDSData.SMRT = {
             }
         }
     },
-    5: {
+    5: { // Done
         1: {
             front: {
                 renderType: 'message',
@@ -415,7 +415,7 @@ EDSData.SMRT = {
             }
         }
     },
-    117: {
+    117: { // Done
         1: {
             front: {
                 renderType: "logo",
@@ -465,6 +465,25 @@ EDSData.SMRT = {
                     },
                 ],
                 scrollFont: "ArialBold-8:2"
+            }
+        }
+    },
+    1111: { // Done
+        1: {
+            front: {
+                renderType: "message",
+                text: "OFF SERVICE",
+                font: "LECIP-20:12",
+                spacing: 3,
+                marginTop: 0
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "OFF",
+                topFont: "LECIP-7:4",
+
+                bottom: "SERVICE",
+                bottomFont: "LECIP-7:4"
             }
         }
     },
@@ -607,7 +626,7 @@ EDSData.SMRT = {
             }
         }
     },
-    1812: { // 
+    1812: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -616,8 +635,11 @@ EDSData.SMRT = {
                 destination: "BOON LAY via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-
-                    "JURONG WEST"
+                    "JURONG WEST ST 64",
+                    "JURONG WEST ST 75",
+                    "JURONG WEST AVE 5",
+                    "JURONG WEST AVE 3",
+                    "JURONG WEST ST 23"
                 ],
                 scrollFont: "Calibri-7:2"
             },
@@ -891,6 +913,39 @@ EDSData.SMRT = {
             }
         }
     },
+    1871: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "187",
+                destination: "BOON LAY via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll",
+                    top: "BOON LAY",
+                    topFont: "ArialBold-8:2",
+                    bottom: "INT / MRT",
+                    bottomFont: "ArialBold-8:2",
+                
+                    serviceNumber: "187"
+                    },
+                    "WOODLANDS AVE 3",
+                    "BT PANJANG RD",
+                    "BUKIT BATOK CTR",
+                    "JURONG EAST",
+                    "BOON LAY WAY",
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "187",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
     1881: {
         1: {
             front: {
@@ -982,7 +1037,7 @@ EDSData.SMRT = {
             }
         }
     },
-    1902: {
+    1902: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -1136,7 +1191,7 @@ EDSData.SMRT = {
             }
         }
     },
-    1991: {
+    1991: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -1195,7 +1250,7 @@ EDSData.SMRT = {
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
                     {
-                    renderType: "destScroll2A",
+                    renderType: "destScroll2",
                     top: "ENDS AT",
                     topFont: "ArialBold-8:2",
                     bottom: "LAKESIDE MRT",
@@ -1312,7 +1367,7 @@ EDSData.SMRT = {
             }
         }
     },
-    2421: {
+    2421: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -1524,7 +1579,7 @@ EDSData.SMRT = {
             }
         }
     },
-    2491: {
+    2491: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -1558,7 +1613,7 @@ EDSData.SMRT = {
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
                     {
-                    renderType: "destScroll2A",
+                    renderType: "destScroll2",
                     top: "ENDS AT",
                     topFont: "ArialBold-8:2",
                     bottom: "JURONG SHIPYARD",
@@ -1577,7 +1632,7 @@ EDSData.SMRT = {
             }
         }
     },
-    2511: {
+    2511: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -1843,7 +1898,7 @@ EDSData.SMRT = {
             }
         }
     },
-    6651: {
+    6651: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -1869,7 +1924,7 @@ EDSData.SMRT = {
             }
         }
     },
-    7996: {
+    7996: { // Done
         1: {
         front: {
             renderType: "message",
@@ -1928,7 +1983,7 @@ EDSData.SMRT = {
             }
         }
     },
-    9021: {
+    9021: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -1978,7 +2033,7 @@ EDSData.SMRT = {
             }
         }
     },
-    9601: {
+    9601: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -2040,7 +2095,7 @@ EDSData.SMRT = {
             }
         }
     },
-    9611: {
+    9611: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -2074,7 +2129,7 @@ EDSData.SMRT = {
             }
         }
     },
-    9612: {
+    9612: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -2099,7 +2154,7 @@ EDSData.SMRT = {
             }
         }
     },
-    9613: {
+    9613: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -2134,77 +2189,21 @@ EDSData.SMRT = {
             }
         }
     },
-    9614: {
+    9614: { // Done
         1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "961M",
-                destination: "WDL TEMP INT",
+                serviceFont: "Calibri-15",
+                destination: "WDL TEMP INT via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
-                    renderType: "destScroll2",
-                    top: "WDL TEMP INT via",
-                    topFont: "ArialBold-8:2",
-                    bottom: "KALLANG BAHRU",
-                    bottomFont: "Calibri-7:2",
-                    
-                    serviceNumber: "961M"
-                    },
-                    {
-                    renderType: "destScroll2",
-                    top: "WDL TEMP INT via",
-                    topFont: "ArialBold-8:2",
-                    bottom: "BEACH RD",
-                    bottomFont: "Calibri-7:2",
-                        
-                    serviceNumber: "961M"
-                    },
-                    {
-                    renderType: "destScroll2",
-                    top: "WDL TEMP INT via",
-                    topFont: "ArialBold-8:2",
-                    bottom: "MARINA CENTRE",
-                    bottomFont: "Calibri-7:2",
-                            
-                    serviceNumber: "961M"
-                    },
-                    {
-                    renderType: "destScroll2",
-                    top: "WDL TEMP INT via",
-                    topFont: "ArialBold-8:2",
-                    bottom: "CHINATOWN",
-                    bottomFont: "Calibri-7:2",
-                                
-                    serviceNumber: "961M"
-                    },
-                    {
-                    renderType: "destScroll2",
-                    top: "WDL TEMP INT via",
-                    topFont: "ArialBold-8:2",
-                    bottom: "JLN BT MERAH",
-                    bottomFont: "Calibri-7:2",
-                                
-                    serviceNumber: "961M"
-                    },
-                    {
-                    renderType: "destScroll2",
-                    top: "WDL TEMP INT via",
-                    topFont: "ArialBold-8:2",
-                    bottom: "UPP BT TIMAH RD",
-                    bottomFont: "Calibri-7:2",
-                                
-                    serviceNumber: "961M"
-                    },
-                    {
-                    renderType: "destScroll2",
-                    top: "WDL TEMP INT via",
-                    topFont: "ArialBold-8:2",
-                    bottom: "WDL AVE 3",
-                    bottomFont: "Calibri-7:2",
-                                
-                    serviceNumber: "961M"
-                    },               
+                    "KALLANG BAHRU",
+                    "BEACH RD",
+                    "MARINA CENTRE",
+                    "CHINATOWN",
+                    "JLN BT MERAH",
+                    "UPP BT TIMAH RD",            
                 ],
                 scrollFont: "Calibri-7:2"
             },
