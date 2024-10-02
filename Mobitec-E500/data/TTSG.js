@@ -802,7 +802,7 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "66",
-            destination: "BEAUTY WORLD",
+            destination: "BEAUTY WORLD MRT",
             scrolls: [
                 "JURONG TOWN HALL RD",
                 "BUKIT BATOK WEST AVE 8",
