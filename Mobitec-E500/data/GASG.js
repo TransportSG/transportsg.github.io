@@ -1387,9 +1387,9 @@ EDSData.GASG = {
     843: {
         front: {
             renderType: "standardService",
-            serviceNumber: "84T",
+            serviceNumber: "84A",
             destination: {
-                text: "NEW PUNGGOL RD",
+                text: "SIT PUNGGOL",
                 font: "Mobitec-7:7"
             },
             scrolls: [
