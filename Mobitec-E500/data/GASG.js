@@ -2252,7 +2252,7 @@ EDSData.GASG = {
     6662: {
         front: {
             renderType: "standardService",
-            serviceNumber: "661",
+            serviceNumber: "666",
             destination: {
                 text: "PUNGGOL DRIVE",
                 font: "Mobitec-7:7"
