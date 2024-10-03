@@ -279,6 +279,68 @@ EDSFormats.SMRT = {
 
         text: "$text"
     },
+    destScroll3: {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 1
+            },
+            text: "$serviceNumber",
+            font: "Calibri-15",
+            spacing: 3
+        },
+        top: {
+            align: {
+                $$cond: {
+                    "$bottom === null": "centre-x,centre-y",
+                    "else": "centre-x,top"
+                }
+            },
+            text: "$top",
+            font: {
+                $$cond: {
+                    "$topFont === null": "ArialBold-8:2",
+                    "else": "$topFont"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber) - width(image)',
+                top: 0
+            }
+        },
+        bottom: {
+            align: "centre-x,bottom",
+            text: {
+                $$cond: {
+                    "$bottom !== null": "$bottom",
+                    "else": "''"
+                }
+            },
+            font: {
+                $$cond: {
+                    "$bottomFont === null": "ArialBold-8:2",
+                    "else": "$bottomFont"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber) - width(image)',
+                bottom: 1
+            }
+        },
+        image: {
+            align: "left",
+            image: {
+                $$cond: {
+                    "$image !== null": "$image",
+                    "else": "blank"
+                }
+            }
+        },
+
+        text: "$top+' '+$bottom+' '+$serviceNumber"
+    },
     message: {
         display: {
             align: "centre-x,top",
@@ -364,7 +426,7 @@ EDSData.SMRT = {
                 renderType: 'message',
                 text: 'SOON LEE DEPOT',
                 font: 'Calibri-11:1',
-                spacing: 2,
+                spacing: 1,
                 marginTop: 4
             },
             rear: { 
@@ -430,41 +492,78 @@ EDSData.SMRT = {
             },
         }
     },
-    172: { // Done
+    151: { // Done
+        1: {
+            front: {
+                renderType: 'message',
+                text: 'FREE BRIDGING BUS',
+                font: 'Calibri-10',
+                spacing: 2,
+                marginTop: 4
+            },
+            rear: { 
+                renderType: 'twoline',
+                top: "",
+                topFont: "Arial-7",
+
+                bottom: "",
+                bottomFont: "Arial-7",
+            }
+        }
+    },
+    152: { // Done
         1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "Moving WITH you",
-                destinationFont: "ArialBold-8:3",
+                destination: "LRT BRIDGING A",
+                destinationFont: "ArialBold-8:2",
                 scrolls: [
                     {
-                    renderType: "destScroll2",
-                    top: "Moving WITH you - 13 June",
-                    topFont: "ArialBold-8:3",
-        
-                    serviceNumber: ""
+                        renderType: 'message',
+                        text: 'LRT BRIDGING A',
+                        font: 'Calibri-11:2',
+                        spacing: 2,
+                        marginTop: 4
                     },
                 ],
                 scrollFont: "ArialBold-8:2"
             },
-            rear: {
+            rear: { 
+                renderType: 'twoline',
+                top: "LRT",
+                topFont: "ArialBold-8",
+
+                bottom: "A",
+                bottomFont: "ArialBold-8",
+            }
+        }
+    },
+    153: { // Done
+        1: {
+            front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "WELCOME",
+                destination: "LRT BRIDGING B",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
                     {
-                    renderType: "destScroll",
-                    top: "",
-                    topFont: "Hanover-7:3",
-                    bottom: "",
-                    bottomFont: "Hanover-7:3",
-        
-                    serviceNumber: ""
+                        renderType: 'message',
+                        text: 'LRT BRIDGING B',
+                        font: 'Calibri-11:2',
+                        spacing: 2,
+                        marginTop: 4
                     },
                 ],
                 scrollFont: "ArialBold-8:2"
+            },
+            rear: { 
+                renderType: 'twoline',
+                top: "LRT",
+                topFont: "ArialBold-8",
+
+                bottom: "B",
+                bottomFont: "ArialBold-8",
             }
         }
     },
@@ -1926,6 +2025,221 @@ EDSData.SMRT = {
             }
         }
     },
+    3152: { // Done
+        1: {
+            front: {
+                renderType: 'message',
+                text: 'FREE BRIDGING BUS',
+                font: 'Calibri-10',
+                spacing: 2,
+                marginTop: 4
+            },
+            rear: { 
+                renderType: 'twoline',
+                top: "",
+                topFont: "Arial-7",
+
+                bottom: "",
+                bottomFont: "Arial-7",
+            }
+        }
+    },
+    3153: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "LRT BRIDGING A",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                        renderType: 'message',
+                        text: 'LRT BRIDGING A',
+                        font: 'Calibri-11:2',
+                        spacing: 2,
+                        marginTop: 4
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: { 
+                renderType: 'twoline',
+                top: "LRT",
+                topFont: "ArialBold-8",
+
+                bottom: "A",
+                bottomFont: "ArialBold-8",
+            }
+        }
+    },
+    3154: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "NSL BRIDGING BUS",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                        renderType: 'message',
+                        text: 'NSL  BRIDGING  BUS',
+                        font: 'Calibri-11:2',
+                        spacing: 1,
+                        marginTop: 4
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: { 
+                renderType: 'twoline',
+                top: "NSL",
+                topFont: "ArialBold-8",
+
+                bottom: "",
+                bottomFont: "ArialBold-8",
+            }
+        }
+    },
+    3155: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "EWL BRIDGING BUS",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                        renderType: 'message',
+                        text: 'EWL BRIDGING BUS',
+                        font: 'Calibri-11:2',
+                        spacing: 1,
+                        marginTop: 4
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: { 
+                renderType: 'twoline',
+                top: "EWL",
+                topFont: "ArialBold-8",
+
+                bottom: "",
+                bottomFont: "ArialBold-8",
+            }
+        }
+    },
+    3156: { // To do: Edit font
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "CCL BRIDGING BUS",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                        renderType: 'message',
+                        text: 'CCL  BRIDGING  BUS',
+                        font: 'Arial-10',
+                        spacing: 1,
+                        marginTop: 4
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: { 
+                renderType: 'twoline',
+                top: "CCL",
+                topFont: "ArialBold-8",
+
+                bottom: "",
+                bottomFont: "ArialBold-8",
+            }
+        }
+    },
+    3157: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TEL BRIDGING BUS",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                        renderType: 'message',
+                        text: 'TEL  BRIDGING  BUS',
+                        font: 'Calibri-11:2',
+                        spacing: 1,
+                        marginTop: 4
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: { 
+                renderType: 'twoline',
+                top: "TEL",
+                topFont: "ArialBold-8",
+
+                bottom: "",
+                bottomFont: "ArialBold-8",
+            }
+        }
+    },
+    3160: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "NEL BRIDGING BUS",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                        renderType: 'message',
+                        text: 'NEL  BRIDGING  BUS',
+                        font: 'Calibri-11:2',
+                        spacing: 1,
+                        marginTop: 4
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: { 
+                renderType: 'twoline',
+                top: "NEL",
+                topFont: "ArialBold-8",
+
+                bottom: "",
+                bottomFont: "ArialBold-8",
+            }
+        }
+    },
+    3161: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "DTL BRIDGING BUS",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                        renderType: 'message',
+                        text: 'DTL  BRIDGING  BUS',
+                        font: 'Calibri-11:2',
+                        spacing: 1,
+                        marginTop: 4
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: { 
+                renderType: 'twoline',
+                top: "DTL",
+                topFont: "ArialBold-8",
+
+                bottom: "",
+                bottomFont: "ArialBold-8",
+            }
+        }
+    },
     4051: {
         1: {
             front: {
@@ -2135,6 +2449,171 @@ EDSData.SMRT = {
                 serviceNumber: "902",
                 font: "LECIP-SMRTRear14:9",
                 spacing: 2
+            }
+        }
+    },
+    9166: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "MERRY CHRISTMAS",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll2",
+                    top: "MERRY CHRISTMAS",
+                    topFont: "ArialBold-8:2",
+                    bottom: "HAPPY NEW YEAR",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: ""
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "",
+                font: "ArialBold-8:2",
+                spacing: 2
+            }
+        }
+    },
+    9167: { // Done
+        1: {
+            front: {
+                renderType: 'message',
+                text: 'GONG XI FA CAI',
+                font: 'Arial-15:2',
+                spacing: 2,
+                marginTop: 3
+            },
+            rear: { 
+                renderType: 'twoline',
+                top: "",
+                topFont: "ArialBold-8",
+
+                bottom: "",
+                bottomFont: "Arial-7",
+            }
+        }
+    },
+    9168: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "SELAMAT HARI RAYA",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                renderType: 'message',
+                text: 'SELAMAT HARI RAYA',
+                font: 'Calibri-11:1',
+                spacing: 1,
+                marginTop: 4
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "",
+                font: "ArialBold-8:2",
+                spacing: 2
+            }
+        }
+    },
+    9169: { // Done
+        1: {
+            front: {
+                renderType: 'message',
+                text: 'HAPPY DEEPAVALI',
+                font: 'Arial-12',
+                spacing: 1,
+                marginTop: 4
+            },
+            rear: { 
+                renderType: 'twoline',
+                top: "",
+                topFont: "ArialBold-8",
+
+                bottom: "",
+                bottomFont: "Arial-7",
+            }
+        }
+    },
+    9170: { // Done
+        1: {
+            front: {
+                renderType: "destScroll3",
+                serviceNumber: "",
+                top: "HAPPY NATIONAL DAY",
+                bottom: "SINGAPORE !",
+                image: "SG-Flag"
+            },
+            rear: { 
+                renderType: "logo",
+                text: "NDP",
+                image: "SG-Flag2"
+            }
+        }
+    },
+    9171: { // Done
+        1: {
+            front: {
+                renderType: 'message',
+                text: 'YOUR RIDE, OUR PRIDE',
+                font: 'Calibri-10',
+                spacing: 2,
+                marginTop: 5
+            },
+            rear: { 
+                renderType: 'twoline',
+                top: "",
+                topFont: "ArialBold-8",
+
+                bottom: "",
+                bottomFont: "Arial-7",
+            }
+        }
+    },
+    9172: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "Moving WITH you",
+                destinationFont: "ArialBold-8:3",
+                scrolls: [
+                    {
+                    renderType: "destScroll2",
+                    top: "Moving WITH you - 13 June",
+                    topFont: "ArialBold-8:3",
+        
+                    serviceNumber: ""
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "WELCOME",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll",
+                    top: "",
+                    topFont: "Hanover-7:3",
+                    bottom: "",
+                    bottomFont: "Hanover-7:3",
+        
+                    serviceNumber: ""
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
             }
         }
     },
@@ -2499,7 +2978,7 @@ EDSData.SMRT = {
             }
         }
     },
-    9851: {
+    9851: { // Bomb
         1: {
             front: {
                 renderType: "standardService",
@@ -2514,7 +2993,11 @@ EDSData.SMRT = {
         
                     serviceNumber: "985"
                     },
+                "TECK WHYE AVE",
+                "B. B WEST AVE 7, 2",
+                "B. B EAST AVE 2",
                 'JLN JURONG KECHIL',
+                "BENDEMEER RD"
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -2526,7 +3009,7 @@ EDSData.SMRT = {
             }
         }
     },
-    9852: {
+    9852: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -2592,19 +3075,19 @@ EDSData.SMRT = {
             }
         }
     },
-    9996: { // Done
+    9995: { // Done
         1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "THINK SAFETY",
+                destination: " ",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
                     {
                     renderType: "destScroll2",
-                    top: "THINK SAFETY. WORK SAFELY",
+                    top: " ",
                     topFont: "ArialBold-8:2",
-                    bottom: "GO HOME SAFE",
+                    bottom: " ",
                     bottomFont: "ArialBold-8:2",
         
                     serviceNumber: ""
@@ -2620,19 +3103,19 @@ EDSData.SMRT = {
             }
         }
     },
-    9997: { // Done
+    9996: { // Done
         1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "MCHNY",
+                destination: "THINK SAFETY",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
                     {
                     renderType: "destScroll2",
-                    top: "MERRY CHRISTMAS",
+                    top: "THINK SAFETY. WORK SAFELY",
                     topFont: "ArialBold-8:2",
-                    bottom: "HAPPY NEW YEAR",
+                    bottom: "GO HOME SAFE",
                     bottomFont: "ArialBold-8:2",
         
                     serviceNumber: ""
@@ -2727,6 +3210,50 @@ EDSImages.SMRT = {
         [0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
         [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0],
         [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    ],
+    "SG-Flag": [
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+    ],
+    "SG-Flag2": [
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
     ],
     express: [
         [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0],
