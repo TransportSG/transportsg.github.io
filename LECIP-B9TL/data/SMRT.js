@@ -480,18 +480,49 @@ EDSData.SMRT = {
     117: { // Done
         1: {
             front: {
-                renderType: "logo",
-                text: "SMRT LOGO",
-                image: "logo"
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "WELCOME",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                        renderType: "destScroll2",
+                        top: "SMRT LECIP - NEW VERSION",
+                        topFont: "ArialBold-8:2",
+                        bottom: "WORK IN PROGRESS",
+                        bottomFont: "ArialBold-8:2",
+            
+                        serviceNumber: ""
+                        },
+                    {
+                        renderType: "logo",
+                        text: "SMRT LOGO",
+                        image: "logo"
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
             },
             rear: {
-                renderType: "rearService",
+                renderType: "standardService",
                 serviceNumber: "",
-                font: "ArialBold-8",
-                spacing: 1
+                destination: "WELCOME",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll",
+                    top: "Work In",
+                    topFont: "Hanover-7:3",
+                    bottom: "Progress",
+                    bottomFont: "Hanover-7:3",
+        
+                    serviceNumber: ""
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
             },
         }
     },
+
     151: { // Done
         1: {
             front: {
@@ -2384,46 +2415,6 @@ EDSData.SMRT = {
         }
     }
 },
-    9000: { // Done
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "",
-                destination: "WELCOME",
-                destinationFont: "ArialBold-8:2",
-                scrolls: [
-                    {
-                    renderType: "destScroll2",
-                    top: "SMRT LECIP - NEW VERSION",
-                    topFont: "ArialBold-8:2",
-                    bottom: "WORK IN PROGRESS",
-                    bottomFont: "ArialBold-8:2",
-        
-                    serviceNumber: ""
-                    },
-                ],
-                scrollFont: "ArialBold-8:2"
-            },
-            rear: {
-                renderType: "standardService",
-                serviceNumber: "",
-                destination: "WELCOME",
-                destinationFont: "ArialBold-8:2",
-                scrolls: [
-                    {
-                    renderType: "destScroll",
-                    top: "Work In",
-                    topFont: "Hanover-7:3",
-                    bottom: "Progress",
-                    bottomFont: "Hanover-7:3",
-        
-                    serviceNumber: ""
-                    },
-                ],
-                scrollFont: "ArialBold-8:2"
-            }
-        }
-    },
     9021: { // Done
         1: {
             front: {
