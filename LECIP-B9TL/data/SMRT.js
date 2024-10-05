@@ -522,7 +522,6 @@ EDSData.SMRT = {
             },
         }
     },
-
     151: { // Done
         1: {
             front: {
@@ -595,6 +594,32 @@ EDSData.SMRT = {
 
                 bottom: "B",
                 bottomFont: "ArialBold-8",
+            }
+        }
+    },
+    1101: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "110",
+                destination: "CHANGI AIRPORT via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll",
+                    top: "",
+                    topFont: "Arial-10",
+        
+                    serviceNumber: "110"
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "110",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
             }
         }
     },
@@ -1175,7 +1200,7 @@ EDSData.SMRT = {
             }
         }
     },
-    1881: {
+    1881: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -1190,7 +1215,11 @@ EDSData.SMRT = {
         
                     serviceNumber: "188"
                     },
-                'CLEMENTI',
+                    "C. C. K WAY",
+                    "B. B WEST AVE 4, 2",
+                    "TOH GUAN RD",
+                    "AYE, CLEMENTI",
+                    "PASIR PANJANG"
                 ],
                 scrollFont: "ArialBold-8:2"
             },
