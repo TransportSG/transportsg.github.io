@@ -6518,8 +6518,18 @@ EDSData.TTSG = {
                     serviceNumber: "861A",
                     top: "Ends At",
                     topFont: "Mobitec-7:5:3",
-                    bottom: "Khatib Stn Exit D",
+                    bottom: "Yishun Ring Rd",
                     bottomFont: "Mobitec-Tower6:4",
+                    image: "mrt"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "861A",
+                    top: "Ends At",
+                    topFont: "Mobitec-7:5:3",
+                    bottom: "(Khatib Stn Exit D)",
+                    bottomFont: "Mobitec-Tower6:4",
+                    image: "mrt"
                 },
             ]
         }

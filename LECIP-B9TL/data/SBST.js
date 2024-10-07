@@ -56,6 +56,59 @@ EDSFormats.SBST = {
 
         text: "$destination"
     },
+    destScroll: {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 1,
+                top: 0
+            },
+            text: "$serviceNumber",
+            font: "LECIP-20:12",
+            spacing: {
+                $$cond: {
+                    "$spacing === null" : 2,
+                    "else": "$spacing"
+                }
+            }
+        },
+        top: {
+            align: {
+                $$cond: {
+                    "$bottom === null": "centre-x,centre-y",
+                    "else": "centre-x,top"
+                }
+            },
+            text: "$top",
+            font: "$topFont",
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber)'
+            }
+        },
+        bottom: {
+            align: "centre-x,bottom",
+            text: {
+                $$cond: {
+                    "$bottom !== null": "$bottom",
+                    "else": "''"
+                }
+            },
+            font: {
+                $$cond: {
+                    "$bottomFont !== null": "$bottomFont",
+                    "else": "ArialBold-8:2"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber)',
+                bottom: 1
+            }
+        },
+
+        text: "$top+' '+$bottom+' '+$serviceNumber"
+    },
     logo: {
         logo: {
             align: "centre-x,bottom",
@@ -3769,10 +3822,13 @@ EDSData.SBST = {
     "50A": {
         1: {
             front: {
-                renderType: "swt",
-                serviceNumber: "50A",
-                terminateAt: "AMK AVE 8",
-                landmark: "(BEF ANG MO KIO STN EXIT B)"
+                renderType: "destScroll",
+                top: "TERMINATES BEFORE",
+                topFont: "LECIP-7:5",
+                bottom: "ANG MO KIO STN EXIT B",
+                bottomFont: "LECIP-7:5",
+        
+                serviceNumber: "50A"
             },
             rear: {
                 renderType: "rearService",
