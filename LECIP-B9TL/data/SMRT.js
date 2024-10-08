@@ -2427,23 +2427,33 @@ EDSData.SMRT = {
     },
     7996: { // Done
         1: {
-        front: {
-            renderType: "message",
-            text: "SMRT STAFF FERRY @",
-            font: "Mobitec-SMRTStaffFerry",
-            spacing: 1,
-            marginTop: 2
-        },
-        rear: { 
-            renderType: 'twoline',
-            top: "STAFF",
-            topFont: "Calibri-7:2",
-
-            bottom: "FERRY",
-            bottomFont: "Calibri-7:2",
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "SMRT STAFF FERRY",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                        renderType: "message",
+                        text: "SMRT STAFF FERRY @",
+                        font: "Mobitec-SMRTStaffFerry",
+                        spacing: 1,
+                        marginTop: 2
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "STAFF",
+                topFont: "Calibri-7:2",
+    
+                bottom: "FERRY",
+                bottomFont: "Calibri-7:2",
+            }
         }
-    }
-},
+    },
+
     9021: { // Done
         1: {
             front: {

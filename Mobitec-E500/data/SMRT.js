@@ -10204,10 +10204,22 @@ EDSData.SMRT = {
     },
     7996: {
         front: {
-            renderType: "message",
-            text: "SMRT STAFF FERRY @",
-            font: "Mobitec-SMRTStaffFerry",
-            spacing: 1
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "SMRT STAFF FERRY",
+                font: "Mobitec-7:5:3"
+            },
+            scrolls: [
+                {
+                    renderType: "message",
+                    text: "SMRT STAFF FERRY @",
+                    font: "Mobitec-SMRTStaffFerry",
+                    spacing: 1
+                },
+
+            ],
+            scrollFont: "Mobitec-7:7"
         }
     },
     7997: {
