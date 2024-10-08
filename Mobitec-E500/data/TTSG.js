@@ -7686,7 +7686,7 @@ EDSData.TTSG = {
     9691: {
         front: {
             renderType: "standardService",
-            serviceNumber: "966",
+            serviceNumber: "969",
             destination: "TAMPINES",
             scrolls: [
                 "WOODLANDS AVE 7",
