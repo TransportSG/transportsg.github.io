@@ -1333,7 +1333,7 @@ EDSData.SMRT = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "190A",
-                destination: "PIONEER MRT",
+                destination: "DHOBY GHAUT MRT",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
                     {
