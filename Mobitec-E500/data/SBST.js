@@ -4422,6 +4422,42 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "123M",
             destination: {
+                text: "> TIONG BAHRU",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+                "KAMPONG BAHRU RD",
+                "LOWER DELTA RD ",
+                "BUKIT PURMEI AVE",
+                "LOWER DELTA RD ",
+                "TIONG BAHRU STN",
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    1238: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "123M",
+            destination: {
+                text: "> HARBOURFRONT INT",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+                "TIONG BAHRU STN",
+                "LOWER DELTA RD",
+                "BUKIT PURMEI AVE",
+                "LOWER DELTA RD",
+                "TELOK BLANGAH RD"
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    1239: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "123M",
+            destination: {
                 text: "HARBOURFRONT-T. BAHRU",
                 font: "Mobitec-7:4"
             },
