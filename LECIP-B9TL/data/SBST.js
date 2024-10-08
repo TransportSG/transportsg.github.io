@@ -265,6 +265,56 @@ EDSFormats.SBST = {
         },
         text: "$top"
     },
+    twoline2: {
+        top: {
+            align: "centre-x,top",
+            text: "$top",
+            font: "$topFont",
+            spacing: {
+                top: {
+                $$cond: {
+                    "$spacingTop === undefined": 2,
+                    "else": "$spacingTop"
+                }
+            },
+            },
+            margin: {
+                top: {
+                $$cond: {
+                    "$marginTop === undefined": 0,
+                    "else": "$marginTop"
+                }
+            },
+            left: {
+                $$cond: {
+                    "$marginLeft === undefined": 0,
+                    "else": "$marginLeft"
+                }
+            }
+        },
+    },
+        bottom: {
+            align: "centre-x,bottom",
+            text: "$bottom",
+            font: "$bottomFont",
+            spacing: "$bottomSpacing",
+            margin: {
+                top: {
+                    $$cond: {
+                        "$marginBottom === undefined": 0,
+                        "else": "$marginBottom"
+                    }
+                },
+                left: {
+                    $$cond: {
+                        "$marginLeft === undefined": 0,
+                        "else": "$marginLeft"
+                    }
+                }
+            },
+        },
+        text: "'top+' '+$bottom'"
+    },
     rearService: {
         serviceNumber: {
             align: "centre-x,centre-y",
@@ -8231,7 +8281,53 @@ EDSData.SBST = {
             }
         }
     },
-     "123M": {
+   "123M": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "123M",
+                destination: "> TIONG BAHRU",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    "KAMPONG BAHRU RD",
+                    "LOWER DELTA RD (BLK 40)",
+                    "BUKIT PURMEI AVE",
+                    "LOWER DELTA RD (BLK 129)",
+                    "TIONG BAHRU STN",
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "123M",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "123M",
+                destination: "> HARBOURFRONT INT",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    "TIONG BAHRU STN",
+                    "LOWER DELTA RD (BLK 25B)",
+                    "BUKIT PURMEI AVE",
+                    "LOWER DELTA RD (BLK 105)",
+                    "TELOK BLANGAH RD"
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "123M",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
+     "123X": {
         1: {
             front: {
                 renderType: "standardService",
@@ -13618,10 +13714,15 @@ EDSData.SBST = {
                 scrollFont: "LECIP-7:5"
             },
             rear: {
-                renderType: "rearService",
-                serviceNumber: "315",
-                font: "LECIP-20:9",
-                spacing: 2
+                renderType: 'twoline2',
+                top: "3 1 5",
+                topFont: "LECIP-13:9",
+                spacingTop: "2",
+                
+
+                bottom: "SGN NTH",
+                bottomFont: "LECIP-6:3",
+                marginBottom: "0"
             }
         },
         2: {
@@ -13639,10 +13740,15 @@ EDSData.SBST = {
                 scrollFont: "LECIP-7:5"
             },
             rear: {
-                renderType: "rearService",
-                serviceNumber: "315",
-                font: "LECIP-20:9",
-                spacing: 2
+                renderType: 'twoline2',
+                top: "3 1 5",
+                topFont: "LECIP-13:9",
+                spacingTop: "2",
+                
+
+                bottom: "SGN INT",
+                bottomFont: "LECIP-6:3",
+                marginBottom: "0"
             }
         }
     },
@@ -13663,10 +13769,16 @@ EDSData.SBST = {
                 scrollFont: "LECIP-7:5"
             },
             rear: {
-                renderType: "rearService",
-                serviceNumber: "317",
-                font: "LECIP-20:9",
-                spacing: 2
+                renderType: 'twoline2',
+                top: "3 1 7",
+                topFont: "LECIP-12:8",
+                spacingTop: "2",
+                
+
+                bottom: "B'WICK",
+                bottomFont: "LECIP-6:3",
+                marginBottom: "-1"
+                
             }
         },
         2: {
@@ -13686,10 +13798,15 @@ EDSData.SBST = {
                 scrollFont: "LECIP-7:5"
             },
             rear: {
-                renderType: "rearService",
-                serviceNumber: "317",
-                font: "LECIP-20:9",
-                spacing: 2
+                renderType: 'twoline2',
+                top: "3 1 7",
+                topFont: "LECIP-12:8",
+                spacingTop: "2",
+                
+
+                bottom: "SGN INT",
+                bottomFont: "LECIP-6:3",
+                marginBottom: "-1"
             }
         }
     },
