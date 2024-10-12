@@ -1231,7 +1231,7 @@ EDSData.SMRT = {
             }
         }
     },
-    1882: {
+    1882: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -1251,6 +1251,8 @@ EDSData.SMRT = {
                     'TELOK BLANGAH RD',
                     'PASIR PANJANG',
                     "CLEMENTI",
+                    "TOH GUAN RD",
+                    "B.B WEST AVE 6, 3"
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -1262,7 +1264,7 @@ EDSData.SMRT = {
             }
         }
     },
-    1901: {
+    1901: { 
         1: {
             front: {
                 renderType: "standardService",
