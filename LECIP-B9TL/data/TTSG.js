@@ -78,6 +78,7 @@ EDSFormats.TTSG = {
 
         text: "$destination"
     },
+
     message: {
         display: {
             align: "centre-x,centre-y",
@@ -505,6 +506,59 @@ EDSFormats.TTSG = {
             spacing: 1,
             margin: {
                 right: 'width(serviceNumber)'
+            }
+        },
+
+        text: "$top+' '+$bottom+' '+$serviceNumber"
+    },
+    destScroll974: {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 1
+            },
+            text: "$serviceNumber",
+            font: "LECIP-19:GoAheadB9Front",
+            spacing: {
+                $$cond: {
+                    "$spacing === null" : 3,
+                    "else": "$spacing"
+                }
+            }
+        },
+        top: {
+            align: {
+                $$cond: {
+                    "$bottom === null": "centre-x,centre-y",
+                    "else": "centre-x,top"
+                }
+            },
+            text: "$top",
+            font: "$topFont",
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber)',
+                top: "1",
+            }
+        },
+        bottom: {
+            align: "centre-x,bottom",
+            text: {
+                $$cond: {
+                    "$bottom !== null": "$bottom",
+                    "else": "''"
+                }
+            },
+            font: {
+                $$cond: {
+                    "$bottomFont !== null": "$bottomFont",
+                    "else": "LECIP-10"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber)',
+                bottom: "1"
             }
         },
 
@@ -7515,6 +7569,129 @@ EDSData.TTSG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "974",
+                serviceFont: "LECIP-19:GoAheadB9Front",
+                destination: "BUKIT PANJANG",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                    "UPPER JURONG RD",
+                    "JURONG WEST ST 63",
+                    "JALAN BOON LAY",
+                    "CHOA CHU KANG MRT",
+                    "CHOA CHU KANG WAY",
+                {
+                    renderType: "destScroll974",
+                    top: "BUKIT PANJANG",
+                    topFont: "Hanover-Tower12:7",
+        
+                    serviceNumber: "974",
+                    serviceFont: "LECIP-19:GoAheadB9Front",
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "",
+                font: "LECIP-TowerRear17:10",
+                spacing: 1
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "974",
+                serviceFont: "LECIP-19:GoAheadB9Front",
+                destination: "JOO KOON",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                    "CHOA CHU KANG WAY",
+                    "CHOA CHU KANG MRT",
+                    "JALAN BOON LAY",
+                    "JURONG WEST ST 63",
+                    "UPPER JURONG RD",
+                    {
+                        renderType: "destScroll974",
+                        top: "JOO KOON",
+                        topFont: "Hanover-Tower12:7",
+            
+                        serviceNumber: "974"
+                    },
+                    ],
+                    scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "",
+                font: "LECIP-TowerRear17:10",
+                spacing: 1
+            }
+        }
+    },
+    "974A": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "974A",
+                destination: "LOT 1 SHOPPER'S MALL",
+                destinationFont: "Hanover-10",
+                scrolls: [
+                    {
+                    renderType: "destScroll974",
+                    serviceNumber: "974A",
+                    top: "ENDS AT CCK STN",
+                    topFont: "Hanover-8:4",
+                    bottom: "VIA BUKIT PANJANG",
+                    bottomFont: "Hanover-8:4",
+                    },
+                    {
+                    renderType: "destScroll974",
+                    serviceNumber: "974A",
+                    top: "ENDS AT LOT 1",
+                    topFont: "Hanover-8:4",
+                    bottom: "VIA BUKIT PANJANG",
+                    bottomFont: "Hanover-8:4",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: { 
+                renderType: "rearService",
+                serviceNumber: "",
+                font: "LECIP-TowerRear17:7",
+                spacing: 1
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "974A",
+                destination: "LOT 1 SHOPPER'S MALL",
+                destinationFont: "Hanover-10",
+                scrolls: [
+                    {
+                    renderType: "message4",
+                    serviceNumber: "974A",
+                    top: "ENDS AT",
+                    topFont: "Hanover-Tower11:7",
+                    bottom: "LOT 1 SHOPPERS MALL",
+                    bottomFont: "Hanover-Tower7:5",
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: { 
+                renderType: "rearService",
+                serviceNumber: "974A",
+                font: "LECIP-TowerRear17:7",
+                spacing: 1
+            }
+        }
+    },
+    "974J": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "974",
                 destination: "BUKIT PANJANG",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [                    
@@ -7566,33 +7743,6 @@ EDSData.TTSG = {
                 renderType: "rearService",
                 serviceNumber: "97$",
                 font: "LECIP-TowerRear17:10",
-                spacing: 1
-            }
-        }
-    },
-    "974A": {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "974A",
-                destination: "LOT 1 SHOPPER'S MALL",
-                destinationFont: "Hanover-10",
-                scrolls: [
-                    {
-                    renderType: "message4",
-                    serviceNumber: "974A",
-                    top: "ENDS AT",
-                    topFont: "Hanover-Tower11:7",
-                    bottom: "LOT 1 SHOPPERS MALL",
-                    bottomFont: "Hanover-Tower7:5",
-                    },
-                ],
-                scrollFont: "Hanover-7:5"
-            },
-            rear: { 
-                renderType: "rearService",
-                serviceNumber: "974A",
-                font: "LECIP-TowerRear17:7",
                 spacing: 1
             }
         }
