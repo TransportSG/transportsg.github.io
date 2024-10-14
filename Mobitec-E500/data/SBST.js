@@ -6645,8 +6645,7 @@ EDSData.SBST = {
             renderType: "expressService",
             serviceNumber: "196e"
         }
-    },
-    1971: {
+    },    1971: {
         front: {
             renderType: "standardService",
             serviceNumber: "197",
@@ -6665,7 +6664,7 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
-    1962: {
+    1972: {
         front: {
             renderType: "standardService",
             serviceNumber: "197",
@@ -6734,7 +6733,7 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "199",
             destination: {
-                text: "BOONLAY INT-NANYANG CRES",
+                text: "BOON LAY INT-NANYANG CRES",
                 font: "Mobitec-7:4"
             },
             scrolls: [

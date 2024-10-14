@@ -2313,6 +2313,10 @@ EDSData.GASG = {
                     bottomFont: "Mobitec-7:5:1",
                     image: "CityDirect",
                 },
+                "TANJONG PAGAR MRT",
+                "MARINA BOULEVARD",
+                "MARINA BAY SANDS",
+                "PROMENADE MRT"
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -2322,7 +2326,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "673",
             destination: {
-                text: "PUNGGOL WAY",
+                text: "PUNGGOL POINT",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -2331,10 +2335,15 @@ EDSData.GASG = {
                     serviceNumber: "673",
                     top: "Punggol",
                     topFont: "Mobitec-7:5:2",
-                    bottom: "Way",
+                    bottom: "Point",
                     bottomFont: "Mobitec-7:5:2",
                     image: "CityDirect",
                 },
+                "SHENTON WAY",
+                "PUNGGOL WAY / FIELD",
+                "SUMANG CRES / LANE",
+                "SUMANG WALK / LINK",
+                "NIBONG / SAMUDERA LRT"
             ],
             scrollFont: "Mobitec-7:4"
         }

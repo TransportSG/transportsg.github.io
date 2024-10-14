@@ -3037,6 +3037,34 @@ EDSData.SMRT = {
             }
         }
     }, 
+    9743: { // Bomb
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "974A",
+                destination: "C.C.K STN / LOT 1",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll2",
+                    top: "ENDS AT",
+                    topFont: "ArialBold-8:2",
+                    bottom: "C.C.K STN / LOT 1",
+                    bottomFont: "Calibri-7",
+        
+                    serviceNumber: "974A"
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "974A",
+                font: "Arial-10",
+                spacing: 1
+            }
+        }
+    },
     9791: { // Done
         1: {
             front: {

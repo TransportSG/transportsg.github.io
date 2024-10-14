@@ -8237,7 +8237,7 @@ EDSData.TTSG = {
     5000: {
         1: {
             front: {
-                renderType: "twolinefront",
+                renderType: "twolinerear",
                 top: "Route Familiarisation",
                 topFont: "Hanover-8:4",
                 topSpacing: 1,
