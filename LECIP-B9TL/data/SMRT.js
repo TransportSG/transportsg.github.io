@@ -2086,6 +2086,91 @@ EDSData.SMRT = {
             }
         }
     },
+    3071: { // Not Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "307",
+                destination: "C. C. K INT via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll",
+                    top: "CHOA CHU KANG",
+                    topFont: "ArialBold-8:2",
+                    bottom: "INT / MRT / LRT",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "307"
+                    },
+                    "YEW TEE"
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "307",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    3072: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "307A",
+                destination: "C.C.K VIA YEW TEE",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll2",
+                    top: "ENDS{OPP{CCK{MRt",
+                    topFont: "ArialBold-8:2",
+                    bottom: "YEW TEE MRT",
+                    bottomFont: "Calibri-7:2",
+        
+                    serviceNumber: "307A"
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "307A",
+                font: "Arial-10",
+                spacing: 1
+            }
+        }
+    },
+    3073: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "307T",
+                destination: "C.C.K VIA TECK WHYE",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll2",
+                    top: "ENDS{AT{CCK{INT{via",
+                    topFont: "ArialBold-8:2",
+                    bottom: "TECK WHYE",
+                    bottomFont: "Calibri-7:2",
+        
+                    serviceNumber: "307T"
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "307T",
+                font: "Arial-10",
+                spacing: 1
+            }
+        }
+    },
     3152: { // Done
         1: {
             front: {
@@ -3047,10 +3132,10 @@ EDSData.SMRT = {
                 scrolls: [
                     {
                     renderType: "destScroll2",
-                    top: "ENDS AT",
+                    top: "ENDS AT LOT 1",
                     topFont: "ArialBold-8:2",
-                    bottom: "C.C.K STN / LOT 1",
-                    bottomFont: "Calibri-7",
+                    bottom: "C. C. K STN",
+                    bottomFont: "ArialBold-8:2",
         
                     serviceNumber: "974A"
                     },
