@@ -85,7 +85,12 @@ EDSFormats.SMRT = {
             },
             text: "$top",
             font: "$topFont",
-            spacing: 1,
+            spacing: {
+                $$cond: {
+                    "$topSpacing === null" : 1,
+                    "else": "$topSpacing"
+                }
+            },
             margin: {
                 right: 'width(serviceNumber)'
             }
@@ -702,6 +707,70 @@ EDSData.SMRT = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "172",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    1761: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "176",
+                destination: "BUKIT MERAH via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll",
+                    top: "BUKIT MERAH",
+                    topFont: "Arial-12:2",
+        
+                    serviceNumber: "176"
+                    },
+                    "UPP BUKIT TIMAH RD",
+                    "HILLVIEW AVENUE",
+                    "BT BATOK CTR / MRT",
+                    "JURONG TOWN HALL",
+                    "TELOK BLANGAH RD"
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "176",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    1762: { // Bomb
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "176",
+                destination: "BT PANJANG via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll",
+                    top: "BT PANJANG",
+                    topFont: "ArialBold-8:2",
+                    bottom: "INT / LRT",
+                    bottomFont: "ArialBold-8:2",
+            
+                    serviceNumber: "176"
+                    },
+                    "TELOK BLANGAH RD",
+                    "W. COAST HIGHWAY",
+                    "JURONG TOWN HALL",
+                    "BT BATOK CTR / MRT",
+                    "HILLVIEW AVENUE",
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "176",
                 font: "LECIP-SMRTRear14:9",
                 spacing: 2
             }
@@ -2506,6 +2575,38 @@ EDSData.SMRT = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "665",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    7501: { // Bomb / Refer from Mobi
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "75",
+                destination: "BUKIT MERAH via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll",
+                    top: "BUKIT MERAH",
+                    topFont: "Arial-12:2",
+        
+                    serviceNumber: "75"
+                    },
+                    "UPP BUKIT TIMAH RD",
+                    "CLEMENTI / HOLLAND RD",
+                    "GREAT WORLD CITY",
+                    "OUTRAM RD",
+                    "TIONG BAHRU RD",
+                    "KIM TIAN RD"
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "75",
                 font: "LECIP-SMRTRear14:9",
                 spacing: 2
             }
