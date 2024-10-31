@@ -4047,30 +4047,59 @@ EDSData.SMRT = {
         1: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "64",
-                destination: "MEI LING ST via",
+                serviceNumber: "989",
+                destination: "CHANGI AIRPORT via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
                     {
                     renderType: "destScroll",
-                    top: "MEI LING ST",
+                    top: "CHANGI AIRPORT",
                     topFont: "Arial-10",
         
-                    serviceNumber: "64"
+                    serviceNumber: "989"
                     },
-                'MACPHERSON RD',
-                'JLN BESAR',
-                "BENCOOLEN ST, MRT",
-                'CLEMENCEAU AVE',
-                'HAVELOCK RD, MRT',
-                "TIONG BAHRU RD",
-                'ALEXANDRA ROAD'    
+                'TECK WHYE AVE',
+                {
+                    renderType: "message",
+                    text: "989",
+                    font: "Arial-17",
+                    spacing: 5,
+                    marginTop: 1
+                },
+                'BT BATOK RD',
+                "B. B. WEST AVE 7, 5, 2",
+                {
+                    renderType: "message",
+                    text: "989",
+                    font: "Arial-17",
+                    spacing: 5,
+                    marginTop: 1
+                },
+                'BT BATOK CTR/MRT',
+                'B. B. EAST AVE 6',
+                {
+                    renderType: "message",
+                    text: "989",
+                    font: "Arial-17",
+                    spacing: 5,
+                    marginTop: 1
+                },
+                "JALAN TOA PAYOH",
+                'AIRPORT BLVD',
+                {
+                    renderType: "message",
+                    text: "989",
+                    font: "Arial-17",
+                    spacing: 5,
+                    marginTop: 1
+                },
+
                 ],
                 scrollFont: "ArialBold-8:2"
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "64",
+                serviceNumber: "989",
                 font: "LECIP-SMRTRear14:9",
                 spacing: 2
             }
