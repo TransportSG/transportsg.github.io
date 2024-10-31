@@ -2580,6 +2580,72 @@ EDSData.SMRT = {
             }
         }
     },
+    6701: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "67",
+                destination: "TAMPINES INT via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll",
+                    top: "TAMPINES",
+                    topFont: "ArialBold-8:2",
+                    bottom: "INT / MRT",
+                    bottomFont: "ArialBold-8:2",
+                
+                    serviceNumber: "67"
+                    },
+                "UPP BUKIT TIMAH",
+                "DUNEARN RD",
+                "SERANGOON RD",
+                "SIMS AVE",
+                "BEDOK NORTH AVE 3",
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "67",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    6702: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "67",
+                destination: "C. C. K INT via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll",
+                    top: "CHOA CHU KANG",
+                    topFont: "ArialBold-8:2",
+                    bottom: "INT / MRT / LRT",
+                    bottomFont: "ArialBold-8:2",
+            
+                    serviceNumber: "67"
+                    },
+                "BEDOK NORTH AVE 3",
+                "NEW UPP CHANGI RD",
+                "GEYLANG RD",
+                "JALAN BESAR",
+                "UPPER BUKIT TIMAH",
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "67",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
     7501: { // Bomb / Refer from Mobi
         1: {
             front: {
