@@ -1362,7 +1362,7 @@ EDSData.SBST = {
     260: {
         front: {
             renderType: "message",
-            text: "EB20",
+            text: "EB26",
             font: "Mobitec-16:8",
             spacing: 1
         }
@@ -1630,7 +1630,7 @@ EDSData.SBST = {
     310: {
         front: {
             renderType: "message",
-            text: "EB30",
+            text: "EB31",
             font: "Mobitec-16:8",
             spacing: 1
         }
@@ -1795,14 +1795,6 @@ EDSData.SBST = {
             spacing: 1
         }
     },
-    350: {
-        front: {
-            renderType: "message",
-            text: "EB35",
-            font: "Mobitec-16:8",
-            spacing: 1
-        }
-    },
     351: {
         front: {
             renderType: "standardService",
@@ -1851,22 +1843,6 @@ EDSData.SBST = {
                 "NEW UPPER CHANGI RD"
             ],
             scrollFont: "Mobitec-6:5"
-        }
-    },
-    360: {
-        front: {
-            renderType: "message",
-            text: "EB36",
-            font: "Mobitec-16:8",
-            spacing: 1
-        }
-    },
-    370: {
-        front: {
-            renderType: "message",
-            text: "EB37",
-            font: "Mobitec-16:8",
-            spacing: 1
         }
     },
     371: {
@@ -1929,14 +1905,6 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
-    390: {
-        front: {
-            renderType: "message",
-            text: "EB39",
-            font: "Mobitec-16:8",
-            spacing: 1
-        }
-    },
     391: {
         front: {
             renderType: "standardService",
@@ -1987,14 +1955,6 @@ EDSData.SBST = {
             destinationName: "PASIR RIS STN EXIT B"
         }
     },
-    400: {
-        front: {
-            renderType: "message",
-            text: "EB40",
-            font: "Mobitec-16:8",
-            spacing: 1
-        }
-    },
     401: {
         front: {
             renderType: "standardService",
@@ -2010,22 +1970,6 @@ EDSData.SBST = {
                 'SIMS AVE'
             ],
             scrollFont: "Mobitec-6:5"
-        }
-    },
-    410: {
-        front: {
-            renderType: "message",
-            text: "EB41",
-            font: "Mobitec-16:8",
-            spacing: 1
-        }
-    },
-    420: {
-        front: {
-            renderType: "message",
-            text: "EB42",
-            font: "Mobitec-16:8",
-            spacing: 1
         }
     },
     421: {
@@ -2809,6 +2753,30 @@ EDSData.SBST = {
             destinationName: "BEDOK INT"
         }
     },
+    610: {
+        front: {
+            renderType: "message",
+            text: "EB61",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    620: {
+        front: {
+            renderType: "message",
+            text: "EB62",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    630: {
+        front: {
+            renderType: "message",
+            text: "EB63",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
     631: {
         front: {
             renderType: "standardService",
@@ -2868,6 +2836,14 @@ EDSData.SBST = {
                 'CIRCUIT RD'
             ],
             scrollFont: "Mobitec-6:5"
+        }
+    },
+    640: {
+        front: {
+            renderType: "message",
+            text: "EB64",
+            font: "Mobitec-16:8",
+            spacing: 1
         }
     },
     641: {
@@ -4142,6 +4118,22 @@ EDSData.SBST = {
             serviceNumber: "114A",
             destinationRoad: "BUANGKOK",
             destinationName: "CRESCENT (BLK 998B)"
+        }
+    },
+    1149: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "114",
+            destination: {
+                text: "BUANGKOK INT-BUANGKOK CR",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+                'BUANGKOK LINK',
+                'BUANGKOK CRES',
+                'BUANGKOK DR'
+            ],
+            scrollFont: "Mobitec-6:5"
         }
     },
     1151: {
@@ -5495,6 +5487,48 @@ EDSData.SBST = {
                 "YIO CHU KANG RD",
                 "BUANGKOK GREEN",
                 "SENGKANG EAST RD"
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    1568: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "156",
+            destination: {
+                text: "> CLEMENTI INT",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                "SENGKANG EAST WAY",
+                "BUANGKOK GREEN",
+                "YIO CHU KANG RD",
+                "BISHAN RD",
+                "THOMSON RD",
+                "DUNEARN RD",
+                "SIXTH AVE",
+                "ULU PANDAN RD"
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    1569: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "156",
+            destination: {
+                text: "> BUANGKOK INT",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                "ULU PANDAN RD",
+                "SIXTH AVE",
+                "DUNEARN RD",
+                "THOMSON RD",
+                "BISHAN RD",
+                "YIO CHU KANG RD",
+                "BUANGKOK GREEN",
+                "SENGKANG EAST WAY"
             ],
             scrollFont: "Mobitec-6:5"
         }
@@ -7806,6 +7840,24 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
+    3749: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "374",
+            destination: {
+                text: "> SENGKANG INT",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                "SENGKANG EAST WAY",
+                "ANCHORVALE CRES",
+                "COMPASSVALE RD",
+                "SENGKANG EAST WAY",
+                "FERNVALE RD"
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
     3861: {
         front: {
             renderType: "standardService",
@@ -8127,6 +8179,15 @@ EDSData.SBST = {
             spacing: 1
         }
     },
+    6607: {
+        front: {
+            renderType: "brandedSvc",
+            serviceNumber: "660M",
+            branding: "CITY  DIRECT",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
     6671: {
         front: {
             renderType: "brandedSvc",
@@ -8163,10 +8224,34 @@ EDSData.SBST = {
             spacing: 1
         }
     },
+    7040: {
+        front: {
+            renderType: "message",
+            text: "EB704",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
     7070: {
         front: {
             renderType: "message",
             text: "EB707",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    7150: {
+        front: {
+            renderType: "message",
+            text: "EB7157",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    7210: {
+        front: {
+            renderType: "message",
+            text: "EB721",
             font: "Mobitec-16:8",
             spacing: 1
         }
