@@ -3622,9 +3622,9 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "",
                     top: "Route Familiarisation ",
-                    topFont: "Mobitec-7:5:3",
+                    topFont: "Hanover-7:6:1",
                     bottom: "Training",
-                    bottomFont: "Mobitec-7:5:3",
+                    bottomFont: "Hanover-7:6:1",
                 },
             ]
         }
