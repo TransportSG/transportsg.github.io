@@ -7660,6 +7660,7 @@ EDSData.TTSG = {
             renderType: "standardService",
             serviceNumber: "966",
             destination: "MARINE PARADE",
+
             scrolls: [
                 "WOODLANDS AVE 3",
                 "PENDING RD",
@@ -7688,6 +7689,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "966",
                     top: "MARINE PARADE",
+                    image: "mrt"
                 }
             ]
         }
