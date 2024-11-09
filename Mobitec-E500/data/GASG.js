@@ -296,13 +296,17 @@ EDSData.GASG = {
                     renderType: "destScroll",
                     serviceNumber: "3A",
                     top: "TERMINATING AT",
+                    topFont: "Mobitec-7:7",
                     bottom: "PASIR RIS DR 12",
+                    bottomFont: "Mobitec-7:7"
                 },
                 {
                     renderType: "destScroll",
                     serviceNumber: "3A",
                     top: "TERMINATING AT",
+                    topFont: "Mobitec-7:7",
                     bottom: "BLK 747A",
+                    bottomFont: "Mobitec-7:7"
                 },
             ],
             scrollFont: "Mobitec-7:4"

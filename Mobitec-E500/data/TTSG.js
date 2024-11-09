@@ -5319,6 +5319,96 @@ EDSData.TTSG = {
             ]
         }
     },
+    6741: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "674",
+            destination: "MARINA BLVD",
+            scrolls: [
+                "TENGAH GARDEN AVE",
+                "TENGAH BOULEVARD",
+                "PLANTATION CRESCENT",
+                "ANSON RD",
+                "ROBINSON RD",
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "674",
+                    top: "Welcome on board",
+                    topFont: "Hanover-7:3",
+                    bottom: "Tower Transit",
+                    bottomFont: "Hanover-7:3",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "674",
+                    top: "Have a pleasant",
+                    topFont: "Hanover-7:3",
+                    bottom: "journey!",
+                    bottomFont: "Hanover-7:3",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "674",
+                    top: "MARINA BLVD",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "674",
+                    top: "City Direct",
+                    topFont: "Mobitec-Tower10:7",
+                    bottom: "TENGAH >> CBD",
+                    bottomFont: "Mobitec-5:3",
+                }
+            ]
+        }
+    },
+    6742: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "674",
+            destination: "TENGAH DRIVE",
+            scrolls: [
+                "CENTRAL BOULEVARD",
+                "SHENTON WAY",
+                "PLANTATION CRESCENT",
+                "TENGAH BOULEVARD",
+                "TENGAH GARDEN AVE",
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "674",
+                    top: "Welcome on board",
+                    topFont: "Hanover-7:3",
+                    bottom: "Tower Transit",
+                    bottomFont: "Hanover-7:3",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "674",
+                    top: "Have a safe ride",
+                    topFont: "Hanover-7:3",
+                    bottom: "home!",
+                    bottomFont: "Hanover-7:3",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "674",
+                    top: "TENGAH DRIVE"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "674",
+                    top: "City Direct",
+                    topFont: "Mobitec-Tower10:7",
+                    bottom: "CBD >> TENGAH",
+                    bottomFont: "Mobitec-5:3",
+                }
+            ]
+        }
+    },
     7098: {
         front: {
             renderType: "standardService",

@@ -283,7 +283,7 @@ EDSFormats.TTSG = {
             },
             text: "$serviceNumber",
             font: "LECIP-19:TowerB9Front",
-            spacing: 3
+            spacing: 2
         },
         top: {
             align: {
@@ -4825,6 +4825,80 @@ EDSData.TTSG = {
             }
         }
     },
+    674: { 
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "674",
+                destination: "MARINA BLVD",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                    "TENGAH GARDEN AVE",
+                    "TENGAH BOULEVARD",
+                    "PLANTATION CRESCENT",
+                    "ANSON RD",
+                    "ROBINSON RD",
+                {
+                    renderType: "destScroll",
+                    top: "CITY DIRECT",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "674"
+                }, 
+                {
+                    renderType: "destScroll",
+                    top: "MARINA  BOULEVARD",
+                    topFont: "Hanover-14:6",
+    
+                    serviceNumber: "674"
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "67$",
+                font: "LECIP-TowerRear17:10",
+                spacing: 1
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "674",
+                destination: "TENGAH DRIVE",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                    "CENTRAL BOULEVARD",
+                    "SHENTON WAY",
+                    "PLANTATION CRESCENT",
+                    "TENGAH BOULEVARD",
+                    "TENGAH GARDEN AVE",
+                {
+                    renderType: "destScroll",
+                    top: "CITY DIRECT",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "674"
+                },                
+                {
+                    renderType: "destScroll",
+                    top: "TENGAH DRIVE",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "674"
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "67$",
+                font: "LECIP-TowerRear17:10",
+                spacing: 1
+            }
+        }
+    },
     801: {
         1: {
             front: {
@@ -8148,6 +8222,34 @@ EDSData.TTSG = {
             }
         }
     },
+    1000: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "TEST MESSAGES",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "",
+                    topFont: "Hanover-Tower19:11",
+                    image: "1Jan2025"
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: 'destScroll',
+                top: "Message",
+                topFont: "Hanover-8:3",
+                bottom: "Testing",
+                bottomFont: "Hanover-8:3",
+           
+                serviceNumber: ""
+            }
+        }
+    },
     1111: {
         1: {
             front: {
@@ -10234,6 +10336,28 @@ EDSImages.TTSG = {
         [0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0],
         [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
         [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    ],
+    "1Jan2025": [ // 2024 Christmas message
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 1],
+        [0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1],
+        [0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 1],
+        [0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1],
+        [0, 1, 0, 1, 0, 0, 0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 1],
+        [0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1],
+        [0, 1, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1],
+        [1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 1, 0, 1, 0, 1, 1, 0, 1],
+        [1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1],
+        [1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
     ],
     Chingay50Logo1: [ // Side EDS
         [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],

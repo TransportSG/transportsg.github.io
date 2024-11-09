@@ -1451,17 +1451,18 @@ EDSData.GASG = {
                 serviceNumber: "34",
                 destination: "CHANGI AIRPORT",
                 destinationFont: "Hanover-10",
-                scrolls: [{
-                    renderType: "destScroll",
+                scrolls: [  
+                {
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "34",
                     top: "Changi Airport",
                     topFont: "Lecip-GoAhead16:10",
-        
-                    serviceNumber: "34"
+                    image: "plane"
                 },
-                    "PUNGGOL RD",
-                    "TPE",
-                    "TAMPINES AVE 10 / 5 / 2",
-                    "TAMPINES EAST MRT"
+                "PUNGGOL RD",
+                "TPE",
+                "TAMPINES AVE 10 / 5 / 2",
+                "TAMPINES EAST MRT"
                 ],
                 scrollFont: "Hanover-7:5"
             },
@@ -1610,13 +1611,14 @@ EDSData.GASG = {
                 serviceNumber: "36",
                 destination: "CHANGI AIRPORT",
                 destinationFont: "Hanover-10",
-                scrolls: [{
-                    renderType: "destScroll",
-                    top: "Changi Airport",
-                    topFont: "Lecip-GoAhead16:10",
-        
-                    serviceNumber: "36"
-                },
+                scrolls: [
+                    {
+                        renderType: "destScrollWithImage",
+                        serviceNumber: "36",
+                        top: "Changi Airport",
+                        topFont: "Lecip-GoAhead16:10",
+                        image: "plane"
+                    },
                     "ORCHARD RD",
                     "BRAS BASAH RD",
                     "SUNTEC CITY",
@@ -1718,10 +1720,37 @@ EDSData.GASG = {
         1: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "34T",
+                serviceNumber: "36T",
                 destination: "TERMINATES AT CHANGI AIRPORT",
                 destinationFont: "Hanover-10",
-                scrolls: [{
+                scrolls: [
+                {
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "36T",
+                    top: "TERMINATING AT",
+                    topFont: "Lecip-GoAhead8:6:2",
+                    bottom: "CHANGI AIRPORT T2",
+                    bottomFont: "Hanover-8",
+                    image: "plane"
+                },
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "36T",
+                font: "Lecip-GoAhead20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "36T",
+                destination: "TERMINATES AT CHANGI AIRPORT",
+                destinationFont: "Hanover-10",
+                scrolls: [
+                {
                     renderType: "destScrollWithImage",
                     serviceNumber: "36T",
                     top: "TERMINATING AT",
@@ -5410,6 +5439,26 @@ EDSData.GASG = {
 EDSImages.GASG = {
     blank: [
         [0]
+    ],
+    "plane": [ // Plane Logo
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0],
+        [0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1],
+        [0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0],
+        [0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0],
     ],
     "ChingayLogo-Full": [
         [0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0],
