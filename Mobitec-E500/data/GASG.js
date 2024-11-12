@@ -93,6 +93,69 @@ EDSFormats.GASG = {
         text: "$top+' '+$bottom+' '+$serviceNumber"
         
     },
+    destScroll2: {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 1
+            },
+            text: "$serviceNumber",
+            font: "Mobitec-GoAhead16:10",
+            spacing: 2
+        },
+        top: {
+            align: {
+                $$cond: {
+                    "$bottom === null": "centre-x,centre-y",
+                    "else": "centre-x,top"
+                }
+            },
+            text: "$top",
+            font: {
+                $$cond: {
+                    "$topFont === null": "Mobitec-7:5:1",
+                    "else": "$topFont"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber) - width(image)',
+                bottom: "2"
+                
+            }
+        },
+        bottom: {
+            align: "centre-x,bottom",
+            text: {
+                $$cond: {
+                    "$bottom !== null": "$bottom",
+                    "else": "''"
+                }
+            },
+            font: {
+                $$cond: {
+                    "$bottomFont === null": "Mobitec-7:5:1",
+                    "else": "$bottomFont"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber) - width(image)'
+            }
+        },
+        image: {
+            align: "left",
+            image: {
+                $$cond: {
+                    "$image !== null": "$image",
+                    "else": "blank"
+                }
+            }
+        },
+
+        text: "$top+' '+$bottom+' '+$serviceNumber"
+        
+    },
     ImageScroll: {
         image: {
             align: "centre-x,centre-y",
@@ -1352,14 +1415,14 @@ EDSData.GASG = {
                     topFont: "Mobitec-13:8"
                 },
                 {
-                    renderType: "destScroll",
+                    renderType: "destScroll2",
                     serviceNumber: "84G",
                     top: "via Sentul Cres",
                     topFont: "Mobitec-12:7"
                 },
               "NIBONG > NORTHSHORE > SIT"
             ],
-            scrollFont: "Mobitec-5:3"
+            scrollFont: "Hanover-7:3:2"
         }
     },
     842: {
@@ -1378,14 +1441,14 @@ EDSData.GASG = {
                     topFont: "Mobitec-13:8"
                 },
                 {
-                    renderType: "destScroll",
+                    renderType: "destScroll2",
                     serviceNumber: "84W",
                     top: "via SIT Punggol",
                     topFont: "Mobitec-12:7"
                 },
               "SIT > NORTHSHORE > NIBONG"
             ],
-            scrollFont: "Mobitec-5:3"
+            scrollFont: "Hanover-7:3:2"
         }
     },
     843: {
@@ -1410,7 +1473,7 @@ EDSData.GASG = {
                     bottom: "PUNGGOL COAST STN",
                 },
                 {
-                    renderType: "destScroll",
+                    renderType: "destScroll2",
                     serviceNumber: "84A",
                     top: "via SIT Punggol",
                     topFont: "Mobitec-12:7"
@@ -2338,16 +2401,17 @@ EDSData.GASG = {
                     renderType: "destScroll",
                     serviceNumber: "673",
                     top: "Punggol",
-                    topFont: "Mobitec-7:5:2",
+                    topFont: "Mobitec-7:5:1",
                     bottom: "Point",
-                    bottomFont: "Mobitec-7:5:2",
+                    bottomFont: "Mobitec-7:5:1",
                     image: "CityDirect",
                 },
                 "SHENTON WAY",
                 "PUNGGOL WAY / FIELD",
                 "SUMANG CRES / LANE",
                 "SUMANG WALK / LINK",
-                "NIBONG / SAMUDERA LRT"
+                "NIBONG LRT",
+                "SAMUDERA LRT"
             ],
             scrollFont: "Mobitec-7:4"
         }
