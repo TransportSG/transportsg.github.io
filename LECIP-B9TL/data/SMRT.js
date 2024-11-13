@@ -2457,7 +2457,7 @@ EDSData.SMRT = {
             }
         }
     },
-    3152: { // Done
+    3151: { // Done
         1: {
             front: {
                 renderType: 'message',
@@ -2476,7 +2476,7 @@ EDSData.SMRT = {
             }
         }
     },
-    3153: { // Done
+    3152: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -2500,6 +2500,34 @@ EDSData.SMRT = {
                 topFont: "ArialBold-8",
 
                 bottom: "A",
+                bottomFont: "ArialBold-8",
+            }
+        }
+    },
+    3153: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "LRT BRIDGING B",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                        renderType: 'message',
+                        text: 'LRT BRIDGING B',
+                        font: 'Calibri-11:2',
+                        spacing: 2,
+                        marginTop: 4
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: { 
+                renderType: 'twoline',
+                top: "LRT",
+                topFont: "ArialBold-8",
+
+                bottom: "B",
                 bottomFont: "ArialBold-8",
             }
         }
