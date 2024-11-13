@@ -3569,6 +3569,37 @@ EDSData.SMRT = {
             }
         }
     },
+    9272: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "927",
+                destination: "C. C. K INT via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll",
+                    top: "CHOA CHU KANG",
+                    topFont: "ArialBold-8:2",
+                    bottom: "INT / MRT / LRT",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "927"
+                    },
+                    "MANDAI ROAD",
+                    "WOODLANDS ROAD",
+                    "C. C. K DRIVE",
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "927",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
     9501: { // Done
         1: {
             front: {
