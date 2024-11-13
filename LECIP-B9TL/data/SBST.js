@@ -2104,8 +2104,8 @@ EDSData.SBST = {
                 scrolls: [{
                     renderType: "swt",
                     serviceNumber: "20A",
-                    terminateAt: "CHANGI STH AVE 1",
-                    landmark: "(EXPO STN EXIT B)"
+                    terminateAt: "CHANGI STH",
+                    landmark: "AVE 1 (EXPO STN EXIT B)"
                 },
                 ],
                 scrollFont: "LECIP-7:5"
@@ -3504,7 +3504,7 @@ EDSData.SBST = {
                 scrolls: [{
                     renderType: "swt",
                     serviceNumber: "39A",
-                    landmark: "JLN KAYU (AFT SELETAR CAMP G)"
+                    landmark: "JALAN KAYU (AFT SELETAR CAMP)"
                 },
                 ],
                 scrollFont: "LECIP-7:5"
