@@ -659,7 +659,7 @@ EDSData.SMRT = {
             }
         }
     },
-    1101: {
+    1101: { // Done / Refer from mobitec
         1: {
             front: {
                 renderType: "standardService",
@@ -669,11 +669,125 @@ EDSData.SMRT = {
                 scrolls: [
                     {
                     renderType: "destScroll",
-                    top: "",
-                    topFont: "Arial-10",
+                    top: "CHANGI",
+                    topFont: "ArialBold-8:2",
+                    bottom: "AIRPORT",
+                    bottomFont: "ArialBold-8:2",
         
                     serviceNumber: "110"
                     },
+                    'COMPASSVALE DR',
+                    'ANCHORVALE DR',
+                    'ANCHORVALE RD',
+                    'ANCHORVALE ST',
+                    'TPE',
+                    'AIRPORT BOULEVARD',
+                    'PTB 3, 1, 2, 4'
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "110",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    1102: { // Done / Refer from mobitec
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "110",
+                destination: "COMPASSVALE INT via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll",
+                    top: "COMPASSVALE",
+                    topFont: "ArialBold-8:2",
+                    bottom: "INTERCHANGE",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "110"
+                    },
+                    'PTB 3, 1, 2, 4',
+                    "AIRPORT BOULEVARD",
+                    "TPE",
+                    "ANCHORVALE ST",
+                    "ANCHORVALE RD",
+                    "ANCHORVALE DR",
+                    "COMPASSVALE DR"
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "110",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    1108: { // Done / Refer from mobitec
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "110",
+                destination: "CHANGI AIRPORT via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll",
+                    top: "CHANGI",
+                    topFont: "ArialBold-8:2",
+                    bottom: "AIRPORT",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "110"
+                    },
+                    'COMPASSVALE DR',
+                    'ANCHORVALE DR',
+                    'ANCHORVALE RD',
+                    'ANCHORVALE ST',
+                    'TPE',
+                    'AIRPORT BOULEVARD',
+                    'PTB 3, 1, 2, 4'
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "110",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    1109: { // Done / Refer from mobitec
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "110",
+                destination: "BUANGKOK INT via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll",
+                    top: "BUANGKOK",
+                    topFont: "ArialBold-8:2",
+                    bottom: "INTERCHANGE",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "110"
+                    },
+                    'PTB 3, 1, 2, 4',
+                    "AIRPORT BOULEVARD",
+                    "TPE",
+                    "ANCHORVALE ST",
+                    "ANCHORVALE RD",
+                    "ANCHORVALE DR",
+                    "COMPASSVALE DR"
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -3738,7 +3852,7 @@ EDSData.SMRT = {
                     {
                     renderType: "destScroll2B",
                     top: "BT PANJANG INT via",
-                    topFont: "ArialBold-8:2",
+                    topFont: "ArialBold-8",
                     bottom: "ORCHARD TURN",
                     bottomFont: "Calibri-7:2",
                 
