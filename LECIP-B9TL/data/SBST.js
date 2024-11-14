@@ -9479,8 +9479,8 @@ EDSData.SBST = {
                 {
                     renderType: "swt",
                     serviceNumber: "129B",
-                    terminateAt: "TAMPI. AVE 1",
-                    landmark: "(OPP TEMASEK POLY EAST G)"
+                    terminateAt: "TAMP AVE 1",
+                    landmark: "(OPP TEMASEK POLY EAST GATE)"
                 },
                 ],
                 scrollFont: "LECIP-7:5"
@@ -10515,7 +10515,7 @@ EDSData.SBST = {
                 {
                     renderType: "swt",
                     serviceNumber: "143A",
-                    terminateAt: "TEBAN GARDENS",
+                    terminateAt: "TEBAN GDNS",
                     landmark: "RD (BEF HASANAH MQUE)"
                 },
                 ],

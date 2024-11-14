@@ -1505,6 +1505,76 @@ EDSData.SMRT = {
             }
         }
     },
+    1883: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "188e",
+                destination: {
+                    text: "HARBOURFRONT via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    'CHOA CHU KANG WAY',
+                    {
+                    renderType: "destScroll",
+                    top: "HARBOURFRONT via",
+                    topFont: "ArialBold-8:2",
+                    bottom: "BT BATOK WEST AVE 7",
+                    bottomFont: "Calibri-7:2",
+            
+                    serviceNumber: "188e"
+                    },
+                    {
+                    renderType: "destScroll",
+                    top: "HARBOURFRONT via",
+                    topFont: "ArialBold-8:2",
+                    bottom: "BT BATOK WEST AVE 4",
+                    bottomFont: "Calibri-7:2",
+                
+                    serviceNumber: "188e"
+                    },
+                    {
+                    renderType: "destScroll",
+                    top: "HARBOURFRONT via",
+                    topFont: "ArialBold-8:2",
+                    bottom: "BT BATOK WEST AVE 2",
+                    bottomFont: "Calibri-7:2",
+                
+                    serviceNumber: "188e"
+                    },
+                    {
+                    renderType: "destScroll",
+                    top: "HARBOURFRONT via",
+                    topFont: "ArialBold-8:2",
+                    bottom: "BT BATOK WEST AVE 3",
+                    bottomFont: "Calibri-7:2",
+                
+                    serviceNumber: "188e"
+                    },
+                    {
+                    renderType: "destScroll",
+                    top: "HARBOURFRONT via",
+                    topFont: "ArialBold-8:2",
+                    bottom: "BT BATOK WEST AVE 6",
+                    bottomFont: "Calibri-7:2",
+                
+                    serviceNumber: "188e"
+                    },
+                    "TOH GUAN RD",
+                    "CLEMENTI RD",
+                    "PASIR PANJANG RD"
+                ],
+                scrollFont: "Arial-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "188e",
+                font: "Arial-10",
+                spacing: 2
+            }
+        },
+    },
     1901: { // Not Done / double check
         1: {
             front: {
