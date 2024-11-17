@@ -539,6 +539,34 @@ EDSData.SMRT = {
             }
         }
     },
+    113: {
+        1: {
+            front: {
+                renderType: 'message',
+                text: 'AIRSHOW SHUTTLE',
+                font: 'Arial-12:2',
+                spacing: 1
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "WELCOME",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll",
+                    top: "AIR",
+                    topFont: "ArialBold-8",
+                    bottom: "SHOW",
+                    bottomFont: "Arial-7",
+        
+                    serviceNumber: ""
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+        }
+    },
     117: { // Done
         1: {
             front: {
@@ -3087,6 +3115,47 @@ EDSData.SMRT = {
             }
         }
     },
+    9001: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "900",
+                destination: "WOODLANDS INT via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll",
+                    top: "WOODLANDS",
+                    topFont: "ArialBold-8:2",
+                    bottom: "INT / MRT",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "900"
+                    },
+                    "WDL AVE 7, 4",
+                    "WDL DRIVE 14",
+                    {
+                        renderType: "destScroll",
+                        top: "WOODLANDS INT via",
+                        topFont: "ArialBold-8:2",
+                        bottom: "CHAMPIONS WAY",
+                        bottomFont: "Arial-8",
+            
+                        serviceNumber: "900"
+                    },
+                    "WDL DRIVE 17",
+                    "WDL AVE 1, 4, 7"
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "900",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
     9021: { // Done / Reference from Mobi
         1: {
             front: {
@@ -4348,30 +4417,35 @@ EDSData.SMRT = {
             }
         }
     },
-    9995: { // Done
+    9995: { // yes
         1: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "",
-                destination: " ",
+                serviceNumber: "190",
+                destination: "NEW BRIDGE RD via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
                     {
-                    renderType: "destScroll2",
-                    top: " ",
+                    renderType: "destScroll",
+                    top: "NEW BRIDGE RD",
                     topFont: "ArialBold-8:2",
-                    bottom: " ",
+                    bottom: "TERMINAL",
                     bottomFont: "ArialBold-8:2",
         
-                    serviceNumber: ""
+                    serviceNumber: "190"
                     },
+                    'BT PANJANG RD',
+                    'STEVEN ROAD',
+                    'ORCHARD ROAD',
+                    'HILL STREET',
+                    'CHINATOWN'
                 ],
                 scrollFont: "ArialBold-8:2"
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "",
-                font: "ArialBold-8:2",
+                serviceNumber: "190",
+                font: "LECIP-SMRTRear14:9",
                 spacing: 2
             }
         }
