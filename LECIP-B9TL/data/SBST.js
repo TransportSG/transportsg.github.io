@@ -14917,6 +14917,30 @@ EDSData.SBST = {
             }
         }
     },
+    "298X": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "298X",
+                destination: "TAMP NORTH INT - TAMP AVE 5",
+                destinationFont: "LECIP-6:3",
+                scrolls: [
+                    "TAMPINES ST 62",
+                    "TAMPINES NORTH DR 2",
+                    "TAMPINES STN",
+                    "TAMPINES AVE 10",
+                    "TAMPINES ST 86"
+                ],
+                scrollFont: "LECIP-6:3"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "298X",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
     315: {
         1: {
             front: {
@@ -14928,7 +14952,7 @@ EDSData.SBST = {
                     {
                         renderType: "brandedSvc2",
                         serviceNumber: "315",
-                        branding: "SERANGOON NTH AVE 5",
+                        branding: "       S'GOON NTH AVE 5",
                         font: "LECIP-14:6",
                         spacing: 1
                     },
@@ -14956,8 +14980,8 @@ EDSData.SBST = {
                 scrolls: [
                     {
                         renderType: "brandedSvc2",
-                        serviceNumber: "317",
-                        branding: "SERANGOON INT",
+                        serviceNumber: "315",
+                        branding: "          SERANGOON INT",
                         font: "LECIP-14:6",
                         spacing: 1
                     },
@@ -14988,9 +15012,9 @@ EDSData.SBST = {
                     {
                     renderType: "brandedSvc2",
                     serviceNumber: "317",
-                    branding: "BERWICK DRIVE",
+                    branding: "            BERWICK DRIVE",
                     font: "LECIP-14:6",
-                    spacing: 2
+                    spacing: 1
                 },
                 ],
                 scrollFont: "LECIP-7:5"
@@ -15002,7 +15026,7 @@ EDSData.SBST = {
                 spacingTop: "2",
                 
 
-                bottom: "B'WICK",
+                bottom: "BERWICK",
                 bottomFont: "LECIP-6:3",
                 marginBottom: "-1"
                 
@@ -15018,7 +15042,7 @@ EDSData.SBST = {
                 {
                     renderType: "brandedSvc2",
                     serviceNumber: "317",
-                    branding: "SERANGOON INT",
+                    branding: "          SERANGOON INT",
                     font: "LECIP-14:6",
                     spacing: 1
                 },

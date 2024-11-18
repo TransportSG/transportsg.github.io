@@ -139,7 +139,7 @@ EDSFormats.SBST = {
             }
         },
 
-        text: "$top+' '+$bottom+' '+$serviceNumber"
+        text: "$serviceNumber+' '+$top+' '+$bottom"
     },
     logo: {
         logo: {
@@ -7642,8 +7642,26 @@ EDSData.SBST = {
             ],
             scrollFont: "Mobitec-6:5"
         }
-    },   
+    }, 
     2982: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "298X",
+            destination: {
+                text: "TAMP NTH - TAMP AVE 5",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+                "TAMPINES ST 62",
+                "TAMPINES NORTH DR 2",
+                "TAMPINES STN",
+                "TAMPINES AVE 10",
+                "TAMPINES ST 86"
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },   
+    2989: {
         front: {
             renderType: "standardService",
             serviceNumber: "298",
@@ -7661,6 +7679,22 @@ EDSData.SBST = {
     },   
     3151: {
         front: {
+            renderType: "destScroll",
+            serviceNumber: "315",
+            top: "S'GOON NTH AVE 5",
+            topFont: "LECIP-14:6",
+        }
+    },
+    3152: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "315",
+            top: "SERANGOON INT",
+            topFont: "LECIP-14:6",
+        }
+    },
+    3158: {
+        front: {
             renderType: "standardService",
             serviceNumber: "315",
             destination: {
@@ -7676,7 +7710,7 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
-    3152: {
+    3159: {
         front: {
             renderType: "standardService",
             serviceNumber: "315",
@@ -7695,6 +7729,22 @@ EDSData.SBST = {
     },
     3171: {
         front: {
+            renderType: "destScroll",
+            serviceNumber: "317",
+            top: "BERWICK DR",
+            topFont: "LECIP-14:6",
+        }
+    },
+    3172: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "317",
+            top: "SERANGOON INT",
+            topFont: "LECIP-14:6",
+        }
+    },
+    3178: {
+        front: {
             renderType: "standardService",
             serviceNumber: "317",
             destination: {
@@ -7711,7 +7761,7 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
-    3172: {
+    3179: {
         front: {
             renderType: "standardService",
             serviceNumber: "317",
