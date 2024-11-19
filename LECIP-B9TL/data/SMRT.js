@@ -3054,6 +3054,449 @@ EDSData.SMRT = {
                 spacing: 2
             }
         }
+    },    
+    7051: { // Bomb
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "WT5 KRANJI DEPOT",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                        renderType: "destScroll",
+                        top: "KRANJI DEPOT",
+                        topFont: "Arial-10",
+            
+                        serviceNumber: "WT5"
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "destScroll",
+                top: "WT",
+                topFont: "ArialBold-8:2",
+                bottom: "5",
+                bottomFont: "ArialBold-8:2",
+    
+                serviceNumber: ""
+            }
+        }
+    },
+    7071: { // Bomb
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "WT7 KRANJI DEPOT",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                        renderType: "destScroll",
+                        top: "KRANJI DEPOT",
+                        topFont: "Arial-10",
+            
+                        serviceNumber: "WT7"
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "destScroll",
+                top: "WT",
+                topFont: "ArialBold-8:2",
+                bottom: "7",
+                bottomFont: "ArialBold-8:2",
+    
+                serviceNumber: ""
+            }
+        }
+    },
+    7081: { // Bomb
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "WT8 KRANJI DEPOT",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                        renderType: "destScroll",
+                        top: "KRANJI DEPOT",
+                        topFont: "Arial-10",
+            
+                        serviceNumber: "WT8"
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "destScroll",
+                top: "WT",
+                topFont: "ArialBold-8:2",
+                bottom: "8",
+                bottomFont: "ArialBold-8:2",
+    
+                serviceNumber: ""
+            }
+        }
+    },
+    7082: { // Bomb
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "WT8 BULIM DEPOT",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                        renderType: "destScroll",
+                        top: "BULIM DEPOT",
+                        topFont: "Arial-10",
+            
+                        serviceNumber: "WT8"
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "destScroll",
+                top: "WT",
+                topFont: "ArialBold-8:2",
+                bottom: "8",
+                bottomFont: "ArialBold-8:2",
+    
+                serviceNumber: ""
+            }
+        }
+    },
+    7161: { // Bomb
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "WT16 KRANJI DEPOT",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                        renderType: "destScroll",
+                        top: "KRANJI DEPOT",
+                        topFont: "Arial-10",
+            
+                        serviceNumber: "WT16"
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "destScroll",
+                top: "WT",
+                topFont: "ArialBold-8:2",
+                bottom: "16",
+                bottomFont: "ArialBold-8:2",
+    
+                serviceNumber: ""
+            }
+        }
+    },
+    7162: { // Bomb
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "WT16 WOODLANDS BUS PARK",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                        renderType: "destScroll",
+                        top: "WOODLANDS",
+                        topFont: "ArialBold-8:2",
+                        bottom: "BUS PARK",
+                        bottomFont: "ArialBold-8:2",
+            
+                        serviceNumber: "WT16"
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "destScroll",
+                top: "WT",
+                topFont: "ArialBold-8:2",
+                bottom: "16",
+                bottomFont: "ArialBold-8:2",
+    
+                serviceNumber: ""
+            }
+        }
+    },
+    71671: { // Bomb
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "WT17 KRANJI DEPOT",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                        renderType: "destScroll",
+                        top: "KRANJI DEPOT",
+                        topFont: "Arial-10",
+            
+                        serviceNumber: "WT17"
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "destScroll",
+                top: "WT",
+                topFont: "ArialBold-8:2",
+                bottom: "17",
+                bottomFont: "ArialBold-8:2",
+    
+                serviceNumber: ""
+            }
+        }
+    },
+    7172: { // Bomb
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "WT17 BULIM DEPOT",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                        renderType: "destScroll",
+                        top: "BULIM DEPOT",
+                        topFont: "Arial-10",
+            
+                        serviceNumber: "WT17"
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "destScroll",
+                top: "WT",
+                topFont: "ArialBold-8:2",
+                bottom: "17",
+                bottomFont: "ArialBold-8:2",
+    
+                serviceNumber: ""
+            }
+        }
+    },
+    7201: { // Bomb
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "WT20 BULIM DEPOT",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                        renderType: "destScroll",
+                        top: "BULIM DEPOT",
+                        topFont: "Arial-10",
+            
+                        serviceNumber: "WT20"
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "destScroll",
+                top: "WT",
+                topFont: "ArialBold-8:2",
+                bottom: "20",
+                bottomFont: "ArialBold-8:2",
+    
+                serviceNumber: ""
+            }
+        }
+    },
+    7202: { // Bomb
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "WT20 WOODLANDS BUS PARK",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                        renderType: "destScroll",
+                        top: "WOODLANDS",
+                        topFont: "ArialBold-8:2",
+                        bottom: "BUS PARK",
+                        bottomFont: "ArialBold-8:2",
+            
+                        serviceNumber: "WT20"
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "destScroll",
+                top: "WT",
+                topFont: "ArialBold-8:2",
+                bottom: "20",
+                bottomFont: "ArialBold-8:2",
+    
+                serviceNumber: ""
+            }
+        }
+    },
+    7221: { // Bomb
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "WT22 BULIM DEPOT",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                        renderType: "destScroll",
+                        top: "BULIM DEPOT",
+                        topFont: "Arial-10",
+            
+                        serviceNumber: "WT22"
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "destScroll",
+                top: "WT",
+                topFont: "ArialBold-8:2",
+                bottom: "22",
+                bottomFont: "ArialBold-8:2",
+    
+                serviceNumber: ""
+            }
+        }
+    },
+    7222: { // Bomb
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "WT22 WOODLANDS BUS PARK",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                        renderType: "destScroll",
+                        top: "WOODLANDS",
+                        topFont: "ArialBold-8:2",
+                        bottom: "BUS PARK",
+                        bottomFont: "ArialBold-8:2",
+            
+                        serviceNumber: "WT22"
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "destScroll",
+                top: "WT",
+                topFont: "ArialBold-8:2",
+                bottom: "22",
+                bottomFont: "ArialBold-8:2",
+    
+                serviceNumber: ""
+            }
+        }
+    },
+    7231: { // Bomb
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "WT23 BULIM DEPOT",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                        renderType: "destScroll",
+                        top: "BULIM DEPOT",
+                        topFont: "Arial-10",
+            
+                        serviceNumber: "WT23"
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "destScroll",
+                top: "WT",
+                topFont: "ArialBold-8:2",
+                bottom: "23",
+                bottomFont: "ArialBold-8:2",
+    
+                serviceNumber: ""
+            }
+        }
+    },
+    7232: { // Bomb
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "WT23 KRANJI DEPOT",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                        renderType: "destScroll",
+                        top: "KRANJI DEPOT",
+                        topFont: "Arial-10",
+            
+                        serviceNumber: "WT23"
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "destScroll",
+                top: "WT",
+                topFont: "ArialBold-8:2",
+                bottom: "23",
+                bottomFont: "ArialBold-8:2",
+    
+                serviceNumber: ""
+            }
+        }
+    },
+    7241: { // Bomb
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "WT24 WOODLANDS BUS PARK",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                        renderType: "destScroll",
+                        top: "WOODLANDS",
+                        topFont: "ArialBold-8:2",
+                        bottom: "BUS PARK",
+                        bottomFont: "ArialBold-8:2",
+            
+                        serviceNumber: "WT24"
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "destScroll",
+                top: "WT",
+                topFont: "ArialBold-8:2",
+                bottom: "24",
+                bottomFont: "ArialBold-8:2",
+    
+                serviceNumber: ""
+            }
+        }
     },
     7501: { // Bomb / Refer from Mobi
         1: {
@@ -3112,6 +3555,93 @@ EDSData.SMRT = {
     
                 bottom: "FERRY",
                 bottomFont: "Calibri-7:2",
+            }
+        }
+    },
+    7997: { // Bomb
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "K1 WDL < > HOTEL",
+                destinationFont: "Hanover-7:5",
+                scrolls: [
+                    {
+                        renderType: "destScroll",
+                        top: "HOTEL FERRY",
+                        topFont: "ArialBold-8:2",
+                        bottom: "WOODLANDS BUS PARK",
+                        bottomFont: "ArialBold-8:2",
+            
+                        serviceNumber: "K1"
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "destScroll",
+                top: "K1",
+                topFont: "Arial-12:2",
+    
+                serviceNumber: ""
+            }
+        }
+    },
+    7998: { // Bomb
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "F1 KJ < > HOTEL",
+                destinationFont: "Hanover-7:5",
+                scrolls: [
+                    {
+                        renderType: "destScroll",
+                        top: "HOTEL FERRY",
+                        topFont: "ArialBold-8:2",
+                        bottom: "KRANJI DEPOT",
+                        bottomFont: "ArialBold-8:2",
+            
+                        serviceNumber: "F1"
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "destScroll",
+                top: "F1",
+                topFont: "Arial-12:2",
+    
+                serviceNumber: ""
+            }
+        }
+    },
+    7999: { // Bomb
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "F2 BU < > HOTEL",
+                destinationFont: "Hanover-7:5",
+                scrolls: [
+                    {
+                        renderType: "destScroll",
+                        top: "HOTEL FERRY",
+                        topFont: "ArialBold-8:2",
+                        bottom: "BULIM DEPOT",
+                        bottomFont: "ArialBold-8:2",
+            
+                        serviceNumber: "F2"
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "destScroll",
+                top: "F2",
+                topFont: "Arial-12:2",
+    
+                serviceNumber: ""
             }
         }
     },
@@ -3757,6 +4287,39 @@ EDSData.SMRT = {
                 renderType: "rearService",
                 serviceNumber: "950",
                 font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    9512: { // Bomb
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "951E",
+                destination: "WDL ST 82 via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                        renderType: "destScroll",
+                        top: "WOODLANDS",
+                        topFont: "ArialBold-8:2",
+                        bottom: "STREET 82",
+                        bottomFont: "ArialBold-8:2",
+                
+                        serviceNumber: "951E"
+                    },
+                    "ROBINSON RD",
+                    "STAMFORD RD",
+                    "DHOBY GHAUT MRT",
+                    "WDL AVE 5, 4"
+
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "951E",
+                font: "Arial-10",
                 spacing: 2
             }
         }
