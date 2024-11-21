@@ -539,6 +539,34 @@ EDSData.SMRT = {
             }
         }
     },
+    113: {
+        1: {
+            front: {
+                renderType: 'message',
+                text: 'AIRSHOW SHUTTLE',
+                font: 'Arial-12:2',
+                spacing: 1
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "WELCOME",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll",
+                    top: "AIR",
+                    topFont: "ArialBold-8",
+                    bottom: "SHOW",
+                    bottomFont: "Arial-7",
+        
+                    serviceNumber: ""
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+        }
+    },
     117: { // Done
         1: {
             front: {
@@ -3530,6 +3558,134 @@ EDSData.SMRT = {
             }
         }
     },
+    7997: { // Bomb
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "K1 WDL < > HOTEL",
+                destinationFont: "Hanover-7:5",
+                scrolls: [
+                    {
+                        renderType: "destScroll",
+                        top: "HOTEL FERRY",
+                        topFont: "ArialBold-8:2",
+                        bottom: "WOODLANDS BUS PARK",
+                        bottomFont: "ArialBold-8:2",
+            
+                        serviceNumber: "K1"
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "destScroll",
+                top: "K1",
+                topFont: "Arial-12:2",
+    
+                serviceNumber: ""
+            }
+        }
+    },
+    7998: { // Bomb
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "F1 KJ < > HOTEL",
+                destinationFont: "Hanover-7:5",
+                scrolls: [
+                    {
+                        renderType: "destScroll",
+                        top: "HOTEL FERRY",
+                        topFont: "ArialBold-8:2",
+                        bottom: "KRANJI DEPOT",
+                        bottomFont: "ArialBold-8:2",
+            
+                        serviceNumber: "F1"
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "destScroll",
+                top: "F1",
+                topFont: "Arial-12:2",
+    
+                serviceNumber: ""
+            }
+        }
+    },
+    7999: { // Bomb
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "F2 BU < > HOTEL",
+                destinationFont: "Hanover-7:5",
+                scrolls: [
+                    {
+                        renderType: "destScroll",
+                        top: "HOTEL FERRY",
+                        topFont: "ArialBold-8:2",
+                        bottom: "BULIM DEPOT",
+                        bottomFont: "ArialBold-8:2",
+            
+                        serviceNumber: "F2"
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "destScroll",
+                top: "F2",
+                topFont: "Arial-12:2",
+    
+                serviceNumber: ""
+            }
+        }
+    },
+    9001: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "900",
+                destination: "WOODLANDS INT via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll",
+                    top: "WOODLANDS",
+                    topFont: "ArialBold-8:2",
+                    bottom: "INT / MRT",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "900"
+                    },
+                    "WDL AVE 7, 4",
+                    "WDL DRIVE 14",
+                    {
+                        renderType: "destScroll",
+                        top: "WOODLANDS INT via",
+                        topFont: "ArialBold-8:2",
+                        bottom: "CHAMPIONS WAY",
+                        bottomFont: "Arial-8",
+            
+                        serviceNumber: "900"
+                    },
+                    "WDL DRIVE 17",
+                    "WDL AVE 1, 4, 7"
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "900",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
     9001: { // Done
         1: {
             front: {
@@ -4176,6 +4332,39 @@ EDSData.SMRT = {
             }
         }
     },
+    9512: { // Bomb
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "951E",
+                destination: "WDL ST 82 via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                        renderType: "destScroll",
+                        top: "WOODLANDS",
+                        topFont: "ArialBold-8:2",
+                        bottom: "STREET 82",
+                        bottomFont: "ArialBold-8:2",
+                
+                        serviceNumber: "951E"
+                    },
+                    "ROBINSON RD",
+                    "STAMFORD RD",
+                    "DHOBY GHAUT MRT",
+                    "WDL AVE 5, 4"
+
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "951E",
+                font: "Arial-10",
+                spacing: 2
+            }
+        }
+    },
     9601: { // Done
         1: {
             front: {
@@ -4460,17 +4649,9 @@ EDSData.SMRT = {
                 serviceNumber: "972M",
                 serviceFont: "Calibri-15",
                 destination: "BT PANJANG INT",
-                destinationFont: "ArialBold-8:2",
+                destinationFont: "Arial-8:2",
                 scrolls: [
-                    {
-                    renderType: "destScroll2B",
-                    top: "BT PANJANG INT via",
-                    topFont: "ArialBold-8",
-                    bottom: "ORCHARD TURN",
-                    bottomFont: "Calibri-7:2",
-                
-                    serviceNumber: "972M"
-                    },
+
                     {
                     renderType: "destScroll2B",
                     top: "BT PANJANG INT via",
@@ -4832,30 +5013,35 @@ EDSData.SMRT = {
             }
         }
     },
-    9995: { // Done
+    9995: { // yes
         1: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "",
-                destination: " ",
+                serviceNumber: "190",
+                destination: "NEW BRIDGE RD via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
                     {
-                    renderType: "destScroll2",
-                    top: " ",
+                    renderType: "destScroll",
+                    top: "NEW BRIDGE RD",
                     topFont: "ArialBold-8:2",
-                    bottom: " ",
+                    bottom: "TERMINAL",
                     bottomFont: "ArialBold-8:2",
         
-                    serviceNumber: ""
+                    serviceNumber: "190"
                     },
+                    'BT PANJANG RD',
+                    'STEVEN ROAD',
+                    'ORCHARD ROAD',
+                    'HILL STREET',
+                    'CHINATOWN'
                 ],
                 scrollFont: "ArialBold-8:2"
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "",
-                font: "ArialBold-8:2",
+                serviceNumber: "190",
+                font: "LECIP-SMRTRear14:9",
                 spacing: 2
             }
         }
