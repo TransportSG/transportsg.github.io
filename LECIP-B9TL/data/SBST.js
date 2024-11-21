@@ -14917,6 +14917,30 @@ EDSData.SBST = {
             }
         }
     },
+    "298X": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "298X",
+                destination: "TAMP NORTH INT - TAMP AVE 5",
+                destinationFont: "LECIP-6:3",
+                scrolls: [
+                    "TAMPINES ST 62",
+                    "TAMPINES NORTH DR 2",
+                    "TAMPINES STN",
+                    "TAMPINES AVE 10",
+                    "TAMPINES ST 86"
+                ],
+                scrollFont: "LECIP-6:3"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "298X",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
     315: {
         1: {
             front: {
@@ -20015,7 +20039,7 @@ EDSData.SBST = {
                     {
                         renderType: "destScroll",
                         top: " ~",
-                        topFont: "LECIP-20:1F2",
+                        topFont: "LECIP-20:12",
                                     
                         serviceNumber: "851"
                     },
