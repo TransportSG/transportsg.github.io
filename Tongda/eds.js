@@ -2,7 +2,7 @@ window.frontEDS = null; window.controllerPreview = null;
 
 let currentOperator = location.hash.slice(1) ? location.hash.slice(1) : 'Instruction';
 
-let startupCodes = {'Instruction': 1}
+let startupCodes = {'Instruction': 1, 'BMJ': 1, 'CWL': 1, 'myBas': 1}
 
 let EDSFormats = {};
 let EDSData = {};
