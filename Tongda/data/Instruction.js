@@ -177,25 +177,6 @@ EDSData.Instruction = {
                 }
             ]
         }
-    },
-    72: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "7",
-            destination: {
-                text: "> BEDOK INT",
-                font: "Mobitec-7:5:2"
-            },
-            scrolls: [
-                "ULU PANDAN RD",
-                "HOLLAND RD",
-                "ORCHARD RD",
-                "VICTORIA ST",
-                "GUILLEMARD RD",
-                "SIMS AVE EAST"
-            ],
-            scrollFont: "Mobitec-6:5"
-        }
     }
 }
 
