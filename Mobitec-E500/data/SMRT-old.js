@@ -1,4 +1,4 @@
-EDSFormats['SMRT-PreSLBP'] = {
+EDSFormats['SMRT (PreSLBP)'] = {
     'gas-temp-kindness': {
         serviceNumber: {
             align: "right",
@@ -396,7 +396,7 @@ EDSFormats['SMRT-PreSLBP'] = {
     },
 }
 
-EDSData['SMRT-PreSLBP'] = {
+EDSData['SMRT (PreSLBP)'] = {
     "-1": {
         front: {
             renderType: "standardService",
@@ -13718,7 +13718,7 @@ EDSData['SMRT-PreSLBP'] = {
     },
 }
 
-EDSExtras['SMRT-PreSLBP'] = {
+EDSExtras['SMRT (PreSLBP)'] = {
     1: {
         front: {
             renderType: "destScroll",
@@ -13889,7 +13889,7 @@ EDSExtras['SMRT-PreSLBP'] = {
     },
 }
 
-EDSImages['SMRT-PreSLBP'] = {
+EDSImages['SMRT (PreSLBP)'] = {
     logo: [
         [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
         [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
