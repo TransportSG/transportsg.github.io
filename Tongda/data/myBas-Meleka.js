@@ -1,4 +1,4 @@
-EDSFormats.myBasMeleka = {
+EDSFormats['BAS.MY Meleka (Prev. SBST)'] = {
     standardService: {
         serviceNumber: {
             align: "right",
@@ -119,7 +119,7 @@ EDSFormats.myBasMeleka = {
     }
 }
 
-EDSData.myBasMeleka = {
+EDSData['BAS.MY Meleka (Prev. SBST)'] = {
     1: {
         front: {
             renderType: "standardService",
@@ -195,10 +195,10 @@ EDSData.myBasMeleka = {
     }
 }
 
-EDSExtras.myBasMeleka = {
+EDSExtras['BAS.MY Meleka (Prev. SBST)'] = {
 }
 
-EDSImages.myBasMeleka = {
+EDSImages['BAS.MY Meleka (Prev. SBST)'] = {
 "blank": [
     [0]
 ]

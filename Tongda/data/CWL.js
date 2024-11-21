@@ -1,4 +1,4 @@
-EDSFormats.CWL = {
+EDSFormats['CWL (JB Area)'] = {
     standardService: {
         serviceNumber: {
             align: "right",
@@ -119,7 +119,7 @@ EDSFormats.CWL = {
     }
 }
 
-EDSData.CWL = {
+EDSData['CWL (JB Area)'] = {
     1: {
         front: {
             renderType: "standardService",
@@ -214,10 +214,10 @@ EDSData.CWL = {
     }
 }
 
-EDSExtras.CWL = {
+EDSExtras['CWL (JB Area)'] = {
 }
 
-EDSImages.CWL = {
+EDSImages['CWL (JB Area)'] = {
 "blank": [
     [0]
 ]

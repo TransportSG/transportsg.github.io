@@ -1,4 +1,4 @@
-EDSFormats.myBasJB = {
+EDSFormats['myBas JB'] = {
     standardService: {
         serviceNumber: {
             align: "right",
@@ -119,7 +119,7 @@ EDSFormats.myBasJB = {
     }
 }
 
-EDSData.myBasJB = {
+EDSData['myBas JB'] = {
     1: {
         front: {
             renderType: "standardService",
@@ -195,10 +195,10 @@ EDSData.myBasJB = {
     }
 }
 
-EDSExtras.myBasJB = {
+EDSExtras['myBas JB'] = {
 }
 
-EDSImages.myBasJB = {
+EDSImages['myBas JB'] = {
 "blank": [
     [0]
 ]

@@ -1,4 +1,4 @@
-EDSFormats.BMJ = {
+EDSFormats['BMJ (JB)'] = {
     standardService: {
         serviceNumber: {
             align: "right",
@@ -119,7 +119,7 @@ EDSFormats.BMJ = {
     }
 }
 
-EDSData.BMJ = {
+EDSData['BMJ (JB)'] = {
     1: {
         front: {
             renderType: "standardService",
@@ -195,10 +195,10 @@ EDSData.BMJ = {
     }
 }
 
-EDSExtras.BMJ = {
+EDSExtras['BMJ (JB)'] = {
 }
 
-EDSImages.BMJ = {
+EDSImages['BMJ (JB)'] = {
 "blank": [
     [0]
 ]
