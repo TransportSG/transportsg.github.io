@@ -134,6 +134,67 @@ EDSFormats.TTSG = {
         text: "$top+' '+$bottom+' '+$serviceNumber"
         
     },
+    destScroll2: {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 1
+            },
+            text: "$serviceNumber",
+            font: "Mobitec-TowerIcons",
+            spacing: 2
+        },
+        top: {
+            align: {
+                $$cond: {
+                    "$bottom === null": "centre-x,centre-y",
+                    "else": "centre-x,top"
+                }
+            },
+            text: "$top",
+            font: {
+                $$cond: {
+                    "$topFont === null": "Mobitec-9:6",
+                    "else": "$topFont"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber) - width(image)'
+            }
+        },
+        bottom: {
+            align: "centre-x,bottom",
+            text: {
+                $$cond: {
+                    "$bottom !== null": "$bottom",
+                    "else": "''"
+                }
+            },
+            font: {
+                $$cond: {
+                    "$bottomFont === null": "Hanover-5:3",
+                    "else": "$bottomFont"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber) - width(image)'
+            }
+        },
+        image: {
+            align: "left",
+            image: {
+                $$cond: {
+                    "$image !== null": "$image",
+                    "else": "blank"
+                }
+            }
+        },
+
+        text: "$top+' '+$bottom+' '+$serviceNumber"
+        
+    },
     destScrollOldFont: {
         serviceNumber: {
             align: "right",
@@ -2044,7 +2105,16 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "106",
                     top: "SHENTON WAY",
-                }
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "106",
+                    top: "Merry Christmas &",
+                    topFont: "Hanover-7:3",
+                    bottom: "Happy New Year",
+                    bottomFont: "Hanover-7:3",
+                    image: "calendar"
+                },
             ]
         }
     },
@@ -8512,6 +8582,17 @@ EDSExtras.TTSG = {
             font: "Mobitec-13:8",
             text: "Bus Full",
             spacing: 2
+        }
+    },
+    11: {
+        front: {
+            renderType: "destScroll2",
+            serviceNumber: "0",
+            top: "Merry Christmas &",
+            topFont: "Hanover-7:3",
+            bottom: "Happy New Year",
+            bottomFont: "Hanover-7:3",
+            image: "calendar"
         },
     },
 }
@@ -8755,7 +8836,6 @@ EDSImages.TTSG = {
         [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
         [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     ],
-
     calendar: [
         [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0],
         [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0],

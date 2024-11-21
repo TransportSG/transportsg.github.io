@@ -1223,16 +1223,25 @@ EDSData.SMRT = {
         front: {
             renderType: "standardService",
             serviceNumber: "",
-            destination: {
-                text: "",
+            destination: { 
+                text: "SMRT LOGO",
                 font: "Mobitec-7:4"
             },
             scrolls: [
                 {
-                    renderType: "message",
-                    text: "",
-                    font: "Mobitec-13:8",
-                    spacing: 1
+                    renderType: "logo",
+                    image: "logo",
+                    text: "SMRT LOGO"
+                },
+                {
+                    renderType: "destScroll",
+                    top: "MERRY CHRISTMAS",
+                    topFont: "Mobitec-7:7",
+        
+                    bottom: "HAPPY NEW YEAR",
+                    bottomFont: "Mobitec-7:7",
+        
+                    serviceNumber: ""
                 },
             ],
             scrollFont: "Mobitec-7:5:3"
@@ -9969,6 +9978,62 @@ EDSData.SMRT = {
             bottom: "BUS PARK",
             bottomFont: "Mobitec-7:7"
   
+        }
+    },
+    7311: {
+        front: {
+            renderType: "message",
+            text: "WT 31",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    7321: {
+        front: {
+            renderType: "message",
+            text: "WT 32",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    7331: {
+        front: {
+            renderType: "message",
+            text: "WT 33",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    7341: {
+        front: {
+            renderType: "message",
+            text: "WT 34",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    7351: {
+        front: {
+            renderType: "message",
+            text: "WT 35",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    7361: {
+        front: {
+            renderType: "message",
+            text: "WT 36",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    7371: {
+        front: {
+            renderType: "message",
+            text: "WT 37",
+            font: "Mobitec-16:8",
+            spacing: 1
         }
     },
     7501: {

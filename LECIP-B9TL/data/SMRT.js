@@ -3231,7 +3231,7 @@ EDSData.SMRT = {
             }
         }
     },
-    71671: { // Bomb
+    7171: { // Bomb
         1: {
             front: {
                 renderType: "standardService",
@@ -3492,6 +3492,209 @@ EDSData.SMRT = {
                 top: "WT",
                 topFont: "ArialBold-8:2",
                 bottom: "24",
+                bottomFont: "ArialBold-8:2",
+    
+                serviceNumber: ""
+            }
+        }
+    },
+    7311: { // Bomb
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "WT31",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                        renderType: "destScroll",
+                        top: "WT 31",
+                        topFont: "Arial-17",
+            
+                        serviceNumber: ""
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "destScroll",
+                top: "WT",
+                topFont: "ArialBold-8:2",
+                bottom: "31",
+                bottomFont: "ArialBold-8:2",
+    
+                serviceNumber: ""
+            }
+        }
+    },
+    7321: { // Bomb
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "WT32",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                        renderType: "destScroll",
+                        top: "WT 32",
+                        topFont: "Arial-17",
+            
+                        serviceNumber: ""
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "destScroll",
+                top: "WT",
+                topFont: "ArialBold-8:2",
+                bottom: "32",
+                bottomFont: "ArialBold-8:2",
+    
+                serviceNumber: ""
+            }
+        }
+    },
+    7331: { // Bomb
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "WT33",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                        renderType: "destScroll",
+                        top: "WT 33",
+                        topFont: "Arial-17",
+            
+                        serviceNumber: ""
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "destScroll",
+                top: "WT",
+                topFont: "ArialBold-8:2",
+                bottom: "33",
+                bottomFont: "ArialBold-8:2",
+    
+                serviceNumber: ""
+            }
+        }
+    },
+    7341: { // Bomb
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "WT 34",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                        renderType: "destScroll",
+                        top: "WT34",
+                        topFont: "Arial-17",
+            
+                        serviceNumber: ""
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "destScroll",
+                top: "WT",
+                topFont: "ArialBold-8:2",
+                bottom: "34",
+                bottomFont: "ArialBold-8:2",
+    
+                serviceNumber: ""
+            }
+        }
+    },
+    7351: { // Bomb
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "WT 35",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                        renderType: "destScroll",
+                        top: "WT35",
+                        topFont: "Arial-17",
+            
+                        serviceNumber: ""
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "destScroll",
+                top: "WT",
+                topFont: "ArialBold-8:2",
+                bottom: "35",
+                bottomFont: "ArialBold-8:2",
+    
+                serviceNumber: ""
+            }
+        }
+    },
+    7361: { // Bomb
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "WT36",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                        renderType: "destScroll",
+                        top: "WT 36",
+                        topFont: "Arial-17",
+            
+                        serviceNumber: ""
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "destScroll",
+                top: "WT",
+                topFont: "ArialBold-8:2",
+                bottom: "36",
+                bottomFont: "ArialBold-8:2",
+    
+                serviceNumber: ""
+            }
+        }
+    },
+    7371: { // Bomb
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "WT37",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                        renderType: "destScroll",
+                        top: "WT 37",
+                        topFont: "Arial-17",
+            
+                        serviceNumber: ""
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "destScroll",
+                top: "WT",
+                topFont: "ArialBold-8:2",
+                bottom: "37",
                 bottomFont: "ArialBold-8:2",
     
                 serviceNumber: ""
@@ -4237,7 +4440,31 @@ EDSData.SMRT = {
                     "KRANJI WAY",
                     "NEO TIEW LANE",         
                 ],
-                scrollFont: "Calibri-7:2"
+                scrollFont: "Arial-8"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "925M",
+                font: "Arial-10",
+                spacing: 1
+            }
+        }
+    },
+    9255: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "925M",
+                serviceFont: "Calibri-15",
+                destination: "WDL TEMP INT via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    "KRANJI WAY",
+                    "KRANJI LOOP, RD",
+                    "WOODLANDS AVE 3",
+             
+                ],
+                scrollFont: "Arial-8"
             },
             rear: {
                 renderType: "rearService",
@@ -4642,27 +4869,36 @@ EDSData.SMRT = {
             }
         }
     },
-    9724: { // Not Done
+    9724: { // Done
         1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "972M",
                 serviceFont: "Calibri-15",
-                destination: "BT PANJANG INT",
+                destination: "BT PANJANG INT via",
                 destinationFont: "Arial-8:2",
                 scrolls: [
-
+                    "PENANG RD",
+                    "SOMERSET RD",
+                    "ORCHARD TURN",
+                    "SCOTTS RD",
+                    "BT TIMAH RD",
+                    "P I E  /  B K E",
+                    "PETIR / PENDING RD",
                     {
-                    renderType: "destScroll2B",
+                    renderType: "destScroll2",
                     top: "BT PANJANG INT via",
-                    topFont: "ArialBold-8:2",
-                    bottom: "SCOTTS RD",
-                    bottomFont: "Calibri-7:2",
+                    topFont: "Arial-8:2",
+                    bottom: "BT PANJANG RING RD",
+                    bottomFont: "Arial-8:2",
                     
                     serviceNumber: "972M"
                     },
+                    "FAJAR / SEGAR RD",
+                    "JELAPANG RD",
+                    "SENJA LINK / ROAD"
                 ],
-                scrollFont: "Calibri-7"
+                scrollFont: "Arial-8"
             },
             rear: {
                 renderType: "rearService",
