@@ -122,7 +122,22 @@ EDSFormats.Instruction = {
 EDSData.Instruction = {
     1: {
         front: {
-            renderType: "full"
+            renderType: "standardService",
+            serviceNumber: "WIP",
+            destination: "akan datang",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "WIP",
+                    top: "AKAN DATANG",
+                    topFont: "Tongda-16:7",
+                }, {
+                    renderType: "destScroll",
+                    serviceNumber: "WIP",
+                    top: "COMING SOON",
+                    topFont: "Tongda-16:7",
+                }
+            ]
         }
     },
     2: {
