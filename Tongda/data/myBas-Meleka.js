@@ -122,7 +122,22 @@ EDSFormats.myBasMeleka = {
 EDSData.myBasMeleka = {
     1: {
         front: {
-            renderType: "full"
+            renderType: "standardService",
+            serviceNumber: "WIP",
+            destination: "akan datang",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "WIP",
+                    top: "AKAN DATANG",
+                    topFont: "Tongda-16:7",
+                }, {
+                    renderType: "destScroll",
+                    serviceNumber: "WIP",
+                    top: "COMING SOON",
+                    topFont: "Tongda-16:7",
+                }
+            ]
         }
     },
     2: {
@@ -176,25 +191,6 @@ EDSData.myBasMeleka = {
                     topFont: "Tongda-16:7",
                 }
             ]
-        }
-    },
-    72: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "7",
-            destination: {
-                text: "> BEDOK INT",
-                font: "Mobitec-7:5:2"
-            },
-            scrolls: [
-                "ULU PANDAN RD",
-                "HOLLAND RD",
-                "ORCHARD RD",
-                "VICTORIA ST",
-                "GUILLEMARD RD",
-                "SIMS AVE EAST"
-            ],
-            scrollFont: "Mobitec-6:5"
         }
     }
 }
