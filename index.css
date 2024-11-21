@@ -58,6 +58,7 @@ div#header-right {
 
 #content > a > div {
     width: calc(10vw + 10vh);
+    height: calc(7vw + 7vh);
 
     display: flex;
     justify-content: center;
@@ -66,7 +67,6 @@ div#header-right {
 
 #content > a > div > img {
     width: calc(7vw + 7vh);
-    height: calc(7vw + 7vh);
 }
 
 #content > a > span {
