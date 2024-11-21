@@ -1,4 +1,4 @@
-EDSFormats.myBas = {
+EDSFormats.Welcome = {
     standardService: {
         serviceNumber: {
             align: "right",
@@ -119,7 +119,7 @@ EDSFormats.myBas = {
     }
 }
 
-EDSData.myBas = {
+EDSData.Welcome = {
     1: {
         front: {
             renderType: "full"
@@ -199,10 +199,10 @@ EDSData.myBas = {
     }
 }
 
-EDSExtras.myBas = {
+EDSExtras.Welcome = {
 }
 
-EDSImages.myBas = {
+EDSImages.Welcome = {
 "blank": [
     [0]
 ]

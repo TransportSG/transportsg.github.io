@@ -9,7 +9,7 @@ let EDSData = {};
 let EDSImages = {};
 let EDSExtras = {};
 
-let frontEDSWidth = 144;
+let frontEDSWidth = 140;
 
 let edsHeight = 16;
 

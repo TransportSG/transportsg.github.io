@@ -1,4 +1,4 @@
-EDSFormats.SMRT = {
+EDSFormats['SMRT-PostSLBP'] = {
     'gas-temp-kindness': {
         serviceNumber: {
             align: "right",
@@ -396,7 +396,7 @@ EDSFormats.SMRT = {
     },
 }
 
-EDSData.SMRT = {
+EDSData['SMRT-PostSLBP'] = {
     "-1": {
         front: {
             renderType: "standardService",
@@ -13718,7 +13718,7 @@ EDSData.SMRT = {
     },
 }
 
-EDSExtras.SMRT = {
+EDSExtras['SMRT-PostSLBP'] = {
     1: {
         front: {
             renderType: "destScroll",
@@ -13889,7 +13889,7 @@ EDSExtras.SMRT = {
     },
 }
 
-EDSImages.SMRT = {
+EDSImages['SMRT-PostSLBP'] = {
     logo: [
         [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
         [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],

@@ -1,8 +1,8 @@
 window.frontEDS = null; window.controllerPreview = null;
 
-let currentOperator = location.hash.slice(1) ? location.hash.slice(1) : 'SMRT';
+let currentOperator = location.hash.slice(1) ? location.hash.slice(1) : 'SMRT-PostSLBP';
 
-let startupCodes = {'SMRT': 9117, 'TTSG': 6666, 'SBST': 2222, 'GASG': 2222, 'SBSTC': 1111, 'Sentosa': 2222}
+let startupCodes = {'SMRT-PostSLBP': 9117, 'SMRT-PreSLBP': 9117, 'TTSG': 6666, 'SBST': 2222, 'GASG': 2222, 'SBSTC': 1111, 'Sentosa': 2222}
 
 let EDSFormats = {};
 let EDSData = {};
