@@ -120,32 +120,19 @@ EDSFormats['CWL (JB Area)'] = {
 }
 
 EDSData['CWL (JB Area)'] = {
-    1: {
+    2: {
         front: {
             renderType: "standardService",
-            serviceNumber: "WIP",
-            destination: "akan datang",
+            serviceNumber: "CW2",
+            destination: "QUEEN STREET",
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "WIP",
-                    top: "AKAN DATANG",
-                    topFont: "Tongda-16:7",
-                }, {
-                    renderType: "destScroll",
-                    serviceNumber: "WIP",
-                    top: "COMING SOON",
+                    serviceNumber: "CW2",
+                    top: "QUEEN STREET T.",
                     topFont: "Tongda-16:7",
                 }
             ]
-        }
-    },
-    2: {
-        front: {
-            renderType: "message",
-            text: "TONGDA",
-            font: "Tongda-16:7",
-            spacing: 2,
         }
     },
     1111: {
@@ -193,21 +180,36 @@ EDSData['CWL (JB Area)'] = {
             ]
         }
     },
-    72: {
+    9000: {
         front: {
             renderType: "standardService",
-            serviceNumber: "7",
+            serviceNumber: "WIP",
+            destination: "akan datang",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "WIP",
+                    top: "AKAN DATANG",
+                    topFont: "Tongda-16:7",
+                }, {
+                    renderType: "destScroll",
+                    serviceNumber: "WIP",
+                    top: "COMING SOON",
+                    topFont: "Tongda-16:7",
+                }
+            ]
+        }
+    },
+    9999: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: " ",
             destination: {
-                text: "> BEDOK INT",
+                text: " ",
                 font: "Mobitec-7:5:2"
             },
             scrolls: [
-                "ULU PANDAN RD",
-                "HOLLAND RD",
-                "ORCHARD RD",
-                "VICTORIA ST",
-                "GUILLEMARD RD",
-                "SIMS AVE EAST"
+ 
             ],
             scrollFont: "Mobitec-6:5"
         }

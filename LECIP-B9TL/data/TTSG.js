@@ -283,7 +283,7 @@ EDSFormats.TTSG = {
             },
             text: "$serviceNumber",
             font: "LECIP-19:TowerB9Front",
-            spacing: 2
+            spacing: 3
         },
         top: {
             align: {
@@ -336,6 +336,112 @@ EDSFormats.TTSG = {
         },
 
         text: "$top+' '+$bottom+' '+$serviceNumber"
+    },
+    message5: {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 1
+            },
+            text: "$serviceNumber",
+            font: "LECIP-19:TowerB9Front",
+            spacing: 2
+        },
+        top: {
+            align: {
+                $$cond: {
+                    "$bottom === null": "centre-x,centre-y",
+                    "else": "centre-x,top"
+                }
+            },
+            text: "$top",
+            font: {
+                $$cond: {
+                    "$topFont === null": "Mobitec-9:6",
+                    "else": "$topFont"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber) - width(image)',
+                top: 0
+            }
+        },
+        bottom: {
+            align: "centre-x,bottom",
+            text: {
+                $$cond: {
+                    "$bottom !== null": "$bottom",
+                    "else": "''"
+                }
+            },
+            font: {
+                $$cond: {
+                    "$bottomFont === null": "Hanover-5:3",
+                    "else": "$bottomFont"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber) - width(image)',
+                bottom: 0
+            }
+        },
+        image: {
+            align: "centre-x",
+            image: {
+                $$cond: {
+                    "$image !== null": "$image",
+                    "else": "blank"
+                }
+            }
+        },
+
+        text: "$top+' '+$bottom+' '+$serviceNumber"
+    },
+    'gas-temp-kindness': {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 1
+            },
+            text: "$serviceNumber",
+            font: "LECIP-19:TowerB9Front",
+            spacing: 2
+        },
+
+        leftFlower: {
+            align: "left",
+            image: "$LeftImage",
+        },
+        displayText: {
+            $$group: {
+                centreTopText: {
+                    align: "centre-x,top",
+                    text: "$top",
+                    font: "Hanover-8:3",
+                    spacing: 1
+                },
+                centreBottomText: {
+                    align: "centre-x,bottom",
+                    text: "$bottom",
+                    font: "Hanover-8:3",
+                    spacing: 1
+                }
+            },
+            align: "left",
+            margin: {
+                left: "width(leftFlower) + len(2)"
+            }
+        },
+        rightFlower: {
+            align: "left",
+            margin: {
+                left: "width(leftFlower) + width(displayText) + len(4)"
+            },
+            image: "$RightImage"
+        },
+        text: " "
     },
     destScrollWithImage: {
         serviceNumber: {
@@ -737,6 +843,12 @@ EDSData.TTSG = {
                     "TOH GUAN RD",
                     "TOH GUAN RD EAST",
                     "TOH TUCK RD",   
+                    {
+                        renderType: "message2",
+                        serviceNumber: "41",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "BEAUTY WORLD MRT",
@@ -764,6 +876,12 @@ EDSData.TTSG = {
                     "TOH TUCK RD",
                     "TOH GUAN RD EAST",
                     "TOH GUAN RD", 
+                    {
+                        renderType: "message2",
+                        serviceNumber: "41",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "JURONG EAST",
@@ -850,7 +968,13 @@ EDSData.TTSG = {
                     "JALAN AHMAD IBRAHIM",
                     "CORPORATION DR",
                     "LAKESIDE MRT",
-                    "JURONG WEST ST 51",   
+                    "JURONG WEST ST 51",  
+                    {
+                        renderType: "message2",
+                        serviceNumber: "49",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    }, 
                 {
                     renderType: "destScroll",
                     top: "JURONG  WEST  ST  42",
@@ -881,6 +1005,12 @@ EDSData.TTSG = {
                     "YUAN CHING RD",
                     "JALAN AHMAD IBRAHIM",
                     "BOON LAY WAY", 
+                    {
+                        renderType: "message2",
+                        serviceNumber: "49",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "JURONG EAST",
@@ -1011,6 +1141,12 @@ EDSData.TTSG = {
                     "BUKIT BATOK WEST AVE 8",
                     "BUKIT BATOK WEST AVE 6",
                     "JALAN JURONG KECHIL",   
+                    {
+                        renderType: "message2",
+                        serviceNumber: "66",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "BEAUTY WORLD MRT",
@@ -1039,6 +1175,12 @@ EDSData.TTSG = {
                     "BUKIT BATOK WEST AVE 6",
                     "BUKIT BATOK WEST AVE 8",
                     "JURONG TOWN HALL RD", 
+                    {
+                        renderType: "message2",
+                        serviceNumber: "66",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "JURONG EAST",
@@ -1288,6 +1430,12 @@ EDSData.TTSG = {
                     "HOLLAND VILLAGE / RD",
                     "ORCHARD RD",
                     "BRAS BASAH RD",   
+                    {
+                        renderType: "message2",
+                        serviceNumber: "77",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "MARINA CENTRE",
@@ -1317,6 +1465,12 @@ EDSData.TTSG = {
                     "HOLLAND RD / VILLAGE",
                     "SIXTH AVE",
                     "TOH TUCK RD", 
+                    {
+                        renderType: "message2",
+                        serviceNumber: "77",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "BUKIT BATOK",
@@ -1415,6 +1569,12 @@ EDSData.TTSG = {
                     "TANJONG PENJURU",
                     "PANDAN RD / AVE",
                     "WEST COAST RD",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "78",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "CLEMENTI MRT",
@@ -1442,7 +1602,13 @@ EDSData.TTSG = {
                     "WEST COAST RD",
                     "PANDAN RD",
                     "TANJONG PENJURU",
-                    "PENJURU RD",,
+                    "PENJURU RD",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "78",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "JURONG TOWN HALL",
@@ -1468,22 +1634,23 @@ EDSData.TTSG = {
                 serviceNumber: "78A",
                 destination: "TANJONG PENJURU",
                 destinationFont: "Hanover-10",
-                scrolls: [{
+                scrolls: [
+                {
                     renderType: "message4",
                     serviceNumber: "78A",
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "TANJONG PENJURU",
                     bottomFont: "Hanover-Tower8",
-                    },
-                    {
+                },
+                {
                     renderType: "message4",
                     serviceNumber: "78A",
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "OPP CLP INTL",
                     bottomFont: "Hanover-Tower8",
-                        },
+                },
                 ],
                 scrollFont: "Hanover-7:5"
             },
@@ -1573,6 +1740,12 @@ EDSData.TTSG = {
                     "JURONG PORT RD",
                     "THIRD CHIN BEE RD",
                     "QUALITY RD",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "79",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "BOON LAY",
@@ -1609,6 +1782,12 @@ EDSData.TTSG = {
                     "THIRD CHIN BEE RD",
                     "JURONG PORT RD",
                     "TEBAN GARDENS RD",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "79",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "JURONG TOWN HALL",
@@ -1780,7 +1959,12 @@ EDSData.TTSG = {
                     "CLEMENTI RD",
                     "NAT'L UNIVERSITY OF S'PORE",
                     "KENT RIDGE CRESCENT",
-
+                    {
+                        renderType: "message2",
+                        serviceNumber: "96",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "CLEMENTI - NUS",
@@ -1873,6 +2057,12 @@ EDSData.TTSG = {
                     "HARBOURFRONT",
                     "ROBINSON RD",
                     "BAYFRONT AVE / MBS",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "97",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "MARINA CENTRE",
@@ -1902,6 +2092,12 @@ EDSData.TTSG = {
                     "HARBOURFRONT",
                     "ALEXANDRA RD",
                     "A Y E",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "97",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "JURONG EAST",
@@ -2087,7 +2283,13 @@ EDSData.TTSG = {
                     "LAKESIDE MRT",
                     "CORPORATION DR",
                     "JURONG PORT RD",
-                    "JALAN BUROH",         
+                    "JALAN BUROH",     
+                    {
+                        renderType: "message2",
+                        serviceNumber: "98",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },    
                 {
                     renderType: "destScroll",
                     top: "JUORNG PIER WAY",
@@ -2121,6 +2323,12 @@ EDSData.TTSG = {
                     "LAKESIDE MRT",
                     "JURONG WEST AVE 1",
                     "JURONG EAST AVE 1",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "98",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "JURONG EAST",
@@ -2356,6 +2564,12 @@ EDSData.TTSG = {
                     "ORCHARD RD",
                     "BRAS BASAH RD",
                     "BAYFRONT AVE / MBS",         
+                    {
+                        renderType: "message2",
+                        serviceNumber: "106",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "SHENTON WAY",
@@ -2386,6 +2600,12 @@ EDSData.TTSG = {
                     "ORCHARD BOULEVARD",
                     "HOLLAND RD / VILLAGE",
                     "COMMONWEALTH AVE WEST",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "106",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "BUKIT BATOK",
@@ -2529,6 +2749,12 @@ EDSData.TTSG = {
                     "HARBOURFRONT",
                     "CHINATOWN",
                     "ORCHARD TURN",   
+                    {
+                        renderType: "message2",
+                        serviceNumber: "143",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "TOA PAYOH",
@@ -2557,7 +2783,13 @@ EDSData.TTSG = {
                     "CHINATOWN",
                     "HARBOURFRONT",
                     "WEST COAST RD",
-                    "TEBAN GARDENS RD",       
+                    "TEBAN GARDENS RD",    
+                    {
+                        renderType: "message2",
+                        serviceNumber: "143",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },   
                 {
                     renderType: "destScroll",
                     top: "JURONG EAST",
@@ -2747,6 +2979,12 @@ EDSData.TTSG = {
                     "THOMSON RD",
                     "ORCHARD RD",
                     "SHENTON WAY",   
+                    {
+                        renderType: "message2",
+                        serviceNumber: "167",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "BUKIT MERAH",
@@ -2775,7 +3013,13 @@ EDSData.TTSG = {
                     "ORCHARD TURN",
                     "THOMSON RD",
                     "UPPER THOMSON RD",
-                    "SEMBAWANG RD",       
+                    "SEMBAWANG RD",   
+                    {
+                        renderType: "message2",
+                        serviceNumber: "167",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },   
                 {
                     renderType: "destScroll",
                     top: "SEMBAWANG",
@@ -3054,6 +3298,12 @@ EDSData.TTSG = {
                     "YISHUN MRT",
                     "SEMBAWANG RD",
                     "ANG MO KIO AVE 3",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "169",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "ANG MO KIO",
@@ -3083,6 +3333,12 @@ EDSData.TTSG = {
                     "YISHUN MRT",
                     "ADMIRALTY RD EAST",
                     "WOODLANDS AVE 9",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "169",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                     {
                         renderType: "destScroll",
                         top: "WOODLANDS",
@@ -3173,6 +3429,12 @@ EDSData.TTSG = {
                     "SEMBAWANG RD",
                     "MANDAI RD",
                     "PETIR RD",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "171",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "BUKIT PANJANG",
@@ -3201,6 +3463,12 @@ EDSData.TTSG = {
                     "MANDAI RD",
                     "SEMBAWANG RD",
                     "YISHUN AVE 5",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "171",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                     {
                         renderType: "destScroll",
                         top: "YISHUN",
@@ -3292,6 +3560,12 @@ EDSData.TTSG = {
                     "HUME AVE",
                     "BEAUTY WORLD MRT",
                     "TOH TUCK RD / TERRACE",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "173",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "CLEMENTI",
@@ -3325,6 +3599,12 @@ EDSData.TTSG = {
                     "HUME AVE",
                     "JALAN BATU NILAM",
                     "BUKIT BATOK EAST AVE 4",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "173",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                     {
                         renderType: "destScroll",
                         top: "BUKIT BATOK",
@@ -3393,6 +3673,12 @@ EDSData.TTSG = {
                     "HILLVIEW AVE",
                     "MINDEF",
                     "UPPER BUKIT TIMAH RD",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "177",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "BUKIT PANJANG",
@@ -3441,6 +3727,12 @@ EDSData.TTSG = {
                     "HILLVIEW AVE",
                     "BUKIT BATOK EAST AVE 4",
                     {
+                        renderType: "message2",
+                        serviceNumber: "177",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
+                    {
                         renderType: "destScroll",
                         top: "BUKIT BATOK",
                         topFont: "Hanover-Tower12:7",
@@ -3474,6 +3766,12 @@ EDSData.TTSG = {
                     "CLEMENTI MRT",
                     "CLEMENTI RD",
                     "PASIR PANJANG RD",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "183",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "SCIENCE  PARK  RD",
@@ -3502,6 +3800,12 @@ EDSData.TTSG = {
                     "CLEMENTI RD",
                     "CLEMENTI MRT",
                     "TOH GUAN RD EAST",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "183",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                     {
                         renderType: "destScroll",
                         top: "JURONG EAST",
@@ -3566,6 +3870,12 @@ EDSData.TTSG = {
                     "BUKIT BATOK ST 23",
                     "CLEMENTI AVE 6",
                     "CLEMENTI MRT",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "189",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "CLEMENTI AVE 1",
@@ -3594,6 +3904,12 @@ EDSData.TTSG = {
                     "CLEMENTI AVE 6",
                     "BUKIT BATOK ST 23",
                     "BUKIT BATOK EAST AVE 6",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "189",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                     {
                         renderType: "destScroll",
                         top: "BUKIT BATOK",
@@ -3657,7 +3973,12 @@ EDSData.TTSG = {
                     "CLEMENTI AVE 5",
                     "CLEMENTI AVE 2",
                     "CLEMENTI WEST ST 2",
-
+                    {
+                        renderType: "message2",
+                        serviceNumber: "282",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "CLEMENTI",
@@ -3685,7 +4006,12 @@ EDSData.TTSG = {
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [                    
                     "CLEMENTI AVE 4",
-
+                    {
+                        renderType: "message2",
+                        serviceNumber: "284",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "CLEMENTI",
@@ -3715,6 +4041,12 @@ EDSData.TTSG = {
                     "CLEMENTI AVE 2",
                     "WEST COAST RD",
                     "PANDAN LOOP",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "285",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "CLEMENTI",
@@ -3784,6 +4116,12 @@ EDSData.TTSG = {
                     "TOH GUAN RD", 
                     "JURONG EAST AVE 1",
                     "JURONG EAST ST 32",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "333",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "JURONG EAST",
@@ -3813,6 +4151,12 @@ EDSData.TTSG = {
                     "JURONG EAST AVE 1", 
                     "JURONG WEST AVE 1",
                     "JURONG WEST ST 42",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "334",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "JURONG EAST",
@@ -3880,6 +4224,12 @@ EDSData.TTSG = {
                     "JURONG WEST ST 51",
                     "JURONG WEST ST 52",
                     "JURONG WEST ST 41",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "335",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "JURONG EAST",
@@ -4912,6 +5262,12 @@ EDSData.TTSG = {
                     "YISHUN AVE 6",
                     "YISHUN ST 42",
                     "YISHUN AVE 1",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "801",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "YISHUN",
@@ -4942,6 +5298,12 @@ EDSData.TTSG = {
                     "LENTOR MRT",
                     "LENTOR RD",
                     "LENTOR LOOP",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "825",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "YIO CHU KANG",
@@ -4973,6 +5335,12 @@ EDSData.TTSG = {
                     "SERANGOON CENTRAL",
                     "UPPER SERANGOON RD",
                     "GEYLANG BAHRU",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "853",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
             {
                 renderType: "destScroll",
                 top: "LOR 1 GEYLANG",
@@ -5002,6 +5370,12 @@ EDSData.TTSG = {
                     "SERANGOON CENTRAL",
                     "ANG MO KIO AVE 6",
                     "YISHUN AVE 2",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "853",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "YISHUN",
@@ -5093,6 +5467,12 @@ EDSData.TTSG = {
                     "HOUGANG AVE 3",
                     "JLN EUNOS",
                     "NEW UPPER CHANGI RD",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "854",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
             {
                 renderType: "destScroll",
                 top: "BEDOK",
@@ -5122,6 +5502,12 @@ EDSData.TTSG = {
                     "HOUGANG AVE 3",
                     "YIO CHU KANG RD",
                     "YISHUN AVE 2",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "854",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "YISHUN",
@@ -5192,6 +5578,12 @@ EDSData.TTSG = {
                     "ADAM RD",
                     "QUEENSWAY",
                     "JALAN BUKIT MERAH",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "855",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
             {
                 renderType: "destScroll",
                 top: "HARBOURFRONT",
@@ -5221,6 +5613,12 @@ EDSData.TTSG = {
                     "FARRER RD",
                     "UPPER THOMSON RD",
                     "YISHUN AVE 2",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "855",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "YISHUN",
@@ -5252,6 +5650,12 @@ EDSData.TTSG = {
                     "SENOKO DR",
                     "WOODLANDS NORTH MRT",
                     "MARSILING ESTATE",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "856",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
             {
                     renderType: "destScroll",
                     top: "WOODLANDS",
@@ -5285,6 +5689,12 @@ EDSData.TTSG = {
                     "SENOKO RD",
                     "ADMIRALTY RD WEST",
                     "CANBERRA RD",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "856",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "YISHUN",
@@ -5380,6 +5790,12 @@ EDSData.TTSG = {
                 "LITTLE INDIA",
                 "BENCOOLEN ST",
                 "BRAS BASAH RD",
+                {
+                    renderType: "message2",
+                    serviceNumber: "857",
+                    top: "012",
+                    topFont: "LECIP-19:TowerB9Front2",
+                },
             {
                 renderType: "destScroll",
                 top: "TEMASEK AVE",
@@ -5409,6 +5825,12 @@ EDSData.TTSG = {
                     "BOON KENG MRT",
                     "SERANGOON RD",
                     "YIO CHU KANG RD",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "857",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "YISHUN",
@@ -5691,6 +6113,12 @@ EDSData.TTSG = {
                     "YISHUN MRT",
                     "JALAN KAYU",
                     "T P E",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "858",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "CHANGI AIRPORT",
@@ -5720,6 +6148,12 @@ EDSData.TTSG = {
                     "YISHUN MRT",
                     "SEMBAWANG WAY",
                     "WOODLANDS AVE 9",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "858",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "WOODLANDS",
@@ -5958,13 +6392,19 @@ EDSData.TTSG = {
                     "SEMBAWANG CRES",
                     "SEMBAWANG RD",
                     "YISHUN AVE 5",
-            {
+                    {
+                        renderType: "message2",
+                        serviceNumber: "859",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
+                {
                     renderType: "destScroll",
                     top: "YISHUN",
                     topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "859"
-            },
+                },
             ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -5987,6 +6427,12 @@ EDSData.TTSG = {
                     "SEMBAWANG CRES",
                     "ADMIRALTY LINK",
                     "CANBERRA RD",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "859",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "SEMBAWANG",
@@ -6104,6 +6550,12 @@ EDSData.TTSG = {
                     "YISHUN AVE 7",
                     "YISHUN AVE 6",
                     "YISHUN RING RD",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "861",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
             {
                     renderType: "destScroll",
                     top: "KHATIB MRT",
@@ -6137,6 +6589,12 @@ EDSData.TTSG = {
                     "YISHUN AVE 7",
                     "CANBERRA MRT",
                     "CANBERRA ST",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "861",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "SEMBAWANG",
@@ -6197,6 +6655,12 @@ EDSData.TTSG = {
                     "BUKIT BATOK WEST AVE 6",
                     "BUKIT BATOK WEST AVE 3",
                     "PLANTATION CRESCENT",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "870",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
             {
                     renderType: "destScroll",
                     top: "TENGAH",
@@ -6226,6 +6690,12 @@ EDSData.TTSG = {
                     "BUKIT BATOK WEST AVE 6",
                     "BUKIT BATOK AVE 1",
                     "JURONG EAST CENTRAL",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "870",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "JURONG TOWN HALL",
@@ -6291,6 +6761,12 @@ EDSData.TTSG = {
                     "BUKIT BATOK ST 52",
                     "BUKIT BATOK EAST AVE 3",
                     "JLN JURONG KECHIL",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "871",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "BEAUTY  WORLD  MRT",
@@ -6320,6 +6796,12 @@ EDSData.TTSG = {
                     "BUKIT BATOK ST 52",
                     "BUKIT BATOK WEST AVE 6",
                     "TENGAH DR",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "871",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
             {
                     renderType: "destScroll",
                     top: "TENGAH",
@@ -6351,6 +6833,12 @@ EDSData.TTSG = {
                     "MONTREAL LINK",
                     "SEMBAWANG RD",
                     "SEMBAWANG PARK",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "882",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "SEMBAWANG",
@@ -6416,6 +6904,12 @@ EDSData.TTSG = {
                     "CANBERRA MRT",
                     "YISHUN AVE 2",
                     "YISHUN MRT",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "883",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
             {
                     renderType: "destScroll",
                     top: "YISHUN CTRL 2",
@@ -6449,6 +6943,12 @@ EDSData.TTSG = {
                     "CANBERRA MRT",
                     "CANBERRA ST",
                     "CANBERRA WAY",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "883",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "SEMBAWANG",
@@ -6618,7 +7118,13 @@ EDSData.TTSG = {
                     "BUKIT BATOK AVE 1",
                     "BUKIT BATOK WEST AVE 6",
                     "BUKIT BATOK WEST AVE 8",
-                    "BUKIT BATOK WEST AVE 9",,
+                    "BUKIT BATOK WEST AVE 9",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "941",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "BUKIT BATOK",
@@ -6648,6 +7154,12 @@ EDSData.TTSG = {
                     "BUKIT BATOK WEST AVE 6",
                     "BUKIT BATOK WEST AVE 8",
                     "BUKIT BATOK RD",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "944",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "BUKIT BATOK",
@@ -6679,6 +7191,12 @@ EDSData.TTSG = {
                    "BUKIT GOMBAK MRT",
                    "BUKIT BATOK WEST AVE 7",
                    "BUKIT BATOK ST 34",
+                   {
+                    renderType: "message2",
+                    serviceNumber: "945",
+                    top: "012",
+                    topFont: "LECIP-19:TowerB9Front2",
+                },
                 {
                     renderType: "destScroll",
                     top: "BUKIT BATOK",
@@ -6707,6 +7225,12 @@ EDSData.TTSG = {
                 scrolls: [                    
                     "BUKIT BATOK WEST AVE 2",
                     "BUKIT BATOK WEST AVE 4",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "947",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "BUKIT BATOK",
@@ -6738,6 +7262,12 @@ EDSData.TTSG = {
                     "BUKIT BATOK EAST AVE 3",
                     "A Y E",
                     "ALEXANDRA RD",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "963",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "HARBOURFRONT",
@@ -6767,6 +7297,12 @@ EDSData.TTSG = {
                     "BUKIT BATOK EAST AVE 3",
                     "HILLVIEW AVE",
                     "BUKIT PANJANG RD",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "963",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                     {
                         renderType: "destScroll",
                         top: "WOODLANDS",
@@ -7030,6 +7566,12 @@ EDSData.TTSG = {
                     "YISHUN MRT",
                     "YISHUN MRT",
                     "COMPASSVALE RD",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "965",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "SENGKANG",
@@ -7059,6 +7601,12 @@ EDSData.TTSG = {
                     "YISHUN AVE 7",
                     "GAMBAS AVE",
                     "WOODLANDS AVE 7",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "965",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                     {
                         renderType: "destScroll",
                         top: "WOODLANDS",
@@ -7272,7 +7820,7 @@ EDSData.TTSG = {
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "963",
+                serviceNumber: "",
                 font: "LECIP-TowerRear17:10",
                 spacing: 1
             }
@@ -7291,6 +7839,12 @@ EDSData.TTSG = {
                     "JALAN TOA PAYOH",
                     "JALAN KOLAM AYER",
                     "JALAN EUNOS",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "966",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "MARINE PARADE",
@@ -7320,6 +7874,12 @@ EDSData.TTSG = {
                     "JALAN KOLAM AYER",
                     "JALAN TOA PAYOH",
                     "PENDING RD",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "966",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                     {
                         renderType: "destScroll",
                         top: "WOODLANDS",
@@ -7491,6 +8051,12 @@ EDSData.TTSG = {
                     "YISHUN MRT",
                     "T P E",
                     "TAMPINES CONCOURSE",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "969",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "TAMPINES",
@@ -7520,6 +8086,12 @@ EDSData.TTSG = {
                     "YISHUN MRT",
                     "GAMBAS AVE",
                     "WOODLANDS AVE 7",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "969",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                     {
                         renderType: "destScroll",
                         top: "WOODLANDS",
@@ -7834,6 +8406,12 @@ EDSData.TTSG = {
                     "THOMSON RD",
                     "LITTLE INDIA",
                     "BEACH RD",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "980",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "LOR 1 GEYLANG",
@@ -7864,6 +8442,12 @@ EDSData.TTSG = {
                     "UPPER THOMSON RD",
                     "SEMBAWANG RD",
                     {
+                        renderType: "message2",
+                        serviceNumber: "980",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
+                    {
                         renderType: "destScroll",
                         top: "SEMBAWANG",
                         topFont: "Hanover-Tower12:7",
@@ -7893,6 +8477,12 @@ EDSData.TTSG = {
                     "ADMIRALTY RD WEST",
                     "SENOKO DR",
                     "SENOKO RD",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "981",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "SENOKO LOOP",
@@ -7923,6 +8513,12 @@ EDSData.TTSG = {
                     "ADMIRALTY RD WEST",
                     "CANBERRA RD",
                     {
+                        renderType: "message2",
+                        serviceNumber: "981",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
+                    {
                         renderType: "destScroll",
                         top: "SEMBAWANG",
                         topFont: "Hanover-Tower12:7",
@@ -7951,6 +8547,12 @@ EDSData.TTSG = {
                     "BUKIT BATOK EAST AVE 3",
                     "BUKIT BATOK EAST AVE 6",
                     "TOH GUAN RD",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "990",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                 {
                     renderType: "destScroll",
                     top: "JURONG  EAST  MRT",
@@ -7978,6 +8580,12 @@ EDSData.TTSG = {
                     "TOH GUAN RD",
                     "BUKIT BATOK EAST AVE 6",
                     "BUKIT BATOK EAST AVE 3",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "990",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                     {
                         renderType: "destScroll",
                         top: "BUKIT BATOK",
@@ -8009,6 +8617,12 @@ EDSData.TTSG = {
                 "BUKIT BATOK RD",
                 "PLANTATION CRESCENT",
                 {
+                    renderType: "message2",
+                    serviceNumber: "992",
+                    top: "012",
+                    topFont: "LECIP-19:TowerB9Front2",
+                },
+                {
                     renderType: "destScroll",
                     top: "TENGAH",
                     topFont: "Hanover-Tower12:7",
@@ -8036,6 +8650,12 @@ EDSData.TTSG = {
                     "BUKIT BATOK RD",
                     "BUKIT BATOK WEST AVE 8",
                     "BUKIT BATOK WEST AVE 6",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "992",
+                        top: "012",
+                        topFont: "LECIP-19:TowerB9Front2",
+                    },
                     {
                         renderType: "destScroll",
                         top: "BUKIT BATOK",
@@ -8251,6 +8871,38 @@ EDSData.TTSG = {
         }
     },
     1111: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "OFF SERVICE",
+                destinationFont: "Hanover-10",
+                scrolls: [
+                    {
+                        renderType: "message",
+                        text: "012",
+                        font: "LECIP-19:TowerB9Front2",
+                        spacing: 2
+                    },
+                    {
+                        renderType: "message",
+                        text: "~ Off Service",
+                        font: "Hanover-Tower19:11",
+                        spacing: 2
+                    },
+    
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: { 
+                renderType: "message",
+                text: "~",
+                font: "Hanover-Tower19:11",
+                spacing: 1
+            }
+        }
+    },
+    1119: {
         1: {
             front: {
                 renderType: "message",
@@ -10118,7 +10770,8 @@ EDSData.TTSG = {
                 serviceNumber: "%50",
                 destination: "PONTIAN",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
+                scrolls: [
+                    {
                     renderType: "destScroll",
                     top: "PONTIAN",
                     topFont: "Hanover-Tower12:7",
@@ -10148,12 +10801,20 @@ EDSData.TTSG = {
                 serviceNumber: "",
                 destination: "TOWER TRANSIT LOGO",
                 destinationFont: "Hanover-10",
-                scrolls: [{
-                    renderType: "message2",
-                    serviceNumber: "",
-                    top: "`",
-                    topFont: "Hanover-Tower19:11",
+                scrolls: [
+                    {
+                        renderType: "message",
+                        text: "012",
+                        font: "LECIP-19:TowerB9Front2",
+                        spacing: 2
                     },
+                    {
+                       renderType: "message2",
+                       serviceNumber: "",
+                       top: "`",
+                       topFont: "Hanover-Tower19:11",
+                    },
+    
                 ],
                 scrollFont: "Hanover-7:5"
             },

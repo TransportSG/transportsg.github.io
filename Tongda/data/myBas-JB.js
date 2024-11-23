@@ -123,18 +123,13 @@ EDSData['myBas JB'] = {
     1: {
         front: {
             renderType: "standardService",
-            serviceNumber: "WIP",
-            destination: "akan datang",
+            serviceNumber: "T10",
+            destination: "JB SENTRAL",
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "WIP",
-                    top: "AKAN DATANG",
-                    topFont: "Tongda-16:7",
-                }, {
-                    renderType: "destScroll",
-                    serviceNumber: "WIP",
-                    top: "COMING SOON",
+                    serviceNumber: "T10",
+                    top: "JB SEN./LARKIN",
                     topFont: "Tongda-16:7",
                 }
             ]
@@ -192,7 +187,27 @@ EDSData['myBas JB'] = {
                 }
             ]
         }
-    }
+    },
+    9000: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "WIP",
+            destination: "akan datang",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "WIP",
+                    top: "AKAN DATANG",
+                    topFont: "Tongda-16:7",
+                }, {
+                    renderType: "destScroll",
+                    serviceNumber: "WIP",
+                    top: "COMING SOON",
+                    topFont: "Tongda-16:7",
+                }
+            ]
+        }
+    },
 }
 
 EDSExtras['myBas JB'] = {
