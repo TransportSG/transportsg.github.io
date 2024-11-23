@@ -1818,7 +1818,7 @@ EDSData.SMRT = {
             }
         }
     },
-    1991: { // Done
+    1991: { // CHECK SCROLL
         1: {
             front: {
                 renderType: "standardService",
@@ -2411,7 +2411,6 @@ EDSData.SMRT = {
 
                     "JLN AHMAD IBRAHIM",
                     "PIONEER RD NTH",
-                    "GUL RD",
                     "JURONG WEST ST 61",
                     "JURONG WEST ST 81",
                     "JURONG WEST ST 64",

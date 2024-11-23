@@ -9980,62 +9980,6 @@ EDSData['SMRT (PreSLBP)'] = {
   
         }
     },
-    7311: {
-        front: {
-            renderType: "message",
-            text: "WT 31",
-            font: "Mobitec-16:8",
-            spacing: 1
-        }
-    },
-    7321: {
-        front: {
-            renderType: "message",
-            text: "WT 32",
-            font: "Mobitec-16:8",
-            spacing: 1
-        }
-    },
-    7331: {
-        front: {
-            renderType: "message",
-            text: "WT 33",
-            font: "Mobitec-16:8",
-            spacing: 1
-        }
-    },
-    7341: {
-        front: {
-            renderType: "message",
-            text: "WT 34",
-            font: "Mobitec-16:8",
-            spacing: 1
-        }
-    },
-    7351: {
-        front: {
-            renderType: "message",
-            text: "WT 35",
-            font: "Mobitec-16:8",
-            spacing: 1
-        }
-    },
-    7361: {
-        front: {
-            renderType: "message",
-            text: "WT 36",
-            font: "Mobitec-16:8",
-            spacing: 1
-        }
-    },
-    7371: {
-        front: {
-            renderType: "message",
-            text: "WT 37",
-            font: "Mobitec-16:8",
-            spacing: 1
-        }
-    },
     7501: {
         front: {
             renderType: "standardService",
