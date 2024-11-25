@@ -847,7 +847,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "41",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -880,7 +880,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "41",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -973,7 +973,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "49",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     }, 
                 {
                     renderType: "destScroll",
@@ -1009,7 +1009,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "49",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -1145,7 +1145,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "66",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -1179,7 +1179,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "66",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -1434,7 +1434,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "77",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -1469,7 +1469,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "77",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -1573,7 +1573,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "78",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -1607,7 +1607,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "78",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -1744,7 +1744,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "79",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -1786,7 +1786,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "79",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -1963,7 +1963,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "96",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -2061,7 +2061,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "97",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -2096,7 +2096,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "97",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -2288,7 +2288,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "98",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },    
                 {
                     renderType: "destScroll",
@@ -2327,7 +2327,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "98",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -2568,7 +2568,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "106",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -2604,7 +2604,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "106",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -2753,7 +2753,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "143",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -2788,7 +2788,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "143",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },   
                 {
                     renderType: "destScroll",
@@ -2983,7 +2983,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "167",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -3018,7 +3018,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "167",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },   
                 {
                     renderType: "destScroll",
@@ -3302,7 +3302,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "169",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -3337,7 +3337,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "169",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                     {
                         renderType: "destScroll",
@@ -3433,7 +3433,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "171",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -3467,7 +3467,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "171",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                     {
                         renderType: "destScroll",
@@ -3564,7 +3564,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "173",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -3603,7 +3603,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "173",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                     {
                         renderType: "destScroll",
@@ -3677,7 +3677,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "177",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -3730,7 +3730,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "177",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                     {
                         renderType: "destScroll",
@@ -3770,7 +3770,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "183",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -3804,7 +3804,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "183",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                     {
                         renderType: "destScroll",
@@ -3874,7 +3874,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "189",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -3908,7 +3908,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "189",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                     {
                         renderType: "destScroll",
@@ -3977,7 +3977,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "282",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -4010,7 +4010,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "284",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -4045,7 +4045,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "285",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -4120,7 +4120,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "333",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -4155,7 +4155,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "334",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -4228,7 +4228,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "335",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -5266,7 +5266,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "801",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -5302,7 +5302,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "825",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -5339,7 +5339,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "853",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
             {
                 renderType: "destScroll",
@@ -5374,7 +5374,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "853",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -5471,7 +5471,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "854",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
             {
                 renderType: "destScroll",
@@ -5506,7 +5506,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "854",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -5582,7 +5582,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "855",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
             {
                 renderType: "destScroll",
@@ -5617,7 +5617,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "855",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -5654,7 +5654,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "856",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
             {
                     renderType: "destScroll",
@@ -5693,7 +5693,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "856",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -5794,7 +5794,7 @@ EDSData.TTSG = {
                     renderType: "message2",
                     serviceNumber: "857",
                     top: "012",
-                    topFont: "LECIP-19:TowerB9Front2",
+                    topFont: "LECIP-TowerIcons",
                 },
             {
                 renderType: "destScroll",
@@ -5829,7 +5829,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "857",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -6117,7 +6117,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "858",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -6152,7 +6152,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "858",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -6396,7 +6396,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "859",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -6431,7 +6431,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "859",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -6554,7 +6554,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "861",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
             {
                     renderType: "destScroll",
@@ -6593,7 +6593,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "861",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -6659,7 +6659,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "870",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
             {
                     renderType: "destScroll",
@@ -6694,7 +6694,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "870",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -6765,7 +6765,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "871",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -6800,7 +6800,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "871",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
             {
                     renderType: "destScroll",
@@ -6837,7 +6837,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "882",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -6908,7 +6908,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "883",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
             {
                     renderType: "destScroll",
@@ -6947,7 +6947,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "883",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -7123,7 +7123,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "941",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -7158,7 +7158,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "944",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -7195,7 +7195,7 @@ EDSData.TTSG = {
                     renderType: "message2",
                     serviceNumber: "945",
                     top: "012",
-                    topFont: "LECIP-19:TowerB9Front2",
+                    topFont: "LECIP-TowerIcons",
                 },
                 {
                     renderType: "destScroll",
@@ -7229,7 +7229,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "947",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -7266,7 +7266,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "963",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -7301,7 +7301,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "963",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                     {
                         renderType: "destScroll",
@@ -7570,7 +7570,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "965",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -7605,7 +7605,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "965",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                     {
                         renderType: "destScroll",
@@ -7843,7 +7843,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "966",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -7878,7 +7878,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "966",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                     {
                         renderType: "destScroll",
@@ -8055,7 +8055,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "969",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -8090,7 +8090,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "969",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                     {
                         renderType: "destScroll",
@@ -8410,7 +8410,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "980",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -8445,7 +8445,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "980",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                     {
                         renderType: "destScroll",
@@ -8481,7 +8481,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "981",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -8516,7 +8516,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "981",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                     {
                         renderType: "destScroll",
@@ -8551,7 +8551,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "990",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                 {
                     renderType: "destScroll",
@@ -8584,7 +8584,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "990",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                     {
                         renderType: "destScroll",
@@ -8620,7 +8620,7 @@ EDSData.TTSG = {
                     renderType: "message2",
                     serviceNumber: "992",
                     top: "012",
-                    topFont: "LECIP-19:TowerB9Front2",
+                    topFont: "LECIP-TowerIcons",
                 },
                 {
                     renderType: "destScroll",
@@ -8654,7 +8654,7 @@ EDSData.TTSG = {
                         renderType: "message2",
                         serviceNumber: "992",
                         top: "012",
-                        topFont: "LECIP-19:TowerB9Front2",
+                        topFont: "LECIP-TowerIcons",
                     },
                     {
                         renderType: "destScroll",
@@ -8881,7 +8881,7 @@ EDSData.TTSG = {
                     {
                         renderType: "message",
                         text: "012",
-                        font: "LECIP-19:TowerB9Front2",
+                        font: "LECIP-TowerIcons",
                         spacing: 2
                     },
                     {
@@ -10805,7 +10805,7 @@ EDSData.TTSG = {
                     {
                         renderType: "message",
                         text: "012",
-                        font: "LECIP-19:TowerB9Front2",
+                        font: "LECIP-TowerIcons",
                         spacing: 2
                     },
                     {

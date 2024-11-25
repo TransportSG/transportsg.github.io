@@ -2321,6 +2321,56 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "666",
             destination: {
+                text: "DAMAI LRT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "666",
+                    top: "Damai LRT",
+                    image: "CityDirect",
+                },
+                "SHENTON WAY",
+                "PUNGGOL WAY",
+                "PUNGGOL FIELD",
+                "PUNGGOL EAST",
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    6668: { // Old Route before 251124
+        front: {
+            renderType: "standardService",
+            serviceNumber: "666",
+            destination: {
+                text: "MARINA BLVD",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "666",
+                    top: "Marina",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "Boulevard",
+                    bottomFont: "Mobitec-7:5:1",
+                    image: "CityDirect",
+                },
+                "PUNGGOL DR",
+                "PUNGGOL EAST",
+                "PUNGGOL FIELD",
+                "PUNGGOL WAY",
+                "ROBINSON RD"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    6669: { // Old Route before 251124
+        front: {
+            renderType: "standardService",
+            serviceNumber: "666",
+            destination: {
                 text: "PUNGGOL DRIVE",
                 font: "Mobitec-7:7"
             },

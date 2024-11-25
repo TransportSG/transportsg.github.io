@@ -616,11 +616,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "41",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -653,11 +653,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "41",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -717,11 +717,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "49",
-                    top: "JURONG WEST ST 42",
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "49",
                     top: "Welcome on board",
                     topFont: "Hanover-7:3",
                     bottom: "Tower Transit",
@@ -731,12 +726,17 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "49",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
-                }
+                    image: "calendar-new"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "49",
+                    top: "JURONG WEST ST 42",
+                },
             ]
         }
     },
@@ -762,11 +762,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "49",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -881,11 +881,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "66",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -918,11 +918,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "66",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -1067,11 +1067,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "77",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -1106,11 +1106,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "77",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -1190,11 +1190,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "78",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -1227,11 +1227,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "78",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -1328,11 +1328,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "79",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -1365,11 +1365,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "79",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -1521,11 +1521,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "96",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -1609,6 +1609,15 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "97",
+                    top: "Merry Christmas &",
+                    topFont: "Hanover-7:3",
+                    bottom: "Happy New Year",
+                    bottomFont: "Hanover-7:3",
+                    image: "calendar-new"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "97",
                     top: "MARINA CENTRE",
                     bottom: "(PROMENADE STN)",
                     image: "mrt"
@@ -1640,11 +1649,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "97",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -1870,11 +1879,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "98",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -1910,11 +1919,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "98",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -2005,11 +2014,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "98M",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -2041,11 +2050,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "98M",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -2104,16 +2113,16 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "106",
-                    top: "SHENTON WAY",
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "106",
                     top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar"
+                    image: "calendar-new"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "106",
+                    top: "SHENTON WAY",
                 },
             ]
         }
@@ -2145,6 +2154,15 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "through this route",
                     bottomFont: "Hanover-7:3",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "106",
+                    top: "Merry Christmas &",
+                    topFont: "Hanover-7:3",
+                    bottom: "Happy New Year",
+                    bottomFont: "Hanover-7:3",
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -2336,6 +2354,15 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "143",
+                    top: "Merry Christmas &",
+                    topFont: "Hanover-7:3",
+                    bottom: "Happy New Year",
+                    bottomFont: "Hanover-7:3",
+                    image: "calendar-new"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "143",
                     top: "JURONG EAST",
                     image: "mrt"
                 }
@@ -2365,11 +2392,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "143",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -2409,11 +2436,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "143M",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -2454,6 +2481,15 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "167",
+                    top: "Merry Christmas &",
+                    topFont: "Hanover-7:3",
+                    bottom: "Happy New Year",
+                    bottomFont: "Hanover-7:3",
+                    image: "calendar-new"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "167",
                     top: "BUKIT MERAH",
                 }
             ]
@@ -2485,6 +2521,15 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "through this route",
                     bottomFont: "Hanover-7:3",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "167",
+                    top: "Merry Christmas &",
+                    topFont: "Hanover-7:3",
+                    bottom: "Happy New Year",
+                    bottomFont: "Hanover-7:3",
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -2715,11 +2760,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "169",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -2758,6 +2803,15 @@ EDSData.TTSG = {
                     bottom: "journey!",
                     bottomFont: "Hanover-7:3",
                     image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "169",
+                    top: "Merry Christmas &",
+                    topFont: "Hanover-7:3",
+                    bottom: "Happy New Year",
+                    bottomFont: "Hanover-7:3",
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -2832,48 +2886,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "171",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "171",
-                    top: "BUKIT PANJANG",
-                    image: "mrt"
-                }
-            ]
-        }
-    },
-    1711: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "171",
-            destination: "BUKIT PANJANG",
-            scrolls: [
-                "YISHUN AVE 5",
-                "SEMBAWANG RD",
-                "MANDAI RD",
-                "PETIR RD",
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "171",
-                    top: "Welcome on board",
-                    topFont: "Hanover-7:3",
-                    bottom: "Tower Transit",
-                    bottomFont: "Hanover-7:3",
-                    image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "171",
-                    top: "Have a pleasant",
-                    topFont: "Hanover-7:3",
-                    bottom: "journey!",
-                    bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -2906,11 +2923,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "171",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -3021,11 +3038,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "173",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -3059,11 +3076,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "173",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -3121,11 +3138,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "177",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -3159,11 +3176,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "177",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -3195,12 +3212,12 @@ EDSData.TTSG = {
                 },
                 {
                     renderType: "destScroll",
-                    serviceNumber: "183",
-                    top: "Have a pleasant",
+                    serviceNumber: "173",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -3233,11 +3250,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "183",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -3323,11 +3340,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "189",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -3360,11 +3377,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "189",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -3436,11 +3453,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "282",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -3470,11 +3487,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "284",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -3506,11 +3523,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "285",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -3542,11 +3559,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "333",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -3584,11 +3601,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "334",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -3622,11 +3639,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "335",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -3674,7 +3691,7 @@ EDSData.TTSG = {
                 },
                 {
                     renderType: "destScroll",
-                    serviceNumber: "",
+                    serviceNumber: "000",
                     top: "SERANGOON RD",
                     bottom: "(LITTLE INDIA MRT)",
                     image: "mrt"
@@ -4409,11 +4426,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "651",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -4455,11 +4472,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "651",
-                    top: "Have a safe ride",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "home!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -4500,11 +4517,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "653",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -4545,11 +4562,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "653",
-                    top: "Have a safe ride",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "home!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -4590,11 +4607,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "656",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -4799,11 +4816,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "657",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -4844,11 +4861,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "657",
-                    top: "Have a safe ride",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "home!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -4890,11 +4907,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "663",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -4913,6 +4930,51 @@ EDSData.TTSG = {
         }
     },
     6632: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "663",
+            destination: "YISHUN AVE 6",
+            scrolls: [
+                "ROBINSON RD",
+                "STAMFORD RD",
+                "DHOBY GHAUT MRT",
+                "YISHUN AVE 2 / CTRL",
+                "YISHUN AVE 11 / RING RD",
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "663",
+                    top: "Welcome on board",
+                    topFont: "Hanover-7:3",
+                    bottom: "Tower Transit",
+                    bottomFont: "Hanover-7:3",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "663",
+                    top: "Merry Christmas &",
+                    topFont: "Hanover-7:3",
+                    bottom: "Happy New Year",
+                    bottomFont: "Hanover-7:3",
+                    image: "christmas-tree"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "663",
+                    top: "YISHUN AVE 6",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "663",
+                    top: "City Direct",
+                    topFont: "Mobitec-Tower10:7",
+                    bottom: "CBD >> YISHUN",
+                    bottomFont: "Mobitec-5:3",
+                }
+            ]
+        }
+    },
+    6635: { // 663 PM Peak for ref when reverting back post-celebration
         front: {
             renderType: "standardService",
             serviceNumber: "663",
@@ -5322,11 +5384,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "670",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -5367,11 +5429,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "670",
-                    top: "Have a safe ride",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "home!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -5412,11 +5474,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "674",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -5457,11 +5519,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "674",
-                    top: "Have a safe ride",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "home!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -5531,11 +5593,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "801",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -5568,11 +5630,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "825",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -5606,11 +5668,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "853",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -5645,11 +5707,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "853",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -5674,7 +5736,7 @@ EDSData.TTSG = {
                 "MARINE PARADE RD",
                 {
                     renderType: "destScroll",
-                    serviceNumber: "853",
+                    serviceNumber: "853M",
                     top: "Welcome on board",
                     topFont: "Hanover-7:3",
                     bottom: "Tower Transit",
@@ -5683,12 +5745,12 @@ EDSData.TTSG = {
                 },
                 {
                     renderType: "destScroll",
-                    serviceNumber: "853",
-                    top: "Have a pleasant",
+                    serviceNumber: "853M",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -5723,11 +5785,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "853M",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -5761,11 +5823,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "854",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -5799,11 +5861,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "854",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -5882,11 +5944,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "855",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -5920,11 +5982,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "855",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -5958,11 +6020,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "856",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -6003,11 +6065,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "856",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -6101,11 +6163,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "857",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -6140,11 +6202,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "857",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -6283,11 +6345,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "858",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -6322,11 +6384,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "858",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -6447,11 +6509,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "859",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -6485,11 +6547,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "859",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -6614,11 +6676,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "861",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -6652,11 +6714,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "861",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -6716,11 +6778,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "870",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -6754,11 +6816,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "870",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -6819,11 +6881,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "871",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -6857,11 +6919,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "871",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -6894,11 +6956,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "882",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -6987,11 +7049,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "883",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -7025,11 +7087,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "883",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -7113,11 +7175,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "883M",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -7150,11 +7212,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "883M",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -7187,11 +7249,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "941",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -7261,11 +7323,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "945",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -7296,11 +7358,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "947",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -7334,11 +7396,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "963",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -7372,11 +7434,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "963",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -7528,10 +7590,10 @@ EDSData.TTSG = {
             ]
         }
     },
-    9634: {
+    9636: {
         front: {
             renderType: "standardService",
-            serviceNumber: "963e",
+            serviceNumber: "963R",
             destination: "WOODLANDS",
             scrolls: [
                 "A Y E",
@@ -7597,11 +7659,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "965",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -7635,11 +7697,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "965",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -7749,11 +7811,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "966",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -7787,11 +7849,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "966",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -7868,11 +7930,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "969",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -7906,11 +7968,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "969",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -8170,11 +8232,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "980",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -8209,11 +8271,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "980",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -8246,11 +8308,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "981",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -8282,12 +8344,12 @@ EDSData.TTSG = {
                 },
                 {
                     renderType: "destScroll",
-                    serviceNumber: "981",
-                    top: "Have a pleasant",
+                    serviceNumber: "9812",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -8319,11 +8381,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "990",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -8356,11 +8418,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "990",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -8393,11 +8455,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "992",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -8429,11 +8491,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "992",
-                    top: "Have a pleasant",
+                    top: "Merry Christmas &",
                     topFont: "Hanover-7:3",
-                    bottom: "journey!",
+                    bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -8592,7 +8654,18 @@ EDSExtras.TTSG = {
             topFont: "Hanover-7:3",
             bottom: "Happy New Year",
             bottomFont: "Hanover-7:3",
-            image: "calendar"
+            image: "christmas-tree"
+        }
+    },
+    12: {
+        front: {
+            renderType: "destScroll2",
+            serviceNumber: "0",
+            top: "Merry Christmas &",
+            topFont: "Hanover-7:3",
+            bottom: "Happy New Year",
+            bottomFont: "Hanover-7:3",
+            image: "christmas-tree"
         },
     },
 }
@@ -8836,7 +8909,7 @@ EDSImages.TTSG = {
         [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
         [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     ],
-    calendar: [
+    "calendar-old": [
         [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0],
         [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0],
         [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0],
@@ -8854,7 +8927,25 @@ EDSImages.TTSG = {
         [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
         [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     ],
-    christmas: [
+    "calendar-new": [
+        [0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0],
+        [0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0],
+        [0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1],
+        [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+    ],
+    "christmas-tree": [
         [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0],
         [0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0],
         [0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0],

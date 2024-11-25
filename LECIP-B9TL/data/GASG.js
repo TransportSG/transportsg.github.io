@@ -3917,6 +3917,67 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "666",
+                destination: "DAMAI LRT",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "destScrollWithImage2", // Placeholder - TBC
+                    serviceNumber: "666",
+                    top: "Damai",
+                    topFont: "Lecip-GoAhead8:6:2",
+                    bottom: "LRT",
+                    bottomFont: "Lecip-GoAhead8:6:2",
+                    image: "CityDirect-35"
+                },
+                "SHENTON WAY",
+                "PUNGGOL WAY",
+                "PUNGGOL FIELD",
+                "PUNGGOL EAST"
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "666",
+                font: "Lecip-GoAhead20:9",
+                spacing: 2
+            }
+        }
+    },
+    "666P": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "666",
+                destination: "MARINA BOULEVARD",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "destScrollWithImage2",
+                    serviceNumber: "666",
+                    top: "Marina",
+                    topFont: "Lecip-GoAhead8:6:3",
+                    bottom: "Boulevard",
+                    bottomFont: "Lecip-GoAhead8:6:2",
+                    image: "CityDirect-35"
+                },
+                "PUNGGOL DR",
+                "PUNGGOL EAST",
+                "PUNGGOL FIELD",
+                "PUNGGOL WAY",
+                "ROBINSON RD"
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "666",
+                font: "Lecip-GoAhead20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "666",
                 destination: "PUNGGOL DRIVE",
                 destinationFont: "Hanover-10",
                 scrolls: [{
