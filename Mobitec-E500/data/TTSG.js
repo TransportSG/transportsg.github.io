@@ -5528,7 +5528,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "674",
-                    top: "TENGAH DRIVE"
+                    top: "TENGAH DR"
                 },
                 {
                     renderType: "destScroll",
