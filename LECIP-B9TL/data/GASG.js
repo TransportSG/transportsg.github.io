@@ -263,6 +263,68 @@ EDSFormats.GASG = {
 
         text: "$top+' '+$bottom+' '+$serviceNumber"
     },
+    GASSeasonalGreetingsRear: {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 1
+            },
+            text: "$serviceNumber",
+            font: "LECIP-19:GoAheadB9Front2",
+            spacing: 3
+        },
+        top: {
+            align: {
+                $$cond: {
+                    "$bottom === null": "centre-x,centre-y",
+                    "else": "centre-x,top"
+                }
+            },
+            text: "$top",
+            font: {
+                $$cond: {
+                    "$topFont === null": "Mobitec-9:6",
+                    "else": "$topFont"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber) - width(image)',
+                top: 0
+            }
+        },
+        bottom: {
+            align: "centre-x,bottom",
+            text: {
+                $$cond: {
+                    "$bottom !== null": "$bottom",
+                    "else": "''"
+                }
+            },
+            font: {
+                $$cond: {
+                    "$bottomFont === null": "Hanover-5:3",
+                    "else": "$bottomFont"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber) - width(image)',
+                bottom: 1
+            }
+        },
+        image: {
+            align: "left",
+            image: {
+                $$cond: {
+                    "$image !== null": "$image",
+                    "else": "blank"
+                }
+            }
+        },
+
+        text: "$top+' '+$bottom+' '+$serviceNumber"
+    },
     destScrollWithImage: {
         serviceNumber: {
             align: "right",
@@ -3887,12 +3949,13 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "666",
-                destination: "MARINA BOULEVARD",
+                destination: "TEMASEK BLVD",
                 destinationFont: "Hanover-10",
-                scrolls: [{
+                scrolls: [
+                {
                     renderType: "destScrollWithImage2",
                     serviceNumber: "666",
-                    top: "Marina",
+                    top: "Temasek",
                     topFont: "Lecip-GoAhead8:6:3",
                     bottom: "Boulevard",
                     bottomFont: "Lecip-GoAhead8:6:2",
@@ -4189,7 +4252,7 @@ EDSData.GASG = {
                 destinationFont: "Hanover-10",
                 scrolls: [
                     {
-                        renderType: "GASSeasonalGreetings",
+                        renderType: "GASSeasonalGreetingsRear",
                         serviceNumber: "",
                         top: "@",
                         topFont: "LECIP-19:GoAheadB9Front2",
@@ -4222,7 +4285,7 @@ EDSData.GASG = {
                 destination: "KINDNESS DAY",
                 destinationFont: "Hanover-10",
                 scrolls: [{
-                      renderType: "GASSeasonalGreetings",
+                      renderType: "GASSeasonalGreetingsRear",
                       serviceNumber: "",
                       top: "7",
                       topFont: "LECIP-19:GoAheadB9Front2",
