@@ -51,7 +51,7 @@ EDSFormats.TTSG = {
                     "else": "$serviceFont"
                 }
             },
-            spacing: 3
+            spacing: 1
         },
         destination: {
             align: "centre-x,top",
@@ -158,7 +158,12 @@ EDSFormats.TTSG = {
             },
             text: "$serviceNumber",
             font: "LECIP-19:TowerB9Front",
-            spacing: 3
+            spacing: {
+                $$cond: {
+                    "$spacing === null" : 3,
+                    "else": "$spacing"
+                }
+            }
         },
         top: {
             align: {
@@ -1948,10 +1953,10 @@ EDSData.TTSG = {
             }
         }
     },
-    96: {
+    999: {
         1: {
             front: {
-                renderType: "standardService",
+                renderType: "message4",
                 serviceNumber: "96",
                 destination: "CLEMENTI",
                 destinationFont: "Hanover-Tower11:7",
@@ -1971,6 +1976,43 @@ EDSData.TTSG = {
                     topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "96"
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "96",
+                font: "LECIP-TowerRear17:10",
+                spacing: 2
+            }
+        }
+    },
+    96: {
+        1: {
+            front: {
+                renderType: "standardService2",
+                serviceNumber: "96",
+                destination: "CLEMENTI",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                    "CLEMENTI RD",
+                    "NAT'L UNIVERSITY OF S'PORE",
+                    "KENT RIDGE CRESCENT",
+                    {
+                        renderType: "message2",
+                        serviceNumber: "96",
+                        spacing: "1",
+                        top: "012",
+                        topFont: "LECIP-TowerIcons",
+                    },
+                {
+                    renderType: "destScroll",
+                    top: "CLEMENTI - NUS",
+                    topFont: "Hanover-Tower12:7",
+        
+                    serviceNumber: "96",
+                    spacing: "1"
                 },
                 ],
                 scrollFont: "Hanover-Tower7:5"
@@ -5178,9 +5220,9 @@ EDSData.TTSG = {
     674: { 
         1: {
             front: {
-                renderType: "standardService",
+                renderType: "standardService2",
                 serviceNumber: "674",
-                destination: "MARINA BLVD",
+                destination: "MARINA BOULEVARD",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [                    
                     "TENGAH GARDEN AVE",
@@ -5193,14 +5235,16 @@ EDSData.TTSG = {
                     top: "CITY DIRECT",
                     topFont: "Hanover-Tower12:7",
     
-                    serviceNumber: "674"
+                    serviceNumber: "674",
+                    spacing: "1"
                 }, 
                 {
                     renderType: "destScroll",
                     top: "MARINA  BOULEVARD",
                     topFont: "Hanover-14:6",
     
-                    serviceNumber: "674"
+                    serviceNumber: "674",
+                    spacing: "1"
                 },
                 ],
                 scrollFont: "Hanover-Tower7:5"
@@ -5214,7 +5258,7 @@ EDSData.TTSG = {
         },
         2: {
             front: {
-                renderType: "standardService",
+                renderType: "standardService2",
                 serviceNumber: "674",
                 destination: "TENGAH DRIVE",
                 destinationFont: "Hanover-Tower11:7",
@@ -5229,14 +5273,16 @@ EDSData.TTSG = {
                     top: "CITY DIRECT",
                     topFont: "Hanover-Tower12:7",
     
-                    serviceNumber: "674"
+                    serviceNumber: "674",
+                    spacing: "1"
                 },                
                 {
                     renderType: "destScroll",
                     top: "TENGAH DRIVE",
                     topFont: "Hanover-Tower12:7",
     
-                    serviceNumber: "674"
+                    serviceNumber: "674",
+                    spacing: "1"
                 },
                 ],
                 scrollFont: "Hanover-Tower7:5"
@@ -8237,8 +8283,8 @@ EDSData.TTSG = {
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "",
-                font: "LECIP-TowerRear17:10",
+                serviceNumber: "974",
+                font: "Hanover-Tower17:10",
                 spacing: 1
             }
         },
@@ -8267,8 +8313,8 @@ EDSData.TTSG = {
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "",
-                font: "LECIP-TowerRear17:10",
+                serviceNumber: "974",
+                font: "Hanover-Tower17:10",
                 spacing: 1
             }
         }
@@ -8302,9 +8348,9 @@ EDSData.TTSG = {
             },
             rear: { 
                 renderType: "rearService",
-                serviceNumber: "",
-                font: "LECIP-TowerRear17:7",
-                spacing: 1
+                serviceNumber: "974A",
+                font: "Hanover-Tower17:6",
+                spacing: 2
             }
         },
         2: {
