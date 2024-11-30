@@ -1031,7 +1031,7 @@ EDSData['SMRT (PostSLBP)'] = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
-    1102: {
+    1109: {
         front: {
             renderType: "standardService",
             serviceNumber: "110",
@@ -1059,7 +1059,7 @@ EDSData['SMRT (PostSLBP)'] = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
-    1109: {
+    1102: {
         front: {
             renderType: "standardService",
             serviceNumber: "110",
