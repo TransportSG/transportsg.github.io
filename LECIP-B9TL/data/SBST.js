@@ -11124,6 +11124,57 @@ EDSData.SBST = {
                 destination: "> CLEMENTI INT",
                 destinationFont: "LECIP-10",
                 scrolls: [
+                    'SENGKANG EAST AVE',
+                    'BUANGKOK GREEN',
+                    'YIO CHU KANG RD',
+                    'BISHAN RD',
+                    'BUKIT TIMAH RD',
+                    'SIXTH AVE',
+                    'ULU PANDAN RD'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "156",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "156",
+                destination: "> BUANGKOK INT",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    "ULU PANDAN RD",
+                    "SIXTH AVE",
+                    "DUNEARN RD",
+                    "THOMSON RD",
+                    "BISHAN RD",
+                    "YIO CHU KANG RD",
+                    "BUANGKOK GREEN",
+                    "SENGKANG EAST AVE"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "156",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    "156S": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "156",
+                destination: "> CLEMENTI INT",
+                destinationFont: "LECIP-10",
+                scrolls: [
                     'SENGKANG EAST RD',
                     'BUANGKOK GREEN',
                     'YIO CHU KANG RD',
@@ -11206,57 +11257,6 @@ EDSData.SBST = {
                 renderType: "rearService",
                 serviceNumber: "156A",
                 font: "LECIP-20:6",
-                spacing: 2
-            }
-        }
-    },
-    "156B": {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "156",
-                destination: "> CLEMENTI INT",
-                destinationFont: "LECIP-10",
-                scrolls: [
-                    'SENGKANG EAST AVE',
-                    'BUANGKOK GREEN',
-                    'YIO CHU KANG RD',
-                    'BISHAN RD',
-                    'BUKIT TIMAH RD',
-                    'SIXTH AVE',
-                    'ULU PANDAN RD'
-                ],
-                scrollFont: "LECIP-7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "156",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        },
-        2: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "156",
-                destination: "> BUANGKOK INT",
-                destinationFont: "LECIP-10",
-                scrolls: [
-                    "ULU PANDAN RD",
-                    "SIXTH AVE",
-                    "DUNEARN RD",
-                    "THOMSON RD",
-                    "BISHAN RD",
-                    "YIO CHU KANG RD",
-                    "BUANGKOK GREEN",
-                    "SENGKANG EAST AVE"
-                ],
-                scrollFont: "LECIP-7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "156",
-                font: "LECIP-20:9",
                 spacing: 2
             }
         }
@@ -15321,7 +15321,7 @@ EDSData.SBST = {
             }
         }
     },
-    374: {
+    "374C": {
         1: {
             front: {
                 renderType: "standardService",
@@ -15345,7 +15345,7 @@ EDSData.SBST = {
             }
         }
     },
-    "374S": {
+    374: {
         1: {
             front: {
                 renderType: "standardService",
