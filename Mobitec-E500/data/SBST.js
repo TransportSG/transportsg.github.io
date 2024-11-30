@@ -5449,7 +5449,7 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
-    1561: {
+    1568: {
         front: {
             renderType: "standardService",
             serviceNumber: "156",
@@ -5470,7 +5470,7 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
-    1562: {
+    1569: {
         front: {
             renderType: "standardService",
             serviceNumber: "156",
@@ -5491,7 +5491,7 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
-    1568: {
+    1561: {
         front: {
             renderType: "standardService",
             serviceNumber: "156",
@@ -5512,7 +5512,7 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
-    1569: {
+    1562: {
         front: {
             renderType: "standardService",
             serviceNumber: "156",
@@ -7872,7 +7872,7 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
-    3741: {
+    3749: {
         front: {
             renderType: "standardService",
             serviceNumber: "374",
@@ -7890,7 +7890,7 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
-    3749: {
+    3741: {
         front: {
             renderType: "standardService",
             serviceNumber: "374",
