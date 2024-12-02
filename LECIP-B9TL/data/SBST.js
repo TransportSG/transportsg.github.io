@@ -8412,7 +8412,7 @@ EDSData.SBST = {
             }
         }
     },
-    114: {
+    "114B": {
         1: {
             front: {
                 renderType: "standardService",
@@ -8459,7 +8459,7 @@ EDSData.SBST = {
             }
         }
     },
-    "114B": {
+    "114": {
         1: {
             front: {
                 renderType: "standardService",
@@ -8467,9 +8467,9 @@ EDSData.SBST = {
                 destination: "BUANGKOK INT - BUANGKOK CR",
                 destinationFont: "LECIP-6:3",
                 scrolls: [
-                    'BUANGKOK LINK',
-                    'BUANGKOK CRES',
-                    'BUANGKOK DR'
+                    'BUANGKOK DR',
+                    'BUANGKOK LK',
+                    'BUANGKOK CRES'
                 ],
                 scrollFont: "LECIP-6:3"
             },
@@ -10193,6 +10193,31 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "138B",
+                font: "LECIP-20:6",
+                spacing: 1
+            }
+        }
+    },
+    "138C": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "138C",
+                destination: "SPRINGLEAF STN",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
+                    renderType: "swt",
+                    serviceNumber: "138C",
+                    terminateAt: "UPP THOMSON",
+                    landmark: "RD (SPRINGLEAF STN EXIT 2)"
+                },
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "138C",
                 font: "LECIP-20:6",
                 spacing: 1
             }

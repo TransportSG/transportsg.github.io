@@ -4096,7 +4096,7 @@ EDSData.SBST = {
             destinationName: "RD (KOVAN STN EXIT B)"
         }
     },
-    1141: {
+    1149: {
         front: {
             renderType: "standardService",
             serviceNumber: "114",
@@ -4120,7 +4120,7 @@ EDSData.SBST = {
             destinationName: "CRESCENT (BLK 998B)"
         }
     },
-    1149: {
+    1141: {
         front: {
             renderType: "standardService",
             serviceNumber: "114",
@@ -4129,9 +4129,9 @@ EDSData.SBST = {
                 font: "Mobitec-7:4"
             },
             scrolls: [
-                'BUANGKOK LINK',
-                'BUANGKOK CRES',
-                'BUANGKOK DR'
+                'BUANGKOK DR',
+                'BUANGKOK LK',
+                'BUANGKOK CRES'
             ],
             scrollFont: "Mobitec-6:5"
         }
