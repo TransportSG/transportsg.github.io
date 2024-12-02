@@ -5028,6 +5028,30 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
+    1385: {
+        front: {
+            renderType: "swt",
+            serviceNumber: "138A",
+            destinationRoad: "MANDAI",
+            destinationName: "LAKE RD (S'PORE ZOO)"
+        }
+    },
+    1386: {
+        front: {
+            renderType: "swt",
+            serviceNumber: "138B",
+            destinationRoad: "",
+            destinationName: "AMK AVE (BLK 604)"
+        }
+    },
+    1387: {
+        front: {
+            renderType: "swt",
+            serviceNumber: "138C",
+            destinationRoad: "",
+            destinationName: "SPRINGLEAF STN EXIT 2"
+        }
+    },
     1395: {
         front: {
             renderType: "swt",

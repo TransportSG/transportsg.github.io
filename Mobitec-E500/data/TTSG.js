@@ -620,7 +620,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -657,7 +657,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "christmas-tree"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -730,7 +730,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -766,7 +766,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "christmas-tree"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -885,7 +885,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -922,7 +922,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "christmas-tree"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -1071,7 +1071,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -1110,7 +1110,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "christmas-tree"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -1194,7 +1194,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -1231,7 +1231,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "christmas-tree"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -1332,7 +1332,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -1369,7 +1369,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "christmas-tree"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -1525,7 +1525,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -1613,7 +1613,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -1653,7 +1653,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "christmas-tree"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -1883,7 +1883,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -1923,7 +1923,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "christmas-tree"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -2018,7 +2018,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -2054,7 +2054,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "christmas-tree"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -2117,7 +2117,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -2162,7 +2162,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "christmas-tree"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -2358,7 +2358,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -2396,7 +2396,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "christmas-tree"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -2440,7 +2440,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -2485,7 +2485,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -2529,7 +2529,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "christmas-tree"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -2764,7 +2764,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -2811,7 +2811,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "christmas-tree"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -2890,7 +2890,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -2927,7 +2927,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "christmas-tree"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -3042,7 +3042,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -3080,7 +3080,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "christmas-tree"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -3142,7 +3142,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -3180,7 +3180,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "christmas-tree"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -3217,7 +3217,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -3254,7 +3254,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "christmas-tree"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -3344,7 +3344,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -3381,7 +3381,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "christmas-tree"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -3457,7 +3457,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -3491,7 +3491,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -3527,7 +3527,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -3563,7 +3563,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -3605,7 +3605,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -3643,7 +3643,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -4430,7 +4430,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -4476,7 +4476,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "christmas-tree"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -4521,7 +4521,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -4566,7 +4566,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "christmas-tree"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -4611,7 +4611,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -4820,7 +4820,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -4865,7 +4865,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "christmas-tree"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -4911,7 +4911,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -4956,7 +4956,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "christmas-tree"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -5388,7 +5388,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -5433,7 +5433,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "christmas-tree"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -5478,7 +5478,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -5523,7 +5523,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "christmas-tree"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -5597,7 +5597,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -5634,7 +5634,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -5672,7 +5672,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -5711,7 +5711,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "christmas-tree"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -5750,7 +5750,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -5789,7 +5789,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "christmas-tree"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -5827,7 +5827,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -5865,7 +5865,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "christmas-tree"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -5948,7 +5948,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -5986,7 +5986,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "christmas-tree"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -6024,7 +6024,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -6069,7 +6069,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "christmas-tree"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -6167,7 +6167,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -6206,7 +6206,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "christmas-tree"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -6349,7 +6349,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -6388,7 +6388,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "christmas-tree"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -6513,7 +6513,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -6551,7 +6551,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "christmas-tree"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -6680,7 +6680,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -6718,7 +6718,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "christmas-tree"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -6782,7 +6782,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -6820,7 +6820,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "christmas-tree"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -6885,7 +6885,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -6923,7 +6923,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "christmas-tree"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -6960,7 +6960,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -7053,7 +7053,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -7091,7 +7091,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "christmas-tree"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -7179,7 +7179,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -7216,7 +7216,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "christmas-tree"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -7253,7 +7253,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -7327,7 +7327,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -7362,7 +7362,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -7400,7 +7400,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -7438,7 +7438,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "christmas-tree"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -7663,7 +7663,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -7701,7 +7701,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "christmas-tree"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -7815,7 +7815,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -7853,7 +7853,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "christmas-tree"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -7934,7 +7934,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -7972,7 +7972,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "christmas-tree"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -8236,7 +8236,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -8275,7 +8275,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "christmas-tree"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -8312,7 +8312,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -8349,7 +8349,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "christmas-tree"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -8385,7 +8385,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -8422,7 +8422,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "christmas-tree"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -8459,7 +8459,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "calendar-new"
+                    image: "christmas-tree"
                 },
                 {
                     renderType: "destScroll",
@@ -8495,7 +8495,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "Happy New Year",
                     bottomFont: "Hanover-7:3",
-                    image: "christmas-tree"
+                    image: "calendar-new"
                 },
                 {
                     renderType: "destScroll",
@@ -8654,7 +8654,7 @@ EDSExtras.TTSG = {
             topFont: "Hanover-7:3",
             bottom: "Happy New Year",
             bottomFont: "Hanover-7:3",
-            image: "christmas-tree"
+            image: "calendar-new"
         }
     },
     12: {
@@ -8665,7 +8665,7 @@ EDSExtras.TTSG = {
             topFont: "Hanover-7:3",
             bottom: "Happy New Year",
             bottomFont: "Hanover-7:3",
-            image: "christmas-tree"
+            image: "calendar-new"
         },
     },
 }
