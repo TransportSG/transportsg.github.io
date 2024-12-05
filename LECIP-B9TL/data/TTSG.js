@@ -5260,7 +5260,7 @@ EDSData.TTSG = {
             front: {
                 renderType: "standardService2",
                 serviceNumber: "674",
-                destination: "TENGAH DRIVE",
+                destination: "TENGAH DR",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [                    
                     "CENTRAL BOULEVARD",
@@ -5278,7 +5278,7 @@ EDSData.TTSG = {
                 },                
                 {
                     renderType: "destScroll",
-                    top: "TENGAH DRIVE",
+                    top: "TENGAH DR",
                     topFont: "Hanover-Tower12:7",
     
                     serviceNumber: "674",

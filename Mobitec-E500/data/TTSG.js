@@ -5500,7 +5500,7 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "674",
-            destination: "TENGAH DRIVE",
+            destination: "TENGAH DR",
             scrolls: [
                 "CENTRAL BOULEVARD",
                 "SHENTON WAY",

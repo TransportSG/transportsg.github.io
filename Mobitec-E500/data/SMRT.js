@@ -819,11 +819,16 @@ EDSData['SMRT (PostSLBP)'] = {
             },
             scrolls: [
                 {
+                    renderType: "logo",
+                    image: "logo",
+                    text: "SMRT LOGO"
+                },
+                {
                     renderType: "destScroll",
-                    top: "SMRT Mobitec (With Jurong West",
+                    top: "SMRT Mobitec (Sep 2024 Onwards",
                     topFont: "Mobitec-7:4",
         
-                    bottom: "package data)",
+                    bottom: "- with Jurong West package data)",
                     bottomFont: "Mobitec-7:4",
         
                     serviceNumber: ""
