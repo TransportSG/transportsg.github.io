@@ -123,73 +123,285 @@ EDSData.Instruction = {
     1: {
         front: {
             renderType: "standardService",
-            serviceNumber: "WIP",
-            destination: "akan datang",
+            serviceNumber: "",
+            destination: "Welcome paga",
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "WIP",
-                    top: "AKAN DATANG",
-                    topFont: "Tongda-16:7",
-                }, {
+                    serviceNumber: "",
+                    top: "Selamat datang! Tekan butang `",
+                    topFont: "Hanover-7:3:3",
+                    bottom: "diikuti oleh { dan } untuk memulakan",
+                    bottomFont: "Hanover-7:3:3",
+                },
+                {
                     renderType: "destScroll",
-                    serviceNumber: "WIP",
-                    top: "COMING SOON",
-                    topFont: "Tongda-16:7",
-                }
+                    serviceNumber: "",
+                    top: "Selamat datang! Tekan butang `",
+                    topFont: "Hanover-7:3:3",
+                    bottom: "diikuti oleh { dan } untuk memulakan",
+                    bottomFont: "Hanover-7:3:3",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "Welcome! To start, press the `",
+                    topFont: "Hanover-7:3:3",
+                    bottom: "button, followed by { twice and }",
+                    bottomFont: "Hanover-7:3:3",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "Welcome! To start, press the `",
+                    topFont: "Hanover-7:3:3",
+                    bottom: "button, followed by { twice and }",
+                    bottomFont: "Hanover-7:3:3",
+                },
             ]
         }
     },
     2: {
         front: {
-            renderType: "message",
-            text: "TONGDA",
-            font: "Tongda-16:7",
-            spacing: 2,
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: "Arahan dalam Bahasa Melayu (1/2)",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "Bagusla! Anda telah menukar mesej",
+                    topFont: "Hanover-7:3:3",
+                    bottom: "yang dipaparkan melalui code list",
+                    bottomFont: "Hanover-7:3:3",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "Bagusla! Anda telah menukar mesej",
+                    topFont: "Hanover-7:3:3",
+                    bottom: "yang dipaparkan melalui code list",
+                    bottomFont: "Hanover-7:3:3",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "Tekan butang ` lagi, masukkan kod 10",
+                    topFont: "Hanover-7:3:3",
+                    bottom: "dan kemudian tekan butang }",
+                    bottomFont: "Hanover-7:3:3",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "Tekan butang ` lagi, masukkan kod 10",
+                    topFont: "Hanover-7:3:3",
+                    bottom: "dan kemudian tekan butang }",
+                    bottomFont: "Hanover-7:3:3",
+                },
+            ]
         }
     },
-    1111: {
+    3: {
         front: {
             renderType: "standardService",
             serviceNumber: "",
-            destination: "Tiada Perkhidmatan",
+            destination: "Instructions in English (1/2)",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "Good job! You've changed the display by",
+                    topFont: "Hanover-7:3:3",
+                    bottom: "using the code list method. ",
+                    bottomFont: "Hanover-7:3:3",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "Good job! You've changed the display by",
+                    topFont: "Hanover-7:3:3",
+                    bottom: "using the code list method. ",
+                    bottomFont: "Hanover-7:3:3",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "Press ` again, followed by",
+                    topFont: "Hanover-7:3:3",
+                    bottom: "keying out code 20, and then press }",
+                    bottomFont: "Hanover-7:3:3",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "Press ` again, followed by",
+                    topFont: "Hanover-7:3:3",
+                    bottom: "keying out code 20, and then press }",
+                    bottomFont: "Hanover-7:3:3",
+                },
+            ]
+        }
+    },
+    4: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: "",
             scrolls: [
                 {
                     renderType: "message",
-                    text: "TIADA PERKHIDMATAN",
+                    text: "",
                     font: "Tongda-16:7",
                     spacing: 1
                 }
             ]
         }
     },
-    1001: {
+    10: {
         front: {
             renderType: "standardService",
-            serviceNumber: "F100",
-            destination: "Bandaraya",
+            serviceNumber: "",
+            destination: "Arahan dalam Bahasa Melayu (2/2)",
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "F100",
-                    top: "LARKIN",
-                    topFont: "Tongda-16:7",
+                    serviceNumber: "",
+                    top: "Bagusla! Anda telah menukar mesej yang",
+                    topFont: "Hanover-7:3:3",
+                    bottom: "dipaparkan dengan memasukkan kod",
+                    bottomFont: "Hanover-7:3:3",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "Bagusla! Anda telah menukar mesej yang",
+                    topFont: "Hanover-7:3:3",
+                    bottom: "dipaparkan dengan memasukkan kod",
+                    bottomFont: "Hanover-7:3:3",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "Terdapat 2 cara untuk memilih perkara",
+                    topFont: "Hanover-7:3:3",
+                    bottom: "perkara yang anda ingin paparkan",
+                    bottomFont: "Hanover-7:3:3",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "Terdapat 2 cara untuk memilih perkara",
+                    topFont: "Hanover-7:3:3",
+                    bottom: "perkara yang anda ingin paparkan",
+                    bottomFont: "Hanover-7:3:3",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "Sekarang, sila tekan butang ~",
+                    topFont: "Hanover-7:3:3",
+                    bottom: "tekan { sekali dan kemudian }",
+                    bottomFont: "Hanover-7:3:3",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "Sekarang, sila tekan butang ~",
+                    topFont: "Hanover-7:3:3",
+                    bottom: "tekan { sekali dan kemudian }",
+                    bottomFont: "Hanover-7:3:3",
+                },
+            ]
+        }
+    },
+    20: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: "Instructions in English (2/2)",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "Good job! You've changed the display by",
+                    topFont: "Hanover-7:3:3",
+                    bottom: "keying in the code of the desired display",
+                    bottomFont: "Hanover-7:3:3",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "Good job! You've changed the display by",
+                    topFont: "Hanover-7:3:3",
+                    bottom: "keying in the code of the desired display",
+                    bottomFont: "Hanover-7:3:3",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "These are the two main ways to",
+                    topFont: "Hanover-7:3:3",
+                    bottom: "navigate your way in the simulator",
+                    bottomFont: "Hanover-7:3:3",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "These are the two main ways to",
+                    topFont: "Hanover-7:3:3",
+                    bottom: "navigate your way in the simulator",
+                    bottomFont: "Hanover-7:3:3",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "Now, let's press ~ then { and } to",
+                    topFont: "Hanover-7:3:3",
+                    bottom: "go to another operator's display list",
+                    bottomFont: "Hanover-7:3:3",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "Now, let's press ~ then { and } to",
+                    topFont: "Hanover-7:3:3",
+                    bottom: "go to another operator's display list",
+                    bottomFont: "Hanover-7:3:3",
+                },
+            ]
+        }
+    },
+    30: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: "",
+            scrolls: [
+                {
+                    renderType: "message",
+                    text: "",
+                    font: "Tongda-16:7",
+                    spacing: 1
                 }
             ]
         }
     },
-    1002: {
+    9999: {
         front: {
             renderType: "standardService",
-            serviceNumber: "F100",
-            destination: "JB Sentral",
+            serviceNumber: "",
+            destination: "",
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "F100",
-                    top: "JB SENTRAL",
-                    topFont: "Tongda-16:7",
-                }
+                    serviceNumber: "",
+                    top: "",
+                    topFont: "Hanover-7:3:3",
+                    bottom: "",
+                    bottomFont: "Hanover-7:3:3",
+                },
+
             ]
         }
     }
