@@ -140,54 +140,31 @@ EDSData['BAS.MY Meleka (Prev. SBST)'] = {
             ]
         }
     },
-    2: {
-        front: {
-            renderType: "message",
-            text: "TONGDA",
-            font: "Tongda-16:7",
-            spacing: 2,
-        }
-    },
-    1111: {
+    100: {
         front: {
             renderType: "standardService",
-            serviceNumber: "",
-            destination: "Tiada Perkhidmatan",
-            scrolls: [
-                {
-                    renderType: "message",
-                    text: "TIADA PERKHIDMATAN",
-                    font: "Tongda-16:7",
-                    spacing: 1
-                }
-            ]
-        }
-    },
-    1001: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "F100",
+            serviceNumber: "M100",
             destination: "Bandaraya",
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "F100",
-                    top: "LARKIN",
+                    serviceNumber: "M100",
+                    top: "BANDARAYA",
                     topFont: "Tongda-16:7",
                 }
             ]
         }
     },
-    1002: {
+    101: {
         front: {
             renderType: "standardService",
-            serviceNumber: "F100",
-            destination: "JB Sentral",
+            serviceNumber: "M101",
+            destination: "PASAR MELAKA FEEDER",
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "F100",
-                    top: "JB SENTRAL",
+                    serviceNumber: "M101",
+                    top: "PASAR MELAKA",
                     topFont: "Tongda-16:7",
                 }
             ]
