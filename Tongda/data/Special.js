@@ -122,81 +122,50 @@ EDSFormats.Special = {
 EDSData.Special = {
     1: {
         front: {
-            renderType: "full"
+            renderType: "standardService",
+            serviceNumber: "WIP",
+            destination: "akan datang",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "WIP",
+                    top: "AKAN DATANG",
+                    topFont: "Tongda-16:7",
+                }, {
+                    renderType: "destScroll",
+                    serviceNumber: "WIP",
+                    top: "COMING SOON",
+                    topFont: "Tongda-16:7",
+                }
+            ]
         }
     },
-    2: {
+    9999: {
         front: {
-            renderType: "message",
-            text: "TONGDA",
-            font: "Tongda-16:7",
-            spacing: 2,
+            renderType: "full"
         }
     },
     1111: {
         front: {
             renderType: "standardService",
             serviceNumber: "",
-            destination: "Tiada Perkhidmatan",
-            scrolls: [
-                {
-                    renderType: "message",
-                    text: "TIADA PERKHIDMATAN",
-                    font: "Tongda-16:7",
-                    spacing: 1
-                }
-            ]
-        }
-    },
-    1001: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "F100",
-            destination: "Bandaraya",
+            destination: "TIADA PERKHIDMATAN",
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "F100",
-                    top: "LARKIN",
+                    serviceNumber: "",
+                    top: "TIADA PERKHIDMATAN",
                     topFont: "Tongda-16:7",
-                }
-            ]
-        }
-    },
-    1002: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "F100",
-            destination: "JB Sentral",
-            scrolls: [
+                },
                 {
                     renderType: "destScroll",
-                    serviceNumber: "F100",
-                    top: "JB SENTRAL",
+                    serviceNumber: "",
+                    top: "OFF SERVICE",
                     topFont: "Tongda-16:7",
-                }
+                },
             ]
         }
     },
-    72: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "7",
-            destination: {
-                text: "> BEDOK INT",
-                font: "Mobitec-7:5:2"
-            },
-            scrolls: [
-                "ULU PANDAN RD",
-                "HOLLAND RD",
-                "ORCHARD RD",
-                "VICTORIA ST",
-                "GUILLEMARD RD",
-                "SIMS AVE EAST"
-            ],
-            scrollFont: "Mobitec-6:5"
-        }
-    }
 }
 
 EDSExtras.Special = {

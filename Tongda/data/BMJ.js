@@ -131,7 +131,8 @@ EDSData['BMJ (JB)'] = {
                     serviceNumber: "WIP",
                     top: "AKAN DATANG",
                     topFont: "Tongda-16:7",
-                }, {
+                }, 
+                {
                     renderType: "destScroll",
                     serviceNumber: "WIP",
                     top: "COMING SOON",
@@ -140,59 +141,59 @@ EDSData['BMJ (JB)'] = {
             ]
         }
     },
-    2: {
-        front: {
-            renderType: "message",
-            text: "TONGDA",
-            font: "Tongda-16:7",
-            spacing: 2,
-        }
-    },
-    1111: {
+    201: {
         front: {
             renderType: "standardService",
-            serviceNumber: "",
-            destination: "Tiada Perkhidmatan",
-            scrolls: [
-                {
-                    renderType: "message",
-                    text: "TIADA PERKHIDMATAN",
-                    font: "Tongda-16:7",
-                    spacing: 1
-                }
-            ]
-        }
-    },
-    1001: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "F100",
-            destination: "Bandaraya",
+            serviceNumber: "P201",
+            destination: "",
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "F100",
-                    top: "LARKIN",
+                    serviceNumber: "P201",
+                    top: "TERM. TAMAN U",
+                    topFont: "Tongda-16:7",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "P201",
+                    top: "PULAI INDAH",
                     topFont: "Tongda-16:7",
                 }
             ]
         }
     },
-    1002: {
+    998: {
         front: {
             renderType: "standardService",
-            serviceNumber: "F100",
-            destination: "JB Sentral",
+            serviceNumber: "HSA",
+            destination: "",
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "F100",
-                    top: "JB SENTRAL",
+                    serviceNumber: "",
+                    top: "HSA",
                     topFont: "Tongda-16:7",
-                }
+                },
+
             ]
         }
-    }
+    },
+    999: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "HSI",
+            destination: "",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "HOSP. SULTAN ISMAIL",
+                    topFont: "Tongda-16:7",
+                },
+
+            ]
+        }
+    },
 }
 
 EDSExtras['BMJ (JB)'] = {

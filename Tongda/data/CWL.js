@@ -120,11 +120,26 @@ EDSFormats['CWL (JB Area)'] = {
 }
 
 EDSData['CWL (JB Area)'] = {
+    1: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "CW1",
+            destination: "KRANJI MRT",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "CW1",
+                    top: "KRANJI MRT",
+                    topFont: "Tongda-16:7",
+                }
+            ]
+        }
+    },
     2: {
         front: {
             renderType: "standardService",
             serviceNumber: "CW2",
-            destination: "QUEEN STREET",
+            destination: "QUEEN STREET / KOTA TINGGI",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -135,52 +150,135 @@ EDSData['CWL (JB Area)'] = {
             ]
         }
     },
-    1111: {
+    3: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "CW3",
+            destination: "JURONG EAST / PERLING MALL",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "CW3",
+                    top: "JURONG EAST",
+                    topFont: "Tongda-16:7",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "CW3",
+                    top: "PERLING MALL",
+                    topFont: "Tongda-16:7",
+                },
+            ]
+        }
+    },
+    1000: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "LOOP 1",
+            destination: "WOODLANDS CIQ",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "LOOP1",
+                    top: "WOODLAND CIQ",
+                    topFont: "Tongda-16:7",
+                }
+            ]
+        }
+    },
+    9011: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "CG1",
+            destination: "COUNTRY GARDEN",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "FC1",
+                    top: "COUNTRY GARDEN",
+                    topFont: "Tongda-16:7",
+                }
+            ]
+        }
+    },
+    9111: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "FC1",
+            destination: "FOREST CITY",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "FC1",
+                    top: "FOREST CITY",
+                    topFont: "Tongda-16:7",
+                }
+            ]
+        }
+    },
+    9211: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "AA1",
+            destination: "JB SENTRAL / SENAI AIRPORT",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "AA1",
+                    top: "JB SENTRAL",
+                    topFont: "Tongda-16:7",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "AA1",
+                    top: "SENAI AIRPORT",
+                    topFont: "Tongda-16:7",
+                },
+            ]
+        }
+    },
+    9312: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "DS2",
+            destination: "WESTIN / HARD ROCK HOTEL",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "DS2",
+                    top: "WESTIN / HRH",
+                    topFont: "Tongda-16:7",
+                },
+
+            ]
+        }
+    },
+    9998: {
         front: {
             renderType: "standardService",
             serviceNumber: "",
-            destination: "Tiada Perkhidmatan",
-            scrolls: [
-                {
-                    renderType: "message",
-                    text: "TIADA PERKHIDMATAN",
-                    font: "Tongda-16:7",
-                    spacing: 1
-                }
-            ]
-        }
-    },
-    1001: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "F100",
-            destination: "Bandaraya",
+            destination: "MASK",
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "F100",
-                    top: "LARKIN",
-                    topFont: "Tongda-16:7",
-                }
-            ]
-        }
-    },
-    1002: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "F100",
-            destination: "JB Sentral",
-            scrolls: [
+                    serviceNumber: "",
+                    top: "PAKAI PELITUP MUKA",
+                    topFont: "Mobitec-7:4",
+                    bottom: "KERAP SANITASI TANGAH ANDA",
+                    bottomFont: "Mobitec-7:4", 
+                },
                 {
                     renderType: "destScroll",
-                    serviceNumber: "F100",
-                    top: "JB SENTRAL",
-                    topFont: "Tongda-16:7",
-                }
+                    serviceNumber: "",
+                    top: "MASK IS MANDATORY",
+                    topFont: "Mobitec-7:4",
+                    bottom: "SANITIZE YOUR HAND REGULARLY",
+                    bottomFont: "Mobitec-7:4", 
+                },
             ]
         }
     },
-    9000: {
+    9999: {
         front: {
             renderType: "standardService",
             serviceNumber: "WIP",
@@ -196,24 +294,10 @@ EDSData['CWL (JB Area)'] = {
                     serviceNumber: "WIP",
                     top: "COMING SOON",
                     topFont: "Tongda-16:7",
-                }
+                },
             ]
         }
     },
-    9999: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: " ",
-            destination: {
-                text: " ",
-                font: "Mobitec-7:5:2"
-            },
-            scrolls: [
- 
-            ],
-            scrollFont: "Mobitec-6:5"
-        }
-    }
 }
 
 EDSExtras['CWL (JB Area)'] = {

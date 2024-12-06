@@ -123,74 +123,6 @@ EDSData['myBas JB'] = {
     1: {
         front: {
             renderType: "standardService",
-            serviceNumber: "T10",
-            destination: "JB SENTRAL",
-            scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "T10",
-                    top: "JB SEN./LARKIN",
-                    topFont: "Tongda-16:7",
-                }
-            ]
-        }
-    },
-    2: {
-        front: {
-            renderType: "message",
-            text: "TONGDA",
-            font: "Tongda-16:7",
-            spacing: 2,
-        }
-    },
-    1111: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "",
-            destination: "Tiada Perkhidmatan",
-            scrolls: [
-                {
-                    renderType: "message",
-                    text: "TIADA PERKHIDMATAN",
-                    font: "Tongda-16:7",
-                    spacing: 1
-                }
-            ]
-        }
-    },
-    1001: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "F100",
-            destination: "Bandaraya",
-            scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "F100",
-                    top: "LARKIN",
-                    topFont: "Tongda-16:7",
-                }
-            ]
-        }
-    },
-    1002: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "F100",
-            destination: "JB Sentral",
-            scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "F100",
-                    top: "JB SENTRAL",
-                    topFont: "Tongda-16:7",
-                }
-            ]
-        }
-    },
-    9000: {
-        front: {
-            renderType: "standardService",
             serviceNumber: "WIP",
             destination: "akan datang",
             scrolls: [
@@ -205,6 +137,153 @@ EDSData['myBas JB'] = {
                     top: "COMING SOON",
                     topFont: "Tongda-16:7",
                 }
+            ]
+        }
+    },
+    10: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "T10",
+            destination: "JB SENTRAL / KOTA TINGGI",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "T10",
+                    top: "JB SEN./LARKIN",
+                    topFont: "Tongda-16:7",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "T10",
+                    top: "T. KOTA TINGGI",
+                    topFont: "Tongda-16:7",
+                }
+            ]
+        }
+    },
+    20: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "T20",
+            destination: "JB SENTRAL / PASIR GUDANG",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "T20",
+                    top: "JB SENTRAL",
+                    topFont: "Tongda-16:7",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "T20",
+                    top: "T. PASIR GUDANG",
+                    topFont: "Tongda-16:7",
+                }
+            ]
+        }
+    },
+    21: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "T21",
+            destination: "JB SENTRAL / PERMAS JAYA",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "T21",
+                    top: "JB SENTRAL",
+                    topFont: "Tongda-16:7",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "T21",
+                    top: "PERMAS JAYA",
+                    topFont: "Tongda-16:7",
+                }
+            ]
+        }
+    },
+    22: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "T22",
+            destination: "LARKIN SENTRAL / KOTA MASAI",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "T22",
+                    top: "LARKIN SENTRAL",
+                    topFont: "Tongda-16:7",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "T22",
+                    top: " LOTUS KOTA MASAI",
+                    topFont: "Tongda-16:7",
+                }
+            ]
+        }
+    },
+    33: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "T33",
+            destination: "JB SENTRAL",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "T33",
+                    top: "JB SENTRAL",
+                    topFont: "Tongda-16:7",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "T33",
+                    top: "TAN SRI YAACOB",
+                    topFont: "Tongda-16:7",
+                }
+            ]
+        }
+    },
+    50: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "T50",
+            destination: "LARKIN SENTRAL / PONTIAN",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "T50",
+                    top: "LARKIN SENTRAL",
+                    topFont: "Tongda-16:7",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "T50",
+                    top: "PONTIAN",
+                    topFont: "Tongda-16:7",
+                }
+            ]
+        }
+    },
+    100: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "F100",
+            destination: "JB SENTRAL / KSL",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "F100",
+                    top: "KSL",
+                    topFont: "Tongda-16:7",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "F100",
+                    top: "JB SENTRAL",
+                    topFont: "Tongda-16:7",
+                },
             ]
         }
     },
