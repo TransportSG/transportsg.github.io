@@ -161,6 +161,69 @@ EDSData['myBas JB'] = {
             ]
         }
     },
+    12: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "T12",
+            destination: "AEON TEBRAU / TERMINAL TIRAM",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "T12",
+                    top: " AEON BUKIT INDAH",
+                    topFont: "Tongda-16:7",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "T12",
+                    top: "TERMINAL TIRAM",
+                    topFont: "Tongda-16:7",
+                }
+            ]
+        }
+    },
+    13: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "T13",
+            destination: "JB SENTRAL / LARKIN SENTRAL",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "T13",
+                    top: "JB SENTRAL",
+                    topFont: "Tongda-16:7",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "T13",
+                    top: "LARKIN SENTRAL",
+                    topFont: "Tongda-16:7",
+                }
+            ]
+        }
+    },
+    14: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "T14",
+            destination: "JB SENTRAL / TOPPEN & IKEA",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "T14",
+                    top: "JB SENTRAL",
+                    topFont: "Tongda-16:7",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "T14",
+                    top: "TOPPEN & IKEA",
+                    topFont: "Tongda-16:7",
+                }
+            ]
+        }
+    },
     20: {
         front: {
             renderType: "standardService",
@@ -224,11 +287,32 @@ EDSData['myBas JB'] = {
             ]
         }
     },
+    30: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "T30",
+            destination: "JB SENTRAL / KULAI",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "T30",
+                    top: "JB SENTRAL",
+                    topFont: "Tongda-16:7",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "T30",
+                    top: "TERMINAL KULAI",
+                    topFont: "Tongda-16:7",
+                }
+            ]
+        }
+    },
     33: {
         front: {
             renderType: "standardService",
             serviceNumber: "T33",
-            destination: "JB SENTRAL",
+            destination: "JB SENTRAL / TAN SRI YAACOB",
             scrolls: [
                 {
                     renderType: "destScroll",

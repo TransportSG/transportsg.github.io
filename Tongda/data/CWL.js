@@ -139,7 +139,7 @@ EDSData['CWL (JB Area)'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "CW2",
-            destination: "QUEEN STREET / KOTA TINGGI",
+            destination: "QUEEN STREET / JB CIQ",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -166,6 +166,27 @@ EDSData['CWL (JB Area)'] = {
                     renderType: "destScroll",
                     serviceNumber: "CW3",
                     top: "PERLING MALL",
+                    topFont: "Tongda-16:7",
+                },
+            ]
+        }
+    },
+    5: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "CW5",
+            destination: "NEWTON / JB CIQ",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "CW5",
+                    top: "NEWTON",
+                    topFont: "Tongda-16:7",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "CW5",
+                    top: "JB CUSTOM",
                     topFont: "Tongda-16:7",
                 },
             ]
@@ -237,6 +258,21 @@ EDSData['CWL (JB Area)'] = {
             ]
         }
     },
+    9311: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "DS1",
+            destination: "ANANTARA / O&O",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "DS1",
+                    top: "ANANTARA / O&O",
+                    topFont: "Tongda-16:7",
+                },
+            ]
+        }
+    },
     9312: {
         front: {
             renderType: "standardService",
@@ -249,7 +285,6 @@ EDSData['CWL (JB Area)'] = {
                     top: "WESTIN / HRH",
                     topFont: "Tongda-16:7",
                 },
-
             ]
         }
     },
@@ -257,7 +292,7 @@ EDSData['CWL (JB Area)'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "",
-            destination: "MASK",
+            destination: "Mask",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -282,7 +317,7 @@ EDSData['CWL (JB Area)'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "WIP",
-            destination: "akan datang",
+            destination: "Akan Datang",
             scrolls: [
                 {
                     renderType: "destScroll",
