@@ -4868,6 +4868,32 @@ EDSData.SMRT = {
             }
         }
     },
+    9671: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "967",
+                destination: "WDL TEMP INT via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                        renderType: "message",
+                        text: "967",
+                        font: "Arial-17",
+                        spacing: 5,
+                        marginTop: 1
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "967",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
     9724: { // Done
         1: {
             front: {

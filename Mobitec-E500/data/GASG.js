@@ -3004,6 +3004,66 @@ EDSData.GASG = {
             scrollFont: "Mobitec-7:4"
         }
     },
+    6781: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "678",
+            destination: {
+                text: "TEMASEK BLVD",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "678",
+                    top: "Temasek",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "Boulevard",
+                    bottomFont: "Mobitec-7:5:1",
+                    image: "CityDirect",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "~678",
+                    top: "TEMASEK BLVD",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "PROMENADE MRT",
+                    bottomFont: "Mobitec-7:4",
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    6782: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "678",
+            destination: {
+                text: "PUNGGOL CENTRAL",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "678",
+                    top: "Punggol",
+                    topFont: "Mobitec-7:5:2",
+                    bottom: "Central",
+                    bottomFont: "Mobitec-7:5:2",
+                    image: "CityDirect",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "~678",
+                    top: "PUNGGOL CTRL",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "SHENTON WAY",
+                    bottomFont: "Mobitec-7:4",
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
     9000: {
         front: {
             renderType: 'message',

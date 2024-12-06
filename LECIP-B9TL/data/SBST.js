@@ -19036,6 +19036,102 @@ EDSData.SBST = {
             }
         }
     },
+    675: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "675",
+                branding: "CITY DIRECT",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "675",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "675",
+                branding: "CITY DIRECT",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "675",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    676: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "676",
+                branding: "CITY DIRECT",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "676",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "676",
+                branding: "CITY DIRECT",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "676",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    677: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "677",
+                branding: "CITY DIRECT",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "677",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "677",
+                branding: "CITY DIRECT",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "677",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
     702: {
         1: {
             front: {

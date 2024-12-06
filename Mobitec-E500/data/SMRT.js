@@ -4144,6 +4144,20 @@ EDSData['SMRT (PostSLBP)'] = {
             bottomFont: "Mobitec-7:5:3"
         }
     },
+    9671: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "967",
+            destination: {
+                text: "WDL TEMP INT",
+                font: "Mobitec-7:5:3"
+            },
+            scrolls: [
+
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
     9701: {
         front: {
             renderType: "standardService",

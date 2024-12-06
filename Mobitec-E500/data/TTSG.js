@@ -482,6 +482,28 @@ EDSData.TTSG = {
                 text: "EDS Version (MAN A24)"
         }
     },
+    71: {
+        front: {
+                renderType: "TowerSpecialEDS",
+                serviceNumber: "S7",
+                top: "SHUTTLE 7",
+                topFont: "Mobitec-9:6",
+                bottom: "TANAH MERAH - TAMPINES",
+                bottomFont: "Mobitec-Tower6:4",
+                text: "S7 Tampines"
+        }
+    },
+    72: {
+        front: {
+            renderType: "TowerSpecialEDS",
+            serviceNumber: "S7",
+            top: "SHUTTLE 7",
+            topFont: "Mobitec-9:6",
+            bottom: "TAMPINES - TANAH MERAH",
+            bottomFont: "Mobitec-Tower6:4",
+            text: "S7 Tanah Merah"
+        }
+    },
     95: {
         front: { // Reserved code for MAN A95 Logo
                 renderType: "TowerSpecialEDS",

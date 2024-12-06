@@ -8298,6 +8298,33 @@ EDSData.SBST = {
             spacing: 1
         }
     },
+    6751: {
+        front: {
+            renderType: "brandedSvc",
+            serviceNumber: "675",
+            branding: "CITY  DIRECT",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    6761: {
+        front: {
+            renderType: "brandedSvc",
+            serviceNumber: "676",
+            branding: "CITY  DIRECT",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    6771: {
+        front: {
+            renderType: "brandedSvc",
+            serviceNumber: "677",
+            branding: "CITY  DIRECT",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
     7040: {
         front: {
             renderType: "message",

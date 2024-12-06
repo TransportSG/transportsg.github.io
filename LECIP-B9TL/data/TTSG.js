@@ -1422,6 +1422,46 @@ EDSData.TTSG = {
             }
         }
     },
+    71: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S7",
+                destination: "SHUTTLE 7",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [
+                    "TANAH MERAH - TAMPINES"
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "S7",
+                font: "LECIP-TowerRear17:7",
+                spacing: 2
+            }
+        }
+    },
+    72: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S7",
+                destination: "SHUTTLE 7",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [
+                    "TAMPINES - TANAH MERAH"
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "S7",
+                font: "LECIP-TowerRear17:7",
+                spacing: 2
+            }
+        }
+    },
     77: {
         1: {
             front: {

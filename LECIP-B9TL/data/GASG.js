@@ -4128,6 +4128,60 @@ EDSData.GASG = {
             }
         }
     },
+    678: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "678",
+                destination: "TEMASEK BLVD",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "destScrollWithImage2",
+                    serviceNumber: "678",
+                    top: "Temasek",
+                    topFont: "Lecip-GoAhead8:6:3",
+                    bottom: "Boulevard",
+                    bottomFont: "Lecip-GoAhead8:6:2",
+                    image: "CityDirect-35"
+                },
+                "TANJONG PAGAR MRT",
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "678",
+                font: "Lecip-GoAhead20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "678",
+                destination: "PUNGGOL CENTRAL",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "destScrollWithImage2",
+                    serviceNumber: "678",
+                    top: "Punggol",
+                    topFont: "Lecip-GoAhead8:6:3",
+                    bottom: "Central",
+                    bottomFont: "Lecip-GoAhead8:6:2",
+                    image: "CityDirect-35"
+                },
+                "SHENTON WAY",
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "678",
+                font: "Lecip-GoAhead20:9",
+                spacing: 2
+            }
+        }
+    },
     1000: {
         1: {
             front: {
