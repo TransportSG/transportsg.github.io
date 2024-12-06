@@ -143,28 +143,7 @@ EDSData['myBas JB'] = {
     10: {
         front: {
             renderType: "standardService",
-            serviceNumber: "WIP",
-            destination: "akan datang",
-            scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "WIP",
-                    top: "AKAN DATANG",
-                    topFont: "Tongda-16:7",
-                }, {
-                    renderType: "destScroll",
-                    serviceNumber: "WIP",
-                    top: "COMING SOON",
-                    topFont: "Tongda-16:7",
-                }
-            ]
-        }
-    },
-    10: {
-        front: {
-            renderType: "standardService",
             serviceNumber: "T10",
-            destination: "JB SENTRAL / KOTA TINGGI",
             destination: "JB SENTRAL / KOTA TINGGI",
             scrolls: [
                 {
@@ -330,7 +309,6 @@ EDSData['myBas JB'] = {
         }
     },
     33: {
-    33: {
         front: {
             renderType: "standardService",
             serviceNumber: "T33",
@@ -339,7 +317,6 @@ EDSData['myBas JB'] = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "T33",
-                    serviceNumber: "T33",
                     top: "JB SENTRAL",
                     topFont: "Tongda-16:7",
                 },
@@ -349,21 +326,12 @@ EDSData['myBas JB'] = {
                     top: "TAN SRI YAACOB",
                     topFont: "Tongda-16:7",
                 },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "T33",
-                    top: "TAN SRI YAACOB",
-                    topFont: "Tongda-16:7",
-                }
             ]
         }
     },
     50: {
-    50: {
         front: {
             renderType: "standardService",
-            serviceNumber: "T50",
-            destination: "LARKIN SENTRAL / PONTIAN",
             serviceNumber: "T50",
             destination: "LARKIN SENTRAL / PONTIAN",
             scrolls: [
@@ -371,16 +339,10 @@ EDSData['myBas JB'] = {
                     renderType: "destScroll",
                     serviceNumber: "T50",
                     top: "LARKIN SENTRAL",
-                    serviceNumber: "T50",
-                    top: "LARKIN SENTRAL",
                     topFont: "Tongda-16:7",
                 },
                 {
-                },
-                {
                     renderType: "destScroll",
-                    serviceNumber: "T50",
-                    top: "PONTIAN",
                     serviceNumber: "T50",
                     top: "PONTIAN",
                     topFont: "Tongda-16:7",
@@ -409,24 +371,24 @@ EDSData['myBas JB'] = {
             ]
         }
     },
-    100: {
+    9999: {
         front: {
             renderType: "standardService",
-            serviceNumber: "F100",
-            destination: "JB SENTRAL / KSL",
+            serviceNumber: "WIP",
+            destination: "Akan Datang",
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "F100",
-                    top: "KSL",
+                    serviceNumber: "WIP",
+                    top: "AKAN DATANG",
                     topFont: "Tongda-16:7",
-                },
+                }, 
                 {
                     renderType: "destScroll",
-                    serviceNumber: "F100",
-                    top: "JB SENTRAL",
+                    serviceNumber: "WIP",
+                    top: "COMING SOON",
                     topFont: "Tongda-16:7",
-                },
+                }
             ]
         }
     },

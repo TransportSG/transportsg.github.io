@@ -212,14 +212,8 @@ EDSData['CWL (JB Area)'] = {
             renderType: "standardService",
             serviceNumber: "LOOP 1",
             destination: "WOODLANDS CIQ",
-            serviceNumber: "LOOP 1",
-            destination: "WOODLANDS CIQ",
             scrolls: [
                 {
-                    renderType: "destScroll",
-                    serviceNumber: "LOOP1",
-                    top: "WOODLAND CIQ",
-                    topFont: "Tongda-16:7",
                     renderType: "destScroll",
                     serviceNumber: "LOOP1",
                     top: "WOODLAND CIQ",
@@ -229,18 +223,13 @@ EDSData['CWL (JB Area)'] = {
         }
     },
     9011: {
-    9011: {
         front: {
             renderType: "standardService",
-            serviceNumber: "CG1",
-            destination: "COUNTRY GARDEN",
             serviceNumber: "CG1",
             destination: "COUNTRY GARDEN",
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "FC1",
-                    top: "COUNTRY GARDEN",
                     serviceNumber: "FC1",
                     top: "COUNTRY GARDEN",
                     topFont: "Tongda-16:7",
@@ -249,18 +238,13 @@ EDSData['CWL (JB Area)'] = {
         }
     },
     9111: {
-    9111: {
         front: {
             renderType: "standardService",
-            serviceNumber: "FC1",
-            destination: "FOREST CITY",
             serviceNumber: "FC1",
             destination: "FOREST CITY",
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "FC1",
-                    top: "FOREST CITY",
                     serviceNumber: "FC1",
                     top: "FOREST CITY",
                     topFont: "Tongda-16:7",
@@ -355,12 +339,12 @@ EDSData['CWL (JB Area)'] = {
                     serviceNumber: "WIP",
                     top: "AKAN DATANG",
                     topFont: "Tongda-16:7",
-                }, {
+                }, 
+                {
                     renderType: "destScroll",
                     serviceNumber: "WIP",
                     top: "COMING SOON",
                     topFont: "Tongda-16:7",
-                },
                 },
             ]
         }
