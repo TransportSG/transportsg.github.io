@@ -2581,6 +2581,48 @@ EDSData['SMRT (PostSLBP)'] = {
             scrollFont: "Mobitec-7:5:1"
         }
     },
+    4171: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "S7",
+            destination: {
+                text: "TANAH MERAH",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "S7",
+                    top: "SHUTTLE 7",
+                    bottom: "TAMPINES - TANAH MERAH",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:4"
+                },
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    4172: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "S7",
+            destination: {
+                text: "TAMPINES",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "S7",
+                    top: "SHUTTLE 7",
+                    bottom: "TANAH MERAH - TAMPINES",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:4"
+                },
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
     5021: {
         front: {
             renderType: "standardService",
