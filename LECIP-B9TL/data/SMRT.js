@@ -2843,6 +2843,62 @@ EDSData.SMRT = {
             }
         }
     },
+    4171: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S7",
+                destination: "TANAH MERAH",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll",
+                    top: "SHUTTLE 7",
+                    topFont: "ArialBold-8:2",
+                    bottom: "TAMPINES - TANAH MERAH",
+                    bottomFont: "Calibri-7",
+        
+                    serviceNumber: "S7"
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "S7",
+                font: "Arial-17",
+                spacing: 1
+            }
+        }
+    },
+    4172: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S7",
+                destination: "TAMPINES",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll",
+                    top: "SHUTTLE 7",
+                    topFont: "ArialBold-8:2",
+                    bottom: "TANAH MERAH - TAMPINES",
+                    bottomFont: "Calibri-7",
+        
+                    serviceNumber: "S7"
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "S7",
+                font: "Arial-17",
+                spacing: 1
+            }
+        }
+    },
     5021: { // Done
         1: {
             front: {

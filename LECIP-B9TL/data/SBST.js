@@ -60,15 +60,86 @@ EDSFormats.SBST = {
         serviceNumber: {
             align: "right",
             margin: {
-                right: 1,
+                right: 0,
                 top: 0
             },
             text: "$serviceNumber",
-            font: "LECIP-20:12",
+            font: {
+                $$cond: {
+                    "$serviceFont === null": "LECIP-20:12",
+                    "else": "$serviceFont"
+                }
+            },
             spacing: {
                 $$cond: {
-                    "$spacing === null" : 3,
-                    "else": "$SvcSpacing"
+                    "$spacing === null" : "3",
+                    "else": "$serviceSpacing"
+                }
+            }
+        },
+        top: {
+            align: {
+                $$cond: {
+                    "$bottom === null": "centre-x,centre-y",
+                    "else": "centre-x,top"
+                }
+            },
+            text: "$top",
+            font: "$topFont",
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber)'
+            }
+        },
+        bottom: {
+            align: "centre-x,bottom",
+            text: {
+                $$cond: {
+                    "$bottom !== null": "$bottom",
+                    "else": "''"
+                }
+            },
+            font: {
+                $$cond: {
+                    "$bottomFont !== null": "$bottomFont",
+                    "else": "ArialBold-8:2"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber)',
+                bottom: 1
+            }
+        },
+
+        text: "$top+' '+$bottom+' '+$serviceNumber"
+    },
+    logo: {
+        logo: {
+            align: "centre-x,bottom",
+            image: "$image"
+        },
+
+        text: "$text"
+    },
+    destScroll2: {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 0,
+                top: 0
+            },
+            text: "$serviceNumber",
+            font: {
+                $$cond: {
+                    "$serviceFont === null": "LECIP-20:12",
+                    "else": "$serviceFont"
+                }
+            },
+            spacing: {
+                $$cond: {
+                    "$spacing === null" : "1",
+                    "else": "$serviceSpacing"
                 }
             }
         },
@@ -21468,6 +21539,64 @@ EDSData.SBST = {
 
                 bottom: "SHUTTLE",
                 bottomFont: "LECIP-7:4"
+            }
+        }
+    },
+    4171: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S7",
+                destination: "TAMPINES - TANAH MERAH",
+                destinationFont: "LECIP-6:4",
+                scrolls: [{
+                    renderType: "destScroll2",
+                    top: "SHUTTLE 7",
+                    topFont: "LECIP-9:7",
+                    bottom: "TAMPINES -TANAH MERAH",
+                    bottomFont: "LECIPBold-7:6",
+                                
+                    serviceNumber: "S7",
+                    serviceFont: "LECIP-20:11",
+                    serviceSpacing: "",
+                    },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "S7",
+                font: "LECIP-20:11",
+                spacing: 2
+            }
+        }
+    },
+    4172: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S7",
+                destination: "TANAH MERAH - TAMPINES",
+                destinationFont: "LECIP-6:4",
+                scrolls: [{
+                    renderType: "destScroll2",
+                    top: "SHUTTLE 7",
+                    topFont: "LECIP-9:7",
+                    bottom: "TANAH MERAH - TAMPINES",
+                    bottomFont: "LECIPBold-7:6",
+                                
+                    serviceNumber: "S7",
+                    serviceFont: "LECIP-20:11",
+                    serviceSpacing: "",
+                    },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "S7",
+                font: "LECIP-20:11",
+                spacing: 2
             }
         }
     },

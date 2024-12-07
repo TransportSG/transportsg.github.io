@@ -2680,20 +2680,6 @@ EDSData.GASG = {
             scrollFont: "Mobitec-7:4"
         }
     },
-    2223: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "~666",
-            destination: {
-                text: "MARINA BLVD",
-                font: "Mobitec-7:7"
-            },
-            scrolls: [
-
-            ],
-            scrollFont: "Mobitec-7:4"
-        }
-    },
     6661: {
         front: {
             renderType: "standardService",
