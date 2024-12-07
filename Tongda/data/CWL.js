@@ -186,6 +186,27 @@ EDSData['CWL (JB Area)'] = {
             ]
         }
     },
+    "3L": {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "CW3L",
+            destination: "JURONG EAST / PERLING MALL",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "CW3L",
+                    top: "JURONG EAST",
+                    topFont: "Tongda-16:7",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "CW3L",
+                    top: "PERLING MALL",
+                    topFont: "Tongda-16:7",
+                },
+            ]
+        }
+    },
     5: {
         front: {
             renderType: "standardService",
@@ -207,52 +228,7 @@ EDSData['CWL (JB Area)'] = {
             ]
         }
     },
-    1000: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "LOOP 1",
-            destination: "WOODLANDS CIQ",
-            scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "LOOP1",
-                    top: "WOODLAND CIQ",
-                    topFont: "Tongda-16:7",
-                }
-            ]
-        }
-    },
-    9011: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "CG1",
-            destination: "COUNTRY GARDEN",
-            scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "FC1",
-                    top: "COUNTRY GARDEN",
-                    topFont: "Tongda-16:7",
-                }
-            ]
-        }
-    },
-    9111: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "FC1",
-            destination: "FOREST CITY",
-            scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "FC1",
-                    top: "FOREST CITY",
-                    topFont: "Tongda-16:7",
-                }
-            ]
-        }
-    },
-    9211: {
+    "1AA": {
         front: {
             renderType: "standardService",
             serviceNumber: "AA1",
@@ -273,7 +249,43 @@ EDSData['CWL (JB Area)'] = {
             ]
         }
     },
-    9311: {
+    "1CG": {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "CG1",
+            destination: "COUNTRY GARDEN",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "CG1",
+                    top: "COUNTRY GARDEN",
+                    topFont: "Tongda-16:7",
+                }
+            ]
+        }
+    },
+    "1CT": {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "CT",
+            destination: "JB SENTRAL/ BAYU PUTERI",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "CT",
+                    top: "JB SENTRAL",
+                    topFont: "Tongda-16:7",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "CT",
+                    top: "BAYU PUTERI",
+                    topFont: "Tongda-16:7",
+                },
+            ]
+        }
+    },
+    "1DS": {
         front: {
             renderType: "standardService",
             serviceNumber: "DS1",
@@ -288,7 +300,37 @@ EDSData['CWL (JB Area)'] = {
             ]
         }
     },
-    9312: {
+    "1FC": {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "FC1",
+            destination: "FOREST CITY",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "FC1",
+                    top: "FOREST CITY",
+                    topFont: "Tongda-16:7",
+                }
+            ]
+        }
+    },
+    "1LP": {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "LOOP 1",
+            destination: "WOODLANDS CIQ",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "LOOP1",
+                    top: "WOODLAND CIQ",
+                    topFont: "Tongda-16:7",
+                }
+            ]
+        }
+    },
+    "2DS": {
         front: {
             renderType: "standardService",
             serviceNumber: "DS2",
