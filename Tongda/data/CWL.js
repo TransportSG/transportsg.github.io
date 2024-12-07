@@ -43,7 +43,7 @@ EDSFormats['CWL (JB Area)'] = {
         serviceNumber: {
             align: "left",
             margin: {
-                left: 1
+                left: "0"
             },
             text: "$serviceNumber",
             font: "Tongda-16:7",
@@ -120,16 +120,16 @@ EDSFormats['CWL (JB Area)'] = {
 }
 
 EDSData['CWL (JB Area)'] = {
-    1: {
+    0: {
         front: {
             renderType: "standardService",
-            serviceNumber: "CW1",
-            destination: "KRANJI MRT",
+            serviceNumber: "CWL",
+            destination: "LARKIN SENTRAL",
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "CW1",
-                    top: "KRANJI MRT",
+                    serviceNumber: "CWL",
+                    top: "LARKIN SENTRAL",
                     topFont: "Tongda-16:7",
                 }
             ]
@@ -228,6 +228,27 @@ EDSData['CWL (JB Area)'] = {
             ]
         }
     },
+    "7P": {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "CW7P",
+            destination: "CIQ 2ND LINK",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "CW7P",
+                    top: "CIQ 2ND LINK",
+                    topFont: "Tongda-16:7",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "CW7P",
+                    top: "CIQ 2ND LINK",
+                    topFont: "Tongda-16:7",
+                },
+            ]
+        }
+    },
     "1AA": {
         front: {
             renderType: "standardService",
@@ -312,6 +333,27 @@ EDSData['CWL (JB Area)'] = {
                     top: "FOREST CITY",
                     topFont: "Tongda-16:7",
                 }
+            ]
+        }
+    },
+    "1JP": {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "JPO1",
+            destination: "JB SENTRAL / JPO",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "JPO1",
+                    top: "JB SENTRAL",
+                    topFont: "Tongda-16:7",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "JPO1",
+                    top: "JHR P. OUTLET",
+                    topFont: "Tongda-16:7",
+                },
             ]
         }
     },
