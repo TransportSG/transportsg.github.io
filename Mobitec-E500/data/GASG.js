@@ -652,7 +652,7 @@ EDSData.GASG = {
             scrollFont: "Mobitec-7:4"
         }
     },
-    151: {
+    151: { // Done
         front: {
             renderType: "standardService",
             serviceNumber: "15",
@@ -667,19 +667,21 @@ EDSData.GASG = {
                     top: "Marine Parade",
                     topFont: "Mobitec-13:8"
                 },
-                "PASIR RIS ST 52, DR 1 / 8",
-                "TAMPINES AVE 12/7/4/5/1",
-                "BEDOK NORTH RD",
-                "BEDOK RESERVOIR RD",
+                "PASIR RIS ST 52", 
+                "PASIR RIS DR 1 / 8",
+                "TAMPINES AVE 12 / 7 / 4",
+                "TAMPINES AVE 5 / 1",
+                "TAMPINES WEST MRT",
+                "KAKI BUKIT AVE 1 / MRT",
                 "JALAN EUNOS / MRT",
                 "STILL RD",
+                "JOO CHIAT PLACE",
                 "TELOK KURAU RD",
-                "JOO CHIAT PLACE"
             ],
             scrollFont: "Mobitec-7:4"
         }
     },
-    152: {
+    152: { // Done
         front: {
             renderType: "standardService",
             serviceNumber: "15",
@@ -694,14 +696,16 @@ EDSData.GASG = {
                     top: "Pasir Ris",
                     topFont: "Mobitec-13:8"
                 },
+                "TELOK KURAU RD",
                 "JOO CHIAT PLACE",
                 "STILL RD",
                 "JALAN EUNOS / MRT",
-                "BEDOK RESERVOIR RD",
-                "BEDOK NORTH RD",
+                "KAKI BUKIT AVE 1 / MRT",
                 "TAMPINES WEST MRT",
-                "TAMPINES AVE 1/5/4/7/12",
-                "PASIR RIS DR 8 / 1, ST 52"
+                "TAMPINES AVE 1 / 5",
+                "TAMPINES AVE 4 / 7 / 12",
+                "PASIR RIS DR 8 / 1",
+                "PASIR RIS ST 52"
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -1995,7 +1999,14 @@ EDSData.GASG = {
                     top: "Punggol",
                     topFont: "Mobitec-13:8"
                 },
+                "ANG MO KIO AVE 1 / 6",
+                "SERANGOON GARDENS",
+                "YIO CHU KANG RD",
+                "KOVAN MRT",
                 "UPPER SERANGOON RD",
+                "RIVERVALE DRIVE",
+                "PUNGGOL RD",
+                "EDGEFIELD PLAINS",
             ],
             scrollFont: "Mobitec-7:4"
         }
