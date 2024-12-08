@@ -1957,7 +1957,7 @@ EDSData.GASG = {
             scrollFont: "Mobitec-7:4"
         }
     },
-    1361: {
+    1361: { // Done
         front: {
             renderType: "standardService",
             serviceNumber: "136",
@@ -1984,7 +1984,7 @@ EDSData.GASG = {
             scrollFont: "Mobitec-7:4"
         }
     },
-    1362: {
+    1362: { // Done
         front: {
             renderType: "standardService",
             serviceNumber: "136",
