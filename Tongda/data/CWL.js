@@ -368,6 +368,12 @@ EDSData['CWL (JB Area)'] = {
                     serviceNumber: "LOOP1",
                     top: "WOODLAND CIQ",
                     topFont: "Tongda-16:7",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "LOOP1",
+                    top: "CIQ 1ST LINK",
+                    topFont: "Tongda-16:7",
                 }
             ]
         }
