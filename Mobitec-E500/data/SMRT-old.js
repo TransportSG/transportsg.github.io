@@ -8954,28 +8954,6 @@ EDSData['SMRT (PreSLBP)'] = {
             bottomFont: "Mobitec-7:5:3"
         }
     },
-    1941: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "194",
-            destination: {
-                text: "BOON LAY",
-                font: "Mobitec-7:7"
-            },
-            scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "194",
-                    top: "BOON LAY",
-                    bottom: "INT / MRT",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
-                },
-                "JLN AHMAD IBRAHIM",
-            ],
-            scrollFont: "Mobitec-7:5:3"
-        }
-    },
     3001: {
         front: {
             renderType: "standardService",
@@ -9259,64 +9237,6 @@ EDSData['SMRT (PreSLBP)'] = {
             topFont: "Mobitec-7:4",
             bottomFont: "Mobitec-7:4"
         },
-    },
-    4051: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "405",
-            destination: {
-                text: "BOON LAY",
-                font: "Mobitec-7:7"
-            },
-            scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "405",
-                    top: "BOON LAY",
-                    bottom: "INT / MRT",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
-                },
-                "JLN BOON LAY",
-                "JALAN BAHAR",
-                {
-                    text: "OLD CHOA CHU KANG RD",
-                    font: "Mobitec-7:4"
-                },
-                {
-                    text: "LIM CHU KANG RD (LOOP)",
-                    font: "Mobitec-7:4"
-                }
-            ],
-            scrollFont: "Mobitec-7:5:3"
-        }
-    },
-    4059: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "405M",
-            destination: {
-                text: "BOON LAY",
-                font: "Mobitec-7:7"
-            },
-            scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "405M",
-                    top: "BOON LAY",
-                    bottom: "INT / MRT",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
-                },
-                "JLN BOON LAY",
-                "JALAN BAHAR",
-                {
-                    text: "OLD C.C.K RD (LOOP)",
-                    font: "Mobitec-7:5:3"
-                },
-            ],
-            scrollFont: "Mobitec-7:5:3"
-        }
     },
     6011: {
         front: {

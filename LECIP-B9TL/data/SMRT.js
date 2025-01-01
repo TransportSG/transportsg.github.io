@@ -5413,6 +5413,27 @@ EDSData.SMRT = {
                 font: "LECIP-SMRTRear14:9",
                 spacing: 2
             }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "256",
+                destination: "JOO KOON INT via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    "JURONG WEST ST 62",
+                    "PIONEER RD NORTH",
+                    "JLN AHMAD IBRAHIM",
+                    "JOO KOON INT (LOOP)",
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "256",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
         }
     },
     9995: { // yes
