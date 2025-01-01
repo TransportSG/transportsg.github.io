@@ -3620,6 +3620,34 @@ EDSData['SMRT (PostSLBP)'] = {
     },
     9132: {
         front: {
+            renderType: "standardService",
+            serviceNumber: "913M",
+            destination: {
+                text: "WOODLANDS INT",
+                font: "Mobitec-7:5:3"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "913M",
+                    top: "WOODLANDS",
+                    bottom: "INT / MRT",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
+                "MARSILING RISE",
+                "MARSILING ROAD",
+                "WOODLANDS AVE 1",
+                "WOODLANDS ST 32",
+                "WOODLANDS AVE 3",
+                "WOODLANDS ST 13",
+
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    9133: {
+        front: {
             renderType: "destScroll",
             serviceNumber: "913T",
             top: "ENDS AT",

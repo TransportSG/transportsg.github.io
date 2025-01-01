@@ -458,6 +458,34 @@ EDSData.TTSG = {
         ]
       }
     },
+    2: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: "EXTRA MESSAGE TEST",
+            scrolls: [
+
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "987",
+                    top: "Merry Christmas &",
+                    topFont: "Hanover-7:3",
+                    bottom: "Happy New Year",
+                    bottomFont: "Hanover-7:3",
+                    image: "christmas-tree"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "987",
+                    top: "Merry Christmas &",
+                    topFont: "Hanover-7:3",
+                    bottom: "Happy New Year",
+                    bottomFont: "Hanover-7:3",
+                    image: "calendar-new"
+                },
+            ]
+        }
+    },
     22: {
         front: { // Reserved code for MAN A22 Logo
                 renderType: "TowerSpecialEDS",
@@ -8671,7 +8699,7 @@ EDSExtras.TTSG = {
     11: {
         front: {
             renderType: "destScroll2",
-            serviceNumber: "0",
+            serviceNumber: "",
             top: "Merry Christmas &",
             topFont: "Hanover-7:3",
             bottom: "Happy New Year",
@@ -8682,13 +8710,24 @@ EDSExtras.TTSG = {
     12: {
         front: {
             renderType: "destScroll2",
-            serviceNumber: "0",
+            serviceNumber: "",
             top: "Merry Christmas &",
             topFont: "Hanover-7:3",
             bottom: "Happy New Year",
             bottomFont: "Hanover-7:3",
-            image: "calendar-new"
+            image: "christmas-tree"
         },
+    },
+    51: {
+        front: {
+            renderType: "destScroll2",
+            serviceNumber: "",
+            top: "Happy Kindness Day!",
+            topFont: "Hanover-7:3",
+            bottom: "May 2025",
+            bottomFont: "Hanover-7:3",
+            image: "heart"
+        }
     },
 }
 
@@ -8968,6 +9007,24 @@ EDSImages.TTSG = {
         [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
     ],
     "christmas-tree": [
+        [0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0],
+        [1, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 1],
+        [0, 1, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 1, 0],
+        [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0],
+        [0, 0, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 0, 0, 0],
+        [0, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 0],
+        [0, 0, 0, 1, 0, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0],
+        [0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0],
+        [0, 1, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0]
+    ],
+    "christmas-tree-old": [
         [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0],
         [0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0],
         [0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0],
@@ -8979,7 +9036,7 @@ EDSImages.TTSG = {
         [0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0],
         [0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 0, 0],
         [0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 0, 1, 1, 0, 0],
-        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0],
         [0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0],
         [0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0],
         [0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0],

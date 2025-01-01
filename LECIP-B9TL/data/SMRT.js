@@ -572,18 +572,9 @@ EDSData.SMRT = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "WELCOME",
+                destination: "SMRT LOGO",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
-                        renderType: "destScroll2",
-                        top: "SMRT LECIP - NEW VERSION",
-                        topFont: "ArialBold-8:2",
-                        bottom: "WORK IN PROGRESS",
-                        bottomFont: "ArialBold-8:2",
-            
-                        serviceNumber: ""
-                        },
                     {
                         renderType: "logo",
                         text: "SMRT LOGO",
@@ -600,9 +591,9 @@ EDSData.SMRT = {
                 scrolls: [
                     {
                     renderType: "destScroll",
-                    top: "Work In",
+                    top: "",
                     topFont: "Hanover-7:3",
-                    bottom: "Progress",
+                    bottom: "",
                     bottomFont: "Hanover-7:3",
         
                     serviceNumber: ""
@@ -1314,6 +1305,34 @@ EDSData.SMRT = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "182M",
+                font: "Arial-10",
+                spacing: 1
+            }
+        }
+    },
+    1825: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "182A",
+                destination: "TUAS SOUTH AVE 3",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll2",
+                    top: "ENDS AT",
+                    topFont: "ArialBold-8:2",
+                    bottom: "BEF TUAS STH AVE 4",
+                    bottomFont: "Calibri-7",
+        
+                    serviceNumber: "182A"
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "182A",
                 font: "Arial-10",
                 spacing: 1
             }
@@ -4107,6 +4126,72 @@ EDSData.SMRT = {
             }
         }
     },
+    9117: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "WELCOME",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                        renderType: "destScroll2",
+                        top: "SMRT LECIP - NEW VERSION",
+                        topFont: "ArialBold-8:2",
+                        bottom: "WORK IN PROGRESS",
+                        bottomFont: "ArialBold-8:2",
+            
+                        serviceNumber: ""
+                        },
+                    {
+                        renderType: "logo",
+                        text: "SMRT LOGO",
+                        image: "logo"
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "WELCOME",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll",
+                    top: "Work In",
+                    topFont: "Hanover-7:3",
+                    bottom: "Progress",
+                    bottomFont: "Hanover-7:3",
+        
+                    serviceNumber: ""
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+        }
+    },
+    9124: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "912M",
+                destination: "WOODLANDS INT",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    "AVE 1, 2, 5",
+                    "ST 41 (LOOP)"
+                ],
+                scrollFont: "Arial-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "912M",
+                font: "Arial-10",
+                spacing: 1
+            }
+        }
+    },
     9131: { // Done
         1: {
             front: {
@@ -5198,9 +5283,9 @@ EDSData.SMRT = {
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "983",
-                font: "LECIP-SMRTRear14:9",
-                spacing: 2
+                serviceNumber: "983M",
+                font: "Arial-10",
+                spacing: 1
             }
         }
     },
