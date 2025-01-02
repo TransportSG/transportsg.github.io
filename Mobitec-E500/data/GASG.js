@@ -1610,7 +1610,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "84G",
             destination: {
-                text: "PUNGGOL",
+                text: "Punggol via Sentul Cres",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -1626,7 +1626,14 @@ EDSData.GASG = {
                     top: "via Sentul Cres",
                     topFont: "Mobitec-12:7"
                 },
-              "NIBONG > NORTHSHORE > SIT"
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "84G",
+                    top: "PUNGGOL",
+                    topFont: "Mobitec-7:7",
+                    bottom: "NIBONG > NORTHSHORE > SIT",
+                    bottomFont: "Hanover-7:3:2"
+                },
             ],
             scrollFont: "Hanover-7:3:2"
         }
@@ -1636,7 +1643,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "84W",
             destination: {
-                text: "PUNGGOL",
+                text: "Punggol via SIT Punggol",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -1652,7 +1659,14 @@ EDSData.GASG = {
                     top: "via SIT Punggol",
                     topFont: "Mobitec-12:7"
                 },
-              "SIT > NORTHSHORE > NIBONG"
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "84W",
+                    top: "PUNGGOL",
+                    topFont: "Mobitec-7:7",
+                    bottom: "SIT > NORTHSHORE > NIBONG",
+                    bottomFont: "Hanover-7:3:2"
+                },
             ],
             scrollFont: "Hanover-7:3:2"
         }
@@ -1662,7 +1676,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "84A",
             destination: {
-                text: "SIT PUNGGOL",
+                text: "Punggol Coast Stn via SIT Punggol",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -2867,7 +2881,7 @@ EDSData.GASG = {
             },
             scrolls: [
                 {
-                    renderType: "destScroll",
+                    renderType: "destScroll2",
                     serviceNumber: "x",
                     top: "Driver Training",
                     topFont: "Mobitec-12:7",
@@ -3024,6 +3038,30 @@ EDSData.GASG = {
                     serviceNumber: "~678",
                     top: "TEMASEK BLVD",
                     topFont: "Mobitec-7:5:1",
+                    bottom: "TG PAGAR MRT",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "~678",
+                    top: "TEMASEK BLVD",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "MARINA BLVD",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "~678",
+                    top: "TEMASEK BLVD",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "BAYFRONT MRT",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "~678",
+                    top: "TEMASEK BLVD",
+                    topFont: "Mobitec-7:5:1",
                     bottom: "PROMENADE MRT",
                     bottomFont: "Mobitec-7:4",
                 },
@@ -3055,6 +3093,38 @@ EDSData.GASG = {
                     top: "PUNGGOL CTRL",
                     topFont: "Mobitec-7:5:1",
                     bottom: "SHENTON WAY",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "~678",
+                    top: "PUNGGOL CTRL",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "SENGKANG EAST DR",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "~678",
+                    top: "PUNGGOL CTRL",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "PUNGGOL EAST",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "~678",
+                    top: "PUNGGOL CTRL",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "PUNGGOL NTH AVE",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "~678",
+                    top: "PUNGGOL CTRL",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "EDGEFIELD PLAINS",
                     bottomFont: "Mobitec-7:4",
                 },
             ],

@@ -4145,6 +4145,9 @@ EDSData.GASG = {
                     image: "CityDirect-35"
                 },
                 "TANJONG PAGAR MRT",
+                "MARINA BLVD",
+                "BAYFRONT MRT",
+                "PROMENADE MRT"
                 ],
                 scrollFont: "Hanover-7:5"
             },
@@ -4171,6 +4174,10 @@ EDSData.GASG = {
                     image: "CityDirect-35"
                 },
                 "SHENTON WAY",
+                "SENGKANG EAST DR",
+                "PUNGGOL EAST",
+                "PUNGGOL NORTH AVE",
+                "EDGEFIELD PLAINS"
                 ],
                 scrollFont: "Hanover-7:5"
             },
@@ -4522,35 +4529,6 @@ EDSData.GASG = {
             }
         }
     },
-    2221: { // Referred from Citaro
-        1: {
-            front: {
-                renderType: "destScrollWithImage",
-                serviceNumber: "",
-                top: "WELCOME TO",
-                topFont: "Lecip-GoAhead8:4",
-                bottom: "LOYANG DEPOT",
-                bottomFont: "Lecip-GoAhead8:4",
-                image: "GoAheadLogoFull",
-            },
-            rear: {
-                renderType: "standardService",
-                serviceNumber: "",
-                destination: "~",
-                destinationFont: "Lecip-GoAhead20:12",
-                scrolls: [{
-                    renderType: "logo",
-                    text: "Go Ahead Logo",
-                    image: "GoAheadWordingRear",
-        
-                    serviceNumber: ""
-                },
-                    ""
-                ],
-                scrollFont: "LECIP-7:5"
-            },
-        }
-    },
     2222: {
         1: {
             front: {
@@ -4584,7 +4562,35 @@ EDSData.GASG = {
             },
         }
     },
-
+    2223: { // Referred from Citaro
+        1: {
+            front: {
+                renderType: "destScrollWithImage",
+                serviceNumber: "",
+                top: "Welcome to",
+                topFont: "Mobitec-7:5:3",
+                bottom: "Loyang Depot",
+                bottomFont: "Mobitec-7:5:3",
+                image: "GoAheadLogoFull",
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "~",
+                destinationFont: "Lecip-GoAhead20:12",
+                scrolls: [{
+                    renderType: "logo",
+                    text: "Go Ahead Logo",
+                    image: "GoAheadWordingRear",
+        
+                    serviceNumber: ""
+                },
+                    ""
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+        }
+    },
     3333: {
         1: {
             front: { 
