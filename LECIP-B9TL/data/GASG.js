@@ -1524,7 +1524,8 @@ EDSData.GASG = {
                 "PUNGGOL RD",
                 "TPE",
                 "TAMPINES AVE 10 / 5 / 2",
-                "TAMPINES EAST MRT"
+                "TAMPINES EAST MRT",
+                "TERMINAL 3 / 1 / 2 / 4"
                 ],
                 scrollFont: "Hanover-7:5"
             },
