@@ -739,7 +739,7 @@ EDSFormats.TTSG = {
             matrixPrimitives.setStrokeColour(null);
             matrixPrimitives.fillRectangle(matrix, 0, 0, matrix.width, matrix.height);
         },
-        text: "FULL"
+        text: "All LED Lit"
     },
     'centreMessageServiceScroll': {
         serviceNumber: {
@@ -8961,8 +8961,8 @@ EDSData.TTSG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "OFF SERVICE",
-                destinationFont: "Hanover-10",
+                destination: "Off Service",
+                destinationFont: "Mobitec-7:7",
                 scrolls: [
                     {
                         renderType: "message",
@@ -8988,29 +8988,13 @@ EDSData.TTSG = {
             }
         }
     },
-    1119: {
-        1: {
-            front: {
-                renderType: "message",
-                text: "~ Off Service",
-                font: "Hanover-Tower19:11",
-                spacing: 2
-            },
-            rear: {
-                renderType: "message",
-                text: "~",
-                font: "Hanover-Tower19:11",
-                spacing: 1
-            }
-        }
-    },
     1112: {
         1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "SG BUS LOGO",
-                destinationFont: "Hanover-10",
+                destination: "SG BUS Logo",
+                destinationFont: "Mobitec-7:7",
                 scrolls: [{
                     renderType: "message2",
                     serviceNumber: "",
@@ -9031,12 +9015,22 @@ EDSData.TTSG = {
     2222: {
         1: {
             front: {
-                renderType: "message",
-                text: "Spare  Bus",
-                font: "Hanover-Tower19:11",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "Spare Bus",
+                destinationFont: "Mobitec-7:7",
+                scrolls: [
+                    {
+                        renderType: "message",
+                        text: "Spare  Bus",
+                        font: "Hanover-Tower19:11",
+                        spacing: 2
+                    },
+    
+                ],
+                scrollFont: "Hanover-7:5"
             },
-            rear: {
+            rear: { 
                 renderType: 'twolinerear',
                 top: "Spare",
                 topFont: "Hanover-7:5", 
@@ -9059,12 +9053,21 @@ EDSData.TTSG = {
     4444: {
         1: {
             front: {
-                renderType: "message",
-                text: "On Test",
-                font: "Hanover-Tower19:11",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "On Test",
+                destinationFont: "Mobitec-7:7",
+                scrolls: [
+                    {
+                        renderType: "message",
+                        text: "On Test",
+                        font: "Hanover-Tower19:11",
+                        spacing: 2
+                    },
+                ],
+                scrollFont: "Hanover-7:5"
             },
-            rear: {
+            rear: { 
                 renderType: 'twolinerear',
                 top: "On",
                 topFont: "Hanover-7:5", // check font
@@ -9077,14 +9080,24 @@ EDSData.TTSG = {
     5000: {
         1: {
             front: {
-                renderType: "twolinerear",
-                top: "Route Familiarisation",
-                topFont: "Hanover-8:4",
-                topSpacing: 1,
-
-                bottom: "Training",
-                bottomFont: "Hanover-8:4",
-                bottomSpacing: 1,
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "Route Familiarisation Training",
+                destinationFont: "Mobitec-7:7",
+                scrolls: [
+                    {
+                        renderType: "twolinerear",
+                        top: "Route Familiarisation",
+                        topFont: "Hanover-8:4",
+                        topSpacing: 1,
+        
+                        bottom: "Training",
+                        bottomFont: "Hanover-8:4",
+                        bottomSpacing: 1,
+                    },
+    
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: { 
                 renderType: "twolinerear",
@@ -10885,8 +10898,8 @@ EDSData.TTSG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "TOWER TRANSIT LOGO",
-                destinationFont: "Hanover-10",
+                destination: "Tower Transit Logo",
+                destinationFont: "Mobitec-7:7",
                 scrolls: [
                     {
                         renderType: "message",

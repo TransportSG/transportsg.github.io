@@ -2119,7 +2119,7 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "",
-            destination: "TEL 3 OPENING EVENT",
+            destination: "TEL 3 Opening Event",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -2355,7 +2355,7 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "",
-            destination: "OFF SERVICE",
+            destination: "Off Service",
             scrolls: [
                 {
                     renderType: "message",
@@ -3471,7 +3471,7 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "",
-            destination: "SPARE BUS",
+            destination: "Spare Bus",
             scrolls: [
                 {
                     renderType: "message",
@@ -3708,7 +3708,7 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "",
-            destination: "ON TEST",
+            destination: "On Test",
             scrolls: [
                 {
                     renderType: "message",
@@ -3753,7 +3753,7 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "",
-            destination: "ROUTE FAMILIARISATION TRAINING",
+            destination: "Route Familiarisation Training",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -4378,7 +4378,7 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "",
-            destination: "TRAINING BUS",
+            destination: "Training Bus",
             scrolls: [
                 {
                     renderType: "message",
