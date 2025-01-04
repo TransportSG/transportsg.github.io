@@ -21258,6 +21258,22 @@ EDSData.SBST = {
             }
         }
     },
+    999: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "EB 99",
+                font: "LECIP-20:12",
+                spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB99",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
     1111: {
         1: {
             front: {
@@ -21398,6 +21414,22 @@ EDSData.SBST = {
                 serviceNumber: "S7",
                 font: "LECIP-20:11",
                 spacing: 2
+            }
+        }
+    },
+    2223: {
+        1: {
+            front: {
+                renderType: "message",
+                text: " ",
+                font: "LECIP-24:Tower",
+                spacing: 3
+            },
+            rear: {
+                renderType: "message",
+                text: " ",
+                font: "LECIP-24:Tower",
+                spacing: 3
             }
         }
     },
