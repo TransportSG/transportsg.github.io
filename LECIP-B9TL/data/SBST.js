@@ -21235,6 +21235,230 @@ EDSData.SBST = {
             }
         }
     },
+    977: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "EB 77",
+                font: "LECIP-20:12",
+                spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB77",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
+    978: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "EB 77",
+                font: "LECIP-20:12",
+                spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB77",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
+    980: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "EB 80",
+                font: "LECIP-20:12",
+                spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB80",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
+    981: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "EB 81",
+                font: "LECIP-20:12",
+                spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB81",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
+    982: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "EB 82",
+                font: "LECIP-20:12",
+                spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB82",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
+    983: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "EB 83",
+                font: "LECIP-20:12",
+                spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB83",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
+    984: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "EB 84",
+                font: "LECIP-20:12",
+                spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB84",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
+    985: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "EB 85",
+                font: "LECIP-20:12",
+                spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB85",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
+    986: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "EB 86",
+                font: "LECIP-20:12",
+                spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB86",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
+    987: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "EB 87",
+                font: "LECIP-20:12",
+                spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB87",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
+    988: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "EB 88",
+                font: "LECIP-20:12",
+                spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB88",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
+    989: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "EB 89",
+                font: "LECIP-20:12",
+                spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB89",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
+    991: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "EB 91",
+                font: "LECIP-20:12",
+                spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB91",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
+    992: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "EB 92",
+                font: "LECIP-20:12",
+                spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB92",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
     993: {
         1: {
             front: {
@@ -21254,6 +21478,54 @@ EDSData.SBST = {
                 renderType: "rearService",
                 serviceNumber: "993",
                 font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    995: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "EB 95",
+                font: "LECIP-20:12",
+                spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB95",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
+    996: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "EB 96",
+                font: "LECIP-20:12",
+                spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB96",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
+    998: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "EB 98",
+                font: "LECIP-20:12",
+                spacing: 3
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EB98",
+                font: "LECIP-20:6",
                 spacing: 2
             }
         }
@@ -21421,13 +21693,13 @@ EDSData.SBST = {
         1: {
             front: {
                 renderType: "message",
-                text: " ",
+                text: "",
                 font: "LECIP-24:Tower",
                 spacing: 3
             },
             rear: {
                 renderType: "message",
-                text: " ",
+                text: "",
                 font: "LECIP-24:Tower",
                 spacing: 3
             }

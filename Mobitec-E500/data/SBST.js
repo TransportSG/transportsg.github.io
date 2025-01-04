@@ -3221,6 +3221,30 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
+    770: {
+        front: {
+            renderType: "message",
+            text: "EB77",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    780: {
+        front: {
+            renderType: "message",
+            text: "EB78",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    800: {
+        front: {
+            renderType: "message",
+            text: "EB80",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
     801: {
         front: {
             renderType: "standardService",
@@ -3265,6 +3289,14 @@ EDSData.SBST = {
             destinationName: "(ALJUNIED STN)"
         }
     },
+    810: {
+        front: {
+            renderType: "message",
+            text: "EB81",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
     811: {
         front: {
             renderType: "standardService",
@@ -3283,6 +3315,46 @@ EDSData.SBST = {
                 "TAMPINES AVE 7"
             ],
             scrollFont: "Mobitec-6:5"
+        }
+    },
+    820: {
+        front: {
+            renderType: "message",
+            text: "EB82",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    830: {
+        front: {
+            renderType: "message",
+            text: "EB83",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    840: {
+        front: {
+            renderType: "message",
+            text: "EB84",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    850: {
+        front: {
+            renderType: "message",
+            text: "EB85",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    860: {
+        front: {
+            renderType: "message",
+            text: "EB86",
+            font: "Mobitec-16:8",
+            spacing: 1
         }
     },
     861: {
@@ -3337,6 +3409,14 @@ EDSData.SBST = {
             destinationName: "(BEF SELETAR CAMP)"
         }
     },
+    870: {
+        front: {
+            renderType: "message",
+            text: "EB87",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
     871: {
         front: {
             renderType: "standardService",
@@ -3371,6 +3451,14 @@ EDSData.SBST = {
                 'COMPASSVALE RD'
             ],
             scrollFont: "Mobitec-6:5"
+        }
+    },
+    880: {
+        front: {
+            renderType: "message",
+            text: "EB88",
+            font: "Mobitec-16:8",
+            spacing: 1
         }
     },
     881: {
@@ -3423,6 +3511,14 @@ EDSData.SBST = {
             serviceNumber: "88B",
             destinationRoad: "AMK AVE 5",
             destinationName: "(BEF YIO CHU KANG RD)"
+        }
+    },
+    890: {
+        front: {
+            renderType: "message",
+            text: "EB89",
+            font: "Mobitec-16:8",
+            spacing: 1
         }
     },
     891: {
@@ -3508,6 +3604,14 @@ EDSData.SBST = {
             destinationName: "(PAYA LEBAR AIRBASE)"
         }
     },
+    910: {
+        front: {
+            renderType: "message",
+            text: "EB91",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
     911: {
         front: {
             renderType: "standardService",
@@ -3526,6 +3630,14 @@ EDSData.SBST = {
                 "COMMONWEALTH AVE"
             ],
             scrollFont: "Mobitec-6:5"
+        }
+    },
+    920: {
+        front: {
+            renderType: "message",
+            text: "EB92",
+            font: "Mobitec-16:8",
+            spacing: 1
         }
     },
     921: {
@@ -3653,6 +3765,14 @@ EDSData.SBST = {
             destinationName: "(BEF RSAF ROUNDABOUT)"
         }
     },
+    950: {
+        front: {
+            renderType: "message",
+            text: "EB95",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
     951: {
         front: {
             renderType: "standardService",
@@ -3679,6 +3799,30 @@ EDSData.SBST = {
             serviceNumber: "95B",
             destinationRoad: "N. BUONA V.",
             destinationName: "RD (BUONA V STN EXIT E)"
+        }
+    },
+    960: {
+        front: {
+            renderType: "message",
+            text: "EB96",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    980: {
+        front: {
+            renderType: "message",
+            text: "EB98",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    990: {
+        front: {
+            renderType: "message",
+            text: "EB99",
+            font: "Mobitec-16:8",
+            spacing: 1
         }
     },
     991: {
