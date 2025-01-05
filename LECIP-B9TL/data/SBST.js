@@ -3,7 +3,7 @@ EDSFormats.SBST = {
         serviceNumber: {
             align: "right",
             margin: {
-                right: 1
+                right: 0
             },
             text: "$serviceNumber",
             font: {
@@ -387,6 +387,65 @@ EDSFormats.SBST = {
     },
         bottom: {
             align: "centre-x,bottom",
+            text: "$bottom",
+            font: "$bottomFont",
+            spacing: "$bottomSpacing",
+            margin: {
+                top: {
+                    $$cond: {
+                        "$marginBottom === undefined": 0,
+                        "else": "$marginBottom"
+                    }
+                },
+                left: {
+                    $$cond: {
+                        "$marginLeft === undefined": 0,
+                        "else": "$marginLeft"
+                    }
+                }
+            },
+        },
+        text: "'top+' '+$bottom'"
+    },
+    twoline3: {
+        serviceNumber: {
+            align: 'right,centre-y',
+            margin: {
+                right: 0
+            },
+            text: '$serviceNumber',
+            font: 'LECIP-20:12',
+            spacing: 3
+        },
+        top: {
+            align: "left,top",
+            text: "$top",
+            font: "$topFont",
+            spacing: {
+                top: {
+                $$cond: {
+                    "$spacingTop === undefined": 2,
+                    "else": "$spacingTop"
+                }
+            },
+            },
+            margin: {
+                top: {
+                $$cond: {
+                    "$marginTop === undefined": 0,
+                    "else": "$marginTop"
+                }
+            },
+            left: {
+                $$cond: {
+                    "$marginLeft === undefined": 0,
+                    "else": "$marginLeft"
+                }
+            }
+        },
+    },
+        bottom: {
+            align: "left,bottom",
             text: "$bottom",
             font: "$bottomFont",
             spacing: "$bottomSpacing",
@@ -14999,14 +15058,62 @@ EDSData.SBST = {
         1: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "298",
-                destination: "TAMP NTH INT-TAMP ST 86 (LOOP)",
-                destinationFont: "LECIP-9:3",
+                serviceNumber: "298X",
+                destination: "TAMP NTH INT - TAMP ST 86 (LOOP)",
+                destinationFont: "LECIP-6:3",
                 scrolls: [
-                    "TAMPINES ST 62",
-                    "TAMPINES CTRL 1",
-                    "TAMPINES ST 86",
-                    "TAMPINES AVE 4",
+                    {
+                        renderType: 'twoline3',
+
+                        serviceNumber: "298X",
+
+                        top: "TAMPINES ST 62",
+                        topFont: "LECIP-7:5",
+                        spacingTop: "2",
+        
+                        bottom: "TAMP NTH INtAMP ST 86(LOOP)",
+                        bottomFont: "LECIP-9:3",
+                        marginBottom: "-1"
+                    },
+                    {
+                        renderType: 'twoline3',
+
+                        serviceNumber: "298X",
+
+                        top: "TAMPINES CTRL 1",
+                        topFont: "LECIP-7:5",
+                        spacingTop: "2",
+        
+                        bottom: "TAMP NTH INtAMP ST 86(LOOP)",
+                        bottomFont: "LECIP-9:3",
+                        marginBottom: "-1"
+                    },
+                    {
+                        renderType: 'twoline3',
+
+                        serviceNumber: "298X",
+
+                        top: "TAMPINES ST 86",
+                        topFont: "LECIP-7:5",
+                        spacingTop: "2",
+        
+                        bottom: "TAMP NTH INtAMP ST 86(LOOP)",
+                        bottomFont: "LECIP-9:3",
+                        marginBottom: "-1"
+                    },
+                    {
+                        renderType: 'twoline3',
+
+                        serviceNumber: "298X",
+
+                        top: "TAMPINES AVE 4",
+                        topFont: "LECIP-7:5",
+                        spacingTop: "2",
+        
+                        bottom: "TAMP NTH INtAMP ST 86(LOOP)",
+                        bottomFont: "LECIP-9:3",
+                        marginBottom: "-1"
+                    },
                 ],
                 scrollFont: "LECIP-7:5"
             },
