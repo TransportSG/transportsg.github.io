@@ -1993,41 +1993,6 @@ EDSData.TTSG = {
             }
         }
     },
-    999: {
-        1: {
-            front: {
-                renderType: "message4",
-                serviceNumber: "96",
-                destination: "CLEMENTI",
-                destinationFont: "Hanover-Tower11:7",
-                scrolls: [                    
-                    "CLEMENTI RD",
-                    "NAT'L UNIVERSITY OF S'PORE",
-                    "KENT RIDGE CRESCENT",
-                    {
-                        renderType: "message2",
-                        serviceNumber: "96",
-                        top: "012",
-                        topFont: "LECIP-TowerIcons",
-                    },
-                {
-                    renderType: "destScroll",
-                    top: "CLEMENTI - NUS",
-                    topFont: "Hanover-Tower12:7",
-        
-                    serviceNumber: "96"
-                },
-                ],
-                scrollFont: "Hanover-Tower7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "96",
-                font: "LECIP-TowerRear17:10",
-                spacing: 2
-            }
-        }
-    },
     96: {
         1: {
             front: {

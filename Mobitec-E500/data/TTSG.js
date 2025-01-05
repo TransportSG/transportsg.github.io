@@ -2120,6 +2120,7 @@ EDSData.TTSG = {
             renderType: "standardService",
             serviceNumber: "",
             destination: "TEL 3 Opening Event",
+            destFont: "Mobitec-7:7",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -2356,6 +2357,7 @@ EDSData.TTSG = {
             renderType: "standardService",
             serviceNumber: "",
             destination: "Off Service",
+            destFont: "Mobitec-7:7",
             scrolls: [
                 {
                     renderType: "message",
@@ -3472,6 +3474,7 @@ EDSData.TTSG = {
             renderType: "standardService",
             serviceNumber: "",
             destination: "Spare Bus",
+            destFont: "Mobitec-7:7",
             scrolls: [
                 {
                     renderType: "message",
@@ -3709,6 +3712,7 @@ EDSData.TTSG = {
             renderType: "standardService",
             serviceNumber: "",
             destination: "On Test",
+            destFont: "Mobitec-7:7",
             scrolls: [
                 {
                     renderType: "message",
@@ -3754,6 +3758,7 @@ EDSData.TTSG = {
             renderType: "standardService",
             serviceNumber: "",
             destination: "Route Familiarisation Training",
+            destFont: "Mobitec-7:7",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -4379,6 +4384,7 @@ EDSData.TTSG = {
             renderType: "standardService",
             serviceNumber: "",
             destination: "Training Bus",
+            destFont: "Mobitec-7:7",
             scrolls: [
                 {
                     renderType: "message",

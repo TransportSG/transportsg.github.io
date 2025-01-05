@@ -22,6 +22,7 @@ EDSFormats.SBST = {
                         "$destinationFont === 'LECIP-6:3'": 3,
                         "$destinationFont === 'LECIP-6:4'": 3,
                         "$destinationFont === 'LECIP-7:5'": 2,
+                        "$destinationFont === 'LECIP-9:3'": 0,
                         "$destinationFont === 'LECIP-10'": 0
                     }
                 },
@@ -14998,16 +14999,16 @@ EDSData.SBST = {
         1: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "298X",
-                destination: "TAMP NTH INT-TAMP ST 86",
-                destinationFont: "LECIP-6:3",
+                serviceNumber: "298",
+                destination: "TAMP NTH INT-TAMP ST 86 (LOOP)",
+                destinationFont: "LECIP-9:3",
                 scrolls: [
                     "TAMPINES ST 62",
                     "TAMPINES CTRL 1",
                     "TAMPINES ST 86",
                     "TAMPINES AVE 4",
                 ],
-                scrollFont: "LECIP-6:3"
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
