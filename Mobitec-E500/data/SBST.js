@@ -4289,7 +4289,8 @@ EDSData.SBST = {
                 font: "Mobitec-7:4"
             },
             scrolls: [
-                'HOUGANG AVE 1'
+                'HOUGANG AVE 1',
+                'UPPER SERANGOON RD'
             ],
             scrollFont: "Mobitec-6:5"
         }

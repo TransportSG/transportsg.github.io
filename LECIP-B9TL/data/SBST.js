@@ -8556,12 +8556,13 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "115",
-                destination: "HOUGANG CTRL INT-HOUGANG AVE 3",
-                destinationFont: "LECIP-6:3",
+                destination: "HOUGANG ST 21 - HOUGANG AVE 3",
+                destinationFont: "LECIP-6:4",
                 scrolls: [
-                    'HOUGANG AVE 1'
+                    'HOUGANG AVE 1',
+                    "UPPER SERANGOON RD"
                 ],
-                scrollFont: "LECIP-6:3"
+                scrollFont: "LECIP-6:4"
             },
             rear: {
                 renderType: "rearService",
@@ -14993,6 +14994,29 @@ EDSData.SBST = {
             }
         }
     },
+    "298X": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "298X",
+                destination: "TAMP NTH INT-TAMP ST 86",
+                destinationFont: "LECIP-6:3",
+                scrolls: [
+                    "TAMPINES ST 62",
+                    "TAMPINES CTRL 1",
+                    "TAMPINES ST 86",
+                    "TAMPINES AVE 4",
+                ],
+                scrollFont: "LECIP-6:3"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "298X",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
     "298T": {
         1: {
             front: {
@@ -15011,30 +15035,6 @@ EDSData.SBST = {
                 renderType: "rearService",
                 serviceNumber: "298",
                 font: "LECIP-20:9",
-                spacing: 2
-            }
-        }
-    },
-    "298X": {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "298X",
-                destination: "TAMP NTH -TAMP ST 86 (LOOP)",
-                destinationFont: "LECIP-6:3",
-                scrolls: [
-                    "TAMPINES ST 62",
-                    "TAMPINES CTRL 1",
-                    "TAMPINES ST 86",
-                    "TAMPINES AVE 4",
-                    "TAMPINES ST 62"
-                ],
-                scrollFont: "LECIP-6:3"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "298X",
-                font: "LECIP-20:6",
                 spacing: 2
             }
         }
