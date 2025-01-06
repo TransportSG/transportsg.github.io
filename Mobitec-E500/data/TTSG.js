@@ -3,7 +3,7 @@ EDSFormats.TTSG = {
         serviceNumber: {
             align: "right",
             margin: {
-                right: 1
+                right: 0
             },
             text: "$serviceNumber",
             font: "Mobitec-Tower16:10",
@@ -43,7 +43,7 @@ EDSFormats.TTSG = {
         serviceNumber: {
             align: "right",
             margin: {
-                right: 1
+                right: 0
             },
             text: "$serviceNumber",
             font: "TTS-16:8",
@@ -77,7 +77,7 @@ EDSFormats.TTSG = {
         serviceNumber: {
             align: "right",
             margin: {
-                right: 1
+                right: 0
             },
             text: "$serviceNumber",
             font: "Mobitec-Tower16:10",
@@ -138,7 +138,7 @@ EDSFormats.TTSG = {
         serviceNumber: {
             align: "right",
             margin: {
-                right: 1
+                right: 0
             },
             text: "$serviceNumber",
             font: "Mobitec-TowerIcons",
@@ -199,7 +199,7 @@ EDSFormats.TTSG = {
         serviceNumber: {
             align: "right",
             margin: {
-                right: 1
+                right: 0
             },
             text: "$serviceNumber",
             font: "TTS-16:8",
@@ -267,7 +267,7 @@ EDSFormats.TTSG = {
         serviceNumber: {
             align: "right",
             margin: {
-                right: 1
+                right: 0
             },
             text: "$serviceNumber",
             font: "Mobitec-Tower16:10",
@@ -328,7 +328,7 @@ EDSFormats.TTSG = {
         serviceNumber: {
             align: "right",
             margin: {
-                right: 1
+                right: 0
             },
             text: "$serviceNumber",
             font: "Mobitec-Tower16:10",

@@ -3,7 +3,7 @@ EDSFormats.Sentosa = {
         serviceNumber: {
             align: "right",
             margin: {
-                right: 1
+                right: 0
             },
             text: "$serviceNumber",
             font: "Mobitec-16:8",
@@ -34,6 +34,71 @@ EDSFormats.Sentosa = {
         text: "$destination.text+' '+$serviceNumber"
     },
     destScroll: {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 0
+            },
+            text: "$serviceNumber",
+            font: {
+                $$cond: {
+                    "$svcFont !== null": "$svcFont",
+                    "else": "Mobitec-16:8"
+                }
+            },
+            spacing: {
+                $$cond: {
+                    "$spacing === null" : 2,
+                    "else": "$spacing"
+                }
+            }
+        },
+        top: {
+            align: {
+                $$cond: {
+                  "$bottom === null": "centre-x,centre-y",
+                    "else": "centre-x,top"
+                }
+            },
+            text: "$top",
+            font: "$topFont",
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber) - width(image)'
+            }
+        },
+        bottom: {
+            align: "centre-x,bottom",
+            text: {
+                $$cond: {
+                    "$bottom !== null": "$bottom",
+                    "else": "''"
+                }
+            },
+            font: {
+                $$cond: {
+                    "$bottomFont !== null": "$bottomFont",
+                    "else": "Mobitec-6:5"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber)'
+            }
+        },
+        image: {
+            align: "left",
+            image: {
+                $$cond: {
+                    "$image !== null": "$image",
+                    "else": "blank"
+                }
+            }
+        },
+
+        text: "$top+' '+$bottom+' '+$serviceNumber"
+    },
+    destScroll2: {
         serviceNumber: {
             align: "right",
             margin: {
@@ -74,62 +139,6 @@ EDSFormats.Sentosa = {
                 $$cond: {
                     "$bottomFont !== null": "$bottomFont",
                     "else": "Mobitec-6:5"
-                }
-            },
-            spacing: 1,
-            margin: {
-                right: 'width(serviceNumber)'
-            }
-        },
-
-        text: "$top+' '+$bottom+' '+$serviceNumber"
-    },
-    myBas: {
-        serviceNumber: {
-            align: "left",
-            margin: {
-                right: 1
-            },
-            text: "$serviceNumber",
-            font: "Tongda-16:7",
-            spacing: {
-                $$cond: {
-                    "$spacing === null" : 1,
-                    "else": "$spacing"
-                }
-            }
-        },
-        top: {
-            align: {
-                $$cond: {
-                    "$bottom === null": "centre-x,centre-y",
-                    "else": "centre-x,top"
-                }
-            },
-            text: "$top",
-            font: {
-                $$cond: {
-                    "$bottomFont !== null": "$bottomFont",
-                    "else": "Tongda-16:7"
-                }
-            },
-            spacing: 1,
-            margin: {
-                right: 'width(serviceNumber)'
-            }
-        },
-        bottom: {
-            align: "centre-x,bottom",
-            text: {
-                $$cond: {
-                    "$bottom !== null": "$bottom",
-                    "else": "''"
-                }
-            },
-            font: {
-                $$cond: {
-                    "$bottomFont !== null": "$bottomFont",
-                    "else": "Tongda-16:7"
                 }
             },
             spacing: 1,
@@ -224,7 +233,7 @@ EDSData.Sentosa = {
     },
     4: {
         front: {
-            renderType: "destScroll",
+            renderType: "destScroll2",
             top: "Free Shuttle Service",
             topFont: "Mobitec-7:7",
 
@@ -234,6 +243,14 @@ EDSData.Sentosa = {
             serviceNumber: ""
         }
     },
+    1000: {
+        front: {
+            renderType: "message",
+            text: "STAFF BUS",
+            font: "Mobitec-16:8",
+            spacing: 1
+            }
+        },   
     1111: {
         front: {
             renderType: "message",
@@ -241,7 +258,7 @@ EDSData.Sentosa = {
             font: "Mobitec-16:8",
             spacing: 1
             }
-        },
+        },   
     2222: {
         front: {
             renderType: "logo",
@@ -249,8 +266,59 @@ EDSData.Sentosa = {
             text: "Sentosa Logo"
             }
         },
+    9999: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: {
+                    text: "Sentosa Logo",
+                    font: "Mobitec-7:7"
+                },
+                scrolls: [
+                    {
+                        renderType: "logo",
+                        image: "SentosaLogo",
+                        text: "Sentosa Logo"
+                    },
+                    {
+                        renderType: "destScroll",
+                        top: "Happy Lunar New Year",
+                        topFont: "Mobitec-7:4",
+            
+                        image: "CNY-Ingot",
+            
+                        serviceNumber: "1",
+                        svcFont: "Mobitec-SentosaIcons"
+                    },
+                ],
+                scrollFont: "Mobitec-6:5"
+            }
+        },
     },
-EDSExtras.Sentosa = {}
+
+EDSExtras.Sentosa = {
+1: {
+    front: {
+        renderType: "destScroll",
+        top: "Happy Lunar New Year",
+        topFont: "Mobitec-7:4",
+
+        image: "CNY-Ingot",
+
+        serviceNumber: "1",
+        svcFont: "Mobitec-SentosaIcons"
+        }
+    },
+3: {
+    front: {
+        renderType: "destScroll2",
+        top: "Happy Deepavali",
+        topFont: "Mobitec-13:8",
+
+        serviceNumber: ""
+    }
+    },
+}
 
 EDSImages.Sentosa = {
     SentosaLogo: [
@@ -270,5 +338,41 @@ EDSImages.Sentosa = {
         [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
         [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
         [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    ],
+    "CNY-Ingot": [
+        [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0],
+        [0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0],
+        [0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0],
+        [1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1],
+        [1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1],
+        [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1],
+        [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1],
+        [0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0],
+        [0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0],
+        [0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0],
+        [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    ],
+    "CNY-Coin": [
+        [0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0],
+        [0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0],
+        [0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0],
+        [0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0],
+        [1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1],
+        [1, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1],
+        [1, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1],
+        [1, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1],
+        [1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1],
+        [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1],
+        [0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0],
+        [0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0],
+        [0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
     ],
 }
