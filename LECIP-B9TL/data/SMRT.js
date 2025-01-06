@@ -68,7 +68,12 @@ EDSFormats.SMRT = {
                 top: 2
             },
             text: "$serviceNumber",
-            font: "Arial-17",
+            font: {
+                $$cond: {
+                    "$serviceFont !== null": "$serviceFont",
+                    "else": "Arial-17"
+                }
+            },
             spacing: {
                 $$cond: {
                     "$spacing === null" : 2,
@@ -126,7 +131,12 @@ EDSFormats.SMRT = {
                 top: 2,
             },
             text: "$serviceNumber",
-            font: "Calibri-15",
+            font: {
+                $$cond: {
+                    "$serviceFont !== null": "$serviceFont",
+                    "else": "Calibri-15"
+                }
+            },
             spacing: {
                 $$cond: {
                     "$spacing === null" : 2,
@@ -4136,13 +4146,25 @@ EDSData.SMRT = {
                 scrolls: [
                     {
                         renderType: "destScroll2",
-                        top: "SMRT LECIP - NEW VERSION",
+                        top: "WIP - DATA W.E.F SEP 2024",
                         topFont: "ArialBold-8:2",
-                        bottom: "WORK IN PROGRESS",
-                        bottomFont: "ArialBold-8:2",
+                        bottom: "(Includes Jurong West Package Data)",
+                        bottomFont: "Mobitec-7:4",
             
                         serviceNumber: ""
-                        },
+                    },
+                    {
+                        renderType: "logo",
+                        text: "SMRT LOGO",
+                        image: "logo"
+                    },
+                    {
+                        renderType: 'message',
+                        text: 'GONG XI FA CAI',
+                        font: 'Arial-15:2',
+                        spacing: 2,
+                        marginTop: 3
+                    },
                     {
                         renderType: "logo",
                         text: "SMRT LOGO",
@@ -4157,7 +4179,14 @@ EDSData.SMRT = {
                 destination: "WELCOME",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
+                    renderType: "destScroll",
+                    top: "Welcome",
+                    topFont: "Hanover-7:3",
+        
+                    serviceNumber: ""
+                },
+                {
                     renderType: "destScroll",
                     top: "Work In",
                     topFont: "Hanover-7:3",
@@ -4165,7 +4194,16 @@ EDSData.SMRT = {
                     bottomFont: "Hanover-7:3",
         
                     serviceNumber: ""
-                    },
+                },
+                {
+                    renderType: "destScroll",
+                    top: "Gong Xi",
+                    topFont: "Hanover-7:3",
+                    bottom: "Fa Cai",
+                    bottomFont: "Hanover-7:3",
+        
+                    serviceNumber: ""
+                },
                 ],
                 scrollFont: "ArialBold-8:2"
             },
