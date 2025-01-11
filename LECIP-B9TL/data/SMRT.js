@@ -338,6 +338,63 @@ EDSFormats.SMRT = {
 
         text: "$top+' '+$bottom+' '+$serviceNumber"
     },
+    ScrollWithSpecialCharacters2: {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                top: 2,
+            },
+            text: "$serviceNumber",
+            font: {
+                $$cond: {
+                    "$serviceFont === null": "Arial-17",
+                    "else": "$serviceFont"
+                }
+            },
+            spacing: {
+                $$cond: {
+                    "$spacing === null" : 2,
+                    "else": "$spacing"
+                }
+            }
+        },
+        top: {
+            align: {
+                $$cond: {
+                    "$bottom === null": "centre-x,centre-y",
+                    "else": "centre-x,top"
+                }
+            },
+            text: "$top",
+            font: "$topFont",
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber)'
+            }
+        },
+        bottom: {
+            align: "centre-x,bottom",
+            text: {
+                $$cond: {
+                    "$bottom !== null": "$bottom",
+                    "else": "''"
+                }
+            },
+            font: {
+                $$cond: {
+                    "$bottomFont !== null": "$bottomFont",
+                    "else": "ArialBold-8:2"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber)',
+                bottom: "1"
+            }
+        },
+
+        text: "$top+' '+$bottom+' '+$serviceNumber"
+    },
     logo: {
         logo: {
             align: "centre-x,centre-y",
@@ -4074,12 +4131,36 @@ EDSData.SMRT = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "903M",
-                destination: "WOODLANDS|INTvia",
+                destination: "WOODLANDS INT via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    "WOODLANDS AVE 2",
-                    "MARSILING RD",
-                    "MARSILING LANE",
+                    {
+                        renderType: "ScrollWithSpecialCharacters2",
+                        top: "WOODLANDS|INTvia",
+                        topFont: "ArialBold-8:2",
+                        bottom: "WOODLANDS AVE 2",
+                        bottomFont: "Arial-8",
+                
+                        serviceNumber: "903M"
+                    },
+                    {
+                        renderType: "ScrollWithSpecialCharacters2",
+                        top: "WOODLANDS|INTvia",
+                        topFont: "ArialBold-8:2",
+                        bottom: "MARSILING RD",
+                        bottomFont: "Arial-8",
+                
+                        serviceNumber: "903M"
+                    },
+                    {
+                        renderType: "ScrollWithSpecialCharacters2",
+                        top: "WOODLANDS|INTvia",
+                        topFont: "ArialBold-8:2",
+                        bottom: "MARSILING LANE",
+                        bottomFont: "Arial-8",
+                
+                        serviceNumber: "903M"
+                    },
                     {
                         renderType: "ScrollWithSpecialCharacters",
                         top: "WOODLANDS|INTvia",
@@ -4198,7 +4279,7 @@ EDSData.SMRT = {
                 renderType: "rearService",
                 serviceNumber: "911A",
                 font: "Arial-10",
-                spacing: 1
+                spacing: 2
             }
         }
     },
@@ -4226,7 +4307,7 @@ EDSData.SMRT = {
                 renderType: "rearService",
                 serviceNumber: "911T",
                 font: "Arial-10",
-                spacing: 1
+                spacing: 2
             }
         }
     },
@@ -4342,7 +4423,7 @@ EDSData.SMRT = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "912A",
-                destination: "WOODLANDS INTvia",
+                destination: "WOODLANDS INT via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
                     {
@@ -4354,9 +4435,33 @@ EDSData.SMRT = {
                 
                         serviceNumber: "912A"
                     },
-                    "WOODLANDS DR 50",
-                    "WOODLANDS RING RD",
-                    "ADMIRALTY MRT",
+                    {
+                        renderType: "ScrollWithSpecialCharacters2",
+                        top: "WOODLANDS INTvia",
+                        topFont: "ArialBold-8:2",
+                        bottom: "WOODLANDS DR 50",
+                        bottomFont: "Arial-8:2",
+                
+                        serviceNumber: "912A"
+                    },
+                    {
+                        renderType: "ScrollWithSpecialCharacters2",
+                        top: "WOODLANDS INTvia",
+                        topFont: "ArialBold-8:2",
+                        bottom: "WOODLANDS RING RD",
+                        bottomFont: "Arial-8:2",
+                
+                        serviceNumber: "912A"
+                    },
+                    {
+                        renderType: "ScrollWithSpecialCharacters2",
+                        top: "WOODLANDS INTvia",
+                        topFont: "ArialBold-8:2",
+                        bottom: "ADMIRALTY MRT",
+                        bottomFont: "Arial-8:2",
+                
+                        serviceNumber: "912A"
+                    },
                     {
                         renderType: "ScrollWithSpecialCharacters",
                         top: "WOODLANDS INTvia",
@@ -4373,7 +4478,7 @@ EDSData.SMRT = {
                 renderType: "rearService",
                 serviceNumber: "912A",
                 font: "Arial-10",
-                spacing: 1
+                spacing: 2
             }
         }
     },
@@ -4382,20 +4487,36 @@ EDSData.SMRT = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "912B",
-                destination: "WOODLANDS INTvia",
+                destination: "WOODLANDS INT via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
                     {
-                        renderType: "ScrollWithSpecialCharacters",
+                        renderType: "ScrollWithSpecialCharacters2",
                         top: "WOODLANDS INTvia",
                         topFont: "ArialBold-8:2",
                         bottom: "WDL AVE 5, 2, 1",
-                        bottomFont: "Arial-8:2",
+                        bottomFont: "Arial-8",
                 
                         serviceNumber: "912B"
                     },
-                    "WOODLANDS ST 41",
-                    "TRAIN CHECKPOINT",
+                    {
+                        renderType: "ScrollWithSpecialCharacters2",
+                        top: "WOODLANDS INTvia",
+                        topFont: "ArialBold-8:2",
+                        bottom: "WOODLANDS ST 41",
+                        bottomFont: "Arial-8",
+                
+                        serviceNumber: "912B"
+                    },
+                    {
+                        renderType: "ScrollWithSpecialCharacters2",
+                        top: "WOODLANDS INTvia",
+                        topFont: "ArialBold-8:2",
+                        bottom: "TRAIN CHECKPOINT",
+                        bottomFont: "Arial-8",
+                
+                        serviceNumber: "912B"
+                    },
                     {
                         renderType: "ScrollWithSpecialCharacters",
                         top: "WOODLANDS INTvia",
@@ -4412,7 +4533,7 @@ EDSData.SMRT = {
                 renderType: "rearService",
                 serviceNumber: "912B",
                 font: "Arial-10",
-                spacing: 1
+                spacing: 2
             }
         }
     },
@@ -4433,7 +4554,7 @@ EDSData.SMRT = {
                 renderType: "rearService",
                 serviceNumber: "912M",
                 font: "Arial-10",
-                spacing: 1
+                spacing: 2
             }
         }
     },
@@ -4475,14 +4596,54 @@ EDSData.SMRT = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "913M",
-                destination: "WOODLANDS INTvia",
+                destination: "WOODLANDS INT via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    "MARSILING RISE",
-                    "MARSILING RD",
-                    "WOODLANDS AVE 1",
-                    "WOODLANDS ST 32",
-                    "WOODLANDS AVE 3"
+                    {
+                        renderType: "ScrollWithSpecialCharacters2",
+                        top: "WOODLANDS INTvia",
+                        topFont: "ArialBold-8:2",
+                        bottom: "MARSILING RISE",
+                        bottomFont: "Arial-8",
+                
+                        serviceNumber: "913M"
+                    },
+                    {
+                        renderType: "ScrollWithSpecialCharacters2",
+                        top: "WOODLANDS INTvia",
+                        topFont: "ArialBold-8:2",
+                        bottom: "MARSILING RD",
+                        bottomFont: "Arial-8",
+                
+                        serviceNumber: "913M"
+                    },
+                    {
+                        renderType: "ScrollWithSpecialCharacters2",
+                        top: "WOODLANDS INTvia",
+                        topFont: "ArialBold-8:2",
+                        bottom: "WOODLANDS AVE 1",
+                        bottomFont: "Arial-8",
+                
+                        serviceNumber: "913M"
+                    },
+                    {
+                        renderType: "ScrollWithSpecialCharacters2",
+                        top: "WOODLANDS INTvia",
+                        topFont: "ArialBold-8:2",
+                        bottom: "WOODLANDS ST 32",
+                        bottomFont: "Arial-8",
+                
+                        serviceNumber: "913M"
+                    },
+                    {
+                        renderType: "ScrollWithSpecialCharacters2",
+                        top: "WOODLANDS INTvia",
+                        topFont: "ArialBold-8:2",
+                        bottom: "WOODLANDS AVE 3",
+                        bottomFont: "Arial-8",
+                
+                        serviceNumber: "913M"
+                    },
                 ],
                 scrollFont: "Arial-8"
             },
@@ -4490,7 +4651,7 @@ EDSData.SMRT = {
                 renderType: "rearService",
                 serviceNumber: "913M",
                 font: "Arial-10",
-                spacing: 1
+                spacing: 2
             }
         }
     },
@@ -5088,7 +5249,7 @@ EDSData.SMRT = {
                 renderType: "rearService",
                 serviceNumber: "960e",
                 font: "Arial-10",
-                spacing: 1
+                spacing: 2
             }
         },
         2: {
@@ -5112,7 +5273,7 @@ EDSData.SMRT = {
                 renderType: "rearService",
                 serviceNumber: "960e",
                 font: "Arial-10",
-                spacing: 1
+                spacing: 2
             }
         }
     },
@@ -5136,7 +5297,7 @@ EDSData.SMRT = {
                 renderType: "rearService",
                 serviceNumber: "960e",
                 font: "Arial-10",
-                spacing: 1
+                spacing: 2
             }
         }
     },
@@ -5230,7 +5391,7 @@ EDSData.SMRT = {
                 renderType: "rearService",
                 serviceNumber: "961M",
                 font: "Arial-10",
-                spacing: 1
+                spacing: 2
             }
         }
     },
@@ -5256,7 +5417,7 @@ EDSData.SMRT = {
                 renderType: "rearService",
                 serviceNumber: "961M",
                 font: "Arial-10",
-                spacing: 1
+                spacing: 2
             }
         }
     },
