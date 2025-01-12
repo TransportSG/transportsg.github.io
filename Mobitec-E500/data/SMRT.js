@@ -47,7 +47,7 @@ EDSFormats['SMRT (PostSLBP)'] = {
         serviceNumber: {
             align: "right",
             margin: {
-                right: 1
+                right: 0,
             },
             text: "$serviceNumber",
             font: "Mobitec-16:8",
@@ -81,7 +81,7 @@ EDSFormats['SMRT (PostSLBP)'] = {
         serviceNumber: {
             align: "right",
             margin: {
-                right: 1
+                right: 0,
             },
             text: "$serviceNumber",
             font: "Mobitec-16:8",
@@ -115,7 +115,7 @@ EDSFormats['SMRT (PostSLBP)'] = {
         serviceNumber: {
             align: "right",
             margin: {
-                right: 1
+                right: 0,
             },
             text: "$serviceNumber",
             font: "Mobitec-16:8",
@@ -166,7 +166,7 @@ EDSFormats['SMRT (PostSLBP)'] = {
         serviceNumber: {
             align: "right",
             margin: {
-                right: 1
+                right: 0,
             },
             text: "$serviceNumber",
             font: "Mobitec-16:8",
@@ -200,7 +200,7 @@ EDSFormats['SMRT (PostSLBP)'] = {
         serviceNumber: {
             align: "right",
             margin: {
-                right: 1
+                right: 0,
             },
             text: "$serviceNumber",
             font: "Mobitec-16:8",
@@ -234,7 +234,7 @@ EDSFormats['SMRT (PostSLBP)'] = {
         serviceNumber: {
             align: "right",
             margin: {
-                right: 1
+                right: 0,
             },
             text: "$serviceNumber",
             font: "Mobitec-16:8",
@@ -285,7 +285,7 @@ EDSFormats['SMRT (PostSLBP)'] = {
         serviceNumber: {
             align: "right",
             margin: {
-                right: 1
+                right: 0,
             },
             text: "$serviceNumber",
             font: "Mobitec-16:8",
@@ -346,7 +346,7 @@ EDSFormats['SMRT (PostSLBP)'] = {
         serviceNumber: {
             align: "right",
             margin: {
-                right: 1
+                right: 0,
             },
             text: "$serviceNumber",
             font: "Mobitec-16:8",
@@ -383,6 +383,13 @@ EDSFormats['SMRT (PostSLBP)'] = {
         },
 
         text: "$text"
+    },
+    full: {
+        __dynamic__: (matrix, data) => {
+            matrixPrimitives.setStrokeColour(null);
+            matrixPrimitives.fillRectangle(matrix, 0, 0, matrix.width, matrix.height);
+    },
+    text: "All LED Lit"
     },
     message: {
         display: {
@@ -483,6 +490,12 @@ EDSData['SMRT (PostSLBP)'] = {
             text: "MRT SHUTTLE",
             font: "Mobitec-16:8",
             spacing: 1
+        }
+    },
+    12: {
+        front: {
+            renderType: "full",
+            text: "All LED Lit",
         }
     },
     13: {
@@ -4219,7 +4232,10 @@ EDSData['SMRT (PostSLBP)'] = {
                 font: "Mobitec-7:5:3"
             },
             scrolls: [
-
+                "WOODLANDS AVE 3, 1",
+                "WOODLANDS ST 41",
+                "WOODLANDS AVE 1",
+                "WDL DR 17 (LOOP)"
             ],
             scrollFont: "Mobitec-7:5:3"
         }

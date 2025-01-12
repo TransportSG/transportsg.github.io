@@ -522,7 +522,13 @@ EDSFormats.SMRT = {
             spacing: "$spacing"
         }
     },
-
+    full: {
+        __dynamic__: (matrix, data) => {
+            matrixPrimitives.setStrokeColour(null);
+            matrixPrimitives.fillRectangle(matrix, 0, 0, matrix.width, matrix.height);
+        },
+        text: "All LED Lit"
+    },
     rearService: {
         serviceNumber: {
             align: "centre-x,centre-y",
@@ -597,6 +603,16 @@ EDSData.SMRT = {
                 bottom: "SERVICE",
                 bottomFont: "ArialNarrow-7",
                 bottomMargin: 2
+            }
+        }
+    },
+    12: {
+        1: {
+            front: {
+                renderType: "full"
+            },
+            rear: {
+                renderType: "full"
             }
         }
     },
@@ -4210,7 +4226,7 @@ EDSData.SMRT = {
                         serviceNumber: "904"
                     },
                     "WDL DR 73, 62",
-                    "WDL AVE 6,",
+                    "WDL AVE 6, 7",
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -5516,37 +5532,37 @@ EDSData.SMRT = {
             }
         }
     },
-//    9671: { // Done
-//      1: {
-//          front: {
-//                renderType: "standardService",
-//                serviceNumber: "967",
-//                destination: "WDL TEMP INT via",
-//                destinationFont: "ArialBold-8:2",
-//                scrolls: [
-//                    "WOODLANDS AVE 3, 1",
-//                    "WOODLANDS ST 41",
-//                    "WOODLANDS AVE 1",
-//                    {
-//                        renderType: "ScrollWithSpecialCharacters",
-//                        top: "WDL TEMP INT via",
-//                        topFont: "ArialBold-8:2",
-//                        bottom: "WDL DR 17 (LOOP)",
-//                        bottomFont: "ArialBold-8:2",
-//                
-//                      serviceNumber: "967"
-//                    },
-//                ],
-//                scrollFont: "ArialBold-8:2"
-//           },
-//            rear: {
-//                renderType: "rearService",
-//                serviceNumber: "967",
-//                font: "LECIP-SMRTRear14:9",
-//                spacing: 2
-//            }
-//        }
-//    },
+    9671: { // Done
+      1: {
+          front: {
+                renderType: "standardService",
+                serviceNumber: "967",
+                destination: "WDL TEMP INT via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    "WOODLANDS AVE 3, 1",
+                    "WOODLANDS ST 41",
+                    "WOODLANDS AVE 1",
+                    {
+                        renderType: "ScrollWithSpecialCharacters",
+                        top: "WDL TEMP INT via",
+                        topFont: "ArialBold-8:2",
+                        bottom: "WDL DR 17 (LOOP)",
+                        bottomFont: "ArialBold-8:2",
+                
+                      serviceNumber: "967"
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+           },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "967",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
     9724: { // Done
         1: {
             front: {
