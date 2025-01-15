@@ -2744,12 +2744,11 @@ EDSData.SMRT = {
                 scrollFont: "ArialBold-8:2"
             },
             rear: { 
-                renderType: 'twoline',
-                top: "NSL",
-                topFont: "ArialBold-8",
-
-                bottom: "",
-                bottomFont: "ArialBold-8",
+                renderType: 'message',
+                text: 'NSL',
+                font: 'Calibri-11:2',
+                spacing: 1,
+                marginTop: 4
             }
         }
     },
@@ -2772,16 +2771,15 @@ EDSData.SMRT = {
                 scrollFont: "ArialBold-8:2"
             },
             rear: { 
-                renderType: 'twoline',
-                top: "EWL",
-                topFont: "ArialBold-8",
-
-                bottom: "",
-                bottomFont: "ArialBold-8",
+                renderType: 'message',
+                text: 'EWL',
+                font: 'Calibri-11:2',
+                spacing: 1,
+                marginTop: 4
             }
         }
     },
-    3156: { // To do: Edit font
+    3156: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -2792,7 +2790,7 @@ EDSData.SMRT = {
                     {
                         renderType: 'message',
                         text: 'CCL  BRIDGING  BUS',
-                        font: 'Arial-10',
+                        font: 'Calibri-11:2',
                         spacing: 1,
                         marginTop: 4
                     },
@@ -2800,12 +2798,11 @@ EDSData.SMRT = {
                 scrollFont: "ArialBold-8:2"
             },
             rear: { 
-                renderType: 'twoline',
-                top: "CCL",
-                topFont: "ArialBold-8",
-
-                bottom: "",
-                bottomFont: "ArialBold-8",
+                renderType: 'message',
+                text: 'CCL',
+                font: 'Calibri-11:2',
+                spacing: 1,
+                marginTop: 4
             }
         }
     },
@@ -2828,12 +2825,11 @@ EDSData.SMRT = {
                 scrollFont: "ArialBold-8:2"
             },
             rear: { 
-                renderType: 'twoline',
-                top: "TEL",
-                topFont: "ArialBold-8",
-
-                bottom: "",
-                bottomFont: "ArialBold-8",
+                renderType: 'message',
+                text: 'TEL',
+                font: 'Calibri-11:2',
+                spacing: 1,
+                marginTop: 4
             }
         }
     },
@@ -2856,12 +2852,11 @@ EDSData.SMRT = {
                 scrollFont: "ArialBold-8:2"
             },
             rear: { 
-                renderType: 'twoline',
-                top: "NEL",
-                topFont: "ArialBold-8",
-
-                bottom: "",
-                bottomFont: "ArialBold-8",
+                renderType: 'message',
+                text: 'NEL',
+                font: 'Calibri-11:2',
+                spacing: 1,
+                marginTop: 4
             }
         }
     },
@@ -2884,12 +2879,11 @@ EDSData.SMRT = {
                 scrollFont: "ArialBold-8:2"
             },
             rear: { 
-                renderType: 'twoline',
-                top: "DTL",
-                topFont: "ArialBold-8",
-
-                bottom: "",
-                bottomFont: "ArialBold-8",
+                renderType: 'message',
+                text: 'DTL',
+                font: 'Calibri-11:2',
+                spacing: 1,
+                marginTop: 4
             }
         }
     },
