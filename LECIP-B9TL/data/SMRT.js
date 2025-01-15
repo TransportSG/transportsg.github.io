@@ -808,11 +808,9 @@ EDSData.SMRT = {
                     serviceNumber: "110"
                     },
                     'PTB 3, 1, 2, 4',
-                    "AIRPORT BOULEVARD",
+                    "AIRPORT BLVD",
                     "TPE",
-                    "ANCHORVALE ST",
-                    "ANCHORVALE RD",
-                    "ANCHORVALE DR",
+                    "ANCHORVALE ST, DR",
                     "COMPASSVALE DR"
                 ],
                 scrollFont: "ArialBold-8:2"
