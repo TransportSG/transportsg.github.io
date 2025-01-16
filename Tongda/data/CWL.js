@@ -288,18 +288,18 @@ EDSData['CWL (JB Area)'] = {
     "1CT": {
         front: {
             renderType: "standardService",
-            serviceNumber: "CT",
+            serviceNumber: "CT1",
             destination: "JB SENTRAL/ BAYU PUTERI",
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "CT",
+                    serviceNumber: "CT1",
                     top: "JB SENTRAL",
                     topFont: "Tongda-16:7",
                 },
                 {
                     renderType: "destScroll",
-                    serviceNumber: "CT",
+                    serviceNumber: "CT1",
                     top: "BAYU PUTERI",
                     topFont: "Tongda-16:7",
                 },
@@ -336,7 +336,7 @@ EDSData['CWL (JB Area)'] = {
             ]
         }
     },
-    "1JP": {
+    "1JPO": {
         front: {
             renderType: "standardService",
             serviceNumber: "JPO1",
@@ -357,7 +357,7 @@ EDSData['CWL (JB Area)'] = {
             ]
         }
     },
-    "1LP": {
+    "1LOOP": {
         front: {
             renderType: "standardService",
             serviceNumber: "LOOP 1",
@@ -388,6 +388,48 @@ EDSData['CWL (JB Area)'] = {
                     renderType: "destScroll",
                     serviceNumber: "DS2",
                     top: "WESTIN / HRH",
+                    topFont: "Tongda-16:7",
+                },
+            ]
+        }
+    },
+    "2JPO": {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "JPO2",
+            destination: "CIQ 1ST LINK / JPO",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "JPO2",
+                    top: "CIQ 1ST LINK",
+                    topFont: "Tongda-16:7",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "JPO2",
+                    top: "JHR P. OUTLET",
+                    topFont: "Tongda-16:7",
+                },
+            ]
+        }
+    },
+    "3JPO": {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "JPO3",
+            destination: "CIQ 2ND LINK / JPO",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "JPO3",
+                    top: "CIQ 2ND LINK",
+                    topFont: "Tongda-16:7",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "JPO3",
+                    top: "JHR P. OUTLET",
                     topFont: "Tongda-16:7",
                 },
             ]
@@ -427,15 +469,9 @@ EDSData['CWL (JB Area)'] = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "WIP",
-                    top: "AKAN DATANG",
-                    topFont: "Tongda-16:7",
+                    top: "WORK IN PROGRESS",
+                    topFont: "Mobitec-7:7",
                 }, 
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "WIP",
-                    top: "COMING SOON",
-                    topFont: "Tongda-16:7",
-                },
             ]
         }
     },

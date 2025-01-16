@@ -141,6 +141,21 @@ EDSData['BMJ (JB)'] = {
             ]
         }
     },
+    103: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "P103",
+            destination: "",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "P103",
+                    top: "PPR STULANG",
+                    topFont: "Tongda-16:7",
+                },
+            ]
+        }
+    },
     201: {
         front: {
             renderType: "standardService",
