@@ -8520,6 +8520,30 @@ EDSData.TTSG = {
             rear: {
                 renderType: "full"
             }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "BLANK",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [        
+                {
+                    renderType: "destScroll",
+                    top: "",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "",
+                font: "LECIP-TowerRear17:10",
+                spacing: 2
+            }
         }
     },
     4444: {
