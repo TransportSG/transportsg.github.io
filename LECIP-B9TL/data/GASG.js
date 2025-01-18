@@ -30,7 +30,66 @@ EDSFormats.GASG = {
             },
             scrolls: "$scrolls",
             rotate: true,
-            rotateSpeed: 3000,
+            rotateSpeed: 2500,
+
+            font: "$scrollFont",
+            spacing: 1
+        },
+
+        text: "$destination"
+    },
+    logo: {
+        logo: {
+            align: "centre-x,bottom",
+            image: "$image"
+        },
+
+        text: "$text"
+    },
+    message: {
+        display: {
+            align: "centre-x,centre-y",
+            text: "$text",
+            font: "$font",
+            spacing: "$spacing",
+        },
+
+        text: "$text"
+    },
+    standardService2: {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 1
+            },
+            text: "$serviceNumber",
+            font: {
+                $$cond: {
+                    "$serviceFont === null": "LECIP-19:GoAheadB9Front",
+                    "else": "$serviceFont"
+                }
+            },
+            spacing: 3
+        },
+        destination: {
+            align: "centre-x,top",
+            margin: {
+                right: 'width(serviceNumber)',
+                top: "1",
+            },
+            text: "$destination",
+            font: "$destinationFont",
+            spacing: 1
+        },
+        scroll: {
+            align: "centre-x,bottom",
+            margin: {
+                right: 'width(serviceNumber)',
+                bottom: "1",
+            },
+            scrolls: "$scrolls",
+            rotate: true,
+            rotateSpeed: 2500,
 
             font: "$scrollFont",
             spacing: 1
@@ -3212,7 +3271,7 @@ EDSData.GASG = {
                 scrollFont: "Hanover-7:5"
             },
             rear: {
-                renderType: "standardService",
+                renderType: "standardService2",
                 serviceNumber: "",
                 destination: "TO",
                 destinationFont: "LECIP-7:5",
@@ -3250,7 +3309,7 @@ EDSData.GASG = {
                 scrollFont: "Hanover-7:5"
             },
             rear: {
-                renderType: "standardService",
+                renderType: "standardService2",
                 serviceNumber: "",
                 destination: "TO",
                 destinationFont: "LECIP-6:3",
@@ -3297,7 +3356,7 @@ EDSData.GASG = {
                 scrollFont: "Hanover-7:5"
             },
             rear: {
-                renderType: "standardService",
+                renderType: "standardService2",
                 serviceNumber: "",
                 destination: "TO",
                 destinationFont: "LECIP-7:5",
@@ -3342,7 +3401,7 @@ EDSData.GASG = {
                 scrollFont: "Hanover-7:5"
             },
             rear: {
-                renderType: "standardService",
+                renderType: "standardService2",
                 serviceNumber: "",
                 destination: "TO",
                 destinationFont: "LECIP-6:3",

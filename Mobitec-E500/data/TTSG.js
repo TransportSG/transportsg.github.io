@@ -30,7 +30,7 @@ EDSFormats.TTSG = {
             },
             scrolls: "$scrolls",
             rotate: true,
-            rotateSpeed: 3000,
+            rotateSpeed: 2600,
 
             font: "Mobitec-Tower6:4",
             spacing: 1
@@ -65,7 +65,7 @@ EDSFormats.TTSG = {
             },
             scrolls: "$scrolls",
             rotate: true,
-            rotateSpeed: 3000,
+            rotateSpeed: 2600,
 
             font: "Mobitec-6:5",
             spacing: 1
@@ -2350,6 +2350,15 @@ EDSData.TTSG = {
             destination: "Off Service",
             destFont: "Mobitec-7:7",
             scrolls: [
+                {
+                    renderType: "destScroll2",
+                    serviceNumber: "4",
+                    top: "蛇|年|顺|利",
+                    topFont: "Mobitec-TowerCNYGreetings",
+                    bottom: "0 1 2",
+                    bottomFont: "Mobitec-TowerCNYGreetings",
+                    image: "cny"
+                },
                 {
                     renderType: "message",
                     text: "Off Service",
@@ -5406,21 +5415,21 @@ EDSData.TTSG = {
             destFont: "Mobitec-7:4",
             scrolls: [
                 {
+                    renderType: "destScroll2",
+                    serviceNumber: "4",
+                    top: "蛇|年|顺|利",
+                    topFont: "Mobitec-TowerCNYGreetings",
+                    bottom: "0 1 2",
+                    bottomFont: "Mobitec-TowerCNYGreetings",
+                    image: "cny"
+                },
+                {
                     renderType: "TowerSpecialEDS",
                     serviceNumber: "",
                     top: "~+",
                     topFont: "Mobitec-Tower16:10",
     
                     text: "Tower Transit Logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
                 },
             ]
         }
@@ -8747,12 +8756,12 @@ EDSExtras.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "",
-            destination: "YEAR OF SNAKE",
+            destination: "Year Of Snake",
+            destFont: "Mobitec-7:4",
             scrolls: [
-
                 {
-                    renderType: "destScroll",
-                    serviceNumber: "",
+                    renderType: "destScroll2",
+                    serviceNumber: "4",
                     top: "蛇|年|顺|利",
                     topFont: "Mobitec-TowerCNYGreetings",
                     bottom: "0 1 2",

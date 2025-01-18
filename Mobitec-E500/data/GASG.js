@@ -25,7 +25,7 @@ EDSFormats.GASG = {
             },
             scrolls: "$scrolls",
             rotate: true,
-            rotateSpeed: 3000,
+            rotateSpeed: 2600,
 
             font: "$scrollFont",
             spacing: 1
