@@ -2533,7 +2533,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "167",
-                    top: "蛇|年|顺|利",
+                    top: "蛇|年|吉|祥",
                     topFont: "Mobitec-TowerCNYGreetings",
                     bottom: "0 1 2",
                     bottomFont: "Mobitec-TowerCNYGreetings",
@@ -2577,7 +2577,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "167",
-                    top: "蛇|年|顺|利",
+                    top: "蛇|年|吉|祥",
                     topFont: "Mobitec-TowerCNYGreetings",
                     bottom: "0 1 2",
                     bottomFont: "Mobitec-TowerCNYGreetings",
@@ -2812,7 +2812,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "169",
-                    top: "蛇|年|顺|利",
+                    top: "蛇|年|吉|祥",
                     topFont: "Mobitec-TowerCNYGreetings",
                     bottom: "0 1 2",
                     bottomFont: "Mobitec-TowerCNYGreetings",
@@ -2859,7 +2859,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "169",
-                    top: "蛇|年|顺|利",
+                    top: "蛇|年|吉|祥",
                     topFont: "Mobitec-TowerCNYGreetings",
                     bottom: "0 1 2",
                     bottomFont: "Mobitec-TowerCNYGreetings",
@@ -2938,7 +2938,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "171",
-                    top: "蛇|年|顺|利",
+                    top: "蛇|年|吉|祥",
                     topFont: "Mobitec-TowerCNYGreetings",
                     bottom: "0 1 2",
                     bottomFont: "Mobitec-TowerCNYGreetings",
@@ -2975,7 +2975,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "171",
-                    top: "蛇|年|顺|利",
+                    top: "蛇|年|吉|祥",
                     topFont: "Mobitec-TowerCNYGreetings",
                     bottom: "0 1 2",
                     bottomFont: "Mobitec-TowerCNYGreetings",
@@ -5431,6 +5431,23 @@ EDSData.TTSG = {
     
                     text: "Tower Transit Logo"
                 },
+                {
+                    renderType: "destScroll2",
+                    serviceNumber: "4",
+                    top: "蛇|年|吉|祥",
+                    topFont: "Mobitec-TowerCNYGreetings",
+                    bottom: "0 1 2",
+                    bottomFont: "Mobitec-TowerCNYGreetings",
+                    image: "cny"
+                },
+                {
+                    renderType: "TowerSpecialEDS",
+                    serviceNumber: "",
+                    top: "~+",
+                    topFont: "Mobitec-Tower16:10",
+    
+                    text: "Tower Transit Logo"
+                },
             ]
         }
     },
@@ -5666,7 +5683,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "801",
-                    top: "蛇|年|顺|利",
+                    top: "蛇|年|吉|祥",
                     topFont: "Mobitec-TowerCNYGreetings",
                     bottom: "0 1 2",
                     bottomFont: "Mobitec-TowerCNYGreetings",
@@ -5703,7 +5720,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "825",
-                    top: "蛇|年|顺|利",
+                    top: "蛇|年|吉|祥",
                     topFont: "Mobitec-TowerCNYGreetings",
                     bottom: "0 1 2",
                     bottomFont: "Mobitec-TowerCNYGreetings",
@@ -5741,7 +5758,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "853",
-                    top: "蛇|年|顺|利",
+                    top: "蛇|年|吉|祥",
                     topFont: "Mobitec-TowerCNYGreetings",
                     bottom: "0 1 2",
                     bottomFont: "Mobitec-TowerCNYGreetings",
@@ -5780,7 +5797,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "853",
-                    top: "蛇|年|顺|利",
+                    top: "蛇|年|吉|祥",
                     topFont: "Mobitec-TowerCNYGreetings",
                     bottom: "0 1 2",
                     bottomFont: "Mobitec-TowerCNYGreetings",
@@ -5819,7 +5836,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "853M",
-                    top: "蛇|年|顺|利",
+                    top: "蛇|年|吉|祥",
                     topFont: "Mobitec-TowerCNYGreetings",
                     bottom: "0 1 2",
                     bottomFont: "Mobitec-TowerCNYGreetings",
@@ -5858,7 +5875,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "853M",
-                    top: "蛇|年|顺|利",
+                    top: "蛇|年|吉|祥",
                     topFont: "Mobitec-TowerCNYGreetings",
                     bottom: "0 1 2",
                     bottomFont: "Mobitec-TowerCNYGreetings",
@@ -5896,7 +5913,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "854",
-                    top: "蛇|年|顺|利",
+                    top: "蛇|年|吉|祥",
                     topFont: "Mobitec-TowerCNYGreetings",
                     bottom: "0 1 2",
                     bottomFont: "Mobitec-TowerCNYGreetings",
@@ -5934,7 +5951,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "854",
-                    top: "蛇|年|顺|利",
+                    top: "蛇|年|吉|祥",
                     topFont: "Mobitec-TowerCNYGreetings",
                     bottom: "0 1 2",
                     bottomFont: "Mobitec-TowerCNYGreetings",
@@ -6017,7 +6034,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "855",
-                    top: "蛇|年|顺|利",
+                    top: "蛇|年|吉|祥",
                     topFont: "Mobitec-TowerCNYGreetings",
                     bottom: "0 1 2",
                     bottomFont: "Mobitec-TowerCNYGreetings",
@@ -6055,7 +6072,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "855",
-                    top: "蛇|年|顺|利",
+                    top: "蛇|年|吉|祥",
                     topFont: "Mobitec-TowerCNYGreetings",
                     bottom: "0 1 2",
                     bottomFont: "Mobitec-TowerCNYGreetings",
@@ -6093,7 +6110,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "856",
-                    top: "蛇|年|顺|利",
+                    top: "蛇|年|吉|祥",
                     topFont: "Mobitec-TowerCNYGreetings",
                     bottom: "0 1 2",
                     bottomFont: "Mobitec-TowerCNYGreetings",
@@ -6138,7 +6155,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "856",
-                    top: "蛇|年|顺|利",
+                    top: "蛇|年|吉|祥",
                     topFont: "Mobitec-TowerCNYGreetings",
                     bottom: "0 1 2",
                     bottomFont: "Mobitec-TowerCNYGreetings",
@@ -6236,7 +6253,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "857",
-                    top: "蛇|年|顺|利",
+                    top: "蛇|年|吉|祥",
                     topFont: "Mobitec-TowerCNYGreetings",
                     bottom: "0 1 2",
                     bottomFont: "Mobitec-TowerCNYGreetings",
@@ -6275,7 +6292,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "857",
-                    top: "蛇|年|顺|利",
+                    top: "蛇|年|吉|祥",
                     topFont: "Mobitec-TowerCNYGreetings",
                     bottom: "0 1 2",
                     bottomFont: "Mobitec-TowerCNYGreetings",
@@ -6418,7 +6435,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "858",
-                    top: "蛇|年|顺|利",
+                    top: "蛇|年|吉|祥",
                     topFont: "Mobitec-TowerCNYGreetings",
                     bottom: "0 1 2",
                     bottomFont: "Mobitec-TowerCNYGreetings",
@@ -6457,7 +6474,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "858",
-                    top: "蛇|年|顺|利",
+                    top: "蛇|年|吉|祥",
                     topFont: "Mobitec-TowerCNYGreetings",
                     bottom: "0 1 2",
                     bottomFont: "Mobitec-TowerCNYGreetings",
@@ -6582,7 +6599,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "859",
-                    top: "蛇|年|顺|利",
+                    top: "蛇|年|吉|祥",
                     topFont: "Mobitec-TowerCNYGreetings",
                     bottom: "0 1 2",
                     bottomFont: "Mobitec-TowerCNYGreetings",
@@ -6620,7 +6637,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "859",
-                    top: "蛇|年|顺|利",
+                    top: "蛇|年|吉|祥",
                     topFont: "Mobitec-TowerCNYGreetings",
                     bottom: "0 1 2",
                     bottomFont: "Mobitec-TowerCNYGreetings",
@@ -6749,7 +6766,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "861",
-                    top: "蛇|年|顺|利",
+                    top: "蛇|年|吉|祥",
                     topFont: "Mobitec-TowerCNYGreetings",
                     bottom: "0 1 2",
                     bottomFont: "Mobitec-TowerCNYGreetings",
@@ -6787,7 +6804,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "861",
-                    top: "蛇|年|顺|利",
+                    top: "蛇|年|吉|祥",
                     topFont: "Mobitec-TowerCNYGreetings",
                     bottom: "0 1 2",
                     bottomFont: "Mobitec-TowerCNYGreetings",
@@ -7029,7 +7046,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "882",
-                    top: "蛇|年|顺|利",
+                    top: "蛇|年|吉|祥",
                     topFont: "Mobitec-TowerCNYGreetings",
                     bottom: "0 1 2",
                     bottomFont: "Mobitec-TowerCNYGreetings",
@@ -7122,7 +7139,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "883",
-                    top: "蛇|年|顺|利",
+                    top: "蛇|年|吉|祥",
                     topFont: "Mobitec-TowerCNYGreetings",
                     bottom: "0 1 2",
                     bottomFont: "Mobitec-TowerCNYGreetings",
@@ -7160,7 +7177,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "883",
-                    top: "蛇|年|顺|利",
+                    top: "蛇|年|吉|祥",
                     topFont: "Mobitec-TowerCNYGreetings",
                     bottom: "0 1 2",
                     bottomFont: "Mobitec-TowerCNYGreetings",
@@ -7248,7 +7265,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "883M",
-                    top: "蛇|年|顺|利",
+                    top: "蛇|年|吉|祥",
                     topFont: "Mobitec-TowerCNYGreetings",
                     bottom: "0 1 2",
                     bottomFont: "Mobitec-TowerCNYGreetings",
@@ -7285,7 +7302,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "883M",
-                    top: "蛇|年|顺|利",
+                    top: "蛇|年|吉|祥",
                     topFont: "Mobitec-TowerCNYGreetings",
                     bottom: "0 1 2",
                     bottomFont: "Mobitec-TowerCNYGreetings",
@@ -7469,7 +7486,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "963",
-                    top: "蛇|年|顺|利",
+                    top: "蛇|年|吉|祥",
                     topFont: "Mobitec-TowerCNYGreetings",
                     bottom: "0 1 2",
                     bottomFont: "Mobitec-TowerCNYGreetings",
@@ -7507,7 +7524,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "963",
-                    top: "蛇|年|顺|利",
+                    top: "蛇|年|吉|祥",
                     topFont: "Mobitec-TowerCNYGreetings",
                     bottom: "0 1 2",
                     bottomFont: "Mobitec-TowerCNYGreetings",
@@ -7732,7 +7749,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "965",
-                    top: "蛇|年|顺|利",
+                    top: "蛇|年|吉|祥",
                     topFont: "Mobitec-TowerCNYGreetings",
                     bottom: "0 1 2",
                     bottomFont: "Mobitec-TowerCNYGreetings",
@@ -7770,7 +7787,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "965",
-                    top: "蛇|年|顺|利",
+                    top: "蛇|年|吉|祥",
                     topFont: "Mobitec-TowerCNYGreetings",
                     bottom: "0 1 2",
                     bottomFont: "Mobitec-TowerCNYGreetings",
@@ -7884,7 +7901,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "966",
-                    top: "蛇|年|顺|利",
+                    top: "蛇|年|吉|祥",
                     topFont: "Mobitec-TowerCNYGreetings",
                     bottom: "0 1 2",
                     bottomFont: "Mobitec-TowerCNYGreetings",
@@ -7922,7 +7939,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "966",
-                    top: "蛇|年|顺|利",
+                    top: "蛇|年|吉|祥",
                     topFont: "Mobitec-TowerCNYGreetings",
                     bottom: "0 1 2",
                     bottomFont: "Mobitec-TowerCNYGreetings",
@@ -8003,7 +8020,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "969",
-                    top: "蛇|年|顺|利",
+                    top: "蛇|年|吉|祥",
                     topFont: "Mobitec-TowerCNYGreetings",
                     bottom: "0 1 2",
                     bottomFont: "Mobitec-TowerCNYGreetings",
@@ -8041,7 +8058,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "969",
-                    top: "蛇|年|顺|利",
+                    top: "蛇|年|吉|祥",
                     topFont: "Mobitec-TowerCNYGreetings",
                     bottom: "0 1 2",
                     bottomFont: "Mobitec-TowerCNYGreetings",
@@ -8305,7 +8322,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "980",
-                    top: "蛇|年|顺|利",
+                    top: "蛇|年|吉|祥",
                     topFont: "Mobitec-TowerCNYGreetings",
                     bottom: "0 1 2",
                     bottomFont: "Mobitec-TowerCNYGreetings",
@@ -8344,7 +8361,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "980",
-                    top: "蛇|年|顺|利",
+                    top: "蛇|年|吉|祥",
                     topFont: "Mobitec-TowerCNYGreetings",
                     bottom: "0 1 2",
                     bottomFont: "Mobitec-TowerCNYGreetings",
@@ -8381,7 +8398,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "981",
-                    top: "蛇|年|顺|利",
+                    top: "蛇|年|吉|祥",
                     topFont: "Mobitec-TowerCNYGreetings",
                     bottom: "0 1 2",
                     bottomFont: "Mobitec-TowerCNYGreetings",
@@ -8418,7 +8435,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "981",
-                    top: "蛇|年|顺|利",
+                    top: "蛇|年|吉|祥",
                     topFont: "Mobitec-TowerCNYGreetings",
                     bottom: "0 1 2",
                     bottomFont: "Mobitec-TowerCNYGreetings",
@@ -8697,67 +8714,96 @@ EDSData.TTSG = {
 EDSExtras.TTSG = {
     1: {
         front: {
-            renderType: "message",
-            font: "Mobitec-13:8",
-            text: "Last Bus",
-            spacing: 2
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: "Last Bus",
+            destFont: "Mobitec-7:4",
+            scrolls: [
+                {
+                    renderType: "message",
+                    font: "Mobitec-13:8",
+                    text: "Last Bus",
+                    spacing: 2
+                },
+            ]
         }
     },
     2: {
         front: {
-            renderType: "message",
-            font: "Mobitec-7:5:3",
-            text: "Temporary Route Diversion",
-            spacing: 1
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: "Temporary Route Diversion",
+            destFont: "Mobitec-7:4",
+            scrolls: [
+                {
+                    renderType: "message",
+                    font: "Mobitec-7:5:3",
+                    text: "Temporary Route Diversion",
+                    spacing: 1
+                },
+            ]
         }
     },
     3: {
         front: {
-            renderType: "message",
-            font: "Mobitec-13:8",
-            text: "Bus Full",
-            spacing: 2
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: "Bus Full",
+            destFont: "Mobitec-7:4",
+            scrolls: [
+                {
+                    renderType: "message",
+                    font: "Mobitec-13:8",
+                    text: "Bus Full",
+                    spacing: 2
+                },
+            ]
+        }
+    },
+    10: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: "Merry Christmas (Calendar)",
+            destFont: "Mobitec-7:4",
+            scrolls: [
+                {
+                    renderType: "destScroll2",
+                    serviceNumber: "0",
+                    top: "Merry Christmas &",
+                    topFont: "Hanover-7:3",
+                    bottom: "Happy New Year",
+                    bottomFont: "Hanover-7:3",
+                    image: "calendar-new"
+                },
+            ]
         }
     },
     11: {
         front: {
-            renderType: "destScroll2",
+            renderType: "standardService",
             serviceNumber: "",
-            top: "Merry Christmas &",
-            topFont: "Hanover-7:3",
-            bottom: "Happy New Year",
-            bottomFont: "Hanover-7:3",
-            image: "calendar-new"
+            destination: "Merry Christmas (Christmas Tree)",
+            destFont: "Mobitec-7:4",
+            scrolls: [
+                {
+                    renderType: "destScroll2",
+                    serviceNumber: "2",
+                    top: "Merry Christmas &",
+                    topFont: "Hanover-7:3",
+                    bottom: "Happy New Year",
+                    bottomFont: "Hanover-7:3",
+                    image: "christmas-tree"
+                },
+            ]
         }
     },
-    12: {
-        front: {
-            renderType: "destScroll2",
-            serviceNumber: "",
-            top: "Merry Christmas &",
-            topFont: "Hanover-7:3",
-            bottom: "Happy New Year",
-            bottomFont: "Hanover-7:3",
-            image: "christmas-tree"
-        },
-    },
-    51: {
-        front: {
-            renderType: "destScroll2",
-            serviceNumber: "",
-            top: "Happy Kindness Day!",
-            topFont: "Hanover-7:3",
-            bottom: "May 2025",
-            bottomFont: "Hanover-7:3",
-            image: "heart"
-        }
-    },
-    2025: {
+    20: {
         front: {
             renderType: "standardService",
             serviceNumber: "",
-            destination: "Year Of Snake",
-            destFont: "Mobitec-7:4",
+            destination: "蛇年顺利 (Smooth Year of The Snake)",
+            destFont: "MobitecChinese-7:4",
             scrolls: [
                 {
                     renderType: "destScroll2",
@@ -8767,6 +8813,44 @@ EDSExtras.TTSG = {
                     bottom: "0 1 2",
                     bottomFont: "Mobitec-TowerCNYGreetings",
                     image: "cny"
+                },
+            ]
+        }
+    },
+    21: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: "蛇年吉祥 (Auspicious Year of The Snake)",
+            destFont: "MobitecChinese-7:4",
+            scrolls: [
+                {
+                    renderType: "destScroll2",
+                    serviceNumber: "4",
+                    top: "蛇|年|吉|祥",
+                    topFont: "Mobitec-TowerCNYGreetings",
+                    bottom: "0 1 2",
+                    bottomFont: "Mobitec-TowerCNYGreetings",
+                    image: "cny"
+                },
+            ]
+        }
+    },
+    50: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: "Happy Kindness Day",
+            destFont: "Mobitec-7:4",
+            scrolls: [
+                {
+                    renderType: "destScroll2",
+                    serviceNumber: "",
+                    top: "Happy Kindness Day!",
+                    topFont: "Hanover-7:3",
+                    bottom: "May 2025",
+                    bottomFont: "Hanover-7:3",
+                    image: "heart"
                 },
             ]
         }
