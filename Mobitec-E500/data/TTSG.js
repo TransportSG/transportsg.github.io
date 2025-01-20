@@ -474,6 +474,15 @@ EDSData.TTSG = {
                     bottomFont: "Mobitec-TowerCNYGreetings",
                     image: "cny"
                 },
+                {
+                    renderType: "destScroll2",
+                    serviceNumber: "4",
+                    top: "蛇|年|吉|祥",
+                    topFont: "Mobitec-TowerCNYGreetings",
+                    bottom: "0 1 2",
+                    bottomFont: "Mobitec-TowerCNYGreetings",
+                    image: "cny"
+                },
             ]
         }
     },
