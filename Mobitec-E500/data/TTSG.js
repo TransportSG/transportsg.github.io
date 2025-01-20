@@ -2372,7 +2372,30 @@ EDSData.TTSG = {
                     topFont: "Mobitec-Tower16:10",
     
                     text: "Tower Transit Logo"
-                }
+                },
+                {
+                    renderType: "destScroll2",
+                    serviceNumber: "4",
+                    top: "蛇|年|吉|祥",
+                    topFont: "Mobitec-TowerCNYGreetings",
+                    bottom: "0 1 2",
+                    bottomFont: "Mobitec-TowerCNYGreetings",
+                    image: "cny"
+                },
+                {
+                    renderType: "message",
+                    text: "Off Service",
+                    font: "Hanover-Tower16:10",
+                    spacing: 2
+                },
+                {
+                    renderType: "TowerSpecialEDS",
+                    serviceNumber: "",
+                    top: "~+",
+                    topFont: "Mobitec-Tower16:10",
+    
+                    text: "Tower Transit Logo"
+                },
             ]
         }
     },
