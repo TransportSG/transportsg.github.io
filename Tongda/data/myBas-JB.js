@@ -36,7 +36,7 @@ EDSFormats['myBas JB'] = {
             spacing: 1
         },
 
-        text: "$destination+' '+$serviceNumber"
+        text: "$serviceNumber+' '+$destination"
         
     },
     destScroll: {
@@ -149,7 +149,7 @@ EDSData['myBas JB'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "T10",
-            destination: "T10 KOTA TINGGI / JB SENTRAL",
+            destination: "KOTA TINGGI / JB SENTRAL",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -170,7 +170,7 @@ EDSData['myBas JB'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "T11",
-            destination: "T11 SERI AUSTIN / JB SENTRAL",
+            destination: "SERI AUSTIN / JB SENTRAL",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -191,7 +191,7 @@ EDSData['myBas JB'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "T12",
-            destination: "T12 AEON TEBRAU / TERMINAL TIRAM",
+            destination: "AEON TEBRAU / TERMINAL TIRAM",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -212,7 +212,7 @@ EDSData['myBas JB'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "T13",
-            destination: "T13 JB SENTRAL / LARKIN SENTRAL",
+            destination: "JB SENTRAL / LARKIN SENTRAL",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -233,7 +233,7 @@ EDSData['myBas JB'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "T14",
-            destination: "T14 TOPPEN & IKEA / JB SENTRAL",
+            destination: "TOPPEN & IKEA / JB SENTRAL",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -254,7 +254,7 @@ EDSData['myBas JB'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "T20",
-            destination: "T20 PASIR GUDANG / JB SENTRAL",
+            destination: "PASIR GUDANG / JB SENTRAL",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -275,7 +275,7 @@ EDSData['myBas JB'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "T21",
-            destination: "T21 PERMAS JAYA / JB SENTRAL",
+            destination: "PERMAS JAYA / JB SENTRAL",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -296,7 +296,7 @@ EDSData['myBas JB'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "T22",
-            destination: "T22 LOTUS KOTA MASAI / LARKIN SENTRAL",
+            destination: "LOTUS KOTA MASAI / LARKIN SENTRAL",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -317,7 +317,7 @@ EDSData['myBas JB'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "T30",
-            destination: "T30 KULAI / JB SENTRAL",
+            destination: "KULAI / JB SENTRAL",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -338,7 +338,7 @@ EDSData['myBas JB'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "T31",
-            destination: "T31 PULAI MUTIARA / JB SENTRAL",
+            destination: "PULAI MUTIARA / JB SENTRAL",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -359,7 +359,7 @@ EDSData['myBas JB'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "T32",
-            destination: "T32 FLAT SELESA JAYA / JB SENTRAL",
+            destination: "FLAT SELESA JAYA / JB SENTRAL",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -380,7 +380,7 @@ EDSData['myBas JB'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "T33",
-            destination: "T33 TAN SRI YAACOB / JB SENTRAL",
+            destination: "TAN SRI YAACOB / JB SENTRAL",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -401,7 +401,7 @@ EDSData['myBas JB'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "T40",
-            destination: "T40 GP SENTRAL / LARKIN SENTRAL",
+            destination: "GP SENTRAL / LARKIN SENTRAL",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -466,7 +466,7 @@ EDSData['myBas JB'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "T43",
-            destination: "T43 AEON BUKIT INDAH / PUTERI HARBOUR",
+            destination: "AEON BUKIT INDAH / PUTERI HARBOUR",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -487,7 +487,7 @@ EDSData['myBas JB'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "T44",
-            destination: "T44 PUTERI HARBOUR / LARKIN SENTRAL",
+            destination: "PUTERI HARBOUR / LARKIN SENTRAL",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -508,7 +508,7 @@ EDSData['myBas JB'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "T50",
-            destination: "T50 PONTIAN / LARKIN SENTRAL",
+            destination: "PONTIAN / LARKIN SENTRAL",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -550,7 +550,7 @@ EDSData['myBas JB'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "F200",
-            destination: "F200 PTR SERI ALAM / TERMINAL MASAI",
+            destination: "PTR SERI ALAM / TERMINAL MASAI",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -572,7 +572,7 @@ EDSData['myBas JB'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "F201",
-            destination: "F201 TAMAN RINTING / TERMINAL MASAI",
+            destination: "TAMAN RINTING / TERMINAL MASAI",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -593,7 +593,7 @@ EDSData['myBas JB'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "F300",
-            destination: "F300 TAMAN PUTERI KULAI / TERMINAL KULAI",
+            destination: "TAMAN PUTERI KULAI / TERMINAL KULAI",
             scrolls: [
                 {
                     renderType: "destScroll",

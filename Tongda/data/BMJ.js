@@ -36,7 +36,7 @@ EDSFormats['BMJ (JB)'] = {
             spacing: 1
         },
 
-        text: "$destination+' '+$serviceNumber"
+        text: "$serviceNumber+' '+$destination"
         
     },
     destScroll: {
@@ -149,7 +149,7 @@ EDSData['BMJ (JB)'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "PE001",
-            destination: "PE001 BANDAR PENAWAR / DESARU COAST",
+            destination: "BANDAR PENAWAR / DESARU COAST",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -170,7 +170,7 @@ EDSData['BMJ (JB)'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "PE002",
-            destination: "PE002 TAMAN BAYU DAMAI / TERM. SUNGAI RENGGIT",
+            destination: "TAMAN BAYU DAMAI / TERM. SUNGAI RENGGIT",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -191,7 +191,7 @@ EDSData['BMJ (JB)'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "PE004",
-            destination: "PE004 BANDAR PENAWAR / KOTA TINGGI",
+            destination: "BANDAR PENAWAR / KOTA TINGGI",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -212,7 +212,7 @@ EDSData['BMJ (JB)'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "PE005",
-            destination: "PE005 BANDAR PENAWAR / TAMAN BAYU DAMAI",
+            destination: "BANDAR PENAWAR / TAMAN BAYU DAMAI",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -233,7 +233,7 @@ EDSData['BMJ (JB)'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "P101",
-            destination: "P101 JB SENTRAL / LARKIN SENTRAL",
+            destination: "JB SENTRAL / LARKIN SENTRAL",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -254,7 +254,7 @@ EDSData['BMJ (JB)'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "P102",
-            destination: "P102 PPR STULANG / JB SENTRAL",
+            destination: "PPR STULANG / JB SENTRAL",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -275,7 +275,7 @@ EDSData['BMJ (JB)'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "P103",
-            destination: "P103 PPR STULANG / LARKIN",
+            destination: "PPR STULANG / LARKIN",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -296,7 +296,7 @@ EDSData['BMJ (JB)'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "P201",
-            destination: "P201 TAMAN U / PULAI INDAH",
+            destination: "TAMAN U / PULAI INDAH",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -317,7 +317,7 @@ EDSData['BMJ (JB)'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "P202",
-            destination: "P202 TAMAN U / TUTA",
+            destination: "TERMINAL TAMAN U / TUTA",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -338,7 +338,7 @@ EDSData['BMJ (JB)'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "P203",
-            destination: "P203 SELESA JAYA / KIPMART SKUDAI",
+            destination: "SELESA JAYA / KIPMART SKUDAI",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -359,7 +359,7 @@ EDSData['BMJ (JB)'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "P211",
-            destination: "P211 TAMAN U / LARKIN SENTRAL",
+            destination: "TAMAN U / LARKIN SENTRAL",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -380,7 +380,7 @@ EDSData['BMJ (JB)'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "P212",
-            destination: "P212 SELESA JAYA / G NUSA BESTARI",
+            destination: "SELESA JAYA / G NUSA BESTARI",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -401,7 +401,7 @@ EDSData['BMJ (JB)'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "P213",
-            destination: "P213 TAMAN U / GP TERMINAL",
+            destination: "TAMAN U / GP TERMINAL",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -422,7 +422,7 @@ EDSData['BMJ (JB)'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "P214",
-            destination: "P214 TAMAN U / SETIA TROPIKA",
+            destination: "TAMAN U / SETIA TROPIKA",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -443,7 +443,7 @@ EDSData['BMJ (JB)'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "P401",
-            destination: "P401 TERMINAL KULAI / BANDAR PUTRA",
+            destination: "TERMINAL KULAI / BANDAR PUTRA",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -464,7 +464,7 @@ EDSData['BMJ (JB)'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "P411",
-            destination: "P411 TERMINAL KULAI / TERMINAL LARKIN",
+            destination: "TERMINAL KULAI / TERMINAL LARKIN",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -485,7 +485,7 @@ EDSData['BMJ (JB)'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "P412",
-            destination: "P412 TERMINAL KULAI / TAMAN SCIENTEX",
+            destination: "TERMINAL KULAI / TAMAN SCIENTEX",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -505,30 +505,14 @@ EDSData['BMJ (JB)'] = {
     998: {
         front: {
             renderType: "standardService",
-            serviceNumber: "HSA",
-            destination: "",
+            serviceNumber: "",
+            destination: "HSA - Larkin",
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "",
-                    top: "HSA",
-                    topFont: "Tongda-16:7",
-                },
-
-            ]
-        }
-    },
-    999: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "HSI",
-            destination: "",
-            scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "",
-                    top: "HOSP. SULTAN ISMAIL",
-                    topFont: "Tongda-16:7",
+                    top: "Shuttle HSA - LARKIN",
+                    topFont: "Mobitec-7:7",
                 },
 
             ]

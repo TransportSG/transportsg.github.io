@@ -36,14 +36,14 @@ EDSFormats['BAS.MY Meleka (Prev. SBST)'] = {
             spacing: 1
         },
 
-        text: "$destination+' '+$serviceNumber"
+        text: "$serviceNumber+' '+$destination"
         
     },
     destScroll: {
         serviceNumber: {
             align: "left",
             margin: {
-                left: 1
+                left: 0,
             },
             text: "$serviceNumber",
             font: "Tongda-16:7",
@@ -65,7 +65,7 @@ EDSFormats['BAS.MY Meleka (Prev. SBST)'] = {
             },
             spacing: 1,
             margin: {
-                left: 'width(serviceNumber) - width(image)'
+                left: 'width(serviceNumber)'
             }
         },
         bottom: {
@@ -140,15 +140,72 @@ EDSData['BAS.MY Meleka (Prev. SBST)'] = {
             ]
         }
     },
+    12: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "M12",
+            destination: "AIRPORT / MELAKA SENTRAL",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "M12",
+                    top: "AIRPORT",
+                    topFont: "Tongda-16:7",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "M12",
+                    top: "MELAKA SENTRAL",
+                    topFont: "Tongda-16:7",
+                },
+            ]
+        }
+    },
+    "12T": {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "T12",
+            destination: "AIRPORT / MELAKA SENTRAL",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "T12",
+                    top: "AIRPORT",
+                    topFont: "Tongda-16:7",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "T12",
+                    top: "MELAKA SENTRAL",
+                    topFont: "Tongda-16:7",
+                },
+            ]
+        }
+    },
     100: {
         front: {
             renderType: "standardService",
             serviceNumber: "M100",
-            destination: "Bandaraya",
+            destination: "BANDARAYA",
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "M100",
+                    top: "BANDARAYA",
+                    topFont: "Tongda-16:7",
+                }
+            ]
+        }
+    },
+    "F100": {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "F100",
+            destination: "BANDARAYA",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "F100",
                     top: "BANDARAYA",
                     topFont: "Tongda-16:7",
                 }
@@ -164,6 +221,21 @@ EDSData['BAS.MY Meleka (Prev. SBST)'] = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "M101",
+                    top: "PASAR MELAKA",
+                    topFont: "Tongda-16:7",
+                }
+            ]
+        }
+    },
+    "101F": {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "F101",
+            destination: "PASAR MELAKA",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "F101",
                     top: "PASAR MELAKA",
                     topFont: "Tongda-16:7",
                 }
