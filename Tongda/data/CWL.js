@@ -124,7 +124,7 @@ EDSData['CWL (JB Area)'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "CWL",
-            destination: "LARKIN SENTRAL",
+            destination: "CWL LARKIN SENTRAL",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -139,14 +139,20 @@ EDSData['CWL (JB Area)'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "CW1",
-            destination: "KRANJI MRT",
+            destination: "CW1 KRANJI MRT / CIQ 1ST LINK",
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "CW1",
                     top: "KRANJI MRT",
                     topFont: "Tongda-16:7",
-                }
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "CW1",
+                    top: "CIQ 1ST LINK",
+                    topFont: "Tongda-16:7",
+                },
             ]
         }
     },
@@ -154,14 +160,20 @@ EDSData['CWL (JB Area)'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "CW2",
-            destination: "QUEEN STREET / JB CIQ",
+            destination: "CW2 QUEEN STREET / CIQ 1ST LINK",
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "CW2",
                     top: "QUEEN STREET T.",
                     topFont: "Tongda-16:7",
-                }
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "CW2",
+                    top: "CIQ 1ST LINK",
+                    topFont: "Tongda-16:7",
+                },
             ]
         }
     },
@@ -169,7 +181,7 @@ EDSData['CWL (JB Area)'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "CW3",
-            destination: "JURONG EAST / PERLING MALL",
+            destination: "CW3 JURONG EAST / PERLING MALL",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -190,7 +202,7 @@ EDSData['CWL (JB Area)'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "CW3L",
-            destination: "JURONG EAST / PERLING MALL",
+            destination: "CW3L JURONG EAST / PERLING MALL",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -211,7 +223,7 @@ EDSData['CWL (JB Area)'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "CW5",
-            destination: "NEWTON / JB CIQ",
+            destination: "CW5 NEWTON / JB CIQ",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -228,11 +240,32 @@ EDSData['CWL (JB Area)'] = {
             ]
         }
     },
+    "52T": {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "52T",
+            destination: "52T TERMINAL PONTIAN / GP Terminal",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "52T",
+                    top: "TERM. PONTIAN",
+                    topFont: "Tongda-16:7",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "52T",
+                    top: "GP TERMINAL",
+                    topFont: "Tongda-16:7",
+                },
+            ]
+        }
+    },
     "7P": {
         front: {
             renderType: "standardService",
             serviceNumber: "CW7P",
-            destination: "CIQ 2ND LINK",
+            destination: "CW7P CIQ 2ND LINK",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -253,18 +286,18 @@ EDSData['CWL (JB Area)'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "AA1",
-            destination: "JB SENTRAL / SENAI AIRPORT",
+            destination: "AA1 SENAI AIRPORT / JB SENTRAL",
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "AA1",
-                    top: "JB SENTRAL",
+                    top: "SENAI AIRPORT",
                     topFont: "Tongda-16:7",
                 },
                 {
                     renderType: "destScroll",
                     serviceNumber: "AA1",
-                    top: "SENAI AIRPORT",
+                    top: "JB SENTRAL",
                     topFont: "Tongda-16:7",
                 },
             ]
@@ -274,7 +307,7 @@ EDSData['CWL (JB Area)'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "CG1",
-            destination: "COUNTRY GARDEN",
+            destination: "CG1 COUNTRY GARDEN",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -289,18 +322,18 @@ EDSData['CWL (JB Area)'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "CT1",
-            destination: "JB SENTRAL/ BAYU PUTERI",
+            destination: "CT1 BAYU PUTERI / JB SENTRAL",
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "CT1",
-                    top: "JB SENTRAL",
+                    top: "BAYU PUTERI",
                     topFont: "Tongda-16:7",
                 },
                 {
                     renderType: "destScroll",
                     serviceNumber: "CT1",
-                    top: "BAYU PUTERI",
+                    top: "JB SENTRAL",
                     topFont: "Tongda-16:7",
                 },
             ]
@@ -310,7 +343,7 @@ EDSData['CWL (JB Area)'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "DS1",
-            destination: "ANANTARA / O&O",
+            destination: "DS1 ANANTARA / O&O",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -325,14 +358,14 @@ EDSData['CWL (JB Area)'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "FC1",
-            destination: "FOREST CITY",
+            destination: "FC1 FOREST CITY",
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "FC1",
                     top: "FOREST CITY",
                     topFont: "Tongda-16:7",
-                }
+                },
             ]
         }
     },
@@ -340,20 +373,21 @@ EDSData['CWL (JB Area)'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "JPO1",
-            destination: "JB SENTRAL / JPO",
+            destination: "JPO1 JPO / JB SENTRAL",
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "JPO1",
-                    top: "JB SENTRAL",
-                    topFont: "Tongda-16:7",
-                },
                 {
                     renderType: "destScroll",
                     serviceNumber: "JPO1",
                     top: "JHR P. OUTLET",
                     topFont: "Tongda-16:7",
                 },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "JPO1",
+                    top: "JB SENTRAL",
+                    topFont: "Tongda-16:7",
+                },
+
             ]
         }
     },
@@ -361,7 +395,7 @@ EDSData['CWL (JB Area)'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "LOOP 1",
-            destination: "WOODLANDS CIQ",
+            destination: "LOOP 1 WOODLANDS CIQ / CIQ 1ST LINK",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -382,7 +416,7 @@ EDSData['CWL (JB Area)'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "DS2",
-            destination: "WESTIN / HARD ROCK HOTEL",
+            destination: "DS2 WESTIN / HARD ROCK HOTEL",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -397,18 +431,18 @@ EDSData['CWL (JB Area)'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "JPO2",
-            destination: "CIQ 1ST LINK / JPO",
+            destination: "JPO2 JPO / CIQ 1ST LINK",
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "JPO2",
-                    top: "CIQ 1ST LINK",
+                    top: "JHR P. OUTLET",
                     topFont: "Tongda-16:7",
                 },
                 {
                     renderType: "destScroll",
                     serviceNumber: "JPO2",
-                    top: "JHR P. OUTLET",
+                    top: "CIQ 1ST LINK",
                     topFont: "Tongda-16:7",
                 },
             ]
@@ -418,24 +452,24 @@ EDSData['CWL (JB Area)'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "JPO3",
-            destination: "CIQ 2ND LINK / JPO",
+            destination: "JPO3 JPO / CIQ 2ND LINK",
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "JPO3",
-                    top: "CIQ 2ND LINK",
-                    topFont: "Tongda-16:7",
-                },
                 {
                     renderType: "destScroll",
                     serviceNumber: "JPO3",
                     top: "JHR P. OUTLET",
                     topFont: "Tongda-16:7",
                 },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "JPO3",
+                    top: "CIQ 2ND LINK",
+                    topFont: "Tongda-16:7",
+                },
             ]
         }
     },
-    9998: {
+    9997: {
         front: {
             renderType: "standardService",
             serviceNumber: "",
@@ -460,17 +494,42 @@ EDSData['CWL (JB Area)'] = {
             ]
         }
     },
-    9999: {
+    9998: {
         front: {
             renderType: "standardService",
-            serviceNumber: "WIP",
-            destination: "Akan Datang",
+            serviceNumber: "",
+            destination: "Causeway Link",
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "WIP",
-                    top: "WORK IN PROGRESS",
-                    topFont: "Mobitec-7:7",
+                    serviceNumber: "",
+                    top: "CAUSEWAY LINK",
+                    topFont: "Tongda-16:7",
+                },
+            ]
+        }
+    },
+    9999: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: "Welcome",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "CWL - JB",
+                    top: "Tekan butang F1",
+                    topFont: "Hanover-7:4",
+                    bottom: "untuk memilih laluan",
+                    bottomFont: "Hanover-7:4",
+                }, 
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "CWL - JB",
+                    top: " Press the F1 button",
+                    topFont: "Hanover-7:4",
+                    bottom: "to select service",
+                    bottomFont: "Hanover-7:4",
                 }, 
             ]
         }

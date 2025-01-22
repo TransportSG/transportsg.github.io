@@ -169,7 +169,32 @@ EDSData['BAS.MY Meleka (Prev. SBST)'] = {
                 }
             ]
         }
-    }
+    },
+    9999: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: "Welcome",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "MELAKA",
+                    top: "Tekan butang F1",
+                    topFont: "Hanover-7:3",
+                    bottom: "untuk memilih laluan",
+                    bottomFont: "Hanover-7:3",
+                }, 
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "MELAKA",
+                    top: "Press the F1 button",
+                    topFont: "Hanover-7:3",
+                    bottom: "to select service",
+                    bottomFont: "Hanover-7:3",
+                }, 
+            ]
+        }
+    },
 }
 
 EDSExtras['BAS.MY Meleka (Prev. SBST)'] = {
