@@ -834,8 +834,9 @@ EDSData.GASG = {
                     topFont: "Mobitec-12:7"
                 },
                 "PUNGGOL RD",
-                "TAMPINES EXPRESSWAY",
-                "TAMPINES AVE 10 / 5 / 2",
+                "TPE",
+                "TAMPINES AVE 10 / 5",
+                "TAMPINES AVE 2 / 7",
                 "TAMPINES EAST MRT",
                 "TERMINAL 3 / 1 / 2 / 4"
             ],
@@ -858,8 +859,9 @@ EDSData.GASG = {
                     topFont: "Mobitec-13:8"
                 },
                 "TAMPINES EAST MRT",
-                "TAMPINES AVE 2 / 5 / 10",
-                "TAMPINES EXPRESSWAY",
+                "TAMPINES AVE 7 / 2",
+                "TAMPINES AVE 5 / 10",
+                "TPE",
                 "PUNGGOL RD"
             ],
             scrollFont: "Mobitec-7:4"
@@ -2305,9 +2307,9 @@ EDSData.GASG = {
     3862: {
         front: {
             renderType: "standardService",
-            serviceNumber: "382A",
+            serviceNumber: "386A",
             destination: {
-                text: "SUMANG LANE",
+                text: "EDGEDALE PLAINS",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -2315,7 +2317,7 @@ EDSData.GASG = {
                     renderType: "destScroll",
                     serviceNumber: "386A",
                     top: "TERMINATING AT",
-                    bottom: "EDGEDEALE PLAINS",
+                    bottom: "EDGEDALE PLAINS",
                 },
                 {
                     renderType: "destScroll",
