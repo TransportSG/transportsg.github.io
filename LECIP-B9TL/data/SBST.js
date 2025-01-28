@@ -13738,6 +13738,26 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "230",
+                destination: "> CALDECOTT STN",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    'LOR 6 TOA PAYOH',
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "230",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    "230T": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "230",
                 destination: "> TOA PAYOH INT",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
@@ -14217,7 +14237,7 @@ EDSData.SBST = {
                 renderType: "rearService",
                 serviceNumber: "248M",
                 font: "LECIP-20:6",
-                spacing: 2
+                spacing: 1
             }
         }
     },

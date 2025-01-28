@@ -7123,6 +7123,20 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "230",
             destination: {
+                text: "> CALDECOTT STN",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                'LOR 6 TOA PAYOH',
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    2309: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "230",
+            destination: {
                 text: "> TOA PAYOH INT",
                 font: "Mobitec-7:5:2"
             },
@@ -7261,25 +7275,6 @@ EDSData.SBST = {
     2431: {
         front: {
             renderType: "standardService",
-            serviceNumber: "243W",
-            destination: {
-                text: "> BOON LAY INT",
-                font: "Mobitec-7:5:2"
-            },
-            scrolls: [
-                "JURONG WEST ST 62",
-                "JURONG WEST AVE 4",
-                "JURONG WEST AVE 5",
-                "JURONG WEST ST 81",
-                "JURONG WEST ST 75",
-                "JURONG WEST ST 64"
-            ],
-            scrollFont: "Mobitec-6:5"
-        }
-    },
-    2432: {
-        front: {
-            renderType: "standardService",
             serviceNumber: "243G",
             destination: {
                 text: "> BOON LAY INT",
@@ -7292,6 +7287,25 @@ EDSData.SBST = {
                 "JURONG WEST AVE 5",
                 "JURONG WEST AVE 4",
                 "JURONG WEST ST 62"
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    2432: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "243W",
+            destination: {
+                text: "> BOON LAY INT",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                "JURONG WEST ST 62",
+                "JURONG WEST AVE 4",
+                "JURONG WEST AVE 5",
+                "JURONG WEST ST 81",
+                "JURONG WEST ST 75",
+                "JURONG WEST ST 64"
             ],
             scrollFont: "Mobitec-6:5"
         }
@@ -7817,15 +7831,14 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "298X",
             destination: {
-                text: "TAMP NTH - TAMP AVE 5",
+                text: "TAMP NTH - TAMP ST 86",
                 font: "Mobitec-7:4"
             },
             scrolls: [
                 "TAMPINES ST 62",
-                "TAMPINES NORTH DR 2",
-                "TAMPINES STN",
-                "TAMPINES AVE 10",
-                "TAMPINES ST 86"
+                "TAMPINES CTRL 1",
+                "TAMPINES ST 86",
+                "TAMPINES AVE 4",
             ],
             scrollFont: "Mobitec-6:5"
         }
