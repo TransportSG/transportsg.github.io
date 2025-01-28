@@ -399,18 +399,42 @@ EDSData.SBST = {
     },
     55: {
         front: {
-            renderType: "swt",
+            renderType: "standardService",
             serviceNumber: "5A",
-            destinationRoad: "UPP CHANGI RD",
-            destinationName: "EAST (UPP CHANGI STN/SUTD)"
+            destination: {
+                text: "UPPER CHANGI RD EAST",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+            {
+                renderType: "swt",
+                serviceNumber: "5A",
+                destinationRoad: "U. CHANGI RD",
+                destinationName: "EAST (UPP CHANGI STN/SUTD)",
+            },
+            ],
+            scrollFont: "Mobitec-6:5"
         }
     },
     56: {
         front: {
-            renderType: "swt",
+            renderType: "standardService",
             serviceNumber: "5B",
-            destinationRoad: "MARIAM WAY",
-            destinationName: "(BEF MARIAM WK)"
+            destination: {
+                text: "MARIAM WAY",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+            {
+                renderType: "destScroll",
+                serviceNumber: "5B",
+                top: "TERMINATES AT MARIAM WAY",
+                topFont: "Mobitec-7:4",
+                bottom: "(BEF MARIAM WALK)",
+                bottomFont: "Mobitec-7:4",
+            },
+            ],
+            scrollFont: "Mobitec-6:5"
         }
     },
     60: {
@@ -2069,7 +2093,7 @@ EDSData.SBST = {
     461: {
         front: {
             renderType: "standardService",
-            serviceNumber: "45",
+            serviceNumber: "46",
             destination: {
                 text: "> UPP EAST COAST TER",
                 font: "Mobitec-7:5:2"
@@ -2154,7 +2178,7 @@ EDSData.SBST = {
     481: {
         front: {
             renderType: "standardService",
-            serviceNumber: "45",
+            serviceNumber: "48",
             destination: {
                 text: "> BUONA VISTA TER",
                 font: "Mobitec-7:5:2"
