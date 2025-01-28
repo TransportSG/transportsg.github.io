@@ -616,6 +616,30 @@ EDSData.SMRT = {
             }
         }
     },
+    "50C": { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "CHINGAY 50 LOGO",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                        renderType: "logo",
+                        text: "CHINGAY 50",
+                        image: "50C"
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
     113: {
         1: {
             front: {
@@ -1042,6 +1066,72 @@ EDSData.SMRT = {
             }
         }
     },
+    1781: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "178",
+                destination: "BOON LAY via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll",
+                    top: "BOON LAY",
+                    topFont: "ArialBold-8:2",
+                    bottom: "INT / MRT",
+                    bottomFont: "ArialBold-8:2",
+                
+                    serviceNumber: "178"
+                    },
+                    "WOODLANDS CTR RD",
+                    "UPP BT TIMAH",
+                    "BUKIT BATOK",
+                    "JUR TOWN HALL",
+                    "CORPORATION RD",
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "178",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    1872: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "178",
+                destination: "WOODLANDS INT via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll",
+                    top: "WOODLANDS",
+                    topFont: "ArialBold-8:2",
+                    bottom: "INT / MRT",
+                    bottomFont: "ArialBold-8:2",
+                
+                    serviceNumber: "178"
+                    },
+                    "CORPORATION RD",
+                    "JUR TOWN HALL",
+                    "BUKIT BATOK",
+                    "UPP BT TIMAH",
+                    "WDL TRAIN CHKPT",
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "178",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
     1791: { // Done
         1: {
             front: {
@@ -1262,7 +1352,7 @@ EDSData.SMRT = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "182M",
-                destination: "TUAS STH AVE 4",
+                destination: "TUAS STH AVE 4 via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
                     {
@@ -1326,7 +1416,7 @@ EDSData.SMRT = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "182M",
-                destination: "JOO KOON",
+                destination: "JOO KOON INT via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
                     {
@@ -1552,6 +1642,39 @@ EDSData.SMRT = {
                     "BUKIT BATOK CTR",
                     "JURONG EAST",
                     "BOON LAY WAY",
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "187",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    1872: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "187",
+                destination: "WOODLANDS INT via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll",
+                    top: "WOODLANDS",
+                    topFont: "ArialBold-8:2",
+                    bottom: "INT / MRT",
+                    bottomFont: "ArialBold-8:2",
+                
+                    serviceNumber: "187"
+                    },
+                    "BOON LAY WAY",
+                    "JURONG EAST",
+                    "BUKIT BATOK CTR",
+                    "BT PANJANG RD",
+                    "WOODLANDS AVE 3",
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -2559,6 +2682,65 @@ EDSData.SMRT = {
             }
         }
     },
+    3021: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "302",
+                destination: "C. C. K INT via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll",
+                    top: "CHOA CHU KANG",
+                    topFont: "ArialBold-8:2",
+                    bottom: "INT / MRT / LRT",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "302"
+                    },
+                    "C. C. K WAY",
+                    "C. C. K ST 52",
+                    "C. C. K CRES",
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "302",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    3022: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "302A",
+                destination: "YEW TEE MRT",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll",
+                    top: "ENDS AT",
+                    topFont: "Arial-8",
+                    bottom: "OPP YEW TEE MRT",
+                    bottomFont: "Arial-8",
+        
+                    serviceNumber: "302A"
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "302A",
+                font: "Arial-10",
+                spacing: "1"
+            }
+        }
+    },
     3071: { // Done
         1: {
             front: {
@@ -3053,6 +3235,31 @@ EDSData.SMRT = {
                     "ORCHARD RD",
                     "BRAS BASAH RD",
                     "RAFFLES QUAY"
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "665",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    6652: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "665",
+                destination: "MARSILING DR via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    "ROBINSON RD",
+                    "STAMFORD RD",
+                    "PENANG RD",
+                    "WDL AVE 1",
+                    "WDL AVE 4, 5",
+                    "MARSILING LANE"
 
                 ],
                 scrollFont: "ArialBold-8:2"
@@ -4032,7 +4239,7 @@ EDSData.SMRT = {
             }
         }
     },
-    9001: { // Done
+    9011: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -4047,27 +4254,17 @@ EDSData.SMRT = {
                     bottom: "INT / MRT",
                     bottomFont: "ArialBold-8:2",
         
-                    serviceNumber: "900"
+                    serviceNumber: "901"
                     },
-                    "WDL AVE 7, 4",
-                    "WDL DRIVE 14",
-                    {
-                        renderType: "destScroll",
-                        top: "WOODLANDS INT via",
-                        topFont: "ArialBold-8:2",
-                        bottom: "CHAMPIONS WAY",
-                        bottomFont: "Arial-8",
-            
-                        serviceNumber: "900"
-                    },
-                    "WDL DRIVE 17",
-                    "WDL AVE 1, 4, 7"
+                    "WDL AVE 2, 1",
+                    "WDL DRIVE 16",
+                    "WDL AVE 6",
                 ],
                 scrollFont: "ArialBold-8:2"
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "900",
+                serviceNumber: "901",
                 font: "LECIP-SMRTRear14:9",
                 spacing: 2
             }
@@ -5137,6 +5334,38 @@ EDSData.SMRT = {
             }
         }
     },
+    9511: { // Bomb
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "951E",
+                destination: "SHENTON WAY via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                        renderType: "destScroll",
+                        top: "WOODLANDS",
+                        topFont: "ArialBold-8:2",
+                        bottom: "STREET 82",
+                        bottomFont: "ArialBold-8:2",
+                
+                        serviceNumber: "951E"
+                    },
+                    "WDL AVE 4, 5",
+                    "DHOBY GHAUT MRT",
+                    "BRAS BASAH RD",
+                    "COLLYER QUAY"
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "951E",
+                font: "Arial-10",
+                spacing: 2
+            }
+        }
+    },
     9512: { // Bomb
         1: {
             front: {
@@ -5203,7 +5432,7 @@ EDSData.SMRT = {
             }
         }
     },
-    9602: {
+    9602: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -5493,7 +5722,63 @@ EDSData.SMRT = {
             }
         }
     },
-    9641: { // Bomb
+    9623: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "962B",
+                destination: "SEMBAWANG DRIVE",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll",
+                    top: "ENDS AT",
+                    topFont: "Arial-8",
+                    bottom: "SEMBAWANG DR",
+                    bottomFont: "Arial-8",
+        
+                    serviceNumber: "962B"
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "962A",
+                font: "Arial-10",
+                spacing: "1"
+            }
+        }
+    },
+    9624: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "962C",
+                destination: "WOODLANDS AVE 6",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll",
+                    top: "ENDS AT BLK 680",
+                    topFont: "Arial-8",
+                    bottom: "WOODLANDS AVE 6",
+                    bottomFont: "Arial-8",
+        
+                    serviceNumber: "962C"
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "962C",
+                font: "Arial-10",
+                spacing: "1"
+            }
+        }
+    },
+    9641: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -5511,8 +5796,8 @@ EDSData.SMRT = {
                     serviceNumber: "964"
                     },
                     "WDL AVE 7, 6",
-                    "WDL AVE 9",
-                    "WDL LINK, LOOP"
+                    "WDL LOOP",
+                    "WDL LINK"
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -5555,6 +5840,312 @@ EDSData.SMRT = {
             }
         }
     },
+    9701: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "970",
+                destination: "SHENTON WAY via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll",
+                    top: "SHENTON",
+                    topFont: "ArialBold-8:2",
+                    bottom: "WAY",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "970"
+                    },
+                    "HILLVIEW RD, AVE",
+                    "JLN JURONG KECHIL",
+                    "DUNEARN RD",
+                    "C'WEALTH AVE",
+                    "EU TONG SEN ST",
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "970",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    9702: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "970",
+                destination: "BT PANJANG via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll",
+                    top: "BT PANJANG",
+                    topFont: "ArialBold-8:2",
+                    bottom: "INT / LRT",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "970"
+                    },
+                    "NEW BRIDGE RD",
+                    "CWEALTH AVE",
+                    "UPP BT TIMAH RD",
+                    "JLN JUR KECHIL",
+                    "HILLVIEW RD",
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "970",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    9708: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "970",
+                destination: "SHENTON WAY via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "SHENTON",
+                    topFont: "ArialBold-8:2",
+                    bottom: "WAY",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "970"
+                },        
+                {
+                    renderType: "destScroll",
+                    top: "SHENTON WAY via",
+                    topFont: "ArialBold-8:2",
+                    bottom: "HILLVIEW AVE",
+                    bottomFont: "Arial-8",
+        
+                    serviceNumber: "970"
+                },
+                {
+                    renderType: "destScroll",
+                    top: "SHENTON WAY via",
+                    topFont: "ArialBold-8:2",
+                    bottom: "JLN JURONG KECHIL",
+                    bottomFont: "Arial-8",
+        
+                    serviceNumber: "970"
+                },
+                {
+                    renderType: "destScroll",
+                    top: "SHENTON WAY via",
+                    topFont: "ArialBold-8:2",
+                    bottom: "DUNEARN RD",
+                    bottomFont: "Arial-8",
+        
+                    serviceNumber: "970"
+                },
+                {
+                    renderType: "destScroll",
+                    top: "SHENTON WAY via",
+                    topFont: "ArialBold-8:2",
+                    bottom: "SIXTH AVE",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "970"
+                }, 
+                {
+                    renderType: "destScroll",
+                    top: "SHENTON WAY via",
+                    topFont: "ArialBold-8:2",
+                    bottom: "EU TONG ST",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "970"
+                }, 
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "970",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    9709: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "970",
+                destination: "BUKIT PANJANG via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "BUKIT",
+                    topFont: "ArialBold-8:2",
+                    bottom: "PANJANG",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "970"
+                },   
+                {
+                    renderType: "destScroll",
+                    top: "BT PANJANG via",
+                    topFont: "ArialBold-8:2",
+                    bottom: "NEW BRIDGE RD",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "970"
+                },       
+                {
+                    renderType: "destScroll",
+                    top: "BT PANJANG via",
+                    topFont: "ArialBold-8:2",
+                    bottom: "ZION RD",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "970"
+                },     
+                {
+                    renderType: "destScroll",
+                    top: "SHENTON WAY via",
+                    topFont: "ArialBold-8:2",
+                    bottom: "COMMONWEALTH AVE",
+                    bottomFont: "Arial-8",
+        
+                    serviceNumber: "970"
+                },
+                {
+                    renderType: "destScroll",
+                    top: "BT PANJANG via",
+                    topFont: "ArialBold-8:2",
+                    bottom: "SIXTH AVE",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "970"
+                },     
+                {
+                    renderType: "destScroll",
+                    top: "BT PANJANG via",
+                    topFont: "ArialBold-8:2",
+                    bottom: "HILLVIEW RD",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "970"
+                },     
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "970",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    9721: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "972",
+                destination: "ORCHARD via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll",
+                    top: "ORCHARD",
+                    topFont: "ArialBold-8:2",
+                    bottom: "ROAD",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "972"
+                    },
+                    "BT PANJANG RD",
+                    "SENJA RD",
+                    "SEGAR / FAJAR RD",
+                    "WHITLEY RD",
+                    "STEVENS RD",
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "972",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    9722: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "972",
+                destination: "BT PANJANG via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll",
+                    top: "BT PANJANG",
+                    topFont: "ArialBold-8:2",
+                    bottom: "INT / LRT",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "972"
+                    },
+                    "PENANG RD",
+                    "SOMERSET RD",
+                    "ORCHARD RD",
+                    "PIE / BKE",
+                    "SENJA LINK / RD",
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "972",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    9723: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "972A",
+                destination: "DHOBY GHAUT MRT",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll",
+                    top: "ENDS AT",
+                    topFont: "Arial-8",
+                    bottom: "DHOBY GHAUT MRT",
+                    bottomFont: "Arial-8",
+        
+                    serviceNumber: "972A"
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "972A",
+                font: "Arial-10",
+                spacing: "1"
+            }
+        }
+    },
     9724: { // Done
         1: {
             front: {
@@ -5589,6 +6180,118 @@ EDSData.SMRT = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "972M",
+                font: "Arial-10",
+                spacing: 1
+            }
+        }
+    },
+    9725: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "972M",
+                serviceFont: "Calibri-15",
+                destination: "ORCHARD RD via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    "SENJA ROAD",
+                    "JELAPANG RD",
+                    "SEGAR / FAJAR RD",
+                {
+                    renderType: "destScroll2",
+                    top: "ORCHARD RD via",
+                    topFont: "ArialBold-8:2",
+                    bottom: "BT PANJANG RING RD",
+                    bottomFont: "Arial-8:2",
+                    
+                    serviceNumber: "972M"
+                },
+                {
+                    renderType: "destScroll2",
+                    top: "ORCHARD RD via",
+                    topFont: "ArialBold-8:2",
+                    bottom: "PENDING / PETIR RD",
+                    bottomFont: "Arial-8:2",
+                    
+                    serviceNumber: "972M"
+                },
+                    "BKE / PIE",
+                    "DUNEARN ROAD",
+                ],
+                scrollFont: "Arial-8"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "972M",
+                font: "Arial-10",
+                spacing: 1
+            }
+        }
+    },
+    9731: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "973",
+                destination: "BT PANJANG via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "BUKIT",
+                    topFont: "ArialBold-8:2",
+                    bottom: "PANJANG",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "973"
+                },
+                    "BUKIT PANJANG RD",
+                    "PENDING / PETIR",
+                    "DAIRY FARM RD",
+                    "HILLVIEW AVE",
+                {
+                    renderType: "ScrollWithSpecialCharacters",
+                    top: "BT PANJANG via",
+                    topFont: "ArialBold-8:2",
+                    bottom: "HUME AVE (LOOP)",
+                    bottomFont: "ArialBold-8:2",
+                
+                    serviceNumber: "973"
+                },    
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "973",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    9732: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "973A",
+                destination: "PENDING STN",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll",
+                    top: "ENDS AT",
+                    topFont: "Arial-8",
+                    bottom: "BEF PENDING STN",
+                    bottomFont: "Arial-8",
+        
+                    serviceNumber: "973A"
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "973A",
                 font: "Arial-10",
                 spacing: 1
             }
@@ -5684,7 +6387,7 @@ EDSData.SMRT = {
                 destination: "BT PANJANG via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "BUKIT",
                     topFont: "ArialBold-8:2",
@@ -5692,11 +6395,11 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
         
                     serviceNumber: "979"
-                    },
+                },
                     "WOODLANDS RD",
                     "C.C.K NTH 5 / ST 52",
                     "C.C.K DR / NTH 7",
-                    {
+                {
                     renderType: "ScrollWithSpecialCharacters",
                     top: "BT PANJANG via",
                     topFont: "ArialBold-8:2",
@@ -5704,7 +6407,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
             
                     serviceNumber: "979"
-                    },
+                },
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -6164,6 +6867,32 @@ EDSImages.SMRT = {
         [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
         [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
         [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+    ],
+    "50C": [
+        [0],
+    ],
+    "Chingay-50": [
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+
     ],
     express: [
         [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0],

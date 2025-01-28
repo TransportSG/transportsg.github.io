@@ -3421,6 +3421,41 @@ EDSData['SMRT (PostSLBP)'] = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "904",
+                    topFont: "Mobitec-13:7",
+                    top: "GONG XI FA CAI",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "904",
+                    top: "WOODLANDS",
+                    bottom: "INT / MRT",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
+                "WDL AVENUE 7, 6",
+                "WDL DRIVE 62, 73",
+                {
+                    text: "WDL CRESENT (LOOP)",
+                    font: "Mobitec-7:4"
+                },
+                "WDL DRIVE 73, 62",
+                "WDL AVENUE 6, 7"
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    9049: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "904",
+            destination: {
+                text: "WOODLANDS INT",
+                font: "Mobitec-7:5:3"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "904",
                     top: "WOODLANDS",
                     bottom: "INT / MRT",
                     topFont: "Mobitec-7:7",
