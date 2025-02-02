@@ -2942,7 +2942,7 @@ EDSData.SMRT = {
                 scrolls: [
                     {
                         renderType: 'message',
-                        text: 'EWL BRIDGING BUS',
+                        text: 'EWL  BRIDGING  BUS',
                         font: 'Calibri-11:2',
                         spacing: 1,
                         marginTop: 4
@@ -5080,7 +5080,7 @@ EDSData.SMRT = {
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "922",
+                serviceNumber: "920",
                 font: "LECIP-SMRTRear14:9",
                 spacing: 2
             }
@@ -5726,6 +5726,34 @@ EDSData.SMRT = {
         1: {
             front: {
                 renderType: "standardService",
+                serviceNumber: "962A",
+                destination: "SEMBAWANG DRIVE",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                    renderType: "destScroll",
+                    top: "ENDS AT",
+                    topFont: "Arial-8",
+                    bottom: "SEMBAWANG DR",
+                    bottomFont: "Arial-8",
+        
+                    serviceNumber: "962A"
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "962A",
+                font: "Arial-10",
+                spacing: "1"
+            }
+        }
+    },
+    9624: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
                 serviceNumber: "962B",
                 destination: "SEMBAWANG DRIVE",
                 destinationFont: "ArialBold-8:2",
@@ -5744,13 +5772,13 @@ EDSData.SMRT = {
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "962A",
+                serviceNumber: "962B",
                 font: "Arial-10",
                 spacing: "1"
             }
         }
     },
-    9624: { // Done
+    9625: { // Done
         1: {
             front: {
                 renderType: "standardService",
