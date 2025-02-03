@@ -654,7 +654,7 @@ EDSData.SMRT = {
                 destination: "WELCOME",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "AIR",
                     topFont: "ArialBold-8",
@@ -662,7 +662,7 @@ EDSData.SMRT = {
                     bottomFont: "Arial-7",
         
                     serviceNumber: ""
-                    },
+                },
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -690,7 +690,7 @@ EDSData.SMRT = {
                 destination: "WELCOME",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "",
                     topFont: "Hanover-7:3",
@@ -698,7 +698,7 @@ EDSData.SMRT = {
                     bottomFont: "Hanover-7:3",
         
                     serviceNumber: ""
-                    },
+                },
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -779,74 +779,6 @@ EDSData.SMRT = {
             }
         }
     },
-    1108: { // Done / Refer from mobitec
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "110",
-                destination: "CHANGI AIRPORT via",
-                destinationFont: "ArialBold-8:2",
-                scrolls: [
-                    {
-                    renderType: "destScroll",
-                    top: "CHANGI",
-                    topFont: "ArialBold-8:2",
-                    bottom: "AIRPORT",
-                    bottomFont: "ArialBold-8:2",
-        
-                    serviceNumber: "110"
-                    },
-                    'COMPASSVALE DR',
-                    'ANCHORVALE DR',
-                    'ANCHORVALE RD',
-                    'ANCHORVALE ST',
-                    'TPE',
-                    'AIRPORT BOULEVARD',
-                    'PTB 3, 1, 2, 4'
-                ],
-                scrollFont: "ArialBold-8:2"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "110",
-                font: "LECIP-SMRTRear14:9",
-                spacing: 2
-            }
-        }
-    },
-    1109: { // Done / Refer from mobitec
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "110",
-                destination: "COMPASSVALE INT via",
-                destinationFont: "ArialBold-8:2",
-                scrolls: [
-                    {
-                    renderType: "destScroll",
-                    top: "COMPASSVALE",
-                    topFont: "ArialBold-8:2",
-                    bottom: "INTERCHANGE",
-                    bottomFont: "ArialBold-8:2",
-        
-                    serviceNumber: "110"
-                    },
-                    'PTB 3, 1, 2, 4',
-                    "AIRPORT BLVD",
-                    "TPE",
-                    "ANCHORVALE ST, DR",
-                    "COMPASSVALE DR"
-                ],
-                scrollFont: "ArialBold-8:2"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "110",
-                font: "LECIP-SMRTRear14:9",
-                spacing: 2
-            }
-        }
-    },
     1101: { // Done / Refer from mobitec
         1: {
             front: {
@@ -855,7 +787,7 @@ EDSData.SMRT = {
                 destination: "CHANGI AIRPORT via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "CHANGI",
                     topFont: "ArialBold-8:2",
@@ -863,7 +795,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
         
                     serviceNumber: "110"
-                    },
+                },
                     'COMPASSVALE DR',
                     'ANCHORVALE DR',
                     'ANCHORVALE RD',
@@ -890,7 +822,7 @@ EDSData.SMRT = {
                 destination: "BUANGKOK INT via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "BUANGKOK",
                     topFont: "ArialBold-8:2",
@@ -898,13 +830,81 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
         
                     serviceNumber: "110"
-                    },
+                },
                     'PTB 3, 1, 2, 4',
                     "AIRPORT BOULEVARD",
                     "TPE",
                     "ANCHORVALE ST",
                     "ANCHORVALE RD",
                     "ANCHORVALE DR",
+                    "COMPASSVALE DR"
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "110",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    1108: { // Done / Refer from mobitec
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "110",
+                destination: "CHANGI AIRPORT via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "CHANGI",
+                    topFont: "ArialBold-8:2",
+                    bottom: "AIRPORT",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "110"
+                },
+                    'COMPASSVALE DR',
+                    'ANCHORVALE DR',
+                    'ANCHORVALE RD',
+                    'ANCHORVALE ST',
+                    'TPE',
+                    'AIRPORT BOULEVARD',
+                    'PTB 3, 1, 2, 4'
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "110",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    1109: { // Done / Refer from mobitec
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "110",
+                destination: "COMPASSVALE INT via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "COMPASSVALE",
+                    topFont: "ArialBold-8:2",
+                    bottom: "INTERCHANGE",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "110"
+                },
+                    'PTB 3, 1, 2, 4',
+                    "AIRPORT BLVD",
+                    "TPE",
+                    "ANCHORVALE ST, DR",
                     "COMPASSVALE DR"
                 ],
                 scrollFont: "ArialBold-8:2"
@@ -944,7 +944,7 @@ EDSData.SMRT = {
                 destination: "BOON LAY via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "BOON LAY",
                     topFont: "ArialBold-8:2",
@@ -952,7 +952,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
         
                     serviceNumber: "172"
-                    },
+                },
                     "C. C. K DRIVE",
                     "C. C. K AVE 1, 3",
                     "BRICKLAND RD",
@@ -977,7 +977,7 @@ EDSData.SMRT = {
                 destination: "C. C. K INT via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "CHOA CHU KANG",
                     topFont: "ArialBold-8:2",
@@ -985,7 +985,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
         
                     serviceNumber: "172"
-                    },
+                },
                     'JLN BAHAR',
                     "C. C. K. RD",
                     "BRICKLAND RD",
@@ -1010,13 +1010,13 @@ EDSData.SMRT = {
                 destination: "BUKIT MERAH via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "BUKIT MERAH",
                     topFont: "Arial-12:2",
         
                     serviceNumber: "176"
-                    },
+                },
                     "UPP BUKIT TIMAH RD",
                     "HILLVIEW AVENUE",
                     "BT BATOK CTR / MRT",
@@ -1041,7 +1041,7 @@ EDSData.SMRT = {
                 destination: "BT PANJANG via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "BT PANJANG",
                     topFont: "ArialBold-8:2",
@@ -1049,7 +1049,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
             
                     serviceNumber: "176"
-                    },
+                },
                     "TELOK BLANGAH RD",
                     "W. COAST HIGHWAY",
                     "JURONG TOWN HALL",
@@ -1074,7 +1074,7 @@ EDSData.SMRT = {
                 destination: "BOON LAY via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "BOON LAY",
                     topFont: "ArialBold-8:2",
@@ -1082,7 +1082,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
                 
                     serviceNumber: "178"
-                    },
+                },
                     "WOODLANDS CTR RD",
                     "UPP BT TIMAH",
                     "BUKIT BATOK",
@@ -1099,7 +1099,7 @@ EDSData.SMRT = {
             }
         }
     },
-    1872: { // Done
+    1782: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -1107,7 +1107,7 @@ EDSData.SMRT = {
                 destination: "WOODLANDS INT via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "WOODLANDS",
                     topFont: "ArialBold-8:2",
@@ -1115,7 +1115,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
                 
                     serviceNumber: "178"
-                    },
+                },
                     "CORPORATION RD",
                     "JUR TOWN HALL",
                     "BUKIT BATOK",
@@ -1132,6 +1132,34 @@ EDSData.SMRT = {
             }
         }
     },
+    1783: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "178A",
+                destination: "KRANJI MRT",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "ENDS AT",
+                    topFont: "Arial-8",
+                    bottom: "KRANJI MRT",
+                    bottomFont: "Arial-8",
+        
+                    serviceNumber: "178A"
+                },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "178A",
+                font: "Arial-10",
+                spacing: 2
+            }
+        }
+    },
     1791: { // Done
         1: {
             front: {
@@ -1140,7 +1168,6 @@ EDSData.SMRT = {
                 destination: "BOON LAY via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-
                     "JURONG WEST ST 63",
                     "PIONEER RD NTH",
                     "LIEN YING CHOW DR",
@@ -1164,7 +1191,7 @@ EDSData.SMRT = {
                 destination: "BOON LAY",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "ScrollWithSpecialCharacters",
                     serviceFont: "Calibri-15",
                     top: "BOON LAY INT",
@@ -1173,7 +1200,7 @@ EDSData.SMRT = {
                     bottomFont: "Calibri-7:2",
         
                     serviceNumber: "179A"
-                    },
+                },
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -1193,7 +1220,7 @@ EDSData.SMRT = {
                 destination: "BUKIT PANJANG via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "BUKIT PANJANG",
                     topFont: "ArialBold-8:2",
@@ -1201,7 +1228,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
             
                     serviceNumber: "180"
-                    },
+                },
                     "BOON LAY WAY",
                     "JUR TOWN HALL",
                     "BT BATOK RD",
@@ -1226,7 +1253,7 @@ EDSData.SMRT = {
                 destination: "BOON LAY via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "BOON LAY",
                     topFont: "ArialBold-8:2",
@@ -1234,7 +1261,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
             
                     serviceNumber: "180"
-                    },
+                },
                     "BT BATOK RD",
                     "JUR TOWN HALL",
                     "BOON LAY WAY",
@@ -1257,7 +1284,6 @@ EDSData.SMRT = {
                 destination: "BOON LAY via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-
                     "JURONG WEST ST 64",
                     "JURONG WEST ST 75",
                     "JURONG WEST AVE 5",
@@ -1355,7 +1381,7 @@ EDSData.SMRT = {
                 destination: "TUAS STH AVE 4 via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll2B",
                     top: "TUAS STH AVE 4 via",
                     topFont: "ArialBold-8:2",
@@ -1363,8 +1389,8 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
         
                     serviceNumber: "182M"
-                    },
-                    {
+                },
+                {
                     renderType: "destScroll2B",
                     top: "TUAS STH AVE 4 via",
                     topFont: "ArialBold-8:2",
@@ -1372,8 +1398,8 @@ EDSData.SMRT = {
                     bottomFont: "Calibri-7:2",
             
                     serviceNumber: "182M"
-                    },
-                    {
+                },
+                {
                     renderType: "destScroll2B",
                     top: "TUAS STH AVE 4 via",
                     topFont: "ArialBold-8:2",
@@ -1381,8 +1407,8 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
             
                     serviceNumber: "182M"
-                    },
-                    {
+                },
+                {
                     renderType: "destScroll2B",
                     top: "TUAS STH AVE 4 via",
                     topFont: "ArialBold-8:2",
@@ -1390,8 +1416,8 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
                 
                     serviceNumber: "182M"
-                    },
-                    {
+                },
+                {
                     renderType: "destScroll2B",
                     top: "TUAS STH AVE 4 via",
                     topFont: "ArialBold-8:2",
@@ -1399,7 +1425,7 @@ EDSData.SMRT = {
                     bottomFont: "Calibri-7:2",
                 
                     serviceNumber: "182M"
-                    },
+                },
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -1419,7 +1445,7 @@ EDSData.SMRT = {
                 destination: "JOO KOON INT via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll2B",
                     top: "JOO KOON INT via",
                     topFont: "ArialBold-8:2",
@@ -1427,8 +1453,8 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
         
                     serviceNumber: "182M"
-                    },
-                    {
+                },
+                {
                     renderType: "destScroll2B",
                     top: "JOO KOON INT via",
                     topFont: "ArialBold-8:2",
@@ -1436,8 +1462,8 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
             
                     serviceNumber: "182M"
-                    },
-                    {
+                },
+                {
                     renderType: "destScroll2B",
                     top: "JOO KOON INT via",
                     topFont: "ArialBold-8:2",
@@ -1445,8 +1471,8 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
             
                     serviceNumber: "182M"
-                    },
-                    {
+                },
+                {
                     renderType: "destScroll2B",
                     top: "JOO KOON INT via",
                     topFont: "ArialBold-8:2",
@@ -1454,8 +1480,8 @@ EDSData.SMRT = {
                     bottomFont: "Calibri-7:2",
                 
                     serviceNumber: "182M"
-                    },
-                    {
+                },
+                {
                     renderType: "destScroll2B",
                     top: "JOO KOON INT via",
                     topFont: "ArialBold-8:2",
@@ -1463,7 +1489,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
                 
                     serviceNumber: "182M"
-                    },
+                },
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -1483,7 +1509,7 @@ EDSData.SMRT = {
                 destination: "TUAS SOUTH AVE 3",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll2",
                     top: "ENDS AT",
                     topFont: "ArialBold-8:2",
@@ -1491,7 +1517,7 @@ EDSData.SMRT = {
                     bottomFont: "Calibri-7",
         
                     serviceNumber: "182A"
-                    },
+                },
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -1511,7 +1537,7 @@ EDSData.SMRT = {
                 destination: "CLEMENTI via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "CLEMENTI",
                     topFont: "ArialBold-8:2",
@@ -1519,7 +1545,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
         
                     serviceNumber: "184"
-                    },
+                },
                     "BT PANJANG",
                     "CASHEW RD",
                     "UPP BT TIMAH",
@@ -1544,7 +1570,7 @@ EDSData.SMRT = {
                 destination: "BT PANJANG via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "BT PANJANG",
                     topFont: "ArialBold-8:2",
@@ -1552,7 +1578,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
         
                     serviceNumber: "184"
-                    },
+                },
                     "CLEMENTI RD",
                     "UPP BT TIMAH",
                     "CASHEW RD",
@@ -1628,7 +1654,7 @@ EDSData.SMRT = {
                 destination: "BOON LAY via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "BOON LAY",
                     topFont: "ArialBold-8:2",
@@ -1636,7 +1662,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
                 
                     serviceNumber: "187"
-                    },
+                },
                     "WOODLANDS AVE 3",
                     "BT PANJANG RD",
                     "BUKIT BATOK CTR",
@@ -1661,7 +1687,7 @@ EDSData.SMRT = {
                 destination: "WOODLANDS INT via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "WOODLANDS",
                     topFont: "ArialBold-8:2",
@@ -1669,7 +1695,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
                 
                     serviceNumber: "187"
-                    },
+                },
                     "BOON LAY WAY",
                     "JURONG EAST",
                     "BUKIT BATOK CTR",
@@ -1694,13 +1720,13 @@ EDSData.SMRT = {
                 destination: "HARBOURFRONT via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "HARBOURFRONT",
                     topFont: "Arial-10",
         
                     serviceNumber: "188"
-                    },
+                },
                     "C. C. K WAY",
                     "B. B WEST AVE 4, 2",
                     "TOH GUAN RD",
@@ -1725,7 +1751,7 @@ EDSData.SMRT = {
                 destination: "C. C. K INT via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "CHOA CHU KANG",
                     topFont: "ArialBold-8:2",
@@ -1733,7 +1759,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
         
                     serviceNumber: "188"
-                    },
+                },
                     'TELOK BLANGAH RD',
                     'PASIR PANJANG',
                     "CLEMENTI",
@@ -1761,7 +1787,7 @@ EDSData.SMRT = {
                 },
                 scrolls: [
                     'CHOA CHU KANG WAY',
-                    {
+                {
                     renderType: "destScroll",
                     top: "HARBOURFRONT via",
                     topFont: "ArialBold-8:2",
@@ -1769,8 +1795,8 @@ EDSData.SMRT = {
                     bottomFont: "Calibri-7:2",
             
                     serviceNumber: "188e"
-                    },
-                    {
+                },
+                {
                     renderType: "destScroll",
                     top: "HARBOURFRONT via",
                     topFont: "ArialBold-8:2",
@@ -1778,8 +1804,8 @@ EDSData.SMRT = {
                     bottomFont: "Calibri-7:2",
                 
                     serviceNumber: "188e"
-                    },
-                    {
+                },
+                {
                     renderType: "destScroll",
                     top: "HARBOURFRONT via",
                     topFont: "ArialBold-8:2",
@@ -1787,8 +1813,8 @@ EDSData.SMRT = {
                     bottomFont: "Calibri-7:2",
                 
                     serviceNumber: "188e"
-                    },
-                    {
+                },
+                {
                     renderType: "destScroll",
                     top: "HARBOURFRONT via",
                     topFont: "ArialBold-8:2",
@@ -1796,8 +1822,8 @@ EDSData.SMRT = {
                     bottomFont: "Calibri-7:2",
                 
                     serviceNumber: "188e"
-                    },
-                    {
+                },
+                {
                     renderType: "destScroll",
                     top: "HARBOURFRONT via",
                     topFont: "ArialBold-8:2",
@@ -1805,7 +1831,7 @@ EDSData.SMRT = {
                     bottomFont: "Calibri-7:2",
                 
                     serviceNumber: "188e"
-                    },
+                },
                     "TOH GUAN RD",
                     "CLEMENTI RD",
                     "PASIR PANJANG RD"
@@ -1828,7 +1854,7 @@ EDSData.SMRT = {
                 destination: "KG. BAHRU TER via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "KAMPONG BAHRU",
                     topFont: "ArialBold-8:2",
@@ -1836,7 +1862,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
         
                     serviceNumber: "190"
-                    },
+                },
                     'BT PANJANG RD',
                     'STEVEN ROAD',
                     'ORCHARD ROAD',
@@ -1861,7 +1887,7 @@ EDSData.SMRT = {
                 destination: "C. C. K INT via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "CHOA CHU KANG",
                     topFont: "ArialBold-8:2",
@@ -1869,7 +1895,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
         
                     serviceNumber: "190"
-                    },
+                },
                     "HILL STREET",
                     "SOMERSET RD",
                     "SCOTTS RD",
@@ -1894,7 +1920,7 @@ EDSData.SMRT = {
                 destination: "DHOBY GHAUT MRT",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "ENDS AT DHOBY",
                     topFont: "Arial-8",
@@ -1902,7 +1928,7 @@ EDSData.SMRT = {
                     bottomFont: "Arial-8",
         
                     serviceNumber: "190A"
-                    },
+                },
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -1922,7 +1948,6 @@ EDSData.SMRT = {
                 destination: "TUAS TER via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-
                     "JURONG WEST ST 62",
                     "UPP JURONG RD",
                     "TUAS AVE 3, 1, 12",
@@ -1946,7 +1971,6 @@ EDSData.SMRT = {
                 destination: "BOON LAY via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-
                     "TUAS WEST DR",
                     "TUAS AVE 12, 1, 3",
                     "UPPER JURONG RD",
@@ -1970,7 +1994,6 @@ EDSData.SMRT = {
                 destination: "TUAS TER via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-
                     "JURONG WEST AVE 4",
                     "PIONEER RD NTH",
                     "LOK YANG WAY",
@@ -1996,7 +2019,6 @@ EDSData.SMRT = {
                 destination: "BOON LAY via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-
                     "TUAS WEST DR",
                     "TUAS AVE 9, 4, 2, 5",
                     "SIXTH LOK YANG RD",
@@ -2013,7 +2035,6 @@ EDSData.SMRT = {
             }
         }
     },
-
     1941: { // Done
         1: {
             front: {
@@ -2022,7 +2043,6 @@ EDSData.SMRT = {
                 destination: "BOON LAY via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-
                     "AHMAD IBRAHIM (LOOP)"
                 ],
                 scrollFont: "Calibri-7:2"
@@ -2043,7 +2063,6 @@ EDSData.SMRT = {
                 destination: "BOON LAY via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-
                     "JALAN BOON LAY",
                     "JALAN BAHAR",
                     "NANYANG AVE",
@@ -2068,7 +2087,6 @@ EDSData.SMRT = {
                 destination: "BOON LAY via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-
                     "BOON LAY DR",
                     "BOON LAY PLACE",
                     "KANG CHING RD",
@@ -2093,7 +2111,7 @@ EDSData.SMRT = {
                 destination: "LAKESIDE MRT",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll2",
                     top: "ENDS AT",
                     topFont: "ArialBold-8:2",
@@ -2101,7 +2119,7 @@ EDSData.SMRT = {
                     bottomFont: "Calibri-7",
         
                     serviceNumber: "240A"
-                    },
+                },
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -2118,10 +2136,10 @@ EDSData.SMRT = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "240M",
-                destination: "LAKESIDE MRT",
+                destination: "LAKESIDE MRT via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll2A",
                     top: "LAKESIDE MRT via",
                     topFont: "ArialBold-8:2",
@@ -2167,7 +2185,6 @@ EDSData.SMRT = {
                 destination: "BOON LAY via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-
                     "JURONG WEST ST 63",
                     "PIONEER RD NTH",
                     "JURONG WEST ST 91",
@@ -2191,7 +2208,7 @@ EDSData.SMRT = {
                 destination: "PIONEER MRT",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll2",
                     top: "ENDS AT",
                     topFont: "ArialBold-8:2",
@@ -2199,7 +2216,7 @@ EDSData.SMRT = {
                     bottomFont: "Calibri-7",
         
                     serviceNumber: "241A"
-                    },
+                },
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -2219,7 +2236,6 @@ EDSData.SMRT = {
                 destination: "BOON LAY via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-
                     "JLN BOON LAY",
                     "JURONG WEST AVE 4",
                     "JURONG WEST ST 71",
@@ -2243,7 +2259,6 @@ EDSData.SMRT = {
                 destination: "BOON LAY via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-
                     "JURONG WEST ST 64",
                     "JURONG WEST ST 75",
                     "JURONG WEST ST 81",
@@ -2269,7 +2284,6 @@ EDSData.SMRT = {
                 destination: "BOON LAY via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-
                     "JURONG WEST ST 61",
                     "JURONG WEST AVE 5",
                     "JURONG WEST ST 82",
@@ -2364,10 +2378,10 @@ EDSData.SMRT = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "248M",
-                destination: "TUAS",
+                destination: "TUAS TER via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll2B",
                     top: "TUAS TER via",
                     topFont: "ArialBold-8:2",
@@ -2375,8 +2389,8 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
         
                     serviceNumber: "248M"
-                    },
-                    {
+                },
+                {
                     renderType: "destScroll2B",
                     top: "TUAS TER via",
                     topFont: "ArialBold-8:2",
@@ -2384,8 +2398,8 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
             
                     serviceNumber: "248M"
-                    },
-                    {
+                },
+                {
                     renderType: "destScroll2B",
                     top: "TUAS TER via",
                     topFont: "ArialBold-8:2",
@@ -2393,8 +2407,8 @@ EDSData.SMRT = {
                     bottomFont: "Calibri-7:2",
             
                     serviceNumber: "248M"
-                    },
-                    {
+                },
+                {
                     renderType: "destScroll2B",
                     top: "TUAS TER via",
                     topFont: "ArialBold-8:2",
@@ -2402,8 +2416,8 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
                 
                     serviceNumber: "248M"
-                    },
-                    {
+                },
+                {
                     renderType: "destScroll2B",
                     top: "TUAS TER via",
                     topFont: "ArialBold-8:2",
@@ -2411,7 +2425,7 @@ EDSData.SMRT = {
                     bottomFont: "Calibri-7:2",
                 
                     serviceNumber: "248M"
-                    },
+                },
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -2431,7 +2445,6 @@ EDSData.SMRT = {
                 destination: "BOON LAY via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-
                     "JLN BOON LAY",
                     "JURONG PIER RD",
                     "JLN BUROH",
@@ -2456,7 +2469,7 @@ EDSData.SMRT = {
                 destination: "JURONG SHIPYARD",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll2",
                     top: "ENDS AT",
                     topFont: "ArialBold-8:2",
@@ -2464,7 +2477,7 @@ EDSData.SMRT = {
                     bottomFont: "Calibri-7",
         
                     serviceNumber: "249A"
-                    },
+                },
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -2484,7 +2497,6 @@ EDSData.SMRT = {
                 destination: "BOON LAY via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-
                     "BOON LAY WAY",
                     "PIONEER RD NTH",
                     "PIONEER RD",
@@ -2531,7 +2543,6 @@ EDSData.SMRT = {
                 destination: "JOO KOON INT via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-
                     "BENOI RD",
                     "BENOI SECTOR",
                     "PIONEER RD",
@@ -2577,7 +2588,6 @@ EDSData.SMRT = {
                 destination: "JOO KOON INT via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-
                     "GUL CIRCLE",
                     "GUL CRES",
                     "GUL AVE, WAY",
@@ -2600,7 +2610,6 @@ EDSData.SMRT = {
                 destination: "JOO KOON INT via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-
                     "BENOI RD",
                     "PIONEER RD",
                     "GUL RD",
@@ -2625,7 +2634,6 @@ EDSData.SMRT = {
                 destination: "JOO KOON INT via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-
                     "JLN AHMAD IBRAHIM",
                     "PIONEER RD NTH",
                     "JURONG WEST ST 61",
@@ -2650,7 +2658,7 @@ EDSData.SMRT = {
                 destination: "C. C. K INT via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "CHOA CHU KANG",
                     topFont: "ArialBold-8:2",
@@ -2658,19 +2666,19 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
         
                     serviceNumber: "301"
-                    },
+                },
                     "C. C. K WAY",
                     "C. C. K AVE 2, 3",
                     "C. C. K AVE 5",
-                    {
-                        renderType: "ScrollWithSpecialCharacters",
-                        top: "C. C. K INT via",
-                        topFont: "ArialBold-8:2",
-                        bottom: "KEAT HONG (LOOP)",
-                        bottomFont: "ArialBold-8:2",
+                {
+                    renderType: "ScrollWithSpecialCharacters",
+                    top: "C. C. K INT via",
+                    topFont: "ArialBold-8:2",
+                    bottom: "KEAT HONG (LOOP)",
+                    bottomFont: "ArialBold-8:2",
                 
-                        serviceNumber: "301"
-                        },
+                    serviceNumber: "301"
+                },
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -2690,7 +2698,7 @@ EDSData.SMRT = {
                 destination: "C. C. K INT via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "CHOA CHU KANG",
                     topFont: "ArialBold-8:2",
@@ -2698,7 +2706,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
         
                     serviceNumber: "302"
-                    },
+                },
                     "C. C. K WAY",
                     "C. C. K ST 52",
                     "C. C. K CRES",
@@ -2721,7 +2729,7 @@ EDSData.SMRT = {
                 destination: "YEW TEE MRT",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "ENDS AT",
                     topFont: "Arial-8",
@@ -2729,7 +2737,7 @@ EDSData.SMRT = {
                     bottomFont: "Arial-8",
         
                     serviceNumber: "302A"
-                    },
+                },
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -2749,7 +2757,7 @@ EDSData.SMRT = {
                 destination: "C. C. K INT via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "CHOA CHU KANG",
                     topFont: "ArialBold-8:2",
@@ -2757,7 +2765,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
         
                     serviceNumber: "307"
-                    },
+                },
                     "C. C. K AVE 4",
                     "C. C. K NTH 6",
                     "YEW TEE MRT",
@@ -2782,7 +2790,7 @@ EDSData.SMRT = {
                 destination: "C.C.K VIA YEW TEE",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll2",
                     top: "ENDS{OPP{CCK{MRt",
                     topFont: "ArialBold-8:2",
@@ -2790,7 +2798,7 @@ EDSData.SMRT = {
                     bottomFont: "Calibri-7:2",
         
                     serviceNumber: "307A"
-                    },
+                },
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -2810,7 +2818,7 @@ EDSData.SMRT = {
                 destination: "C.C.K VIA TECK WHYE",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll2",
                     top: "ENDS{AT{CCK{INT{via",
                     topFont: "ArialBold-8:2",
@@ -2818,7 +2826,7 @@ EDSData.SMRT = {
                     bottomFont: "Calibri-7:2",
         
                     serviceNumber: "307T"
-                    },
+                },
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -3098,7 +3106,6 @@ EDSData.SMRT = {
                 destination: "BOON LAY via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-
                     "JALAN BOON LAY",
                     "JALAN BAHAR",
                     "OLD C.C.K. RD"
@@ -3121,7 +3128,7 @@ EDSData.SMRT = {
                 destination: "TANAH MERAH",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "SHUTTLE 7",
                     topFont: "ArialBold-8:2",
@@ -3129,7 +3136,7 @@ EDSData.SMRT = {
                     bottomFont: "Calibri-7",
         
                     serviceNumber: "S7"
-                    },
+                },
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -3149,7 +3156,7 @@ EDSData.SMRT = {
                 destination: "TAMPINES",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "SHUTTLE 7",
                     topFont: "ArialBold-8:2",
@@ -3157,7 +3164,7 @@ EDSData.SMRT = {
                     bottomFont: "Calibri-7",
         
                     serviceNumber: "S7"
-                    },
+                },
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -3260,7 +3267,6 @@ EDSData.SMRT = {
                     "WDL AVE 1",
                     "WDL AVE 4, 5",
                     "MARSILING LANE"
-
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -3272,7 +3278,7 @@ EDSData.SMRT = {
             }
         }
     },
-    6101: { // Done
+    6101: { //  Done 
         1: {
             front: {
                 renderType: "standardService",
@@ -3280,15 +3286,15 @@ EDSData.SMRT = {
                 destination: "EUNOS INT via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "EUNOS",
                     topFont: "ArialBold-8:2",
                     bottom: "INT / MRT",
                     bottomFont: "ArialBold-8:2",
-            
+        
                     serviceNumber: "61"
-                    },
+                },
                 "CLEMENTI RD",
                 "HOLLAND RD, AVE",
                 "TELOK BLANGAH RD",
@@ -3313,7 +3319,7 @@ EDSData.SMRT = {
                 destination: "BT BATOK INT via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "BUKIT BATOK",
                     topFont: "ArialBold-8:2",
@@ -3321,7 +3327,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
             
                     serviceNumber: "61"
-                    },
+                },
                 "UBI AVE 2",
                 "MACPHERSON RD",
                 "KALLANG BAHRU",
@@ -3347,7 +3353,7 @@ EDSData.SMRT = {
                 destination: "TAMPINES via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "TAMPINES",
                     topFont: "ArialBold-8:2",
@@ -3355,7 +3361,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
                 
                     serviceNumber: "67"
-                    },
+                },
                 "UPP BUKIT TIMAH RD",
                 "DUNEARN RD",
                 "SERANGOON RD",
@@ -3380,7 +3386,7 @@ EDSData.SMRT = {
                 destination: "C. C. K INT via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "CHOA CHU KANG",
                     topFont: "ArialBold-8:2",
@@ -3388,7 +3394,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
             
                     serviceNumber: "67"
-                    },
+                },
                 "BEDOK NTH AVE 3",
                 "NEW UPP CHANGI RD",
                 "GEYLANG RD",
@@ -4059,13 +4065,13 @@ EDSData.SMRT = {
                 destination: "BUKIT MERAH via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "BUKIT MERAH",
                     topFont: "Arial-12:2",
         
                     serviceNumber: "75"
-                    },
+                },
                     "UPP BUKIT TIMAH RD",
                     "CLEMENTI / HOLLAND RD",
                     "GREAT WORLD CITY",
@@ -4206,7 +4212,7 @@ EDSData.SMRT = {
                 destination: "WOODLANDS INT via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "WOODLANDS",
                     topFont: "ArialBold-8:2",
@@ -4214,18 +4220,18 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
         
                     serviceNumber: "900"
-                    },
+                },
                     "WDL AVE 7, 4",
                     "WDL DRIVE 14",
-                    {
-                        renderType: "destScroll",
-                        top: "WOODLANDS INT via",
-                        topFont: "ArialBold-8:2",
-                        bottom: "CHAMPIONS WAY",
-                        bottomFont: "Arial-8",
+                {
+                    renderType: "destScroll",
+                    top: "WOODLANDS INT via",
+                    topFont: "ArialBold-8:2",
+                    bottom: "CHAMPIONS WAY",
+                    bottomFont: "Arial-8",
             
-                        serviceNumber: "900"
-                    },
+                    serviceNumber: "900"
+                },
                     "WDL DRIVE 17",
                     "WDL AVE 1, 4, 7"
                 ],
@@ -4247,7 +4253,7 @@ EDSData.SMRT = {
                 destination: "WOODLANDS INT via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "WOODLANDS",
                     topFont: "ArialBold-8:2",
@@ -4255,7 +4261,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
         
                     serviceNumber: "901"
-                    },
+                },
                     "WDL AVE 2, 1",
                     "WDL DRIVE 16",
                     "WDL AVE 6",
@@ -4278,7 +4284,7 @@ EDSData.SMRT = {
                 destination: "REPUBLIC POLY",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "REPUBLIC",
                     topFont: "ArialBold-8:2",
@@ -4286,7 +4292,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
         
                     serviceNumber: "902"
-                    },
+                },
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -4306,7 +4312,7 @@ EDSData.SMRT = {
                 destination: "WOODLANDS INT via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "WOODLANDS",
                     topFont: "ArialBold-8:2",
@@ -4314,7 +4320,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
         
                     serviceNumber: "903"
-                    },
+                },
                     "WOODLANDS AVE 2",
                     "MARSILING DR",
                     "WDL CENTRE RD",
@@ -4394,7 +4400,7 @@ EDSData.SMRT = {
                 destination: "WOODLANDS INT via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "WOODLANDS",
                     topFont: "ArialBold-8:2",
@@ -4402,18 +4408,18 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
         
                     serviceNumber: "904"
-                    },
+                },
                     "WDL AVE 7, 6",
                     "WDL DR 62, 73",
-                    {
-                        renderType: "ScrollWithSpecialCharacters",
-                        top: "WOODLANDS INT via",
-                        topFont: "ArialBold-8:2",
-                        bottom: "WDL CRES (LOOP)",
-                        bottomFont: "ArialBold-8:2",
+                {
+                    renderType: "ScrollWithSpecialCharacters",
+                    top: "WOODLANDS INT via",
+                    topFont: "ArialBold-8:2",
+                    bottom: "WDL CRES (LOOP)",
+                    bottomFont: "ArialBold-8:2",
                 
-                        serviceNumber: "904"
-                    },
+                    serviceNumber: "904"
+                },
                     "WDL DR 73, 62",
                     "WDL AVE 6, 7",
                 ],
@@ -4435,7 +4441,7 @@ EDSData.SMRT = {
                 destination: "WOODLANDS INT via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "WOODLANDS",
                     topFont: "ArialBold-8:2",
@@ -4443,7 +4449,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
         
                     serviceNumber: "911"
-                    },
+                },
                     "WDL AVE 7",
                     "WDL ST 83",
                     "WDL AVE 2",
@@ -4468,7 +4474,7 @@ EDSData.SMRT = {
                 destination: "WOODLANDS ST 13",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll2",
                     top: "ENDS AT BLK 146",
                     topFont: "ArialBold-8:2",
@@ -4476,7 +4482,7 @@ EDSData.SMRT = {
                     bottomFont: "Calibri-7",
         
                     serviceNumber: "911A"
-                    },
+                },
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -4597,7 +4603,7 @@ EDSData.SMRT = {
                 destination: "WOODLANDS INT via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "WOODLANDS",
                     topFont: "ArialBold-8:2",
@@ -4605,7 +4611,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
         
                     serviceNumber: "912"
-                    },
+                },
                     "WDL AVE 5, 2, 1",
                     "WDL ST 41",
                     "WDL TRAIN CHKPT",
@@ -4771,7 +4777,7 @@ EDSData.SMRT = {
                 destination: "WOODLANDS INT via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "WOODLANDS",
                     topFont: "ArialBold-8:2",
@@ -4779,7 +4785,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
         
                     serviceNumber: "913"
-                    },
+                },
                     "WDL AVE 7, 6",
                     "WDL CIRCLE",
                     "MARSILING RISE, RD",
@@ -4896,7 +4902,7 @@ EDSData.SMRT = {
                 destination: "MERRY CHRISTMAS",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll2",
                     top: "MERRY CHRISTMAS",
                     topFont: "ArialBold-8:2",
@@ -4904,7 +4910,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
         
                     serviceNumber: ""
-                    },
+                },
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -4943,13 +4949,13 @@ EDSData.SMRT = {
                 destination: "SELAMAT HARI RAYA",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+            {
                 renderType: 'message',
                 text: 'SELAMAT HARI RAYA',
                 font: 'Calibri-11:1',
                 spacing: 1,
                 marginTop: 4
-                    },
+            },
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -5023,13 +5029,13 @@ EDSData.SMRT = {
                 destination: "Moving WITH you",
                 destinationFont: "ArialBold-8:3",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll2",
                     top: "Moving WITH you - 13 June",
                     topFont: "ArialBold-8:3",
         
                     serviceNumber: ""
-                    },
+                },
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -5039,7 +5045,7 @@ EDSData.SMRT = {
                 destination: "WELCOME",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "",
                     topFont: "Hanover-7:3",
@@ -5047,7 +5053,7 @@ EDSData.SMRT = {
                     bottomFont: "Hanover-7:3",
         
                     serviceNumber: ""
-                    },
+                },
                 ],
                 scrollFont: "ArialBold-8:2"
             }
@@ -5061,7 +5067,7 @@ EDSData.SMRT = {
                 destination: "BT PANJANG via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "BT PANJANG",
                     topFont: "ArialBold-8:2",
@@ -5069,7 +5075,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
             
                     serviceNumber: "920"
-                    },
+                },
                     "PETIR / JELEBU RD",
                     "SENJA CLOSE",
                     "SENJA RD",
@@ -5094,7 +5100,7 @@ EDSData.SMRT = {
                 destination: "BT PANJANG via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "BT PANJANG",
                     topFont: "ArialBold-8:2",
@@ -5102,7 +5108,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
             
                     serviceNumber: "922"
-                    },
+                },
                     "PETIR / JELEBU RD",
                     "JELAPANG RD",
                     "SEGAR / FAJAR RD",
@@ -5127,7 +5133,7 @@ EDSData.SMRT = {
                 destination: "C. C. K INT via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "CHOA CHU KANG",
                     topFont: "ArialBold-8:2",
@@ -5135,7 +5141,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
         
                     serviceNumber: "925"
-                    },
+                },
                     "WDL AVE 3",
                     "KRANJI WAY",
                     "WDL RD",
@@ -5181,7 +5187,7 @@ EDSData.SMRT = {
                 destination: "KRANJI RESERVOIR PARK B",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "ENDS AT  KRANJI",
                     topFont: "ArialBold-8:2",
@@ -5189,7 +5195,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8",
         
                     serviceNumber: "925A"
-                    },
+                },
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -5257,7 +5263,7 @@ EDSData.SMRT = {
                 destination: "S'PORE ZOO via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "SINGAPORE",
                     topFont: "ArialBold-8:2",
@@ -5265,7 +5271,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
         
                     serviceNumber: "927"
-                    },
+                },
                     'C. C. K DRIVE',
                     'WOODLANDS ROAD',
                     'MANDAI ROAD',
@@ -5289,7 +5295,7 @@ EDSData.SMRT = {
                 destination: "C. C. K INT via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "CHOA CHU KANG",
                     topFont: "ArialBold-8:2",
@@ -5297,7 +5303,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
         
                     serviceNumber: "927"
-                    },
+                },
                     "MANDAI ROAD",
                     "WOODLANDS ROAD",
                     "C. C. K DRIVE",
@@ -5320,7 +5326,6 @@ EDSData.SMRT = {
                 destination: "S'PORE ⇔ JB",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-
                     "JB SENTRAL TER",
                     "WDL TEMP INT"
                 ],
@@ -5398,7 +5403,7 @@ EDSData.SMRT = {
                 destination: "MARINA CENTRE via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "MARINA",
                     topFont: "ArialBold-8:2",
@@ -5406,7 +5411,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
         
                     serviceNumber: "960"
-                    },
+                },
                     'WOODLANDS RD',
                     "BT PANJANG RD",
                     "BKE / PIE",
@@ -5431,7 +5436,7 @@ EDSData.SMRT = {
                 destination: "WOODLANDS via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "WOODLANDS",
                     topFont: "ArialBold-8:2",
@@ -5439,7 +5444,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
         
                     serviceNumber: "960"
-                    },
+                },
                     "VICTORIA ST",
                     "BT TIMAH RD",
                     "PIE / BKE",
@@ -5537,7 +5542,7 @@ EDSData.SMRT = {
                 destination: "LOR 1 GEYLANG via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "GEYLANG LOR 1 / ",
                     topFont: "ArialBold-8:2",
@@ -5545,7 +5550,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
             
                     serviceNumber: "961"
-                    },
+                },
                     "WDL AVE 3",
                     "UPP BT TIMAH RD",
                     "JLN BT MERAH",
@@ -5596,7 +5601,7 @@ EDSData.SMRT = {
                 destination: "LOR 1 GEYLANG via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "GEYLANG LOR 1 / ",
                     topFont: "ArialBold-8:2",
@@ -5604,7 +5609,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
             
                     serviceNumber: "961M"
-                    },
+                },
                     "WDL AVE 3",
                     "UPP BT TIMAH RD",
                     "JLN BT MERAH",
@@ -5657,7 +5662,7 @@ EDSData.SMRT = {
                 destination: "ADMIRALTY ST via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "ADMIRALTY",
                     topFont: "ArialBold-8:2",
@@ -5665,7 +5670,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
         
                     serviceNumber: "962"
-                    },
+                },
                     "WDL AVE 5, 6, 7",
                     "SEMBAWANG WAY",
                     "SEMBAWANG CRES",
@@ -5689,7 +5694,7 @@ EDSData.SMRT = {
                 destination: "WOODLANDS INT via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "WOODLANDS",
                     topFont: "ArialBold-8:2",
@@ -5697,7 +5702,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
         
                     serviceNumber: "962"
-                    },
+                },
                     "SEMBAWANG DR",
                     "SEMBAWANG WAY",
                     "SEMBAWANG CRES",
@@ -5721,7 +5726,7 @@ EDSData.SMRT = {
                 destination: "SEMBAWANG DRIVE",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "ENDS AT",
                     topFont: "Arial-8",
@@ -5729,7 +5734,7 @@ EDSData.SMRT = {
                     bottomFont: "Arial-8",
         
                     serviceNumber: "962A"
-                    },
+                },
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -5749,7 +5754,7 @@ EDSData.SMRT = {
                 destination: "SEMBAWANG DRIVE",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "ENDS AT",
                     topFont: "Arial-8",
@@ -5757,7 +5762,7 @@ EDSData.SMRT = {
                     bottomFont: "Arial-8",
         
                     serviceNumber: "962B"
-                    },
+                },
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -5777,14 +5782,14 @@ EDSData.SMRT = {
                 destination: "WOODLANDS AVE 6",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "ENDS AT BLK 680",
                     topFont: "Arial-8",
                     bottom: "WOODLANDS AVE 6",
                     bottomFont: "Arial-8",
         
-                    serviceNumber: "962C"
+                serviceNumber: "962C"
                     },
                 ],
                 scrollFont: "ArialBold-8:2"
@@ -5805,7 +5810,7 @@ EDSData.SMRT = {
                 destination: "WOODLANDS INT via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "WOODLANDS",
                     topFont: "ArialBold-8:2",
@@ -5813,7 +5818,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
         
                     serviceNumber: "964"
-                    },
+                },
                     "WDL AVE 7, 6",
                     "WDL LOOP",
                     "WDL LINK"
@@ -5839,15 +5844,15 @@ EDSData.SMRT = {
                     "WOODLANDS AVE 3, 1",
                     "WOODLANDS ST 41",
                     "WOODLANDS AVE 1",
-                    {
-                        renderType: "ScrollWithSpecialCharacters",
-                        top: "WDL TEMP INT via",
-                        topFont: "ArialBold-8:2",
-                        bottom: "WDL DR 17 (LOOP)",
-                        bottomFont: "ArialBold-8:2",
+                {
+                    renderType: "ScrollWithSpecialCharacters",
+                    top: "WDL TEMP INT via",
+                    topFont: "ArialBold-8:2",
+                    bottom: "WDL DR 17 (LOOP)",
+                    bottomFont: "ArialBold-8:2",
                 
-                      serviceNumber: "967"
-                    },
+                    serviceNumber: "967"
+                },
                 ],
                 scrollFont: "ArialBold-8:2"
            },
@@ -5867,7 +5872,7 @@ EDSData.SMRT = {
                 destination: "SHENTON WAY via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "SHENTON",
                     topFont: "ArialBold-8:2",
@@ -5875,7 +5880,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
         
                     serviceNumber: "970"
-                    },
+                },
                     "HILLVIEW RD, AVE",
                     "JLN JURONG KECHIL",
                     "DUNEARN RD",
@@ -5900,7 +5905,7 @@ EDSData.SMRT = {
                 destination: "BT PANJANG via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "BT PANJANG",
                     topFont: "ArialBold-8:2",
@@ -5908,7 +5913,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
         
                     serviceNumber: "970"
-                    },
+                },
                     "NEW BRIDGE RD",
                     "CWEALTH AVE",
                     "UPP BT TIMAH RD",
@@ -6079,7 +6084,7 @@ EDSData.SMRT = {
                 destination: "ORCHARD via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "ORCHARD",
                     topFont: "ArialBold-8:2",
@@ -6087,7 +6092,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
         
                     serviceNumber: "972"
-                    },
+                },
                     "BT PANJANG RD",
                     "SENJA RD",
                     "SEGAR / FAJAR RD",
@@ -6112,7 +6117,7 @@ EDSData.SMRT = {
                 destination: "BT PANJANG via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "BT PANJANG",
                     topFont: "ArialBold-8:2",
@@ -6120,7 +6125,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
         
                     serviceNumber: "972"
-                    },
+                },
                     "PENANG RD",
                     "SOMERSET RD",
                     "ORCHARD RD",
@@ -6145,7 +6150,7 @@ EDSData.SMRT = {
                 destination: "DHOBY GHAUT MRT",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "ENDS AT",
                     topFont: "Arial-8",
@@ -6153,7 +6158,7 @@ EDSData.SMRT = {
                     bottomFont: "Arial-8",
         
                     serviceNumber: "972A"
-                    },
+                },
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -6181,7 +6186,7 @@ EDSData.SMRT = {
                     "BT TIMAH RD",
                     "P I E  /  B K E",
                     "PETIR / PENDING RD",
-                    {
+                {
                     renderType: "destScroll2",
                     top: "BT PANJANG INT via",
                     topFont: "Arial-8:2",
@@ -6189,7 +6194,7 @@ EDSData.SMRT = {
                     bottomFont: "Arial-8:2",
                     
                     serviceNumber: "972M"
-                    },
+                },
                     "FAJAR / SEGAR RD",
                     "JELAPANG RD",
                     "SENJA LINK / ROAD"
@@ -6296,7 +6301,7 @@ EDSData.SMRT = {
                 destination: "PENDING STN",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "ENDS AT",
                     topFont: "Arial-8",
@@ -6304,7 +6309,7 @@ EDSData.SMRT = {
                     bottomFont: "Arial-8",
         
                     serviceNumber: "973A"
-                    },
+                },
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -6324,7 +6329,6 @@ EDSData.SMRT = {
                 destination: "BT PANJANG via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-
                     "UPP JURONG RD",
                     "JURONG WEST ST 64",
                     "JLN BOON LAY",
@@ -6351,7 +6355,6 @@ EDSData.SMRT = {
                 destination: "JOO KOON INT via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-
                     "C. C. K WAY",
                     "C. C. K MRT, DR",
                     "KJE, PIE",
@@ -6378,7 +6381,7 @@ EDSData.SMRT = {
                 destination: "C.C.K STN / LOT 1",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll2",
                     top: "ENDS AT LOT 1",
                     topFont: "ArialBold-8:2",
@@ -6386,7 +6389,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
         
                     serviceNumber: "974A"
-                    },
+                },
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -6446,7 +6449,7 @@ EDSData.SMRT = {
                 destination: "C. C. K INT via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "CHOA CHU KANG",
                     topFont: "ArialBold-8:2",
@@ -6454,18 +6457,18 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
         
                     serviceNumber: "983"
-                    },
+                },
                     "C. C. K AVE 4, 5, 6, 1",
                     "C. C. K ROAD",
-                    {
-                        renderType: "ScrollWithSpecialCharacters",
-                        top: "C. C. K INT via",
-                        topFont: "ArialBold-8:2",
-                        bottom: "BT PANJANG RD (LOOP)",
-                        bottomFont: "Calibri-7:2",
+                {
+                    renderType: "ScrollWithSpecialCharacters",
+                    top: "C. C. K INT via",
+                    topFont: "ArialBold-8:2",
+                    bottom: "BT PANJANG RD (LOOP)",
+                    bottomFont: "Calibri-7:2",
                 
-                        serviceNumber: "983"
-                        },
+                    serviceNumber: "983"
+                },
                     
                 ],
                 scrollFont: "ArialBold-8:2"
@@ -6482,11 +6485,11 @@ EDSData.SMRT = {
         1: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "190A",
-                destination: "DHOBY GHAUT MRT",
+                serviceNumber: "983A",
+                destination: "CHOA CHU KANG RD",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "ENDS AT BLK 26       ",
                     topFont: "Arial-8",
@@ -6494,7 +6497,7 @@ EDSData.SMRT = {
                     bottomFont: "Arial-8",
         
                     serviceNumber: "983A"
-                    },
+                },
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -6531,7 +6534,7 @@ EDSData.SMRT = {
             }
         }
     },
-    9851: { // Bomb
+    9851: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -6539,13 +6542,13 @@ EDSData.SMRT = {
                 destination: "LOR 1 GEYLANG via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "LOR 1 GEYLANG",
                     topFont: "Arial-10",
-        
+            
                     serviceNumber: "985"
-                    },
+                },
                 "TECK WHYE AVE",
                 "B. B WEST AVE 7, 2",
                 "B. B EAST AVE 2",
@@ -6570,7 +6573,7 @@ EDSData.SMRT = {
                 destination: "C. C. K INT via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "CHOA CHU KANG",
                     topFont: "ArialBold-8:2",
@@ -6578,7 +6581,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
         
                     serviceNumber: "985"
-                    },
+                },
                     "SERANGOON RD",
                     "JLN JURONG KECHIL",
                     "B.B EAST AVE 2",
@@ -6603,13 +6606,13 @@ EDSData.SMRT = {
                 destination: "CHANGI AIRPORT via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "CHANGI AIRPORT",
                     topFont: "Arial-10",
         
                     serviceNumber: "989"
-                    },
+                },
                 'TECK WHYE AVE',
                 {
                     renderType: "message",
@@ -6686,7 +6689,7 @@ EDSData.SMRT = {
                 destination: "NEW BRIDGE RD via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "NEW BRIDGE RD",
                     topFont: "ArialBold-8:2",
@@ -6694,7 +6697,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
         
                     serviceNumber: "190"
-                    },
+                },
                     'BT PANJANG RD',
                     'STEVEN ROAD',
                     'ORCHARD ROAD',
@@ -6719,7 +6722,7 @@ EDSData.SMRT = {
                 destination: "THINK SAFETY",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll2",
                     top: "THINK SAFETY. WORK SAFELY",
                     topFont: "ArialBold-8:2",
@@ -6727,7 +6730,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
         
                     serviceNumber: ""
-                    },
+                },
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -6747,7 +6750,7 @@ EDSData.SMRT = {
                 destination: "SMRT FIRST JURONG WEST BUS",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll2",
                     top: "SMRT FIRST",
                     topFont: "ArialBold-8:2",
@@ -6755,7 +6758,7 @@ EDSData.SMRT = {
                     bottomFont: "ArialBold-8:2",
         
                     serviceNumber: ""
-                    },
+                },
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -6776,40 +6779,40 @@ EDSData.SMRT = {
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
                     "UPP JURONG RD",
-                    {
+                {
                         renderType: "message",
                         text: "974",
                         font: "Arial-17",
                         spacing: 5,
                         marginTop: 1
-                    },
+                },
                     "JURONG WEST ST 64",
                     "JLN BOON LAY",
-                    {
-                        renderType: "message",
-                        text: "974",
-                        font: "Arial-17",
-                        spacing: 5,
-                        marginTop: 1
-                    },
+                {
+                    renderType: "message",
+                    text: "974",
+                    font: "Arial-17",
+                    spacing: 5,
+                    marginTop: 1
+                },
                     "JLN BAHAR",
                     "PIE, KJE",
-                    {
-                        renderType: "message",
-                        text: "974",
-                        font: "Arial-17",
-                        spacing: 5,
-                        marginTop: 1
-                    },
+                {
+                    renderType: "message",
+                    text: "974",
+                    font: "Arial-17",
+                    spacing: 5,
+                    marginTop: 1
+                },
                     "C. C. K DR, MRT",
                     "C. C. K WAY",
-                    {
-                        renderType: "message",
-                        text: "974",
-                        font: "Arial-17",
-                        spacing: 5,
-                        marginTop: 1
-                    },
+                {
+                    renderType: "message",
+                    text: "974",
+                    font: "Arial-17",
+                    spacing: 5,
+                    marginTop: 1
+                },
                 ],
                 scrollFont: "ArialBold-8:2"
             },
