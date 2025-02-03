@@ -75,7 +75,7 @@ EDSFormats['SMRT (PostSLBP)'] = {
             spacing: 1
         },
 
-        text: "$destination.text+' '+$serviceNumber"
+        text: "$serviceNumber+' '+$destination.text"
     },
     standardService2: {
         serviceNumber: {
@@ -109,7 +109,7 @@ EDSFormats['SMRT (PostSLBP)'] = {
             spacing: 1
         },
 
-        text: "$destination.text+' '+$serviceNumber"
+        text: "$serviceNumber+' '+$destination.text"
     },
     SLBPdestScroll: {
         serviceNumber: {
@@ -160,7 +160,7 @@ EDSFormats['SMRT (PostSLBP)'] = {
             }
         },
 
-        text: "$top+' '+$bottom+' '+$serviceNumber"
+        text: "$serviceNumber+' '+$top+' '+$bottom"
     },
     SLBPstandardService: {
         serviceNumber: {
@@ -194,7 +194,7 @@ EDSFormats['SMRT (PostSLBP)'] = {
             spacing: 1
         },
 
-        text: "$destination.text+' '+$serviceNumber"
+        text: "$serviceNumber+' '+$destination.text"
     },
     SpecialMRTShuttle: {
         serviceNumber: {
@@ -228,7 +228,7 @@ EDSFormats['SMRT (PostSLBP)'] = {
             spacing: 1
         },
 
-        text: "$destination.text+' '+$serviceNumber"
+        text: "$serviceNumber+' '+$destination.text"
     },
     destScroll: {
         serviceNumber: {
@@ -279,7 +279,7 @@ EDSFormats['SMRT (PostSLBP)'] = {
             }
         },
 
-        text: "$top+' '+$bottom+' '+$serviceNumber"
+        text: "$serviceNumber+' '+$top+' '+$bottom"
     },
     destScrollWithImage: {
         serviceNumber: {
@@ -1277,7 +1277,7 @@ EDSData['SMRT (PostSLBP)'] = {
     1791: {
         front: {
             renderType: "SLBPstandardService",
-            serviceNumber: "1791",
+            serviceNumber: "179",
             destination: {
                 text: "BOON LAY INT via",
                 font: "Mobitec-7:5:1"

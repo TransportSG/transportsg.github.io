@@ -31,7 +31,7 @@ EDSFormats.Sentosa = {
             spacing: 1
         },
 
-        text: "$destination.text+' '+$serviceNumber"
+        text: "$serviceNumber+' '+$destination.text"
     },
     destScroll: {
         serviceNumber: {
@@ -276,11 +276,6 @@ EDSData.Sentosa = {
                 },
                 scrolls: [
                     {
-                        renderType: "logo",
-                        image: "SentosaLogo",
-                        text: "Sentosa Logo"
-                    },
-                    {
                         renderType: "destScroll",
                         top: "Happy Lunar New Year",
                         topFont: "Mobitec-7:4",
@@ -289,6 +284,11 @@ EDSData.Sentosa = {
             
                         serviceNumber: "1",
                         svcFont: "Mobitec-SentosaIcons"
+                    },
+                    {
+                        renderType: "logo",
+                        image: "SentosaLogo",
+                        text: "Sentosa Logo"
                     },
                 ],
                 scrollFont: "Mobitec-6:5"

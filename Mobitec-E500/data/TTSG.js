@@ -36,7 +36,7 @@ EDSFormats.TTSG = {
             spacing: 1
         },
 
-        text: "$destination+' '+$serviceNumber"
+        text: "$serviceNumber+' '+$destination"
         
     },
     StandardServiceOldFont: {
