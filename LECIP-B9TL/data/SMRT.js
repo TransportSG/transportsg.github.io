@@ -5342,15 +5342,6 @@ EDSData.SMRT = {
                 destination: "SHENTON WAY via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    {
-                        renderType: "destScroll",
-                        top: "WOODLANDS",
-                        topFont: "ArialBold-8:2",
-                        bottom: "STREET 82",
-                        bottomFont: "ArialBold-8:2",
-                
-                        serviceNumber: "951E"
-                    },
                     "WDL AVE 4, 5",
                     "DHOBY GHAUT MRT",
                     "BRAS BASAH RD",
