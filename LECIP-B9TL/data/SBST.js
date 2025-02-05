@@ -9461,6 +9461,29 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "127A",
+                destination: "TAMPINES NORTH DR 1",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
+                    renderType: "swt",
+                    serviceNumber: "127A",
+                    terminateAt: "TAMPINES",
+                    landmark: "NORTH DR 1 (OPP BLK 610C)"
+                },
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "127A",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "127A",
                 destination: "TAMPINES AVE 9",
                 destinationFont: "LECIP-10",
                 scrolls: [
@@ -15227,6 +15250,50 @@ EDSData.SBST = {
             }
         }
     },
+    "315X": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "315",
+                destination: "> SERANGOON NTH AVE 5",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    'LORONG CHUAN',
+                    'SERANGOON GARDEN WAY',
+                    'SERANGOON NORTH AVE 1',
+                    'SERANGOON NORTH AVE 4',
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "315",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "315",
+                destination: "> SERANGOON INT",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    'ANG MO KIO AVE 3',
+                    'SERANGOON NORTH 1',
+                    'SERANGOON GARDEN WAY',
+                    'LORONG CHUAN'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "315",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
     317: {
         1: {
             front: {
@@ -15285,6 +15352,53 @@ EDSData.SBST = {
                 bottom: "SGN INT",
                 bottomFont: "LECIP-6:3",
                 marginBottom: "-1"
+            }
+        }
+    },
+    "315X": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "317",
+                destination: "> BERWICK DR 5",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    'UPP SERANGOON RD',
+                    'YIO CHU KANG LINK',
+                    'SERANGOON GARDEN WAY',
+                    'CHARTWELL DR',
+                    'BURGHLEY DR'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "317",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "317",
+                destination: "> SERANGOON INT",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    'TAVISTOCK AVE',
+                    'HEMSLEY AVE',
+                    'KENSINGTON PARK RD',
+                    'SERANGOON GARDEN WAY',
+                    'YIO CHU KANG LINK',
+                    'UPP SERANGOON RD'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "317",
+                font: "LECIP-20:9",
+                spacing: 2
             }
         }
     },
