@@ -159,7 +159,7 @@ EDSFormats.SBST = {
         serviceNumber: {
             align: "right",
             margin: {
-                right: 1
+                right: 0,
             },
             text: "$serviceNumber",
             font: "Mobitec-16:8",
@@ -590,12 +590,14 @@ EDSData.SBST = {
                 font: "Mobitec-7:5:2"
             },
             scrolls: [
-            {
-                renderType: "swt",
-                serviceNumber: "7A",
-                destinationRoad: "ORCHARD BLVD",
-                destinationName: "(BEF ORCHARD STN EXIT B)"
-            },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "7A",
+                    top: "TERMINATE AT ORCHARD BLVD",
+                    topFont: "Mobitec-7:4",
+                    bottom: "(BEF ORCHARD STN EXIT B)",
+                    bottomFont: "Mobitec-7:4",
+                },
             ],
             scrollFont: "Mobitec-6:5"
         }
@@ -1898,7 +1900,7 @@ EDSData.SBST = {
             {
                 renderType: "swt",
                 serviceNumber: "31A",
-                destinationRoad: "NEW U. CHANGI",
+                destinationRoad: "NW U. CHANGI",
                 destinationName: "(T.MERAH STN EXIT A)"
             },
             ],
