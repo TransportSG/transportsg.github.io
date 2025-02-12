@@ -12,7 +12,7 @@ EDSFormats.SBST = {
         destination: {
             align: "left,bottom",
             margin: {
-                left: 1
+                left: 0
             },
             text: "$destination",
             spacing: 1
@@ -20,7 +20,7 @@ EDSFormats.SBST = {
         scroll: {
             align: "left,top",
             margin: {
-                left: 1,
+                left: 0,
                 top: 1
             },
             scrolls: "$scrolls",
@@ -46,7 +46,7 @@ EDSFormats.SBST = {
         destination: {
             align: "left,bottom",
             margin: {
-                left: 1
+                left: 0
             },
             text: "$destination",
             spacing: 1
@@ -54,7 +54,7 @@ EDSFormats.SBST = {
         scroll: {
             align: "left,top",
             margin: {
-                left: 1,
+                left: 0,
                 top: 1
             },
             scrolls: "$scrolls",
@@ -3067,9 +3067,9 @@ EDSData.SBST = {
                 bottomFont: "Mobitec-7:4",
             },
             {
-                renderType: "swt",
+                renderType: "swt2",
                 serviceNumber: "59B",
-                destinationRoad: "TAMP A. 2",
+                destinationRoad: "TAMP AV. 2",
                 destinationName: "(TAMP EAST STN EXIT C)"
             },
             ],
@@ -4560,10 +4560,10 @@ EDSData.SBST = {
     },
     1021: {
         front: {
-            renderType: "standardService",
+            renderType: "standardService2",
             serviceNumber: "102",
             destination: {
-                text: "HOUGANG-SELETAR A'SPACE",
+                text: "H'GANG INT-SELETAR A'SPACE",
                 font: "Mobitec-7:4"
             },
             scrolls: [
@@ -5021,7 +5021,7 @@ EDSData.SBST = {
             },
             scrolls: [
             {
-                renderType: "swt",
+                renderType: "swt2",
                 serviceNumber: "116A",
                 destinationRoad: "S'GOON CTRL",
                 destinationName: "(S'GOON STN EXIT C)"
@@ -6164,7 +6164,7 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "142",
             destination: {
-                text: "TOA PAYOH-POTONG P. AVE 1",
+                text: "TPY INT-POTONG PASIR AV1",
                 font: "Mobitec-7:4"
             },
             scrolls: [
@@ -8379,6 +8379,23 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
+    2407: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "240M",
+            destination: {
+                text: "BOON LAY WY-JUR WEST",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+                "BOON LAY PLACE",
+                "BOON LAY DR",
+                "JURONG WEST ST 64",
+                "BOON LAY DR"
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
     2411: {
         front: {
             renderType: "standardService",
@@ -9173,7 +9190,7 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "315",
             destination: {
-                text: "> SERANGOON NTH AVE 5",
+                text: "> SERANGOON NTH AVE5",
                 font: "Mobitec-7:5:2"
             },
             scrolls: [
@@ -10589,6 +10606,43 @@ EDSData.SBST = {
                 "JURONG TOWN HALL RD",
                 "BUKIT BATOK WEST AVE 8",
                 "BUKIT BATOK RD"
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    "9998T": {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "49",
+            destination: {
+                text: "TAMAN JUR TER-JUR W ST 41",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+                'CORPORATION DR',
+                'BOON LAY WAY',
+                {
+                    renderType: "message",
+                    text: "49",
+                    font: "Mobitec-16:8",
+                    spacing: 5
+                },
+                'JURONG WEST ST 51',
+                'JURONG WEST ST 42',
+                {
+                    renderType: "message",
+                    text: "49",
+                    font: "Mobitec-16:8",
+                    spacing: 5
+                },
+                'JURONG WEST ST 41',
+                'BOON LAY WAY',
+                {
+                    renderType: "message",
+                    text: "49",
+                    font: "Mobitec-16:8",
+                    spacing: 5
+                },
             ],
             scrollFont: "Mobitec-6:5"
         }

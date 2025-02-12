@@ -14011,7 +14011,10 @@ EDSData.SBST = {
                 destination: "BOON LAY WY-JUR W.64",
                 destinationFont: "LECIP-6:3",
                 scrolls: [
-                    "JURONG W ST 64"
+                    "BOON LAY PLACE",
+                    "BOON LAY DR",
+                    "JURONG WEST ST 64",
+                    "BOON LAY DR"
                 ],
                 scrollFont: "LECIP-6:3"
             },
