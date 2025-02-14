@@ -427,6 +427,21 @@ EDSData['CWL (JB Area)'] = {
             ]
         }
     },
+    "2FC": {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "FC2",
+            destination: "FOREST CITY",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "FC2",
+                    top: "FOREST CITY",
+                    topFont: "Tongda-16:7",
+                },
+            ]
+        }
+    },
     "2JPO": {
         front: {
             renderType: "standardService",

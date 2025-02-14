@@ -2094,7 +2094,7 @@ EDSData['SMRT (PostSLBP)'] = {
                 "JURONG WEST AVE 4",
                 "JURONG WEST ST 62",
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "Mobitec-7:5:1"
         }
     },
     2432: {
@@ -2112,7 +2112,7 @@ EDSData['SMRT (PostSLBP)'] = {
                 "JURONG WEST ST 75",
                 "JURONG WEST ST 64",
             ],
-            scrollFont: "Mobitec-7:4"
+            scrollFont: "Mobitec-7:5:1"
         }
     },
     2461: {
