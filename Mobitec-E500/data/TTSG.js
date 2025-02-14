@@ -7055,6 +7055,31 @@ EDSData.TTSG = {
             ]
         }
     },
+    8713: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: "871A BUKIT BATOK EAST AVE 2",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "871A",
+                    top: "Ends At",
+                    topFont: "Mobitec-7:5:3",
+                    bottom: "Bukit Batok East Ave 2",
+                    bottomFont: "Mobitec-Tower6:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "871A",
+                    top: "Ends At",
+                    topFont: "Mobitec-7:5:3",
+                    bottom: "(Blk 240)",
+                    bottomFont: "Mobitec-Tower6:4",
+                }
+            ]
+        }
+    },
     8821: {
         front: {
             renderType: "standardService",
