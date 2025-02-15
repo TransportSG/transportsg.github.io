@@ -5915,7 +5915,7 @@ EDSData.SMRT = {
                     serviceNumber: "970"
                 },
                     "NEW BRIDGE RD",
-                    "CWEALTH AVE",
+                    "C'WEALTH AVE",
                     "UPP BT TIMAH RD",
                     "JLN JUR KECHIL",
                     "HILLVIEW RD",
@@ -6040,7 +6040,7 @@ EDSData.SMRT = {
                 },     
                 {
                     renderType: "destScroll",
-                    top: "SHENTON WAY via",
+                    top: "BT PANJANG via",
                     topFont: "ArialBold-8:2",
                     bottom: "COMMONWEALTH AVE",
                     bottomFont: "Arial-8",

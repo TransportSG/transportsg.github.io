@@ -8273,7 +8273,7 @@ EDSData.TTSG = {
                 "CHOA CHU KANG MRT",
                 "CHOA CHU KANG WAY",
                 {
-                    renderType: "destScroll",
+                    renderType: "destScrollOldFont",
                     serviceNumber: "974",
                     top: "Welcome on board",
                     topFont: "Hanover-7:3",
@@ -8282,7 +8282,7 @@ EDSData.TTSG = {
                     image: "logo"
                 },
                 {
-                    renderType: "destScroll",
+                    renderType: "destScrollOldFont",
                     serviceNumber: "974",
                     top: "Have a pleasant",
                     topFont: "Hanover-7:3",
@@ -8291,7 +8291,7 @@ EDSData.TTSG = {
                     image: "logo"
                 },
                 {
-                    renderType: "destScroll",
+                    renderType: "destScrollOldFont",
                     serviceNumber: "974",
                     top: "BUKIT PANJANG",
                     image: "mrt"
@@ -8311,7 +8311,7 @@ EDSData.TTSG = {
                 "JURONG WEST ST 63",
                 "UPP JURONG RD",
                 {
-                    renderType: "destScroll",
+                    renderType: "destScrollOldFont",
                     serviceNumber: "974",
                     top: "Welcome on board",
                     topFont: "Hanover-7:3",
@@ -8320,7 +8320,7 @@ EDSData.TTSG = {
                     image: "logo"
                 },
                 {
-                    renderType: "destScroll",
+                    renderType: "destScrollOldFont",
                     serviceNumber: "974",
                     top: "Have a pleasant",
                     topFont: "Hanover-7:3",
@@ -8329,7 +8329,7 @@ EDSData.TTSG = {
                     image: "logo"
                 },
                 {
-                    renderType: "destScroll",
+                    renderType: "destScrollOldFont",
                     serviceNumber: "974",
                     top: "JOO KOON",
                     image: "mrt"

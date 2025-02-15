@@ -3,7 +3,7 @@ EDSFormats.GASG = {
         serviceNumber: {
             align: "right",
             margin: {
-                right: 1
+                right: 0
             },
             text: "$serviceNumber",
             font: "Mobitec-GoAhead16:10",
@@ -36,7 +36,7 @@ EDSFormats.GASG = {
         serviceNumber: {
             align: "right",
             margin: {
-                right: 1
+                right: 0
             },
             text: "$serviceNumber",
             font: "Mobitec-GoAhead16:10",
@@ -97,7 +97,7 @@ EDSFormats.GASG = {
         serviceNumber: {
             align: "right",
             margin: {
-                right: 1
+                right: 0
             },
             text: "$serviceNumber",
             font: "Mobitec-GoAhead16:10",
@@ -1235,31 +1235,31 @@ EDSData.GASG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "`43e",
-                    top: "MARINE PARADE",
-                    topFont: "Mobitec-7:5:1",
+                    top: "PUNGGOL",
+                    topFont: "Mobitec-7:7",
                     bottom: "PAYA LEBAR RD",
                     bottomFont: "Mobitec-7:4",
                 },
                 {
                     renderType: "destScroll",
                     serviceNumber: "`43e",
-                    top: "MARINE PARADE",
-                    topFont: "Mobitec-7:5:1",
+                    top: "PUNGGOL",
+                    topFont: "Mobitec-7:7",
                     bottom: "KPE (EXPRESS)",
                     bottomFont: "Mobitec-7:4",
                 },
                 {
                     renderType: "destScroll",
                     serviceNumber: "`43e",
-                    top: "MARINE PARADE",
-                    topFont: "Mobitec-7:5:1",
+                    top: "PUNGGOL",
+                    topFont: "Mobitec-7:7",
                     bottom: "BUANGKOK MRT",
                     bottomFont: "Mobitec-7:4",
                 },                {
                     renderType: "destScroll",
                     serviceNumber: "`43e",
-                    top: "MARINE PARADE",
-                    topFont: "Mobitec-7:5:1",
+                    top: "PUNGGOL",
+                    topFont: "Mobitec-7:7",
                     bottom: "SENGKANG EAST RD",
                     bottomFont: "Mobitec-7:4",
                 },
@@ -1688,6 +1688,7 @@ EDSData.GASG = {
                     serviceNumber: "84A",
                     top: "TERMINATING AT",
                     bottom: "NEW PUNGGOL RD",
+                    bottomFont: "Mobitec-7:7"
                 },
                 {
                     renderType: "destScroll",

@@ -5036,6 +5036,16 @@ EDSData['SMRT (PostSLBP)'] = {
             bottomFont: "Mobitec-7:5:2"
         }
     },
+    9915: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "991C",
+            top: "ENDS AT",
+            bottom: "BUKIT GOMBAK MRT",
+            topFont: "Mobitec-7:5:2", // sic
+            bottomFont: "Mobitec-7:5:1"
+        }
+    },
     9990: {
         front: {
             renderType: "destScroll",

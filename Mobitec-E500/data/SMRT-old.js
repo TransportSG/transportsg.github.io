@@ -47,7 +47,7 @@ EDSFormats['SMRT (PreSLBP)'] = {
         serviceNumber: {
             align: "right",
             margin: {
-                right: 1
+                right: 0
             },
             text: "$serviceNumber",
             font: "Mobitec-16:8",
@@ -98,7 +98,7 @@ EDSFormats['SMRT (PreSLBP)'] = {
         serviceNumber: {
             align: "right",
             margin: {
-                right: 1
+                right: 0
             },
             text: "$serviceNumber",
             font: "Mobitec-16:8",
@@ -132,7 +132,7 @@ EDSFormats['SMRT (PreSLBP)'] = {
         serviceNumber: {
             align: "right",
             margin: {
-                right: 1
+                right: 0
             },
             text: "$serviceNumber",
             font: "Mobitec-16:8",
@@ -166,7 +166,7 @@ EDSFormats['SMRT (PreSLBP)'] = {
         serviceNumber: {
             align: "right",
             margin: {
-                right: 1
+                right: 0
             },
             text: "$serviceNumber",
             font: "Mobitec-16:8",
@@ -200,7 +200,7 @@ EDSFormats['SMRT (PreSLBP)'] = {
         serviceNumber: {
             align: "right",
             margin: {
-                right: 1
+                right: 0
             },
             text: "$serviceNumber",
             font: "Mobitec-16:8",
@@ -234,7 +234,7 @@ EDSFormats['SMRT (PreSLBP)'] = {
         serviceNumber: {
             align: "right",
             margin: {
-                right: 1
+                right: 0
             },
             text: "$serviceNumber",
             font: "Mobitec-16:8",
@@ -285,7 +285,7 @@ EDSFormats['SMRT (PreSLBP)'] = {
         serviceNumber: {
             align: "right",
             margin: {
-                right: 1
+                right: 0
             },
             text: "$serviceNumber",
             font: "Mobitec-16:8",
@@ -346,7 +346,7 @@ EDSFormats['SMRT (PreSLBP)'] = {
         serviceNumber: {
             align: "right",
             margin: {
-                right: 1
+                right: 0
             },
             text: "$serviceNumber",
             font: "Mobitec-16:8",
@@ -1235,11 +1235,26 @@ EDSData['SMRT (PreSLBP)'] = {
                 },
                 {
                     renderType: "destScroll",
-                    top: "MERRY CHRISTMAS",
-                    topFont: "Mobitec-7:7",
+                    top: "Data until Sep 2024 (Jurong West",
+                    topFont: "Mobitec-7:4",
         
-                    bottom: "HAPPY NEW YEAR",
-                    bottomFont: "Mobitec-7:7",
+                    bottom: "package data not included yet)",
+                    bottomFont: "Mobitec-7:4",
+        
+                    serviceNumber: ""
+                },
+                {
+                    renderType: "logo",
+                    image: "logo",
+                    text: "SMRT LOGO"
+                },
+                {
+                    renderType: "destScroll",
+                    top: "Data until Sep 2024 (Jurong West",
+                    topFont: "Mobitec-7:4",
+        
+                    bottom: "package data not included yet)",
+                    bottomFont: "Mobitec-7:4",
         
                     serviceNumber: ""
                 },
@@ -11688,7 +11703,7 @@ EDSData['SMRT (PreSLBP)'] = {
                     renderType: "950AncientFormat",
                     serviceNumber: "950",
                     top: "       KOTARAYA II TER /",
-                    bottom: "JOHORE BAHRU            ",
+                    bottom: " JOHORE BAHRU            ",
                     topFont: "Mobitec-7:5:2",
                     bottomFont: "Mobitec-7:5:2"
                 },
@@ -11696,7 +11711,7 @@ EDSData['SMRT (PreSLBP)'] = {
                     renderType: "950AncientFormat",
                     serviceNumber: "950",
                     top: "       KOTARAYA II TER via",
-                    bottom: "WDL CENTRE RD          ",
+                    bottom: " WDL CENTRE RD          ",
                     topFont: "Mobitec-7:5:2",
                     bottomFont: "Mobitec-7:5:2"
                 },
@@ -11704,7 +11719,7 @@ EDSData['SMRT (PreSLBP)'] = {
                     renderType: "950AncientFormat",
                     serviceNumber: "950",
                     top: "       KOTARAYA II TER via",
-                    bottom: "WOODLANDS CROSSING          ",
+                    bottom: ". WOODLANDS CROSSING          ",
                     topFont: "Mobitec-7:5:2",
                     bottomFont: "Mobitec-7:4"
                 },
@@ -11725,7 +11740,7 @@ EDSData['SMRT (PreSLBP)'] = {
                     renderType: "950AncientFormat",
                     serviceNumber: "950",
                     top: "       WOODLANDS INT /",
-                    bottom: "SINGAPORE                ",
+                    bottom: " SINGAPORE                ",
                     topFont: "Mobitec-7:5:2",
                     bottomFont: "Mobitec-7:5:2"
                 },
@@ -11733,7 +11748,7 @@ EDSData['SMRT (PreSLBP)'] = {
                     renderType: "950AncientFormat",
                     serviceNumber: "950",
                     top: "       WOODLANDS INT via",
-                    bottom: "WOODLANDS CROSSING          ",
+                    bottom: ". WOODLANDS CROSSING          ",
                     topFont: "Mobitec-7:5:2",
                     bottomFont: "Mobitec-7:4"
                 },
@@ -11741,7 +11756,7 @@ EDSData['SMRT (PreSLBP)'] = {
                     renderType: "950AncientFormat",
                     serviceNumber: "950",
                     top: "       WOODLANDS INT via",
-                    bottom: "   WDL TRAIN CHECKPOINT          ",
+                    bottom: " ... WDL TRAIN CHECKPOINT          ",
                     topFont: "Mobitec-7:5:2",
                     bottomFont: "Mobitec-7:4"
                 },
@@ -11749,7 +11764,7 @@ EDSData['SMRT (PreSLBP)'] = {
                     renderType: "950AncientFormat",
                     serviceNumber: "950",
                     top: "       WOODLANDS INT via",
-                    bottom: "WDL CENTRE RD          ",
+                    bottom: "..WDL CENTRE RD          ",
                     topFont: "Mobitec-7:5:2",
                     bottomFont: "Mobitec-7:5:2"
                 },
@@ -11757,7 +11772,7 @@ EDSData['SMRT (PreSLBP)'] = {
                     renderType: "950AncientFormat",
                     serviceNumber: "950",
                     top: "       WOODLANDS INT via",
-                    bottom: "   WOODLANDS AVE 3          ",
+                    bottom: "....WOODLANDS AVE 3        ",
                     topFont: "Mobitec-7:5:2",
                     bottomFont: "Mobitec-7:5:2"
                 },
