@@ -177,7 +177,7 @@ EDSFormats['SMRT (PostSLBP)'] = {
             margin: {
                 right: 'width(serviceNumber)'
             },
-            text: "$destination.text",
+            text: "$destination.text+' via'",
             font: "$destination.font",
             spacing: 1
         },
@@ -1279,7 +1279,7 @@ EDSData['SMRT (PostSLBP)'] = {
             renderType: "SLBPstandardService",
             serviceNumber: "179",
             destination: {
-                text: "BOON LAY INT via",
+                text: "BOON LAY INT",
                 font: "Mobitec-7:5:1"
             },
             scrolls: [
@@ -1379,7 +1379,7 @@ EDSData['SMRT (PostSLBP)'] = {
             renderType: "SLBPstandardService",
             serviceNumber: "181",
             destination: {
-                text: "BOON LAY INT via",
+                text: "BOON LAY INT",
                 font: "Mobitec-7:5:1"
             },
             scrolls: [
@@ -1396,7 +1396,7 @@ EDSData['SMRT (PostSLBP)'] = {
             renderType: "SLBPstandardService",
             serviceNumber: "181M",
             destination: {
-                text: "BOON LAY INT via",
+                text: "BOON LAY INT",
                 font: "Mobitec-7:5:1"
             },
             scrolls: [
@@ -1414,7 +1414,7 @@ EDSData['SMRT (PostSLBP)'] = {
             renderType: "SLBPstandardService",
             serviceNumber: "182",
             destination: {
-                text: "TUAS STH AVE 4 via",
+                text: "TUAS STH AVE 4",
                 font: "Mobitec-7:5:1"
             },
             scrolls: [
@@ -1433,7 +1433,7 @@ EDSData['SMRT (PostSLBP)'] = {
             renderType: "SLBPstandardService",
             serviceNumber: "182",
             destination: {
-                text: "JOO KOON INT via",
+                text: "JOO KOON INT",
                 font: "Mobitec-7:5:1"
             },
             scrolls: [
@@ -1451,7 +1451,7 @@ EDSData['SMRT (PostSLBP)'] = {
             renderType: "SLBPstandardService",
             serviceNumber: "182M",
             destination: {
-                text: "TUAS STH AVE 4 via",
+                text: "TUAS STH AVE 4",
                 font: "Mobitec-7:5:1"
             },
             scrolls: [
@@ -1469,7 +1469,7 @@ EDSData['SMRT (PostSLBP)'] = {
             renderType: "SLBPstandardService",
             serviceNumber: "182M",
             destination: {
-                text: "JOO KOON INT via",
+                text: "JOO KOON INT",
                 font: "Mobitec-7:5:1"
             },
             scrolls: [
@@ -1550,7 +1550,7 @@ EDSData['SMRT (PostSLBP)'] = {
             renderType: "SLBPstandardService",
             serviceNumber: "185",
             destination: {
-                text: "BUONA VISTA TER via",
+                text: "BUONA VISTA TER",
                 font: "Mobitec-7:5:1"
             },
             scrolls: [
@@ -1570,7 +1570,7 @@ EDSData['SMRT (PostSLBP)'] = {
             renderType: "SLBPstandardService",
             serviceNumber: "185",
             destination: {
-                text: "SOON LEE DEPOT via",
+                text: "SOON LEE DEPOT",
                 font: "Mobitec-7:5:1"
             },
             scrolls: [
@@ -1896,7 +1896,7 @@ EDSData['SMRT (PostSLBP)'] = {
             renderType: "SLBPstandardService",
             serviceNumber: "192",
             destination: {
-                text: "TUAS TER via",
+                text: "TUAS TER",
                 font: "Mobitec-7:5:1"
             },
             scrolls: [
@@ -1913,7 +1913,7 @@ EDSData['SMRT (PostSLBP)'] = {
             renderType: "SLBPstandardService",
             serviceNumber: "192",
             destination: {
-                text: "BOON LAY INT via",
+                text: "BOON LAY INT",
                 font: "Mobitec-7:5:1"
             },
             scrolls: [
@@ -1930,7 +1930,7 @@ EDSData['SMRT (PostSLBP)'] = {
             renderType: "SLBPstandardService",
             serviceNumber: "193",
             destination: {
-                text: "TUAS TER via",
+                text: "TUAS TER",
                 font: "Mobitec-7:5:1"
             },
             scrolls: [
@@ -1949,7 +1949,7 @@ EDSData['SMRT (PostSLBP)'] = {
             renderType: "SLBPstandardService",
             serviceNumber: "193",
             destination: {
-                text: "BOON LAY INT via",
+                text: "BOON LAY INT",
                 font: "Mobitec-7:5:1"
             },
             scrolls: [
@@ -1988,7 +1988,7 @@ EDSData['SMRT (PostSLBP)'] = {
             renderType: "SLBPstandardService",
             serviceNumber: "199",
             destination: {
-                text: "BOON LAY INT via",
+                text: "BOON LAY INT",
                 font: "Mobitec-7:5:1"
             },
             scrolls: [
@@ -2006,7 +2006,7 @@ EDSData['SMRT (PostSLBP)'] = {
             renderType: "SLBPstandardService",
             serviceNumber: "240",
             destination: {
-                text: "BOON LAY INT via",
+                text: "BOON LAY INT",
                 font: "Mobitec-7:5:1"
             },
             scrolls: [
@@ -2034,7 +2034,7 @@ EDSData['SMRT (PostSLBP)'] = {
             renderType: "SLBPstandardService",
             serviceNumber: "240M",
             destination: {
-                text: "BOON LAY INT via",
+                text: "LAKESIDE MRT",
                 font: "Mobitec-7:5:1"
             },
             scrolls: [
@@ -2050,7 +2050,7 @@ EDSData['SMRT (PostSLBP)'] = {
             renderType: "SLBPstandardService",
             serviceNumber: "241",
             destination: {
-                text: "BOON LAY INT via",
+                text: "BOON LAY INT",
                 font: "Mobitec-7:5:1"
             },
             scrolls: [
@@ -2067,7 +2067,7 @@ EDSData['SMRT (PostSLBP)'] = {
             renderType: "SLBPstandardService",
             serviceNumber: "242",
             destination: {
-                text: "BOON LAY INT via",
+                text: "BOON LAY INT",
                 font: "Mobitec-7:5:1"
             },
             scrolls: [
@@ -2084,7 +2084,7 @@ EDSData['SMRT (PostSLBP)'] = {
             renderType: "SLBPstandardService",
             serviceNumber: "243G",
             destination: {
-                text: "BOON LAY INT via",
+                text: "BOON LAY INT",
                 font: "Mobitec-7:5:1"
             },
             scrolls: [
@@ -2102,7 +2102,7 @@ EDSData['SMRT (PostSLBP)'] = {
             renderType: "SLBPstandardService",
             serviceNumber: "243W",
             destination: {
-                text: "BOON LAY INT via",
+                text: "BOON LAY INT",
                 font: "Mobitec-7:5:1"
             },
             scrolls: [
@@ -2120,7 +2120,7 @@ EDSData['SMRT (PostSLBP)'] = {
             renderType: "SLBPstandardService",
             serviceNumber: "246",
             destination: {
-                text: "BOON LAY INT via",
+                text: "BOON LAY INT",
                 font: "Mobitec-7:5:1"
             },
             scrolls: [
@@ -2139,7 +2139,7 @@ EDSData['SMRT (PostSLBP)'] = {
             renderType: "SLBPstandardService",
             serviceNumber: "247",
             destination: {
-                text: "TUAS TER via",
+                text: "TUAS TER",
                 font: "Mobitec-7:5:1"
             },
             scrolls: [
@@ -2158,7 +2158,7 @@ EDSData['SMRT (PostSLBP)'] = {
             renderType: "SLBPstandardService",
             serviceNumber: "248",
             destination: {
-                text: "TUAS TER via",
+                text: "TUAS TER",
                 font: "Mobitec-7:5:1"
             },
             scrolls: [
@@ -2175,7 +2175,7 @@ EDSData['SMRT (PostSLBP)'] = {
             renderType: "SLBPstandardService",
             serviceNumber: "248M",
             destination: {
-                text: "TUAS TER via",
+                text: "TUAS TER",
                 font: "Mobitec-7:5:1"
             },
             scrolls: [
@@ -2193,7 +2193,7 @@ EDSData['SMRT (PostSLBP)'] = {
             renderType: "SLBPstandardService",
             serviceNumber: "249",
             destination: {
-                text: "BOON LAY INT via",
+                text: "BOON LAY INT",
                 font: "Mobitec-7:5:1"
             },
             scrolls: [
@@ -2221,7 +2221,7 @@ EDSData['SMRT (PostSLBP)'] = {
             renderType: "SLBPstandardService",
             serviceNumber: "251",
             destination: {
-                text: "BOON LAY INT via",
+                text: "BOON LAY INT",
                 font: "Mobitec-7:5:1"
             },
             scrolls: [
@@ -2238,7 +2238,7 @@ EDSData['SMRT (PostSLBP)'] = {
             renderType: "SLBPstandardService",
             serviceNumber: "252",
             destination: {
-                text: "BOON LAY INT via",
+                text: "BOON LAY INT",
                 font: "Mobitec-7:5:1"
             },
             scrolls: [
@@ -2255,7 +2255,7 @@ EDSData['SMRT (PostSLBP)'] = {
             renderType: "SLBPstandardService",
             serviceNumber: "253",
             destination: {
-                text: "JOO KOON INT via",
+                text: "JOO KOON INT",
                 font: "Mobitec-7:5:1"
             },
             scrolls: [
@@ -2271,7 +2271,7 @@ EDSData['SMRT (PostSLBP)'] = {
             renderType: "SLBPstandardService",
             serviceNumber: "254",
             destination: {
-                text: "JOO KOON INT via",
+                text: "JOO KOON INT",
                 font: "Mobitec-7:5:1"
             },
             scrolls: [
@@ -2288,7 +2288,7 @@ EDSData['SMRT (PostSLBP)'] = {
             renderType: "SLBPstandardService",
             serviceNumber: "255",
             destination: {
-                text: "JOO KOON INT via",
+                text: "JOO KOON INT",
                 font: "Mobitec-7:5:1"
             },
             scrolls: [
@@ -2304,7 +2304,7 @@ EDSData['SMRT (PostSLBP)'] = {
             renderType: "SLBPstandardService",
             serviceNumber: "257",
             destination: {
-                text: "JOO KOON INT via",
+                text: "JOO KOON INT",
                 font: "Mobitec-7:5:1"
             },
             scrolls: [
@@ -2322,7 +2322,7 @@ EDSData['SMRT (PostSLBP)'] = {
             renderType: "SLBPstandardService",
             serviceNumber: "258",
             destination: {
-                text: "JOO KOON INT via",
+                text: "JOO KOON INT",
                 font: "Mobitec-7:5:1"
             },
             scrolls: [
@@ -2558,7 +2558,7 @@ EDSData['SMRT (PostSLBP)'] = {
             renderType: "SLBPstandardService",
             serviceNumber: "405",
             destination: {
-                text: "BOON LAY INT via",
+                text: "BOON LAY INT",
                 font: "Mobitec-7:5:1"
             },
             scrolls: [
@@ -2577,7 +2577,7 @@ EDSData['SMRT (PostSLBP)'] = {
             renderType: "SLBPstandardService",
             serviceNumber: "405M",
             destination: {
-                text: "BOON LAY INT via",
+                text: "BOON LAY INT",
                 font: "Mobitec-7:5:1"
             },
             scrolls: [
@@ -4619,7 +4619,7 @@ EDSData['SMRT (PostSLBP)'] = {
             renderType: "SLBPstandardService",
             serviceNumber: "974",
             destination: {
-                text: "BUKIT PANJANG via",
+                text: "BUKIT PANJANG",
                 font: "Mobitec-7:5:3"
             },
             scrolls: [
@@ -4634,11 +4634,11 @@ EDSData['SMRT (PostSLBP)'] = {
     },
     9742: {
         front: {
-            renderType: "standardService",
+            renderType: "SLBPstandardService",
             serviceNumber: "974",
             destination: {
-                text: "JOO KOON INT via",
-                font: "Mobitec-7:7"
+                text: "JOO KOON INT",
+                font: "Mobitec-7:5:3"
             },
             scrolls: [
                 "CHOA CHU KANG WAY",
