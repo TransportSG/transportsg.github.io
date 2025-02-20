@@ -3175,11 +3175,33 @@ EDSData.GASG = {
             scrollFont: "Mobitec-7:4"
         }
     },
-    9000: {
+    64000: {
         front: {
-            renderType: 'message',
-            text: 'On Charter',
-            font: 'Mobitec-13:8',
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Format Test",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "~999",
+                    top: "PUNGGOL CTRL",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "SHENTON WAY",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "~999",
+                    top: "PUNGGOL POINT LRT",
+                    topFont: "Mobitec-7:4:3",
+                    bottom: "PUNGGOL FIELD / WAY",
+                    bottomFont: "Mobitec-5:3",
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
         }
     },
     9998: {
