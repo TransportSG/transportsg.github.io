@@ -156,6 +156,67 @@ EDSFormats.GASG = {
         text: "$top+' '+$bottom+' '+$serviceNumber"
         
     },
+    destScroll3: { // New CDS/Express format (same as 43e) for some svc
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 0
+            },
+            text: "$serviceNumber",
+            font: "Mobitec-GoAhead16:10",
+            spacing: 2
+        },
+        top: {
+            align: {
+                $$cond: {
+                    "$bottom === null": "centre-x,centre-y",
+                    "else": "centre-x,top"
+                }
+            },
+            text: "$top",
+            font: {
+                $$cond: {
+                    "$topFont === null": "Mobitec-7:4:3",
+                    "else": "$topFont"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber) - width(image)'
+            }
+        },
+        bottom: {
+            align: "centre-x,bottom",
+            text: {
+                $$cond: {
+                    "$bottom !== null": "$bottom",
+                    "else": "''"
+                }
+            },
+            font: {
+                $$cond: {
+                    "$bottomFont === null": "Mobitec-5:3",
+                    "else": "$bottomFont"
+                }
+            },
+            spacing: 1,
+            margin: {
+                bottom: "1"
+            }
+        },
+        image: {
+            align: "left",
+            image: {
+                $$cond: {
+                    "$image !== null": "$image",
+                    "else": "blank"
+                }
+            }
+        },
+
+        text: "$top+' '+$bottom+' '+$serviceNumber"
+        
+    },
     ImageScroll: {
         image: {
             align: "centre-x,centre-y",
@@ -681,7 +742,7 @@ EDSData.GASG = {
             scrollFont: "Mobitec-7:4"
         }
     },
-    152: { // Done
+    152: { 
         front: {
             renderType: "standardService",
             serviceNumber: "15",
@@ -732,9 +793,11 @@ EDSData.GASG = {
                     bottom: "OPP EUNOS MRT",
                 },
                 "PASIR RIS ST 52",
-                "TAMPINES AVE 4 / 5",
-                "TAMPINES AVE 1",
-                "KAKI BUKIT AVE 1",
+                "PASIR RIS DR 1 / 8",
+                "TAMPINES AVE 12 / 7 / 4",
+                "TAMPINES 5 / 1",
+                "TAMPINES WEST MRT",
+                "KAKI BUKIT AVE 1 / MRT",
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -810,7 +873,8 @@ EDSData.GASG = {
                     renderType: "destScroll",
                     serviceNumber: "17A",
                     top: "TERMINATING AT",
-                    bottom: "SBST BDK NTH DEPOT",
+                    bottom: "SBST BEDOK NTH DEPOT",
+                    bottomFont: "Mobitec-7:4"
                 },
                 "BEDOK NORTH AVE 1",
                 "BEDOK NORTH RD",
@@ -967,9 +1031,9 @@ EDSData.GASG = {
                 },
                 "ORCHARD RD",
                 "BRAS BASAH RD",
-                "SUNTEC CITY",
+                "PROMENADE MRT", // Fomerly Suntec City
                 "MARINE PARADE RD",
-                "SIGLAP RD / LINK"
+                "TERMINAL 3 / 1 / 2 / 4"
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -989,12 +1053,12 @@ EDSData.GASG = {
                     top: "TERMINATING AT",
                     bottom: "TOMLINSON RD",
                 },
-                "MARINE PARADE",
-                "SUNTEC CITY",
-                "STAMFORD RD",
-                "PENANG RD",
-                "SOMERSET RD",
-                "ORCHARD BOULEVARD",
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "36A",
+                    top: "TERMINATING AT",
+                    bottom: "AFT CAUSCADEN RD",
+                },
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -1018,18 +1082,9 @@ EDSData.GASG = {
                     renderType: "destScroll",
                     serviceNumber: "36B",
                     top: "TERMINATING AT",
-                    bottom: "OPP MANDARIN GDNS",
-                },
-                "MARINE PARADE",
-                "SUNTEC CITY",
-                "STAMFORD RD",
-                "PENANG RD",
-                "SOMERSET RD",
-                "ORCHARD BOULEVARD",
-                "TOMLINSON RD",
-                "ORCHARD RD",
-                "SUNTEC CITY",
-                "MARINE PARADE RD"  
+                    bottom: "BEF SEASIDE RESIDENCE",
+                    bottomFont: "Mobitec-7:4"
+                }, 
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -1122,7 +1177,7 @@ EDSData.GASG = {
             serviceNumber: "43e",
             destination: {
                 text: "MARINE PARADE",
-                font: "Mobitec-7:7"
+                font: "Mobitec-7:4"
             },
             scrolls: [
                 {
@@ -1133,76 +1188,76 @@ EDSData.GASG = {
                     image: "express",
                 },
                 {
-                renderType: "destScroll",
-                serviceNumber: "43e",
-                top: "TERMINATING AT",
-                topFont: "Mobitec-7:5:2",
-                bottom: "MARINE PDE STN EXIT 4 ",
-                bottomFont: "Mobitec-7:4",
+                    renderType: "destScroll",
+                    serviceNumber: "43e",
+                    top: "TERMINATING AT",
+                    topFont: "Mobitec-7:5:2",
+                    bottom: "MARINE PDE STN EXIT 4",
+                    bottomFont: "Mobitec-7:4",
                 },
                 {
                     renderType: "destScroll",
                     serviceNumber: "`43e",
-                    top: "MARINE PARADE",
-                    topFont: "Mobitec-7:5:1",
+                    top: "MARINE PDE MRT",
+                    topFont: "Mobitec-7:4:3",
                     bottom: "PUNGGOL WAY",
-                    bottomFont: "Mobitec-7:4",
+                    bottomFont: "Mobitec-5:3",
                 },
                 {
                     renderType: "destScroll",
                     serviceNumber: "`43e",
-                    top: "MARINE PARADE",
-                    topFont: "Mobitec-7:5:1",
+                    top: "MARINE PDE MRT",
+                    topFont: "Mobitec-7:4:3",
                     bottom: "SENGKANG EAST RD",
-                    bottomFont: "Mobitec-7:4",
+                    bottomFont: "Mobitec-5:3",
                 },
                 {
                     renderType: "destScroll",
                     serviceNumber: "`43e",
-                    top: "MARINE PARADE",
-                    topFont: "Mobitec-7:5:1",
-                    bottom: "BUANGKOK MRT / DR",
-                    bottomFont: "Mobitec-7:4",
+                    top: "MARINE PDE MRT",
+                    topFont: "Mobitec-7:4:3",
+                    bottom: "BUANGKOK MRT",
+                    bottomFont: "Mobitec-5:3",
                 },
                 {
                     renderType: "destScroll",
                     serviceNumber: "`43e",
-                    top: "MARINE PARADE",
-                    topFont: "Mobitec-7:5:1",
+                    top: "MARINE PDE MRT",
+                    topFont: "Mobitec-7:4:3",
                     bottom: "KPE (EXPRESS)",
-                    bottomFont: "Mobitec-7:4",
+                    bottomFont: "Mobitec-5:3",
                 },
                 {
                     renderType: "destScroll",
                     serviceNumber: "`43e",
-                    top: "MARINE PARADE",
-                    topFont: "Mobitec-7:5:1",
+                    top: "MARINE PDE MRT",
+                    topFont: "Mobitec-7:4:3",
                     bottom: "AIRPORT RD",
-                    bottomFont: "Mobitec-7:4",
+                    bottomFont: "Mobitec-5:3",
                 },
                 {
                     renderType: "destScroll",
                     serviceNumber: "`43e",
-                    top: "MARINE PARADE",
-                    topFont: "Mobitec-7:5:1",
-                    bottom: "MACPHERSON RD",
-                    bottomFont: "Mobitec-7:4",
+                    top: "MARINE PDE MRT",
+                    topFont: "Mobitec-7:4:3",
+                    bottom: "MACPHERSON MRT",
+                    bottomFont: "Mobitec-5:3",
                 },
                 {
                     renderType: "destScroll",
                     serviceNumber: "`43e",
-                    top: "MARINE PARADE",
-                    topFont: "Mobitec-7:5:1",
+                    top: "MARINE PDE MRT",
+                    topFont: "Mobitec-7:4:3",
                     bottom: "PAYA LEBAR RD",
-                    bottomFont: "Mobitec-7:4",
+                    bottomFont: "Mobitec-5:3",
                 },
                 {
                     renderType: "destScroll",
                     serviceNumber: "`43e",
-                    top: "MARINE PARADE",
-                    topFont: "Mobitec-7:5:1",
-                    bottom: "TANJONG KATONG RD",
-                    bottomFont: "Mobitec-7:4",
+                    top: "MARINE PDE MRT",
+                    topFont: "Mobitec-7:4:3",
+                    bottom: "TG KATONG RD",
+                    bottomFont: "Mobitec-5:3",
                 },
             ],
             scrollFont: "Mobitec-7:4"
@@ -1895,11 +1950,12 @@ EDSData.GASG = {
                     renderType: "destScroll",
                     serviceNumber: "118A",
                     top: "TERMINATING AT",
-                    bottom: "ITE COLL E. ADM BLK"
+                    bottom: "ITE COLL EAST ADM BLK",
+                    bottomFont: "Mobitec-7:4",
                 },
-                "PUNGGOL WAY",
-                "TPE",
-                "TAMPINES AVE 10 / 8 / 1",
+                "TAMPINES AVE 10",
+                "TAMPINES AVE 8 / 1",
+                "TAMPINES WEST MRT",
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -1917,7 +1973,9 @@ EDSData.GASG = {
                     renderType: "destScroll",
                     serviceNumber: "118B",
                     top: "TERMINATING AT",
-                    bottom: "TPE (BEF PUNGGOL RD)"
+                    bottom: "TPE (BEF PUNGGOL RD)",
+                    bottomFont: "Mobitec-7:4",
+
                 },
                 "TAMPINES WEST MRT",
                 "TAMPINES AVE 1 / 8 / 10",
@@ -1975,7 +2033,7 @@ EDSData.GASG = {
             scrollFont: "Mobitec-7:4"
         }
     },
-    1361: { // Done
+    1361: { 
         front: {
             renderType: "standardService",
             serviceNumber: "136",
@@ -2002,7 +2060,7 @@ EDSData.GASG = {
             scrollFont: "Mobitec-7:4"
         }
     },
-    1362: { // Done
+    1362: { 
         front: {
             renderType: "standardService",
             serviceNumber: "136",
@@ -2254,7 +2312,8 @@ EDSData.GASG = {
                     renderType: "destScroll",
                     serviceNumber: "382A",
                     top: "TERMINATING AT",
-                    bottom: "BLK 226A"
+                    bottom: "BLK 226A",
+                    bottomFont: "Mobitec-7:5:2"
                 },
             ],
             scrollFont: "Mobitec-7:4"
@@ -2324,7 +2383,8 @@ EDSData.GASG = {
                     renderType: "destScroll",
                     serviceNumber: "386A",
                     top: "TERMINATING AT",
-                    bottom: "BLK 682A"
+                    bottom: "BLK 682A",
+                    bottomFont: "Mobitec-7:5:2"
                 },
             ],
             scrollFont: "Mobitec-7:4"
@@ -2542,7 +2602,7 @@ EDSData.GASG = {
                     serviceNumber: "`518A",
                     top: "BAYFRONT",
                     topFont: "Mobitec-7:7",
-                    bottom: "PASIR RIS DR 3 / 1",
+                    bottom: "PASIR RIS DR 3/1",
                     bottomFont: "Mobitec-7:4",
                 },
                 {
@@ -2574,7 +2634,7 @@ EDSData.GASG = {
                     serviceNumber: "`518A",
                     top: "BAYFRONT",
                     topFont: "Mobitec-7:7",
-                    bottom: "SUNTEC CITY",
+                    bottom: "PROMENADE MRT",
                     bottomFont: "Mobitec-7:4",
                 },
             ],
@@ -2624,23 +2684,7 @@ EDSData.GASG = {
                     serviceNumber: "~661",
                     top: "MARINA BLVD",
                     topFont: "Mobitec-7:7",
-                    bottom: "PASIR RIS DR 6",
-                    bottomFont: "Mobitec-7:4",
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "~661",
-                    top: "MARINA BLVD",
-                    topFont: "Mobitec-7:7",
-                    bottom: "PASIR RIS ST 11",
-                    bottomFont: "Mobitec-7:4",
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "~661",
-                    top: "MARINA BLVD",
-                    topFont: "Mobitec-7:7",
-                    bottom: "LOYANG AVE",
+                    bottom: "ANSON RD",
                     bottomFont: "Mobitec-7:4",
                 },
                 {
@@ -2709,7 +2753,7 @@ EDSData.GASG = {
             scrollFont: "Mobitec-7:4"
         }
     },
-    6661: {
+    6661: { // TO make scroll fonts
         front: {
             renderType: "standardService",
             serviceNumber: "666",
@@ -2733,7 +2777,7 @@ EDSData.GASG = {
                     top: "TEMASEK BLVD",
                     topFont: "Mobitec-7:5:1",
                     bottom: "PUNGGOL DR",
-                    bottomFont: "Mobitec-7:4",
+                    bottomFont: "Mobitec-5:3",
                 },
                 {
                     renderType: "destScroll",
@@ -2771,7 +2815,7 @@ EDSData.GASG = {
             scrollFont: "Mobitec-7:4"
         }
     },
-    6662: {
+    6662: { 
         front: {
             renderType: "standardService",
             serviceNumber: "666",
@@ -2929,7 +2973,7 @@ EDSData.GASG = {
                     serviceNumber: "~673",
                     top: "TEMASEK BLVD",
                     topFont: "Mobitec-7:5:1",
-                    bottom: "MARINA BOULEVARD",
+                    bottom: "MARINA BLVD",
                     bottomFont: "Mobitec-7:4",
                 },
                 {
@@ -2937,7 +2981,7 @@ EDSData.GASG = {
                     serviceNumber: "~673",
                     top: "TEMASEK BLVD",
                     topFont: "Mobitec-7:5:1",
-                    bottom: "MARINA BAY SANDS",
+                    bottom: "BAYFRONT MRT",
                     bottomFont: "Mobitec-7:4",
                 },
                 {
@@ -2952,7 +2996,7 @@ EDSData.GASG = {
             scrollFont: "Mobitec-7:4"
         }
     },
-    6732: {
+    6732: { // TO make scroll fonts
         front: {
             renderType: "standardService",
             serviceNumber: "673",
@@ -2966,7 +3010,7 @@ EDSData.GASG = {
                     serviceNumber: "673",
                     top: "Punggol",
                     topFont: "Mobitec-7:5:1",
-                    bottom: "Point",
+                    bottom: "Point LRT",
                     bottomFont: "Mobitec-7:5:1",
                     image: "CityDirect",
                 },
