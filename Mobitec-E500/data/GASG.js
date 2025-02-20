@@ -201,7 +201,8 @@ EDSFormats.GASG = {
             },
             spacing: 1,
             margin: {
-                bottom: "1"
+                right: 'width(serviceNumber) - width(image)',
+                bottom: "1",
             }
         },
         image: {
@@ -1192,11 +1193,11 @@ EDSData.GASG = {
                     serviceNumber: "43e",
                     top: "TERMINATING AT",
                     topFont: "Mobitec-7:5:2",
-                    bottom: "MARINE PDE STN EXIT 4",
+                    bottom: "MARINE PDE STN EXIT 4 ",
                     bottomFont: "Mobitec-7:4",
                 },
                 {
-                    renderType: "destScroll",
+                    renderType: "destScroll3",
                     serviceNumber: "`43e",
                     top: "MARINE PDE MRT",
                     topFont: "Mobitec-7:4:3",
@@ -1204,7 +1205,7 @@ EDSData.GASG = {
                     bottomFont: "Mobitec-5:3",
                 },
                 {
-                    renderType: "destScroll",
+                    renderType: "destScroll3",
                     serviceNumber: "`43e",
                     top: "MARINE PDE MRT",
                     topFont: "Mobitec-7:4:3",
@@ -1212,7 +1213,7 @@ EDSData.GASG = {
                     bottomFont: "Mobitec-5:3",
                 },
                 {
-                    renderType: "destScroll",
+                    renderType: "destScroll3",
                     serviceNumber: "`43e",
                     top: "MARINE PDE MRT",
                     topFont: "Mobitec-7:4:3",
@@ -1220,15 +1221,7 @@ EDSData.GASG = {
                     bottomFont: "Mobitec-5:3",
                 },
                 {
-                    renderType: "destScroll",
-                    serviceNumber: "`43e",
-                    top: "MARINE PDE MRT",
-                    topFont: "Mobitec-7:4:3",
-                    bottom: "KPE (EXPRESS)",
-                    bottomFont: "Mobitec-5:3",
-                },
-                {
-                    renderType: "destScroll",
+                    renderType: "destScroll3",
                     serviceNumber: "`43e",
                     top: "MARINE PDE MRT",
                     topFont: "Mobitec-7:4:3",
@@ -1236,7 +1229,7 @@ EDSData.GASG = {
                     bottomFont: "Mobitec-5:3",
                 },
                 {
-                    renderType: "destScroll",
+                    renderType: "destScroll3",
                     serviceNumber: "`43e",
                     top: "MARINE PDE MRT",
                     topFont: "Mobitec-7:4:3",
@@ -1244,7 +1237,7 @@ EDSData.GASG = {
                     bottomFont: "Mobitec-5:3",
                 },
                 {
-                    renderType: "destScroll",
+                    renderType: "destScroll3",
                     serviceNumber: "`43e",
                     top: "MARINE PDE MRT",
                     topFont: "Mobitec-7:4:3",
@@ -1252,7 +1245,7 @@ EDSData.GASG = {
                     bottomFont: "Mobitec-5:3",
                 },
                 {
-                    renderType: "destScroll",
+                    renderType: "destScroll3",
                     serviceNumber: "`43e",
                     top: "MARINE PDE MRT",
                     topFont: "Mobitec-7:4:3",
