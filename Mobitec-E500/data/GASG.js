@@ -77,7 +77,7 @@ EDSFormats.GASG = {
             },
             spacing: 1,
             margin: {
-                right: 'width(serviceNumber) - width(image)'
+                right: 'width(serviceNumber) - width(image)',
             }
         },
         image: {
@@ -2783,7 +2783,10 @@ EDSData.GASG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "666",
-                    top: "Damai LRT",
+                    top: "Damai",
+                    topFont: "Mobitec-7:7",
+                    bottom: "LRT",
+                    bottomFont: "Mobitec-7:7",
                     image: "CityDirect",
                 },
                 {
@@ -2918,7 +2921,7 @@ EDSData.GASG = {
                     serviceNumber: "~673",
                     top: "TEMASEK BLVD",
                     topFont: "Mobitec-7:5:1",
-                    bottom: "TANJONG PAGAR MRT",
+                    bottom: "TG PAGAR MRT",
                     bottomFont: "Mobitec-7:4",
                 },
                 {
@@ -3153,6 +3156,7 @@ EDSData.GASG = {
             image: "breakdown",
         }
     },
+    
     9999: {
         front: {
             renderType: "ImageScroll",
