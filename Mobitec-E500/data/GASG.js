@@ -1850,8 +1850,8 @@ EDSData.GASG = {
                     renderType: "destScroll",
                     serviceNumber: "85A",
                     top: "TERMINATING AT",
-                    bottom: "SENGKANG COMMUNITY HUB",
-                    bottomFont: "Mobitec-7:4"
+                    bottom: "SENGKANG COMMUNITY HUB ",
+                    bottomFont: "Mobitec-7:4:3"
                 },
                 "YISHUN AVE 2",
                 "JALAN KAYU",
