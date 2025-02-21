@@ -128,7 +128,7 @@ EDSData['BMJ (JB)'] = {
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "BMJ",
+                    serviceNumber: "BMJ - JB",
                     top: "Tekan butang F1",
                     topFont: "Hanover-7:4",
                     bottom: "untuk memilih laluan",
@@ -136,7 +136,7 @@ EDSData['BMJ (JB)'] = {
                 }, 
                 {
                     renderType: "destScroll",
-                    serviceNumber: "BMJ",
+                    serviceNumber: "BMJ - JB",
                     top: "Press the F1 button",
                     topFont: "Hanover-7:4",
                     bottom: "to select service",

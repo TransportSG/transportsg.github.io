@@ -135,6 +135,43 @@ EDSData['CWL (JB Area)'] = {
             ]
         }
     },
+    "0VTL": {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "VTL",
+            destination: "SG - MY / MY - SG",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "VTL SG-MY",
+                    topFont: "Tongda-16:7",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "MASK IS MANDATORY",
+                    topFont: "Mobitec-7:4",
+                    bottom: "SANITIZE YOUR HAND REGULARLY",
+                    bottomFont: "Mobitec-7:4", 
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "VTL MY-SG",
+                    topFont: "Tongda-16:7",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "MASK IS MANDATORY",
+                    topFont: "Mobitec-7:4",
+                    bottom: "SANITIZE YOUR HAND REGULARLY",
+                    bottomFont: "Mobitec-7:4", 
+                },
+            ]
+        }
+    },
     1: {
         front: {
             renderType: "standardService",
@@ -388,6 +425,43 @@ EDSData['CWL (JB Area)'] = {
                     topFont: "Tongda-16:7",
                 },
 
+            ]
+        }
+    },
+    "1VTL": {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "VTL1",
+            destination: "SG - MY / MY - SG",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "VTL 1",
+                    top: "SG - MY",
+                    topFont: "Tongda-16:7",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "MASK IS MANDATORY",
+                    topFont: "Mobitec-7:4",
+                    bottom: "SANITIZE YOUR HAND REGULARLY",
+                    bottomFont: "Mobitec-7:4", 
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "VTL 1",
+                    top: "MY - SG",
+                    topFont: "Tongda-16:7",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "MASK IS MANDATORY",
+                    topFont: "Mobitec-7:4",
+                    bottom: "SANITIZE YOUR HAND REGULARLY",
+                    bottomFont: "Mobitec-7:4", 
+                },
             ]
         }
     },

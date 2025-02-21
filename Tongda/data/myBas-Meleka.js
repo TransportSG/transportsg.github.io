@@ -250,18 +250,16 @@ EDSData['BAS.MY Meleka (Prev. SBST)'] = {
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "MELAKA",
-                    top: "Tekan butang F1",
-                    topFont: "Hanover-7:3",
-                    bottom: "untuk memilih laluan",
-                    bottomFont: "Hanover-7:3",
+                    serviceNumber: "",
+                    top: "BAS.MY  MELAKA",
+                    topFont: "Tongda-16:7",
                 }, 
                 {
                     renderType: "destScroll",
-                    serviceNumber: "MELAKA",
-                    top: "Press the F1 button",
+                    serviceNumber: "",
+                    top: "Tekan butang F1 untuk memilih laluan",
                     topFont: "Hanover-7:3",
-                    bottom: "to select service",
+                    bottom: "Press the F1 button to select service",
                     bottomFont: "Hanover-7:3",
                 }, 
             ]
