@@ -1844,12 +1844,15 @@ EDSData.GASG = {
                     renderType: "destScroll",
                     serviceNumber: "85A",
                     top: "TERMINATING AT",
+                    topFont: "Mobitec-7:5:2",
                     bottom: "SENGKANG EAST RD",
+                    bottomFont: "Mobitec-7:5:2",
                 },
                 {
                     renderType: "destScroll",
                     serviceNumber: "85A",
                     top: "TERMINATING AT",
+                    topFont: "Mobitec-7:5:2",
                     bottom: "SENGKANG COMMUNITY HUB ",
                     bottomFont: "Mobitec-7:4:3"
                 },
@@ -2299,12 +2302,15 @@ EDSData.GASG = {
                     renderType: "destScroll",
                     serviceNumber: "382A",
                     top: "TERMINATING AT",
+                    topFont: "Mobitec-7:5:2",
                     bottom: "SUMANG LANE",
+                    bottomFont: "Mobitec-7:5:2",
                 },
                 {
                     renderType: "destScroll",
                     serviceNumber: "382A",
                     top: "TERMINATING AT",
+                    topFont: "Mobitec-7:5:2",
                     bottom: "BLK 226A",
                     bottomFont: "Mobitec-7:5:2"
                 },
@@ -3198,7 +3204,7 @@ EDSData.GASG = {
                     top: "PUNGGOL POINT LRT",
                     topFont: "Mobitec-7:4:3",
                     bottom: "PUNGGOL FIELD / WAY",
-                    bottomFont: "Mobitec-5:3",
+                    bottomFont: "Mobitec-7:4",
                 },
             ],
             scrollFont: "Mobitec-7:4"
