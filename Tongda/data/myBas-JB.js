@@ -120,11 +120,11 @@ EDSFormats['myBas JB'] = {
 }
 
 EDSData['myBas JB'] = {
-    1: {
+    0: {
         front: {
             renderType: "standardService",
             serviceNumber: "",
-            destination: "Welcome",
+            destination: "WELCOME PAGE",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -196,7 +196,7 @@ EDSData['myBas JB'] = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "T12",
-                    top: " AEON BUKIT INDAH",
+                    top: " AEON TEBRAU",
                     topFont: "Tongda-16:7",
                 },
                 {
@@ -364,7 +364,7 @@ EDSData['myBas JB'] = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "T32",
-                    top: "SELESA JAYA",
+                    top: "T. SELESA JAYA",
                     topFont: "Tongda-16:7",
                 },
                 {

@@ -116,36 +116,68 @@ EDSFormats.Special = {
         },
 
         text: "$text"
+    },
+    scrollingDest: {
+        __dynamic__: (matrix, data) => {
+            let serviceNum = new TextObject(data.serviceNumber, Font.fromNameString("Tongda-16:7"), new Position(0, 0), 1)
+            let destination = new TextObject(data.destination, Font.fromNameString("Tongda-16:7"), new Position(matrix.width, 0), 1)
+
+            let serviceWidth = serviceNum.takeMeasure().width + 3
+            let destinationWidth = destination.takeMeasure().width
+
+            let framesNeeded = matrix.width + destinationWidth - serviceWidth
+            let currentFrame = 0
+
+            function drawFrame(frame) {
+                destination.position.x = matrix.width - frame
+                matrix.clearRectangle(0, 0, matrix.width, matrix.height)
+
+                matrix.drawText(destination)
+                
+                matrix.clearRectangle(0, 0, serviceWidth, matrix.height)
+                matrix.drawText(serviceNum)
+            }
+
+            if (matrix === window.controllerPreview) {
+                return drawFrame(matrix.width - serviceWidth - 2)
+            }
+
+            __scrollingInterval__ = setInterval(() => {
+                drawFrame(currentFrame++)
+                if (currentFrame === framesNeeded) currentFrame = 0
+            }, 50)
+        },
+        text: "$serviceNumber+' '+$destination"
     }
 }
 
 EDSData.Special = {
-    1: {
+    0: {
         front: {
             renderType: "standardService",
-            serviceNumber: "WIP",
-            destination: "akan datang",
+            serviceNumber: "",
+            destination: "WELCOME PAGE",
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "WIP",
-                    top: "AKAN DATANG",
-                    topFont: "Tongda-16:7",
-                }, {
+                    serviceNumber: "SPECIAL",
+                    top: "Tekan butang F1",
+                    topFont: "Hanover-7:4",
+                    bottom: "untuk memilih laluan",
+                    bottomFont: "Hanover-7:4",
+                },
+                {
                     renderType: "destScroll",
-                    serviceNumber: "WIP",
-                    top: "COMING SOON",
-                    topFont: "Tongda-16:7",
-                }
+                    serviceNumber: "SPECIAL",
+                    top: " Press the F1 button",
+                    topFont: "Hanover-7:4",
+                    bottom: "to select service",
+                    bottomFont: "Hanover-7:4",
+                },
             ]
         }
     },
-    9999: {
-        front: {
-            renderType: "full"
-        }
-    },
-    1111: {
+    1: {
         front: {
             renderType: "standardService",
             serviceNumber: "",
@@ -164,6 +196,47 @@ EDSData.Special = {
                     topFont: "Tongda-16:7",
                 },
             ]
+        }
+    },
+    2: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: "SEWA KHAS / CHARTER",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "SEWA KHAS",
+                    topFont: "Tongda-16:7",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "CHARTER",
+                    topFont: "Tongda-16:7",
+                },
+            ]
+        }
+    },
+    3: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: "LOOP SERVICE",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "LOOP SERVICE",
+                    topFont: "Tongda-16:7",
+                },
+            ]
+        }
+    },
+    9999: {
+        front: {
+            renderType: "full"
         }
     },
 }

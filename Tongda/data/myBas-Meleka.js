@@ -116,10 +116,64 @@ EDSFormats['BAS.MY Meleka (Prev. SBST)'] = {
         },
 
         text: "$text"
+    },
+    scrollingDest: {
+        __dynamic__: (matrix, data) => {
+            let serviceNum = new TextObject(data.serviceNumber, Font.fromNameString("Tongda-16:7"), new Position(0, 0), 1)
+            let destination = new TextObject(data.destination, Font.fromNameString("Tongda-16:7"), new Position(matrix.width, 0), 1)
+
+            let serviceWidth = serviceNum.takeMeasure().width + 3
+            let destinationWidth = destination.takeMeasure().width
+
+            let framesNeeded = matrix.width + destinationWidth - serviceWidth
+            let currentFrame = 0
+
+            function drawFrame(frame) {
+                destination.position.x = matrix.width - frame
+                matrix.clearRectangle(0, 0, matrix.width, matrix.height)
+
+                matrix.drawText(destination)
+                
+                matrix.clearRectangle(0, 0, serviceWidth, matrix.height)
+                matrix.drawText(serviceNum)
+            }
+
+            if (matrix === window.controllerPreview) {
+                return drawFrame(matrix.width - serviceWidth - 2)
+            }
+
+            __scrollingInterval__ = setInterval(() => {
+                drawFrame(currentFrame++)
+                if (currentFrame === framesNeeded) currentFrame = 0
+            }, 50)
+        },
+        text: "$serviceNumber+' '+$destination"
     }
 }
-
 EDSData['BAS.MY Meleka (Prev. SBST)'] = {
+    0: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: "WELCOME PAGE",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "BAS.MY  MELAKA",
+                    topFont: "Tongda-16:7",
+                }, 
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "Tekan butang F1 untuk memilih laluan",
+                    topFont: "Hanover-7:3",
+                    bottom: "Press the F1 button to select service",
+                    bottomFont: "Hanover-7:3",
+                }, 
+            ]
+        }
+    },
     1: {
         front: {
             renderType: "standardService",
@@ -239,29 +293,6 @@ EDSData['BAS.MY Meleka (Prev. SBST)'] = {
                     top: "PASAR MELAKA",
                     topFont: "Tongda-16:7",
                 }
-            ]
-        }
-    },
-    9999: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "",
-            destination: "Welcome",
-            scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "",
-                    top: "BAS.MY  MELAKA",
-                    topFont: "Tongda-16:7",
-                }, 
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "",
-                    top: "Tekan butang F1 untuk memilih laluan",
-                    topFont: "Hanover-7:3",
-                    bottom: "Press the F1 button to select service",
-                    bottomFont: "Hanover-7:3",
-                }, 
             ]
         }
     },

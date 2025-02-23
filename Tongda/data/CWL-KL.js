@@ -116,11 +116,43 @@ EDSFormats ['CWL (KL Area)'] = {
         },
 
         text: "$text"
+    },
+    scrollingDest: {
+        __dynamic__: (matrix, data) => {
+            let serviceNum = new TextObject(data.serviceNumber, Font.fromNameString("Tongda-16:7"), new Position(0, 0), 1)
+            let destination = new TextObject(data.destination, Font.fromNameString("Tongda-16:7"), new Position(matrix.width, 0), 1)
+
+            let serviceWidth = serviceNum.takeMeasure().width + 3
+            let destinationWidth = destination.takeMeasure().width
+
+            let framesNeeded = matrix.width + destinationWidth - serviceWidth
+            let currentFrame = 0
+
+            function drawFrame(frame) {
+                destination.position.x = matrix.width - frame
+                matrix.clearRectangle(0, 0, matrix.width, matrix.height)
+
+                matrix.drawText(destination)
+                
+                matrix.clearRectangle(0, 0, serviceWidth, matrix.height)
+                matrix.drawText(serviceNum)
+            }
+
+            if (matrix === window.controllerPreview) {
+                return drawFrame(matrix.width - serviceWidth - 2)
+            }
+
+            __scrollingInterval__ = setInterval(() => {
+                drawFrame(currentFrame++)
+                if (currentFrame === framesNeeded) currentFrame = 0
+            }, 50)
+        },
+        text: "$serviceNumber+' '+$destination"
     }
 }
 
 EDSData ['CWL (KL Area)'] = {
-    1: {
+    0: {
         front: {
             renderType: "standardService",
             serviceNumber: "WIP",
@@ -131,7 +163,8 @@ EDSData ['CWL (KL Area)'] = {
                     serviceNumber: "WIP",
                     top: "AKAN DATANG",
                     topFont: "Tongda-16:7",
-                }, {
+                }, 
+                {
                     renderType: "destScroll",
                     serviceNumber: "WIP",
                     top: "COMING SOON",
@@ -140,54 +173,23 @@ EDSData ['CWL (KL Area)'] = {
             ]
         }
     },
-    2: {
-        front: {
-            renderType: "message",
-            text: "TONGDA",
-            font: "Tongda-16:7",
-            spacing: 2,
-        }
-    },
-    1111: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "",
-            destination: "Tiada Perkhidmatan",
-            scrolls: [
-                {
-                    renderType: "message",
-                    text: "TIADA PERKHIDMATAN",
-                    font: "Tongda-16:7",
-                    spacing: 1
-                }
-            ]
-        }
-    },
     1001: {
         front: {
-            renderType: "standardService",
-            serviceNumber: "F100",
-            destination: "Bandaraya",
-            scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "F100",
-                    top: "LARKIN",
-                    topFont: "Tongda-16:7",
-                }
-            ]
+            renderType: "scrollingDest",
+            serviceNumber: "100",
+            destination: "KUALA SELANGOR"
         }
     },
     1002: {
         front: {
             renderType: "standardService",
-            serviceNumber: "F100",
-            destination: "JB Sentral",
+            serviceNumber: "100",
+            destination: "HAB LEBUH PUDU",
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "F100",
-                    top: "JB SENTRAL",
+                    serviceNumber: "100",
+                    top: "HAB LEBUH PUDU",
                     topFont: "Tongda-16:7",
                 }
             ]

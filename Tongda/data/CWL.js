@@ -155,52 +155,25 @@ EDSData['CWL (JB Area)'] = {
     0: {
         front: {
             renderType: "standardService",
-            serviceNumber: "CWL",
-            destination: "LARKIN SENTRAL",
+            serviceNumber: "",
+            destination: "WELCOME PAGE",
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "CWL",
-                    top: "LARKIN SENTRAL",
-                    topFont: "Tongda-16:7",
-                }
-            ]
-        }
-    },
-    "0VTL": {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "VTL",
-            destination: "SG - MY / MY - SG",
-            scrolls: [
+                    serviceNumber: "CWL - JB",
+                    top: "Tekan butang F1",
+                    topFont: "Hanover-7:4",
+                    bottom: "untuk memilih laluan",
+                    bottomFont: "Hanover-7:4",
+                }, 
                 {
                     renderType: "destScroll",
-                    serviceNumber: "",
-                    top: "VTL SG-MY",
-                    topFont: "Tongda-16:7",
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "",
-                    top: "MASK IS MANDATORY",
-                    topFont: "Mobitec-7:4",
-                    bottom: "SANITIZE YOUR HAND REGULARLY",
-                    bottomFont: "Mobitec-7:4", 
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "",
-                    top: "VTL MY-SG",
-                    topFont: "Tongda-16:7",
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "",
-                    top: "MASK IS MANDATORY",
-                    topFont: "Mobitec-7:4",
-                    bottom: "SANITIZE YOUR HAND REGULARLY",
-                    bottomFont: "Mobitec-7:4", 
-                },
+                    serviceNumber: "CWL - JB",
+                    top: " Press the F1 button",
+                    topFont: "Hanover-7:4",
+                    bottom: "to select service",
+                    bottomFont: "Hanover-7:4",
+                }, 
             ]
         }
     },
@@ -223,13 +196,6 @@ EDSData['CWL (JB Area)'] = {
                     topFont: "Tongda-16:7",
                 },
             ]
-        }
-    },
-    "1V": {
-        front: {
-            renderType: "scrollingDest",
-            serviceNumber: "V1",
-            destination: "VERANDA RESIDENCES"
         }
     },
     2: {
@@ -316,46 +282,63 @@ EDSData['CWL (JB Area)'] = {
             ]
         }
     },
-    "52T": {
+    "0CWL": {
         front: {
             renderType: "standardService",
-            serviceNumber: "52T",
-            destination: "TERMINAL PONTIAN / GP Terminal",
+            serviceNumber: "CWL",
+            destination: "LARKIN SENTRAL",
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "52T",
-                    top: "TERM. PONTIAN",
+                    serviceNumber: "CWL",
+                    top: "LARKIN SENTRAL",
+                    topFont: "Tongda-16:7",
+                }
+            ]
+        }
+    },
+    "0VTL": {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "VTL",
+            destination: "SG - MY / MY - SG",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "VTL SG-MY",
                     topFont: "Tongda-16:7",
                 },
                 {
                     renderType: "destScroll",
-                    serviceNumber: "52T",
-                    top: "GP TERMINAL",
+                    serviceNumber: "",
+                    top: "MASK IS MANDATORY",
+                    topFont: "Mobitec-7:4",
+                    bottom: "SANITIZE YOUR HAND REGULARLY",
+                    bottomFont: "Mobitec-7:4", 
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "VTL MY-SG",
                     topFont: "Tongda-16:7",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "MASK IS MANDATORY",
+                    topFont: "Mobitec-7:4",
+                    bottom: "SANITIZE YOUR HAND REGULARLY",
+                    bottomFont: "Mobitec-7:4", 
                 },
             ]
         }
     },
-    "7P": {
+    "1V": {
         front: {
-            renderType: "standardService",
-            serviceNumber: "CW7P",
-            destination: "CIQ 2ND LINK",
-            scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "CW7P",
-                    top: "CIQ 2ND LINK",
-                    topFont: "Tongda-16:7",
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "CW7P",
-                    top: "CIQ 2ND LINK",
-                    topFont: "Tongda-16:7",
-                },
-            ]
+            renderType: "scrollingDest",
+            serviceNumber: "V1",
+            destination: "VERANDA RESIDENCES"
         }
     },
     "1AA": {
@@ -549,6 +532,12 @@ EDSData['CWL (JB Area)'] = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "FC2",
+                    top: " AEON BUKIT INDAH",
+                    topFont: "Tongda-16:7",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "FC2",
                     top: "FOREST CITY",
                     topFont: "Tongda-16:7",
                 },
@@ -597,6 +586,48 @@ EDSData['CWL (JB Area)'] = {
             ]
         }
     },
+    "7P": {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "CW7P",
+            destination: "CIQ 2ND LINK",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "CW7P",
+                    top: "CIQ 2ND LINK",
+                    topFont: "Tongda-16:7",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "CW7P",
+                    top: "CIQ 2ND LINK",
+                    topFont: "Tongda-16:7",
+                },
+            ]
+        }
+    },
+    "52T": {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "52T",
+            destination: "TERMINAL PONTIAN / GP Terminal",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "52T",
+                    top: "TERM. PONTIAN",
+                    topFont: "Tongda-16:7",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "52T",
+                    top: "GP TERMINAL",
+                    topFont: "Tongda-16:7",
+                },
+            ]
+        }
+    },
     9997: {
         front: {
             renderType: "standardService",
@@ -634,31 +665,6 @@ EDSData['CWL (JB Area)'] = {
                     top: "CAUSEWAY LINK",
                     topFont: "Tongda-16:7",
                 },
-            ]
-        }
-    },
-    9999: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "",
-            destination: "Welcome",
-            scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "CWL - JB",
-                    top: "Tekan butang F1",
-                    topFont: "Hanover-7:4",
-                    bottom: "untuk memilih laluan",
-                    bottomFont: "Hanover-7:4",
-                }, 
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "CWL - JB",
-                    top: " Press the F1 button",
-                    topFont: "Hanover-7:4",
-                    bottom: "to select service",
-                    bottomFont: "Hanover-7:4",
-                }, 
             ]
         }
     },

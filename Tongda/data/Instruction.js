@@ -151,18 +151,18 @@ EDSFormats.Instruction = {
 }
 
 EDSData.Instruction = {
-    0: {
+    99000: {
         front: {
             renderType: "scrollingDest",
             serviceNumber: "TEST",
-            destination: "ON TEST"
+            destination: "SCROLLING TEXT TESTING"
         }
     },
     1: {
         front: {
             renderType: "standardService",
             serviceNumber: "",
-            destination: "Welcome paga",
+            destination: "WELCOME PAGE",
             scrolls: [
                 {
                     renderType: "destScroll",

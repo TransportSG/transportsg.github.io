@@ -3,12 +3,12 @@ let currentOperator = location.hash.slice(1) ? location.hash.slice(1) : 'Instruc
 
 let startupCodes = {
     'Instruction': 1, 
-    'CWL (JB Area)': 9999, 
-    'myBas JB': 1, 
+    'CWL (JB Area)': 0, 
+    'myBas JB': 0, 
     'BMJ (JB)': 1, 
-    'BAS.MY Meleka (Prev. SBST)': 1,
-    'CWL (KL Area)': 1, 
-    'Special': 1
+    'BAS.MY Meleka (Prev. SBST)': 0,
+    'CWL (KL Area)': 0, 
+    'Special': 0
 }
 
 let EDSFormats = {};
