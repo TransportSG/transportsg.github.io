@@ -1,4 +1,5 @@
 window.frontEDS = null; window.controllerPreview = null;
+window.__scrollingInterval__ = 0;
 
 let currentOperator = location.hash.slice(1) ? location.hash.slice(1) : 'Instruction';
 
@@ -68,6 +69,8 @@ function setCode(code, extra, operator) {
     code += '';
 
     if (!EDSData[operator][code]) return;
+
+    clearInterval(__scrollingInterval__);
 
     let parsed = parse(code, extra, operator);
     render(parsed, controllerPreview);

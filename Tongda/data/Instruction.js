@@ -116,10 +116,43 @@ EDSFormats.Instruction = {
         },
 
         text: "$text"
+    },
+    scrollingDest: {
+        __dynamic__: (matrix, data) => {
+            let serviceNum = new TextObject(data.serviceNumber, Font.fromNameString("Tongda-16:7"), new Position(0, 0), 1)
+            let destination = new TextObject(data.destination, Font.fromNameString("Tongda-16:7"), new Position(matrix.width, 0), 1)
+
+            let serviceWidth = serviceNum.takeMeasure().width + 3
+            let destinationWidth = destination.takeMeasure().width
+
+            let framesNeeded = matrix.width + destinationWidth - serviceWidth
+            let currentFrame = 0
+
+            __scrollInterval__ = setInterval(() => {
+                destination.position.x = matrix.width - currentFrame
+                matrix.clearRectangle(0, 0, matrix.width, matrix.height)
+
+                matrix.drawText(destination)
+                
+                matrix.clearRectangle(0, 0, serviceWidth, matrix.height)
+                matrix.drawText(serviceNum)
+
+                currentFrame++
+                if (currentFrame === framesNeeded) currentFrame = 0
+            }, 50)
+        },
+        text: "$serviceNumber+' '+$destination"
     }
 }
 
 EDSData.Instruction = {
+    0: {
+        front: {
+            renderType: "scrollingDest",
+            serviceNumber: "CW5",
+            destination: "NEWTON"
+        }
+    },
     1: {
         front: {
             renderType: "standardService",
