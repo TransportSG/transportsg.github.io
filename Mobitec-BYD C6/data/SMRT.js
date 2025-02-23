@@ -28,7 +28,7 @@ EDSFormats['SMRT'] = {
             },
             scrolls: "$scrolls",
             rotate: true,
-            rotateSpeed: 3000,
+            rotateSpeed: 2600,
 
             font: "$scrollFont",
             spacing: 1
@@ -62,7 +62,7 @@ EDSFormats['SMRT'] = {
             },
             scrolls: "$scrolls",
             rotate: true,
-            rotateSpeed: 3000,
+            rotateSpeed: 2600,
 
             font: "$scrollFont",
             spacing: 1
@@ -147,7 +147,7 @@ EDSFormats['SMRT'] = {
             },
             scrolls: "$scrolls",
             rotate: true,
-            rotateSpeed: 3000,
+            rotateSpeed: 2600,
 
             font: "$scrollFont",
             spacing: 1
