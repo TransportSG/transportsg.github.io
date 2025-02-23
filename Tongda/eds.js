@@ -1,6 +1,4 @@
 window.frontEDS = null; window.controllerPreview = null;
-window.__scrollingInterval__ = 0;
-
 let currentOperator = location.hash.slice(1) ? location.hash.slice(1) : 'Instruction';
 
 let startupCodes = {
@@ -76,7 +74,8 @@ function setCode(code, extra, operator) {
 
     if (!EDSData[operator][code]) return;
 
-    clearInterval(__scrollingInterval__);
+    // clearInterval(window.frontEDS.__scrollingInterval__);
+    // clearInterval(window.controllerPreview.__scrollingInterval__);
 
     let parsed = parse(code, extra, operator);
     render(parsed, controllerPreview);
@@ -95,6 +94,9 @@ document.addEventListener('DOMContentLoaded', () => {
     frontEDS = new LEDMatrix(frontEDSWidth, edsHeight, document.getElementById('front-eds'));
     controllerPreview = new LEDMatrix(frontEDSWidth, edsHeight, document.getElementById('preview-canvas'), CanvasBasedLEDMatrix, 4);
 
+    window.frontEDS.__scrollingInterval__ = 0;
+    window.controllerPreview.__scrollingInterval__ = 0;
+    
     setCode(startupCodes[currentOperator], '0', currentOperator);
 });
 
