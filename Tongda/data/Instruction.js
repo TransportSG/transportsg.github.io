@@ -149,8 +149,8 @@ EDSData.Instruction = {
     0: {
         front: {
             renderType: "scrollingDest",
-            serviceNumber: "CW5",
-            destination: "NEWTON"
+            serviceNumber: "TEST",
+            destination: "ON TEST"
         }
     },
     1: {
