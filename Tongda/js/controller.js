@@ -10,8 +10,9 @@ let operators = [
     'myBas JB',
     'BMJ (JB)',
     'BAS.MY Meleka (Prev. SBST)',
+    'CWL (KL Area)',
     'Special',
-    // 'Welcome'
+
     ]
 let operatorIndex = operators.map((e, i) => i)
 

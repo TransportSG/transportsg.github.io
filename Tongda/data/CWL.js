@@ -128,16 +128,22 @@ EDSFormats['CWL (JB Area)'] = {
             let framesNeeded = matrix.width + destinationWidth - serviceWidth
             let currentFrame = 0
 
-            __scrollInterval__ = setInterval(() => {
-                destination.position.x = matrix.width - currentFrame
+            function drawFrame(frame) {
+                destination.position.x = matrix.width - frame
                 matrix.clearRectangle(0, 0, matrix.width, matrix.height)
 
                 matrix.drawText(destination)
                 
                 matrix.clearRectangle(0, 0, serviceWidth, matrix.height)
                 matrix.drawText(serviceNum)
+            }
 
-                currentFrame++
+            if (matrix === window.controllerPreview) {
+                return drawFrame(matrix.width - serviceWidth - 2)
+            }
+
+            __scrollingInterval__ = setInterval(() => {
+                drawFrame(currentFrame++)
                 if (currentFrame === framesNeeded) currentFrame = 0
             }, 50)
         },
@@ -223,7 +229,7 @@ EDSData['CWL (JB Area)'] = {
         front: {
             renderType: "scrollingDest",
             serviceNumber: "V1",
-            destination: "VERANADA RESIDENCES"
+            destination: "VERANDA RESIDENCES"
         }
     },
     2: {

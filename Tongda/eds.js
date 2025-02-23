@@ -4,7 +4,13 @@ window.__scrollingInterval__ = 0;
 let currentOperator = location.hash.slice(1) ? location.hash.slice(1) : 'Instruction';
 
 let startupCodes = {
-    'Instruction': 1, 'Welcome': 1, 'CWL (JB Area)': 9999, 'myBas JB': 1, 'BMJ (JB)': 1, 'BAS.MY Meleka (Prev. SBST)': 1, 'Special': 1
+    'Instruction': 1, 
+    'CWL (JB Area)': 9999, 
+    'myBas JB': 1, 
+    'BMJ (JB)': 1, 
+    'BAS.MY Meleka (Prev. SBST)': 1,
+    'CWL (KL Area)': 1, 
+    'Special': 1
 }
 
 let EDSFormats = {};

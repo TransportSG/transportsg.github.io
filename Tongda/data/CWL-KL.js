@@ -1,4 +1,4 @@
-EDSFormats.Welcome = {
+EDSFormats ['CWL (KL Area)'] = {
     standardService: {
         serviceNumber: {
             align: "right",
@@ -119,7 +119,7 @@ EDSFormats.Welcome = {
     }
 }
 
-EDSData.Welcome = {
+EDSData ['CWL (KL Area)'] = {
     1: {
         front: {
             renderType: "standardService",
@@ -195,10 +195,10 @@ EDSData.Welcome = {
     }
 }
 
-EDSExtras.Welcome = {
+EDSExtras ['CWL (KL Area)'] = {
 }
 
-EDSImages.Welcome = {
+EDSImages ['CWL (KL Area)'] = {
 "blank": [
     [0]
 ]
