@@ -2,7 +2,7 @@ window.frontEDS = null; window.controllerPreview = null;
 
 let currentOperator = location.hash.slice(1) ? location.hash.slice(1) : 'TTSG';
 
-let startupCodes = { 'TTSG': 6666, 'SMRT': 117 }
+let startupCodes = { 'TTSG': 6, 'SMRT': 117 }
 
 let EDSFormats = {};
 let EDSData = {};

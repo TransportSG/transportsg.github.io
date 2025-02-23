@@ -1,48 +1,5 @@
 EDSFormats['SMRT'] = {
-    'gas-temp-kindness': {
-        serviceNumber: {
-            align: "right",
-            margin: {
-                right: 1
-            },
-            text: "$serviceNumber",
-            font: "Mobitec-16:8:Bold",
-            spacing: 2
-        },
 
-        leftFlower: {
-            align: "left",
-            image: "gas-temp-flower"
-        },
-        displayText: {
-            $$group: {
-                centreTopText: {
-                    align: "centre-x,top",
-                    text: "$top",
-                    font: "Hanover-7:3",
-                    spacing: 1
-                },
-                centreBottomText: {
-                    align: "centre-x,bottom",
-                    text: "$bottom",
-                    font: "Hanover-7:3",
-                    spacing: 1
-                }
-            },
-            align: "left",
-            margin: {
-                left: "width(leftFlower) + len(2)"
-            }
-        },
-        rightFlower: {
-            align: "left",
-            margin: {
-                left: "width(leftFlower) + width(displayText) + len(4)"
-            },
-            image: "gas-temp-flower"
-        },
-        text: "Kindness is Greater; Be Greater"
-    },
     standardService: {
         serviceNumber: {
             align: "right",
@@ -51,21 +8,23 @@ EDSFormats['SMRT'] = {
             },
             text: "$serviceNumber",
             font: "Mobitec-16:8",
-            spacing: 2
+            spacing: 1
         },
         destination: {
             align: "centre-x,top",
             margin: {
-                right: 'width(serviceNumber)'
+                right: 'width(serviceNumber)',
+                top: "1",
             },
-            text: "$destination.text+' via'",
+            text: "$destination.text",
             font: "$destination.font",
             spacing: 1
         },
         scroll: {
             align: "centre-x,bottom",
             margin: {
-                right: 'width(serviceNumber)'
+                right: 'width(serviceNumber)',
+                bottom: "1",
             },
             scrolls: "$scrolls",
             rotate: true,
@@ -240,7 +199,7 @@ EDSFormats['SMRT'] = {
             font: "Mobitec-16:8",
             spacing: {
                 $$cond: {
-                    "$spacing === null" : 2,
+                    "$spacing === null" : 1,
                     "else": "$spacing"
                 }
             }
@@ -256,7 +215,8 @@ EDSFormats['SMRT'] = {
             font: "$topFont",
             spacing: 1,
             margin: {
-                right: 'width(serviceNumber)'
+                right: 'width(serviceNumber)',
+                top: "1",
             }
         },
         bottom: {
@@ -275,7 +235,8 @@ EDSFormats['SMRT'] = {
             },
             spacing: 1,
             margin: {
-                right: 'width(serviceNumber)'
+                right: 'width(serviceNumber)',
+                bottom: "1",
             }
         },
 
@@ -404,6 +365,78 @@ EDSFormats['SMRT'] = {
 }
 
 EDSData['SMRT'] = {
+    1: {
+        front: {
+            renderType: "message",
+            text: "CHARTERED",
+            font: "Mobitec-16:8",
+            spacing: 2
+        }
+    },
+    2: {
+        front: {
+            renderType: "message",
+            text: "ANG MO KIO DEPOT",
+            font: "Mobitec-13:7",
+            spacing: 1
+        }
+    },
+    3: {
+        front: {
+            renderType: "message",
+            text: "KRANJI DEPOT",
+            font: "Mobitec-13:7",
+            spacing: 1
+        }
+    },
+    4: {
+        front: {
+            renderType: "message",
+            text: "SMRT BUSES",
+            font: "Mobitec-13:7",
+            spacing: 1
+        }
+    },
+    5: {
+        front: {
+            renderType: "message",
+            text: "OFF SERVICE",
+            font: "Mobitec-13:7",
+            spacing: 1
+        }
+    },
+    6: {
+        front: {
+            renderType: "message",
+            text: "WOODLANDS DEPOT",
+            font: "Mobitec-13:7",
+            spacing: 1
+        }
+    },
+    7: {
+        front: {
+            renderType: "message",
+            text: "OUT OF SERVICE",
+            font: "Mobitec-13:7",
+            spacing: 1
+        }
+    },
+    8: {
+        front: {
+            renderType: "message",
+            text: "OFF SERVICE",
+            font: "Mobitec-13:7",
+            spacing: 1
+        }
+    },
+    10: {
+        front: {
+            renderType: "message",
+            text: "FERRY SERVICE",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
     117: {
         front: {
             renderType: "logo",
@@ -411,56 +444,43 @@ EDSData['SMRT'] = {
             text: "SMRT LOGO"
         }
     },
-    1901: {
+    8251: {
         front: {
             renderType: "standardService",
-            serviceNumber: "190",
+            serviceNumber: "825",
             destination: {
-                text: "KAMPONG BAHRU TER",
-                font: "Mobitec-7:4"
+                text: "LENTOR LOOP via",
+                font: "Mobitec-6:5"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "190",
-                    top: "KAMPONG BAHRU",
-                    bottom: "TERMINAL",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
-                },
-                "BT PANJANG RD",
-                "STEVENS ROAD",
-                "ORCHARD ROAD",
-                "HILL STREET",
-                "CHINATOWN"
+                "THOMSON GROVE",
+                "CASTLE GREEN",
+                "SEASONS PARK"
             ],
-            scrollFont: "Mobitec-7:5:3"
+            scrollFont: "Mobitec-6:5"
         }
     },
-    1902: {
+    8252: {
         front: {
             renderType: "standardService",
-            serviceNumber: "190",
+            serviceNumber: "825",
             destination: {
-                text: "CHOA CHU KANG",
-                font: "Mobitec-7:5:3"
+                text: "YIO CHU KANG MRT",
+                font: "Mobitec-6:5"
             },
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "190",
-                    top: "CHOA CHU KANG",
-                    bottom: "INT / MRT / LRT",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
+                    serviceNumber: "825",
+                    top: "YIO CHU KANG MRT",
+                    topFont: "Mobitec-6:5",
+                    bottom: "OPP CASTLE GREEN",
+                    bottomFont: "Mobitec-5:3",
                 },
-                "HILL STREET",
-                "SOMERSET ROAD",
-                "SCOTTS ROAD",
-                "STEVENS ROAD",
-                "BUKIT PANJANG RD"
+                "OPP THOMSON GR",
+                "OPP SEASONS PK"
             ],
-            scrollFont: "Mobitec-7:5:3"
+            scrollFont: "Mobitec-6:5"
         }
     }
 }
