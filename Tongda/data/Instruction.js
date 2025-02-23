@@ -128,7 +128,7 @@ EDSFormats.Instruction = {
             let framesNeeded = matrix.width + destinationWidth - serviceWidth
             let currentFrame = 0
 
-            __scrollInterval__ = setInterval(() => {
+            __scrollingInterval__ = setInterval(() => {
                 destination.position.x = matrix.width - currentFrame
                 matrix.clearRectangle(0, 0, matrix.width, matrix.height)
 
