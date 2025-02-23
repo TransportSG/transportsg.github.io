@@ -94,6 +94,11 @@
         }
 
         clearRectangle(x, y, w, h, colour) {
+            for (let dx = 0; dx < w; dx++) {
+                for (let dy = 0; dy < h; dy++) {
+                    this.buffer[this.twodimToFlat(x + dx, y + dy, this.width)] = false
+                }
+            }
             this.context.clearRect(x * this.scaleFactor, y * this.scaleFactor, w * this.scaleFactor, h * this.scaleFactor);
         }
 

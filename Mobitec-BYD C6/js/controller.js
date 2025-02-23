@@ -4,7 +4,7 @@ let currentExtra = '0';
 let currentScreenCode = '0';
 let screenFilter = '';
 
-let operators = ['TTSG']
+let operators = ['TTSG', 'SMRT']
 let operatorIndex = operators.map((e, i) => i)
 
 function setScreen(screenName) {
@@ -122,6 +122,16 @@ function onF2Pressed() {
     }
 }
 
+function onF3Pressed() {
+    if (currentScreen == 'controller-screen-home') {
+        let currentCodeIndex = operators.indexOf(currentOperator);
+        
+        setScreen('controller-screen-operator');
+        drawOperatorSelectionScreen(currentCodeIndex);
+        currentScreenCode = currentCodeIndex
+    }
+}
+
 function onUpPressed() {
     if (currentScreen === 'controller-screen-dest' || currentScreen === 'controller-screen-extra') {
         let allCodes = getCodes(currentScreen === 'controller-screen-dest' ? EDSData : EDSExtras);
@@ -203,6 +213,7 @@ function onNumberPressed(number) {
 window.addEventListener('load', () => {
     document.getElementById('button-f1').addEventListener('click', onF1Pressed);
     document.getElementById('button-f2').addEventListener('click', onF2Pressed);
+    document.getElementById('button-f3').addEventListener('click', onF3Pressed);
     document.getElementById('button-up').addEventListener('click', onUpPressed);
     document.getElementById('button-down').addEventListener('click', onDownPressed);
 
@@ -219,6 +230,7 @@ window.addEventListener('load', () => {
             'ArrowDown': onDownPressed,
             'F1': onF1Pressed,
             'F2': onF2Pressed,
+            'F3': onF3Pressed,
             'Escape': onCrossPressed,
             'Enter': onTickPressed
         }

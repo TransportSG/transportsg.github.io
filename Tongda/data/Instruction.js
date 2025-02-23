@@ -129,20 +129,19 @@ EDSFormats.Instruction = {
             let currentFrame = 0
 
             function drawFrame(frame) {
+                matrix.onBeginDraw()
                 destination.position.x = matrix.width - frame
                 matrix.clearRectangle(0, 0, matrix.width, matrix.height)
 
                 matrix.drawText(destination)
                 
                 matrix.clearRectangle(0, 0, serviceWidth, matrix.height)
+
                 matrix.drawText(serviceNum)
+                matrix.onEndDraw()
             }
-
-            if (matrix === window.controllerPreview) {
-                return drawFrame(matrix.width - serviceWidth - 2)
-            }
-
-            __scrollingInterval__ = setInterval(() => {
+            
+            matrix.__scrollingInterval__ = setInterval(() => {
                 drawFrame(currentFrame++)
                 if (currentFrame === framesNeeded) currentFrame = 0
             }, 50)
