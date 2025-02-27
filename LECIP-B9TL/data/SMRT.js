@@ -4544,18 +4544,6 @@ EDSData.SMRT = {
                         text: "SMRT LOGO",
                         image: "logo"
                     },
-                    {
-                        renderType: 'message',
-                        text: 'GONG XI FA CAI',
-                        font: 'Arial-15:2',
-                        spacing: 2,
-                        marginTop: 3
-                    },
-                    {
-                        renderType: "logo",
-                        text: "SMRT LOGO",
-                        image: "logo"
-                    },
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -4567,26 +4555,8 @@ EDSData.SMRT = {
                 scrolls: [
                 {
                     renderType: "destScroll",
-                    top: "Welcome",
+                    top: "",
                     topFont: "Hanover-7:3",
-        
-                    serviceNumber: ""
-                },
-                {
-                    renderType: "destScroll",
-                    top: "Work In",
-                    topFont: "Hanover-7:3",
-                    bottom: "Progress",
-                    bottomFont: "Hanover-7:3",
-        
-                    serviceNumber: ""
-                },
-                {
-                    renderType: "destScroll",
-                    top: "Gong Xi",
-                    topFont: "Hanover-7:3",
-                    bottom: "Fa Cai",
-                    bottomFont: "Hanover-7:3",
         
                     serviceNumber: ""
                 },

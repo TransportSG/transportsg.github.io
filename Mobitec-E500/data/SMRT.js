@@ -846,17 +846,6 @@ EDSData['SMRT (PostSLBP)'] = {
         
                     serviceNumber: ""
                 },
-                {
-                    renderType: "logo",
-                    image: "logo",
-                    text: "SMRT LOGO"
-                },
-                {
-                    renderType: "message",
-                    font: "Mobitec-13:7",
-                    text: "GONG XI FA CAI",
-                    spacing: 1
-                },
             ],
             scrollFont: "Mobitec-7:5:3"
         }

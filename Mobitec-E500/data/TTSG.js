@@ -666,15 +666,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "41",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "41",
                     top: "BEAUTY WORLD",
                     image: "mrt"
                 }
@@ -699,15 +690,6 @@ EDSData.TTSG = {
                     bottom: "Tower Transit",
                     bottomFont: "Hanover-7:3",
                     image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "41",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
                 },
                 {
                     renderType: "destScroll",
@@ -776,15 +758,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "49",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "49",
                     top: "JURONG WEST ST 42",
                 },
             ]
@@ -808,15 +781,6 @@ EDSData.TTSG = {
                     bottom: "Tower Transit",
                     bottomFont: "Hanover-7:3",
                     image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "49",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
                 },
                 {
                     renderType: "destScroll",
@@ -931,15 +895,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "66",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "66",
                     top: "BEAUTY WORLD",
                     image: "mrt"
                 }
@@ -964,15 +919,6 @@ EDSData.TTSG = {
                     bottom: "Tower Transit",
                     bottomFont: "Hanover-7:3",
                     image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "66",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
                 },
                 {
                     renderType: "destScroll",
@@ -1117,15 +1063,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "77",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "77",
                     top: "MARINA CENTRE",
                     bottom: "(PROMENADE STN)",
                     image: "mrt"
@@ -1152,15 +1089,6 @@ EDSData.TTSG = {
                     bottom: "Tower Transit",
                     bottomFont: "Hanover-7:3",
                     image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "77",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
                 },
                 {
                     renderType: "destScroll",
@@ -1240,15 +1168,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "78",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "78",
                     top: "CLEMENTI MRT",
                     image: "mrt"
                 }
@@ -1273,15 +1192,6 @@ EDSData.TTSG = {
                     bottom: "Tower Transit",
                     bottomFont: "Hanover-7:3",
                     image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "78",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
                 },
                 {
                     renderType: "destScroll",
@@ -1340,15 +1250,6 @@ EDSData.TTSG = {
                 },
                 {
                     renderType: "destScroll",
-                    serviceNumber: "79",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
                     serviceNumber: "78",
                     top: "JURONG EAST",
                     image: "mrt"
@@ -1378,15 +1279,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "79",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "79",
                     top: "BOON LAY",
                     image: "mrt"
                 }
@@ -1411,15 +1303,6 @@ EDSData.TTSG = {
                     bottom: "Tower Transit",
                     bottomFont: "Hanover-7:3",
                     image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "79",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
                 },
                 {
                     renderType: "destScroll",
@@ -1571,15 +1454,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "96",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "96",
                     top: "CLEMENTI",
                     image: "mrt"
                 }
@@ -1659,15 +1533,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "97",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "97",
                     top: "MARINA CENTRE",
                     bottom: "(PROMENADE STN)",
                     image: "mrt"
@@ -1695,15 +1560,6 @@ EDSData.TTSG = {
                     bottom: "Tower Transit",
                     bottomFont: "Hanover-7:3",
                     image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "97",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
                 },
                 {
                     renderType: "destScroll",
@@ -1929,15 +1785,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "98",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "98",
                     top: "JURONG PIER WAY",
                     bottom: "(JURONG ISLAND CHECKPOINT)",
 
@@ -1965,15 +1812,6 @@ EDSData.TTSG = {
                     bottom: "Tower Transit",
                     bottomFont: "Hanover-7:3",
                     image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "98",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
                 },
                 {
                     renderType: "destScroll",
@@ -2064,15 +1902,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "98M",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "98M",
                     top: "CORPORATION RD",
                 }
             ]
@@ -2096,15 +1925,6 @@ EDSData.TTSG = {
                     bottom: "Tower Transit",
                     bottomFont: "Hanover-7:3",
                     image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "98M",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
                 },
                 {
                     renderType: "destScroll",
@@ -2164,15 +1984,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "106",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "106",
                     top: "SHENTON WAY",
                 },
             ]
@@ -2205,15 +2016,6 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "through this route",
                     bottomFont: "Hanover-7:3",
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "106",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
                 },
                 {
                     renderType: "destScroll",
@@ -2360,15 +2162,6 @@ EDSData.TTSG = {
             destFont: "Mobitec-7:7",
             scrolls: [
                 {
-                    renderType: "destScroll2",
-                    serviceNumber: "4",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
                     renderType: "message",
                     text: "Off Service",
                     font: "Hanover-Tower16:10",
@@ -2381,15 +2174,6 @@ EDSData.TTSG = {
                     topFont: "Mobitec-Tower16:10",
     
                     text: "Tower Transit Logo"
-                },
-                {
-                    renderType: "destScroll2",
-                    serviceNumber: "4",
-                    top: "蛇|年|吉|祥",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
                 },
                 {
                     renderType: "message",
@@ -2438,15 +2222,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "143",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "143",
                     top: "JURONG EAST",
                     image: "mrt"
                 }
@@ -2472,15 +2247,6 @@ EDSData.TTSG = {
                     bottom: "Tower Transit",
                     bottomFont: "Hanover-7:3",
                     image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "143",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
                 },
                 {
                     renderType: "destScroll",
@@ -2516,15 +2282,6 @@ EDSData.TTSG = {
                     bottom: "Tower Transit",
                     bottomFont: "Hanover-7:3",
                     image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "143M",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
                 },
                 {
                     renderType: "destScroll",
@@ -2565,15 +2322,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "167",
-                    top: "蛇|年|吉|祥",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "167",
                     top: "BUKIT MERAH",
                 }
             ]
@@ -2605,15 +2353,6 @@ EDSData.TTSG = {
                     topFont: "Hanover-7:3",
                     bottom: "through this route",
                     bottomFont: "Hanover-7:3",
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "167",
-                    top: "蛇|年|吉|祥",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
                 },
                 {
                     renderType: "destScroll",
@@ -2844,15 +2583,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "169",
-                    top: "蛇|年|吉|祥",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "169",
                     top: "ANG MO KIO",
                     image: "mrt"
                 }
@@ -2887,15 +2617,6 @@ EDSData.TTSG = {
                     bottom: "journey!",
                     bottomFont: "Hanover-7:3",
                     image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "169",
-                    top: "蛇|年|吉|祥",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
                 },
                 {
                     renderType: "destScroll",
@@ -2970,15 +2691,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "171",
-                    top: "蛇|年|吉|祥",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "171",
                     top: "BUKIT PANJANG",
                     image: "mrt"
                 }
@@ -3003,15 +2715,6 @@ EDSData.TTSG = {
                     bottom: "Tower Transit",
                     bottomFont: "Hanover-7:3",
                     image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "171",
-                    top: "蛇|年|吉|祥",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
                 },
                 {
                     renderType: "destScroll",
@@ -3122,15 +2825,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "173",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "173",
                     top: "CLEMENTI",
                     image: "mrt"
                 }
@@ -3156,15 +2850,6 @@ EDSData.TTSG = {
                     bottom: "Tower Transit",
                     bottomFont: "Hanover-7:3",
                     image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "173",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
                 },
                 {
                     renderType: "destScroll",
@@ -3222,15 +2907,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "177",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "177",
                     top: "BUKIT PANJANG",
                     image: "mrt"
                 }
@@ -3256,15 +2932,6 @@ EDSData.TTSG = {
                     bottom: "Tower Transit",
                     bottomFont: "Hanover-7:3",
                     image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "177",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
                 },
                 {
                     renderType: "destScroll",
@@ -3297,15 +2964,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "183",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "183",
                     top: "SCIENCE PARK RD",
 
                 }
@@ -3330,15 +2988,6 @@ EDSData.TTSG = {
                     bottom: "Tower Transit",
                     bottomFont: "Hanover-7:3",
                     image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "183",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
                 },
                 {
                     renderType: "destScroll",
@@ -3423,15 +3072,6 @@ EDSData.TTSG = {
                 },
                 {
                     renderType: "destScroll",
-                    serviceNumber: "189",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
                     serviceNumber: "183",
                     top: "CLEMENTI AVE 1",
 
@@ -3457,15 +3097,6 @@ EDSData.TTSG = {
                     bottom: "Tower Transit",
                     bottomFont: "Hanover-7:3",
                     image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "189",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
                 },
                 {
                     renderType: "destScroll",
@@ -3538,15 +3169,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "282",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "282",
                     top: "CLEMENTI",
                     image: "mrt"
                 }
@@ -3568,15 +3190,6 @@ EDSData.TTSG = {
                     bottom: "Tower Transit",
                     bottomFont: "Hanover-7:3",
                     image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "284",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
                 },
                 {
                     renderType: "destScroll",
@@ -3608,15 +3221,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "285",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "285",
                     top: "CLEMENTI",
                     image: "mrt"
                 }
@@ -3640,15 +3244,6 @@ EDSData.TTSG = {
                     bottom: "Tower Transit",
                     bottomFont: "Hanover-7:3",
                     image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "333",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
                 },
                 {
                     renderType: "destScroll",
@@ -3686,15 +3281,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "334",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "334",
                     top: "JURONG EAST",
                     image: "mrt"
                 }
@@ -3720,15 +3306,6 @@ EDSData.TTSG = {
                     bottom: "Tower Transit",
                     bottomFont: "Hanover-7:3",
                     image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "335",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
                 },
                 {
                     renderType: "destScroll",
@@ -5447,30 +5024,12 @@ EDSData.TTSG = {
             destFont: "Mobitec-7:4",
             scrolls: [
                 {
-                    renderType: "destScroll2",
-                    serviceNumber: "4",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
                     renderType: "TowerSpecialEDS",
                     serviceNumber: "",
                     top: "~+",
                     topFont: "Mobitec-Tower16:10",
     
                     text: "Tower Transit Logo"
-                },
-                {
-                    renderType: "destScroll2",
-                    serviceNumber: "4",
-                    top: "蛇|年|吉|祥",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
                 },
                 {
                     renderType: "TowerSpecialEDS",
@@ -5715,15 +5274,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "801",
-                    top: "蛇|年|吉|祥",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "801",
                     top: "YISHUN",
                     image: "mrt"
                 }
@@ -5748,15 +5298,6 @@ EDSData.TTSG = {
                     bottom: "Tower Transit",
                     bottomFont: "Hanover-7:3",
                     image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "825",
-                    top: "蛇|年|吉|祥",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
                 },
                 {
                     renderType: "destScroll",
@@ -5786,15 +5327,6 @@ EDSData.TTSG = {
                     bottom: "Tower Transit",
                     bottomFont: "Hanover-7:3",
                     image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "853",
-                    top: "蛇|年|吉|祥",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
                 },
                 {
                     renderType: "destScroll",
@@ -5829,15 +5361,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "853",
-                    top: "蛇|年|吉|祥",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "853",
                     top: "YISHUN",
                     image: "mrt"
                 }
@@ -5864,15 +5387,6 @@ EDSData.TTSG = {
                     bottom: "Tower Transit",
                     bottomFont: "Hanover-7:3",
                     image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "853M",
-                    top: "蛇|年|吉|祥",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
                 },
                 {
                     renderType: "destScroll",
@@ -5907,15 +5421,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "853M",
-                    top: "蛇|年|吉|祥",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "853M",
                     top: "YISHUN",
                     image: "mrt"
                 }
@@ -5942,15 +5447,7 @@ EDSData.TTSG = {
                     bottomFont: "Hanover-7:3",
                     image: "logo"
                 },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "854",
-                    top: "蛇|年|吉|祥",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
+
                 {
                     renderType: "destScroll",
                     serviceNumber: "854",
@@ -5979,15 +5476,6 @@ EDSData.TTSG = {
                     bottom: "Tower Transit",
                     bottomFont: "Hanover-7:3",
                     image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "854",
-                    top: "蛇|年|吉|祥",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
                 },
                 {
                     renderType: "destScroll",
@@ -6066,15 +5554,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "855",
-                    top: "蛇|年|吉|祥",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "855",
                     top: "HARBOURFRONT",
                     image: "mrt"
                 }
@@ -6104,15 +5583,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "855",
-                    top: "蛇|年|吉|祥",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "855",
                     top: "YISHUN",
                     image: "mrt"
                 }
@@ -6138,15 +5608,6 @@ EDSData.TTSG = {
                     bottom: "Tower Transit",
                     bottomFont: "Hanover-7:3",
                     image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "856",
-                    top: "蛇|年|吉|祥",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
                 },
                 {
                     renderType: "destScroll",
@@ -6183,15 +5644,6 @@ EDSData.TTSG = {
                     bottom: "Tower Transit",
                     bottomFont: "Hanover-7:3",
                     image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "856",
-                    top: "蛇|年|吉|祥",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
                 },
                 {
                     renderType: "destScroll",
@@ -6285,15 +5737,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "857",
-                    top: "蛇|年|吉|祥",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "857",
                     top: "TEMASEK AVE",
                     bottom: "(PROMENADE STN)",
                     image: "mrt"
@@ -6320,15 +5763,6 @@ EDSData.TTSG = {
                     bottom: "Tower Transit",
                     bottomFont: "Hanover-7:3",
                     image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "857",
-                    top: "蛇|年|吉|祥",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
                 },
                 {
                     renderType: "destScroll",
@@ -6467,15 +5901,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "858",
-                    top: "蛇|年|吉|祥",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "858",
                     top: "CHANGI AIRPORT",
                     bottom: "(PTB 3, 1, 2)",
                     image: "ChangiAirportControlTower"
@@ -6502,15 +5927,6 @@ EDSData.TTSG = {
                     bottom: "Tower Transit",
                     bottomFont: "Hanover-7:3",
                     image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "858",
-                    top: "蛇|年|吉|祥",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
                 },
                 {
                     renderType: "destScroll",
@@ -6631,15 +6047,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "859",
-                    top: "蛇|年|吉|祥",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "859",
                     top: "YISHUN",
                     image: "mrt"
                 }
@@ -6665,15 +6072,6 @@ EDSData.TTSG = {
                     bottom: "Tower Transit",
                     bottomFont: "Hanover-7:3",
                     image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "859",
-                    top: "蛇|年|吉|祥",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
                 },
                 {
                     renderType: "destScroll",
@@ -6798,15 +6196,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "861",
-                    top: "蛇|年|吉|祥",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "861",
                     top: "KHATIB MRT",
                     image: "mrt",
                 }
@@ -6832,15 +6221,6 @@ EDSData.TTSG = {
                     bottom: "Tower Transit",
                     bottomFont: "Hanover-7:3",
                     image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "861",
-                    top: "蛇|年|吉|祥",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
                 },
                 {
                     renderType: "destScroll",
@@ -6900,15 +6280,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "870",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "870",
                     top: "TENGAH",
                 }
             ]
@@ -6934,15 +6305,6 @@ EDSData.TTSG = {
                     bottom: "Tower Transit",
                     bottomFont: "Hanover-7:3",
                     image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "870",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
                 },
                 {
                     renderType: "destScroll",
@@ -7003,15 +6365,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "871",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "871",
                     top: "BEAUTY WORLD",
                     image: "mrt"
                 }
@@ -7037,15 +6390,6 @@ EDSData.TTSG = {
                     bottom: "Tower Transit",
                     bottomFont: "Hanover-7:3",
                     image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "871",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
                 },
                 {
                     renderType: "destScroll",
@@ -7099,15 +6443,6 @@ EDSData.TTSG = {
                     bottom: "Tower Transit",
                     bottomFont: "Hanover-7:3",
                     image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "882",
-                    top: "蛇|年|吉|祥",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
                 },
                 {
                     renderType: "destScroll",
@@ -7196,15 +6531,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "883",
-                    top: "蛇|年|吉|祥",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "883",
                     top: "YISHUN CTRL 2",
                     bottom: "(YISHUN COMMUNITY HOSP)",
                 }
@@ -7230,15 +6556,6 @@ EDSData.TTSG = {
                     bottom: "Tower Transit",
                     bottomFont: "Hanover-7:3",
                     image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "883",
-                    top: "蛇|年|吉|祥",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
                 },
                 {
                     renderType: "destScroll",
@@ -7322,15 +6639,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "883M",
-                    top: "蛇|年|吉|祥",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "883M",
                     top: "YISHUN AVE 5",
                 }
             ]
@@ -7359,15 +6667,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "883M",
-                    top: "蛇|年|吉|祥",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "883M",
                     top: "SEMBAWANG",
                     image: "mrt"
                 }
@@ -7392,15 +6691,6 @@ EDSData.TTSG = {
                     bottom: "Tower Transit",
                     bottomFont: "Hanover-7:3",
                     image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "941",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
                 },
                 {
                     renderType: "destScroll",
@@ -7470,15 +6760,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "945",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "945",
                     top: "BUKIT BATOK",
                     image: "mrt"
                 }
@@ -7501,15 +6782,6 @@ EDSData.TTSG = {
                     bottom: "Tower Transit",
                     bottomFont: "Hanover-7:3",
                     image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "947",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
                 },
                 {
                     renderType: "destScroll",
@@ -7543,15 +6815,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "963",
-                    top: "蛇|年|吉|祥",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "963",
                     top: "HARBOURFRONT",
                     image: "mrt"
                 }
@@ -7577,15 +6840,6 @@ EDSData.TTSG = {
                     bottom: "Tower Transit",
                     bottomFont: "Hanover-7:3",
                     image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "963",
-                    top: "蛇|年|吉|祥",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
                 },
                 {
                     renderType: "destScroll",
@@ -7806,15 +7060,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "965",
-                    top: "蛇|年|吉|祥",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "965",
                     top: "SENGKANG",
                     image: "mrt"
                 }
@@ -7840,15 +7085,6 @@ EDSData.TTSG = {
                     bottom: "Tower Transit",
                     bottomFont: "Hanover-7:3",
                     image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "965",
-                    top: "蛇|年|吉|祥",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
                 },
                 {
                     renderType: "destScroll",
@@ -7958,15 +7194,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "966",
-                    top: "蛇|年|吉|祥",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "966",
                     top: "MARINE PARADE",
                     image: "mrt"
                 }
@@ -7992,15 +7219,6 @@ EDSData.TTSG = {
                     bottom: "Tower Transit",
                     bottomFont: "Hanover-7:3",
                     image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "966",
-                    top: "蛇|年|吉|祥",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
                 },
                 {
                     renderType: "destScroll",
@@ -8077,15 +7295,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "969",
-                    top: "蛇|年|吉|祥",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "969",
                     top: "TAMPINES",
                     image: "mrt"
                 }
@@ -8111,15 +7320,6 @@ EDSData.TTSG = {
                     bottom: "Tower Transit",
                     bottomFont: "Hanover-7:3",
                     image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "969",
-                    top: "蛇|年|吉|祥",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
                 },
                 {
                     renderType: "destScroll",
@@ -8379,15 +7579,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "980",
-                    top: "蛇|年|吉|祥",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "980",
                     top: "LOR 1 GEYLANG",
                     bottom: "(KALLANG STN)",
                     image: "mrt"
@@ -8414,15 +7605,6 @@ EDSData.TTSG = {
                     bottom: "Tower Transit",
                     bottomFont: "Hanover-7:3",
                     image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "980",
-                    top: "蛇|年|吉|祥",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
                 },
                 {
                     renderType: "destScroll",
@@ -8455,15 +7637,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "981",
-                    top: "蛇|年|吉|祥",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "981",
                     top: "SENOKO LOOP",
                 }
             ]
@@ -8492,15 +7665,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "981",
-                    top: "蛇|年|吉|祥",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "981",
                     top: "SEMBAWANG",
                     image: "mrt"
                 }
@@ -8524,15 +7688,6 @@ EDSData.TTSG = {
                     bottom: "Tower Transit",
                     bottomFont: "Hanover-7:3",
                     image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "990",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
                 },
                 {
                     renderType: "destScroll",
@@ -8565,15 +7720,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "990",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "990",
                     top: "BUKIT BATOK",
                     image: "mrt"
                 }
@@ -8602,15 +7748,6 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "992",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "992",
                     top: "TENGAH",
                 }
             ]
@@ -8634,15 +7771,6 @@ EDSData.TTSG = {
                     bottom: "Tower Transit",
                     bottomFont: "Hanover-7:3",
                     image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "992",
-                    top: "蛇|年|顺|利",
-                    topFont: "Mobitec-TowerCNYGreetings",
-                    bottom: "0 1 2",
-                    bottomFont: "Mobitec-TowerCNYGreetings",
-                    image: "cny"
                 },
                 {
                     renderType: "destScroll",

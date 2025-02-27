@@ -964,7 +964,7 @@ EDSData.TTSG = {
                 scrolls: [
                     {
                         renderType: "message",
-                        text: "34",
+                        text: "3 4",
                         font: "LECIP-TowerIcons",
                         spacing: 2
                     },
@@ -995,7 +995,7 @@ EDSData.TTSG = {
                 scrolls: [
                     {
                         renderType: "message",
-                        text: "34",
+                        text: "3 4",
                         font: "LECIP-TowerIcons",
                         spacing: 2
                     },  
@@ -1028,12 +1028,6 @@ EDSData.TTSG = {
     
                     serviceNumber: "41"
                 },
-                {
-                    renderType: "message2",
-                    serviceNumber: "41",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
-                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -1060,12 +1054,6 @@ EDSData.TTSG = {
                     topFont: "Hanover-Tower12:7",
     
                     serviceNumber: "41"
-                },
-                {
-                    renderType: "message2",
-                    serviceNumber: "41",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
                 },
                 ],
                 scrollFont: "Hanover-Tower7:5"
@@ -1180,12 +1168,6 @@ EDSData.TTSG = {
     
                     serviceNumber: "49"
                 },
-                {
-                    renderType: "message2",
-                    serviceNumber: "49",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
-                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -1215,12 +1197,6 @@ EDSData.TTSG = {
                     topFont: "Hanover-Tower12:7",
     
                     serviceNumber: "49"
-                },
-                {
-                    renderType: "message2",
-                    serviceNumber: "49",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
                 },
                 ],
                 scrollFont: "Hanover-Tower7:5"
@@ -1352,12 +1328,6 @@ EDSData.TTSG = {
     
                     serviceNumber: "66"
                 },
-                {
-                    renderType: "message2",
-                    serviceNumber: "66",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
-                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -1385,12 +1355,6 @@ EDSData.TTSG = {
                     topFont: "Hanover-Tower12:7",
     
                     serviceNumber: "66"
-                },
-                {
-                    renderType: "message2",
-                    serviceNumber: "66",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
                 },
                 ],
                 scrollFont: "Hanover-Tower7:5"
@@ -1681,12 +1645,6 @@ EDSData.TTSG = {
     
                     serviceNumber: "77"
                 },
-                {
-                    renderType: "message2",
-                    serviceNumber: "77",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
-                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -1715,12 +1673,6 @@ EDSData.TTSG = {
                     topFont: "Hanover-Tower12:7",
     
                     serviceNumber: "77"
-                },
-                {
-                    renderType: "message2",
-                    serviceNumber: "77",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
                 },
                 ],
                 scrollFont: "Hanover-Tower7:5"
@@ -1820,12 +1772,6 @@ EDSData.TTSG = {
             
                     serviceNumber: "78"
                 },
-                {
-                    renderType: "message2",
-                    serviceNumber: "78",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
-                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -1853,12 +1799,6 @@ EDSData.TTSG = {
                     topFont: "Hanover-Tower12:7",
             
                     serviceNumber: "78"
-                },
-                {
-                    renderType: "message2",
-                    serviceNumber: "78",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
                 },
                 ],
                 scrollFont: "Hanover-Tower7:5"
@@ -1991,12 +1931,6 @@ EDSData.TTSG = {
             
                     serviceNumber: "79"
                 },
-                {
-                    renderType: "message2",
-                    serviceNumber: "79",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
-                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -2032,12 +1966,6 @@ EDSData.TTSG = {
                     topFont: "Hanover-Tower12:7",
             
                     serviceNumber: "79"
-                },
-                {
-                    renderType: "message2",
-                    serviceNumber: "79",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
                 },
                 ],
                 scrollFont: "Hanover-Tower7:5"
@@ -2210,6 +2138,33 @@ EDSData.TTSG = {
         
                     serviceNumber: "96",
                 },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "96",
+                font: "LECIP-TowerRear17:10",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService2",
+                serviceNumber: "96",
+                destination: "CLEMENTI",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                    "CLEMENTI RD",
+                    "NAT'L UNIVERSITY OF S'PORE",
+                    "KENT RIDGE CRESCENT",
+                {
+                    renderType: "destScroll2",
+                    top: "CLEMENTI - NUS",
+                    topFont: "Hanover-Tower12:7",
+        
+                    serviceNumber: "96",
+                },
                 {
                     renderType: "message5",
                     serviceNumber: "96",
@@ -2309,12 +2264,6 @@ EDSData.TTSG = {
             
                     serviceNumber: "97"
                 },
-                {
-                    renderType: "message2",
-                    serviceNumber: "97",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
-                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -2343,12 +2292,6 @@ EDSData.TTSG = {
                     topFont: "Hanover-Tower12:7",
             
                     serviceNumber: "97"
-                },
-                {
-                    renderType: "message2",
-                    serviceNumber: "97",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
                 },
                 ],
                 scrollFont: "Hanover-Tower7:5"
@@ -2536,12 +2479,6 @@ EDSData.TTSG = {
     
                     serviceNumber: "98"
                 },
-                {
-                    renderType: "message2",
-                    serviceNumber: "98",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
-                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -2574,12 +2511,6 @@ EDSData.TTSG = {
                     topFont: "Hanover-Tower12:7",
     
                     serviceNumber: "98"
-                },
-                {
-                    renderType: "message2",
-                    serviceNumber: "98",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
                 },
                 ],
                 scrollFont: "Hanover-Tower7:5"
@@ -2817,12 +2748,6 @@ EDSData.TTSG = {
     
                     serviceNumber: "106"
                 },
-                {
-                    renderType: "message2",
-                    serviceNumber: "106",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
-                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -2852,12 +2777,6 @@ EDSData.TTSG = {
                     topFont: "Hanover-Tower12:7",
     
                     serviceNumber: "106"
-                },
-                {
-                    renderType: "message2",
-                    serviceNumber: "106",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
                 },
                 ],
                 scrollFont: "Hanover-Tower7:5"
@@ -3002,12 +2921,6 @@ EDSData.TTSG = {
     
                     serviceNumber: "143"
                 },
-                {
-                    renderType: "message2",
-                    serviceNumber: "143",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
-                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -3036,12 +2949,6 @@ EDSData.TTSG = {
                     topFont: "Hanover-Tower12:7",
     
                     serviceNumber: "143"
-                },
-                {
-                    renderType: "message2",
-                    serviceNumber: "143",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
                 },
                 ],
                 scrollFont: "Hanover-Tower7:5"
@@ -3156,12 +3063,6 @@ EDSData.TTSG = {
         
                     serviceNumber: "143M"
                 },
-                {
-                    renderType: "message2",
-                    serviceNumber: "143M",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
-                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -3238,12 +3139,6 @@ EDSData.TTSG = {
     
                     serviceNumber: "167"
                 },
-                {
-                    renderType: "message2",
-                    serviceNumber: "167",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
-                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -3272,12 +3167,6 @@ EDSData.TTSG = {
                     topFont: "Hanover-Tower12:7",
     
                     serviceNumber: "167"
-                },
-                {
-                    renderType: "message2",
-                    serviceNumber: "167",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
                 },
                 ],
                 scrollFont: "Hanover-Tower7:5"
@@ -3557,12 +3446,6 @@ EDSData.TTSG = {
         
                     serviceNumber: "169"
                 },
-                {
-                    renderType: "message2",
-                    serviceNumber: "169",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
-                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -3591,12 +3474,6 @@ EDSData.TTSG = {
                         topFont: "Hanover-Tower12:7",
             
                         serviceNumber: "169"
-                    },
-                    {
-                        renderType: "message2",
-                        serviceNumber: "169",
-                        top: "3 4",
-                        topFont: "LECIP-TowerIcons",
                     },
                     ],
                     scrollFont: "Hanover-Tower7:5"
@@ -3688,12 +3565,6 @@ EDSData.TTSG = {
         
                     serviceNumber: "171"
                 },
-                {
-                    renderType: "message2",
-                    serviceNumber: "171",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
-                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -3721,12 +3592,6 @@ EDSData.TTSG = {
                         topFont: "Hanover-Tower12:7",
             
                         serviceNumber: "171"
-                    },
-                    {
-                        renderType: "message2",
-                        serviceNumber: "171",
-                        top: "3 4",
-                        topFont: "LECIP-TowerIcons",
                     },
                     ],
                     scrollFont: "Hanover-Tower7:5"
@@ -3819,12 +3684,6 @@ EDSData.TTSG = {
         
                     serviceNumber: "173"
                 },
-                {
-                    renderType: "message2",
-                    serviceNumber: "173",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
-                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -3857,12 +3716,6 @@ EDSData.TTSG = {
                         topFont: "Hanover-Tower12:7",
             
                         serviceNumber: "173"
-                    },
-                    {
-                        renderType: "message2",
-                        serviceNumber: "173",
-                        top: "3 4",
-                        topFont: "LECIP-TowerIcons",
                     },
                     ],
                     scrollFont: "Hanover-Tower7:5"
@@ -3932,12 +3785,6 @@ EDSData.TTSG = {
         
                     serviceNumber: "177"
                 },
-                {
-                    renderType: "message2",
-                    serviceNumber: "177",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
-                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -3985,12 +3832,6 @@ EDSData.TTSG = {
             
                         serviceNumber: "177"
                     },
-                    {
-                        renderType: "message2",
-                        serviceNumber: "177",
-                        top: "3 4",
-                        topFont: "LECIP-TowerIcons",
-                    },
                     ],
                     scrollFont: "Hanover-Tower7:5"
             },
@@ -4025,12 +3866,6 @@ EDSData.TTSG = {
         
                     serviceNumber: "183"
                 },
-                {
-                    renderType: "message2",
-                    serviceNumber: "183",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
-                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -4058,12 +3893,6 @@ EDSData.TTSG = {
                         topFont: "Hanover-Tower12:7",
             
                         serviceNumber: "183"
-                    },
-                    {
-                        renderType: "message2",
-                        serviceNumber: "183",
-                        top: "3 4",
-                        topFont: "LECIP-TowerIcons",
                     },
                     ],
                     scrollFont: "Hanover-Tower7:5"
@@ -4129,12 +3958,6 @@ EDSData.TTSG = {
             
                     serviceNumber: "189"
                 },
-                {
-                    renderType: "message2",
-                    serviceNumber: "189",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
-                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -4162,12 +3985,6 @@ EDSData.TTSG = {
                         topFont: "Hanover-Tower12:7",
             
                         serviceNumber: "189"
-                    },
-                    {
-                        renderType: "message2",
-                        serviceNumber: "189",
-                        top: "3 4",
-                        topFont: "LECIP-TowerIcons",
                     },
                     ],
                     scrollFont: "Hanover-Tower7:5"
@@ -4232,12 +4049,6 @@ EDSData.TTSG = {
         
                     serviceNumber: "282"
                 },
-                {
-                    renderType: "message2",
-                    serviceNumber: "282",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
-                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -4264,12 +4075,6 @@ EDSData.TTSG = {
                     topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "284"
-                },
-                {
-                    renderType: "message2",
-                    serviceNumber: "284",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
                 },
                 ],
                 scrollFont: "Hanover-Tower7:5"
@@ -4299,12 +4104,6 @@ EDSData.TTSG = {
                     topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "285"
-                },
-                {
-                    renderType: "message2",
-                    serviceNumber: "285",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
                 },
                 ],
                 scrollFont: "Hanover-Tower7:5"
@@ -4375,12 +4174,6 @@ EDSData.TTSG = {
         
                     serviceNumber: "333"
                 },
-                {
-                    renderType: "message2",
-                    serviceNumber: "333",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
-                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -4409,12 +4202,6 @@ EDSData.TTSG = {
                     topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "334"
-                },
-                {
-                    renderType: "message2",
-                    serviceNumber: "334",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
                 },
                 ],
                 scrollFont: "Hanover-Tower7:5"
@@ -4482,12 +4269,6 @@ EDSData.TTSG = {
                     topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "335"
-                },
-                {
-                    renderType: "message2",
-                    serviceNumber: "335",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
                 },
                 ],
                 scrollFont: "Hanover-Tower7:5"
@@ -5525,12 +5306,6 @@ EDSData.TTSG = {
         
                     serviceNumber: "801"
                 },
-                {
-                    renderType: "message2",
-                    serviceNumber: "801",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
-                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -5560,12 +5335,6 @@ EDSData.TTSG = {
                     topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "825"
-                },
-                {
-                    renderType: "message2",
-                    serviceNumber: "825",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
                 },
                 ],
                 scrollFont: "Hanover-Tower7:5"
@@ -5598,12 +5367,6 @@ EDSData.TTSG = {
     
                 serviceNumber: "853"
             },
-            {
-                renderType: "message2",
-                serviceNumber: "853",
-                top: "3 4",
-                topFont: "LECIP-TowerIcons",
-            },
             ],
             scrollFont: "Hanover-Tower7:5"
             },
@@ -5632,12 +5395,6 @@ EDSData.TTSG = {
                     topFont: "Hanover-Tower12:7",
             
                     serviceNumber: "853"
-                },
-                {
-                    renderType: "message2",
-                    serviceNumber: "853",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
                 },
                 ],
                 scrollFont: "Hanover-Tower7:5"
@@ -5670,12 +5427,6 @@ EDSData.TTSG = {
     
                 serviceNumber: "853M"
             },
-            {
-                renderType: "message2",
-                serviceNumber: "853M",
-                top: "3 4",
-                topFont: "LECIP-TowerIcons",
-            },
             ],
             scrollFont: "Hanover-Tower7:5"
             },
@@ -5704,12 +5455,6 @@ EDSData.TTSG = {
                     topFont: "Hanover-Tower12:7",
             
                     serviceNumber: "853M"
-                },
-                {
-                    renderType: "message2",
-                    serviceNumber: "853M",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
                 },
                 ],
                 scrollFont: "Hanover-Tower7:5"
@@ -5742,12 +5487,6 @@ EDSData.TTSG = {
     
                 serviceNumber: "854"
             },
-            {
-                renderType: "message2",
-                serviceNumber: "854",
-                top: "3 4",
-                topFont: "LECIP-TowerIcons",
-            },
             ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -5776,12 +5515,6 @@ EDSData.TTSG = {
                     topFont: "Hanover-Tower12:7",
             
                     serviceNumber: "854"
-                },
-                {
-                    renderType: "message2",
-                    serviceNumber: "854",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
                 },
                 ],
                     scrollFont: "Hanover-Tower7:5"
@@ -5853,12 +5586,6 @@ EDSData.TTSG = {
     
                 serviceNumber: "855"
             },
-            {
-                renderType: "message2",
-                serviceNumber: "855",
-                top: "3 4",
-                topFont: "LECIP-TowerIcons",
-            },
             ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -5887,12 +5614,6 @@ EDSData.TTSG = {
                     topFont: "Hanover-Tower12:7",
             
                     serviceNumber: "855"
-                },
-                {
-                    renderType: "message2",
-                    serviceNumber: "855",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
                 },
                 ],
                     scrollFont: "Hanover-Tower7:5"
@@ -5924,12 +5645,6 @@ EDSData.TTSG = {
                     topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "856"
-            },
-            {
-                renderType: "message2",
-                serviceNumber: "856",
-                top: "3 4",
-                topFont: "LECIP-TowerIcons",
             },
             ],
                 scrollFont: "Hanover-Tower7:5"
@@ -5963,12 +5678,6 @@ EDSData.TTSG = {
                     topFont: "Hanover-Tower12:7",
             
                     serviceNumber: "856"
-                },
-                {
-                    renderType: "message2",
-                    serviceNumber: "856",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
                 },
                 ],
                     scrollFont: "Hanover-Tower7:5"
@@ -6065,12 +5774,6 @@ EDSData.TTSG = {
     
                 serviceNumber: "857"
             },
-            {
-                renderType: "message2",
-                serviceNumber: "857",
-                top: "3 4",
-                topFont: "LECIP-TowerIcons",
-            },
             ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -6099,12 +5802,6 @@ EDSData.TTSG = {
                     topFont: "Hanover-Tower12:7",
             
                     serviceNumber: "857"
-                },
-                {
-                    renderType: "message2",
-                    serviceNumber: "857",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
                 },
                 ],
                     scrollFont: "Hanover-Tower7:5"
@@ -6388,12 +6085,6 @@ EDSData.TTSG = {
         
                     serviceNumber: "858"
                 },
-                {
-                    renderType: "message2",
-                    serviceNumber: "858",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
-                },
             ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -6422,12 +6113,6 @@ EDSData.TTSG = {
                     topFont: "Hanover-Tower12:7",
             
                     serviceNumber: "858"
-                },
-                {
-                    renderType: "message2",
-                    serviceNumber: "858",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
                 },
                 ],
                     scrollFont: "Hanover-Tower7:5"
@@ -6667,12 +6352,6 @@ EDSData.TTSG = {
         
                     serviceNumber: "859"
                 },
-                {
-                    renderType: "message2",
-                    serviceNumber: "859",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
-                },
             ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -6701,12 +6380,6 @@ EDSData.TTSG = {
                     topFont: "Hanover-Tower12:7",
             
                     serviceNumber: "859"
-                },
-                {
-                    renderType: "message2",
-                    serviceNumber: "859",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
                 },
                 ],
                     scrollFont: "Hanover-Tower7:5"
@@ -6825,12 +6498,6 @@ EDSData.TTSG = {
         
                     serviceNumber: "861"
             },
-            {
-                renderType: "message2",
-                serviceNumber: "861",
-                top: "3 4",
-                topFont: "LECIP-TowerIcons",
-            },
             ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -6863,12 +6530,6 @@ EDSData.TTSG = {
                     topFont: "Hanover-Tower12:7",
             
                     serviceNumber: "861"
-                },
-                {
-                    renderType: "message2",
-                    serviceNumber: "861",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
                 },
                 ],
                     scrollFont: "Hanover-Tower7:5"
@@ -6931,12 +6592,6 @@ EDSData.TTSG = {
     
                 serviceNumber: "870"
             },
-            {
-                renderType: "message2",
-                serviceNumber: "870",
-                top: "3 4",
-                topFont: "LECIP-TowerIcons",
-            },
             ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -6965,12 +6620,6 @@ EDSData.TTSG = {
                     topFont: "Hanover-Tower12:7",
             
                     serviceNumber: "870"
-                },
-                {
-                    renderType: "message2",
-                    serviceNumber: "870",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
                 },
                 ],
                     scrollFont: "Hanover-Tower7:5"
@@ -7037,12 +6686,6 @@ EDSData.TTSG = {
     
                     serviceNumber: "871"
                 },
-                {
-                    renderType: "message2",
-                    serviceNumber: "871",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
-                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -7071,12 +6714,6 @@ EDSData.TTSG = {
                     topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "871"
-            },
-            {
-                renderType: "message2",
-                serviceNumber: "871",
-                top: "3 4",
-                topFont: "LECIP-TowerIcons",
             },
             ],
                 scrollFont: "Hanover-Tower7:5"
@@ -7144,12 +6781,6 @@ EDSData.TTSG = {
         
                     serviceNumber: "882"
                 },
-                {
-                    renderType: "message2",
-                    serviceNumber: "882",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
-                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -7215,12 +6846,6 @@ EDSData.TTSG = {
         
                     serviceNumber: "883"
             },
-            {
-                renderType: "message2",
-                serviceNumber: "883",
-                top: "3 4",
-                topFont: "LECIP-TowerIcons",
-            },
             ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -7253,12 +6878,6 @@ EDSData.TTSG = {
                     topFont: "Hanover-Tower12:7",
             
                     serviceNumber: "883"
-                },
-                {
-                    renderType: "message2",
-                    serviceNumber: "883",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
                 },
                 ],
                     scrollFont: "Hanover-Tower7:5"
@@ -7363,12 +6982,6 @@ EDSData.TTSG = {
         
                     serviceNumber: "883M"
                 },
-                {
-                    renderType: "message2",
-                    serviceNumber: "883M",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
-                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -7401,12 +7014,6 @@ EDSData.TTSG = {
                         topFont: "Hanover-Tower12:7",
             
                         serviceNumber: "883M"
-                    },
-                    {
-                        renderType: "message2",
-                        serviceNumber: "883M",
-                        top: "3 4",
-                        topFont: "LECIP-TowerIcons",
                     },
                     ],
                     scrollFont: "Hanover-Tower7:5"
@@ -7442,12 +7049,6 @@ EDSData.TTSG = {
         
                     serviceNumber: "941"
                 },
-                {
-                    renderType: "message2",
-                    serviceNumber: "941",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
-                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -7476,12 +7077,6 @@ EDSData.TTSG = {
                     topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "944"
-                },
-                {
-                    renderType: "message2",
-                    serviceNumber: "944",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
                 },
                 ],
                 scrollFont: "Hanover-Tower7:5"
@@ -7514,12 +7109,6 @@ EDSData.TTSG = {
         
                     serviceNumber: "945"
                 },
-                {
-                    renderType: "message2",
-                    serviceNumber: "945",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
-                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -7547,12 +7136,6 @@ EDSData.TTSG = {
                     topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "947"
-                },
-                {
-                    renderType: "message2",
-                    serviceNumber: "947",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
                 },
                 ],
                 scrollFont: "Hanover-Tower7:5"
@@ -7586,12 +7169,6 @@ EDSData.TTSG = {
         
                     serviceNumber: "963"
                 },
-                {
-                    renderType: "message2",
-                    serviceNumber: "963",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
-                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -7620,12 +7197,6 @@ EDSData.TTSG = {
                         topFont: "Hanover-Tower12:7",
             
                         serviceNumber: "963"
-                    },
-                    {
-                        renderType: "message2",
-                        serviceNumber: "963",
-                        top: "3 4",
-                        topFont: "LECIP-TowerIcons",
                     },
                     ],
                     scrollFont: "Hanover-Tower7:5"
@@ -7890,12 +7461,6 @@ EDSData.TTSG = {
         
                     serviceNumber: "965"
                 },
-                {
-                    renderType: "message2",
-                    serviceNumber: "965",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
-                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -7924,12 +7489,6 @@ EDSData.TTSG = {
                         topFont: "Hanover-Tower12:7",
             
                         serviceNumber: "965"
-                    },
-                    {
-                        renderType: "message2",
-                        serviceNumber: "965",
-                        top: "3 4",
-                        topFont: "LECIP-TowerIcons",
                     },
                     ],
                     scrollFont: "Hanover-Tower7:5"
@@ -8163,12 +7722,6 @@ EDSData.TTSG = {
         
                     serviceNumber: "966"
                 },
-                {
-                    renderType: "message2",
-                    serviceNumber: "966",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
-                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -8197,12 +7750,6 @@ EDSData.TTSG = {
                         topFont: "Hanover-Tower12:7",
             
                         serviceNumber: "966"
-                    },
-                    {
-                        renderType: "message2",
-                        serviceNumber: "966",
-                        top: "3 4",
-                        topFont: "LECIP-TowerIcons",
                     },
                     ],
                     scrollFont: "Hanover-Tower7:5"
@@ -8375,12 +7922,6 @@ EDSData.TTSG = {
         
                     serviceNumber: "969"
                 },
-                {
-                    renderType: "message2",
-                    serviceNumber: "969",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
-                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -8409,12 +7950,6 @@ EDSData.TTSG = {
                         topFont: "Hanover-Tower12:7",
             
                         serviceNumber: "969"
-                    },
-                    {
-                        renderType: "message2",
-                        serviceNumber: "969",
-                        top: "3 4",
-                        topFont: "LECIP-TowerIcons",
                     },
                     ],
                     scrollFont: "Hanover-Tower7:5"
@@ -8730,12 +8265,6 @@ EDSData.TTSG = {
         
                     serviceNumber: "980"
                 },
-                {
-                    renderType: "message2",
-                    serviceNumber: "980",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
-                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -8764,12 +8293,6 @@ EDSData.TTSG = {
                         topFont: "Hanover-Tower12:7",
             
                         serviceNumber: "980"
-                    },
-                    {
-                        renderType: "message2",
-                        serviceNumber: "980",
-                        top: "3 4",
-                        topFont: "LECIP-TowerIcons",
                     },
                     ],
                     scrollFont: "Hanover-Tower7:5"
@@ -8801,12 +8324,6 @@ EDSData.TTSG = {
         
                     serviceNumber: "981"
                 },
-                {
-                    renderType: "message2",
-                    serviceNumber: "981",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
-                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -8835,12 +8352,6 @@ EDSData.TTSG = {
                         topFont: "Hanover-Tower12:7",
             
                         serviceNumber: "981"
-                    },
-                    {
-                        renderType: "message2",
-                        serviceNumber: "981",
-                        top: "3 4",
-                        topFont: "LECIP-TowerIcons",
                     },
                     ],
                     scrollFont: "Hanover-Tower7:5"
@@ -8871,12 +8382,6 @@ EDSData.TTSG = {
         
                     serviceNumber: "990"
                 },
-                {
-                    renderType: "message2",
-                    serviceNumber: "990",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
-                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -8903,12 +8408,6 @@ EDSData.TTSG = {
                         topFont: "Hanover-Tower12:7",
             
                         serviceNumber: "990"
-                    },
-                    {
-                        renderType: "message2",
-                        serviceNumber: "990",
-                        top: "3 4",
-                        topFont: "LECIP-TowerIcons",
                     },
                     ],
                     scrollFont: "Hanover-Tower7:5"
@@ -8940,12 +8439,6 @@ EDSData.TTSG = {
         
                     serviceNumber: "992"
                 },
-                {
-                    renderType: "message2",
-                    serviceNumber: "992",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
-                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -8973,12 +8466,6 @@ EDSData.TTSG = {
                         topFont: "Hanover-Tower12:7",
             
                         serviceNumber: "992"
-                    },
-                    {
-                        renderType: "message2",
-                        serviceNumber: "992",
-                        top: "3 4",
-                        topFont: "LECIP-TowerIcons",
                     },
                     ],
                     scrollFont: "Hanover-Tower7:5"
@@ -11157,12 +10644,6 @@ EDSData.TTSG = {
                 destination: "Tower Transit Logo",
                 destinationFont: "Mobitec-7:7",
                 scrolls: [
-                    {
-                        renderType: "message",
-                        text: "34",
-                        font: "LECIP-TowerIcons",
-                        spacing: 2
-                    },
                     {
                        renderType: "message2",
                        serviceNumber: "",
