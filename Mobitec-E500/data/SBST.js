@@ -138,7 +138,7 @@ EDSFormats.SBST = {
         serviceNumber: {
             align: "right",
             margin: {
-                right: 1
+                right: 0
             },
             text: "$serviceNumber",
             font: "Mobitec-16:8",
@@ -147,7 +147,28 @@ EDSFormats.SBST = {
         branding: {
             align: "left",
             margin: {
-                left: 1
+                left: 0
+            },
+            text: "$branding",
+            font: "$font",
+            spacing: '$spacing'
+        },
+        text: "$serviceNumber+' '+$branding"
+    },
+    brandedSvc2: { // Middle align text
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 0
+            },
+            text: "$serviceNumber",
+            font: "Mobitec-16:8",
+            spacing: 1
+        },
+        branding: {
+            align: "middle",
+            margin: {
+                left: 0
             },
             text: "$branding",
             font: "$font",
@@ -9697,7 +9718,7 @@ EDSData.SBST = {
         front: {
             renderType: "brandedSvc",
             serviceNumber: "652",
-            branding: "CITY  DIRECT",
+            branding: "CITY DIRECT",
             font: "Mobitec-16:8",
             spacing: 1
         }
@@ -9706,7 +9727,7 @@ EDSData.SBST = {
         front: {
             renderType: "brandedSvc",
             serviceNumber: "654",
-            branding: "CITY  DIRECT",
+            branding: "CITY DIRECT",
             font: "Mobitec-16:8",
             spacing: 1
         }
@@ -9715,7 +9736,7 @@ EDSData.SBST = {
         front: {
             renderType: "brandedSvc",
             serviceNumber: "655",
-            branding: "CITY  DIRECT",
+            branding: "CITY DIRECT",
             font: "Mobitec-16:8",
             spacing: 1
         }
@@ -9724,7 +9745,7 @@ EDSData.SBST = {
         front: {
             renderType: "brandedSvc",
             serviceNumber: "660",
-            branding: "CITY  DIRECT",
+            branding: "CITY DIRECT",
             font: "Mobitec-16:8",
             spacing: 1
         }
@@ -9733,7 +9754,7 @@ EDSData.SBST = {
         front: {
             renderType: "brandedSvc",
             serviceNumber: "660M",
-            branding: "CITY  DIRECT",
+            branding: "CITY DIRECT",
             font: "Mobitec-16:8",
             spacing: 1
         }
@@ -9742,25 +9763,35 @@ EDSData.SBST = {
         front: {
             renderType: "brandedSvc",
             serviceNumber: "667",
-            branding: "CITY  DIRECT",
+            branding: "CITY DIRECT",
             font: "Mobitec-16:8",
             spacing: 1
         }
     },
     6681: {
         front: {
-            renderType: "brandedSvc",
+            renderType: "standardService",
             serviceNumber: "668",
-            branding: "CITY  DIRECT",
-            font: "Mobitec-16:8",
-            spacing: 1
+            destination: {
+                text: "CITY DIRECT",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+            {
+                renderType: "destScroll",
+                serviceNumber: "668",
+                top: "CITY DIRECT",
+                topFont: "Mobitec-16:8",
+            },
+            ],
+            scrollFont: "Mobitec-6:5"
         }
     },
     6711: {
         front: {
             renderType: "brandedSvc",
             serviceNumber: "671",
-            branding: "CITY  DIRECT",
+            branding: "CITY DIRECT",
             font: "Mobitec-16:8",
             spacing: 1
         }
@@ -9769,7 +9800,7 @@ EDSData.SBST = {
         front: {
             renderType: "brandedSvc",
             serviceNumber: "672",
-            branding: "CITY  DIRECT",
+            branding: "CITY DIRECT",
             font: "Mobitec-16:8",
             spacing: 1
         }
@@ -9778,7 +9809,7 @@ EDSData.SBST = {
         front: {
             renderType: "brandedSvc",
             serviceNumber: "675",
-            branding: "CITY  DIRECT",
+            branding: "CITY DIRECT",
             font: "Mobitec-16:8",
             spacing: 1
         }
@@ -9787,7 +9818,7 @@ EDSData.SBST = {
         front: {
             renderType: "brandedSvc",
             serviceNumber: "676",
-            branding: "CITY  DIRECT",
+            branding: "CITY DIRECT",
             font: "Mobitec-16:8",
             spacing: 1
         }
@@ -9796,7 +9827,7 @@ EDSData.SBST = {
         front: {
             renderType: "brandedSvc",
             serviceNumber: "677",
-            branding: "CITY  DIRECT",
+            branding: "CITY DIRECT",
             font: "Mobitec-16:8",
             spacing: 1
         }
