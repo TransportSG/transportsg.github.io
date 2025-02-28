@@ -186,8 +186,8 @@ EDSFormats.SBST = {
             font: "Mobitec-16:8",
             spacing: {
                 $$cond: {
-                    "$spacing === null" : 1,
-                    "else": "$spacing"
+                    "$svcSpacing === null" : 1,
+                    "else": "$svcSpacing"
                 }
             }
         },
@@ -200,7 +200,12 @@ EDSFormats.SBST = {
             },
             text: "$top",
             font: "$topFont",
-            spacing: 1,
+            spacing: {
+                $$cond: {
+                    "$Spacing === null" : 1,
+                    "else": "$topSpacing",
+                }
+            },
             margin: {
                 right: 'width(serviceNumber)'
             }
@@ -1219,7 +1224,7 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "CT18",
             destination: {
-                text: "> KAMPONG BAHRU TER",
+                text: "> KG. BAHRU TER",
                 font: "Mobitec-7:5:2"
             },
             scrolls: [
@@ -2220,7 +2225,7 @@ EDSData.SBST = {
             },
             scrolls: [
             {
-                renderType: "swt",
+                renderType: "swt2",
                 serviceNumber: "39A",
                 destinationRoad: "JALAN KAYU",
                 destinationName: "(AFT SELETAR CAMP G)"
@@ -2735,10 +2740,12 @@ EDSData.SBST = {
             },
             scrolls: [
             {
-                renderType: "swt",
+                renderType: "destScroll",
                 serviceNumber: "53A",
-                destinationRoad: "",
-                destinationName: "CHANGI AIRPORT (PTB 2)"
+                top: "TERMINATES AT",
+                topFont: "Mobitec-6:5",
+                bottom: "CHANGI AIRPORT (PTB 2)",
+                bottomFont: "Mobitec-6:5",
             },
             ],
             scrollFont: "Mobitec-6:5"
@@ -2746,7 +2753,7 @@ EDSData.SBST = {
     },
     537: {
         front: {
-            renderType: "standardService",
+            renderType: "standardService2",
             serviceNumber: "53M",
             destination: {
                 text: "HOUGANG AVE 1-S'GOON CTRL",
@@ -7005,7 +7012,7 @@ EDSData.SBST = {
             serviceNumber: "162",
             destination: {
                 text: "YCK INT - SIN MING DR",
-                font: "Mobitec-7:4"
+                font: "Mobitec-7:5:1"
             },
             scrolls: [
                 'ANG MO KIO AVE 8',
@@ -7524,10 +7531,10 @@ EDSData.SBST = {
     },
     1795: {
         front: {
-            renderType: "standardService",
+            renderType: "standardService2",
             serviceNumber: "179A",
             destination: {
-                text: "BOON LAY INT - NANYANG DR",
+                text: "BOON LAY INT-NANYANG DR",
                 font: "Mobitec-7:4"
             },
             scrolls: [
@@ -8108,10 +8115,10 @@ EDSData.SBST = {
             },
             scrolls: [
             {
-                renderType: "swt",
+                renderType: "swt2",
                 serviceNumber: "200A",
                 destinationRoad: "CLEMENTI",
-                destinationName: "RD (KENT RIDGE TER)"
+                destinationName: "ROAD (KENT RIDGE TER)"
             },
             ],
             scrollFont: "Mobitec-6:5"
@@ -9094,32 +9101,13 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "293T",
             destination: {
-                text: "> TAMP ST 71 & AVE 7",
-                font: "Mobitec-7:5:2"
+                text: "> TAMPINES ST71 & AVE7",
+                font: "Mobitec-7:4"
             },
             scrolls: [
                 "TAMPINES ST 45&42",
                 "TAMPINES AVE 4&3",
                 "TAMPINES AVE 8&9"
-            ],
-            scrollFont: "Mobitec-6:5"
-        }
-    },
-    2917: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "293T",
-            destination: {
-                text: "TAMPINES INT",
-                font: "Mobitec-7:5:2"
-            },
-            scrolls: [
-            {
-                renderType: "swt",
-                serviceNumber: "293T",
-                destinationRoad: "",
-                destinationName: "TAMPINES INT"
-            },
             ],
             scrollFont: "Mobitec-6:5"
         }
@@ -9538,7 +9526,7 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "405M",
             destination: {
-                text: "BOON LAY INT-OLD CCK RD",
+                text: "BOON LAY-OLD CCK RD",
                 font: "Mobitec-7:4"
             },
             scrolls: [
@@ -9743,11 +9731,11 @@ EDSData.SBST = {
     },
     6601: {
         front: {
-            renderType: "brandedSvc",
+            renderType: "destScroll",
             serviceNumber: "660",
-            branding: "CITY DIRECT",
-            font: "Mobitec-16:8",
-            spacing: 1
+            top: "CITY DIRECT",
+            topFont: "Mobitec-16:8",
+            topSpacing: "2",
         }
     },
     6607: {

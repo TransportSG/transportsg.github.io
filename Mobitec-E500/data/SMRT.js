@@ -4757,7 +4757,7 @@ EDSData['SMRT (PostSLBP)'] = {
     9792: {
         front: {
             renderType: "standardService",
-            serviceNumber: "979M",
+            serviceNumber: "979X",
             destination: {
                 text: "BT PANJANG",
                 font: "Mobitec-7:5:3"
@@ -4765,14 +4765,10 @@ EDSData['SMRT (PostSLBP)'] = {
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "979M",
+                    serviceNumber: "979X",
                     top: "BT PANJANG",
                     topFont: "Mobitec-13:8"
                 },
-                "PETIR / JELEBU RD",
-                "WOODLANDS RD",
-                "C.C.K DR / NTH 6",
-                "C.C.K NTH 5 (LOOP)"
             ],
             scrollFont: "Mobitec-7:5:3"
         }

@@ -6411,6 +6411,33 @@ EDSData.SMRT = {
             }
         }
     },
+    9792: { 
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "979X",
+                destination: "BT PANJANG via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "979X",
+                    topFont: "Arial-17",
+                    topSpacing: 5,
+        
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "979X",
+                font: "Arial-10",
+                spacing: 1
+            }
+        }
+    },
     9831: { // Done
         1: {
             front: {
