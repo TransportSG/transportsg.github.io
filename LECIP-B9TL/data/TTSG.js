@@ -162,7 +162,12 @@ EDSFormats.TTSG = {
                 right: 0,
             },
             text: "$serviceNumber",
-            font: "LECIP-19:TowerB9Front",
+            font: {
+                $$cond: {
+                    "$svcFont === null": "LECIP-19:TowerB9Front",
+                    "else": "$svcFont"
+                }
+            },
             spacing: {
                 $$cond: {
                     "$spacing === null" : 3,
@@ -964,16 +969,26 @@ EDSData.TTSG = {
                 scrolls: [
                     {
                         renderType: "message",
-                        text: "3 4",
+                        text: "012",
                         font: "LECIP-TowerIcons",
                         spacing: 2
                     },
                     {
                         renderType: "message",
-                        text: "012",
+                        text: "3 4",
                         font: "LECIP-TowerIcons",
                         spacing: 2
                     },
+                    {
+                        renderType: "message2",
+                        serviceNumber: "5",
+                        svcFont: "LECIP-TowerIcons",
+                        top: "Salam Aidilfitri",
+                        topFont: "Hanover-8:3",
+                        bottom: "Maaf Zahir Dan Batin",
+                        bottomFont: "Hanover-7:3",
+                        image: "HariRaya-2025"
+                    },  
                 ],
                 scrollFont: "Hanover-7:5"
             },
@@ -990,21 +1005,25 @@ EDSData.TTSG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "Extra Messages",
+                destination: "Salam Aidilfitri",
                 destinationFont: "Mobitec-7:7",
                 scrolls: [
                     {
-                        renderType: "message",
-                        text: "3 4",
-                        font: "LECIP-TowerIcons",
-                        spacing: 2
+                        renderType: "message2",
+                        serviceNumber: "5",
+                        svcFont: "LECIP-TowerIcons",
+                        top: "Salam Aidilfitri",
+                        topFont: "Hanover-8:3",
+                        bottom: "Maaf Zahir Dan Batin",
+                        bottomFont: "Hanover-7:3",
+                        image: "HariRaya-2025"
                     },  
                 ],
                 scrollFont: "Hanover-7:5"
             },
             rear: { 
                 renderType: "message",
-                text: "3",
+                text: "5",
                 font: "LECIP-TowerIcons",
                 spacing: 1
             }
@@ -1028,6 +1047,15 @@ EDSData.TTSG = {
     
                     serviceNumber: "41"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "41",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                },  
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -1055,6 +1083,15 @@ EDSData.TTSG = {
     
                     serviceNumber: "41"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "41",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                },  
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -1168,6 +1205,15 @@ EDSData.TTSG = {
     
                     serviceNumber: "49"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "49",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                },  
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -1198,6 +1244,15 @@ EDSData.TTSG = {
     
                     serviceNumber: "49"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "49",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                },  
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -1328,6 +1383,15 @@ EDSData.TTSG = {
     
                     serviceNumber: "66"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "66",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                },  
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -1356,6 +1420,15 @@ EDSData.TTSG = {
     
                     serviceNumber: "66"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "66",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -1645,6 +1718,15 @@ EDSData.TTSG = {
     
                     serviceNumber: "77"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "77",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -1674,6 +1756,15 @@ EDSData.TTSG = {
     
                     serviceNumber: "77"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "77",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -1772,6 +1863,15 @@ EDSData.TTSG = {
             
                     serviceNumber: "78"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "78",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -1800,6 +1900,15 @@ EDSData.TTSG = {
             
                     serviceNumber: "78"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "78",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -1931,6 +2040,15 @@ EDSData.TTSG = {
             
                     serviceNumber: "79"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "79",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -1967,6 +2085,15 @@ EDSData.TTSG = {
             
                     serviceNumber: "79"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "79",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -1985,22 +2112,23 @@ EDSData.TTSG = {
                 serviceNumber: "79A",
                 destination: "JURONG TOWN HALL RD",
                 destinationFont: "Hanover-10",
-                scrolls: [{
+                scrolls: [
+                {
                     renderType: "message4",
                     serviceNumber: "79A",
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "JURONG TOWN HALL RD",
                     bottomFont: "Hanover-Tower8",
-                    },
-                    {
+                },
+                {
                     renderType: "message4",
                     serviceNumber: "79A",
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "JURONG EAST LIB",
                     bottomFont: "Hanover-Tower8",
-                        },
+                },
                 ],
                 scrollFont: "Hanover-7:5"
             },
@@ -2017,14 +2145,15 @@ EDSData.TTSG = {
                 serviceNumber: "79A",
                 destination: "BOON LAY INT",
                 destinationFont: "Hanover-10",
-                scrolls: [{
+                scrolls: [
+                {
                     renderType: "message4",
                     serviceNumber: "79A",
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "BOON LAY INT",
                     bottomFont: "Hanover-Tower8",
-                    },
+                },
                 ],
                 scrollFont: "Hanover-7:5"
             },
@@ -2101,14 +2230,15 @@ EDSData.TTSG = {
                 serviceNumber: "79T",
                 destination: "BOON LAY INT",
                 destinationFont: "Hanover-10",
-                scrolls: [{
+                scrolls: [
+                {
                     renderType: "message4",
                     serviceNumber: "79T",
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "BOON LAY INT",
                     bottomFont: "Hanover-Tower8",
-                    },
+                },
                 ],
                 scrollFont: "Hanover-7:5"
             },
@@ -2138,6 +2268,15 @@ EDSData.TTSG = {
         
                     serviceNumber: "96",
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "96",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -2166,12 +2305,14 @@ EDSData.TTSG = {
                     serviceNumber: "96",
                 },
                 {
-                    renderType: "message5",
+                    renderType: "message2",
                     serviceNumber: "96",
-                    top: "3 4",
-                    topFont: "LECIP-TowerIcons",
-                    spacing: "2",
-                },
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -2197,15 +2338,15 @@ EDSData.TTSG = {
                     topFont: "Hanover-Tower11:7",
                     bottom: "KENT RIDGE CRES",
                     bottomFont: "Hanover-Tower8",
-                    },
-                    {
+                },
+                {
                     renderType: "message4",
                     serviceNumber: "96A",
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "NUS RAFFLES HALL",
                     bottomFont: "Hanover-Tower8",
-                        },
+                },
                 ],
                 scrollFont: "Hanover-7:5"
             },
@@ -2225,14 +2366,14 @@ EDSData.TTSG = {
                 destination: "CLEMENTI STN",
                 destinationFont: "Hanover-10",
                 scrolls: [
-                    {
+                {
                     renderType: "message4",
                     serviceNumber: "96B",
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "CLEMENTI STN EXIT A",
                     bottomFont: "Hanover-Tower8",
-                    },
+                },
                 ],
                 scrollFont: "Hanover-7:5"
             },
@@ -2264,6 +2405,15 @@ EDSData.TTSG = {
             
                     serviceNumber: "97"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "97",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -2293,6 +2443,15 @@ EDSData.TTSG = {
             
                     serviceNumber: "97"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "97",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -2332,7 +2491,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-Tower12:7",
             
                     serviceNumber: "97e"
-                },
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -2371,8 +2530,8 @@ EDSData.TTSG = {
             
                     serviceNumber: "97e"
                 },
-                    ],
-                    scrollFont: "Hanover-Tower7:5"
+                ],
+                scrollFont: "Hanover-Tower7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -2479,6 +2638,15 @@ EDSData.TTSG = {
     
                     serviceNumber: "98"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "98",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -2512,6 +2680,15 @@ EDSData.TTSG = {
     
                     serviceNumber: "98"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "98",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -2534,22 +2711,23 @@ EDSData.TTSG = {
                 serviceNumber: "98A",
                 destination: "CORPORATION RD",
                 destinationFont: "Hanover-10",
-                scrolls: [{
+                scrolls: [
+                {
                     renderType: "message4",
                     serviceNumber: "98A",
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "CORPORATION RD",
                     bottomFont: "Hanover-Tower8",
-                    },
-                    {
+                },
+                {
                     renderType: "message4",
                     serviceNumber: "98A",
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "CORPORATION PL",
                     bottomFont: "Hanover-Tower8",
-                    },
+                },
                 ],
                 scrollFont: "Hanover-7:5"
             },
@@ -2568,22 +2746,23 @@ EDSData.TTSG = {
                 serviceNumber: "98B",
                 destination: "JURONG PIER WAY",
                 destinationFont: "Hanover-10",
-                scrolls: [{
+                scrolls: [
+                {
                     renderType: "message4",
                     serviceNumber: "98B",
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "JURONG PIER WAY",
                     bottomFont: "Hanover-Tower8",
-                    },
-                    {
+                },
+                {
                     renderType: "message4",
                     serviceNumber: "98B",
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "JURONG ISLAND CHECKPT",
                     bottomFont: "Hanover-Tower8",
-                    },
+                },
                 ],
                 scrollFont: "Hanover-7:5"
             },
@@ -2748,6 +2927,15 @@ EDSData.TTSG = {
     
                     serviceNumber: "106"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "106",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -2778,6 +2966,15 @@ EDSData.TTSG = {
     
                     serviceNumber: "106"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "106",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -2796,14 +2993,15 @@ EDSData.TTSG = {
                 serviceNumber: "106A",
                 destination: "CLEMENTI STN",
                 destinationFont: "Hanover-10",
-                scrolls: [{
+                scrolls: [
+                {
                     renderType: "message4",
                     serviceNumber: "106A",
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "CLEMENTI STN EXIT B",
                     bottomFont: "Hanover-8",
-                    },
+                },
                 ],
                 scrollFont: "Hanover-7:5"
             },
@@ -2921,6 +3119,15 @@ EDSData.TTSG = {
     
                     serviceNumber: "143"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "143",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -2950,6 +3157,15 @@ EDSData.TTSG = {
     
                     serviceNumber: "143"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "143",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -3139,6 +3355,15 @@ EDSData.TTSG = {
     
                     serviceNumber: "167"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "167",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -3168,6 +3393,15 @@ EDSData.TTSG = {
     
                     serviceNumber: "167"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "167",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -3446,6 +3680,15 @@ EDSData.TTSG = {
         
                     serviceNumber: "169"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "169",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -3475,6 +3718,15 @@ EDSData.TTSG = {
             
                         serviceNumber: "169"
                     },
+                    {
+                        renderType: "message2",
+                        serviceNumber: "169",
+                        top: "Salam Aidilfitri",
+                        topFont: "Hanover-8:3",
+                        bottom: "Maaf Zahir Dan Batin",
+                        bottomFont: "Hanover-7:3",
+                        image: "HariRaya-2025"
+                    }, 
                     ],
                     scrollFont: "Hanover-Tower7:5"
             },
@@ -3565,6 +3817,15 @@ EDSData.TTSG = {
         
                     serviceNumber: "171"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "171",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -3593,6 +3854,15 @@ EDSData.TTSG = {
             
                         serviceNumber: "171"
                     },
+                    {
+                        renderType: "message2",
+                        serviceNumber: "171",
+                        top: "Salam Aidilfitri",
+                        topFont: "Hanover-8:3",
+                        bottom: "Maaf Zahir Dan Batin",
+                        bottomFont: "Hanover-7:3",
+                        image: "HariRaya-2025"
+                    }, 
                     ],
                     scrollFont: "Hanover-Tower7:5"
             },
@@ -3684,6 +3954,15 @@ EDSData.TTSG = {
         
                     serviceNumber: "173"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "173",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -3717,6 +3996,15 @@ EDSData.TTSG = {
             
                         serviceNumber: "173"
                     },
+                    {
+                        renderType: "message2",
+                        serviceNumber: "173",
+                        top: "Salam Aidilfitri",
+                        topFont: "Hanover-8:3",
+                        bottom: "Maaf Zahir Dan Batin",
+                        bottomFont: "Hanover-7:3",
+                        image: "HariRaya-2025"
+                    }, 
                     ],
                     scrollFont: "Hanover-Tower7:5"
             },
@@ -3785,6 +4073,15 @@ EDSData.TTSG = {
         
                     serviceNumber: "177"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "177",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -3793,22 +4090,23 @@ EDSData.TTSG = {
                 serviceNumber: "",
                 destination: "TT 17",
                 destinationFont: "Hanover-10",
-                scrolls: [{
+                scrolls: [
+                {
                     renderType: "message3",
                     serviceNumber: "",
                     top: "177",
                     topFont: "LECIP-TowerRear10:7",
                     bottom: "BUKIT",
                     bottomFont: "Hanover-5:3"
-                    },
-                    {
-                        renderType: "message3",
-                        serviceNumber: "",
-                        top: "177",
-                        topFont: "LECIP-TowerRear10:7",
-                        bottom: "PANJANG",
-                        bottomFont: "Hanover-5:3"
-                        },
+                },
+                {
+                    renderType: "message3",
+                    serviceNumber: "",
+                    top: "177",
+                    topFont: "LECIP-TowerRear10:7",
+                    bottom: "PANJANG",
+                    bottomFont: "Hanover-5:3"
+                },
                 ],
                 scrollFont: "Hanover-7:5"
             }
@@ -3832,6 +4130,15 @@ EDSData.TTSG = {
             
                         serviceNumber: "177"
                     },
+                    {
+                        renderType: "message2",
+                        serviceNumber: "177",
+                        top: "Salam Aidilfitri",
+                        topFont: "Hanover-8:3",
+                        bottom: "Maaf Zahir Dan Batin",
+                        bottomFont: "Hanover-7:3",
+                        image: "HariRaya-2025"
+                    }, 
                     ],
                     scrollFont: "Hanover-Tower7:5"
             },
@@ -3866,6 +4173,15 @@ EDSData.TTSG = {
         
                     serviceNumber: "183"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "183",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -3894,6 +4210,15 @@ EDSData.TTSG = {
             
                         serviceNumber: "183"
                     },
+                    {
+                        renderType: "message2",
+                        serviceNumber: "183",
+                        top: "Salam Aidilfitri",
+                        topFont: "Hanover-8:3",
+                        bottom: "Maaf Zahir Dan Batin",
+                        bottomFont: "Hanover-7:3",
+                        image: "HariRaya-2025"
+                    }, 
                     ],
                     scrollFont: "Hanover-Tower7:5"
             },
@@ -3912,22 +4237,23 @@ EDSData.TTSG = {
                 serviceNumber: "183B",
                 destination: "TOH TUCK AVE",
                 destinationFont: "Hanover-10",
-                scrolls: [{
+                scrolls: [
+                {
                     renderType: "message4",
                     serviceNumber: "183B",
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "TOH TUCK AVE",
                     bottomFont: "Hanover-Tower8",
-                    },
-                    {
+                },
+                {
                     renderType: "message4",
                     serviceNumber: "183B",
                     top: "ENDS AT",
                     topFont: "Hanover-Tower11:7",
                     bottom: "AFT TOH TUCK LINK",
                     bottomFont: "Hanover-Tower8",
-                    },
+                },
                 ],
                 scrollFont: "Hanover-7:5"
             },
@@ -3958,6 +4284,15 @@ EDSData.TTSG = {
             
                     serviceNumber: "189"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "189",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -3986,6 +4321,15 @@ EDSData.TTSG = {
             
                         serviceNumber: "189"
                     },
+                    {
+                        renderType: "message2",
+                        serviceNumber: "189",
+                        top: "Salam Aidilfitri",
+                        topFont: "Hanover-8:3",
+                        bottom: "Maaf Zahir Dan Batin",
+                        bottomFont: "Hanover-7:3",
+                        image: "HariRaya-2025"
+                    }, 
                     ],
                     scrollFont: "Hanover-Tower7:5"
             },
@@ -4049,6 +4393,15 @@ EDSData.TTSG = {
         
                     serviceNumber: "282"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "282",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -4076,6 +4429,15 @@ EDSData.TTSG = {
         
                     serviceNumber: "284"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "284",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -4105,6 +4467,15 @@ EDSData.TTSG = {
         
                     serviceNumber: "285"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "285",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -4174,6 +4545,15 @@ EDSData.TTSG = {
         
                     serviceNumber: "333"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "333",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -4203,6 +4583,15 @@ EDSData.TTSG = {
         
                     serviceNumber: "334"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "334",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -4270,6 +4659,15 @@ EDSData.TTSG = {
         
                     serviceNumber: "335"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "335",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -5306,6 +5704,15 @@ EDSData.TTSG = {
         
                     serviceNumber: "801"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "801",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -5336,6 +5743,15 @@ EDSData.TTSG = {
         
                     serviceNumber: "825"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "825",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -5355,11 +5771,11 @@ EDSData.TTSG = {
                 destination: "LOR 1 GEYLANG",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [                    
-                    "YISHUN AVE 2",
-                    "ANG MO KIO AVE 6",
-                    "SERANGOON CENTRAL",
-                    "UPPER SERANGOON RD",
-                    "GEYLANG BAHRU",
+                "YISHUN AVE 2",
+                "ANG MO KIO AVE 6",
+                "SERANGOON CENTRAL",
+                "UPPER SERANGOON RD",
+                "GEYLANG BAHRU",
             {
                 renderType: "destScroll",
                 top: "LOR 1 GEYLANG",
@@ -5367,6 +5783,15 @@ EDSData.TTSG = {
     
                 serviceNumber: "853"
             },
+            {
+                renderType: "message2",
+                serviceNumber: "853",
+                top: "Salam Aidilfitri",
+                topFont: "Hanover-8:3",
+                bottom: "Maaf Zahir Dan Batin",
+                bottomFont: "Hanover-7:3",
+                image: "HariRaya-2025"
+            }, 
             ],
             scrollFont: "Hanover-Tower7:5"
             },
@@ -5396,6 +5821,15 @@ EDSData.TTSG = {
             
                     serviceNumber: "853"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "853",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -5415,11 +5849,11 @@ EDSData.TTSG = {
                 destination: "UPP EAST COAST",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [                    
-                    "ANG MO KIO AVE 6",
-                    "SERANGOON CENTRAL",
-                    "SIMS AVE",
-                    "TANJONG KATONG RD",
-                    "MARINE PARADE RD",
+                "ANG MO KIO AVE 6",
+                "SERANGOON CENTRAL",
+                "SIMS AVE",
+                "TANJONG KATONG RD",
+                "MARINE PARADE RD",
             {
                 renderType: "destScroll",
                 top: "UPP EAST COAST",
@@ -5475,11 +5909,11 @@ EDSData.TTSG = {
                 destination: "BEDOK",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [                    
-                    "YISHUN AVE 2",
-                    "YIO CHU KANG RD",
-                    "HOUGANG AVE 3",
-                    "JLN EUNOS",
-                    "NEW UPPER CHANGI RD",
+                "YISHUN AVE 2",
+                "YIO CHU KANG RD",
+                "HOUGANG AVE 3",
+                "JLN EUNOS",
+                "NEW UPPER CHANGI RD",
             {
                 renderType: "destScroll",
                 top: "BEDOK",
@@ -5487,6 +5921,15 @@ EDSData.TTSG = {
     
                 serviceNumber: "854"
             },
+            {
+                renderType: "message2",
+                serviceNumber: "854",
+                top: "Salam Aidilfitri",
+                topFont: "Hanover-8:3",
+                bottom: "Maaf Zahir Dan Batin",
+                bottomFont: "Hanover-7:3",
+                image: "HariRaya-2025"
+            }, 
             ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -5516,6 +5959,15 @@ EDSData.TTSG = {
             
                     serviceNumber: "854"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "854",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                     scrollFont: "Hanover-Tower7:5"
             },
@@ -5574,11 +6026,11 @@ EDSData.TTSG = {
                 destination: "HARBOURFRONT",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [                    
-                    "YISHUN AVE 2",
-                    "UPPER THOMSON RD",
-                    "ADAM RD",
-                    "QUEENSWAY",
-                    "JALAN BUKIT MERAH",
+                "YISHUN AVE 2",
+                "UPPER THOMSON RD",
+                "ADAM RD",
+                "QUEENSWAY",
+                "JALAN BUKIT MERAH",
             {
                 renderType: "destScroll",
                 top: "HARBOURFRONT",
@@ -5586,6 +6038,15 @@ EDSData.TTSG = {
     
                 serviceNumber: "855"
             },
+            {
+                renderType: "message2",
+                serviceNumber: "855",
+                top: "Salam Aidilfitri",
+                topFont: "Hanover-8:3",
+                bottom: "Maaf Zahir Dan Batin",
+                bottomFont: "Hanover-7:3",
+                image: "HariRaya-2025"
+            }, 
             ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -5615,6 +6076,15 @@ EDSData.TTSG = {
             
                     serviceNumber: "855"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "855",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                     scrollFont: "Hanover-Tower7:5"
             },
@@ -5634,18 +6104,27 @@ EDSData.TTSG = {
                 destination: "WOODLANDS",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [                    
-                    "CANBERRA RD",
-                    "ADMIRALTY RD WEST",
-                    "SENOKO DR",
-                    "WOODLANDS NORTH MRT",
-                    "MARSILING ESTATE",
+                "CANBERRA RD",
+                "ADMIRALTY RD WEST",
+                "SENOKO DR",
+                "WOODLANDS NORTH MRT",
+                "MARSILING ESTATE",
             {
-                    renderType: "destScroll",
-                    top: "WOODLANDS",
-                    topFont: "Hanover-Tower12:7",
+                renderType: "destScroll",
+                top: "WOODLANDS",
+                topFont: "Hanover-Tower12:7",
         
-                    serviceNumber: "856"
+                serviceNumber: "856"
             },
+            {
+                renderType: "message2",
+                serviceNumber: "856",
+                top: "Salam Aidilfitri",
+                topFont: "Hanover-8:3",
+                bottom: "Maaf Zahir Dan Batin",
+                bottomFont: "Hanover-7:3",
+                image: "HariRaya-2025"
+            }, 
             ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -5679,6 +6158,15 @@ EDSData.TTSG = {
             
                     serviceNumber: "856"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "856",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                     scrollFont: "Hanover-Tower7:5"
             },
@@ -5774,6 +6262,15 @@ EDSData.TTSG = {
     
                 serviceNumber: "857"
             },
+            {
+                renderType: "message2",
+                serviceNumber: "857",
+                top: "Salam Aidilfitri",
+                topFont: "Hanover-8:3",
+                bottom: "Maaf Zahir Dan Batin",
+                bottomFont: "Hanover-7:3",
+                image: "HariRaya-2025"
+            }, 
             ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -5791,18 +6288,27 @@ EDSData.TTSG = {
                 destination: "YISHUN",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [                    
-                    "STAMFORD RD",
-                    "SELEGIE RD",
-                    "BOON KENG MRT",
-                    "SERANGOON RD",
-                    "YIO CHU KANG RD",
-                {
-                    renderType: "destScroll",
-                    top: "YISHUN",
-                    topFont: "Hanover-Tower12:7",
+                "STAMFORD RD",
+                "SELEGIE RD",
+                "BOON KENG MRT",
+                "SERANGOON RD",
+                "YIO CHU KANG RD",
+            {
+                renderType: "destScroll",
+                top: "YISHUN",
+                topFont: "Hanover-Tower12:7",
             
-                    serviceNumber: "857"
-                },
+                serviceNumber: "857"
+            },
+            {
+                renderType: "message2",
+                serviceNumber: "857",
+                top: "Salam Aidilfitri",
+                topFont: "Hanover-8:3",
+                bottom: "Maaf Zahir Dan Batin",
+                bottomFont: "Hanover-7:3",
+                image: "HariRaya-2025"
+            }, 
                 ],
                     scrollFont: "Hanover-Tower7:5"
             },
@@ -6073,18 +6579,27 @@ EDSData.TTSG = {
                 destination: "CHANGI AIRPORT",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [                    
-                    "WOODLANDS AVE 9",
-                    "SEMBAWANG WAY",
-                    "YISHUN MRT",
-                    "JALAN KAYU",
-                    "T P E",
-                {
-                    renderType: "destScroll",
-                    top: "CHANGI AIRPORT",
-                    topFont: "Hanover-Tower12:7",
+                "WOODLANDS AVE 9",
+                "SEMBAWANG WAY",
+                "YISHUN MRT",
+                "JALAN KAYU",
+                "T P E",
+            {
+                renderType: "destScroll",
+                top: "CHANGI AIRPORT",
+                topFont: "Hanover-Tower12:7",
         
-                    serviceNumber: "858"
-                },
+                serviceNumber: "858"
+            },
+            {
+                renderType: "message2",
+                serviceNumber: "858",
+                top: "Salam Aidilfitri",
+                topFont: "Hanover-8:3",
+                bottom: "Maaf Zahir Dan Batin",
+                bottomFont: "Hanover-7:3",
+                image: "HariRaya-2025"
+            }, 
             ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -6114,6 +6629,15 @@ EDSData.TTSG = {
             
                     serviceNumber: "858"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "858",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                     scrollFont: "Hanover-Tower7:5"
             },
@@ -6352,6 +6876,15 @@ EDSData.TTSG = {
         
                     serviceNumber: "859"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "859",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
             ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -6381,6 +6914,15 @@ EDSData.TTSG = {
             
                     serviceNumber: "859"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "859",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                     scrollFont: "Hanover-Tower7:5"
             },
@@ -6491,14 +7033,23 @@ EDSData.TTSG = {
                     "YISHUN AVE 7",
                     "YISHUN AVE 6",
                     "YISHUN RING RD",
-            {
+                {
                     renderType: "destScroll",
                     top: "KHATIB MRT",
                     topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "861"
-            },
-            ],
+                },
+                {
+                    renderType: "message2",
+                    serviceNumber: "861",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
+                ],
                 scrollFont: "Hanover-Tower7:5"
             },
             rear: {
@@ -6531,8 +7082,17 @@ EDSData.TTSG = {
             
                     serviceNumber: "861"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "861",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
-                    scrollFont: "Hanover-Tower7:5"
+                    crollFont: "Hanover-Tower7:5"
             },
             rear: {
                 renderType: "twolinerear",
@@ -6592,6 +7152,15 @@ EDSData.TTSG = {
     
                 serviceNumber: "870"
             },
+            {
+                renderType: "message2",
+                serviceNumber: "870",
+                top: "Salam Aidilfitri",
+                topFont: "Hanover-8:3",
+                bottom: "Maaf Zahir Dan Batin",
+                bottomFont: "Hanover-7:3",
+                image: "HariRaya-2025"
+            }, 
             ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -6621,6 +7190,15 @@ EDSData.TTSG = {
             
                     serviceNumber: "870"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "870",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                     scrollFont: "Hanover-Tower7:5"
             },
@@ -6686,6 +7264,15 @@ EDSData.TTSG = {
     
                     serviceNumber: "871"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "871",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -6708,13 +7295,22 @@ EDSData.TTSG = {
                     "BUKIT BATOK ST 52",
                     "BUKIT BATOK WEST AVE 6",
                     "TENGAH DR",
-            {
+                {
                     renderType: "destScroll",
                     top: "TENGAH",
                     topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "871"
-            },
+                },
+                {
+                    renderType: "message2",
+                    serviceNumber: "871",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
             ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -6781,6 +7377,15 @@ EDSData.TTSG = {
         
                     serviceNumber: "882"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "882",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -6839,13 +7444,22 @@ EDSData.TTSG = {
                     "CANBERRA MRT",
                     "YISHUN AVE 2",
                     "YISHUN MRT",
-            {
+                {
                     renderType: "destScroll",
                     top: "YISHUN CTRL 2",
                     topFont: "Hanover-Tower12:7",
         
                     serviceNumber: "883"
-            },
+                },
+                {
+                    renderType: "message2",
+                    serviceNumber: "883",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
             ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -6879,6 +7493,15 @@ EDSData.TTSG = {
             
                     serviceNumber: "883"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "883",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                     scrollFont: "Hanover-Tower7:5"
             },
@@ -7049,6 +7672,15 @@ EDSData.TTSG = {
         
                     serviceNumber: "941"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "941",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -7109,6 +7741,15 @@ EDSData.TTSG = {
         
                     serviceNumber: "945"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "945",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -7137,6 +7778,15 @@ EDSData.TTSG = {
         
                     serviceNumber: "947"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "947",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -7169,6 +7819,15 @@ EDSData.TTSG = {
         
                     serviceNumber: "963"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "963",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -7198,6 +7857,15 @@ EDSData.TTSG = {
             
                         serviceNumber: "963"
                     },
+                    {
+                        renderType: "message2",
+                        serviceNumber: "963",
+                        top: "Salam Aidilfitri",
+                        topFont: "Hanover-8:3",
+                        bottom: "Maaf Zahir Dan Batin",
+                        bottomFont: "Hanover-7:3",
+                        image: "HariRaya-2025"
+                    }, 
                     ],
                     scrollFont: "Hanover-Tower7:5"
             },
@@ -7461,6 +8129,15 @@ EDSData.TTSG = {
         
                     serviceNumber: "965"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "965",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -7490,6 +8167,15 @@ EDSData.TTSG = {
             
                         serviceNumber: "965"
                     },
+                    {
+                        renderType: "message2",
+                        serviceNumber: "965",
+                        top: "Salam Aidilfitri",
+                        topFont: "Hanover-8:3",
+                        bottom: "Maaf Zahir Dan Batin",
+                        bottomFont: "Hanover-7:3",
+                        image: "HariRaya-2025"
+                    }, 
                     ],
                     scrollFont: "Hanover-Tower7:5"
             },
@@ -7722,6 +8408,15 @@ EDSData.TTSG = {
         
                     serviceNumber: "966"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "966",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -7751,6 +8446,15 @@ EDSData.TTSG = {
             
                         serviceNumber: "966"
                     },
+                    {
+                        renderType: "message2",
+                        serviceNumber: "966",
+                        top: "Salam Aidilfitri",
+                        topFont: "Hanover-8:3",
+                        bottom: "Maaf Zahir Dan Batin",
+                        bottomFont: "Hanover-7:3",
+                        image: "HariRaya-2025"
+                    }, 
                     ],
                     scrollFont: "Hanover-Tower7:5"
             },
@@ -7922,6 +8626,15 @@ EDSData.TTSG = {
         
                     serviceNumber: "969"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "969",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -7951,6 +8664,15 @@ EDSData.TTSG = {
             
                         serviceNumber: "969"
                     },
+                    {
+                        renderType: "message2",
+                        serviceNumber: "969",
+                        top: "Salam Aidilfitri",
+                        topFont: "Hanover-8:3",
+                        bottom: "Maaf Zahir Dan Batin",
+                        bottomFont: "Hanover-7:3",
+                        image: "HariRaya-2025"
+                    }, 
                     ],
                     scrollFont: "Hanover-Tower7:5"
             },
@@ -8265,6 +8987,15 @@ EDSData.TTSG = {
         
                     serviceNumber: "980"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "980",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -8294,6 +9025,15 @@ EDSData.TTSG = {
             
                         serviceNumber: "980"
                     },
+                    {
+                        renderType: "message2",
+                        serviceNumber: "980",
+                        top: "Salam Aidilfitri",
+                        topFont: "Hanover-8:3",
+                        bottom: "Maaf Zahir Dan Batin",
+                        bottomFont: "Hanover-7:3",
+                        image: "HariRaya-2025"
+                    }, 
                     ],
                     scrollFont: "Hanover-Tower7:5"
             },
@@ -8324,6 +9064,15 @@ EDSData.TTSG = {
         
                     serviceNumber: "981"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "981",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -8353,6 +9102,15 @@ EDSData.TTSG = {
             
                         serviceNumber: "981"
                     },
+                    {
+                        renderType: "message2",
+                        serviceNumber: "981",
+                        top: "Salam Aidilfitri",
+                        topFont: "Hanover-8:3",
+                        bottom: "Maaf Zahir Dan Batin",
+                        bottomFont: "Hanover-7:3",
+                        image: "HariRaya-2025"
+                    }, 
                     ],
                     scrollFont: "Hanover-Tower7:5"
             },
@@ -8382,6 +9140,15 @@ EDSData.TTSG = {
         
                     serviceNumber: "990"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "990",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -8409,6 +9176,15 @@ EDSData.TTSG = {
             
                         serviceNumber: "990"
                     },
+                    {
+                        renderType: "message2",
+                        serviceNumber: "990",
+                        top: "Salam Aidilfitri",
+                        topFont: "Hanover-8:3",
+                        bottom: "Maaf Zahir Dan Batin",
+                        bottomFont: "Hanover-7:3",
+                        image: "HariRaya-2025"
+                    }, 
                     ],
                     scrollFont: "Hanover-Tower7:5"
             },
@@ -8439,6 +9215,15 @@ EDSData.TTSG = {
         
                     serviceNumber: "992"
                 },
+                {
+                    renderType: "message2",
+                    serviceNumber: "992",
+                    top: "Salam Aidilfitri",
+                    topFont: "Hanover-8:3",
+                    bottom: "Maaf Zahir Dan Batin",
+                    bottomFont: "Hanover-7:3",
+                    image: "HariRaya-2025"
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -8467,6 +9252,15 @@ EDSData.TTSG = {
             
                         serviceNumber: "992"
                     },
+                    {
+                        renderType: "message2",
+                        serviceNumber: "992",
+                        top: "Salam Aidilfitri",
+                        topFont: "Hanover-8:3",
+                        bottom: "Maaf Zahir Dan Batin",
+                        bottomFont: "Hanover-7:3",
+                        image: "HariRaya-2025"
+                    }, 
                     ],
                     scrollFont: "Hanover-Tower7:5"
             },
@@ -8646,35 +9440,6 @@ EDSData.TTSG = {
             }
         }
     },
-    1000: {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "",
-                destination: "TEST MESSAGES",
-                destinationFont: "Hanover-10",
-                scrolls: [
-                    {
-                    renderType: "message2",
-                    serviceNumber: "",
-                    top: "",
-                    topFont: "Hanover-Tower19:11",
-                    image: "1Jan2025"
-                    },
-                ],
-                scrollFont: "Hanover-7:5"
-            },
-            rear: {
-                renderType: 'destScroll',
-                top: "Message",
-                topFont: "Hanover-8:3",
-                bottom: "Testing",
-                bottomFont: "Hanover-8:3",
-           
-                serviceNumber: ""
-            }
-        }
-    },
     1111: {
         1: {
             front: {
@@ -8684,11 +9449,15 @@ EDSData.TTSG = {
                 destinationFont: "Mobitec-7:7",
                 scrolls: [
                     {
-                        renderType: "message",
-                        text: "34",
-                        font: "LECIP-TowerIcons",
-                        spacing: 2
-                    },
+                        renderType: "message2",
+                        serviceNumber: "5",
+                        svcFont: "LECIP-TowerIcons",
+                        top: "Salam Aidilfitri",
+                        topFont: "Hanover-8:3",
+                        bottom: "Maaf Zahir Dan Batin",
+                        bottomFont: "Hanover-7:3",
+                        image: "HariRaya-2025"
+                    },  
                     {
                         renderType: "message",
                         text: "~ Off Service",
@@ -10645,6 +11414,16 @@ EDSData.TTSG = {
                 destinationFont: "Mobitec-7:7",
                 scrolls: [
                     {
+                        renderType: "message2",
+                        serviceNumber: "5",
+                        svcFont: "LECIP-TowerIcons",
+                        top: "Salam Aidilfitri",
+                        topFont: "Hanover-8:3",
+                        bottom: "Maaf Zahir Dan Batin",
+                        bottomFont: "Hanover-7:3",
+                        image: "HariRaya-2025"
+                    },  
+                    {
                        renderType: "message2",
                        serviceNumber: "",
                        top: "`",
@@ -10855,6 +11634,28 @@ EDSImages.TTSG = {
         [1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
         [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
         [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    ],
+    "HariRaya-2025": [ // 2025 Hari Raya
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0],
+        [0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0],
+        [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0],
+        [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0],
+        [0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0],
+        [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0],
+        [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0],
+        [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0],
+        [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0],
+        [0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0],
+        [0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0],
+        [0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0],
+        [0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
     ],
     Chingay50Logo1: [ // Side EDS
         [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
