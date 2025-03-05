@@ -2238,9 +2238,9 @@ EDSData.TTSG = {
                     renderType: "message4",
                     serviceNumber: "79T",
                     top: "ENDS AT",
-                    topFont: "Hanover-Tower11:7",
+                    topFont: "Hanover-Tower8",
                     bottom: "BOON LAY INT",
-                    bottomFont: "Hanover-Tower8",
+                    bottomFont: "Hanover-Tower11:7",
                 },
                 ],
                 scrollFont: "Hanover-7:5"
