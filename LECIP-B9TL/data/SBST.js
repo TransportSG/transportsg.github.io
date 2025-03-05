@@ -248,7 +248,7 @@ EDSFormats.SBST = {
         serviceNumber: {
             align: 'right,centre-y',
             margin: {
-                right: 1
+                right: 0,
             },
             text: '$serviceNumber',
             font: 'LECIP-20:12',
@@ -279,7 +279,7 @@ EDSFormats.SBST = {
         serviceNumber: {
             align: "right",
             margin: {
-                right: 1
+                right: 0,
             },
             text: "$serviceNumber",
             font: "LECIP-20:12",
@@ -299,7 +299,7 @@ EDSFormats.SBST = {
         serviceNumber: {
             align: "right",
             margin: {
-                right: 1
+                right: 0
             },
             text: "$serviceNumber",
             font: "LECIP-20:12",
@@ -320,7 +320,7 @@ EDSFormats.SBST = {
         serviceNumber: {
             align: "right",
             margin: {
-                right: 1
+                right: 0,
             },
             text: "$serviceNumber",
             font: "LECIP-20:12",
@@ -507,7 +507,7 @@ EDSFormats.SBST = {
         serviceNumber: {
             align: "right",
             margin: {
-                right: 1
+                right: 0
             },
             text: "$serviceNumber",
             font: "LECIP-20:12",
@@ -10890,13 +10890,36 @@ EDSData.SBST = {
                 destination: "NEW BRIDGE RD",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                {
-                    renderType: "swt",
+            {
+                renderType: "swt",
+                serviceNumber: "147A",
+                terminateAt: "NEW BRIDGE RD",
+                landmark: "(AFT DUNXTON PLAIN PK)"
+            },
+            ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "147A",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "147A",
+                destination: "NEW BRIDGE RD",
+                destinationFont: "LECIP-10",
+                scrolls: [
+            {
+                renderType: "swt",
                 serviceNumber: "147A",
                 terminateAt: "NEW BRIDGE RD",
                 landmark: "(OPP PEARL'S CTR)"
-                },
-                ],
+            },
+            ],
                 scrollFont: "LECIP-7:5"
             },
             rear: {
@@ -15358,7 +15381,7 @@ EDSData.SBST = {
             }
         }
     },
-    "315X": {
+    "317X": {
         1: {
             front: {
                 renderType: "standardService",
