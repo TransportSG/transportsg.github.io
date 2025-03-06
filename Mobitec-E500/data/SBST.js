@@ -302,7 +302,7 @@ EDSData.SBST = {
         front: {
             renderType: "brandedSvc",
             serviceNumber: "1N",
-            branding: "NITE  OWL",
+            branding: "NITE OWL",
             font: "Mobitec-16:8",
             spacing: 1
         }
@@ -357,7 +357,7 @@ EDSData.SBST = {
         front: {
             renderType: "brandedSvc",
             serviceNumber: "2N",
-            branding: "NITE  OWL",
+            branding: "NITE OWL",
             font: "Mobitec-16:8",
             spacing: 1
         }
@@ -411,7 +411,7 @@ EDSData.SBST = {
         front: {
             renderType: "brandedSvc",
             serviceNumber: "3N",
-            branding: "NITE  OWL",
+            branding: "NITE OWL",
             font: "Mobitec-16:8",
             spacing: 1
         }
@@ -446,7 +446,7 @@ EDSData.SBST = {
         front: {
             renderType: "brandedSvc",
             serviceNumber: "4N",
-            branding: "NITE  OWL",
+            branding: "NITE OWL",
             font: "Mobitec-16:8",
             spacing: 1
         }
@@ -499,7 +499,7 @@ EDSData.SBST = {
         front: {
             renderType: "brandedSvc",
             serviceNumber: "5N",
-            branding: "NITE  OWL",
+            branding: "NITE OWL",
             font: "Mobitec-16:8",
             spacing: 1
         }
@@ -556,7 +556,7 @@ EDSData.SBST = {
         front: {
             renderType: "brandedSvc",
             serviceNumber: "6N",
-            branding: "NITE  OWL",
+            branding: "NITE OWL",
             font: "Mobitec-16:8",
             spacing: 1
         }
@@ -9149,10 +9149,10 @@ EDSData.SBST = {
     }, 
     2982: {
         front: {
-            renderType: "standardService",
+            renderType: "standardService2",
             serviceNumber: "298X",
             destination: {
-                text: "TAMP NTH - TAMP ST 86",
+                text: "TAMP|N.|INT-|ST|86|(LOOP)",
                 font: "Mobitec-7:4"
             },
             scrolls: [
@@ -9161,7 +9161,7 @@ EDSData.SBST = {
                 "TAMPINES ST 86",
                 "TAMPINES AVE 4",
             ],
-            scrollFont: "Mobitec-6:5"
+            scrollFont: "Mobitec-7:4"
         }
     },   
     2989: {
@@ -9731,11 +9731,20 @@ EDSData.SBST = {
     },
     6601: {
         front: {
-            renderType: "destScroll",
+            renderType: "brandedSvc",
             serviceNumber: "660",
-            top: "CITY DIRECT",
-            topFont: "Mobitec-16:8",
-            topSpacing: "2",
+            branding: "CITY DIRECT",
+            font: "Mobitec-16:8",
+            spacing: 2
+        }
+    },
+    6607: {
+        front: {
+            renderType: "brandedSvc",
+            serviceNumber: "660M",
+            branding: "CITY DIRECT",
+            font: "Mobitec-16:8",
+            spacing: 1
         }
     },
     6607: {
@@ -9839,7 +9848,7 @@ EDSData.SBST = {
     7150: {
         front: {
             renderType: "message",
-            text: "EB7157",
+            text: "EB715",
             font: "Mobitec-16:8",
             spacing: 1
         }
@@ -10634,33 +10643,25 @@ EDSData.SBST = {
     "9998T": {
         front: {
             renderType: "standardService",
-            serviceNumber: "49",
+            serviceNumber: "170",
             destination: {
-                text: "TAMAN JUR TER-JUR W ST 41",
+                text: "> W'LANDS TRAIN CHKPT",
                 font: "Mobitec-7:4"
             },
             scrolls: [
-                'CORPORATION DR',
-                'BOON LAY WAY',
+                "BUKIT TIMAH RD",
+                "UPPER BUKIT TIMAH RD",
                 {
                     renderType: "message",
-                    text: "49",
+                    text: "170",
                     font: "Mobitec-16:8",
                     spacing: 5
                 },
-                'JURONG WEST ST 51',
-                'JURONG WEST ST 42',
+                "WOODLANDS RD",
+                "WOODLANDS CTR RD",
                 {
                     renderType: "message",
-                    text: "49",
-                    font: "Mobitec-16:8",
-                    spacing: 5
-                },
-                'JURONG WEST ST 41',
-                'BOON LAY WAY',
-                {
-                    renderType: "message",
-                    text: "49",
+                    text: "170",
                     font: "Mobitec-16:8",
                     spacing: 5
                 },
