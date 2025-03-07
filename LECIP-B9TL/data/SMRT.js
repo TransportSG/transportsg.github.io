@@ -2650,6 +2650,33 @@ EDSData.SMRT = {
             }
         }
     },
+    2582: { 
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "258M",
+                destination: "JOO KOON INT via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "258M",
+                    topFont: "Arial-17",
+                    topSpacing: 5,
+        
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "258M",
+                font: "Arial-10",
+                spacing: 1
+            }
+        }
+    },
     3011: { // Done
         1: {
             front: {

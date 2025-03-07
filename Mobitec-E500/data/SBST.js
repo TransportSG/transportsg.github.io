@@ -6067,6 +6067,25 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
+    1387: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "138M",
+            destination: {
+                text: "",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+            {
+                renderType: "message",
+                text: "138M",
+                font: "Mobitec-16:8",
+                spacing: 5
+            },
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
     1391: {
         front: {
             renderType: "standardService",
@@ -6214,7 +6233,8 @@ EDSData.SBST = {
                 text: "TOA PAYOH-POTONG P. AVE 1",
                 font: "Mobitec-7:4"
             },
-            scrolls: [{
+            scrolls: [
+            {
                 renderType: "message",
                 text: "142",
                 font: "Mobitec-16:8",

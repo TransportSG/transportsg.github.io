@@ -7149,6 +7149,32 @@ EDSData.TTSG = {
             }
         }
     },
+    "861M": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "861M",
+                destination: "SEMBAWANG",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                {
+                    renderType: "destScroll",
+                    top: "861M",
+                    topFont: "LECIP-19:TowerB9Front",
+        
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "861M",
+                font: "LECIP-TowerRear17:7",
+                spacing: 2
+            }
+        }
+    },
     870: {
         1: {
             front: {

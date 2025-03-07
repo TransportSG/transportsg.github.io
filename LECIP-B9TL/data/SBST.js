@@ -10380,6 +10380,31 @@ EDSData.SBST = {
             }
         }
     },
+    "138M": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "138M",
+                destination: "ANG MO KIO",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                    {
+                        renderType: "message",
+                        text: "138M",
+                        font: "LECIP-20:12",
+                        spacing: 5
+                    },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "138M",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
     139: {
         1: {
             front: {
@@ -10590,7 +10615,8 @@ EDSData.SBST = {
                 serviceNumber: "142",
                 destination: "TOA PAYOH INT-POTONG P. AVE 1",
                 destinationFont: "LECIP-6:4",
-                scrolls: [{
+                scrolls: [
+                    {
                         renderType: "message",
                         text: "142",
                         font: "LECIP-20:12",
