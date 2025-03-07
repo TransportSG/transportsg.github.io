@@ -5673,6 +5673,29 @@ EDSData.SBST = {
             }
         }
     },
+    "71A": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "71A",
+                destination: "BISHAN STN",
+                destinationFont: "LECIP-10",
+                scrolls: [{
+                    renderType: "swt",
+                    serviceNumber: "71A",
+                    landmark: "BISHAN RD (OPP BISHAN STN)"
+                },
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "71A",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
     72: {
         1: {
             front: {

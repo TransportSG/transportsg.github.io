@@ -3491,6 +3491,25 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
+    715: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "71A",
+            destination: {
+                text: "BISHAN STN",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+            {
+                renderType: "swt",
+                serviceNumber: "71A",
+                destinationRoad: "BISHAN RD",
+                destinationName: "(OPP BISHAN STN)"
+            },
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
     721: {
         front: {
             renderType: "standardService",
