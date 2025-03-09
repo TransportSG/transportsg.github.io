@@ -170,8 +170,8 @@ EDSFormats.TTSG = {
             },
             spacing: {
                 $$cond: {
-                    "$spacing === null" : 3,
-                    "else": "$spacing"
+                    "$svcSpacing === null" : 3,
+                    "else": "$svcSpacing"
                 }
             }
         },
@@ -414,49 +414,77 @@ EDSFormats.TTSG = {
 
         text: "$top+' '+$bottom+' '+$serviceNumber"
     },
-    'gas-temp-kindness': {
+    message6: { // For Svc 96
         serviceNumber: {
             align: "right",
             margin: {
-                right: 1
+                right: 0,
             },
             text: "$serviceNumber",
-            font: "LECIP-19:TowerB9Front",
-            spacing: 2
-        },
-
-        leftFlower: {
-            align: "left",
-            image: "$LeftImage",
-        },
-        displayText: {
-            $$group: {
-                centreTopText: {
-                    align: "centre-x,top",
-                    text: "$top",
-                    font: "Hanover-8:3",
-                    spacing: 1
-                },
-                centreBottomText: {
-                    align: "centre-x,bottom",
-                    text: "$bottom",
-                    font: "Hanover-8:3",
-                    spacing: 1
+            font: {
+                $$cond: {
+                    "$svcFont === null": "LECIP-19:TowerB9Front",
+                    "else": "$svcFont"
                 }
             },
-            align: "left",
-            margin: {
-                left: "width(leftFlower) + len(2)"
+            spacing: {
+                $$cond: {
+                    "$svcSpacing === null" : 2,
+                    "else": "$svcSpacing"
+                }
             }
         },
-        rightFlower: {
-            align: "left",
-            margin: {
-                left: "width(leftFlower) + width(displayText) + len(4)"
+        top: {
+            align: {
+                $$cond: {
+                    "$bottom === null": "centre-x,centre-y",
+                    "else": "centre-x,top"
+                }
             },
-            image: "$RightImage"
+            text: "$top",
+            font: {
+                $$cond: {
+                    "$topFont === null": "Mobitec-9:6",
+                    "else": "$topFont"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber) - width(image)',
+                top: 0
+            }
         },
-        text: " "
+        bottom: {
+            align: "centre-x,bottom",
+            text: {
+                $$cond: {
+                    "$bottom !== null": "$bottom",
+                    "else": "''"
+                }
+            },
+            font: {
+                $$cond: {
+                    "$bottomFont === null": "Hanover-5:3",
+                    "else": "$bottomFont"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber) - width(image)',
+                bottom: 1
+            }
+        },
+        image: {
+            align: "left",
+            image: {
+                $$cond: {
+                    "$image !== null": "$image",
+                    "else": "blank"
+                }
+            }
+        },
+
+        text: "$top+' '+$bottom+' '+$serviceNumber"
     },
     destScrollWithImage: {
         serviceNumber: {
@@ -1787,8 +1815,9 @@ EDSData.TTSG = {
                 destination: "STAMFORD RD",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [   
+                    
                 {
-                    renderType: "centreMessageServiceScroll",
+                    renderType: "message4",
                     serviceNumber: "77",
                     top: "SKIP",
                     topFont: "Hanover-Tower11:7",
@@ -2272,44 +2301,9 @@ EDSData.TTSG = {
                     serviceNumber: "96",
                 },
                 {
-                    renderType: "message2",
+                    renderType: "message6",
                     serviceNumber: "96",
-                    top: "Salam Aidilfitri",
-                    topFont: "Hanover-8:3",
-                    bottom: "Maaf Zahir Dan Batin",
-                    bottomFont: "Hanover-7:3",
-                    image: "HariRaya-2025"
-                }, 
-                ],
-                scrollFont: "Hanover-Tower7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "96",
-                font: "LECIP-TowerRear17:10",
-                spacing: 2
-            }
-        },
-        2: {
-            front: {
-                renderType: "standardService2",
-                serviceNumber: "96",
-                destination: "CLEMENTI",
-                destinationFont: "Hanover-Tower11:7",
-                scrolls: [                    
-                    "CLEMENTI RD",
-                    "NAT'L UNIVERSITY OF S'PORE",
-                    "KENT RIDGE CRESCENT",
-                {
-                    renderType: "destScroll2",
-                    top: "CLEMENTI - NUS",
-                    topFont: "Hanover-Tower12:7",
-        
-                    serviceNumber: "96",
-                },
-                {
-                    renderType: "message2",
-                    serviceNumber: "96",
+
                     top: "Salam Aidilfitri",
                     topFont: "Hanover-8:3",
                     bottom: "Maaf Zahir Dan Batin",
@@ -2481,7 +2475,7 @@ EDSData.TTSG = {
                     "ROBINSON RD",
                     "BAYFRONT AVE / MBS",
                 {
-                    renderType: "centreMessageServiceScroll",
+                    renderType: "message4",
                     serviceNumber: "97e",
                     top: "LIMITED STOPS",
                     topFont: "Hanover-Tower11:7",
@@ -2519,7 +2513,7 @@ EDSData.TTSG = {
                     "ALEXANDRA RD",
                     "A Y E",
                 {
-                    renderType: "centreMessageServiceScroll",
+                    renderType: "message4",
                     serviceNumber: "97e",
                     top: "LIMITED STOPS",
                     topFont: "Hanover-Tower11:7",
@@ -2554,7 +2548,7 @@ EDSData.TTSG = {
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [   
                 {
-                    renderType: "centreMessageServiceScroll",
+                    renderType: "message4",
                     serviceNumber: "97",
                     top: "SKIP",
                     topFont: "Hanover-Tower11:7",
@@ -2563,7 +2557,7 @@ EDSData.TTSG = {
                     bottomFont: "Hanover-Tower7:5"
                 },    
                 {
-                    renderType: "centreMessageServiceScroll",
+                    renderType: "message4",
                     serviceNumber: "97",
                     top: "SKIP",
                     topFont: "Hanover-Tower11:7",
@@ -3026,7 +3020,7 @@ EDSData.TTSG = {
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [ 
                 {
-                    renderType: "centreMessageServiceScroll",
+                    renderType: "message4",
                     serviceNumber: "106",
                     top: "SKIP",
                     topFont: "Hanover-Tower11:7",
@@ -3035,7 +3029,7 @@ EDSData.TTSG = {
                     bottomFont: "Hanover-Tower7:5"
                 },
                 {
-                    renderType: "centreMessageServiceScroll",
+                    renderType: "message4",
                     serviceNumber: "106",
                     top: "SKIP",
                     topFont: "Hanover-Tower11:7",
@@ -3073,7 +3067,7 @@ EDSData.TTSG = {
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [      
                 {
-                    renderType: "centreMessageServiceScroll",
+                    renderType: "message4",
                     serviceNumber: "106",
                     top: "SKIP",
                     topFont: "Hanover-Tower11:7",
@@ -3577,7 +3571,7 @@ EDSData.TTSG = {
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [        
                 {
-                    renderType: "centreMessageServiceScroll",
+                    renderType: "message4",
                     serviceNumber: "167",
                     top: "SKIP",
                     topFont: "Hanover-Tower11:7",
@@ -3586,7 +3580,7 @@ EDSData.TTSG = {
                     bottomFont: "Hanover-Tower7:5"
                 },
                 {
-                    renderType: "centreMessageServiceScroll",
+                    renderType: "message4",
                     serviceNumber: "167",
                     top: "SKIP",
                     topFont: "Hanover-Tower11:7",
@@ -3624,7 +3618,7 @@ EDSData.TTSG = {
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [      
                 {
-                    renderType: "centreMessageServiceScroll",
+                    renderType: "message4",
                     serviceNumber: "167",
                     top: "SKIP",
                     topFont: "Hanover-Tower11:7",
@@ -3633,7 +3627,7 @@ EDSData.TTSG = {
                     bottomFont: "Hanover-Tower7:5"
                 },
                 {
-                    renderType: "centreMessageServiceScroll",
+                    renderType: "message4",
                     serviceNumber: "167",
                     top: "SKIP",
                     topFont: "Hanover-Tower11:7",
@@ -4708,7 +4702,7 @@ EDSData.TTSG = {
                         serviceNumber: "0500"
                     },
                     {
-                        renderType: "centreMessageServiceScroll",
+                        renderType: "message4",
                         top: "Singapore's First",
                         topFont: "Hanover-7:5",
                         bottom: "amphibious bus route!",
@@ -4998,7 +4992,7 @@ EDSData.TTSG = {
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [    
                 {
-                    renderType: "centreMessageServiceScroll",
+                    renderType: "message4",
                     serviceNumber: "656",
                     top: "SKIP",
                     topFont: "Hanover-Tower11:7",
@@ -5007,7 +5001,7 @@ EDSData.TTSG = {
                     bottomFont: "Hanover-Tower7:5"
                 },
                 {
-                    renderType: "centreMessageServiceScroll",
+                    renderType: "message4",
                     serviceNumber: "656",
                     top: "SKIP",
                     topFont: "Hanover-Tower11:7",
@@ -5051,7 +5045,7 @@ EDSData.TTSG = {
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [  
                 {
-                    renderType: "centreMessageServiceScroll",
+                    renderType: "message4",
                     serviceNumber: "656",
                     top: "SKIP",
                     topFont: "Hanover-Tower11:7",
@@ -5060,7 +5054,7 @@ EDSData.TTSG = {
                     bottomFont: "Hanover-Tower7:5"
                 },
                 {
-                    renderType: "centreMessageServiceScroll",
+                    renderType: "message4",
                     serviceNumber: "656",
                     top: "SKIP",
                     topFont: "Hanover-Tower11:7",
@@ -5255,7 +5249,7 @@ EDSData.TTSG = {
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [     
                 {
-                    renderType: "centreMessageServiceScroll",
+                    renderType: "message4",
                     serviceNumber: "663",
                     top: "SKIP",
                     topFont: "Hanover-Tower11:7",
@@ -5264,7 +5258,7 @@ EDSData.TTSG = {
                     bottomFont: "Hanover-Tower7:5"
                 },
                 {
-                    renderType: "centreMessageServiceScroll",
+                    renderType: "message4",
                     serviceNumber: "663",
                     top: "SKIP",
                     topFont: "Hanover-Tower11:7",
@@ -5308,7 +5302,7 @@ EDSData.TTSG = {
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [  
                 {
-                    renderType: "centreMessageServiceScroll",
+                    renderType: "message4",
                     serviceNumber: "663",
                     top: "SKIP",
                     topFont: "Hanover-Tower11:7",
@@ -5317,7 +5311,7 @@ EDSData.TTSG = {
                     bottomFont: "Hanover-Tower7:5"
                 },
                 {
-                    renderType: "centreMessageServiceScroll",
+                    renderType: "message4",
                     serviceNumber: "663",
                     top: "SKIP",
                     topFont: "Hanover-Tower11:7",
@@ -5440,7 +5434,7 @@ EDSData.TTSG = {
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [     
                 {
-                    renderType: "centreMessageServiceScroll",
+                    renderType: "message4",
                     serviceNumber: "665",
                     top: "SKIP",
                     topFont: "Hanover-Tower11:7",
@@ -5449,7 +5443,7 @@ EDSData.TTSG = {
                     bottomFont: "Hanover-Tower7:5"
                 },
                 {
-                    renderType: "centreMessageServiceScroll",
+                    renderType: "message4",
                     serviceNumber: "665",
                     top: "SKIP",
                     topFont: "Hanover-Tower11:7",
@@ -5493,7 +5487,7 @@ EDSData.TTSG = {
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [  
                 {
-                    renderType: "centreMessageServiceScroll",
+                    renderType: "message4",
                     serviceNumber: "665",
                     top: "SKIP",
                     topFont: "Hanover-Tower11:7",
@@ -5502,7 +5496,7 @@ EDSData.TTSG = {
                     bottomFont: "Hanover-Tower7:5"
                 },
                 {
-                    renderType: "centreMessageServiceScroll",
+                    renderType: "message4",
                     serviceNumber: "665",
                     top: "SKIP",
                     topFont: "Hanover-Tower11:7",
@@ -6000,7 +5994,7 @@ EDSData.TTSG = {
                     "HOUGANG AVE 3",
                     "EUNOS LINK",
                 {
-                    renderType: "centreMessageServiceScroll",
+                    renderType: "message4",
                     serviceNumber: "854e",
                     top: "LIMITED STOPS",
                     topFont: "Hanover-Tower11:7",
@@ -6515,28 +6509,28 @@ EDSData.TTSG = {
                 destination: "STAMFORD RD",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [     
-                {
-                    renderType: "centreMessageServiceScroll",
-                    serviceNumber: "857",
-                    top: "SKIP",
-                    topFont: "Hanover-Tower11:7",
+            {
+                renderType: "message4",
+                serviceNumber: "857",
+                top: "SKIP",
+                topFont: "Hanover-Tower11:7",
         
-                    bottom: "BRAS BASAH RD",
-                    bottomFont: "Hanover-Tower7:5"
-                },
-                {
-                    renderType: "centreMessageServiceScroll",
-                    serviceNumber: "857",
-                    top: "SKIP",
-                    topFont: "Hanover-Tower11:7",
+                bottom: "BRAS BASAH RD",
+                bottomFont: "Hanover-Tower7:5"
+            },
+            {
+                renderType: "message4",
+                serviceNumber: "857",
+                top: "SKIP",
+                topFont: "Hanover-Tower11:7",
         
-                    bottom: "MARINA CENTRE / SUNTEC",
-                    bottomFont: "Hanover-Tower7:5"
-                },                           
-                    "YIO CHU KANG RD",
-                    "BENDEMEER RD",
-                    "LITTLE INDIA",
-                    "BENCOOLEN ST",
+                bottom: "MARINA CENTRE / SUNTEC",
+                bottomFont: "Hanover-Tower7:5"
+            },                    
+                "YIO CHU KANG RD",
+                "BENDEMEER RD",
+                "LITTLE INDIA",
+                "BENCOOLEN ST",
             {
                 renderType: "destScroll",
                 top: "STAMFORD RD",
@@ -8011,7 +8005,7 @@ EDSData.TTSG = {
                     "BT BATOK EAST AVE 3",
                     " A Y E",
                 {
-                    renderType: "centreMessageServiceScroll",
+                    renderType: "message4",
                     serviceNumber: "963e",
                     top: "LIMITED STOPS",
                     topFont: "Hanover-Tower11:7",
@@ -8049,7 +8043,7 @@ EDSData.TTSG = {
                     "BUKIT PANJANG RD",
                     "WOODLANDS AVE 3",
                 {
-                    renderType: "centreMessageServiceScroll",
+                    renderType: "message4",
                     serviceNumber: "963e",
                     top: "LIMITED STOPS",
                     topFont: "Hanover-Tower11:7",
@@ -8089,7 +8083,7 @@ EDSData.TTSG = {
                     "BT BATOK EAST AVE 3",
                     " A Y E",
                 {
-                    renderType: "centreMessageServiceScroll",
+                    renderType: "message4",
                     serviceNumber: "963R",
                     top: "LIMITED STOPS",
                     topFont: "Hanover-Tower11:7",
@@ -8129,7 +8123,7 @@ EDSData.TTSG = {
                     "BUKIT PANJANG RD",
                     "WOODLANDS AVE 3",
                 {
-                    renderType: "centreMessageServiceScroll",
+                    renderType: "message4",
                     serviceNumber: "963R",
                     top: "LIMITED STOPS",
                     topFont: "Hanover-Tower11:7",
@@ -8416,7 +8410,7 @@ EDSData.TTSG = {
                     bottomFont: "Hanover-Tower8",
                 },  
                 {
-                    renderType: "centreMessageServiceScroll",
+                    renderType: "message4",
                     serviceNumber: "963",
                     top: "HELLO UNCLE",
                     topFont: "Hanover-Tower11:7",
@@ -11518,7 +11512,7 @@ EDSData.TTSG = {
                 scrolls: [
 
                 {
-                    renderType: "centreMessageServiceScroll",
+                    renderType: "message4",
                     serviceNumber: "97e",
                     top: "SKIPS",
                     topFont: "Hanover-Tower11:7",
@@ -11531,7 +11525,7 @@ EDSData.TTSG = {
                     "HARBOURFRONT",
                     "ROBINSON RD",  
                     {
-                        renderType: "centreMessageServiceScroll",
+                        renderType: "message4",
                         serviceNumber: "97e",
                         top: "LIMITED STOPS",
                         topFont: "Hanover-Tower11:7",
@@ -11569,7 +11563,7 @@ EDSData.TTSG = {
                     "ALEXANDRA RD",
                     "A Y E",
                     {
-                        renderType: "centreMessageServiceScroll",
+                        renderType: "message4",
                         serviceNumber: "97e",
                         top: "LIMITED STOPS",
                         topFont: "Hanover-Tower11:7",
