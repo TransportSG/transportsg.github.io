@@ -8513,6 +8513,30 @@ EDSData.SBST = {
             }
         }
     },
+    "112B": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "112B",
+                destination: "HOUGANG AVE 7",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
+                    renderType: "swt",
+                    serviceNumber: "112B",
+                    landmark: "HOUGANG AVE 7 (OPP BLK 321)"
+                },
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "112B",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
     113: { //TODO SCROLLS
         1: {
             front: {

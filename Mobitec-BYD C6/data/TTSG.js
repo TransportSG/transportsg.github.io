@@ -523,7 +523,7 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "",
-            destination: "BULIM DEPOT CREW BUS",
+            destination: "Bulim Depot Crew Bus",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -541,7 +541,7 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "",
-            destination: "MANDAI DEPOT CREW BUS",
+            destination: "Mandai Depot Crew Bus",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -594,7 +594,8 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "825",
-            destination: "YIO CHU KANG",
+            destination: "Lentor MRT / Loop, YCK",
+            destFont: "Mobitec-7:7",
             scrolls: [
                 {
                     renderType: "destScroll",

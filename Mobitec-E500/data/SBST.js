@@ -4935,6 +4935,25 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
+    1126: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "112B",
+            destination: {
+                text: "HOUGANG AVE 7",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+            {
+                renderType: "swt",
+                serviceNumber: "112B",
+                destinationRoad: "HOUGANG",
+                destinationName: "AVE 7 (OPP BLK 321)"
+            },
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
     1131: {
         front: {
             renderType: "standardService",

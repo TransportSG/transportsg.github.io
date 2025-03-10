@@ -449,13 +449,34 @@ EDSData['SMRT'] = {
             renderType: "standardService",
             serviceNumber: "825",
             destination: {
-                text: "LENTOR LOOP via",
+                text: "LENTOR LOOP",
                 font: "Mobitec-6:5"
             },
             scrolls: [
-                "THOMSON GROVE",
-                "CASTLE GREEN",
-                "SEASONS PARK"
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "825",
+                    top: "LENTOR LOOP via",
+                    topFont: "Mobitec-6:5",
+                    bottom:  "THOMSON GROVE",
+                    bottomFont: "Mobitec-6:5",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "825",
+                    top: "LENTOR LOOP via",
+                    topFont: "Mobitec-6:5",
+                    bottom:  "TCASTLE GREEN",
+                    bottomFont: "Mobitec-6:5",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "825",
+                    top: "LENTOR LOOP via",
+                    topFont: "Mobitec-6:5",
+                    bottom:  "SEASONS PARK",
+                    bottomFont: "Mobitec-6:5",
+                },
             ],
             scrollFont: "Mobitec-6:5"
         }
