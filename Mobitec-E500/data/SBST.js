@@ -4246,6 +4246,25 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
+    922: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "92T",
+            destination: {
+                text: "GHIM MOH TER",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+            {
+                renderType: "swt",
+                serviceNumber: "92T",
+                destinationRoad: "GHIM MOH",
+                destinationName: "RD (GHIM MOH TER)"
+            },
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
     925: {
         front: {
             renderType: "standardService",
@@ -4270,40 +4289,21 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "92B",
             destination: {
-                text: "SCIENCE PARK DR (OLD)",
+                text: "KENT RIDGE STN",
                 font: "Mobitec-7:5:2"
             },
             scrolls: [
             {
                 renderType: "swt",
                 serviceNumber: "92B",
-                destinationRoad: "SCIENCE",
-                destinationName: "PARK DR (OPP RUTHEFORD)"
+                destinationRoad: "",
+                destinationName: "KENT RIDGE STN"
             },
             ],
             scrollFont: "Mobitec-6:5"
         }
     },
     927: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "92T",
-            destination: {
-                text: "GHIM MOH TER",
-                font: "Mobitec-7:5:2"
-            },
-            scrolls: [
-            {
-                renderType: "swt",
-                serviceNumber: "92T",
-                destinationRoad: "GHIM MOH",
-                destinationName: "RD (GHIM MOH TER)"
-            },
-            ],
-            scrollFont: "Mobitec-6:5"
-        }
-    },
-    928: {
         front: {
             renderType: "standardService",
             serviceNumber: "92A",
@@ -4317,6 +4317,25 @@ EDSData.SBST = {
                 serviceNumber: "92A",
                 destinationRoad: "",
                 destinationName: "GHIM MOH RD (BLK 13)"
+            },
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    928: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "92B",
+            destination: {
+                text: "SCIENCE PARK DR (OLD)",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+            {
+                renderType: "swt",
+                serviceNumber: "92B",
+                destinationRoad: "SCIENCE",
+                destinationName: "PARK DR (OPP RUTHEFORD)"
             },
             ],
             scrollFont: "Mobitec-6:5"

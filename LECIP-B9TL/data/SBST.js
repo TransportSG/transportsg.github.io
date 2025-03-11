@@ -7075,6 +7075,28 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "92B",
+                destination: "KENT RIDGE STN",
+                destinationFont: "LECIP-10",
+                scrolls: [{
+                    renderType: "swt",
+                    serviceNumber: "92B",
+                    terminateAt: "S. BUONA VISTA RD",
+                    landmark: "(KENT RIDGE STN)" // check
+                },
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "92B",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "92B",
                 destination: "SCIENCE PARK DRIVE",
                 destinationFont: "LECIP-10",
                 scrolls: [
@@ -7761,7 +7783,7 @@ EDSData.SBST = {
                 scrolls: [
                 {
                     renderType: "swt",
-                    serviceNumber: "98A",
+                    serviceNumber: "98B",
                     terminateAt: "JURONG PIER WAY",
                     landmark: "(JURONG ISLAND CHECKPOINT)",
                 },
@@ -8102,13 +8124,13 @@ EDSData.SBST = {
                 renderType: "standardService",
                 serviceNumber: "103M",
                 destination: "> WEST CAMP RD",
-                destinationFont: "LECIP-6:4",
+                destinationFont: "LECIP-7:5",
                 scrolls: [
                     "YIO CHU KANG RD",
                     "JALAN KAYU",
                     "SELETAR A'SPACE DR",
                 ],
-                scrollFont: "LECIP-6:4"
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -8121,14 +8143,14 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "103M",
-                destination: "> SERANGOON INT",
-                destinationFont: "LECIP-6:4",
+                destination: "> SERANGOON",
+                destinationFont: "LECIP-10",
                 scrolls: [
                     "SELETAR A'SPACE DR",
                     "JALAN KAYU",
                     "YIO CHU KANG RD"
                 ],
-                scrollFont: "LECIP-6:4"
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -8144,13 +8166,13 @@ EDSData.SBST = {
                 renderType: "standardService",
                 serviceNumber: "103W",
                 destination: "> WEST CAMP RD",
-                destinationFont: "LECIP-6:4",
+                destinationFont: "LECIP-7:5",
                 scrolls: [
                     "YIO CHU KANG RD",
                     "JALAN KAYU",
                     "SELETAR A'SPACE DR",
                 ],
-                scrollFont: "LECIP-6:4"
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -8163,14 +8185,14 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "103W",
-                destination: "> SERANGOON INT",
-                destinationFont: "LECIP-6:4",
+                destination: "> SERANGOON",
+                destinationFont: "LECIP-10",
                 scrolls: [
                     "SELETAR A'SPACE DR",
                     "JALAN KAYU",
                     "YIO CHU KANG RD"
                 ],
-                scrollFont: "LECIP-6:4"
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -16507,7 +16529,7 @@ EDSData.SBST = {
                 renderType: "rearService",
                 serviceNumber: "59A",
                 font: "LECIP-20:9",
-                spacing: 1
+                spacing: 2
             }
         },
         2: {
