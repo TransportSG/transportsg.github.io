@@ -4231,7 +4231,7 @@ EDSData.SBST = {
                 destination: "ANG MO KIO STN",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                    {
+                {
                     renderType: "destScroll",
                     top: "TERMINATES BEFORE",
                     topFont: "LECIP-7:5",
@@ -6354,7 +6354,8 @@ EDSData.SBST = {
                 serviceNumber: "83",
                 destination: "PUNGGOL - SENGKANG SQ",
                 destinationFont: "LECIP-6:4",
-                scrolls: [{
+                scrolls: [
+                    {
                         renderType: "centreMessageServiceScroll",
                         serviceNumber: "83",
                         top: "PUNGGOL - SENGKANG",
@@ -10458,10 +10459,13 @@ EDSData.SBST = {
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                     {
-                        renderType: "message",
-                        text: "138M",
-                        font: "LECIP-20:12",
-                        spacing: 5
+                        renderType: "destScroll",
+                        top: "ANG MO KIO INT",
+                        topFont: "LECIP-7:5",
+                        bottom: "AMK POLYCLINIC (LOOP)",
+                        bottomFont: "LECIP-7:5",
+                
+                        serviceNumber: "138M"
                     },
                 ],
                 scrollFont: "LECIP-6:4"

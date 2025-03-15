@@ -6124,20 +6124,22 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
-    1387: {
+    1388: {
         front: {
             renderType: "standardService",
             serviceNumber: "138M",
             destination: {
-                text: "",
+                text: "ANG MO KIO INT - AMK POLYCLINIC",
                 font: "Mobitec-7:4"
             },
             scrolls: [
             {
-                renderType: "message",
-                text: "138M",
-                font: "Mobitec-16:8",
-                spacing: 5
+                renderType: "destScroll",
+                serviceNumber: "138M",
+                top: "ANG MO KIO INT - ",
+                topFont: "Mobitec-7:4",
+                bottom: "AMK POLYCLINIC (LOOP)",
+                bottomFont: "Mobitec-7:4",
             },
             ],
             scrollFont: "Mobitec-6:5"
