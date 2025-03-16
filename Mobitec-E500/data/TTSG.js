@@ -6261,6 +6261,24 @@ EDSData.TTSG = {
     8614: {
         front: {
             renderType: "standardService",
+            serviceNumber: "",
+            destination: "861B CANBERRA STN",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "861B",
+                    top: "Ends At",
+                    topFont: "Mobitec-7:5:3",
+                    bottom: "Canberra Stn Exit D",
+                    bottomFont: "Mobitec-Tower6:4",
+                    image: "mrt"
+                },
+            ]
+        }
+    },
+    8615: {
+        front: {
+            renderType: "standardService",
             serviceNumber: "861M",
             destination: "",
             scrolls: [

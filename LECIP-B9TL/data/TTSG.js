@@ -7139,7 +7139,34 @@ EDSData.TTSG = {
                 renderType: "rearService",
                 serviceNumber: "861A",
                 font: "LECIP-TowerRear17:7",
-                spacing: 1
+                spacing: 2
+            }
+        }
+    },
+    "861B": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "861B",
+                destination: "CANBERRA MRT",
+                destinationFont: "Hanover-10",
+                scrolls: [
+                {
+                    renderType: "message4",
+                    serviceNumber: "861B",
+                    top: "ENDS AT",
+                    topFont: "Hanover-Tower11:7",
+                    bottom: "CANBERRA STN",
+                    bottomFont: "Hanover-Tower8",
+                },
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: { 
+                renderType: "rearService",
+                serviceNumber: "861B",
+                font: "LECIP-TowerRear17:7",
+                spacing: 2
             }
         }
     },
