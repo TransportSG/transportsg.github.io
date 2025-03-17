@@ -151,6 +151,7 @@ EDSFormats.Special = {
     }
 }
 
+
 EDSData.Special = {
     0: {
         front: {
@@ -232,6 +233,13 @@ EDSData.Special = {
                     topFont: "Tongda-16:7",
                 },
             ]
+        }
+    },
+    9000: {
+        front: {
+            renderType: "scrollingDest",
+            serviceNumber: " ",
+            destination: "CHINA YUTONG, CREATE GREATER VALUE FOR YOU"
         }
     },
     9999: {

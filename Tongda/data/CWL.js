@@ -261,6 +261,69 @@ EDSData['CWL (JB Area)'] = {
             ]
         }
     },
+    "3S": {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "CW3S",
+            destination: "CIQ 2ND LINK / TUTA",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "CW3S",
+                    top: "CIQ 2ND LINK",
+                    topFont: "Tongda-16:7",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "CW3S",
+                    top: "TUTA",
+                    topFont: "Tongda-16:7",
+                },
+            ]
+        }
+    },
+    4: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "CW4",
+            destination: "JURONG EAST / PONTIAN",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "CW4",
+                    top: "JURONG EAST",
+                    topFont: "Tongda-16:7",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "CW4",
+                    top: "PONTIAN",
+                    topFont: "Tongda-16:7",
+                },
+            ]
+        }
+    },
+    "4S": {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "CW4S",
+            destination: "JURONG EAST / SUTERA MALL",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "CW4S",
+                    top: "JURONG EAST",
+                    topFont: "Tongda-16:7",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "CW4S",
+                    top: "SUTERA MALL",
+                    topFont: "Tongda-16:7",
+                },
+            ]
+        }
+    },
     5: {
         front: {
             renderType: "standardService",
