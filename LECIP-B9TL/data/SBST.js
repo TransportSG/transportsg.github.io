@@ -4238,7 +4238,7 @@ EDSData.SBST = {
                     bottom: "ANG MO KIO STN EXIT B",
                     bottomFont: "LECIP-7:5",
             
-                    serviceNumber: "50A"
+                    serviceNumber: "58A"
                 },
                 ],
                 scrollFont: "LECIP-7:5"
@@ -5680,10 +5680,13 @@ EDSData.SBST = {
                 serviceNumber: "71A",
                 destination: "BISHAN STN",
                 destinationFont: "LECIP-10",
-                scrolls: [{
-                    renderType: "swt",
-                    serviceNumber: "71A",
-                    landmark: "BISHAN RD (OPP BISHAN STN)"
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "OPP BISHAN STN",
+                    topFont: "LECIP-20:6",
+            
+                    serviceNumber: "71A"
                 },
                 ],
                 scrollFont: "LECIP-7:5"
