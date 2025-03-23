@@ -13889,7 +13889,11 @@ EDSData.SBST = {
                 destination: "> CALDECOTT STN",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
-                    'LOR 6 TOA PAYOH',
+                    "TOA PAYOH RISE",
+                    "LOR 6 TOA PAYOH",
+                    "LOR 8, 7 TOA PAYOH",
+                    "LOR 6 TOA PAYOH",
+                    "TOA PAYOH RISE",
                 ],
                 scrollFont: "LECIP-7:5"
             },

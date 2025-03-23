@@ -8360,7 +8360,11 @@ EDSData.SBST = {
                 font: "Mobitec-7:5:2"
             },
             scrolls: [
-                'LOR 6 TOA PAYOH',
+                "TOA PAYOH RISE",
+                "LOR 6 TOA PAYOH",
+                "LOR 8, 7 TOA PAYOH",
+                "LOR 6 TOA PAYOH",
+                "TOA PAYOH RISE",
             ],
             scrollFont: "Mobitec-6:5"
         }
