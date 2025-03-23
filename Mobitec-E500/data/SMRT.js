@@ -69,7 +69,7 @@ EDSFormats['SMRT (PostSLBP)'] = {
             },
             scrolls: "$scrolls",
             rotate: true,
-            rotateSpeed: 3000,
+            rotateSpeed: 2600,
 
             font: "$scrollFont",
             spacing: 1
@@ -103,7 +103,7 @@ EDSFormats['SMRT (PostSLBP)'] = {
             },
             scrolls: "$scrolls",
             rotate: true,
-            rotateSpeed: 3000,
+            rotateSpeed: 2600,
 
             font: "$scrollFont",
             spacing: 1
@@ -188,7 +188,7 @@ EDSFormats['SMRT (PostSLBP)'] = {
             },
             scrolls: "$scrolls",
             rotate: true,
-            rotateSpeed: 3000,
+            rotateSpeed: 2600,
 
             font: "$scrollFont",
             spacing: 1
@@ -222,7 +222,7 @@ EDSFormats['SMRT (PostSLBP)'] = {
             },
             scrolls: "$scrolls",
             rotate: true,
-            rotateSpeed: 3000,
+            rotateSpeed: 2600,
 
             font: "$scrollFont",
             spacing: 1
@@ -368,7 +368,7 @@ EDSFormats['SMRT (PostSLBP)'] = {
             },
             scrolls: "$scrolls",
             rotate: true,
-            rotateSpeed: 3000,
+            rotateSpeed: 2600,
 
             font: "$scrollFont",
             spacing: 1
@@ -2333,12 +2333,19 @@ EDSData['SMRT (PostSLBP)'] = {
                 font: "Mobitec-7:5:1"
             },
             scrolls: [
-            {
-                renderType: "message",
-                text: "258M",
-                font: "Mobitec-16:8",
-                spacing: 1
-            },
+                "JLN AHMAD IBRAHIM",
+                "PIONEER RD NTH",
+                "JUR WEST ST 63, 61",
+                "JUR WEST ST 71, 81",
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "258M",
+                    spacing: "1",
+                    top: "JOO KOON INT via",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "BOON LAY PLACE (LOOP)",
+                    bottomFont: "Mobitec-7:4"
+                },
             ],
             scrollFont: "Mobitec-7:5:1"
         }

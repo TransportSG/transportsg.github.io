@@ -31,7 +31,7 @@ EDSFormats.SMRT = {
             },
             scrolls: "$scrolls",
             rotate: true,
-            rotateSpeed: 3000,
+            rotateSpeed: 2600,
 
             font: "$scrollFont",
             spacing: 1
@@ -2650,7 +2650,7 @@ EDSData.SMRT = {
             }
         }
     },
-    2582: { 
+    2582: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -2658,14 +2658,62 @@ EDSData.SMRT = {
                 destination: "JOO KOON INT via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                {
-                    renderType: "destScroll",
-                    top: "258M",
-                    topFont: "Arial-17",
-                    topSpacing: 5,
-        
-                    serviceNumber: ""
-                },
+                    {
+                        renderType: "destScroll2B",
+                        top: "JOO KOON INT via",
+                        topFont: "ArialBold-8:2",
+                        bottom: "JLN AHMAD IBRAHIM",
+                        bottomFont: "Calibri-7:2",
+            
+                        serviceNumber: "258M"
+                    },
+                    {
+                        renderType: "destScroll2B",
+                        top: "JOO KOON INT via",
+                        topFont: "ArialBold-8:2",
+                        bottom: "PIONEER RD NTH",
+                        bottomFont: "Calibri-7:2",
+            
+                        serviceNumber: "258M"
+                    },
+                    {
+                        renderType: "destScroll2B",
+                        top: "JOO KOON INT via",
+                        topFont: "ArialBold-8:2",
+                        bottom: "JUR WEST ST 63, 61",
+                        bottomFont: "Calibri-7:2",
+            
+                        serviceNumber: "258M"
+                    },
+                    {
+                        renderType: "destScroll2B",
+                        top: "JOO KOON INT via",
+                        topFont: "ArialBold-8:2",
+                        bottom: "JUR WEST ST 71, 81",
+                        bottomFont: "Calibri-7:2",
+            
+                        serviceNumber: "258M"
+                    },
+                    {
+                        renderType: "destScroll2B",
+                        top: "JOO KOON INT via",
+                        topFont: "ArialBold-8:2",
+                        bottom: "JUR WEST ST 71, 81",
+                        bottomFont: "Calibri-7:2",
+            
+                        serviceNumber: "258M"
+                    },
+                    {
+                        renderType: "ScrollWithSpecialCharacters",
+                        top: "JOO KOON INT via",
+                        topFont: "ArialBold-8:2",
+                        bottom: "BOON LAY PLC (LOOP)",
+                        bottomFont: "Calibri-7:2",
+            
+                        serviceNumber: "258M",
+                        serviceFont: "Calibri-15",
+                        spacing: "1"
+                    },
                 ],
                 scrollFont: "ArialBold-8:2"
             },

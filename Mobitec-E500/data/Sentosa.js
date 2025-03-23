@@ -25,7 +25,7 @@ EDSFormats.Sentosa = {
             },
             scrolls: "$scrolls",
             rotate: true,
-            rotateSpeed: 3000,
+            rotateSpeed: 2600,
 
             font: "Mobitec-7:4",
             spacing: 1
@@ -275,16 +275,6 @@ EDSData.Sentosa = {
                     font: "Mobitec-7:7"
                 },
                 scrolls: [
-                    {
-                        renderType: "destScroll",
-                        top: "Happy Lunar New Year",
-                        topFont: "Mobitec-7:4",
-            
-                        image: "CNY-Ingot",
-            
-                        serviceNumber: "1",
-                        svcFont: "Mobitec-SentosaIcons"
-                    },
                     {
                         renderType: "logo",
                         image: "SentosaLogo",
