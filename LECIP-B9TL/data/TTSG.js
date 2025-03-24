@@ -7180,10 +7180,10 @@ EDSData.TTSG = {
                 scrolls: [                    
                 {
                     renderType: "destScroll",
-                    top: "861M",
-                    topFont: "LECIP-19:TowerB9Front",
+                    top: "SEMBAWANG",
+                    topFont: "Hanover-Tower12:7",
         
-                    serviceNumber: ""
+                    serviceNumber: "861M"
                 },
                 ],
                 scrollFont: "Hanover-Tower7:5"

@@ -4785,16 +4785,21 @@ EDSData['SMRT (PostSLBP)'] = {
             renderType: "standardService",
             serviceNumber: "979X",
             destination: {
-                text: "BT PANJANG",
+                text: "BT PANJANG INT",
                 font: "Mobitec-7:5:3"
             },
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "979X",
-                    top: "BT PANJANG",
-                    topFont: "Mobitec-13:8"
+                    top: "BUKIT PANJANG",
+                    bottom: "INT / LRT",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
                 },
+                "C.C.K DRIVE",
+                "C.C.K NORTH 7",
+                "C.C.K CRES (LOOP)"
             ],
             scrollFont: "Mobitec-7:5:3"
         }

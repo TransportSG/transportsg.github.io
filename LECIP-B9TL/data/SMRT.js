@@ -6495,12 +6495,31 @@ EDSData.SMRT = {
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
                 {
-                    renderType: "destScroll",
-                    top: "979X",
-                    topFont: "Arial-17",
-                    topSpacing: 5,
-        
-                    serviceNumber: ""
+                    renderType: "destScroll2B",
+                    top: "BT PANJANG INT via",
+                    topFont: "ArialBold-8:2",
+                    bottom: "C.C.K DRIVE",
+                    bottomFont: "Calibri-7:2",
+            
+                    serviceNumber: "979X"
+                },
+                {
+                    renderType: "destScroll2B",
+                    top: "BT PANJANG INT via",
+                    topFont: "ArialBold-8:2",
+                    bottom: "C.C.K NORTH 7",
+                    bottomFont: "Calibri-7:2",
+            
+                    serviceNumber: "979X"
+                },
+                {
+                    renderType: "destScroll2B",
+                    top: "BT PANJANG INT via",
+                    topFont: "ArialBold-8:2",
+                    bottom: "C.C.K CRES (LOOP)",
+                    bottomFont: "Calibri-7:2",
+            
+                    serviceNumber: "979X"
                 },
                 ],
                 scrollFont: "ArialBold-8:2"

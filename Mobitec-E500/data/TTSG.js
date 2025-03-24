@@ -6280,16 +6280,12 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "861M",
-            destination: "",
+            destination: "SEMBAWANG",
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "861M",
-                    top: "Welcome on board",
-                    topFont: "Hanover-7:3",
-                    bottom: "Tower Transit",
-                    bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    top: "SEMBAWANG",
                 },
             ]
         }
