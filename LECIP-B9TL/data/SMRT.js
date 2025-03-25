@@ -4395,7 +4395,7 @@ EDSData.SMRT = {
                         top: "WOODLANDS INTvia",
                         topFont: "ArialBold-8:2",
                         bottom: "WOODLANDS AVE 2",
-                        bottomFont: "Arial-8:2",
+                        bottomFont: "Arial-8:2:2",
                 
                         serviceNumber: "901M"
                     },
@@ -4404,7 +4404,7 @@ EDSData.SMRT = {
                         top: "WOODLANDS INTvia",
                         topFont: "ArialBold-8:2",
                         bottom: "WOODLANDS AVE 1",
-                        bottomFont: "Arial-8:2",
+                        bottomFont: "Arial-8:2:2",
                 
                         serviceNumber: "901M"
                     },
@@ -4413,7 +4413,7 @@ EDSData.SMRT = {
                         top: "WOODLANDS INTvia",
                         topFont: "ArialBold-8:2",
                         bottom: "WOODLANDS DR 16",
-                        bottomFont: "Arial-8:2",
+                        bottomFont: "Arial-8:2:2",
                 
                         serviceNumber: "901M"
                     },
@@ -4422,7 +4422,7 @@ EDSData.SMRT = {
                         top: "WOODLANDS INTvia",
                         topFont: "ArialBold-8:2",
                         bottom: "WOODLANDS AVE 6",
-                        bottomFont: "Arial-8:2",
+                        bottomFont: "Arial-8:2:2",
                 
                         serviceNumber: "901M"
                     },
@@ -4431,7 +4431,7 @@ EDSData.SMRT = {
                         top: "WOODLANDS INTvia",
                         topFont: "ArialBold-8:2",
                         bottom: "ADMIRALTY MRT",
-                        bottomFont: "Arial-8:2",
+                        bottomFont: "Arial-8:2:2",
                 
                         serviceNumber: "901M"
                     },
@@ -4440,7 +4440,7 @@ EDSData.SMRT = {
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "903M",
+                serviceNumber: "901M",
                 font: "Arial-10",
                 spacing: 1
             }
@@ -4701,6 +4701,18 @@ EDSData.SMRT = {
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
                     {
+                        renderType: 'message',
+                        text: 'SELAMAT HARI RAYA',
+                        font: 'Calibri-11:1',
+                        spacing: 1,
+                        marginTop: 4
+                    },
+                    {
+                        renderType: "logo",
+                        text: "SMRT LOGO",
+                        image: "logo"
+                    },
+                    {
                         renderType: "destScroll2",
                         top: "WIP - DATA W.E.F SEP 2024",
                         topFont: "ArialBold-8:2",
@@ -4781,8 +4793,8 @@ EDSData.SMRT = {
                         renderType: "ScrollWithSpecialCharacters",
                         top: "WOODLANDS INTvia",
                         topFont: "ArialBold-8:2",
-                        bottom: "WOODLANDS AVE 2, 5",
-                        bottomFont: "Arial-7",
+                        bottom: "wOODLANDS AVe 2, 5",
+                        bottomFont: "Arial-8:2",
                 
                         serviceNumber: "912A"
                     },
@@ -4791,7 +4803,7 @@ EDSData.SMRT = {
                         top: "WOODLANDS INTvia",
                         topFont: "ArialBold-8:2",
                         bottom: "WOODLANDS DR 50",
-                        bottomFont: "Arial-8:2",
+                        bottomFont: "Arial-8:2:2",
                 
                         serviceNumber: "912A"
                     },
@@ -4809,7 +4821,7 @@ EDSData.SMRT = {
                         top: "WOODLANDS INTvia",
                         topFont: "ArialBold-8:2",
                         bottom: "ADMIRALTY MRT",
-                        bottomFont: "Arial-8:2",
+                        bottomFont: "Arial-8:2:2",
                 
                         serviceNumber: "912A"
                     },
@@ -4818,7 +4830,7 @@ EDSData.SMRT = {
                         top: "WOODLANDS INTvia",
                         topFont: "ArialBold-8:2",
                         bottom: "WDL AVE 7 (LOOP)",
-                        bottomFont: "Arial-8",
+                        bottomFont: "Arial-8:2:2",
                 
                         serviceNumber: "912A"
                     },
@@ -5616,7 +5628,7 @@ EDSData.SMRT = {
                     "VICTORIA ST",
                     "RAFFLES BLVD"
                 ],
-                scrollFont: "Arial-8"
+                scrollFont: "Arial-8:2:2"
             },
             rear: {
                 renderType: "rearService",
@@ -5664,7 +5676,7 @@ EDSData.SMRT = {
                     "P I E / B K E",
                     "WOODLANDS AVE 3"
                 ],
-                scrollFont: "Arial-8"
+                scrollFont: "Arial-8:2:2"
             },
             rear: {
                 renderType: "rearService",
@@ -6316,28 +6328,32 @@ EDSData.SMRT = {
                 renderType: "standardService",
                 serviceNumber: "972M",
                 serviceFont: "Calibri-15",
-                destination: "BT PANJANG INT via",
-                destinationFont: "Arial-8:2",
+                destination: "ORCHARD RD via",
+                destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    "PENANG RD",
-                    "SOMERSET RD",
-                    "ORCHARD TURN",
-                    "SCOTTS RD",
-                    "BT TIMAH RD",
-                    "P I E  /  B K E",
-                    "PETIR / PENDING RD",
+                    "SENJA ROAD",
+                    "JELAPANG RD",
+                    "SEGAR / FAJAR RD",
                 {
                     renderType: "destScroll2",
-                    top: "BT PANJANG INT via",
-                    topFont: "Arial-8:2",
+                    top: "ORCHARD RD via",
+                    topFont: "ArialBold-8:2",
                     bottom: "BT PANJANG RING RD",
-                    bottomFont: "Arial-8:2",
+                    bottomFont: "Calibri-7:2",
                     
                     serviceNumber: "972M"
                 },
-                    "FAJAR / SEGAR RD",
-                    "JELAPANG RD",
-                    "SENJA LINK / ROAD"
+                {
+                    renderType: "destScroll2",
+                    top: "ORCHARD RD via",
+                    topFont: "ArialBold-8:2",
+                    bottom: "PENDING / PETIR RD",
+                    bottomFont: "Calibri-7:2",
+                    
+                    serviceNumber: "972M"
+                },
+                    "BKE / PIE",
+                    "DUNEARN ROAD",
                 ],
                 scrollFont: "Arial-8"
             },
@@ -6355,32 +6371,28 @@ EDSData.SMRT = {
                 renderType: "standardService",
                 serviceNumber: "972M",
                 serviceFont: "Calibri-15",
-                destination: "ORCHARD RD via",
-                destinationFont: "ArialBold-8:2",
+                destination: "BT PANJANG INT via",
+                destinationFont: "Arial-8:2",
                 scrolls: [
-                    "SENJA ROAD",
-                    "JELAPANG RD",
-                    "SEGAR / FAJAR RD",
+                    "PENANG RD",
+                    "SOMERSET RD",
+                    "ORCHARD TURN",
+                    "SCOTTS RD",
+                    "BT TIMAH RD",
+                    "P I E  /  B K E",
+                    "PETIR / PENDING RD",
                 {
                     renderType: "destScroll2",
-                    top: "ORCHARD RD via",
-                    topFont: "ArialBold-8:2",
+                    top: "BT PANJANG INT via",
+                    topFont: "Arial-8:2",
                     bottom: "BT PANJANG RING RD",
-                    bottomFont: "Arial-8:2",
+                    bottomFont: "Calibri-7:2",
                     
                     serviceNumber: "972M"
                 },
-                {
-                    renderType: "destScroll2",
-                    top: "ORCHARD RD via",
-                    topFont: "ArialBold-8:2",
-                    bottom: "PENDING / PETIR RD",
-                    bottomFont: "Arial-8:2",
-                    
-                    serviceNumber: "972M"
-                },
-                    "BKE / PIE",
-                    "DUNEARN ROAD",
+                    "FAJAR / SEGAR RD",
+                    "JELAPANG RD",
+                    "SENJA LINK / ROAD"
                 ],
                 scrollFont: "Arial-8"
             },
@@ -6392,6 +6404,7 @@ EDSData.SMRT = {
             }
         }
     },
+
     9731: { // Done
         1: {
             front: {
@@ -6644,7 +6657,7 @@ EDSData.SMRT = {
                 {
                     renderType: "destScroll",
                     top: "ENDS AT OPP",
-                    topFont: "Arial-8:2",
+                    topFont: "Arial-8:2:2",
                     bottom: "LIM|CHU|KANG|LANE|3",
                     bottomFont: "Arial-8:2",
         
