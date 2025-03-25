@@ -8548,6 +8548,32 @@ EDSData.SBST = {
                 destinationFont: "LECIP-10",
                 scrolls: [
                 {
+                    renderType: "destScroll",
+                    top: "HOUGANG AVE 7",
+                    topFont: "Mobitec-7:7",
+                    bottom: "(OPP BLK 321)",
+                    bottomFont: "Mobitec-7:7",
+            
+                    serviceNumber: "112B"
+                },
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "112B",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "112B",
+                destination: "HOUGANG AVE 7",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
                     renderType: "swt",
                     serviceNumber: "112B",
                     landmark: "HOUGANG AVE 7 (OPP BLK 321)"

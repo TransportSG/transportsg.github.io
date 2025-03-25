@@ -2563,9 +2563,9 @@ EDSData.SBST = {
                 renderType: "destScroll",
                 serviceNumber: "50A",
                 top: "TERMINATES BEFORE",
-                topFont: "Mobitec-7:4",
+                topFont: "Mobitec-7:5:1",
                 bottom: "ANG MO KIO STN EXIT B",
-                bottomFont: "Mobitec-7:4",
+                bottomFont: "Mobitec-7:5:1",
             },
             ],
             scrollFont: "Mobitec-6:5"
@@ -4964,10 +4964,12 @@ EDSData.SBST = {
             },
             scrolls: [
             {
-                renderType: "swt",
+                renderType: "destScroll",
                 serviceNumber: "112B",
-                destinationRoad: "HOUGANG",
-                destinationName: "AVE 7 (OPP BLK 321)"
+                top: "HOUGANG AVE 7",
+                topFont: "Mobitec-7:7",
+                bottom: "(OPP BLK 321)",
+                bottomFont: "Mobitec-7:7",
             },
             ],
             scrollFont: "Mobitec-6:5"
