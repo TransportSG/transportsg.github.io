@@ -2725,6 +2725,37 @@ EDSData.SMRT = {
             }
         }
     },
+    3001: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "300",
+                destination: "C. C. K INT via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "CHOA CHU KANG",
+                    topFont: "ArialBold-8:2",
+                    bottom: "INT / MRT",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "300"
+                },
+                    "C. C. K AVE 4",
+                    "C. C. K AVE 2",
+                    "C. C. K WAY",
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "300",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
     3011: { // Done
         1: {
             front: {
@@ -4324,7 +4355,7 @@ EDSData.SMRT = {
         1: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "900",
+                serviceNumber: "901",
                 destination: "WOODLANDS INT via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
@@ -4348,6 +4379,70 @@ EDSData.SMRT = {
                 serviceNumber: "901",
                 font: "LECIP-SMRTRear14:9",
                 spacing: 2
+            }
+        }
+    },
+    9012: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "901M",
+                destination: "WOODLANDS INT via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                        renderType: "ScrollWithSpecialCharacters2",
+                        top: "WOODLANDS INTvia",
+                        topFont: "ArialBold-8:2",
+                        bottom: "WOODLANDS AVE 2",
+                        bottomFont: "Arial-8:2",
+                
+                        serviceNumber: "901M"
+                    },
+                    {
+                        renderType: "ScrollWithSpecialCharacters2",
+                        top: "WOODLANDS INTvia",
+                        topFont: "ArialBold-8:2",
+                        bottom: "WOODLANDS AVE 1",
+                        bottomFont: "Arial-8:2",
+                
+                        serviceNumber: "901M"
+                    },
+                    {
+                        renderType: "ScrollWithSpecialCharacters2",
+                        top: "WOODLANDS INTvia",
+                        topFont: "ArialBold-8:2",
+                        bottom: "WOODLANDS DR 16",
+                        bottomFont: "Arial-8:2",
+                
+                        serviceNumber: "901M"
+                    },
+                    {
+                        renderType: "ScrollWithSpecialCharacters2",
+                        top: "WOODLANDS INTvia",
+                        topFont: "ArialBold-8:2",
+                        bottom: "WOODLANDS AVE 6",
+                        bottomFont: "Arial-8:2",
+                
+                        serviceNumber: "901M"
+                    },
+                    {
+                        renderType: "ScrollWithSpecialCharacters2",
+                        top: "WOODLANDS INTvia",
+                        topFont: "ArialBold-8:2",
+                        bottom: "ADMIRALTY MRT",
+                        bottomFont: "Arial-8:2",
+                
+                        serviceNumber: "901M"
+                    },
+                ],
+                scrollFont: "Arial-8"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "903M",
+                font: "Arial-10",
+                spacing: 1
             }
         }
     },
@@ -6441,6 +6536,126 @@ EDSData.SMRT = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "974A",
+                font: "Arial-10",
+                spacing: 1
+            }
+        }
+    },
+    9751: { // Dest scroll font wrong
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "975",
+                destination: "LIM CHU KANG via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "LIM CHU KANG",
+                    topFont: "Arial-12:2",
+        
+                    serviceNumber: "975"
+                },
+                "TECK WHYE AVE",
+                "C.C.K MRT",
+                "C.C.K WAY, AVE 3",
+                "OLD C.C.K RD",
+                "LIM CHU KANG RD"
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "975",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    9752: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "975",
+                destination: "BT PANJANG via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "BUKIT",
+                    topFont: "ArialBold-8:2",
+                    bottom: "PANJANG",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "975"
+                },
+                    "LIM CHU KANG",
+                    "OLD C.C.K RD",
+                    "C.C.K AVE 3, WAY",
+                    "C.C.K MRT",
+                    "TECK WHYE AVE"
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "975",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    9753: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "975A",
+                destination: "BRICKLAND RD",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "ENDS AT",
+                    topFont: "ArialBold-8:2",
+                    bottom: "BRICKLAND RD",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "975A"
+                },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "975A",
+                font: "Arial-10",
+                spacing: 1
+            }
+        }
+    },
+    9754: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "975B",
+                destination: "LIM CHU KANG RD",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "ENDS AT OPP",
+                    topFont: "Arial-8:2",
+                    bottom: "LIM|CHU|KANG|LANE|3",
+                    bottomFont: "Arial-8:2",
+        
+                    serviceNumber: "975B"
+                },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "975B",
                 font: "Arial-10",
                 spacing: 1
             }
