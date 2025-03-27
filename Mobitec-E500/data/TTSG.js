@@ -2678,8 +2678,10 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "858",
-                    top: "CHANGI AIRPORT",
-                    topFont: "Tongda-16:7"
+                    top: "858 858 858 858 858",
+                    topFont: "Mobitec-6:5",
+                    bottom: "858 858 858 858",
+                    bottomFont: "Mobitec-9:6"
                 },
             ]
         }
