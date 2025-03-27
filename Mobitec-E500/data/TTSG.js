@@ -6845,7 +6845,7 @@ EDSData.TTSG = {
             scrolls: [
                 "BUKIT PANJANG RD",
                 "HILLVIEW AVE",
-                "BT BATOK EAST AVE 4",
+                "BT BATOK EAST AVE 3",
                 "A Y E",
                 "ALEXANDRA RD",
                 {
@@ -6874,7 +6874,7 @@ EDSData.TTSG = {
             scrolls: [
                 "ALEXANDRA RD",
                 "A Y E",
-                "BT BATOK EAST AVE 4",
+                "BT BATOK EAST AVE 3",
                 "HILLVIEW AVE",
                 "BT PANJANG RD",,
                 {
