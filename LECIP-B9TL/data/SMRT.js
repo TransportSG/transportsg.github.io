@@ -4858,7 +4858,7 @@ EDSData.SMRT = {
                         top: "WOODLANDS INTvia",
                         topFont: "ArialBold-8:2",
                         bottom: "WDL AVE 5, 2, 1",
-                        bottomFont: "Arial-8",
+                        bottomFont: "Arial-8:2:2",
                 
                         serviceNumber: "912B"
                     },
@@ -4876,7 +4876,7 @@ EDSData.SMRT = {
                         top: "WOODLANDS INTvia",
                         topFont: "ArialBold-8:2",
                         bottom: "TRAIN CHECKPOINT",
-                        bottomFont: "Arial-8",
+                        bottomFont: "Arial-8:2:2",
                 
                         serviceNumber: "912B"
                     },
@@ -6104,7 +6104,7 @@ EDSData.SMRT = {
                     top: "SHENTON WAY via",
                     topFont: "ArialBold-8:2",
                     bottom: "HILLVIEW AVE",
-                    bottomFont: "Arial-8",
+                    bottomFont: "Arial-8:2:2",
         
                     serviceNumber: "970"
                 },
@@ -6113,7 +6113,7 @@ EDSData.SMRT = {
                     top: "SHENTON WAY via",
                     topFont: "ArialBold-8:2",
                     bottom: "JLN JURONG KECHIL",
-                    bottomFont: "Arial-8",
+                    bottomFont: "Arial-8:2:2",
         
                     serviceNumber: "970"
                 },
@@ -6122,7 +6122,7 @@ EDSData.SMRT = {
                     top: "SHENTON WAY via",
                     topFont: "ArialBold-8:2",
                     bottom: "DUNEARN RD",
-                    bottomFont: "Arial-8",
+                    bottomFont: "Arial-8:2:2",
         
                     serviceNumber: "970"
                 },

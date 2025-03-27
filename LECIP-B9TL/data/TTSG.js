@@ -7151,14 +7151,13 @@ EDSData.TTSG = {
                 destination: "CANBERRA MRT",
                 destinationFont: "Hanover-10",
                 scrolls: [
-                {
-                    renderType: "message4",
-                    serviceNumber: "861B",
-                    top: "ENDS AT",
-                    topFont: "Hanover-Tower11:7",
-                    bottom: "CANBERRA STN",
-                    bottomFont: "Hanover-Tower8",
-                },
+                    {
+                        renderType: "destScroll",
+                        top: "CANBERRA LINK",
+                        topFont: "Hanover-Tower12:7",
+            
+                        serviceNumber: "861B"
+                    },
                 ],
                 scrollFont: "Hanover-7:5"
             },
