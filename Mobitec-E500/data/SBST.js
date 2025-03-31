@@ -232,6 +232,63 @@ EDSFormats.SBST = {
 
         text: "$serviceNumber+' '+$top+' '+$bottom"
     },
+    destScroll2: {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: "0",
+                top: "2",
+            },
+            text: "$serviceNumber",
+            font: "Mobitec-13:7",
+            spacing: {
+                $$cond: {
+                    "$svcSpacing === null" : 1,
+                    "else": "$svcSpacing"
+                }
+            }
+        },
+        top: {
+            align: {
+                $$cond: {
+                    "$bottom === null": "centre-x,centre-y",
+                    "else": "centre-x,top"
+                }
+            },
+            text: "$top",
+            font: "$topFont",
+            spacing: {
+                $$cond: {
+                    "$Spacing === null" : 1,
+                    "else": "$topSpacing",
+                }
+            },
+            margin: {
+                right: 'width(serviceNumber)'
+            }
+        },
+        bottom: {
+            align: "centre-x,bottom",
+            text: {
+                $$cond: {
+                    "$bottom !== null": "$bottom",
+                    "else": "''"
+                }
+            },
+            font: {
+                $$cond: {
+                    "$bottomFont !== null": "$bottomFont",
+                    "else": "Mobitec-6:5"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber)'
+            }
+        },
+
+        text: "$serviceNumber+' '+$top+' '+$bottom"
+    },
     logo: {
         logo: {
             align: "centre-x,centre-y",
@@ -5110,10 +5167,12 @@ EDSData.SBST = {
             },
             scrolls: [
             {
-                renderType: "swt2",
+                renderType: "destScroll2",
                 serviceNumber: "116A",
-                destinationRoad: "S'GOON CTRL",
-                destinationName: "(S'GOON STN EXIT C)"
+                top: "TERMINATE AT S'GOON CTRL",
+                topFont: "Mobitec-7:4",
+                bottom: "S'GOON STN EXIT C/BLK201",
+                bottomFont: "Mobitec-7:4",
             },
             ],
             scrollFont: "Mobitec-6:5"
@@ -9516,10 +9575,10 @@ EDSData.SBST = {
     },
     4001: {
         front: {
-            renderType: "standardService",
+            renderType: "standardService2",
             serviceNumber: "400",
             destination: {
-                text: "SHENTON WAY-M. COASTAL",
+                text: "SHENTON WY TER-M.COASTAL",
                 font: "Mobitec-7:4"
             },
             scrolls: [
