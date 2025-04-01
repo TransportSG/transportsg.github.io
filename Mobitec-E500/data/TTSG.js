@@ -7938,6 +7938,41 @@ EDSData.TTSG = {
             text: "Bus Under Repair",
         }
     },
+    64000: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: "",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "cw2",
+                    top: "QUEEN STREET",
+                    topFont: "Mobitec-9:6",
+                    bottom: "(JALAN BESAR MRT)",
+                    image: "mrt"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "fc1",
+                    top: "FOREST CITY",
+                    topFont: "Mobitec-9:6",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "$33",
+                    top: "KULAI",
+                    topFont: "Mobitec-9:6",
+                    image: "ktm"
+                },                {
+                    renderType: "destScroll",
+                    serviceNumber: "f100",
+                    top: "KSL CITY",
+                    topFont: "Mobitec-9:6",
+                },
+            ]
+        }
+    },
 }
 
 
