@@ -244,7 +244,7 @@ EDSData['CWL (JB Area)'] = {
         front: {
             renderType: "standardService",
             serviceNumber: "CW3L",
-            destination: "JURONG EAST / PERLING MALL",
+            destination: "JURONG EAST / BUKIT INDAH",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -255,7 +255,7 @@ EDSData['CWL (JB Area)'] = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "CW3L",
-                    top: "PERLING MALL",
+                    top: "BUKIT INDAH",
                     topFont: "Tongda-16:7",
                 },
             ]
@@ -623,6 +623,27 @@ EDSData['CWL (JB Area)'] = {
                     renderType: "destScroll",
                     serviceNumber: "JPO2",
                     top: "CIQ 1ST LINK",
+                    topFont: "Tongda-16:7",
+                },
+            ]
+        }
+    },
+    "3L1": {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "CW3L",
+            destination: "JURONG EAST / PERLING MALL",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "CW3L",
+                    top: "JURONG EAST",
+                    topFont: "Tongda-16:7",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "CW3L",
+                    top: "PERLING MALL",
                     topFont: "Tongda-16:7",
                 },
             ]
