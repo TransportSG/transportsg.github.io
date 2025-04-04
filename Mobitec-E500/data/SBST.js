@@ -6534,6 +6534,19 @@ EDSData.SBST = {
             serviceNumber: "147e"
         }
     },
+    1481: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "148",
+            destination: {
+                text: "",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
     1501: {
         front: {
             renderType: "standardService",

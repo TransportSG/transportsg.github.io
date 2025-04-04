@@ -11088,6 +11088,25 @@ EDSData.SBST = {
             }
         }
     },
+    148: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "148",
+                destination: "",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "148",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
     150: {
         1: {
             front: {
