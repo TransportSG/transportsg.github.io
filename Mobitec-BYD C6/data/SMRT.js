@@ -466,7 +466,7 @@ EDSData['SMRT'] = {
                     serviceNumber: "825",
                     top: "LENTOR LOOP via",
                     topFont: "Mobitec-6:5",
-                    bottom:  "TCASTLE GREEN",
+                    bottom:  "CASTLE GREEN",
                     bottomFont: "Mobitec-6:5",
                 },
                 {
