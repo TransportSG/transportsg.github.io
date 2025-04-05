@@ -5,7 +5,7 @@ let startupCodes = {
     'Instruction': 1, 
     'CWL (JB Area)': 0, 
     'myBas JB': 0, 
-    'BMJ (JB)': 1, 
+    'BMJ (JB)': 0, 
     'BAS.MY Meleka (Prev. SBST)': 0,
     'CWL (KL Area)': 0, 
     'Special': 0

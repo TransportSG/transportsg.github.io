@@ -151,7 +151,7 @@ EDSFormats['BAS.MY Meleka (Prev. SBST)'] = {
     }
 }
 EDSData['BAS.MY Meleka (Prev. SBST)'] = {
-    0: {
+    9999: {
         front: {
             renderType: "standardService",
             serviceNumber: "",
@@ -174,7 +174,7 @@ EDSData['BAS.MY Meleka (Prev. SBST)'] = {
             ]
         }
     },
-    1: {
+    0: {
         front: {
             renderType: "standardService",
             serviceNumber: "WIP",

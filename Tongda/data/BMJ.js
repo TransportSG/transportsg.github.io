@@ -31,7 +31,6 @@ EDSFormats['BMJ (JB)'] = {
             scrolls: "$scrolls",
             rotate: true,
             rotateSpeed: 2500,
-
             font: "Mobitec-Tower6:4",
             spacing: 1
         },
