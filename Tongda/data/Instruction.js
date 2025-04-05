@@ -30,7 +30,7 @@ EDSFormats.Instruction = {
             },
             scrolls: "$scrolls",
             rotate: true,
-            rotateSpeed: 3000,
+            rotateSpeed: 2600,
 
             font: "Mobitec-Tower6:4",
             spacing: 1
