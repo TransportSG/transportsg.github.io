@@ -7209,10 +7209,10 @@ EDSData.TTSG = {
                 "PLANTATION CRESCENT",
 
             {
-                renderType: "destScroll",
-                top: "TENGAH",
-                topFont: "Hanover-Tower12:7",
-    
+                renderType: "destScroll3",
+                top: "JURONG|TOWN|HALL",
+                topFont: "Hanover-13:6",
+        
                 serviceNumber: "870"
             },
             {
@@ -7248,8 +7248,8 @@ EDSData.TTSG = {
                     "JURONG EAST CENTRAL",
                 {
                     renderType: "destScroll",
-                    top: "JURONG TOWN HALL",
-                    topFont: "Hanover-Tower12:7",
+                    top: "JURONG  TOWN  HALL",
+                    topFont: "Hanover-13:6",
             
                     serviceNumber: "870"
                 },
