@@ -2319,6 +2319,26 @@ EDSData.SBST = {
             }
         }
     },
+    "21X": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "21X",
+                destination: " ",
+                destinationFont: "LECIP-6:3",
+                scrolls: [
+                    "",
+                ],
+                scrollFont: "LECIP-6:3"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "21X",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
     22: {
         1: {
             front: {
@@ -13973,6 +13993,26 @@ EDSData.SBST = {
             }
         }
     },
+    "230M": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "230M",
+                destination: " ",
+                destinationFont: "LECIP-6:3",
+                scrolls: [
+                    "",
+                ],
+                scrollFont: "LECIP-6:3"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "230M",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
     231: {
         1: {
             front: {
@@ -15362,6 +15402,26 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "298",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    299: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "299",
+                destination: " ",
+                destinationFont: "LECIP-6:3",
+                scrolls: [
+                    "",
+                ],
+                scrollFont: "LECIP-6:3"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "299",
                 font: "LECIP-20:9",
                 spacing: 2
             }
