@@ -120,7 +120,7 @@ EDSFormats['SMRT (PreSLBP)'] = {
             },
             scrolls: "$scrolls",
             rotate: true,
-            rotateSpeed: 3000,
+            rotateSpeed: 2500,
 
             font: "$scrollFont",
             spacing: 1
@@ -154,7 +154,7 @@ EDSFormats['SMRT (PreSLBP)'] = {
             },
             scrolls: "$scrolls",
             rotate: true,
-            rotateSpeed: 3000,
+            rotateSpeed: 2500,
 
             font: "$scrollFont",
             spacing: 1
@@ -188,7 +188,7 @@ EDSFormats['SMRT (PreSLBP)'] = {
             },
             scrolls: "$scrolls",
             rotate: true,
-            rotateSpeed: 3000,
+            rotateSpeed: 2500,
 
             font: "$scrollFont",
             spacing: 1
@@ -222,7 +222,7 @@ EDSFormats['SMRT (PreSLBP)'] = {
             },
             scrolls: "$scrolls",
             rotate: true,
-            rotateSpeed: 3000,
+            rotateSpeed: 2500,
 
             font: "$scrollFont",
             spacing: 1
@@ -368,7 +368,7 @@ EDSFormats['SMRT (PreSLBP)'] = {
             },
             scrolls: "$scrolls",
             rotate: true,
-            rotateSpeed: 3000,
+            rotateSpeed: 2500,
 
             font: "$scrollFont",
             spacing: 1
@@ -9115,6 +9115,39 @@ EDSData['SMRT (PreSLBP)'] = {
             bottomFont: "Mobitec-7:5:3"
         }
     },
+    3081: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "308",
+            destination: {
+                text: "CHOA CHU KANG",
+                font: "Mobitec-7:5:3"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "308",
+                    top: "CHOA CHU KANG",
+                    bottom: "INT / MRT / LRT",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
+                "C. C. K AVENUE 4",
+                "C. C. K DRIVE",
+                "C. C. K AVE 1, 7",
+                "C. C. K GROVE",
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "308",
+                    top: "CHOA CHU KANG via",
+                    topFont: "Mobitec-7:5:3",
+                    bottom: "KEAT HONG LINK (LOOP)",
+                    bottomFont: "Mobitec-7:4"
+                },
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
     3151: {
         front: {
             renderType: "message",
@@ -13151,6 +13184,71 @@ EDSData['SMRT (PreSLBP)'] = {
             bottomFont: "Mobitec-7:4"
         }
     },
+    9755: {
+        front: {
+            renderType: "SLBPdestScroll",
+            serviceNumber: "975C",
+            top: "ENDS AT",
+            topFont: "Mobitec-7:7",
+            bottom: "POLICE COAST GUARD",
+            bottomFont: "Mobitec-7:5:2"
+        }
+    },
+    9761: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "976",
+            destination: {
+                text: "BT PANJANG INT",
+                font: "Mobitec-7:5:3"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "976",
+                    top: "BUKIT PANJANG",
+                    bottom: "INT / LRT",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
+                "CHOA CHU KANG WAY",
+                "CHOA CHU KANG RD",
+                "SENJA ROAD",
+                "SEGAR ROAD",
+                "BT PANJANG RING RD",
+                "PETIR RD"
+                
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    9762: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "976",
+            destination: {
+                text: "CHOA CHU KANG",
+                font: "Mobitec-7:5:3"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "976",
+                    top: "CHOA CHU KANG",
+                    bottom: "INT / MRT / LRT",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
+                "PETIR RD",
+                "BT PANJANG RING RD",
+                "SEGAR RD",
+                "SENJA RD",
+                "CHOA CHU KANG RD",
+                "CHOA CHU KANG WAY"
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
     9791: {
         front: {
             renderType: "standardService",
@@ -13565,14 +13663,29 @@ EDSData['SMRT (PreSLBP)'] = {
     },
     9997: {
         front: {
-            renderType: "destScroll",
-            top: "JURONG",
-            topFont: "Mobitec-7:7",
-
-            bottom: "COMMUNITY HOSPITAL",
-            bottomFont: "Mobitec-7:7",
-
-            serviceNumber: ""
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "JURONG COMMUNITY HOSPITAL",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "JURONG",
+                    topFont: "Mobitec-7:7",
+                    bottom: "COMMUNITY HOSPITAL",
+                    bottomFont: "Mobitec-7:7"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "188",
+                    topFont: "Mobitec-16:8",
+                },
+            ],
+            scrollFont: "Mobitec-7:5:3"
         }
     },
     9998: {

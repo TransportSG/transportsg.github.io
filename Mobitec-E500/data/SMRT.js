@@ -1962,7 +1962,7 @@ EDSData['SMRT (PostSLBP)'] = {
             renderType: "standardService",
             serviceNumber: "194",
             destination: {
-                text: "BOON LAY",
+                text: "BOON LAY INT",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -2782,36 +2782,6 @@ EDSData['SMRT (PostSLBP)'] = {
                 "UPP BUKIT TIMAH RD"
             ],
             scrollFont: "Mobitec-7:5:3"
-        }
-    },
-    6703: {
-        front: {
-            renderType: "destScroll",
-            serviceNumber: "67A",
-            top: "ENDS AT   OPP",
-            bottom: "CORONATION PLAZA",
-            topFont: "Mobitec-7:5:3",
-            bottomFont: "Mobitec-7:5:3"
-        }
-    },
-    6704: {
-        front: {
-            renderType: "destScroll",
-            serviceNumber: "67C",
-            top: "ENDS AT GEYLANG ROAD",
-            bottom: "(BEFORE CITY PLAZA)",
-            topFont: "Mobitec-7:4",
-            bottomFont: "Mobitec-7:4"
-        }
-    },
-    6705: {
-        front: {
-            renderType: "destScroll",
-            serviceNumber: "67W",
-            top: "ENDS AT",
-            bottom: "LITTLE INDIA",
-            topFont: "Mobitec-7:7",
-            bottomFont: "Mobitec-7:7"
         }
     },
     7051: {
@@ -4758,6 +4728,71 @@ EDSData['SMRT (PostSLBP)'] = {
             bottomFont: "Mobitec-7:4"
         }
     },
+    9755: {
+        front: {
+            renderType: "SLBPdestScroll",
+            serviceNumber: "975C",
+            top: "ENDS AT",
+            topFont: "Mobitec-7:7",
+            bottom: "POLICE COAST GUARD",
+            bottomFont: "Mobitec-7:5:2"
+        }
+    },
+    9761: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "976",
+            destination: {
+                text: "BT PANJANG INT",
+                font: "Mobitec-7:5:3"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "976",
+                    top: "BUKIT PANJANG",
+                    bottom: "INT / LRT",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
+                "CHOA CHU KANG WAY",
+                "CHOA CHU KANG RD",
+                "SENJA ROAD",
+                "SEGAR ROAD",
+                "BT PANJANG RING RD",
+                "PETIR RD"
+                
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    9762: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "976",
+            destination: {
+                text: "CHOA CHU KANG",
+                font: "Mobitec-7:5:3"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "976",
+                    top: "CHOA CHU KANG",
+                    bottom: "INT / MRT / LRT",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
+                "PETIR RD",
+                "BT PANJANG RING RD",
+                "SEGAR RD",
+                "SENJA RD",
+                "CHOA CHU KANG RD",
+                "CHOA CHU KANG WAY"
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
     9791: {
         front: {
             renderType: "standardService",
@@ -5066,30 +5101,6 @@ EDSData['SMRT (PostSLBP)'] = {
             bottom: "BUKIT GOMBAK MRT",
             topFont: "Mobitec-7:5:2", // sic
             bottomFont: "Mobitec-7:5:1"
-        }
-    },
-    9990: {
-        front: {
-            renderType: "destScroll",
-            top: "DOUBLE DECKER RIDE WITH",
-            topFont: "Mobitec-7:5:2",
-
-            bottom: "BUKIT PANJANG RESIDENTS",
-            bottomFont: "Mobitec-7:5:2",
-
-            serviceNumber: ""
-        }
-    },
-    9997: {
-        front: {
-            renderType: "destScroll",
-            top: "JURONG",
-            topFont: "Mobitec-7:7",
-
-            bottom: "COMMUNITY HOSPITAL",
-            bottomFont: "Mobitec-7:7",
-
-            serviceNumber: ""
         }
     },
     9998: {
