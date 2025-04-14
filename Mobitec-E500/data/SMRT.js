@@ -832,12 +832,6 @@ EDSData['SMRT (PostSLBP)'] = {
             },
             scrolls: [
                 {
-                    renderType: "message",
-                    font: "Mobitec-13:7",
-                    text: "SELAMAT HARI RAYA",
-                    spacing: 1
-                },
-                {
                     renderType: "destScroll",
                     top: "Data w.e.f Sep '24 (With data for",
                     topFont: "Mobitec-7:4",

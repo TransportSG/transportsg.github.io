@@ -4701,13 +4701,6 @@ EDSData.SMRT = {
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
                     {
-                        renderType: 'message',
-                        text: 'SELAMAT HARI RAYA',
-                        font: 'Calibri-11:1',
-                        spacing: 1,
-                        marginTop: 4
-                    },
-                    {
                         renderType: "logo",
                         text: "SMRT LOGO",
                         image: "logo"
