@@ -287,26 +287,53 @@ EDSData.Sentosa = {
     },
 
 EDSExtras.Sentosa = {
-1: {
-    front: {
-        renderType: "destScroll",
-        top: "Happy Lunar New Year",
-        topFont: "Mobitec-7:4",
 
-        image: "CNY-Ingot",
-
-        serviceNumber: "1",
-        svcFont: "Mobitec-SentosaIcons"
+    1: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Happy Lunar New Year",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    
+                    renderType: "destScroll",
+                    top: "Happy Lunar New Year",
+                    topFont: "Mobitec-7:4",
+                
+                    image: "CNY-Ingot",
+                
+                    serviceNumber: "1",
+                    svcFont: "Mobitec-SentosaIcons"
+                
+                },
+            ],
+            scrollFont: "Mobitec-6:5"
         }
     },
-3: {
-    front: {
-        renderType: "destScroll2",
-        top: "Happy Deepavali",
-        topFont: "Mobitec-13:8",
-
-        serviceNumber: ""
-    }
+    3: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Happy Deepavali",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    
+                    renderType: "destScroll2",
+                    top: "Happy Deepavali",
+                    topFont: "Mobitec-13:8",
+            
+                    serviceNumber: ""
+                
+                },
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
     },
 }
 
