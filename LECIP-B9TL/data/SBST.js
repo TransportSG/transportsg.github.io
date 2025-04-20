@@ -189,6 +189,73 @@ EDSFormats.SBST = {
 
         text: "$text"
     },
+    destScroll3: {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 0,
+                top: 0
+            },
+            text: "$serviceNumber",
+            font: {
+                $$cond: {
+                    "$serviceFont === null": "LECIP-20:12",
+                    "else": "$serviceFont"
+                }
+            },
+            spacing: {
+                $$cond: {
+                    "$spacing === null" : "3",
+                    "else": "$serviceSpacing"
+                }
+            }
+        },
+        top: {
+            align: {
+                $$cond: {
+                    "$bottom === null": "centre-x,centre-y",
+                    "else": "centre-x,top",
+                    top: "3",
+                }
+            },
+            text: "$top",
+            font: "$topFont",
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber)'
+            }
+        },
+        bottom: {
+            align: "centre-x,bottom",
+            text: {
+                $$cond: {
+                    "$bottom !== null": "$bottom",
+                    "else": "''"
+                }
+            },
+            font: {
+                $$cond: {
+                    "$bottomFont !== null": "$bottomFont",
+                    "else": "ArialBold-8:2"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber)',
+                bottom: '3'
+            }
+        },
+
+        text: "$top+' '+$bottom+' '+$serviceNumber"
+    },
+    logo: {
+        logo: {
+            align: "centre-x,bottom",
+            image: "$image"
+        },
+
+        text: "$text"
+    },
     logoSvc: {
         logo: {
             align: "left",
@@ -10961,6 +11028,56 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "146",
+                destination: "> BARTLEY RD",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    {
+                        renderType: "destScroll",
+                        top: "BARTLEY  RD",
+                        topFont: "LECIP-14:6",
+                
+                        serviceNumber: "146"
+                    },
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "146",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "146",
+                destination: "> WOODLEIGH INT",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    {
+                        renderType: "destScroll",
+                        top: "WOODLEIGH  INT",
+                        topFont: "LECIP-14:6",
+                
+                        serviceNumber: "146"
+                    },
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "146",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    "146Z": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "146",
                 destination: "BARTLEY RD - BIDADARI PK DR",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
@@ -11113,9 +11230,18 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "148",
-                destination: "",
+                destination: "WOODLEIGH INT - POTONG PASIR AVE 1",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
+                    {
+                        renderType: "destScroll2",
+                        top: "WOODLEIGH INT - ",
+                        topFont: "LECIP-7:5",
+                        bottom: "POTONG PASIR AVE 1 (LOOP)",
+                        bottomFont: "LECIP-7:5",
+                
+                        serviceNumber: "148"
+                    },
                 ],
                 scrollFont: "LECIP-6:4"
             },
@@ -15436,11 +15562,11 @@ EDSData.SBST = {
                 destinationFont: "LECIP-7:5",
                 scrolls: [
                     {
-                        renderType: "brandedSvc2",
-                        serviceNumber: "315",
-                        branding: "       S'GOON NTH AVE 5",
-                        font: "LECIP-14:6",
-                        spacing: 1
+                        renderType: "destScroll",
+                        top: "S'GOON  NTH  AVE  5",
+                        topFont: "LECIP-14:6",
+                
+                        serviceNumber: "315"
                     },
                 ],
                 scrollFont: "LECIP-7:5"
@@ -15465,11 +15591,11 @@ EDSData.SBST = {
                 destinationFont: "LECIP-10",
                 scrolls: [
                     {
-                        renderType: "brandedSvc2",
-                        serviceNumber: "315",
-                        branding: "          SERANGOON INT",
-                        font: "LECIP-14:6",
-                        spacing: 1
+                        renderType: "destScroll",
+                        top: "SERANGOON  INT",
+                        topFont: "LECIP-14:6",
+                
+                        serviceNumber: "315"
                     },
                 ],
                 scrollFont: "LECIP-7:5"
@@ -15540,12 +15666,12 @@ EDSData.SBST = {
                 destinationFont: "LECIP-10",
                 scrolls: [
                     {
-                    renderType: "brandedSvc2",
-                    serviceNumber: "317",
-                    branding: "            BERWICK DRIVE",
-                    font: "LECIP-14:6",
-                    spacing: 1
-                },
+                        renderType: "destScroll",
+                        top: "BERWICK  DRIVE",
+                        topFont: "LECIP-14:6",
+                
+                        serviceNumber: "317"
+                    },
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -15570,11 +15696,11 @@ EDSData.SBST = {
                 destinationFont: "LECIP-10",
                 scrolls: [
                 {
-                    renderType: "brandedSvc2",
-                    serviceNumber: "317",
-                    branding: "          SERANGOON INT",
-                    font: "LECIP-14:6",
-                    spacing: 1
+                    renderType: "destScroll",
+                    top: "SERANGOON  INT",
+                    topFont: "LECIP-14:6",
+            
+                    serviceNumber: "317"
                 },
                 ],
                 scrollFont: "LECIP-7:5"

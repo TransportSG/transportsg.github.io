@@ -6460,6 +6460,22 @@ EDSData.SBST = {
     },
     1461: {
         front: {
+            renderType: "destScroll",
+            serviceNumber: "146",
+            top: "BARTLEY RD",
+            topFont: "LECIP-14:6",
+        }
+    },
+    1462: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "146",
+            top: "WOODLEIGH INT",
+            topFont: "LECIP-14:6",
+        }
+    },
+    1469: {
+        front: {
             renderType: "standardService",
             serviceNumber: "146",
             destination: {
@@ -6553,10 +6569,18 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "148",
             destination: {
-                text: "",
+                text: "WOODLEIGH INT - POTONG PASIR AVE 1",
                 font: "Mobitec-7:4"
             },
             scrolls: [
+            {
+                renderType: "destScroll",
+                serviceNumber: "148",
+                top: "WOODLEIGH INT - ",
+                topFont: "Mobitec-7:4",
+                bottom: "POTONG PASIR AVE 1 (LOOP)",
+                bottomFont: "Mobitec-7:4",
+            },
             ],
             scrollFont: "Mobitec-6:5"
         }
