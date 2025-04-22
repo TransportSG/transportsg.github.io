@@ -2749,6 +2749,112 @@ EDSData.TTSG = {
             }
         }
     },
+    111: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "999",
+                destination: "DEST",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                    "ROAD",         
+
+                {
+                    renderType: "destScroll",
+                    top: "DEST",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "999"
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "999",
+                font: "LECIP-TowerRear17:10",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "999",
+                destination: "DEST",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                    "ROAD",
+                {
+                    renderType: "destScroll",
+                    top: "DEST",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "999"
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "999",
+                font: "LECIP-TowerRear17:10",
+                spacing: 2
+            }
+        }
+    },
+    112: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "999",
+                destination: "DEST",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                    "ROAD",         
+
+                {
+                    renderType: "destScroll",
+                    top: "DEST",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "999"
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "999",
+                font: "LECIP-TowerRear17:10",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "999",
+                destination: "DEST",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                    "ROAD",
+                {
+                    renderType: "destScroll",
+                    top: "DEST",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "999"
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "999",
+                font: "LECIP-TowerRear17:10",
+                spacing: 2
+            }
+        }
+    },
     106: {
         1: {
             front: {

@@ -3,7 +3,7 @@ EDSFormats.GASG = {
         serviceNumber: {
             align: "right",
             margin: {
-                right: 1
+                right: 0
             },
             text: "$serviceNumber",
             font: {
@@ -60,7 +60,7 @@ EDSFormats.GASG = {
         serviceNumber: {
             align: "right",
             margin: {
-                right: 1
+                right: 0
             },
             text: "$serviceNumber",
             font: {
@@ -119,7 +119,7 @@ EDSFormats.GASG = {
         serviceNumber: {
             align: "right",
             margin: {
-                right: 1
+                right: 0
             },
             text: "$serviceNumber",
             font: "LECIP-19:GoAheadSpecialB9Front",
@@ -181,7 +181,7 @@ EDSFormats.GASG = {
         serviceNumber: {
             align: "right",
             margin: {
-                right: 1
+                right: 0
             },
             text: "$serviceNumber",
             font: "LECIP-19:GoAheadSpecialB9Front",
@@ -264,7 +264,7 @@ EDSFormats.GASG = {
         serviceNumber: {
             align: "right",
             margin: {
-                right: 1
+                right: 0
             },
             text: "$serviceNumber",
             font: "LECIP-19:GoAheadB9Front2",
@@ -326,7 +326,7 @@ EDSFormats.GASG = {
         serviceNumber: {
             align: "right",
             margin: {
-                right: 1
+                right: 0
             },
             text: "$serviceNumber",
             font: "LECIP-19:GoAheadB9Front2",
@@ -388,7 +388,7 @@ EDSFormats.GASG = {
         serviceNumber: {
             align: "right",
             margin: {
-                right: 1
+                right: 0
             },
             text: "$serviceNumber",
             font: "LECIP-19:GoAheadB9Front",
@@ -450,7 +450,7 @@ EDSFormats.GASG = {
         serviceNumber: {
             align: "right",
             margin: {
-                right: 1
+                right: 0
             },
             text: "$serviceNumber",
             font: "LECIP-19:GoAheadB9Front",
@@ -510,7 +510,7 @@ EDSFormats.GASG = {
         serviceNumber: {
             align: "right",
             margin: {
-                right: 1
+                right: 0
             },
             text: "$serviceNumber",
             font: "LECIP-19:GoAheadB9Front",
@@ -568,7 +568,7 @@ EDSFormats.GASG = {
         serviceNumber: {
             align: 'right,centre-y',
             margin: {
-                right: 1
+                right: 0
             },
             text: '$serviceNumber',
             font: 'LECIP-19:GoAheadB9Front',

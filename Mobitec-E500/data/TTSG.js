@@ -622,6 +622,41 @@ EDSData.TTSG = {
             ]
         }
     },
+    111: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "999",
+            destination: "DEST",
+            scrolls: [
+                "ROAD",
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "999",
+                    top: "Welcome on board",
+                    topFont: "Hanover-7:3",
+                    bottom: "Tower Transit",
+                    bottomFont: "Hanover-7:3",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "999",
+                    top: "Have a pleasant",
+                    topFont: "Hanover-7:3",
+                    bottom: "journey!",
+                    bottomFont: "Hanover-7:3",
+                    image: "logo"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "999",
+                    top: "BIG DEST",
+                    bottom: "(SMALL DEST)",
+                    image: "mrt"
+                }
+            ]
+        }
+    },
     311: {
         front: {
                 renderType: "TowerSpecialEDS",
