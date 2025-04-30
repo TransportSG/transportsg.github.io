@@ -541,7 +541,7 @@ EDSData.TTSG = {
                 bottom: "Mobitec - 270424",
                 bottomFont: "Mobitec-Tower6:4",
                 image: "MAN-Logo37",
-               text: "EDS Version (MAN A95)"
+                text: "EDS Version (MAN A95)"
         }
     },
     101: {
@@ -625,34 +625,161 @@ EDSData.TTSG = {
     111: {
         front: {
             renderType: "standardService",
-            serviceNumber: "999",
-            destination: "DEST",
+            serviceNumber: "LCS1",
+            destination: "AIRLINE RD",
             scrolls: [
-                "ROAD",
                 {
                     renderType: "destScroll",
-                    serviceNumber: "999",
-                    top: "Welcome on board",
-                    topFont: "Hanover-7:3",
-                    bottom: "Tower Transit",
-                    bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    serviceNumber: "@1",
+                    top: "AIRLINE RD",
+                    topFont: "Mobitec-9:6",
+                    bottom: "LOYANG WAY",
+                    bottomFont: "Mobitec-Tower6:4",
                 },
                 {
                     renderType: "destScroll",
-                    serviceNumber: "999",
-                    top: "Have a pleasant",
-                    topFont: "Hanover-7:3",
-                    bottom: "journey!",
-                    bottomFont: "Hanover-7:3",
-                    image: "logo"
+                    serviceNumber: "@1",
+                    top: "AIRLINE RD",
+                    topFont: "Mobitec-9:6",
+                    bottom: "TELOK PAKU RD",
+                    bottomFont: "Mobitec-Tower6:4",
                 },
                 {
                     renderType: "destScroll",
-                    serviceNumber: "999",
-                    top: "BIG DEST",
-                    bottom: "(SMALL DEST)",
-                    image: "mrt"
+                    serviceNumber: "@1",
+                    top: "AIRLINE RD",
+                    topFont: "Mobitec-9:6",
+                    bottom: "ALPS AVE",
+                    bottomFont: "Mobitec-Tower6:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "@1",
+                    top: "AIRLINE RD",
+                    topFont: "Mobitec-9:6",
+                    bottom: "AIRPORT CARGO RD",
+                    bottomFont: "Mobitec-Tower6:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "@1",
+                    top: "AIRLINE RD",
+                    bottom: "(CHANGI AIRFREIGHT CTR)",
+                }
+            ]
+        }
+    },
+    112: { // Done
+        front: {
+            renderType: "standardService",
+            serviceNumber: "LCS1",
+            destination: "TAMPINES AVE 9",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "@2",
+                    top: "TAMPINES AVE 9",
+                    topFont: "Mobitec-9:6",
+                    bottom: "TAMPINES AVE 4/3/8",
+                    bottomFont: "Mobitec-Tower6:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "@2",
+                    top: "TAMPINES AVE 9",
+                    topFont: "Mobitec-9:6",
+                    bottom: "TAMPINES AVE 5/6",
+                    bottomFont: "Mobitec-Tower6:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "@1",
+                    top: "TAMPINES AVE 9",
+                }
+            ]
+        }
+    },
+    211: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "LCS2",
+            destination: "AIRLINE RD",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "@2",
+                    top: "AIRLINE RD",
+                    topFont: "Mobitec-9:6",
+                    bottom: "LOYANG WAY",
+                    bottomFont: "Mobitec-Tower6:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "@2",
+                    top: "AIRLINE RD",
+                    topFont: "Mobitec-9:6",
+                    bottom: "TELOK PAKU RD",
+                    bottomFont: "Mobitec-Tower6:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "@2",
+                    top: "AIRLINE RD",
+                    topFont: "Mobitec-9:6",
+                    bottom: "ALPS AVE",
+                    bottomFont: "Mobitec-Tower6:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "@2",
+                    top: "AIRLINE RD",
+                    topFont: "Mobitec-9:6",
+                    bottom: "AIRPORT CARGO RD",
+                    bottomFont: "Mobitec-Tower6:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "@2",
+                    top: "AIRLINE RD",
+                    bottom: "(CHANGI AIRFREIGHT CTR)",
+                }
+            ]
+        }
+    },
+    212: { // Done
+        front: {
+            renderType: "standardService",
+            serviceNumber: "LCS2",
+            destination: "PUNGGOL WAY",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "@2",
+                    top: "PUNGGOL WAY",
+                    topFont: "Mobitec-9:6",
+                    bottom: "PUNGGOL CTRL",
+                    bottomFont: "Mobitec-Tower6:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "@2",
+                    top: "PUNGGOL WAY",
+                    topFont: "Mobitec-9:6",
+                    bottom: "PUNGGOL WALK",
+                    bottomFont: "Mobitec-Tower6:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "@2",
+                    top: "PUNGGOL WAY",
+                    topFont: "Mobitec-9:6",
+                    bottom: "PUNGGOL FIELD",
+                    bottomFont: "Mobitec-Tower6:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "@2",
+                    top: "PUNGGOL WAY",
                 }
             ]
         }

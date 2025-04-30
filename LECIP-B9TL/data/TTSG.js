@@ -2749,112 +2749,6 @@ EDSData.TTSG = {
             }
         }
     },
-    111: {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "999",
-                destination: "DEST",
-                destinationFont: "Hanover-Tower11:7",
-                scrolls: [                    
-                    "ROAD",         
-
-                {
-                    renderType: "destScroll",
-                    top: "DEST",
-                    topFont: "Hanover-Tower12:7",
-    
-                    serviceNumber: "999"
-                },
-                ],
-                scrollFont: "Hanover-Tower7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "999",
-                font: "LECIP-TowerRear17:10",
-                spacing: 2
-            }
-        },
-        2: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "999",
-                destination: "DEST",
-                destinationFont: "Hanover-Tower11:7",
-                scrolls: [                    
-                    "ROAD",
-                {
-                    renderType: "destScroll",
-                    top: "DEST",
-                    topFont: "Hanover-Tower12:7",
-    
-                    serviceNumber: "999"
-                },
-                ],
-                scrollFont: "Hanover-Tower7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "999",
-                font: "LECIP-TowerRear17:10",
-                spacing: 2
-            }
-        }
-    },
-    112: {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "999",
-                destination: "DEST",
-                destinationFont: "Hanover-Tower11:7",
-                scrolls: [                    
-                    "ROAD",         
-
-                {
-                    renderType: "destScroll",
-                    top: "DEST",
-                    topFont: "Hanover-Tower12:7",
-    
-                    serviceNumber: "999"
-                },
-                ],
-                scrollFont: "Hanover-Tower7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "999",
-                font: "LECIP-TowerRear17:10",
-                spacing: 2
-            }
-        },
-        2: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "999",
-                destination: "DEST",
-                destinationFont: "Hanover-Tower11:7",
-                scrolls: [                    
-                    "ROAD",
-                {
-                    renderType: "destScroll",
-                    top: "DEST",
-                    topFont: "Hanover-Tower12:7",
-    
-                    serviceNumber: "999"
-                },
-                ],
-                scrollFont: "Hanover-Tower7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "999",
-                font: "LECIP-TowerRear17:10",
-                spacing: 2
-            }
-        }
-    },
     106: {
         1: {
             front: {
@@ -3027,6 +2921,115 @@ EDSData.TTSG = {
                 serviceNumber: "106",
                 font: "LECIP-TowerRear17:10",
                 spacing: 2
+            }
+        }
+    },
+    
+    111: { // TBC
+        1: {
+            front: {
+                renderType: "standardService2",
+                serviceNumber: "LCS1",
+                destination: "AIRLINE RD",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                {
+                    renderType: "destScroll2",
+                    top: "AIRLINE RD",
+                    topFont: "Hanover-Tower11:7",
+                    bottom: "LOYANG WAY",
+                    bottomFont: "Hanover-Tower7:5",
+    
+                    serviceNumber: "lcs1"
+                },
+                {
+                    renderType: "destScroll2",
+                    top: "AIRLINE RD",
+                    topFont: "Hanover-Tower11:7",
+                    bottom: "TELOK PAKU RD",
+                    bottomFont: "Hanover-Tower7:5",
+    
+                    serviceNumber: "lcs1"
+                },
+                {
+                    renderType: "destScroll2",
+                    top: "AIRLINE RD",
+                    topFont: "Hanover-Tower11:7",
+                    bottom: "ALPS AVE",
+                    bottomFont: "Hanover-Tower7:5",
+    
+                    serviceNumber: "lcs1"
+                },
+                {
+                    renderType: "destScroll2",
+                    top: "AIRLINE RD",
+                    topFont: "Hanover-Tower11:7",
+                    bottom: "AIRPORT CARGO RD",
+                    bottomFont: "Hanover-Tower7:5",
+    
+                    serviceNumber: "lcs1"
+                },
+                {
+                    renderType: "destScroll2",
+                    top: "AIRLINE RD",
+                    topFont: "Hanover-Tower11:7",
+                    bottom: "(CHANGI AIRFREIGHT CTR)",
+                    bottomFont: "Hanover-7:3",
+    
+                    serviceNumber: "lcs1"
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "message",
+                text: "LcS1",
+                font: "LECIP-TowerRear17:7",
+                spacing: 1
+            }
+        }
+    },
+    112: { // TBC
+        1: {
+            front: {
+                renderType: "standardService2",
+                serviceNumber: "LCS1",
+                destination: "TAMPINES AVE 9",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                {
+                    renderType: "destScroll2",
+                    top: "TAMPINES AVE 9",
+                    topFont: "Hanover-Tower11:7",
+                    bottom: "TAMPINES AVE 4/3/8",
+                    bottomFont: "Hanover-Tower7:5",
+    
+                    serviceNumber: "lcs1"
+                },
+                {
+                    renderType: "destScroll2",
+                    top: "TAMPINES AVE 9",
+                    topFont: "Hanover-Tower11:7",
+                    bottom: "TAMPINES AVE 5/6",
+                    bottomFont: "Hanover-Tower7:5",
+    
+                    serviceNumber: "lcs1"
+                },
+                {
+                    renderType: "destScroll2",
+                    top: "TAMPINES AVE 9",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "lcs1"
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "message",
+                text: "LcS1",
+                font: "LECIP-TowerRear17:7",
+                spacing: 1
             }
         }
     },
@@ -4164,6 +4167,123 @@ EDSData.TTSG = {
                 serviceNumber: "189A",
                 font: "LECIP-TowerRear17:7",
                 spacing: 2
+            }
+        }
+    },
+    211: { // TBC
+        1: {
+            front: {
+                renderType: "standardService2",
+                serviceNumber: "LCS2",
+                destination: "AIRLINE RD",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                {
+                    renderType: "destScroll2",
+                    top: "AIRLINE RD",
+                    topFont: "Hanover-Tower11:7",
+                    bottom: "LOYANG WAY",
+                    bottomFont: "Hanover-Tower7:5",
+    
+                    serviceNumber: "lcs2"
+                },
+                {
+                    renderType: "destScroll2",
+                    top: "AIRLINE RD",
+                    topFont: "Hanover-Tower11:7",
+                    bottom: "TELOK PAKU RD",
+                    bottomFont: "Hanover-Tower7:5",
+    
+                    serviceNumber: "lcs2"
+                },
+                {
+                    renderType: "destScroll2",
+                    top: "AIRLINE RD",
+                    topFont: "Hanover-Tower11:7",
+                    bottom: "ALPS AVE",
+                    bottomFont: "Hanover-Tower7:5",
+    
+                    serviceNumber: "lcs2"
+                },
+                {
+                    renderType: "destScroll2",
+                    top: "AIRLINE RD",
+                    topFont: "Hanover-Tower11:7",
+                    bottom: "AIRPORT CARGO RD",
+                    bottomFont: "Hanover-Tower7:5",
+    
+                    serviceNumber: "lcs2"
+                },
+                {
+                    renderType: "destScroll2",
+                    top: "AIRLINE RD",
+                    topFont: "Hanover-Tower11:7",
+                    bottom: "(CHANGI AIRFREIGHT CTR)",
+                    bottomFont: "Hanover-7:3",
+    
+                    serviceNumber: "lcs2"
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "message",
+                text: "LcS2",
+                font: "LECIP-TowerRear17:7",
+                spacing: 1
+            }
+        }
+    },
+    212: { // TBC
+        1: {
+            front: {
+                renderType: "standardService2",
+                serviceNumber: "LCS2",
+                destination: "PUNGGOL WAY",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                {
+                    renderType: "destScroll2",
+                    top: "PUNGGOL WAY",
+                    topFont: "Hanover-Tower11:7",
+                    bottom: "PUNGGOL CTRL",
+                    bottomFont: "Hanover-Tower7:5",
+    
+                    serviceNumber: "lcs2"
+                },
+                {
+                    renderType: "destScroll2",
+                    top: "PUNGGOL WAY",
+                    topFont: "Hanover-Tower11:7",
+                    bottom: "PUNGGOL WALK",
+                    bottomFont: "Hanover-Tower7:5",
+    
+                    serviceNumber: "lcs2"
+                },
+                {
+                    renderType: "destScroll2",
+                    top: "PUNGGOL WAY",
+                    topFont: "Hanover-Tower11:7",
+                    bottom: "PUNGGOL FIELD",
+                    bottomFont: "Hanover-Tower7:5",
+    
+                    serviceNumber: "lcs2"
+                },
+                {
+                    renderType: "destScroll2",
+                    top: "PUNGGOL WAY",
+                    topFont: "Hanover-Tower12:7",
+    
+                    serviceNumber: "lcs2"
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "message",
+                text: "LcS2",
+                font: "LECIP-TowerRear17:7",
+                spacing: 1
             }
         }
     },

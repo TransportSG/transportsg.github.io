@@ -324,7 +324,7 @@ EDSFormats.SBST = {
         top: {
             align: 'centre-x,top',
             margin: {
-                right: 'width(serviceNumber) len(5)',
+                right: 'width(serviceNumber) len(2)',
                 top: 1
             },
             text: '$top',
@@ -334,7 +334,7 @@ EDSFormats.SBST = {
         bottom: {
             align: 'centre-x,bottom',
             margin: {
-                right: 'width(serviceNumber) len(5)',
+                right: 'width(serviceNumber) len(2)',
                 bottom: 1
             },
             text: '$bottom',
@@ -2391,12 +2391,22 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "21X",
-                destination: " ",
-                destinationFont: "LECIP-6:3",
+                destination: "ST MICHAEL'S TER - NOVENA STN",
+                destinationFont: "LECIP-6:4",
                 scrolls: [
-                    "",
+                {
+                    renderType: "centreMessageServiceScroll",
+
+                    top: "ST MICHAEL'S TER -",
+                    topFont: "LECIP-7:5",
+
+                    bottom: " NOVENA STN (LOOP)",
+                    bottomFont: "LECIP-7:5",
+
+                    serviceNumber: "21X",
+                },  
                 ],
-                scrollFont: "LECIP-6:3"
+                scrollFont: "LECIP-6:4"
             },
             rear: {
                 renderType: "rearService",
@@ -11233,15 +11243,17 @@ EDSData.SBST = {
                 destination: "WOODLEIGH INT - POTONG PASIR AVE 1",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
-                    {
-                        renderType: "destScroll2",
-                        top: "WOODLEIGH INT - ",
-                        topFont: "LECIP-7:5",
-                        bottom: "POTONG PASIR AVE 1 (LOOP)",
-                        bottomFont: "LECIP-7:5",
-                
-                        serviceNumber: "148"
-                    },
+                {
+                    renderType: "centreMessageServiceScroll",
+
+                    top: "WOODLEIGH INT -",
+                    topFont: "LECIP-7:5",
+
+                    bottom: "POTONG PASIR AVE 1 (LOOP)",
+                    bottomFont: "LECIP-7:5",
+
+                    serviceNumber: "148",
+                },  
                 ],
                 scrollFont: "LECIP-6:4"
             },
@@ -15538,12 +15550,22 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "299",
-                destination: " ",
-                destinationFont: "LECIP-6:3",
+                destination: "TAMPINES INT - TAMPINES ST 96",
+                destinationFont: "LECIP-6:4",
                 scrolls: [
-                    "",
+                {
+                    renderType: "centreMessageServiceScroll",
+
+                    top: "TAMPINES INT -",
+                    topFont: "LECIP-7:5",
+
+                    bottom: "TAMPINES ST 96 (LOOP)",
+                    bottomFont: "LECIP-7:5",
+
+                    serviceNumber: "299",
+                },  
                 ],
-                scrollFont: "LECIP-6:3"
+                scrollFont: "LECIP-6:4"
             },
             rear: {
                 renderType: "rearService",

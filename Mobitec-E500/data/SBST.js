@@ -1449,11 +1449,18 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "21X",
             destination: {
-                text: "",
-                font: "Mobitec-7:5:2"
+                text: "ST MICHAEL'S TER - NOVENA STN",
+                font: "Mobitec-7:4"
             },
             scrolls: [
-                ""
+            {
+                renderType: "destScroll",
+                serviceNumber: "21X",
+                top: "ST MICHAEL'S TER -",
+                topFont: "Mobitec-7:4",
+                bottom: "NOVENA STN (LOOP)",
+                bottomFont: "Mobitec-7:4",
+            },
             ],
             scrollFont: "Mobitec-6:5"
         }
@@ -3572,10 +3579,10 @@ EDSData.SBST = {
             },
             scrolls: [
             {
-                renderType: "swt",
+                renderType: "destScroll",
                 serviceNumber: "71A",
-                destinationRoad: "BISHAN RD",
-                destinationName: "(OPP BISHAN STN)"
+                top: "OPP BISHAN STN",
+                topFont: "LECIP-14:6",
             },
             ],
             scrollFont: "Mobitec-6:5"
@@ -6462,7 +6469,7 @@ EDSData.SBST = {
         front: {
             renderType: "destScroll",
             serviceNumber: "146",
-            top: "BARTLEY RD",
+            top: "BARTLEY  RD",
             topFont: "LECIP-14:6",
         }
     },
@@ -6470,7 +6477,7 @@ EDSData.SBST = {
         front: {
             renderType: "destScroll",
             serviceNumber: "146",
-            top: "WOODLEIGH INT",
+            top: "WOODLEIGH  INT",
             topFont: "LECIP-14:6",
         }
     },
@@ -6576,7 +6583,7 @@ EDSData.SBST = {
             {
                 renderType: "destScroll",
                 serviceNumber: "148",
-                top: "WOODLEIGH INT - ",
+                top: "WOODLEIGH INT -",
                 topFont: "Mobitec-7:4",
                 bottom: "POTONG PASIR AVE 1 (LOOP)",
                 bottomFont: "Mobitec-7:4",
@@ -9394,11 +9401,18 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "299",
             destination: {
-                text: "",
-                font: "Mobitec-7:5:2"
+                text: "TAMPINES INT - TAMPINES ST 96",
+                font: "Mobitec-7:4"
             },
             scrolls: [
-                ""
+            {
+                renderType: "destScroll",
+                serviceNumber: "299",
+                top: "TAMPINES INT -",
+                topFont: "Mobitec-7:4",
+                bottom: "TAMPINES ST 96 (LOOP)",
+                bottomFont: "Mobitec-7:4",
+            },
             ],
             scrollFont: "Mobitec-6:5"
         }
