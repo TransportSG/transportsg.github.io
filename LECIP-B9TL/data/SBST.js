@@ -15961,7 +15961,7 @@ EDSData.SBST = {
                     "PASIR RIS DR 4",
                     "PASIR RIS ST 41"
                 ],
-                scrollFont: "LECIP-6:3"
+                scrollFont: "LECIP-6:4"
             },
             rear: {
                 renderType: "rearService",
@@ -15989,7 +15989,7 @@ EDSData.SBST = {
                     "PASIR RIS DR 2",
                     "PASIR RIS ST 51"
                 ],
-                scrollFont: "LECIP-6:3"
+                scrollFont: "LECIP-6:4"
             },
             rear: {
                 renderType: "rearService",
