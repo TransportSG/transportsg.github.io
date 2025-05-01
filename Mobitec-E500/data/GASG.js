@@ -1058,7 +1058,7 @@ EDSData.GASG = {
                     renderType: "destScroll",
                     serviceNumber: "36A",
                     top: "TERMINATING AT",
-                    bottom: "AFT CAUSCADEN RD",
+                    bottom: "AFT CUSCADEN RD",
                 },
             ],
             scrollFont: "Mobitec-7:4"

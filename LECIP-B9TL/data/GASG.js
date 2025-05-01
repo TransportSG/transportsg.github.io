@@ -1777,7 +1777,7 @@ EDSData.GASG = {
                     serviceNumber: "36A",
                     top: "TERMINATING AT",
                     topFont: "Lecip-GoAhead8:6:2",
-                    bottom: "AFT CAUSCADEN RD",
+                    bottom: "AFT CUSCADEN RD",
                     bottomFont: "Lecip-GoAhead8:6:2",
                 },
                     "MARINE PARADE RD",
