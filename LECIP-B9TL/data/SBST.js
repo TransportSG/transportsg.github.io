@@ -11462,7 +11462,7 @@ EDSData.SBST = {
                 destination: "> EUNOS INT",
                 destinationFont: "LECIP-10",
                 scrolls: [
-                    "YUAN CHIN RD",
+                    "YUAN CHING RD",
                     "AYE",
                     "COMMONWEALTH AVE WEST",
                     "CLEMENTI RD",
@@ -20190,7 +20190,7 @@ EDSData.SBST = {
                     renderType: "swt",
                     serviceNumber: "811A",
                     terminateAt: "YISHUN AVE 5",
-                    landmark: "(OPP YISHUN STN EXIT B)"
+                    landmark: "(BLK 151)"
                 },
                 ],
                 scrollFont: "LECIP-7:5"

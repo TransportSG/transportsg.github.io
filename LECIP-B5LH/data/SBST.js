@@ -3229,6 +3229,60 @@ EDSData.SBST = {
             }
         }
     },
+    80: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "80",
+                destination: {
+                    text: ">  HARBOURFRONT INT",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    'UPP SERANGOON RD',
+                    'UPP PAYA LEBAR RD',
+                    'GEYLANG RD',
+                    'NORTH BRIDGE RD',
+                    'KEPPEL RD'
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "80",
+                destination: "HARBOURFRONT",
+                scrolls: [
+                    "SENGKANG INT"
+                ]
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "80",
+                destination: {
+                    text: ">  SENGKANG INT",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    'KEPPEL RD',
+                    'VICTORIA ST',
+                    'SIMS AVE',
+                    'UPP PAYA LEBAR RD',
+                    'UPP SERANGOON RD'
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "80",
+                destination: "SENGKANG INT",
+                scrolls: [
+                    "HARBOURFRONT INT"
+                ]
+            }
+        }
+    },
     81: {
         1: {
             front: {
@@ -3255,6 +3309,168 @@ EDSData.SBST = {
                 destination: "TAMPINES INT",
                 scrolls: [
                     "TAMPINES INT"
+                ]
+            }
+        }
+    },
+    86: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "86",
+                destination: {
+                    text: ">  ANG MO KIO INT",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    'COMPASSVALE RD',
+                    'RIVERVALE DR',
+                    'JALAN KAYU',
+                    'YIO CHU KANG RD',
+                    'ANG MO KIO AVE 6'
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "86",
+                destination: "ANG MO KIO INT",
+                scrolls: [
+                    "SENGKANG INT"
+                ]
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "86",
+                destination: {
+                    text: ">  SENGKANG INT",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    'ANG MO KIO AVE 6',
+                    'YIO CHU KANG RD',
+                    'JALAN KAYU',
+                    'RIVERVALE DR',
+                    'COMPASSVALE RD'
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "86",
+                destination: "SENGKANG INT",
+                scrolls: [
+                    "ANG MO KIO INT"
+                ]
+            }
+        }
+    },
+    87: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "87",
+                destination: {
+                    text: ">  BEDOK INT",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    'COMPASSVALE RD',
+                    'HOUGANG AVE 10, 5, 7, 3',
+                    'EUNOS LINK',
+                    'KAKI BUKIT AVE 1',
+                    'BEDOK NTH RD'
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "87",
+                destination: "BEDOK INT",
+                scrolls: [
+                    "SENGKANG INT"
+                ]
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "87",
+                destination: {
+                    text: ">  SENGKANG INT",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    'BEDOK NTH RD',
+                    'KAKI BUKIT AVE 1',
+                    'EUNOS LINK',
+                    'HOUGANG AVE 3, 5, 7, 10',
+                    'COMPASSVALE RD'
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "87",
+                destination: "SENGKANG INT",
+                scrolls: [
+                    "BEDOK INT"
+                ]
+            }
+        }
+    },
+    88: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "88",
+                destination: {
+                    text: ">  TOA PAYOH INT",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    'PASIR RIS DR 3',
+                    'PUNGGOL RD',
+                    'HOUGANG AVE 8',
+                    'ANG MO KIO AVE 5',
+                    'BISHAN ST 22'
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "88",
+                destination: "TOA PAYOH INT",
+                scrolls: [
+                    "PASIR RIS INT"
+                ]
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "88",
+                destination: {
+                    text: ">  PASIR RIS INT",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    'BISHAN ST 22',
+                    'ANG MO KIO AVE 5',
+                    'HOUGANG AVE 8',
+                    'PUNGGOL RD',
+                    'PASIR RIS DR 3'
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "88",
+                destination: "PASIR RIS INT",
+                scrolls: [
+                    "TOA PAYOH INT"
                 ]
             }
         }
@@ -4108,6 +4324,33 @@ EDSData.SBST = {
         }
     },
     114: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "114",
+                destination: {
+                    text: "BUANGKOK INT-BUANGKOK CR",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    'BUANGKOK LINK',
+                    'BUANGKOK CRES',
+                    'BUANGKOK DR'
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "114",
+                destination: "BUANGKOK STN EXIT A",
+                scrolls: [
+                    "BUANGKOK STN EXIT B",
+                    "BUANGKOK STN EXIT A"
+                ]
+            }
+        }
+    },
+    "114S": {
         1: {
             front: {
                 renderType: "standardService",
@@ -5700,6 +5943,31 @@ EDSData.SBST = {
             }
         }
     },
+    150: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "150",
+                destination: {
+                    text: "EUNOS INT - MARINE TERR",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    'STILL RD',
+                    'TELOK KURAU RD'
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "150",
+                destination: "EUNOS INT",
+                scrolls: [
+                    "EUNOS INT"
+                ]
+            }
+        }
+    },
     151: {
         1: {
             front: {
@@ -5802,6 +6070,406 @@ EDSData.SBST = {
                 destination: "HOUGANG CTRL INT",
                 scrolls: [
                     "CLEMENTI INT"
+                ]
+            }
+        }
+    },
+    154: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "154",
+                destination: {
+                    text: ">  EUNOS INT", 
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "YUAN CHING RD",
+                    "AYE",
+                    "COMMONWEALTH AVE WEST",
+                    "CLEMENTI RD",
+                    "DUNEARN RD",
+                    "JALAN TOA PAYOH",
+                    "PAYA LEBAR RD"
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "154",
+                destination: "EUNOS INT",
+                scrolls: [
+                    "BOON LAY INT"
+                ]
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "154",
+                destination: {
+                    text: ">  BOON LAY INT",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "PAYA LEBAR RD",
+                    "JALAN TOA PAYOH",
+                    "BUKIT TIMAH RD",
+                    "CLEMENTI RD",
+                    "C'WEALTH AVE WEST",
+                    "AYE",
+                    "YUAN CHING RD"
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "154",
+                destination: "BOON LAY INT",
+                scrolls: [
+                    "EUNOS INT"
+                ]
+            }
+        }
+    },
+    155: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "155",
+                destination: {
+                    text: ">  BEDOK INT", 
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    'BRADDELL RD',
+                    'UPP ALJUNIED RD',
+                    'GEYLANG EAST CTRL',
+                    'CIRCUIT RD',
+                    'TELOK KURAU RD',
+                    'EAST COAST RD',
+                    'BEDOK STH AVE 1'
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "155",
+                destination: "BEDOK INT",
+                scrolls: [
+                    "TOA PAYOH INT"
+                ]
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "155",
+                destination: {
+                    text: ">  TOA PAYOH INT",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    'BEDOK STH AVE 1',
+                    'EAST COAST RD',
+                    'TELOK KURAU RD',
+                    'CIRCUIT RD',
+                    'GEYLANG EAST CTRL',
+                    'UPP ALJUNIED RD',
+                    'BRADDELL RD'
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "155",
+                destination: "TOA PAYOH INT",
+                scrolls: [
+                    "BEDOK INT"
+                ]
+            }
+        }
+    },
+    156: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "156",
+                destination: {
+                    text: ">  CLEMENTI INT", 
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    'SENGKANG EAST AVE',
+                    'BUANGKOK GREEN',
+                    'YIO CHU KANG RD',
+                    'BISHAN RD',
+                    'BUKIT TIMAH RD',
+                    'SIXTH AVE',
+                    'ULU PANDAN RD'
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "156",
+                destination: "CLEMENTI INT",
+                scrolls: [
+                    "BUANGKOK INT"
+                ]
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "156",
+                destination: {
+                    text: ">  BUANGKOK INT",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "ULU PANDAN RD",
+                    "SIXTH AVE",
+                    "DUNEARN RD",
+                    "THOMSON RD",
+                    "BISHAN RD",
+                    "YIO CHU KANG RD",
+                    "BUANGKOK GREEN",
+                    "SENGKANG EAST AVE"
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "156",
+                destination: "BUANGKOK INT",
+                scrolls: [
+                    "CLEMENTI INT"
+                ]
+            }
+        }
+    },
+    "156S": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "156",
+                destination: {
+                    text: ">  CLEMENTI INT", 
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    'SENGKANG EAST RD',
+                    'BUANGKOK GREEN',
+                    'YIO CHU KANG RD',
+                    'BISHAN RD',
+                    'BUKIT TIMAH RD',
+                    'SIXTH AVE',
+                    'ULU PANDAN RD'
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "156",
+                destination: "CLEMENTI INT",
+                scrolls: [
+                    "BUANGKOK INT"
+                ]
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "156",
+                destination: {
+                    text: ">  SENGKANG INT",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "ULU PANDAN RD",
+                    "SIXTH AVE",
+                    "DUNEARN RD",
+                    "THOMSON RD",
+                    "BISHAN RD",
+                    "YIO CHU KANG RD",
+                    "BUANGKOK GREEN",
+                    "SENGKANG EAST RD"
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "156",
+                destination: "SENGKANG INT",
+                scrolls: [
+                    "CLEMENTI INT"
+                ]
+            }
+        }
+    },
+    157: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "157",
+                destination: {
+                    text: ">  TOA PAYOH INT", 
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "JURONG WEST AVE 1",
+                    "JURONG EAST AVE 1",
+                    "BUKIT BATOK EAST AVE 3",
+                    "JALAN JURONG KECHIL",
+                    "DUNEARN RD",
+                    "LORNIE RD",
+                    "BRADDELL RD"
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "157",
+                destination: "TOA PAYOH INT",
+                scrolls: [
+                    "BOON LAY INT"
+                ]
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "157",
+                destination: {
+                    text: ">  BOON LAY INT",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "BRADDELL RD",
+                    "LORNIE RD",
+                    "BUKIT TIMAH RD",
+                    "JALAN JURONG KECHIL",
+                    "BUKIT BATOK EAST AVE 3",
+                    "JURONG EAST AVE 1",
+                    "JURONG WEST AVE 1"
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "157",
+                destination: "BOON LAY INT",
+                scrolls: [
+                    "TOA PAYOH INT"
+                ]
+            }
+        }
+    },
+    158: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "158",
+                destination: {
+                    text: ">  RHU CROSS", 
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    'UPPER PAYA LEBAR RD',
+                    'CIRCUIT RD',
+                    'ALJUNIED RD',
+                    'MOUNTBATTEN RD', 
+                    'TANJONG RHU RD'
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "158",
+                destination: "RHU CROSS",
+                scrolls: [
+                    "SERANGOON INT"
+                ]
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "158",
+                destination: {
+                    text: ">  SERANGOON INT",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    'TANJONG RHU RD',
+                    'MOUNTBATTEN RD',
+                    'ALJUNIED RD',
+                    'CIRCUIT RD',
+                    'UPPER PAYA LEBAR RD'
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "158",
+                destination: "SERANGOON INT",
+                scrolls: [
+                    "SERANGOON INT"
+                ]
+            }
+        }
+    },
+    159: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "159",
+                destination: {
+                    text: ">  TOA PAYOH INT", 
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    'SENGKANG EAST RD',
+                    'HOUGANG AVE 9',
+                    "S'GOON NTH AVE 5, 6",
+                    'ANG MO KIO AVE 5, 8',
+                    'LOR CHUAN'
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "158",
+                destination: "TOA PAYOH INT",
+                scrolls: [
+                    "SENGKANG INT"
+                ]
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "158",
+                destination: {
+                    text: ">  SENGKANG INT",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    'LOR CHUAN',
+                    'ANG MO KIO AVE 8, 5',
+                    "S'GOON NTH AVE 6, 5",
+                    'HOUGANG AVE 9',
+                    'SENGKANG EAST RD'
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "158",
+                destination: "SENGKANG INT",
+                scrolls: [
+                    "TOA PAYOH INT"
                 ]
             }
         }
@@ -6013,6 +6681,452 @@ EDSData.SBST = {
             }
         }
     },
+    161: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "161",
+                destination: {
+                    text: ">  WOODLANDS INT", 
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "HOUGANG AVE 8",
+                    "HOUGANG AVE 4",
+                    "SENGKANG EAST RD",
+                    "SENGKANG EAST WAY",
+                    "WOODLANDS AVE 2"
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "160",
+                destination: "WOODLANDS INT",
+                scrolls: [
+                    "HOUGANG CENTRAL INT"
+                ]
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "161",
+                destination: {
+                    text: ">  HOUGANG CTRL INT",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "WOODLANDS AVE 2",
+                    "SENGKANG EAST WAY",
+                    "SENGKANG EAST RD",
+                    "HOUGANG AVE 4",
+                    "HOUGANG AVE 8"
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "161",
+                destination: "HOUGANG CTRL INT",
+                scrolls: [
+                    "WOODLANDS INT"
+                ]
+            }
+        }
+    },
+    162: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "162",
+                destination: {
+                    text: "YCK INT - SIN MING RD",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    'ANG MO KIO AVE 8',
+                    'BISHAN ST 22',
+                    'SIN MING AVE',
+                    'UPPER THOMSON RD',
+                    'SHUNFU RD'
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "162",
+                destination: "YIO CHU KANG INT",
+                scrolls: [
+                    "YIO CHU KANG INT"
+                ]
+            }
+        }
+    },
+    "162M": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "162M",
+                destination: {
+                    text: "YCK INT - TEMASEK AVE",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    'ANG MO KIO AVE 8',
+                    'BISHAN ST 22',
+                    'SIN MING AVE',
+                    'THOMSON RD',
+                    'ORCHARD RD',
+                    'THOMSON RD',
+                    'SING MIN AVE',
+                    'BISHAN ST 22',
+                    'ANG MO KIO AVE 8'
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "162M",
+                destination: "YIO CHU KANG INT",
+                scrolls: [
+                    "YIO CHU KANG INT"
+                ]
+            }
+        }
+    },
+    '162S': {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "162",
+                destination: {
+                    text: ">  SHENTON WAY TER", 
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "ANG MO KIO AVE 8",
+                    "ANG MO KIO AVE 6",
+                    "BISHAN ST 22",
+                    "SIN MING AVE",
+                    "UPPER THOMSON RD",
+                    "THOMSON RD",
+                    "ORCHARD RD",
+                    "BRAS BASAH RD"
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "162",
+                destination: "SHENTON WAY TER",
+                scrolls: [
+                    "YIO CHU KANG INT"
+                ]
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "162",
+                destination: {
+                    text: ">  YIO CHU KANG INT",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "STAMFORD RD",
+                    "ORCHARD TURN",
+                    "THOMSON RD",
+                    "UPPER THOMSON RD",
+                    "SIN MING AVE",
+                    "BISHAN ST 22",
+                    "ANG MO KIO AVE 6",
+                    "ANG MO KIO AVE 8"
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "162",
+                destination: "YIO CHU KANG INT",
+                scrolls: [
+                    "SHENTON WAY TER"
+                ]
+            }
+        }
+    },
+    163: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "163",
+                destination: {
+                    text: ">  SENGKANG INT", 
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "LOR 4 TOA PAYOH",
+                    "BRADDELL RD",
+                    "UPPER THOMSON RD",
+                    "YIO CHU KANG RD",
+                    "SENGKANG WEST AVE",
+                    "SENGKANG EAST AVE"
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "163",
+                destination: "SENGKANG INT",
+                scrolls: [
+                    "TOA PAYOH INT"
+                ]
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "163",
+                destination: {
+                    text: ">  TOA PAYOH INT",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "SENGKANG EAST AVE",
+                    "SENGKANG WEST AVE",
+                    "YIO CHU KANG RD",
+                    "UPPER THOMSON RD",
+                    "BRADDELL RD",
+                    "LOR 4 TOA PAYOH"
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "163",
+                destination: "TOA PAYOH INT",
+                scrolls: [
+                    "SENGKANG INT"
+                ]
+            }
+        }
+    },
+    "163M": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "163M",
+                destination: {
+                    text: ">  SENGKANG W. AVE", 
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "PUNGGOL RD",
+                    "SENGKANG EAST AVE",
+                    "SENGKANG WEST AVE",
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "163M",
+                destination: "SENGKANG WEST AVE",
+                scrolls: [
+                    "SENGKANG INT"
+                ]
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "163M",
+                destination: {
+                    text: ">  SENGKANG INT",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "SENGKANG WEST AVE",
+                    "SENGKANG EAST AVE",
+                    "PUNGGOL RD"
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "163M",
+                destination: "SENGKANG INT",
+                scrolls: [
+                    "SENGKANG INT"
+                ]
+            }
+        }
+    },
+    165: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "165",
+                destination: {
+                    text: ">  CLEMENTI INT", 
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    'HOUGANG AVE 8',
+                    'ANG MO KIO AVE 3',
+                    'UPPER THOMSON RD',
+                    "LORNIE RD",
+                    'FARRER RD',
+                    'HOLLAND RD'
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "165",
+                destination: "CLEMENTI INT",
+                scrolls: [
+                    "HOUGANG CTRL INT"
+                ]
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "165",
+                destination: {
+                    text: ">  HOUGANG CTRL INT",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    'HOLLAND RD',
+                    'FARRER RD',
+                    'UPP THOMSON RD',
+                    'ANG MO KIO AVE 3',
+                    'HOUGANG AVE 8, 4',
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "165",
+                destination: "HOUGANG CTRL INT",
+                scrolls: [
+                    "CLEMENTI INT"
+                ]
+            }
+        }
+    },
+    166: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "166",
+                destination: {
+                    text: ">  CLEMENTI INT", 
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    'THOMSON RD',
+                    'STH BRIDGE RD',
+                    'TELOK BLANGAH RD',
+                    'ALEXANDRA RD',
+                    'DOVER RD'
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "166",
+                destination: "CLEMENTI INT",
+                scrolls: [
+                    "ANG MO KIO INT"
+                ]
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "166",
+                destination: {
+                    text: ">  ANG MO KIO INT",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "KAMPONG BAHRU RD",
+                    "EU TONG SEN ST",
+                    "UPPER THOMSON RD",
+                    'DOVER RD',
+                    'ALEXANDRA RD',
+                    'TELOK BLANGAH RD',
+                    'EU TONG SEN ST',
+                    'THOMSON RD'
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "166",
+                destination: "ANG MO KIO INT",
+                scrolls: [
+                    "CLEMENTI INT"
+                ]
+            }
+        }
+    },
+    168: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "168",
+                destination: {
+                    text: ">  WOODLANDS INT", 
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "BEDOK NORTH AVE 3",
+                    "TAMPINES AVE 4",
+                    "TAMPINES AVE 10",
+                    "JALAN KAYU",
+                    "WOODLANDS AVE 2"
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "168",
+                destination: "WOODLANDS INT",
+                scrolls: [
+                    "BEDOK INT"
+                ]
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "168",
+                destination: {
+                    text: ">  BEDOK INT",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "WOODLANDS AVE 2",
+                    "JALAN KAYU",
+                    "TAMPINES AVE 10",
+                    "TAMPINES AVE 4",
+                    "BEDOK NORTH AVE 3"
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "168",
+                destination: "BEDOK INT",
+                scrolls: [
+                    "WOODLANDS INT"
+                ]
+            }
+        }
+    },
     170: {
         1: {
             front: {
@@ -6189,6 +7303,65 @@ EDSData.SBST = {
             }
         }
     },
+    174: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "174",
+                destination: {
+                    text: ">  KAMPONG BAHRU TER",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "BT BATOK E. AVE 3, 6",
+                    "JLN JURONG KECHIL",
+                    "DUNEARN RD",
+                    "FARRER RD",
+                    "HOLLAND RD",
+                    "ORCHARD RD",
+                    "NTH, STH BRIDGE RD",
+                    "NTH BRIDGE RD"
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "174",
+                destination: "KAMPONG BAHRU TER",
+                scrolls: [
+                    "BOON LAY INT"
+                ]
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "174",
+                destination: {
+                    text: ">  BOON LAY INT",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "EU TONG SEN ST",
+                    "ORCHARD BLVD",
+                    "HOLLAND RD",
+                    "FARRER RD",
+                    "BT TIMAH RD",
+                    "JLN JURONG KECHIL",
+                    "BT BATOK E. AVE 6, 3"
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "174",
+                destination: "BOON LAY INT",
+                scrolls: [
+                    "KAMPONG BAHRU TER"
+                ]
+            }
+        }
+    },
     175: {
         1: {
             front: {
@@ -6326,6 +7499,117 @@ EDSData.SBST = {
             }
         }
     },
+    "181M": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "181M",
+                destination: {
+                    text: "BOON LAY INT-JUR W. ST 23",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "JURONG WEST ST 64",
+                    "JURONG WEST ST 75",
+                    "JURONG WEST AVE 5",
+                    "JURONG WEST AVE 3",
+                    "JURONG WEST ST 64",
+                    "JURONG WEST ST 75",
+                    "JURONG WEST AVE 5",
+                    "JURONG WEST AVE 3"
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "181M",
+                destination: "BOON LAY INT",
+                scrolls: [
+                    "BOON LAY INT"
+                ]
+            }
+        }
+    },
+    182: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "182",
+                destination: {
+                    text: ">  TUAS SOUTH AVE 9",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "TUAS STH AVE 3",
+                    "JALAN AHMAD IBRAHIM",
+                    "TUAS STH AVE 3",
+                    "TUAS STH AVE 9"
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "182",
+                destination: "TUAS SOUTH AVE 9",
+                scrolls: [
+                    "JOO KOON INT"
+                ]
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "182",
+                destination: {
+                    text: ">  JOO KOON INT",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "TUAS STH AVE 3",
+                    "JALAN AHMAD IBRAHIM",
+                    "TUAS STH AVE 3",
+                    "TUAS STH AVE 9"
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "182",
+                destination: "JOO KOON INT",
+                scrolls: [
+                    "TUAS"
+                ]
+            }
+        }
+    },
+    "182M": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "182M",
+                destination: {
+                    text: "JOO KOON INT - TUAS STH",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    'TUAS STH AVE 3',
+                    "JALAN AHMAD IBRAHIM",
+                    'TUAS STH AVE 3',
+                    'TUAS STH AVE 9',
+                    'TUAS STH AVE 5'
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "182M",
+                destination: "TUAS SOUTH AVE 9",
+                scrolls: [
+                    "JOO KOON INT"
+                ]
+            }
+        }
+    },
     185: {
         1: {
             front: {
@@ -6380,6 +7664,62 @@ EDSData.SBST = {
             }
         }
     },
+    186: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "186",
+                destination: {
+                    text: ">  ST MICHAEL'S TER",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "UPPER PICKERING ST",
+                    "HAVELOCK RD",
+                    "ALEXANDRA RD",
+                    "QUEENSWAY",
+                    "FARRER RD",
+                    "BALESTIER RD"
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "186",
+                destination: "ST MICHAEL'S TER",
+                scrolls: [
+                    "SHENTON WAY TER"
+                ]
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "186",
+                destination: {
+                    text: ">  SHENTON WAY TER",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "BALESTIER RD",
+                    "FARRER RD",
+                    "QUEENSWAY",
+                    "ALEXANDRA RD",
+                    "HAVELOCK RD",
+                    "UPPER PICKERING ST"
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "186",
+                destination: "SHENTON WAY TER",
+                scrolls: [
+                    "ST MICHAEL'S TER"
+                ]
+            }
+        }
+    },
     191: {
         1: {
             front: {
@@ -6402,6 +7742,114 @@ EDSData.SBST = {
                 destination: "HOLLAND DR",
                 scrolls: [
                     "BLOCK 10A"
+                ]
+            }
+        }
+    },
+    192: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "192",
+                destination: {
+                    text: ">  TUAS TER",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "JURONG WEST ST 62",
+                    "TUAS AVE 1",
+                    'JALAN AHMAD IBRAHIM',
+                    "TUAS AVE 12",
+                    "PIONEER RD"
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "192",
+                destination: "TUAS TER",
+                scrolls: [
+                    "BOON LAY INT"
+                ]
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "192",
+                destination: {
+                    text: ">  BOON LAY INTT",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "PIONEER RD",
+                    "TUAS AVE 1",
+                    "JALAN AHMAD IBRAHIM",
+                    "UPP JURONG RD",
+                    "JURONG WEST ST 62"
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "192",
+                destination: "BOON LAY INT",
+                scrolls: [
+                    "TUAS TER"
+                ]
+            }
+        }
+    },
+    194: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "194",
+                destination: {
+                    text: ">  TUAS TER",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "JURONG WEST AVE 4",
+                    "LOK YANG WAY",
+                    "TUAS RD",
+                    "TUAS AVE 5, 9",
+                    "TUAS WEST DR"
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "193",
+                destination: "TUAS TER",
+                scrolls: [
+                    "BOON LAY INT"
+                ]
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "193",
+                destination: {
+                    text: ">  BOON LAY INTT",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "TUAS WEST DR",
+                    "TUAS AVE 9, 5",
+                    "TUAS RD",
+                    "LOK YANG WAY",
+                    "JURONG WEST AVE 4"
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "193",
+                destination: "BOON LAY INT",
+                scrolls: [
+                    "TUAS TER"
                 ]
             }
         }
@@ -6455,6 +7903,67 @@ EDSData.SBST = {
                 destination: "RAFFLES BLVD",
                 scrolls: [
                     "MARINA CTR TER"
+                ]
+            }
+        }
+    },
+    196: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "196",
+                destination: {
+                    text: ">  CLEMENTI INT",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "MOUNTBATTEN RD",
+                    "NICOLL HIGHWAY",
+                    "JALAN BUKIT MERAH",
+                    'BEDOK STH AVE 1',
+                    'MARINE PARADE RD',
+                    'MOUNTBATTEN RD',
+                    'SHENTON WAY',
+                    'JLN BUKIT MERAH',
+                    'QUEENSWAY',
+                    'DOVER RD'
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "196",
+                destination: "CLEMENTI INT",
+                scrolls: [
+                    "BEDOK INT INT"
+                ]
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "196",
+                destination: {
+                    text: ">  BEDOK INTT",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    'DOVER RD',
+                    'JLN BUKIT MERAH',
+                    'QUEENSWAY',
+                    'ROBINSON RD',
+                    'MOUNTBATTEN RD',
+                    'MARINE PARADE RD',
+                    'BEDOK STH AVE 1'
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "196",
+                destination: "BEDOK INT",
+                scrolls: [
+                    "CLEMENTI INT"
                 ]
             }
         }
@@ -6757,6 +8266,34 @@ EDSData.SBST = {
                 destination: "BEDOK INT",
                 scrolls: [
                     "BEDOK INT"
+                ]
+            }
+        }
+    },
+    230: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "230",
+                destination: {
+                    text: "> CALDECOTT STN",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "TOA PAYOH RISE",
+                    "LOR 6 TOA PAYOH",
+                    "LOR 8, 7 TOA PAYOH",
+                    "LOR 6 TOA PAYOH",
+                    "TOA PAYOH RISE",
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "230",
+                destination: "CALDECOTT STN",
+                scrolls: [
+                    "CALDECOTT STN"
                 ]
             }
         }
@@ -7310,6 +8847,35 @@ EDSData.SBST = {
             }
         }
     },
+    "291T": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "291T",
+                destination: {
+                    text: ">  TAMPINES ST 83 & 33",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "TAMPINES AVE 5",
+                    "TAMPINES ST 83",
+                    "TAMPINES ST 81",
+                    "TAMPINES ST 21",
+                    "TAMPINES ST 32",
+                    "TAMPINES ST 21"
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "291T",
+                destination: "TAMPINES INT",
+                scrolls: [
+                    "TAMPINES INT"
+                ]
+            }
+        }
+    },
     292: {
         1: {
             front: {
@@ -7331,6 +8897,60 @@ EDSData.SBST = {
             pids: {
                 renderType: "pids",
                 serviceNumber: "292",
+                destination: "TAMPINES INT",
+                scrolls: [
+                    "TAMPINES INT"
+                ]
+            }
+        }
+    },
+    293: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "293",
+                destination: {
+                    text: ">  TAMPINES ST 71 & AVE 7",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "TAMPINES AVE 4 & 3",
+                    "TAMPINES AVE 8 & 9",
+                    "TAMPINES ST 45&42",
+                    "TAMPINES AVE 4 & 3"
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "293",
+                destination: "TAMPINES INT",
+                scrolls: [
+                    "TAMPINES INT"
+                ]
+            }
+        }
+    },
+    "293T": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "293T",
+                destination: {
+                    text: ">  TAMPINES ST 71 & AVE 7",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "TAMPINES AVE 4 & 3",
+                    "TAMPINES AVE 8 & 9",
+                    "TAMPINES ST 45&42",
+                    "TAMPINES AVE 4 & 3"
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "293",
                 destination: "TAMPINES INT",
                 scrolls: [
                     "TAMPINES INT"
@@ -7522,6 +9142,60 @@ EDSData.SBST = {
                 destination: "SERANGOON INT",
                 scrolls: [
                     "SERANGOON INT"
+                ]
+            }
+        }
+    },
+    324: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "324",
+                destination: {
+                    text: ">  HOUGANG CTRL INT",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    'UPP SERANGOON RD',
+                    'UPP SERANGOON CRES',
+                    'UPP SERANGOON VIEW',
+                    'UPP SERANGOON RD'
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "324",
+                destination: "HOUGANG CTRL INT",
+                scrolls: [
+                    "HOUGANG CTRL INT"
+                ]
+            }
+        }
+    },
+    325: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "325",
+                destination: {
+                    text: ">  HOUGANG AVE 9",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    'UPP SERANGOON RD',
+                    'HOUGANG AVE 2, 10, 8',
+                    'HOUGANG ST 51',
+                    'BUANGKOK GREEN'
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "325",
+                destination: "HOUGANG CTRL INT",
+                scrolls: [
+                    "HOUGANG CTRL INT"
                 ]
             }
         }
@@ -7805,6 +9479,86 @@ EDSData.SBST = {
             }
         }
     },
+    800: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "800",
+                destination: {
+                    text: "YISHUN INT - SEMBAWANG RD",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "YISHUN AVE 7",
+                    "SEMBAWANG RD",
+                    "YISHUN ST 71",
+                    "YISHUN RING RD"
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "801",
+                destination: "YISHUN INT",
+                scrolls: [
+                    "YISHUN INT"
+                ]
+            }
+        }
+    },
+    803: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "803",
+                destination: {
+                    text: "YISHUN INT - YISHUN AVE 6",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "YISHUN AVE 6",
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "801",
+                destination: "YISHUN INT",
+                scrolls: [
+                    "YISHUN INT"
+                ]
+            }
+        }
+    },
+    804: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "804",
+                destination: {
+                    text: "YISHUN INT - YISHUN AVE 6",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "YISHUN AVE 2",
+                    "YISHUN RING RD",
+                    "YISHUN ST 41",
+                    "YISHUN AVE 1",
+                    "YISHUN AVE 11",
+                    "YISHUN RING RD"
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "804",
+                destination: "YISHUN INT",
+                scrolls: [
+                    "YISHUN INT"
+                ]
+            }
+        }
+    },
     805: {
         1: {
             front: {
@@ -7825,6 +9579,117 @@ EDSData.SBST = {
             pids: {
                 renderType: "pids",
                 serviceNumber: "805",
+                destination: "YISHUN INT",
+                scrolls: [
+                    "YISHUN INT"
+                ]
+            }
+        }
+    },
+    806: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "806",
+                destination: {
+                    text: "YISHUN INT - YISHUN AVE 6",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "YISHUN CENTRAL",
+                    "YISHUN AVE 11",
+                    "YISHUN AVE 6",
+                    "YISHUN RING RD"
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "806",
+                destination: "YISHUN INT",
+                scrolls: [
+                    "YISHUN INT"
+                ]
+            }
+        }
+    },
+    807: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "807",
+                destination: {
+                    text: "YISHUN INT - YISHUN ST 71",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "YISHUN RING RD",
+                    "YISHUN AVE 9",
+                    "YISHUN RING RD",
+                    "YISHUN AVE 5",
+                    "SEMBAWANG RD",
+                    "YISHUN ST 71"
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "807",
+                destination: "YISHUN INT",
+                scrolls: [
+                    "YISHUN INT"
+                ]
+            }
+        }
+    },
+    811: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "811",
+                destination: {
+                    text: ">  YISHUN AVE 5 & 1",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "YISHUN AVE 9,6,7",
+                    "SEMBAWANG RD",
+                    "YISHUN AVE 5,2",
+                    "YISHUN RING RD",
+                    "YISHUN AVE 2"
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "811",
+                destination: "YISHUN INT",
+                scrolls: [
+                    "YISHUN INT"
+                ]
+            }
+        }
+    },
+    812: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "812",
+                destination: {
+                    text: ">  YISHUN AVE 4 & 3",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "YISHUN ST 61",
+                    "YISHUN AVE 2",
+                    "YISHUN RING RD",
+                    "YISHUN CENTRAL"
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "812",
                 destination: "YISHUN INT",
                 scrolls: [
                     "YISHUN INT"
@@ -8115,6 +9980,30 @@ EDSData.SBST = {
                     "AEON TEBRAU / BEF IKEA",
                     "ULU TIRAM TER",
                     "KOTA TINGGI TER",
+                ]
+            }
+        }
+    },
+    "9999B": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "420",
+                destination: {
+                    text: ">  PANDAN INDAH",
+                    font: "LECIP-8"
+                },
+                scrolls: [
+                    "MALURI",
+                ],
+                scrollFont: "LECIP-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "300",
+                destination: "PANDAN INDAH",
+                scrolls: [
+                    "MALURI",
                 ]
             }
         }
