@@ -835,8 +835,8 @@ EDSData.TTSG = {
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "79",
-                    top: "BOON LAYL",
+                    serviceNumber: "79T",
+                    top: "BOON LAY",
                 },
             ]
         }
@@ -1167,7 +1167,6 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "106",
                     top: "BUKIT BATOK",
-                    image: "mrt"
                 }
             ]
         }
@@ -1594,7 +1593,6 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "177",
                     top: "JELEBU RD",
-                    image: "mrt"
                 }
             ]
         }
@@ -4485,8 +4483,6 @@ EDSData.TTSG = {
                     serviceNumber: "870",
                     top: "JURONG TOWN HALL",
                     topFont: "Mobitec-Tower9:4",
-                    bottom: "(JURONG EAST STN)",
-                    image: "mrt"
                 }
             ]
         }
@@ -4979,7 +4975,6 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "966",
                     top: "WOODLANDS",
-                    image: "mrt"
                 }
             ]
         }
@@ -5109,7 +5104,6 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "981",
                     top: "SEMBAWANG",
-                    image: "mrt"
                 }
             ]
         }
