@@ -43,6 +43,67 @@ EDSFormats['SMRT (PreSLBP)'] = {
         },
         text: "Kindness is Greater; Be Greater"
     },
+    welcomeScroll: {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 0
+            },
+            text: "$serviceNumber",
+            font: "Mobitec-Tower16:10",
+            spacing: 2
+        },
+        top: {
+            align: {
+                $$cond: {
+                    "$bottom === null": "centre-x,centre-y",
+                    "else": "centre-x,top"
+                }
+            },
+            text: "$top",
+            font: {
+                $$cond: {
+                    "$topFont === null": "Mobitec-9:6",
+                    "else": "$topFont"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber) - width(image)'
+            }
+        },
+        bottom: {
+            align: "centre-x,bottom",
+            text: {
+                $$cond: {
+                    "$bottom !== null": "$bottom",
+                    "else": "''"
+                }
+            },
+            font: {
+                $$cond: {
+                    "$bottomFont === null": "Hanover-5:3",
+                    "else": "$bottomFont"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber) - width(image)'
+            }
+        },
+        image: {
+            align: "left",
+            image: {
+                $$cond: {
+                    "$image !== null": "$image",
+                    "else": "blank"
+                }
+            }
+        },
+
+        text: "$top+' '+$bottom+' '+$serviceNumber"
+        
+    },
     "950AncientFormat": {
         serviceNumber: {
             align: "right",
@@ -1219,7 +1280,7 @@ EDSData['SMRT (PreSLBP)'] = {
             text: "SMRT LOGO"
         }
     },
-    9117: {
+    8117: {
         front: {
             renderType: "standardService",
             serviceNumber: "",
@@ -1229,37 +1290,21 @@ EDSData['SMRT (PreSLBP)'] = {
             },
             scrolls: [
                 {
-                    renderType: "logo",
-                    image: "logo",
-                    text: "SMRT LOGO"
-                },
-                {
-                    renderType: "destScroll",
-                    top: "Data until Sep 2024 (Jurong West",
-                    topFont: "Mobitec-7:4",
-        
-                    bottom: "package data not included yet)",
-                    bottomFont: "Mobitec-7:4",
-        
-                    serviceNumber: ""
+                    renderType: "welcomeScroll",
+                    serviceNumber: "",
+                    top: "Data until Sep 2024 (Jur West",
+                    topFont: "Hanover-7:3:2",
+                    bottom: "package data not added yet)",
+                    bottomFont: "Hanover-7:3:2",
+                    image: "roundel"
                 },
                 {
                     renderType: "logo",
                     image: "logo",
                     text: "SMRT LOGO"
-                },
-                {
-                    renderType: "destScroll",
-                    top: "Data until Sep 2024 (Jurong West",
-                    topFont: "Mobitec-7:4",
-        
-                    bottom: "package data not included yet)",
-                    bottomFont: "Mobitec-7:4",
-        
-                    serviceNumber: ""
                 },
             ],
-            scrollFont: "Mobitec-7:5:3"
+            scrollFont: "Mobitec-7:5:3",
         }
     },
     118: {
