@@ -1809,7 +1809,7 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "285",
-            destination: "CLEMENTI",
+            destination: "PANDAN LOOP",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -4780,7 +4780,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "945",
-                    top: "BT BATOK ST 23",
+                    top: "BT BATOK ST 34",
                 }
             ]
         }
@@ -4987,7 +4987,7 @@ EDSData.TTSG = {
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "966",
+                    serviceNumber: "966A",
                     top: "MARINE PDE RD",
                 },
             ]
