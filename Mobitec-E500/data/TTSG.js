@@ -667,13 +667,13 @@ EDSData.TTSG = {
             ]
         }
     },
-    501: {
+    500: {
         front: { // Reserved code for Enviro 500 (New ADL Logo)
                 renderType: "TowerSpecialEDS",
                 serviceNumber: "",
                 top: "ENVIRO 500",
                 topFont: "Mobitec-Enviro500 Wording",
-                bottom: "Mobitec - 150324",
+                bottom: "Mobitec - 040525",
                 bottomFont: "Mobitec-Tower6:4",
                 image: "NEW ADL LOGO",
                 text: "EDS Version (ADL E500 New Logo)"
