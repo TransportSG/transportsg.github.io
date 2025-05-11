@@ -236,6 +236,27 @@ EDSData['BAS.MY Meleka (Prev. SBST)'] = {
             ]
         }
     },
+    20: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "M20",
+            destination: "TAMPIN / MELAKA SENTRAL",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "M20",
+                    top: "TAMPIN",
+                    topFont: "Tongda-16:7",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "M20",
+                    top: "MELAKA SENTRAL",
+                    topFont: "Tongda-16:7",
+                },
+            ]
+        }
+    },
     100: {
         front: {
             renderType: "standardService",
@@ -245,21 +266,6 @@ EDSData['BAS.MY Meleka (Prev. SBST)'] = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "M100",
-                    top: "BANDARAYA",
-                    topFont: "Tongda-16:7",
-                }
-            ]
-        }
-    },
-    "F100": {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "F100",
-            destination: "BANDARAYA",
-            scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "F100",
                     top: "BANDARAYA",
                     topFont: "Tongda-16:7",
                 }
@@ -276,6 +282,21 @@ EDSData['BAS.MY Meleka (Prev. SBST)'] = {
                     renderType: "destScroll",
                     serviceNumber: "M101",
                     top: "PASAR MELAKA",
+                    topFont: "Tongda-16:7",
+                }
+            ]
+        }
+    },
+    "F100": {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "F100",
+            destination: "BANDARAYA",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "F100",
+                    top: "BANDARAYA",
                     topFont: "Tongda-16:7",
                 }
             ]

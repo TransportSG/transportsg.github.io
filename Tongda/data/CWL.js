@@ -755,6 +755,76 @@ EDSData['CWL (JB Area)'] = {
 }
 
 EDSExtras['CWL (JB Area)'] = {
+    1: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: "Mask is mandatory",
+            destFont: "Mobitec-7:4",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "PAKAI PELITUP MUKA",
+                    topFont: "Mobitec-7:4",
+                    bottom: "KERAP SANITASI TANGAH ANDA",
+                    bottomFont: "Mobitec-7:4", 
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "MASK IS MANDATORY",
+                    topFont: "Mobitec-7:4",
+                    bottom: "SANITIZE YOUR HAND REGULARLY",
+                    bottomFont: "Mobitec-7:4", 
+                },
+            ]
+        }
+    },
+    2: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: "Pakai pelitup muka",
+            destFont: "Mobitec-7:4",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "PAKAI PELITUP MUKA",
+                    topFont: "Mobitec-7:4",
+                    bottom: "KERAP SANITASI TANGAH ANDA",
+                    bottomFont: "Mobitec-7:4", 
+                },
+            ]
+        }
+    },
+    3: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: "Mask (English + Malay)",
+            destFont: "Mobitec-7:4:2",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "PAKAI PELITUP MUKA",
+                    topFont: "Mobitec-7:4",
+                    bottom: "KERAP SANITASI TANGAH ANDA",
+                    bottomFont: "Mobitec-7:4", 
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "MASK IS MANDATORY",
+                    topFont: "Mobitec-7:4",
+                    bottom: "SANITIZE YOUR HAND REGULARLY",
+                    bottomFont: "Mobitec-7:4", 
+                },
+            ]
+        }
+    },
 }
 
 EDSImages['CWL (JB Area)'] = {

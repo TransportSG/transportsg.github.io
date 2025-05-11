@@ -43,7 +43,7 @@ EDSFormats ['CWL (KL Area)'] = {
         serviceNumber: {
             align: "left",
             margin: {
-                left: 1
+                left: 0
             },
             text: "$serviceNumber",
             font: "Tongda-16:7",

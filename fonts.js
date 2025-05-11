@@ -52618,6 +52618,9 @@
             
         },
         "Mobitec-7:4:2": { // used for instruction screen on Tongda
+            "+": [
+                [0],
+            ],
             0: [
                 [0, 1, 1, 0],
                 [1, 0, 0, 1],
