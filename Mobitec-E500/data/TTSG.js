@@ -4099,7 +4099,6 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "857",
                     top: "TEMASEK AVE",
-                    bottom: "(PROMENADE STN)",
                 }
             ]
         }
