@@ -22173,6 +22173,24 @@ EDSData.SBST = {
             }
         }
     },
+    1110: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "NTWU  COFFEE  BUS",
+                font: "LECIP-20:9",
+                spacing: 1
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "COFFEE",
+                topFont: "LECIP-7:4",
+
+                bottom: "BUS",
+                bottomFont: "LECIP-7:4"
+            }
+        }
+    },
     1111: {
         1: {
             front: {

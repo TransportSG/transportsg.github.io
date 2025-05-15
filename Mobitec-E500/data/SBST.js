@@ -4967,6 +4967,14 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
+    1110: {
+        front: {
+            renderType: "message",
+            text: "NTWU COFFEE BUS",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
     1111: {
         front: {
             renderType: "message",
