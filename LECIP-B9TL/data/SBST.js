@@ -4017,7 +4017,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "45",
-                destination: "> ANG MO KIO DEPOT",
+                destination: "> OPP YIO CHU KANG STADIUM",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
                     'BEDOK NORTH RD',
@@ -4056,6 +4056,52 @@ EDSData.SBST = {
                 renderType: "rearService",
                 serviceNumber: "45A",
                 font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    "45Z": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "45",
+                destination: "> UPP EAST COAST TER",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    'ANG MO KIO AVE 10',
+                    'SERANGOON AVE 2',
+                    'LOR AH SOO',
+                    'EUNOS LINK',
+                    'BEDOK NORTH RD'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "45",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "45",
+                destination: "> ANG MO KIO DEPOT",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    'BEDOK NORTH RD',
+                    'EUNOS LINK',
+                    'LOR AH SOO',
+                    'SERANGOON AVE 2',
+                    'ANG MO KIO AVE 10'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "45",
+                font: "LECIP-20:12",
                 spacing: 2
             }
         }
