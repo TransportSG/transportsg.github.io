@@ -1697,6 +1697,64 @@ EDSData.GASG = {
             }
         }
     },
+    "34P": { // Referred from Citaro
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "34",
+                destination: "CHANGI AIRPORT",
+                destinationFont: "Hanover-10",
+                scrolls: [  
+                {
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "34",
+                    top: "Changi Airport",
+                    topFont: "Lecip-GoAhead16:10",
+                    image: "plane"
+                },
+                "PUNGGOL RD",
+                "TPE",
+                "TAMPINES AVE 10 / 5 / 2",
+                "TAMPINES EAST MRT",
+                "TERMINAL 3 / 1 / 2 / 4"
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "34",
+                font: "Lecip-GoAhead20:12",
+                spacing: 3
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "34",
+                destination: "PUNGGOL COAST",
+                destinationFont: "Hanover-10",
+                scrolls: [{
+                    renderType: "destScroll",
+                    top: "Punggol Coast",
+                    topFont: "Lecip-GoAhead16:10",
+        
+                    serviceNumber: "34"
+                },
+                    "TAMPINES EAST MRT",
+                    "TAMPINES AVE 2 / 5 / 10",
+                    "TAMPINES EXPRESSWAY",
+                    "PUNGGOL RD"
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "34",
+                font: "Lecip-GoAhead20:12",
+                spacing: 3
+            }
+        }
+    },
     36: { // Referred from Citaro
         1: {
             front: {
