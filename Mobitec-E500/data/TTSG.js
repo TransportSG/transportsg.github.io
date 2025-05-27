@@ -898,16 +898,13 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "",
-            destination: "96B CLEMENTI STN",
+            destination: "96B C'WEALTH AVE W.",
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "96B",
-                    top: "Ends At",
-                    topFont: "Mobitec-7:5:3",
-                    bottom: "Clementi Stn Exit A",
-                    bottomFont: "Mobitec-Tower6:4",
-                },
+                    top: "C'WEALTH AVE W.",
+                }
             ]
         }
     },  
@@ -1026,27 +1023,10 @@ EDSData.TTSG = {
             serviceNumber: "98",
             destination: "JURONG PIER WAY",
             scrolls: [
-                "JURONG EAST AVE 1",
-                'JURONG WEST AVE 1',
-                "LAKESIDE MRT",
-                "CORPORATION DR",
-                "JURONG PORT RD",
-                "JALAN BUROH",
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "98",
-                    top: "Welcome on board",
-                    topFont: "Hanover-7:3",
-                    bottom: "Tower Transit",
-                    bottomFont: "Hanover-7:3",
-                    image: "logo"
-                },
                 {
                     renderType: "destScroll",
                     serviceNumber: "98",
                     top: "JURONG PIER WAY",
-                    bottom: "(JURONG ISLAND CHECKPOINT)",
-
                 }
             ]
         }
@@ -1074,18 +1054,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "98A",
-                    top: "Ends At",
-                    topFont: "Mobitec-7:5:3",
-                    bottom: "Corporation Rd",
-                    bottomFont: "Mobitec-Tower6:4",
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "98A",
-                    top: "Ends At",
-                    topFont: "Mobitec-7:5:3",
-                    bottom: "(Corporation Pl)",
-                    bottomFont: "Mobitec-Tower6:4",
+                    top: "CORPORATION RD",
                 }
             ]
         }
@@ -1099,18 +1068,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "98B",
-                    top: "Ends At",
-                    topFont: "Mobitec-7:5:3",
-                    bottom: "Jurong Pier Way",
-                    bottomFont: "Mobitec-Tower6:4",
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "98B",
-                    top: "Ends At",
-                    topFont: "Mobitec-7:5:3",
-                    bottom: "(Jurong Island Chkpt)",
-                    bottomFont: "Mobitec-Tower6:4",
+                    top: "JURONG PIER RD",
                 }
             ]
         }
@@ -1175,16 +1133,12 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "",
-            destination: "106A CLEMENTI STN",
+            destination: "106A C'WEALTH AVE W.",
             scrolls: [
-
                 {
                     renderType: "destScroll",
                     serviceNumber: "106A",
-                    top: "Ends At",
-                    topFont: "Mobitec-7:5:3",
-                    bottom: "Clementi Stn Exit B",
-                    bottomFont: "Mobitec-Tower6:4",
+                    top: "C'WEALTH AVE W.",
                 }
             ]
         }
@@ -1263,12 +1217,13 @@ EDSData.TTSG = {
                     spacing: 2
                 },
                 {
-                    renderType: "TowerSpecialEDS",
+                    renderType: "destScroll",
                     serviceNumber: "",
-                    top: "~+",
-                    topFont: "Mobitec-Tower16:10",
-    
-                    text: "Tower Transit Logo"
+                    top: "Moving People",
+                    topFont: "Mobitec-7:4",
+                    bottom: "Not Buses     ",
+                    bottomFont: "Mobitec-7:4",
+                    image: "logo-full",
                 },
                 {
                     renderType: "message",
@@ -1277,12 +1232,13 @@ EDSData.TTSG = {
                     spacing: 2
                 },
                 {
-                    renderType: "TowerSpecialEDS",
+                    renderType: "destScroll",
                     serviceNumber: "",
-                    top: "~+",
-                    topFont: "Mobitec-Tower16:10",
-    
-                    text: "Tower Transit Logo"
+                    top: "Moving People",
+                    topFont: "Mobitec-7:4",
+                    bottom: "Not Buses     ",
+                    bottomFont: "Mobitec-7:4",
+                    image: "logo-full",
                 },
             ]
         }
@@ -1464,15 +1420,12 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "",
-            destination: "169A OPP YISHUN STN",
+            destination: "169A YISHUN AVE 2",
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "169A",
-                    top: "Ends At",
-                    topFont: "Mobitec-7:5:3",
-                    bottom: "Opp Yishun Stn",
-                    bottomFont: "Mobitec-Tower6:4",
+                    top: "YISHUN AVE 2",
                 }
             ]
         }
@@ -1486,18 +1439,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "169B",
-                    top: "Ends At",
-                    topFont: "Mobitec-7:5:3",
-                    bottom: "Woodlands Ave 8",
-                    bottomFont: "Mobitec-Tower6:4",
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "169B",
-                    top: "Ends At",
-                    topFont: "Mobitec-7:5:3",
-                    bottom: "(Bef W'lands Ind Pk E3)",
-                    bottomFont: "Mobitec-Tower6:4",
+                    top: "WOODLANDS AVE 8",
                 }
             ]
         }
@@ -1662,18 +1604,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "183B",
-                    top: "Ends At",
-                    topFont: "Mobitec-7:5:3",
-                    bottom: "Toh Tuck Ave",
-                    bottomFont: "Mobitec-Tower6:4",
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "183B",
-                    top: "Ends At",
-                    topFont: "Mobitec-7:5:3",
-                    bottom: "(Aft Toh Tuck Link)",
-                    bottomFont: "Mobitec-Tower6:4",
+                    top: "TOH TUCK AVE",
                 }
             ]
         }
@@ -3571,20 +3502,13 @@ EDSData.TTSG = {
             destFont: "Mobitec-7:4",
             scrolls: [
                 {
-                    renderType: "TowerSpecialEDS",
+                    renderType: "destScroll",
                     serviceNumber: "",
-                    top: "~+",
-                    topFont: "Mobitec-Tower16:10",
-    
-                    text: "Tower Transit Logo"
-                },
-                {
-                    renderType: "TowerSpecialEDS",
-                    serviceNumber: "",
-                    top: "~+",
-                    topFont: "Mobitec-Tower16:10",
-    
-                    text: "Tower Transit Logo"
+                    top: "Moving People",
+                    topFont: "Mobitec-7:4",
+                    bottom: "Not Buses     ",
+                    bottomFont: "Mobitec-7:4",
+                    image: "logo-full",
                 },
             ]
         }
@@ -4230,15 +4154,12 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "",
-            destination: "858A OPP YISHUN STN",
+            destination: "858A YISHUN AVE 2",
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "858A",
-                    top: "Ends At",
-                    topFont: "Mobitec-7:5:3",
-                    bottom: "Opp Yishun Stn",
-                    bottomFont: "Mobitec-Tower6:4",
+                    top: "YISHUN AVE 2",
                 },
             ]
         }
@@ -4921,16 +4842,12 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "",
-            destination: "965A OPP YISHUN STN",
+            destination: "965A YISHUN AVE 2",
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "965A",
-                    top: "Ends At",
-                    topFont: "Mobitec-7:5:3",
-                    bottom: "Opp Yishun Stn",
-                    bottomFont: "Mobitec-Tower6:4",
-                    image: "mrt"
+                    top: "YISHUN AVE 2",
                 },
             ]
         }
@@ -5024,15 +4941,12 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "",
-            destination: "969A YISHUN STN",
+            destination: "969A YISHUN AVE 2",
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "969A",
-                    top: "Ends At",
-                    topFont: "Mobitec-7:5:3",
-                    bottom: "Yishun Stn",
-                    bottomFont: "Mobitec-Tower6:4",
+                    top: "YISHUN AVE 2",
                 },
             ]
         }
@@ -5072,19 +4986,6 @@ EDSData.TTSG = {
             serviceNumber: "981",
             destination: "SENOKO LOOP",
             scrolls: [
-                "CANBERRA RD",
-                "ADMIRALTY RD WEST",
-                "SENOKO DR",
-                "SENOKO RD",
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "981",
-                    top: "Welcome on board",
-                    topFont: "Hanover-7:3",
-                    bottom: "Tower Transit",
-                    bottomFont: "Hanover-7:3",
-                    image: "logo"
-                },
                 {
                     renderType: "destScroll",
                     serviceNumber: "981",
@@ -5383,6 +5284,24 @@ EDSImages.TTSG = {
         [0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 0],
         [0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 0, 1, 1, 1],
         [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    ],
+    'logo-full': [
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0],
+        [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 1, 0],
+        [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 0, 1, 1, 1],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     ],
     'the-cat': [ //Please Do not the cat
         [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],

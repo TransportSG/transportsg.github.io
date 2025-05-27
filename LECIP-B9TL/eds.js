@@ -6,7 +6,8 @@ let startupCodes = {
     'SMRT': '9117',
     'SMRT-old': '117',
     'SBST': '2222',
-    'TTSG': '6666',
+    'TTSG': '6667',
+    'TTSG-Original': '6666',
     'GASG': '2222'
 }
 

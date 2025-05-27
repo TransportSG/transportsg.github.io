@@ -4258,10 +4258,12 @@ EDSData.SBST = {
             },
             scrolls: [
             {
-                renderType: "swt",
+                renderType: "destScroll",
                 serviceNumber: "90A",
-                destinationRoad: "AIRPORT RD",
-                destinationName: "(PAYA LEBAR AIRBASE)"
+                top: "TERMINATES AT A'PORT RD",
+                topFont: "Mobitec-7:4",
+                bottom: "(PAYA LEBAR AIRBASE)",
+                bottomFont: "Mobitec-7:4",
             },
             ],
             scrollFont: "Mobitec-6:5"
@@ -4501,10 +4503,12 @@ EDSData.SBST = {
             },
             scrolls: [
             {
-                renderType: "swt",
+                renderType: "destScroll",
                 serviceNumber: "94A",
-                destinationRoad: "AIRPORT RD",
-                destinationName: "(BEF RSAF ROUNDABOUT)"
+                top: "TERMINATE AT AIRPORT RD",
+                topFont: "Mobitec-7:4",
+                bottom: "(BEF RSAF ROUNDABOUT)",
+                bottomFont: "Mobitec-7:4",
             },
             ],
             scrollFont: "Mobitec-6:5"
@@ -8626,8 +8630,8 @@ EDSData.SBST = {
             {
                 renderType: "swt",
                 serviceNumber: "240A",
-                destinationRoad: "BOON LAY",
-                destinationName: "WAY (LAKESIDE STN)"
+                destinationRoad: "BOON",
+                destinationName: "LAY WAY (LAKESIDE STN)"
             },
             ],
             scrollFont: "Mobitec-6:5"
@@ -8638,7 +8642,7 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "240M",
             destination: {
-                text: "BOON LAY WY-JUR WEST",
+                text: "BOON LAY WAY-JURONG W",
                 font: "Mobitec-7:4"
             },
             scrolls: [
@@ -8676,10 +8680,12 @@ EDSData.SBST = {
             },
             scrolls: [
             {
-                renderType: "swt",
+                renderType: "destScroll",
                 serviceNumber: "241A",
-                destinationRoad: "JUR W. ST",
-                destinationName: "63 (PIONEER STN EXIT B)"
+                top: "TERMINATES AT",
+                topFont: "Mobitec-6:5",
+                bottom: "PIONEER STN EXIT B",
+                bottomFont: "Mobitec-6:5",
             },
             ],
             scrollFont: "Mobitec-6:5"
