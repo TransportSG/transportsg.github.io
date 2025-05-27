@@ -8857,7 +8857,7 @@ EDSData.TTSG = {
                     serviceNumber: "",
                     top: "New Destination only format",
                     topFont: "Hanover-7:5",
-                    bottom: "w.e.f May 2025",
+                    bottom: "work in progress",
                     bottomFont: "Hanover-7:5",
                     image: "TTSRoundel"
                 },
@@ -8866,11 +8866,10 @@ EDSData.TTSG = {
                     serviceNumber: "",
                     top: "New Destination only format",
                     topFont: "Hanover-7:5",
-                    bottom: "work in progress",
+                    bottom: "w.e.f May 2025",
                     bottomFont: "Hanover-7:5",
                     image: "TTSRoundel"
                 },
-    
                 ],
                 scrollFont: "Hanover-7:5"
             },
@@ -8886,7 +8885,7 @@ EDSData.TTSG = {
         1: {
             front: {
                 renderType: "message",
-                text: "LECIP 220424",
+                text: "LECIP 270525",
                 font: "Hanover-Tower19:11",
                 spacing: 1
             },
@@ -8895,7 +8894,7 @@ EDSData.TTSG = {
                 top: "LECIP",
                 topFont: "Hanover-8:3", 
 
-                bottom: "220424",
+                bottom: "270525",
                 bottomFont: "Hanover-8:3"
             }
         }
