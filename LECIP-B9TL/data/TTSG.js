@@ -619,7 +619,7 @@ EDSFormats.TTSG = {
             font: "LECIP-19:TowerB9Front",
             spacing: {
                 $$cond: {
-                    "$spacing === null" : 3,
+                    "$spacing === null" : 2,
                     "else": "$svcSpacing"
                 }
             }
@@ -1266,22 +1266,18 @@ EDSData.TTSG = {
             }
         }
     },
-    78: {
+    78: { // Done
         1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "78",
-                destination: "CLEMENTI MRT",
+                destination: "CLEMENTI AVE 3",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [                    
-                    "PENJURU RD",
-                    "TANJONG PENJURU",
-                    "PANDAN RD / AVE",
-                    "WEST COAST RD",
                 {
                     renderType: "destScroll",
-                    top: "CLEMENTI MRT",
-                    topFont: "Hanover-Tower12:7",
+                    top: "CLEMENTI AVE 3",
+                    topFont: "Hanover-17:10",
             
                     serviceNumber: "78"
                 },
@@ -1302,16 +1298,12 @@ EDSData.TTSG = {
                 destination: "JURONG TOWN HALL",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [                    
-                    "WEST COAST RD",
-                    "PANDAN RD",
-                    "TANJONG PENJURU",
-                    "PENJURU RD",
                 {
-                    renderType: "destScroll",
+                    renderType: "destScroll2",
                     top: "JURONG TOWN HALL",
-                    topFont: "Hanover-Tower12:7",
-            
-                    serviceNumber: "78"
+                    topFont: "Hanover-17:6",
+        
+                    serviceNumber: "78",
                 },
                 ],
                 scrollFont: "Hanover-Tower7:5"
@@ -1392,7 +1384,7 @@ EDSData.TTSG = {
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [     
                 {
-                    renderType: "destScroll",
+                    renderType: "destScroll2",
                     top: "JURONG TOWN HALL",
                     topFont: "Hanover-17:6",
         
@@ -1743,24 +1735,18 @@ EDSData.TTSG = {
             }
         }
     },
-    98: {
+    98: { // Done
         1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "98",
                 destination: "JURONG PIER WAY",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [                    
-                    "JURONG EAST AVE 1",
-                    'JURONG WEST AVE 1',
-                    "LAKESIDE MRT",
-                    "CORPORATION DR",
-                    "JURONG PORT RD",
-                    "JALAN BUROH",     
+                scrolls: [                       
                 {
-                    renderType: "destScroll",
+                    renderType: "destScroll2",
                     top: "JUORNG PIER WAY",
-                    topFont: "Hanover-Tower12:7",
+                    topFont: "Hanover-17:6",
     
                     serviceNumber: "98"
                 }, 
@@ -1785,15 +1771,10 @@ EDSData.TTSG = {
                 destination: "JURONG EAST",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [                    
-                    "JURONG PORT RD",
-                    "CORPORATION DR",
-                    "LAKESIDE MRT",
-                    "JURONG WEST AVE 1",
-                    "JURONG EAST AVE 1",
                 {
                     renderType: "destScroll",
                     top: "JURONG EAST",
-                    topFont: "Hanover-Tower12:7",
+                    topFont: "Hanover-17:11",
     
                     serviceNumber: "98"
                 },
@@ -1882,33 +1863,20 @@ EDSData.TTSG = {
             }
         }
     },
-    "98M": {
+    "98M": { // Done
         1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "98M",
                 destination: "CORPORATION RD",
                 destinationFont: "Hanover-Tower11:7",
-                scrolls: [                    
-                    "JURONG EAST AVE 1",
-                    'JURONG WEST AVE 1',
-                    "LAKESIDE MRT",
-                    "CORPORATION DR",         
+                scrolls: [                          
                 {
-                    renderType: "destScroll",
+                    renderType: "destScroll2",
                     top: "CORPORATION RD",
-                    topFont: "Hanover-Tower12:7",
+                    topFont: "Hanover-17:6",
     
                     serviceNumber: "98M"
-                },
-                {
-                    renderType: "message4",
-                    serviceNumber: "98M",
-                    top: "LOOPS AT",
-                    topFont: "Hanover-8",
-
-                    bottom: "CORPORATION RD",
-                    bottomFont: "Hanover-Tower11:7"
                 },
                 ],
                 scrollFont: "Hanover-Tower7:5"
@@ -1927,17 +1895,13 @@ EDSData.TTSG = {
                 destination: "JURONG EAST",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [                    
-                    "CORPORATION DR",
-                    "LAKESIDE MRT",
-                    "JURONG WEST AVE 1",
-                    "JURONG EAST AVE 1",
                 {
                     renderType: "destScroll",
                     top: "JURONG EAST",
-                    topFont: "Hanover-Tower12:7",
+                    topFont: "Hanover-17:11",
     
                     serviceNumber: "98M"
-                },
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -2550,7 +2514,7 @@ EDSData.TTSG = {
             }
         }
     },
-    173: {
+    173: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -2558,18 +2522,13 @@ EDSData.TTSG = {
                 destination: "CLEMENTI",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [                    
-                    "BUKIT BATOK EAST AVE 4",
-                    "HILLVIEW AVE",
-                    "HUME AVE",
-                    "BEAUTY WORLD MRT",
-                    "TOH TUCK RD / TERRACE",
-                {
+               {
                     renderType: "destScroll",
                     top: "CLEMENTI",
-                    topFont: "Hanover-Tower12:7",
-        
+                    topFont: "Hanover-17:11",
+    
                     serviceNumber: "173"
-                },
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -2591,20 +2550,15 @@ EDSData.TTSG = {
                 destination: "BUKIT BATOK",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [                    
-                    "TOH TUCK RD / RISE",
-                    "BEAUTY WORLD MRT",
-                    "HUME AVE",
-                    "JALAN BATU NILAM",
-                    "BUKIT BATOK EAST AVE 4",
-                    {
-                        renderType: "destScroll",
-                        top: "BUKIT BATOK",
-                        topFont: "Hanover-Tower12:7",
-            
-                        serviceNumber: "173"
-                    },
-                    ],
-                    scrollFont: "Hanover-Tower7:5"
+               {
+                    renderType: "destScroll",
+                    top: "BUKIT BATOK",
+                    topFont: "Hanover-17:11",
+    
+                    serviceNumber: "173"
+                }, 
+                ],
+                scrollFont: "Hanover-Tower7:5"
             },
             rear: {
                 renderType: "twolinerear",
@@ -2653,7 +2607,7 @@ EDSData.TTSG = {
             }
         }
     },
-    177: {
+    177: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -2661,17 +2615,13 @@ EDSData.TTSG = {
                 destination: "BUKIT PANJANG",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [                    
-                    "BUKIT BATOK EAST AVE 4",
-                    "HILLVIEW AVE",
-                    "MINDEF",
-                    "UPPER BUKIT TIMAH RD",
-                {
+               {
                     renderType: "destScroll",
-                    top: "BUKIT PANJANG",
-                    topFont: "Hanover-Tower12:7",
-        
+                    top: "JELEBU RD",
+                    topFont: "Hanover-17:11",
+    
                     serviceNumber: "177"
-                },
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -2708,20 +2658,15 @@ EDSData.TTSG = {
                 destination: "BUKIT BATOK",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [                    
-                    "JELEBU RD",
-                    "UPPER BUKIT TIMAH RD",
-                    "MINDEF",
-                    "HILLVIEW AVE",
-                    "BUKIT BATOK EAST AVE 4",
-                    {
-                        renderType: "destScroll",
-                        top: "BUKIT BATOK",
-                        topFont: "Hanover-Tower12:7",
-            
-                        serviceNumber: "177"
-                    },
-                    ],
-                    scrollFont: "Hanover-Tower7:5"
+                {
+                    renderType: "destScroll",
+                    top: "BUKIT BATOK",
+                    topFont: "Hanover-17:11",
+    
+                    serviceNumber: "177"
+                }, 
+                ],
+                scrollFont: "Hanover-Tower7:5"
             },
             rear: {
                 renderType: "twolinerear",
@@ -2744,7 +2689,7 @@ EDSData.TTSG = {
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [                    
                 {
-                    renderType: "destScroll",
+                    renderType: "destScroll2",
                     top: "SCIENCE PARK RD",
                     topFont: "Hanover-17:6",
         
@@ -2820,7 +2765,7 @@ EDSData.TTSG = {
             }
         }
     },
-    189: {
+    189: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -2829,9 +2774,9 @@ EDSData.TTSG = {
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [                    
                 {
-                    renderType: "destScroll3",
-                    top: "CLEMENTI|AVE|1",
-                    topFont: "Hanover-13:6",
+                    renderType: "destScroll",
+                    top: "CLEMENTI AVE 1",
+                    topFont: "Hanover-17:10",
             
                     serviceNumber: "189"
                 }, 
@@ -2852,19 +2797,15 @@ EDSData.TTSG = {
                 destination: "BUKIT BATOK",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [                    
-                    "CLEMENTI MRT",
-                    "CLEMENTI AVE 6",
-                    "BUKIT BATOK ST 23",
-                    "BUKIT BATOK EAST AVE 6",
-                    {
-                        renderType: "destScroll",
-                        top: "BUKIT BATOK",
-                        topFont: "Hanover-Tower12:7",
-            
-                        serviceNumber: "189"
-                    },
-                    ],
-                    scrollFont: "Hanover-Tower7:5"
+                {
+                    renderType: "destScroll",
+                    top: "BUKIT BATOK",
+                    topFont: "Hanover-17:11",
+    
+                    serviceNumber: "189"
+                }, 
+                ],
+                scrollFont: "Hanover-Tower7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -6574,7 +6515,7 @@ EDSData.TTSG = {
             }
         }
     },
-   992: {
+   992: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -6582,17 +6523,13 @@ EDSData.TTSG = {
                 destination: "TENGAH",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [                    
-                "BUKIT BATOK WEST AVE 6",
-                "BUKIT BATOK WEST AVE 8",
-                "BUKIT BATOK RD",
-                "PLANTATION CRESCENT",
                 {
                     renderType: "destScroll",
                     top: "TENGAH",
-                    topFont: "Hanover-Tower12:7",
-        
+                    topFont: "Hanover-17:11",
+    
                     serviceNumber: "992"
-                },
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -6610,185 +6547,13 @@ EDSData.TTSG = {
                 destination: "BUKIT BATOK",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [                    
-                    "PLANTATION CRESCENT",
-                    "BUKIT BATOK RD",
-                    "BUKIT BATOK WEST AVE 8",
-                    "BUKIT BATOK WEST AVE 6",
-                    {
-                        renderType: "destScroll",
-                        top: "BUKIT BATOK",
-                        topFont: "Hanover-Tower12:7",
-            
-                        serviceNumber: "992"
-                    },
-                    ],
-                    scrollFont: "Hanover-Tower7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "992",
-                font: "LECIP-TowerRear17:10",
-                spacing: 1
-            }
-        }
-    },
-    "992T": {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "992",
-                destination: "TENGAH",
-                destinationFont: "Hanover-Tower11:7",
-                scrolls: [                    
-                "BUKIT BATOK WEST AVE 6",
-                "BUKIT BATOK WEST AVE 8",
-                "BUKIT BATOK RD",
-                "PLANTATION CRESCENT",
-                "TENGAH BOULEVARD",
                 {
                     renderType: "destScroll",
-                    top: "TENGAH",
-                    topFont: "Hanover-Tower12:7",
-        
+                    top: "BUKIT BATOK",
+                    topFont: "Hanover-17:11",
+    
                     serviceNumber: "992"
-                },
-                ],
-                scrollFont: "Hanover-Tower7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "992",
-                font: "LECIP-TowerRear17:10",
-                spacing: 1
-            }
-        },
-        2: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "992",
-                destination: "BUKIT BATOK",
-                destinationFont: "Hanover-Tower11:7",
-                scrolls: [                    
-                    "PLANTATION CRESCENT",
-                    "BUKIT BATOK RD",
-                    "BUKIT BATOK WEST AVE 8",
-                    "BUKIT BATOK WEST AVE 6",
-                    {
-                        renderType: "destScroll",
-                        top: "BUKIT BATOK",
-                        topFont: "Hanover-Tower12:7",
-            
-                        serviceNumber: "992"
-                    },
-                    ],
-                    scrollFont: "Hanover-Tower7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "992",
-                font: "LECIP-TowerRear17:10",
-                spacing: 1
-            }
-        }
-    },
-    "992A": {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "992A",
-                destination: "TENGAH BOULEVARD",
-                destinationFont: "Hanover-10",
-                scrolls: [{
-                    renderType: "message4",
-                    serviceNumber: "992A",
-                    top: "ENDS AT",
-                    topFont: "Hanover-Tower11:7",
-                    bottom: "TENGAH BOULEVARD",
-                    bottomFont: "Hanover-Tower8",
-                    },
-                    {
-                    renderType: "message4",
-                    serviceNumber: "992A",
-                    top: "ENDS AT",
-                    topFont: "Hanover-Tower11:7",
-                    bottom: "BLK 132B",
-                    bottomFont: "Hanover-Tower8",                        
-                    },
-                ],
-                scrollFont: "Hanover-7:5"
-            },
-            rear: { 
-                renderType: "rearService",
-                serviceNumber: "992A",
-                font: "LECIP-TowerRear17:7",
-                spacing: 1
-            }
-        }
-    },
-    "992N": {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "992",
-                destination: "TENGAH",
-                destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                        renderType: "944to992",
-                        serviceNumber: "944>992",
-                        top: "Start from",
-                        topFont: "Lecip-Tower6:5",
-
-                        bottom: " 24 Sep 2023",
-                        bottomFont: "Lecip-Tower6:5"
-                    },
-                    {
-                        renderType: "destScroll",
-                        top: "TENGAH",
-                        topFont: "Hanover-Tower12:7",
-            
-                        serviceNumber: "992"
-                    },
-                    "BUKIT BATOK WEST AVE 6",
-                    "BUKIT BATOK WEST AVE 8",
-                    "BUKIT BATOK RD",
-                    "PLANTATION CRESCENT",
-                    "TENGAH BOULEVARD"
-                ],
-                scrollFont: "Hanover-Tower7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "992",
-                font: "LECIP-TowerRear17:10",
-                spacing: 1
-            }
-        },
-        2: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "992",
-                destination: "BUKIT BATOK",
-                destinationFont: "Hanover-Tower11:7",
-                scrolls: [{
-                        renderType: "944to992",
-                        serviceNumber: "944>992",
-                        top: "Start from",
-                        topFont: "Lecip-Tower6:5",
-
-                        bottom: " 24 Sep 2023",
-                        bottomFont: "Lecip-Tower6:5"
-                    },
-                    {
-                        renderType: "destScroll",
-                        top: "BUKIT BATOK",
-                        topFont: "Hanover-Tower12:7",
-            
-                        serviceNumber: "992"
-                    },
-                    "PLANTATION CRESCENT",
-                    "BUKIT BATOK RD",
-                    "BUKIT BATOK WEST AVE 8",
-                    "BUKIT BATOK WEST AVE 6"
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
