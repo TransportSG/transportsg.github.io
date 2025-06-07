@@ -1778,8 +1778,8 @@ EDSData.TTSG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "97e",
-                destination: "CENTRAL BOULEVARD",
-                destinationFont: "Hanover-Tower11:7",
+                destination: "(e) CENTRAL BOULEVARD",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [   
                 {
                     renderType: "destScroll",
@@ -4279,8 +4279,8 @@ EDSData.TTSG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "857B",
-                destination: "STAMFORD RD",
-                destinationFont: "Hanover-Tower11:7",
+                destination: "(B) STAMFORD RD",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [                    
                 {
                     renderType: "destScroll",
@@ -4301,9 +4301,9 @@ EDSData.TTSG = {
                     serviceNumber: "857B"
                 }, 
                 {
-                    renderType: "destScroll",
+                    renderType: "destScroll2",
                     top: "STAMFORD RD",
-                    topFont: "Hanover-17:10",
+                    topFont: "Hanover-17:6",
     
                     serviceNumber: "857B"
                 }, 
