@@ -873,23 +873,12 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "",
-            destination: "96A KENT RIDGE CRESCENT",
+            destination: "96A KENT RIDGE CRES",
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "96A",
-                    top: "Ends At",
-                    topFont: "Mobitec-7:5:3",
-                    bottom: "Kent Ridge Cres",
-                    bottomFont: "Mobitec-Tower6:4",
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "96A",
-                    top: "Ends At",
-                    topFont: "Mobitec-7:5:3",
-                    bottom: "(NUS Raffles Hall)",
-                    bottomFont: "Mobitec-Tower6:4",
+                    top: "KENT RIDGE CRES",
                 }
             ]
         }
@@ -1559,24 +1548,10 @@ EDSData.TTSG = {
             serviceNumber: "183",
             destination: "SCIENCE PARK RD",
             scrolls: [
-                "TOH GUAN RD EAST",
-                "CLEMENTI MRT",
-                "CLEMENTI RD",
-                "PASIR PANJANG RD",
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "183",
-                    top: "Welcome on board",
-                    topFont: "Hanover-7:3",
-                    bottom: "Tower Transit",
-                    bottomFont: "Hanover-7:3",
-                    image: "logo"
-                },
                 {
                     renderType: "destScroll",
                     serviceNumber: "183",
                     top: "SCIENCE PARK RD",
-
                 }
             ]
         }
@@ -1647,18 +1622,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "189A",
-                    top: "Ends At",
-                    topFont: "Mobitec-7:5:3",
-                    bottom: "Bukit Batok St 23",
-                    bottomFont: "Mobitec-Tower6:4",
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "189A",
-                    top: "Ends At",
-                    topFont: "Mobitec-7:5:3",
-                    bottom: "(Opp Midview Bldg)",
-                    bottomFont: "Mobitec-Tower6:4",
+                    top: "BT BATOK ST 23",
                 }
             ]
         }
@@ -3980,11 +3944,9 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "856A",
-                    top: "ENDS AT",
-                    topFont: "Mobitec-7:5:3",
-                    bottom: "Woodlands Train Checkpoint",
-                    bottomFont: "Hanover-6:3",
-                },
+                    top: "WOODLANDS CENTRE RD",
+                    topFont: "Mobitec-Tower9:4",
+                }
             ]
         }
     },
@@ -3997,19 +3959,8 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "856B",
-                    top: "ENDS AT",
-                    topFont: "Mobitec-7:5:3",
-                    bottom: "Canberra Rd",
-                    bottomFont: "Mobitec-Tower6:4",
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "856B",
-                    top: "ENDS AT",
-                    topFont: "Mobitec-7:5:3",
-                    bottom: "(Aft Admiral Hill)",
-                    bottomFont: "Mobitec-Tower6:4",
-                },
+                    top: "CANBERRA RD",
+                }
             ]
         }
     },
@@ -4049,12 +4000,9 @@ EDSData.TTSG = {
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "857A",
-                    top: "Ends At",
-                    topFont: "Mobitec-7:5:3",
-                    bottom: "Opp Sunrise Gdns",
-                    bottomFont: "Mobitec-Tower6:4",
-                },
+                    serviceNumber: "857",
+                    top: "YIO CHU KANG RD",
+                }
             ]
         }
     },
@@ -4067,11 +4015,8 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "857B",
-                    top: "Ends At",
-                    topFont: "Mobitec-7:5:3",
-                    bottom: "Promenade Stn",
-                    bottomFont: "Mobitec-Tower6:4",
-                },
+                    top: "TEMASEK AVE",
+                }
             ]
         }
     },
@@ -4230,40 +4175,31 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "859A",
-            destination: "SEMBAWANG",
+            destination: "SEMBAWANG DR",
             scrolls: [
-                "CANBERRA RD",
-                "ADMIRALTY LINK",
-                "ADMIRALTY DR",
-                "SEMBWAWANG CRES",
                 {
                     renderType: "destScroll",
                     serviceNumber: "859A",
-                    top: "Welcome on board",
-                    topFont: "Hanover-7:3",
-                    bottom: "Tower Transit",
-                    bottomFont: "Hanover-7:3",
-                    image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "859A",
-                    top: "Have a pleasant",
-                    topFont: "Hanover-7:3",
-                    bottom: "journey!",
-                    bottomFont: "Hanover-7:3",
-                    image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "859A",
-                    top: "SEMBAWANG",
-                    image: "mrt"
+                    top: "SEMBAWANG DR",
                 }
             ]
         }
     },
     8594: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "859A",
+            destination: "SEMBAWANG",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "859A",
+                    top: "SEMBAWANG",
+                }
+            ]
+        }
+    },
+    8595: {
         front: {
             renderType: "standardService",
             serviceNumber: "859B",
@@ -4277,20 +4213,31 @@ EDSData.TTSG = {
             ]
         }
     },
-    8595: {
+    8596: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "859B",
+            destination: "SEMBAWANG",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "859B",
+                    top: "SEMBAWANG",
+                }
+            ]
+        }
+    },
+    8597: {
         front: {
             renderType: "standardService",
             serviceNumber: "",
-            destination: "859T YISHUN INT",
+            destination: "859T YISHUN",
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "859T",
-                    top: "Ends At",
-                    topFont: "Mobitec-7:5:3",
-                    bottom: "Yishun Int",
-                    bottomFont: "Mobitec-Tower6:4",
-                },
+                    top: "YISHUN",
+                }
             ]
         }
     },
@@ -4331,21 +4278,8 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "861A",
-                    top: "Ends At",
-                    topFont: "Mobitec-7:5:3",
-                    bottom: "Yishun Ring Rd",
-                    bottomFont: "Mobitec-Tower6:4",
-                    image: "mrt"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "861A",
-                    top: "Ends At",
-                    topFont: "Mobitec-7:5:3",
-                    bottom: "(Khatib Stn Exit D)",
-                    bottomFont: "Mobitec-Tower6:4",
-                    image: "mrt"
-                },
+                    top: "YISHUN RING RD"
+                }
             ]
         }
     },
@@ -4444,18 +4378,8 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "871A",
-                    top: "Ends At",
-                    topFont: "Mobitec-7:5:3",
-                    bottom: "Bukit Batok East Ave 2",
-                    bottomFont: "Mobitec-Tower6:4",
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "871A",
-                    top: "Ends At",
-                    topFont: "Mobitec-7:5:3",
-                    bottom: "(Blk 240)",
-                    bottomFont: "Mobitec-Tower6:4",
+                    top: "BT BATOK EAST AVE 2",
+                    topFont: "Mobitec-Tower9:4",
                 }
             ]
         }
@@ -4492,24 +4416,13 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "",
-            destination: "882A MONTREAL LINK",
+            destination: "882A MONTREAL LK",
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "882A",
-                    top: "Ends At",
-                    topFont: "Mobitec-7:5:3",
-                    bottom: "Montreal Link",
-                    bottomFont: "Mobitec-Tower6:4",
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "882A",
-                    top: "Ends At",
-                    topFont: "Mobitec-7:5:3",
-                    bottom: "(Blk 592A)",
-                    bottomFont: "Mobitec-Tower6:4",
-                },
+                    top: "MONTREAL LK"
+                }
             ]
         }
     },
@@ -4519,25 +4432,10 @@ EDSData.TTSG = {
             serviceNumber: "883",
             destination: "YISHUN CTRL 2",
             scrolls: [
-                "CANBERRA WAY",
-                "CANBERRA ST",
-                "CANBERRA MRT",
-                "YISHUN AVE 2",
-                "YISHUN MRT",
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "883",
-                    top: "Welcome on board",
-                    topFont: "Hanover-7:3",
-                    bottom: "Tower Transit",
-                    bottomFont: "Hanover-7:3",
-                    image: "logo"
-                },
                 {
                     renderType: "destScroll",
                     serviceNumber: "883",
                     top: "YISHUN CTRL 2",
-                    bottom: "(YISHUN COMMUNITY HOSP)",
                 }
             ]
         }
@@ -4560,48 +4458,12 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "",
-            destination: "883A CANBERRA WAY",
-            scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "883A",
-                    top: "Ends At",
-                    topFont: "Mobitec-7:5:3",
-                    bottom: "Canberra Way",
-                    bottomFont: "Mobitec-Tower6:4",
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "883A",
-                    top: "Ends At",
-                    topFont: "Mobitec-7:5:3",
-                    bottom: "(Blk 129A)",
-                    bottomFont: "Mobitec-Tower6:4",
-                }
-            ]
-        }
-    },
-    8834: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "",
             destination: "883B SEMBAWANG RD",
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "883B",
-                    top: "Ends At",
-                    topFont: "Mobitec-7:5:3",
-                    bottom: "Sembawang Rd",
-                    bottomFont: "Mobitec-Tower6:4",
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "883B",
-                    top: "Ends At",
-                    topFont: "Mobitec-7:5:3",
-                    bottom: "(Opp Blk 590C)",
-                    bottomFont: "Mobitec-Tower6:4",
+                    serviceNumber: "883A",
+                    top: "SEMBAWANG RD",
                 }
             ]
         }
@@ -4612,20 +4474,6 @@ EDSData.TTSG = {
             serviceNumber: "883M",
             destination: "YISHUN AVE 5",
             scrolls: [
-                "CANBERRA WAY",
-                "CANBERRA ST",
-                "CANBERRA MRT",
-                "YISHUN AVE 7",
-                "YISHUN AVE 5",
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "883M",
-                    top: "Welcome on board",
-                    topFont: "Hanover-7:3",
-                    bottom: "Tower Transit",
-                    bottomFont: "Hanover-7:3",
-                    image: "logo"
-                },
                 {
                     renderType: "destScroll",
                     serviceNumber: "883M",
@@ -4640,25 +4488,10 @@ EDSData.TTSG = {
             serviceNumber: "883M",
             destination: "SEMBAWANG",
             scrolls: [
-                "YISHUN MRT",
-                "YISHUN AVE 2",
-                "CANBERRA MRT",
-                "CANBERRA ST",
-                "CANBERRA WAY",
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "883M",
-                    top: "Welcome on board",
-                    topFont: "Hanover-7:3",
-                    bottom: "Tower Transit",
-                    bottomFont: "Hanover-7:3",
-                    image: "logo"
-                },
                 {
                     renderType: "destScroll",
                     serviceNumber: "883M",
                     top: "SEMBAWANG",
-                    image: "mrt"
                 }
             ]
         }
