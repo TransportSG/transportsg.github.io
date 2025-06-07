@@ -1318,6 +1318,15 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     top: "SKIP",
                     topFont: "Hanover-8:5:1",
+                    bottom: "BRAS BASAH RD",
+                    bottomFont: "Hanover-11:7",
+            
+                    serviceNumber: "77"
+                }, 
+                {
+                    renderType: "destScroll",
+                    top: "SKIP",
+                    topFont: "Hanover-8:5:1",
                     bottom: "MARINA CENTRE",
                     bottomFont: "Hanover-11:7",
             
@@ -3288,6 +3297,96 @@ EDSData.TTSG = {
             }
         }
     },
+    "656F": { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "656",
+                destination: "SHENTON WAY",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [  
+                {
+                    renderType: "destScroll",
+                    top: "SKIP",
+                    topFont: "Hanover-8:5:1",
+                    bottom: "BRAS BASAH RD",
+                    bottomFont: "Hanover-11:7",
+            
+                    serviceNumber: "656"
+                },
+                {
+                    renderType: "destScroll",
+                    top: "SKIP",
+                    topFont: "Hanover-8:5:1",
+                    bottom: "COLLYER QUAY",
+                    bottomFont: "Hanover-11:7",
+            
+                    serviceNumber: "656"
+                },                  
+                {
+                    renderType: "CDSdestScroll",
+                    top: "CITY DIRECT",
+                    topFont: "Hanover-5:3",
+                    bottom: "SHENTON WAY",
+                    bottomFont: "Hanover-11:7",
+            
+                    serviceNumber: "656"
+                }, 
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "656",
+                font: "LECIP-TowerRear17:10",
+                spacing: 1
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "656",
+                destination: "CANBERRA RD",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [   
+                {
+                    renderType: "destScroll",
+                    top: "SKIP",
+                    topFont: "Hanover-8:5:1",
+                    bottom: "FULLERTON RD",
+                    bottomFont: "Hanover-11:7",
+            
+                    serviceNumber: "656"
+                },  
+                {
+                    renderType: "destScroll",
+                    top: "SKIP",
+                    topFont: "Hanover-8:5:1",
+                    bottom: "ESPLANADE DR",
+                    bottomFont: "Hanover-11:7",
+            
+                    serviceNumber: "656"
+                },                 
+                {
+                    renderType: "CDSdestScroll",
+                    top: "CITY DIRECT",
+                    topFont: "Hanover-5:3",
+                    bottom: "CANBERRA RD",
+                    bottomFont: "Hanover-11:7",
+            
+                    serviceNumber: "656"
+                }, 
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "656",
+                font: "LECIP-TowerRear17:10",
+                spacing: 1
+            }
+        }
+    },
     657: { // Done
         1: {
             front: {
@@ -3376,6 +3475,96 @@ EDSData.TTSG = {
                 destination: "YISHUN AVE 6",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [                    
+                {
+                    renderType: "CDSdestScroll",
+                    top: "CITY DIRECT",
+                    topFont: "Hanover-5:3",
+                    bottom: "YISHUN AVE 6",
+                    bottomFont: "Hanover-11:7",
+            
+                    serviceNumber: "663"
+                }, 
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "663",
+                font: "LECIP-TowerRear17:10",
+                spacing: 1
+            }
+        }
+    },
+    "663F": { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "663",
+                destination: "SHENTON WAY",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [  
+                {
+                    renderType: "destScroll",
+                    top: "SKIP",
+                    topFont: "Hanover-8:5:1",
+                    bottom: "BRAS BASAH RD",
+                    bottomFont: "Hanover-11:7",
+            
+                    serviceNumber: "663"
+                },
+                {
+                    renderType: "destScroll",
+                    top: "SKIP",
+                    topFont: "Hanover-8:5:1",
+                    bottom: "COLLYER QUAY",
+                    bottomFont: "Hanover-11:7",
+            
+                    serviceNumber: "663"
+                },                    
+                {
+                    renderType: "CDSdestScroll",
+                    top: "CITY DIRECT",
+                    topFont: "Hanover-5:3",
+                    bottom: "SHENTON WAY",
+                    bottomFont: "Hanover-11:7",
+            
+                    serviceNumber: "663"
+                }, 
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "663",
+                font: "LECIP-TowerRear17:10",
+                spacing: 1
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "663",
+                destination: "YISHUN AVE 6",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [ 
+                {
+                    renderType: "destScroll",
+                    top: "SKIP",
+                    topFont: "Hanover-8:5:1",
+                    bottom: "FULLERTON RD",
+                    bottomFont: "Hanover-11:7",
+            
+                    serviceNumber: "663"
+                },  
+                {
+                    renderType: "destScroll",
+                    top: "SKIP",
+                    topFont: "Hanover-8:5:1",
+                    bottom: "ESPLANADE DR",
+                    bottomFont: "Hanover-11:7",
+            
+                    serviceNumber: "663"
+                },                       
                 {
                     renderType: "CDSdestScroll",
                     top: "CITY DIRECT",
@@ -4043,6 +4232,92 @@ EDSData.TTSG = {
             }
         }
     },  
+    "857F": { // Done
+        1: {
+            front: {
+                renderType: "standardService2",
+                serviceNumber: "857",
+                destination: "STAMFORD RD",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                {
+                    renderType: "destScroll",
+                    top: "SKIP",
+                    topFont: "Hanover-8:5:1",
+                    bottom: "BRAS BASAH RD",
+                    bottomFont: "Hanover-11:7",
+            
+                    serviceNumber: "857"
+                }, 
+                {
+                    renderType: "destScroll",
+                    top: "SKIP",
+                    topFont: "Hanover-8:5:1",
+                    bottom: "MARINA CENTRE",
+                    bottomFont: "Hanover-11:7",
+            
+                    serviceNumber: "857"
+                }, 
+                {
+                    renderType: "destScroll",
+                    top: "STAMFORD RD",
+                    topFont: "Hanover-17:10",
+    
+                    serviceNumber: "857"
+                }, 
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "857",
+                font: "LECIP-TowerRear17:10",
+                spacing: 1
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "857B",
+                destination: "STAMFORD RD",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                {
+                    renderType: "destScroll",
+                    top: "SKIP",
+                    topFont: "Hanover-8:5:1",
+                    bottom: "BRAS BASAH RD",
+                    bottomFont: "Hanover-11:7",
+            
+                    serviceNumber: "857B"
+                }, 
+                {
+                    renderType: "destScroll",
+                    top: "SKIP",
+                    topFont: "Hanover-8:5:1",
+                    bottom: "MARINA CENTRE",
+                    bottomFont: "Hanover-11:7",
+            
+                    serviceNumber: "857B"
+                }, 
+                {
+                    renderType: "destScroll",
+                    top: "STAMFORD RD",
+                    topFont: "Hanover-17:10",
+    
+                    serviceNumber: "857B"
+                }, 
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "857B",
+                font: "LECIP-TowerRear17:7",
+                spacing: 1
+            }
+        }
+    }, 
     858: { // Bomb
         1: {
             front: {
