@@ -216,14 +216,14 @@ EDSData.GASG = {
         1: {
             front: {
                 renderType: "message",
-                text: "GASG BUSES",
+                text: "GASG",
                 font: "Arial-12",
                 spacing: 2
             },
             pids: {
                 renderType: "pids",
                 serviceNumber: "",
-                destination: "GASG BUSES",
+                destination: "GASG",
                 scrolls: [""]
             }
         }
@@ -472,7 +472,7 @@ EDSData.GASG = {
         1: {
             front: {
                 renderType: "logo",
-                text: "GASG BUSES",
+                text: "GASG",
                 image: "logo"
             },
             pids: {
