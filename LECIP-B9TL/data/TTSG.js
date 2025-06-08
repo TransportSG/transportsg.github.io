@@ -5491,7 +5491,7 @@ EDSData.TTSG = {
                 destinationFont: "Hanover-10",
                 scrolls: [
                     {
-                        renderType: "destScroll3",
+                        renderType: "destScroll",
                         top: "MARINE PARADE RD",
                         topFont: "Hanover-14:6",
             

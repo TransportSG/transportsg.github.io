@@ -8505,11 +8505,18 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "230M",
             destination: {
-                text: "",
-                font: "Mobitec-7:5:2"
+                text: "TOA PAYOH INT - KIM KEAT AVE",
+                font: "Mobitec-7:4"
             },
             scrolls: [
-                ""
+            {
+                renderType: "destScroll",
+                serviceNumber: "230M",
+                top: "TOA PAYOH INT -",
+                topFont: "Mobitec-7:4",
+                bottom: "KIM KEAT AVE (LOOP)",
+                bottomFont: "Mobitec-7:4",
+            },
             ],
             scrollFont: "Mobitec-6:5"
         }

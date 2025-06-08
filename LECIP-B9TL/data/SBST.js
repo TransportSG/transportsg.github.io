@@ -14252,6 +14252,36 @@ EDSData.SBST = {
             }
         }
     },
+    "230M": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "230M",
+                destination: "TOA PAYOH INT - KIM KEAT AVE (LOOP)",
+                destinationFont: "LECIP-6:3",
+                scrolls: [
+                {
+                    renderType: "centreMessageServiceScroll",
+
+                    top: "TOA PAYOH INT - ",
+                    topFont: "LECIP-7:5",
+
+                    bottom: "KIM KEAT AVE (LOOP)",
+                    bottomFont: "LECIP-7:5",
+
+                    serviceNumber: "230M",
+                },  
+                ],
+                scrollFont: "LECIP-6:3"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "230M",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
     "230T": {
         1: {
             front: {
@@ -14271,26 +14301,6 @@ EDSData.SBST = {
                 renderType: "rearService",
                 serviceNumber: "230",
                 font: "LECIP-20:9",
-                spacing: 2
-            }
-        }
-    },
-    "230M": {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "230M",
-                destination: " ",
-                destinationFont: "LECIP-6:3",
-                scrolls: [
-                    "",
-                ],
-                scrollFont: "LECIP-6:3"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "230M",
-                font: "LECIP-20:6",
                 spacing: 2
             }
         }
