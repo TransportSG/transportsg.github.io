@@ -4858,6 +4858,56 @@ EDSData.TTSG = {
             }
         }
     },
+    872: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "872",
+                destination: "JURONG EAST ST 32",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                {
+                    renderType: "destScroll",
+                    top: "JURONG EAST ST 32",
+                    topFont: "Hanover-17:6",
+    
+                    serviceNumber: "872"
+                }, 
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "872",
+                font: "LECIP-TowerRear17:10",
+                spacing: 1
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "872",
+                destination: "TENGAH",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                {
+                    renderType: "destScroll",
+                    top: "TENGAH",
+                    topFont: "Hanover-17:11",
+        
+                    serviceNumber: "872"
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "872",
+                font: "LECIP-TowerRear17:10",
+                spacing: 1
+            }
+        }
+    },
     "882": { // Done
         1: {
             front: {

@@ -4384,6 +4384,35 @@ EDSData.TTSG = {
             ]
         }
     },
+    8721: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "872",
+            destination: "JURONG EAST ST 32",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "871",
+                    top: "JURONG EAST ST 32",
+                    topFont: "Mobitec-Tower9:4",
+                }
+            ]
+        }
+    },
+    8722: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "872",
+            destination: "TENGAH",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "872",
+                    top: "TENGAH",
+                }
+            ]
+        }
+    },
     8821: {
         front: {
             renderType: "standardService",
