@@ -606,6 +606,26 @@ EDSData.SMRT = {
             }
         }
     },
+    7: { // Done
+        1: {
+            front: {
+                renderType: 'message',
+                text: 'OUT OF SERVICE',
+                font: 'Arial-12',
+                spacing: 1,
+                marginTop: 4
+            },
+            rear: { 
+                renderType: 'twoline',
+                top: "OUT OF",
+                topFont: "LECIP-6:4",
+
+                bottom: "SERVICE",
+                bottomFont: "LECIP-6:4",
+                bottomMargin: 1
+            }
+        }
+    },
     12: {
         1: {
             front: {
