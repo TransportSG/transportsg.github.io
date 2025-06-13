@@ -2402,6 +2402,14 @@ EDSData['SMRT (PostSLBP)'] = {
                 font: "Mobitec-7:5:1"
             },
             scrolls: [
+                {
+                    renderType: "SLBPdestScroll",
+                    serviceNumber: "258M",
+                    top: "JOO KOON",
+                    bottom: "INT / MRT",
+                    topFont: "Mobitec-7:7",
+                    bottomFont: "Mobitec-7:7"
+                },
                 "JLN AHMAD IBRAHIM",
                 "PIONEER RD NTH",
                 "JUR WEST ST 63, 61",
