@@ -2660,8 +2660,8 @@ EDSData.TTSG = {
                     serviceNumber: "657",
                     top: "CITY DIRECT",
                     topFont: "Mobitec-Tower6:4",
-                    bottom: "JURONG WEST AVE 1",
-                    bottomFont: "Mobitec-Tower9:4",
+                    bottom: "JUR WEST AVE 1",
+                    bottomFont: "Mobitec-9:6",
                 }
             ]
         }
@@ -3579,7 +3579,7 @@ EDSData.TTSG = {
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "871",
+                    serviceNumber: "872",
                     top: "JURONG EAST ST 32",
                     topFont: "Mobitec-Tower9:4",
                 }
