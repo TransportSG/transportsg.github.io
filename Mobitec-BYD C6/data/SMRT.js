@@ -36,159 +36,6 @@ EDSFormats['SMRT'] = {
 
         text: "$serviceNumber+' '+$destination.text"
     },
-    standardService2: {
-        serviceNumber: {
-            align: "right",
-            margin: {
-                right: 0,
-            },
-            text: "$serviceNumber",
-            font: "Mobitec-16:8",
-            spacing: 2
-        },
-        destination: {
-            align: "centre-x,top",
-            margin: {
-                right: 'width(serviceNumber)'
-            },
-            text: "$destination.text",
-            font: "$destination.font",
-            spacing: 1
-        },
-        scroll: {
-            align: "centre-x,bottom",
-            margin: {
-                right: 'width(serviceNumber)'
-            },
-            scrolls: "$scrolls",
-            rotate: true,
-            rotateSpeed: 2600,
-
-            font: "$scrollFont",
-            spacing: 1
-        },
-
-        text: "$serviceNumber+' '+$destination.text"
-    },
-    SLBPdestScroll: {
-        serviceNumber: {
-            align: "right",
-            margin: {
-                right: 0,
-            },
-            text: "$serviceNumber",
-            font: "Mobitec-16:8",
-            spacing: {
-                $$cond: {
-                    "$spacing === null" : 1,
-                    "else": "$spacing"
-                }
-            }
-        },
-        top: {
-            align: {
-                $$cond: {
-                    "$bottom === null": "centre-x,centre-y",
-                    "else": "centre-x,top"
-                }
-            },
-            text: "$top",
-            font: "$topFont",
-            spacing: 1,
-            margin: {
-                right: 'width(serviceNumber)'
-            }
-        },
-        bottom: {
-            align: "centre-x,bottom",
-            text: {
-                $$cond: {
-                    "$bottom !== null": "$bottom",
-                    "else": "''"
-                }
-            },
-            font: {
-                $$cond: {
-                    "$bottomFont !== null": "$bottomFont",
-                    "else": "Mobitec-6:5"
-                }
-            },
-            spacing: 1,
-            margin: {
-                right: 'width(serviceNumber)'
-            }
-        },
-
-        text: "$serviceNumber+' '+$top+' '+$bottom"
-    },
-    SLBPstandardService: {
-        serviceNumber: {
-            align: "right",
-            margin: {
-                right: 0,
-            },
-            text: "$serviceNumber",
-            font: "Mobitec-16:8",
-            spacing: 1
-        },
-        destination: {
-            align: "centre-x,top",
-            margin: {
-                right: 'width(serviceNumber)'
-            },
-            text: "$destination.text+' via'",
-            font: "$destination.font",
-            spacing: 1
-        },
-        scroll: {
-            align: "centre-x,bottom",
-            margin: {
-                right: 'width(serviceNumber)'
-            },
-            scrolls: "$scrolls",
-            rotate: true,
-            rotateSpeed: 2600,
-
-            font: "$scrollFont",
-            spacing: 1
-        },
-
-        text: "$serviceNumber+' '+$destination.text"
-    },
-    SpecialMRTShuttle: {
-        serviceNumber: {
-            align: "right",
-            margin: {
-                right: 0,
-            },
-            text: "$serviceNumber",
-            font: "Mobitec-16:8",
-            spacing: 2
-        },
-        destination: {
-            align: "centre-x,top",
-            margin: {
-                right: 'width(serviceNumber)'
-            },
-            text: "$destination.text",
-            font: "$destination.font",
-            spacing: 1
-        },
-        scroll: {
-            align: "centre-x,bottom",
-            margin: {
-                right: 'width+(serviceNumber)'
-            },
-            scrolls: "$scrolls",
-            rotate: true,
-            rotateSpeed: 3000,
-
-            font: "$scrollFont",
-            spacing: 1
-        },
-
-        text: "$serviceNumber+' '+$destination.text"
-    },
     destScroll: {
         serviceNumber: {
             align: "right",
@@ -242,7 +89,7 @@ EDSFormats['SMRT'] = {
 
         text: "$serviceNumber+' '+$top+' '+$bottom"
     },
-    destScrollWithImage: {
+    destScroll2: {
         serviceNumber: {
             align: "right",
             margin: {
@@ -250,7 +97,12 @@ EDSFormats['SMRT'] = {
             },
             text: "$serviceNumber",
             font: "Mobitec-16:8",
-            spacing: "$spacing"
+            spacing: {
+                $$cond: {
+                    "$spacing === null" : 1,
+                    "else": "$spacing"
+                }
+            }
         },
         top: {
             align: {
@@ -260,15 +112,10 @@ EDSFormats['SMRT'] = {
                 }
             },
             text: "$top",
-            font: {
-                $$cond: {
-                    "$topFont === null": "Mobitec-9:6",
-                    "else": "$topFont"
-                }
-            },
+            font: "$topFont",
             spacing: 1,
             margin: {
-                right: 'width(serviceNumber) - width(image)'
+                right: 'width(serviceNumber)',
             }
         },
         bottom: {
@@ -281,61 +128,17 @@ EDSFormats['SMRT'] = {
             },
             font: {
                 $$cond: {
-                    "$bottomFont === null": "Hanover-5:3",
-                    "else": "$bottomFont"
+                    "$bottomFont !== null": "$bottomFont",
+                    "else": "Mobitec-6:5"
                 }
             },
             spacing: 1,
             margin: {
-                right: 'width(serviceNumber) - width(image)'
-            }
-        },
-        image: {
-            align: "left",
-            image: {
-                $$cond: {
-                    "$image !== null": "$image",
-                    "else": "blank"
-                }
+                right: 'width(serviceNumber)',
             }
         },
 
-        text: "$top+' '+$bottom+' '+$serviceNumber"
-        
-    },
-    TwoLineMessage: {
-        serviceNumber: {
-            align: "right",
-            margin: {
-                right: 0,
-            },
-            text: "$serviceNumber",
-            font: "Mobitec-16:8",
-            spacing: 2
-        },
-        destination: {
-            align: "centre-x,top",
-            margin: {
-                right: 'width(serviceNumber)'
-            },
-            text: "$destination.text",
-            font: "$destination.font",
-            spacing: 1
-        },
-        scroll: {
-            align: "centre-x,bottom",
-            margin: {
-                right: 'width(serviceNumber)'
-            },
-            scrolls: "$scrolls",
-            rotate: true,
-            rotateSpeed: 3000,
-
-            font: "$scrollFont",
-            spacing: 1
-        },
-
-        text: "$destination.text+' '+$serviceNumber"
+        text: "$serviceNumber+' '+$top+' '+$bottom"
     },
     logo: {
         logo: {
@@ -365,14 +168,6 @@ EDSFormats['SMRT'] = {
 }
 
 EDSData['SMRT'] = {
-    1: {
-        front: {
-            renderType: "message",
-            text: "CHARTERED",
-            font: "Mobitec-16:8",
-            spacing: 2
-        }
-    },
     2: {
         front: {
             renderType: "message",
@@ -381,34 +176,10 @@ EDSData['SMRT'] = {
             spacing: 1
         }
     },
-    3: {
-        front: {
-            renderType: "message",
-            text: "KRANJI DEPOT",
-            font: "Mobitec-13:7",
-            spacing: 1
-        }
-    },
     4: {
         front: {
             renderType: "message",
             text: "SMRT BUSES",
-            font: "Mobitec-13:7",
-            spacing: 1
-        }
-    },
-    5: {
-        front: {
-            renderType: "message",
-            text: "OFF SERVICE",
-            font: "Mobitec-13:7",
-            spacing: 1
-        }
-    },
-    6: {
-        front: {
-            renderType: "message",
-            text: "WOODLANDS DEPOT",
             font: "Mobitec-13:7",
             spacing: 1
         }
@@ -429,12 +200,10 @@ EDSData['SMRT'] = {
             spacing: 1
         }
     },
-    10: {
+    12: {
         front: {
-            renderType: "message",
-            text: "FERRY SERVICE",
-            font: "Mobitec-16:8",
-            spacing: 1
+            renderType: "full",
+            text: "All LED Lit",
         }
     },
     117: {
@@ -442,6 +211,79 @@ EDSData['SMRT'] = {
             renderType: "logo",
             image: "logo",
             text: "SMRT LOGO"
+        }
+    },
+    166: {
+        front: {
+            renderType: "destScroll2",
+            top: "MERRY CHRISTMAS",
+            topFont: "Mobitec-7:7",
+
+            bottom: "HAPPY NEW YEAR",
+            bottomFont: "Mobitec-7:7",
+
+            serviceNumber: ""
+        }
+    },
+    167: {
+        front: {
+            renderType: "message",
+            font: "Mobitec-13:7",
+            text: "GONG XI FA CAI",
+            spacing: 1
+        }
+    },
+    168: {
+        front: {
+            renderType: "destScroll2",
+            top: "SELAMAT",
+            topFont: "Mobitec-7:7",
+
+            bottom: "HARI RAYA",
+            bottomFont: "Mobitec-7:7",
+
+            serviceNumber: ""
+        }
+    },
+    169: {
+        front: {
+            renderType: "destScroll2",
+            top: "HAPPY",
+            topFont: "Mobitec-7:7",
+
+            bottom: "DEEPAVALI",
+            bottomFont: "Mobitec-7:7",
+
+            serviceNumber: ""
+        }
+    },
+    170: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "HAPPY NATIONAL DAY S'PORE",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll2",
+                    serviceNumber: "",
+                    top: "HAPPY NATIONAL DAY",
+                    bottom: "SINGAPORE !",
+                    topFont: "Mobitec-7:4",
+                    bottomFont: "Mobitec-7:4",
+                }
+            ],
+            scrollFont: "Mobitec-7:7"
+        }
+    },
+    199: {
+        front: {
+            renderType: "message",
+            text: "ON TEST",
+            font: "Mobitec-13:8",
+            spacing: 1
         }
     },
     8251: {
