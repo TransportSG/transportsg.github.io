@@ -8,6 +8,7 @@ let startupCodes = {
     'BMJ (JB)': 0, 
     'BAS.MY Meleka (Prev. SBST)': 0,
     'CWL (KL Area)': 0, 
+    'RapidKL': 0, 
     'Special': 0
 }
 

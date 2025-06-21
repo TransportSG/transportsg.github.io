@@ -11,6 +11,7 @@ let operators = [
     'BMJ (JB)',
     'BAS.MY Meleka (Prev. SBST)',
     'CWL (KL Area)',
+    'RapidKL',
     'Special',
 
     ]

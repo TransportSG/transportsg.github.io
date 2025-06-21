@@ -1,4 +1,4 @@
-EDSFormats ['CWL (KL Area)'] = {
+EDSFormats ['RapidKL'] = {
     standardService: {
         serviceNumber: {
             align: "right",
@@ -151,7 +151,7 @@ EDSFormats ['CWL (KL Area)'] = {
     }
 }
 
-EDSData ['CWL (KL Area)'] = {
+EDSData ['RapidKL'] = {
     0: {
         front: {
             renderType: "standardService",
@@ -160,152 +160,92 @@ EDSData ['CWL (KL Area)'] = {
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "WIP",
-                    top: "AKAN DATANG",
-                    topFont: "Tongda-16:7",
-                }, 
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "WIP",
-                    top: "COMING SOON",
-                    topFont: "Tongda-16:7",
-                }
+                    serviceNumber: "RAPID KL",
+                    top: "Akan Datang",
+                    topFont: "Mobitec-7:7",
+                    bottom: "work in progress",
+                    bottomFont: "Mobitec-7:4",
+                },
             ]
         }
     },
-    "1000": {
+    "1": {
         front: {
             renderType: "standardService",
-            serviceNumber: "100",
-            destination: "KUALA SELANGOR / HAB LEBUH PUDU",
+            serviceNumber: "001",
+            destination: "JOM NAIK BAS",
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "100",
-                    top: "KUALA SELANGOR",
-                    topFont: "Tongda-16:7",
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "100",
-                    top: "HAB LEBUH PUDU",
+                    serviceNumber: "001",
+                    top: "JOM NAIK BAS",
                     topFont: "Tongda-16:7",
                 },
             ]
         }
     },
-    1001: {
+    2541: {
         front: {
             renderType: "scrollingDest",
-            serviceNumber: "100",
-            destination: "KUALA SELANGOR"
+            serviceNumber: "254",
+            destination: "TITIWANGSA VIA CHOW KIT"
         }
     },
-    1002: {
+    4201: {
+        front: {
+            renderType: "scrollingDest",
+            serviceNumber: "420",
+            destination: "TERMINAL MALURI - TITIWANGSA"
+        }
+    },
+    7500: {
         front: {
             renderType: "standardService",
-            serviceNumber: "100",
-            destination: "HAB LEBUH PUDU",
+            serviceNumber: "750",
+            destination: "PASAR SENI / SEKSYEN 2",
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "100",
-                    top: "HAB LEBUH PUDU",
-                    topFont: "Tongda-16:7",
-                }
-            ]
-        }
-    },
-    "1030": {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "103",
-            destination: "DAMANSARA DAMAI / HAB LEBUH PUDU",
-            scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "103",
-                    top: "DAMANSARA DAMAI",
+                    serviceNumber: "750",
+                    top: "PASAR SENI",
                     topFont: "Tongda-16:7",
                 },
                 {
                     renderType: "destScroll",
-                    serviceNumber: "103",
-                    top: "HAB LEBUH PUDU",
+                    serviceNumber: "750",
+                    top: "SEKSYEN 2",
                     topFont: "Tongda-16:7",
                 },
             ]
         }
     },
-    "1040": {
+    7501: {
         front: {
-            renderType: "standardService",
-            serviceNumber: "104",
-            destination: "WANGSA PERMAI / HAB LEBUH PUDU",
-            scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "104",
-                    top: "WANGSA PERMAI",
-                    topFont: "Tongda-16:7",
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "104",
-                    top: "HAB LEBUH PUDU",
-                    topFont: "Tongda-16:7",
-                },
-            ]
+            renderType: "scrollingDest",
+            serviceNumber: "750",
+            destination: "PASAR SENI - SEKSYEN 2"
         }
     },
-    "1070": {
+    7531: {
         front: {
-            renderType: "standardService",
-            serviceNumber: "107",
-            destination: "BESTARI JAYA / HAB LEBUH PUDU",
-            scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "107",
-                    top: "BESTARI JAYA",
-                    topFont: "Tongda-16:7",
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "107",
-                    top: "HAB LEBUH PUDU",
-                    topFont: "Tongda-16:7",
-                },
-            ]
+            renderType: "scrollingDest",
+            serviceNumber: "753",
+            destination: "UTIM PUNCAK ALAM - HENTIAN BANDAR SHAH ALAM"
         }
     },
-    "1200": {
+    7711: {
         front: {
-            renderType: "standardService",
-            serviceNumber: "120",
-            destination: "JINJANG UTARA / HAB LEBUH PUDU",
-            scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "120",
-                    top: "JINJANG UTARA",
-                    topFont: "Tongda-16:7",
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "120",
-                    top: "HAB LEBUH PUDU",
-                    topFont: "Tongda-16:7",
-                },
-            ]
+            renderType: "scrollingDest",
+            serviceNumber: "771",
+            destination: "DESA MENTARI - SUBANG MEWAH USJ1"
         }
     },
 }
 
-EDSExtras ['CWL (KL Area)'] = {
+EDSExtras ['RapidKL'] = {
 }
 
-EDSImages ['CWL (KL Area)'] = {
+EDSImages ['RapidKL'] = {
 "blank": [
     [0]
 ]
