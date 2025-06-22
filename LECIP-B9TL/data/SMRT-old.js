@@ -2317,7 +2317,7 @@ EDSData['SMRT-old'] = {
                 },
                 scrolls: [
                     'BT PANJANG RD',
-                    'STEVENS ROAD',
+                    'STEVAENS ROAD',
                     'ORCHARD ROAD',
                     'HILL STREET',
                     'CHINATOWN'

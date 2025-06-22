@@ -550,6 +550,25 @@ EDSFormats.SMRT.calibriSmallService = JSON.parse(JSON.stringify(EDSFormats.SMRT.
 EDSFormats.SMRT.calibriSmallService.serviceNumber.font = 'Calibri-15'; // TODO: make font
 
 EDSData.SMRT = {
+    1: { // Done
+        1: {
+            front: {
+                renderType: 'message',
+                text: 'CHARTERED',
+                font: 'Calibri-10',
+                spacing: 2,
+                marginTop: 5
+            },
+            rear: { 
+                renderType: 'twoline',
+                top: "",
+                topFont: "ArialBold-8",
+
+                bottom: "",
+                bottomFont: "Arial-7",
+            }
+        }
+    },
     2: { // Done
         1: {
             front: {
@@ -666,7 +685,8 @@ EDSData.SMRT = {
                 renderType: 'message',
                 text: 'AIRSHOW SHUTTLE',
                 font: 'Arial-12:2',
-                spacing: 1
+                spacing: 1,
+                marginTop: 4
             },
             rear: {
                 renderType: "standardService",
@@ -1288,6 +1308,34 @@ EDSData.SMRT = {
                 renderType: "rearService",
                 serviceNumber: "180",
                 font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    1803: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "180A",
+                destination: "BT PANJANG RD",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "ENDS AT",
+                    topFont: "Arial-8",
+                    bottom: "BT PANJANG RD",
+                    bottomFont: "Arial-8",
+        
+                    serviceNumber: "180A"
+                },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "180A",
+                font: "Arial-10",
                 spacing: 2
             }
         }
@@ -4179,7 +4227,7 @@ EDSData.SMRT = {
             }
         }
     },
-    7501: { // Bomb / Refer from Mobi
+    7501: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -4200,6 +4248,105 @@ EDSData.SMRT = {
                     "OUTRAM RD",
                     "TIONG BAHRU RD",
                     "KIM TIAN RD"
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "75",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    7502: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "75",
+                destination: "BUKIT PANJANG via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "BUKIT",
+                    topFont: "ArialBold-8:2",
+                    bottom: "PANJANG",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "75"
+                },   
+                    "JLN BT MERAH",
+                    "KIM TIAN RD",
+                    "TIONG BAHRU RD",
+                    "CLEMENTI RD",
+                    "UPP BT TIMAH RD",   
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "75",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    7508: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "75",
+                destination: "MARINA CENTRE via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "MARINA",
+                    topFont: "ArialBold-8:2",
+                    bottom: "CENTRE",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "75"
+                },  
+                    "UPP BUKIT TIMAH RD",
+                    "CLEMENTI RD",
+                    "GREAT WORLD CITY",
+                    "OUTRAM RD",
+                    "ESPLANADE DR",
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "75",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    7509: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "75",
+                destination: "BUKIT PANJANG via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "BUKIT",
+                    topFont: "ArialBold-8:2",
+                    bottom: "PANJANG",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "75"
+                },   
+                    "COLLYER QUAY",
+                    "SHENTON WAY",
+                    "OUTRAM RD, MRT",
+                    "CLEMENTI RD",
+                    "UPP BT TIMAH RD",   
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -4323,6 +4470,36 @@ EDSData.SMRT = {
                 topFont: "Arial-12:2",
     
                 serviceNumber: ""
+            }
+        }
+    },
+    8681: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "868E",
+                serviceFont: "Arial-15",
+                destination: "SUNTEC CITY via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    "BT BATOK WEST AVE 5,4",
+                    "BT BATOK WEST AVE 2,3",
+                    "BT BATOK WEST AVE 6",
+                    "BT BATOK AVE 1",
+                    "JURONG EAST CTRL",
+                    "TOH GUAN RD",
+                    "ROBINSON RD",
+                    "FULLERTON RD",
+                    "ESPLANADE DR",
+                    "TEMASEK BLVD"
+                ],
+                scrollFont: "Arial-8;Space-Width=1"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "868E",
+                font: "Arial-10",
+                spacing: 2
             }
         }
     },
@@ -6678,6 +6855,34 @@ EDSData.SMRT = {
             }
         }
     },
+    9755: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "975C",
+                destination: "LIM CHU KANG RD",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "ENDS AT",
+                    topFont: "ArialBold-8:2",
+                    bottom: "POLICE COAST GUARD",
+                    bottomFont: "Calibri-7",
+        
+                    serviceNumber: "975C"
+                },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "975C",
+                font: "Arial-10",
+                spacing: 1
+            }
+        }
+    },
     9791: { // Done
         1: {
             front: {
@@ -6761,6 +6966,66 @@ EDSData.SMRT = {
                 serviceNumber: "979X",
                 font: "Arial-10",
                 spacing: 1
+            }
+        }
+    },
+    9821: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "982E",
+                destination: "MARINA BLVD via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    "C.C.K AVE 5, 4",
+                    "C.C.K WAY / AVE 1",
+                    "TECK WHYE AVE",
+                    "CHOA CHU KANG RD",
+                    "BT BATOK RD",
+                    "ANSON RD",
+                    "ROBINSON RD",
+                ],
+                scrollFont: "Arial-8;Space-Width=1"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "982E",
+                font: "Arial-10",
+                spacing: 2
+            }
+        }
+    },
+    9822: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "982E",
+                destination: "CHOA|CHU|KANG|AVE5",
+                destinationFont: "Arial-8:2",
+                scrolls: [
+                    "CENTRAL BLVD",
+                    "SHENTON WAY",
+                    "BT BATOK RD",
+                    "CHOA CHU KANG RD",
+                    "TECK WHYE AVE",
+                    "CCK AVE 1 / WAY",
+                {
+                    renderType: "destScroll",
+                    top: "CHOA|CHU|KANG|AVE5",
+                    topFont: "Arial-8:2",
+                    bottom: "CHOA CHU KANG AVE 4",
+                    bottomFont: "Calibri-7:2",
+                
+                    serviceNumber: "982E"
+                },
+                ],
+                scrollFont: "Arial-8;Space-Width=1"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "982E",
+                font: "Arial-10",
+                spacing: 2
             }
         }
     },
@@ -6918,6 +7183,157 @@ EDSData.SMRT = {
                 serviceNumber: "985",
                 font: "LECIP-SMRTRear14:9",
                 spacing: 2
+            }
+        }
+    },
+    9911: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "991",
+                destination: "C. C. K INT via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "CHOA CHU KANG",
+                    topFont: "ArialBold-8:2",
+                    bottom: "INT / MRT / LRT",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "991"
+                },
+                    "B. B WEST AVE 3, 6",
+                    "B. B WEST AVE 8, 5",
+                    "BRICKLAND RD",
+                    "C. C. K AVE 3, 1",
+                    'KEAT HONG LINK',
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "991",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    9912: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "991",
+                destination: "BT BATOK via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "BUKIT BATOK",
+                    topFont: "ArialBold-8:2",
+                    bottom: "INT / MRT",
+                    bottomFont: "ArialBold-8:2",
+            
+                    serviceNumber: "991"
+                },
+                "KEAT HONG LINK",
+                "C. C. K AVE 1, 3",
+                "BRICKLAND RD",
+                "B. B WEST AVE 5, 8",
+                "B. B WEST AVE 6, 3",
+                
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "61",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    9913: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "991A",
+                destination: "BUKIT BATOK WEST AVE 3",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "ENDS AT PRINCESS",
+                    topFont: "Arial-8:2:2",
+                    bottom: "ELIZABETH PRI SCH",
+                    bottomFont: "Arial-8:2:2",
+        
+                    serviceNumber: "991A"
+                },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "991A",
+                font: "Arial-10",
+                spacing: 1
+            }
+        }
+    },
+    9914: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "991B",
+                destination: "CHOA CHU KANG AVE 1",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "ENDS AT OPP",
+                    topFont: "Arial-8:2:2",
+                    bottom: "C.C.K MARKET",
+                    bottomFont: "Arial-8:2:2",
+        
+                    serviceNumber: "991B"
+                },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "991B",
+                font: "Arial-10",
+                spacing: 1
+            }
+        }
+    },
+    9915: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "991C",
+                destination: "BUKIT BATOK WEST AVE 5",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "ENDS AT",
+                    topFont: "Arial-8:2:2",
+                    bottom: "BT GOMBAK MRT",
+                    bottomFont: "Arial-8:2:2",
+        
+                    serviceNumber: "991C"
+                },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "991C",
+                font: "Arial-10",
+                spacing: 1
             }
         }
     },
