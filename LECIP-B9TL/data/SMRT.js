@@ -645,6 +645,26 @@ EDSData.SMRT = {
             }
         }
     },
+    10: { // Done
+        1: {
+            front: {
+                renderType: 'message',
+                text: 'FERRY SERVICE',
+                font: 'Arial-12:2',
+                spacing: 1,
+                marginTop: 4
+            },
+            rear: { 
+                renderType: 'twoline',
+                top: "FERRY",
+                topFont: "LECIP-6:4",
+
+                bottom: "SERVICE",
+                bottomFont: "ArialNarrow-7",
+                bottomMargin: 1
+            }
+        }
+    },
     12: {
         1: {
             front: {
@@ -652,6 +672,25 @@ EDSData.SMRT = {
             },
             rear: {
                 renderType: "full"
+            }
+        }
+    },
+    13: { // Done
+        1: {
+            front: {
+                renderType: 'message',
+                text: 'TRAINING  BUS',
+                font: "Calibri-15",
+                spacing: 1
+            },
+            rear: { 
+                renderType: 'twoline',
+                top: "TRG",
+                topFont: "ArialBold-8",
+
+                bottom: "BUS",
+                bottomFont: "ArialBold-8",
+                bottomMargin: 1
             }
         }
     },
@@ -815,6 +854,25 @@ EDSData.SMRT = {
             }
         }
     },
+    199: { // Done
+        1: {
+            front: {
+                renderType: 'message',
+                text: 'ON TEST',
+                font: 'Arial-17',
+                spacing: 2
+            },
+            rear: { 
+                renderType: 'twoline',
+                top: "ON",
+                topFont: "ArialBold-8",
+
+                bottom: "TEST",
+                bottomFont: "ArialBold-8",
+                bottomMargin: 1
+            }
+        }
+    },
     1101: { // Done / Refer from mobitec
         1: {
             front: {
@@ -960,7 +1018,7 @@ EDSData.SMRT = {
                 text: "OFF SERVICE",
                 font: "LECIP-20:12",
                 spacing: 3,
-                marginTop: 0
+                marginTop: 0,
             },
             rear: {
                 renderType: 'twoline',
@@ -3245,6 +3303,25 @@ EDSData.SMRT = {
             }
         }
     },
+    3333: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "FREE SHUTTLE",
+                font: "LECIP-20:12",
+                spacing: 2,
+                marginTop: 0,
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "FREE",
+                topFont: "LECIP-7:4", // check font
+
+                bottom: "SHUTTLE",
+                bottomFont: "LECIP-7:4"
+            }
+        }
+    },
     4051: { // Done
         1: {
             front: {
@@ -3346,6 +3423,25 @@ EDSData.SMRT = {
             }
         }
     },
+    4444: { // Done
+        1: {
+            front: {
+                renderType: "message",
+                text: "ON TEST",
+                font: "LECIP-20:12",
+                spacing: 3,
+                marginTop: 0
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "ON",
+                topFont: "LECIP-7:5",
+
+                bottom: "TEST",
+                bottomFont: "LECIP-7:5"
+            }
+        }
+    },
     5021: { // Done
         1: {
             front: {
@@ -3395,6 +3491,41 @@ EDSData.SMRT = {
                 serviceNumber: "502A",
                 font: "Arial-10",
                 spacing: 1
+            }
+        }
+    },
+    5555: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "TRAINING BUS",
+                font: "LECIP-20:12",
+                spacing: 3,
+                marginTop: 0,
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "TRAINING",
+                topFont: "LECIP-7:4",
+
+                bottom: "BUS",
+                bottomFont: "LECIP-7:4"
+           }
+        },
+        2: {
+            front: {
+                renderType: "message",
+                text: "TRAINING IN PROGRESS",
+                font: "LECIP-10",
+                spacing: 1
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "TRG IN     ",
+                topFont: "LECIP-6:3",
+
+                bottom: "PROGRESS",
+                bottomFont: "LECIP-6:3"
             }
         }
     },
@@ -4356,6 +4487,204 @@ EDSData.SMRT = {
                 font: "LECIP-SMRTRear14:9",
                 spacing: 2
             }
+        }
+    },
+    7600: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "EW1",
+                destination: "TLK-GCL-JKN-BNL",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    "→ TUAS LINK",
+                    "→ GUL CIRCLE",
+                    "→ JOO KOON",
+                    "→ BOON LAY",
+   
+                ],
+                scrollFont: "Arial-8:2:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EW1",
+                font: "Arial-10",
+                spacing: 2
+            }
+        }
+    },
+    7601: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "EW2",
+                destination: "BNV-CLE-JUR-BNL",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                "→ BUONA VISTA",
+                "→ CLEMENTI",
+                "→ JURONG EAST",
+                "→ BOON LAY"
+   
+                ],
+                scrollFont: "Arial-8:2:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EW2",
+                font: "Arial-10",
+                spacing: 2
+            }
+        }
+    },
+    7602: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "EW3",
+                destination: "PYL-BDK-TAM",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                "→ PAYA LEBAR",
+                "→ BEDOK",
+                "→ TAMPINES",
+                ],
+                scrollFont: "Arial-8:2:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EW3",
+                font: "Arial-10",
+                spacing: 2
+            }
+        }
+    },
+    7603: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "NS1",
+                destination: "JUR-BBT-CCK-WDL",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                "→ JURONG EAST",
+                "→ BUKIT BATOK",
+                "→ CHOA CHU KANG",
+                "→ WOODLANDS",
+                ],
+                scrollFont: "Arial-8:2:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "NS1",
+                font: "Arial-10",
+                spacing: 2
+            }
+        }
+    },
+    7604: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "NS2",
+                destination: "BSH-AMK-YIS-WDL",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                "→ BISHAN",
+                "→ ANG MO KIO",
+                "→ YISHUN",
+                "→ WOODLANDS",
+                ],
+                scrollFont: "Arial-8:2:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "NS2",
+                font: "Arial-10",
+                spacing: 2
+            }
+        }
+    },
+    7605: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "EX1",
+                destination: "BSH-AMK-YIS-WDL",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                "→ WOODLANDS",
+                "→ BUKIT PANJANG",
+                ],
+                scrollFont: "Arial-8:2:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EX1",
+                font: "Arial-10",
+                spacing: 2
+            }
+        }
+    },
+    7606: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "EX2",
+                destination: "AMK-SRG",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                "→ ANG MO KIO",
+                "→ SERANGOON",
+                ],
+                scrollFont: "Arial-8:2:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EX2",
+                font: "Arial-10",
+                spacing: 2
+            }
+        }
+    },
+    7607: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "EX3",
+                destination: "EUN-UBI",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                "→ EUNOS",
+                "→ UBI",
+                ],
+                scrollFont: "Arial-8:2:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "EX3",
+                font: "Arial-10",
+                spacing: 2
+            }
+        }
+    },
+    7777: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "FREE BRIDGING BUS",
+                font: "LECIP-20:9",
+                spacing: 2,
+                marginTop: 0,
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "BRIDGING",
+                topFont: "LECIP-6:3",
+
+                bottom: "BUS",
+                bottomFont: "LECIP-6:3"
+            } // check
         }
     },
     7996: { // Done
@@ -6883,6 +7212,72 @@ EDSData.SMRT = {
             }
         }
     },
+    9761: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "976",
+                destination: "BT PANJANG via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "BUKIT",
+                    topFont: "ArialBold-8:2",
+                    bottom: "PANJANG",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "976"
+                },
+                    "C. C. K ROAD",
+                    "SENJA ROAD",
+                    "SEGAR ROAD",
+                    "BT PJ RING RD",
+                    "PETIR ROAD",
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "976",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    9762: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "976",
+                destination: "C. C. K INT via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "CHOA CHU KANG",
+                    topFont: "ArialBold-8:2",
+                    bottom: "INT / MRT / LRT",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "976"
+                },
+                    "PETIR ROAD",
+                    "BT PJ RING RD",
+                    "SEGAR ROAD",
+                    "SENJA ROAD",
+                    'C. C. K ROAD',
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "976",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
     9791: { // Done
         1: {
             front: {
@@ -7247,7 +7642,7 @@ EDSData.SMRT = {
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "61",
+                serviceNumber: "991",
                 font: "LECIP-SMRTRear14:9",
                 spacing: 2
             }
@@ -7505,60 +7900,6 @@ EDSData.SMRT = {
                 renderType: "rearService",
                 serviceNumber: "",
                 font: "ArialBold-8:2",
-                spacing: 2
-            }
-        }
-    },
-    9999: {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "974",
-                destination: "BT PANJANG via",
-                destinationFont: "ArialBold-8:2",
-                scrolls: [
-                    "UPP JURONG RD",
-                {
-                        renderType: "message",
-                        text: "974",
-                        font: "Arial-17",
-                        spacing: 5,
-                        marginTop: 1
-                },
-                    "JURONG WEST ST 64",
-                    "JLN BOON LAY",
-                {
-                    renderType: "message",
-                    text: "974",
-                    font: "Arial-17",
-                    spacing: 5,
-                    marginTop: 1
-                },
-                    "JLN BAHAR",
-                    "PIE, KJE",
-                {
-                    renderType: "message",
-                    text: "974",
-                    font: "Arial-17",
-                    spacing: 5,
-                    marginTop: 1
-                },
-                    "C. C. K DR, MRT",
-                    "C. C. K WAY",
-                {
-                    renderType: "message",
-                    text: "974",
-                    font: "Arial-17",
-                    spacing: 5,
-                    marginTop: 1
-                },
-                ],
-                scrollFont: "ArialBold-8:2"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "974",
-                font: "LECIP-SMRTRear14:9",
                 spacing: 2
             }
         }
