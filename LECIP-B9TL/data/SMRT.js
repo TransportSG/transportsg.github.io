@@ -6088,7 +6088,7 @@ EDSData.SMRT = {
                 font: "LECIP-SMRTRear14:9",
                 spacing: 2
             }
-        }
+        },
     },
     9602: { // Done
         1: {
