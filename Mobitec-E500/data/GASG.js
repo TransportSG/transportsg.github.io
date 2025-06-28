@@ -913,14 +913,14 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "34",
             destination: {
-                text: "PUNGGOL",
+                text: "PUNGGOL COAST",
                 font: "Mobitec-7:7"
             },
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "34",
-                    top: "Punggol",
+                    top: "Punggol Coast",
                     topFont: "Mobitec-13:8"
                 },
                 "TAMPINES EAST MRT",
@@ -986,6 +986,55 @@ EDSData.GASG = {
                 "TAMPINES AVE 5 / 2 / 7",
                 "CHANGI AIRPORT",
                 "TAMPINES AVE 7 / 2 / 5",
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    348: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "34",
+            destination: {
+                text: "CHANGI AIRPORT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "34",
+                    top: "Changi Airport ~",
+                    topFont: "Mobitec-12:7"
+                },
+                "PUNGGOL RD",
+                "TPE",
+                "TAMPINES AVE 10 / 5",
+                "TAMPINES AVE 2 / 7",
+                "TAMPINES EAST MRT",
+                "TERMINAL 3 / 1 / 2 / 4"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    349: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "34",
+            destination: {
+                text: "PUNGGOL",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "34",
+                    top: "Punggol",
+                    topFont: "Mobitec-13:8"
+                },
+                "TAMPINES EAST MRT",
+                "TAMPINES AVE 7 / 2",
+                "TAMPINES AVE 5 / 10",
+                "TPE",
+                "PUNGGOL RD"
             ],
             scrollFont: "Mobitec-7:4"
         }
