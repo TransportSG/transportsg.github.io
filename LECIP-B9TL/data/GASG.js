@@ -1565,7 +1565,7 @@ EDSData.GASG = {
             }
         }
     },
-    34: { // Referred from Citaro
+    "34": { // Referred from Citaro
         1: {
             front: {
                 renderType: "standardService",
@@ -1599,11 +1599,11 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "34",
-                destination: "PUNGGOL",
+                destination: "PUNGGOL COAST",
                 destinationFont: "Hanover-10",
                 scrolls: [{
                     renderType: "destScroll",
-                    top: "Punggol",
+                    top: "Punggol Coast",
                     topFont: "Lecip-GoAhead16:10",
         
                     serviceNumber: "34"
@@ -1731,11 +1731,11 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "34",
-                destination: "PUNGGOL COAST",
+                destination: "PUNGGOL",
                 destinationFont: "Hanover-10",
                 scrolls: [{
                     renderType: "destScroll",
-                    top: "Punggol Coast",
+                    top: "Punggol",
                     topFont: "Lecip-GoAhead16:10",
         
                     serviceNumber: "34"

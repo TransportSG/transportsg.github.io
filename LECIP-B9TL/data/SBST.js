@@ -8950,8 +8950,8 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "117",
-                destination: "> PUNGGOL INT",
-                destinationFont: "LECIP-10",
+                destination: "> PUNGGOL COAST INT",
+                destinationFont: "LECIP-7:5",
                 scrolls: [
                     "SEMBAWANG WAY",
                     "CANBERRA LINK",
@@ -9047,8 +9047,8 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "117M",
-                destination: "> PUNGGOL INT",
-                destinationFont: "LECIP-10",
+                destination: "> PUNGGOL COAST INT",
+                destinationFont: "LECIP-7:5",
                 scrolls: [
                     "SEMBAWANG WAY",
                     "CANBERRA LINK",
@@ -9096,8 +9096,8 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "117",
-                destination: "> PUNGGOL COAST INT",
-                destinationFont: "LECIP-7:5",
+                destination: "> PUNGGOL INT",
+                destinationFont: "LECIP-10",
                 scrolls: [
                     "SEMBAWANG WAY",
                     "CANBERRA LINK",
@@ -9145,8 +9145,8 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "117M",
-                destination: "> PUNGGOL COAST INT",
-                destinationFont: "LECIP-7:5",
+                destination: "> PUNGGOL INT",
+                destinationFont: "LECIP-10",
                 scrolls: [
                     "SEMBAWANG WAY",
                     "CANBERRA LINK",
