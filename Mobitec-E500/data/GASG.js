@@ -898,7 +898,9 @@ EDSData.GASG = {
                     top: "Changi Airport ~",
                     topFont: "Mobitec-12:7"
                 },
-                "PUNGGOL RD",
+                "SAMUDERA / NIBONG LRT",
+                "SUMANG LINK / WALK",
+                "PUNGGOL MRT / RD",
                 "TPE",
                 "TAMPINES AVE 10 / 5",
                 "TAMPINES AVE 2 / 7",
@@ -927,7 +929,9 @@ EDSData.GASG = {
                 "TAMPINES AVE 7 / 2",
                 "TAMPINES AVE 5 / 10",
                 "TPE",
-                "PUNGGOL RD"
+                "PUNGGOL RD / MRT",
+                "SUMANG WALK / LINK",
+                "NIBONG / SAMUDERA LRT"
             ],
             scrollFont: "Mobitec-7:4"
         }

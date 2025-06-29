@@ -1580,7 +1580,9 @@ EDSData.GASG = {
                     topFont: "Lecip-GoAhead16:10",
                     image: "plane"
                 },
-                "PUNGGOL RD",
+                "SAMUDERA / NIBONG LRT",
+                "SUMANG LINK / WALK",
+                "PUNGGOL MRT / RD",
                 "TPE",
                 "TAMPINES AVE 10 / 5 / 2",
                 "TAMPINES EAST MRT",
@@ -1611,7 +1613,9 @@ EDSData.GASG = {
                     "TAMPINES EAST MRT",
                     "TAMPINES AVE 2 / 5 / 10",
                     "TAMPINES EXPRESSWAY",
-                    "PUNGGOL RD"
+                    "PUNGGOL RD / MRT",
+                    "SUMANG WALK / LINK",
+                    "NIBONG / SAMUDERA LRT"                    
                 ],
                 scrollFont: "Hanover-7:5"
             },
