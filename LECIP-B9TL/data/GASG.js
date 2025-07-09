@@ -391,7 +391,7 @@ EDSFormats.GASG = {
                 right: 0
             },
             text: "$serviceNumber",
-            font: "LECIP-19:GoAheadB9Front",
+            font: "LECIP-19:GoAheadB9Front3",
             spacing: 3
         },
         top: {
@@ -453,7 +453,7 @@ EDSFormats.GASG = {
                 right: 0
             },
             text: "$serviceNumber",
-            font: "LECIP-19:GoAheadB9Front",
+            font: "LECIP-19:GoAheadB9Front3",
             spacing: 3
         },
         top: {
@@ -513,7 +513,12 @@ EDSFormats.GASG = {
                 right: 0
             },
             text: "$serviceNumber",
-            font: "LECIP-19:GoAheadB9Front",
+            font: {
+                $$cond: {
+                    "$svcFont !== null": "$svcFont",
+                    "else": "LECIP-19:GoAheadB9Front3"
+                }
+            },
             spacing: {
                 $$cond: {
                     "$spacing === null" : 3,
@@ -2349,6 +2354,13 @@ EDSData.GASG = {
                     renderType: "destScroll",
                     top: "Punggol",
                     topFont: "Lecip-GoAhead16:10",
+        
+                    serviceNumber: "382G"
+                },
+                {
+                    renderType: "destScroll",
+                    top: "via Sumang Lane ",
+                    topFont: "Hanover-GoAhead14:6:2",
             
                     serviceNumber: "382G"
                 },
@@ -2376,6 +2388,13 @@ EDSData.GASG = {
                     top: "Punggol",
                     topFont: "Lecip-GoAhead16:10",
         
+                    serviceNumber: "382W"
+                },
+                {
+                    renderType: "destScroll",
+                    top: "via Sentul Cres ",
+                    topFont: "Hanover-GoAhead14:6:2",
+            
                     serviceNumber: "382W"
                 },
                 ],
@@ -2859,14 +2878,14 @@ EDSData.GASG = {
             }
         }
     },
-    2221: { // Referred from Citaro
+    2221: { 
         1: {
             front: {
                 renderType: "destScrollWithImage",
                 serviceNumber: "",
                 top: "New Destination only format",
                     topFont: "Hanover-7:5",
-                    bottom: "w.e.f May 2025",
+                    bottom: "w.e.f June 2025",
                     bottomFont: "Hanover-7:5",
                 image: "GoAheadLionHead",
             },
