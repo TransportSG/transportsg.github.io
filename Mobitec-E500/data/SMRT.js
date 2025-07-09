@@ -1370,6 +1370,16 @@ EDSData['SMRT (PostSLBP)'] = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
+    1793: {
+        front: {
+            renderType: "SLBPdestScroll",
+            serviceNumber: "179B",
+            top: "ENDS AT",
+            topFont: "Mobitec-7:5:1",
+            bottom: "PIONEER MRT",
+            bottomFont: "Mobitec-7:5:1"
+        }
+    },
     1801: {
         front: {
             renderType: "standardService",
@@ -2118,6 +2128,16 @@ EDSData['SMRT (PostSLBP)'] = {
                 "JURONG WEST ST 92",
             ],
             scrollFont: "Mobitec-7:5:1"
+        }
+    },
+    2412: {
+        front: {
+            renderType: "SLBPdestScroll",
+            serviceNumber: "241A",
+            top: "ENDS AT",
+            topFont: "Mobitec-7:5:1",
+            bottom: "PIONEER MRT",
+            bottomFont: "Mobitec-7:5:1"
         }
     },
     2421: {

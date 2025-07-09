@@ -1,4 +1,4 @@
-EDSFormats.GASG = {
+EDSFormats['GASG-Original'] = {
     standardService: {
         serviceNumber: {
             align: "right",
@@ -244,7 +244,7 @@ EDSFormats.GASG = {
     }
 }
 
-EDSData.GASG = {
+EDSData['GASG-Original'] = {
  
     21: {
         front: {
@@ -261,6 +261,15 @@ EDSData.GASG = {
                     top: "Kampong Bahru",
                     topFont: "Mobitec-13:8"
                 },
+                "LOYANG AVE / WAY",
+                "UPPER CHANGI RD / MRT",
+                "TANAH MERAH MRT",
+                "BEDOK MRT",
+                "GEYLANG RD",
+                "LAVENDER MRT",
+                "VICTORIA ST / BUGIS",
+                "CLARKE QUAY",
+                "CHINATOWN",
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -280,6 +289,47 @@ EDSData.GASG = {
                     top: "Changi Village",
                     topFont: "Mobitec-13:8"
                 },
+                "CHINATOWN",
+                "CLARKE QUAY",
+                "BUGIS / VICTORIA ST",
+                "LAVENDER MRT",
+                "KALLANG MRT",
+                "NEW UPPER CHANGI RD",
+                "BEDOK MRT",
+                "TANAH MERAH MRT",
+                "UPPER CHANGI MRT / RD",                
+                "LOYANG WAY / AVE",
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    23: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "2A",
+            destination: {
+                text: "TANAH MERAH MRT",
+                font: "Mobitec-7:5:1"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "2A",
+                    top: "TERMINATING AT",
+                    bottom: "NEW UPPER CHANGI RD",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "2A",
+                    top: "TERMINATING AT",
+                    bottom: "TANAH MERAH MRT",
+                },
+                "CHINATOWN",
+                "VICTORIA ST",
+                "KALLANG RD",
+                "SIMS AVE",
+                "SIMS AVE EAST",
+                "NEW UPP CHANGI RD"
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -320,6 +370,14 @@ EDSData.GASG = {
                     top: "Tampines",
                     topFont: "Mobitec-13:8"
                 },
+                "PUNGGOL CENTRAL / FIELD",
+                "TAMPINES EXPRESSWAY",
+                "PASIR RIS DR 12 / 1 / 10",
+                "PASIR RIS ST 71",
+                "PASIR RIS INT",
+                "PASIR RIS DR 3 / ST 21",
+                "TAMPINES EAST MRT",
+                "TAMPINES ST 21"
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -339,6 +397,13 @@ EDSData.GASG = {
                     top: "Punggol",
                     topFont: "Mobitec-13:8"
                 },
+                "TAMPINES ST 21",
+                "TAMPINES EAST MRT",
+                "PASIR RIS ST 21 / DR 3",
+                "PASIR RIS ST 71",
+                "PASIR RIS DR 10 / 1 / 12", 
+                "TAMPINES EXPRESSWAY",
+                "PUNGGOL FIELD / CENTRAL"
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -372,6 +437,30 @@ EDSData.GASG = {
             scrollFont: "Mobitec-7:4"
         }
     },
+    34: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "3B",
+            destination: {
+                text: "PASIR RIS INT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "3B",
+                    top: "TERMINATING AT",
+                    bottom: "PASIR RIS INT",
+                },
+                "PASIR RIS DR 1",
+                "PASIR RIS DR 10",
+                "PASIR RIS ST 71",
+                "ELIAS RD",
+                "PASIR RIS DR 8",
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
     61: {
         front: {
             renderType: "standardService",
@@ -387,6 +476,10 @@ EDSData.GASG = {
                     top: "Pasir Ris",
                     topFont: "Mobitec-13:8"
                 },
+                "PASIR RIS DR 3",
+                "LOYANG AVE",
+                "LOYANG WAY",
+                "LOYANG CRES (LOOP)"
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -406,6 +499,18 @@ EDSData.GASG = {
                     top: "Kampong Bahru",
                     topFont: "Mobitec-13:8"
                 },
+                "PASIR RIS DR 6 / 1",
+                "PASIR RIS ST 12 / 11",
+                "TAMPINES EAST MRT",
+                "SIMEI RD",
+                "TANAH MERAH MRT",
+                "BEDOK SOUTH RD",
+                "EAST COAST RD",
+                "MOUNTBATTEN RD / MRT",
+                "LAVENDER MRT",
+                "VICTORIA ST / BUGIS",
+                "CLARKE QUAY",
+                "CHINATOWN"
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -425,6 +530,17 @@ EDSData.GASG = {
                     top: "Pasir Ris",
                     topFont: "Mobitec-13:8"
                 },
+                "CHINATOWN / CLARKE QUAY MRT",
+                "VICTORIA ST / BUGIS",
+                "LAVENDER / KALLANG MRT",
+                "MOUNTBATTEN RD / MRT",
+                "EAST COAST RD",
+                "BEDOK SOUTH RD",
+                "TANAH MERAH MRT",
+                "SIMEI RD",
+                "TAMPINES EAST MRT",
+                "PASIR RIS ST 12 / 11",
+                "PASIR RIS DR 1 / 6"
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -447,6 +563,70 @@ EDSData.GASG = {
                     bottomFont: "Mobitec-7:5:2",
                     image: "express",
                 },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "`12e",
+                    top: "KAMPONG BAHRU",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "PASIR RIS DR 3 / 1",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "`12e",
+                    top: "KAMPONG BAHRU",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "PASIR RIS ST 12 / 11",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "`12e",
+                    top: "KAMPONG BAHRU",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "TAMPINES AVE 7 / 2",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "`12e",
+                    top: "KAMPONG BAHRU",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "SIMEI RD",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "`12e",
+                    top: "KAMPONG BAHRU",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "BEDOK SOUTH RD",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "`12e",
+                    top: "KAMPONG BAHRU",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "ECP (EXPRESS)",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "`12e",
+                    top: "KAMPONG BAHRU",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "BUGIS",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "`12e",
+                    top: "KAMPONG BAHRU",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "CHINATOWN",
+                    bottomFont: "Mobitec-7:4",
+                },
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -465,6 +645,70 @@ EDSData.GASG = {
                     serviceNumber: "12e",
                     top: "Pasir Ris",
                     image: "express",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "`12e",
+                    top: "PASIR RIS",
+                    topFont: "Mobitec-7:7",
+                    bottom: "CHINATOWN",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "`12e",
+                    top: "PASIR RIS",
+                    topFont: "Mobitec-7:7",
+                    bottom: "BUGIS",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "`12e",
+                    top: "PASIR RIS",
+                    topFont: "Mobitec-7:7",
+                    bottom: "ECP (EXPRESS)",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "`12e",
+                    top: "PASIR RIS",
+                    topFont: "Mobitec-7:7",
+                    bottom: "BEDOK SOUTH RD",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "`12e",
+                    top: "PASIR RIS",
+                    topFont: "Mobitec-7:7",
+                    bottom: "SIMEI RD",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "`12e",
+                    top: "PASIR RIS",
+                    topFont: "Mobitec-7:7",
+                    bottom: "TAMPINES AVE 2 / 7",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "`12e",
+                    top: "PASIR RIS",
+                    topFont: "Mobitec-7:7",
+                    bottom: "PASIR RIS ST 11 / 12",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "`12e",
+                    top: "PASIR RIS",
+                    topFont: "Mobitec-7:7",
+                    bottom: "PASIR RIS DR 1 / 6",
+                    bottomFont: "Mobitec-7:4",
                 },
             ],
             scrollFont: "Mobitec-7:4"
@@ -485,6 +729,16 @@ EDSData.GASG = {
                     top: "Marine Parade",
                     topFont: "Mobitec-13:8"
                 },
+                "PASIR RIS ST 52", 
+                "PASIR RIS DR 1 / 8",
+                "TAMPINES AVE 12 / 7 / 4",
+                "TAMPINES AVE 5 / 1",
+                "TAMPINES WEST MRT",
+                "KAKI BUKIT AVE 1 / MRT",
+                "JALAN EUNOS / MRT",
+                "STILL RD",
+                "JOO CHIAT PLACE",
+                "TELOK KURAU RD",
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -504,6 +758,16 @@ EDSData.GASG = {
                     top: "Pasir Ris",
                     topFont: "Mobitec-13:8"
                 },
+                "TELOK KURAU RD",
+                "JOO CHIAT PLACE",
+                "STILL RD",
+                "JALAN EUNOS / MRT",
+                "KAKI BUKIT AVE 1 / MRT",
+                "TAMPINES WEST MRT",
+                "TAMPINES AVE 1 / 5",
+                "TAMPINES AVE 4 / 7 / 12",
+                "PASIR RIS DR 8 / 1",
+                "PASIR RIS ST 52"
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -529,6 +793,12 @@ EDSData.GASG = {
                     top: "TERMINATING AT",
                     bottom: "OPP EUNOS MRT",
                 },
+                "PASIR RIS ST 52",
+                "PASIR RIS DR 1 / 8",
+                "TAMPINES AVE 12 / 7 / 4",
+                "TAMPINES 5 / 1",
+                "TAMPINES WEST MRT",
+                "KAKI BUKIT AVE 1 / MRT",
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -548,6 +818,13 @@ EDSData.GASG = {
                     top: "Bedok",
                     topFont: "Mobitec-13:8"
                 },
+                "PASIR RIS DR 3 / 4",
+                "PASIR RIS ST 12 / 11",
+                "TAMPINES AVE 7 / 2",
+                "TAMPINES EAST MRT",
+                "SIMEI AVE",
+                "BEDOK NORTH AVE 4",
+                "BEDOK NORTH RD"
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -567,6 +844,13 @@ EDSData.GASG = {
                     top: "Pasir Ris",
                     topFont: "Mobitec-13:8"
                 },
+                "BEDOK NORTH RD",
+                "BEDOK NORTH AVE 4",
+                "SIMEI AVE",
+                "TAMPINES EAST MRT",
+                "TAMPINES AVE 2 / 7",
+                "PASIR RIS ST 11 / 12",
+                "PASIR RIS DR 4 / 3",
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -593,6 +877,8 @@ EDSData.GASG = {
                     bottom: "SBST BEDOK NTH DEPOT",
                     bottomFont: "Mobitec-7:4"
                 },
+                "BEDOK NORTH AVE 1",
+                "BEDOK NORTH RD",
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -612,6 +898,14 @@ EDSData.GASG = {
                     top: "Changi Airport ~",
                     topFont: "Mobitec-12:7"
                 },
+                "SAMUDERA / NIBONG LRT",
+                "SUMANG LINK / WALK",
+                "PUNGGOL MRT / RD",
+                "TPE",
+                "TAMPINES AVE 10 / 5",
+                "TAMPINES AVE 2 / 7",
+                "TAMPINES EAST MRT",
+                "TERMINAL 3 / 1 / 2 / 4"
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -631,6 +925,13 @@ EDSData.GASG = {
                     top: "Punggol Coast",
                     topFont: "Mobitec-13:8"
                 },
+                "TAMPINES EAST MRT",
+                "TAMPINES AVE 7 / 2",
+                "TAMPINES AVE 5 / 10",
+                "TPE",
+                "PUNGGOL RD / MRT",
+                "SUMANG WALK / LINK",
+                "NIBONG / SAMUDERA LRT"
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -657,6 +958,9 @@ EDSData.GASG = {
                     bottom: "OPP OUR TAMPINES HUB",
                     bottomFont: "Mobitec-7:4",
                 },
+                "PUNGGOL RD",
+                "TPE",
+                "TAMPINES AVE 10",
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -683,6 +987,58 @@ EDSData.GASG = {
                     bottom: "TAMPIINES WATER FAB PK",
                     bottomFont: "Mobitec-7:4",
                 },
+                "TAMPINES AVE 5 / 2 / 7",
+                "CHANGI AIRPORT",
+                "TAMPINES AVE 7 / 2 / 5",
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    348: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "34",
+            destination: {
+                text: "CHANGI AIRPORT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "34",
+                    top: "Changi Airport ~",
+                    topFont: "Mobitec-12:7"
+                },
+                "PUNGGOL RD",
+                "TPE",
+                "TAMPINES AVE 10 / 5",
+                "TAMPINES AVE 2 / 7",
+                "TAMPINES EAST MRT",
+                "TERMINAL 3 / 1 / 2 / 4"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    349: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "34",
+            destination: {
+                text: "PUNGGOL",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "34",
+                    top: "Punggol",
+                    topFont: "Mobitec-13:8"
+                },
+                "TAMPINES EAST MRT",
+                "TAMPINES AVE 7 / 2",
+                "TAMPINES AVE 5 / 10",
+                "TPE",
+                "PUNGGOL RD"
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -702,6 +1058,12 @@ EDSData.GASG = {
                     top: "Tomlinson Rd",
                     topFont: "Mobitec-13:8"
                 },
+                "MARINE PARADE RD",
+                "SUNTEC CITY",
+                "STAMFORD RD",
+                "DHOBY GHAUT MRT",
+                "SOMERSET MRT",
+                "ORCHARD BOULEVARD"
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -721,6 +1083,11 @@ EDSData.GASG = {
                     top: "Changi Airport ~",
                     topFont: "Mobitec-12:7"
                 },
+                "ORCHARD RD",
+                "BRAS BASAH RD",
+                "PROMENADE MRT", // Fomerly Suntec City
+                "MARINE PARADE RD",
+                "TERMINAL 3 / 1 / 2 / 4"
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -811,6 +1178,18 @@ EDSData.GASG = {
                     top: "Upper East Coast",
                     topFont: "Mobitec-7:5:3"
                 },
+                "PUNGGOL WAY",
+                "SENGKANG EAST RD",
+                "BUANGKOK MRT",
+                "BUANGKOK GREEN",
+                "YIO CHU KANG RD",
+                "SERANGOON MRT",
+                "UPPER PAYA LEBAR RD",
+                "TAI SENG MRT",
+                "MACPHERSON MRT",
+                "PAYA LEBAR RD / MRT",
+                "TANJONG KATONG RD",
+                "MARINE PARADE RD"
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -830,6 +1209,18 @@ EDSData.GASG = {
                     top: "Punggol",
                     topFont: "Mobitec-13:8"
                 },
+                "MARINE PARADE RD",
+                "TANJONG KATONG RD",
+                "PAYA LEBAR MRT / RD",
+                "MACPHERSON MRT",
+                "TAI SENG MRT",
+                "UPPER PAYA LEBAR RD",
+                "SERANGOON MRT",
+                "YIO CHU KANG RD",
+                "BUANGKOK GREEN",
+                "BUANGKOK MRT",
+                "SENGKANG EAST RD",
+                "PUNGGOL WAY"
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -858,6 +1249,62 @@ EDSData.GASG = {
                     bottom: "MARINE PDE STN EXIT 4 ",
                     bottomFont: "Mobitec-7:4",
                 },
+                {
+                    renderType: "destScroll3",
+                    serviceNumber: "`43e",
+                    top: "MARINE PDE MRT",
+                    topFont: "Mobitec-7:4:3",
+                    bottom: "PUNGGOL WAY",
+                    bottomFont: "Mobitec-5:3",
+                },
+                {
+                    renderType: "destScroll3",
+                    serviceNumber: "`43e",
+                    top: "MARINE PDE MRT",
+                    topFont: "Mobitec-7:4:3",
+                    bottom: "SENGKANG EAST RD",
+                    bottomFont: "Mobitec-5:3",
+                },
+                {
+                    renderType: "destScroll3",
+                    serviceNumber: "`43e",
+                    top: "MARINE PDE MRT",
+                    topFont: "Mobitec-7:4:3",
+                    bottom: "BUANGKOK MRT",
+                    bottomFont: "Mobitec-5:3",
+                },
+                {
+                    renderType: "destScroll3",
+                    serviceNumber: "`43e",
+                    top: "MARINE PDE MRT",
+                    topFont: "Mobitec-7:4:3",
+                    bottom: "AIRPORT RD",
+                    bottomFont: "Mobitec-5:3",
+                },
+                {
+                    renderType: "destScroll3",
+                    serviceNumber: "`43e",
+                    top: "MARINE PDE MRT",
+                    topFont: "Mobitec-7:4:3",
+                    bottom: "MACPHERSON MRT",
+                    bottomFont: "Mobitec-5:3",
+                },
+                {
+                    renderType: "destScroll3",
+                    serviceNumber: "`43e",
+                    top: "MARINE PDE MRT",
+                    topFont: "Mobitec-7:4:3",
+                    bottom: "PAYA LEBAR RD",
+                    bottomFont: "Mobitec-5:3",
+                },
+                {
+                    renderType: "destScroll3",
+                    serviceNumber: "`43e",
+                    top: "MARINE PDE MRT",
+                    topFont: "Mobitec-7:4:3",
+                    bottom: "TG KATONG RD",
+                    bottomFont: "Mobitec-5:3",
+                },
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -878,6 +1325,45 @@ EDSData.GASG = {
                     topFont: "Mobitec-12:7",
                     image: "express",
                 },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "`43e",
+                    top: "PUNGGOL",
+                    topFont: "Mobitec-7:7",
+                    bottom: "TANJONG KATONG RD",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "`43e",
+                    top: "PUNGGOL",
+                    topFont: "Mobitec-7:7",
+                    bottom: "PAYA LEBAR RD",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "`43e",
+                    top: "PUNGGOL",
+                    topFont: "Mobitec-7:7",
+                    bottom: "KPE (EXPRESS)",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "`43e",
+                    top: "PUNGGOL",
+                    topFont: "Mobitec-7:7",
+                    bottom: "BUANGKOK MRT",
+                    bottomFont: "Mobitec-7:4",
+                },                {
+                    renderType: "destScroll",
+                    serviceNumber: "`43e",
+                    top: "PUNGGOL",
+                    topFont: "Mobitec-7:7",
+                    bottom: "SENGKANG EAST RD",
+                    bottomFont: "Mobitec-7:4",
+                },
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -897,6 +1383,11 @@ EDSData.GASG = {
                     top: "Serangoon MRT",
                     topFont: "Mobitec-12:7"
                 },
+                "PUNGGOL WAY",
+                "SENGKANG EAST RD",
+                "BUANGKOK MRT",
+                "BUANGKOK GREEN",
+                "YIO CHU KANG RD"
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -916,6 +1407,11 @@ EDSData.GASG = {
                     top: "Punggol",
                     topFont: "Mobitec-13:8"
                 },
+                "YIO CHU KANG RD",
+                "BUANGKOK GREEN",
+                "BUANGKOK MRT",
+                "SENGKANG EAST RD",
+                "PUNGGOL WAY"
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -935,6 +1431,16 @@ EDSData.GASG = {
                     top: "Sims Ave",
                     topFont: "Mobitec-13:8"
                 },
+                "PUNGGOL FIELD / EAST",
+                "SENGKANG EAST DR",
+                "UPPER SERANGOON RD",
+                "HOUGANG AVE 8 / 10",
+                "HOUGANG MRT",
+                "LORONG AH SOO",
+                "UPPER PAYA LEBAR RD",
+                "MACPHERSON RD",
+                "ALJUNIED MRT",
+                "GEYLANG RD",
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -954,6 +1460,16 @@ EDSData.GASG = {
                     top: "Punggol",
                     topFont: "Mobitec-13:8"
                 },
+                "ALJUNIED MRT",
+                "MACPHERSON RD",
+                "UPPER PAYA LEBAR RD",
+                "LORONG AH SOO",
+                "HOUGANG AVE 3",
+                "HOUGANG MRT",
+                "HOUGANG AVE 10 / 8",
+                "UPPER SERANGOON RD",
+                "SENGKANG EAST DR",
+                "PUNGGOL EAST / FIELD",
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -973,6 +1489,13 @@ EDSData.GASG = {
                     top: "TERMINATING AT",
                     bottom: "ALJUNIED MRT",
                 },
+                "PUNGGOL FIELD",
+                "SENGKANG EAST DR",
+                "HOUGANG AVE 8 / 6 / 10",
+                "HOUGANG AVE 3 / 1",
+                "LORONG AH SOO",
+                "UPPER PAYA LEBAR RD",
+                "MACPHERSON RD",
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -992,6 +1515,12 @@ EDSData.GASG = {
                     top: "Tampines",
                     topFont: "Mobitec-13:8"
                 },
+                "ELIAS RD",
+                "PASIR RIS ST 71",
+                "TAMPINES AVE 10",
+                "TAMPINES AVE 11",
+                "TAMPINES AVE 6",
+                "TAMPINES CONCOURSE"
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -1011,6 +1540,12 @@ EDSData.GASG = {
                     top: "Pasir Ris",
                     topFont: "Mobitec-13:8"
                 },
+                "TAMPINES CONCOURSE",
+                "TAMPINES AVE 6",
+                "TAMPINES AVE 11",
+                "TAMPINES AVE 10",
+                "PASIR RIS ST 71",
+                "ELIAS RD"
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -1074,6 +1609,10 @@ EDSData.GASG = {
                     top: "Serangoon MRT",
                     topFont: "Mobitec-13:8"
                 },
+                "PUNGGOL RD", 
+                "HOUGANG AVE 10", 
+                "HOUGANG AVE 2", 
+                "UPPER SERANGOON RD", 
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -1093,6 +1632,10 @@ EDSData.GASG = {
                     top: "Punggol",
                     topFont: "Mobitec-13:8"
                 },
+                "UPPER SERANGOON RD",
+                "HOUGANG AVE 2",
+                "HOUGANG AVE 10",
+                "PUNGGOL RD"
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -1112,6 +1655,11 @@ EDSData.GASG = {
                     top: "Sengkang",
                     topFont: "Mobitec-13:8"
                 },
+                "PUNGGOL CENTRAL",
+                "PUNGGOL WAY",
+                "PUNGGOL FIELD",
+                "PUNGGOL RD",
+                "SENGKANG EAST RD"
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -1131,6 +1679,11 @@ EDSData.GASG = {
                     top: "Punggol",
                     topFont: "Mobitec-13:8"
                 },
+                "SENGKANG EAST RD",
+                "PUNGGOL RD",
+                "PUNGGOL FIELD",
+                "PUNGGOL WAY",
+                "PUNGGOL CENTRAL"
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -1177,6 +1730,14 @@ EDSData.GASG = {
                     top: "via Sentul Cres",
                     topFont: "Mobitec-12:7"
                 },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "84G",
+                    top: "PUNGGOL",
+                    topFont: "Mobitec-7:7",
+                    bottom: "NIBONG > NORTHSHORE > SIT",
+                    bottomFont: "Hanover-7:3:2"
+                },
             ],
             scrollFont: "Hanover-7:3:2"
         }
@@ -1202,8 +1763,71 @@ EDSData.GASG = {
                     top: "via SIT Punggol",
                     topFont: "Mobitec-12:7"
                 },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "84W",
+                    top: "PUNGGOL",
+                    topFont: "Mobitec-7:7",
+                    bottom: "SIT > NORTHSHORE > NIBONG",
+                    bottomFont: "Hanover-7:3:2"
+                },
             ],
             scrollFont: "Hanover-7:3:2"
+        }
+    },
+    843: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "84A",
+            destination: {
+                text: "Punggol Coast Stn via SIT Punggol",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "84A",
+                    top: "TERMINATING AT",
+                    bottom: "NEW PUNGGOL RD",
+                    bottomFont: "Mobitec-7:7"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "84A",
+                    top: "TERMINATING AT",
+                    bottom: "PUNGGOL COAST STN",
+                },
+                {
+                    renderType: "destScroll2",
+                    serviceNumber: "84A",
+                    top: "via SIT Punggol",
+                    topFont: "Mobitec-12:7"
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    849: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "84",
+            destination: {
+                text: "PUNGGOL",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "84",
+                    top: "Punggol",
+                    topFont: "Mobitec-13:8"
+                },
+                "SENTUL CRESCENT",
+                "PUNGGOL WAY",
+                "NORTHSHORE DRIVE",
+                "NEW PUNGGOL RD"
+            ],
+            scrollFont: "Mobitec-7:4"
         }
     },
     851: {
@@ -1221,6 +1845,14 @@ EDSData.GASG = {
                     top: "Yishun",
                     topFont: "Mobitec-13:8"
                 },
+                "PUNGGOL CENTRAL",
+                "RIVERVALE DR",
+                "COMPASSVALE DR",
+                "SENGKANG EAST RD / WAY",
+                "SENGKANG WEST WAY",
+                "JALAN KAYU",
+                "SLE",
+                "KHATIB MRT"
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -1240,6 +1872,14 @@ EDSData.GASG = {
                     top: "Punggol",
                     topFont: "Mobitec-13:8"
                 },
+                "KHATIB MRT",
+                "SLE",
+                "JALAN KAYU",
+                "SENGKANG WEST WAY",
+                "SENGKANG EAST WAY / RD",
+                "COMPASSVALE DR",
+                "RIVERVALE DR",
+                "PUNGGOL CENTRAL"
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -1269,6 +1909,10 @@ EDSData.GASG = {
                     bottom: "SENGKANG COMMUNITY HUB ",
                     bottomFont: "Mobitec-7:4:3"
                 },
+                "YISHUN AVE 2",
+                "JALAN KAYU",
+                "SENGKANG WEST WAY",
+                "SENGKANG EAST WAY"
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -1300,6 +1944,12 @@ EDSData.GASG = {
                     top: "Changi Business Park",
                     topFont: "Mobitec-7:5:3"
                 },
+                "PUNGGOL WAY",
+                "TPE",
+                "TAMPINES AVE 10 / 8 / 1",
+                "SIMEI AVE",
+                "XILIN AVE",
+                "EXPO MRT",
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -1319,7 +1969,13 @@ EDSData.GASG = {
                     top: "Punggol",
                     topFont: "Mobitec-13:8"
                 },
-
+                "EXPO MRT",
+                "XILIN AVE",
+                "SIMEI AVE",
+                "TAMPINES WEST MRT",
+                "TAMPINES AVE 1 / 8 / 10",
+                "TPE",
+                "PUNGGOL WAY"
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -1346,6 +2002,9 @@ EDSData.GASG = {
                     bottom: "ITE COLL EAST ADM BLK",
                     bottomFont: "Mobitec-7:4",
                 },
+                "TAMPINES AVE 10",
+                "TAMPINES AVE 8 / 1",
+                "TAMPINES WEST MRT",
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -1367,6 +2026,8 @@ EDSData.GASG = {
                     bottomFont: "Mobitec-7:4",
 
                 },
+                "TAMPINES WEST MRT",
+                "TAMPINES AVE 1 / 8 / 10",
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -1386,7 +2047,12 @@ EDSData.GASG = {
                     top: "Kovan",
                     topFont: "Mobitec-13:8"
                 },
-
+                "PUNGGOL FIELD / WAY",
+                "SENGKANG MRT",
+                "RIVERVALE DRIVE",
+                "PUNGGOL RD",
+                "HOUGANG AVE 10 / 8",
+                "UPPER SERANGOON RD",
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -1406,6 +2072,12 @@ EDSData.GASG = {
                     top: "Punggol",
                     topFont: "Mobitec-13:8"
                 },
+                "UPPER SERANGOON RD",
+                "HOUGANG AVE 8 / 10",
+                "PUNGGOL RD",
+                "RIVERVALE DRIVE",
+                "SENGKANG MRT",
+                "PUNGGOL WAY / FIELD",
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -1425,6 +2097,14 @@ EDSData.GASG = {
                     top: "Ang Mo Kio",
                     topFont: "Mobitec-13:8"
                 },
+                "EDGEFIELD PLAINS",
+                "PUNGGOL RD",
+                "RIVERVALE DRIVE",
+                "UPPER SERANGOON RD",
+                "KOVAN MRT",
+                "YIO CHU KANG RD",
+                "SERANGOON GARDENS",
+                "ANG MO KIO AVE 1 / 6",
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -1444,29 +2124,14 @@ EDSData.GASG = {
                     top: "Punggol",
                     topFont: "Mobitec-13:8"
                 },
-            ],
-            scrollFont: "Mobitec-7:4"
-        }
-    },
-    2221: { 
-        front: {
-            renderType: "standardService",
-            serviceNumber: "",
-            destination: {
-                text: "WELCOME PAGE",
-                font: "Mobitec-7:7"
-            },
-            scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "",
-                    top: " New Destination only format",
-                    topFont: "Mobitec-7:4",
-                    bottom: "w.e.f June 2025",
-                    bottomFont: "Mobitec-7:4",
-                    image: "GASG Logo Lion Head"
-                },
-
+                "ANG MO KIO AVE 1 / 6",
+                "SERANGOON GARDENS",
+                "YIO CHU KANG RD",
+                "KOVAN MRT",
+                "UPPER SERANGOON RD",
+                "RIVERVALE DRIVE",
+                "PUNGGOL RD",
+                "EDGEFIELD PLAINS",
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -1511,6 +2176,9 @@ EDSData.GASG = {
                     top: "Pasir Ris",
                     topFont: "Mobitec-13:8"
                 },
+                "DOWNTOWN EAST",
+                "JALAN LOYANG BESAR",
+                "PASIR RIS DR 3"
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -1530,7 +2198,11 @@ EDSData.GASG = {
                     top: "Pasir Ris",
                     topFont: "Mobitec-13:8"
                 },
-
+                "PASIR RIS DR 3 / 10",
+                "ELIAS RD",
+                "PASIR RIS DR 3 / 6",
+                "PASIR RIS DR 1 / 4",
+                "PASIR RIS ST 41"
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -1569,6 +2241,13 @@ EDSData.GASG = {
                     top: "Pasir Ris",
                     topFont: "Mobitec-13:8"
                 },
+                "PASIR RIS DR 3 / 12",
+                "PASIR RIS ST 71",
+                "PASIR RIS DR 12 / 3",
+                "PASIR RIS ST 51",
+                "PASIR RIS DR 11, ST 11",
+                "LOYANG AVE",
+                "PASIR RIS DR 3 / 2"
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -1607,6 +2286,10 @@ EDSData.GASG = {
                     top: "Punggol",
                     topFont: "Mobitec-13:8"
                 },
+                "PUNGGOL WAY",
+                "PUNGGOL CENTRAL / MRT",
+                "EDGEFIELD PLAINS",
+                "PUNGGOL FIELD / EAST",
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -1626,6 +2309,11 @@ EDSData.GASG = {
                     top: "Punggol",
                     topFont: "Mobitec-13:8"
                 },
+                "PUNGGOL FIELD",
+                "SUMANG WALK",
+                "SUMANG LINK",
+                "SENTUL CRESCENT",
+                "PUNGGOL PLACE",
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -1645,6 +2333,11 @@ EDSData.GASG = {
                     top: "Punggol",
                     topFont: "Mobitec-13:8"
                 },
+                "PUNGGOL PLACE",
+                "SENTUL CRESCENT",
+                "SUMANG LINK",
+                "SUMANG WALK",
+                "PUNGGOL FIELD",
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -1693,6 +2386,9 @@ EDSData.GASG = {
                     top: "Punggol",
                     topFont: "Mobitec-13:8"
                 },
+                "PUNGGOL CENTRAL",
+                "PUNGGOL WAY",
+                "NORTHSHORE DRIVE"
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -1712,6 +2408,10 @@ EDSData.GASG = {
                     top: "Punggol",
                     topFont: "Mobitec-13:8"
                 },
+                "PUNGGOL CENTRAL",
+                "EDGEFIELD PLAINS",
+                "PUNGGOL FIELD",
+                "PUNGGOL EAST"
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -1757,6 +2457,10 @@ EDSData.GASG = {
                     top: "Pasir Ris",
                     topFont: "Mobitec-13:8"
                 },
+                "PASIR RIS DR 8 / 1",
+                "ELIAS RD",
+                "PASIR RIS RD",
+                "PASIR RIS PARK"
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -1783,6 +2487,62 @@ EDSData.GASG = {
                     top: "Bayfront",
                     image: "express",
                 },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "`518",
+                    top: "BAYFRONT",
+                    topFont: "Mobitec-7:7",
+                    bottom: "PASIR RIS DR 3 / 1",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "`518",
+                    top: "BAYFRONT",
+                    topFont: "Mobitec-7:7",
+                    bottom: "TAMPINES AVE 7",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "`518",
+                    top: "BAYFRONT",
+                    topFont: "Mobitec-7:7",
+                    bottom: "TAMPINES AVE 2 / 1",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "`518",
+                    top: "BAYFRONT",
+                    topFont: "Mobitec-7:7",
+                    bottom: "BEDOK NORTH MRT",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "`518",
+                    top: "BAYFRONT",
+                    topFont: "Mobitec-7:7",
+                    bottom: "NEWTON MRT",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "`518",
+                    top: "BAYFRONT",
+                    topFont: "Mobitec-7:7",
+                    bottom: "ORCHARD RD",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "`518",
+                    top: "BAYFRONT",
+                    topFont: "Mobitec-7:7",
+                    bottom: "SUNTEC CITY",
+                    bottomFont: "Mobitec-7:4",
+                },
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -1802,7 +2562,62 @@ EDSData.GASG = {
                     top: "Pasir Ris",
                     image: "express",
                 },
-
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "`518",
+                    top: "PASIR RIS",
+                    topFont: "Mobitec-7:7",
+                    bottom: "NEWTON MRT",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "`518",
+                    top: "PASIR RIS",
+                    topFont: "Mobitec-7:7",
+                    bottom: "ORCHARD RD",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "`518",
+                    top: "PASIR RIS",
+                    topFont: "Mobitec-7:7",
+                    bottom: "SUNTEC CITY",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "`518",
+                    top: "PASIR RIS",
+                    topFont: "Mobitec-7:7",
+                    bottom: "BEDOK NORTH MRT",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "`518",
+                    top: "PASIR RIS",
+                    topFont: "Mobitec-7:7",
+                    bottom: "TAMPINES AVE 1 / 2",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "`518",
+                    top: "PASIR RIS",
+                    topFont: "Mobitec-7:7",
+                    bottom: "TAMPINES AVE 7",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "`518",
+                    top: "PASIR RIS",
+                    topFont: "Mobitec-7:7",
+                    bottom: "PASIR RIS DR 1 / 3",
+                    bottomFont: "Mobitec-7:4",
+                },
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -1833,6 +2648,46 @@ EDSData.GASG = {
                     bottom: "TAMPINES",
                     bottomFont: "Mobitec-7:4",
                     image: "express",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "`518A",
+                    top: "BAYFRONT",
+                    topFont: "Mobitec-7:7",
+                    bottom: "PASIR RIS DR 3/1",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "`518A",
+                    top: "BAYFRONT",
+                    topFont: "Mobitec-7:7",
+                    bottom: "LOYANG AVE",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "`518A",
+                    top: "BAYFRONT",
+                    topFont: "Mobitec-7:7",
+                    bottom: "NEWTON MRT",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "`518A",
+                    top: "BAYFRONT",
+                    topFont: "Mobitec-7:7",
+                    bottom: "ORCHARD RD",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "`518A",
+                    top: "BAYFRONT",
+                    topFont: "Mobitec-7:7",
+                    bottom: "PROMENADE MRT",
+                    bottomFont: "Mobitec-7:4",
                 },
             ],
             scrollFont: "Mobitec-7:4"
@@ -1876,6 +2731,22 @@ EDSData.GASG = {
                     bottomFont: "Mobitec-7:5:1",
                     image: "CityDirect",
                 },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "~661",
+                    top: "MARINA BLVD",
+                    topFont: "Mobitec-7:7",
+                    bottom: "ANSON RD",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "~661",
+                    top: "MARINA BLVD",
+                    topFont: "Mobitec-7:7",
+                    bottom: "ROBINSON RD",
+                    bottomFont: "Mobitec-7:4",
+                },
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -1897,6 +2768,38 @@ EDSData.GASG = {
                     bottom: "Drive 3",
                     bottomFont: "Mobitec-7:5:1",
                     image: "CityDirect",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "~661",
+                    top: "PASIR RIS DR 3",
+                    topFont: "Mobitec-7:7",
+                    bottom: "SHENTON WAY",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "~661",
+                    top: "PASIR RIS DR 3",
+                    topFont: "Mobitec-7:7",
+                    bottom: "LOYANG AVE",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "~661",
+                    top: "PASIR RIS DR 3",
+                    topFont: "Mobitec-7:7",
+                    bottom: "PASIR RIS ST 11",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "~661",
+                    top: "PASIR RIS DR 3",
+                    topFont: "Mobitec-7:7",
+                    bottom: "PASIR RIS DR 6",
+                    bottomFont: "Mobitec-7:4",
                 },
             ],
             scrollFont: "Mobitec-7:4"
@@ -1920,7 +2823,46 @@ EDSData.GASG = {
                     bottomFont: "Mobitec-7:5:1",
                     image: "CityDirect",
                 },
-
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "~666",
+                    top: "TEMASEK BLVD",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "PUNGGOL DR",
+                    bottomFont: "Mobitec-5:3",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "~666",
+                    top: "TEMASEK BLVD",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "PUNGGOL EAST",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "~666",
+                    top: "TEMASEK BLVD",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "PUNGGOL FIELD",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "~666",
+                    top: "TEMASEK BLVD",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "PUNGGOL WAY",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "~666",
+                    top: "TEMASEK BLVD",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "ROBINSON RD",
+                    bottomFont: "Mobitec-7:4",
+                },
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -1943,6 +2885,91 @@ EDSData.GASG = {
                     bottomFont: "Mobitec-7:7",
                     image: "CityDirect",
                 },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "~666",
+                    top: "DAMAI LRT",
+                    topFont: "Mobitec-7:7",
+                    bottom: "SHENTON WAY",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "~666",
+                    top: "DAMAI LRT",
+                    topFont: "Mobitec-7:7",
+                    bottom: "PUNGGOL WAY",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "~666",
+                    top: "DAMAI LRT",
+                    topFont: "Mobitec-7:7",
+                    bottom: "PUNGGOL FIELD",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "~666",
+                    top: "DAMAI LRT",
+                    topFont: "Mobitec-7:7",
+                    bottom: "PUNGGOL EAST",
+                    bottomFont: "Mobitec-7:4",
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    6668: { // Old Route before 251124
+        front: {
+            renderType: "standardService",
+            serviceNumber: "666",
+            destination: {
+                text: "MARINA BLVD",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "666",
+                    top: "Marina",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "Boulevard",
+                    bottomFont: "Mobitec-7:5:1",
+                    image: "CityDirect",
+                },
+                "PUNGGOL DR",
+                "PUNGGOL EAST",
+                "PUNGGOL FIELD",
+                "PUNGGOL WAY",
+                "ROBINSON RD"
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    6669: { // Old Route before 251124
+        front: {
+            renderType: "standardService",
+            serviceNumber: "666",
+            destination: {
+                text: "PUNGGOL DRIVE",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "666",
+                    top: "Punggol",
+                    topFont: "Mobitec-7:5:2",
+                    bottom: "Drive",
+                    bottomFont: "Mobitec-7:5:2",
+                    image: "CityDirect",
+                },
+                "SHENTON WAY",
+                "PUNGGOL WAY",
+                "PUNGGOL FIELD",
+                "PUNGGOL EAST",
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -1985,6 +3012,38 @@ EDSData.GASG = {
                     bottomFont: "Mobitec-7:5:1",
                     image: "CityDirect",
                 },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "~673",
+                    top: "TEMASEK BLVD",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "TG PAGAR MRT",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "~673",
+                    top: "TEMASEK BLVD",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "MARINA BLVD",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "~673",
+                    top: "TEMASEK BLVD",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "BAYFRONT MRT",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "~673",
+                    top: "TEMASEK BLVD",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "PROMENADE MRT",
+                    bottomFont: "Mobitec-7:4",
+                },
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -2006,6 +3065,54 @@ EDSData.GASG = {
                     bottom: "Point LRT",
                     bottomFont: "Mobitec-7:5:1",
                     image: "CityDirect",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "~673",
+                    top: "PUNGGOL POINT",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "SHENTON WAY",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "~673",
+                    top: "PUNGGOL POINT",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "PUNGGOL WAY / FIELD",
+                    bottomFont: "Hanover-7:3",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "~673",
+                    top: "PUNGGOL POINT",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "PUNGGOL CRES / LANE",
+                    bottomFont: "Hanover-7:3",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "~673",
+                    top: "PUNGGOL POINT",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "PUNGGOL WALK / LINK",
+                    bottomFont: "Hanover-7:3",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "~673",
+                    top: "PUNGGOL POINT",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "NIBONG LRT",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "~673",
+                    top: "PUNGGOL POINT",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "SAMUDERA LRT",
+                    bottomFont: "Mobitec-7:4",
                 },
             ],
             scrollFont: "Mobitec-7:4"
@@ -2029,6 +3136,38 @@ EDSData.GASG = {
                     bottomFont: "Mobitec-7:5:1",
                     image: "CityDirect",
                 },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "~678",
+                    top: "TEMASEK BLVD",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "TG PAGAR MRT",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "~678",
+                    top: "TEMASEK BLVD",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "MARINA BLVD",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "~678",
+                    top: "TEMASEK BLVD",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "BAYFRONT MRT",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "~678",
+                    top: "TEMASEK BLVD",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "PROMENADE MRT",
+                    bottomFont: "Mobitec-7:4",
+                },
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -2051,6 +3190,46 @@ EDSData.GASG = {
                     bottomFont: "Mobitec-7:5:2",
                     image: "CityDirect",
                 },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "~678",
+                    top: "PUNGGOL CTRL",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "SHENTON WAY",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "~678",
+                    top: "PUNGGOL CTRL",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "SENGKANG EAST DR",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "~678",
+                    top: "PUNGGOL CTRL",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "PUNGGOL EAST",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "~678",
+                    top: "PUNGGOL CTRL",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "PUNGGOL NTH AVE",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "~678",
+                    top: "PUNGGOL CTRL",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "EDGEFIELD PLAINS",
+                    bottomFont: "Mobitec-7:4",
+                },
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -2066,10 +3245,18 @@ EDSData.GASG = {
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "999",
-                    top: "LOYANG DEPOT",
+                    serviceNumber: "~999",
+                    top: "PUNGGOL CTRL",
                     topFont: "Mobitec-7:5:1",
-                    bottom: "PUNGGOL COAST INT",
+                    bottom: "SHENTON WAY",
+                    bottomFont: "Mobitec-7:4",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "~999",
+                    top: "PUNGGOL POINT LRT",
+                    topFont: "Mobitec-7:4:3",
+                    bottom: "PUNGGOL FIELD / WAY",
                     bottomFont: "Mobitec-7:4",
                 },
             ],
@@ -2097,7 +3284,7 @@ EDSData.GASG = {
     },
 }
 
-EDSExtras.GASG = {    
+EDSExtras['GASG-Original'] = {    
 1: {
     front: {
         renderType: "destScroll",
@@ -2109,7 +3296,7 @@ EDSExtras.GASG = {
 },
 }
 
-EDSImages.GASG = {
+EDSImages['GASG-Original'] = {
 "blank": [
      [0]
 ],

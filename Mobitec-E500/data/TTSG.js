@@ -3159,6 +3159,21 @@ EDSData.TTSG = {
             ]
         }
     },
+    8565: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: "856C ADMIRALTY RD WEST",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "856C",
+                    top: "ADMIRALTY RD WEST",
+                    topFont: "Mobitec-Tower9:4",
+                }
+            ]
+        }
+    },
     8571: {
         front: {
             renderType: "standardService",

@@ -298,7 +298,7 @@ EDSFormats.TTSG = {
             },
             text: "$serviceNumber",
             font: "LECIP-19:TowerB9Front",
-            spacing: 3
+            spacing: 2
         },
         top: {
             align: {
@@ -4125,6 +4125,32 @@ EDSData.TTSG = {
             rear: { 
                 renderType: "rearService",
                 serviceNumber: "856B",
+                font: "LECIP-TowerRear17:7",
+                spacing: 1
+            }
+        }
+    },
+    "856C": { // Bomb
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "856C",
+                destination: "ADMIRALTY RD WEST",
+                destinationFont: "Hanover-10",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "ADMIRALTY RD WEST",
+                    topFont: "Hanover-12:3",
+        
+                    serviceNumber: "856C",
+                },
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: { 
+                renderType: "rearService",
+                serviceNumber: "856¢",
                 font: "LECIP-TowerRear17:7",
                 spacing: 1
             }

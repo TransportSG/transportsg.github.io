@@ -3,12 +3,13 @@ window.frontEDS = null; window.rearEDS = null;
 let currentOperator = location.hash.slice(1) ? location.hash.slice(1) : 'SBST';
 
 let startupCodes = {
-    'SMRT': '9117',
-    'SMRT-old': '117',
     'SBST': '2222',
+    'GASG': '2221',
+    'SMRT': '9117',
     'TTSG': '6667',
+    'GASG-Original': '2222',
+    'SMRT-old': '117',
     'TTSG-Original': '6666',
-    'GASG': '2222'
 }
 
 let EDSFormats = {};

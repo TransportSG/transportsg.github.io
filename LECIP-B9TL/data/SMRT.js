@@ -1307,6 +1307,34 @@ EDSData.SMRT = {
             }
         }
     },
+    1793: { // Bomb
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "179B",
+                destination: "PIONEER MRT",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                {
+                    renderType: "destScroll2",
+                    top: "ENDS AT",
+                    topFont: "ArialBold-8:2",
+                    bottom: "PIONEER MRT",
+                    bottomFont: "Calibri-7",
+        
+                    serviceNumber: "179B"
+                },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "179B",
+                font: "Arial-10",
+                spacing: 1
+            }
+        }
+    },
     1801: { // Done
         1: {
             front: {
