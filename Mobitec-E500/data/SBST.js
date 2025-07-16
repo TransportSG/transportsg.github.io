@@ -9460,17 +9460,17 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "299",
             destination: {
-                text: "TAMPINES INT - TAMPINES ST 96",
+                text: "TAMPINES NORTH INT - TAMPINES ST 96",
                 font: "Mobitec-7:4"
             },
             scrolls: [
             {
                 renderType: "destScroll",
                 serviceNumber: "299",
-                top: "TAMPINES INT -",
-                topFont: "Mobitec-7:4",
+                top: "TAMPINES NORTH INT -",
+                topFont: "Mobitec-7:5:1",
                 bottom: "TAMPINES ST 96 (LOOP)",
-                bottomFont: "Mobitec-7:4",
+                bottomFont: "Mobitec-7:5:1",
             },
             ],
             scrollFont: "Mobitec-6:5"

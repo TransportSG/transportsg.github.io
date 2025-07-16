@@ -15759,13 +15759,13 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "299",
-                destination: "TAMPINES INT - TAMPINES ST 96",
+                destination: "TAMPINES NORTH INT - TAMPINES ST 96",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
                     renderType: "centreMessageServiceScroll",
 
-                    top: "TAMPINES INT -",
+                    top: "TAMPINES NORTH INT -",
                     topFont: "LECIP-7:5",
 
                     bottom: "TAMPINES ST 96 (LOOP)",
