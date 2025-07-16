@@ -570,6 +570,61 @@ EDSFormats.SBST = {
         },
         text: "FULL"
     },
+    ChingaystandardService: { // wording: hano ; num: lecip  -  because sbs kecoh af
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 0
+            },
+            text: "$serviceNumber",
+            font: {
+                $$cond: {
+                    "$serviceFont === null": "LECIP-20:12",
+                    "else": "$serviceFont"
+                }
+            },
+            spacing: 3
+        },
+        destination: {
+            align: "left,bottom",
+            margin: {
+                bottom: {
+                    $$cond: {
+                        "$destinationFont === 'Hanover-8'": 2,
+                        "$destinationFont === 'Hanover-10'": 1
+                    }
+                },
+            },
+            text: "$destination",
+            font: "$destinationFont",
+            spacing: {
+                $$cond: {
+                    "$destinationFont === 'Hanover-10'": 2,
+                    "else": 1
+                }
+            }
+        },
+        scroll: {
+            align: "left,top",
+            margin: {
+                top: {
+                    $$cond: {
+                        "$destinationFont === 'LECIP-6:3'": 2,
+                        "$destinationFont === 'LECIP-6:4'": 2,
+                        "else": "0"
+                    }
+                }
+            },
+            scrolls: "$scrolls",
+            rotate: true,
+            rotateSpeed: 2600,
+
+            font: "$scrollFont",
+            spacing: 1
+        },
+
+        text: "$destination"
+    },
     swt: {
         serviceNumber: {
             align: "right",
@@ -1510,24 +1565,24 @@ EDSData.SBST = {
     "10C": {
         1: {
             front: {
-                renderType: "standardService",
+                renderType: "ChingaystandardService",
                 serviceNumber: "10",
                 destination: "> KENT RIDGE TER",
-                destinationFont: "LECIP-10",
+                destinationFont: "Hanover-10",
                 scrolls: [
                     {
                         renderType: "destScroll",
                         top: "  ~",
                         topFont: "LECIP-20:12",
                                     
-                        serviceNumber: "10"
+                        serviceNumber: "10",
                     },
                     "EAST COAST RD",
                     'TANJONG KATONG RD',
                     'SHENTON WAY',
                     'PASIR PANJANG RD',
                 ],
-                scrollFont: "LECIP-7:5"
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -1538,10 +1593,10 @@ EDSData.SBST = {
         },
         2: {
             front: {
-                renderType: "standardService",
+                renderType: "ChingaystandardService",
                 serviceNumber: "10",
                 destination: "> TAMPINES INT",
-                destinationFont: "LECIP-10",
+                destinationFont: "Hanover-10",
                 scrolls: [
                     {
                         renderType: "destScroll",
@@ -1555,7 +1610,7 @@ EDSData.SBST = {
                     'TANJONG KATONG RD',
                     'EAST COAST RD'
                 ],
-                scrollFont: "LECIP-7:5"
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -2562,10 +2617,10 @@ EDSData.SBST = {
     "23C": {
         1: {
             front: {
-                renderType: "standardService",
+                renderType: "ChingaystandardService",
                 serviceNumber: "23",
                 destination: "TAMPINES INT-ROCHOR",
-                destinationFont: "LECIP-7:5",
+                destinationFont: "Hanover-8",
                 scrolls: [
                     {
                     renderType: "destScroll",
@@ -2581,7 +2636,7 @@ EDSData.SBST = {
                     "BEDOK NORTH RD",
                     "TAMPINES AVE 1"
                 ],
-                scrollFont: "LECIP-7:5"
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -3037,10 +3092,10 @@ EDSData.SBST = {
     "30C": {
         1: {
             front: {
-                renderType: "standardService",
+                renderType: "ChingaystandardService",
                 serviceNumber: "30",
                 destination: "> BOON LAY INT",
-                destinationFont: "LECIP-10",
+                destinationFont: "Hanover-10",
                 scrolls: [
                     {
                         renderType: "destScroll",
@@ -3058,7 +3113,7 @@ EDSData.SBST = {
                     'WEST COAST RD',
                     'CORPORATION RD'
                 ],
-                scrollFont: "LECIP-7:5"
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -3069,10 +3124,10 @@ EDSData.SBST = {
         },
         2: {
             front: {
-                renderType: "standardService",
+                renderType: "ChingaystandardService",
                 serviceNumber: "30",
                 destination: "> BEDOK INT",
-                destinationFont: "LECIP-10",
+                destinationFont: "Hanover-10",
                 scrolls: [
                     {
                         renderType: "destScroll",
@@ -3089,7 +3144,7 @@ EDSData.SBST = {
                     "OLD AIRPORT RD",
                     "SIMS AVE EAST"
                 ],
-                scrollFont: "LECIP-7:5"
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -6887,10 +6942,10 @@ EDSData.SBST = {
     "88C": {
         1: {
             front: {
-                renderType: "standardService",
+                renderType: "ChingaystandardService",
                 serviceNumber: "88",
                 destination: "> PASIR RIS INT",
-                destinationFont: "LECIP-10",
+                destinationFont: "Hanover-10",
                 scrolls: [                
                     {
                     renderType: "destScroll",
@@ -6905,7 +6960,7 @@ EDSData.SBST = {
                     'ANG MO KIO AVE 5',
                     'BISHAN ST 22'
                 ],
-                scrollFont: "LECIP-7:5"
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -6916,10 +6971,10 @@ EDSData.SBST = {
         },
         2: {
             front: {
-                renderType: "standardService",
+                renderType: "ChingaystandardService",
                 serviceNumber: "88",
                 destination: "> TOA PAYOH INT",
-                destinationFont: "LECIP-10",
+                destinationFont: "Hanover-10",
                 scrolls: [ 
                     {
                     renderType: "destScroll",
@@ -6934,7 +6989,7 @@ EDSData.SBST = {
                     'PUNGGOL RD',
                     'PASIR RIS DR 3'
                 ],
-                scrollFont: "LECIP-7:5"
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -14110,10 +14165,10 @@ EDSData.SBST = {
     "222C": {
         1: {
             front: {
-                renderType: "standardService",
+                renderType: "ChingaystandardService",
                 serviceNumber: "222",
                 destination: "BEDOK INT-CHAI CHEE DR",
-                destinationFont: "LECIP-7:5",
+                destinationFont: "Hanover-8",
                 scrolls: [
                     {
                         renderType: "destScroll",
@@ -14128,7 +14183,7 @@ EDSData.SBST = {
                     'CHAI CHEE RD',
                     'CHAI CHEE ST'
                 ],
-                scrollFont: "LECIP-7:5"
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -15510,10 +15565,10 @@ EDSData.SBST = {
     "293C": {
         1: {
             front: {
-                renderType: "standardService",
+                renderType: "ChingaystandardService",
                 serviceNumber: "293",
                 destination: "> TAMPINES ST 71&AVE 7",
-                destinationFont: "LECIP-7:5",
+                destinationFont: "Hanover-8",
                 scrolls: [
                     {
                         renderType: "destScroll",
@@ -15524,10 +15579,10 @@ EDSData.SBST = {
                     },
                     "TAMPINES AVE 4 & 3",
                     "TAMPINES AVE 8 & 9",
-                    "TAMPINES ST 45&42",
-                    "TAMPINES AVE 4 & 3"
+                    "TAMPINES ST 45 & 42",
+                    "TAMPINES AVE 4 & 3",
                 ],
-                scrollFont: "LECIP-7:5"
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -20772,10 +20827,10 @@ EDSData.SBST = {
     "851C": {
         1: {
             front: {
-                renderType: "standardService",
+                renderType: "ChingaystandardService",
                 serviceNumber: "851",
                 destination: "> BUKIT MERAH INT",
-                destinationFont: "LECIP-7:5",
+                destinationFont: "Hanover-10",
                 scrolls: [
                     {
                         renderType: "destScroll",
@@ -20794,7 +20849,7 @@ EDSData.SBST = {
                     'NEW BRIDGE RD',
                     'TIONG BAHRU RD'
                 ],
-                scrollFont: "LECIP-7:5"
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -20805,10 +20860,10 @@ EDSData.SBST = {
         },
         2: {
             front: {
-                renderType: "standardService",
+                renderType: "ChingaystandardService",
                 serviceNumber: "851",
                 destination: "> YISHUN INT",
-                destinationFont: "LECIP-7:5",
+                destinationFont: "Hanover-10",
                 scrolls: [
                     {
                         renderType: "destScroll",
@@ -20827,7 +20882,7 @@ EDSData.SBST = {
                     "LENTOR AVE",
                     "YISHUN AVE 2"
                 ],
-                scrollFont: "LECIP-7:5"
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",

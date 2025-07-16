@@ -1254,10 +1254,10 @@ EDSData.SBST = {
                         serviceNumber: "123",
                         image: "fireworks",
 
-                        top: "I AM THE",
+                        top: "SUPER PREMIUM",
                         topFont: "Hanover-7:5",
 
-                        bottom: "WORST SERVICE",
+                        bottom: "ICE CREAM",
                         bottomFont: "Hanover-7:5"
                     },
                     "BUKIT PURMEI AVE",
