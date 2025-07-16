@@ -1121,6 +1121,12 @@ EDSData.TTSG = {
     
                     serviceNumber: "41"
                 },
+                {
+                    renderType: "message",
+                    text: "41",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
+                },
                 ],
                 scrollFont: "Hanover-7:5"
             },
@@ -1144,6 +1150,12 @@ EDSData.TTSG = {
                     topFont: "Hanover-17:11",
     
                     serviceNumber: "41"
+                },
+                {
+                    renderType: "message",
+                    text: "41",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
                 }, 
                 ],
                 scrollFont: "Hanover-7:5"
@@ -1171,6 +1183,12 @@ EDSData.TTSG = {
     
                     serviceNumber: "49",
                 },
+                {
+                    renderType: "message",
+                    text: "49",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
+                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -1195,6 +1213,12 @@ EDSData.TTSG = {
     
                     serviceNumber: "49"
                 }, 
+                {
+                    renderType: "message",
+                    text: "49",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
+                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -1270,7 +1294,13 @@ EDSData.TTSG = {
                     topFont: "Hanover-17:11",
     
                     serviceNumber: "77"
-                }, 
+                },
+                {
+                    renderType: "message",
+                    text: "77",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
+                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -1294,7 +1324,13 @@ EDSData.TTSG = {
                     topFont: "Hanover-17:11",
     
                     serviceNumber: "77"
-                }, 
+                },
+                {
+                    renderType: "message",
+                    text: "77",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
+                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -1362,7 +1398,13 @@ EDSData.TTSG = {
                     topFont: "Hanover-17:11",
     
                     serviceNumber: "77"
-                }, 
+                },
+                {
+                    renderType: "message",
+                    text: "77",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
+                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -1389,6 +1431,12 @@ EDSData.TTSG = {
             
                     serviceNumber: "78"
                 },
+                {
+                    renderType: "message",
+                    text: "78",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
+                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -1412,6 +1460,12 @@ EDSData.TTSG = {
                     topFont: "Hanover-17:6",
         
                     serviceNumber: "78",
+                },
+                {
+                    renderType: "message",
+                    text: "78",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
                 },
                 ],
                 scrollFont: "Hanover-Tower7:5"
@@ -1464,6 +1518,12 @@ EDSData.TTSG = {
                     topFont: "Hanover-17:11",
     
                     serviceNumber: "79"
+                },
+                {
+                    renderType: "message",
+                    text: "79",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
                 }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
@@ -1489,6 +1549,12 @@ EDSData.TTSG = {
         
                     serviceNumber: "79",
                 },
+                {
+                    renderType: "message",
+                    text: "79",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
+                }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -1641,7 +1707,13 @@ EDSData.TTSG = {
                     topFont: "Hanover-17:11",
     
                     serviceNumber: "97"
-                }, 
+                },
+                {
+                    renderType: "message",
+                    text: "97",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
+                },  
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -1665,6 +1737,12 @@ EDSData.TTSG = {
                     topFont: "Hanover-17:11",
     
                     serviceNumber: "97"
+                },
+                {
+                    renderType: "message",
+                    text: "97",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
                 }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
@@ -1831,6 +1909,12 @@ EDSData.TTSG = {
                     topFont: "Hanover-17:6",
     
                     serviceNumber: "98"
+                },
+                {
+                    renderType: "message",
+                    text: "98",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
                 }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
@@ -1859,6 +1943,12 @@ EDSData.TTSG = {
                     topFont: "Hanover-17:11",
     
                     serviceNumber: "98"
+                },
+                {
+                    renderType: "message",
+                    text: "98",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
                 },
                 ],
                 scrollFont: "Hanover-Tower7:5"
@@ -2152,6 +2242,12 @@ EDSData.TTSG = {
                     topFont: "Hanover-17:11",
     
                     serviceNumber: "143"
+                },
+                {
+                    renderType: "message",
+                    text: "143",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
                 }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
@@ -2176,7 +2272,13 @@ EDSData.TTSG = {
                     topFont: "Hanover-17:11",
     
                     serviceNumber: "143"
-                }, 
+                },
+                {
+                    renderType: "message",
+                    text: "143",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
+                },  
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -2490,7 +2592,13 @@ EDSData.TTSG = {
                     topFont: "Hanover-17:6",
     
                     serviceNumber: "171"
-                }, 
+                },
+                {
+                    renderType: "message",
+                    text: "171",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
+                },  
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -2514,9 +2622,15 @@ EDSData.TTSG = {
                     topFont: "Hanover-17:11",
     
                     serviceNumber: "171"
-                }, 
-                    ],
-                    scrollFont: "Hanover-Tower7:5"
+                },
+                {
+                    renderType: "message",
+                    text: "171",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
+                },  
+                ],
+                scrollFont: "Hanover-Tower7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -2534,13 +2648,19 @@ EDSData.TTSG = {
                 destination: "CLEMENTI",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [                    
-               {
+                {
                     renderType: "destScroll",
                     top: "CLEMENTI",
                     topFont: "Hanover-17:11",
     
                     serviceNumber: "173"
-                }, 
+                },
+                {
+                    renderType: "message",
+                    text: "173",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
+                },  
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -2562,13 +2682,19 @@ EDSData.TTSG = {
                 destination: "BUKIT BATOK",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [                    
-               {
+                {
                     renderType: "destScroll",
                     top: "BUKIT BATOK",
                     topFont: "Hanover-17:11",
     
                     serviceNumber: "173"
-                }, 
+                },
+                {
+                    renderType: "message",
+                    text: "173",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
+                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -2618,13 +2744,19 @@ EDSData.TTSG = {
                 destination: "JELEBU RD",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [                    
-               {
+                {
                     renderType: "destScroll",
                     top: "JELEBU RD",
                     topFont: "Hanover-17:11",
     
                     serviceNumber: "177"
-                }, 
+                },
+                {
+                    renderType: "message",
+                    text: "177",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
+                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -2667,6 +2799,12 @@ EDSData.TTSG = {
                     topFont: "Hanover-17:11",
     
                     serviceNumber: "177"
+                },
+                {
+                    renderType: "message",
+                    text: "177",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
                 }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
@@ -2698,6 +2836,12 @@ EDSData.TTSG = {
         
                     serviceNumber: "183"
                 },
+                {
+                    renderType: "message",
+                    text: "183",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
+                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -2721,9 +2865,15 @@ EDSData.TTSG = {
                     topFont: "Hanover-17:11",
     
                     serviceNumber: "183"
+                },
+                {
+                    renderType: "message",
+                    text: "183",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
                 }, 
-                    ],
-                    scrollFont: "Hanover-Tower7:5"
+                ],
+                scrollFont: "Hanover-Tower7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -2773,6 +2923,12 @@ EDSData.TTSG = {
                     topFont: "Hanover-17:10",
             
                     serviceNumber: "189"
+                },
+                {
+                    renderType: "message",
+                    text: "189",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
                 }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
@@ -2797,7 +2953,13 @@ EDSData.TTSG = {
                     topFont: "Hanover-17:11",
     
                     serviceNumber: "189"
-                }, 
+                },
+                {
+                    renderType: "message",
+                    text: "189",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
+                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -2850,6 +3012,12 @@ EDSData.TTSG = {
         
                     serviceNumber: "282",
                 },
+                {
+                    renderType: "message",
+                    text: "282",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
+                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -2873,7 +3041,13 @@ EDSData.TTSG = {
                     topFont: "Hanover-17:11",
     
                     serviceNumber: "282"
-                }, 
+                },
+                {
+                    renderType: "message",
+                    text: "282",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
+                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -2900,6 +3074,12 @@ EDSData.TTSG = {
         
                     serviceNumber: "284",
                 },
+                {
+                    renderType: "message",
+                    text: "284",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
+                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -2924,6 +3104,12 @@ EDSData.TTSG = {
     
                     serviceNumber: "284"
                 }, 
+                {
+                    renderType: "message",
+                    text: "284",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
+                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -2999,6 +3185,12 @@ EDSData.TTSG = {
                     topFont: "Hanover-17:6",
     
                     serviceNumber: "333"
+                },
+                {
+                    renderType: "message",
+                    text: "333",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
                 }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
@@ -3023,6 +3215,12 @@ EDSData.TTSG = {
                     topFont: "Hanover-17:11",
     
                     serviceNumber: "333"
+                },
+                {
+                    renderType: "message",
+                    text: "333",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
                 }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
@@ -3049,6 +3247,12 @@ EDSData.TTSG = {
                     topFont: "Hanover-17:6",
     
                     serviceNumber: "334"
+                },
+                {
+                    renderType: "message",
+                    text: "334",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
                 }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
@@ -3073,6 +3277,12 @@ EDSData.TTSG = {
                     topFont: "Hanover-17:11",
     
                     serviceNumber: "334"
+                },
+                {
+                    renderType: "message",
+                    text: "334",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
                 }, 
                 ],
                 scrollFont: "Hanover-Tower7:5"
@@ -4822,7 +5032,13 @@ EDSData.TTSG = {
                     topFont: "Hanover-17:6",
     
                     serviceNumber: "871"
-                }, 
+                },
+                {
+                    renderType: "message",
+                    text: "871",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
+                } 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -4847,6 +5063,12 @@ EDSData.TTSG = {
         
                     serviceNumber: "871"
                 },
+                {
+                    renderType: "message",
+                    text: "871",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
+                } 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -4898,7 +5120,13 @@ EDSData.TTSG = {
                     topFont: "Hanover-17:6",
     
                     serviceNumber: "872"
-                }, 
+                },
+                {
+                    renderType: "message",
+                    text: "872",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
+                }  
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -4923,6 +5151,12 @@ EDSData.TTSG = {
         
                     serviceNumber: "872"
                 },
+                {
+                    renderType: "message",
+                    text: "872",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
+                } 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -4949,7 +5183,13 @@ EDSData.TTSG = {
         
                     serviceNumber: "882"
                 },
-            ],
+                {
+                    renderType: "message",
+                    text: "882",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
+                } 
+                ],
                 scrollFont: "Hanover-Tower7:5"
             },
             rear: {
@@ -4973,8 +5213,14 @@ EDSData.TTSG = {
         
                     serviceNumber: "882"
                 },
+                {
+                    renderType: "message",
+                    text: "882",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
+                }
                 ],
-                    scrollFont: "Hanover-Tower7:5"
+                scrollFont: "Hanover-Tower7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -5025,8 +5271,14 @@ EDSData.TTSG = {
         
                     serviceNumber: "883"
                 },
+                {
+                    renderType: "message",
+                    text: "883",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
+                }
                 ],
-                    scrollFont: "Hanover-Tower7:5"
+                scrollFont: "Hanover-Tower7:5"
             },
             rear: {
                 renderType: "twolinerear",
@@ -5053,8 +5305,14 @@ EDSData.TTSG = {
         
                     serviceNumber: "883"
                 },
+                {
+                    renderType: "message",
+                    text: "883",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
+                }
                 ],
-                    scrollFont: "Hanover-Tower7:5"
+                scrollFont: "Hanover-Tower7:5"
             },
             rear: {
                 renderType: "twolinerear",
@@ -5167,6 +5425,12 @@ EDSData.TTSG = {
         
                     serviceNumber: "941",
                 },
+                {
+                    renderType: "message",
+                    text: "941",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
+                }
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -5190,7 +5454,13 @@ EDSData.TTSG = {
                     topFont: "Hanover-17:11",
     
                     serviceNumber: "941"
-                }, 
+                },
+                {
+                    renderType: "message",
+                    text: "941",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
+                } 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -5217,6 +5487,7 @@ EDSData.TTSG = {
         
                     serviceNumber: "945",
                 },
+
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -5267,6 +5538,12 @@ EDSData.TTSG = {
         
                     serviceNumber: "947",
                 },
+                {
+                    renderType: "message",
+                    text: "947",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
+                }
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -5290,7 +5567,13 @@ EDSData.TTSG = {
                     topFont: "Hanover-17:10",
     
                     serviceNumber: "947"
-                }, 
+                },
+                {
+                    renderType: "message",
+                    text: "947",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
+                } 
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -5725,6 +6008,12 @@ EDSData.TTSG = {
         
                     serviceNumber: "981"
                 },
+                {
+                    renderType: "message",
+                    text: "981",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
+                }
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -5749,6 +6038,12 @@ EDSData.TTSG = {
         
                     serviceNumber: "981"
                 },
+                {
+                    renderType: "message",
+                    text: "981",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
+                }
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -5798,7 +6093,7 @@ EDSData.TTSG = {
                     topFont: "Hanover-17:11",
     
                     serviceNumber: "990"
-                }, 
+                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -5825,6 +6120,12 @@ EDSData.TTSG = {
     
                     serviceNumber: "992"
                 }, 
+                {
+                    renderType: "message",
+                    text: "992",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
+                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -5848,7 +6149,13 @@ EDSData.TTSG = {
                     topFont: "Hanover-17:11",
     
                     serviceNumber: "992"
-                }, 
+                },
+                {
+                    renderType: "message",
+                    text: "992",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
+                },
                 ],
                 scrollFont: "Hanover-Tower7:5"
             },
@@ -5857,6 +6164,24 @@ EDSData.TTSG = {
                 serviceNumber: "992",
                 font: "LECIP-TowerRear17:10",
                 spacing: 1
+            }
+        }
+    },
+    1000: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "",
+                font: "LECIP-19:TowerBigNumber",
+                spacing: 2
+            },
+            rear: {
+                renderType: 'twolinerear',
+                top: "056",
+                topFont: "Hanover-8:4",
+
+                bottom: "",
+                bottomFont: "Hanover-8:3"
             }
         }
     },
