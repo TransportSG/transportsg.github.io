@@ -444,7 +444,7 @@ EDSData.TTSG = {
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "@2",
+                    serviceNumber: "@1",
                     top: "TAMPINES AVE 9",
                     topFont: "Mobitec-9:6",
                     bottom: "TAMPINES AVE 4/3/8",
@@ -452,7 +452,7 @@ EDSData.TTSG = {
                 },
                 {
                     renderType: "destScroll",
-                    serviceNumber: "@2",
+                    serviceNumber: "@1",
                     top: "TAMPINES AVE 9",
                     topFont: "Mobitec-9:6",
                     bottom: "TAMPINES AVE 5/6",
@@ -1164,25 +1164,11 @@ EDSData.TTSG = {
             destFont: "Mobitec-7:7",
             scrolls: [
                 {
-                    renderType: "message",
-                    text: "Off Service",
-                    font: "Hanover-Tower16:10",
-                    spacing: 2
-                },
-                {
                     renderType: "destScroll",
                     serviceNumber: "",
-                    top: "Moving People",
-                    topFont: "Mobitec-7:4",
-                    bottom: "Not Buses     ",
-                    bottomFont: "Mobitec-7:4",
-                    image: "logo-full",
-                },
-                {
-                    renderType: "message",
-                    text: "Off Service",
-                    font: "Hanover-Tower16:10",
-                    spacing: 2
+                    top: "Off Service",
+                    topFont: "Hanover-Tower16:10",
+                    image: "logo",
                 },
                 {
                     renderType: "destScroll",
