@@ -564,6 +564,18 @@ EDSData['myBas JB'] = {
                     top: "TERMINAL MASAI",
                     topFont: "Tongda-16:7",
                 },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "F200",
+                    top: "UITM SERI ALAM",
+                    topFont: "Tongda-16:7",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "F200",
+                    top: "TERMINAL MASAI",
+                    topFont: "Tongda-16:7",
+                },
 
             ]
         }

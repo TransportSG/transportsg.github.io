@@ -303,6 +303,27 @@ EDSData['CWL (JB Area)'] = {
             ]
         }
     },
+    "4G": {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "CW4G",
+            destination: "GP TERMINAL / CIQ 2ND LINK",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "CW4G",
+                    top: "GP TERMINAL",
+                    topFont: "Tongda-16:7",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "CW4G",
+                    top: "CIQ 2ND LINK",
+                    topFont: "Tongda-16:7",
+                },
+            ]
+        }
+    },
     "4S": {
         front: {
             renderType: "standardService",
