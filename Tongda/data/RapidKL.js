@@ -240,6 +240,13 @@ EDSData ['RapidKL'] = {
             destination: "DESA MENTARI - SUBANG MEWAH USJ1"
         }
     },
+    8511: {
+        front: {
+            renderType: "scrollingDest",
+            serviceNumber: "851",
+            destination: "PASAR SENI - KOMPLEKS MAHKAMAH JALAN DUTA"
+        }
+    },
 }
 
 EDSExtras ['RapidKL'] = {
