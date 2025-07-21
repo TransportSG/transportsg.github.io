@@ -1613,7 +1613,7 @@ EDSData.TTSG = {
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [                    
                 {
-                    renderType: "destScroll2",
+                    renderType: "destScroll",
                     top: "KENT RIDGE CRES",
                     topFont: "Hanover-17:6",
         
@@ -1929,7 +1929,7 @@ EDSData.TTSG = {
                 scrolls: [                       
                 {
                     renderType: "destScroll2",
-                    top: "JUORNG PIER WAY",
+                    top: "JURONG PIER WAY",
                     topFont: "Hanover-17:6",
     
                     serviceNumber: "98"
@@ -2024,8 +2024,8 @@ EDSData.TTSG = {
                 destinationFont: "Hanover-10",
                 scrolls: [
                 {
-                    renderType: "destScroll2",
-                    top: "JUORNG PIER WAY",
+                    renderType: "destScroll",
+                    top: "JURONG PIER WAY",
                     topFont: "Hanover-17:6",
     
                     serviceNumber: "98B"
@@ -2647,7 +2647,7 @@ EDSData.TTSG = {
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [                    
                 {
-                    renderType: "destScroll2",
+                    renderType: "destScroll",
                     top: "UPP BT TIMAH RD",
                     topFont: "Hanover-17:6",
     
