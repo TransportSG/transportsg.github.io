@@ -198,6 +198,13 @@ EDSData ['RapidKL'] = {
             destination: "TERMINAL MALURI - TITIWANGSA"
         }
     },
+    7081: {
+        front: {
+            renderType: "scrollingDest",
+            serviceNumber: "708",
+            destination: "KLANG - SUNWAY PYRAMID VIA HENTIAN BANDAR"
+        }
+    },
     7500: {
         front: {
             renderType: "standardService",
@@ -223,7 +230,35 @@ EDSData ['RapidKL'] = {
         front: {
             renderType: "scrollingDest",
             serviceNumber: "750",
-            destination: "PASAR SENI - SEKSYEN 2"
+            destination: "PASAR SENI - UITM - SEKSYEN 2"
+        }
+    },
+    7531: {
+        front: {
+            renderType: "scrollingDest",
+            serviceNumber: "753",
+            destination: "UITM PUNCAK ALAM - HENTIAN BANDAR SHAH ALAM"
+        }
+    },
+    7532: {
+        front: {
+            renderType: "scrollingDest",
+            serviceNumber: "T753",
+            destination: "HENTIAN BANDAR SHAH ALAM - SEKSYEN 11, 9, 8, 6, 5"
+        }
+    },
+    7541: {
+        front: {
+            renderType: "scrollingDest",
+            serviceNumber: "T754",
+            destination: "TERMINAL SEKSYEN 17 - HENTIAN BANDAR SHAH ALAM"
+        }
+    },
+    7561: {
+        front: {
+            renderType: "scrollingDest",
+            serviceNumber: "T756",
+            destination: "HENTIAN BANDAR - KEMUNING BUSINESS PARK"
         }
     },
     7531: {

@@ -2290,7 +2290,7 @@ EDSData.GASG = {
             }
         }
     },
-    119: { // Add Big Number
+    119: {
         1: {
             front: {
                 renderType: "standardService",
@@ -2304,6 +2304,12 @@ EDSData.GASG = {
                     topFont: "Lecip-GoAhead16:10",
         
                     serviceNumber: "119"
+                },
+                {
+                    renderType: "message",
+                    text: "119",
+                    font: "LECIP-19:GoAheadBigNumber",
+                    spacing: 12
                 },
                 ],
                 scrollFont: "Hanover-7:5"
@@ -2328,6 +2334,12 @@ EDSData.GASG = {
                     topFont: "Lecip-GoAhead16:10",
         
                     serviceNumber: "119"
+                },
+                {
+                    renderType: "message",
+                    text: "119",
+                    font: "LECIP-19:GoAheadBigNumber",
+                    spacing: 12
                 },
                 ],
                 scrollFont: "Hanover-7:5"
@@ -2528,7 +2540,7 @@ EDSData.GASG = {
                 },
                 {
                     renderType: "message",
-                    text: "",
+                    text: "359",
                     font: "LECIP-19:GoAheadBigNumber",
                     spacing: 12
                 },
@@ -3134,25 +3146,6 @@ EDSData.GASG = {
                 serviceNumber: "678",
                 font: "Lecip-GoAhead20:9",
                 spacing: 2
-            }
-        }
-    },
-    1000: {
-        1: {
-            front:               
-            {
-                renderType: "message",
-                text: "",
-                font: "LECIP-19:GoAheadBigNumber",
-                spacing: 12
-            },
-            rear: { 
-                renderType: "message2",
-                serviceNumber: "",
-                top: "",
-                topFont: "Lecip-GoAhead7:4:2",
-                bottom: "",
-                bottomFont: "Lecip-GoAhead7:4:2",
             }
         }
     },
