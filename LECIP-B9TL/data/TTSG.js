@@ -4422,8 +4422,8 @@ EDSData.TTSG = {
                 scrolls: [
                 {
                     renderType: "destScroll",
-                    top: "ADMIRALTY RD WEST",
-                    topFont: "Hanover-12:3",
+                    top: "ADM RD WEST",
+                    topFont: "Hanover-17:10",
         
                     serviceNumber: "856C",
                 },
