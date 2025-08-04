@@ -1333,11 +1333,12 @@ EDSData.SMRT = {
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
                 {
-                    renderType: "destScroll2",
-                    top: "ENDS AT",
+                    renderType: "ScrollWithSpecialCharacters",
+                    serviceFont: "Calibri-15",
+                    top: "N T U -",
                     topFont: "ArialBold-8:2",
                     bottom: "PIONEER MRT",
-                    bottomFont: "Calibri-7",
+                    bottomFont: "ArialBold-8:2",
         
                     serviceNumber: "179B"
                 },

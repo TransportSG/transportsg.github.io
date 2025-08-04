@@ -902,6 +902,15 @@ EDSData['SMRT (PostSLBP)'] = {
                     image: "roundel"
                 },
                 {
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "",
+                    top: "HAPPY NATIONAL DAY",
+                    topFont: "Mobitec-7:4",
+                    bottom: "SINGAPORE !",
+                    bottomFont: "Mobitec-7:4",
+                    image: "SingaporeFlag"
+                },
+                {
                     renderType: "welcomeScroll",
                     serviceNumber: "",
                     top: "Data from Sep 2024 onwards",
@@ -1047,11 +1056,11 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScrollWithImage",
                     serviceNumber: "",
                     top: "HAPPY NATIONAL DAY",
-                    bottom: "SINGAPORE !",
                     topFont: "Mobitec-7:4",
+                    bottom: "SINGAPORE !",
                     bottomFont: "Mobitec-7:4",
                     image: "SingaporeFlag"
-                }
+                },
             ],
             scrollFont: "Mobitec-7:7"
         }
@@ -1085,8 +1094,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "110",
                     top: "CHANGI",
-                    bottom: "AIRPORT",
                     topFont: "Mobitec-7:5:3",
+                    bottom: "AIRPORT",
                     bottomFont: "Mobitec-7:5:3"
                 },
                 "COMPASSVALE DR",
@@ -1099,34 +1108,6 @@ EDSData['SMRT (PostSLBP)'] = {
                 },
                 "AIRPORT BOULEVARD",
                 "PTB 3,1,2,4"
-            ],
-            scrollFont: "Mobitec-7:5:3"
-        }
-    },
-    1109: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "110",
-            destination: {
-                text: "COMPASSVALE INT",
-                font: "Mobitec-7:5:3"
-            },
-            scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "110",
-                    top: "COMPASSVALE",
-                    bottom: "INTERCHANGE",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
-                },
-                "PTB 3,1,2,4",
-                "AIRPORT BOULEVARD",
-                "TPE",
-                "ANCHORVALE ST",
-                "ANCHORVALE RD",
-                "ANCHORVALE DR",
-                "COMPASSVALE DR"
             ],
             scrollFont: "Mobitec-7:5:3"
         }
@@ -1144,8 +1125,36 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "110",
                     top: "BUANGKOK",
-                    bottom: "INTERCHANGE",
                     topFont: "Mobitec-7:7",
+                    bottom: "INTERCHANGE",
+                    bottomFont: "Mobitec-7:7"
+                },
+                "PTB 3,1,2,4",
+                "AIRPORT BOULEVARD",
+                "TPE",
+                "ANCHORVALE ST",
+                "ANCHORVALE RD",
+                "ANCHORVALE DR",
+                "COMPASSVALE DR"
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    1109: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "110",
+            destination: {
+                text: "COMPASSVALE INT",
+                font: "Mobitec-7:5:3"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "110",
+                    top: "COMPASSVALE",
+                    topFont: "Mobitec-7:7",
+                    bottom: "INTERCHANGE",
                     bottomFont: "Mobitec-7:7"
                 },
                 "PTB 3,1,2,4",
@@ -1172,8 +1181,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "172",
                     top: "BOON LAY",
-                    bottom: "INT / MRT",
                     topFont: "Mobitec-7:7",
+                    bottom: "INT / MRT",
                     bottomFont: "Mobitec-7:7"
                 },
                 "CHOA CHU KANG DRIVE",
@@ -1198,8 +1207,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "172",
                     top: "CHOA CHU KANG",
-                    bottom: "INT / MRT / LRT",
                     topFont: "Mobitec-7:7",
+                    bottom: "INT / MRT / LRT",
                     bottomFont: "Mobitec-7:7"
                 },
                 "JLN BOON LAY",
@@ -1239,7 +1248,7 @@ EDSData['SMRT (PostSLBP)'] = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
-    1762: {
+    1762: { // Check dest
         front: {
             renderType: "standardService",
             serviceNumber: "176",
@@ -1280,8 +1289,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "178",
                     top: "BOON LAY",
-                    bottom: "INT / MRT",
                     topFont: "Mobitec-7:7",
+                    bottom: "INT / MRT",
                     bottomFont: "Mobitec-7:7"
                 },
                 "WOODLANDS CENTRE RD",
@@ -1306,8 +1315,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "178",
                     top: "WOODLANDS",
-                    bottom: "INT / MRT",
                     topFont: "Mobitec-7:7",
+                    bottom: "INT / MRT",
                     bottomFont: "Mobitec-7:7"
                 },
                 "CORPORATION RD",
@@ -1324,12 +1333,23 @@ EDSData['SMRT (PostSLBP)'] = {
     },
     1783: {
         front: {
-            renderType: "destScroll",
+            renderType: "SLBPstandardService",
             serviceNumber: "178A",
-            top: "ENDS AT",
-            bottom: "KRANJI MRT",
-            topFont: "Mobitec-7:7",
-            bottomFont: "Mobitec-7:7"
+            destination: {
+                text: "KRANJI MRT",
+                font: "Mobitec-7:5:1"
+            },
+            scrolls: [
+            {
+                renderType: "destScroll",
+                serviceNumber: "178A",
+                top: "ENDS AT",
+                topFont: "Mobitec-7:7",
+                bottom: "KRANJI MRT",
+                bottomFont: "Mobitec-7:7"
+            }
+            ],
+            scrollFont: "Mobitec-7:5:1"
         }
     },
     1791: {
@@ -1372,15 +1392,26 @@ EDSData['SMRT (PostSLBP)'] = {
     },
     1793: {
         front: {
-            renderType: "SLBPdestScroll",
+            renderType: "standardService",
             serviceNumber: "179B",
-            top: "ENDS AT",
-            topFont: "Mobitec-7:5:1",
-            bottom: "PIONEER MRT",
-            bottomFont: "Mobitec-7:5:1"
+            destination: {
+                text: "NTU - PIONEER MRT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "SLBPdestScroll",
+                    serviceNumber: "179B",
+                    top: "NTU - ",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "PIONEER MRT",
+                    bottomFont: "Mobitec-7:5:1",
+                },
+            ],
+            scrollFont: "Mobitec-7:5:3"
         }
     },
-    1801: {
+    1801: { // Check dest
         front: {
             renderType: "standardService",
             serviceNumber: "180",
@@ -1423,8 +1454,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "180",
                     top: "BOON LAY",
-                    bottom: "INT / MRT",
                     topFont: "Mobitec-7:7",
+                    bottom: "INT / MRT",
                     bottomFont: "Mobitec-7:7"
                 },
                 "BT PANJANG RD",
@@ -1440,6 +1471,27 @@ EDSData['SMRT (PostSLBP)'] = {
                 "BOON LAY WAY"
             ],
             scrollFont: "Mobitec-7:7"
+        }
+    },
+    1803: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "180A",
+            destination: {
+                text: "BUKIT PANJANG RD",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "180A",
+                    top: "ENDS AT",
+                    topFont: "Mobitec-7:7",
+                    bottom: "BT PANJANG ROAD",
+                    bottomFont: "Mobitec-7:5:3",
+                },
+            ],
+            scrollFont: "Mobitec-7:5:3"
         }
     },
     1811: {
@@ -1514,7 +1566,28 @@ EDSData['SMRT (PostSLBP)'] = {
             scrollFont: "Mobitec-7:5:1"
         }
     },
-    1823: {
+    1823: { 
+        front: {
+            renderType: "standardService",
+            serviceNumber: "182A",
+            destination: {
+                text: "TUAS SOUTH AVE 3",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "SLBPdestScroll",
+                    serviceNumber: "182A",
+                    top: "ENDS AT",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "TUAS SOUTH AVE 3",
+                    bottomFont: "Mobitec-7:5:1",
+                },
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    1824: {
         front: {
             renderType: "SLBPstandardService",
             serviceNumber: "182M",
@@ -1532,7 +1605,7 @@ EDSData['SMRT (PostSLBP)'] = {
             scrollFont: "Mobitec-7:5:1"
         }
     },
-    1824: {
+    1825: {
         front: {
             renderType: "SLBPstandardService",
             serviceNumber: "182M",
@@ -1548,16 +1621,6 @@ EDSData['SMRT (PostSLBP)'] = {
                 "UPP JURONG RD"
             ],
             scrollFont: "Mobitec-7:5:1"
-        }
-    },
-    1803: {
-        front: {
-            renderType: "destScroll",
-            serviceNumber: "180A",
-            top: "ENDS AT",
-            bottom: "BT PANJANG ROAD",
-            topFont: "Mobitec-7:5:3",
-            bottomFont: "Mobitec-7:5:3"
         }
     },
     1841: {
@@ -1584,7 +1647,7 @@ EDSData['SMRT (PostSLBP)'] = {
             scrollFont: "Mobitec-7:7"
         }
     },
-    1842: {
+    1842: { // Check dest
         front: {
             renderType: "standardService",
             serviceNumber: "184",
@@ -1699,8 +1762,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "187",
                     top: "WOODLANDS",
-                    bottom: "INT / MRT",
                     topFont: "Mobitec-7:7",
+                    bottom: "INT / MRT",
                     bottomFont: "Mobitec-7:7"
                 },
                 "BOON LAY WAY",
@@ -1763,8 +1826,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "188",
                     top: "CHOA CHU KANG",
-                    bottom: "INT / MRT / LRT",
                     topFont: "Mobitec-7:7",
+                    bottom: "INT / MRT / LRT",
                     bottomFont: "Mobitec-7:7"
                 },
                 "TELOK BLANGAH RD",
@@ -1781,16 +1844,6 @@ EDSData['SMRT (PostSLBP)'] = {
         }
     },
     1883: {
-        front: {
-            renderType: "destScroll",
-            serviceNumber: "188A",
-            top: "ENDS AT",
-            bottom: "ITE COLLEGE WEST",
-            topFont: "Mobitec-7:5:3",
-            bottomFont: "Mobitec-7:5:3"
-        }
-    },
-    1884: {
         front: {
             renderType: "standardService",
             serviceNumber: "188e",
@@ -1827,7 +1880,7 @@ EDSData['SMRT (PostSLBP)'] = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
-    1885: {
+    1888: {
         front: {
             renderType: "standardService",
             serviceNumber: "188R",
@@ -1840,8 +1893,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "188R",
                     top: "RESORTS WORLD",
-                    bottom: "SENTOSA",
                     topFont: "Mobitec-7:7",
+                    bottom: "SENTOSA",
                     bottomFont: "Mobitec-7:7"
                 },
                 "C. C. K WAY",
@@ -1864,7 +1917,7 @@ EDSData['SMRT (PostSLBP)'] = {
             scrollFont: "Mobitec-7:7"
         }
     },
-    1886: {
+    1889: {
         front: {
             renderType: "standardService",
             serviceNumber: "188R",
@@ -1877,8 +1930,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "188R",
                     top: "CHOA CHU KANG",
-                    bottom: "INTERCHANGE",
                     topFont: "Mobitec-7:7",
+                    bottom: "INTERCHANGE",
                     bottomFont: "Mobitec-7:7"
                 },
                 {
@@ -1910,8 +1963,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "190",
                     top: "KAMPONG BAHRU",
-                    bottom: "TERMINAL",
                     topFont: "Mobitec-7:7",
+                    bottom: "TERMINAL",
                     bottomFont: "Mobitec-7:7"
                 },
                 "BT PANJANG RD",
@@ -1936,8 +1989,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "190",
                     top: "CHOA CHU KANG",
-                    bottom: "INT / MRT / LRT",
                     topFont: "Mobitec-7:7",
+                    bottom: "INT / MRT / LRT",
                     bottomFont: "Mobitec-7:7"
                 },
                 "HILL STREET",
@@ -1949,14 +2002,25 @@ EDSData['SMRT (PostSLBP)'] = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
-    1903: {
+    1903: { 
         front: {
-            renderType: "destScroll",
+            renderType: "standardService",
             serviceNumber: "190A",
-            top: "ENDS AT",
-            bottom: "DHOBY GHAUT MRT",
-            topFont: "Mobitec-7:7",
-            bottomFont: "Mobitec-7:5:3"
+            destination: {
+                text: "DHOBY GHAUT MRT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "190A",
+                    top: "ENDS AT",
+                    topFont: "Mobitec-7:7",
+                    bottom: "DHOBY GHAUT MRT",
+                    bottomFont: "Mobitec-7:5:3",
+                },
+            ],
+            scrollFont: "Mobitec-7:5:3"
         }
     },
     1921: {
@@ -2087,14 +2151,25 @@ EDSData['SMRT (PostSLBP)'] = {
             scrollFont: "Mobitec-7:5:1"
         }
     },
-    2402: {
+    2402: { 
         front: {
-            renderType: "SLBPdestScroll",
+            renderType: "standardService",
             serviceNumber: "240A",
-            top: "ENDS AT",
-            topFont: "Mobitec-7:5:1",
-            bottom: "LAKESIDE MRT",
-            bottomFont: "Mobitec-7:5:1"
+            destination: {
+                text: "LAKESIDE MRT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "SLBPdestScroll",
+                    serviceNumber: "240A",
+                    top: "ENDS AT",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "LAKESIDE MRT",
+                    bottomFont: "Mobitec-7:5:1",
+                },
+            ],
+            scrollFont: "Mobitec-7:5:3"
         }
     },
     2403: {
@@ -2132,12 +2207,23 @@ EDSData['SMRT (PostSLBP)'] = {
     },
     2412: {
         front: {
-            renderType: "SLBPdestScroll",
+            renderType: "SLBPstandardService",
             serviceNumber: "241A",
-            top: "ENDS AT",
-            topFont: "Mobitec-7:5:1",
-            bottom: "PIONEER MRT",
-            bottomFont: "Mobitec-7:5:1"
+            destination: {
+                text: "PIONEER MRT",
+                font: "Mobitec-7:5:1"
+            },
+            scrolls: [
+            {
+                renderType: "SLBPdestScroll",
+                serviceNumber: "241A",
+                top: "ENDS AT",
+                topFont: "Mobitec-7:5:1",
+                bottom: "PIONEER MRT",
+                bottomFont: "Mobitec-7:5:1"
+            }
+            ],
+            scrollFont: "Mobitec-7:5:1"
         }
     },
     2421: {
@@ -2284,14 +2370,25 @@ EDSData['SMRT (PostSLBP)'] = {
             scrollFont: "Mobitec-7:5:1"
         }
     },
-    2492: {
+    2492: { 
         front: {
-            renderType: "SLBPdestScroll",
+            renderType: "standardService",
             serviceNumber: "249A",
-            top: "ENDS AT",
-            topFont: "Mobitec-7:5:1",
-            bottom: "JURONG SHIPYARD",
-            bottomFont: "Mobitec-7:5:1"
+            destination: {
+                text: "JURONG SHIPYARD",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "SLBPdestScroll",
+                    serviceNumber: "249A",
+                    top: "ENDS AT",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "JURONG SHIPYARD",
+                    bottomFont: "Mobitec-7:5:1",
+                },
+            ],
+            scrollFont: "Mobitec-7:5:3"
         }
     },
     2511: {
@@ -2460,8 +2557,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "300",
                     top: "CHOA CHU KANG",
-                    bottom: "INT / MRT / LRT",
                     topFont: "Mobitec-7:7",
+                    bottom: "INT / MRT / LRT",
                     bottomFont: "Mobitec-7:7"
                 },
                 "CHOA CHU KANG AVE 4",
@@ -2485,8 +2582,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "301",
                     top: "CHOA CHU KANG",
-                    bottom: "INT / MRT / LRT",
                     topFont: "Mobitec-7:7",
+                    bottom: "INT / MRT / LRT",
                     bottomFont: "Mobitec-7:7"
                 },
                 {
@@ -2517,8 +2614,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "302",
                     top: "CHOA CHU KANG",
-                    bottom: "INT / MRT / LRT",
                     topFont: "Mobitec-7:5:3",
+                    bottom: "INT / MRT / LRT",
                     bottomFont: "Mobitec-7:5:3"
                 },
                 "CHOA CHU KANG WAY",
@@ -2530,12 +2627,23 @@ EDSData['SMRT (PostSLBP)'] = {
     },
     3022: {
         front: {
-            renderType: "destScroll",
+            renderType: "standardService",
             serviceNumber: "302A",
-            top: "ENDS AT",
-            bottom: "OPP YEW TEE MRT",
-            topFont: "Mobitec-7:7",
-            bottomFont: "Mobitec-7:5:3"
+            destination: {
+                text: "YEW TEE MRT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+            {
+                renderType: "destScroll",
+                serviceNumber: "302A",
+                top: "ENDS AT",
+                topFont: "Mobitec-7:7",
+                bottom: "SEMBAWANG DRIVE",
+                bottomFont: "Mobitec-7:5:3"
+            },
+            ],
+            scrollFont: "Mobitec-7:5:3"
         }
     },
     3071: {
@@ -2551,8 +2659,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "307",
                     top: "CHOA CHU KANG",
-                    bottom: "INT / MRT / LRT",
                     topFont: "Mobitec-7:7",
+                    bottom: "INT / MRT / LRT",
                     bottomFont: "Mobitec-7:7"
                 },
                 "CHOA CHU KANG CENTRAL",
@@ -2573,24 +2681,46 @@ EDSData['SMRT (PostSLBP)'] = {
             scrollFont: "Mobitec-7:4"
         }
     },
-    3072: {
+    3072: { 
         front: {
-            renderType: "destScroll",
+            renderType: "standardService",
             serviceNumber: "307A",
-            top: "ENDS AT OPP CCK MRT",
-            topFont: "Mobitec-7:4",
-            bottom: "via YEW TEE MRT",
-            bottomFont: "Mobitec-7:5:3"
+            destination: {
+                text: "CHOA CHU KANG MRT VIA YEW TEE",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                renderType: "SLBPdestScroll",
+                serviceNumber: "307A",
+                top: "ENDS AT OPP CCK MRT",
+                topFont: "Mobitec-7:4",
+                bottom: "YEW TEE MRT",
+                bottomFont: "Mobitec-7:5:3"
+                },
+            ],
+            scrollFont: "Mobitec-7:5:3"
         }
     },
-    3073: {
+    3073: { 
         front: {
-            renderType: "destScroll",
+            renderType: "standardService",
             serviceNumber: "307T",
-            top: "ENDS AT CCK INT via",
-            topFont: "Mobitec-7:5:3",
-            bottom: "TECK WHYE",
-            bottomFont: "Mobitec-7:5:3"
+            destination: {
+                text: "CHOA CHU KANG INT VIA TECK WHYE",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                renderType: "SLBPdestScroll",
+                serviceNumber: "307T",
+                top: "ENDS AT CCK INT via",
+                topFont: "Mobitec-7:5:3",
+                bottom: "TECK WHYE",
+                bottomFont: "Mobitec-7:5:3"
+                },
+            ],
+            scrollFont: "Mobitec-7:5:3"
         }
     },
     3151: {
@@ -2763,6 +2893,25 @@ EDSData['SMRT (PostSLBP)'] = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
+    5022: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "502A",
+            destination: {
+                text: "EXPRESS",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "SLBPdestScroll",
+                    serviceNumber: "502A",
+                    top: "EXPRESS",
+                    topFont: "Mobitec-13:8",
+                },
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
     6101: {
         front: {
             renderType: "standardService",
@@ -2834,8 +2983,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "67",
                     top: "TAMPINES",
-                    bottom: " INT / MRT",
                     topFont: "Mobitec-7:7",
+                    bottom: " INT / MRT",
                     bottomFont: "Mobitec-7:7"
                 },
                 "UPP BT TIMAH RD",
@@ -2861,8 +3010,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "67",
                     top: "CHOA CHU KANG",
-                    bottom: " INT / MRT / LRT",
                     topFont: "Mobitec-7:7",
+                    bottom: "INT / MRT / LRT",
                     bottomFont: "Mobitec-7:7"
                 },
                 "BEDOK NORTH AVE 3",
@@ -3099,7 +3248,7 @@ EDSData['SMRT (PostSLBP)'] = {
             scrollFont: "Mobitec-7:7"
         }
     },
-    7502: {
+    7502: { // Check Dest
         front: {
             renderType: "standardService",
             serviceNumber: "75",
@@ -3371,8 +3520,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "900",
                     top: "WOODLANDS",
-                    bottom: "INT / MRT",
                     topFont: "Mobitec-7:7",
+                    bottom: "INT / MRT",
                     bottomFont: "Mobitec-7:7"
                 },
                 "WDL AVENUE 7",
@@ -3399,8 +3548,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "901",
                     top: "WOODLANDS",
-                    bottom: "INT / MRT",
                     topFont: "Mobitec-7:7",
+                    bottom: "INT / MRT",
                     bottomFont: "Mobitec-7:7"
                 },
                 "WOODLANDS AVE 2,1",
@@ -3423,8 +3572,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "902",
                     top: "REPUBLIC",
-                    bottom: "POLYTECHNIC",
                     topFont: "Mobitec-7:7",
+                    bottom: "POLYTECHNIC",
                     bottomFont: "Mobitec-7:7"
                 }
             ],
@@ -3445,8 +3594,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "903",
                     top: "WOODLANDS",
-                    bottom: "INT / MRT",
                     topFont: "Mobitec-7:7",
+                    bottom: "INT / MRT",
                     bottomFont: "Mobitec-7:7"
                 },
                 "WOODLANDS AVE 2",
@@ -3476,8 +3625,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "903M",
                     top: "WOODLANDS",
-                    bottom: "INT / MRT",
                     topFont: "Mobitec-7:7",
+                    bottom: "INT / MRT",
                     bottomFont: "Mobitec-7:7"
                 },
                 "WDL AVENUE 2",
@@ -3503,15 +3652,9 @@ EDSData['SMRT (PostSLBP)'] = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "904",
-                    topFont: "Mobitec-13:7",
-                    top: "GONG XI FA CAI",
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "904",
                     top: "WOODLANDS",
-                    bottom: "INT / MRT",
                     topFont: "Mobitec-7:7",
+                    bottom: "INT / MRT",
                     bottomFont: "Mobitec-7:7"
                 },
                 "WDL AVENUE 7, 6",
@@ -3531,16 +3674,22 @@ EDSData['SMRT (PostSLBP)'] = {
             renderType: "standardService",
             serviceNumber: "904",
             destination: {
-                text: "WOODLANDS INT",
+                text: "WOODLANDS INT (CNY)",
                 font: "Mobitec-7:5:3"
             },
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "904",
+                    topFont: "Mobitec-13:7",
+                    top: "GONG XI FA CAI",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "904",
                     top: "WOODLANDS",
-                    bottom: "INT / MRT",
                     topFont: "Mobitec-7:7",
+                    bottom: "INT / MRT",
                     bottomFont: "Mobitec-7:7"
                 },
                 "WDL AVENUE 7, 6",
@@ -3568,8 +3717,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "911",
                     top: "WOODLANDS",
-                    bottom: "INT / MRT",
                     topFont: "Mobitec-7:7",
+                    bottom: "INT / MRT",
                     bottomFont: "Mobitec-7:7"
                 },
                 "WOODLANDS AVE 7",
@@ -3584,22 +3733,44 @@ EDSData['SMRT (PostSLBP)'] = {
     },
     9112: {
         front: {
-            renderType: "destScroll",
-            serviceNumber: "911T",
-            top: "ENDS AT",
-            bottom: "WDL INT / MRT",
-            topFont: "Mobitec-7:7",
-            bottomFont: "Mobitec-7:7"
+            renderType: "standardService",
+            serviceNumber: "911A",
+            destination: {
+                text: "WOODLANDS ST 13",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+            {
+                renderType: "destScroll",
+                serviceNumber: "911A",
+                top: "ENDS AT  BLK 146",
+                topFont: "Mobitec-7:5:2",
+                bottom: "WOODLANDS ST 13",
+                bottomFont: "Mobitec-7:5:2"
+            },
+            ],
+            scrollFont: "Mobitec-7:5:3"
         }
     },
     9113: {
         front: {
-            renderType: "destScroll",
-            serviceNumber: "911A",
-            top: "ENDS AT  BLK 146",
-            bottom: "WOODLANDS ST 13",
-            topFont: "Mobitec-7:5:2",
-            bottomFont: "Mobitec-7:5:2"
+            renderType: "standardService",
+            serviceNumber: "911T",
+            destination: {
+                text: "WOODLANDS INT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+            {
+                renderType: "destScroll",
+                serviceNumber: "911T",
+                top: "ENDS AT",
+                topFont: "Mobitec-7:7",
+                bottom: "WDL INT / MRT",
+                bottomFont: "Mobitec-7:7"
+            },
+            ],
+            scrollFont: "Mobitec-7:5:3"
         }
     },
     9121: {
@@ -3615,8 +3786,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "912",
                     top: "WOODLANDS",
-                    bottom: "INT / MRT",
                     topFont: "Mobitec-7:7",
+                    bottom: "INT / MRT",
                     bottomFont: "Mobitec-7:7"
                 },
                 "WOODLANDS AVE 5,2,1",
@@ -3643,8 +3814,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "912A",
                     top: "WOODLANDS",
-                    bottom: "INT / MRT",
                     topFont: "Mobitec-7:7",
+                    bottom: "INT / MRT",
                     bottomFont: "Mobitec-7:7"
                 },
                 "WDL AVE 2,5",
@@ -3669,8 +3840,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "912B",
                     top: "WOODLANDS",
-                    bottom: "INT / MRT",
                     topFont: "Mobitec-7:7",
+                    bottom: "INT / MRT",
                     bottomFont: "Mobitec-7:7"
                 },
                 "WDL AVE 5,2,1",
@@ -3684,17 +3855,7 @@ EDSData['SMRT (PostSLBP)'] = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
-    9124: {
-        front: {
-            renderType: "destScroll",
-            serviceNumber: "912T",
-            top: "ENDS AT",
-            bottom: "WDL INT / MRT",
-            topFont: "Mobitec-7:7",
-            bottomFont: "Mobitec-7:7"
-        }
-    },
-    9125: {
+    9128: {
         front: {
             renderType: "standardService",
             serviceNumber: "912M",
@@ -3707,12 +3868,33 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "912M",
                     top: "WOODLANDS",
-                    bottom: "INT / MRT",
                     topFont: "Mobitec-7:5:3",
+                    bottom: "INT / MRT",
                     bottomFont: "Mobitec-7:5:3"
                 },
                 "WLD AVE 1,2,5",
                 "WDL ST 41 (LOOP)"
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    9129: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "912T",
+            destination: {
+                text: "WOODLANDS INT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+            {
+                renderType: "destScroll",
+                serviceNumber: "912T",
+                top: "ENDS AT",
+                topFont: "Mobitec-7:7",
+                bottom: "WDL INT / MRT",
+                bottomFont: "Mobitec-7:7"
+            },
             ],
             scrollFont: "Mobitec-7:5:3"
         }
@@ -3730,8 +3912,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "913",
                     top: "WOODLANDS",
-                    bottom: "INT / MRT",
                     topFont: "Mobitec-7:7",
+                    bottom: "INT / MRT",
                     bottomFont: "Mobitec-7:7"
                 },
                 "WOODLANDS AVE 7,6",
@@ -3757,8 +3939,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "913M",
                     top: "WOODLANDS",
-                    bottom: "INT / MRT",
                     topFont: "Mobitec-7:7",
+                    bottom: "INT / MRT",
                     bottomFont: "Mobitec-7:7"
                 },
                 "MARSILING RISE",
@@ -3774,15 +3956,26 @@ EDSData['SMRT (PostSLBP)'] = {
     },
     9133: {
         front: {
-            renderType: "destScroll",
+            renderType: "standardService",
             serviceNumber: "913T",
-            top: "ENDS AT",
-            bottom: "WDL INT / MRT",
-            topFont: "Mobitec-7:7",
-            bottomFont: "Mobitec-7:7"
+            destination: {
+                text: "WOODLANDS INT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+            {
+                renderType: "destScroll",
+                serviceNumber: "913T",
+                top: "ENDS AT",
+                topFont: "Mobitec-7:7",
+                bottom: "WDL INT / MRT",
+                bottomFont: "Mobitec-7:7"
+            },
+            ],
+            scrollFont: "Mobitec-7:5:3"
         }
     },
-    9201: {
+    9201: { // Check dest
         front: {
             renderType: "standardService",
             serviceNumber: "920",
@@ -3808,7 +4001,7 @@ EDSData['SMRT (PostSLBP)'] = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
-    9221: {
+    9221: { // Check dest
         front: {
             renderType: "standardService",
             serviceNumber: "922",
@@ -3845,8 +4038,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "925",
                     top: "CHOA CHU KANG",
-                    bottom: "INT / MRT / LRT",
                     topFont: "Mobitec-7:7",
+                    bottom: "INT / MRT / LRT",
                     bottomFont: "Mobitec-7:7"
                 },
                 "WOODLANDS AVE 3",
@@ -3880,6 +4073,27 @@ EDSData['SMRT (PostSLBP)'] = {
     9253: {
         front: {
             renderType: "standardService",
+            serviceNumber: "925A",
+            destination: {
+                text: "KRANJI RESERVOIR",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+            {
+                renderType: "destScroll",
+                serviceNumber: "925A",
+                top: "ENDS AT  KRANJI",
+                topFont: "Mobitec-7:5:2",
+                bottom: "RESERVOIR PARK B",
+                bottomFont: "Mobitec-7:5:2"
+            },
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    9254: {
+        front: {
+            renderType: "standardService",
             serviceNumber: "925M",
             destination: {
                 text: "SUNGEI BULOH",
@@ -3890,8 +4104,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "925M",
                     top: "SUNGEI BULOH",
-                    bottom: "NATURE PARK",
                     topFont: "Mobitec-7:7",
+                    bottom: "NATURE PARK",
                     bottomFont: "Mobitec-7:7"
                 },
                 "WOODLANDS AVE 3",
@@ -3902,7 +4116,7 @@ EDSData['SMRT (PostSLBP)'] = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
-    9254: {
+    9255: {
         front: {
             renderType: "standardService",
             serviceNumber: "925M",
@@ -3931,8 +4145,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "927",
                     top: "SINGAPORE",
-                    bottom: "ZOOLOGICAL GDN",
                     topFont: "Mobitec-7:7",
+                    bottom: "ZOOLOGICAL GDN",
                     bottomFont: "Mobitec-7:7"
                 },
                 "CHOA CHU KANG AVE 4",
@@ -3956,8 +4170,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "927",
                     top: "CHOA CHU KANG",
-                    bottom: "INT / MRT / LRT",
                     topFont: "Mobitec-7:7",
+                    bottom: "INT / MRT / LRT",
                     bottomFont: "Mobitec-7:7"
                 },
                 "MANDAI ROAD",
@@ -3981,23 +4195,23 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "950",
                     top: "WOODLANDS TEMP INT",
-                    bottom: "SINGAPORE",
                     topFont: "Mobitec-7:5:2",
+                    bottom: "SINGAPORE",
                     bottomFont: "Mobitec-7:7"
                 },
                 {
                     renderType: "destScroll",
                     serviceNumber: "950",
                     top: "JB SENTRAL TER(LOOP)",
-                    bottom: "JOHOR BAHRU",
                     topFont: "Mobitec-7:5:3",
+                    bottom: "JOHOR BAHRU",
                     bottomFont: "Mobitec-7:7"
                 }
             ],
             scrollFont: "Mobitec-7:7"
         }
     },
-    9511: {
+    9511: { // Check Dest
         front: {
             renderType: "standardService",
             serviceNumber: "951E",
@@ -4010,8 +4224,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "951E",
                     top: "SHENTON",
-                    bottom: "WAY",
                     topFont: "Mobitec-7:7",
+                    bottom: "WAY",
                     bottomFont: "Mobitec-7:7"
                 },
                 "WOODLANDS AVE 4,5",
@@ -4035,8 +4249,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "951E",
                     top: "WOODLANDS",
-                    bottom: "STREET 82",
                     topFont: "Mobitec-7:7",
+                    bottom: "STREET 82",
                     bottomFont: "Mobitec-7:7"
                 },
                 "ROBINSON ROAD",
@@ -4060,8 +4274,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "960",
                     top: "MARINA",
-                    bottom: "CENTRE",
                     topFont: "Mobitec-7:7",
+                    bottom: "CENTRE",
                     bottomFont: "Mobitec-7:7"
                 },
                 "WOODLANDS RD",
@@ -4088,8 +4302,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "960",
                     top: "WOODLANDS",
-                    bottom: "INT / MRT",
                     topFont: "Mobitec-7:7",
+                    bottom: "INT / MRT",
                     bottomFont: "Mobitec-7:7"
                 },
                 "VICTORIA ST",
@@ -4116,8 +4330,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "961",
                     top: "GEYLANG LOR 1/",
-                    bottom: "KALLANG MRT",
                     topFont: "Mobitec-7:7",
+                    bottom: "KALLANG MRT",
                     bottomFont: "Mobitec-7:7"
                 },
                 "WOODLANDS AVE 3",
@@ -4136,18 +4350,10 @@ EDSData['SMRT (PostSLBP)'] = {
             renderType: "standardService",
             serviceNumber: "961",
             destination: {
-                text: "WOODLANDS INT",
+                text: "WDL TEMP INT",
                 font: "Mobitec-7:5:3"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "961",
-                    top: "WOODLANDS",
-                    bottom: "INT / MRT",
-                    topFont: "Mobitec-7:7",
-                    bottomFont: "Mobitec-7:7"
-                },
                 "KALLANG BAHRU",
                 "BEACH ROAD",
                 "CHINATOWN",
@@ -4161,7 +4367,7 @@ EDSData['SMRT (PostSLBP)'] = {
     },
     9613: {
         front: {
-            renderType: "standardService",
+            renderType: "SLBPstandardService",
             serviceNumber: "961M",
             destination: {
                 text: "GEYLANG LOR 1",
@@ -4169,36 +4375,76 @@ EDSData['SMRT (PostSLBP)'] = {
             },
             scrolls: [
                 {
-                    renderType: "destScroll",
+                    renderType: "SLBPdestScroll",
                     serviceNumber: "961M",
                     top: "GEYLANG LOR 1/",
-                    bottom: "KALLANG MRT",
                     topFont: "Mobitec-7:7",
+                    bottom: "KALLANG MRT",
                     bottomFont: "Mobitec-7:7"
                 },
                 {
-                    text: "WOODLANDS AVE 3",
-                    font: "Mobitec-7:5:3"
+                    renderType: "SLBPdestScroll",
+                    serviceNumber: "961M",
+                    top: "GEYLANG LOR 1 via",
+                    topFont: "Mobitec-7:5:3",
+                    bottom: "WOODLANDS AVE 3",
+                    bottomFont: "Mobitec-7:5:3"
                 },
                 {
-                    text: "UPP BT TIMAH RD",
-                    font: "Mobitec-7:5:3"
+                    renderType: "SLBPdestScroll",
+                    serviceNumber: "961M",
+                    top: "GEYLANG LOR 1 via",
+                    topFont: "Mobitec-7:5:3",
+                    bottom: "UPP BT TIMAH RD",
+                    bottomFont: "Mobitec-7:5:3"
                 },
-                "QUEENSWAY",
                 {
-                    text: "JLN BUKIT MERAH",
-                    font: "Mobitec-7:5:3"
+                    renderType: "SLBPdestScroll",
+                    serviceNumber: "961M",
+                    top: "GEYLANG LOR 1 via",
+                    topFont: "Mobitec-7:5:3",
+                    bottom: "QUEENSWAY",
+                    bottomFont: "Mobitec-7:7"
                 },
-                "CHINATOWN",
-                "BEACH ROAD",
-                "KALLANG BAHRU"
+                {
+                    renderType: "SLBPdestScroll",
+                    serviceNumber: "961M",
+                    top: "GEYLANG LOR 1 via",
+                    topFont: "Mobitec-7:5:3",
+                    bottom: "JLN BUKIT MERAH",
+                    bottomFont: "Mobitec-7:5:3"
+                },
+                {
+                    renderType: "SLBPdestScroll",
+                    serviceNumber: "961M",
+                    top: "GEYLANG LOR 1 via",
+                    topFont: "Mobitec-7:5:3",
+                    bottom: "CHINATOWN",
+                    bottomFont: "Mobitec-7:7"
+                },
+                {
+                    renderType: "SLBPdestScroll",
+                    serviceNumber: "961M",
+                    top: "GEYLANG LOR 1 via",
+                    topFont: "Mobitec-7:5:3",
+                    bottom: "BEACH RD",
+                    bottomFont: "Mobitec-7:7"
+                },
+                {
+                    renderType: "SLBPdestScroll",
+                    serviceNumber: "961M",
+                    top: "GEYLANG LOR 1 via",
+                    topFont: "Mobitec-7:5:3",
+                    bottom: "KALLANG BAHRU",
+                    bottomFont: "Mobitec-7:7"
+                },
             ],
             scrollFont: "Mobitec-7:7"
         }
     },
     9614: {
         front: {
-            renderType: "standardService",
+            renderType: "SLBPstandardService",
             serviceNumber: "961M",
             destination: {
                 text: "WDL TEMP INT",
@@ -4238,8 +4484,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "962",
                     top: "SEMBAWANG",
-                    bottom: "DRIVE",
                     topFont: "Mobitec-7:7",
+                    bottom: "DRIVE",
                     bottomFont: "Mobitec-7:7"
                 },
                 "WOODLANDS AVE 5,6,7",
@@ -4263,8 +4509,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "962",
                     top: "WOODLANDS",
-                    bottom: "INT / MRT",
                     topFont: "Mobitec-7:7",
+                    bottom: "INT / MRT",
                     bottomFont: "Mobitec-7:7"
                 },
                 "SEMBAWANG DR",
@@ -4277,32 +4523,65 @@ EDSData['SMRT (PostSLBP)'] = {
     },
     9623: {
         front: {
-            renderType: "destScroll",
-            serviceNumber: "962A",
-            top: "ENDS AT",
-            bottom: "SEMBAWANG DRIVE",
-            topFont: "Mobitec-7:7",
-            bottomFont: "Mobitec-7:5:3"
+            renderType: "standardService",
+            serviceNumber: "962B",
+            destination: {
+                text: "SEMBAWANG DRIVE",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+            {
+                renderType: "destScroll",
+                serviceNumber: "962B",
+                top: "ENDS AT",
+                topFont: "Mobitec-7:7",
+                bottom: "SEMBAWANG DRIVE",
+                bottomFont: "Mobitec-7:5:3"
+            },
+            ],
+            scrollFont: "Mobitec-7:5:3"
         }
     },
     9624: {
         front: {
-            renderType: "destScroll",
-            serviceNumber: "962B",
-            top: "ENDS AT",
-            bottom: "SEMBAWANG DR",
-            topFont: "Mobitec-7:7",
-            bottomFont: "Mobitec-7:7"
+            renderType: "standardService",
+            serviceNumber: "962C",
+            destination: {
+                text: "WOODLANDS AVE 6",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+            {
+                renderType: "destScroll",
+                serviceNumber: "962C",
+                top: "ENDS AT  BLK 680",
+                topFont: "Mobitec-7:5:2",
+                bottom: "WOODLANDS AVE 6",
+                bottomFont: "Mobitec-7:5:3"
+            },
+            ],
+            scrollFont: "Mobitec-7:5:3"
         }
     },
-    9625: {
+    9629: {
         front: {
-            renderType: "destScroll",
-            serviceNumber: "962C",
-            top: "ENDS AT  BLK 680",
-            bottom: "WOODLANDS AVE 6",
-            topFont: "Mobitec-7:5:3",
-            bottomFont: "Mobitec-7:5:3"
+            renderType: "standardService",
+            serviceNumber: "962A",
+            destination: {
+                text: "SEMBAWANG DRIVE",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+            {
+                renderType: "destScroll",
+                serviceNumber: "962A",
+                top: "ENDS AT",
+                topFont: "Mobitec-7:7",
+                bottom: "SEMBAWANG DRIVE",
+                bottomFont: "Mobitec-7:5:3"
+            },
+            ],
+            scrollFont: "Mobitec-7:5:3"
         }
     },
     9641: {
@@ -4318,8 +4597,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "964",
                     top: "WOODLANDS",
-                    bottom: "INT / MRT",
                     topFont: "Mobitec-7:7",
+                    bottom: "INT / MRT",
                     bottomFont: "Mobitec-7:7"
                 },
                 "WOODLANDS AVE 7,6",
@@ -4330,13 +4609,13 @@ EDSData['SMRT (PostSLBP)'] = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
-    9642: {
+    9649: {
         front: {
             renderType: "destScroll",
             serviceNumber: "964A",
             top: "ENDS AT",
-            bottom: "WOODLANDS LINK",
             topFont: "Mobitec-7:7",
+            bottom: "WOODLANDS LINK",
             bottomFont: "Mobitec-7:5:3"
         }
     },
@@ -4370,8 +4649,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "970",
                     top: "SHENTON",
-                    bottom: "WAY",
                     topFont: "Mobitec-7:7",
+                    bottom: "WAY",
                     bottomFont: "Mobitec-7:7"
                 },
                 "HILLVIEW RD, AVE",
@@ -4385,7 +4664,7 @@ EDSData['SMRT (PostSLBP)'] = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
-    9702: {
+    9702: { // Check Dest
         front: {
             renderType: "standardService",
             serviceNumber: "970",
@@ -4433,8 +4712,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "971",
                     top: "CECIL",
-                    bottom: "STREET",
                     topFont: "Mobitec-7:7",
+                    bottom: "STREET",
                     bottomFont: "Mobitec-7:7"
                 },
                 "JELAPANG ROAD",
@@ -4588,8 +4867,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "972",
                     top: "ORCHARD",
-                    bottom: "ROAD",
                     topFont: "Mobitec-7:7",
+                    bottom: "ROAD",
                     bottomFont: "Mobitec-7:7"
                 },
                 {
@@ -4607,7 +4886,7 @@ EDSData['SMRT (PostSLBP)'] = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
-    9722: {
+    9722: { // Check dest
         front: {
             renderType: "standardService",
             serviceNumber: "972",
@@ -4640,14 +4919,25 @@ EDSData['SMRT (PostSLBP)'] = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
-    9723: {
+    9723: { 
         front: {
-            renderType: "destScroll",
+            renderType: "standardService",
             serviceNumber: "972A",
-            top: "ENDS AT",
-            bottom: "DHOBY GHAUT MRT",
-            topFont: "Mobitec-7:7",
-            bottomFont: "Mobitec-7:5:3"
+            destination: {
+                text: "DHOBY GHAUT MRT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "972A",
+                    top: "ENDS AT",
+                    topFont: "Mobitec-7:7",
+                    bottom: "DHOBY GHAUT MRT",
+                    bottomFont: "Mobitec-7:5:2",
+                },
+            ],
+            scrollFont: "Mobitec-7:5:3"
         }
     },
     9729: {
@@ -4672,7 +4962,7 @@ EDSData['SMRT (PostSLBP)'] = {
             scrollFont: "Mobitec-7:7"
         }
     },
-    9731: {
+    9731: { // Check dest and scroll
         front: {
             renderType: "standardService",
             serviceNumber: "973",
@@ -4692,6 +4982,27 @@ EDSData['SMRT (PostSLBP)'] = {
                 "DAIRY FARM ROAD",
                 "HILLVIEW RD / AVE",
                 "HUME AVE (LOOP)"
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    9732: { 
+        front: {
+            renderType: "standardService",
+            serviceNumber: "973A",
+            destination: {
+                text: "PENDING STN",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+            {
+                renderType: "SLBPdestScroll",
+                serviceNumber: "973A",
+                top: "ENDS AT",
+                topFont: "Mobitec-7:7",
+                bottom: "BEF PENDING STN",
+                bottomFont: "Mobitec-7:5:3"
+            },
             ],
             scrollFont: "Mobitec-7:5:3"
         }
@@ -4732,14 +5043,25 @@ EDSData['SMRT (PostSLBP)'] = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
-    9743: {
+    9743: { 
         front: {
-            renderType: "SLBPdestScroll",
+            renderType: "standardService",
             serviceNumber: "974A",
-            top: "ENDS AT LOT 1 / ",
-            topFont: "Mobitec-7:5:1",
-            bottom: "CHOA CHU KANG STN",
-            bottomFont: "Mobitec-7:5:1"
+            destination: {
+                text: "LOT 1 / CCK MRT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+            {
+                renderType: "SLBPdestScroll",
+                serviceNumber: "974A",
+                top: "ENDS AT LOT 1 / ",
+                topFont: "Mobitec-7:5:1",
+                bottom: "CHOA CHU KANG STN",
+                bottomFont: "Mobitec-7:5:1"
+            },
+            ],
+            scrollFont: "Mobitec-7:5:3"
         }
     },
     9751: {
@@ -4769,7 +5091,7 @@ EDSData['SMRT (PostSLBP)'] = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
-    9752: {
+    9752: { // Check dest
         front: {
             renderType: "standardService",
             serviceNumber: "975",
@@ -4799,34 +5121,88 @@ EDSData['SMRT (PostSLBP)'] = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
-    9753: {
+    9753: { 
         front: {
-            renderType: "destScroll",
+            renderType: "standardService",
             serviceNumber: "975A",
-            top: "ENDS AT",
-            bottom: "LOR RUSUK",
-            topFont: "Mobitec-7:7",
-            bottomFont: "Mobitec-7:7"
+            destination: {
+                text: "BRICKLAND RD",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+            {
+                renderType: "destScroll",
+                serviceNumber: "975A",
+                top: "ENDS AT",
+                topFont: "Mobitec-7:7",
+                bottom: "BRICKLAND RD",
+                bottomFont: "Mobitec-7:7"
+            },
+            ],
+            scrollFont: "Mobitec-7:5:3"
         }
     },
-    9754: {
+    9754: { 
         front: {
-            renderType: "destScroll",
+            renderType: "standardService",
             serviceNumber: "975B",
-            top: "ENDS AT",
-            bottom: "LIM CHU KANG LANE 3",
-            topFont: "Mobitec-7:4",
-            bottomFont: "Mobitec-7:4"
+            destination: {
+                text: "LIM CHU KANG RD",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+            {
+                renderType: "destScroll",
+                serviceNumber: "975B",
+                top: "ENDS AT OPP",
+                topFont: "Mobitec-7:4",
+                bottom: "LIM CHU KANG LANE 3",
+                bottomFont: "Mobitec-7:4"
+            },
+            ],
+            scrollFont: "Mobitec-7:5:3"
         }
     },
-    9755: {
+    9755: { 
         front: {
-            renderType: "SLBPdestScroll",
+            renderType: "standardService",
             serviceNumber: "975C",
-            top: "ENDS AT",
-            topFont: "Mobitec-7:7",
-            bottom: "POLICE COAST GUARD",
-            bottomFont: "Mobitec-7:5:2"
+            destination: {
+                text: "POLICE COAST GUARD",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+            {
+                renderType: "SLBPdestScroll",
+                serviceNumber: "975C",
+                top: "ENDS AT",
+                topFont: "Mobitec-7:7",
+                bottom: "POLICE COAST GUARD",
+                bottomFont: "Mobitec-7:5:2"
+            },
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    9759: { 
+        front: {
+            renderType: "standardService",
+            serviceNumber: "975A",
+            destination: {
+                text: "LOR RUSUK",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+            {
+                renderType: "destScroll",
+                serviceNumber: "975A",
+                top: "ENDS AT",
+                topFont: "Mobitec-7:7",
+                bottom: "LOR RUSUK",
+                bottomFont: "Mobitec-7:7"
+            },
+            ],
+            scrollFont: "Mobitec-7:5:3"
         }
     },
     9761: {
@@ -4842,8 +5218,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "976",
                     top: "BUKIT PANJANG",
-                    bottom: "INT / LRT",
                     topFont: "Mobitec-7:7",
+                    bottom: "INT / LRT",
                     bottomFont: "Mobitec-7:7"
                 },
                 "CHOA CHU KANG WAY",
@@ -4870,8 +5246,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "976",
                     top: "CHOA CHU KANG",
-                    bottom: "INT / MRT / LRT",
                     topFont: "Mobitec-7:7",
+                    bottom: "INT / MRT / LRT",
                     bottomFont: "Mobitec-7:7"
                 },
                 "PETIR RD",
@@ -4925,8 +5301,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "979X",
                     top: "BUKIT PANJANG",
-                    bottom: "INT / LRT",
                     topFont: "Mobitec-7:7",
+                    bottom: "INT / LRT",
                     bottomFont: "Mobitec-7:7"
                 },
                 "C.C.K DRIVE",
@@ -4949,8 +5325,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "982E",
                     top: "MARINA",
-                    bottom: "BOULEVARD",
                     topFont: "Mobitec-7:7",
+                    bottom: "BOULEVARD",
                     bottomFont: "Mobitec-7:7"
                 },
                 "C. C. K AVE 5,4",
@@ -4980,8 +5356,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "982E",
                     top: "CHOA CHU KANG",
-                    bottom: "AVENUE 5",
                     topFont: "Mobitec-7:7",
+                    bottom: "AVENUE 5",
                     bottomFont: "Mobitec-7:7"
                 },
                 "CENTRAL BLVD",
@@ -5008,8 +5384,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "983",
                     top: "CHOA CHU KANG",
-                    bottom: "INTERCHANGE",
                     topFont: "Mobitec-7:7",
+                    bottom: "INTERCHANGE",
                     bottomFont: "Mobitec-7:7"
                 },
                 "C.C.K AVE 4 ,5",
@@ -5021,7 +5397,28 @@ EDSData['SMRT (PostSLBP)'] = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
-    9834: {
+    9832: { 
+        front: {
+            renderType: "standardService",
+            serviceNumber: "983A",
+            destination: {
+                text: "CHOA CHU KANG RD",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+            {
+                renderType: "SLBPdestScroll",
+                serviceNumber: "983A",
+                top: "ENDS AT BLK 26",
+                topFont: "Mobitec-7:5:2",
+                bottom: "CHOA CHU KANG RD",
+                bottomFont: "Mobitec-7:5:2"
+            },
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    9833: {
         front: {
             renderType: "standardService",
             serviceNumber: "983M",
@@ -5034,8 +5431,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "983M",
                     top: "TECK WHYE",
-                    bottom: "CRESCENT",
                     topFont: "Mobitec-7:7",
+                    bottom: "CRESCENT",
                     bottomFont: "Mobitec-7:7"
                 },
                 "C.C.K AVE 6, 1, 7",
@@ -5059,8 +5456,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "985",
                     top: "GEYLANG LOR 1/",
-                    bottom: "KALLANG MRT",
                     topFont: "Mobitec-7:7",
+                    bottom: "KALLANG MRT",
                     bottomFont: "Mobitec-7:7"
                 },
                 "TECK WHYE AVE",
@@ -5087,8 +5484,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "985",
                     top: "CHOA CHU KANG",
-                    bottom: "INT / MRT / LRT",
                     topFont: "Mobitec-7:7",
+                    bottom: "INT / MRT / LRT",
                     bottomFont: "Mobitec-7:7"
                 },
                 "SERANGOON ROAD",
@@ -5100,16 +5497,6 @@ EDSData['SMRT (PostSLBP)'] = {
                 "TECK WHYE AVE"
             ],
             scrollFont: "Mobitec-7:5:3"
-        }
-    },
-    9853: {
-        front: {
-            renderType: "destScroll",
-            serviceNumber: "985A",
-            top: "ENDS AT",
-            bottom: "JLN JURONG KECHIL",
-            topFont: "Mobitec-7:7",
-            bottomFont: "Mobitec-7:5:3"
         }
     },
     9911: {
@@ -5125,8 +5512,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "991",
                     top: "CHOA CHU KANG",
-                    bottom: "INT / MRT / LRT",
                     topFont: "Mobitec-7:7",
+                    bottom: "INT / MRT / LRT",
                     bottomFont: "Mobitec-7:7"
                 },
                 "B. B WEST AVE 3, 6",
@@ -5151,8 +5538,8 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "991",
                     top: "BUKIT BATOK",
-                    bottom: "INT / MRT",
                     topFont: "Mobitec-7:7",
+                    bottom: "INT / MRT",
                     bottomFont: "Mobitec-7:7"
                 },
                 "KEAT HONG LINK",
@@ -5164,34 +5551,67 @@ EDSData['SMRT (PostSLBP)'] = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
-    9913: {
+    9913: { 
         front: {
-            renderType: "destScroll",
+            renderType: "standardService",
             serviceNumber: "991A",
-            top: "ENDS AT PRINCESS",
-            bottom: "ELIZABETH PRI SCH",
-            topFont: "Mobitec-7:5:3",
-            bottomFont: "Mobitec-7:5:3"
+            destination: {
+                text: "PRINCESS ELIZABETH PRI SCH",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+            {
+                renderType: "SLBPdestScroll",
+                serviceNumber: "991A",
+                top: "ENDS AT PRINCESS",
+                topFont: "Mobitec-7:5:3",
+                bottom: "ELIZABETH PRI SCH",
+                bottomFont: "Mobitec-7:5:3"
+            },
+            ],
+            scrollFont: "Mobitec-7:5:3"
         }
     },
-    9914: {
+    9914: { 
         front: {
-            renderType: "destScroll",
+            renderType: "standardService",
             serviceNumber: "991B",
-            top: "ENDS AT",
-            bottom: "OPP C.C.K MARKET",
-            topFont: "Mobitec-7:5:2", // sic
-            bottomFont: "Mobitec-7:5:2"
+            destination: {
+                text: "OPP C.C.K MARKET",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+            {
+                renderType: "SLBPdestScroll",
+                serviceNumber: "991B",
+                top: "ENDS AT",
+                topFont: "Mobitec-7:5:2",
+                bottom: "OPP C.C.K MARKET",
+                bottomFont: "Mobitec-7:5:2"
+            },
+            ],
+            scrollFont: "Mobitec-7:5:3"
         }
     },
-    9915: {
+    9915: { 
         front: {
-            renderType: "destScroll",
+            renderType: "standardService",
             serviceNumber: "991C",
-            top: "ENDS AT",
-            bottom: "BUKIT GOMBAK MRT",
-            topFont: "Mobitec-7:5:2", // sic
-            bottomFont: "Mobitec-7:5:1"
+            destination: {
+                text: "BUKIT GOMBAK MRT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+            {
+                renderType: "SLBPdestScroll",
+                serviceNumber: "991C",
+                top: "ENDS AT",
+                topFont: "Mobitec-7:7",
+                bottom: "BUKIT GOMBAK MRT",
+                bottomFont: "Mobitec-7:5:3"
+            },
+            ],
+            scrollFont: "Mobitec-7:5:3"
         }
     },
     9998: {
