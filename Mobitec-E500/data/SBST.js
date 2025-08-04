@@ -1878,6 +1878,27 @@ EDSData.SBST = {
             },
             scrolls: [
             {
+                renderType: "destScroll",
+                serviceNumber: "29A",
+                top: "TERMINATES AT",
+                topFont: "Mobitec-6:5",
+                bottom: "TAMPINES|AVE7|(BLK|497D)",
+                bottomFont: "Mobitec-7:4",
+            },
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    298: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "29A",
+            destination: {
+                text: "TAMPINES AVE 7",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+            {
                 renderType: "swt",
                 serviceNumber: "29A",
                 destinationRoad: "TAMPINES",
