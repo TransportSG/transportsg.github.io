@@ -4871,10 +4871,6 @@ EDSData['SMRT (PostSLBP)'] = {
                     bottom: "ROAD",
                     bottomFont: "Mobitec-7:7"
                 },
-                {
-                    text: "BT PANJANG RD",
-                    font: "Mobitec-7:4"
-                },
                 "SENJA ROAD / LINK",
                 "JELAPANG ROAD",
                 "SEGAR / FAJAR RD",
@@ -4914,7 +4910,6 @@ EDSData['SMRT (PostSLBP)'] = {
                 "FAJAR / SEGAR RD",
                 "JELAPANG RD",
                 "SENJA LINK / ROAD",
-                "BT PANJANG RD"
             ],
             scrollFont: "Mobitec-7:5:3"
         }
@@ -4936,6 +4931,67 @@ EDSData['SMRT (PostSLBP)'] = {
                     bottom: "DHOBY GHAUT MRT",
                     bottomFont: "Mobitec-7:5:2",
                 },
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    9724: { // Check scrolls
+        front: {
+            renderType: "standardService",
+            serviceNumber: "972M",
+            destination: {
+                text: "ORCHARD ROAD",
+                font: "Mobitec-7:5:3"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "972M",
+                    top: "ORCHARD",
+                    topFont: "Mobitec-7:7",
+                    bottom: "ROAD",
+                    bottomFont: "Mobitec-7:7"
+                },
+                "SENJA ROAD / LINK",
+                "JELAPANG ROAD",
+                "SEGAR / FAJAR RD",
+                "BT PANJANG RING RD",
+                "PENDING / PETIR RD",
+                "BKE / PIE",
+                "DUNEARN ROAD",
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    9722: { // Check dest and scroll
+        front: {
+            renderType: "standardService",
+            serviceNumber: "972",
+            destination: {
+                text: "BUKIT PANJANG",
+                font: "Mobitec-7:5:3"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "972",
+                    top: "BUKIT PANJANG",
+                    topFont: "Mobitec-13:7"
+                },
+                "PENANG RD",
+                {
+                    text: "SOMERSET ROAD",
+                    font: "Mobitec-7:7"
+                },
+                "ORCHARD TURN",
+                "SCOTTS RD",
+                "BUKIT TIMAH RD",
+                "PIE / BKE",
+                "PETIR / PENDING RD",
+                "BT PANJANG RING RD",
+                "FAJAR / SEGAR RD",
+                "JELAPANG RD",
+                "SENJA LINK / ROAD",
             ],
             scrollFont: "Mobitec-7:5:3"
         }
