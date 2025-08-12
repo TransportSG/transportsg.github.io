@@ -644,12 +644,12 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "49",
-            destination: "JURONG WEST ST 42",
+            destination: "JUR WEST ST 42",
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "49",
-                    top: "JURONG WEST ST 42",
+                    top: "JUR WEST ST 42",
                 },
             ]
         }
@@ -784,12 +784,12 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "78",
-            destination: "JURONG TOWN HALL",
+            destination: "JUR TOWN HALL",
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "78",
-                    top: "JURONG TOWN HALL",
+                    top: "JUR TOWN HALL",
                 }
             ]
         }
@@ -826,12 +826,12 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "79",
-            destination: "JURONG TOWN HALL",
+            destination: "JUR TOWN HALL",
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "79",
-                    top: "JURONG TOWN HALL",
+                    top: "JUR TOWN HALL",
                 }
             ]
         }
@@ -839,8 +839,8 @@ EDSData.TTSG = {
     793: {
         front: {
             renderType: "standardService",
-            serviceNumber: "",
-            destination: "79T BOON LAY",
+            serviceNumber: "79T",
+            destination: "BOON LAY",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -1643,13 +1643,12 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "282",
-            destination: "CLEMENTI WEST ST 2",
+            destination: "CLEMENTI W. ST 2",
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "282",
-                    top: "CLEMENTI WEST ST 2",
-                    topFont: "Mobitec-Tower9:4",
+                    top: "CLEMENTI W. ST 2",
                 }
             ]
         }
@@ -1728,13 +1727,12 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "333",
-            destination: "JURONG EAST ST 32",
+            destination: "JUR EAST ST 32",
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "333",
-                    top: "JURONG EAST ST 32",
-                    topFont: "Mobitec-Tower9:4",
+                    top: "JUR EAST ST 32",
                 }
             ]
         }
@@ -1763,13 +1761,12 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "334",
-            destination: "JURONG WEST ST 42",
+            destination: "JUR WEST ST 42",
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "334",
-                    top: "JURONG WEST ST 42",
-                    topFont: "Mobitec-Tower9:4",
+                    top: "JUR WEST ST 42",
                 }
             ]
         }
@@ -1792,13 +1789,12 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "335",
-            destination: "JURONG EAST ST 41",
+            destination: "JUR EAST ST 41",
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "335",
-                    top: "JURONG EAST ST 42",
-                    topFont: "Mobitec-Tower9:4",
+                    top: "JUR EAST ST 42",
                 }
             ]
         }
@@ -3575,14 +3571,13 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "870",
-            destination: "JURONG TOWN HALL",
+            destination: "JUR TOWN HALL",
             destFont: "Mobitec-Tower9:4",
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "870",
-                    top: "JURONG TOWN HALL",
-                    topFont: "Mobitec-Tower9:4",
+                    top: "JUR TOWN HALL",
                 }
             ]
         }
@@ -3633,12 +3628,12 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "872",
-            destination: "JURONG EAST ST 32",
+            destination: "JUR EAST ST 32",
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "872",
-                    top: "JURONG EAST ST 32",
+                    top: "JUR EAST ST 32",
                     topFont: "Mobitec-Tower9:4",
                 }
             ]
@@ -4171,6 +4166,24 @@ EDSData.TTSG = {
             ]
         }
     },
+    9998: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: "BUS SAFETY FOR EVERYONE",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: " BUS SAFETY              ",
+                    topFont: "Mobitec-7:5:3",
+                    bottom: "    FOR EVERYONE",
+                    bottomFont: "Mobitec-6:5",
+                    image: "DDBusIcon",
+                }
+            ]
+        }
+    },
     9999: {
         front: {
             renderType: "TowerSpecialEDS",
@@ -4427,6 +4440,24 @@ EDSImages.TTSG = {
         [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 1, 0, 0, 1],
         [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0],
         [0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0],
+    ],
+    'DDBusIcon': [ // For hotel ferry and bus safety
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1],
+        [1, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1],
+        [1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1],
+        [1, 1, 1, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1],
+        [1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0],
     ],
     mrt: [
         [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0],

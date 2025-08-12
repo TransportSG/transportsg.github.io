@@ -191,11 +191,25 @@ EDSData ['RapidKL'] = {
             destination: "TITIWANGSA VIA CHOW KIT"
         }
     },
+    4021: {
+        front: {
+            renderType: "scrollingDest",
+            serviceNumber: "T402",
+            destination: "MRT TAMAN MIDAH PINTU A - LRT SALAK SELATAN"
+        }
+    },
     4201: {
         front: {
             renderType: "scrollingDest",
             serviceNumber: "420",
             destination: "TERMINAL MALURI - TITIWANGSA"
+        }
+    },
+    5061: {
+        front: {
+            renderType: "scrollingDest",
+            serviceNumber: "506",
+            destination: "BANDAR UTAMA - PUTRAJAYA SENTRAL"
         }
     },
     7081: {
@@ -231,6 +245,13 @@ EDSData ['RapidKL'] = {
             renderType: "scrollingDest",
             serviceNumber: "750",
             destination: "PASAR SENI - UITM - SEKSYEN 2"
+        }
+    },
+    7502: {
+        front: {
+            renderType: "scrollingDest",
+            serviceNumber: "750",
+            destination: "SEKSYEN - UITM - PASAR SENI"
         }
     },
     7531: {
