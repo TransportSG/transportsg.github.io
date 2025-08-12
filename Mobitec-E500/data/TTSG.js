@@ -1228,15 +1228,6 @@ EDSData.TTSG = {
                     topFont: "Hanover-Tower16:10",
                     image: "logo",
                 },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "",
-                    top: "Moving People",
-                    topFont: "Mobitec-7:4",
-                    bottom: "Not Buses     ",
-                    bottomFont: "Mobitec-7:4",
-                    image: "logo-full",
-                },
             ]
         }
     },
