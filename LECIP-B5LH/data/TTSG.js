@@ -168,14 +168,14 @@ EDSData.TTSG = {
         1: {
             front: {
                 renderType: "message",
-                text: "CHARTERED",
+                text: "TTSG",
                 font: "Arial-12",
                 spacing: 2
             },
             pids: {
                 renderType: "pids",
                 serviceNumber: "",
-                destination: "CHARTERED",
+                destination: "TOWER TRANSIT",
                 scrolls: [""]
             }
         }
@@ -208,22 +208,6 @@ EDSData.TTSG = {
                 renderType: "pids",
                 serviceNumber: "",
                 destination: "KRANJI DEPOT",
-                scrolls: [""]
-            }
-        }
-    },
-    4: {
-        1: {
-            front: {
-                renderType: "message",
-                text: "TTSG BUSES",
-                font: "Arial-12",
-                spacing: 2
-            },
-            pids: {
-                renderType: "pids",
-                serviceNumber: "",
-                destination: "TTSG BUSES",
                 scrolls: [""]
             }
         }
@@ -468,21 +452,6 @@ EDSData.TTSG = {
             }
         },
     },         
-    117: {
-        1: {
-            front: {
-                renderType: "logo",
-                text: "TTSG BUSES",
-                image: "logo"
-            },
-            pids: {
-                renderType: "pids",
-                serviceNumber: "",
-                destination: "",
-                scrolls: [""]
-            }
-        }
-    },
     199: {
         1: {
             front: {
@@ -498,7 +467,396 @@ EDSData.TTSG = {
                 scrolls: [""]
             }
         }
-    },  
+    }, 
+    1101: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "110",
+                destination: {
+                    text: "CHANGI AIRPORT via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                "COMPASSVALE DR",
+                "ANCHORVALE DR",
+                "ANCHORVALE RD",
+                "ANCHORVALE ST",
+                "TPE",
+                "AIRPORT BOULEVARD",
+                "PTB 3,1,2,4"
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "110",
+                destination: "CHANGI AIRPORT TER 4",
+                scrolls: [
+                    "BUANGKOK INT"
+                ]
+            }
+        },
+    },     
+    1102: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "110",
+                destination: {
+                    text: "BUANGKOK INT via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                "PTB 3,1,2,4",
+                "AIRPORT BOULEVARD",
+                "TPE",
+                "ANCHORVALE ST",
+                "ANCHORVALE RD",
+                "ANCHORVALE DR",
+                "COMPASSVALE DR"
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "110",
+                destination: "BUANGKOK INT",
+                scrolls: [
+                    "BUANGKOK INT"
+                ]
+            }
+        },
+    },     
+    1721: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "172",
+                destination: {
+                    text: "BOON LAY via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                "CHOA CHU KANG DRIVE",
+                "CHOA CHU KANG AVE 1,3",
+                "BRICKLAND ROAD",
+                "CHOA CHU KANG RD",
+                "JALAN BAHAR"
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "172",
+                destination: "BOON LAY INT",
+                scrolls: [
+                    "CHOA CHU KANG INT"
+                ]
+            }
+        },
+    },   
+    1722: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "172",
+                destination: {
+                    text: "CHOA CHU KANG via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                "JLN BOON LAY",
+                "JALAN BAHAR",
+                "CHOA CHU KANG RD",
+                "BRICKLAND RD",
+                "CHOA CHU KANG AVE 3,1"
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "172",
+                destination: "CHOA CHU KANG INT",
+                scrolls: [
+                    "BOON LAY INT"
+                ]
+            }
+        },
+    },   
+    1761: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "176",
+                destination: {
+                    text: "BUKIT MERAH via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                "UPP BUKIT TIMAH RD",
+                "HILLVIEW AVENUE",
+                "BT BATOK CTR / MRT",
+                "JURONG TOWN HALL",
+                "WEST COAST HIGHWAY",
+                "TELOK BLANGAH RD"
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "176",
+                destination: "BUKIT MERAH INT",
+                scrolls: [
+                    "BUKIT PANJANG INT"
+                ]
+            }
+        },
+    },   
+    1762: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "176",
+                destination: {
+                    text: "BUKIT PANJANG via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                "TELOK BLANGAH RD",
+                "WEST COAST HIGHWAY",
+                "JURONG TOWN HALL",
+                "BT BATOK CTR/ MRT",
+                "HILLVIEW AVE",
+                "UPP BUKIT TIMAH RD"
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "176",
+                destination: "BUKIT PANJANG INT",
+                scrolls: [
+                    "BUKIT MERAH INT"
+                ]
+            }
+        },
+    },   
+    1781: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "178",
+                destination: {
+                    text: "BOON LAY via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                "WOODLANDS CENTRE RD",
+                "UPP BT TIMAH",
+                "BUKIT BATOK",
+                "JURONG TOWN HALL",
+                "CORPORATION RD"
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "178",
+                destination: "BOON LAY INT",
+                scrolls: [
+                    "BOON LAY INT"
+                ]
+            }
+        },
+    },   
+    1782: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "178",
+                destination: {
+                    text: "WOODLANDS via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                "CORPORATION RD",
+                "JURONG TOWN HALL",
+                "BUKIT BATOK",
+                "UPP BUKIT TIMAH",
+                "WDL TRAIN CHECKPOINT"
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "178",
+                destination: "BOON LAY INT",
+                scrolls: [
+                    "BOON LAY INT"
+                ]
+            }
+        },
+    },   
+    1783: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "178A",
+                destination: {
+                    text: "ENDS AT",
+                    font: "Arial-8"
+                },
+                scrolls: [
+                    "KRANJI MRT"
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "178A",
+                destination: "KRANJI STN",
+                scrolls: [
+                ]
+            }
+        }
+    },
+    1791: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "179",
+                destination: {
+                    text: "BOON LAY INT via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                "JURONG WEST ST 63",
+                "PIONEER RD NTH",
+                "LIEN YING CHOW DR",
+                "NANYANG DR"
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "179",
+                destination: "BOON LAY INT",
+                scrolls: [
+                    "BOON LAY INT"
+                ]
+            }
+        },
+    },   
+    1801: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "180",
+                destination: {
+                    text: "BUKIT PANJANG via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "BOON LAY WAY",
+                    "JUR TOWN HALL",
+                    "BT BATOK RD",
+                    "C.C.K ROAD",
+                    "PETIR ROAD"
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "180",
+                destination: "BUKIT PANJANG INT",
+                scrolls: [
+                    "BOON LAY INT"
+                ]
+            }
+        },
+    },   
+    1802: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "180",
+                destination: {
+                    text: "BOON LAY via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "BT BATOK RD",
+                    "JUR TOWN HALL",
+                    "BOON LAY WAY",
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "180",
+                destination: "BOON LAY INT",
+                scrolls: [
+                    "BOON LAY INT"
+                ]
+            }
+        },
+    },   
+    1811: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "181",
+                destination: {
+                    text: "BOON LAY INT via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                "JURONG WEST ST 64",
+                "JURONG WEST ST 75",
+                "JURONG WEST AVE 5",
+                "JURONG WEST AVE 3",
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "181",
+                destination: "BOON LAY INT",
+                scrolls: [
+                    "BOON LAY INT"
+                ]
+            }
+        },
+    }, 
+    1812: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "181M",
+                destination: {
+                    text: "BOON LAY INT via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                "JURONG WEST ST 64",
+                "JURONG WEST ST 75",
+                "JURONG WEST AVE 5",
+                "JURONG WEST AVE 3",
+                "JURONG WEST ST 23"
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "181M",
+                destination: "BOON LAY INT",
+                scrolls: [
+                    "BOON LAY INT"
+                ]
+            }
+        },
+    },     
     1821: {
         1: {
             front: {
@@ -612,6 +970,29 @@ EDSData.TTSG = {
             }
         },
     },       
+    1825: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "182A",
+                destination: {
+                    text: "ENDS AT",
+                    font: "Arial-8"
+                },
+                scrolls: [
+                    "BEF TUAS STH AVE 4"
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "182A",
+                destination: "TUAS STH AVE 3",
+                scrolls: [
+                ]
+            }
+        }
+    },
     1841: {
         1: {
             front: {
@@ -677,6 +1058,234 @@ EDSData.TTSG = {
                     "CLEMENTI TO",
                     "BUKIT PANJANG",
                     "GALI BATU TER"
+                ]
+            }
+        },
+    },   
+    1851: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "185",
+                destination: {
+                    text: "BUONA VISTA TER via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                "PIONEER RD NTH",
+                "JURONG WEST AVE 5, 3",
+                "JURONG WEST ST 23",
+                "JURONG WEST AVE 1",
+                "JURONG EAST AVE 1",
+                "CLEMENTI AVE 6",
+                "COMMONWEALTH AVE WEST",
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "185",
+                destination: "BUONA VISTA TER",
+                scrolls: [
+                    "SOON LEE DEPOT"
+                ]
+            }
+        },
+    },   
+    1852: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "185",
+                destination: {
+                    text: "SOON LEE DEPOT via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                "COMMONWEALTH AVE WEST",
+                "CLEMENTI AVE 6",
+                "JURONG EAST AVE 1",
+                "JURONG WEST AVE 1",
+                "JURONG WEST ST 23" ,
+                "JURONG WEST AVE 3, 5",
+                "PIONEER RD NTH",
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "185",
+                destination: "SOON LEE DEPOT",
+                scrolls: [
+                    "SOON LEE DEPOT"
+                ]
+            }
+        },
+    },   
+    1871: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "187",
+                destination: {
+                    text: "BOON LAY via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "WOODLANDS AVE 3",
+                    "BT PANJANG RD",
+                    "BUKIT BATOK CTR",
+                    "JURONG EAST",
+                    "BOON LAY WAY",
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "187",
+                destination: "BOON LAY INT",
+                scrolls: [
+                    "BOON LAY INT"
+                ]
+            }
+        },
+    },  
+    1872: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "187",
+                destination: {
+                    text: "WOODLANDS via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "BOON LAY WAY",
+                    "JURONG EAST",
+                    "BUKIT BATOK CTR",
+                    "BT PANJANG RD",
+                    "WOODLANDS AVE 3",
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "187",
+                destination: "WOODLANDS INT",
+                scrolls: [
+                    "BOON LAY INT"
+                ]
+            }
+        },
+    },  
+    1881: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "188",
+                destination: {
+                    text: "HARBOURFRONT via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "C. C. K WAY",
+                    "B. B WEST AVE 4, 2",
+                    "TOH GUAN RD",
+                    "AYE, CLEMENTI",
+                    "PASIR PANJANG"
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "188",
+                destination: "HARBOURFRONT INT",
+                scrolls: [
+                    "CHOA CHU KANG INT"
+                ]
+            }
+        },
+    },  
+    1882: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "188",
+                destination: {
+                    text: "CHOA CHU KANG via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    'TELOK BLANGAH RD',
+                    'PASIR PANJANG',
+                    "CLEMENTI",
+                    "TOH GUAN RD",
+                    "B.B WEST AVE 6, 3"
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "188",
+                destination: "CHOA CHU KANG INT",
+                scrolls: [
+                    "HARBOURFRONT INT"
+                ]
+            }
+        },
+    },  
+    1901: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "190",
+                destination: {
+                    text: "KAMPONG BAHRU TER via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    'BT PANJANG RD',
+                    'STEVENS ROAD',
+                    'ORCHARD ROAD',
+                    'HILL STREET',
+                    'CHINATOWN'
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "190",
+                destination: "KAMPONG BAHRU TER",
+                scrolls: [
+                    "KAMPONG BAHRU TER"
+                ]
+            }
+        },
+    },   
+    1902: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "190",
+                destination: {
+                    text: "CHOA CHU KANG via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                    "HILL STREET",
+                    "SOMERSET RD",
+                    "SCOTTS RD",
+                    "STEVEN RD",
+                    'BT PANJANG RD',
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "190",
+                destination: "CHOA CHU KANG INT",
+                scrolls: [
+                    "KAMPONG BAHRU TER"
                 ]
             }
         },
@@ -816,6 +1425,116 @@ EDSData.TTSG = {
             }
         },
     },   
+    3001: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "300",
+                destination: {
+                    text: "CHOA CHU KANG via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                "CHOA CHU KANG AVE 4",
+                "CHOA CHU KANG AVE 2",
+                "CHOA CHU KANG WAY",
+                "CHOA CHU KANG AVE 3"
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "300",
+                destination: "CHOA CHU KANG INT",
+                scrolls: [
+                    "CHOA CHU KANG INT"
+                ]
+            }
+        },
+    },   
+    3011: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "301",
+                destination: {
+                    text: "CHOA CHU KANG via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                "C. C. K AVE 2, 3",
+                "C. C. K AVENUE 5",
+                "KEAT HONG CLOSE (LOOP)"
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "301",
+                destination: "CHOA CHU KANG INT",
+                scrolls: [
+                    "CHOA CHU KANG INT"
+                ]
+            }
+        },
+    },   
+    3021: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "302",
+                destination: {
+                    text: "CHOA CHU KANG via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                "CHOA CHU KANG WAY",
+                "CHOA CHU KANG ST 52",
+                "CHOA CHU KANG CRES"
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "302",
+                destination: "CHOA CHU KANG INT",
+                scrolls: [
+                    "CHOA CHU KANG INT"
+                ]
+            }
+        },
+    }, 
+    3071: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "307",
+                destination: {
+                    text: "CHOA CHU KANG via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                "CHOA CHU KANG CENTRAL",
+                "TECK WHYE LANE",
+                "CHOA CHU KANG CENTRAL",
+                "CHOA CHU KANG AVE 4",
+                "CHOA CHU KANG NORTH 5",
+                "CHOA CHU KANG NORTH 6",
+                "YEW TEE MRT",
+                "CHOA CHU KANG ST 62"
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "307",
+                destination: "CHOA CHU KANG INT",
+                scrolls: [
+                    "CHOA CHU KANG INT"
+                ]
+            }
+        },
+    },     
     4051: {
         1: {
             front: {
@@ -838,6 +1557,68 @@ EDSData.TTSG = {
                 destination: "BOON LAY INT",
                 scrolls: [
                     "BOON LAY INT"
+                ]
+            }
+        },
+    },   
+    6101: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "61",
+                destination: {
+                    text: "EUNOS via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                "CLEMENTI RD",
+                "HOLLAND RD,AVE",
+                "TELOK BLANGAH RD",
+                "CHINATOWN",
+                "VICTORIA ST",
+                "KALLANG BAHRU",
+                "MACPHERSON RD",
+                "UBI AVE 2"
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "61",
+                destination: "EUNOS INT",
+                scrolls: [
+                    "EUNOS INT"
+                ]
+            }
+        },
+    },   
+    6102: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "61",
+                destination: {
+                    text: "BUKIT BATOK via",
+                    font: "ArialBold-8"
+                },
+                scrolls: [
+                "UBI AVE 2",
+                "MACPHERSON RD",
+                "KALLANG BAHRU",
+                "NORTH BRIDGE RD",
+                "SOUTH BRIDGE RD",
+                "TELOK BLANGAH RD",
+                "HOLLAND RD",
+                "CLEMENTI RD"
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "61",
+                destination: "BUKIT BATOK INT",
+                scrolls: [
+                    "EUNOS INT"
                 ]
             }
         },
