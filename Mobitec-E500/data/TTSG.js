@@ -797,8 +797,8 @@ EDSData.TTSG = {
     783: {
         front: {
             renderType: "standardService",
-            serviceNumber: "",
-            destination: "78A TANJONG PENJURU",
+            serviceNumber: "78A",
+            destination: "TANJONG PENJURU",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -881,8 +881,8 @@ EDSData.TTSG = {
     963: {
         front: {
             renderType: "standardService",
-            serviceNumber: "",
-            destination: "96A KENT RIDGE CRES",
+            serviceNumber: "96A",
+            destination: "KENT RIDGE CRES",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -895,8 +895,8 @@ EDSData.TTSG = {
     964: {
         front: {
             renderType: "standardService",
-            serviceNumber: "",
-            destination: "96B C'WEALTH AVE W.",
+            serviceNumber: "96B",
+            destination: "C'WEALTH AVE W.",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -1059,8 +1059,8 @@ EDSData.TTSG = {
     983: {
         front: {
             renderType: "standardService",
-            serviceNumber: "",
-            destination: "98A CORPORATION RD",
+            serviceNumber: "98A",
+            destination: "CORPORATION RD",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -1073,8 +1073,8 @@ EDSData.TTSG = {
     984: {
         front: {
             renderType: "standardService",
-            serviceNumber: "",
-            destination: "98B JURONG PIER WAY",
+            serviceNumber: "98B",
+            destination: "JURONG PIER WAY",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -1143,8 +1143,8 @@ EDSData.TTSG = {
     1063: {
         front: {
             renderType: "standardService",
-            serviceNumber: "",
-            destination: "106A C'WEALTH AVE W.",
+            serviceNumber: "106A",
+            destination: "C'WEALTH AVE W.",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -1406,8 +1406,8 @@ EDSData.TTSG = {
     1693: {
         front: {
             renderType: "standardService",
-            serviceNumber: "",
-            destination: "169A YISHUN AVE 2",
+            serviceNumber: "169A",
+            destination: "YISHUN AVE 2",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -1420,8 +1420,8 @@ EDSData.TTSG = {
     1694: {
         front: {
             renderType: "standardService",
-            serviceNumber: "",
-            destination: "169B WOODLANDS AVE 8",
+            serviceNumber: "169B",
+            destination: "WOODLANDS AVE 8",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -1490,8 +1490,8 @@ EDSData.TTSG = {
     1733: {
         front: {
             renderType: "standardService",
-            serviceNumber: "",
-            destination: "173A B.B EAST AVE 4",
+            serviceNumber: "173A",
+            destination: "B.B EAST AVE 4",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -1560,8 +1560,8 @@ EDSData.TTSG = {
     1833: {
         front: {
             renderType: "standardService",
-            serviceNumber: "",
-            destination: "183B TOH TUCK AVE",
+            serviceNumber: "183B",
+            destination: "TOH TUCK AVE",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -1603,8 +1603,8 @@ EDSData.TTSG = {
     1893: {
         front: {
             renderType: "standardService",
-            serviceNumber: "",
-            destination: "189A BUKIT BATOK ST 23",
+            serviceNumber: "189A",
+            destination: "BUKIT BATOK ST 23",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -3165,13 +3165,13 @@ EDSData.TTSG = {
     8563: {
         front: {
             renderType: "standardService",
-            serviceNumber: "",
-            destination: "856A WDL CENTRE RD",
+            serviceNumber: "856A",
+            destination: "WDL CENTRE RD",
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "856A",
-                    top: "WDL CENTRE RD",
+                    top: "W'LANDS CTR RD",
                 }
             ]
         }
@@ -3179,8 +3179,8 @@ EDSData.TTSG = {
     8564: {
         front: {
             renderType: "standardService",
-            serviceNumber: "",
-            destination: "856B CANBERRA RD",
+            serviceNumber: "856B",
+            destination: "CANBERRA RD",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -3193,8 +3193,8 @@ EDSData.TTSG = {
     8565: {
         front: {
             renderType: "standardService",
-            serviceNumber: "",
-            destination: "856C ADMIRALTY RD WEST",
+            serviceNumber: "856C",
+            destination: "ADM RD WEST",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -3235,8 +3235,8 @@ EDSData.TTSG = {
     8573: {
         front: {
             renderType: "standardService",
-            serviceNumber: "",
-            destination: "857A YIO CHU KANG RD",
+            serviceNumber: "857A",
+            destination: "YIO CHU KANG RD",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -3249,8 +3249,8 @@ EDSData.TTSG = {
     8574: {
         front: {
             renderType: "standardService",
-            serviceNumber: "",
-            destination: "857B TEMASEK AVE",
+            serviceNumber: "857B",
+            destination: "TEMASEK AVE",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -3293,8 +3293,8 @@ EDSData.TTSG = {
     8579: {
         front: {
             renderType: "standardService",
-            serviceNumber: "",
-            destination: "857B STAMFORD RD",
+            serviceNumber: "857B",
+            destination: "STAMFORD RD",
             scrolls: [
                 {
                     renderType: "ExpressdestScroll2",
@@ -3351,8 +3351,8 @@ EDSData.TTSG = {
     8583: {
         front: {
             renderType: "standardService",
-            serviceNumber: "",
-            destination: "858A YISHUN AVE 2",
+            serviceNumber: "858A",
+            destination: "YISHUN AVE 2",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -3365,8 +3365,8 @@ EDSData.TTSG = {
     8584: {
         front: {
             renderType: "standardService",
-            serviceNumber: "",
-            destination: "858B JALAN KAYU",
+            serviceNumber: "858B",
+            destination: "JALAN KAYU",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -3463,8 +3463,8 @@ EDSData.TTSG = {
     8597: {
         front: {
             renderType: "standardService",
-            serviceNumber: "",
-            destination: "859T YISHUN",
+            serviceNumber: "859T",
+            destination: "YISHUN",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -3505,8 +3505,8 @@ EDSData.TTSG = {
     8613: {
         front: {
             renderType: "standardService",
-            serviceNumber: "",
-            destination: "861A KHATIB STN",
+            serviceNumber: "861A",
+            destination: "YISHUN RING RD",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -3604,8 +3604,8 @@ EDSData.TTSG = {
     8713: {
         front: {
             renderType: "standardService",
-            serviceNumber: "",
-            destination: "871A BUKIT BATOK EAST AVE 2",
+            serviceNumber: "871A",
+            destination: "BUKIT BATOK EAST AVE 2",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -3625,7 +3625,6 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "872",
                     top: "JUR EAST ST 32",
-                    topFont: "Mobitec-Tower9:4",
                 }
             ]
         }
@@ -3675,8 +3674,8 @@ EDSData.TTSG = {
     8823: {
         front: {
             renderType: "standardService",
-            serviceNumber: "",
-            destination: "882A MONTREAL LK",
+            serviceNumber: "882A",
+            destination: "MONTREAL LK",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -3717,12 +3716,12 @@ EDSData.TTSG = {
     8833: {
         front: {
             renderType: "standardService",
-            serviceNumber: "",
-            destination: "883B SEMBAWANG RD",
+            serviceNumber: "883B",
+            destination: "SEMBAWANG RD",
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "883A",
+                    serviceNumber: "883B",
                     top: "SEMBAWANG RD",
                 }
             ]
@@ -3934,8 +3933,8 @@ EDSData.TTSG = {
     9653: {
         front: {
             renderType: "standardService",
-            serviceNumber: "",
-            destination: "965A YISHUN AVE 2",
+            serviceNumber: "965A",
+            destination: "YISHUN AVE 2",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -3991,8 +3990,8 @@ EDSData.TTSG = {
     9663: {
         front: {
             renderType: "standardService",
-            serviceNumber: "",
-            destination: "966A MARINE PDE RD",
+            serviceNumber: "966A",
+            destination: "MARINE PDE RD",
             scrolls: [
                 {
                     renderType: "destScroll",
@@ -4033,8 +4032,8 @@ EDSData.TTSG = {
     9693: {
         front: {
             renderType: "standardService",
-            serviceNumber: "",
-            destination: "969A YISHUN AVE 2",
+            serviceNumber: "969A",
+            destination: "YISHUN AVE 2",
             scrolls: [
                 {
                     renderType: "destScroll",
