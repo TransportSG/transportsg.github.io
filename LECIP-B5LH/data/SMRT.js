@@ -37,7 +37,7 @@ EDSFormats.SMRT = {
 
         text: "$destination"
     },
-
+    
     pids: {
         __dynamic__: (matrix, data) => {
             let hold = false;
@@ -142,6 +142,41 @@ EDSFormats.SMRT = {
 
             paint();
         }
+    },
+    standardService2: {
+        serviceNumber: {
+            align: "right,centre-y",
+            margin: {
+                right: 0
+            },
+            text: "$serviceNumber",
+            font: "LECIP-Tower24",
+            spacing: 2
+        },
+        destination: {
+            align: "centre-x,top",
+            margin: {
+                top: 4,
+                right: "width(serviceNumber) + len(7)"
+            },
+            text: "$destination",
+            spacing: 1
+        },
+        scroll: {
+            align: "centre-x,top",
+            margin: {
+                top: 14,
+                right: "width(serviceNumber) + len(7)"
+            },
+            scrolls: "$scrolls",
+            rotate: true,
+            rotateSpeed: 3000,
+
+            font: "$scrollFont",
+            spacing: 1
+        },
+
+        text: "$destination"
     },
     message: {
         display: {
@@ -503,7 +538,7 @@ EDSData.SMRT = {
         1: {
             front: {
                 renderType: "message",
-                text: "H",
+                text: "",
                 font: "LECIP-Tower16",
                 spacing: 2
             },
@@ -515,6 +550,29 @@ EDSData.SMRT = {
             }
         }
     },
+    1001: {
+        1: {
+            front: {
+                renderType: "standardService2",
+                serviceNumber: "",
+                destination: {
+                    text: "",
+                    font: "LECIP-Tower16"
+                },
+                scrolls: [
+                ],
+                scrollFont: "Arial-8"
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "110",
+                destination: "CHANGI AIRPORT TER 4",
+                scrolls: [
+                    "BUANGKOK INT"
+                ]
+            }
+        },
+    },     
     1101: {
         1: {
             front: {
