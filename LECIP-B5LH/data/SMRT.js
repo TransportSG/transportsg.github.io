@@ -499,6 +499,22 @@ EDSData.SMRT = {
             }
         }
     }, 
+    1000: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "H",
+                font: "LECIP-Tower16",
+                spacing: 2
+            },
+            pids: {
+                renderType: "pids",
+                serviceNumber: "T402",
+                destination: "MRT TAMAN MIDAH PINTU A",
+                scrolls: ["WISMA ZELAN"]
+            }
+        }
+    },
     1101: {
         1: {
             front: {

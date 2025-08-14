@@ -1780,12 +1780,12 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "335",
-            destination: "JUR EAST ST 41",
+            destination: "JUR WEST ST 41",
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "335",
-                    top: "JUR EAST ST 42",
+                    top: "JUR WEST ST 41",
                 }
             ]
         }
