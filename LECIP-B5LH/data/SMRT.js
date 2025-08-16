@@ -151,7 +151,7 @@ EDSFormats.SMRT = {
             },
             text: "$serviceNumber",
             font: "LECIP-Tower24",
-            spacing: 2
+            spacing: 4
         },
         destination: {
             align: "centre-x,top",
@@ -538,7 +538,7 @@ EDSData.SMRT = {
         1: {
             front: {
                 renderType: "message",
-                text: "",
+                text: "JUR TOWN HALL",
                 font: "LECIP-Tower16",
                 spacing: 2
             },
@@ -555,7 +555,7 @@ EDSData.SMRT = {
             front: {
                 renderType: "standardService2",
                 serviceNumber: "",
-                destination: {
+                destination:{
                     text: "",
                     font: "LECIP-Tower16"
                 },
@@ -565,10 +565,10 @@ EDSData.SMRT = {
             },
             pids: {
                 renderType: "pids",
-                serviceNumber: "110",
-                destination: "CHANGI AIRPORT TER 4",
+                serviceNumber: "SMRT",
+                destination: "SMRT LOGO",
                 scrolls: [
-                    "BUANGKOK INT"
+                    "SMRT LOGO"
                 ]
             }
         },

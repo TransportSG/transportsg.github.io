@@ -3990,7 +3990,7 @@ EDSData.GASG = {
         1: {
             front: { 
                 renderType: "message",
-                text: "LECIP 24122023",
+                text: "LECIP 100725",
                 font: "LECIP-20:9",
                 spacing: 2
             },
@@ -3999,7 +3999,7 @@ EDSData.GASG = {
                 top: "LECIP",
                 topFont: "LECIP-6:3",
 
-                bottom: "24122023",
+                bottom: "100725",
                 bottomFont: "LECIP-6:3"
             }
         }
