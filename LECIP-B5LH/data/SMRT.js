@@ -151,7 +151,7 @@ EDSFormats.SMRT = {
             },
             text: "$serviceNumber",
             font: "LECIP-Tower24",
-            spacing: 4
+            spacing: 2
         },
         destination: {
             align: "centre-x,top",
@@ -554,7 +554,7 @@ EDSData.SMRT = {
         1: {
             front: {
                 renderType: "standardService2",
-                serviceNumber: "",
+                serviceNumber: "M",
                 destination:{
                     text: "",
                     font: "LECIP-Tower16"
