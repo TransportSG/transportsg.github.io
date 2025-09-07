@@ -3470,6 +3470,62 @@ EDSData.SMRT = {
             }
         }
     },
+    4361: { // Tbc
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S36",
+                destination: "HARBOURFRONT",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "SHUTTLE 36",
+                    topFont: "ArialBold-8:2",
+                    bottom: "BISHAN - HARBOURFRONT",
+                    bottomFont: "Calibri-7",
+        
+                    serviceNumber: "S36"
+                },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "",
+                font: "Arial-17",
+                spacing: 1
+            }
+        }
+    },
+    4362: { // Tbc
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S36",
+                destination: "BISHAN",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "SHUTTLE 36",
+                    topFont: "ArialBold-8:2",
+                    bottom: "HARBOURFRONT - BISHAN",
+                    bottomFont: "Calibri-7",
+        
+                    serviceNumber: "S36"
+                },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "",
+                font: "Arial-17",
+                spacing: 1
+            }
+        }
+    },
     4444: { // Done
         1: {
             front: {
