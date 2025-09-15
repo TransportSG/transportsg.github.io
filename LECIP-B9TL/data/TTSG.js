@@ -6735,7 +6735,7 @@ EDSData.TTSG = {
                     bottom: "PROMENADE - BISHAN",
                     bottomFont: "Hanover-10:5",
             
-                    serviceNumber: "Š36"
+                    serviceNumber: "Š37"
                 },
                 ],
                 scrollFont: "Hanover-Tower7:5"
