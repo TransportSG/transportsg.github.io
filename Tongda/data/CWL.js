@@ -381,6 +381,21 @@ EDSData['CWL (JB Area)'] = {
             ]
         }
     },
+    "0RNF": {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "RnF",
+            destination: "R&F MALL",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "RnF",
+                    top: "R&F MALL",
+                    topFont: "Tongda-16:7",
+                },
+            ]
+        }
+    },
     "0VTL": {
         front: {
             renderType: "standardService",
