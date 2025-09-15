@@ -828,6 +828,64 @@ EDSFormats.TTSG = {
 
         text: "$top+' '+$bottom+' '+$serviceNumber"
     },
+    destScroll5: { // [S36] 1px spacing for svc num
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 0,
+            },
+            text: "$serviceNumber",
+            font: "LECIP-19:TowerB9Front",
+            spacing: {
+                $$cond: {
+                    "$spacing === null" : 1,
+                    "else": "$svcSpacing"
+                }
+            }
+        },
+        top: {
+            align: {
+                $$cond: {
+                    "$bottom === null": "centre-x,centre-y",
+                    "else": "centre-x,top"
+                }
+            },
+            text: "$top",
+            font: "$topFont",
+            spacing: {
+                $$cond: {
+                    "$topSpacing === null" : 1,
+                    "else": "$topSpacing",
+                }
+            },
+            margin: {
+                right: 'width(serviceNumber)',
+                top: '1'
+            }
+        },
+        bottom: {
+            align: "centre-x,bottom",
+            text: {
+                $$cond: {
+                    "$bottom !== null": "$bottom",
+                    "else": "''"
+                }
+            },
+            font: {
+                $$cond: {
+                    "$bottomFont !== null": "$bottomFont",
+                    "else": "LECIP-10"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber)',
+                bottom: '1'
+            }
+        },
+
+        text: "$top+' '+$bottom+' '+$serviceNumber"
+    },
     ExpressdestScroll: { // 6:3 font for top line
         serviceNumber: {
             align: "right",
@@ -6575,6 +6633,118 @@ EDSData.TTSG = {
                 serviceNumber: "",
                 font: "LECIP-TowerRear17:10",
                 spacing: 2
+            }
+        }
+    },
+        4361: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S36",
+                destination: "S36 HARBOURFRONT",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [ 
+                {
+                    renderType: "destScroll5",
+                    top: "SHUTTLE 3^",
+                    topFont: "Hanover-7:5",
+                    bottom: "BISHAN - HARBOURFRONT",
+                    bottomFont: "Hanover-10:5",
+            
+                    serviceNumber: "Š36"
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "Š36",
+                font: "LECIP-TowerRear17:10",
+                spacing: 1
+            }
+        }
+    },
+    4362: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S36",
+                destination: "S36 BISHAN",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [ 
+                {
+                    renderType: "destScroll5",
+                    top: "SHUTTLE 3^",
+                    topFont: "Hanover-7:5",
+                    bottom: "HARBOURFRONT - BISHAN",
+                    bottomFont: "Hanover-10:5",
+            
+                    serviceNumber: "Š36"
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "Š36",
+                font: "LECIP-TowerRear17:10",
+                spacing: 1
+            }
+        }
+    },
+    4371: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S37",
+                destination: "S36 PROMENADE",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [ 
+                {
+                    renderType: "destScroll5",
+                    top: "SHUTTLE 37",
+                    topFont: "Hanover-7:5",
+                    bottom: "BISHAN - PROMENADE",
+                    bottomFont: "Hanover-10:5",
+            
+                    serviceNumber: "Š37"
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "Š37",
+                font: "LECIP-TowerRear17:10",
+                spacing: 1
+            }
+        }
+    },
+    4372: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S37",
+                destination: "S37 BISHAN",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [ 
+                {
+                    renderType: "destScroll5",
+                    top: "SHUTTLE 37",
+                    topFont: "Hanover-7:5",
+                    bottom: "PROMENADE - BISHAN",
+                    bottomFont: "Hanover-10:5",
+            
+                    serviceNumber: "Š36"
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "Š37",
+                font: "LECIP-TowerRear17:10",
+                spacing: 1
             }
         }
     },
