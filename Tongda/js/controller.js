@@ -7,11 +7,12 @@ let screenFilter = '';
 let operators = [
     'Instruction',
     'CWL (JB Area)',
-    'myBas JB',
+    'Bas.MY JB',
     'BMJ (JB)',
     'BAS.MY Meleka (Prev. SBST)',
     'CWL (KL Area)',
     'RapidKL',
+    'myBas JB',
     'Special',
 
     ]
