@@ -1285,6 +1285,44 @@ EDSData.GASG = {
             serviceNumber: ""
         }
     },
+    1041: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "104",
+            destination: {
+                text: "WOODLEIGH",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "104",
+                    top: "Woodleigh",
+                    topFont: "Mobitec-13:8"
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    1042: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "104",
+            destination: {
+                text: "PUNGGOL COAST",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "104",
+                    top: "Punggol Coast",
+                    topFont: "Mobitec-13:8"
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
     1181: {
         front: {
             renderType: "standardService",
