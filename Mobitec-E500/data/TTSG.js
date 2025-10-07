@@ -784,12 +784,12 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "78",
-            destination: "JUR TOWN HALL",
+            destination: "JURONG TOWN HALL",
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "78",
-                    top: "JUR TOWN HALL",
+                    top: "JURONG TOWN HALL",
                 }
             ]
         }
@@ -826,12 +826,12 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "79",
-            destination: "JUR TOWN HALL",
+            destination: "JURONG TOWN HALL",
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "79",
-                    top: "JUR TOWN HALL",
+                    top: "JURONG TOWN HALL",
                 }
             ]
         }
