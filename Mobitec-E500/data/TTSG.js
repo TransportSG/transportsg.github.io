@@ -1495,7 +1495,7 @@ EDSData.TTSG = {
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "173",
+                    serviceNumber: "173A",
                     top: "B.B EAST AVE 4",
                 }
             ]
