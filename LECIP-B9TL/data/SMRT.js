@@ -695,6 +695,58 @@ EDSData.SMRT = {
             }
         }
     },
+    18: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "LRT SHUTTLE A",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                        renderType: 'message',
+                        text: 'LRT SHUtLE A',
+                        font: 'Arial-13:1',
+                        spacing: 2,
+                        marginTop: 3
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "LR A",
+                font: "Arial-10:2",
+                spacing: 1
+            }
+        }
+    },
+    19: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "LRT SHUTTLE B",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    {
+                        renderType: 'message',
+                        text: 'LRT SHUTTLE B',
+                        font: 'Arial-13:1',
+                        spacing: 2,
+                        marginTop: 3
+                    },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "LR B",
+                font: "Arial-10:2",
+                spacing: 1
+            }
+        }
+    },
     "50C": { // Done
         1: {
             front: {
@@ -795,81 +847,6 @@ EDSData.SMRT = {
                 ],
                 scrollFont: "ArialBold-8:2"
             },
-        }
-    },
-    151: { // Done
-        1: {
-            front: {
-                renderType: 'message',
-                text: 'FREE BRIDGING BUS',
-                font: 'Calibri-10',
-                spacing: 2,
-                marginTop: 4
-            },
-            rear: { 
-                renderType: 'twoline',
-                top: "",
-                topFont: "Arial-7",
-
-                bottom: "",
-                bottomFont: "Arial-7",
-            }
-        }
-    },
-    152: { // Done
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "",
-                destination: "LRT BRIDGING A",
-                destinationFont: "ArialBold-8:2",
-                scrolls: [
-                    {
-                        renderType: 'message',
-                        text: 'LRT BRIDGING A',
-                        font: 'Calibri-11:2',
-                        spacing: 2,
-                        marginTop: 4
-                    },
-                ],
-                scrollFont: "ArialBold-8:2"
-            },
-            rear: { 
-                renderType: 'twoline',
-                top: "LRT",
-                topFont: "ArialBold-8",
-
-                bottom: "A",
-                bottomFont: "ArialBold-8",
-            }
-        }
-    },
-    153: { // Done
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "",
-                destination: "LRT BRIDGING B",
-                destinationFont: "ArialBold-8:2",
-                scrolls: [
-                    {
-                        renderType: 'message',
-                        text: 'LRT BRIDGING B',
-                        font: 'Calibri-11:2',
-                        spacing: 2,
-                        marginTop: 4
-                    },
-                ],
-                scrollFont: "ArialBold-8:2"
-            },
-            rear: { 
-                renderType: 'twoline',
-                top: "LRT",
-                topFont: "ArialBold-8",
-
-                bottom: "B",
-                bottomFont: "ArialBold-8",
-            }
         }
     },
     199: { // Done
