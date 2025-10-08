@@ -715,7 +715,7 @@ EDSData.SMRT = {
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "LR A",
+                serviceNumber: "LRA",
                 font: "Arial-10:2",
                 spacing: 1
             }
