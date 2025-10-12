@@ -920,6 +920,44 @@ EDSData.GASG = {
             scrollFont: "Mobitec-7:4"
         }
     },
+    441: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "44",
+            destination: {
+                text: "CHANGI AIRPORT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "44",
+                    top: "Changi Airport ~",
+                    topFont: "Mobitec-12:7"
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    442: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "44",
+            destination: {
+                text: "PUNGGOL COAST",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "44",
+                    top: "Punggol Coast",
+                    topFont: "Mobitec-13:8"
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
     621: {
         front: {
             renderType: "standardService",

@@ -1820,6 +1820,62 @@ EDSData.TTSG = {
             ]
         }
     },
+    4521: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "452",
+            destination: "JALAN ANAK BUKIT",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "452",
+                    top: "JALAN ANAK BUKIT",
+                }
+            ]
+        }
+    },
+    4522: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "452",
+            destination: "TENGAH",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "452",
+                    top: "TENGAH",
+                }
+            ]
+        }
+    },
+    4531: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "453",
+            destination: "BUKIT BATOK",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "453",
+                    top: "BUKIT BATOK",
+                }
+            ]
+        }
+    },
+    4532: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "453",
+            destination: "TENGAH",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "453",
+                    top: "TENGAH",
+                }
+            ]
+        }
+    },
     5000: {
         front: {
             renderType: "standardService",
@@ -4096,6 +4152,48 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "981",
                     top: "SEMBAWANG",
+                }
+            ]
+        }
+    },
+    9841: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "984",
+            destination: "WOODLANDS RDS",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "984",
+                    top: "WOODLANDS RD",
+                }
+            ]
+        }
+    },
+    9842: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "984",
+            destination: "JURONG TOWN HALL",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "984",
+                    top: "JURONG TOWN HALL",
+                }
+            ]
+        }
+    },
+    9843: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "984A",
+            destination: "BRICKLAND RDS",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "984A",
+                    top: "BRICKLAND RD",
                 }
             ]
         }

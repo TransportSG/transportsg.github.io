@@ -3522,6 +3522,94 @@ EDSData.SMRT = {
             }
         }
     },
+    4511: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "451",
+                destination: "  ",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    " ",
+                    " ",
+                    " ",
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "451",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    4512: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "451",
+                destination: "  ",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    " ",
+                    " ",
+                    " ",
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "451",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    4551: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "455",
+                destination: "  ",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    " ",
+                    " ",
+                    " ",
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "455",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    4552: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "455",
+                destination: "  ",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    " ",
+                    " ",
+                    " ",
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "455",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
     5021: { // Done
         1: {
             front: {

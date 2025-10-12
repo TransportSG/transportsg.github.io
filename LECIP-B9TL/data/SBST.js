@@ -17122,337 +17122,6 @@ EDSData.SBST = {
         }
     },
     435: {
-        2: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "C1",
-                destination: "ORCHARD ROUTE",
-                destinationFont: "LECIP-10",
-                scrolls: [
-                    "ESPLANADE",
-                    "ST ANDREW'S CATHEDRAL",
-                    "BOAT QUAY, CLARKE QUAY",
-                    "ROBERTSON QUAY",
-                    "HOTEL MIRAMAR",
-                    "GREAT WORLD CITY",
-                    "PATERSON",
-                    "TANG PLAZA",
-                    "PERANAKAN PLACE",
-                    "DHOBY GHAUT",
-                    "SINGAPORE ART MUSEUM",
-                    "RAFFLES HOTEL",
-                    "PAN PACIFIC HOTEL",
-                    "THE ORIENTAL SINGAPORE"      
-                ],
-                scrollFont: "LECIP-7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "C1",
-                font: "LECIP-20:12",
-                spacing: 2
-            }
-        },
-        1: {
-            front: {
-                renderType: "brandedSvc2",
-                serviceNumber: "C1",
-                branding: "ORCHARD ROUTE",
-                font: "LECIP-14:6",
-                spacing: 1
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "C1",
-                font: "LECIP-20:12",
-                spacing: 2
-            }
-        }
-    },
-    436: {
-        2: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "C2",
-                destination: "CHINATOWN ROUTE",
-                destinationFont: "LECIP-10",
-                scrolls: [
-                    "ESPLANADE",
-                    "THE PADANG, CLIFFORD PIER",
-                    "FAR EAST SQUARE",
-                    "SRI MARIAMMAN TEMPLE",
-                    "KERETA AYER, CHINATOWN",
-                    "SPEAKER'S CORNER",
-                    "PARLIAMENT HOUSE",
-                    "CONVENTION CENTRE",
-                    "THE ORIENTAL SINGAPORE"      
-                ],
-                scrollFont: "LECIP-7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "C2",
-                font: "LECIP-20:12",
-                spacing: 2
-            }
-        },
-        1: {
-            front: {
-                renderType: "brandedSvc2",
-                serviceNumber: "C2",
-                branding: "CHINATOWN ROUTE",
-                font: "LECIP-14:6",
-                spacing: 1
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "C2",
-                font: "LECIP-20:12",
-                spacing: 2
-            }
-        }
-    },
-    437: {
-        2: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "C3",
-                destination: "LITTLE INDIA ROUTE",
-                destinationFont: "LECIP-7:5",
-                scrolls: [
-                    "ESPLANADE",
-                    "CHIJMES",
-                    "ST JOSEPH'S CHURCH",      
-                    "GODDESS OF MERCY TEMPLE",
-                    "LITTLE INDIA, MUSTAFA",
-                    "THIEVES' MARKET, KG. GLAM",
-                    "THE GATEWAY",
-                    "RAFFLES HOTEL",
-                    "PAN PACIFIC HOTEL",
-                    "THE ORIENTAL SINGAPORE"
-                ],
-                scrollFont: "LECIP-7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "C3",
-                font: "LECIP-20:12",
-                spacing: 2
-            }
-        },
-        1: {
-            front: {
-                renderType: "brandedSvc2",
-                serviceNumber: "C3",
-                branding: "LITTLE INDIA ROUTE",
-                font: "LECIP-14:6",
-                spacing: 1
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "C3",
-                font: "LECIP-20:12",
-                spacing: 2
-            }
-        },
-    },
-    438: {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "SS1",
-                destination: "> YIO CHU KANG TER",
-                destinationFont: "LECIP-7:5",
-                scrolls: [
-                    "CTE",
-                    "ANG MO KIO AVE 10",
-                    "ANG MO KIO AVE 3, 4",
-                    "YIO CHU KANG RD",      
-                    "ANG MO KIO AVE 6" 
-                          
-                ],
-                scrollFont: "LECIP-7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "SS1",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        },
-        2: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "SS1",
-                destination: "> YIO CHU KANG",
-                destinationFont: "LECIP-10",
-                scrolls: [{
-                        renderType: "brandedSvc2",
-                        serviceNumber: "SS1",
-                        branding: "STADIUM DIRECT",
-                        font: "LECIP-14:6",
-                        spacing: 2
-                    },
-                    "STADIUM TO"
-                ],
-                scrollFont: "LECIP-7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "SS1",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        }
-    },
-    439: {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "SS2",
-                destination: "> BEDOK INT",
-                destinationFont: "LECIP-10",
-                scrolls: [
-                    "CTE",
-                    "BEDOK RESERVOIR RD",
-                    "BEDOK NORTH AVE 3",
-                    "BEDOK NORTH ST 1"
-                          
-                ],
-                scrollFont: "LECIP-7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "SS2",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        },
-        2: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "SS2",
-                destination: "> BEDOK",
-                destinationFont: "LECIP-10",
-                scrolls: [{
-                        renderType: "brandedSvc2",
-                        serviceNumber: "SS2",
-                        branding: "STADIUM DIRECT",
-                        font: "LECIP-14:6",
-                        spacing: 2
-                    },
-                    "STADIUM TO"
-                ],
-                scrollFont: "LECIP-7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "SS2",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        }
-    },
-    440: {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "SS3",
-                destination: "> BOON LAY INT",
-                destinationFont: "LECIP-10",
-                scrolls: [
-                    "CTE",
-                    "JURONG TOWN HALL RD",
-                    "JURONG EAST CENTRAL",
-                    "JURONG EAST AVE 1",
-                    "JURONG WEST AVE 1",
-                    "BOON LAY AVE"
-                          
-                ],
-                scrollFont: "LECIP-7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "SS3",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        },
-        2: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "SS3",
-                destination: "> BOON LAY",
-                destinationFont: "LECIP-10",
-                scrolls: [{
-                        renderType: "brandedSvc2",
-                        serviceNumber: "SS3",
-                        branding: "STADIUM DIRECT",
-                        font: "LECIP-14:6",
-                        spacing: 2
-                    },
-                    "STADIUM TO"
-                ],
-                scrollFont: "LECIP-7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "SS3",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        }
-    },
-    441: {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "SS4",
-                destination: "> TAMPINES INT",
-                destinationFont: "LECIP-10",
-                scrolls: [
-                    "CTE",
-                    "TAMPINES AVE 2",
-                    "TAMPINES ST 32, 34",
-                    "TAMPINES ST 45, AVE 9",
-                    "TAMPINES ST 41, AVE 7",
-                          
-                ],
-                scrollFont: "LECIP-7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "SS4",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        },
-        2: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "SS4",
-                destination: "> TAMPINES",
-                destinationFont: "LECIP-10",
-                scrolls: [{
-                        renderType: "brandedSvc2",
-                        serviceNumber: "SS4",
-                        branding: "STADIUM DIRECT",
-                        font: "LECIP-14:6",
-                        spacing: 2
-                    },
-                    "STADIUM TO"
-                ],
-                scrollFont: "LECIP-7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "SS4",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        }
-    },
-    442: {
         1: {
             front: {
                 renderType: "twoline",
@@ -17490,7 +17159,7 @@ EDSData.SBST = {
             }
         }
     },
-    443: {
+    436: {
         1: {
             front: {
                 renderType: "twoline",
@@ -17528,7 +17197,7 @@ EDSData.SBST = {
             }
         }
     },
-    444: {
+    437: {
         1: {
             front: {
                 renderType: "twoline",
@@ -17566,211 +17235,73 @@ EDSData.SBST = {
             }
         }
     },
-    445: {
-        1: {
-            front: {
-                renderType: "message",
-                text: "AA  2006",
-                font: "LECIP-20:12",
-                spacing: 3
-            },
-            rear: {
-                renderType: 'twoline',
-                top: "AA",
-                topFont: "LECIP-7:5",
-
-                bottom: "2006",
-                bottomFont: "LECIP-7:5"
-            }
-        }
-    },
-    446: {
-        1: {
-            front: {
-                renderType: "message",
-                text: "HELLO  SENGKANG",
-                font: "LECIP-20:9",
-                spacing: 1
-            },
-            rear: {
-                renderType: 'twoline',
-                top: "HELLO",
-                topFont: "LECIP-7:5",
-
-                bottom: "S'KANG",
-                bottomFont: "LECIP-7:5"
-            }
-        }
-    },
-    447: {
-        1: {
-            front: {
-                renderType: "twoline",
-                top: "RIVER HONG BAO",
-                topFont: "LECIP-7:5",
-
-                bottom: "CITY HALL MRT - RAFFLES AVE",
-                bottomFont: "LECIP-7:5"
-            },
-            rear: {
-                renderType: "twoline",
-                top: "RIVER",
-                topFont: "LECIP-6:3",
-
-                bottom: "HONG BAO",
-                bottomFont: "LECIP-6:3"
-            }
-        }
-    },
-    448: {
+    "454": {
         1: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "M1",
-                destination: "SCIENCE PK DR - MT SINAI DR",
-                destinationFont: "LECIP-6:4",
+                serviceNumber: "454",
+                destination: "TAMP NTH INT - TAMP ST 86 (LOOP)",
+                destinationFont: "LECIP-6:3",
                 scrolls: [
-                    'NORTH BUONA VISTA RD',
-                    'BUONA VISTA FLYOVER',
-                    'SCIENCE PK DR',
-                    'BUONA VISTA FLYOVER',
-                    'NORTH BUONA VISTA RD',
-                    'MOUNT SINAI RD',
-                    'MOUNT SINAI DR',
-                    'MOUNT SINAI RISE'
-                ],
-                scrollFont: "LECIP-6:4"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "M1",
-                font: "LECIP-20:12",
-                spacing: 2
-            }
-        }
-    },
-    449: {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "M2",
-                destination: "JLN KEMBANGAN-FIDELIO ST",
-                destinationFont: "LECIP-7:5",
-                scrolls: [
-                    'LENGKOK TIGA',
-                    'LENGKOK EMPAT',
-                    'FIDELIO ST',
-                    'SIGLAP DR',
-                    'FRANKEL AVE'
+                    {
+                        renderType: 'twoline3',
+
+                        serviceNumber: "454",
+
+                        top: "TAMPINES ST 62",
+                        topFont: "LECIP-7:5",
+                        spacingTop: "2",
+        
+                        bottom: "TAMP NTH INtAMP ST 86(LOOP)",
+                        bottomFont: "LECIP-9:3",
+                        marginBottom: "-1"
+                    },
+                    {
+                        renderType: 'twoline3',
+
+                        serviceNumber: "454",
+
+                        top: "TAMPINES CTRL 1",
+                        topFont: "LECIP-7:5",
+                        spacingTop: "2",
+        
+                        bottom: "TAMP NTH INtAMP ST 86(LOOP)",
+                        bottomFont: "LECIP-9:3",
+                        marginBottom: "-1"
+                    },
+                    {
+                        renderType: 'twoline3',
+
+                        serviceNumber: "454",
+
+                        top: "TAMPINES ST 86",
+                        topFont: "LECIP-7:5",
+                        spacingTop: "2",
+        
+                        bottom: "TAMP NTH INtAMP ST 86(LOOP)",
+                        bottomFont: "LECIP-9:3",
+                        marginBottom: "-1"
+                    },
+                    {
+                        renderType: 'twoline3',
+
+                        serviceNumber: "454",
+
+                        top: "TAMPINES AVE 4",
+                        topFont: "LECIP-7:5",
+                        spacingTop: "2",
+        
+                        bottom: "TAMP NTH INtAMP ST 86(LOOP)",
+                        bottomFont: "LECIP-9:3",
+                        marginBottom: "-1"
+                    },
                 ],
                 scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "M2",
-                font: "LECIP-20:12",
-                spacing: 2
-            }
-        }
-    },
-    450: {
-        1: {
-            front: {
-                renderType: "brandedSvc",
-                serviceNumber: "16M",
-                branding: "NITE  OWL",
-                font: "LECIP-20:12",
-                spacing: 2
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "16M",
+                serviceNumber: "454",
                 font: "LECIP-20:9",
-                spacing: 2
-            }
-        }
-    },
-    451: {
-        1: {
-            front: {
-                renderType: "brandedSvc",
-                serviceNumber: "36M",
-                branding: "NITE  OWL",
-                font: "LECIP-20:12",
-                spacing: 2
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "36M",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        }
-    },
-    452: {
-        1: {
-            front: {
-                renderType: "brandedSvc",
-                serviceNumber: "65M",
-                branding: "NITE  OWL",
-                font: "LECIP-20:12",
-                spacing: 2
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "65M",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        }
-    },
-    453: {
-        1: {
-            front: {
-                renderType: "brandedSvc",
-                serviceNumber: "85M",
-                branding: "NITE  OWL",
-                font: "LECIP-20:12",
-                spacing: 2
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "85M",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        }
-    },
-    454: {
-        1: {
-            front: {
-                renderType: "brandedSvc",
-                serviceNumber: "89M",
-                branding: "NITE  OWL",
-                font: "LECIP-20:12",
-                spacing: 2
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "89M",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        }
-    },
-    455: {
-        1: {
-            front: {
-                renderType: "brandedSvc",
-                serviceNumber: "143M",
-                branding: "NITE  OWL",
-                font: "LECIP-20:12",
-                spacing: 2
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "143M",
-                font: "LECIP-20:6",
                 spacing: 2
             }
         }
@@ -17778,67 +17309,29 @@ EDSData.SBST = {
     456: {
         1: {
             front: {
-                renderType: "brandedSvc",
-                serviceNumber: "147M",
-                branding: "NITE  OWL",
-                font: "LECIP-20:12",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "456",
+                destination: "ST MICHAEL'S TER - NOVENA STN",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "centreMessageServiceScroll",
+
+                    top: "ST MICHAEL'S TER -",
+                    topFont: "LECIP-7:5",
+
+                    bottom: " NOVENA STN (LOOP)",
+                    bottomFont: "LECIP-7:5",
+
+                    serviceNumber: "456",
+                },  
+                ],
+                scrollFont: "LECIP-6:4"
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "147M",
-                font: "LECIP-20:6",
-                spacing: 2
-            }
-        }
-    },
-    457: {
-        1: {
-            front: {
-                renderType: "brandedSvc",
-                serviceNumber: "162M",
-                branding: "NITE  OWL",
-                font: "LECIP-20:12",
-                spacing: 2
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "162M",
-                font: "LECIP-20:6",
-                spacing: 2
-            }
-        }
-    },
-    458: {
-        1: {
-            front: {
-                renderType: "brandedSvc",
-                serviceNumber: "174M",
-                branding: "NITE  OWL",
-                font: "LECIP-20:12",
-                spacing: 2
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "174M",
-                font: "LECIP-20:6",
-                spacing: 2
-            }
-        }
-    },
-    459: {
-        1: {
-            front: {
-                renderType: "brandedSvc",
-                serviceNumber: "181M",
-                branding: "NITE  OWL",
-                font: "LECIP-20:12",
-                spacing: 2
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "181M",
-                font: "LECIP-20:6",
+                serviceNumber: "456",
+                font: "LECIP-20:9",
                 spacing: 2
             }
         }

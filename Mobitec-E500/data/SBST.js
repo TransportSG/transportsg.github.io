@@ -9921,6 +9921,44 @@ EDSData.SBST = {
             spacing: 1
         }
     },
+    4541: {
+        front: {
+            renderType: "standardService2",
+            serviceNumber: "454",
+            destination: {
+                text: "TAMP N. INT- ST 86 (LOOP)",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+                "TAMPINES ST 62",
+                "TAMPINES CTRL 1",
+                "TAMPINES ST 86",
+                "TAMPINES AVE 4",
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },   
+    4561: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "456",
+            destination: {
+                text: "ST MICHAEL'S TER - NOVENA STN",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+            {
+                renderType: "destScroll",
+                serviceNumber: "456",
+                top: "ST MICHAEL'S TER -",
+                topFont: "Mobitec-7:4",
+                bottom: "NOVENA STN (LOOP)",
+                bottomFont: "Mobitec-7:4",
+            },
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
     5000: {
         front: {
             renderType: "destScroll",

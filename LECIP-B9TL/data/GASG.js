@@ -1639,6 +1639,67 @@ EDSData.GASG = {
             }
         }
     },
+    "44": { // Referred from Citaro
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "44",
+                destination: "CHANGI AIRPORT",
+                destinationFont: "Hanover-10",
+                scrolls: [  
+                {
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "44",
+                    top: "Changi Airport",
+                    topFont: "Lecip-GoAhead16:10",
+                },
+                {
+                    renderType: "message",
+                    text: "44",
+                    font: "LECIP-19:GoAheadBigNumber",
+                    spacing: 12
+                },
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "44",
+                font: "Lecip-GoAhead20:12",
+                spacing: 3
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "44",
+                destination: "PUNGGOL COAST",
+                destinationFont: "Hanover-10",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "Punggol Coast",
+                    topFont: "Lecip-GoAhead16:10",
+        
+                    serviceNumber: "44"
+                },   
+                {
+                    renderType: "message",
+                    text: "44",
+                    font: "LECIP-19:GoAheadBigNumber",
+                    spacing: 12
+                },              
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "44",
+                font: "Lecip-GoAhead20:12",
+                spacing: 3
+            }
+        }
+    },
     62: {
         1: {
             front: {
@@ -3349,20 +3410,47 @@ EDSData.GASG = {
                 destinationFont: "Lecip-GoAhead8:6:2",
                 scrolls: [
                 {
-                    renderType: "destScrollWithImage",
+                    renderType: "destScrollWithImage2",
                     serviceNumber: "S37",
                     top: "SHUTTLE 37",
                     topFont: "Hanover-10",
                     bottom: "BISHAN - PROMENADE",
-                    bottomFont: "Hanover-10",
+                    bottomFont: "Hanover-7:5",
                 },
                 ],
                 scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "403",
-                font: "Lecip-GoAhead20:9",
+                serviceNumber: "S37",
+                font: "Lecip-GoAhead20:9:2",
+                spacing: 2
+            }
+        }
+    },
+    4372: { 
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S37",
+                destination: "BISHAN",
+                destinationFont: "Lecip-GoAhead8:6:2",
+                scrolls: [
+                {
+                    renderType: "destScrollWithImage2",
+                    serviceNumber: "S37",
+                    top: "SHUTTLE 37",
+                    topFont: "Hanover-10",
+                    bottom: "PROMENADE - BISHAN",
+                    bottomFont: "Hanover-7:5",
+                },
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "S37",
+                font: "Lecip-GoAhead20:9:2",
                 spacing: 2
             }
         }
