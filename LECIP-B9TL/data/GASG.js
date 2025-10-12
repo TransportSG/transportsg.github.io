@@ -3340,6 +3340,33 @@ EDSData.GASG = {
                 }
             }
         },    
+    4371: { 
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S37",
+                destination: "PROMENADE",
+                destinationFont: "Lecip-GoAhead8:6:2",
+                scrolls: [
+                {
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "S37",
+                    top: "SHUTTLE 37",
+                    topFont: "Hanover-10",
+                    bottom: "BISHAN - PROMENADE",
+                    bottomFont: "Hanover-10",
+                },
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "403",
+                font: "Lecip-GoAhead20:9",
+                spacing: 2
+            }
+        }
+    },
     5555: {
         1: {
             front: {
