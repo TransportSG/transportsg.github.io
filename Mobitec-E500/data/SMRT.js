@@ -902,13 +902,14 @@ EDSData['SMRT (PostSLBP)'] = {
                     image: "roundel"
                 },
                 {
-                    renderType: "destScrollWithImage",
-                    serviceNumber: "",
-                    top: "HAPPY NATIONAL DAY",
-                    topFont: "Mobitec-7:4",
-                    bottom: "SINGAPORE !",
-                    bottomFont: "Mobitec-7:4",
-                    image: "SingaporeFlag"
+                    renderType: "destScroll",
+                    top: "HAPPY",
+                    topFont: "Mobitec-7:7",
+
+                    bottom: "DEEPAVALI",
+                    bottomFont: "Mobitec-7:7",
+
+                    serviceNumber: ""
                 },
                 {
                     renderType: "welcomeScroll",
