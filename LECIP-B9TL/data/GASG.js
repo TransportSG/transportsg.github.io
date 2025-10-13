@@ -562,6 +562,62 @@ EDSFormats.GASG = {
 
         text: "$top+' '+$bottom+' '+$serviceNumber"
     },
+    destScroll2: {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 0
+            },
+            text: "$serviceNumber",
+            font: {
+                $$cond: {
+                    "$svcFont !== null": "$svcFont",
+                    "else": "LECIP-19:GoAheadB9Front3"
+                }
+            },
+            spacing: {
+                $$cond: {
+                    "$spacing === null" : 3,
+                    "else": "$spacing"
+                }
+            }
+        },
+        top: {
+            align: {
+                $$cond: {
+                    "$bottom === null": "centre-x,centre-y",
+                    "else": "centre-x,top"
+                }
+            },
+            text: "$top",
+            font: "$topFont",
+            spacing: 2,
+            margin: {
+                right: 'width(serviceNumber)'
+            }
+        },
+        bottom: {
+            align: "centre-x,bottom",
+            text: {
+                $$cond: {
+                    "$bottom !== null": "$bottom",
+                    "else": "''"
+                }
+            },
+            font: {
+                $$cond: {
+                    "$bottomFont !== null": "$bottomFont",
+                    "else": "LECIP-10"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber)'
+            }
+        },
+
+        text: "$top+' '+$bottom+' '+$serviceNumber"
+    },
     full: {
         __dynamic__: (matrix, data) => {
             matrixPrimitives.setStrokeColour(null);
@@ -1476,12 +1532,12 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "43",
-                destination: "UPPER EAST COAST",
+                destination: "UPP EAST COAST",
                 destinationFont: "Hanover-10",
                 scrolls: [
                 {
-                    renderType: "destScroll",
-                    top: "Upper East Coast",
+                    renderType: "destScroll2",
+                    top: "Upp East Coast",
                     topFont: "Hanover-GoAhead14:7",
         
                     serviceNumber: "43"
@@ -3093,10 +3149,8 @@ EDSData.GASG = {
                 {
                     renderType: "destScrollWithImage2",
                     serviceNumber: "661",
-                    top: "𐌐𐌀siř Ris",
-                    topFont: "Lecip-GoAhead8:6:3",
-                    bottom: "𐌃řiμē 3",
-                    bottomFont: "Lecip-GoAhead8:6:3",
+                    top: "Pasir Ris Dr 3",
+                    topFont: "Hanover-14:6",
                     image: "CityDirect-35:2"
                 },
                 ],
@@ -3397,6 +3451,24 @@ EDSData.GASG = {
                 top: "On",
                 topFont: "Hanover-7:5",
                 bottom: "Char€r",
+                bottomFont: "Hanover-7:4",
+                }
+            }
+        },    
+    4444: {
+        1: {
+            front: { 
+                renderType: "message",
+                text: "On Test",
+                font: "Lecip-GoAhead15:14",
+                spacing: 2
+            },
+            rear: {
+                renderType: "message2",
+                serviceNumber: "",
+                top: "On",
+                topFont: "Hanover-7:5",
+                bottom: "Test",
                 bottomFont: "Hanover-7:4",
                 }
             }

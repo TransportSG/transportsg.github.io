@@ -1692,7 +1692,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "382G",
             destination: {
-                text: "PUNGGOL INT",
+                text: "PUNGGOL INT via Sumang Lane",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -1701,6 +1701,12 @@ EDSData.GASG = {
                     serviceNumber: "382G",
                     top: "Punggol",
                     topFont: "Mobitec-13:8"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "382G",
+                    top: "via Sumang Lane",
+                    topFont: "Mobitec-7:5:1",
                 },
             ],
             scrollFont: "Mobitec-7:4"
@@ -1711,7 +1717,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "382W",
             destination: {
-                text: "PUNGGOL INT",
+                text: "PUNGGOL INT via Sentul Cres",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -1720,6 +1726,12 @@ EDSData.GASG = {
                     serviceNumber: "382W",
                     top: "Punggol",
                     topFont: "Mobitec-13:8"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "382W",
+                    top: "via Sentul Cres",
+                    topFont: "Mobitec-7:5:1",
                 },
             ],
             scrollFont: "Mobitec-7:4"
