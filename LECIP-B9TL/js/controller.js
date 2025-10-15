@@ -126,7 +126,7 @@ function showRouteInput() {
 }
 
 function startup() {
-    if (location.search === '?FAST') {
+    if (location.search.includes('FAST')) {
         return firmware()
     }
     var textSets = [
