@@ -4179,7 +4179,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "984",
-                    top: "JURONG TOWN HALL",
+                    top: "JUR TOWN HALL",
                 }
             ]
         }
