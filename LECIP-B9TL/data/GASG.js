@@ -3326,6 +3326,70 @@ EDSData.GASG = {
             }
         }
     },
+    380: { // Referred from Citaro
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "380",
+                destination: "PUNGGOL COAST INT",
+                destinationFont: "Hanover-10",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "Punggol Coast",
+                    topFont: "Lecip-GoAhead16:10",
+        
+                    serviceNumber: "380"
+                },
+                {
+                    renderType: "message",
+                    text: "380",
+                    font: "LECIP-19:GoAheadBigNumber",
+                    spacing: 12
+                },
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "380",
+                font: "Lecip-GoAhead20:9",
+                spacing: 2
+            }
+        }
+    },
+    383: { // Referred from Citaro
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "383",
+                destination: "PUNGGOL COAST INT",
+                destinationFont: "Hanover-10",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "Punggol Coast",
+                    topFont: "Lecip-GoAhead16:10",
+        
+                    serviceNumber: "383"
+                },
+                {
+                    renderType: "message",
+                    text: "383",
+                    font: "LECIP-19:GoAheadBigNumber",
+                    spacing: 12
+                },
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "383",
+                font: "Lecip-GoAhead20:9",
+                spacing: 2
+            }
+        }
+    },
     1111: {
         1: {
             front: { 
