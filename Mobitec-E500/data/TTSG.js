@@ -1804,6 +1804,40 @@ EDSData.TTSG = {
             ]
         }
     },
+    4361: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "S36",
+            destination: "HARBOUFRONT",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "S36",
+                    top: "SHUTTLE 36",
+                    topFont: "Mobitec-9:6",
+                    bottom: "Bishan - HarbourFront",
+                    bottomFont: "Hanover-6:3",
+                },
+            ]
+        }
+    },
+    4362: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "S36",
+            destination: "BISHAN",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "S36",
+                    top: "SHUTTLE 36",
+                    topFont: "Mobitec-9:6",
+                    bottom: "HarbourFront - Bishan",
+                    bottomFont: "Hanover-6:3",
+                },
+            ]
+        }
+    },
     4444: {
         front: {
             renderType: "standardService",

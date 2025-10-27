@@ -2,7 +2,17 @@ window.frontEDS = null; window.controllerPreview = null;
 
 let currentOperator = location.hash.slice(1) ? location.hash.slice(1) : 'SMRT (PostSLBP)';
 
-let startupCodes = {'SMRT (PostSLBP)': 8117, 'SBST': 2222, 'TTSG': 6667, 'GASG': 2221, 'Sentosa': 9999, 'GASG-Original': 2222, 'TTSG-Original': 6666, 'SMRT (PreSLBP)': 9117, 'SBSTC': 1111,}
+let startupCodes = {
+    'SMRT (PostSLBP)': 8117, 
+    'SBST': 2222, 
+    'TTSG': 6667, 
+    'GASG': 2221, 
+    'Sentosa': 9999, 
+    'GASG-Original': 2222, 
+    'TTSG-Original': 6666, 
+    'SMRT (PreSLBP)': 9117, 
+    'SBSTC': 1111,
+}
 
 let EDSFormats = {};
 let EDSData = {};

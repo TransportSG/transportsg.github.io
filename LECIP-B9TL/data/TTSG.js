@@ -6904,62 +6904,6 @@ EDSData.TTSG = {
             }
         }
     },
-    4371: { // Done
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "S37",
-                destination: "S36 PROMENADE",
-                destinationFont: "Hanover-Tower11:7",
-                scrolls: [ 
-                {
-                    renderType: "destScroll5",
-                    top: "SHUTTLE 37",
-                    topFont: "Hanover-7:5",
-                    bottom: "BISHAN - PROMENADE",
-                    bottomFont: "Hanover-10:5",
-            
-                    serviceNumber: "Š37"
-                },
-                ],
-                scrollFont: "Hanover-Tower7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "Š37",
-                font: "LECIP-TowerRear17:10",
-                spacing: 1
-            }
-        }
-    },
-    4372: { // Done
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "S37",
-                destination: "S37 BISHAN",
-                destinationFont: "Hanover-Tower11:7",
-                scrolls: [ 
-                {
-                    renderType: "destScroll5",
-                    top: "SHUTTLE 37",
-                    topFont: "Hanover-7:5",
-                    bottom: "PROMENADE - BISHAN",
-                    bottomFont: "Hanover-10:5",
-            
-                    serviceNumber: "Š37"
-                },
-                ],
-                scrollFont: "Hanover-Tower7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "Š37",
-                font: "LECIP-TowerRear17:10",
-                spacing: 1
-            }
-        }
-    },
     4444: {
         1: {
             front: {

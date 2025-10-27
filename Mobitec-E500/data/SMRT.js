@@ -902,16 +902,6 @@ EDSData['SMRT (PostSLBP)'] = {
                     image: "roundel"
                 },
                 {
-                    renderType: "destScroll",
-                    top: "HAPPY",
-                    topFont: "Mobitec-7:7",
-
-                    bottom: "DEEPAVALI",
-                    bottomFont: "Mobitec-7:7",
-
-                    serviceNumber: ""
-                },
-                {
                     renderType: "welcomeScroll",
                     serviceNumber: "",
                     top: "Data from Sep 2024 onwards",
