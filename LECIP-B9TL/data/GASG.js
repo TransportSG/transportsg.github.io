@@ -3037,7 +3037,7 @@ EDSData.GASG = {
                     renderType: "destScrollWithImage",
                     serviceNumber: "518",
                     top: "Bayfront",
-                    topFont: "Lecip-GoAhead9:6:1",
+                    topFont: "Hanover-GoAhead14:7",
                     image: "ExpressLogo-51",
                 },
                 ],

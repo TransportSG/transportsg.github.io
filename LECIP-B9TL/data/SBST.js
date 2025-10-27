@@ -4784,6 +4784,30 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "53M",
+                destination: "KOVAN HUB - S'GOON CTRL",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                    "HOUGANG AVE 1",
+                    "LOR AH SOO",
+                    "SERANGOON CENTRAL",
+                    "LOR AH SOO",
+                    "HOUGANG AVE 1"
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "53M",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    "53Z": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "53M",
                 destination: "HOUGANG AVE 1-S'GOON CTRL",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
