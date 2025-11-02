@@ -2590,7 +2590,7 @@ EDSData.SBST = {
                 'DUNEARN RD',
                 'MARINE PARADE RD',
                 'UPP EAST COAST RD',
-                'BEDOK SOTUH AVE 3'
+                'BEDOK SOUTH AVE 3'
             ],
             scrollFont: "Mobitec-6:5"
         }
@@ -3119,7 +3119,7 @@ EDSData.SBST = {
                 renderType: "swt",
                 serviceNumber: "58A",
                 destinationRoad: "TAMP. AVE",
-                destinationName: "10 (TAMP WATER FAB PK)"
+                destinationName: "10 (TAMP WAFER FAB PK)"
             },
             ],
             scrollFont: "Mobitec-6:5"
@@ -3135,10 +3135,12 @@ EDSData.SBST = {
             },
             scrolls: [
             {
-                renderType: "swt",
+                renderType: "destScroll",
                 serviceNumber: "58B",
-                destinationRoad: "UPP P. LEBAR",
-                destinationName: "RD (AFT TAI SENG STN)"
+                top: "TERMINATES AT UPP PAYA",
+                topFont: "Mobitec-7:4",
+                bottom: "LEBAR (AFT TAI SENG STN)",
+                bottomFont: "Mobitec-7:4",
             },
             ],
             scrollFont: "Mobitec-6:5"
@@ -3584,6 +3586,24 @@ EDSData.SBST = {
                 destinationRoad: "S'GOON CTRL",
                 destinationName: "(S'GOON STN EXIT B)"
             },
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    707: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "70M",
+            destination: {
+                text: "YCK INT-TEMASEK AVE",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+                    'ANG MO KIO ST 63',
+                    'ANG MO KIO ST 64',
+                    'YIO CHU KANG RD',
+                    'UPP PAYA LEBAR RD',
+                    'TEMASAK AVE'
             ],
             scrollFont: "Mobitec-6:5"
         }
@@ -4730,7 +4750,7 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "101",
             destination: {
-                text: "S'GOON INT-BUANGKOK LK",
+                text: "SERANGOON INT-BUANGKOK LK",
                 font: "Mobitec-7:4"
             },
             scrolls: [
