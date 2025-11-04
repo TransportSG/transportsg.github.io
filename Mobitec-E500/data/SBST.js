@@ -66,6 +66,39 @@ EDSFormats.SBST = {
         },
         text: "$serviceNumber+' '+$destination.text"
     },
+    standardService3: {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 0
+            },
+            text: "$serviceNumber",
+            font: "Mobitec-16:8",
+            spacing: 1
+        },
+        destination: {
+            align: "left,bottom",
+            margin: {
+                left: 0
+            },
+            text: "$destination",
+            spacing: 1
+        },
+        scroll: {
+            align: "left,top",
+            margin: {
+                left: 0,
+                top: 0
+            },
+            scrolls: "$scrolls",
+            rotate: true,
+            rotateSpeed: 2600,
+
+            font: "$scrollFont",
+            spacing: 1
+        },
+        text: "$serviceNumber+' '+$destination.text"
+    },
     swt: {
         serviceNumber: {
             align: "right",
@@ -4969,7 +5002,7 @@ EDSData.SBST = {
                 'UPPER SERANGOON RD',
                 'KALLANG BAHRU',
                 'BEACH RD',
-                'TEMASAK BOULEVARD',
+                'TEMASEK BOULEVARD',
                 'KALLANG BAHRU'
             ],
             scrollFont: "Mobitec-6:5"
@@ -5060,7 +5093,7 @@ EDSData.SBST = {
                 "ORCHARD RD",
                 "BRAS BASAH RD",
                 "STAMFORD RD",
-                "OCHARD BOULEVARD",
+                "ORCHARD BOULEVARD",
                 "TANGLIN RD",
                 "COMMONWEALTH AVE"
             ],
@@ -5565,38 +5598,37 @@ EDSData.SBST = {
     },
     1237: {
         front: {
-            renderType: "standardService",
+            renderType: "standardService3",
             serviceNumber: "123M",
             destination: {
                 text: "> TIONG BAHRU",
-                font: "Mobitec-7:4"
+                font: "Mobitec-7:5:2"
             },
             scrolls: [
                 "KAMPONG BAHRU RD",
-                "LOWER DELTA RD ",
+                "LOWER DELTA RD (BLK 40)",
                 "BUKIT PURMEI AVE",
-                "LOWER DELTA RD ",
+                "LOWER DELTA RD (BLK 129)",
                 "TIONG BAHRU STN",
             ],
-            scrollFont: "Mobitec-6:5"
+            scrollFont: "Mobitec-7:4:4"
         }
     },
     1238: {
         front: {
-            renderType: "standardService",
+            renderType: "standardService3",
             serviceNumber: "123M",
             destination: {
                 text: "> HARBOURFRONT INT",
-                font: "Mobitec-7:4"
+                font: "Mobitec-7:5:2"
             },
             scrolls: [
-                "TIONG BAHRU STN",
-                "LOWER DELTA RD",
+                "LOWER DELTA RD (BLK 25B)",
                 "BUKIT PURMEI AVE",
-                "LOWER DELTA RD",
+                "LOWER DELTA RD (BLK 105)",
                 "TELOK BLANGAH RD"
             ],
-            scrollFont: "Mobitec-6:5"
+            scrollFont: "Mobitec-7:4:4"
         }
     },
     1239: {

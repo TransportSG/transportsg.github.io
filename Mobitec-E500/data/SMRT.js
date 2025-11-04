@@ -896,16 +896,7 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "welcomeScroll",
                     serviceNumber: "",
                     top: "Data from Sep 2024 onwards",
-                    topFont: "Hanover-7:3:2",
-                    bottom: "(Incl Jurong West Package data)",
-                    bottomFont: "Hanover-7:3:2",
-                    image: "roundel"
-                },
-                {
-                    renderType: "welcomeScroll",
-                    serviceNumber: "",
-                    top: "Data from Sep 2024 onwards",
-                    topFont: "Hanover-7:3:2",
+                    topFont: "Mobitec-7:4:4",
                     bottom: "(Incl Jurong West Package data)",
                     bottomFont: "Hanover-7:3:2",
                     image: "roundel"
