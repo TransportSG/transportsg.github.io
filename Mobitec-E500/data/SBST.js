@@ -322,6 +322,64 @@ EDSFormats.SBST = {
 
         text: "$serviceNumber+' '+$top+' '+$bottom"
     },
+    destScroll3: {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 0,
+            },
+            text: "$serviceNumber",
+            font: "Mobitec-16:8",
+            spacing: {
+                $$cond: {
+                    "$svcSpacing === null" : 1,
+                    "else": "$svcSpacing"
+                }
+            }
+        },
+        top: {
+            align: {
+                $$cond: {
+                    "$bottom === null": "centre-x,centre-y",
+                    "else": "centre-x,top"
+                }
+            },
+            text: "$top",
+            font: "$topFont",
+            spacing: {
+                $$cond: {
+                    "$Spacing === null" : 1,
+                    "else": "$topSpacing",
+                }
+            },
+            margin: {
+                right: 'width(serviceNumber)',
+                top: '1'
+            }
+        },
+        bottom: {
+            align: "centre-x,bottom",
+            text: {
+                $$cond: {
+                    "$bottom !== null": "$bottom",
+                    "else": "''"
+                }
+            },
+            font: {
+                $$cond: {
+                    "$bottomFont !== null": "$bottomFont",
+                    "else": "Mobitec-6:5"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber)',
+                bottom: '1'
+            }
+        },
+
+        text: "$serviceNumber+' '+$top+' '+$bottom"
+    },
     logo: {
         logo: {
             align: "centre-x,centre-y",
@@ -3009,6 +3067,27 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
+    556: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "55B",
+            destination: {
+                text: "ANG MO KIO AVE 10",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+            {
+                renderType: "destScroll3",
+                serviceNumber: "55B",
+                top: "TERMINATES AT",
+                topFont: "Mobitec-6:5",
+                bottom: "AMK AVE 10 (BLK 443)",
+                bottomFont: "Mobitec-6:5",
+            },
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
     561: {
         front: {
             renderType: "standardService",
@@ -5003,7 +5082,6 @@ EDSData.SBST = {
                 'KALLANG BAHRU',
                 'BEACH RD',
                 'TEMASEK BOULEVARD',
-                'KALLANG BAHRU'
             ],
             scrollFont: "Mobitec-6:5"
         }
@@ -6144,6 +6222,26 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
+    1352: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "135",
+            destination: {
+                text: "> ANG MO KIO INT",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                "FRANKEL AVE",
+                "UPP EAST COAST RD",
+                "MARINE PARADE RD",
+                "TANJONG KATONG RD",
+                "UPP ALJUNIED RD",
+                "SERANGOON AVE 2",
+                "ANG MO KIO AVE 8"
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
     1357: {
         front: {
             renderType: "standardService",
@@ -6914,19 +7012,19 @@ EDSData.SBST = {
     1551: {
         front: {
             renderType: "standardService",
-            serviceNumber: "153",
+            serviceNumber: "155",
             destination: {
-                text: "> BUKIT MERAH INT",
+                text: "> BEDOK INT",
                 font: "Mobitec-7:5:2"
             },
             scrolls: [
-                'BRADDELL RD',
-                'UPP ALJUNIED RD',
-                'GEYLANG EAST CTRL',
-                'CIRCUIT RD',
-                'TELOK KURAU RD',
-                'EAST COAST RD',
-                'BEDOK STH AVE 1'
+                    'BRADDELL RD',
+                    'UPP ALJUNIED RD',
+                    'GEYLANG EAST CTRL',
+                    'CIRCUIT RD',
+                    'TELOK KURAU RD',
+                    'EAST COAST RD',
+                    'BEDOK STH AVE 1'
             ],
             scrollFont: "Mobitec-6:5"
         }
