@@ -1700,13 +1700,13 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "44",
-                destination: "CHANGI AIRPORT",
+                destination: "AIRPORT BLVD",
                 destinationFont: "Hanover-10",
                 scrolls: [  
                 {
                     renderType: "destScrollWithImage",
                     serviceNumber: "44",
-                    top: "Changi Airport",
+                    top: "Airport Blvd",
                     topFont: "Lecip-GoAhead16:10",
                 },
                 {

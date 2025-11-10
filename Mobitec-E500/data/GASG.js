@@ -925,15 +925,15 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "44",
             destination: {
-                text: "CHANGI AIRPORT",
+                text: "AIRPORT BLVD",
                 font: "Mobitec-7:7"
             },
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "44",
-                    top: "Changi Airport ~",
-                    topFont: "Mobitec-12:7"
+                    top: "Airport Blvd",
+                    topFont: "Mobitec-13:8"
                 },
             ],
             scrollFont: "Mobitec-7:4"
