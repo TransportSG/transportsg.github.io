@@ -10089,12 +10089,12 @@ EDSData.SBST = {
             spacing: 1
         }
     },
-    4541: {
+    4541: { // Bomb
         front: {
             renderType: "standardService2",
             serviceNumber: "454",
             destination: {
-                text: "TMP N. INT-TMP WEST STN (LOOP)",
+                text: "TMP N. INT-TMP WEST STN",
                 font: "Mobitec-7:4"
             },
             scrolls: [

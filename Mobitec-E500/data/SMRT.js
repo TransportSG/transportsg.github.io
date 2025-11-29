@@ -1356,7 +1356,7 @@ EDSData['SMRT (PostSLBP)'] = {
             renderType: "standardService",
             serviceNumber: "179A",
             destination: {
-                text: "BOON LAY - NTU",
+                text: "NTU",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -1377,7 +1377,7 @@ EDSData['SMRT (PostSLBP)'] = {
             renderType: "standardService",
             serviceNumber: "179B",
             destination: {
-                text: "NTU - PIONEER MRT",
+                text: "PIONEER MRT",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -1862,12 +1862,12 @@ EDSData['SMRT (PostSLBP)'] = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
-    1888: {
+    1888: { 
         front: {
             renderType: "standardService",
             serviceNumber: "188R",
             destination: {
-                text: "R W S",
+                text: "RESORTS WORLD SENTOSA",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -1879,32 +1879,96 @@ EDSData['SMRT (PostSLBP)'] = {
                     bottom: "SENTOSA",
                     bottomFont: "Mobitec-7:7"
                 },
-                "C. C. K WAY",
-                "B.B WEST AVE 7",
-                "B.B WEST AVE 4",
-                "B.B WEST AVE 2",
-                "B.B WEST AVE 3",
-                "B.B WEST AVE 6",
-                "B. BATOK AVE 1",
                 {
-                    text: "JURONG EAST CTRL",
-                    font: "Mobitec-7:5:3"
+                    renderType: "destScroll",
+                    serviceNumber: "188R",
+                    top: "R W S via",
+                    topFont: "Mobitec-7:7",
+                    bottom: "C. C. K WAY",
+                    bottomFont: "Mobitec-7:7"
                 },
-                "TOH GUAN ROAD",
                 {
-                    text: "TELOK BLANGAH ROAD",
-                    font: "Mobitec-7:5:3"
-                }
+                    renderType: "destScroll",
+                    serviceNumber: "188R",
+                    top: "R W S via",
+                    topFont: "Mobitec-7:7",
+                    bottom: "B.B WEST AVE 7",
+                    bottomFont: "Mobitec-7:7"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "188R",
+                    top: "R W S via",
+                    topFont: "Mobitec-7:7",
+                    bottom: "B.B WEST AVE 4",
+                    bottomFont: "Mobitec-7:7"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "188R",
+                    top: "R W S via",
+                    topFont: "Mobitec-7:7",
+                    bottom: "B.B WEST AVE 2",
+                    bottomFont: "Mobitec-7:7"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "188R",
+                    top: "R W S via",
+                    topFont: "Mobitec-7:7",
+                    bottom: "B.B WEST AVE 3",
+                    bottomFont: "Mobitec-7:7"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "188R",
+                    top: "R W S via",
+                    topFont: "Mobitec-7:7",
+                    bottom: "B.B WEST AVE 6",
+                    bottomFont: "Mobitec-7:7"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "188R",
+                    top: "R W S via",
+                    topFont: "Mobitec-7:7",
+                    bottom: "B.B WEST AVE 1",
+                    bottomFont: "Mobitec-7:7"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "188R",
+                    top: "R W S via",
+                    topFont: "Mobitec-7:7",
+                    bottom: "JURONG EAST CTRL",
+                    bottomFont: "Mobitec-7:5:3"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "188R",
+                    top: "R W S via",
+                    topFont: "Mobitec-7:7",
+                    bottom: "TOH GUAN RD",
+                    bottomFont: "Mobitec-7:7"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "188R",
+                    top: "R W S via",
+                    topFont: "Mobitec-7:7",
+                    bottom: "TELOK BLANGAH ROAD",
+                    bottomFont: "Mobitec-7:5:3"
+                },
             ],
-            scrollFont: "Mobitec-7:7"
+            scrollFont: "Mobitec-7:5:3"
         }
     },
-    1889: {
+    1889: { 
         front: {
             renderType: "standardService",
             serviceNumber: "188R",
             destination: {
-                text: "C. C. K INT",
+                text: "CHOA CHU KANG",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -1917,19 +1981,79 @@ EDSData['SMRT (PostSLBP)'] = {
                     bottomFont: "Mobitec-7:7"
                 },
                 {
-                    text: "TELOK BLANGAH RD",
-                    font: "Mobitec-7:5:3"
+                    renderType: "destScroll",
+                    serviceNumber: "188R",
+                    top: "C. C. K INT via",
+                    topFont: "Mobitec-7:7",
+                    bottom: "TELOK BLANGAH RD",
+                    bottomFont: "Mobitec-7:5:3"
                 },
-                "TOH GUAN ROAD",
-                "B. BATOK AVE 1",
-                "B.B WEST AVE 6",
-                "B.B WEST AVE 3",
-                "B.B WEST AVE 2",
-                "B.B WEST AVE 4",
-                "B.B WEST AVE 7",
-                "C. C. K WAY"
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "188R",
+                    top: "C. C. K INT via",
+                    topFont: "Mobitec-7:7",
+                    bottom: "TOH GUAN RD",
+                    bottomFont: "Mobitec-7:7"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "188R",
+                    top: "C. C. K INT via",
+                    topFont: "Mobitec-7:7",
+                    bottom: "B. BATOK AVE 1",
+                    bottomFont: "Mobitec-7:7"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "188R",
+                    top: "C. C. K INT via",
+                    topFont: "Mobitec-7:7",
+                    bottom: "B.B WEST AVE 6",
+                    bottomFont: "Mobitec-7:7"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "188R",
+                    top: "C. C. K INT via",
+                    topFont: "Mobitec-7:7",
+                    bottom: "B.B WEST AVE 3",
+                    bottomFont: "Mobitec-7:7"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "188R",
+                    top: "C. C. K INT via",
+                    topFont: "Mobitec-7:7",
+                    bottom: "B.B WEST AVE 2",
+                    bottomFont: "Mobitec-7:7"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "188R",
+                    top: "C. C. K INT via",
+                    topFont: "Mobitec-7:7",
+                    bottom: "B.B WEST AVE 4",
+                    bottomFont: "Mobitec-7:7"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "188R",
+                    top: "C. C. K INT via",
+                    topFont: "Mobitec-7:7",
+                    bottom: "B.B WEST AVE 7",
+                    bottomFont: "Mobitec-7:7"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "188R",
+                    top: "C. C. K INT via",
+                    topFont: "Mobitec-7:7",
+                    bottom: "C. C. K WAY",
+                    bottomFont: "Mobitec-7:7"
+                },
             ],
-            scrollFont: "Mobitec-7:7"
+            scrollFont: "Mobitec-7:5:3"
         }
     },
     1901: {
@@ -2880,20 +3004,15 @@ EDSData['SMRT (PostSLBP)'] = {
             renderType: "standardService",
             serviceNumber: "451",
             destination: {
-                text: " ",
-                font: "Mobitec-7:4"
+                text: "BT GOMBAK MRT",
+                font: "Mobitec-7:5:3"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "451",
-                    top: " ",
-                    topFont: "Mobitec-7:7",
-                    bottom: " ",
-                    bottomFont: "Mobitec-7:7"
-                },
+                "C C K AVE 1",
+                "C C K AVE 3",
+                "BRICKLAND RD",
             ],
-            scrollFont: "Mobitec-7:5:3"
+            scrollFont: "Mobitec-7:5:2"
         }
     },
     4512: {
@@ -2901,62 +3020,47 @@ EDSData['SMRT (PostSLBP)'] = {
             renderType: "standardService",
             serviceNumber: "451",
             destination: {
-                text: " ",
-                font: "Mobitec-7:4"
+                text: "KEAT HONG LINK",
+                font: "Mobitec-7:5:3"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "451",
-                    top: " ",
-                    topFont: "Mobitec-7:7",
-                    bottom: " ",
-                    bottomFont: "Mobitec-7:7"
-                },
+                "BRICKLAND ROAD",
+                "C C K AVE 1",
+                "C C K AVE 3",
             ],
-            scrollFont: "Mobitec-7:5:3"
+            scrollFont: "Mobitec-7:5:2"
         }
     },
     4551: {
         front: {
             renderType: "standardService",
-            serviceNumber: "451",
+            serviceNumber: "455",
             destination: {
-                text: " ",
-                font: "Mobitec-7:4"
+                text: "BT PANJANG INT",
+                font: "Mobitec-7:5:3"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "451",
-                    top: " ",
-                    topFont: "Mobitec-7:7",
-                    bottom: " ",
-                    bottomFont: "Mobitec-7:7"
-                },
+                "C.C.K DRIVE",
+                "C.C.K NORTH 7",
+                "C.C.K CRES (LOOP)"
             ],
-            scrollFont: "Mobitec-7:5:3"
+            scrollFont: "Mobitec-7:5:2"
         }
     },
-    4552: {
+    4512: {
         front: {
             renderType: "standardService",
             serviceNumber: "451",
             destination: {
-                text: " ",
-                font: "Mobitec-7:4"
+                text: "KEAT HONG LINK",
+                font: "Mobitec-7:5:3"
             },
             scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "451",
-                    top: " ",
-                    topFont: "Mobitec-7:7",
-                    bottom: " ",
-                    bottomFont: "Mobitec-7:7"
-                },
+                "BRICKLAND ROAD",
+                "C C K AVE 1",
+                "C C K AVE 3",
             ],
-            scrollFont: "Mobitec-7:5:3"
+            scrollFont: "Mobitec-7:5:2"
         }
     },
     5022: {
@@ -4673,16 +4777,6 @@ EDSData['SMRT (PostSLBP)'] = {
                 "WOODLANDS LINK"
             ],
             scrollFont: "Mobitec-7:5:3"
-        }
-    },
-    9649: {
-        front: {
-            renderType: "destScroll",
-            serviceNumber: "964A",
-            top: "ENDS AT",
-            topFont: "Mobitec-7:7",
-            bottom: "WOODLANDS LINK",
-            bottomFont: "Mobitec-7:5:3"
         }
     },
     9671: {
