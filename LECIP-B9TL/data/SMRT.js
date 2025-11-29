@@ -3527,12 +3527,12 @@ EDSData.SMRT = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "451",
-                destination: "  ",
+                destination: "BT GOMBAK MRT via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    " ",
-                    " ",
-                    " ",
+                "C C K AVE 1",
+                "C C K AVE 3",
+                "BRICKLAND RD",
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -3549,12 +3549,12 @@ EDSData.SMRT = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "451",
-                destination: "  ",
+                destination: "KEAT HONG LINK via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    " ",
-                    " ",
-                    " ",
+                "BRICKLAND ROAD",
+                "C C K AVE 1",
+                "C C K AVE 3",
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -3571,34 +3571,12 @@ EDSData.SMRT = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "455",
-                destination: "  ",
+                destination: "BT PANJANG INT via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    " ",
-                    " ",
-                    " ",
-                ],
-                scrollFont: "ArialBold-8:2"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "455",
-                font: "LECIP-SMRTRear14:9",
-                spacing: 2
-            }
-        }
-    },
-    4552: { // Done
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "455",
-                destination: "  ",
-                destinationFont: "ArialBold-8:2",
-                scrolls: [
-                    " ",
-                    " ",
-                    " ",
+                "C.C.K DRIVE",
+                "C.C.K NORTH 7",
+                "C.C.K CRES (LOOP)"
                 ],
                 scrollFont: "ArialBold-8:2"
             },

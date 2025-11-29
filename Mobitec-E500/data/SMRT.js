@@ -3047,22 +3047,6 @@ EDSData['SMRT (PostSLBP)'] = {
             scrollFont: "Mobitec-7:5:2"
         }
     },
-    4512: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "451",
-            destination: {
-                text: "KEAT HONG LINK",
-                font: "Mobitec-7:5:3"
-            },
-            scrolls: [
-                "BRICKLAND ROAD",
-                "C C K AVE 1",
-                "C C K AVE 3",
-            ],
-            scrollFont: "Mobitec-7:5:2"
-        }
-    },
     5022: {
         front: {
             renderType: "standardService",
