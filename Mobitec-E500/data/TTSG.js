@@ -1905,6 +1905,40 @@ EDSData.TTSG = {
             ]
         }
     },
+    4071: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "S7",
+            destination: "TAMPINES",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "S7",
+                    top: "SHUTTLE 7",
+                    topFont: "Mobitec-9:6",
+                    bottom: "Bedok - Tampines",
+                    bottomFont: "Mobitec-Tower6:4",
+                },
+            ]
+        }
+    },
+    4072: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "S7",
+            destination: "BEDOK",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "S7",
+                    top: "SHUTTLE 7",
+                    topFont: "Mobitec-9:6",
+                    bottom: "Tampines - Bedok",
+                    bottomFont: "Mobitec-Tower6:4",
+                },
+            ]
+        }
+    },
     4361: {
         front: {
             renderType: "standardService",
