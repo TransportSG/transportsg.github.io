@@ -3492,13 +3492,13 @@ EDSData.TTSG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "452",
-                destination: "TENGAH",
+                destination: "BEAUTY WORLD MRT",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [                    
                 {
                     renderType: "destScroll",
-                    top: "BUKIT BATOK",
-                    topFont: "Hanover-17:11",
+                    top: "BEAUTY WORLD MRT",
+                    topFont: "Hanover-17:6",
     
                     serviceNumber: "452"
                 }, 
@@ -3522,7 +3522,7 @@ EDSData.TTSG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "452",
-                destination: "BUKIT BATOK",
+                destination: "TENGAH",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [                    
                 {
@@ -3554,13 +3554,13 @@ EDSData.TTSG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "453",
-                destination: "JLN ANAK BUKIT",
+                destination: "BUKIT BATOK",
                 destinationFont: "Hanover-10",
                 scrolls: [
                 {
                     renderType: "destScroll",
-                    top: "JLN ANAK BUKIT",
-                    topFont: "Hanover-17:6",
+                    top: "BUKIT BATOK",
+                    topFont: "Hanover-17:10",
     
                     serviceNumber: "453"
                 },

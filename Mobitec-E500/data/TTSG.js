@@ -39,6 +39,46 @@ EDSFormats.TTSG = {
         text: "$serviceNumber+' '+$destination"
         
     },
+    standardService2: {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 0
+            },
+            text: "$serviceNumber",
+            font: "Mobitec-Tower16:10",
+            spacing: 1
+        },
+        destination: {
+            align: "centre-x,top",
+            margin: {
+                right: 'width(serviceNumber)'
+            },
+            text: "$destination",
+            font: {
+                $$cond: {
+                    "$destFont === null": "Mobitec-9:6",
+                    "else": "$destFont"
+                }
+            },
+            spacing: 1
+        },
+        scroll: {
+            align: "centre-x,bottom",
+            margin: {
+                right: 'width(serviceNumber)'
+            },
+            scrolls: "$scrolls",
+            rotate: true,
+            rotateSpeed: 2600,
+
+            font: "Mobitec-Tower6:4",
+            spacing: 1
+        },
+
+        text: "$serviceNumber+' '+$destination"
+        
+    },
     StandardServiceOldFont: {
         serviceNumber: {
             align: "right",
@@ -134,7 +174,7 @@ EDSFormats.TTSG = {
         text: "$top+' '+$bottom+' '+$serviceNumber"
         
     },
-    destScroll2: {
+        destScroll2: {
         serviceNumber: {
             align: "right",
             margin: {
@@ -143,6 +183,67 @@ EDSFormats.TTSG = {
             text: "$serviceNumber",
             font: "Mobitec-TowerIcons",
             spacing: 2
+        },
+        top: {
+            align: {
+                $$cond: {
+                    "$bottom === null": "centre-x,centre-y",
+                    "else": "centre-x,top"
+                }
+            },
+            text: "$top",
+            font: {
+                $$cond: {
+                    "$topFont === null": "Mobitec-9:6",
+                    "else": "$topFont"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber) - width(image)'
+            }
+        },
+        bottom: {
+            align: "centre-x,bottom",
+            text: {
+                $$cond: {
+                    "$bottom !== null": "$bottom",
+                    "else": "''"
+                }
+            },
+            font: {
+                $$cond: {
+                    "$bottomFont === null": "Hanover-5:3",
+                    "else": "$bottomFont"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber) - width(image)'
+            }
+        },
+        image: {
+            align: "left",
+            image: {
+                $$cond: {
+                    "$image !== null": "$image",
+                    "else": "blank"
+                }
+            }
+        },
+
+        text: "$top+' '+$bottom+' '+$serviceNumber"
+        
+    },
+    destScroll3: { // Single spacing for digit used on 452 453
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 0
+            },
+            text: "$serviceNumber",
+            font: "Mobitec-Tower16:10",
+            spacing: 1
         },
         top: {
             align: {
@@ -1861,9 +1962,10 @@ EDSData.TTSG = {
             destination: "JALAN ANAK BUKIT",
             scrolls: [
                 {
-                    renderType: "destScroll",
+                    renderType: "destScroll3",
                     serviceNumber: "452",
-                    top: "JALAN ANAK BUKIT",
+                    top: "BEAUTY WORLD MRT",
+                    topFont: "Mobitec-9:6"
                 }
             ]
         }
@@ -1875,7 +1977,7 @@ EDSData.TTSG = {
             destination: "TENGAH",
             scrolls: [
                 {
-                    renderType: "destScroll",
+                    renderType: "destScroll3",
                     serviceNumber: "452",
                     top: "TENGAH",
                 }
@@ -1889,7 +1991,7 @@ EDSData.TTSG = {
             destination: "BUKIT BATOK",
             scrolls: [
                 {
-                    renderType: "destScroll",
+                    renderType: "destScroll3",
                     serviceNumber: "453",
                     top: "BUKIT BATOK",
                 }
@@ -1903,7 +2005,7 @@ EDSData.TTSG = {
             destination: "TENGAH",
             scrolls: [
                 {
-                    renderType: "destScroll",
+                    renderType: "destScroll3",
                     serviceNumber: "453",
                     top: "TENGAH",
                 }
