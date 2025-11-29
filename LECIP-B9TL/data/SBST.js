@@ -16567,12 +16567,16 @@ EDSData.SBST = {
                 destination: "BEDOK INT-FORT RD",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
+                    "SIGLAP RD",
                     'EAST COAST PARK SVC RD',
                     'MARINE PARADE RD',
                     'TANJONG KATONG RD',
                     'OLD AIRPORT RD',
                     'FORT RD',
-                    'EAST COAST PARK SVC RD'
+                    'EAST COAST PARK SVC RD',
+                    "MARINE PARADE RD",
+                    "SIGLAP RD"
+
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -17264,63 +17268,15 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "454",
-                destination: "TAMP NTH INT - TAMP ST 86 (LOOP)",
+                destination: "TMP N. INT-TMP WEST STN (LOOP)",
                 destinationFont: "LECIP-6:3",
                 scrolls: [
-                    {
-                        renderType: 'twoline3',
-
-                        serviceNumber: "454",
-
-                        top: "TAMPINES ST 62",
-                        topFont: "LECIP-7:5",
-                        spacingTop: "2",
-        
-                        bottom: "TAMP NTH INtAMP ST 86(LOOP)",
-                        bottomFont: "LECIP-9:3",
-                        marginBottom: "-1"
-                    },
-                    {
-                        renderType: 'twoline3',
-
-                        serviceNumber: "454",
-
-                        top: "TAMPINES CTRL 1",
-                        topFont: "LECIP-7:5",
-                        spacingTop: "2",
-        
-                        bottom: "TAMP NTH INtAMP ST 86(LOOP)",
-                        bottomFont: "LECIP-9:3",
-                        marginBottom: "-1"
-                    },
-                    {
-                        renderType: 'twoline3',
-
-                        serviceNumber: "454",
-
-                        top: "TAMPINES ST 86",
-                        topFont: "LECIP-7:5",
-                        spacingTop: "2",
-        
-                        bottom: "TAMP NTH INtAMP ST 86(LOOP)",
-                        bottomFont: "LECIP-9:3",
-                        marginBottom: "-1"
-                    },
-                    {
-                        renderType: 'twoline3',
-
-                        serviceNumber: "454",
-
-                        top: "TAMPINES AVE 4",
-                        topFont: "LECIP-7:5",
-                        spacingTop: "2",
-        
-                        bottom: "TAMP NTH INtAMP ST 86(LOOP)",
-                        bottomFont: "LECIP-9:3",
-                        marginBottom: "-1"
-                    },
+                    "TAMPINES ST 62",
+                    "TAMPINES CTRL 1",
+                    "TAMPINES ST 86",
+                    "TAMPINES AVE 4",
                 ],
-                scrollFont: "LECIP-7:5"
+                scrollFont: "LECIP-6:3"
             },
             rear: {
                 renderType: "rearService",

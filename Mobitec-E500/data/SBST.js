@@ -10094,7 +10094,7 @@ EDSData.SBST = {
             renderType: "standardService2",
             serviceNumber: "454",
             destination: {
-                text: "TAMP N. INT- ST 86 (LOOP)",
+                text: "TMP N. INT-TMP WEST STN (LOOP)",
                 font: "Mobitec-7:4"
             },
             scrolls: [
