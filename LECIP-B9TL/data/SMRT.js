@@ -3391,12 +3391,68 @@ EDSData.SMRT = {
             }
         }
     },
+    4071: { // Bomb
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S7",
+                destination: "BEDOK (2025)",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "SHUTTLE 7",
+                    topFont: "ArialBold-8:2",
+                    bottom: "TAMPINES - BEDOK",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "S7"
+                },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "S7",
+                font: "Arial-17",
+                spacing: 1
+            }
+        }
+    },
+    4072: { // Bomb
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S7",
+                destination: "TAMPINES (2025)",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "SHUTTLE 7",
+                    topFont: "ArialBold-8:2",
+                    bottom: "TAMPINES - BEDOK",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "S7"
+                },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "S7",
+                font: "Arial-17",
+                spacing: 1
+            }
+        }
+    },
     4078: { // Done
         1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "S7",
-                destination: "TANAH MERAH",
+                destination: "TANAH MERAH (2024)",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
                 {
@@ -3424,7 +3480,7 @@ EDSData.SMRT = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "S7",
-                destination: "TAMPINES",
+                destination: "TAMPINES (2024)",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
                 {
@@ -3442,6 +3498,62 @@ EDSData.SMRT = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "S7",
+                font: "Arial-17",
+                spacing: 1
+            }
+        }
+    },
+    4081: { // Bomb
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S8",
+                destination: "BEDOK (2025)",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "SHUTTLE 8",
+                    topFont: "ArialBold-8:2",
+                    bottom: "EXPO - BEDOK",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "S8"
+                },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "S8",
+                font: "Arial-17",
+                spacing: 1
+            }
+        }
+    },
+    4082: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S8",
+                destination: "EXPO (2025)",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "SHUTTLE 8",
+                    topFont: "ArialBold-8:2",
+                    bottom: "BEDOK - EXPO",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "S8"
+                },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "S8",
                 font: "Arial-17",
                 spacing: 1
             }
