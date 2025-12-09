@@ -12723,8 +12723,8 @@ EDSData.SBST = {
                 scrolls: [
                 {
                     renderType: "swt",
-                serviceNumber: "163B",
-                landmark: "YIO CHU KANG RD (NCS HUB)"
+                    serviceNumber: "163B",
+                    landmark: "YIO CHU KANG RD (NCS HUB)"
                 },
                 ],
                 scrollFont: "LECIP-7:5"
@@ -19374,6 +19374,134 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "677",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    679: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "679",
+                branding: "CITY DIRECT",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "679",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "679",
+                branding: "CITY DIRECT",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "679",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    680: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "680",
+                branding: "CITY DIRECT",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "680",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "680",
+                branding: "CITY DIRECT",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "680",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    681: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "681",
+                branding: "CITY DIRECT",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "681",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "681",
+                branding: "CITY DIRECT",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "681",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    682: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "682",
+                branding: "CITY DIRECT",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "682",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "682",
+                branding: "CITY DIRECT",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "682",
                 font: "LECIP-20:9",
                 spacing: 2
             }

@@ -2322,9 +2322,9 @@ EDSData.GASG = {
                 destinationFont: "Hanover-10",
                 scrolls: [
                 {
-                    renderType: "destScroll",
+                    renderType: "destScroll2",
                     top: "Punggol Coast",
-                    topFont: "Lecip-GoAhead16:10",
+                    topFont: "Hanover-GoAhead14:7",
         
                     serviceNumber: "104"
                 },
@@ -3061,7 +3061,7 @@ EDSData.GASG = {
                     renderType: "destScrollWithImage",
                     serviceNumber: "518",
                     top: "Pasir Ris",
-                    topFont: "Lecip-GoAhead9:6:1",
+                    topFont: "Hanover-GoAhead14:7",
                     image: "ExpressLogo-51",
                 },
                 ],
@@ -3346,23 +3346,33 @@ EDSData.GASG = {
             }
         }
     },
-    2221: { 
+    2221: {
         1: {
             front: {
-                renderType: "destScrollWithImage",
+                renderType: "standardService",
                 serviceNumber: "",
-                top: "New Destination only format",
+                destination: "Go-Ahead Singapore",
+                destinationFont: "Mobitec-7:7",
+                scrolls: [
+                { 
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "",
+                    top: "New Destination only format",
                     topFont: "Hanover-7:5",
                     bottom: "w.e.f June 2025",
                     bottomFont: "Hanover-7:5",
-                image: "GoAheadLionHead",
+                    image: "GoAheadLionHead",
+                },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "standardService",
                 serviceNumber: "",
                 destination: "~",
                 destinationFont: "Lecip-GoAhead20:12",
-                scrolls: [{
+                scrolls: [
+                {
                     renderType: "logo",
                     text: "Go Ahead Logo",
                     image: "GoAheadWordingRear",

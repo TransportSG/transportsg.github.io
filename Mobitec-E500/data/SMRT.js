@@ -2938,12 +2938,12 @@ EDSData['SMRT (PostSLBP)'] = {
             scrollFont: "Mobitec-7:5:1"
         }
     },
-    4171: {
+    4071: {
         front: {
             renderType: "standardService",
             serviceNumber: "S7",
             destination: {
-                text: "TANAH MERAH",
+                text: "BEDOK (2025)",
                 font: "Mobitec-7:4"
             },
             scrolls: [
@@ -2951,20 +2951,20 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "S7",
                     top: "SHUTTLE 7",
-                    bottom: "TAMPINES - TANAH MERAH",
                     topFont: "Mobitec-7:7",
+                    bottom: "TAMPINES - BEDOK",
                     bottomFont: "Mobitec-7:4"
                 },
             ],
             scrollFont: "Mobitec-7:5:3"
         }
     },
-    4172: {
+    4072: {
         front: {
             renderType: "standardService",
             serviceNumber: "S7",
             destination: {
-                text: "TAMPINES",
+                text: "TAMPINES (2025)",
                 font: "Mobitec-7:4"
             },
             scrolls: [
@@ -2972,8 +2972,134 @@ EDSData['SMRT (PostSLBP)'] = {
                     renderType: "destScroll",
                     serviceNumber: "S7",
                     top: "SHUTTLE 7",
-                    bottom: "TANAH MERAH - TAMPINES",
                     topFont: "Mobitec-7:7",
+                    bottom: "BEDOK - TAMPINES",
+                    bottomFont: "Mobitec-7:4"
+                },
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    4078: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "S7",
+            destination: {
+                text: "TANAH MERAH (2024)",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "S7",
+                    top: "SHUTTLE 7",
+                    topFont: "Mobitec-7:7",
+                    bottom: "TAMPINES - TANAH MERAH",
+                    bottomFont: "Mobitec-7:4"
+                },
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    4079: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "S7",
+            destination: {
+                text: "TAMPINES (2024)",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "S7",
+                    top: "SHUTTLE 7",
+                    topFont: "Mobitec-7:7",
+                    bottom: "TANAH MERAH - TAMPINES",
+                    bottomFont: "Mobitec-7:4"
+                },
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    4081: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "S8",
+            destination: {
+                text: "BEDOK (2025)",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "S8",
+                    top: "SHUTTLE 8",
+                    topFont: "Mobitec-7:7",
+                    bottom: "EXPO - BEDOK",
+                    bottomFont: "Mobitec-7:7"
+                },
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    4072: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "S8",
+            destination: {
+                text: "EXPO (2025)",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "S8",
+                    top: "SHUTTLE 8",
+                    topFont: "Mobitec-7:7",
+                    bottom: "BEDOK - EXPO",
+                    bottomFont: "Mobitec-7:7"
+                },
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    4361: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "S36",
+            destination: {
+                text: "HARBOURFRONT (2025)",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "S36",
+                    top: "SHUTTLE 36",
+                    topFont: "Mobitec-7:7",
+                    bottom: "BISHAN - HARBOURFRONT",
+                    bottomFont: "Mobitec-7:4"
+                },
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    4362: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "S36",
+            destination: {
+                text: "BISHAN (2025)",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "S36",
+                    top: "SHUTTLE 36",
+                    topFont: "Mobitec-7:7",
+                    bottom: "HARBOURFRONT - BISHAN",
                     bottomFont: "Mobitec-7:4"
                 },
             ],

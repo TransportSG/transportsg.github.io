@@ -10026,6 +10026,48 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
+    4071: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "S7",
+            destination: {
+                text: "BEDOK (2025)",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+            {
+                renderType: "destScroll",
+                serviceNumber: "S7",
+                top: "SHUTTLE 7",
+                topFont: "Mobitec-7:7",
+                bottom: "TAMPINES - BEDOK",
+                bottomFont: "Mobitec-7:7",
+            },
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    4072: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "S7",
+            destination: {
+                text: "TAMPINES (2025)",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+            {
+                renderType: "destScroll",
+                serviceNumber: "S7",
+                top: "SHUTTLE 7",
+                topFont: "Mobitec-7:7",
+                bottom: "BEDOK - TAMPINES",
+                bottomFont: "Mobitec-7:7",
+            },
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
     4081: {
         front: {
             renderType: "brandedSvc",
@@ -10347,6 +10389,42 @@ EDSData.SBST = {
         front: {
             renderType: "brandedSvc",
             serviceNumber: "677",
+            branding: "CITY DIRECT",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    6791: {
+        front: {
+            renderType: "brandedSvc",
+            serviceNumber: "679",
+            branding: "CITY DIRECT",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    6801: {
+        front: {
+            renderType: "brandedSvc",
+            serviceNumber: "680",
+            branding: "CITY DIRECT",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    6811: {
+        front: {
+            renderType: "brandedSvc",
+            serviceNumber: "681",
+            branding: "CITY DIRECT",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
+    6821: {
+        front: {
+            renderType: "brandedSvc",
+            serviceNumber: "682",
             branding: "CITY DIRECT",
             font: "Mobitec-16:8",
             spacing: 1
