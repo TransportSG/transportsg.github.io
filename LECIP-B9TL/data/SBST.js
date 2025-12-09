@@ -22157,13 +22157,13 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "S7",
-                destination: "TAMPINES - TANAH MERAH",
+                destination: "BEDOK (20245)",
                 destinationFont: "LECIP-6:4",
                 scrolls: [{
                     renderType: "destScroll2",
                     top: "SHUTTLE 7",
                     topFont: "LECIP-9:7",
-                    bottom: "TAMPINES -TANAH MERAH",
+                    bottom: "TAMPINES - BEDOK",
                     bottomFont: "LECIPBold-7:6",
                                 
                     serviceNumber: "S7",
@@ -22186,7 +22186,36 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "S7",
-                destination: "TANAH MERAH - TAMPINES",
+                destination: "TAMPINES (20245)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [{
+                    renderType: "destScroll2",
+                    top: "SHUTTLE 7",
+                    topFont: "LECIP-9:7",
+                    bottom: "BEDOK - TAMPINES",
+                    bottomFont: "LECIPBold-7:6",
+                                
+                    serviceNumber: "S7",
+                    serviceFont: "LECIP-20:11",
+                    serviceSpacing: "",
+                    },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "S7",
+                font: "LECIP-20:11",
+                spacing: 2
+            }
+        }
+    },
+    4079: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S7",
+                destination: "TAMPINES (2025)",
                 destinationFont: "LECIP-6:4",
                 scrolls: [{
                     renderType: "destScroll2",
@@ -22210,58 +22239,60 @@ EDSData.SBST = {
             }
         }
     },
-    4361: {
+    4078: {
         1: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "S36",
-                destination: "BISHAN",
+                serviceNumber: "S7",
+                destination: "TANAH MERAH (2024)",
                 destinationFont: "LECIP-6:4",
-                scrolls: [
-                {
-                    renderType: "destScroll2A",
-                    top: "SHUTTLE 36",
-                    topFont: "LECIP-10",
-                    bottom: "HARBOURFRONT - BISHAN",
-                    bottomFont: "LECIP-7:5",
+                scrolls: [{
+                    renderType: "destScroll2",
+                    top: "SHUTTLE 7",
+                    topFont: "LECIP-9:7",
+                    bottom: "TAMPINES -TANAH MERAH",
+                    bottomFont: "LECIPBold-7:6",
                                 
-                    serviceNumber: "S36",
-                },
+                    serviceNumber: "S7",
+                    serviceFont: "LECIP-20:11",
+                    serviceSpacing: "",
+                    },
                 ],
                 scrollFont: "LECIP-6:4"
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "S36",
-                font: "LECIP-20:9",
+                serviceNumber: "S7",
+                font: "LECIP-20:11",
                 spacing: 2
             }
         }
     },
-    4362: {
+    4079: {
         1: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "S36",
-                destination: "HARBOURFRONT",
+                serviceNumber: "S7",
+                destination: "TAMPINES (2025)",
                 destinationFont: "LECIP-6:4",
-                scrolls: [
-                {
-                    renderType: "destScroll2A",
-                    top: "SHUTTLE 36",
-                    topFont: "LECIP-10",
-                    bottom: "BISHAN - HARBOURFRONT",
-                    bottomFont: "LECIP-7:5",
+                scrolls: [{
+                    renderType: "destScroll2",
+                    top: "SHUTTLE 7",
+                    topFont: "LECIP-9:7",
+                    bottom: "TANAH MERAH - TAMPINES",
+                    bottomFont: "LECIPBold-7:6",
                                 
-                    serviceNumber: "S36",
-                },
+                    serviceNumber: "S7",
+                    serviceFont: "LECIP-20:11",
+                    serviceSpacing: "",
+                    },
                 ],
                 scrollFont: "LECIP-6:4"
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "S36",
-                font: "LECIP-20:9",
+                serviceNumber: "S7",
+                font: "LECIP-20:11",
                 spacing: 2
             }
         }
