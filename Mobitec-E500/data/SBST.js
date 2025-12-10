@@ -2961,10 +2961,10 @@ EDSData.SBST = {
     },
     539: {
         front: {
-            renderType: "standardService2",
+            renderType: "standardService",
             serviceNumber: "53M",
             destination: {
-                text: "HOUGANG AVE 1-S'GOON CTRL",
+                text: "HOUGANG AVE1-S'GOON CTRL",
                 font: "Mobitec-7:4"
             },
             scrolls: [
@@ -3230,8 +3230,8 @@ EDSData.SBST = {
             {
                 renderType: "swt",
                 serviceNumber: "58A",
-                destinationRoad: "TAMP. AVE",
-                destinationName: "10 (TAMP WAFER FAB PK)"
+                destinationRoad: "TAMP AV10",
+                destinationName: "(TAMP WAFER FAB PK)"
             },
             ],
             scrollFont: "Mobitec-6:5"
@@ -4922,6 +4922,35 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "102B",
             destination: {
+                text: "SENGKANG EAST WAY",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+            {
+                renderType: "destScroll",
+                serviceNumber: "102B",
+                top: "TERMINATES AT",
+                topFont: "Mobitec-6:5",
+                bottom: "SENGKANG EAST WAY",
+                bottomFont: "Mobitec-6:5",
+            },
+            {
+                renderType: "destScroll",
+                serviceNumber: "102B",
+                top: "OPP SENGKANG STN",
+                topFont: "Mobitec-6:5",
+                bottom: "BLK 260A",
+                bottomFont: "Mobitec-6:5",
+            },
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    1029: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "102B",
+            destination: {
                 text: "SENGKANG STN",
                 font: "Mobitec-7:5:2"
             },
@@ -5205,10 +5234,12 @@ EDSData.SBST = {
             },
             scrolls: [
             {
-                renderType: "swt",
+                renderType: "destScroll",
                 serviceNumber: "112A",
-                destinationRoad: "UPP S'GOON",
-                destinationName: "RD (KOVAN STN EXIT C)"
+                top: "TERMINATE AT U.S'GOON RD",
+                topFont: "Mobitec-7:4",
+                bottom: "(KOVAN STN EXIT B)",
+                bottomFont: "Mobitec-7:4",
             },
             ],
             scrollFont: "Mobitec-6:5"
@@ -6722,10 +6753,10 @@ EDSData.SBST = {
     },
     1469: {
         front: {
-            renderType: "standardService",
+            renderType: "standardService2",
             serviceNumber: "146",
             destination: {
-                text: "BARTLEY RD - BIDADARI",
+                text: "BARTLEY RD-BIDADARI PK DR",
                 font: "Mobitec-7:4"
             },
             scrolls: [
