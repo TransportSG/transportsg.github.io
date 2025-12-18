@@ -3326,24 +3326,97 @@ EDSData.GASG = {
             }
         }
     },
+    683: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "683",
+                destination: "MOULMEIN ROAD",
+                destinationFont: "Hanover-10",
+                scrolls: [
+                {
+                    renderType: "destScrollWithImage2",
+                    serviceNumber: "683",
+                    top: "Moulmein",
+                    topFont: "Lecip-GoAhead8:6:3",
+                    bottom: "Road",
+                    bottomFont: "Lecip-GoAhead8:6:2",
+                    image: "CityDirect-35:2"
+                },
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "683",
+                font: "Lecip-GoAhead20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "683",
+                destination: "PUNGGOL CENTRAL",
+                destinationFont: "Hanover-10",
+                scrolls: [
+                {
+                    renderType: "destScrollWithImage2", // Placeholder - TBC
+                    serviceNumber: "683",
+                    top: "Punggol",
+                    topFont: "Lecip-GoAhead8:6:2",
+                    bottom: "Central",
+                    bottomFont: "Lecip-GoAhead8:6:2",
+                    image: "CityDirect-35:2"
+                },
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "683",
+                font: "Lecip-GoAhead20:9",
+                spacing: 2
+            }
+        }
+    },
     1111: {
         1: {
-            front: { 
-                renderType: "destScroll",
+            front: {
+                renderType: "standardService",
                 serviceNumber: "",
-                top: "Sorry!",
-                topFont: "Lecip-GoAhead9:6:2",
-                bottom: "Not in Service",
-                bottomFont: "Lecip-GoAhead9:6:2",
+                destination: "Not In Service",
+                destinationFont: "Mobitec-7:4",
+                scrolls: [
+                { 
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "Sorry!",
+                    topFont: "Lecip-GoAhead9:6:2",
+                    bottom: "Not in Service",
+                    bottomFont: "Lecip-GoAhead9:6:2",
+                },
+                ],
+                scrollFont: "Hanover-7:5"
             },
-            rear: { 
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "~",
+                destinationFont: "Lecip-GoAhead20:12",
+                scrolls: [
+                {
                 renderType: "message2",
                 serviceNumber: "",
                 top: "Not in",
                 topFont: "Lecip-GoAhead7:4:2",
                 bottom: "Service",
                 bottomFont: "Lecip-GoAhead7:4:2",
-            }
+                },
+                    ""
+                ],
+                scrollFont: "LECIP-7:5"
+            },
         }
     },
     2221: {
@@ -3392,7 +3465,8 @@ EDSData.GASG = {
                 serviceNumber: "",
                 destination: "GO AHEAD LOGO",
                 destinationFont: "Hanover-10",
-                scrolls: [{ 
+                scrolls: [
+                { 
                     renderType: "logo",
                     text: "Go Ahead Logo",
                     image: "GoAheadLogoFull"

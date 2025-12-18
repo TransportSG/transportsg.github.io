@@ -2143,6 +2143,50 @@ EDSData.GASG = {
             scrollFont: "Mobitec-7:4"
         }
     },
+    6831: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "683",
+            destination: {
+                text: "MOULMEIN RD",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "683",
+                    top: "Moulmein",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "Road",
+                    bottomFont: "Mobitec-7:5:1",
+                    image: "CityDirect",
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    6832: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "683",
+            destination: {
+                text: "PUNGGOL CENTRAL",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "683",
+                    top: "Punggol",
+                    topFont: "Mobitec-7:5:2",
+                    bottom: "Central",
+                    bottomFont: "Mobitec-7:5:2",
+                    image: "CityDirect",
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
     64000: {
         front: {
             renderType: "standardService",

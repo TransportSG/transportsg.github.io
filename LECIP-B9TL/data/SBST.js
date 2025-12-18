@@ -11322,7 +11322,57 @@ EDSData.SBST = {
             }
         }
     },
-    146: {
+    "146": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "146",
+                destination: "> KOVAN HUB",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    {
+                        renderType: "destScroll",
+                        top: "KOVAN  HUB",
+                        topFont: "LECIP-14:6",
+                
+                        serviceNumber: "146"
+                    },
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "146",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "146",
+                destination: "> WOODLEIGH INT",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    {
+                        renderType: "destScroll",
+                        top: "WOODLEIGH  INT",
+                        topFont: "LECIP-14:6",
+                
+                        serviceNumber: "146"
+                    },
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "146",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    "146Y": {
         1: {
             front: {
                 renderType: "standardService",
