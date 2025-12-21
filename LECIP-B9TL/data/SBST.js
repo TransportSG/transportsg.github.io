@@ -6587,6 +6587,52 @@ EDSData.SBST = {
             }
         }
     },
+    "80C": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "80",
+                destination: "> HARBOURFRONT INT",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    'UPP SERANGOON RD',
+                    'UPP PAYA LEBAR RD',
+                    'GEYLANG RD',
+                    'NORTH BRIDGE RD',
+                    'KEPPEL RD'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "80",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "80",
+                destination: "> COMPASSVALE INT",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    'KEPPEL RD',
+                    'VICTORIA ST',
+                    'SIMS AVE',
+                    'UPP PAYA LEBAR RD',
+                    'UPP SERANGOON RD'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "80",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        }
+    },
     81: {
         1: {
             front: {
@@ -6833,6 +6879,52 @@ EDSData.SBST = {
             }
         }
     },
+    "86C": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "86",
+                destination: "> ANG MO KIO INT",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    'COMPASSVALE RD',
+                    'RIVERVALE DR',
+                    'JALAN KAYU',
+                    'YIO CHU KANG RD',
+                    'ANG MO KIO AVE 6'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "86",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "86",
+                destination: "> COMPASSVALE INT",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    'ANG MO KIO AVE 6',
+                    'YIO CHU KANG RD',
+                    'JALAN KAYU',
+                    'RIVERVALE DR',
+                    'COMPASSVALE RD'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "86",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        }
+    },
     87: {
         1: {
             front: {
@@ -6862,6 +6954,52 @@ EDSData.SBST = {
                 serviceNumber: "87",
                 destination: "> SENGKANG INT",
                 destinationFont: "LECIP-10",
+                scrolls: [
+                    'BEDOK NTH RD',
+                    'KAKI BUKIT AVE 1',
+                    'EUNOS LINK',
+                    'HOUGANG AVE 3, 5, 7, 10',
+                    'COMPASSVALE RD'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "87",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        }
+    },
+    "87C": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "87",
+                destination: "> BEDOK INT",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    'COMPASSVALE RD',
+                    'HOUGANG AVE 10, 5, 7, 3',
+                    'EUNOS LINK',
+                    'KAKI BUKIT AVE 1',
+                    'BEDOK NTH RD'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "87",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "87",
+                destination: "> COMPASSVALE INT",
+                destinationFont: "LECIP-7:5",
                 scrolls: [
                     'BEDOK NTH RD',
                     'KAKI BUKIT AVE 1',
@@ -16378,6 +16516,30 @@ EDSData.SBST = {
                 serviceNumber: "372",
                 destination: "> SENGKANG INT",
                 destinationFont: "LECIP-10",
+                scrolls: [
+                    'SENGKANG EAST WAY',
+                    'ANCHORVALE DR',
+                    'PUNGGOL DR',
+                    'COMPASSVALE RD',
+                    'ANCHORVALE RD'
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "372",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    "372C": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "372",
+                destination: "> COMPASSVALE INT",
+                destinationFont: "LECIP-7:5",
                 scrolls: [
                     'SENGKANG EAST WAY',
                     'ANCHORVALE DR',
