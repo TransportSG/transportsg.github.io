@@ -1215,7 +1215,8 @@ EDSData.SBST = {
                 serviceNumber: "5A",
                 destination: "UPPER CHANGI STN",
                 destinationFont: "LECIP-10",
-                scrolls: [{
+                scrolls: [
+                {
                     renderType: "swt",
                     serviceNumber: "5A",
                     terminateAt: "UPP CHANGI RD EAST",
@@ -1227,6 +1228,30 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "5A",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "5A",
+                destination: " ",
+                destinationFont: "LECIP-10",
+                scrolls: 
+                [
+                {
+                    renderType: "logoSvc",
+                    serviceNumber: "5",
+                    image: "fastForward",
+                    destination: ""
+                },
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "5",
                 font: "LECIP-20:12",
                 spacing: 2
             }
@@ -15836,6 +15861,24 @@ EDSData.SBST = {
                 renderType: "rearService",
                 serviceNumber: "293",
                 font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "DTL",
+                destination: "> JOO KOON INT",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                    "BEAUTY WORLD"
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "99",
+                font: "LECIP-20:12",
                 spacing: 2
             }
         }
