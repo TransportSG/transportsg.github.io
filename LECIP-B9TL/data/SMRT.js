@@ -3404,7 +3404,7 @@ EDSData.SMRT = {
                     top: "SHUTTLE 7",
                     topFont: "ArialBold-8:2",
                     bottom: "TAMPINES - BEDOK",
-                    bottomFont: "ArialBold-8:2",
+                    bottomFont: "Arial-8",
         
                     serviceNumber: "S7"
                 },
@@ -3431,8 +3431,8 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     top: "SHUTTLE 7",
                     topFont: "ArialBold-8:2",
-                    bottom: "TAMPINES - BEDOK",
-                    bottomFont: "ArialBold-8:2",
+                    bottom: "BEDOK - TAMPINES",
+                    bottomFont: "Arial-8",
         
                     serviceNumber: "S7"
                 },
@@ -3516,7 +3516,7 @@ EDSData.SMRT = {
                     top: "SHUTTLE 8",
                     topFont: "ArialBold-8:2",
                     bottom: "EXPO - BEDOK",
-                    bottomFont: "ArialBold-8:2",
+                    bottomFont: "Arial-8",
         
                     serviceNumber: "S8"
                 },
@@ -3544,7 +3544,7 @@ EDSData.SMRT = {
                     top: "SHUTTLE 8",
                     topFont: "ArialBold-8:2",
                     bottom: "BEDOK - EXPO",
-                    bottomFont: "ArialBold-8:2",
+                    bottomFont: "Arial-8",
         
                     serviceNumber: "S8"
                 },
@@ -3581,8 +3581,8 @@ EDSData.SMRT = {
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "",
-                font: "Arial-17",
+                serviceNumber: "S36",
+                font: "Arial-10",
                 spacing: 1
             }
         }
@@ -3610,7 +3610,7 @@ EDSData.SMRT = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "",
-                font: "Arial-17",
+                font: "Arial-10",
                 spacing: 1
             }
         }
