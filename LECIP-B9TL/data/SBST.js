@@ -9147,14 +9147,14 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "114A",
-                destination: "BUANGKOK CRESCENT",
+                destination: "BUANGKOK LINK",
                 destinationFont: "LECIP-10",
                 scrolls: [
                 {
                     renderType: "swt",
                     serviceNumber: "114A",
                     terminateAt: "BUANGKOK",
-                    landmark: "CRES (BLK 998B)"
+                    landmark: "LINK (BLK 991B)"
                 },
                 ],
                 scrollFont: "LECIP-7:5"
