@@ -3869,6 +3869,20 @@ EDSData.TTSG = {
             ]
         }
     },
+    8723: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "872A",
+            destination: "BOON LAY WAY",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "872A",
+                    top: "BOON LAY WAY",
+                }
+            ]
+        }
+    },
     8821: {
         front: {
             renderType: "standardService",

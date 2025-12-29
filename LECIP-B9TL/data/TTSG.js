@@ -5566,6 +5566,32 @@ EDSData.TTSG = {
             }
         }
     },
+    "872A": { // Bomb
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "872A",
+                destination: "BOON LAY WAY",
+                destinationFont: "Hanover-10",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "BOON LAY WAY",
+                    topFont: "Hanover-17:6",
+    
+                    serviceNumber: "872A"
+                }, 
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: { 
+                renderType: "rearService",
+                serviceNumber: "872A",
+                font: "LECIP-TowerRear17:7",
+                spacing: 1
+            }
+        }
+    },
     "882": { // Done
         1: {
             front: {
