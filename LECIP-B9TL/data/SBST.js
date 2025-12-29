@@ -9092,19 +9092,47 @@ EDSData.SBST = {
             }
         }
     },
-    "114B": {
+    114: {
         1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "114",
-                destination: "BUANGKOK STN-BUANGKOK CR",
-                destinationFont: "LECIP-6:3",
+                destination: "YIO CHU KANG INT",
+                destinationFont: "LECIP-10",
                 scrolls: [
-                    'BUANGKOK LINK',
-                    'BUANGKOK CRES',
-                    'BUANGKOK DR'
+                {
+                    renderType: "destScroll",
+                    top: "YIO CHU KANG INT      ",
+                    topFont: "LECIP-10",
+            
+                    serviceNumber: "114"
+                },
                 ],
-                scrollFont: "LECIP-6:3"
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "114",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "114",
+                destination: "BUANGKOK INT",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "BUANGKOK INT           ",
+                    topFont: "LECIP-10",
+            
+                    serviceNumber: "114"
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -9139,7 +9167,29 @@ EDSData.SBST = {
             }
         }
     },
-    "114": {
+    "114X": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "114",
+                destination: "BUANGKOK STN-BUANGKOK CR",
+                destinationFont: "LECIP-6:3",
+                scrolls: [
+                    'BUANGKOK LINK',
+                    'BUANGKOK CRES',
+                    'BUANGKOK DR'
+                ],
+                scrollFont: "LECIP-6:3"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "114",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    "114Y": {
         1: {
             front: {
                 renderType: "standardService",
@@ -9157,6 +9207,31 @@ EDSData.SBST = {
                 renderType: "rearService",
                 serviceNumber: "114",
                 font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    "114Z": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "114A",
+                destination: "BUANGKOK CRESCENT",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
+                    renderType: "swt",
+                    serviceNumber: "114A",
+                    terminateAt: "BUANGKOK",
+                    landmark: "CRES (BLK 998B)"
+                },
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "114A",
+                font: "LECIP-20:6",
                 spacing: 2
             }
         }
