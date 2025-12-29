@@ -8815,7 +8815,7 @@ EDSData.TTSG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "Welcome",
+                destination: "Tower Transit Singapore",
                 destinationFont: "Mobitec-7:7",
                 scrolls: [ 
                 {

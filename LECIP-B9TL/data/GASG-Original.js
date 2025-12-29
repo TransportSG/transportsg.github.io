@@ -4670,8 +4670,8 @@ EDSData['GASG-Original'] = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "GO AHEAD LOGO",
-                destinationFont: "Hanover-10",
+                destination: "Go Ahead Singapore",
+                destinationFont: "Mobitec-7:7",
                 scrolls: [{ 
                     renderType: "logo",
                     text: "Go Ahead Logo",

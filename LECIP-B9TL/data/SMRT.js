@@ -5477,8 +5477,8 @@ EDSData.SMRT = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "WELCOME",
-                destinationFont: "ArialBold-8:2",
+                destination: "SMRT Buses",
+                destinationFont: "Mobitec-7:7",
                 scrolls: [
                     {
                         renderType: "destScroll3",

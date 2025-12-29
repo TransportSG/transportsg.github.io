@@ -10906,7 +10906,7 @@ EDSData['TTSG-Original'] = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "Tower Transit Logo",
+                destination: "Tower Transit",
                 destinationFont: "Mobitec-7:7",
                 scrolls: [ 
                     {

@@ -638,7 +638,22 @@ EDSData['SMRT-old'] = {
         1: {
             front: {
                 renderType: "logo",
-                text: "SMRT LOGO",
+                text: "SMRT Logo",
+                image: "logo"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "SMRT",
+                font: "ArialBold-8",
+                spacing: 2
+            },
+        }
+    },
+    9117: {
+        1: {
+            front: {
+                renderType: "logo",
+                text: "SMRT Buses",
                 image: "logo"
             },
             rear: {
