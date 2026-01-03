@@ -5576,11 +5576,11 @@ EDSData.TTSG = {
                 scrolls: [
                 {
                     renderType: "destScroll",
-                    top: "BOON LAY WAY",
-                    topFont: "Hanover-17:6",
-    
+                    top: "Boon LAy WAy",
+                    topFont: "Hanover-Tower11:7",
+            
                     serviceNumber: "872A"
-                }, 
+                },
                 ],
                 scrollFont: "Hanover-7:5"
             },
