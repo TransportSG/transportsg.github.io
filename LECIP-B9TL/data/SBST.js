@@ -22489,7 +22489,8 @@ EDSData.SBST = {
                 serviceNumber: "S7",
                 destination: "BEDOK (20245)",
                 destinationFont: "LECIP-6:4",
-                scrolls: [{
+                scrolls: [
+                {
                     renderType: "destScroll2",
                     top: "SHUTTLE 7",
                     topFont: "LECIP-9:7",
@@ -22679,6 +22680,38 @@ EDSData.SBST = {
                 renderType: "rearService",
                 serviceNumber: "S37",
                 font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    "437A": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S7A",
+                destination: "PAYA LEBAR",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
+                    renderType: "destScroll2",
+                    top: "SHUTTLE 37A",
+                    topFont: "LECIP-10",
+                    topSpacing: "2",
+
+                    bottom: "SERANGOON-PAYA LEBAR",
+                    bottomFont: "LECIP-7:5",
+            
+                    serviceNumber: "S37A",
+                    serviceFont: "LECIP-20:9",
+                    serviceSpacing: "1",
+                },
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "S37A",
+                font: "LECIP-20:6",
                 spacing: 2
             }
         }

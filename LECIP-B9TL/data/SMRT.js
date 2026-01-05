@@ -3559,7 +3559,7 @@ EDSData.SMRT = {
             }
         }
     },
-    4361: { // Tbc
+    4361: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -3595,7 +3595,7 @@ EDSData.SMRT = {
             },
         }
     },
-    4362: { // Tbc
+    4362: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -3625,6 +3625,78 @@ EDSData.SMRT = {
                     renderType: "logo",
                     text: "S36",
                     image: "S36-Rear"
+                },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+        }
+    },
+    4381: { // Tbc
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S38",
+                destination: "STADIUM",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "SHUTTLE 38",
+                    topFont: "ArialBold-8:2",
+                    bottom: "PAYA LEBAR - STADIUM",
+                    bottomFont: "Arial-8",
+        
+                    serviceNumber: "S38"
+                },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "S36",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                {
+                    renderType: "logo",
+                    text: "S36",
+                    image: "roundel"
+                },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+        }
+    },
+    4382: { // Tbc
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S38",
+                destination: "PAYA LEBAR",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "SHUTTLE 38",
+                    topFont: "ArialBold-8:2",
+                    bottom: "STADIUM - PAYA LEBAR",
+                    bottomFont: "Arial-8",
+        
+                    serviceNumber: "S38"
+                },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "S38",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                {
+                    renderType: "logo",
+                    text: "S38",
+                    image: "roundel"
                 },
                 ],
                 scrollFont: "ArialBold-8:2"

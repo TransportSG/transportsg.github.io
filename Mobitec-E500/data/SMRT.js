@@ -342,6 +342,57 @@ EDSFormats['SMRT (PostSLBP)'] = {
 
         text: "$serviceNumber+' '+$top+' '+$bottom"
     },
+    destScroll2: {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 0,
+            },
+            text: "$serviceNumber",
+            font: "Mobitec-16:8",
+            spacing: {
+                $$cond: {
+                    "$spacing === null" : 2,
+                    "else": "$spacing"
+                }
+            }
+        },
+        top: {
+            align: {
+                $$cond: {
+                    "$bottom === null": "centre-x,centre-y",
+                    "else": "centre-x,top"
+                }
+            },
+            text: "$top",
+            font: "$topFont",
+            spacing: 2,
+            margin: {
+                right: 'width(serviceNumber)'
+            }
+        },
+        bottom: {
+            align: "centre-x,bottom",
+            text: {
+                $$cond: {
+                    "$bottom !== null": "$bottom",
+                    "else": "''"
+                }
+            },
+            font: {
+                $$cond: {
+                    "$bottomFont !== null": "$bottomFont",
+                    "else": "Mobitec-6:5"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber)'
+            }
+        },
+
+        text: "$serviceNumber+' '+$top+' '+$bottom"
+    },
     destScrollWithImage: {
         serviceNumber: {
             align: "right",
@@ -3100,6 +3151,50 @@ EDSData['SMRT (PostSLBP)'] = {
                     top: "SHUTTLE 36",
                     topFont: "Mobitec-7:7",
                     bottom: "HARBOURFRONT - BISHAN",
+                    bottomFont: "Mobitec-7:4"
+                },
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    4381: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "S38",
+            destination: {
+                text: "STADIUM",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll2",
+                    serviceNumber: "S38",
+                    top: "SHUTTLE 38",
+                    topFont: "Mobitec-7:7",
+
+                    bottom: "PAYA LEBAR - STADIUM",
+                    bottomFont: "Mobitec-7:4"
+                },
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    4382: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "S38",
+            destination: {
+                text: "PAYA LEBAR",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll2",
+                    serviceNumber: "S38",
+                    top: "SHUTTLE 38",
+                    topFont: "Mobitec-7:7",
+
+                    bottom: "STADIUM - PAYA LEBAR",
                     bottomFont: "Mobitec-7:4"
                 },
             ],
