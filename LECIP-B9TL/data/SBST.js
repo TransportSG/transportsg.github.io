@@ -22628,7 +22628,7 @@ EDSData.SBST = {
             }
         }
     },
-    "4371": {
+    4371: {
         1: {
             front: {
                 renderType: "standardService",
@@ -22656,16 +22656,16 @@ EDSData.SBST = {
                 renderType: "rearService",
                 serviceNumber: "S37A",
                 font: "LECIP-20:6",
-                spacing: 2
+                spacing: "1",
             }
         }
     },
-    "4372": {
+    4372: {
         1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "S37B",
-                destination: "BISHAN",
+                destination: "BISHAN (2026)",
                 destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
@@ -22688,11 +22688,11 @@ EDSData.SBST = {
                 renderType: "rearService",
                 serviceNumber: "S37B",
                 font: "LECIP-20:6",
-                spacing: 2
+                spacing: "1",
             }
         }
     },
-    "4373": {
+    4373: {
         1: {
             front: {
                 renderType: "standardService",
@@ -22720,7 +22720,7 @@ EDSData.SBST = {
                 renderType: "rearService",
                 serviceNumber: "S37C",
                 font: "LECIP-20:6",
-                spacing: 2
+                spacing: "1",
             }
         }
     },
@@ -22748,7 +22748,7 @@ EDSData.SBST = {
                 renderType: "rearService",
                 serviceNumber: "S37",
                 font: "LECIP-20:9",
-                spacing: 2
+                spacing: "1",
             }
         }
     },
@@ -22776,7 +22776,7 @@ EDSData.SBST = {
                 renderType: "rearService",
                 serviceNumber: "S37",
                 font: "LECIP-20:9",
-                spacing: 2
+                spacing: "1",
             }
         }
     },
