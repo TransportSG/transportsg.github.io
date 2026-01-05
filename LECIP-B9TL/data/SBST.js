@@ -22628,69 +22628,13 @@ EDSData.SBST = {
             }
         }
     },
-    4371: {
+    "4371": {
         1: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "S37",
-                destination: "BISHAN",
-                destinationFont: "LECIP-6:4",
-                scrolls: [
-                {
-                    renderType: "destScroll2A",
-                    top: "SHUTTLE 37",
-                    topFont: "LECIP-10",
-                    bottom: "PROMENADE - BISHAN",
-                    bottomFont: "LECIP-7:5",
-                                
-                    serviceNumber: "S37",
-                },
-                ],
-                scrollFont: "LECIP-6:4"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "S37",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        }
-    },
-    4372: {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "S37",
-                destination: "PROMENADE",
-                destinationFont: "LECIP-6:4",
-                scrolls: [
-                {
-                    renderType: "destScroll2A",
-                    top: "SHUTTLE 37",
-                    topFont: "LECIP-10",
-                    bottom: "BISHAN - PROMENADE",
-                    bottomFont: "LECIP-7:5",
-                                
-                    serviceNumber: "S37",
-                },
-                ],
-                scrollFont: "LECIP-6:4"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "S37",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        }
-    },
-    "437A": {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "S7A",
-                destination: "PAYA LEBAR",
-                destinationFont: "LECIP-10",
+                serviceNumber: "S37A",
+                destination: "PAYA LEBAR (2026)",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScroll2",
@@ -22712,6 +22656,126 @@ EDSData.SBST = {
                 renderType: "rearService",
                 serviceNumber: "S37A",
                 font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
+    "4372": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S37B",
+                destination: "BISHAN",
+                destinationFont: "Mobitec-7:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2",
+                    top: "SHUTTLE 37B",
+                    topFont: "LECIP-10",
+                    topSpacing: "2",
+
+                    bottom: "TAI SENG-BISHAN",
+                    bottomFont: "LECIP-7:5",
+            
+                    serviceNumber: "S37B",
+                    serviceFont: "LECIP-20:9",
+                    serviceSpacing: "1",
+                },
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "S37B",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
+    "4373": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S37C",
+                destination: "PAYA LEBAR (2026)",
+                destinationFont: "Mobitec-7:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2",
+                    top: "SHUTTLE 37C",
+                    topFont: "LECIP-10",
+                    topSpacing: "2",
+
+                    bottom: "TAI SENG-SERANGOON",
+                    bottomFont: "LECIP-7:5",
+            
+                    serviceNumber: "S37C",
+                    serviceFont: "LECIP-20:9",
+                    serviceSpacing: "1",
+                },
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "S37C",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
+    4378: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S37",
+                destination: "BISHAN (2025)",
+                destinationFont: "Mobitec-7:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2A",
+                    top: "SHUTTLE 37",
+                    topFont: "LECIP-10",
+                    bottom: "PROMENADE - BISHAN",
+                    bottomFont: "LECIP-7:5",
+                                
+                    serviceNumber: "S37",
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "S37",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    4379: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S37",
+                destination: "PROMENADE (2025)",
+                destinationFont: "Mobitec-7:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2A",
+                    top: "SHUTTLE 37",
+                    topFont: "LECIP-10",
+                    bottom: "BISHAN - PROMENADE",
+                    bottomFont: "LECIP-7:5",
+                                
+                    serviceNumber: "S37",
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "S37",
+                font: "LECIP-20:9",
                 spacing: 2
             }
         }
