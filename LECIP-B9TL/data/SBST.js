@@ -22634,29 +22634,39 @@ EDSData.SBST = {
                 renderType: "standardService",
                 serviceNumber: "S37A",
                 destination: "PAYA LEBAR (2026)",
-                destinationFont: "Mobitec-7:4",
+                destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
                     renderType: "destScroll2",
                     top: "SHUTTLE 37A",
                     topFont: "LECIP-10",
-                    topSpacing: "2",
-
-                    bottom: "SERANGOON-PAYA LEBAR",
+                    bottom: "SERANGOON - PAYA LEBAR",
                     bottomFont: "LECIP-7:5",
-            
+                                
                     serviceNumber: "S37A",
                     serviceFont: "LECIP-20:9",
                     serviceSpacing: "1",
                 },
                 ],
-                scrollFont: "LECIP-7:5"
+                scrollFont: "LECIP-6:4"
             },
             rear: {
-                renderType: "rearService",
+                renderType: "standardService",
                 serviceNumber: "S37A",
-                font: "LECIP-20:6",
-                spacing: "1",
+                destination: "PAYA LEBAR (2026)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2",
+                    top: "S37A",
+                    topFont: "LECIP-14:6",
+                                
+                    serviceNumber: "",
+                    serviceFont: "LECIP-20:9",
+                    serviceSpacing: "1",
+                },
+                ],
+                scrollFont: "LECIP-6:4",
             }
         }
     },
@@ -22666,29 +22676,39 @@ EDSData.SBST = {
                 renderType: "standardService",
                 serviceNumber: "S37B",
                 destination: "BISHAN (2026)",
-                destinationFont: "Mobitec-7:4",
+                destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
                     renderType: "destScroll2",
                     top: "SHUTTLE 37B",
                     topFont: "LECIP-10",
-                    topSpacing: "2",
-
-                    bottom: "TAI SENG-BISHAN",
+                    bottom: "TAI SENG - BISHAN",
                     bottomFont: "LECIP-7:5",
-            
+                                
                     serviceNumber: "S37B",
                     serviceFont: "LECIP-20:9",
                     serviceSpacing: "1",
                 },
                 ],
-                scrollFont: "LECIP-7:5"
+                scrollFont: "LECIP-6:4"
             },
             rear: {
-                renderType: "rearService",
+                renderType: "standardService",
                 serviceNumber: "S37B",
-                font: "LECIP-20:6",
-                spacing: "1",
+                destination: "BISHAN (2026)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2",
+                    top: "S37B",
+                    topFont: "LECIP-14:6",
+                                
+                    serviceNumber: "",
+                    serviceFont: "LECIP-20:9",
+                    serviceSpacing: "1",
+                },
+                ],
+                scrollFont: "LECIP-6:4",
             }
         }
     },
@@ -22697,30 +22717,40 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "S37C",
-                destination: "PAYA LEBAR (2026)",
-                destinationFont: "Mobitec-7:4",
+                destination: "SERANGOON (2026)",
+                destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
                     renderType: "destScroll2",
                     top: "SHUTTLE 37C",
                     topFont: "LECIP-10",
-                    topSpacing: "2",
-
                     bottom: "TAI SENG-SERANGOON",
                     bottomFont: "LECIP-7:5",
-            
+                                
                     serviceNumber: "S37C",
                     serviceFont: "LECIP-20:9",
                     serviceSpacing: "1",
                 },
                 ],
-                scrollFont: "LECIP-7:5"
+                scrollFont: "LECIP-6:4"
             },
             rear: {
-                renderType: "rearService",
+                renderType: "standardService",
                 serviceNumber: "S37C",
-                font: "LECIP-20:6",
-                spacing: "1",
+                destination: "BISHAN (2026)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2",
+                    top: "S37C",
+                    topFont: "LECIP-14:6",
+                                
+                    serviceNumber: "",
+                    serviceFont: "LECIP-20:9",
+                    serviceSpacing: "1",
+                },
+                ],
+                scrollFont: "LECIP-6:4",
             }
         }
     },
@@ -22730,7 +22760,7 @@ EDSData.SBST = {
                 renderType: "standardService",
                 serviceNumber: "S37",
                 destination: "BISHAN (2025)",
-                destinationFont: "Mobitec-7:4",
+                destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
                     renderType: "destScroll2A",
@@ -22758,7 +22788,7 @@ EDSData.SBST = {
                 renderType: "standardService",
                 serviceNumber: "S37",
                 destination: "PROMENADE (2025)",
-                destinationFont: "Mobitec-7:4",
+                destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
                     renderType: "destScroll2A",
