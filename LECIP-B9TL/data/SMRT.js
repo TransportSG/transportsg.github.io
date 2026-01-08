@@ -3652,19 +3652,11 @@ EDSData.SMRT = {
                 scrollFont: "ArialBold-8:2"
             },
             rear: {
-                renderType: "standardService",
-                serviceNumber: "",
-                destination: "S36",
-                destinationFont: "ArialBold-8:2",
-                scrolls: [
-                {
-                    renderType: "logo",
-                    text: "S36",
-                    image: "roundel"
-                },
-                ],
-                scrollFont: "ArialBold-8:2"
-            },
+                renderType: "rearService",
+                serviceNumber: "S38",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 1
+            }
         }
     },
     4382: { // Tbc
@@ -3688,19 +3680,11 @@ EDSData.SMRT = {
                 scrollFont: "ArialBold-8:2"
             },
             rear: {
-                renderType: "standardService",
-                serviceNumber: "",
-                destination: "S38",
-                destinationFont: "ArialBold-8:2",
-                scrolls: [
-                {
-                    renderType: "logo",
-                    text: "S38",
-                    image: "roundel"
-                },
-                ],
-                scrollFont: "ArialBold-8:2"
-            },
+                renderType: "rearService",
+                serviceNumber: "S38",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 1
+            }
         }
     },
     4444: { // Done
