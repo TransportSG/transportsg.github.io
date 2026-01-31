@@ -4025,7 +4025,7 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "80",
             destination: {
-                text: "> SENGKANG INT",
+                text: "> COMPASSVALE INT",
                 font: "Mobitec-7:5:2"
             },
             scrolls: [
@@ -4057,6 +4057,24 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
+    809: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "80",
+            destination: {
+                text: "> SENGKANG INT",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                'TANJONG PAGAR RD',
+                'VICTORIA ST',
+                'SIMS AVE',
+                'UPP PAYA LEBAR RD',
+                'UPP SERANGOON RD'
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },    
     810: {
         front: {
             renderType: "message",
@@ -4148,7 +4166,7 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "86",
             destination: {
-                text: "> SENGKANG INT",
+                text: "> COMPASSVALE INT",
                 font: "Mobitec-7:5:2"
             },
             scrolls: [
@@ -4199,6 +4217,24 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
+    869: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "86",
+            destination: {
+                text: "> SENGKANG INT",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                'ANG MO KIO AVE 6',
+                'YIO CHU KANG RD',
+                'JALAN KAYU',
+                'RIVERVALE DR',
+                'COMPASSVALE RD'
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
     870: {
         front: {
             renderType: "message",
@@ -4226,6 +4262,24 @@ EDSData.SBST = {
         }
     },
     872: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "87",
+            destination: {
+                text: "> COMPASSVALE INT",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                'BEDOK NORTH RD',
+                'KAKI BUKIT AVE 1',
+                'EUNOS LINK',
+                'HOUGANG AVE 3, 5, 7, 10',
+                'COMPASSVALE RD'
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    879: {
         front: {
             renderType: "standardService",
             serviceNumber: "87",
@@ -9894,6 +9948,24 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "372",
             destination: {
+                text: "> COMPASSVALE INT",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                'SENGKANG EAST WAY',
+                'ANCHORVALE DR',
+                'PUNGGOL DR',
+                'COMPASSVALE RD',
+                'ANCHORVALE RD'
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    3729: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "372",
+            destination: {
                 text: "> SENGKANG INT",
                 font: "Mobitec-7:5:2"
             },
@@ -9907,7 +9979,7 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
-    3749: {
+    3741: {
         front: {
             renderType: "standardService",
             serviceNumber: "374",
@@ -9925,7 +9997,7 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
-    3741: {
+    3749: {
         front: {
             renderType: "standardService",
             serviceNumber: "374",

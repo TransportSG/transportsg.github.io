@@ -6542,7 +6542,7 @@ EDSData.SBST = {
             }
         }
     },
-    80: {
+    "80S": {
         1: {
             front: {
                 renderType: "standardService",
@@ -6612,7 +6612,7 @@ EDSData.SBST = {
             }
         }
     },
-    "80C": {
+    "80": {
         1: {
             front: {
                 renderType: "standardService",
@@ -6809,7 +6809,7 @@ EDSData.SBST = {
             }
         }
     },
-    86: {
+    "86S": {
         1: {
             front: {
                 renderType: "standardService",
@@ -6904,7 +6904,7 @@ EDSData.SBST = {
             }
         }
     },
-    "86C": {
+    "86": {
         1: {
             front: {
                 renderType: "standardService",
@@ -6950,7 +6950,7 @@ EDSData.SBST = {
             }
         }
     },
-    87: {
+    "87S": {
         1: {
             front: {
                 renderType: "standardService",
@@ -6996,7 +6996,7 @@ EDSData.SBST = {
             }
         }
     },
-    "87C": {
+    "87": {
         1: {
             front: {
                 renderType: "standardService",
@@ -16627,7 +16627,7 @@ EDSData.SBST = {
             }
         }
     },
-    372: {
+    "372S": {
         1: {
             front: {
                 renderType: "standardService",
@@ -16651,7 +16651,7 @@ EDSData.SBST = {
             }
         }
     },
-    "372C": {
+    "372": {
         1: {
             front: {
                 renderType: "standardService",
