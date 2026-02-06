@@ -5261,6 +5261,14 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
+    1119: {
+        front: {
+            renderType: "message",
+            text: "AIRSHOW SHUTTLE",
+            font: "Mobitec-16:8",
+            spacing: 1
+        }
+    },
     1121: {
         front: {
             renderType: "standardService",

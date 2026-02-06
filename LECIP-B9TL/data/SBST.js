@@ -22383,6 +22383,22 @@ EDSData.SBST = {
         1: {
             front: {
                 renderType: "message",
+                text: "AIRSHOW SHUTTLE",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "AIRSHOW",
+                topFont: "LECIP-7:4",
+
+                bottom: "SHUTTLE",
+                bottomFont: "LECIP-7:4"
+            }
+        },
+        2: {
+            front: {
+                renderType: "message",
                 text: "NTWU  COFFEE  BUS",
                 font: "LECIP-20:9",
                 spacing: 1
