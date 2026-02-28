@@ -1387,7 +1387,7 @@ EDSData.SBST = {
     187: {
         front: {
             renderType: "standardService",
-            serviceNumber: "2/M",
+            serviceNumber: "18M",
             destination: {
                 text: "BEDOK NORTH DEPOT - TAMPINES ST 96",
                 font: "Mobitec-7:4"
