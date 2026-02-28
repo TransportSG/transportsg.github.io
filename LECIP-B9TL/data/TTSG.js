@@ -1977,6 +1977,122 @@ EDSData.TTSG = {
             }
         }
     },
+    "97J": { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "97",
+                destination: "RAFFLES BLVD",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                {
+                    renderType: "destScroll",
+                    top: "RAFFLES BLVD",
+                    topFont: "Hanover-17:11",
+    
+                    serviceNumber: "97"
+                },
+                {
+                    renderType: "message",
+                    text: "97",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
+                },  
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "97",
+                font: "LECIP-TowerRear17:10",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "97",
+                destination: "TENGAH",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                {
+                    renderType: "destScroll",
+                    top: "TENGAH",
+                    topFont: "Hanover-17:11",
+    
+                    serviceNumber: "97"
+                },
+                {
+                    renderType: "message",
+                    text: "97",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
+                }, 
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "97",
+                font: "LECIP-TowerRear17:10",
+                spacing: 2
+            }
+        }
+    },
+    "97Z": { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "97e",
+                destination: "RAFFLES BLVD",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                {
+                    renderType: "ExpressdestScroll",
+                    top: "EXPRESS",
+                    topFont: "Hanover-6:3",
+                    bottom: "RAFFLES BLVD",
+                    bottomFont: "Hanover-11:7",
+            
+                    serviceNumber: "97e"
+                }, 
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "97e",
+                font: "LECIP-TowerRear17:7",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "97e",
+                destination: "TENGAH",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                {
+                    renderType: "ExpressdestScroll",
+                    top: "EXPRESS",
+                    topFont: "Hanover-6:3",
+                    bottom: "TENGAH",
+                    bottomFont: "Hanover-11:7",
+            
+                    serviceNumber: "97e"
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "97e",
+                font: "LECIP-TowerRear17:7",
+                spacing: 2
+            }
+        }
+    },
     98: { // Done
         1: {
             front: {

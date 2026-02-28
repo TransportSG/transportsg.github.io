@@ -1069,6 +1069,37 @@ EDSData.TTSG = {
             ]
         }
     },   
+    975: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "97",
+            destination: "TENGAH",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "97",
+                    top: "TENGAH",
+                }
+            ]
+        }
+    },
+    976: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "97e",
+            destination: "TENGAH",
+            scrolls: [
+                {
+                    renderType: "ExpressdestScroll",
+                    serviceNumber: "97e",
+                    top: "EXPRESS",
+                    topFont: "Mobitec-Tower6:4",
+                    bottom: "TENGAH",
+                    bottomFont: "Mobitec-9:6",
+                }
+            ]
+        }
+    }, 
     978: {
         front: {
             renderType: "standardService",

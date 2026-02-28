@@ -1384,6 +1384,27 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
+    187: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "2/M",
+            destination: {
+                text: "BEDOK NORTH DEPOT - TAMPINES ST 96",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+            {
+                renderType: "destScroll",
+                serviceNumber: "18M",
+                top: "BEDOK NTH DEPOT -",
+                topFont: "Mobitec-7:4",
+                bottom: "TAMPINES ST 96 (LOOP)",
+                bottomFont: "Mobitec-7:4",
+            },
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
     190: {
         front: {
             renderType: "message",

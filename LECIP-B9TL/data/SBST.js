@@ -2370,6 +2370,36 @@ EDSData.SBST = {
             }
         }
     },
+    "18M": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "18M",
+                destination: "BEDOK NORTH DEPOT - TAMPINES ST 96",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "centreMessageServiceScroll",
+
+                    top: "BEDOK NTH DEPOT -",
+                    topFont: "LECIP-7:5",
+
+                    bottom: " TAMPINES ST 96 (LOOP)",
+                    bottomFont: "LECIP-7:5",
+
+                    serviceNumber: "18M",
+                },  
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "18M",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
     19: {
         1: {
             front: {
