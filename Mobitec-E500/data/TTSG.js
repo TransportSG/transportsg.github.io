@@ -1567,12 +1567,12 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "171",
-            destination: "UPP BT TIMAH RD",
+            destination: "BT PANJANG MRT",
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "171",
-                    top: "UPP BT TIMAH RD",
+                    top: "BT PANJANG MRT",
                 }
             ]
         }
@@ -2000,6 +2000,57 @@ EDSData.TTSG = {
                     topFont: "Mobitec-9:6",
                     bottom: "HarbourFront - Bishan",
                     bottomFont: "Hanover-6:3",
+                },
+            ]
+        }
+    },
+    4371: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "S37A",
+            destination: "PAYA LEBAR",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "S37A",
+                    top: "",
+                    topFont: "Mobitec-7:4",
+                    bottom: "",
+                    bottomFont: "Mobitec-7:5:1",
+                },
+            ]
+        }
+    },
+    4372: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "S37B",
+            destination: "BISHAN",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "S37B",
+                    top: "",
+                    topFont: "Mobitec-7:4",
+                    bottom: "",
+                    bottomFont: "Mobitec-7:5:1",
+                },
+            ]
+        }
+    },
+    4373: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "S37C",
+            destination: "SERANGOON",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "S37C",
+                    top: "",
+                    topFont: "Mobitec-7:4",
+                    bottom: "",
+                    bottomFont: "Mobitec-7:5:1",
                 },
             ]
         }

@@ -2436,10 +2436,12 @@ EDSData.SBST = {
             },
             scrolls: [
             {
-                renderType: "swt2",
+                renderType: "destScroll",
                 serviceNumber: "39A",
-                destinationRoad: "JALAN KAYU",
-                destinationName: "(AFT SELETAR CAMP G)"
+                top: "TERMINATES AT JLN KAYU",
+                topFont: "Mobitec-7:4",
+                bottom: "(AFT SELETAR CAMP G)",
+                bottomFont: "Mobitec-6:5",
             },
             ],
             scrollFont: "Mobitec-6:5"
@@ -2455,10 +2457,12 @@ EDSData.SBST = {
             },
             scrolls: [
             {
-                renderType: "swt",
+                renderType: "destScroll",
                 serviceNumber: "39B",
-                destinationRoad: "",
-                destinationName: "PASIR RIS STN EXIT B"
+                top: "TERMINATES AT",
+                topFont: "Mobitec-7:5:1",
+                bottom: "PASIR RIS STN EXIT B",
+                bottomFont: "Mobitec-7:5:1"
             },
             ],
             scrollFont: "Mobitec-6:5"

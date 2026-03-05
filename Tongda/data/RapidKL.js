@@ -198,6 +198,21 @@ EDSData ['RapidKL'] = {
             destination: "MRT TAMAN MIDAH PINTU A - LRT SALAK SELATAN"
         }
     },
+    4022: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "T402",
+            destination: "NEXT TRIP",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "T402",
+                    top: "NEXT TRIP 1800",
+                    topFont: "Tongda-16:7",
+                },
+            ]
+        }
+    },
     4201: {
         front: {
             renderType: "scrollingDest",
@@ -210,6 +225,13 @@ EDSData ['RapidKL'] = {
             renderType: "scrollingDest",
             serviceNumber: "506",
             destination: "BANDAR UTAMA - PUTRAJAYA SENTRAL"
+        }
+    },
+    6021: {
+        front: {
+            renderType: "scrollingDest",
+            serviceNumber: "602",
+            destination: "IOI PUCHONG - PUCHONG PRIMA"
         }
     },
     7081: {

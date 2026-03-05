@@ -7102,6 +7102,90 @@ EDSData.TTSG = {
             }
         }
     },
+    4371: { // Bomb
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S37A",
+                destination: "S37A PAYA LEBAR",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [ 
+                {
+                    renderType: "destScroll5",
+                    top: "",
+                    topFont: "Hanover-7:5",
+                    bottom: "",
+                    bottomFont: "Hanover-10:5",
+            
+                    serviceNumber: "Š37A"
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "S37A",
+                font: "LECIP-TowerRear17:7",
+                spacing: 1
+            }
+        }
+    },
+    4372: { // Bomb
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S37B",
+                destination: "S37B BISHAN",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [ 
+                {
+                    renderType: "destScroll5",
+                    top: "",
+                    topFont: "Hanover-7:5",
+                    bottom: "",
+                    bottomFont: "Hanover-10:5",
+            
+                    serviceNumber: "Š37B"
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "S37B",
+                font: "LECIP-TowerRear17:7",
+                spacing: 1
+            }
+        }
+    },
+    4373: { // Bomb
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S37C",
+                destination: "S37C SERANGOON",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [ 
+                {
+                    renderType: "destScroll5",
+                    top: "",
+                    topFont: "Hanover-7:5",
+                    bottom: "",
+                    bottomFont: "Hanover-10:5",
+            
+                    serviceNumber: "Š37C"
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "S37C",
+                font: "LECIP-TowerRear17:7",
+                spacing: 1
+            }
+        }
+    },
     4444: {
         1: {
             front: {
