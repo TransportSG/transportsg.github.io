@@ -1210,7 +1210,7 @@ EDSData.GASG = {
                     topFont: "Mobitec-13:8"
                 },
                 {
-                    renderType: "destScroll2",
+                    renderType: "destScroll",
                     serviceNumber: "84G",
                     top: "via Sentul Cres",
                     topFont: "Mobitec-12:7"
@@ -1235,7 +1235,7 @@ EDSData.GASG = {
                     topFont: "Mobitec-13:8"
                 },
                 {
-                    renderType: "destScroll2",
+                    renderType: "destScroll",
                     serviceNumber: "84W",
                     top: "via SIT Punggol",
                     topFont: "Mobitec-12:7"
