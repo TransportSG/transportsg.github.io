@@ -6091,10 +6091,12 @@ EDSData.SBST = {
             },
             scrolls: [
             {
-                renderType: "swt",
+                renderType: "destScroll",
                 serviceNumber: "129B",
-                destinationRoad: "TAMP AVE",
-                destinationName: "1 (OPP TP EAST GATE)"
+                top: "TERMINATE AT TAMPINES",
+                topFont: "Mobitec-7:4",
+                bottom: "AVE 1 (OPP TP EAST GATE)",
+                bottomFont: "Mobitec-7:4",
             },
             ],
             scrollFont: "Mobitec-6:5"

@@ -3312,6 +3312,66 @@ EDSData.TTSG = {
             ]
         }
     },
+    8311: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "831G",
+            destination: "TENGAH GDN AVE",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "831G",
+                    top: "Tengah Gdn Ave",
+                    topFont: "Mobitec-Tower11New1",
+                }
+            ]
+        }
+    },
+    8312: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "831G",
+            destination: "TENGAH",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "831G",
+                    top: "Tengah",
+                    topFont: "Mobitec-Tower11New1",
+                }
+            ]
+        }
+    },
+    8313: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "831W",
+            destination: "TENGAH GDN AVE",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "831W",
+                    top: "Tengah Gdn Ave",
+                    topFont: "Mobitec-Tower11New1",
+                }
+            ]
+        }
+    },
+    8314: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "831W",
+            destination: "TENGAH",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "831W",
+                    top: "Tengah",
+                    topFont: "Mobitec-Tower11New1",
+                }
+            ]
+        }
+    },
     8531: {
         front: {
             renderType: "standardService",
