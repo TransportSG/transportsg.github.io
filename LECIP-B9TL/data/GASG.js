@@ -3538,7 +3538,61 @@ EDSData.GASG = {
                 bottomFont: "Hanover-7:4",
                 }
             }
-        },    
+        },  
+    4081: { 
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S8",
+                destination: "TANAH MERAH (2026)",
+                destinationFont: "Mobitec-7:4",
+                scrolls: [
+                {
+                    renderType: "destScrollWithImage2",
+                    serviceNumber: "S8",
+                    top: "SHUTTLE 8",
+                    topFont: "Hanover-10",
+                    bottom: "EXPO - TANAH MERAH",
+                    bottomFont: "Hanover-7:5",
+                },
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "S8",
+                font: "Lecip-GoAhead20:12",
+                spacing: 2
+            }
+        }
+    },  
+    4082: { 
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S8",
+                destination: "EXPO (2026)",
+                destinationFont: "Mobitec-7:4",
+                scrolls: [
+                {
+                    renderType: "destScrollWithImage2",
+                    serviceNumber: "S8",
+                    top: "SHUTTLE 8",
+                    topFont: "Hanover-10",
+                    bottom: "TANAH MERAH - EXPO",
+                    bottomFont: "Hanover-7:5",
+                },
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "S8",
+                font: "Lecip-GoAhead20:12",
+                spacing: 2
+            }
+        }
+    },  
     4444: {
         1: {
             front: { 
@@ -3554,9 +3608,9 @@ EDSData.GASG = {
                 topFont: "Hanover-7:5",
                 bottom: "Test",
                 bottomFont: "Hanover-7:4",
-                }
             }
-        },    
+        }
+    },    
     4371: { 
         1: {
             front: {
