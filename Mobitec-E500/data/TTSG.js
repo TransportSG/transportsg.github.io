@@ -137,7 +137,12 @@ EDSFormats.TTSG = {
                     "else": "$topFont"
                 }
             },
-            spacing: 1,
+            spacing:  {
+                $$cond: {
+                    "$topSpacing === null": "1",
+                    "else": "$topSpacing"
+                }
+            },
             margin: {
                 right: 'width(serviceNumber) - width(image)'
             }
@@ -1016,7 +1021,8 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "97",
-                    top: "RAFFLES BLVD",
+                    top: "Raffles Blvd",
+                    topFont: "Mobitec-Tower11New2",
                 }
             ]
         }
@@ -1025,12 +1031,14 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "97",
-            destination: "JURONG EAST",
+            destination: "TENGAH",
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "97",
-                    top: "JURONG EAST",
+                    top: "Tengah",
+                    topFont: "Mobitec-Tower11New2",
+                    topSpacing: "2",
                 }
             ]
         }
@@ -1056,14 +1064,14 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "97e",
-            destination: "JURONG EAST",
+            destination: "TENGAH",
             scrolls: [
                 {
                     renderType: "ExpressdestScroll",
                     serviceNumber: "97e",
                     top: "EXPRESS",
                     topFont: "Mobitec-Tower6:4",
-                    bottom: "JURONG EAST",
+                    bottom: "TENGAH",
                     bottomFont: "Mobitec-9:6",
                 }
             ]
@@ -1073,12 +1081,12 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "97",
-            destination: "TENGAH",
+            destination: "JURONG EAST",
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "97",
-                    top: "TENGAH",
+                    top: "JURONG EAST",
                 }
             ]
         }
@@ -1094,7 +1102,7 @@ EDSData.TTSG = {
                     serviceNumber: "97e",
                     top: "EXPRESS",
                     topFont: "Mobitec-Tower6:4",
-                    bottom: "TENGAH",
+                    bottom: "JURONG EAST",
                     bottomFont: "Mobitec-9:6",
                 }
             ]
@@ -3337,7 +3345,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "831G",
                     top: "Tengah",
-                    topFont: "Mobitec-Tower11New1",
+                    topFont: "Mobitec-Tower11New2",
                 }
             ]
         }
@@ -3367,7 +3375,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "831W",
                     top: "Tengah",
-                    topFont: "Mobitec-Tower11New1",
+                    topFont: "Mobitec-Tower11New2",
                 }
             ]
         }
