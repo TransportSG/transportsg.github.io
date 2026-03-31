@@ -5399,13 +5399,35 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "114",
             destination: {
-                text: "BUANGKOK INT-BUANGKOK CR",
+                text: "YIO CHU KANG INT",
                 font: "Mobitec-7:4"
             },
             scrolls: [
-                'BUANGKOK DR',
-                'BUANGKOK LK',
-                'BUANGKOK CRES'
+            {
+                renderType: "destScroll",
+                serviceNumber: "114",
+                top: "YIO  CHU  KANG  INT",
+                topFont: "LECIP-14:6",
+            },
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    1142: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "114",
+            destination: {
+                text: "BUANGKOK INT",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+            {
+                renderType: "destScroll",
+                serviceNumber: "114",
+                top: "BUANGKOK  INT",
+                topFont: "LECIP-14:6",
+            },
             ],
             scrollFont: "Mobitec-6:5"
         }
@@ -5425,6 +5447,22 @@ EDSData.SBST = {
                 destinationRoad: "BUANGKOK",
                 destinationName: "CRESCENT (BLK 998B)"
             },
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    1148: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "114",
+            destination: {
+                text: "BUANGKOK INT-BUANGKOK CR",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+                'BUANGKOK DR',
+                'BUANGKOK LK',
+                'BUANGKOK CRES'
             ],
             scrollFont: "Mobitec-6:5"
         }
@@ -10318,6 +10356,82 @@ EDSData.SBST = {
                 topFont: "Mobitec-7:4",
                 bottom: "NOVENA STN (LOOP)",
                 bottomFont: "Mobitec-7:4",
+            },
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    4571: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "457",
+            destination: {
+                text: "TAI SENG INT",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+            {
+                renderType: "destScroll",
+                serviceNumber: "457",
+                top: "TAI SENG STN",
+                topFont: "Mobitec-16:8",
+            },
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    4572: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "457",
+            destination: {
+                text: "HOUGANG CTRL INT",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+            {
+                renderType: "destScroll",
+                serviceNumber: "457",
+                top: "HOUGANG  CTRL  INT",
+                topFont: "LECIP-14:6",
+            },
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    4581: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "458",
+            destination: {
+                text: "TAI SENG INT",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+            {
+                renderType: "destScroll",
+                serviceNumber: "458",
+                top: "TAI SENG STN",
+                topFont: "Mobitec-16:8",
+            },
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    4582: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "458",
+            destination: {
+                text: "SENGKANG STN",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+            {
+                renderType: "destScroll",
+                serviceNumber: "458",
+                top: "SENGKANG STN",
+                topFont: "Mobitec-16:8",
             },
             ],
             scrollFont: "Mobitec-6:5"

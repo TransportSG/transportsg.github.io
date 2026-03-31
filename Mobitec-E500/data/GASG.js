@@ -834,7 +834,7 @@ EDSData.GASG = {
             scrollFont: "Mobitec-7:4"
         }
     },
-    433: {
+    434: {
         front: {
             renderType: "standardService",
             serviceNumber: "43e",
@@ -862,7 +862,28 @@ EDSData.GASG = {
             scrollFont: "Mobitec-7:4"
         }
     },
-    434: {
+    433: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "43A",
+            destination: {
+                text: "SERANGOON STN",
+                font: "Mobitec-7:5:3"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "43A",
+                    top: "",
+                    topFont: "Mobitec-7:5:2",
+                    bottom: " ",
+                    bottomFont: "Mobitec-7:5:2",
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    435: {
         front: {
             renderType: "standardService",
             serviceNumber: "43e",
@@ -882,7 +903,7 @@ EDSData.GASG = {
             scrollFont: "Mobitec-7:4"
         }
     },
-    435: {
+    438: {
         front: {
             renderType: "standardService",
             serviceNumber: "43M",
@@ -901,7 +922,7 @@ EDSData.GASG = {
             scrollFont: "Mobitec-7:4"
         }
     },
-    436: {
+    439: {
         front: {
             renderType: "standardService",
             serviceNumber: "43M",
@@ -1854,6 +1875,45 @@ EDSData.GASG = {
             renderType: 'message',
             text: 'On Test',
             font: 'Mobitec-13:8',
+        }
+    },
+    4591: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "459",
+            destination: {
+                text: "TAI SENG STN",
+                font: "Mobitec-7:5:3"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "459",
+                    top: "Tai Seng",
+                    topFont: "Mobitec-13:8"
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    4592: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "459",
+            destination: {
+                text: "PUNGGOL",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "459",
+                    top: "Punggol",
+                    topFont: "Mobitec-13:8"
+                },
+
+            ],
+            scrollFont: "Mobitec-7:4"
         }
     },
     5181: {

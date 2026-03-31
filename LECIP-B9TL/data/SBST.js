@@ -4018,36 +4018,6 @@ EDSData.SBST = {
             }
         }
     },
-    "43E": {
-        1: {
-            front: {
-                renderType: "logoSvc",
-                serviceNumber: "43e",
-                image: "express",
-                destination: "EXPRESS 43e"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "43e",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        },
-        2: {
-            front: {
-                renderType: "logoSvc",
-                serviceNumber: "43e",
-                image: "fastForward",
-                destination: "FFW 43e"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "43e",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        }
-    },
    "43A": {
         1: {
             front: {
@@ -17632,6 +17602,106 @@ EDSData.SBST = {
                 spacing: 2
             }
         }
+    },
+    457: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "457",
+                destination: "TAI SENG STN",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "TAI SENG STN",
+                    topFont: "LECIP-20:6",
+            
+                    serviceNumber: "457"
+                },
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "457",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "457",
+                destination: "HOUGANG STN",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "HOUGANG STN",
+                    topFont: "LECIP-20:6",
+            
+                    serviceNumber: "457"
+                },
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "457",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+    },
+    458: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "458",
+                destination: "TAI SENG STN",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "TAI SENG STN",
+                    topFont: "LECIP-20:6",
+            
+                    serviceNumber: "458"
+                },
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "458",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "458",
+                destination: "SENGKANG STN",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "SENGKANG STN",
+                    topFont: "LECIP-20:6",
+            
+                    serviceNumber: "458"
+                },
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "458",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
     },
     498: {
         1: {

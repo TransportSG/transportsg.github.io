@@ -1589,6 +1589,33 @@ EDSData.GASG = {
             }
         }
     },
+    "43A": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "43A",
+                destination: "SERANGOON STN",
+                destinationFont: "Hanover-10",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "43A",
+                    top: "TERMINATING AT",
+                    topFont: "Hanover-7:4",
+                    bottom: "S'GOON STN EXIT C/BLK 201",
+                    bottomFont: "Hanover-7:4",
+                },
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "43A",
+                font: "Lecip-GoAhead20:9",
+                spacing: 2
+            }
+        }
+    },
     "43E": {
         1: {
             front: {
@@ -3020,6 +3047,68 @@ EDSData.GASG = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "403",
+                font: "Lecip-GoAhead20:9",
+                spacing: 2
+            }
+        }
+    },
+    459: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "459",
+                destination: "TAI SENG",
+                destinationFont: "Hanover-10",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "Tai Seng MRT",
+                    topFont: "Lecip-GoAhead16:10",
+        
+                    serviceNumber: "459"
+                },
+                {
+                    renderType: "message",
+                    text: "459",
+                    font: "LECIP-19:GoAheadBigNumber",
+                    spacing: 12
+                },
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "459",
+                font: "Lecip-GoAhead20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "459",
+                destination: "PUNGGOL",
+                destinationFont: "Hanover-10",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "Punggol",
+                    topFont: "Lecip-GoAhead16:10",
+        
+                    serviceNumber: "459"
+                },
+                {
+                    renderType: "message",
+                    text: "459",
+                    font: "LECIP-19:GoAheadBigNumber",
+                    spacing: 12
+                },
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "459",
                 font: "Lecip-GoAhead20:9",
                 spacing: 2
             }
