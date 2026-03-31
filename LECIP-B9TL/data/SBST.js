@@ -57,6 +57,59 @@ EDSFormats.SBST = {
 
         text: "$destination"
     },
+    standardService2: {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 0
+            },
+            text: "$serviceNumber",
+            font: {
+                $$cond: {
+                    "$serviceFont === null": "LECIP-20:12",
+                    "else": "$serviceFont"
+                }
+            },
+            spacing: 3
+        },
+        destination: {
+            align: "left,bottom",
+            margin: {
+                bottom: {
+                    $$cond: {
+                        "$destinationFont === 'LECIP-6:3'": 3,
+                        "$destinationFont === 'LECIP-6:4'": 3,
+                        "$destinationFont === 'LECIP-7:5'": 2,
+                        "$destinationFont === 'LECIP-9:3'": 0,
+                        "$destinationFont === 'LECIP-10'": 0
+                    }
+                },
+            },
+            text: "$destination",
+            font: "$destinationFont",
+            spacing: "destSpacing",
+        },
+        scroll: {
+            align: "left,top",
+            margin: {
+                top: {
+                    $$cond: {
+                        "$destinationFont === 'LECIP-6:3'": 2,
+                        "$destinationFont === 'LECIP-6:4'": 2,
+                        "else": 1
+                    }
+                }
+            },
+            scrolls: "$scrolls",
+            rotate: true,
+            rotateSpeed: 2600,
+
+            font: "$scrollFont",
+            spacing: 1
+        },
+
+        text: "$destination"
+    },
     destScroll: {
         serviceNumber: {
             align: "right",
@@ -912,54 +965,6 @@ EDSData.SBST = {
             }
         }
     },
-    "2K": {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "2",
-                destination: "> KAMPONG BAHRU TER",
-                destinationFont: "LECIP-7:5",
-                scrolls: [
-                    "LOYANG AVE",
-                    "UPPER CHANGI RD NORTH",
-                    "UPPER CHANGI RD EAST",
-                    "NEW UPPER CHANGI RD",
-                    "GEYLANG RD",
-                    "VICTORIA ST"
-                ],
-                scrollFont: "LECIP-7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "2",
-                font: "LECIP-20:12",
-                spacing: 2
-            }
-        },
-        2: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "2",
-                destination: "> CHANGI VILLAGE TER",
-                destinationFont: "LECIP-7:5",
-                scrolls: [
-                    "VICTORIA ST",
-                    "SIMS AVE",
-                    "NEW UPPER CHANGI RD",
-                    "UPPER CHANGI RD EAST",
-                    "UPPER CHANGI RD NORTH",
-                    "LOYANG AVE"
-                ],
-                scrollFont: "LECIP-7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "2",
-                font: "LECIP-20:12",
-                spacing: 2
-            }
-        },
-    },
     "2L": {
         1: {
             front: {
@@ -1796,58 +1801,6 @@ EDSData.SBST = {
                 renderType: "standardService",
                 serviceNumber: "12",
                 destination: "> PASIR RIS",
-                destinationFont: "LECIP-10",
-                scrolls: [
-                    "VICTORIA ST",
-                    "MOUNTBATTEN RD",
-                    "EAST COAST RD",
-                    "BEDOK SOUTH RD",
-                    "UPPER CHANGI RD EAST",
-                    "SIMEI RD",
-                    "TAMPINES AVE 7",
-                    "PASIR RIS DR 4"
-                ],
-                scrollFont: "LECIP-7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "12",
-                font: "LECIP-20:12",
-                spacing: 2
-            }
-        },
-    },
-    "12K": {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "12",
-                destination: "> KAMPONG BAHRU TER",
-                destinationFont: "LECIP-7:5",
-                scrolls: [
-                    "PASIR RIS DR 4",
-                    "TAMPINES AVE 7",
-                    "SIMEI RD",
-                    "UPPER CHANGI RD EAST",
-                    "BEDOK SOUTH RD",
-                    "EAST COAST RD",
-                    "MOUNTBATTEN RD",
-                    "VICTORIA ST"
-                ],
-                scrollFont: "LECIP-7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "12",
-                font: "LECIP-20:12",
-                spacing: 2
-            }
-        },
-        2: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "12",
-                destination: "> PASIR RIS INT",
                 destinationFont: "LECIP-10",
                 scrolls: [
                     "VICTORIA ST",
@@ -6645,10 +6598,11 @@ EDSData.SBST = {
     "80": {
         1: {
             front: {
-                renderType: "standardService",
+                renderType: "standardService2",
                 serviceNumber: "80",
-                destination: "> HARBOURFRONT INT",
-                destinationFont: "LECIP-7:5",
+                destination: ">HARBOURFRONT INT",
+                destinationFont: "LECIP-10",
+                destSpacing: "1",
                 scrolls: [
                     'UPP SERANGOON RD',
                     'UPP PAYA LEBAR RD',
@@ -6667,10 +6621,11 @@ EDSData.SBST = {
         },
         2: {
             front: {
-                renderType: "standardService",
+                renderType: "standardService2",
                 serviceNumber: "80",
                 destination: "> COMPASSVALE INT",
-                destinationFont: "LECIP-7:5",
+                destinationFont: "LECIP-10",
+                destSpacing: "1",
                 scrolls: [
                     'KEPPEL RD',
                     'VICTORIA ST',
@@ -6959,10 +6914,11 @@ EDSData.SBST = {
         },
         2: {
             front: {
-                renderType: "standardService",
+                renderType: "standardService2",
                 serviceNumber: "86",
                 destination: "> COMPASSVALE INT",
-                destinationFont: "LECIP-7:5",
+                destinationFont: "LECIP-10",
+                destSpacing: "1",
                 scrolls: [
                     'ANG MO KIO AVE 6',
                     'YIO CHU KANG RD',
@@ -7051,10 +7007,11 @@ EDSData.SBST = {
         },
         2: {
             front: {
-                renderType: "standardService",
+                renderType: "standardService2",
                 serviceNumber: "87",
                 destination: "> COMPASSVALE INT",
-                destinationFont: "LECIP-7:5",
+                destinationFont: "LECIP-10",
+                destSpacing: "1",
                 scrolls: [
                     'BEDOK NTH RD',
                     'KAKI BUKIT AVE 1',
@@ -21087,54 +21044,6 @@ EDSData.SBST = {
                 serviceNumber: "860T",
                 font: "LECIP-20:6",
                 spacing: 2
-            }
-        }
-    },
-    888: {
-        1: {
-            front: {
-                renderType: "message",
-                text: "AIRPORT  888  STATION",
-                font: "LECIP-20:6",
-                spacing: 1
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "888",
-                font: "LECIP-20:6",
-                spacing: 2
-            }
-        }
-    },
-    900: {
-        1: {
-            front: {
-                renderType: "message",
-                text: "EMPLOYEE BUS",
-                font: "LECIP-20:9",
-                spacing: 3
-            },
-            rear: {
-                renderType: 'twoline',
-                top: "EMP.",
-                topFont: "LECIP-7:4",
-
-                bottom: "BUS",
-                bottomFont: "LECIP-7:4"
-            }
-        },
-        2: {
-            front: {
-                renderType: "message",
-                text: "STAFF",
-                font: "LECIP-20:12",
-                spacing: 2
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "STAFF",
-                font: "LECIP-7:4",
-                spacing: 1
             }
         }
     },
