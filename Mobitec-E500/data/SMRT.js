@@ -961,6 +961,25 @@ EDSData['SMRT (PostSLBP)'] = {
             scrollFont: "Mobitec-7:5:3",
         }
     },
+    8118: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: { 
+                text: "SMRT LOGO",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "",
+                    topFont: "Mobitec-Tower11New2",
+                }
+            ],
+            scrollFont: "Mobitec-7:5:3",
+        }
+    },
     118: {
         front: {
             renderType: "message",
