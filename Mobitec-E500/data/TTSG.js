@@ -3345,7 +3345,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "831G",
                     top: "Tengah",
-                    topFont: "Mobitec-Tower11New2",
+                    topFont: "Mobitec-Tower12New",
                 }
             ]
         }
@@ -3375,7 +3375,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "831W",
                     top: "Tengah",
-                    topFont: "Mobitec-Tower11New2",
+                    topFont: "Mobitec-Tower12New",
                 }
             ]
         }

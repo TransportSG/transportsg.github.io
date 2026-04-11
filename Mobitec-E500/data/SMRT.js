@@ -966,15 +966,15 @@ EDSData['SMRT (PostSLBP)'] = {
             renderType: "standardService",
             serviceNumber: "",
             destination: { 
-                text: "SMRT LOGO",
+                text: " ",
                 font: "Mobitec-7:4"
             },
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "",
-                    top: "",
-                    topFont: "Mobitec-Tower11New2",
+                    top: " ",
+                    topFont: "Mobitec-Tower12New",
                 }
             ],
             scrollFont: "Mobitec-7:5:3",
