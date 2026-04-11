@@ -1022,7 +1022,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "97",
                     top: "Raffles Blvd",
-                    topFont: "Mobitec-Tower11New2",
+                    topFont: "Mobitec-Tower12New",
                 }
             ]
         }
@@ -1037,7 +1037,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "97",
                     top: "Tengah",
-                    topFont: "Mobitec-Tower11New2",
+                    topFont: "Mobitec-Tower12New",
                     topSpacing: "2",
                 }
             ]
