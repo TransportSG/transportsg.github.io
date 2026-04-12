@@ -1735,9 +1735,9 @@ EDSData.TTSG = {
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "183",
+                    serviceNumber: "189",
                     top: "CLEMENTI AVE 1",
-                    // topFont: "Mobitec-Tower12New"
+                    topFont: "Mobitec-Tower11New2"
                 }
             ]
         }
@@ -3245,7 +3245,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "801",
                     top: "YISHUN AVE 1",
-                    // topFont: "Mobitec-Tower12New"
+                    topFont: "Mobitec-Tower11New2"
                 }
             ]
         }
