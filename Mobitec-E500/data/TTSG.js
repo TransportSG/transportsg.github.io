@@ -728,6 +728,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "41",
                     top: "JALAN ANAK BUKIT",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -742,6 +743,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "41",
                     top: "JURONG EAST",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -756,6 +758,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "49",
                     top: "JUR WEST ST 42",
+                    // topFont: "Mobitec-Tower12New"
                 },
             ]
         }
@@ -770,6 +773,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "49",
                     top: "JURONG EAST",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -796,6 +800,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "66",
                     top: "UPP BT TIMAH RD",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -810,6 +815,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "66",
                     top: "JURONG EAST",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -824,6 +830,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "77",
                     top: "RAFFLES BLVD",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -838,6 +845,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "77",
                     top: "BUKIT BATOK",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -882,6 +890,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "78",
                     top: "CLEMENTI AVE 3",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -895,7 +904,8 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "78",
-                    top: "JURONG TOWN HALL",
+                    top: "JURONG|TOWN|HALL",
+                    topFont: "Mobitec-Tower11New1"
                 }
             ]
         }
@@ -910,6 +920,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "78A",
                     top: "TANJONG PENJURU",
+                    // topFont: "Mobitec-Tower12New"
                 },
             ]
         }
@@ -924,6 +935,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "79",
                     top: "BOON LAY",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -937,7 +949,8 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "79",
-                    top: "JURONG TOWN HALL",
+                    top: "JURONG|TOWN|HALL",
+                    topFont: "Mobitec-Tower11New1"
                 }
             ]
         }
@@ -952,6 +965,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "79T",
                     top: "BOON LAY",
+                    topFont: "Mobitec-Tower12New"
                 },
             ]
         }
@@ -966,6 +980,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "96",
                     top: "KENT RIDGE CRES",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -980,6 +995,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "96",
                     top: "CLEMENTI",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -994,6 +1010,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "96A",
                     top: "KENT RIDGE CRES",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1008,6 +1025,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "96B",
                     top: "C'WEALTH AVE W.",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1077,37 +1095,6 @@ EDSData.TTSG = {
             ]
         }
     },   
-    975: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "97",
-            destination: "JURONG EAST",
-            scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "97",
-                    top: "JURONG EAST",
-                }
-            ]
-        }
-    },
-    976: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "97e",
-            destination: "TENGAH",
-            scrolls: [
-                {
-                    renderType: "ExpressdestScroll",
-                    serviceNumber: "97e",
-                    top: "EXPRESS",
-                    topFont: "Mobitec-Tower6:4",
-                    bottom: "JURONG EAST",
-                    bottomFont: "Mobitec-9:6",
-                }
-            ]
-        }
-    }, 
     978: {
         front: {
             renderType: "standardService",
@@ -1178,6 +1165,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "98",
                     top: "JURONG PIER WAY",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1192,6 +1180,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "98",
                     top: "JURONG EAST",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1206,6 +1195,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "98A",
                     top: "CORPORATION RD",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1220,6 +1210,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "98B",
                     top: "JURONG PIER RD",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1234,6 +1225,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "98M",
                     top: "CORPORATION RD",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1248,6 +1240,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "98M",
                     top: "JURONG EAST",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1262,6 +1255,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "106",
                     top: "SHENTON WAY",
+                    topFont: "Mobitec-Tower12New"
                 },
             ]
         }
@@ -1276,6 +1270,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "106",
                     top: "BUKIT BATOK",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1290,6 +1285,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "106A",
                     top: "C'WEALTH AVE W.",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1381,6 +1377,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "143",
                     top: "JURONG EAST",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1395,6 +1392,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "143",
                     top: "TOA PAYOH",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1409,6 +1407,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "143M",
                     top: "PANDAN GARDENS",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1423,6 +1422,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "143M",
                     top: "JURONG EAST",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1437,6 +1437,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "167",
                     top: "BUKIT MERAH",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1451,6 +1452,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "167",
                     top: "SEMBAWANG",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1525,6 +1527,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "169",
                     top: "ANG MO KIO",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1539,6 +1542,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "169",
                     top: "WOODLANDS",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1553,6 +1557,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "169A",
                     top: "YISHUN AVE 2",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1567,6 +1572,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "169B",
                     top: "WOODLANDS AVE 8",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1581,6 +1587,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "171",
                     top: "BT PANJANG MRT",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1595,6 +1602,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "171",
                     top: "YISHUN",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1609,6 +1617,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "173",
                     top: "CLEMENTI",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1623,6 +1632,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "173",
                     top: "BUKIT BATOK",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1637,6 +1647,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "173A",
                     top: "B.B EAST AVE 4",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1651,6 +1662,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "177",
                     top: "JELEBU RD",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1665,6 +1677,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "177",
                     top: "BUKIT BATOK",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1679,6 +1692,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "183",
                     top: "SCIENCE PARK RD",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1693,6 +1707,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "183",
                     top: "JURONG EAST",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1707,6 +1722,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "183B",
                     top: "TOH TUCK AVE",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1721,7 +1737,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "183",
                     top: "CLEMENTI AVE 1",
-
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1736,6 +1752,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "189",
                     top: "BUKIT BATOK",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1750,6 +1767,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "189A",
                     top: "BT BATOK ST 23",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1780,6 +1798,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "282",
                     top: "CLEMENTI W. ST 2",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1794,6 +1813,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "282",
                     top: "CLEMENTI",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1808,6 +1828,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "284",
                     top: "CLEMENTI AVE 4",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1822,6 +1843,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "284",
                     top: "CLEMENTI",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1836,6 +1858,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "285",
                     top: "PANDAN LOOP",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1850,6 +1873,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "285",
                     top: "CLEMENTI",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1864,6 +1888,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "333",
                     top: "JUR EAST ST 32",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1878,6 +1903,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "333",
                     top: "JURONG EAST",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1898,6 +1924,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "334",
                     top: "JUR WEST ST 42",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1912,6 +1939,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "334",
                     top: "JURONG EAST",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1926,6 +1954,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "335",
                     top: "JUR WEST ST 41",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1940,41 +1969,8 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "335",
                     top: "JURONG EAST",
+                    // topFont: "Mobitec-Tower12New"
                 }
-            ]
-        }
-    },
-    4071: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "S7",
-            destination: "TAMPINES",
-            scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "S7",
-                    top: "SHUTTLE 7",
-                    topFont: "Mobitec-9:6",
-                    bottom: "Bedok - Tampines",
-                    bottomFont: "Mobitec-Tower6:4",
-                },
-            ]
-        }
-    },
-    4072: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "S7",
-            destination: "BEDOK",
-            scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "S7",
-                    top: "SHUTTLE 7",
-                    topFont: "Mobitec-9:6",
-                    bottom: "Tampines - Bedok",
-                    bottomFont: "Mobitec-Tower6:4",
-                },
             ]
         }
     },
@@ -2104,6 +2100,7 @@ EDSData.TTSG = {
                     renderType: "destScroll3",
                     serviceNumber: "452",
                     top: "TENGAH",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -2118,6 +2115,7 @@ EDSData.TTSG = {
                     renderType: "destScroll3",
                     serviceNumber: "453",
                     top: "BUKIT BATOK",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -2132,6 +2130,7 @@ EDSData.TTSG = {
                     renderType: "destScroll3",
                     serviceNumber: "453",
                     top: "TENGAH",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -3121,13 +3120,12 @@ EDSData.TTSG = {
             destFont: "Mobitec-7:4",
             scrolls: [
                 {
-                    renderType: "destScroll",
+                    renderType: "TowerSpecialEDS",
                     serviceNumber: "",
-                    top: "Moving People",
-                    topFont: "Mobitec-7:4",
-                    bottom: "Not Buses     ",
-                    bottomFont: "Mobitec-7:4",
-                    image: "logo-full",
+                    top: "~+",
+                    topFont: "Mobitec-Tower16:10",
+    
+                    text: "Tower Transit Logo"
                 },
             ]
         }
@@ -3143,37 +3141,10 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "",
-                    top: "New Destination only format",
-                    topFont: "Hanover-7:3",
-                    bottom: "w.e.f May 2025",
-                    bottomFont: "Hanover-7:3",
-                    image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "",
-                    top: "New Destination only format",
-                    topFont: "Hanover-7:3",
-                    bottom: "w.e.f May 2025",
-                    bottomFont: "Hanover-7:3",
-                    image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "",
-                    top: "Original format still available",
-                    topFont: "Hanover-7:3",
-                    bottom: "under TTSG-Original operator",
-                    bottomFont: "Hanover-7:3",
-                    image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "",
-                    top: "Original format still available",
-                    topFont: "Hanover-7:3",
-                    bottom: "under TTSG-Original operator",
-                    bottomFont: "Hanover-7:3",
+                    top: "New Font Version",
+                    topFont: "Mobitec-7:4",
+                    bottom: "from March 2026",
+                    bottomFont: "Mobitec-7:4",
                     image: "logo"
                 },
                 {
@@ -3274,6 +3245,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "801",
                     top: "YISHUN AVE 1",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -3288,6 +3260,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "801",
                     top: "YISHUN",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -3302,6 +3275,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "825",
                     top: "LENTOR LOOP",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -3316,6 +3290,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "825",
                     top: "YIO CHU KANG",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -3390,6 +3365,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "853",
                     top: "LOR 1 GEYLANG",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -3404,6 +3380,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "853",
                     top: "YISHUN",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -3419,6 +3396,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "853M",
                     top: "UPP EAST COAST",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -3433,6 +3411,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "853M",
                     top: "YISHUN",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -3447,6 +3426,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "854",
                     top: "BEDOK",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -3461,6 +3441,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "854",
                     top: "YISHUN",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -3492,6 +3473,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "855",
                     top: "HARBOURFRONT",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -3506,6 +3488,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "855",
                     top: "YISHUN",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -3520,6 +3503,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "856",
                     top: "WOODLANDS",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -3534,6 +3518,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "856",
                     top: "YISHUN",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -3548,6 +3533,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "856A",
                     top: "W'LANDS CTR RD",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -3562,6 +3548,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "856B",
                     top: "CANBERRA RD",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -3576,6 +3563,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "856C",
                     top: "ADM RD WEST",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -3590,6 +3578,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "857",
                     top: "TEMASEK AVE",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -3604,6 +3593,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "857",
                     top: "YISHUN",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -3618,6 +3608,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "857A",
                     top: "YIO CHU KANG RD",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -3632,6 +3623,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "857B",
                     top: "TEMASEK AVE",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -3706,6 +3698,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "858",
                     top: "PTB1 BASEMENT",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -3720,6 +3713,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "858",
                     top: "WOODLANDS",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -3734,6 +3728,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "858A",
                     top: "YISHUN AVE 2",
+                    // topFont: "Mobitec-Tower12New"
                 },
             ]
         }
@@ -3748,6 +3743,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "858B",
                     top: "JALAN KAYU",
+                    // topFont: "Mobitec-Tower12New"
                 },
             ]
         }
@@ -3762,6 +3758,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "859",
                     top: "YISHUN",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -3776,6 +3773,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "859",
                     top: "SEMBAWANG",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -3790,6 +3788,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "859A",
                     top: "SEMBAWANG DR",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -3804,6 +3803,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "859A",
                     top: "SEMBAWANG",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -3818,6 +3818,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "859B",
                     top: "SEMBAWANG DR",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -3832,6 +3833,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "859B",
                     top: "SEMBAWANG",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -3846,6 +3848,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "859T",
                     top: "YISHUN",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -3859,7 +3862,8 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "861",
-                    top: "YISHUN RING RD"
+                    top: "YISHUN RING RD",
+                    topFont: "Mobitec-Tower11New2"
                 }
             ]
         }
@@ -3874,6 +3878,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "861",
                     top: "SEMBAWANG",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -3888,6 +3893,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "861A",
                     top: "YISHUN RING RD"
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -3902,6 +3908,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "861B",
                     top: "CANBERRA LINK",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -3916,6 +3923,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "861M",
                     top: "SEMBAWANG",
+                    topFont: "Mobitec-Tower12New"
                 },
             ]
         }
@@ -3930,6 +3938,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "870",
                     top: "TENGAH",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -3945,6 +3954,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "870",
                     top: "JUR TOWN HALL",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -3959,6 +3969,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "871",
                     top: "UPP BT TIMAH RD",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -3973,6 +3984,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "871",
                     top: "TENGAH",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -3987,6 +3999,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "871A",
                     top: "B.B EAST AVE 2",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -4000,7 +4013,8 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "872",
-                    top: "JUR EAST ST 32",
+                    top: "JUR|EAST|ST|32",
+                    topFont: "Mobitec-Tower11New2"
                 }
             ]
         }
@@ -4015,6 +4029,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "872",
                     top: "TENGAH",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -4029,6 +4044,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "872A",
                     top: "BOON LAY WAY",
+                    // topFont: "Mobitec-Tower11New2"
                 }
             ]
         }
@@ -4043,6 +4059,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "882",
                     top: "SEMBAWANG RD",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -4057,6 +4074,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "882",
                     top: "SEMBAWANG",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -4071,6 +4089,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "882A",
                     top: "MONTREAL LK"
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -4085,6 +4104,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "883",
                     top: "YISHUN CTRL 2",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -4099,6 +4119,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "883",
                     top: "SEMBAWANG",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -4113,6 +4134,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "883B",
                     top: "SEMBAWANG RD",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -4127,6 +4149,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "883M",
                     top: "YISHUN AVE 5",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -4141,6 +4164,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "883M",
                     top: "SEMBAWANG",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -4155,6 +4179,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "941",
                     top: "B.B WEST AVE 9",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -4169,6 +4194,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "941",
                     top: "BUKIT BATOK",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -4183,6 +4209,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "945",
                     top: "BT BATOK ST 34",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -4198,6 +4225,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "945",
                     top: "BUKIT BATOK",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -4212,6 +4240,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "947",
                     top: "BUKIT BATOK RD",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -4226,6 +4255,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "947",
                     top: "BUKIT BATOK",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -4240,6 +4270,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "963",
                     top: "HARBOURFRONT",
+                    topFont: "Mobitec-Tower11New2"
                 }
             ]
         }
@@ -4254,6 +4285,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "963",
                     top: "WOODLANDS",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -4302,6 +4334,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "965",
                     top: "SENGKANG",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -4316,6 +4349,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "965",
                     top: "WOODLANDS",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -4330,6 +4364,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "965A",
                     top: "YISHUN AVE 2",
+                    // topFont: "Mobitec-Tower12New"
                 },
             ]
         }
@@ -4344,6 +4379,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "965T",
                     top: "SENGKANG",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -4358,7 +4394,8 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "966",
-                    top: "MARINE PDE RD",
+                    top: "MARINE|PARADE|RD",
+                    topFont: "Mobitec-Tower11New1"
                 }
             ]
         }
@@ -4373,6 +4410,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "966",
                     top: "WOODLANDS",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -4387,6 +4425,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "966A",
                     top: "MARINE PDE RD",
+                    // topFont: "Mobitec-Tower12New"
                 },
             ]
         }
@@ -4401,6 +4440,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "969",
                     top: "TAMPINES",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -4415,6 +4455,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "969",
                     top: "WOODLANDS",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -4429,6 +4470,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "969A",
                     top: "YISHUN AVE 2",
+                    // topFont: "Mobitec-Tower12New"
                 },
             ]
         }
@@ -4444,6 +4486,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "980",
                     top: "LOR 1 GEYLANG",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -4458,6 +4501,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "980",
                     top: "SEMBAWANG",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -4472,6 +4516,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "981",
                     top: "SENOKO LOOP",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -4486,6 +4531,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "981",
                     top: "SEMBAWANG",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -4500,6 +4546,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "984",
                     top: "WOODLANDS RD",
+                    // topFont: "Mobitec-Tower11New1"
                 }
             ]
         }
@@ -4513,7 +4560,8 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "984",
-                    top: "JUR TOWN HALL",
+                    top: "JURONG|TOWN|HALL",
+                    topFont: "Mobitec-Tower11New1"
                 }
             ]
         }
@@ -4528,6 +4576,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "984A",
                     top: "BRICKLAND RD",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -4542,6 +4591,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "990",
                     top: "JUR GATEWAY RD",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -4556,6 +4606,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "990",
                     top: "BUKIT BATOK",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -4570,6 +4621,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "992",
                     top: "TENGAH",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -4584,24 +4636,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "992",
                     top: "BUKIT BATOK",
-                }
-            ]
-        }
-    },
-    9998: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "",
-            destination: "BUS SAFETY FOR EVERYONE",
-            scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "",
-                    top: " BUS SAFETY              ",
-                    topFont: "Mobitec-7:5:3",
-                    bottom: "    FOR EVERYONE",
-                    bottomFont: "Mobitec-6:5",
-                    image: "DDBusIcon",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
