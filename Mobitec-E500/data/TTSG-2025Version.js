@@ -1,4 +1,4 @@
-EDSFormats.['TTSG-2025Version'] = {
+EDSFormats['TTSG-2025Version'] = {
     standardService: {
         serviceNumber: {
             align: "right",
@@ -510,7 +510,7 @@ EDSFormats.['TTSG-2025Version'] = {
         text: "$text"
 },
 }
-EDSData.['TTSG-2025Version'] = {
+EDSData['TTSG-2025Version'] = {
     0: {
         front: {
                 renderType: "TowerSpecialEDS",
@@ -4604,7 +4604,7 @@ EDSData.['TTSG-2025Version'] = {
 }
 
 
-EDSExtras.['TTSG-2025Version'] = {
+EDSExtras['TTSG-2025Version'] = {
     1: {
         front: {
             renderType: "standardService",
@@ -4751,7 +4751,7 @@ EDSExtras.['TTSG-2025Version'] = {
 }
 
 
-EDSImages.['TTSG-2025Version'] = {
+EDSImages['TTSG-2025Version'] = {
     blank: [
            []
            ],
