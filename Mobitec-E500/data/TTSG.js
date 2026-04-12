@@ -1986,7 +1986,7 @@ EDSData.TTSG = {
                     top: "SHUTTLE 36",
                     topFont: "Mobitec-9:6",
                     bottom: "Bishan - HarbourFront",
-                    bottomFont: "Hanover-6:3",
+                    bottomFont: "Mobitec-7:4",
                 },
             ]
         }
@@ -3473,7 +3473,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "855",
                     top: "HARBOURFRONT",
-                    topFont: "Mobitec-Tower12New"
+                    topFont: "Mobitec-Tower11New2"
                 }
             ]
         }
