@@ -757,8 +757,8 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "49",
-                    top: "JUR WEST ST 42",
-                    // topFont: "Mobitec-Tower12New"
+                    top: "JURONG|WEST|ST|42 ",
+                    topFont: "Mobitec-Tower11New1"
                 },
             ]
         }
@@ -3953,8 +3953,8 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "870",
-                    top: "JUR TOWN HALL",
-                    // topFont: "Mobitec-Tower12New"
+                    top: "JURONG|TOWN|HALL",
+                    topFont: "Mobitec-Tower11New1"
                 }
             ]
         }
@@ -4546,7 +4546,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "984",
                     top: "WOODLANDS RD",
-                    // topFont: "Mobitec-Tower11New1"
+                    topFont: "Mobitec-Tower11New1"
                 }
             ]
         }

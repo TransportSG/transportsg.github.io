@@ -22507,6 +22507,88 @@ EDSData.SBST = {
             }
         }
     },
+    4000: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "SWA",
+                destination: "SENGKANG",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2",
+                    top: "SW SHUTTLE A",
+                    topFont: "LECIP-10",
+                    bottom: "FERNVALE - SENGKANG",
+                    bottomFont: "LECIP-7:5",
+                                
+                    serviceNumber: "SW A",
+                    serviceFont: "LECIP-20:12",
+                    serviceSpacing: "1",
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "S37A",
+                destination: "PAYA LEBAR (2026)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2",
+                    top: "SW.A",
+                    topFont: "LECIP-20:9",
+                                
+                    serviceNumber: "",
+                    serviceFont: "LECIP-20:9",
+                    serviceSpacing: "1",
+                },
+                ],
+                scrollFont: "LECIP-6:4",
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "SWB",
+                destination: "THANGGAM",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2",
+                    top: "SW SHUTTLE A",
+                    topFont: "LECIP-10",
+                    bottom: "SENGKANG - THANGGAM",
+                    bottomFont: "LECIP-7:5",
+                                
+                    serviceNumber: "SW B",
+                    serviceFont: "LECIP-20:12",
+                    serviceSpacing: "1",
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "S37A",
+                destination: "PAYA LEBAR (2026)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2",
+                    top: "SW.B",
+                    topFont: "LECIP-20:9",
+                                
+                    serviceNumber: "",
+                    serviceFont: "LECIP-20:9",
+                    serviceSpacing: "1",
+                },
+                ],
+                scrollFont: "LECIP-6:4",
+            }
+        }
+    },
     4071: {
         1: {
             front: {
