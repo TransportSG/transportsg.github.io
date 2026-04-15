@@ -1986,7 +1986,7 @@ EDSData.TTSG = {
                     top: "SHUTTLE 36",
                     topFont: "Mobitec-9:6",
                     bottom: "Bishan - HarbourFront",
-                    bottomFont: "Mobitec-7:4",
+                    bottomFont: "Mobitec-Tower6:4",
                 },
             ]
         }
@@ -2003,7 +2003,7 @@ EDSData.TTSG = {
                     top: "SHUTTLE 36",
                     topFont: "Mobitec-9:6",
                     bottom: "HarbourFront - Bishan",
-                    bottomFont: "Hanover-6:3",
+                    bottomFont: "Mobitec-Tower6:4",
                 },
             ]
         }
@@ -2017,10 +2017,10 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "S37A",
-                    top: "",
-                    topFont: "Mobitec-7:4",
-                    bottom: "",
-                    bottomFont: "Mobitec-7:5:1",
+                    top: "SHUTTLE 37A",
+                    topFont: "Mobitec-9:6",
+                    bottom: "Serangoon - Paya Lebar",
+                    bottomFont: "Hanover-6:3",
                 },
             ]
         }
@@ -2034,10 +2034,10 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "S37B",
-                    top: "",
-                    topFont: "Mobitec-7:4",
-                    bottom: "",
-                    bottomFont: "Mobitec-7:5:1",
+                    top: "SHUTTLE 37B",
+                    topFont: "Mobitec-9:6",
+                    bottom: "Tai Seng - Bishan",
+                    bottomFont: "Mobitec-Tower6:4",
                 },
             ]
         }
@@ -2051,10 +2051,10 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "S37C",
-                    top: "",
-                    topFont: "Mobitec-7:4",
-                    bottom: "",
-                    bottomFont: "Mobitec-7:5:1",
+                    top: "SHUTTLE 37C",
+                    topFont: "Mobitec-9:6",
+                    bottom: "Tai Seng - Serangoon",
+                    bottomFont: "Mobitec-Tower6:4",
                 },
             ]
         }
