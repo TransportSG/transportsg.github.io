@@ -22460,7 +22460,7 @@ EDSData.SBST = {
         1: {
             front: {
                 renderType: "logo",
-                text: "SBS Transit",
+                text: "SBS Transit Logo",
                 image: "SBST-logo"
             },
             rear: {
@@ -22512,7 +22512,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "SWA",
-                destination: "SENGKANG",
+                destination: "SKLRT WEST A",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -22552,7 +22552,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "SWB",
-                destination: "THANGGAM",
+                destination: "SKLRT WEST B",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -22917,6 +22917,142 @@ EDSData.SBST = {
             }
         }
     },
+    4381: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S38",
+                destination: "STADIUM",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2",
+                    top: "SHUTTLE 38",
+                    topFont: "LECIP-10",
+                    bottom: "PAYA LEBAR - STADIUM",
+                    bottomFont: "LECIP-7:5",
+                                
+                    serviceNumber: "S38",
+                    serviceFont: "LECIP-20:12",
+                    serviceSpacing: "1",
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "S38",
+                destination: "STADIUM (2026)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2",
+                    top: "S38",
+                    topFont: "LECIP-20:9",
+                                
+                    serviceNumber: "",
+                    serviceFont: "LECIP-20:9",
+                    serviceSpacing: "1",
+                },
+                ],
+                scrollFont: "LECIP-6:4",
+            }
+        },
+        2: {
+            front: {
+                renderType: "message",
+                text: "SHUTTLE 38",
+                font: "LECIP-20:12",
+                spacing: 2
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "S38",
+                destination: "STADIUM (2026)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2",
+                    top: "S38",
+                    topFont: "LECIP-20:9",
+                                
+                    serviceNumber: "",
+                    serviceFont: "LECIP-20:9",
+                    serviceSpacing: "1",
+                },
+                ],
+                scrollFont: "LECIP-6:4",
+            }
+        }
+    },
+    4382: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S38",
+                destination: "PAYA LEBAR (2026)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2",
+                    top: "SHUTTLE 38",
+                    topFont: "LECIP-10",
+                    bottom: "STADIUM - PAYA LEBAR",
+                    bottomFont: "LECIP-7:5",
+                                
+                    serviceNumber: "S38",
+                    serviceFont: "LECIP-20:12",
+                    serviceSpacing: "1",
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "S38",
+                destination: "PAYA LEBAR (2026)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2",
+                    top: "S38",
+                    topFont: "LECIP-20:9",
+                                
+                    serviceNumber: "",
+                    serviceFont: "LECIP-20:9",
+                    serviceSpacing: "1",
+                },
+                ],
+                scrollFont: "LECIP-6:4",
+            }
+        },
+        2: {
+            front: {
+                renderType: "message",
+                text: "SHUTTLE 38",
+                font: "LECIP-20:12",
+                spacing: 2
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "S38",
+                destination: "STADIUM (2026)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2",
+                    top: "S38",
+                    topFont: "LECIP-20:9",
+                                
+                    serviceNumber: "",
+                    serviceFont: "LECIP-20:9",
+                    serviceSpacing: "1",
+                },
+                ],
+                scrollFont: "LECIP-6:4",
+            }
+        }
+    },
     2223: {
         1: {
             front: {
@@ -23277,40 +23413,6 @@ EDSData.SBST = {
 
                 bottom: "BUS",
                 bottomFont: "LECIP-7:4"
-            }
-        }
-    },
-    9001: {
-        1: {
-            front: {
-                renderType: "message",
-                text: "ELECTRIC BUS",
-                font: "LECIP-20:12",
-                spacing: 2
-            },
-            rear: {
-                renderType: 'twoline',
-                top: "ELECTRIC",
-                topFont: "LECIP-6:3",
-
-                bottom: "BUS",
-                bottomFont: "LECIP-6:3"
-            }
-        },
-        2: {
-            front: {
-                renderType: "message",
-                text: "HYBRID BUS",
-                font: "LECIP-20:12",
-                spacing: 2
-            },
-            rear: {
-                renderType: 'twoline',
-                top: "HYBRID",
-                topFont: "LECIP-7:5",
-
-                bottom: "BUS",
-                bottomFont: "LECIP-7:5"
             }
         }
     },

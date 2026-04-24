@@ -4348,8 +4348,8 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "965",
-                    top: "WOODLANDS",
-                    topFont: "Mobitec-Tower12New"
+                    top: "W'LANDS TEMP INT",
+                    // topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -4379,6 +4379,21 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "965T",
                     top: "SENGKANG",
+                    topFont: "Mobitec-Tower12New"
+                }
+            ]
+        }
+    },
+    9659: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "965",
+            destination: "BUANGKOK",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "965",
+                    top: "BUANGKOK",
                     topFont: "Mobitec-Tower12New"
                 }
             ]
