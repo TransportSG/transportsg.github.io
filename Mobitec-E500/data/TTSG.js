@@ -743,7 +743,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "41",
                     top: "JURONG EAST",
-                    // topFont: "Mobitec-Tower12New"
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -773,7 +773,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "49",
                     top: "JURONG EAST",
-                    // topFont: "Mobitec-Tower12New"
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -815,7 +815,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "66",
                     top: "JURONG EAST",
-                    // topFont: "Mobitec-Tower12New"
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -995,7 +995,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "96",
                     top: "CLEMENTI",
-                    // topFont: "Mobitec-Tower12New"
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1180,7 +1180,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "98",
                     top: "JURONG EAST",
-                    // topFont: "Mobitec-Tower12New"
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1240,7 +1240,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "98M",
                     top: "JURONG EAST",
-                    // topFont: "Mobitec-Tower12New"
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1377,7 +1377,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "143",
                     top: "JURONG EAST",
-                    // topFont: "Mobitec-Tower12New"
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1617,7 +1617,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "173",
                     top: "CLEMENTI",
-                    // topFont: "Mobitec-Tower12New"
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1707,7 +1707,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "183",
                     top: "JURONG EAST",
-                    // topFont: "Mobitec-Tower12New"
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1813,7 +1813,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "282",
                     top: "CLEMENTI",
-                    // topFont: "Mobitec-Tower12New"
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1843,7 +1843,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "284",
                     top: "CLEMENTI",
-                    // topFont: "Mobitec-Tower12New"
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1873,7 +1873,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "285",
                     top: "CLEMENTI",
-                    // topFont: "Mobitec-Tower12New"
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1903,7 +1903,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "333",
                     top: "JURONG EAST",
-                    // topFont: "Mobitec-Tower12New"
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1939,7 +1939,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "334",
                     top: "JURONG EAST",
-                    // topFont: "Mobitec-Tower12New"
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1969,7 +1969,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "335",
                     top: "JURONG EAST",
-                    // topFont: "Mobitec-Tower12New"
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -2082,10 +2082,10 @@ EDSData.TTSG = {
             destination: "JALAN ANAK BUKIT",
             scrolls: [
                 {
-                    renderType: "destScroll3",
+                    renderType: "destScroll",
                     serviceNumber: "452",
-                    top: "BEAUTY WORLD MRT",
-                    topFont: "Mobitec-9:6"
+                    top: "BEAUTY|WORLD|MRT",
+                    topFont: "Mobitec-Tower11New1"
                 }
             ]
         }
@@ -3968,8 +3968,8 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "871",
-                    top: "UPP BT TIMAH RD",
-                    // topFont: "Mobitec-Tower12New"
+                    top: "BEAUTY|WORLD|MRT",
+                    topFont: "Mobitec-Tower11New1"
                 }
             ]
         }

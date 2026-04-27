@@ -8784,6 +8784,56 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "107M",
+                destination: "MARINA CENTRE TER",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "MARINA CTR TER  ",
+                    topFont: "LECIP-10",
+            
+                    serviceNumber: "107M"
+                },
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "107M",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "107M",
+                destination: "HOUGANG CTRL INT",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "HOUGANG CTRL INT  ",
+                    topFont: "LECIP-20:6",
+            
+                    serviceNumber: "107M"
+                },
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "107M",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
+    "107Z": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "107M",
                 destination: "HOUGANG INT-MARINA CTR",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
