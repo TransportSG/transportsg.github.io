@@ -1195,7 +1195,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "98A",
                     top: "CORPORATION RD",
-                    // topFont: "Mobitec-Tower12New"
+                    topFont: "Mobitec-Tower11New1"
                 }
             ]
         }
@@ -1225,7 +1225,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "98M",
                     top: "CORPORATION RD",
-                    // topFont: "Mobitec-Tower12New"
+                    topFont: "Mobitec-Tower11New1"
                 }
             ]
         }
@@ -3167,9 +3167,9 @@ EDSData.TTSG = {
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: " ",
-                    top: " ",
-                    topFont: "Mobitec-Tower12New"
+                    serviceNumber: "",
+                    top: "",
+                    topFont: "Mobitec-Tower11New1"
                 }
             ]
         }
@@ -4364,8 +4364,8 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "965",
-                    top: "W'LANDS TEMP INT",
-                    // topFont: "Mobitec-Tower12New"
+                    top: "W'LANDS|TEMP|INT",
+                    topFont: "Mobitec-Tower11New1"
                 }
             ]
         }
