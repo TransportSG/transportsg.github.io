@@ -794,13 +794,13 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "66",
-            destination: "UPP BT TIMAH RD",
+            destination: "BEAUTY WORLD MRT",
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "66",
-                    top: "UPP BT TIMAH RD",
-                    // topFont: "Mobitec-Tower12New"
+                    top: "BEAUTY|WORLD|MRT",
+                    topFont: "Mobitec-Tower11New1"
                 }
             ]
         }
@@ -890,7 +890,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "78",
                     top: "CLEMENTI AVE 3",
-                    // topFont: "Mobitec-Tower12New"
+                    topFont: "Mobitec-Tower11New2"
                 }
             ]
         }
@@ -920,8 +920,8 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "78A",
                     top: "TANJONG PENJURU",
-                    // topFont: "Mobitec-Tower12New"
-                },
+                    topFont: "Mobitec-Tower11New1"
+                }
             ]
         }
     },
@@ -1406,8 +1406,8 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "143M",
-                    top: "PANDAN GARDENS",
-                    // topFont: "Mobitec-Tower12New"
+                    top: "PANDAN|GARDENS",
+                    topFont: "Mobitec-Tower11New1"
                 }
             ]
         }
@@ -1422,7 +1422,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "143M",
                     top: "JURONG EAST",
-                    // topFont: "Mobitec-Tower12New"
+                    topFont: "Mobitec-Tower11New2"
                 }
             ]
         }
@@ -1888,7 +1888,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "333",
                     top: "JUR EAST ST 32",
-                    // topFont: "Mobitec-Tower12New"
+                    topFont: "Mobitec-Tower11New2"
                 }
             ]
         }
@@ -1924,7 +1924,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "334",
                     top: "JUR WEST ST 42",
-                    // topFont: "Mobitec-Tower12New"
+                    topFont: "Mobitec-Tower11New2"
                 }
             ]
         }
@@ -3168,7 +3168,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "",
-                    top: "",
+                    top: " ",
                     topFont: "Mobitec-Tower11New1"
                 }
             ]
@@ -3979,7 +3979,7 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "871",
-            destination: "UPP BT TIMAH RD",
+            destination: "BEAUTY WORLD MRT",
             scrolls: [
                 {
                     renderType: "destScroll",
