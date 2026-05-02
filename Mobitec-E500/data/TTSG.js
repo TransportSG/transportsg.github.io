@@ -3168,7 +3168,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "",
-                    top: " ",
+                    top: "",
                     topFont: "Mobitec-Tower11New1"
                 }
             ]
@@ -3804,7 +3804,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "859A",
                     top: "SEMBAWANG DR",
-                    // topFont: "Mobitec-Tower12New"
+                    topFont: "Mobitec-Tower11New1"
                 }
             ]
         }
@@ -3832,9 +3832,9 @@ EDSData.TTSG = {
             scrolls: [ 
                 {
                     renderType: "destScroll",
-                    serviceNumber: "859B",
+                    serviceNumber: "859A",
                     top: "SEMBAWANG DR",
-                    // topFont: "Mobitec-Tower12New"
+                    topFont: "Mobitec-Tower11New1"
                 }
             ]
         }
@@ -3908,8 +3908,8 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "861A",
-                    top: "YISHUN RING RD"
-                    // topFont: "Mobitec-Tower12New"
+                    top: "YISHUN|RING|RD",
+                    topFont: "Mobitec-Tower11New2"
                 }
             ]
         }
