@@ -698,8 +698,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "2",
-                destination: "KAMPONG BAHRU",
-                destinationFont: "Hanover-10",
+                destination: "Kampong Bahru",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScroll",
@@ -728,8 +728,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "2",
-                destination: "CHANGI VILLAGE",
-                destinationFont: "Hanover-10",
+                destination: "Changi Village",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScroll",
@@ -760,8 +760,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "2B",
-                destination: "BEDOK MRT",
-                destinationFont: "Hanover-10",
+                destination: "Bedok MRT",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScrollWithImage",
@@ -787,8 +787,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "3",
-                destination: "TAMPINES",
-                destinationFont: "Hanover-10",
+                destination: "Tampines",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScroll",
@@ -817,8 +817,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "3",
-                destination: "PUNGGOL",
-                destinationFont: "Hanover-10",
+                destination: "Punggol",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScroll",
@@ -849,8 +849,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "3A",
-                destination: "PASIR RIS DR 12",
-                destinationFont: "Hanover-10",
+                destination: "Pasir Ris Drive 12",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScrollWithImage",
@@ -884,8 +884,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "6",
-                destination: "PASIR RIS",
-                destinationFont: "Hanover-10",
+                destination: "Pasir Ris",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScroll",
@@ -916,8 +916,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "12",
-                destination: "KAMPONG BAHRU",
-                destinationFont: "Hanover-10",
+                destination: "Kampong Bahru",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScroll",
@@ -946,8 +946,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "12",
-                destination: "PASIR RIS",
-                destinationFont: "Hanover-10",
+                destination: "Pasir Ris",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScroll",
@@ -979,7 +979,7 @@ EDSData.GASG = {
                 renderType: "standardService",
                 serviceNumber: "12e",
                 destination: "KAMPONG BAHRU",
-                destinationFont: "Hanover-10",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScrollWithImage2",
@@ -1004,8 +1004,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "12e",
-                destination: "PASIR RIS",
-                destinationFont: "Hanover-10",
+                destination: "Pasir Ris",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScrollWithImage2",
@@ -1030,8 +1030,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "15",
-                destination: "MARINE PARADE",
-                destinationFont: "Hanover-10",
+                destination: "Marine Parade",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScroll",
@@ -1060,8 +1060,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "15",
-                destination: "PASIR RIS",
-                destinationFont: "Hanover-10",
+                destination: "Pasir Ris",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScroll",
@@ -1092,8 +1092,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "15A",
-                destination: "JALAN EUNOS",
-                destinationFont: "Hanover-10",
+                destination: "Jln Eunos (Eunos MRT)",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScrollWithImage",
@@ -1119,8 +1119,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "17",
-                destination: "BEDOK",
-                destinationFont: "Hanover-10",
+                destination: "Bedok",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScroll",
@@ -1149,8 +1149,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "17",
-                destination: "PASIR RIS",
-                destinationFont: "Hanover-10",
+                destination: "Pasir Ris",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScroll",
@@ -1181,8 +1181,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "17A",
-                destination: "BEDOK NORTH AVE 4",
-                destinationFont: "Hanover-10",
+                destination: "Bedok North Ave 4",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScrollWithImage",
@@ -1216,8 +1216,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "34",
-                destination: "CHANGI AIRPORT",
-                destinationFont: "Hanover-10",
+                destination: "Changi Airport",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [  
                 {
                     renderType: "destScrollWithImage",
@@ -1245,8 +1245,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "34",
-                destination: "PUNGGOL COAST",
-                destinationFont: "Hanover-10",
+                destination: "Punggol Coast",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScroll",
@@ -1277,8 +1277,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "34A",
-                destination: "TAMPINES AVE 5",
-                destinationFont: "Hanover-10",
+                destination: "Tampines Ave 5",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScrollWithImage",
@@ -1312,8 +1312,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "34B",
-                destination: "TAMPINES AVE 10",
-                destinationFont: "Hanover-10",
+                destination: "Tampines Ave 10",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScrollWithImage",
@@ -1347,8 +1347,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "36",
-                destination: "TOMLINSON RD",
-                destinationFont: "Hanover-10",
+                destination: "Tomlinson Road",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScroll",
@@ -1377,8 +1377,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "36",
-                destination: "CHANGI AIRPORT",
-                destinationFont: "Hanover-10",
+                destination: "Changi Airport",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScrollWithImage",
@@ -1409,8 +1409,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "36A",
-                destination: "TOMLINSON RD",
-                destinationFont: "Hanover-10",
+                destination: "Tomlinson Road",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScrollWithImage",
@@ -1444,8 +1444,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "36B",
-                destination: "SIGLAP RD",
-                destinationFont: "Hanover-10",
+                destination: "Siglap Road",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScrollWithImage",
@@ -1479,8 +1479,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "36T",
-                destination: "TERMINATES AT CHANGI AIRPORT",
-                destinationFont: "Hanover-10",
+                destination: "Ends at Changi Airport",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScrollWithImage",
@@ -1505,8 +1505,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "36T",
-                destination: "TERMINATES AT CHANGI AIRPORT",
-                destinationFont: "Hanover-10",
+                destination: "Ends at Changi Airport",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScrollWithImage",
@@ -1532,8 +1532,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "43",
-                destination: "UPP EAST COAST",
-                destinationFont: "Hanover-10",
+                destination: "Upper East Coast",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScroll2",
@@ -1562,8 +1562,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "43",
-                destination: "PUNGGOL",
-                destinationFont: "Hanover-10",
+                destination: "Punggol",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScroll",
@@ -1594,8 +1594,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "43A",
-                destination: "SERANGOON STN",
-                destinationFont: "Hanover-10",
+                destination: "Serangoon MRT",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScroll",
@@ -1621,8 +1621,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "43e",
-                destination: "MARINE PARADE",
-                destinationFont: "Hanover-10",
+                destination: "Marine Parade",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [{
                     renderType: "destScrollWithImage2",
                     serviceNumber: "43e",
@@ -1654,8 +1654,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "43e",
-                destination: "PUNGGOL",
-                destinationFont: "Hanover-10",
+                destination: "Punggol",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [{
                     renderType: "destScrollWithImage",
                     serviceNumber: "43e",
@@ -1679,9 +1679,10 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "43M",
-                destination: "SERANGOON MRT",
-                destinationFont: "Hanover-10",
-                scrolls: [{
+                destination: "Serangoon MRT",
+                destinationFont: "Mobitec-7:4",
+                scrolls: [
+                {
                     renderType: "destScroll",
                     top: "Serangoon MRT",
                     topFont: "Hanover-GoAhead14:7",
@@ -1702,9 +1703,10 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "43M",
-                destination: "PUNGGOL",
-                destinationFont: "Hanover-10",
-                scrolls: [{
+                destination: "Punggol",
+                destinationFont: "Mobitec-7:4",
+                scrolls: [
+                {
                     renderType: "destScroll",
                     top: "Punggol",
                     topFont: "Lecip-GoAhead16:10",
@@ -1727,8 +1729,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "44",
-                destination: "AIRPORT BLVD",
-                destinationFont: "Hanover-10",
+                destination: "Airport Boulevard",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [  
                 {
                     renderType: "destScrollWithImage",
@@ -1756,8 +1758,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "44",
-                destination: "PUNGGOL COAST",
-                destinationFont: "Hanover-10",
+                destination: "Punggol Coast",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScroll",
@@ -1788,8 +1790,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "62",
-                destination: "SIMS AVE",
-                destinationFont: "Hanover-10",
+                destination: "Sims Ave",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScroll",
@@ -1818,8 +1820,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "62",
-                destination: "PUNGGOL",
-                destinationFont: "Hanover-10",
+                destination: "Punggol",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScroll",
@@ -1850,8 +1852,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "62A",
-                destination: "ALJUNIED MRT",
-                destinationFont: "Hanover-10",
+                destination: "Aljunied MRT",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScrollWithImage",
@@ -1877,8 +1879,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "68",
-                destination: "TAMPINES",
-                destinationFont: "Hanover-10",
+                destination: "Tampines",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScroll",
@@ -1907,8 +1909,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "68",
-                destination: "PASIR RIS",
-                destinationFont: "Hanover-10",
+                destination: "Pasir Ris",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScroll",
@@ -1939,8 +1941,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "68A",
-                destination: "TAMPINES INT",
-                destinationFont: "Hanover-10",
+                destination: "Tampines Int",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScrollWithImage",
@@ -1966,8 +1968,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "68B",
-                destination: "TAMPINES AVE 11",
-                destinationFont: "Hanover-10",
+                destination: "Tampines Ave 11",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScrollWithImage",
@@ -2001,8 +2003,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "82",
-                destination: "SERANGOON MRT",
-                destinationFont: "Hanover-10",
+                destination: "Serangoon MRT",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScroll",
@@ -2031,8 +2033,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "82",
-                destination: "PUNGGOL",
-                destinationFont: "Hanover-10",
+                destination: "Punggol",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScroll",
@@ -2063,8 +2065,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "83",
-                destination: "SENGKANG",
-                destinationFont: "Hanover-10",
+                destination: "Sengkang",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScroll",
@@ -2093,8 +2095,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "83",
-                destination: "PUNGGOL",
-                destinationFont: "Hanover-10",
+                destination: "Punggol",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScroll",
@@ -2125,8 +2127,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "83T",
-                destination: "SENGKANG INT",
-                destinationFont: "Hanover-10",
+                destination: "Ends at Sengkang Int",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScrollWithImage",
@@ -2152,7 +2154,7 @@ EDSData.GASG = {
             front: {
                     renderType: "standardService",
                     serviceNumber: "84G",
-                    destination: "PUNGGOL via Sentul",
+                    destination: "Punggol via Sentul",
                     destinationFont: "Mobitec-7:5:2",
                     scrolls: [
                     {
@@ -2185,7 +2187,7 @@ EDSData.GASG = {
             front: {
                     renderType: "standardService",
                     serviceNumber: "84W",
-                    destination: "PUNGGOL via SIT",
+                    destination: "Punggol via SIT Punggol",
                     destinationFont: "Mobitec-7:5:2",
                     scrolls: [
                     {
@@ -2218,8 +2220,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "85",
-                destination: "YISHUN",
-                destinationFont: "Hanover-10",
+                destination: "Yishun",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScroll",
@@ -2248,8 +2250,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "85",
-                destination: "PUNGGOL",
-                destinationFont: "Hanover-10",
+                destination: "Punggol",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScroll",
@@ -2280,8 +2282,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "85A",
-                destination: "SENGKANG EAST RD",
-                destinationFont: "Hanover-10",
+                destination: "Sengkang East Rd",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScrollWithImage",
@@ -2315,8 +2317,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "104",
-                destination: "WOODLEIGH",
-                destinationFont: "Hanover-10",
+                destination: "Woodleigh",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScroll",
@@ -2345,8 +2347,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "104",
-                destination: "PUNGGOL COAST",
-                destinationFont: "Hanover-10",
+                destination: "Punggol Coast",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScroll2",
@@ -2377,8 +2379,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "118",
-                destination: "CHANGI BUSINESS PARK",
-                destinationFont: "Lecip-GoAhead10:6",
+                destination: "Changi Business Park",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScroll",
@@ -2407,8 +2409,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "118",
-                destination: "PUNGGOL",
-                destinationFont: "Hanover-10",
+                destination: "Punggol",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScroll",
@@ -2439,8 +2441,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "118A",
-                destination: "SIMEI AVE",
-                destinationFont: "Hanover-10",
+                destination: "Simei Ave",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScrollWithImage",
@@ -2474,8 +2476,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "118B",
-                destination: "TPE (BEF PUNGGOL RD)",
-                destinationFont: "LECIP-7:5",
+                destination: "TPE (Bef Punggol Rd)",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScrollWithImage2",
@@ -2501,8 +2503,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "119",
-                destination: "KOVAN",
-                destinationFont: "Hanover-10",
+                destination: "Kovan",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScroll",
@@ -2531,8 +2533,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "119",
-                destination: "PUNGGOL",
-                destinationFont: "Hanover-10",
+                destination: "Punggol",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScroll",
@@ -2563,8 +2565,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "136",
-                destination: "ANG MO KIO",
-                destinationFont: "Hanover-10",
+                destination: "Ang Mo Kio",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScroll",
@@ -2602,8 +2604,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "136",
-                destination: "PUNGGOL",
-                destinationFont: "Hanover-10",
+                destination: "Punggol",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScroll",
@@ -2643,8 +2645,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "354",
-                destination: "PASIR RIS INT",
-                destinationFont: "Hanover-10",
+                destination: "Pasir Ris",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScroll",
@@ -2675,8 +2677,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "358",
-                destination: "PASIR RIS INT",
-                destinationFont: "Hanover-10",
+                destination: "Pasir Ris",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScroll",
@@ -2707,8 +2709,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "358T",
-                destination: "PASIR RIS INT",
-                destinationFont: "Hanover-10",
+                destination: "Pasir Ris Int (End)",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScrollWithImage",
@@ -2734,8 +2736,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "359",
-                destination: "PASIR RIS INT",
-                destinationFont: "Hanover-10",
+                destination: "Pasir Ris",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScroll",
@@ -2766,8 +2768,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "359T",
-                destination: "PASIR RIS INT",
-                destinationFont: "Hanover-10",
+                destination: "Pasir Ris Int (End)",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScrollWithImage",
@@ -2793,8 +2795,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "381",
-                destination: "PUNGGOL INT",
-                destinationFont: "Hanover-10",
+                destination: "Punggol",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScroll",
@@ -2825,8 +2827,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "382G",
-                destination: "PUNGGOL INT",
-                destinationFont: "Hanover-10",
+                destination: "Punggol via Sumang Lane",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScroll",
@@ -2858,8 +2860,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "382W",
-                destination: "PUNGGOL INT",
-                destinationFont: "Hanover-10",
+                destination: "Punggol via Sentul Cres",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScroll",
@@ -2891,7 +2893,7 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "382A",
-                destination: "SUMANG LANE",
+                destination: "Sumang Lane",
                 destinationFont: "Lecip-GoAhead8:6:2",
                 scrolls: [
                 {
@@ -2926,8 +2928,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "384",
-                destination: "PUNGGOL INT",
-                destinationFont: "Hanover-10",
+                destination: "Punggol",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScroll",
@@ -2958,8 +2960,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "386",
-                destination: "PUNGGOL INT",
-                destinationFont: "Hanover-10",
+                destination: "Punggol",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScroll",
@@ -2990,7 +2992,7 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "386A",
-                destination: "EDGEDALE PLAINS",
+                destination: "Edgedale Plains",
                 destinationFont: "Lecip-GoAhead8:6:2",
                 scrolls: [
                 {
@@ -3025,8 +3027,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "403",
-                destination: "PASIR RIS INT",
-                destinationFont: "Hanover-10",
+                destination: "Pasir Ris",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScroll",
@@ -3057,8 +3059,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "459",
-                destination: "TAI SENG",
-                destinationFont: "Hanover-10",
+                destination: "Tai Seng MRT",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScroll",
@@ -3087,12 +3089,12 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "459",
-                destination: "PUNGGOL",
-                destinationFont: "Hanover-10",
+                destination: "Punggol MRT",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScroll",
-                    top: "Punggol",
+                    top: "Punggol MRT",
                     topFont: "Lecip-GoAhead16:10",
         
                     serviceNumber: "459"
@@ -3119,8 +3121,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "518",
-                destination: "BAYFRONT",
-                destinationFont: "Hanover-10",
+                destination: "Bayfront",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScrollWithImage",
@@ -3143,8 +3145,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "518",
-                destination: "PASIR RIS",
-                destinationFont: "Hanover-10",
+                destination: "Pasir Ris",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScrollWithImage",
@@ -3169,8 +3171,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "518A",
-                destination: "BAYFRONT",
-                destinationFont: "Hanover-10",
+                destination: "Bayfront",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScrollWithImage",
@@ -3206,8 +3208,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "661",
-                destination: "MARINA BOULEVARD",
-                destinationFont: "Hanover-10",
+                destination: "Marina Boulevard",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScrollWithImage2",
@@ -3232,8 +3234,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "661",
-                destination: "PASIR RIS DRIVE 3",
-                destinationFont: "Hanover-10",
+                destination: "Pasir Ris Drive 3",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScrollWithImage2",
@@ -3258,8 +3260,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "666",
-                destination: "TEMASEK BLVD",
-                destinationFont: "Hanover-10",
+                destination: "Temasek Boulevard",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScrollWithImage2",
@@ -3284,8 +3286,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "666",
-                destination: "DAMAI LRT",
-                destinationFont: "Hanover-10",
+                destination: "Damai LRT",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScrollWithImage2", // Placeholder - TBC
@@ -3312,8 +3314,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "673",
-                destination: "TEMASEK BLVD",
-                destinationFont: "Hanover-10",
+                destination: "Temasek Boulevard",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScrollWithImage2",
@@ -3338,8 +3340,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "673",
-                destination: "PUNGGOL POINT",
-                destinationFont: "Hanover-10",
+                destination: "Punggol Point",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScrollWithImage2",
@@ -3366,8 +3368,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "678",
-                destination: "TEMASEK BLVD",
-                destinationFont: "Hanover-10",
+                destination: "Temasek Boulevard",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScrollWithImage2",
@@ -3392,8 +3394,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "678",
-                destination: "PUNGGOL CENTRAL",
-                destinationFont: "Hanover-10",
+                destination: "Punggol Central",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScrollWithImage2",
@@ -3420,8 +3422,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "683",
-                destination: "MOULMEIN ROAD",
-                destinationFont: "Hanover-10",
+                destination: "Moulmein Road",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScrollWithImage2",
@@ -3446,8 +3448,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "683",
-                destination: "PUNGGOL CENTRAL",
-                destinationFont: "Hanover-10",
+                destination: "Punggol Central",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScrollWithImage2", // Placeholder - TBC
@@ -3494,14 +3496,14 @@ EDSData.GASG = {
                 destination: "~",
                 destinationFont: "Lecip-GoAhead20:12",
                 scrolls: [
-                {
+            {
                 renderType: "message2",
                 serviceNumber: "",
                 top: "Not in",
                 topFont: "Lecip-GoAhead7:4:2",
                 bottom: "Service",
                 bottomFont: "Lecip-GoAhead7:4:2",
-                },
+            },
                     ""
                 ],
                 scrollFont: "LECIP-7:5"
@@ -3633,7 +3635,7 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "S8",
-                destination: "TANAH MERAH (2026)",
+                destination: "Tanah Merah (2026)",
                 destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
@@ -3660,7 +3662,7 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "S8",
-                destination: "EXPO (2026)",
+                destination: "Expo (2026)",
                 destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
@@ -3705,8 +3707,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "S37",
-                destination: "PROMENADE",
-                destinationFont: "Lecip-GoAhead8:6:2",
+                destination: "Bishan > Promenade",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScrollWithImage2",
@@ -3732,8 +3734,8 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "S37",
-                destination: "BISHAN",
-                destinationFont: "Lecip-GoAhead8:6:2",
+                destination: "Promenade > Bishan",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
                     renderType: "destScrollWithImage2",
@@ -3759,9 +3761,10 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "TRAINING BUS",
-                destinationFont: "Hanover-10",
-                scrolls: [{
+                destination: "Driver Under Instruction",
+                destinationFont: "Mobitec-7:4",
+                scrolls: [
+                {
                     renderType: "message2",
                     serviceNumber: "#",
                     top: "Driver Under",
@@ -3769,14 +3772,14 @@ EDSData.GASG = {
                     bottom: "Instruction",
                     bottomFont: "Lecip-GoAhead8:6:3",
                     image: "L-Plate"
-                    },
-                    {
+                },
+                {
                     renderType: "message2",
                     serviceNumber: "#",
                     top: "Training Bus",
                     topFont: "Lecip-GoAhead14:9:1",
                     image: "L-Plate"
-                    },
+                },
                 ],
                 scrollFont: "Hanover-7:5"
             },
@@ -3784,7 +3787,7 @@ EDSData.GASG = {
                 renderType: "standardService",
                 serviceNumber: "",
                 destination: "TRAINING BUS",
-                destinationFont: "Hanover-10",
+                destinationFont: "Mobitec-7:4",
                 scrolls: [{
                     renderType: "message2",
                     serviceNumber: "",
@@ -3820,15 +3823,16 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "ROUTE TRAINING",
-                destinationFont: "Hanover-10",
-                scrolls: [{
+                destination: "Route Training",
+                destinationFont: "Mobitec-7:4",
+                scrolls: [
+                {
                     renderType: "message2",
                     serviceNumber: "`",
                     top: "Route Training",
                     topFont: "Lecip-GoAhead12:9",
                     image: "GoAheadLionHead"
-                    },
+                },
                 ],
                 scrollFont: "Hanover-7:5"
             },
@@ -3836,8 +3840,9 @@ EDSData.GASG = {
                 renderType: "standardService",
                 serviceNumber: "",
                 destination: "TRAINING BUS",
-                destinationFont: "Hanover-10",
-                scrolls: [{
+                destinationFont: "Mobitec-7:4",
+                scrolls: [
+                {
                     renderType: "message2",
                     serviceNumber: "",
                     top: "~inin`",
@@ -3873,8 +3878,9 @@ EDSData.GASG = {
                 renderType: "standardService",
                 serviceNumber: "",
                 destination: "GA 1",
-                destinationFont: "Hanover-10",
-                scrolls: [{
+                destinationFont: "Mobitec-7:4",
+                scrolls: [
+                {
                     renderType: "message3",
                     serviceNumber: "",
                     top: "~  GA  1",
@@ -3898,8 +3904,9 @@ EDSData.GASG = {
                 renderType: "standardService",
                 serviceNumber: "",
                 destination: "GA 2",
-                destinationFont: "Hanover-10",
-                scrolls: [{
+                destinationFont: "Mobitec-7:4",
+                scrolls: [
+                {
                     renderType: "message3",
                     serviceNumber: "",
                     top: "~  GA  2",
@@ -3922,8 +3929,9 @@ EDSData.GASG = {
                 renderType: "standardService",
                 serviceNumber: "",
                 destination: "GA 3",
-                destinationFont: "Hanover-10",
-                scrolls: [{
+                destinationFont: "Mobitec-7:4",
+                scrolls: [
+                {
                     renderType: "message3",
                     serviceNumber: "",
                     top: "~  GA  3",
@@ -3946,8 +3954,9 @@ EDSData.GASG = {
                 renderType: "standardService",
                 serviceNumber: "",
                 destination: "GA 4",
-                destinationFont: "Hanover-10",
-                scrolls: [{
+                destinationFont: "Mobitec-7:4",
+                scrolls: [
+                {
                     renderType: "message3",
                     serviceNumber: "",
                     top: "~  GA  4",
@@ -3970,8 +3979,9 @@ EDSData.GASG = {
                 renderType: "standardService",
                 serviceNumber: "",
                 destination: "GA 5",
-                destinationFont: "Hanover-10",
-                scrolls: [{
+                destinationFont: "Mobitec-7:4",
+                scrolls: [
+                {
                     renderType: "message3",
                     serviceNumber: "",
                     top: "~  GA  5",
@@ -3994,8 +4004,9 @@ EDSData.GASG = {
                 renderType: "standardService",
                 serviceNumber: "",
                 destination: "GA 6",
-                destinationFont: "Hanover-10",
-                scrolls: [{
+                destinationFont: "Mobitec-7:4",
+                scrolls: [
+                {
                     renderType: "message3",
                     serviceNumber: "",
                     top: "~  GA  6",
@@ -4018,8 +4029,9 @@ EDSData.GASG = {
                 renderType: "standardService",
                 serviceNumber: "",
                 destination: "GA 7",
-                destinationFont: "Hanover-10",
-                scrolls: [{
+                destinationFont: "Mobitec-7:4",
+                scrolls: [
+                {
                     renderType: "message3",
                     serviceNumber: "",
                     top: "~  GA  7",
@@ -4042,8 +4054,9 @@ EDSData.GASG = {
                 renderType: "standardService",
                 serviceNumber: "",
                 destination: "GA 8",
-                destinationFont: "Hanover-10",
-                scrolls: [{
+                destinationFont: "Mobitec-7:4",
+                scrolls: [
+                {
                     renderType: "message3",
                     serviceNumber: "",
                     top: "~  GA  8",
@@ -4066,8 +4079,9 @@ EDSData.GASG = {
                 renderType: "standardService",
                 serviceNumber: "",
                 destination: "GA 9",
-                destinationFont: "Hanover-10",
-                scrolls: [{
+                destinationFont: "Mobitec-7:4",
+                scrolls: [
+                {
                     renderType: "message3",
                     serviceNumber: "",
                     top: "~  GA  9",
@@ -4090,8 +4104,9 @@ EDSData.GASG = {
                 renderType: "standardService",
                 serviceNumber: "",
                 destination: "GA 10",
-                destinationFont: "Hanover-10",
-                scrolls: [{
+                destinationFont: "Mobitec-7:4",
+                scrolls: [
+                {
                     renderType: "message3",
                     serviceNumber: "",
                     top: "~  GA  10",
@@ -4114,8 +4129,9 @@ EDSData.GASG = {
                 renderType: "standardService",
                 serviceNumber: "",
                 destination: "GA 11",
-                destinationFont: "Hanover-10",
-                scrolls: [{
+                destinationFont: "Mobitec-7:4",
+                scrolls: [
+                {
                     renderType: "message3",
                     serviceNumber: "",
                     top: "~  GA  11",
@@ -4138,8 +4154,9 @@ EDSData.GASG = {
                 renderType: "standardService",
                 serviceNumber: "",
                 destination: "GA 12",
-                destinationFont: "Hanover-10",
-                scrolls: [{
+                destinationFont: "Mobitec-7:4",
+                scrolls: [
+                {
                     renderType: "message3",
                     serviceNumber: "",
                     top: "~  GA  12",
@@ -4162,8 +4179,9 @@ EDSData.GASG = {
                 renderType: "standardService",
                 serviceNumber: "",
                 destination: "GA 13",
-                destinationFont: "Hanover-10",
-                scrolls: [{
+                destinationFont: "Mobitec-7:4",
+                scrolls: [
+                {
                     renderType: "message3",
                     serviceNumber: "",
                     top: "~  GA  13",
@@ -4186,8 +4204,9 @@ EDSData.GASG = {
                 renderType: "standardService",
                 serviceNumber: "",
                 destination: "GA 14",
-                destinationFont: "Hanover-10",
-                scrolls: [{
+                destinationFont: "Mobitec-7:4",
+                scrolls: [
+                {
                     renderType: "message3",
                     serviceNumber: "",
                     top: "~  GA  14",
@@ -4210,8 +4229,9 @@ EDSData.GASG = {
                 renderType: "standardService",
                 serviceNumber: "",
                 destination: "GA 15",
-                destinationFont: "Hanover-10",
-                scrolls: [{
+                destinationFont: "Mobitec-7:4",
+                scrolls: [
+                {
                     renderType: "message3",
                     serviceNumber: "",
                     top: "~  GA  15",
@@ -4234,8 +4254,9 @@ EDSData.GASG = {
                 renderType: "standardService",
                 serviceNumber: "",
                 destination: "GA RIDE 01",
-                destinationFont: "Hanover-10",
-                scrolls: [{
+                destinationFont: "Mobitec-7:4",
+                scrolls: [
+                {
                     renderType: "message2",
                     serviceNumber: "",
                     top: "~  GA  RIDE  01",
@@ -4260,8 +4281,9 @@ EDSData.GASG = {
                 renderType: "standardService",
                 serviceNumber: "",
                 destination: "GA RIDE 02",
-                destinationFont: "Hanover-10",
-                scrolls: [{
+                destinationFont: "Mobitec-7:4",
+                scrolls: [
+                {
                     renderType: "message2",
                     serviceNumber: "",
                     top: "~  GA  RIDE  02",
@@ -4286,8 +4308,9 @@ EDSData.GASG = {
                 renderType: "standardService",
                 serviceNumber: "",
                 destination: "GA RIDE 03",
-                destinationFont: "Hanover-10",
-                scrolls: [{
+                destinationFont: "Mobitec-7:4",
+                scrolls: [
+                {
                     renderType: "message2",
                     serviceNumber: "",
                     top: "~  GA  RIDE  03",
@@ -4312,8 +4335,9 @@ EDSData.GASG = {
                 renderType: "standardService",
                 serviceNumber: "",
                 destination: "GA RIDE 04",
-                destinationFont: "Hanover-10",
-                scrolls: [{
+                destinationFont: "Mobitec-7:4",
+                scrolls: [
+                {
                     renderType: "message2",
                     serviceNumber: "",
                     top: "~  GA  RIDE  04",
@@ -4338,8 +4362,9 @@ EDSData.GASG = {
                 renderType: "standardService",
                 serviceNumber: "",
                 destination: "GA RIDE 05",
-                destinationFont: "Hanover-10",
-                scrolls: [{
+                destinationFont: "Mobitec-7:4",
+                scrolls: [
+                {
                     renderType: "message2",
                     serviceNumber: "",
                     top: "~  GA  RIDE  05",
@@ -4364,8 +4389,9 @@ EDSData.GASG = {
                 renderType: "standardService",
                 serviceNumber: "",
                 destination: "GA RIDE 06",
-                destinationFont: "Hanover-10",
-                scrolls: [{
+                destinationFont: "Mobitec-7:4",
+                scrolls: [
+                {
                     renderType: "message2",
                     serviceNumber: "",
                     top: "~  GA  RIDE  06",
@@ -4390,8 +4416,9 @@ EDSData.GASG = {
                 renderType: "standardService",
                 serviceNumber: "",
                 destination: "GA RIDE 07",
-                destinationFont: "Hanover-10",
-                scrolls: [{
+                destinationFont: "Mobitec-7:4",
+                scrolls: [
+                {
                     renderType: "message2",
                     serviceNumber: "",
                     top: "~  GA  RIDE  07",
@@ -4416,8 +4443,9 @@ EDSData.GASG = {
                 renderType: "standardService",
                 serviceNumber: "",
                 destination: "GA RIDE 08",
-                destinationFont: "Hanover-10",
-                scrolls: [{
+                destinationFont: "Mobitec-7:4",
+                scrolls: [
+                {
                     renderType: "message2",
                     serviceNumber: "",
                     top: "~  GA  RIDE  08",
@@ -4442,13 +4470,14 @@ EDSData.GASG = {
                 renderType: "standardService",
                 serviceNumber: "",
                 destination: "GA RIDE 09",
-                destinationFont: "Hanover-10",
-                scrolls: [{
+                destinationFont: "Mobitec-7:4",
+                scrolls: [
+                {
                     renderType: "message2",
                     serviceNumber: "",
                     top: "~  GA  RIDE  09",
                     topFont: "LECIP-19:GoAheadSpecialB9Front",
-                    },
+                },
                 ],
                 scrollFont: "Hanover-7:5"
             },
@@ -4464,11 +4493,20 @@ EDSData.GASG = {
     },
     9999: {
         1: {
-            front: { 
-                renderType: "message",
-                text: "LECIP 100725",
-                font: "LECIP-20:9",
-                spacing: 2
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "Version Number",
+                destinationFont: "Mobitec-7:4",
+                scrolls: [
+                {
+                    renderType: "message2",
+                    serviceNumber: "",
+                    top: "LECIP 100725",
+                    topFont: "LECIP-20:9",
+                },
+                ],
+                scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: 'twoline',

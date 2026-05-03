@@ -1785,8 +1785,8 @@ EDSData.TTSG = {
                 scrolls: [                    
                 {
                     renderType: "destScroll",
-                    top: "RAFFLES BLVD",
-                    topFont: "Hanover-17:11",
+                    top: "Raffles Blvd",
+                    topFont: "LECIP-Tower12New1",
     
                     serviceNumber: "97"
                 },
@@ -1810,13 +1810,13 @@ EDSData.TTSG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "97",
-                destination: "JURONG EAST",
+                destination: "TENGAH",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [                    
                 {
                     renderType: "destScroll",
-                    top: "JURONG EAST",
-                    topFont: "Hanover-17:11",
+                    top: "Tengah",
+                    topFont: "LECIP-Tower12New1",
     
                     serviceNumber: "97"
                 },
@@ -2012,12 +2012,12 @@ EDSData.TTSG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "97",
-                destination: "TENGAH",
+                destination: "JURONG EAST",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [                    
                 {
                     renderType: "destScroll",
-                    top: "TENGAH",
+                    top: "JURONG EAST",
                     topFont: "Hanover-17:11",
     
                     serviceNumber: "97"
