@@ -1662,7 +1662,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "177",
                     top: "JELEBU RD",
-                    // topFont: "Mobitec-Tower12New"
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -3169,13 +3169,19 @@ EDSData.TTSG = {
             destFont: "Mobitec-Tower9:4",
             scrolls: [
                 {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "",
+                    topFont: "Mobitec-Tower11New2"
+                },
+                {
                     renderType: "ExpressdestScroll",
                     serviceNumber: "",
-                    top: " ",
-                    topFont: "Mobitec-Tower6:4",
+                    top: "",
+                    topFont: "Mobitec-Tower12New",
                     bottom: "",
                     bottomFont: "Mobitec-Tower9New",
-                }
+                },
             ]
         }
     },
@@ -4626,8 +4632,8 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "990",
-                    top: "JUR GATEWAY RD",
-                    // topFont: "Mobitec-Tower12New"
+                    top: "JUR|GATEWAY|RD",
+                    topFont: "Mobitec-Tower11New2"
                 }
             ]
         }
