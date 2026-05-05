@@ -1302,7 +1302,7 @@ EDSData.TTSG = {
                     top: "SKIP TEMASEK AVE",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "SHENTON WAY",
-                    bottomFont: "Mobitec-9:6",
+                    bottomFont: "Mobitec-Tower9New",
                 },
                 {
                     renderType: "ExpressdestScroll2",
@@ -1310,7 +1310,7 @@ EDSData.TTSG = {
                     top: "SKIP BAYFRONT AVE",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "SHENTON WAY",
-                    bottomFont: "Mobitec-9:6",
+                    bottomFont: "Mobitec-Tower9New",
                 },
                 {
                     renderType: "destScroll",
@@ -1332,7 +1332,7 @@ EDSData.TTSG = {
                     top: "SKIP BAYFRONT AVE",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "BUKIT BATOK",
-                    bottomFont: "Mobitec-9:6",
+                    bottomFont: "Mobitec-Tower9New",
                 },
                 {
                     renderType: "ExpressdestScroll2",
@@ -1340,7 +1340,7 @@ EDSData.TTSG = {
                     top: "SKIP RAFFLES AVE",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "BUKIT BATOK",
-                    bottomFont: "Mobitec-9:6",
+                    bottomFont: "Mobitec-Tower9New",
                 },
                 {
                     renderType: "destScroll",
@@ -3636,7 +3636,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "857A",
                     top: "YIO CHU KANG RD",
-                    // topFont: "Mobitec-Tower12New"
+                    // topFont: "Mobitec-Tower11New1"
                 }
             ]
         }
@@ -3651,7 +3651,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "857B",
                     top: "TEMASEK AVE",
-                    // topFont: "Mobitec-Tower12New"
+                    topFont: "Mobitec-Tower11New2"
                 }
             ]
         }
