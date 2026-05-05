@@ -2906,6 +2906,7 @@ EDSData.TTSG = {
                     top: "CITY DIRECT",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "CANBERRA RD",
+                    bottomFont: "Mobitec-9:6",
                     // bottomFont: "Mobitec-Tower9New",
                 }
             ]
