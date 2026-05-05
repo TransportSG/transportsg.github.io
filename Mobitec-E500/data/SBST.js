@@ -10315,6 +10315,172 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
+    4371: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "S37",
+            destination: {
+                text: "BISHAN > PROMENADE",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+            {
+                renderType: "destScroll",
+                serviceNumber: "S37",
+                top: "SHUTTLE 37",
+                topFont: "Mobitec-7:5:2",
+                bottom: "BISHAN - PROMENADE",
+                bottomFont: "Mobitec-7:5:2",
+            },
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    4372: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "S37",
+            destination: {
+                text: "PROMENADE > BISHAN",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+            {
+                renderType: "destScroll",
+                serviceNumber: "S37",
+                top: "SHUTTLE 37",
+                topFont: "Mobitec-7:5:2",
+                bottom: "PROMENADE - BISHAN",
+                bottomFont: "Mobitec-7:5:2",
+            },
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    4373: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "S37A",
+            destination: {
+                text: "SERANGOON > PAYA LEBAR",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+            {
+                renderType: "destScroll",
+                serviceNumber: "S37A",
+                top: "SHUTTLE 37A",
+                topFont: "Mobitec-7:5:2",
+                bottom: "SERANGOON - PAYA LEBAR",
+                bottomFont: "Mobitec-7:4",
+            },
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    4374: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "S37B",
+            destination: {
+                text: "TAI SENG > BISHAN",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+            {
+                renderType: "destScroll",
+                serviceNumber: "S37B",
+                top: "SHUTTLE 37B",
+                topFont: "Mobitec-7:5:2",
+                bottom: "TAI SENG - BISHAN",
+                bottomFont: "Mobitec-7:5:2",
+            },
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    4375: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "S37C",
+            destination: {
+                text: "TAI SENG > SERANGOON",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+            {
+                renderType: "destScroll",
+                serviceNumber: "S37C",
+                top: "SHUTTLE 37C",
+                topFont: "Mobitec-7:5:2",
+                bottom: "TAI SENG - SERANGOON",
+                bottomFont: "Mobitec-7:4",
+            },
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    4380: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "SHUTTLE 38",
+            destination: {
+                text: "",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+            {
+                renderType: "destScroll",
+                serviceNumber: "",
+                top: "SHUTTLE 38",
+                topFont: "Mobitec-16:8",
+            },
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },  
+    4381: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "S38",
+            destination: {
+                text: "PAYA LEBAR > STADIUM",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+            {
+                renderType: "destScroll",
+                serviceNumber: "S38",
+                top: "SHUTTLE 38",
+                topFont: "Mobitec-7:5:2",
+                bottom: "PAYA LEBAR - STADIUM",
+                bottomFont: "Mobitec-7:5:2",
+            },
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    4382: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "S38",
+            destination: {
+                text: "STADIUM > PAYA LEBAR",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+            {
+                renderType: "destScroll",
+                serviceNumber: "S38",
+                top: "SHUTTLE 38",
+                topFont: "Mobitec-7:5:2",
+                bottom: "STADIUM- PAYA LEBAR",
+                bottomFont: "Mobitec-7:5:2",
+            },
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
     4444: {
         front: {
             renderType: "message",
@@ -10432,6 +10598,27 @@ EDSData.SBST = {
                 serviceNumber: "458",
                 top: "SENGKANG STN",
                 topFont: "Mobitec-16:8",
+            },
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    4601: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "460",
+            destination: {
+                text: "TAMPINES INT - IKEA",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+            {
+                renderType: "destScroll",
+                serviceNumber: "460",
+                top: "TAMPINES INT -",
+                topFont: "Mobitec-7:5:1",
+                bottom: "IKEA TAMPINES (LOOP)",
+                bottomFont: "Mobitec-7:5:1",
             },
             ],
             scrollFont: "Mobitec-6:5"

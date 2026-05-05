@@ -17753,6 +17753,36 @@ EDSData.SBST = {
             }
         },
     },
+    460: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "460",
+                destination: "TAMPINES INT - IKEA",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "centreMessageServiceScroll",
+
+                    top: "TAMPINES INT -",
+                    topFont: "LECIP-7:5",
+
+                    bottom: "IKEA TAMPINES (LOOP)",
+                    bottomFont: "LECIP-7:5",
+
+                    serviceNumber: "460",
+                },  
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "460",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
     498: {
         1: {
             front: {
