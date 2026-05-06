@@ -9109,8 +9109,8 @@ EDSData.SBST = {
                 scrolls: [
                 {
                     renderType: "destScroll",
-                    top: "YIO CHU KANG INT      ",
-                    topFont: "LECIP-10",
+                    top: "YIO CHU KANG INT                      ",
+                    topFont: "LECIP-14:6",
             
                     serviceNumber: "114"
                 },
@@ -9133,8 +9133,8 @@ EDSData.SBST = {
                 scrolls: [
                 {
                     renderType: "destScroll",
-                    top: "BUANGKOK INT           ",
-                    topFont: "LECIP-10",
+                    top: "BUANGKOK INT                             ",
+                    topFont: "LECIP-14:6",
             
                     serviceNumber: "114"
                 },

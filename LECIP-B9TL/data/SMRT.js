@@ -5557,8 +5557,8 @@ EDSData.SMRT = {
                         serviceNumber: "",
                         top: "Data from Sep 2024 onwards",
                         topFont: "Mobitec-7:4",
-                        bottom: "(With Jurong West Package data)",
-                        bottomFont: "Mobitec-7:4",
+                        bottom: "(With Jurong West Package routes)",
+                        bottomFont: "Hanover-7:3",
                         image: "roundel"
                     },
                     {

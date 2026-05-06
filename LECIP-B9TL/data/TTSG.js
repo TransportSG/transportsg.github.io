@@ -7212,10 +7212,10 @@ EDSData.TTSG = {
                 scrolls: [ 
                 {
                     renderType: "destScroll5",
-                    top: "",
+                    top: "SHUTTLE 37A",
                     topFont: "Hanover-7:5",
-                    bottom: "",
-                    bottomFont: "Hanover-10:5",
+                    bottom: "SERANGOON - PAYA LEBAR",
+                    bottomFont: "Hanover-8:3",
             
                     serviceNumber: "Š37A"
                 },
@@ -7240,10 +7240,10 @@ EDSData.TTSG = {
                 scrolls: [ 
                 {
                     renderType: "destScroll5",
-                    top: "",
+                    top: "SHUTTLE 37B",
                     topFont: "Hanover-7:5",
-                    bottom: "",
-                    bottomFont: "Hanover-10:5",
+                    bottom: "TAI SENG - BISHAN",
+                    bottomFont: "Hanover-10",
             
                     serviceNumber: "Š37B"
                 },
@@ -7268,10 +7268,10 @@ EDSData.TTSG = {
                 scrolls: [ 
                 {
                     renderType: "destScroll5",
-                    top: "",
+                    top: "SHUTTLE 37C",
                     topFont: "Hanover-7:5",
-                    bottom: "",
-                    bottomFont: "Hanover-10:5",
+                    bottom: "TAI SENG - SERANGOON",
+                    bottomFont: "Hanover-8",
             
                     serviceNumber: "Š37C"
                 },
@@ -9173,10 +9173,12 @@ EDSData.TTSG = {
                 destinationFont: "Hanover-10",
                 scrolls: [
                 {
-                    renderType: "destScroll",
+                    renderType: "destScroll5",
                     top: "",
-                    topFont: "LECIP-Tower12New1",
-    
+                    topFont: "Hanover-7:5",
+                    bottom: "",
+                    bottomFont: "Hanover-8",
+            
                     serviceNumber: ""
                 },
                 ],
