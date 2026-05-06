@@ -3319,7 +3319,7 @@ EDSData.TTSG = {
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "284",
+                serviceNumber: "28$",
                 font: "LECIP-TowerRear17:10",
                 spacing: 1
             }
@@ -3349,7 +3349,7 @@ EDSData.TTSG = {
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "284",
+                serviceNumber: "28$",
                 font: "LECIP-TowerRear17:10",
                 spacing: 1
             }
@@ -4409,6 +4409,106 @@ EDSData.TTSG = {
             }
         }
     }, 
+    "831G": { 
+        1: {
+            front: {
+                renderType: "standardService2",
+                serviceNumber: "831G",
+                destination: "TENGAH GDN AVE",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                {
+                    renderType: "destScroll",
+                    top: "Tengah|Gdn|Ave",
+                    topFont: "LECIP-Tower12New1",
+    
+                    serviceNumber: "831G"
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "831G",
+                font: "LECIP-TowerRear17:7",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService2",
+                serviceNumber: "831G",
+                destination: "TENGAH",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                {
+                    renderType: "destScroll",
+                    top: "Tengah",
+                    topFont: "LECIP-Tower12New1",
+    
+                    serviceNumber: "831G"
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "831G",
+                font: "LECIP-TowerRear17:7",
+                spacing: 2
+            }
+        }
+    }, 
+    "831W": { 
+        1: {
+            front: {
+                renderType: "standardService2",
+                serviceNumber: "831W",
+                destination: "TENGAH GDN AVE",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                {
+                    renderType: "destScroll",
+                    top: "Tengah|Gdn|Ave",
+                    topFont: "LECIP-Tower12New1",
+    
+                    serviceNumber: "831W"
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "831W",
+                font: "LECIP-TowerRear17:7",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService2",
+                serviceNumber: "831W",
+                destination: "TENGAH",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                {
+                    renderType: "destScroll",
+                    top: "Tengah",
+                    topFont: "LECIP-Tower12New1",
+    
+                    serviceNumber: "831W"
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "831W",
+                font: "LECIP-TowerRear17:7",
+                spacing: 2
+            }
+        }
+    }, 
     853: { // Add Big Number
         1: {
             front: {
@@ -5029,8 +5129,8 @@ EDSData.TTSG = {
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [                    
                 {
-                    renderType: "destScroll2",
-                    top: "PTB 1 BASEMENT",
+                    renderType: "destScroll",
+                    top: "CHANGI AIRPORT",
                     topFont: "Hanover-17:6",
         
                     serviceNumber: "858",
@@ -9060,6 +9160,32 @@ EDSData.TTSG = {
                 renderType: "message",
                 text: "~",
                 font: "Hanover-Tower19:11",
+                spacing: 1
+            }
+        }
+    },
+    "6668": { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "",
+                destinationFont: "Hanover-10",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "",
+                    topFont: "LECIP-Tower12New1",
+    
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: { 
+                renderType: "rearService",
+                serviceNumber: "",
+                font: "LECIP-TowerRear17:7",
                 spacing: 1
             }
         }
