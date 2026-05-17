@@ -10532,7 +10532,7 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "457",
             destination: {
-                text: "TAI SENG INT",
+                text: "TAI SENG STN",
                 font: "Mobitec-7:4"
             },
             scrolls: [

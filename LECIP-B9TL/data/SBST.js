@@ -22637,7 +22637,7 @@ EDSData.SBST = {
                 scrolls: [
                 {
                     renderType: "destScroll2",
-                    top: "SW SHUTTLE A",
+                    top: "SW SHUTTLE B",
                     topFont: "LECIP-10",
                     bottom: "SENGKANG - THANGGAM",
                     bottomFont: "LECIP-7:5",
