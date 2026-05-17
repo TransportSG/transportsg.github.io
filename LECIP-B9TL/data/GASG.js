@@ -978,7 +978,7 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "12e",
-                destination: "KAMPONG BAHRU",
+                destination: "Kampong Bahru",
                 destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
