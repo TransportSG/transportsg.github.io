@@ -1384,6 +1384,14 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
+    185: {
+        front: {
+            renderType: "destScroll",
+            serviceNumber: "18A",
+            top: "TAMPINES EAST STN    ",
+            topFont: "LECIP-14:6",
+        }
+    },
     187: {
         front: {
             renderType: "standardService",

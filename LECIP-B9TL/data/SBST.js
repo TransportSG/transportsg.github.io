@@ -2279,6 +2279,32 @@ EDSData.SBST = {
             }
         }
     },
+    "18A": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "18A",
+                destination: "TAMPINES EAST STN",
+                destinationFont: "LECIP-7:5",
+                scrolls: [
+                    {
+                        renderType: "destScroll",
+                        top: "TAMPINES EAST STN   ",
+                        topFont: "LECIP-20:6",
+                
+                        serviceNumber: "18A"
+                    },
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "18A",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
     "18B": {
         1: {
             front: {
