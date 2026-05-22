@@ -657,6 +657,48 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "5A",
             destination: {
+                text: "BEF CHANGI HOSPITAL",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+            {
+                renderType: "destScroll",
+                serviceNumber: "5A",
+                top: "AFT BALLOTA PK -",
+                topFont: "Mobitec-7:6:1",
+                bottom: "BEF CHANGI HOSPITAL",
+                bottomFont: "Mobitec-7:6:1",
+            },
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    56: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "5B",
+            destination: {
+                text: "MARIAM WAY",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+            {
+                renderType: "destScroll",
+                serviceNumber: "5B",
+                top: "AFT CHANGI HOSPITAL",
+                topFont: "Mobitec-7:6:1",
+                bottom: "- BEF MARIAM WK",
+                bottomFont: "Mobitec-7:6:1",
+            },
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    58: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "5A",
+            destination: {
                 text: "UPPER CHANGI STN",
                 font: "Mobitec-7:5:2"
             },
@@ -671,7 +713,7 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
-    56: {
+    59: {
         front: {
             renderType: "standardService",
             serviceNumber: "5B",
@@ -7773,6 +7815,27 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "163B",
             destination: {
+                text: "LENTOR STN",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+            {
+                renderType: "destScroll",
+                serviceNumber: "163B",
+                top: "TERMINATES AT YCK RD",
+                topFont: "Mobitec-7:4",
+                bottom: "(AFTER LENTOR STN)",
+                bottomFont: "Mobitec-7:4",
+            },
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    1637: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "163B",
+            destination: {
                 text: "YIO CHU KANG RD",
                 font: "Mobitec-7:5:2"
             },
@@ -7787,7 +7850,7 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
-    1639: {
+    1638: {
         front: {
             renderType: "standardService",
             serviceNumber: "163M",
@@ -7803,7 +7866,7 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
-    1638: {
+    1639: {
         front: {
             renderType: "standardService",
             serviceNumber: "163M",
@@ -10627,6 +10690,48 @@ EDSData.SBST = {
                 topFont: "Mobitec-7:5:1",
                 bottom: "IKEA TAMPINES (LOOP)",
                 bottomFont: "Mobitec-7:5:1",
+            },
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    4998: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "SWA",
+            destination: {
+                text: "FERNVALE > SENGKANG",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+            {
+                renderType: "destScroll",
+                serviceNumber: "SW A",
+                top: "SHUTTLE SW A",
+                topFont: "Mobitec-7:5:2",
+                bottom: "FERNVALE - SENGKANG",
+                bottomFont: "Mobitec-7:4",
+            },
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    4999: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "SWB",
+            destination: {
+                text: "SENGKANG > THANGGAM",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+            {
+                renderType: "destScroll",
+                serviceNumber: "SW B",
+                top: "SHUTTLE SW B",
+                topFont: "Mobitec-7:5:2",
+                bottom: "SENGKANG - THANGGAM",
+                bottomFont: "Mobitec-7:4",
             },
             ],
             scrollFont: "Mobitec-6:5"

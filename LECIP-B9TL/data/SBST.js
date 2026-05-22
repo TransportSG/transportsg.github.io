@@ -242,7 +242,7 @@ EDSFormats.SBST = {
 
         text: "$text"
     },
-destScroll2A: {
+    destScroll2A: {
         serviceNumber: {
             align: "right",
             margin: {
@@ -295,6 +295,65 @@ destScroll2A: {
             margin: {
                 right: 'width(serviceNumber)',
                 bottom: 1
+            }
+        },
+
+        text: "$top+' '+$bottom+' '+$serviceNumber"
+    },
+    destScroll2B: { // adjustable top/bottom margins and svc font
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 0,
+                top: 0
+            },
+            text: "$serviceNumber",
+            font: {
+                $$cond: {
+                    "$serviceFont === null": "LECIP-20:12",
+                    "else": "$serviceFont"
+                }
+            },
+            spacing: {
+                $$cond: {
+                    "$serviceSpacing === null" : "3",
+                    "else": "$serviceSpacing"
+                }
+            }
+        },
+        top: {
+            align: {
+                $$cond: {
+                    "$bottom === null": "centre-x,centre-y",
+                    "else": "centre-x,top"
+                }
+            },
+            text: "$top",
+            font: "$topFont",
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber)',
+                top: '$topMargin',
+            }
+        },
+        bottom: {
+            align: "centre-x,bottom",
+            text: {
+                $$cond: {
+                    "$bottom !== null": "$bottom",
+                    "else": "''"
+                }
+            },
+            font: {
+                $$cond: {
+                    "$bottomFont !== null": "$bottomFont",
+                    "else": "ArialBold-8:2"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber)',
+                bottom: '$bottomMargin',
             }
         },
 
@@ -1222,10 +1281,18 @@ EDSData.SBST = {
                 destinationFont: "LECIP-10",
                 scrolls: [
                 {
-                    renderType: "swt",
-                    serviceNumber: "5A",
-                    terminateAt: "UPP CHANGI RD EAST",
-                    landmark: "(UPP CHANGI STN/SUTD)"
+                    renderType: "destScroll2B",
+
+                    top: "AFT BALLOTA PK -",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "BEF CHANGI HOSPITAL",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "1",
+            
+                    serviceNumber: "5A"
+                    
                 },
                 ],
                 scrollFont: "LECIP-7:5"
@@ -1246,10 +1313,10 @@ EDSData.SBST = {
                 scrolls: 
                 [
                 {
-                    renderType: "logoSvc",
-                    serviceNumber: "5",
-                    image: "fastForward",
-                    destination: ""
+                    renderType: "swt",
+                    serviceNumber: "5A",
+                    terminateAt: "UPP CHANGI RD EAST",
+                    landmark: "(UPP CHANGI STN/SUTD)"
                 },
                 ],
                 scrollFont: "LECIP-7:5"
@@ -1263,6 +1330,60 @@ EDSData.SBST = {
         }
     },
     "5B": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "5B",
+                destination: "MARIAM WALK",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+
+                    top: "AFT CHANGI HOSPITAL",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "- BEF MARIAM WK",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "1",
+            
+                    serviceNumber: "5B"
+                },
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "5B",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "5B",
+                destination: "MARIAM WAY",
+                destinationFont: "LECIP-10",
+                scrolls: [{
+                    renderType: "swt",
+                    serviceNumber: "5B",
+                    terminateAt: "MARIAM WAY",
+                    landmark: "(BEF MARIAM WK)"
+                },
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "5B",
+                font: "LECIP-20:12",
+                spacing: 2
+            }
+        }
+    },
+    "5C": {
         1: {
             front: {
                 renderType: "standardService",
@@ -4506,7 +4627,7 @@ EDSData.SBST = {
                     bottom: "ANG MO KIO STN EXIT B",
                     bottomFont: "LECIP-7:5",
             
-                    serviceNumber: "58A"
+                    serviceNumber: "50A"
                 },
                 ],
                 scrollFont: "LECIP-7:5"
@@ -13036,6 +13157,40 @@ EDSData.SBST = {
     },
     "163B": {
         1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "163B",
+                destination: "LENTOR STN",
+                destinationFont: "LECIP-10",
+                scrolls: 
+                [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "TERMINATES AT YIO CHU KANG RD",
+                    topFont: "LECIP-6:3",
+                    topMargin: "3",
+
+                    bottom: "(AFTER LENTOR STN)",
+                    bottomFont: "LECIP-6:3",
+                    bottomMargin: "3",
+            
+                    serviceNumber: "163B"
+                    
+                },
+                ],
+
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "163B",
+                font: "LECIP-14:6",
+                spacing: 2
+            }
+        },
+        2: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "163B",
@@ -22613,88 +22768,6 @@ EDSData.SBST = {
             }
         }
     },
-    4000: {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "SWA",
-                destination: "SKLRT WEST A",
-                destinationFont: "LECIP-6:4",
-                scrolls: [
-                {
-                    renderType: "destScroll2",
-                    top: "SW SHUTTLE A",
-                    topFont: "LECIP-10",
-                    bottom: "FERNVALE - SENGKANG",
-                    bottomFont: "LECIP-7:5",
-                                
-                    serviceNumber: "SW A",
-                    serviceFont: "LECIP-20:12",
-                    serviceSpacing: "1",
-                },
-                ],
-                scrollFont: "LECIP-6:4"
-            },
-            rear: {
-                renderType: "standardService",
-                serviceNumber: "S37A",
-                destination: "PAYA LEBAR (2026)",
-                destinationFont: "LECIP-6:4",
-                scrolls: [
-                {
-                    renderType: "destScroll2",
-                    top: "SW.A",
-                    topFont: "LECIP-20:9",
-                                
-                    serviceNumber: "",
-                    serviceFont: "LECIP-20:9",
-                    serviceSpacing: "1",
-                },
-                ],
-                scrollFont: "LECIP-6:4",
-            }
-        },
-        2: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "SWB",
-                destination: "SKLRT WEST B",
-                destinationFont: "LECIP-6:4",
-                scrolls: [
-                {
-                    renderType: "destScroll2",
-                    top: "SW SHUTTLE B",
-                    topFont: "LECIP-10",
-                    bottom: "SENGKANG - THANGGAM",
-                    bottomFont: "LECIP-7:5",
-                                
-                    serviceNumber: "SW B",
-                    serviceFont: "LECIP-20:12",
-                    serviceSpacing: "1",
-                },
-                ],
-                scrollFont: "LECIP-6:4"
-            },
-            rear: {
-                renderType: "standardService",
-                serviceNumber: "S37A",
-                destination: "PAYA LEBAR (2026)",
-                destinationFont: "LECIP-6:4",
-                scrolls: [
-                {
-                    renderType: "destScroll2",
-                    top: "SW.B",
-                    topFont: "LECIP-20:9",
-                                
-                    serviceNumber: "",
-                    serviceFont: "LECIP-20:9",
-                    serviceSpacing: "1",
-                },
-                ],
-                scrollFont: "LECIP-6:4",
-            }
-        }
-    },
     4071: {
         1: {
             front: {
@@ -23148,6 +23221,90 @@ EDSData.SBST = {
                 {
                     renderType: "destScroll2",
                     top: "S38",
+                    topFont: "LECIP-20:9",
+                                
+                    serviceNumber: "",
+                    serviceFont: "LECIP-20:9",
+                    serviceSpacing: "1",
+                },
+                ],
+                scrollFont: "LECIP-6:4",
+            }
+        }
+    },
+    4998: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "SWA",
+                destination: "SKLRT WEST A",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2",
+                    top: "SW SHUTTLE A",
+                    topFont: "LECIP-10",
+                    bottom: "FERNVALE - SENGKANG",
+                    bottomFont: "LECIP-7:5",
+                                
+                    serviceNumber: "SW A",
+                    serviceFont: "LECIP-20:12",
+                    serviceSpacing: "1",
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "SWA",
+                destination: "SKLRT WEST A",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2",
+                    top: "SW.A",
+                    topFont: "LECIP-20:9",
+                                
+                    serviceNumber: "",
+                    serviceFont: "LECIP-20:9",
+                    serviceSpacing: "1",
+                },
+                ],
+                scrollFont: "LECIP-6:4",
+            }
+        }
+    },
+    4999: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "SWB",
+                destination: "SKLRT WEST B",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2",
+                    top: "SW SHUTTLE B",
+                    topFont: "LECIP-10",
+                    bottom: "SENGKANG - THANGGAM",
+                    bottomFont: "LECIP-7:5",
+                                
+                    serviceNumber: "SW B",
+                    serviceFont: "LECIP-20:12",
+                    serviceSpacing: "1",
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "S37A",
+                destination: "SKLRT WEST B",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2",
+                    top: "SW.B",
                     topFont: "LECIP-20:9",
                                 
                     serviceNumber: "",
