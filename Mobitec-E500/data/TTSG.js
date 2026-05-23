@@ -2105,6 +2105,23 @@ EDSData.TTSG = {
             ]
         }
     },
+    4528: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "S52",
+            destination: "CALEDCOTT",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "S52",
+                    top: "SHUTTLE 52",
+                    topFont: "Mobitec-Tower9New",
+                    bottom: "Marina Bay - Caldedcott",
+                    bottomFont: "Mobitec-Tower6:4",
+                }
+            ]
+        }
+    },
     4531: {
         front: {
             renderType: "standardService",
