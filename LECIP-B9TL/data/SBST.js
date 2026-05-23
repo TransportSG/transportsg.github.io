@@ -23350,6 +23350,62 @@ EDSData.SBST = {
             }
         }
     },
+    4531: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S53",
+                destination: "MARINA BAY",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2A",
+                    top: "SHUTTLE 53",
+                    topFont: "LECIP-10",
+                    bottom: "BAYSHORE - MARINA BAY",
+                    bottomFont: "LECIP-7:5",
+                                
+                    serviceNumber: "S53",
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "S53",
+                font: "LECIP-20:9",
+                spacing: "1",
+            }
+        }
+    },    
+    4532: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S53",
+                destination: "BAYSHORE",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2A",
+                    top: "SHUTTLE 53",
+                    topFont: "LECIP-10",
+                    bottom: "MARINA BAY - BAYSHORE",
+                    bottomFont: "LECIP-7:5",
+                                
+                    serviceNumber: "S53",
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "S53",
+                font: "LECIP-20:9",
+                spacing: "1",
+            }
+        }
+    },
     5555: {
         1: {
             front: {

@@ -3271,6 +3271,29 @@ EDSData['SMRT (PostSLBP)'] = {
             scrollFont: "Mobitec-7:5:2"
         }
     },
+    4518: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "S51",
+            destination: {
+                text: "CALDECOTT",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll2",
+                    serviceNumber: "S51",
+                    top: "SHUTTLE 51",
+                    topFont: "Mobitec-7:7",
+
+                    bottom: "WOODLANDS NORTH - CALDECOTT",
+                    bottomFont: "Mobitec-7:4"
+                },
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
+
     4551: {
         front: {
             renderType: "standardService",

@@ -10560,6 +10560,48 @@ EDSData.SBST = {
             spacing: 1
         }
     },
+    4531: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "S53",
+            destination: {
+                text: "BAYSHORE > MARINA BAY",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+            {
+                renderType: "destScroll",
+                serviceNumber: "S53",
+                top: "SHUTTLE 53",
+                topFont: "Mobitec-7:5:2",
+                bottom: "BAYSHORE - MARINA BAY",
+                bottomFont: "Mobitec-7:4",
+            },
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    4532: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "S53",
+            destination: {
+                text: "MARINA BAY > BAYSHORE",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+            {
+                renderType: "destScroll",
+                serviceNumber: "S53",
+                top: "SHUTTLE 53",
+                topFont: "Mobitec-7:5:2",
+                bottom: "MARINA BAY - BAYSHORE",
+                bottomFont: "Mobitec-7:4",
+            },
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
     4541: { // Bomb
         front: {
             renderType: "standardService",

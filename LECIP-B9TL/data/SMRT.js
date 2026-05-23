@@ -3750,6 +3750,62 @@ EDSData.SMRT = {
             }
         }
     },
+    4518: { // Tbc
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S51",
+                destination: "CALDECOTT",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "SHUTTLE 51",
+                    topFont: "ArialBold-8:2",
+                    bottom: "WDL NORTH - CALDECOTT",
+                    bottomFont: "Calibri-7",
+        
+                    serviceNumber: "S51"
+                },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "S51",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 1
+            }
+        }
+    },
+    4519: { // Tbc
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S51",
+                destination: "WOODLANDS NORTH",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "SHUTTLE 51",
+                    topFont: "ArialBold-8:2",
+                    bottom: "CALDECOTT - WDL NORTH",
+                    bottomFont: "Calibri-7",
+        
+                    serviceNumber: "S51"
+                },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "S51",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 1
+            }
+        }
+    },
     4551: { // Done
         1: {
             front: {

@@ -885,6 +885,64 @@ EDSFormats.TTSG = {
         },
 
         text: "$top+' '+$bottom+' '+$serviceNumber"
+    },    
+    destScroll5A: { // [S52] 1px spacing for svc num and bottom margin 1
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 0,
+            },
+            text: "$serviceNumber",
+            font: "LECIP-19:TowerB9Front",
+            spacing: {
+                $$cond: {
+                    "$spacing === null" : 1,
+                    "else": "$svcSpacing"
+                }
+            }
+        },
+        top: {
+            align: {
+                $$cond: {
+                    "$bottom === null": "centre-x,centre-y",
+                    "else": "centre-x,top"
+                }
+            },
+            text: "$top",
+            font: "$topFont",
+            spacing: {
+                $$cond: {
+                    "$topSpacing === null" : 1,
+                    "else": "$topSpacing",
+                }
+            },
+            margin: {
+                right: 'width(serviceNumber)',
+                top: '1'
+            }
+        },
+        bottom: {
+            align: "centre-x,bottom",
+            text: {
+                $$cond: {
+                    "$bottom !== null": "$bottom",
+                    "else": "''"
+                }
+            },
+            font: {
+                $$cond: {
+                    "$bottomFont !== null": "$bottomFont",
+                    "else": "LECIP-10"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber)',
+                bottom: '0'
+            }
+        },
+
+        text: "$top+' '+$bottom+' '+$serviceNumber"
     },
     ExpressdestScroll: { // 6:3 font for top line
         serviceNumber: {
@@ -7310,6 +7368,64 @@ EDSData.TTSG = {
 
                 bottom: "Test",
                 bottomFont: "Hanover-7:5"
+            }
+        }
+    },
+    4521: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S52",
+                destination: "CALDECOTT",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [ 
+                {
+                    renderType: "destScroll5A",
+                    top: "SHUTTLE 52",
+                    topFont: "Hanover-8",
+                    bottom: "MARINA BAY - CALDECOTT",
+                    bottomFont: "Hanover-10:5",
+                    bottomMargin: "0",
+            
+                    serviceNumber: "Š52"
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "Š52",
+                font: "LECIP-TowerRear17:10",
+                spacing: 1
+            }
+        }
+    },
+    4522: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S52",
+                destination: "MARINA BAY",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [ 
+                {
+                    renderType: "destScroll5A",
+                    top: "SHUTTLE 52",
+                    topFont: "Hanover-8",
+                    bottom: "CALDECOTT - MARINA BAY",
+                    bottomFont: "Hanover-10:5",
+                    bottomMargin: "0",
+            
+                    serviceNumber: "Š52"
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "Š52",
+                font: "LECIP-TowerRear17:10",
+                spacing: 1
             }
         }
     },
