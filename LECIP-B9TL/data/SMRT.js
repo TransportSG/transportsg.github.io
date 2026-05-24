@@ -1470,6 +1470,54 @@ EDSData.SMRT = {
             }
         }
     },
+    1818: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "181",
+                destination: "TENGAH via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    " ",
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "181",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    1819: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "181A",
+                destination: "JURONG WEST AVE 3",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                {
+                    renderType: "destScroll2",
+                    top: "ENDS AT",
+                    topFont: "ArialBold-8:2",
+                    bottom: " ",
+                    bottomFont: "Calibri-7",
+        
+                    serviceNumber: "181A"
+                },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "181A",
+                font: "Arial-10",
+                spacing: 1
+            }
+        }
+    },
     1821: { // Done
         1: {
             front: {
@@ -3915,6 +3963,126 @@ EDSData.SMRT = {
             }
         }
     },
+    6471: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "647",
+                destination: "",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    " ",
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "647",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    6472: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "647",
+                destination: "",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    " ",
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "647",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    6481: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "648",
+                destination: "",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    " ",
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "648",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    6482: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "648",
+                destination: "",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    " ",
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "648",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    6491: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "649",
+                destination: "",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    " ",
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "649",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    6492: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "649",
+                destination: "",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    " ",
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "649",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
     6651: { // Done
         1: {
             front: {
@@ -4098,6 +4266,46 @@ EDSData.SMRT = {
             }
         }
     },    
+    6841: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "684",
+                destination: "",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    " ",
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "684",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    6842: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "684",
+                destination: "",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    " ",
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "684",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
     7051: { // Bomb
         1: {
             front: {

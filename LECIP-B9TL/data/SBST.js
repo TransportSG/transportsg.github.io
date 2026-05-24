@@ -19658,6 +19658,38 @@ EDSData.SBST = {
             }
         }
     },
+    646: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "646",
+                branding: "CITY DIRECT",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "646",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "646",
+                branding: "CITY DIRECT",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "646",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
     652: {
         1: {
             front: {
