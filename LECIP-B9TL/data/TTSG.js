@@ -6415,12 +6415,12 @@ EDSData.TTSG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "965",
-                destination: "SENGKANG",
+                destination: "BUANGKOK",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [                    
                 {
                     renderType: "destScroll",
-                    top: "SENGKANG",
+                    top: "BUANGKOK",
                     topFont: "Hanover-17:11",
         
                     serviceNumber: "965"
@@ -6494,6 +6494,68 @@ EDSData.TTSG = {
                 renderType: "rearService",
                 serviceNumber: "965A",
                 font: "LECIP-TowerRear17:7",
+                spacing: 1
+            }
+        }
+    },
+    "965S": { // Add Big Number
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "965",
+                destination: "SENGKANG",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                {
+                    renderType: "destScroll",
+                    top: "SENGKANG",
+                    topFont: "Hanover-17:11",
+        
+                    serviceNumber: "965"
+                },
+                {
+                    renderType: "message",
+                    text: "965",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "965",
+                font: "LECIP-TowerRear17:10",
+                spacing: 1
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "965",
+                destination: "WOODLANDS TEMP INT",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                {
+                    renderType: "destScroll",
+                    top: "WOODLANDS TEMP INT",
+                    topFont: "Hanover-14:6",
+            
+                    serviceNumber: "965"
+                },
+                {
+                    renderType: "message",
+                    text: "965",
+                    font: "LECIP-19:TowerBigNumber",
+                    spacing: 12
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "965",
+                font: "LECIP-TowerRear17:10",
                 spacing: 1
             }
         }
