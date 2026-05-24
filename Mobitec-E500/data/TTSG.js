@@ -144,7 +144,7 @@ EDSFormats.TTSG = {
                 }
             },
             margin: {
-                right: 'width(serviceNumber) - width(image)'
+                right: 'width(serviceNumber) - width(image)',
             }
         },
         bottom: {
@@ -1646,7 +1646,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "173A",
-                    top: "B.B.|EAST|AVE|4",
+                    top: "B.B|EAST|AVE|4",
                     topFont: "Mobitec-Tower11New2"
                 }
             ]
@@ -1722,7 +1722,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "183B",
                     top: "TOH TUCK AVE",
-                    // topFont: "Mobitec-Tower12New"
+                    topFont: "Mobitec-Tower11New2"
                 }
             ]
         }
@@ -2082,7 +2082,7 @@ EDSData.TTSG = {
             destination: "JALAN ANAK BUKIT",
             scrolls: [
                 {
-                    renderType: "destScroll",
+                    renderType: "destScroll3",
                     serviceNumber: "452",
                     top: "BEAUTY|WORLD|MRT",
                     topFont: "Mobitec-Tower11New1"
@@ -4070,13 +4070,13 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "872",
-            destination: "JUR EAST ST 32",
+            destination: "JURONG EAST ST 32",
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "872",
-                    top: "JUR|EAST|ST|32",
-                    topFont: "Mobitec-Tower11New2"
+                    top: "JURONG|EAST|ST|32",
+                    topFont: "Mobitec-Tower11New1"
                 }
             ]
         }
@@ -4240,7 +4240,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "941",
-                    top: "B.B. WEST AVE 9",
+                    top: "B.B WEST AVE 9",
                     topFont: "Mobitec-Tower11New2"
                 }
             ]
@@ -4390,12 +4390,12 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "965",
-            destination: "SENGKANG",
+            destination: "BUANGKOK",
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "965",
-                    top: "SENGKANG",
+                    top: "BUANGKOK",
                     topFont: "Mobitec-Tower12New"
                 }
             ]
@@ -4431,7 +4431,22 @@ EDSData.TTSG = {
             ]
         }
     },
-    9654: {
+    9658: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "965",
+            destination: "SENGKANG",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "965",
+                    top: "SENGKANG",
+                    topFont: "Mobitec-Tower12New"
+                }
+            ]
+        }
+    },    
+    9659: {
         front: {
             renderType: "standardService",
             serviceNumber: "965T",
@@ -4441,21 +4456,6 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "965T",
                     top: "SENGKANG",
-                    topFont: "Mobitec-Tower12New"
-                }
-            ]
-        }
-    },
-    9659: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "965",
-            destination: "BUANGKOK",
-            scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "965",
-                    top: "BUANGKOK",
                     topFont: "Mobitec-Tower12New"
                 }
             ]
