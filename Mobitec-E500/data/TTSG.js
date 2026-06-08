@@ -1070,7 +1070,7 @@ EDSData.TTSG = {
                 {
                     renderType: "ExpressdestScroll",
                     serviceNumber: "97e",
-                    top: "EXPRESS",
+                    top: "~",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "RAFFLES BLVD",
                     bottomFont: "Mobitec-Tower9New",
@@ -1087,7 +1087,7 @@ EDSData.TTSG = {
                 {
                     renderType: "ExpressdestScroll",
                     serviceNumber: "97e",
-                    top: "EXPRESS",
+                    top: "~",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "TENGAH",
                     bottomFont: "Mobitec-Tower9New",
@@ -1587,7 +1587,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "171",
                     top: "BT PANJANG MRT",
-                    // topFont: "Mobitec-Tower12New"
+                    topFont: "Mobitec-Tower11New2"
                 }
             ]
         }
@@ -1953,8 +1953,8 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "335",
-                    top: "JUR WEST ST 41",
-                    topFont: "Mobitec-Tower11New2"
+                    top: "JURONG?WEST?ST?41",
+                    topFont: "Mobitec-Tower11New1"
                 }
             ]
         }
@@ -3517,7 +3517,7 @@ EDSData.TTSG = {
                 {
                     renderType: "ExpressdestScroll",
                     serviceNumber: "854e",
-                    top: "EXPRESS",
+                    top: "~",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "BEDOK",
                     bottomFont: "Mobitec-Tower9New",
@@ -4361,7 +4361,7 @@ EDSData.TTSG = {
                 {
                     renderType: "ExpressdestScroll",
                     serviceNumber: "963e",
-                    top: "EXPRESS",
+                    top: "~",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "HARBOURFRONT",
                     bottomFont: "Mobitec-Tower9New",
@@ -4378,7 +4378,7 @@ EDSData.TTSG = {
                 {
                     renderType: "ExpressdestScroll",
                     serviceNumber: "963e",
-                    top: "EXPRESS",
+                    top: "~",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "WOODLANDS",
                     bottomFont: "Mobitec-Tower9New",
