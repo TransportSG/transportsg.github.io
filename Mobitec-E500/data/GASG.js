@@ -251,7 +251,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "2",
             destination: {
-                text: "KAMPONG BAHRU",
+                text: "Kampong Bahru",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -270,7 +270,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "2",
             destination: {
-                text: "CHANGI VILLAGE",
+                text: "Changi Village",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -289,7 +289,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "2B",
             destination: {
-                text: "BEDOK MRT",
+                text: "Bedok MRT",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -310,7 +310,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "3",
             destination: {
-                text: "TAMPINES",
+                text: "Tampines",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -329,7 +329,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "3",
             destination: {
-                text: "PUNGGOL",
+                text: "Punggol",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -348,7 +348,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "3A",
             destination: {
-                text: "PASIR RIS DR 12",
+                text: "Pasir Ris Drive 12",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -377,7 +377,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "6",
             destination: {
-                text: "PASIR RIS",
+                text: "Pasir Ris",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -396,7 +396,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "12",
             destination: {
-                text: "KAMPONG BAHRU",
+                text: "Kampong Bahru",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -415,7 +415,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "12",
             destination: {
-                text: "PASIR RIS",
+                text: "Pasir Ris",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -434,7 +434,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "12e",
             destination: {
-                text: "KAMPONG BAHRU",
+                text: "Kampong Bahru",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -456,7 +456,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "12e",
             destination: {
-                text: "PASIR RIS",
+                text: "Pasir Ris",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -475,7 +475,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "15",
             destination: {
-                text: "MARINE PARADE",
+                text: "Marine Parade",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -494,7 +494,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "15",
             destination: {
-                text: "PASIR RIS",
+                text: "Pasir Ris",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -513,7 +513,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "15A",
             destination: {
-                text: "JLN EUNOS",
+                text: "Jalan Eunos",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -538,7 +538,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "17",
             destination: {
-                text: "BEDOK",
+                text: "Bedok",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -557,7 +557,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "17",
             destination: {
-                text: "PASIR RIS",
+                text: "Pasir Ris",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -576,7 +576,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "17A",
             destination: {
-                text: "BEDOK NORTH AVE 4",
+                text: "Bedok North Ave 4",
                 font: "Mobitec-7:5:2"
             },
             scrolls: [
@@ -602,7 +602,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "34",
             destination: {
-                text: "CHANGI AIRPORT",
+                text: "Changi Airport",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -621,7 +621,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "34",
             destination: {
-                text: "PUNGGOL COAST",
+                text: "Punggol Coast",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -640,7 +640,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "34A",
             destination: {
-                text: "TAMPINES AVE 5",
+                text: "Tampines Ave 5",
                 font: "Mobitec-7:5:2"
             },
             scrolls: [
@@ -666,7 +666,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "34B",
             destination: {
-                text: "TAMPINES AVE 10",
+                text: "Tampines Ave 5",
                 font: "Mobitec-7:5:2"
             },
             scrolls: [
@@ -692,7 +692,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "36",
             destination: {
-                text: "TOMLINSON RD",
+                text: "Tomlinson Rd",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -711,7 +711,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "36",
             destination: {
-                text: "CHANGI AIRPORT",
+                text: "Changi Airport",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -730,7 +730,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "36A",
             destination: {
-                text: "TOMLINSON RD",
+                text: "Tomlinson Rd",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -755,7 +755,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "36B",
             destination: {
-                text: "SIGLAP RD",
+                text: "Siglap Rd",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -781,7 +781,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "36T",
             destination: {
-                text: "CHANGI AIRPORT T2",
+                text: "Ends at Changi Airport T2",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -801,7 +801,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "43",
             destination: {
-                text: "UPPER EAST COAST",
+                text: "Upper East Coast",
                 font: "Mobitec-7:5:3"
             },
             scrolls: [
@@ -820,7 +820,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "43",
             destination: {
-                text: "PUNGGOL",
+                text: "Punggol",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -834,12 +834,33 @@ EDSData.GASG = {
             scrollFont: "Mobitec-7:4"
         }
     },
+    433: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "43A",
+            destination: {
+                text: "Serangoon MRT",
+                font: "Mobitec-7:5:3"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "43A",
+                    top: "TERMINATING AT",
+                    topFont: "Mobitec-7:4",
+                    bottom: "S'GOON STN EXIT C/BLK 201",
+                    bottomFont: "Hanover-7:3",
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
     434: {
         front: {
             renderType: "standardService",
             serviceNumber: "43e",
             destination: {
-                text: "MARINE PARADE",
+                text: "Marine Parade",
                 font: "Mobitec-7:4"
             },
             scrolls: [
@@ -862,33 +883,12 @@ EDSData.GASG = {
             scrollFont: "Mobitec-7:4"
         }
     },
-    433: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "43A",
-            destination: {
-                text: "SERANGOON STN",
-                font: "Mobitec-7:5:3"
-            },
-            scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "43A",
-                    top: "",
-                    topFont: "Mobitec-7:5:2",
-                    bottom: " ",
-                    bottomFont: "Mobitec-7:5:2",
-                },
-            ],
-            scrollFont: "Mobitec-7:4"
-        }
-    },
     435: {
         front: {
             renderType: "standardService",
             serviceNumber: "43e",
             destination: {
-                text: "PUNGGOL",
+                text: "Punggol",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -908,7 +908,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "43M",
             destination: {
-                text: "SERANGOON MRT",
+                text: "Serangoon MRT",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -927,7 +927,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "43M",
             destination: {
-                text: "PUNGGOL",
+                text: "Punggol",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -946,7 +946,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "44",
             destination: {
-                text: "AIRPORT BLVD",
+                text: "Airport Blvd",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -965,7 +965,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "44",
             destination: {
-                text: "PUNGGOL COAST",
+                text: "Punggol Coast",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -984,7 +984,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "62",
             destination: {
-                text: "SIMS AVE",
+                text: "Sims Ave",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -1003,7 +1003,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "62",
             destination: {
-                text: "PUNGGOL",
+                text: "Punggol",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -1022,7 +1022,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "62A",
             destination: {
-                text: "ALJUNIED MRT",
+                text: "Aljuned MRT",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -1041,7 +1041,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "68",
             destination: {
-                text: "TAMPINES",
+                text: "Tampines",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -1060,7 +1060,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "68",
             destination: {
-                text: "PASIR RIS",
+                text: "Pasir Ris",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -1079,7 +1079,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "68A",
             destination: {
-                text: "TAMPINES INT",
+                text: "Ends at Tampines Int",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -1098,7 +1098,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "68B",
             destination: {
-                text: "TAMPINES AVE 11",
+                text: "Tampines Ave 11",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -1123,7 +1123,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "82",
             destination: {
-                text: "SERANGOON MRT",
+                text: "Serangoon MRT",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -1142,7 +1142,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "82",
             destination: {
-                text: "PUNGGOL",
+                text: "Punggol",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -1161,7 +1161,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "83",
             destination: {
-                text: "SENGKANG",
+                text: "Sengkang",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -1180,7 +1180,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "83",
             destination: {
-                text: "PUNGGOL",
+                text: "Punggol",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -1199,7 +1199,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "83T",
             destination: {
-                text: "ENDS AT SENGKANG INT",
+                text: "Ends at Sengkang Int",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -1270,7 +1270,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "85",
             destination: {
-                text: "YISHUN",
+                text: "Yishun",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -1289,7 +1289,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "85",
             destination: {
-                text: "PUNGGOL",
+                text: "Punggol",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -1308,7 +1308,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "85A",
             destination: {
-                text: "SENGKANG EAST RD",
+                text: "Sengkang East Rd",
                 font: "Mobitec-7:5:3"
             },
             scrolls: [
@@ -1349,7 +1349,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "104",
             destination: {
-                text: "WOODLEIGH",
+                text: "Woodleigh",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -1368,7 +1368,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "104",
             destination: {
-                text: "PUNGGOL COAST",
+                text: "Punggol Coast",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -1387,7 +1387,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "118",
             destination: {
-                text: "CHANGI BUSINESS PARK",
+                text: "Changi Business Park",
                 font: "Mobitec-7:5:3"
             },
             scrolls: [
@@ -1406,7 +1406,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "118",
             destination: {
-                text: "PUNGGOL",
+                text: "Punggol",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -1426,7 +1426,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "118A",
             destination: {
-                text: "SIMEI AVE",
+                text: "Simei Ave",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -1452,7 +1452,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "118B",
             destination: {
-                text: "TPE (PUNGGOL RD)",
+                text: "TPE (Punggol Rd)",
                 font: "Mobitec-7:5:1"
             },
             scrolls: [
@@ -1473,7 +1473,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "119",
             destination: {
-                text: "KOVAN",
+                text: "Kovan",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -1493,7 +1493,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "119",
             destination: {
-                text: "PUNGGOL",
+                text: "Punggol",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -1512,7 +1512,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "136",
             destination: {
-                text: "ANG MO KIO",
+                text: "Ang Mo Kio",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -1531,7 +1531,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "136",
             destination: {
-                text: "PUNGGOL",
+                text: "Punggol",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -1550,7 +1550,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "",
             destination: {
-                text: "WELCOME PAGE",
+                text: "Welcome Page",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -1598,7 +1598,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "354",
             destination: {
-                text: "PASIR RIS INT",
+                text: "Pasir Ris",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -1617,7 +1617,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "358",
             destination: {
-                text: "PASIR RIS INT",
+                text: "Pasir Ris",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -1637,7 +1637,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "358T",
             destination: {
-                text: "ENDS AT PASIR RIS INT",
+                text: "Ends at Pasir Ris Int",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -1656,7 +1656,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "359",
             destination: {
-                text: "PASIR RIS INT",
+                text: "Pasir Ris Int",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -1675,7 +1675,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "359T",
             destination: {
-                text: "ENDS AT PASIR RIS INT",
+                text: "Ends at Pasir Ris Int",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -1694,7 +1694,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "381",
             destination: {
-                text: "PUNGGOL INT",
+                text: "Punggol",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -1713,7 +1713,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "382G",
             destination: {
-                text: "PUNGGOL INT via Sumang Lane",
+                text: "Punggol Int via Sumang Lane",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -1738,7 +1738,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "382W",
             destination: {
-                text: "PUNGGOL INT via Sentul Cres",
+                text: "Punggol Int via Sentul Cres",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -1763,7 +1763,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "382A",
             destination: {
-                text: "SUMANG LANE",
+                text: "Sumang Lane",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -1792,7 +1792,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "384",
             destination: {
-                text: "PUNGGOL INT",
+                text: "Punggol",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -1811,7 +1811,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "386",
             destination: {
-                text: "PUNGGOL INT",
+                text: "Punggol",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -1830,7 +1830,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "386A",
             destination: {
-                text: "EDGEDALE PLAINS",
+                text: "Edgedale Plains",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -1856,7 +1856,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "403",
             destination: {
-                text: "PASIR RIS INT",
+                text: "Pasir Ris",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -1882,14 +1882,14 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "459",
             destination: {
-                text: "TAI SENG STN",
+                text: "Tai Seng MRT",
                 font: "Mobitec-7:5:3"
             },
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "459",
-                    top: "Tai Seng",
+                    top: "Tai Seng MRT",
                     topFont: "Mobitec-13:8"
                 },
             ],
@@ -1901,14 +1901,14 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "459",
             destination: {
-                text: "PUNGGOL",
+                text: "Punggol MRT",
                 font: "Mobitec-7:7"
             },
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "459",
-                    top: "Punggol",
+                    top: "Punggol MRT",
                     topFont: "Mobitec-13:8"
                 },
 
@@ -1921,7 +1921,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "518",
             destination: {
-                text: "BAYFRONT",
+                text: "Bayfront",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -1940,7 +1940,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "518",
             destination: {
-                text: "PASIR RIS",
+                text: "Pasir Ris",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -1960,7 +1960,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "518A",
             destination: {
-                text: "BAYFRONT",
+                text: "Bayfront",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -2011,7 +2011,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "661",
             destination: {
-                text: "MARINA BLVD",
+                text: "Marina Blvd",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -2033,7 +2033,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "661",
             destination: {
-                text: "PASIR RIS DR 3",
+                text: "Pasir Ris Drive 3",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -2055,7 +2055,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "666",
             destination: {
-                text: "TEMASEK BLVD",
+                text: "Temasek Blvd",
                 font: "Mobitec-7:5:2"
             },
             scrolls: [
@@ -2078,7 +2078,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "666",
             destination: {
-                text: "DAMAI LRT",
+                text: "Damai LRT",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -2120,7 +2120,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "673",
             destination: {
-                text: "TEMASEK BLVD",
+                text: "Temasek Blvd",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -2142,7 +2142,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "673",
             destination: {
-                text: "PUNGGOL POINT",
+                text: "Punggol Point",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -2164,7 +2164,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "678",
             destination: {
-                text: "TEMASEK BLVD",
+                text: "Temasek Blvd",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -2186,7 +2186,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "678",
             destination: {
-                text: "PUNGGOL CENTRAL",
+                text: "Punggol Central",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -2208,7 +2208,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "683",
             destination: {
-                text: "MOULMEIN RD",
+                text: "Moulmein Rd",
                 font: "Mobitec-7:7"
             },
             scrolls: [
@@ -2230,7 +2230,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "683",
             destination: {
-                text: "PUNGGOL CENTRAL",
+                text: "Punggol Central",
                 font: "Mobitec-7:7"
             },
             scrolls: [
