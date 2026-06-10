@@ -1361,7 +1361,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "",
                     top: "Off Service",
-                    topFont: "Hanover-Tower16:10",
+                    topFont: "Mobitec-Tower16New",
                     image: "logo",
                 },
             ]
@@ -1780,10 +1780,10 @@ EDSData.TTSG = {
             destFont: "Mobitec-7:7",
             scrolls: [
                 {
-                    renderType: "message",
-                    text: "Spare Bus",
-                    font: "Hanover-Tower16:10",
-                    spacing: 2
+                    renderType: "destScroll",
+                    serviceNumber: " ",
+                    top: "Spare Bus",
+                    topFont: "Mobitec-Tower14New",
                 },
             ]
         }
@@ -2067,10 +2067,11 @@ EDSData.TTSG = {
             destFont: "Mobitec-7:7",
             scrolls: [
                 {
-                    renderType: "message",
-                    text: "On Test",
-                    font: "Hanover-Tower16:10",
-                    spacing: 2
+                    renderType: "destScroll",
+                    serviceNumber: "!",
+                    top: "On Test",
+                    topFont: "Mobitec-Tower16New",
+                    image: "warning",
                 },
             ]
         }
@@ -2770,10 +2771,10 @@ EDSData.TTSG = {
             destFont: "Mobitec-7:7",
             scrolls: [
                 {
-                    renderType: "message",
-                    text: "Training  Bus",
-                    font: "TTS-16:9",
-                    spacing: 2
+                    renderType: "destScroll",
+                    serviceNumber: " ",
+                    top: "Training Bus",
+                    topFont: "Mobitec-Tower14New",
                 },
             ]
         }
