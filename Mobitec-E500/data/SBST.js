@@ -201,7 +201,8 @@ EDSFormats.SBST = {
         branding: {
             align: "middle",
             margin: {
-                left: 0
+                left: "0",
+                top: "1",
             },
             text: "$branding",
             font: "$font",
@@ -3820,15 +3821,16 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "71A",
             destination: {
-                text: "BISHAN STN",
-                font: "Mobitec-7:5:2"
+                text: "OPP BISHAN STN",
+                font: "Mobitec-7:4"
             },
             scrolls: [
             {
-                renderType: "destScroll",
+                renderType: "brandedSvc2",
                 serviceNumber: "71A",
-                top: "OPP BISHAN STN",
-                topFont: "LECIP-14:6",
+                branding: "OPP BISHAN STN",
+                font: "Mobitec-13:7",
+                spacing: 1
             },
             ],
             scrollFont: "Mobitec-6:5"
@@ -5214,7 +5216,7 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "107",
             destination: {
-                text: "> HOUGANG CENTRAL INT",
+                text: "> HOUGANG CTRL INT",
                 font: "Mobitec-7:5:2"
             },
             scrolls: [
@@ -5228,6 +5230,46 @@ EDSData.SBST = {
         }
     },
     1077: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "107M",
+            destination: {
+                text: "MARINA CTR TER",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+            {
+                renderType: "brandedSvc2",
+                serviceNumber: "107M",
+                branding: "MARINA CTR TER",
+                font: "Mobitec-13:7",
+                spacing: 1
+            },
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    1078: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "107M",
+            destination: {
+                text: "HOUGANG CTRL INT",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+            {
+                renderType: "brandedSvc2",
+                serviceNumber: "107M",
+                branding: "HOUGANG CTRL",
+                font: "Mobitec-13:7",
+                spacing: 1
+            },
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    1079: {
         front: {
             renderType: "standardService",
             serviceNumber: "107M",
@@ -5454,10 +5496,11 @@ EDSData.SBST = {
             },
             scrolls: [
             {
-                renderType: "destScroll",
+                renderType: "brandedSvc2",
                 serviceNumber: "114",
-                top: "YIO  CHU  KANG  INT",
-                topFont: "LECIP-14:6",
+                branding: "YIO CHU KANG INT",
+                font: "Mobitec-13:7",
+                spacing: 1
             },
             ],
             scrollFont: "Mobitec-6:5"
@@ -5473,10 +5516,11 @@ EDSData.SBST = {
             },
             scrolls: [
             {
-                renderType: "destScroll",
+                renderType: "brandedSvc2",
                 serviceNumber: "114",
-                top: "BUANGKOK  INT",
-                topFont: "LECIP-14:6",
+                branding: "BUANGKOK INT",
+                font: "Mobitec-13:7",
+                spacing: 1
             },
             ],
             scrollFont: "Mobitec-6:5"
@@ -6914,34 +6958,62 @@ EDSData.SBST = {
     },
     1461: {
         front: {
-            renderType: "destScroll",
+            renderType: "standardService",
             serviceNumber: "146",
-            top: "KOVAN HUB",
-            topFont: "Mobitec-16:8",
+            destination: {
+                text: "KOVAN HUB",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+            {
+                renderType: "brandedSvc2",
+                serviceNumber: "146",
+                branding: "KOVAN HUB",
+                font: "Mobitec-13:7",
+                spacing: 1
+            },
+            ],
+            scrollFont: "Mobitec-6:5"
         }
     },
     1462: {
         front: {
-            renderType: "destScroll",
+            renderType: "standardService",
             serviceNumber: "146",
-            top: "WOODLEIGH INT",
-            topFont: "Mobitec-16:8",
-        }
-    },
-    1467: {
-        front: {
-            renderType: "destScroll",
-            serviceNumber: "146",
-            top: "BARTLEY  RD",
-            topFont: "LECIP-14:6",
+            destination: {
+                text: "WOODLEIGH INT",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+            {
+                renderType: "brandedSvc2",
+                serviceNumber: "146",
+                branding: "WOODLEIGH INT",
+                font: "Mobitec-13:7",
+                spacing: 1
+            },
+            ],
+            scrollFont: "Mobitec-6:5"
         }
     },
     1468: {
         front: {
-            renderType: "destScroll",
+            renderType: "standardService",
             serviceNumber: "146",
-            top: "WOODLEIGH  INT",
-            topFont: "LECIP-14:6",
+            destination: {
+                text: "BARTLEY RD",
+                font: "Mobitec-7:4"
+            },
+            scrolls: [
+            {
+                renderType: "brandedSvc2",
+                serviceNumber: "146",
+                branding: "BARTLEY RD",
+                font: "Mobitec-13:7",
+                spacing: 1
+            },
+            ],
+            scrollFont: "Mobitec-6:5"
         }
     },
     1469: {
@@ -10650,10 +10722,11 @@ EDSData.SBST = {
             },
             scrolls: [
             {
-                renderType: "destScroll",
+                renderType: "brandedSvc2",
                 serviceNumber: "457",
-                top: "TAI SENG STN",
-                topFont: "Mobitec-16:8",
+                branding: "TAI SENG STN",
+                font: "Mobitec-13:7",
+                spacing: 1
             },
             ],
             scrollFont: "Mobitec-6:5"
@@ -10669,10 +10742,11 @@ EDSData.SBST = {
             },
             scrolls: [
             {
-                renderType: "destScroll",
+                renderType: "brandedSvc2",
                 serviceNumber: "457",
-                top: "HOUGANG  CTRL  INT",
-                topFont: "LECIP-14:6",
+                branding: "HOUGANG CTRL",
+                font: "Mobitec-13:7",
+                spacing: 1
             },
             ],
             scrollFont: "Mobitec-6:5"
@@ -10688,10 +10762,11 @@ EDSData.SBST = {
             },
             scrolls: [
             {
-                renderType: "destScroll",
+                renderType: "brandedSvc2",
                 serviceNumber: "458",
-                top: "TAI SENG STN",
-                topFont: "Mobitec-16:8",
+                branding: "TAI SENG STN",
+                font: "Mobitec-13:7",
+                spacing: 1
             },
             ],
             scrollFont: "Mobitec-6:5"
@@ -10707,15 +10782,16 @@ EDSData.SBST = {
             },
             scrolls: [
             {
-                renderType: "destScroll",
+                renderType: "brandedSvc2",
                 serviceNumber: "458",
-                top: "SENGKANG STN",
-                topFont: "Mobitec-16:8",
+                branding: "SENGKANG STN",
+                font: "Mobitec-13:7",
+                spacing: 1
             },
             ],
             scrollFont: "Mobitec-6:5"
         }
-    },
+    },    
     4601: {
         front: {
             renderType: "standardService",
@@ -10832,14 +10908,6 @@ EDSData.SBST = {
             renderType: "message",
             text: "TRAINING BUS",
             font: "Mobitec-16:8",
-            spacing: 1
-        }
-    },
-    5556: {
-        front: {
-            renderType: "message",
-            text: "TRAINING IN PROGRESS",
-            font: "Mobitec-7:7",
             spacing: 1
         }
     },
