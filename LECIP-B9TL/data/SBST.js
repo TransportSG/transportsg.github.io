@@ -1308,7 +1308,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "5A",
-                destination: " ",
+                destination: "UPP CHANGI RD EAST",
                 destinationFont: "LECIP-10",
                 scrolls: 
                 [
@@ -1323,7 +1323,7 @@ EDSData.SBST = {
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "5",
+                serviceNumber: "5A",
                 font: "LECIP-20:12",
                 spacing: 2
             }
@@ -1361,30 +1361,6 @@ EDSData.SBST = {
             }
         },
         2: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "5B",
-                destination: "MARIAM WAY",
-                destinationFont: "LECIP-10",
-                scrolls: [{
-                    renderType: "swt",
-                    serviceNumber: "5B",
-                    terminateAt: "MARIAM WAY",
-                    landmark: "(BEF MARIAM WK)"
-                },
-                ],
-                scrollFont: "LECIP-7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "5B",
-                font: "LECIP-20:12",
-                spacing: 2
-            }
-        }
-    },
-    "5C": {
-        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "5B",
@@ -18197,14 +18173,23 @@ EDSData.SBST = {
             }
         }
     },
-    532: {
+    "532": {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "532",
-                branding: "PREMIUM",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "PREMIUM",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "532",
+                    branding: "PREMIUM",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -18214,14 +18199,23 @@ EDSData.SBST = {
             }
         }
     },
-    533: {
+    "533": {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "533",
-                branding: "PREMIUM",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "PREMIUM",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "533",
+                    branding: "PREMIUM",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -18231,14 +18225,23 @@ EDSData.SBST = {
             }
         }
     },
-    534: {
+    "534": {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "534",
-                branding: "PREMIUM",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "PREMIUM",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "534",
+                    branding: "PREMIUM",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -18248,14 +18251,23 @@ EDSData.SBST = {
             }
         }
     },
-    535: {
+    "535": {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "535",
-                branding: "PREMIUM",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "PREMIUM",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "535",
+                    branding: "PREMIUM",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -18265,14 +18277,23 @@ EDSData.SBST = {
             }
         }
     },
-    536: {
+    "536": {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "536",
-                branding: "PREMIUM",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "PREMIUM",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "536",
+                    branding: "PREMIUM",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -18282,14 +18303,23 @@ EDSData.SBST = {
             }
         }
     },
-    537: {
+    "537": {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "537",
-                branding: "PREMIUM",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "PREMIUM",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "537",
+                    branding: "PREMIUM",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -18299,14 +18329,23 @@ EDSData.SBST = {
             }
         }
     },
-    538: {
+    "538": {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "538",
-                branding: "PREMIUM",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "PREMIUM",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "538",
+                    branding: "PREMIUM",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -18316,14 +18355,23 @@ EDSData.SBST = {
             }
         }
     },
-    539: {
+    "539": {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "539",
-                branding: "PREMIUM",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "PREMIUM",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "539",
+                    branding: "PREMIUM",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -18333,14 +18381,23 @@ EDSData.SBST = {
             }
         }
     },
-    540: {
+    "540": {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "540",
-                branding: "PREMIUM",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "PREMIUM",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "540",
+                    branding: "PREMIUM",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -18350,14 +18407,23 @@ EDSData.SBST = {
             }
         }
     },
-    542: {
+    "542": {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "542",
-                branding: "PREMIUM",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "PREMIUM",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "542",
+                    branding: "PREMIUM",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -18367,14 +18433,23 @@ EDSData.SBST = {
             }
         }
     },
-    543: {
+    "543": {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "543",
-                branding: "PREMIUM",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "PREMIUM",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "543",
+                    branding: "PREMIUM",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -18384,14 +18459,23 @@ EDSData.SBST = {
             }
         }
     },
-    544: {
+    "544": {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "544",
-                branding: "PREMIUM",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "PREMIUM",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "544",
+                    branding: "PREMIUM",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -18401,14 +18485,23 @@ EDSData.SBST = {
             }
         }
     },
-    545: {
+    "545": {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "545",
-                branding: "PREMIUM",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "PREMIUM",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "545",
+                    branding: "PREMIUM",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -18418,14 +18511,23 @@ EDSData.SBST = {
             }
         }
     },
-    548: {
+    "540": {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "548",
-                branding: "PREMIUM",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "PREMIUM",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "548",
+                    branding: "PREMIUM",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -18435,14 +18537,23 @@ EDSData.SBST = {
             }
         }
     },
-    549: {
+    "549": {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "549",
-                branding: "PREMIUM",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "PREMIUM",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "549",
+                    branding: "PREMIUM",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -18452,14 +18563,23 @@ EDSData.SBST = {
             }
         }
     },
-    550: {
+    "550": {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "550",
-                branding: "PREMIUM",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "PREMIUM",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "550",
+                    branding: "PREMIUM",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -18529,14 +18649,23 @@ EDSData.SBST = {
             }
         }
     },
-    552: {
+    "552": {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "552",
-                branding: "PREMIUM",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "PREMIUM",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "552",
+                    branding: "PREMIUM",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -18546,14 +18675,23 @@ EDSData.SBST = {
             }
         }
     },
-    553: {
+    "553": {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "553",
-                branding: "PREMIUM",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "PREMIUM",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "553",
+                    branding: "PREMIUM",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -18563,14 +18701,23 @@ EDSData.SBST = {
             }
         }
     },
-    554: {
+    "554": {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "554",
-                branding: "PREMIUM",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "PREMIUM",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "554",
+                    branding: "PREMIUM",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -18580,14 +18727,23 @@ EDSData.SBST = {
             }
         }
     },
-    555: {
+    "555": {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "555",
-                branding: "PREMIUM",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "PREMIUM",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "555",
+                    branding: "PREMIUM",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -18597,14 +18753,23 @@ EDSData.SBST = {
             }
         }
     },
-    556: {
+    "556": {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "556",
-                branding: "PREMIUM",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "PREMIUM",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "556",
+                    branding: "PREMIUM",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -18614,14 +18779,23 @@ EDSData.SBST = {
             }
         }
     },
-    557: {
+    "557": {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "557",
-                branding: "PREMIUM",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "PREMIUM",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "557",
+                    branding: "PREMIUM",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -18631,14 +18805,23 @@ EDSData.SBST = {
             }
         }
     },
-    558: {
+    "558": {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "558",
-                branding: "PREMIUM",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "PREMIUM",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "558",
+                    branding: "PREMIUM",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -18648,14 +18831,23 @@ EDSData.SBST = {
             }
         }
     },
-    559: {
+    "559": {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "559",
-                branding: "PREMIUM",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "PREMIUM",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "559",
+                    branding: "PREMIUM",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -18665,14 +18857,23 @@ EDSData.SBST = {
             }
         }
     },
-    560: {
+    "560": {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "560",
-                branding: "PREMIUM",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "PREMIUM",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "560",
+                    branding: "PREMIUM",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -18682,14 +18883,23 @@ EDSData.SBST = {
             }
         }
     },
-    561: {
+    "561": {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "561",
-                branding: "PREMIUM",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "PREMIUM",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "561",
+                    branding: "PREMIUM",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -18699,14 +18909,23 @@ EDSData.SBST = {
             }
         }
     },
-    563: {
+    "563": {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "563",
-                branding: "PREMIUM",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "PREMIUM",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "563",
+                    branding: "PREMIUM",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -18716,14 +18935,23 @@ EDSData.SBST = {
             }
         }
     },
-    564: {
+    "564": {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "564",
-                branding: "PREMIUM",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "PREMIUM",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "564",
+                    branding: "PREMIUM",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -18733,14 +18961,23 @@ EDSData.SBST = {
             }
         }
     },
-    565: {
+    "565": {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "565",
-                branding: "PREMIUM",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "PREMIUM",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "565",
+                    branding: "PREMIUM",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -18750,14 +18987,23 @@ EDSData.SBST = {
             }
         }
     },
-    566: {
+    "566": {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "566",
-                branding: "PREMIUM",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "PREMIUM",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "566",
+                    branding: "PREMIUM",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -18767,14 +19013,23 @@ EDSData.SBST = {
             }
         }
     },
-    569: {
+    "569": {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "569",
-                branding: "PREMIUM",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "PREMIUM",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "569",
+                    branding: "PREMIUM",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -19295,14 +19550,23 @@ EDSData.SBST = {
             }
         }
     },
-    585: {
+    "585": {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "585",
-                branding: "PREMIUM",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "PREMIUM",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "585",
+                    branding: "PREMIUM",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -19312,18 +19576,27 @@ EDSData.SBST = {
             }
         }
     },
-    761: {
+    "761": {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "761",
-                branding: "PREMIUM",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "PREMIUM",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "761",
+                    branding: "PREMIUM",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "761",
+                serviceNumber: "560",
                 font: "LECIP-20:9",
                 spacing: 2
             }
@@ -19332,9 +19605,18 @@ EDSData.SBST = {
     601: {
         1: {
             front: {
-                renderType: 'on-demand',
-                serviceNumber: 'JK-1',
-                area: '(JOO KOON)'
+                renderType: "standardService",
+                serviceNumber: "601",
+                destination: "JK-1",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: 'on-demand',
+                    serviceNumber: 'JK-1',
+                    area: '(JOO KOON)'
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -19347,9 +19629,18 @@ EDSData.SBST = {
     602: {
         1: {
             front: {
-                renderType: 'on-demand',
-                serviceNumber: 'JK-2',
-                area: '(JOO KOON)'
+                renderType: "standardService",
+                serviceNumber: "602",
+                destination: "JK-2",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: 'on-demand',
+                    serviceNumber: 'JK-2',
+                    area: '(JOO KOON)'
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -19362,9 +19653,18 @@ EDSData.SBST = {
     603: {
         1: {
             front: {
-                renderType: 'on-demand',
-                serviceNumber: 'JK-3',
-                area: '(JOO KOON)'
+                renderType: "standardService",
+                serviceNumber: "603",
+                destination: "JK-3",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: 'on-demand',
+                    serviceNumber: 'JK-3',
+                    area: '(JOO KOON)'
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -19377,9 +19677,18 @@ EDSData.SBST = {
     604: {
         1: {
             front: {
-                renderType: 'on-demand',
-                serviceNumber: 'JK-4',
-                area: '(JOO KOON)'
+                renderType: "standardService",
+                serviceNumber: "604",
+                destination: "JK-4",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: 'on-demand',
+                    serviceNumber: 'JK-4',
+                    area: '(JOO KOON)'
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -19392,9 +19701,18 @@ EDSData.SBST = {
     605: {
         1: {
             front: {
-                renderType: 'on-demand',
-                serviceNumber: 'JK-5',
-                area: '(JOO KOON)'
+                renderType: "standardService",
+                serviceNumber: "605",
+                destination: "JK-5",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: 'on-demand',
+                    serviceNumber: 'JK-5',
+                    area: '(JOO KOON)'
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -19407,9 +19725,18 @@ EDSData.SBST = {
     606: {
         1: {
             front: {
-                renderType: 'on-demand',
-                serviceNumber: 'JK-6',
-                area: '(JOO KOON)'
+                renderType: "standardService",
+                serviceNumber: "606",
+                destination: "JK-6",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: 'on-demand',
+                    serviceNumber: 'JK-6',
+                    area: '(JOO KOON)'
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -19422,9 +19749,18 @@ EDSData.SBST = {
     607: {
         1: {
             front: {
-                renderType: 'on-demand',
-                serviceNumber: 'JK-7',
-                area: '(JOO KOON)'
+                renderType: "standardService",
+                serviceNumber: "607",
+                destination: "JK-7",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: 'on-demand',
+                    serviceNumber: 'JK-7',
+                    area: '(JOO KOON)'
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -19437,9 +19773,18 @@ EDSData.SBST = {
     608: {
         1: {
             front: {
-                renderType: 'on-demand',
-                serviceNumber: 'JK-8',
-                area: '(JOO KOON)'
+                renderType: "standardService",
+                serviceNumber: "608",
+                destination: "JK-8",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: 'on-demand',
+                    serviceNumber: 'JK-8',
+                    area: '(JOO KOON)'
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -19452,9 +19797,18 @@ EDSData.SBST = {
     609: {
         1: {
             front: {
-                renderType: 'on-demand',
-                serviceNumber: 'JK-9',
-                area: '(JOO KOON)'
+                renderType: "standardService",
+                serviceNumber: "609",
+                destination: "JK-9",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: 'on-demand',
+                    serviceNumber: 'JK-9',
+                    area: '(JOO KOON)'
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -19511,9 +19865,18 @@ EDSData.SBST = {
     610: {
         1: {
             front: {
-                renderType: 'on-demand',
-                serviceNumber: 'JK-10',
-                area: '(JOO KOON)'
+                renderType: "standardService",
+                serviceNumber: "JK-10",
+                destination: "JK-10",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: 'on-demand',
+                    serviceNumber: 'JK-10',
+                    area: '(JOO KOON)'
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -19526,9 +19889,18 @@ EDSData.SBST = {
     611: {
         1: {
             front: {
-                renderType: 'on-demand',
-                serviceNumber: 'JK-11',
-                area: '(JOO KOON)'
+                renderType: "standardService",
+                serviceNumber: "JK-11",
+                destination: "JK-11",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: 'on-demand',
+                    serviceNumber: 'JK-11',
+                    area: '(JOO KOON)'
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -19541,9 +19913,18 @@ EDSData.SBST = {
     612: {
         1: {
             front: {
-                renderType: 'on-demand',
-                serviceNumber: 'JK-12',
-                area: '(JOO KOON)'
+                renderType: "standardService",
+                serviceNumber: "JK-12",
+                destination: "JK-12",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: 'on-demand',
+                    serviceNumber: 'JK-12',
+                    area: '(JOO KOON)'
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -19556,9 +19937,18 @@ EDSData.SBST = {
     613: {
         1: {
             front: {
-                renderType: 'on-demand',
-                serviceNumber: 'JK-13',
-                area: '(JOO KOON)'
+                renderType: "standardService",
+                serviceNumber: "JK-13",
+                destination: "JK-13",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: 'on-demand',
+                    serviceNumber: 'JK-13',
+                    area: '(JOO KOON)'
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -19568,6 +19958,30 @@ EDSData.SBST = {
             }
         }
     },
+    620: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "MD-1",
+                destination: "MD-1",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: 'on-demand',
+                    serviceNumber: 'MD-1',
+                    area: '(MARINA-DOWNTOWN)'
+                },
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "MD-1",
+                font: "LECIP-14:6",
+                spacing: 1
+            }
+        }
+    },    
     621: {
         1: {
             front: {
@@ -19685,6 +20099,38 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "646",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    650: {
+        1: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "650",
+                branding: "CITY DIRECT",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "650",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "brandedSvc",
+                serviceNumber: "650",
+                branding: "CITY DIRECT",
+                font: "LECIP-20:9",
+                spacing: 2
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "650",
                 font: "LECIP-20:9",
                 spacing: 2
             }

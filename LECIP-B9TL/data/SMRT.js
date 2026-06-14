@@ -1427,6 +1427,82 @@ EDSData.SMRT = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "181",
+                destination: "TENGAH via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    "JURONG WEST ST 64",
+                    "JURONG WEST AVE 5",
+                    "BULIM DR, AVE",
+                    "JURONG WEST AVE 2",
+                    "TENGAH BLVD",
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "181",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    1812: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "181",
+                destination: "BOON LAY via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    "TENGAH BLVD",
+                    "JURONG WEST AVE 2",
+                    "BULIM AVE, DR",
+                    "JURONG WEST AVE 3",
+                    "JURONG WEST ST 64"
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "181",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    1813: { // TBC
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "181A",
+                destination: "JURONG WEST AVE 3",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                {
+                    renderType: "destScroll2",
+                    top: "ENDS AT BLK 276B",
+                    topFont: "ArialBold-8:2",
+                    bottom: "JURONG WEST AVE 3",
+                    bottomFont: "Arial-8",
+        
+                    serviceNumber: "181A"
+                },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "181A",
+                font: "Arial-10",
+                spacing: 1
+            }
+        }
+    },
+    1818: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "181",
                 destination: "BOON LAY via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
@@ -1445,7 +1521,7 @@ EDSData.SMRT = {
             }
         }
     },
-    1812: { // Done
+    1819: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -1467,54 +1543,6 @@ EDSData.SMRT = {
                 serviceNumber: "181M",
                 font: "Arial-10",
                 spacing: 2
-            }
-        }
-    },
-    1818: { // Done
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "181",
-                destination: "TENGAH via",
-                destinationFont: "ArialBold-8:2",
-                scrolls: [
-                    " ",
-                ],
-                scrollFont: "ArialBold-8:2"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "181",
-                font: "LECIP-SMRTRear14:9",
-                spacing: 2
-            }
-        }
-    },
-    1819: { // Done
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "181A",
-                destination: "JURONG WEST AVE 3",
-                destinationFont: "ArialBold-8:2",
-                scrolls: [
-                {
-                    renderType: "destScroll2",
-                    top: "ENDS AT",
-                    topFont: "ArialBold-8:2",
-                    bottom: " ",
-                    bottomFont: "Calibri-7",
-        
-                    serviceNumber: "181A"
-                },
-                ],
-                scrollFont: "ArialBold-8:2"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "181A",
-                font: "Arial-10",
-                spacing: 1
             }
         }
     },

@@ -1546,7 +1546,64 @@ EDSData['SMRT (PostSLBP)'] = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
-    1811: {
+    1811: { // TBC
+        front: {
+            renderType: "SLBPstandardService",
+            serviceNumber: "181",
+            destination: {
+                text: "TENGAH",
+                font: "Mobitec-7:5:1"
+            },
+            scrolls: [
+                "JURONG WEST ST 64",
+                "JURONG WEST AVE 5",
+                "BULIM DR, AVE",
+                "JURONG WEST AVE 2",
+                "TENGAH BLVD"
+            ],
+            scrollFont: "Mobitec-7:5:1"
+        }
+    },
+    1812: { // TBC
+        front: {
+            renderType: "SLBPstandardService",
+            serviceNumber: "181",
+            destination: {
+                text: "BOON LAY",
+                font: "Mobitec-7:5:1"
+            },
+            scrolls: [
+                "TENGAH BLVD",
+                "JURONG WEST AVE 2",
+                "BULIM AVE, DR",
+                "JURONG WEST AVE 3",
+                "JURONG WEST ST 64"
+            ],
+            scrollFont: "Mobitec-7:5:1"
+        }
+    },
+    1813: { // TBC
+        front: {
+            renderType: "standardService",
+            serviceNumber: "181A",
+            destination: {
+                text: "JURONG WEST AVE 3",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "SLBPdestScroll",
+                    serviceNumber: "181A",
+                    top: "ENDS AT BLK 276B",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "JURONG WEST AVE 3",
+                    bottomFont: "Mobitec-7:5:1",
+                },
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    1818: {
         front: {
             renderType: "SLBPstandardService",
             serviceNumber: "181",
@@ -1563,7 +1620,7 @@ EDSData['SMRT (PostSLBP)'] = {
             scrollFont: "Mobitec-7:5:1"
         }
     },
-    1812: {
+    1819: {
         front: {
             renderType: "SLBPstandardService",
             serviceNumber: "181M",
@@ -1579,41 +1636,6 @@ EDSData['SMRT (PostSLBP)'] = {
                 "JURONG WEST ST 23"
             ],
             scrollFont: "Mobitec-7:5:1"
-        }
-    },
-    1818: {
-        front: {
-            renderType: "SLBPstandardService",
-            serviceNumber: "181",
-            destination: {
-                text: "TENGAH INT",
-                font: "Mobitec-7:5:1"
-            },
-            scrolls: [
-                "",
-            ],
-            scrollFont: "Mobitec-7:5:1"
-        }
-    },
-    1819: { 
-        front: {
-            renderType: "standardService",
-            serviceNumber: "181A",
-            destination: {
-                text: "JURONG WEST AVE 3",
-                font: "Mobitec-7:7"
-            },
-            scrolls: [
-                {
-                    renderType: "SLBPdestScroll",
-                    serviceNumber: "181A",
-                    top: " ",
-                    topFont: "Mobitec-7:5:1",
-                    bottom: "",
-                    bottomFont: "Mobitec-7:5:1",
-                },
-            ],
-            scrollFont: "Mobitec-7:5:3"
         }
     },
     1821: {
