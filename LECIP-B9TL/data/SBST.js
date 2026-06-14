@@ -932,16 +932,25 @@ EDSData.SBST = {
     "1N": {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "1N",
-                branding: "NITE  OWL",
-                font: "LECIP-20:12",
-                spacing: 2
+                destination: "NITE OWL",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "1N",
+                    branding: "NITE OWL",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
                 serviceNumber: "1N",
-                font: "LECIP-20:12",
+                font: "LECIP-20:9",
                 spacing: 2
             }
         }
@@ -1074,16 +1083,25 @@ EDSData.SBST = {
     "2N": {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "2N",
-                branding: "NITE  OWL",
-                font: "LECIP-20:12",
-                spacing: 2
+                destination: "NITE OWL",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "2N",
+                    branding: "NITE OWL",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
                 serviceNumber: "2N",
-                font: "LECIP-20:12",
+                font: "LECIP-20:9",
                 spacing: 2
             }
         }
@@ -1141,9 +1159,17 @@ EDSData.SBST = {
     "3A": {
         1: {
             front: {
-                renderType: "swt",
+                renderType: "standardService",
                 serviceNumber: "3A",
-                landmark: "PASIR RIS DRIVE 12 (BLK 747A)"
+                destination: "PASIR RIS DRIVE 12",
+                destinationFont: "LECIP-10",
+                scrolls: [{
+                    renderType: "swt",
+                    serviceNumber: "3A",
+                    landmark: "PASIR RIS DRIVE 12 (BLK 747A)"
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -1156,9 +1182,17 @@ EDSData.SBST = {
     "3B": {
         1: {
             front: {
-                renderType: "swt",
+                renderType: "standardService",
                 serviceNumber: "3B",
-                landmark: "PASIR RIS INT"
+                destination: "PASIR RIS INT",
+                destinationFont: "LECIP-10",
+                scrolls: [{
+                    renderType: "swt",
+                    serviceNumber: "3B",
+                    landmark: "PASIR RIS INT"
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -1171,16 +1205,25 @@ EDSData.SBST = {
     "3N": {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "3N",
-                branding: "NITE  OWL",
-                font: "LECIP-20:12",
-                spacing: 2
+                destination: "NITE OWL",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "3N",
+                    branding: "NITE OWL",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
                 serviceNumber: "3N",
-                font: "LECIP-20:12",
+                font: "LECIP-20:9",
                 spacing: 2
             }
         }
@@ -1212,16 +1255,25 @@ EDSData.SBST = {
     "4N": {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "4N",
-                branding: "NITE  OWL",
-                font: "LECIP-20:12",
-                spacing: 2
+                destination: "NITE OWL",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "4N",
+                    branding: "NITE OWL",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
                 serviceNumber: "4N",
-                font: "LECIP-20:12",
+                font: "LECIP-20:9",
                 spacing: 2
             }
         }
@@ -1386,16 +1438,25 @@ EDSData.SBST = {
     "5N": {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "5N",
-                branding: "NITE  OWL",
-                font: "LECIP-20:12",
-                spacing: 2
+                destination: "NITE OWL",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "5N",
+                    branding: "NITE OWL",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
                 serviceNumber: "5N",
-                font: "LECIP-20:12",
+                font: "LECIP-20:9",
                 spacing: 2
             }
         }
@@ -1428,16 +1489,25 @@ EDSData.SBST = {
     "6N": {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "6N",
-                branding: "NITE  OWL",
-                font: "LECIP-20:12",
-                spacing: 2
+                destination: "NITE OWL",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "6N",
+                    branding: "NITE OWL",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
                 serviceNumber: "6N",
-                font: "LECIP-20:12",
+                font: "LECIP-20:9",
                 spacing: 2
             }
         }
@@ -1541,16 +1611,25 @@ EDSData.SBST = {
     "7N": {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "7N",
-                branding: "NITE  OWL",
-                font: "LECIP-20:12",
-                spacing: 2
+                destination: "NITE OWL",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "7N",
+                    branding: "NITE OWL",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
                 serviceNumber: "7N",
-                font: "LECIP-20:12",
+                font: "LECIP-20:9",
                 spacing: 2
             }
         }
@@ -1604,16 +1683,25 @@ EDSData.SBST = {
     "8N": {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "8N",
-                branding: "NITE  OWL",
-                font: "LECIP-20:12",
-                spacing: 2
+                destination: "NITE OWL",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "8N",
+                    branding: "NITE OWL",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
                 serviceNumber: "8N",
-                font: "LECIP-20:12",
+                font: "LECIP-20:9",
                 spacing: 2
             }
         }
@@ -17181,14 +17269,23 @@ EDSData.SBST = {
             }
         }
     },
-    "408": {
-        1: {
+    408: {
+        2: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "408",
-                branding: "PARKS",
-                font: "LECIP-20:12",
-                spacing: 2
+                destination: "PARKS",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "408",
+                    branding: "PARKS",
+                    font: "LECIP-20:12",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -17197,14 +17294,22 @@ EDSData.SBST = {
                 spacing: 2
             }
         },
-        2: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "408",
                 destination: "LABRADOR PARK (LOOP)",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
-                    "HARBOURFRONT INT"
+                {
+                    renderType: "destScroll",
+                    top: "HARBOURFRONT INT              ",
+                    topFont: "LECIP-7:5",
+                    bottom: "LABRADOR PARK (LOOP)     ",
+                    bottomFont: "LECIP-7:5",
+            
+                    serviceNumber: "408"
+                },
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -17216,14 +17321,23 @@ EDSData.SBST = {
             }
         }
     },
-    "409": {
-        1: {
+    409: {
+        2: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "409",
-                branding: "PARKS",
-                font: "LECIP-20:12",
-                spacing: 2
+                destination: "PARKS",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "409",
+                    branding: "PARKS",
+                    font: "LECIP-20:12",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -17232,14 +17346,22 @@ EDSData.SBST = {
                 spacing: 2
             }
         },
-        2: {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "409",
                 destination: "MOUNT FABER (LOOP)",
                 destinationFont: "LECIP-7:5",
                 scrolls: [
-                    "HARBOURFRONT INT"
+                {
+                    renderType: "destScroll",
+                    top: "HARBOURFRONT INT              ",
+                    topFont: "LECIP-7:5",
+                    bottom: "MOUNT FABER (LOOP)           ",
+                    bottomFont: "LECIP-7:5",
+            
+                    serviceNumber: "409"
+                },
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -17940,86 +18062,8 @@ EDSData.SBST = {
             }
         }
     },
-    498: {
-        1: {
-            front: {
-                renderType: "message",
-                text: "SBS TRANSIT CARES COMMUNITY BUS",
-                font: "LECIP-6:4",
-                spacing: 1
-            },
-            rear: {
-                renderType: 'twoline',
-                top: "",
-                topFont: "LECIP-7:5",
-
-                bottom: "",
-                bottomFont: "LECIP-7:5"
-            }
-        }
-    },
-    499: {
-        1: {
-            front: {
-                renderType: "twoline",
-                top: "50 YRS OF TRAVELLING TOGETHER",
-                topFont: "LECIP-7:5",
-
-                bottom: "WITH SBS TRANSIT",
-                bottomFont: "LECIP-7:5"
-            },
-            rear: {
-                renderType: "twoline",
-                top: "SBST",
-                topFont: "LECIP-7:5",
-
-                bottom: "50",
-                bottomFont: "LECIP-7:5"
-            }
-        },
-        2: {
-            front: {
-                renderType: "twoline",
-                top: "JOURNEYING WITH YOU",
-                topFont: "Mobitec-7:4",
-
-                bottom: "50 YEARS OF MOBILITY EXCELLENCE",
-                bottomFont: "Mobitec-7:4"
-            },
-            rear: {
-                renderType: "twoline",
-                top: "SBST",
-                topFont: "LECIP-7:5",
-
-                bottom: "50",
-                bottomFont: "LECIP-7:5"
-            },
-            rear: {
-                renderType: "twoline",
-                top: "SBST",
-                topFont: "LECIP-7:5",
-
-                bottom: "50",
-                bottomFont: "LECIP-7:5"
-            }
-        }
-    },
     502: {
         1: {
-            front: {
-                renderType: "logoSvc",
-                serviceNumber: "502",
-                image: "express",
-                destination: "EXPRESS 502"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "502",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        },
-        2: {
             front: {
                 renderType: "logoSvc",
                 serviceNumber: "502",
@@ -18072,20 +18116,6 @@ EDSData.SBST = {
                 font: "LECIP-20:9",
                 spacing: 2
             }
-        },
-        2: {
-            front: {
-                renderType: "logoSvc",
-                serviceNumber: "506",
-                image: "express",
-                destination: "EXPRESS 506"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "506",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
         }
     },
     513: {
@@ -18102,38 +18132,10 @@ EDSData.SBST = {
                 font: "LECIP-20:9",
                 spacing: 2
             }
-        },
-        2: {
-            front: {
-                renderType: "logoSvc",
-                serviceNumber: "513",
-                image: "express",
-                destination: "EXPRESS 513"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "513",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
         }
     },
     518: {
         1: {
-            front: {
-                renderType: "logoSvc",
-                serviceNumber: "518",
-                image: "express",
-                destination: "EXPRESS 518"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "518",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        },
-        2: {
             front: {
                 renderType: "logoSvc",
                 serviceNumber: "518",
@@ -19866,13 +19868,13 @@ EDSData.SBST = {
         1: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "JK-10",
-                destination: "JK-10",
+                serviceNumber: "609",
+                destination: "JK-9",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
                     renderType: 'on-demand',
-                    serviceNumber: 'JK-10',
+                    serviceNumber: 'JK-9',
                     area: '(JOO KOON)'
                 },
                 ],
@@ -19880,9 +19882,9 @@ EDSData.SBST = {
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "JK-10",
+                serviceNumber: "JK-9",
                 font: "LECIP-14:6",
-                spacing: 1
+                spacing: 2
             }
         }
     },
@@ -19958,7 +19960,7 @@ EDSData.SBST = {
             }
         }
     },
-    620: {
+    621: {
         1: {
             front: {
                 renderType: "standardService",
@@ -19982,27 +19984,21 @@ EDSData.SBST = {
             }
         }
     },    
-    621: {
-        1: {
-            front: {
-                renderType: 'on-demand',
-                serviceNumber: 'MD-1',
-                area: '(MARINA-DOWNTOWN)'
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "MD-1",
-                font: "LECIP-14:6",
-                spacing: 1
-            }
-        }
-    },
     622: {
         1: {
             front: {
-                renderType: 'on-demand',
-                serviceNumber: 'MD-2',
-                area: '(MARINA-DOWNTOWN)'
+                renderType: "standardService",
+                serviceNumber: "MD-2",
+                destination: "MD-2",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: 'on-demand',
+                    serviceNumber: 'MD-2',
+                    area: '(MARINA-DOWNTOWN)'
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -20011,13 +20007,22 @@ EDSData.SBST = {
                 spacing: 1
             }
         }
-    },
+    },        
     623: {
         1: {
             front: {
-                renderType: 'on-demand',
-                serviceNumber: 'MD-3',
-                area: '(MARINA-DOWNTOWN)'
+                renderType: "standardService",
+                serviceNumber: "MD-3",
+                destination: "MD-3",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: 'on-demand',
+                    serviceNumber: 'MD-3',
+                    area: '(MARINA-DOWNTOWN)'
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -20026,13 +20031,22 @@ EDSData.SBST = {
                 spacing: 1
             }
         }
-    },
+    },    
     624: {
         1: {
             front: {
-                renderType: 'on-demand',
-                serviceNumber: 'MD-4',
-                area: '(MARINA-DOWNTOWN)'
+                renderType: "standardService",
+                serviceNumber: "MD-4",
+                destination: "MD-4",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: 'on-demand',
+                    serviceNumber: 'MD-4',
+                    area: '(MARINA-DOWNTOWN)'
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -20041,13 +20055,22 @@ EDSData.SBST = {
                 spacing: 1
             }
         }
-    },
+    },    
     625: {
         1: {
             front: {
-                renderType: 'on-demand',
-                serviceNumber: 'MD-5',
-                area: '(MARINA-DOWNTOWN)'
+                renderType: "standardService",
+                serviceNumber: "MD-5",
+                destination: "MD-5",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: 'on-demand',
+                    serviceNumber: 'MD-5',
+                    area: '(MARINA-DOWNTOWN)'
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -20056,13 +20079,22 @@ EDSData.SBST = {
                 spacing: 1
             }
         }
-    },
+    },    
     626: {
         1: {
             front: {
-                renderType: 'on-demand',
-                serviceNumber: 'MD-6',
-                area: '(MARINA-DOWNTOWN)'
+                renderType: "standardService",
+                serviceNumber: "MD-6",
+                destination: "MD-6",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: 'on-demand',
+                    serviceNumber: 'MD-6',
+                    area: '(MARINA-DOWNTOWN)'
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -20071,30 +20103,24 @@ EDSData.SBST = {
                 spacing: 1
             }
         }
-    },
+    },    
     646: {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "646",
-                branding: "CITY DIRECT",
-                font: "LECIP-20:9",
-                spacing: 2
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "646",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        },
-        2: {
-            front: {
-                renderType: "brandedSvc",
-                serviceNumber: "646",
-                branding: "CITY DIRECT",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "CITY DIRECT",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "646",
+                    branding: "CITY DIRECT",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -20103,30 +20129,24 @@ EDSData.SBST = {
                 spacing: 2
             }
         }
-    },
+    },    
     650: {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "650",
-                branding: "CITY DIRECT",
-                font: "LECIP-20:9",
-                spacing: 2
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "650",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        },
-        2: {
-            front: {
-                renderType: "brandedSvc",
-                serviceNumber: "650",
-                branding: "CITY DIRECT",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "CITY DIRECT",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "650",
+                    branding: "CITY DIRECT",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -20139,26 +20159,20 @@ EDSData.SBST = {
     652: {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "652",
-                branding: "CITY DIRECT",
-                font: "LECIP-20:9",
-                spacing: 2
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "652",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        },
-        2: {
-            front: {
-                renderType: "brandedSvc",
-                serviceNumber: "652",
-                branding: "CITY DIRECT",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "CITY DIRECT",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "652",
+                    branding: "CITY DIRECT",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -20171,26 +20185,20 @@ EDSData.SBST = {
     654: {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "654",
-                branding: "CITY DIRECT",
-                font: "LECIP-20:9",
-                spacing: 2
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "654",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        },
-        2: {
-            front: {
-                renderType: "brandedSvc",
-                serviceNumber: "654",
-                branding: "CITY DIRECT",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "CITY DIRECT",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "654",
+                    branding: "CITY DIRECT",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -20203,26 +20211,20 @@ EDSData.SBST = {
     655: {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "655",
-                branding: "CITY DIRECT",
-                font: "LECIP-20:9",
-                spacing: 2
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "655",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        },
-        2: {
-            front: {
-                renderType: "brandedSvc",
-                serviceNumber: "655",
-                branding: "CITY DIRECT",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "CITY DIRECT",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "655",
+                    branding: "CITY DIRECT",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -20235,26 +20237,20 @@ EDSData.SBST = {
     660: {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "660",
-                branding: "CITY DIRECT",
-                font: "LECIP-20:9",
-                spacing: 2
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "660",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        },
-        2: {
-            front: {
-                renderType: "brandedSvc",
-                serviceNumber: "660",
-                branding: "CITY DIRECT",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "CITY DIRECT",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "660",
+                    branding: "CITY DIRECT",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -20267,11 +20263,20 @@ EDSData.SBST = {
     "660M": {
         1: {
             front: {
-                renderType: "brandedSvc3",
+                renderType: "standardService",
                 serviceNumber: "660M",
-                branding: "CITY DIRECT",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "CITY DIRECT",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "brandedSvc3",
+                    serviceNumber: "660M",
+                    branding: "CITY DIRECT",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -20284,26 +20289,20 @@ EDSData.SBST = {
     667: {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "667",
-                branding: "CITY DIRECT",
-                font: "LECIP-20:9",
-                spacing: 2
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "667",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        },
-        2: {
-            front: {
-                renderType: "brandedSvc",
-                serviceNumber: "667",
-                branding: "CITY DIRECT",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "CITY DIRECT",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "667",
+                    branding: "CITY DIRECT",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -20316,26 +20315,20 @@ EDSData.SBST = {
     668: {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "668",
-                branding: "CITY DIRECT",
-                font: "LECIP-20:9",
-                spacing: 2
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "668",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        },
-        2: {
-            front: {
-                renderType: "brandedSvc",
-                serviceNumber: "668",
-                branding: "CITY DIRECT",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "CITY DIRECT",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "668",
+                    branding: "CITY DIRECT",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -20348,26 +20341,20 @@ EDSData.SBST = {
     671: {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "671",
-                branding: "CITY DIRECT",
-                font: "LECIP-20:9",
-                spacing: 2
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "671",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        },
-        2: {
-            front: {
-                renderType: "brandedSvc",
-                serviceNumber: "671",
-                branding: "CITY DIRECT",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "CITY DIRECT",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "671",
+                    branding: "CITY DIRECT",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -20380,26 +20367,20 @@ EDSData.SBST = {
     672: {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "672",
-                branding: "CITY DIRECT",
-                font: "LECIP-20:9",
-                spacing: 2
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "672",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        },
-        2: {
-            front: {
-                renderType: "brandedSvc",
-                serviceNumber: "672",
-                branding: "CITY DIRECT",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "CITY DIRECT",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "672",
+                    branding: "CITY DIRECT",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -20412,26 +20393,20 @@ EDSData.SBST = {
     675: {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "675",
-                branding: "CITY DIRECT",
-                font: "LECIP-20:9",
-                spacing: 2
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "675",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        },
-        2: {
-            front: {
-                renderType: "brandedSvc",
-                serviceNumber: "675",
-                branding: "CITY DIRECT",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "CITY DIRECT",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "675",
+                    branding: "CITY DIRECT",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -20444,26 +20419,20 @@ EDSData.SBST = {
     676: {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "676",
-                branding: "CITY DIRECT",
-                font: "LECIP-20:9",
-                spacing: 2
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "676",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        },
-        2: {
-            front: {
-                renderType: "brandedSvc",
-                serviceNumber: "676",
-                branding: "CITY DIRECT",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "CITY DIRECT",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "676",
+                    branding: "CITY DIRECT",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -20476,26 +20445,20 @@ EDSData.SBST = {
     677: {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "677",
-                branding: "CITY DIRECT",
-                font: "LECIP-20:9",
-                spacing: 2
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "677",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        },
-        2: {
-            front: {
-                renderType: "brandedSvc",
-                serviceNumber: "677",
-                branding: "CITY DIRECT",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "CITY DIRECT",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "677",
+                    branding: "CITY DIRECT",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -20508,26 +20471,20 @@ EDSData.SBST = {
     679: {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "679",
-                branding: "CITY DIRECT",
-                font: "LECIP-20:9",
-                spacing: 2
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "679",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        },
-        2: {
-            front: {
-                renderType: "brandedSvc",
-                serviceNumber: "679",
-                branding: "CITY DIRECT",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "CITY DIRECT",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "679",
+                    branding: "CITY DIRECT",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -20540,26 +20497,20 @@ EDSData.SBST = {
     680: {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "680",
-                branding: "CITY DIRECT",
-                font: "LECIP-20:9",
-                spacing: 2
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "680",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        },
-        2: {
-            front: {
-                renderType: "brandedSvc",
-                serviceNumber: "680",
-                branding: "CITY DIRECT",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "CITY DIRECT",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "680",
+                    branding: "CITY DIRECT",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -20572,26 +20523,20 @@ EDSData.SBST = {
     681: {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "681",
-                branding: "CITY DIRECT",
-                font: "LECIP-20:9",
-                spacing: 2
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "681",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        },
-        2: {
-            front: {
-                renderType: "brandedSvc",
-                serviceNumber: "681",
-                branding: "CITY DIRECT",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "CITY DIRECT",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "681",
+                    branding: "CITY DIRECT",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
@@ -20604,26 +20549,20 @@ EDSData.SBST = {
     682: {
         1: {
             front: {
-                renderType: "brandedSvc",
+                renderType: "standardService",
                 serviceNumber: "682",
-                branding: "CITY DIRECT",
-                font: "LECIP-20:9",
-                spacing: 2
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "682",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        },
-        2: {
-            front: {
-                renderType: "brandedSvc",
-                serviceNumber: "682",
-                branding: "CITY DIRECT",
-                font: "LECIP-20:9",
-                spacing: 2
+                destination: "CITY DIRECT",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "brandedSvc",
+                    serviceNumber: "682",
+                    branding: "CITY DIRECT",
+                    font: "LECIP-20:9",
+                    spacing: 2
+                },
+                ],
+                scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
