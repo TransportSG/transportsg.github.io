@@ -3996,10 +3996,18 @@ EDSData.SMRT = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "647",
-                destination: "",
+                destination: "SUNTEC CITY",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    " ",
+                {
+                    renderType: "destScroll",
+                    top: "CITY DIRECT",
+                    topFont: "ArialBold-8:2",
+                    bottom: "SUNTEC CITY",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "647"
+                },
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -4016,10 +4024,18 @@ EDSData.SMRT = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "647",
-                destination: "",
+                destination: "BUKIT BATOK WEST AVE 5",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    " ",
+                {
+                    renderType: "destScroll",
+                    top: "CITY DIRECT",
+                    topFont: "ArialBold-8:2",
+                    bottom: "BT BATOK WEST AVE 5",
+                    bottomFont: "Arial-8",
+        
+                    serviceNumber: "647"
+                },
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -4036,10 +4052,18 @@ EDSData.SMRT = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "648",
-                destination: "",
+                destination: "SHENTON WAY",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    " ",
+                {
+                    renderType: "destScroll",
+                    top: "CITY DIRECT",
+                    topFont: "ArialBold-8:2",
+                    bottom: "SHENTON WAY",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "648"
+                },
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -4076,10 +4100,18 @@ EDSData.SMRT = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "649",
-                destination: "",
+                destination: "MARINA BOULEVARD",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    " ",
+                {
+                    renderType: "destScroll",
+                    top: "CITY DIRECT",
+                    topFont: "ArialBold-8:2",
+                    bottom: "MARINA BOULEVARD",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "649"
+                },
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -4096,10 +4128,18 @@ EDSData.SMRT = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "649",
-                destination: "",
+                destination: "CHOA CHU KANG AVE 5",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    " ",
+                {
+                    renderType: "destScroll",
+                    top: "CITY DIRECT",
+                    topFont: "ArialBold-8:2",
+                    bottom: "CHOA CHU KANG AVE 5",
+                    bottomFont: "Arial-8",
+        
+                    serviceNumber: "649"
+                },
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -4299,10 +4339,18 @@ EDSData.SMRT = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "684",
-                destination: "",
+                destination: "MARINA BOULEVARD",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    " ",
+                {
+                    renderType: "destScroll",
+                    top: "CITY DIRECT",
+                    topFont: "ArialBold-8:2",
+                    bottom: "MARINA BOULEVARD",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "684"
+                },
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -4319,10 +4367,18 @@ EDSData.SMRT = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "684",
-                destination: "",
+                destination: "KEAT HONG LINK",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
-                    " ",
+                {
+                    renderType: "destScroll",
+                    top: "CITY DIRECT",
+                    topFont: "ArialBold-8:2",
+                    bottom: "KEAT HONG LINK",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "684"
+                },
                 ],
                 scrollFont: "ArialBold-8:2"
             },

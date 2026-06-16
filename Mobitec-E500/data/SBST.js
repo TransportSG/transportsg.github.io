@@ -11407,6 +11407,25 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
+    8077: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "807C",
+            destination: {
+                text: "YISHUN RING RD",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+            {
+                renderType: "swt",
+                serviceNumber: "807C",
+                destinationRoad: "YISHUN",
+                destinationName: "RING RD (OPP BLK 455)"
+            },
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
     8111: {
         front: {
             renderType: "standardService",

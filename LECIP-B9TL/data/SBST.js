@@ -21095,6 +21095,30 @@ EDSData.SBST = {
             }
         }
     },
+    "807C": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "807C",
+                destination: "YISHUN RING RD",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
+                    renderType: "swt",
+                    serviceNumber: "807C",
+                    landmark: "YISHUN RING RD (OPP BLK 455)"
+                },
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "807C",
+                font: "LECIP-20:6",
+                spacing: 2
+            }
+        }
+    },
     811: {
         1: {
             front: {

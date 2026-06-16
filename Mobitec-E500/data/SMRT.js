@@ -3465,49 +3465,75 @@ EDSData['SMRT (PostSLBP)'] = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
-    6471: {
+    6471: { 
         front: {
-            renderType: "SLBPstandardService",
+            renderType: "standardService",
             serviceNumber: "647",
             destination: {
-                text: "",
-                font: "Mobitec-7:5:1"
+                text: "SUNTEC CITY",
+                font: "Mobitec-7:7"
             },
             scrolls: [
-   
-                " ",
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "647",
+                    top: "CITY DIRECT",
+                    topFont: "Mobitec-7:7",
+                    bottom: "SUNTEC CITY",
+                    bottomFont: "Mobitec-7:7",
+                },
             ],
-            scrollFont: "Mobitec-7:5:1"
+            scrollFont: "Mobitec-7:5:3"
         }
     },
-    6472: {
+    6472: { 
         front: {
-            renderType: "SLBPstandardService",
+            renderType: "standardService",
             serviceNumber: "647",
             destination: {
-                text: "",
-                font: "Mobitec-7:5:1"
+                text: "BUKIT BATOK WEST AVE 5",
+                font: "Mobitec-7:7"
             },
             scrolls: [
-   
-                " ",
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "674",
+                    top: "CITY DIRECT",
+                    topFont: "Mobitec-7:7",
+                    bottom: "BT BATOK WEST AVE 5",
+                    bottomFont: "Mobitec-7:5:2",
+                },
             ],
-            scrollFont: "Mobitec-7:5:1"
+            scrollFont: "Mobitec-7:5:3"
         }
     },
-    6481: {
+    6481: { 
         front: {
-            renderType: "SLBPstandardService",
+            renderType: "standardService",
             serviceNumber: "648",
             destination: {
-                text: "",
-                font: "Mobitec-7:5:1"
+                text: "SHENTON WAY",
+                font: "Mobitec-7:7"
             },
             scrolls: [
-   
-                " ",
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "648",
+                    top: "CITY DIRECT",
+                    topFont: "Mobitec-7:7",
+                    bottom: "SHENTON WAY",
+                    bottomFont: "Mobitec-7:7",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "648",
+                    top: "SHENTON WAY via",
+                    topFont: "Mobitec-7:5:2",
+                    bottom: "WDL AVE 4, 5, 6",
+                    bottomFont: "Mobitec-7:7",
+                },
             ],
-            scrollFont: "Mobitec-7:5:1"
+            scrollFont: "Mobitec-7:5:3"
         }
     },
     6482: {
@@ -3525,22 +3551,28 @@ EDSData['SMRT (PostSLBP)'] = {
             scrollFont: "Mobitec-7:5:1"
         }
     },
-    6491: {
+    6491: { 
         front: {
-            renderType: "SLBPstandardService",
+            renderType: "standardService",
             serviceNumber: "649",
             destination: {
-                text: "",
-                font: "Mobitec-7:5:1"
+                text: "MARINA BOULEVARD",
+                font: "Mobitec-7:7"
             },
             scrolls: [
-   
-                " ",
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "649",
+                    top: "CITY DIRECT",
+                    topFont: "Mobitec-7:7",
+                    bottom: "MARINA BOULEVARD",
+                    bottomFont: "Mobitec-7:5:2",
+                },
             ],
-            scrollFont: "Mobitec-7:5:1"
+            scrollFont: "Mobitec-7:5:3"
         }
     },
-    6479: {
+    6492: {
         front: {
             renderType: "SLBPstandardService",
             serviceNumber: "649",
@@ -3655,34 +3687,46 @@ EDSData['SMRT (PostSLBP)'] = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
-    6841: {
+    6841: { 
         front: {
-            renderType: "SLBPstandardService",
+            renderType: "standardService",
             serviceNumber: "684",
             destination: {
-                text: "",
-                font: "Mobitec-7:5:1"
+                text: "MARINA BOULEVARD",
+                font: "Mobitec-7:7"
             },
             scrolls: [
-   
-                " ",
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "684",
+                    top: "CITY DIRECT",
+                    topFont: "Mobitec-7:7",
+                    bottom: "MARINA BOULEVARD",
+                    bottomFont: "Mobitec-7:5:2",
+                },
             ],
-            scrollFont: "Mobitec-7:5:1"
+            scrollFont: "Mobitec-7:5:3"
         }
     },
-    6842: {
+    6842: { 
         front: {
-            renderType: "SLBPstandardService",
+            renderType: "standardService",
             serviceNumber: "684",
             destination: {
-                text: "",
-                font: "Mobitec-7:5:1"
+                text: "KEAT HONG LINK",
+                font: "Mobitec-7:7"
             },
             scrolls: [
-   
-                " ",
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "684",
+                    top: "CITY DIRECT",
+                    topFont: "Mobitec-7:7",
+                    bottom: "KEAT HONG LINK",
+                    bottomFont: "Mobitec-7:7",
+                },
             ],
-            scrollFont: "Mobitec-7:5:1"
+            scrollFont: "Mobitec-7:5:3"
         }
     },
     7051: {
