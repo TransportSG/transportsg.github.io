@@ -32,7 +32,7 @@ EDSFormats.SBST = {
         },
         text: "$serviceNumber+' '+$destination.text"
     },
-    standardService2: {
+    standardService2: { // Small svc num
         serviceNumber: {
             align: "right",
             margin: {
@@ -66,7 +66,7 @@ EDSFormats.SBST = {
         },
         text: "$serviceNumber+' '+$destination.text"
     },
-    standardService3: {
+    standardService3: { // Rod scrolls use diff font 7:4 
         serviceNumber: {
             align: "right",
             margin: {
@@ -186,7 +186,7 @@ EDSFormats.SBST = {
             font: "$font",
             spacing: '$spacing'
         },
-        text: "$serviceNumber+' '+$branding"
+        text: "$branding+' '+$serviceNumber"
     },
     brandedSvc2: { // Middle align text
         serviceNumber: {
@@ -266,7 +266,7 @@ EDSFormats.SBST = {
 
         text: "$serviceNumber+' '+$top+' '+$bottom"
     },
-    destScroll2: {
+    destScroll2: { // Small number text
         serviceNumber: {
             align: "right",
             margin: {
@@ -323,7 +323,7 @@ EDSFormats.SBST = {
 
         text: "$serviceNumber+' '+$top+' '+$bottom"
     },
-    destScroll3: {
+    destScroll3: { // Mobitec 6:5 text fonts
         serviceNumber: {
             align: "right",
             margin: {
@@ -376,6 +376,66 @@ EDSFormats.SBST = {
             margin: {
                 right: 'width(serviceNumber)',
                 bottom: '1'
+            }
+        },
+
+        text: "$serviceNumber+' '+$top+' '+$bottom"
+    },
+    destScroll4: {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 0,
+                $$cond: {
+                    "$svcMargin === null" : "0",
+                    "else": "$svcMargin"
+                }
+            },
+            text: "$serviceNumber",
+            font: {
+                $$cond: {
+                    "$svcFont === null" : "Mobitec-16:8",
+                    "else": "$svcFont"
+                }
+            },
+            spacing: {
+                $$cond: {
+                    "$svcSpacing === null" : 1,
+                    "else": "$svcSpacing"
+                }
+            }
+        },
+        top: {
+            align: "centre-x, top",
+            text: "$top",
+            font: "$topFont",
+            spacing: {
+                $$cond: {
+                    "$Spacing === null" : 1,
+                    "else": "$topSpacing",
+                }
+            },
+            margin: {
+                right: 'width(serviceNumber)'
+            }
+        },
+        bottom: {
+            align: "left,bottom",
+            text: {
+                $$cond: {
+                    "$bottom !== null": "$bottom",
+                    "else": "''"
+                }
+            },
+            font: {
+                $$cond: {
+                    "$bottomFont !== null": "$bottomFont",
+                    "else": "Mobitec-6:5"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber)'
             }
         },
 
@@ -5058,7 +5118,7 @@ EDSData.SBST = {
             },
             scrolls: [
             {
-                renderType: "destScroll",
+                renderType: "destScroll3",
                 serviceNumber: "102B",
                 top: "TERMINATES AT",
                 topFont: "Mobitec-6:5",
@@ -5066,7 +5126,7 @@ EDSData.SBST = {
                 bottomFont: "Mobitec-6:5",
             },
             {
-                renderType: "destScroll",
+                renderType: "destScroll3",
                 serviceNumber: "102B",
                 top: "OPP SENGKANG STN",
                 topFont: "Mobitec-6:5",
@@ -9928,6 +9988,31 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     }, 
+    99999: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "50A",
+            destination: {
+                text: "ANG MO KIO STN",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+            {
+                renderType: "destScroll4",
+                serviceNumber: "298a",
+                svcFont: "Mobitec-13:7",
+                svcMargin: "1",
+
+                top: "TERMINATES BEFORE",
+                topFont: "Mobitec-7:4",
+
+                bottom: "ANG MO KIO STN EXIT B",
+                bottomFont: "Mobitec-7:4",
+            },
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
     2982: {
         front: {
             renderType: "standardService2",

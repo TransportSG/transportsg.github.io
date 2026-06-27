@@ -4074,9 +4074,9 @@ EDSData.TTSG = {
             destination: "JURONG EAST ST 32",
             scrolls: [
                 {
-                    renderType: "destScroll",
+                    renderType: "destScroll2",
                     serviceNumber: "872",
-                    top: "JURONG|EAST|ST|32",
+                    top: "JUŔONG?EAST?ST?32",
                     topFont: "Mobitec-Tower11New1"
                 }
             ]
