@@ -11502,10 +11502,12 @@ EDSData.SBST = {
             },
             scrolls: [
             {
-                renderType: "swt",
+                renderType: "destScroll",
                 serviceNumber: "807C",
-                destinationRoad: "YISHUN",
-                destinationName: "RING RD (OPP BLK 455)"
+                top: "OPP KHATIB STN",
+                topFont: "Mobitec-7:7",
+                bottom: "- OPP BLK 445",
+                bottomFont: "Mobitec-7:7",
             },
             ],
             scrollFont: "Mobitec-6:5"

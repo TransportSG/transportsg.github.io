@@ -21104,9 +21104,13 @@ EDSData.SBST = {
                 destinationFont: "LECIP-10",
                 scrolls: [
                 {
-                    renderType: "swt",
-                    serviceNumber: "807C",
-                    landmark: "YISHUN RING RD (OPP BLK 455)"
+                    renderType: "destScroll",
+                    top: "OPP KHATIB STN",
+                    topFont: "LECIP-7:5",
+                    bottom: "- OPP BLK 445",
+                    bottomFont: "LECIP-7:5",
+            
+                    serviceNumber: "807C"
                 },
                 ],
                 scrollFont: "LECIP-7:5"
