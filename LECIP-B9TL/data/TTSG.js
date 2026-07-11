@@ -7406,6 +7406,62 @@ EDSData.TTSG = {
             }
         }
     },
+    4431: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S43",
+                destination: "S43 (2026) BUGIS",
+                destinationFont: "Mobitec-7:4",
+                scrolls: [ 
+                {
+                    renderType: "destScroll3",
+                    top: "DTL SHUTTLE",
+                    topFont: "Hanover-8",
+                    bottom: "BUGIS - BUKIT PANJANG",
+                    bottomFont: "Hanover-10:5",
+            
+                    serviceNumber: "Š43"
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "Š43",
+                font: "LECIP-TowerRear17:10",
+                spacing: 1
+            }
+        }
+    },
+    4432: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S43",
+                destination: "S43 (2026) BUGIS",
+                destinationFont: "Mobitec-7:4",
+                scrolls: [ 
+                {
+                    renderType: "destScroll3",
+                    top: "DTL SHUTTLE",
+                    topFont: "Hanover-8",
+                    bottom: "BUKIT PANJANG - BUGIS",
+                    bottomFont: "Hanover-10:5",
+            
+                    serviceNumber: "Š43"
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "Š43",
+                font: "LECIP-TowerRear17:10",
+                spacing: 1
+            }
+        }
+    },
     4444: {
         1: {
             front: {
@@ -9044,113 +9100,6 @@ EDSData.TTSG = {
                     },
                 ],
                 scrollFont: "Hanover-7:5"
-            }
-        }
-    },
-    5500: { // Done 
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "",
-                destination: "TEL 3 Opening Event",
-                destinationFont: "Mobitec-7:4",
-                scrolls: [
-                {
-                    renderType: "message2",
-                    serviceNumber: "",
-                  
-                    top: "TEL 3 Opening Event",
-                    topFont: "Hanover-7:5",
-                  
-                    bottom: "Caldecott ⇔ Stevens",
-                    bottomFont: "Hanover-10:3",
-                
-                },
-                ],
-                scrollFont: "Hanover-7:5"
-            },
-            rear: {
-                renderType: "standardService",
-                serviceNumber: "",
-                destination: "TT BLACK 01",
-                destinationFont: "Hanover-10",
-                scrolls: [
-                {
-                    renderType: "message6",
-                    serviceNumber: "",
-                    top: "TEL 3",
-                    topFont: "Hanover-8:3",
-
-                    bottom: "CDT-STV",
-                    bottomFont: "Hanover-7:3"
-                    },
-                ],
-                scrollFont: "Hanover-7:5"
-            }
-        },
-        2: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "",
-                destination: "",
-                destinationFont: "Hanover-Tower11:7",
-                scrolls: [  
-                {
-                    renderType: "destScroll",
-                    top: "",
-                    topFont: "Hanover-17:6",
-        
-                    serviceNumber: ""
-                },
-                {
-                    renderType: "destScroll",
-                    top: "",
-                    topFont: "Hanover-17:6",
-        
-                    serviceNumber: ""
-                },   
-                {
-                    renderType: "destScroll",
-                    top: "",
-                    topFont: "Hanover-17:6",
-        
-                    serviceNumber: ""
-                },   
-                {
-                    renderType: "destScroll",
-                    top: "",
-                    topFont: "Hanover-17:6",
-        
-                    serviceNumber: ""
-                },                     
-                {
-                    renderType: "destScroll",
-                    top: "UPP BT TIMAH RD",
-                    topFont: "Hanover-17:6",
-        
-                    serviceNumber: "974"
-                },
-                {
-                    renderType: "destScroll",
-                    top: "JOO KOON",
-                    topFont: "Hanover-17:11",
-    
-                    serviceNumber: "974"
-                }, 
-                {
-                    renderType: "message",
-                    text: "974",
-                    font: "LECIP-19:TowerBigNumber",
-                    spacing: 12
-                },
-                ],
-                    scrollFont: "Hanover-Tower7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "",
-                font: "LECIP-TowerRear17:10",
-                spacing: 1
             }
         }
     },
