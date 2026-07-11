@@ -23777,6 +23777,126 @@ EDSData.SBST = {
             }
         }
     },
+    4411: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S41",
+                destination: "MACPHERSON (2026)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "DTL SHUTTLE",
+                    topFont: "LECIP-10",
+                    bottom: "EXPO - MACPHERSON",
+                    bottomFont: "LECIP-7:5",
+                                
+                    serviceNumber: "S41",
+                    serviceFont: "LECIP-20:12",
+                    serviceSpacing: "3",
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "S41",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    4412: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S41",
+                destination: "EXPO (2026)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "DTL SHUTTLE",
+                    topFont: "LECIP-10",
+                    bottom: "MACPHERSON - EXPO",
+                    bottomFont: "LECIP-7:5",
+                                
+                    serviceNumber: "S41",
+                    serviceFont: "LECIP-20:12",
+                    serviceSpacing: "3",
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "S41",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    4421: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S42",
+                destination: "BUGIS (2026)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "DTL SHUTTLE",
+                    topFont: "LECIP-10",
+                    bottom: "MACPHERSON - BUGIS",
+                    bottomFont: "LECIP-7:5",
+                                
+                    serviceNumber: "S42",
+                    serviceFont: "LECIP-20:9",
+                    serviceSpacing: "3",
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "S42",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    4422: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S42",
+                destination: "MACPHERSON (2026)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "DTL SHUTTLE",
+                    topFont: "LECIP-10",
+                    bottom: "BUGIS - MACPHERSON",
+                    bottomFont: "LECIP-7:5",
+                                
+                    serviceNumber: "S42",
+                    serviceFont: "LECIP-20:9",
+                    serviceSpacing: "3",
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "S42",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
     4444: {
         1: {
             front: {

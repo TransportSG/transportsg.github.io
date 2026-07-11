@@ -10709,6 +10709,90 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
+    4411: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "S41",
+            destination: {
+                text: "MACPHERSON",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+            {
+                renderType: "destScroll",
+                serviceNumber: "S41",
+                top: "DTL SHUTTLE",
+                topFont: "Mobitec-7:5:2",
+                bottom: "EXPO - MACPHERSON",
+                bottomFont: "Mobitec-7:5:2",
+            },
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    4412: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "S41",
+            destination: {
+                text: "EXPO",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+            {
+                renderType: "destScroll",
+                serviceNumber: "S41",
+                top: "DTL SHUTTLE",
+                topFont: "Mobitec-7:5:2",
+                bottom: "MACPHERSON - EXPO",
+                bottomFont: "Mobitec-7:5:2",
+            },
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    4421: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "S42",
+            destination: {
+                text: "BUGIS",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+            {
+                renderType: "destScroll",
+                serviceNumber: "S42",
+                top: "DTL SHUTTLE",
+                topFont: "Mobitec-7:5:2",
+                bottom: "MACPHERSON - BUGIS",
+                bottomFont: "Mobitec-7:5:2",
+            },
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    4422: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "S32",
+            destination: {
+                text: "MACPHERSON",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+            {
+                renderType: "destScroll",
+                serviceNumber: "S42",
+                top: "DTL SHUTTLE",
+                topFont: "Mobitec-7:5:2",
+                bottom: "BUGIS - MACPHERSON",
+                bottomFont: "Mobitec-7:5:2",
+            },
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
     4444: {
         front: {
             renderType: "message",
