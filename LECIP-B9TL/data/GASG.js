@@ -8,7 +8,46 @@ EDSFormats.GASG = {
             text: "$serviceNumber",
             font: {
                 $$cond: {
-                    "$serviceFont === null": "LECIP-19:GoAheadB9Front",
+                    "$serviceFont === null": "LECIP-19:GoAheadB9Front3",
+                    "else": "$serviceFont"
+                }
+            },
+            spacing: 3
+        },
+        destination: {
+            align: "centre-x,top",
+            margin: {
+                right: 'width(serviceNumber)'
+            },
+            text: "$destination",
+            font: "$destinationFont",
+            spacing: 1
+        },
+        scroll: {
+            align: "centre-x,bottom",
+            margin: {
+                right: 'width(serviceNumber)'
+            },
+            scrolls: "$scrolls",
+            rotate: true,
+            rotateSpeed: 2500,
+
+            font: "$scrollFont",
+            spacing: 1
+        },
+
+        text: "$destination"
+    },
+    standardService3: { // For ECID Svc, delete if LYDEP Font change
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 0
+            },
+            text: "$serviceNumber",
+            font: {
+                $$cond: {
+                    "$serviceFont === null": "LECIP-19:GoAheadB9Front3",
                     "else": "$serviceFont"
                 }
             },

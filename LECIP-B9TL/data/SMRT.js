@@ -3763,6 +3763,62 @@ EDSData.SMRT = {
             }
         }
     },
+    4431: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S41",
+                destination: "BUGIS",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "DTL SHUTTLE",
+                    topFont: "ArialBold-8:2",
+                    bottom: "BT PANJANG - BUGIS",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "S43"
+                },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "S43",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 1
+            },
+        }
+    },
+    4432: { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S41",
+                destination: "BUKIT PANJANG",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "DTL SHUTTLE",
+                    topFont: "ArialBold-8:2",
+                    bottom: "BUGIS - BT PANJANG",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "S43"
+                },
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "S43",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 1
+            },
+        }
+    },
     4444: { // Done
         1: {
             front: {
