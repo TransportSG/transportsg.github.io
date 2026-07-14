@@ -862,7 +862,7 @@ EDSData.TTSG = {
                     top: "SKIP BRAS BASAH RD",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "STAMFORD RD",
-                    bottomFont: "Mobitec-9:6",
+                    bottomFont: "Mobitec-Tower9New",
                 },
                 {
                     renderType: "ExpressdestScroll2",
@@ -870,12 +870,13 @@ EDSData.TTSG = {
                     top: "SKIP RAFFLES BLVD",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "STAMFORD RD",
-                    bottomFont: "Mobitec-9:6",
+                    bottomFont: "Mobitec-Tower9New",
                 },
                 {
                     renderType: "destScroll",
                     serviceNumber: "77",
-                    top: "STAMFORD RD",
+                    top: "STAMFORD|RD",
+                    topFont: "Mobitec-Tower12New"
                 },
             ]
         }
@@ -1107,7 +1108,7 @@ EDSData.TTSG = {
                     top: "SKIP BAYFRONT AVE",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "CENTRAL BLVD",
-                    bottomFont: "Mobitec-9:6",
+                    bottomFont: "Mobitec-Tower9New",
                 },
                 {
                     renderType: "ExpressdestScroll2",
@@ -1115,13 +1116,14 @@ EDSData.TTSG = {
                     top: "SKIP RAFFLES BLVD",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "CENTRAL BLVD",
-                    bottomFont: "Mobitec-9:6",
+                    bottomFont: "Mobitec-Tower9New",
                 },
                 {
                     renderType: "destScroll",
                     serviceNumber: "97",
-                    top: "CENTRAL BLVD",
-                },
+                    top: "Central Blvd",
+                    topFont: "Mobitec-Tower12New",
+                }
             ]
         }
     },
@@ -1137,7 +1139,7 @@ EDSData.TTSG = {
                     top: "SKIP BAYFRONT AVE",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "CENTRAL BLVD",
-                    bottomFont: "Mobitec-9:6",
+                    bottomFont: "Mobitec-Tower9New",
                 },
                 {
                     renderType: "ExpressdestScroll2",
@@ -1145,12 +1147,15 @@ EDSData.TTSG = {
                     top: "SKIP RAFFLES BLVD",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "CENTRAL BLVD",
-                    bottomFont: "Mobitec-9:6",
+                    bottomFont: "Mobitec-Tower9New",
                 },
                 {
-                    renderType: "destScroll",
+                    renderType: "ExpressdestScroll",
                     serviceNumber: "97e",
-                    top: "CENTRAL BLVD",
+                    top: "~",
+                    topFont: "Mobitec-Tower6:4",
+                    bottom: "CENTRAL BLVD",
+                    bottomFont: "Mobitec-Tower9New",
                 },
             ]
         }
@@ -1165,7 +1170,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "98",
                     top: "JURONG PIER WAY",
-                    // topFont: "Mobitec-Tower12New"
+                    topFont: "Mobitec-Tower11New2"
                 }
             ]
         }
@@ -2856,7 +2861,7 @@ EDSData.TTSG = {
                 {
                     renderType: "ExpressdestScroll",
                     serviceNumber: "651",
-                    top: "CITY DIRECT",
+                    top: "`",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "MARINA BLVD",
                     bottomFont: "Mobitec-Tower9New",
@@ -2874,7 +2879,7 @@ EDSData.TTSG = {
                 {
                     renderType: "ExpressdestScroll",
                     serviceNumber: "651",
-                    top: "CITY DIRECT",
+                    top: "`",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "JURONG WEST AVE 3",
                     bottomFont: "Mobitec-Tower9New",
@@ -2891,7 +2896,7 @@ EDSData.TTSG = {
                 {
                     renderType: "ExpressdestScroll",
                     serviceNumber: "653",
-                    top: "CITY DIRECT",
+                    top: "`",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "MARINA BLVD",
                     bottomFont: "Mobitec-Tower9New",
@@ -2908,7 +2913,7 @@ EDSData.TTSG = {
                 {
                     renderType: "ExpressdestScroll",
                     serviceNumber: "653",
-                    top: "CITY DIRECT",
+                    top: "`",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "HILLVIEW AVE",
                     bottomFont: "Mobitec-Tower9New",
@@ -2925,7 +2930,7 @@ EDSData.TTSG = {
                 {
                     renderType: "ExpressdestScroll",
                     serviceNumber: "656",
-                    top: "CITY DIRECT",
+                    top: "`",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "SHENTON WAY",
                     bottomFont: "Mobitec-Tower9New",
@@ -2942,7 +2947,7 @@ EDSData.TTSG = {
                 {
                     renderType: "ExpressdestScroll",
                     serviceNumber: "656",
-                    top: "CITY DIRECT",
+                    top: "`",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "CANBERRA RD",
                     bottomFont: "Mobitec-Tower9New",
@@ -2975,7 +2980,7 @@ EDSData.TTSG = {
                 {
                     renderType: "ExpressdestScroll",
                     serviceNumber: "656",
-                    top: "CITY DIRECT",
+                    top: "`",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "SHENTON WAY",
                     bottomFont: "Mobitec-Tower9New",
@@ -3010,10 +3015,9 @@ EDSData.TTSG = {
                 {
                     renderType: "ExpressdestScroll",
                     serviceNumber: "656",
-                    top: "CITY DIRECT",
+                    top: "`",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "CANBERRA RD",
-                    bottomFont: "Mobitec-9:6",
                     bottomFont: "Mobitec-Tower9New",
                 },
             ]
@@ -3028,7 +3032,7 @@ EDSData.TTSG = {
                 {
                     renderType: "ExpressdestScroll",
                     serviceNumber: "657",
-                    top: "CITY DIRECT",
+                    top: "`",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "MARINA BLVD",
                     bottomFont: "Mobitec-Tower9New",
@@ -3046,7 +3050,7 @@ EDSData.TTSG = {
                 {
                     renderType: "ExpressdestScroll",
                     serviceNumber: "657",
-                    top: "CITY DIRECT",
+                    top: "`",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "JURONG|WEST|AVE|1",
                     bottomFont: "Mobitec-Tower9New",
@@ -3063,7 +3067,7 @@ EDSData.TTSG = {
                 {
                     renderType: "ExpressdestScroll",
                     serviceNumber: "663",
-                    top: "CITY DIRECT",
+                    top: "`",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "SHENTON WAY",
                     bottomFont: "Mobitec-Tower9New",
@@ -3080,7 +3084,7 @@ EDSData.TTSG = {
                 {
                     renderType: "ExpressdestScroll",
                     serviceNumber: "663",
-                    top: "CITY DIRECT",
+                    top: "`",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "YISHUN AVE 6",
                     bottomFont: "Mobitec-Tower9New",
@@ -3113,7 +3117,7 @@ EDSData.TTSG = {
                 {
                     renderType: "ExpressdestScroll",
                     serviceNumber: "663",
-                    top: "CITY DIRECT",
+                    top: "`",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "SHENTON WAY",
                     bottomFont: "Mobitec-Tower9New",
@@ -3146,7 +3150,7 @@ EDSData.TTSG = {
                 {
                     renderType: "ExpressdestScroll",
                     serviceNumber: "663",
-                    top: "CITY DIRECT",
+                    top: "`",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "YISHUN AVE 6",
                     bottomFont: "Mobitec-Tower9New",
@@ -3199,9 +3203,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "",
-                    top: "I GO TO SCHOOL BY BUS",
-                    topFont: "Mobitec-Tower9New"
-                }
+                    top: " ",
+                    topFont: "Mobitec-Tower9New",
+                    bottom: "",
+                    bottomFont: "Mobitec-Tower6:4",
+                },
             ]
         }
     },
@@ -3214,7 +3220,7 @@ EDSData.TTSG = {
                 {
                     renderType: "ExpressdestScroll",
                     serviceNumber: "670",
-                    top: "CITY DIRECT",
+                    top: "`",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "MARINA BLVD",
                     bottomFont: "Mobitec-Tower9New",
@@ -3231,7 +3237,7 @@ EDSData.TTSG = {
                 {
                     renderType: "ExpressdestScroll",
                     serviceNumber: "670",
-                    top: "CITY DIRECT",
+                    top: "`",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "YISHUN AVE 7",
                     bottomFont: "Mobitec-Tower9New",
@@ -3248,7 +3254,7 @@ EDSData.TTSG = {
                 {
                     renderType: "ExpressdestScroll",
                     serviceNumber: "674",
-                    top: "CITY DIRECT",
+                    top: "`",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "MARINA BLVD",
                     bottomFont: "Mobitec-Tower9New",
@@ -3265,7 +3271,7 @@ EDSData.TTSG = {
                 {
                     renderType: "ExpressdestScroll",
                     serviceNumber: "674",
-                    top: "CITY DIRECT",
+                    top: "`",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "TENGAH DR",
                     bottomFont: "Mobitec-Tower9New",
@@ -4534,7 +4540,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "969A",
                     top: "YISHUN AVE 2",
-                    // topFont: "Mobitec-Tower12New"
+                    topFont: "Mobitec-Tower11New2"
                 },
             ]
         }
@@ -4640,7 +4646,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "984A",
                     top: "BRICKLAND RD",
-                    // topFont: "Mobitec-Tower12New"
+                    topFont: "Mobitec-Tower11New2"
                 }
             ]
         }
