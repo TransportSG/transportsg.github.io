@@ -3139,32 +3139,12 @@ EDSData['TTSG-2025Version'] = {
             destination: "Welcome page",
             destFont: "Mobitec-7:4",
             scrolls: [
-
                 {
                     renderType: "destScroll",
                     serviceNumber: "",
-                    top: "New Destination only format",
-                    topFont: "Hanover-7:3",
-                    bottom: "w.e.f May 2025",
-                    bottomFont: "Hanover-7:3",
-                    image: "logo"
-                },
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "",
-                    top: "New Destination only format",
-                    topFont: "Hanover-7:3",
-                    bottom: "w.e.f May 2025",
-                    bottomFont: "Hanover-7:3",
-                    image: "logo"
-                },
-                {
-                    renderType: "TowerSpecialEDS",
-                    serviceNumber: "",
-                    top: "~+",
+                    top: "2025 ver",
                     topFont: "Mobitec-Tower16:10",
-    
-                    text: "Tower Transit Logo"
+                    image: "logo"
                 },
             ]
         }

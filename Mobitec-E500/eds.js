@@ -9,8 +9,8 @@ let startupCodes = {
     'GASG': 2221, 
     'Sentosa': 9999, 
     'GASG-Original': 2222, 
-    'TTSG-Original': 6666, 
-    'TTSG-2025Version': 6666,
+    'TTSG-Original': 6667, 
+    'TTSG-2025Version': 6667,
     'SMRT (PreSLBP)': 9117, 
     'SBSTC': 1111,
 }

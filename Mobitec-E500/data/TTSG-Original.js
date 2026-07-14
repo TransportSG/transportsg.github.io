@@ -5221,6 +5221,23 @@ EDSData['TTSG-Original'] = {
             ]
         }
     },
+    6667: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: "Welcome Page",
+            destFont: "Mobitec-7:4",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "2024 ver",
+                    topFont: "Mobitec-Tower16:10",
+                    image: "logo"
+                },
+            ]
+        }
+    },
     6701: {
         front: {
             renderType: "standardService",

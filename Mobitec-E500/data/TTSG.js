@@ -1009,8 +1009,8 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "96A",
-                    top: "KENT RIDGE CRES",
-                    // topFont: "Mobitec-Tower12New"
+                    top: "KENT ŔIDGE CŔES",
+                    topFont: "Mobitec-Tower11New1"
                 }
             ]
         }
@@ -1024,8 +1024,8 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "96B",
-                    top: "C'WEALTH AVE W.",
-                    // topFont: "Mobitec-Tower12New"
+                    top: "C'WEAḶH?AVE?WEST",
+                    topFont: "Mobitec-Tower11New1"
                 }
             ]
         }
@@ -1209,8 +1209,8 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "98B",
-                    top: "JURONG PIER RD",
-                    // topFont: "Mobitec-Tower12New"
+                    top: "JURONG|PIER|WÝ",
+                    topFont: "Mobitec-Tower11New2"
                 }
             ]
         }
@@ -1284,8 +1284,8 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "106A",
-                    top: "C'WEALTH AVE W.",
-                    // topFont: "Mobitec-Tower12New"
+                    top: "C’WEALTH AVE W.",
+                    topFont: "Mobitec-Tower11New1"
                 }
             ]
         }
@@ -1315,8 +1315,9 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "106",
-                    top: "SHENTON WAY"
-                }
+                    top: "SHENTON WAY",
+                    topFont: "Mobitec-Tower12New"
+                },
             ]
         }
     },
@@ -1346,6 +1347,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "106",
                     top: "BUKIT BATOK",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1469,7 +1471,7 @@ EDSData.TTSG = {
                     top: "SKIP FULLERTON RD",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "BUKIT MERAH",
-                    bottomFont: "Mobitec-9:6",
+                    bottomFont: "Mobitec-Tower9New",
                 },
                 {
                     renderType: "ExpressdestScroll2",
@@ -1477,13 +1479,14 @@ EDSData.TTSG = {
                     top: "SKIP COLLYER QUAY",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "BUKIT MERAH",
-                    bottomFont: "Mobitec-9:6",
+                    bottomFont: "Mobitec-Tower9New",
                 },
                 {
                     renderType: "destScroll",
                     serviceNumber: "167",
                     top: "BUKIT MERAH",
-                }
+                    topFont: "Mobitec-Tower12New"
+                },
             ]
         }
     },
@@ -1499,7 +1502,7 @@ EDSData.TTSG = {
                     top: "SKIP FULLERTON RD",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "SEMBAWANG",
-                    bottomFont: "Mobitec-9:6",
+                    bottomFont: "Mobitec-Tower9New",
                 },
                 {
                     renderType: "ExpressdestScroll2",
@@ -1507,12 +1510,13 @@ EDSData.TTSG = {
                     top: "SKIP ESPLANADE DR",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "SEMBAWANG",
-                    bottomFont: "Mobitec-9:6",
+                    bottomFont: "Mobitec-Tower9New",
                 },
                 {
                     renderType: "destScroll",
                     serviceNumber: "167",
                     top: "SEMBAWANG",
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -1557,7 +1561,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "169A",
                     top: "YISHUN AVE 2",
-                    // topFont: "Mobitec-Tower12New"
+                    topFont: "Mobitec-Tower11New2"
                 }
             ]
         }
@@ -1571,8 +1575,8 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "169B",
-                    top: "WOODLANDS AVE 8",
-                    // topFont: "Mobitec-Tower12New"
+                    top: "WOODLANDS?AVE?8",
+                    topFont: "Mobitec-Tower11New1"
                 }
             ]
         }
@@ -2855,7 +2859,7 @@ EDSData.TTSG = {
                     top: "CITY DIRECT",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "MARINA BLVD",
-                    bottomFont: "Mobitec-9:6" // -Tower9New",
+                    bottomFont: "Mobitec-Tower9New",
                 }
             ]
         }
@@ -2890,7 +2894,7 @@ EDSData.TTSG = {
                     top: "CITY DIRECT",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "MARINA BLVD",
-                    bottomFont: "Mobitec-9:6" // -Tower9New",
+                    bottomFont: "Mobitec-Tower9New",
                 }
             ]
         }
@@ -2941,8 +2945,7 @@ EDSData.TTSG = {
                     top: "CITY DIRECT",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "CANBERRA RD",
-                    bottomFont: "Mobitec-9:6",
-                    // bottomFont: "Mobitec-Tower9New",
+                    bottomFont: "Mobitec-Tower9New",
                 }
             ]
         }
@@ -2993,7 +2996,7 @@ EDSData.TTSG = {
                     topFont: "Mobitec-Tower6:4",
                     bottom: "CANBERRA RD",
                     bottomFont: "Mobitec-9:6",
-                    // bottomFont: "Mobitec-Tower9New",
+                    bottomFont: "Mobitec-Tower9New",
                 },
                 {
                     renderType: "ExpressdestScroll2",
@@ -3002,7 +3005,7 @@ EDSData.TTSG = {
                     topFont: "Mobitec-Tower6:4",
                     bottom: "CANBERRA RD",
                     bottomFont: "Mobitec-9:6",
-                    // bottomFont: "Mobitec-Tower9New",
+                    bottomFont: "Mobitec-Tower9New",
                 },
                 {
                     renderType: "ExpressdestScroll",
@@ -3011,7 +3014,7 @@ EDSData.TTSG = {
                     topFont: "Mobitec-Tower6:4",
                     bottom: "CANBERRA RD",
                     bottomFont: "Mobitec-9:6",
-                    // bottomFont: "Mobitec-Tower9New",
+                    bottomFont: "Mobitec-Tower9New",
                 },
             ]
         }
@@ -3028,7 +3031,7 @@ EDSData.TTSG = {
                     top: "CITY DIRECT",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "MARINA BLVD",
-                    bottomFont: "Mobitec-9:6" // -Tower9New",
+                    bottomFont: "Mobitec-Tower9New",
                 }
             ]
         }
@@ -3176,23 +3179,12 @@ EDSData.TTSG = {
             destination: "Welcome page",
             destFont: "Mobitec-7:4",
             scrolls: [
-
                 {
                     renderType: "destScroll",
                     serviceNumber: "",
-                    top: "New Font Version",
-                    topFont: "Mobitec-7:4",
-                    bottom: "from March 2026",
-                    bottomFont: "Mobitec-7:4",
-                    image: "logo"
-                },
-                {
-                    renderType: "TowerSpecialEDS",
-                    serviceNumber: "",
-                    top: "~+",
+                    top: "2026 ver",
                     topFont: "Mobitec-Tower16:10",
-    
-                    text: "Tower Transit Logo"
+                    image: "logo"
                 },
             ]
         }
@@ -3207,17 +3199,9 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "",
-                    top: "",
-                    topFont: "Mobitec-Tower11New2"
-                },
-                {
-                    renderType: "ExpressdestScroll",
-                    serviceNumber: "",
-                    top: "",
-                    topFont: "Mobitec-Tower12New",
-                    bottom: "",
-                    bottomFont: "Mobitec-Tower9New",
-                },
+                    top: "I GO TO SCHOOL BY BUS",
+                    topFont: "Mobitec-Tower9New"
+                }
             ]
         }
     },
@@ -3233,7 +3217,7 @@ EDSData.TTSG = {
                     top: "CITY DIRECT",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "MARINA BLVD",
-                    bottomFont: "Mobitec-9:6" // -Tower9New",
+                    bottomFont: "Mobitec-Tower9New",
                 }
             ]
         }
@@ -3250,7 +3234,7 @@ EDSData.TTSG = {
                     top: "CITY DIRECT",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "YISHUN AVE 7",
-                    bottomFont: "Mobitec-9:6", // -Tower9New",
+                    bottomFont: "Mobitec-Tower9New",
                 }
             ]
         }
@@ -3267,7 +3251,7 @@ EDSData.TTSG = {
                     top: "CITY DIRECT",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "MARINA BLVD",
-                    bottomFont: "Mobitec-9:6" // -Tower9New",
+                    bottomFont: "Mobitec-Tower9New",
                 }
             ]
         }
@@ -3590,13 +3574,13 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "856A",
-            destination: "WDL CENTRE RD",
+            destination: "W'LANDS CENTRE RD",
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "856A",
-                    top: "W'LANDS CTR RD",
-                    // topFont: "Mobitec-Tower12New"
+                    top: "W’LANDS|CTŔ|ŔD",
+                    topFont: "Mobitec-Tower11New1"
                 }
             ]
         }
@@ -3611,7 +3595,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "856B",
                     top: "CANBERRA RD",
-                    // topFont: "Mobitec-Tower12New"
+                    topFont: "Mobitec-Tower11New2"
                 }
             ]
         }
@@ -3670,8 +3654,8 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "857A",
-                    top: "YIO CHU KANG RD",
-                    // topFont: "Mobitec-Tower11New1"
+                    top: "YIO|CHU|KANG|RD",
+                    topFont: "Mobitec-Tower11New1"
                 }
             ]
         }
@@ -3703,7 +3687,7 @@ EDSData.TTSG = {
                     top: "SKIP BRAS BASAH RD",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "STAMFORD RD",
-                    bottomFont: "Mobitec-9:6",
+                    bottomFont: "Mobitec-Tower9New",
                 },
                 {
                     renderType: "ExpressdestScroll2",
@@ -3711,12 +3695,13 @@ EDSData.TTSG = {
                     top: "SKIP TEMASEK AVE",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "STAMFORD RD",
-                    bottomFont: "Mobitec-9:6",
+                    bottomFont: "Mobitec-Tower9New",
                 },
                 {
                     renderType: "destScroll",
                     serviceNumber: "857",
-                    top: "STAMFORD RD",
+                    top: "STAMFORD|RD",
+                    topFont: "Mobitec-Tower12New"
                 },
             ]
         }
@@ -3733,7 +3718,7 @@ EDSData.TTSG = {
                     top: "SKIP BRAS BASAH RD",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "STAMFORD RD",
-                    bottomFont: "Mobitec-9:6",
+                    bottomFont: "Mobitec-Tower9New",
                 },
                 {
                     renderType: "ExpressdestScroll2",
@@ -3741,12 +3726,13 @@ EDSData.TTSG = {
                     top: "SKIP TEMASEK AVE",
                     topFont: "Mobitec-Tower6:4",
                     bottom: "STAMFORD RD",
-                    bottomFont: "Mobitec-9:6",
+                    bottomFont: "Mobitec-Tower9New",
                 },
                 {
                     renderType: "destScroll",
                     serviceNumber: "857B",
                     top: "STAMFORD RD",
+                    topFont: "Mobitec-Tower11New2" 
                 },
             ]
         }
@@ -4074,7 +4060,7 @@ EDSData.TTSG = {
             destination: "JURONG EAST ST 32",
             scrolls: [
                 {
-                    renderType: "destScroll2",
+                    renderType: "destScroll",
                     serviceNumber: "872",
                     top: "JUŔONG?EAST?ST?32",
                     topFont: "Mobitec-Tower11New1"
@@ -4957,6 +4943,24 @@ EDSImages.TTSG = {
         [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 0],
         [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 0, 1, 1, 1],
         [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    ],
+    'logo-full2': [
+        [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 1, 0, 0, 0, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0],
+        [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 1, 0],
+        [0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 0],
+        [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 0, 1, 1, 1],
+        [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     ],
     'the-cat': [ //Please Do not the cat
         [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
