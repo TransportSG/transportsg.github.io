@@ -934,7 +934,7 @@ EDSData['SMRT (PostSLBP)'] = {
             text: "SMRT LOGO"
         }
     },
-    8117: {
+    9117: {
         front: {
             renderType: "standardService",
             serviceNumber: "",
@@ -946,16 +946,11 @@ EDSData['SMRT (PostSLBP)'] = {
                 {
                     renderType: "welcomeScroll",
                     serviceNumber: "",
-                    top: "Data from Sep 2024 onwards",
-                    topFont: "Mobitec-7:4:4",
-                    bottom: "(Incl Jurong West Package data)",
-                    bottomFont: "Hanover-7:3:2",
-                    image: "roundel"
-                },
-                {
-                    renderType: "logo",
-                    image: "logo",
-                    text: "SMRT LOGO"
+                    top: "Sep 2024",
+                    topFont: "Mobitec-7:4",
+                    bottom: "Version",
+                    bottomFont: "Mobitec-7:4",
+                    image: "logo"
                 },
             ],
             scrollFont: "Mobitec-7:5:3",

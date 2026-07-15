@@ -1753,11 +1753,11 @@ EDSData.GASG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "",
-                    top: " New Destination only format",
+                    top: "June 2025",
                     topFont: "Mobitec-7:4",
-                    bottom: "w.e.f June 2025",
+                    bottom: "version",
                     bottomFont: "Mobitec-7:4",
-                    image: "GASG Logo Lion Head"
+                    image: "GASG Logo Full"
                 },
 
             ],

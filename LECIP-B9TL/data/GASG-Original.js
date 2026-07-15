@@ -4665,6 +4665,45 @@ EDSData['GASG-Original'] = {
             }
         }
     },
+    2221: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "Go-Ahead Singapore",
+                destinationFont: "Mobitec-7:7",
+                scrolls: [
+                { 
+                    renderType: "destScrollWithImage",
+                    serviceNumber: "",
+                    top: "2022 - 2025",
+                    topFont: "Mobitec-7:7",
+                    bottom: "Version",
+                    bottomFont: "Mobitec-7:7",
+                    image: "GoAheadLogoFull",
+                },
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "~",
+                destinationFont: "Lecip-GoAhead20:12",
+                scrolls: [
+                {
+                    renderType: "logo",
+                    text: "Go Ahead Logo",
+                    image: "GoAheadWordingRear",
+        
+                    serviceNumber: ""
+                },
+                    ""
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+        }
+    },
     2222: {
         1: {
             front: {
@@ -4685,7 +4724,8 @@ EDSData['GASG-Original'] = {
                 serviceNumber: "",
                 destination: "~",
                 destinationFont: "Lecip-GoAhead20:12",
-                scrolls: [{
+                scrolls: [
+                {
                     renderType: "logo",
                     text: "Go Ahead Logo",
                     image: "GoAheadWordingRear",

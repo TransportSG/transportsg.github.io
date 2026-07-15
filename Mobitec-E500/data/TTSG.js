@@ -3220,9 +3220,11 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "",
-                    top: "2026 ver",
-                    topFont: "Mobitec-Tower16:10",
-                    image: "logo"
+                    top: "2026",
+                    topFont: "Mobitec-7:7",
+                    bottom: "Version",
+                    bottomFont: "Mobitec-7:7",
+                    image: "logo-full"
                 },
             ]
         }

@@ -7,9 +7,9 @@ let startupCodes = {
     'GASG': '2221',
     'SMRT': '9117',
     'TTSG': '6667',
-    'GASG-Original': '2222',
+    'GASG-Original': '2221',
     'SMRT-old': '9117',
-    'TTSG-Original': '6666',
+    'TTSG-Original': '6667',
 }
 
 let EDSFormats = {};

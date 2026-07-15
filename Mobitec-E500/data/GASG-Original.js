@@ -2136,6 +2136,29 @@ EDSData['GASG-Original'] = {
             scrollFont: "Mobitec-7:4"
         }
     },
+    2221: { 
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Welcome Page",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+                    top: "2023 - 2025",
+                    topFont: "Mobitec-7:4",
+                    bottom: "version",
+                    bottomFont: "Mobitec-7:4",
+                    image: "GASG Logo Full"
+                },
+
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
     2222: {
         front: {
             renderType: "ImageScroll",
