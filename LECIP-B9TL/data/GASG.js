@@ -1703,6 +1703,13 @@ EDSData.GASG = {
                 destinationFont: "Hanover-7:3",
                 scrolls: [
                 {
+                    renderType: "destScrollECID",
+                    top: "Toa Payoh",
+                    topFont: "Lecip-GoAhead16:10",
+        
+                    serviceNumber: "28"
+                },
+                {
                     renderType: "message",
                     text: "28",
                     font: "LECIP-19:GoAheadBigNumber",
@@ -1825,6 +1832,13 @@ EDSData.GASG = {
                 destination: "Toa Payoh",
                 destinationFont: "Hanover-7:3",
                 scrolls: [
+                {
+                    renderType: "destScrollECID",
+                    top: "Toa Payoh",
+                    topFont: "Lecip-GoAhead16:10",
+        
+                    serviceNumber: "31"
+                },
                 {
                     renderType: "message",
                     text: "31",
@@ -2646,9 +2660,16 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "47",
-                destination: "?",
+                destination: "Amber Road",
                 destinationFont: "Hanover-7:3",
                 scrolls: [
+                {
+                    renderType: "destScrollECID",
+                    top: "Amber Road",
+                    topFont: "Lecip-GoAhead16:10",
+        
+                    serviceNumber: "47"
+                },
                 {
                     renderType: "message",
                     text: "47",
@@ -2672,6 +2693,13 @@ EDSData.GASG = {
                 destination: "Changi Business Park",
                 destinationFont: "Mobitec-7:4",
                 scrolls: [
+                {
+                    renderType: "destScrollECID",
+                    top: "Changi Business Park",
+                    topFont: "Hanover-GoAhead14:6",
+        
+                    serviceNumber: "47"
+                },
                 {
                     renderType: "message",
                     text: "47",
@@ -3745,7 +3773,7 @@ EDSData.GASG = {
                 scrolls: [
                 {
                     renderType: "destScrollECID",
-                    serviceNumber: "127A",
+                    serviceNumber: " ",
                     top: "TERMINATING AT",
                     topFont: "Lecip-GoAhead8:6:2",
                     bottom: " ",
