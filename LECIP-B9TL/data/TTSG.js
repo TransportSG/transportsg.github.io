@@ -2496,6 +2496,110 @@ EDSData.TTSG = {
             }
         }
     },
+    111: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "LCS1",
+                destination: "AIRLINE RD",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                {
+                    renderType: "destScroll",
+                    top: "AIRLINE RD",
+                    topFont: "Hanover-17:11",
+        
+                    serviceNumber: "lcs1"
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "message",
+                text: "LcS1",
+                font: "LECIP-TowerRear17:7",
+                spacing: 1
+            }
+        }
+    },  
+    112: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "LCS1",
+                destination: "TAMPINES AVE 9",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                {
+                    renderType: "destScroll",
+                    top: "TAMPINES AVE 9",
+                    topFont: "Hanover-17:6",
+        
+                    serviceNumber: "lcs1"
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "message",
+                text: "LcS1",
+                font: "LECIP-TowerRear17:7",
+                spacing: 1
+            }
+        }
+    },       
+    211: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "LCS2",
+                destination: "AIRLINE RD",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                {
+                    renderType: "destScroll",
+                    top: "AIRLINE RD",
+                    topFont: "Hanover-17:11",
+        
+                    serviceNumber: "lcs2"
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "message",
+                text: "LcS2",
+                font: "LECIP-TowerRear17:7",
+                spacing: 1
+            }
+        }
+    },  
+    212: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "LCS2",
+                destination: "PUNGGOL WAY",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                {
+                    renderType: "destScroll",
+                    top: "PUNGGOL WAY",
+                    topFont: "Hanover-17:6",
+        
+                    serviceNumber: "lcs2"
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "message",
+                text: "LcS2",
+                font: "LECIP-TowerRear17:7",
+                spacing: 1
+            }
+        }
+    },             
     143: { // Done
         1: {
             front: {
