@@ -3917,7 +3917,7 @@ EDSData.TTSG = {
                 renderType: "rearService",
                 serviceNumber: "$61",
                 font: "LECIP-TowerRear17:10",
-                spacing: 1
+                spacing: 2
             }
         },
         2: {
@@ -3947,7 +3947,7 @@ EDSData.TTSG = {
                 renderType: "rearService",
                 serviceNumber: "$61",
                 font: "LECIP-TowerRear17:10",
-                spacing: 1
+                spacing: 2
             }
         }
     },
@@ -7660,7 +7660,7 @@ EDSData.TTSG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "S52",
-                destination: "CALDECOTT",
+                destination: "S52 CALDECOTT",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [ 
                 {
@@ -7689,7 +7689,7 @@ EDSData.TTSG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "S52",
-                destination: "MARINA BAY",
+                destination: "S52 MARINA BAY",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [ 
                 {
