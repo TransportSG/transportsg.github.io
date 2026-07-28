@@ -3237,6 +3237,50 @@ EDSData.GASG = {
             scrollFont: "Mobitec-7:4"
         }
     },
+    6461: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "646",
+            destination: {
+                text: "Shenton Way",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "646",
+                    top: "Shenton",
+                    topFont: "Mobitec-7:5:1",
+                    bottom: "Way",
+                    bottomFont: "Mobitec-7:5:2",
+                    image: "CityDirect",
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    6462: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "646",
+            destination: {
+                text: "Tampines Street 64",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "646",
+                    top: "Tampines",
+                    topFont: "Mobitec-7:5:2",
+                    bottom: "Street 64",
+                    bottomFont: "Mobitec-7:5:2",
+                    image: "CityDirect",
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
     6611: {
         front: {
             renderType: "standardService",
