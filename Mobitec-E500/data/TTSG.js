@@ -1871,7 +1871,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "285",
                     top: "PANDAN LOOP",
-                    topFont: "Mobitec-Tower12New"
+                    topFont: "Mobitec-Tower11New2"
                 }
             ]
         }
@@ -2212,6 +2212,36 @@ EDSData.TTSG = {
                     renderType: "destScroll3",
                     serviceNumber: "453",
                     top: "TENGAH",
+                    topFont: "Mobitec-Tower12New"
+                }
+            ]
+        }
+    },
+    4611: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "461",
+            destination: "KHATIB MRT",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "461",
+                    top: "KHATIB MRT",
+                    topFont: "Mobitec-Tower12New"
+                }
+            ]
+        }
+    },
+    4612: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "461",
+            destination: "YISHUN AVE 6",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "461",
+                    top: "YISHUN AVE 6",
                     topFont: "Mobitec-Tower12New"
                 }
             ]

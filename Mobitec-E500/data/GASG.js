@@ -372,6 +372,44 @@ EDSData.GASG = {
             scrollFont: "Mobitec-7:4"
         }
     },
+    41: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "4",
+            destination: {
+                text: "Changi North Way",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "4",
+                    top: "Changi North Way",
+                    topFont: "Mobitec-12:7"
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    42: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "4",
+            destination: {
+                text: "Tampines",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "4",
+                    top: "Tampines",
+                    topFont: "Mobitec-13:8"
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
     61: {
         front: {
             renderType: "standardService",
@@ -432,17 +470,20 @@ EDSData.GASG = {
     103: {
         front: {
             renderType: "standardService",
-            serviceNumber: "10A",
+            serviceNumber: "10e",
             destination: {
-                text: " ",
+                text: "Shenton Way",
                 font: "Mobitec-7:7"
             },
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "10A",
-                    top: "TERMINATING AT",
-                    bottom: " ",
+                    serviceNumber: "10e",
+                    top: "Shenton",
+                    topFont: "Mobitec-7:5:2",
+                    bottom: "Way",
+                    bottomFont: "Mobitec-7:5:2",
+                    image: "express",
                 },
             ],
             scrollFont: "Mobitec-7:4"
@@ -453,38 +494,16 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "10e",
             destination: {
-                text: " ",
+                text: "Bedok Rd",
                 font: "Mobitec-7:7"
             },
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "10e",
-                    top: " ",
+                    top: "Bedok",
                     topFont: "Mobitec-7:5:2",
-                    bottom: "  ",
-                    bottomFont: "Mobitec-7:5:2",
-                    image: "express",
-                },
-            ],
-            scrollFont: "Mobitec-7:4"
-        }
-    },
-    105: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "10e",
-            destination: {
-                text: " ",
-                font: "Mobitec-7:7"
-            },
-            scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "10e",
-                    top: " ",
-                    topFont: "Mobitec-7:5:2",
-                    bottom: "  ",
+                    bottom: "Rd",
                     bottomFont: "Mobitec-7:5:2",
                     image: "express",
                 },
@@ -710,8 +729,8 @@ EDSData.GASG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "18",
-                    top: " ",
-                    topFont: "Mobitec-13:8"
+                    top: "Bedok North Ave 4",
+                    topFont: "Mobitec-12:7"
                 },
             ],
             scrollFont: "Mobitec-7:4"
@@ -755,40 +774,282 @@ EDSData.GASG = {
             scrollFont: "Mobitec-7:4"
         }
     },
-    184: { // tba
+    191: {
         front: {
             renderType: "standardService",
-            serviceNumber: "18M",
+            serviceNumber: "19",
             destination: {
-                text: " ",
-                font: "Mobitec-7:7"
+                text: "Changi Airfreight Centre",
+                font: "Mobitec-7:5:3"
             },
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "18M",
-                    top: " ",
-                    topFont: "Mobitec-13:8"
+                    serviceNumber: "19",
+                    top: "Changi",
+                    topFont: "Mobitec-7:5:3",
+                    bottom: "Airfreight Centre",
+                    bottomFont: "Mobitec-7:5:3"
                 },
             ],
             scrollFont: "Mobitec-7:4"
         }
     },
-    185: {
+    192: {
         front: {
             renderType: "standardService",
-            serviceNumber: "18M",
+            serviceNumber: "19",
             destination: {
-                text: " ",
+                text: "Tampines",
                 font: "Mobitec-7:7"
             },
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "18M",
-                    top: " ",
+                    serviceNumber: "19",
+                    top: "Tampines",
                     topFont: "Mobitec-13:8"
                 },
+
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    201: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "20",
+            destination: {
+                text: "Changi Business Park Central 2",
+                font: "Mobitec-7:5:3"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "20",
+                    top: "Changi Business ",
+                    topFont: "Mobitec-7:5:3",
+                    bottom: "Park Central 2",
+                    bottomFont: "Mobitec-7:5:3"
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    202: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "20",
+            destination: {
+                text: "Tampines",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "20",
+                    top: "Tampines",
+                    topFont: "Mobitec-13:8"
+                },
+
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    203: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "20A",
+            destination: {
+                text: "Expo MRT",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "20A",
+                    top: "TERMINATING AT",
+                    bottom: "EXPO STN EXIT B",
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    231: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "23",
+            destination: {
+                text: "Rochor MRT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "23",
+                    top: "Rochor MRT",
+                    topFont: "Mobitec-13:8"
+                },
+
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    232: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "23",
+            destination: {
+                text: "Tampines",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "23",
+                    top: "Tampines",
+                    topFont: "Mobitec-13:8"
+                },
+
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    281: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "28",
+            destination: {
+                text: "Toa Payoh",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "28",
+                    top: "Toa Payoh",
+                    topFont: "Mobitec-13:8"
+                },
+
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    282: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "28",
+            destination: {
+                text: "Tampines",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "28",
+                    top: "Tampines",
+                    topFont: "Mobitec-13:8"
+                },
+
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    291: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "29",
+            destination: {
+                text: "Changi Village",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "29",
+                    top: "Changi Village",
+                    topFont: "Mobitec-13:8"
+                },
+
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    292: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "29",
+            destination: {
+                text: "Tampines",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "29",
+                    top: "Tampines",
+                    topFont: "Mobitec-13:8"
+                },
+
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    293: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "29A",
+            destination: {
+                text: "Tampines Ave 7",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "20A",
+                    top: "TERMINATING AT",
+                    bottom: "EXPO STN EXIT B",
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    311: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "31",
+            destination: {
+                text: "Toa Payoh",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "31",
+                    top: "Toa Payoh",
+                    topFont: "Mobitec-13:8"
+                },
+
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    312: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "31",
+            destination: {
+                text: "Tampines",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "31",
+                    top: "Tampines",
+                    topFont: "Mobitec-13:8"
+                },
+
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -992,6 +1253,167 @@ EDSData.GASG = {
             scrollFont: "Mobitec-7:4"
         }
     },
+    371: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "37",
+            destination: {
+                text: "Changi North Cres",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "37",
+                    top: "Changi North Cres",
+                    topFont: "Mobitec-12:7"
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    372: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "37",
+            destination: {
+                text: "Tampines",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "37",
+                    top: "Tampines",
+                    topFont: "Mobitec-13:8"
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    381: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "38",
+            destination: {
+                text: "Bedok",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "38",
+                    top: "Bedok",
+                    topFont: "Mobitec-13:8"
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    382: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "38",
+            destination: {
+                text: "Tampines",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "38",
+                    top: "Tampines",
+                    topFont: "Mobitec-13:8"
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    391: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "39",
+            destination: {
+                text: "Yishun",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "39",
+                    top: "Yishun",
+                    topFont: "Mobitec-13:8"
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    392: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "39",
+            destination: {
+                text: "Tampines Concourse",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "39",
+                    top: "Tampines",
+                    topFont: "Mobitec-7:5:2",
+                    bottom: "Concourse",
+                    bottomFont: "Mobitec-7:5:2"
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    393: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "39A",
+            destination: {
+                text: "Jalan Kayu",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "39A",
+                    top: "TERMINATING AT",
+                    bottom: "JALAN KAYU",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "39A",
+                    top: "TERMINATING AT",
+                    bottom: "AFT PICADILLY CIRCUS/TPE",
+                    bottomFont: "Hanover-7:3"
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    394: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "39B",
+            destination: {
+                text: "Pasir Ris MRT",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "39B",
+                    top: "TERMINATING AT",
+                    bottom: "PASIR RIS INT/MALL",
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
     431: {
         front: {
             renderType: "standardService",
@@ -1175,6 +1597,44 @@ EDSData.GASG = {
             scrollFont: "Mobitec-7:4"
         }
     },
+    471: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "47",
+            destination: {
+                text: "Amber Road",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "47",
+                    top: "Amber Road",
+                    topFont: "Mobitec-13:8"
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    472: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "47",
+            destination: {
+                text: "Changi Business Park",
+                font: "Mobitec-7:5:3"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "47",
+                    top: "Changi Business Park",
+                    topFont: "Mobitec-7:5:3"
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
     621: {
         front: {
             renderType: "standardService",
@@ -1227,6 +1687,44 @@ EDSData.GASG = {
                     serviceNumber: "62A",
                     top: "TERMINATING AT",
                     bottom: "ALJUNIED MRT",
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    651: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "65",
+            destination: {
+                text: "HarbourFront",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "65",
+                    top: "HarbourFront",
+                    topFont: "Mobitec-13:8"
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    652: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "65",
+            destination: {
+                text: "Tampines",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "65",
+                    top: "Tampines",
+                    topFont: "Mobitec-13:8"
                 },
             ],
             scrollFont: "Mobitec-7:4"
@@ -1309,6 +1807,120 @@ EDSData.GASG = {
                     serviceNumber: "68B",
                     top: "TERMINATING AT",
                     bottom: "REEBONZ BLDG",
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    691: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "69",
+            destination: {
+                text: "Bedok",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "69",
+                    top: "Bedok",
+                    topFont: "Mobitec-13:8"
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    692: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "69",
+            destination: {
+                text: "Tampines",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "69",
+                    top: "Tampines",
+                    topFont: "Mobitec-13:8"
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    721: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "72",
+            destination: {
+                text: "Yio Chu Kang",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "72",
+                    top: "Yio Chu Kang",
+                    topFont: "Mobitec-13:8"
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    722: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "72",
+            destination: {
+                text: "Tampines",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "72",
+                    top: "Tampines",
+                    topFont: "Mobitec-13:8"
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    811: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "81",
+            destination: {
+                text: "Serangoon MRT",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "81",
+                    top: "Serangoon MRT",
+                    topFont: "Mobitec-13:8"
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    812: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "81",
+            destination: {
+                text: "Tampines",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "81",
+                    top: "Tampines",
+                    topFont: "Mobitec-13:8"
                 },
             ],
             scrollFont: "Mobitec-7:4"
@@ -1703,6 +2315,85 @@ EDSData.GASG = {
             scrollFont: "Mobitec-7:4"
         }
     },
+    1271: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "127",
+            destination: {
+                text: "Tampines Industrial Ave 5",
+                font: "Mobitec-7:5:3"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "127",
+                    top: "Tampines",
+                    topFont: "Mobitec-7:5:3",
+                    bottom: "Industrial Ave 5",
+                    bottomFont: "Mobitec-7:5:3"
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    1272: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "127",
+            destination: {
+                text: "Tampines",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "127",
+                    top: "Tampines",
+                    topFont: "Mobitec-13:8"
+                },
+
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    1291: { 
+        front: {
+            renderType: "standardService",
+            serviceNumber: "129",
+            destination: {
+                text: "St Michael's",
+                font: "Mobitec-13:8"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "129",
+                    top: "St Michael's",
+                    topFont: "Mobitec-13:8"
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    1292: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "129",
+            destination: {
+                text: "Tampines North",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "129",
+                    top: "Tampines North",
+                    topFont: "Mobitec-12:7"
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
     1361: { 
         front: {
             renderType: "standardService",
@@ -1780,6 +2471,162 @@ EDSData.GASG = {
             bottom: " Loyang Depot",
             bottomFont: "Mobitec-7:4",
             image: "GASG Logo Full",
+        }
+    },
+    2911: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "291",
+            destination: {
+                text: "Tampines",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "291",
+                    top: "Tampines",
+                    topFont: "Mobitec-13:8"
+                },
+
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    2912: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "291T",
+            destination: {
+                text: "Ends at Tampines Int",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "291T",
+                    top: "TERMINATING AT",
+                    bottom: "TAMPINES INT",
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    2921: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "292",
+            destination: {
+                text: "Tampines",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "292",
+                    top: "Tampines",
+                    topFont: "Mobitec-13:8"
+                },
+
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    2931: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "293",
+            destination: {
+                text: "Tampines",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "293",
+                    top: "Tampines",
+                    topFont: "Mobitec-13:8"
+                },
+
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    2932: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "293T",
+            destination: {
+                text: "Ends at Tampines Int",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "293T",
+                    top: "TERMINATING AT",
+                    bottom: "TAMPINES INT",
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    2961: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "296",
+            destination: {
+                text: "Tampines",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "296",
+                    top: "Tampines",
+                    topFont: "Mobitec-13:8"
+                },
+
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    2981: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "298",
+            destination: {
+                text: "Tampines North",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "298",
+                    top: "Tampines North",
+                    topFont: "Mobitec-12:7"
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    2991: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "299",
+            destination: {
+                text: "Tampines North",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "299",
+                    top: "Tampines North",
+                    topFont: "Mobitec-12:7"
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
         }
     },
     3333: {
@@ -2073,6 +2920,25 @@ EDSData.GASG = {
             font: 'Mobitec-13:8',
         }
     },
+    4541: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "454",
+            destination: {
+                text: "Tampines North",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "454",
+                    top: "Tampines North",
+                    topFont: "Mobitec-12:7"
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
     4591: {
         front: {
             renderType: "standardService",
@@ -2105,6 +2971,26 @@ EDSData.GASG = {
                     renderType: "destScroll",
                     serviceNumber: "459",
                     top: "Punggol MRT",
+                    topFont: "Mobitec-13:8"
+                },
+
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    4601: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "460",
+            destination: {
+                text: "Tampines",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "460",
+                    top: "Tampines",
                     topFont: "Mobitec-13:8"
                 },
 
