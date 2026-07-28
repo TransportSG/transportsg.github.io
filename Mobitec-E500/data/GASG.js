@@ -760,7 +760,7 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "18A",
             destination: {
-                text: " ",
+                text: "Tampines East MRT",
                 font: "Mobitec-7:5:2"
             },
             scrolls: [
@@ -768,7 +768,8 @@ EDSData.GASG = {
                     renderType: "destScroll",
                     serviceNumber: "18A",
                     top: "TERMINATING AT",
-                    bottom: " ",
+                    bottom: "TAMPINES EAST STN EXIT B",
+                    bottomFont: "Hanover-7:3"
                 },
             ],
             scrollFont: "Mobitec-7:4"
@@ -1006,9 +1007,15 @@ EDSData.GASG = {
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "20A",
+                    serviceNumber: "29A",
                     top: "TERMINATING AT",
-                    bottom: "EXPO STN EXIT B",
+                    bottom: "TAMPINES AVE 7",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "29A",
+                    top: "TERMINATING AT",
+                    bottom: "BLK 497D",
                 },
             ],
             scrollFont: "Mobitec-7:4"
@@ -1050,6 +1057,26 @@ EDSData.GASG = {
                     topFont: "Mobitec-13:8"
                 },
 
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    313: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "31A",
+            destination: {
+                text: "Tanah Merah MRT",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "31A",
+                    top: "TERMINATING AT",
+                    bottom: "TANAH MERAH STN EXIT 1",
+                    bottomFont: "Hanover-7:3"
+                },
             ],
             scrollFont: "Mobitec-7:4"
         }
@@ -1888,6 +1915,57 @@ EDSData.GASG = {
             scrollFont: "Mobitec-7:4"
         }
     },
+    723: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "72A",
+            destination: {
+                text: "Hougang Central",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "72A",
+                    top: "TERMINATING AT",
+                    bottom: "HOUGANG CENTRAL ",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "72A",
+                    top: "TERMINATING AT",
+                    bottom: "OPP HOUGANG CTRL INT",
+                    bottomFont: "Mobitec-7:4"
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    724: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "72B",
+            destination: {
+                text: "Ang Mo Kio Ave 5",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "72B",
+                    top: "TERMINATING AT",
+                    bottom: "ANG MO KIO AVE 5",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "72B",
+                    top: "TERMINATING AT",
+                    bottom: "ITE COLL CTRL",
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
     811: {
         front: {
             renderType: "standardService",
@@ -2356,6 +2434,31 @@ EDSData.GASG = {
             scrollFont: "Mobitec-7:4"
         }
     },
+    1273: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "127A",
+            destination: {
+                text: "Tampines North Drive 1",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "127A",
+                    top: "TERMINATING AT",
+                    bottom: "TAMPINES NTH DR 1",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "127A",
+                    top: "TERMINATING AT",
+                    bottom: "OPP BLK 610C",
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
     1291: { 
         front: {
             renderType: "standardService",
@@ -2389,6 +2492,52 @@ EDSData.GASG = {
                     serviceNumber: "129",
                     top: "Tampines North",
                     topFont: "Mobitec-12:7"
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    1293: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "129A",
+            destination: {
+                text: "Bartley MRT",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "129A",
+                    top: "TERMINATING AT",
+                    bottom: "BARTLEY STN EXIT A",
+                    bottomFont: "Mobitec-7:4"
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    1294: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "129B",
+            destination: {
+                text: "Tampines Ave 5",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "129A",
+                    top: "TERMINATING AT",
+                    bottom: "TAMPINES AVE 5",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "129B",
+                    top: "TERMINATING AT",
+                    bottom: "OPP TEMASEK POLY EAST G",
+                    bottomFont: "Hanover-7:3"
                 },
             ],
             scrollFont: "Mobitec-7:4"
@@ -3367,7 +3516,6 @@ EDSData.GASG = {
             image: "breakdown",
         }
     },
-    
     9999: {
         front: {
             renderType: "ImageScroll",
