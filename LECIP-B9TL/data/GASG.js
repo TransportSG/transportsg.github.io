@@ -1641,9 +1641,17 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "19",
-                destination: "?",
+                destination: "Changi Airfreight Centre",
                 destinationFont: "Hanover-7:3",
                 scrolls: [
+                {
+                    renderType: "destScrollECID",
+                    serviceNumber: "19",
+                    top: "Changi",
+                    topFont: "Lecip-GoAhead8:6:4",
+                    bottom: "Airfreight Centre",
+                    bottomFont: "Lecip-GoAhead8:6:4",
+                },
                 {
                     renderType: "message",
                     text: "19",
@@ -1667,6 +1675,13 @@ EDSData.GASG = {
                 destination: "Tampines",
                 destinationFont: "Mobitec-7:4",
                 scrolls: [
+                {
+                    renderType: "destScrollECID",
+                    top: "Tampines",
+                    topFont: "Lecip-GoAhead16:10",
+        
+                    serviceNumber: "19"
+                },
                 {
                     renderType: "message",
                     text: "19",
@@ -1693,6 +1708,14 @@ EDSData.GASG = {
                 destinationFont: "Hanover-7:3",
                 scrolls: [
                 {
+                    renderType: "destScrollECID",
+                    serviceNumber: "20",
+                    top: "Changi Business",
+                    topFont: "Lecip-GoAhead8:6:4",
+                    bottom: "Park Central 2",
+                    bottomFont: "Lecip-GoAhead8:6:4",
+                },
+                {
                     renderType: "message",
                     text: "20",
                     font: "LECIP-19:GoAheadBigNumber",
@@ -1715,6 +1738,13 @@ EDSData.GASG = {
                 destination: "Tampines",
                 destinationFont: "Mobitec-7:4",
                 scrolls: [
+                {
+                    renderType: "destScrollECID",
+                    top: "Tampines",
+                    topFont: "Lecip-GoAhead16:10",
+        
+                    serviceNumber: "20"
+                },
                 {
                     renderType: "message",
                     text: "20",
@@ -1741,12 +1771,12 @@ EDSData.GASG = {
                 destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
-                    renderType: "destScrollECID",
+                    renderType: "destScrollWithImage3",
                     serviceNumber: "20A",
                     top: "TERMINATING AT",
-                    topFont: "Lecip-GoAhead8:6:2",
+                    topFont: "Hanover-7:4",
                     bottom: "EXPO STN EXIT B",
-                    bottomFont: "Lecip-GoAhead8:6:2",
+                    bottomFont: "Hanover-7:4",
                 },
                 ],
                 scrollFont: "Hanover-7:5"
@@ -1764,9 +1794,16 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "23",
-                destination: "?",
+                destination: "Rochor MRT",
                 destinationFont: "Hanover-7:3",
                 scrolls: [
+                {
+                    renderType: "destScrollECID",
+                    top: "Rochor MRT",
+                    topFont: "Lecip-GoAhead16:10",
+        
+                    serviceNumber: "23"
+                },
                 {
                     renderType: "message",
                     text: "23",
@@ -1790,6 +1827,13 @@ EDSData.GASG = {
                 destination: "Tampines",
                 destinationFont: "Mobitec-7:4",
                 scrolls: [
+                {
+                    renderType: "destScrollECID",
+                    top: "Tampines",
+                    topFont: "Lecip-GoAhead16:10",
+        
+                    serviceNumber: "23"
+                },
                 {
                     renderType: "message",
                     text: "23",
@@ -1846,6 +1890,13 @@ EDSData.GASG = {
                 destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
+                    renderType: "destScrollECID",
+                    top: "Tampines",
+                    topFont: "Lecip-GoAhead16:10",
+        
+                    serviceNumber: "28"
+                },
+                {
                     renderType: "message",
                     text: "28",
                     font: "LECIP-19:GoAheadBigNumber",
@@ -1871,6 +1922,13 @@ EDSData.GASG = {
                 destinationFont: "Hanover-7:3",
                 scrolls: [
                 {
+                    renderType: "destScrollECID",
+                    top: "Changi Village",
+                    topFont: "Lecip-GoAhead16:10",
+        
+                    serviceNumber: "29"
+                },
+                {
                     renderType: "message",
                     text: "29",
                     font: "LECIP-19:GoAheadBigNumber",
@@ -1893,6 +1951,13 @@ EDSData.GASG = {
                 destination: "Tampines",
                 destinationFont: "Mobitec-7:4",
                 scrolls: [
+                {
+                    renderType: "destScrollECID",
+                    top: "Tampines",
+                    topFont: "Lecip-GoAhead16:10",
+        
+                    serviceNumber: "29"
+                },
                 {
                     renderType: "message",
                     text: "29",
@@ -1919,11 +1984,19 @@ EDSData.GASG = {
                 destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
-                    renderType: "destScrollECID",
+                    renderType: "destScrollWithImage3",
                     serviceNumber: "29A",
                     top: "TERMINATING AT",
                     topFont: "Lecip-GoAhead8:6:2",
-                    bottom: " ",
+                    bottom: "TAMPINES AVE 7",
+                    bottomFont: "Lecip-GoAhead8:6:2",
+                },
+                {
+                    renderType: "destScrollWithImage3",
+                    serviceNumber: "29A",
+                    top: "TERMINATING AT",
+                    topFont: "Lecip-GoAhead8:6:2",
+                    bottom: "BLK 497D",
                     bottomFont: "Lecip-GoAhead8:6:2",
                 },
                 ],
@@ -1976,6 +2049,13 @@ EDSData.GASG = {
                 destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
+                    renderType: "destScrollECID",
+                    top: "Tampines",
+                    topFont: "Lecip-GoAhead16:10",
+        
+                    serviceNumber: "31"
+                },
+                {
                     renderType: "message",
                     text: "31",
                     font: "LECIP-19:GoAheadBigNumber",
@@ -2001,12 +2081,12 @@ EDSData.GASG = {
                 destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
-                    renderType: "destScrollECID",
+                    renderType: "destScrollWithImage3",
                     serviceNumber: "31A",
                     top: "TERMINATING AT",
-                    topFont: "Lecip-GoAhead8:6:2",
-                    bottom: " ",
-                    bottomFont: "Lecip-GoAhead8:6:2",
+                    topFont: "Hanover-7:4",
+                    bottom: "TANAH MERAH STN EXIT 1",
+                    bottomFont: "Hanover-7:4",
                 },
                 ],
                 scrollFont: "Hanover-7:5"
@@ -2344,6 +2424,43 @@ EDSData.GASG = {
                 destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
+                    renderType: "destScrollECID",
+                    top: "Changi North Cres",
+                    topFont: "Hanover-GoAhead14:7",
+        
+                    serviceNumber: "37"
+                },
+                {
+                    renderType: "message",
+                    text: "37",
+                    font: "LECIP-19:GoAheadBigNumber",
+                    spacing: 12
+                },
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "37",
+                font: "Lecip-GoAhead20:12",
+                spacing: 3
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "37",
+                destination: "Tampines",
+                destinationFont: "Mobitec-7:4",
+                scrolls: [
+                {
+                    renderType: "destScrollECID",
+                    top: "Tampines",
+                    topFont: "Lecip-GoAhead16:10",
+        
+                    serviceNumber: "37"
+                },
+                {
                     renderType: "message",
                     text: "37",
                     font: "LECIP-19:GoAheadBigNumber",
@@ -2369,6 +2486,13 @@ EDSData.GASG = {
                 destinationFont: "Hanover-7:3",
                 scrolls: [
                 {
+                    renderType: "destScrollECID",
+                    top: "Bedok",
+                    topFont: "Lecip-GoAhead16:10",
+        
+                    serviceNumber: "38"
+                },
+                {
                     renderType: "message",
                     text: "38",
                     font: "LECIP-19:GoAheadBigNumber",
@@ -2391,6 +2515,13 @@ EDSData.GASG = {
                 destination: "Tampines",
                 destinationFont: "Mobitec-7:4",
                 scrolls: [
+                {
+                    renderType: "destScrollECID",
+                    top: "Tampines",
+                    topFont: "Lecip-GoAhead16:10",
+        
+                    serviceNumber: "38"
+                },
                 {
                     renderType: "message",
                     text: "38",
@@ -2417,6 +2548,13 @@ EDSData.GASG = {
                 destinationFont: "Hanover-7:3",
                 scrolls: [
                 {
+                    renderType: "destScrollECID",
+                    top: "Yishun",
+                    topFont: "Lecip-GoAhead16:10",
+        
+                    serviceNumber: "39"
+                },
+                {
                     renderType: "message",
                     text: "39",
                     font: "LECIP-19:GoAheadBigNumber",
@@ -2439,6 +2577,13 @@ EDSData.GASG = {
                 destination: "Tampines Concourse",
                 destinationFont: "Mobitec-7:4",
                 scrolls: [
+                {
+                    renderType: "destScrollECID",
+                    top: "Tampines Concourse",
+                    topFont: "Hanover-GoAhead14:6",
+        
+                    serviceNumber: "39"
+                },
                 {
                     renderType: "message",
                     text: "39",
@@ -2465,12 +2610,20 @@ EDSData.GASG = {
                 destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
-                    renderType: "destScrollECID",
+                    renderType: "destScrollWithImage3",
                     serviceNumber: "39A",
                     top: "TERMINATING AT",
                     topFont: "Lecip-GoAhead8:6:2",
-                    bottom: " ",
+                    bottom: "JALAN KAYU",
                     bottomFont: "Lecip-GoAhead8:6:2",
+                },
+                {
+                    renderType: "destScrollWithImage3",
+                    serviceNumber: "39A",
+                    top: "TERMINATING AT",
+                    topFont: "Lecip-GoAhead8:6:2",
+                    bottom: "AFT PICADILLY CIRCUS/TPE",
+                    bottomFont: "Hanover-7:4",
                 },
                 ],
                 scrollFont: "Hanover-7:5"
@@ -2492,11 +2645,11 @@ EDSData.GASG = {
                 destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
-                    renderType: "destScrollECID",
+                    renderType: "destScrollWithImage3",
                     serviceNumber: "39B",
                     top: "TERMINATING AT",
                     topFont: "Lecip-GoAhead8:6:2",
-                    bottom: " ",
+                    bottom: "PASIR RIS INT/MALL",
                     bottomFont: "Lecip-GoAhead8:6:2",
                 },
                 ],
@@ -2929,6 +3082,13 @@ EDSData.GASG = {
                 destinationFont: "Hanover-7:3",
                 scrolls: [
                 {
+                    renderType: "destScrollECID",
+                    top: " ",
+                    topFont: "Lecip-GoAhead16:10",
+        
+                    serviceNumber: "65"
+                },
+                {
                     renderType: "message",
                     text: "65",
                     font: "LECIP-19:GoAheadBigNumber",
@@ -2951,6 +3111,13 @@ EDSData.GASG = {
                 destination: "Tampines",
                 destinationFont: "Mobitec-7:4",
                 scrolls: [
+                {
+                    renderType: "destScrollECID",
+                    top: "Tampines",
+                    topFont: "Lecip-GoAhead16:10",
+        
+                    serviceNumber: "65"
+                },
                 {
                     renderType: "message",
                     text: "65",
@@ -3101,6 +3268,13 @@ EDSData.GASG = {
                 destinationFont: "Hanover-7:3",
                 scrolls: [
                 {
+                    renderType: "destScrollECID",
+                    top: "Bedok",
+                    topFont: "Lecip-GoAhead16:10",
+        
+                    serviceNumber: "69"
+                },
+                {
                     renderType: "message",
                     text: "69",
                     font: "LECIP-19:GoAheadBigNumber",
@@ -3123,6 +3297,13 @@ EDSData.GASG = {
                 destination: "Tampines",
                 destinationFont: "Mobitec-7:4",
                 scrolls: [
+                {
+                    renderType: "destScrollECID",
+                    top: "Tampines",
+                    topFont: "Lecip-GoAhead16:10",
+        
+                    serviceNumber: "69"
+                },
                 {
                     renderType: "message",
                     text: "69",
@@ -3149,6 +3330,13 @@ EDSData.GASG = {
                 destinationFont: "Hanover-7:3",
                 scrolls: [
                 {
+                    renderType: "destScrollECID",
+                    top: "Yio Chu Kang",
+                    topFont: "Lecip-GoAhead16:10",
+        
+                    serviceNumber: "72"
+                },
+                {
                     renderType: "message",
                     text: "72",
                     font: "LECIP-19:GoAheadBigNumber",
@@ -3171,6 +3359,13 @@ EDSData.GASG = {
                 destination: "Tampines",
                 destinationFont: "Mobitec-7:4",
                 scrolls: [
+                {
+                    renderType: "destScrollECID",
+                    top: "Tampines",
+                    topFont: "Lecip-GoAhead16:10",
+        
+                    serviceNumber: "72"
+                },
                 {
                     renderType: "message",
                     text: "72",
@@ -3197,12 +3392,20 @@ EDSData.GASG = {
                 destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
-                    renderType: "destScrollECID",
+                    renderType: "destScrollWithImage3",
                     serviceNumber: "72A",
                     top: "TERMINATING AT",
                     topFont: "Lecip-GoAhead8:6:2",
-                    bottom: " ",
+                    bottom: "HOUGANG CENTRAL",
                     bottomFont: "Lecip-GoAhead8:6:2",
+                },
+                {
+                    renderType: "destScrollWithImage3",
+                    serviceNumber: "72A",
+                    top: "TERMINATING AT",
+                    topFont: "Lecip-GoAhead8:6:2",
+                    bottom: "OPP HOUGANG CTRL INT",
+                    bottomFont: "Hanover-7:4",
                 },
                 ],
                 scrollFont: "Hanover-7:5"
@@ -3224,11 +3427,19 @@ EDSData.GASG = {
                 destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
-                    renderType: "destScrollECID",
+                    renderType: "destScrollWithImage3",
                     serviceNumber: "72B",
                     top: "TERMINATING AT",
                     topFont: "Lecip-GoAhead8:6:2",
-                    bottom: " ",
+                    bottom: "ANG MO KIO AVE 5",
+                    bottomFont: "Lecip-GoAhead8:6:2",
+                },
+                {
+                    renderType: "destScrollWithImage3",
+                    serviceNumber: "72B",
+                    top: "TERMINATING AT",
+                    topFont: "Lecip-GoAhead8:6:2",
+                    bottom: "ITE COLLEGE CENTRAL",
                     bottomFont: "Lecip-GoAhead8:6:2",
                 },
                 ],
@@ -3250,6 +3461,13 @@ EDSData.GASG = {
                 destination: "Serangoon MRT",
                 destinationFont: "Hanover-7:3",
                 scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "Serangoon MRT",
+                    topFont: "Hanover-GoAhead14:7",
+        
+                    serviceNumber: "81"
+                },
                 {
                     renderType: "message",
                     text: "81",
@@ -3273,6 +3491,13 @@ EDSData.GASG = {
                 destination: "Tampines",
                 destinationFont: "Mobitec-7:4",
                 scrolls: [
+                {
+                    renderType: "destScrollECID",
+                    top: "Tampines",
+                    topFont: "Lecip-GoAhead16:10",
+        
+                    serviceNumber: "81"
+                },
                 {
                     renderType: "message",
                     text: "81",
@@ -3856,10 +4081,48 @@ EDSData.GASG = {
         1: {
             front: {
                 renderType: "standardService",
+                serviceNumber: "20",
+                destination: "Changi Business Park Central 2",
+                destinationFont: "Hanover-7:3",
+                scrolls: [
+                {
+                    renderType: "destScrollECID",
+                    serviceNumber: "127",
+                    top: " ",
+                    topFont: "Lecip-GoAhead8:6:4",
+                    bottom: " ",
+                    bottomFont: "Lecip-GoAhead8:6:4",
+                },
+                {
+                    renderType: "message",
+                    text: "127",
+                    font: "LECIP-19:GoAheadBigNumber",
+                    spacing: 12
+                },
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "127",
+                font: "Lecip-GoAhead20:9",
+                spacing: 3
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
                 serviceNumber: "127",
                 destination: "Tampines",
                 destinationFont: "Mobitec-7:4",
                 scrolls: [
+                {
+                    renderType: "destScrollECID",
+                    top: "Tampines",
+                    topFont: "Lecip-GoAhead16:10",
+        
+                    serviceNumber: "127"
+                },
                 {
                     renderType: "message",
                     text: "127",
@@ -3886,11 +4149,19 @@ EDSData.GASG = {
                 destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
-                    renderType: "destScrollECID",
-                    serviceNumber: " ",
+                    renderType: "destScrollWithImage3",
+                    serviceNumber: "127A",
                     top: "TERMINATING AT",
                     topFont: "Lecip-GoAhead8:6:2",
-                    bottom: " ",
+                    bottom: "TAMPINES NTH DR 1",
+                    bottomFont: "Lecip-GoAhead8:6:2",
+                },
+                {
+                    renderType: "destScrollWithImage3",
+                    serviceNumber: "127A",
+                    top: "TERMINATING AT",
+                    topFont: "Lecip-GoAhead8:6:2",
+                    bottom: "OPP BLK 610C",
                     bottomFont: "Lecip-GoAhead8:6:2",
                 },
                 ],
@@ -4005,16 +4276,16 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "129A",
-                destination: " ",
+                destination: "BARTLEY STN",
                 destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
-                    renderType: "destScrollECID",
+                    renderType: "destScrollWithImage3",
                     serviceNumber: "129A",
                     top: "TERMINATING AT",
-                    topFont: "Lecip-GoAhead8:6:2",
-                    bottom: " ",
-                    bottomFont: "Lecip-GoAhead8:6:2",
+                    topFont: "Hanover-7:4",
+                    bottom: "BARTLEY STN EXIT A",
+                    bottomFont: "Hanover-7:4",
                 },
                 ],
                 scrollFont: "Hanover-7:5"
@@ -4032,16 +4303,16 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "129B",
-                destination: " ",
+                destination: "TAMPINES AVE 1",
                 destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
-                    renderType: "destScrollECID",
+                    renderType: "destScrollWithImage3",
                     serviceNumber: "129B",
                     top: "TERMINATING AT",
-                    topFont: "Lecip-GoAhead8:6:2",
-                    bottom: " ",
-                    bottomFont: "Lecip-GoAhead8:6:2",
+                    topFont: "Hanover-7:4",
+                    bottom: "OPP TEMASEK POLY EAST G",
+                    bottomFont: "Hanover-7:4",
                 },
                 ],
                 scrollFont: "Hanover-7:5"
@@ -4175,7 +4446,7 @@ EDSData.GASG = {
                 destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
-                    renderType: "destScrollECID",
+                    renderType: "destScrollWithImage3",
                     serviceNumber: "291T",
                     top: "TERMINATING AT",
                     topFont: "Lecip-GoAhead8:6:2",
@@ -4266,7 +4537,7 @@ EDSData.GASG = {
                 destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
-                    renderType: "destScrollECID",
+                    renderType: "destScrollWithImage3",
                     serviceNumber: "293T",
                     top: "TERMINATING AT",
                     topFont: "Lecip-GoAhead8:6:2",
@@ -6359,13 +6630,11 @@ EDSData.GASG = {
                 scrolls: [  
                 {
                     renderType: "destScrollECID",
-                    top: "",
-                    topFont: "Mobitec-7:4",
-
-                    bottom: "",
-                    bottomFont: "Mobitec-7:4",
-                    
-                    serviceNumber: "",
+                    serviceNumber: "20",
+                    top: "Tampines",
+                    topFont: "Lecip-GoAhead8:6:4",
+                    bottom: "Industrial Ave 2",
+                    bottomFont: "Lecip-GoAhead8:6:4",
                 },
                 ],
                 scrollFont: "Hanover-7:5"
@@ -6379,14 +6648,14 @@ EDSData.GASG = {
                 {
                     renderType: "destScrollWithImage",
                     serviceNumber: "",
-                    top: "Tȧmpines",
+                    top: " ",
                     topFont: "Hanover-7:3:3",
-                    bottom: "North",
+                    bottom: " ",
                     bottomFont: "Hanover-7:3:3",
                 },
                 {
                     renderType: "rearService",
-                    serviceNumber: "129",
+                    serviceNumber: " ",
                     font: "Lecip-GoAhead20:9",
                     spacing: 2
                 },
