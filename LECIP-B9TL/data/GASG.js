@@ -423,7 +423,7 @@ EDSFormats.GASG = {
 
         text: "$top+' '+$bottom+' '+$serviceNumber"
     },
-    destScrollWithImage: {
+    destScrollWithImage: { // 19 px svc num, 1px margin for both top and bottom
         serviceNumber: {
             align: "right",
             margin: {
@@ -485,7 +485,7 @@ EDSFormats.GASG = {
 
         text: "$top+' '+$bottom+' '+$serviceNumber"
     },
-    destScrollWithImage2: {
+    destScrollWithImage2: { // 19 px svc num, no margin for both top and bottom
         serviceNumber: {
             align: "right",
             margin: {
@@ -531,6 +531,68 @@ EDSFormats.GASG = {
             spacing: 1,
             margin: {
                 right: 'width(serviceNumber) - width(image)'
+            }
+        },
+        image: {
+            align: "left",
+            image: {
+                $$cond: {
+                    "$image !== null": "$image",
+                    "else": "blank"
+                }
+            }
+        },
+
+        text: "$top+' '+$bottom+' '+$serviceNumber"
+    },
+    destScrollWithImage3: { // 20 px svc num, 1px margin for both top and bottom
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 0
+            },
+            text: "$serviceNumber",
+            font: "LECIP-20:GoAheadB9Front",
+            spacing: 3
+        },
+        top: {
+            align: {
+                $$cond: {
+                    "$bottom === null": "centre-x,centre-y",
+                    "else": "centre-x,top"
+                }
+            },
+            text: "$top",
+            font: {
+                $$cond: {
+                    "$topFont === null": "Mobitec-9:6",
+                    "else": "$topFont"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber) - width(image)',
+                top: 1
+            }
+        },
+        bottom: {
+            align: "centre-x,bottom",
+            text: {
+                $$cond: {
+                    "$bottom !== null": "$bottom",
+                    "else": "''"
+                }
+            },
+            font: {
+                $$cond: {
+                    "$bottomFont === null": "Hanover-5:3",
+                    "else": "$bottomFont"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber) - width(image)',
+                bottom: 1
             }
         },
         image: {
@@ -984,9 +1046,46 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "4",
+                destination: "Changi North Way",
+                destinationFont: "Hanover-7:3",
+                scrolls: [
+                {
+                    renderType: "destScrollECID",
+                    top: "Changi North Way",
+                    topFont: "Lecip-GoAhead16:10",
+        
+                    serviceNumber: "4"
+                },
+                {
+                    renderType: "message",
+                    text: "4",
+                    font: "LECIP-19:GoAheadBigNumber",
+                    spacing: 12
+                },
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "4",
+                font: "Lecip-GoAhead20:12",
+                spacing: 3
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "4",
                 destination: "Tampines",
                 destinationFont: "Mobitec-7:4",
                 scrolls: [
+                {
+                    renderType: "destScrollECID",
+                    top: "Tampines",
+                    topFont: "Lecip-GoAhead16:10",
+        
+                    serviceNumber: "4"
+                },
                 {
                     renderType: "message",
                     text: "4",
@@ -1457,6 +1556,13 @@ EDSData.GASG = {
                 destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
+                    renderType: "destScrollECID",
+                    top: "Bedok North Ave 4",
+                    topFont: "Hanover-GoAhead14:7",
+        
+                    serviceNumber: "18"
+                },
+                {
                     renderType: "message",
                     text: "18",
                     font: "LECIP-19:GoAheadBigNumber",
@@ -1479,6 +1585,13 @@ EDSData.GASG = {
                 destination: "Tampines",
                 destinationFont: "Mobitec-7:4",
                 scrolls: [
+                {
+                    renderType: "destScrollECID",
+                    top: "Tampines",
+                    topFont: "Lecip-GoAhead16:10",
+        
+                    serviceNumber: "18"
+                },
                 {
                     renderType: "message",
                     text: "18",
@@ -1505,12 +1618,12 @@ EDSData.GASG = {
                 destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
-                    renderType: "destScrollECID",
+                    renderType: "destScrollWithImage3",
                     serviceNumber: "18A",
                     top: "TERMINATING AT",
-                    topFont: "Lecip-GoAhead8:6:2",
-                    bottom: " ",
-                    bottomFont: "Lecip-GoAhead8:6:2",
+                    topFont: "Hanover-7:4",
+                    bottom: "TAMPINES EAST STN EXIT B",
+                    bottomFont: "Hanover-7:4",
                 },
                 ],
                 scrollFont: "Hanover-7:5"
@@ -2493,7 +2606,8 @@ EDSData.GASG = {
                 serviceNumber: "43e",
                 destination: "Marine Parade",
                 destinationFont: "Mobitec-7:4",
-                scrolls: [{
+                scrolls: [
+                {
                     renderType: "destScrollWithImage2",
                     serviceNumber: "43e",
                     top: "Marine",
@@ -2503,7 +2617,7 @@ EDSData.GASG = {
                     image: "ExpressLogo-49"
                 },
                 {
-                    renderType: "destScrollWithImage2",
+                    renderType: "destScrollWithImage",
                     serviceNumber: "43e",
                     top: "TERMINATING AT",
                     topFont: "Lecip-GoAhead8:6:2",
