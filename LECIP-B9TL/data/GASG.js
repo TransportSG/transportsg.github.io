@@ -627,7 +627,7 @@ EDSFormats.GASG = {
             text: "$top",
             font: {
                 $$cond: {
-                    "$topFont === null": "Mobitec-9:6",
+                    "$topFont === null": "Lecip-GoAhead16:10:2",
                     "else": "$topFont"
                 }
             },
@@ -1052,7 +1052,7 @@ EDSData.GASG = {
                 {
                     renderType: "destScrollECID",
                     top: "Changi North Way",
-                    topFont: "Lecip-GoAhead16:10",
+                    topFont: "Lecip-GoAhead16:10:2",
         
                     serviceNumber: "4"
                 },
@@ -1082,7 +1082,7 @@ EDSData.GASG = {
                 {
                     renderType: "destScrollECID",
                     top: "Tampines",
-                    topFont: "Lecip-GoAhead16:10",
+                    topFont: "Lecip-GoAhead16:10:2",
         
                     serviceNumber: "4"
                 },
@@ -2734,7 +2734,7 @@ EDSData.GASG = {
                 destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
-                    renderType: "destScroll",
+                    renderType: "destScrollWithImage",
                     serviceNumber: "43A",
                     top: "TERMINATING AT",
                     topFont: "Hanover-7:4",
@@ -3084,7 +3084,7 @@ EDSData.GASG = {
                 {
                     renderType: "destScrollECID",
                     top: " ",
-                    topFont: "Lecip-GoAhead16:10",
+                    topFont: "Lecip-GoAhead16:10:2",
         
                     serviceNumber: "65"
                 },
@@ -4082,7 +4082,7 @@ EDSData.GASG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "20",
-                destination: "Changi Business Park Central 2",
+                destination: "Tampines Industrial Ave 5",
                 destinationFont: "Hanover-7:3",
                 scrolls: [
                 {
@@ -5880,6 +5880,60 @@ EDSData.GASG = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "S37",
+                font: "Lecip-GoAhead20:9:2",
+                spacing: 2
+            }
+        }
+    },
+    4411: { 
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S41",
+                destination: "EXPO (2026)",
+                destinationFont: "Mobitec-7:4",
+                scrolls: [
+                {
+                    renderType: "destScrollECID",
+                    serviceNumber: "S41",
+                    top: "DTL SHUTTLE",
+                    topFont: "Hanover-10",
+                    bottom: "MACPHERSON - EXPO",
+                    bottomFont: "Hanover-7:5",
+                },
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "S41",
+                font: "Lecip-GoAhead20:9:2",
+                spacing: 2
+            }
+        }
+    },
+    4412: { 
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S41",
+                destination: "MACPHERSON (2026)",
+                destinationFont: "Mobitec-7:4",
+                scrolls: [
+                {
+                    renderType: "destScrollECID",
+                    serviceNumber: "S41",
+                    top: "DTL SHUTTLE",
+                    topFont: "Hanover-10",
+                    bottom: "EXPO - MACPHERSON",
+                    bottomFont: "Hanover-7:5",
+                },
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "S41",
                 font: "Lecip-GoAhead20:9:2",
                 spacing: 2
             }

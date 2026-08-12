@@ -3492,7 +3492,7 @@ EDSData['SMRT (PostSLBP)'] = {
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "674",
+                    serviceNumber: "647",
                     top: "CITY DIRECT",
                     topFont: "Mobitec-7:7",
                     bottom: "BT BATOK WEST AVE 5",
