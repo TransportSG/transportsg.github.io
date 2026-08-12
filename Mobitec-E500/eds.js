@@ -5,7 +5,7 @@ let currentOperator = location.hash.slice(1) ? location.hash.slice(1) : 'SMRT (P
 let startupCodes = {
     'SMRT (PostSLBP)': 9117, 
     'SBST': 2222, 
-    'TTSG': 5888, 
+    'TTSG': 6667, 
     'GASG': 2221, 
     'Sentosa': 9999, 
     'GASG-Original': 2221, 
