@@ -4088,7 +4088,7 @@ EDSData.SMRT = {
                     top: "CITY DIRECT",
                     topFont: "ArialBold-8:2",
                     bottom: "BT BATOK WEST AVE 5",
-                    bottomFont: "Arial-8",
+                    bottomFont: "ArialBold-8:4",
         
                     serviceNumber: "647"
                 },
@@ -4136,10 +4136,19 @@ EDSData.SMRT = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "648",
-                destination: "",
+                destination: "WOODLANDS ST 82",
                 destinationFont: "ArialBold-8:2",
-                scrolls: [
-                    " ",
+                scrolls: [                
+                {
+                    renderType: "destScroll",
+                    top: "CITY DIRECT",
+                    topFont: "ArialBold-8:2",
+                    bottom: "WOODLANDS ST 82",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "648"
+                },
+
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -4191,8 +4200,8 @@ EDSData.SMRT = {
                     renderType: "destScroll",
                     top: "CITY DIRECT",
                     topFont: "ArialBold-8:2",
-                    bottom: "CHOA CHU KANG AVE 5",
-                    bottomFont: "Arial-8",
+                    bottom: "CHOA CHU KANG AVE %",
+                    bottomFont: "ArialBold-8:4",
         
                     serviceNumber: "649"
                 },

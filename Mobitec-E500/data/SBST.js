@@ -10994,8 +10994,8 @@ EDSData.SBST = {
             {
                 renderType: "destScroll",
                 serviceNumber: "SW A",
-                top: "SHUTTLE SW A",
-                topFont: "Mobitec-7:5:2",
+                top: "SW SHUTTLE A",
+                topFont: "Mobitec-7:7",
                 bottom: "FERNVALE - SENGKANG",
                 bottomFont: "Mobitec-7:4",
             },
@@ -11015,8 +11015,8 @@ EDSData.SBST = {
             {
                 renderType: "destScroll",
                 serviceNumber: "SW B",
-                top: "SHUTTLE SW B",
-                topFont: "Mobitec-7:5:2",
+                top: "SW SHUTTLE B",
+                topFont: "Mobitec-7:7",
                 bottom: "SENGKANG - THANGGAM",
                 bottomFont: "Mobitec-7:4",
             },

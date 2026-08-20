@@ -4833,6 +4833,68 @@ EDSData.GASG = {
             }
         }
     },
+    "381P": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "381",
+                destination: "Punggol Coast",
+                destinationFont: "Mobitec-7:4",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "Punggol Coast",
+                    topFont: "Lecip-GoAhead16:10",
+        
+                    serviceNumber: "381"
+                },
+                {
+                    renderType: "message",
+                    text: "381",
+                    font: "LECIP-19:GoAheadBigNumber",
+                    spacing: 12
+                },
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "381",
+                font: "Lecip-GoAhead20:9",
+                spacing: 3
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "381",
+                destination: "Punggol",
+                destinationFont: "Mobitec-7:4",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "Punggol",
+                    topFont: "Lecip-GoAhead16:10",
+        
+                    serviceNumber: "381"
+                },
+                {
+                    renderType: "message",
+                    text: "381",
+                    font: "LECIP-19:GoAheadBigNumber",
+                    spacing: 12
+                },
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "381",
+                font: "Lecip-GoAhead20:9",
+                spacing: 3
+            }
+        }
+    },
     "382G": {
         1: {
             front: {
