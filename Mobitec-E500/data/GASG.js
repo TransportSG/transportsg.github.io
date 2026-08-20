@@ -3577,6 +3577,20 @@ EDSData.GASG = {
                 },
                 {
                     renderType: "destScroll",
+                    serviceNumber: "395",
+                    top: "Tampines North",
+                    topFont: "Mobitec-12:7"
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "838",
+                    top: "Tampines",
+                    topFont: "Mobitec-7:5:2",
+                    bottom: "Concourse",
+                    bottomFont: "Mobitec-7:5:2"
+                },
+                {
+                    renderType: "destScroll",
                     serviceNumber: "999",
                     top: "LOYANG DEPOT",
                     topFont: "Mobitec-7:5:1",
