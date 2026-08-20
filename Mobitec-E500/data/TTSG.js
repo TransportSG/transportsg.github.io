@@ -1066,6 +1066,23 @@ EDSData.TTSG = {
             ]
         }
     },
+    640000000: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: "",
+            scrolls: [
+                {
+                    renderType: "ExpressdestScroll2",
+                    serviceNumber: "789",
+                    top: "SIU SAI WAN",
+                    topFont: "Mobitec-Tower9New",
+                    bottom: "(ISLAND RESORT)",
+                    bottomFont: "Mobitec-Tower6:4",
+                },
+            ]
+        }
+    },
     973: {
         front: {
             renderType: "standardService",

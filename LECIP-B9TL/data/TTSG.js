@@ -9467,13 +9467,13 @@ EDSData.TTSG = {
                 destinationFont: "Hanover-10",
                 scrolls: [
                 {
-                    renderType: "destScroll5",
-                    top: "",
-                    topFont: "Hanover-7:5",
-                    bottom: "",
-                    bottomFont: "Hanover-8",
+                    renderType: "destScroll",
+                    top: "YUEN LONG",
+                    topFont: "Hanover-Tower11:7",
+                    bottom: "TUEN MUN RD INTERCHANGE",
+                    bottomFont: "Hanover-Tower7:5",
             
-                    serviceNumber: ""
+                    serviceNumber: "53"
                 },
                 ],
                 scrollFont: "Hanover-7:5"
