@@ -1176,7 +1176,7 @@ EDSData.GASG = {
                 {
                     renderType: "destScrollECID",
                     top: "Tampines",
-                    topFont: "Lecip-GoAhead16:10",
+                    topFont: "Lecip-GoAhead16:10:2",
         
                     serviceNumber: "10"
                 },
@@ -1547,7 +1547,7 @@ EDSData.GASG = {
             }
         }
     },
-    18: {
+    18: { // CHeck dir 1 front font
         1: {
             front: {
                 renderType: "standardService",
@@ -1588,7 +1588,7 @@ EDSData.GASG = {
                 {
                     renderType: "destScrollECID",
                     top: "Tampines",
-                    topFont: "Lecip-GoAhead16:10",
+                    topFont: "Lecip-GoAhead16:10:2",
         
                     serviceNumber: "18"
                 },
@@ -1678,7 +1678,7 @@ EDSData.GASG = {
                 {
                     renderType: "destScrollECID",
                     top: "Tampines",
-                    topFont: "Lecip-GoAhead16:10",
+                    topFont: "Lecip-GoAhead16:10:2",
         
                     serviceNumber: "19"
                 },
@@ -1741,7 +1741,7 @@ EDSData.GASG = {
                 {
                     renderType: "destScrollECID",
                     top: "Tampines",
-                    topFont: "Lecip-GoAhead16:10",
+                    topFont: "Lecip-GoAhead16:10:2",
         
                     serviceNumber: "20"
                 },
@@ -1789,7 +1789,7 @@ EDSData.GASG = {
             }
         }
     },
-    23: {
+    23: { // CHeck dir 1 front font
         1: {
             front: {
                 renderType: "standardService",
@@ -1830,7 +1830,7 @@ EDSData.GASG = {
                 {
                     renderType: "destScrollECID",
                     top: "Tampines",
-                    topFont: "Lecip-GoAhead16:10",
+                    topFont: "Lecip-GoAhead16:10:2",
         
                     serviceNumber: "23"
                 },
@@ -1892,7 +1892,7 @@ EDSData.GASG = {
                 {
                     renderType: "destScrollECID",
                     top: "Tampines",
-                    topFont: "Lecip-GoAhead16:10",
+                    topFont: "Lecip-GoAhead16:10:2",
         
                     serviceNumber: "28"
                 },
@@ -1954,7 +1954,7 @@ EDSData.GASG = {
                 {
                     renderType: "destScrollECID",
                     top: "Tampines",
-                    topFont: "Lecip-GoAhead16:10",
+                    topFont: "Lecip-GoAhead16:10:2",
         
                     serviceNumber: "29"
                 },
@@ -2051,7 +2051,7 @@ EDSData.GASG = {
                 {
                     renderType: "destScrollECID",
                     top: "Tampines",
-                    topFont: "Lecip-GoAhead16:10",
+                    topFont: "Lecip-GoAhead16:10:2",
         
                     serviceNumber: "31"
                 },
@@ -2415,12 +2415,12 @@ EDSData.GASG = {
             }
         }
     },
-    37: {
-        1: {
+    37: { // CHeck dir 1 front font
+        1: { 
             front: {
                 renderType: "standardService",
                 serviceNumber: "37",
-                destination: "Tampines",
+                destination: "Changi North Cres",
                 destinationFont: "Mobitec-7:4",
                 scrolls: [
                 {
@@ -2456,7 +2456,7 @@ EDSData.GASG = {
                 {
                     renderType: "destScrollECID",
                     top: "Tampines",
-                    topFont: "Lecip-GoAhead16:10",
+                    topFont: "Lecip-GoAhead16:10:2",
         
                     serviceNumber: "37"
                 },
@@ -2477,7 +2477,7 @@ EDSData.GASG = {
             }
         }
     },
-    38: {
+    38: { // CHeck dir 1 front font
         1: {
             front: {
                 renderType: "standardService",
@@ -2518,7 +2518,7 @@ EDSData.GASG = {
                 {
                     renderType: "destScrollECID",
                     top: "Tampines",
-                    topFont: "Lecip-GoAhead16:10",
+                    topFont: "Lecip-GoAhead16:10:2",
         
                     serviceNumber: "38"
                 },
@@ -2550,7 +2550,7 @@ EDSData.GASG = {
                 {
                     renderType: "destScrollECID",
                     top: "Yishun",
-                    topFont: "Lecip-GoAhead16:10",
+                    topFont: "Lecip-GoAhead17:10",
         
                     serviceNumber: "39"
                 },
@@ -2922,7 +2922,7 @@ EDSData.GASG = {
             }
         }
     },
-    47: {
+    47: { // CHeck dir 1 front font
         1: {
             front: {
                 renderType: "standardService",
@@ -3083,8 +3083,8 @@ EDSData.GASG = {
                 scrolls: [
                 {
                     renderType: "destScrollECID",
-                    top: " ",
-                    topFont: "Lecip-GoAhead16:10:2",
+                    top: "HarbourFront",
+                    topFont: "Lecip-GoAhead17:10",
         
                     serviceNumber: "65"
                 },
@@ -3114,7 +3114,7 @@ EDSData.GASG = {
                 {
                     renderType: "destScrollECID",
                     top: "Tampines",
-                    topFont: "Lecip-GoAhead16:10",
+                    topFont: "Lecip-GoAhead16:10:2",
         
                     serviceNumber: "65"
                 },
@@ -3259,7 +3259,7 @@ EDSData.GASG = {
             }
         }
     },
-    69: {
+    69: { // CHeck dir 1 front font
         1: {
             front: {
                 renderType: "standardService",
@@ -3300,7 +3300,7 @@ EDSData.GASG = {
                 {
                     renderType: "destScrollECID",
                     top: "Tampines",
-                    topFont: "Lecip-GoAhead16:10",
+                    topFont: "Lecip-GoAhead16:10:2",
         
                     serviceNumber: "69"
                 },
@@ -3362,7 +3362,7 @@ EDSData.GASG = {
                 {
                     renderType: "destScrollECID",
                     top: "Tampines",
-                    topFont: "Lecip-GoAhead16:10",
+                    topFont: "Lecip-GoAhead16:10:2",
         
                     serviceNumber: "72"
                 },
@@ -3494,7 +3494,7 @@ EDSData.GASG = {
                 {
                     renderType: "destScrollECID",
                     top: "Tampines",
-                    topFont: "Lecip-GoAhead16:10",
+                    topFont: "Lecip-GoAhead16:10:2",
         
                     serviceNumber: "81"
                 },
@@ -4088,9 +4088,9 @@ EDSData.GASG = {
                 {
                     renderType: "destScrollECID",
                     serviceNumber: "127",
-                    top: " ",
+                    top: "Tampines",
                     topFont: "Lecip-GoAhead8:6:4",
-                    bottom: " ",
+                    bottom: "Industrial Ave 5",
                     bottomFont: "Lecip-GoAhead8:6:4",
                 },
                 {
@@ -4119,7 +4119,7 @@ EDSData.GASG = {
                 {
                     renderType: "destScrollECID",
                     top: "Tampines",
-                    topFont: "Lecip-GoAhead16:10",
+                    topFont: "Lecip-GoAhead16:10:2",
         
                     serviceNumber: "127"
                 },
@@ -4186,7 +4186,7 @@ EDSData.GASG = {
                 {
                     renderType: "destScrollECID",
                     top: "St Michael's",
-                    topFont: "Lecip-GoAhead16:10",
+                    topFont: "Lecip-GoAhead17:10",
         
                     serviceNumber: "129"
                 },
@@ -4416,7 +4416,7 @@ EDSData.GASG = {
                 {
                     renderType: "destScrollECID",
                     top: "Tampines",
-                    topFont: "Lecip-GoAhead16:10",
+                    topFont: "Lecip-GoAhead16:10:2",
         
                     serviceNumber: "291"
                 },
@@ -4475,7 +4475,7 @@ EDSData.GASG = {
                 {
                     renderType: "destScrollECID",
                     top: "Tampines",
-                    topFont: "Lecip-GoAhead16:10",
+                    topFont: "Lecip-GoAhead16:10:2",
         
                     serviceNumber: "292"
                 },
@@ -4507,7 +4507,7 @@ EDSData.GASG = {
                 {
                     renderType: "destScrollECID",
                     top: "Tampines",
-                    topFont: "Lecip-GoAhead16:10",
+                    topFont: "Lecip-GoAhead16:10:2",
         
                     serviceNumber: "293"
                 },
@@ -4566,7 +4566,7 @@ EDSData.GASG = {
                 {
                     renderType: "destScrollECID",
                     top: "Tampines",
-                    topFont: "Lecip-GoAhead16:10",
+                    topFont: "Lecip-GoAhead16:10:2",
         
                     serviceNumber: "296"
                 },
@@ -5232,7 +5232,7 @@ EDSData.GASG = {
                 {
                     renderType: "destScrollECID",
                     top: "Tampines",
-                    topFont: "Lecip-GoAhead16:10",
+                    topFont: "Lecip-GoAhead16:10:2",
         
                     serviceNumber: "460"
                 },
@@ -5695,7 +5695,6 @@ EDSData.GASG = {
                 bottom: "Service",
                 bottomFont: "Lecip-GoAhead7:4:2",
             },
-                    ""
                 ],
                 scrollFont: "LECIP-7:5"
             },
@@ -6746,11 +6745,10 @@ EDSData.GASG = {
                 scrolls: [  
                 {
                     renderType: "destScrollECID",
-                    serviceNumber: "20",
-                    top: "Tampines",
-                    topFont: "Lecip-GoAhead8:6:4",
-                    bottom: "Industrial Ave 2",
-                    bottomFont: "Lecip-GoAhead8:6:4",
+                    top: "Yishun",
+                    topFont: "Lecip-GoAhead17:10",
+        
+                    serviceNumber: "39"
                 },
                 ],
                 scrollFont: "Hanover-7:5"
