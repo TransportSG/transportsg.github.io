@@ -3536,12 +3536,18 @@ EDSData['SMRT (PostSLBP)'] = {
             renderType: "SLBPstandardService",
             serviceNumber: "648",
             destination: {
-                text: "",
+                text: "WOODLANDS ST 82",
                 font: "Mobitec-7:5:1"
             },
             scrolls: [
-   
-                " ",
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "648",
+                    top: "CITY DIRECT",
+                    topFont: "Mobitec-7:7",
+                    bottom: "WOODLANDS ST 82",
+                    bottomFont: "Mobitec-7:7",
+                },
             ],
             scrollFont: "Mobitec-7:5:1"
         }
@@ -3571,13 +3577,19 @@ EDSData['SMRT (PostSLBP)'] = {
         front: {
             renderType: "SLBPstandardService",
             serviceNumber: "649",
-            destination: {
-                text: "",
+            destination: { 
+                text: "CHOA CHU KANG AVE 5",
                 font: "Mobitec-7:5:1"
             },
             scrolls: [
-   
-                " ",
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "649",
+                    top: "CITY DIRECT",
+                    topFont: "Mobitec-7:7",
+                    bottom: "CHOA CHU KANG AVE 5",
+                    bottomFont: "Mobitec-7:5:1",
+                },
             ],
             scrollFont: "Mobitec-7:5:1"
         }
