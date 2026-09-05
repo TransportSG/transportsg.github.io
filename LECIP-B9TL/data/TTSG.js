@@ -1926,14 +1926,14 @@ EDSData.TTSG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "97e",
-                destination: "JURONG EAST",
+                destination: "TENGAH",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [                    
                 {
                     renderType: "ExpressdestScroll",
                     top: "EXPRESS",
                     topFont: "Hanover-6:3",
-                    bottom: "JURONG EAST",
+                    bottom: "TENGAH",
                     bottomFont: "Hanover-11:7",
             
                     serviceNumber: "97e"
@@ -2128,14 +2128,14 @@ EDSData.TTSG = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "97e",
-                destination: "TENGAH",
+                destination: "JURONG EAST",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [                    
                 {
                     renderType: "ExpressdestScroll",
                     top: "EXPRESS",
                     topFont: "Hanover-6:3",
-                    bottom: "TENGAH",
+                    bottom: "JURONG EAST",
                     bottomFont: "Hanover-11:7",
             
                     serviceNumber: "97e"
