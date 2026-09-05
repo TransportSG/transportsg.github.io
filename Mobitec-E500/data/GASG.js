@@ -218,6 +218,69 @@ EDSFormats.GASG = {
         text: "$top+' '+$bottom+' '+$serviceNumber"
         
     },
+    destScroll4: { // 1px space for top and bottom 
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 0
+            },
+            text: "$serviceNumber",
+            font: "Mobitec-GoAhead16:10",
+            spacing: 3
+        },
+        top: {
+            align: {
+                $$cond: {
+                    "$bottom === null": "centre-x,centre-y",
+                    "else": "centre-x,top"
+                }
+            },
+            text: "$top",
+            font: {
+                $$cond: {
+                    "$topFont === null": "Mobitec-7:4:3",
+                    "else": "$topFont"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber) - width(image)',
+                top: "1",
+            }
+        },
+        bottom: {
+            align: "centre-x,bottom",
+            text: {
+                $$cond: {
+                    "$bottom !== null": "$bottom",
+                    "else": "''"
+                }
+            },
+            font: {
+                $$cond: {
+                    "$bottomFont === null": "Mobitec-5:3",
+                    "else": "$bottomFont"
+                }
+            },
+            spacing: 1,
+            margin: {
+                right: 'width(serviceNumber) - width(image)',
+                bottom: "1",
+            }
+        },
+        image: {
+            align: "left",
+            image: {
+                $$cond: {
+                    "$image !== null": "$image",
+                    "else": "blank"
+                }
+            }
+        },
+
+        text: "$top+' '+$bottom+' '+$serviceNumber"
+        
+    },
     ImageScroll: {
         image: {
             align: "centre-x,centre-y",
@@ -477,12 +540,12 @@ EDSData.GASG = {
             },
             scrolls: [
                 {
-                    renderType: "destScroll",
+                    renderType: "destScroll4",
                     serviceNumber: "10e",
                     top: "Shenton",
-                    topFont: "Mobitec-7:5:2",
+                    topFont: "Mobitec-6:5",
                     bottom: "Way",
-                    bottomFont: "Mobitec-7:5:2",
+                    bottomFont: "Mobitec-6:5",
                     image: "express",
                 },
             ],
@@ -3596,6 +3659,28 @@ EDSData.GASG = {
                     topFont: "Mobitec-7:5:1",
                     bottom: "PUNGGOL COAST INT",
                     bottomFont: "Mobitec-7:4",
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    9995: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "",
+            destination: {
+                text: "Format Test",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll4",
+                    serviceNumber: "",
+                    top: "",
+                    topFont: "Mobitec-6:5",
+                    bottom: "",
+                    bottomFont: "Mobitec-6:5",
+                    image: "express",
                 },
             ],
             scrollFont: "Mobitec-7:4"
