@@ -526,7 +526,7 @@ EDSData.TTSG = {
                 serviceNumber: "",
                 top: "NL323F (A22)",
                 topFont: "Mobitec-9:6",
-                bottom: "Mobitec - 040525",
+                bottom: "Mobitec - 060926",
                 bottomFont: "Mobitec-Tower6:4",
                 image: "MAN-Logo37",
                 text: "EDS Version (MAN A22)"
@@ -538,7 +538,7 @@ EDSData.TTSG = {
                 serviceNumber: "",
                 top: "NG363F (A24)",
                 topFont: "Mobitec-9:6",
-                bottom: "Mobitec - 040525",
+                bottom: "Mobitec - 060926",
                 bottomFont: "Mobitec-Tower6:4",
                 image: "MAN-Logo37",
                 text: "EDS Version (MAN A24)"
@@ -550,7 +550,7 @@ EDSData.TTSG = {
                 serviceNumber: "",
                 top: "ND323F (A95)",
                 topFont: "Mobitec-9:6",
-                bottom: "Mobitec - 040525",
+                bottom: "Mobitec - 060926",
                 bottomFont: "Mobitec-Tower6:4",
                 image: "MAN-Logo37",
                 text: "EDS Version (MAN A95)"
@@ -568,7 +568,7 @@ EDSData.TTSG = {
                     top: "AIRLINE RD",
                     topFont: "Mobitec-Tower9New",
                     bottom: "LOYANG WAY",
-                    bottomFont: "Mobitec-Tower6:4",
+                    bottomFont: "Mobitec-Tower6:4:2",
                 },
                 {
                     renderType: "destScroll",
@@ -576,7 +576,7 @@ EDSData.TTSG = {
                     top: "AIRLINE RD",
                     topFont: "Mobitec-Tower9New",
                     bottom: "TELOK PAKU RD",
-                    bottomFont: "Mobitec-Tower6:4",
+                    bottomFont: "Mobitec-Tower6:4:2",
                 },
                 {
                     renderType: "destScroll",
@@ -584,7 +584,7 @@ EDSData.TTSG = {
                     top: "AIRLINE RD",
                     topFont: "Mobitec-Tower9New",
                     bottom: "ALPS AVE",
-                    bottomFont: "Mobitec-Tower6:4",
+                    bottomFont: "Mobitec-Tower6:4:2",
                 },
                 {
                     renderType: "destScroll",
@@ -592,7 +592,7 @@ EDSData.TTSG = {
                     top: "AIRLINE RD",
                     topFont: "Mobitec-Tower9New",
                     bottom: "AIRPORT CARGO RD",
-                    bottomFont: "Mobitec-Tower6:4",
+                    bottomFont: "Mobitec-Tower6:4:2",
                 },
                 {
                     renderType: "destScroll",
@@ -616,7 +616,7 @@ EDSData.TTSG = {
                     top: "TAMPINES AVE 9",
                     topFont: "Mobitec-Tower9New",
                     bottom: "TAMPINES AVE 4/3/8",
-                    bottomFont: "Mobitec-Tower6:4",
+                    bottomFont: "Mobitec-Tower6:4:2",
                 },
                 {
                     renderType: "destScroll",
@@ -624,7 +624,7 @@ EDSData.TTSG = {
                     top: "TAMPINES AVE 9",
                     topFont: "Mobitec-Tower9New",
                     bottom: "TAMPINES AVE 5/6",
-                    bottomFont: "Mobitec-Tower6:4",
+                    bottomFont: "Mobitec-Tower6:4:2",
                 },
                 {
                     renderType: "destScroll",
@@ -647,7 +647,7 @@ EDSData.TTSG = {
                     top: "AIRLINE RD",
                     topFont: "Mobitec-Tower9New",
                     bottom: "LOYANG WAY",
-                    bottomFont: "Mobitec-Tower6:4",
+                    bottomFont: "Mobitec-Tower6:4:2",
                 },
                 {
                     renderType: "destScroll",
@@ -655,7 +655,7 @@ EDSData.TTSG = {
                     top: "AIRLINE RD",
                     topFont: "Mobitec-Tower9New",
                     bottom: "TELOK PAKU RD",
-                    bottomFont: "Mobitec-Tower6:4",
+                    bottomFont: "Mobitec-Tower6:4:2",
                 },
                 {
                     renderType: "destScroll",
@@ -663,7 +663,7 @@ EDSData.TTSG = {
                     top: "AIRLINE RD",
                     topFont: "Mobitec-Tower9New",
                     bottom: "ALPS AVE",
-                    bottomFont: "Mobitec-Tower6:4",
+                    bottomFont: "Mobitec-Tower6:4:2",
                 },
                 {
                     renderType: "destScroll",
@@ -671,7 +671,7 @@ EDSData.TTSG = {
                     top: "AIRLINE RD",
                     topFont: "Mobitec-Tower9New",
                     bottom: "AIRPORT CARGO RD",
-                    bottomFont: "Mobitec-Tower6:4",
+                    bottomFont: "Mobitec-Tower6:4:2",
                 },
                 {
                     renderType: "destScroll",
@@ -695,7 +695,7 @@ EDSData.TTSG = {
                     top: "PUNGGOL WAY",
                     topFont: "Mobitec-Tower9New",
                     bottom: "PUNGGOL CTRL",
-                    bottomFont: "Mobitec-Tower6:4",
+                    bottomFont: "Mobitec-Tower6:4:2",
                 },
                 {
                     renderType: "destScroll",
@@ -703,7 +703,7 @@ EDSData.TTSG = {
                     top: "PUNGGOL WAY",
                     topFont: "Mobitec-Tower9New",
                     bottom: "PUNGGOL WALK",
-                    bottomFont: "Mobitec-Tower6:4",
+                    bottomFont: "Mobitec-Tower6:4:2",
                 },
                 {
                     renderType: "destScroll",
@@ -711,7 +711,7 @@ EDSData.TTSG = {
                     top: "PUNGGOL WAY",
                     topFont: "Mobitec-Tower9New",
                     bottom: "PUNGGOL FIELD",
-                    bottomFont: "Mobitec-Tower6:4",
+                    bottomFont: "Mobitec-Tower6:4:2",
                 },
                 {
                     renderType: "destScroll",
@@ -864,7 +864,7 @@ EDSData.TTSG = {
                     renderType: "ExpressdestScroll2",
                     serviceNumber: "77",
                     top: "SKIP BRAS BASAH RD",
-                    topFont: "Mobitec-Tower6:4",
+                    topFont: "Mobitec-Tower6:4:2",
                     bottom: "STAMFORD RD",
                     bottomFont: "Mobitec-Tower9New",
                 },
@@ -872,7 +872,7 @@ EDSData.TTSG = {
                     renderType: "ExpressdestScroll2",
                     serviceNumber: "77",
                     top: "SKIP RAFFLES BLVD",
-                    topFont: "Mobitec-Tower6:4",
+                    topFont: "Mobitec-Tower6:4:2",
                     bottom: "STAMFORD RD",
                     bottomFont: "Mobitec-Tower9New",
                 },
@@ -1074,11 +1074,52 @@ EDSData.TTSG = {
             scrolls: [
                 {
                     renderType: "ExpressdestScroll2",
-                    serviceNumber: "789",
-                    top: "SIU SAI WAN",
+                    serviceNumber: "110",
+                    top: "EAST TSIM SHA TSUI",
                     topFont: "Mobitec-Tower9New",
-                    bottom: "(ISLAND RESORT)",
-                    bottomFont: "Mobitec-Tower6:4",
+                    bottom: "YIU HING RD",
+                    bottomFont: "Mobitec-Tower6:4:2",
+                },
+                {
+                    renderType: "ExpressdestScroll2",
+                    serviceNumber: "110",
+                    top: "EAST TSIM SHA TSUI",
+                    topFont: "Mobitec-Tower9New",
+                    bottom: "TAIKOO SHING",
+                    bottomFont: "Mobitec-Tower6:4:2",
+                },
+                {
+                    renderType: "ExpressdestScroll2",
+                    serviceNumber: "110",
+                    top: "EAST TSIM SHA TSUI",
+                    topFont: "Mobitec-Tower9New",
+                    bottom: "NORTH POINT",
+                    bottomFont: "Mobitec-Tower6:4:2",
+                },
+                {
+                    renderType: "ExpressdestScroll2",
+                    serviceNumber: "110",
+                    top: "EAST TSIM SHA TSUI",
+                    topFont: "Mobitec-Tower9New",
+                    bottom: "CROSS HARBOUR TUNNEL",
+                    bottomFont: "Mobitec-Tower6:4:2",
+                },
+                {
+                    renderType: "ExpressdestScroll2",
+                    serviceNumber: "110",
+                    top: "EAST TSIM SHA TSUI",
+                    topFont: "Mobitec-Tower9New",
+                    bottom: "JORDAN / CANTON RD",
+                    bottomFont: "Mobitec-Tower6:4:2",
+                },
+                {
+                    renderType: "ExpressdestScroll2",
+                    serviceNumber: "110",
+                    top: "SALISBURY RD",
+                    topFont: "Mobitec-Tower9New",
+                    bottom: "(EAST TSIM SHA TSUI)",
+                    bottomFont: "Mobitec-Tower6:4:2",
+                    image: "mtr"
                 },
             ]
         }
@@ -1127,7 +1168,7 @@ EDSData.TTSG = {
                     renderType: "ExpressdestScroll2",
                     serviceNumber: "97",
                     top: "SKIP BAYFRONT AVE",
-                    topFont: "Mobitec-Tower6:4",
+                    topFont: "Mobitec-Tower6:4:2",
                     bottom: "CENTRAL BLVD",
                     bottomFont: "Mobitec-Tower9New",
                 },
@@ -1135,7 +1176,7 @@ EDSData.TTSG = {
                     renderType: "ExpressdestScroll2",
                     serviceNumber: "97",
                     top: "SKIP RAFFLES BLVD",
-                    topFont: "Mobitec-Tower6:4",
+                    topFont: "Mobitec-Tower6:4:2",
                     bottom: "CENTRAL BLVD",
                     bottomFont: "Mobitec-Tower9New",
                 },
@@ -1158,7 +1199,7 @@ EDSData.TTSG = {
                     renderType: "ExpressdestScroll2",
                     serviceNumber: "97e",
                     top: "SKIP BAYFRONT AVE",
-                    topFont: "Mobitec-Tower6:4",
+                    topFont: "Mobitec-Tower6:4:2",
                     bottom: "CENTRAL BLVD",
                     bottomFont: "Mobitec-Tower9New",
                 },
@@ -1166,7 +1207,7 @@ EDSData.TTSG = {
                     renderType: "ExpressdestScroll2",
                     serviceNumber: "97e",
                     top: "SKIP RAFFLES BLVD",
-                    topFont: "Mobitec-Tower6:4",
+                    topFont: "Mobitec-Tower6:4:2",
                     bottom: "CENTRAL BLVD",
                     bottomFont: "Mobitec-Tower9New",
                 },
@@ -1326,7 +1367,7 @@ EDSData.TTSG = {
                     renderType: "ExpressdestScroll2",
                     serviceNumber: "106",
                     top: "SKIP TEMASEK AVE",
-                    topFont: "Mobitec-Tower6:4",
+                    topFont: "Mobitec-Tower6:4:2",
                     bottom: "SHENTON WAY",
                     bottomFont: "Mobitec-Tower9New",
                 },
@@ -1334,7 +1375,7 @@ EDSData.TTSG = {
                     renderType: "ExpressdestScroll2",
                     serviceNumber: "106",
                     top: "SKIP BAYFRONT AVE",
-                    topFont: "Mobitec-Tower6:4",
+                    topFont: "Mobitec-Tower6:4:2",
                     bottom: "SHENTON WAY",
                     bottomFont: "Mobitec-Tower9New",
                 },
@@ -1357,7 +1398,7 @@ EDSData.TTSG = {
                     renderType: "ExpressdestScroll2",
                     serviceNumber: "106",
                     top: "SKIP BAYFRONT AVE",
-                    topFont: "Mobitec-Tower6:4",
+                    topFont: "Mobitec-Tower6:4:2",
                     bottom: "BUKIT BATOK",
                     bottomFont: "Mobitec-Tower9New",
                 },
@@ -1365,7 +1406,7 @@ EDSData.TTSG = {
                     renderType: "ExpressdestScroll2",
                     serviceNumber: "106",
                     top: "SKIP RAFFLES AVE",
-                    topFont: "Mobitec-Tower6:4",
+                    topFont: "Mobitec-Tower6:4:2",
                     bottom: "BUKIT BATOK",
                     bottomFont: "Mobitec-Tower9New",
                 },
@@ -1495,7 +1536,7 @@ EDSData.TTSG = {
                     renderType: "ExpressdestScroll2",
                     serviceNumber: "167",
                     top: "SKIP FULLERTON RD",
-                    topFont: "Mobitec-Tower6:4",
+                    topFont: "Mobitec-Tower6:4:2",
                     bottom: "BUKIT MERAH",
                     bottomFont: "Mobitec-Tower9New",
                 },
@@ -1503,7 +1544,7 @@ EDSData.TTSG = {
                     renderType: "ExpressdestScroll2",
                     serviceNumber: "167",
                     top: "SKIP COLLYER QUAY",
-                    topFont: "Mobitec-Tower6:4",
+                    topFont: "Mobitec-Tower6:4:2",
                     bottom: "BUKIT MERAH",
                     bottomFont: "Mobitec-Tower9New",
                 },
@@ -1526,7 +1567,7 @@ EDSData.TTSG = {
                     renderType: "ExpressdestScroll2",
                     serviceNumber: "167",
                     top: "SKIP FULLERTON RD",
-                    topFont: "Mobitec-Tower6:4",
+                    topFont: "Mobitec-Tower6:4:2",
                     bottom: "SEMBAWANG",
                     bottomFont: "Mobitec-Tower9New",
                 },
@@ -1534,7 +1575,7 @@ EDSData.TTSG = {
                     renderType: "ExpressdestScroll2",
                     serviceNumber: "167",
                     top: "SKIP ESPLANADE DR",
-                    topFont: "Mobitec-Tower6:4",
+                    topFont: "Mobitec-Tower6:4:2",
                     bottom: "SEMBAWANG",
                     bottomFont: "Mobitec-Tower9New",
                 },
@@ -1600,7 +1641,7 @@ EDSData.TTSG = {
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "169B",
+                    serviceNumber: "一六九B",
                     top: "WOODLANDS?AVE?8",
                     topFont: "Mobitec-Tower11New1"
                 }
@@ -2936,22 +2977,6 @@ EDSData.TTSG = {
             ]
         }
     },
-    5887: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: " ",
-            destination: " ",
-            destFont: "Mobitec-7:7",
-            scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: " ",
-                    top: "  ",
-                    topFont: "Mobitec-Tower15New",
-                }
-            ]
-        }
-    },
     5888: {
         front: {
             renderType: "standardService",
@@ -2978,7 +3003,7 @@ EDSData.TTSG = {
                     top: "SMB5888H",
                     topFont: "Mobitec-Tower9New",
 
-                    bottom: "Mobitec - 29 JUL 26",
+                    bottom: "Mobitec - 06 SEP 26",
                     bottomFont: "Mobitec-Tower6:4:2",
 
                     image: "MANLionIcon-33"
@@ -3137,7 +3162,7 @@ EDSData.TTSG = {
                     renderType: "ExpressdestScroll2",
                     serviceNumber: "656",
                     top: "SKIP BRAS BASAH RD",
-                    topFont: "Mobitec-Tower6:4",
+                    topFont: "Mobitec-Tower6:4:2",
                     bottom: "SHENTON WAY",
                     bottomFont: "Mobitec-Tower9New",
                 },
@@ -3145,7 +3170,7 @@ EDSData.TTSG = {
                     renderType: "ExpressdestScroll2",
                     serviceNumber: "656",
                     top: "SKIP COLLYER QUAY",
-                    topFont: "Mobitec-Tower6:4",
+                    topFont: "Mobitec-Tower6:4:2",
                     bottom: "SHENTON WAY",
                     bottomFont: "Mobitec-Tower9New",
                 },
@@ -3170,18 +3195,16 @@ EDSData.TTSG = {
                     renderType: "ExpressdestScroll2",
                     serviceNumber: "656",
                     top: "SKIP FULLERTON RD",
-                    topFont: "Mobitec-Tower6:4",
+                    topFont: "Mobitec-Tower6:4:2",
                     bottom: "CANBERRA RD",
-                    bottomFont: "Mobitec-9:6",
                     bottomFont: "Mobitec-Tower9New",
                 },
                 {
                     renderType: "ExpressdestScroll2",
                     serviceNumber: "656",
                     top: "SKIP ESPLANADE DR",
-                    topFont: "Mobitec-Tower6:4",
+                    topFont: "Mobitec-Tower6:4:2",
                     bottom: "CANBERRA RD",
-                    bottomFont: "Mobitec-9:6",
                     bottomFont: "Mobitec-Tower9New",
                 },
                 {
@@ -3274,7 +3297,7 @@ EDSData.TTSG = {
                     renderType: "ExpressdestScroll2",
                     serviceNumber: "663",
                     top: "SKIP BRAS BASAH RD",
-                    topFont: "Mobitec-Tower6:4",
+                    topFont: "Mobitec-Tower6:4:2",
                     bottom: "SHENTON WAY",
                     bottomFont: "Mobitec-Tower9New",
                 },
@@ -3282,7 +3305,7 @@ EDSData.TTSG = {
                     renderType: "ExpressdestScroll2",
                     serviceNumber: "663",
                     top: "SKIP COLLYER QUAY",
-                    topFont: "Mobitec-Tower6:4",
+                    topFont: "Mobitec-Tower6:4:2",
                     bottom: "SHENTON WAY",
                     bottomFont: "Mobitec-Tower9New",
                 },
@@ -3307,7 +3330,7 @@ EDSData.TTSG = {
                     renderType: "ExpressdestScroll2",
                     serviceNumber: "663",
                     top: "SKIP FULLERTON RD",
-                    topFont: "Mobitec-Tower6:4",
+                    topFont: "Mobitec-Tower6:4:2",
                     bottom: "YISHUN AVE 6",
                     bottomFont: "Mobitec-Tower9New",
                 },
@@ -3315,7 +3338,7 @@ EDSData.TTSG = {
                     renderType: "ExpressdestScroll2",
                     serviceNumber: "663",
                     top: "SKIP ESPLANADE DR",
-                    topFont: "Mobitec-Tower6:4",
+                    topFont: "Mobitec-Tower6:4:2",
                     bottom: "YISHUN AVE 6",
                     bottomFont: "Mobitec-Tower9New",
                 },
@@ -3770,9 +3793,9 @@ EDSData.TTSG = {
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "856C",
-                    top: "ADM RD WEST",
-                    // topFont: "Mobitec-Tower12New"
+                    serviceNumber: "八五六C",
+                    top: "ADMIRAŁY|RD|WEST",
+                    topFont: "Mobitec-Tower11New3"
                 }
             ]
         }
@@ -3847,7 +3870,7 @@ EDSData.TTSG = {
                     renderType: "ExpressdestScroll2",
                     serviceNumber: "857",
                     top: "SKIP BRAS BASAH RD",
-                    topFont: "Mobitec-Tower6:4",
+                    topFont: "Mobitec-Tower6:4:2",
                     bottom: "STAMFORD RD",
                     bottomFont: "Mobitec-Tower9New",
                 },
@@ -3855,7 +3878,7 @@ EDSData.TTSG = {
                     renderType: "ExpressdestScroll2",
                     serviceNumber: "857",
                     top: "SKIP TEMASEK AVE",
-                    topFont: "Mobitec-Tower6:4",
+                    topFont: "Mobitec-Tower6:4:2",
                     bottom: "STAMFORD RD",
                     bottomFont: "Mobitec-Tower9New",
                 },
@@ -3878,7 +3901,7 @@ EDSData.TTSG = {
                     renderType: "ExpressdestScroll2",
                     serviceNumber: "857B",
                     top: "SKIP BRAS BASAH RD",
-                    topFont: "Mobitec-Tower6:4",
+                    topFont: "Mobitec-Tower6:4:2",
                     bottom: "STAMFORD RD",
                     bottomFont: "Mobitec-Tower9New",
                 },
@@ -3886,7 +3909,7 @@ EDSData.TTSG = {
                     renderType: "ExpressdestScroll2",
                     serviceNumber: "857B",
                     top: "SKIP TEMASEK AVE",
-                    topFont: "Mobitec-Tower6:4",
+                    topFont: "Mobitec-Tower6:4:2",
                     bottom: "STAMFORD RD",
                     bottomFont: "Mobitec-Tower9New",
                 },
@@ -4253,7 +4276,7 @@ EDSData.TTSG = {
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "872A",
+                    serviceNumber: "八七二A",
                     top: "BOON|LAY|WAY",
                     topFont: "Mobitec-Tower11New2"
                 }
@@ -4650,7 +4673,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "966A",
-                    top: "MARINE?ṔARADE?RD",
+                    top: "MARINE?℗RADE?RD?",
                     topFont: "Mobitec-Tower11New1"
                 },
             ]
@@ -5182,6 +5205,24 @@ EDSImages.TTSG = {
         [1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1, 1, 0, 1, 1],
         [1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 1, 0, 1, 1],
         [1, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 1],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    ],
+    mtr: [
+        [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0],
+        [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0],
+        [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0],
+        [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0],
+        [0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0],
+        [0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0],
+        [0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0],
+        [0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0],
+        [0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [1, 0, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1],
+        [1, 0, 0, 1, 0, 0, 1, 1, 0, 1, 1, 0, 1, 0, 1],
+        [1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 1, 1],
+        [1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 0, 1, 0, 1],
         [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     ],
     ktm: [
