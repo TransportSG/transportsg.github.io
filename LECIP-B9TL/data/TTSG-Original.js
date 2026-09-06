@@ -2898,7 +2898,6 @@ EDSData['TTSG-Original'] = {
             }
         }
     },
-    
     111: { // TBC
         1: {
             front: {

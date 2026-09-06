@@ -2499,6 +2499,66 @@ EDSData.TTSG = {
     111: {
         1: {
             front: {
+                renderType: "standardService2",
+                serviceNumber: "LCS1",
+                destination: "AIRLINE RD",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                {
+                    renderType: "destScroll",
+                    top: "AIRLINE RD",
+                    topFont: "Hanover-Tower11:7",
+                    bottom: "LOYANG WAY",
+                    bottomFont: "Hanover-Tower7:5",
+    
+                    serviceNumber: "lcs1"
+                },
+                {
+                    renderType: "destScroll",
+                    top: "AIRLINE RD",
+                    topFont: "Hanover-Tower11:7",
+                    bottom: "TELOK PAKU RD",
+                    bottomFont: "Hanover-Tower7:5",
+    
+                    serviceNumber: "lcs1"
+                },
+                {
+                    renderType: "destScroll",
+                    top: "AIRLINE RD",
+                    topFont: "Hanover-Tower11:7",
+                    bottom: "ALPS AVE",
+                    bottomFont: "Hanover-Tower7:5",
+    
+                    serviceNumber: "lcs1"
+                },
+                {
+                    renderType: "destScroll",
+                    top: "AIRLINE RD",
+                    topFont: "Hanover-Tower11:7",
+                    bottom: "AIRPORT CARGO RD",
+                    bottomFont: "Hanover-Tower7:5",
+    
+                    serviceNumber: "lcs1"
+                },
+                {
+                    renderType: "destScroll",
+                    top: "AIRLINE RD",
+                    topFont: "Hanover-17:11",
+        
+                    serviceNumber: "lcs1"
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "message",
+                text: "LcS1",
+                font: "LECIP-TowerRear17:7",
+                spacing: 1
+            }
+        },
+        2: {
+            front: {
                 renderType: "standardService",
                 serviceNumber: "LCS1",
                 destination: "AIRLINE RD",
@@ -2524,6 +2584,48 @@ EDSData.TTSG = {
     },  
     112: {
         1: {
+            front: {
+                renderType: "standardService2",
+                serviceNumber: "LCS1",
+                destination: "TAMPINES AVE 9",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                {
+                    renderType: "destScroll",
+                    top: "TAMPINES AVE 9",
+                    topFont: "Hanover-Tower11:7",
+                    bottom: "TAMPINES AVE 4/3/8",
+                    bottomFont: "Hanover-Tower7:5",
+    
+                    serviceNumber: "lcs1"
+                },
+                {
+                    renderType: "destScroll",
+                    top: "TAMPINES AVE 9",
+                    topFont: "Hanover-Tower11:7",
+                    bottom: "TAMPINES AVE 5/6",
+                    bottomFont: "Hanover-Tower7:5",
+    
+                    serviceNumber: "lcs1"
+                },
+                {
+                    renderType: "destScroll",
+                    top: "TAMPINES AVE 9",
+                    topFont: "Hanover-17:6",
+    
+                    serviceNumber: "lcs1"
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "message",
+                text: "LcS1",
+                font: "LECIP-TowerRear17:7",
+                spacing: 1
+            }
+        },
+        2: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "LCS1",
@@ -2551,6 +2653,66 @@ EDSData.TTSG = {
     211: {
         1: {
             front: {
+                renderType: "standardService2",
+                serviceNumber: "LCS2",
+                destination: "AIRLINE RD",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                {
+                    renderType: "destScroll",
+                    top: "AIRLINE RD",
+                    topFont: "Hanover-Tower11:7",
+                    bottom: "LOYANG WAY",
+                    bottomFont: "Hanover-Tower7:5",
+    
+                    serviceNumber: "lcs2"
+                },
+                {
+                    renderType: "destScroll",
+                    top: "AIRLINE RD",
+                    topFont: "Hanover-Tower11:7",
+                    bottom: "TELOK PAKU RD",
+                    bottomFont: "Hanover-Tower7:5",
+    
+                    serviceNumber: "lcs2"
+                },
+                {
+                    renderType: "destScroll",
+                    top: "AIRLINE RD",
+                    topFont: "Hanover-Tower11:7",
+                    bottom: "ALPS AVE",
+                    bottomFont: "Hanover-Tower7:5",
+    
+                    serviceNumber: "lcs2"
+                },
+                {
+                    renderType: "destScroll",
+                    top: "AIRLINE RD",
+                    topFont: "Hanover-Tower11:7",
+                    bottom: "AIRPORT CARGO RD",
+                    bottomFont: "Hanover-Tower7:5",
+    
+                    serviceNumber: "lcs2"
+                },
+                {
+                    renderType: "destScroll",
+                    top: "AIRLINE RD",
+                    topFont: "Hanover-17:11",
+        
+                    serviceNumber: "lcs2"
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "message",
+                text: "LcS2",
+                font: "LECIP-TowerRear17:7",
+                spacing: 1
+            }
+        },
+        2: {
+            front: {
                 renderType: "standardService",
                 serviceNumber: "LCS2",
                 destination: "AIRLINE RD",
@@ -2576,6 +2738,57 @@ EDSData.TTSG = {
     },  
     212: {
         1: {
+            front: {
+                renderType: "standardService2",
+                serviceNumber: "LCS2",
+                destination: "PUNGGOL WAY",
+                destinationFont: "Hanover-Tower11:7",
+                scrolls: [                    
+                {
+                    renderType: "destScroll",
+                    top: "PUNGGOL WAY",
+                    topFont: "Hanover-Tower11:7",
+                    bottom: "PUNGGOL CTRL",
+                    bottomFont: "Hanover-Tower7:5",
+    
+                    serviceNumber: "lcs2"
+                },
+                {
+                    renderType: "destScroll",
+                    top: "PUNGGOL WAY",
+                    topFont: "Hanover-Tower11:7",
+                    bottom: "PUNGGOL WALK",
+                    bottomFont: "Hanover-Tower7:5",
+    
+                    serviceNumber: "lcs2"
+                },
+                {
+                    renderType: "destScroll",
+                    top: "PUNGGOL WAY",
+                    topFont: "Hanover-Tower11:7",
+                    bottom: "PUNGGOL FIELD",
+                    bottomFont: "Hanover-Tower7:5",
+    
+                    serviceNumber: "lcs2"
+                },
+                {
+                    renderType: "destScroll",
+                    top: "PUNGGOL WAY",
+                    topFont: "Hanover-17:6",
+        
+                    serviceNumber: "lcs2"
+                },
+                ],
+                scrollFont: "Hanover-Tower7:5"
+            },
+            rear: {
+                renderType: "message",
+                text: "LcS2",
+                font: "LECIP-TowerRear17:7",
+                spacing: 1
+            }
+        },
+        2: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "LCS2",
@@ -8379,7 +8592,7 @@ EDSData.TTSG = {
             }
         }
     },
-    5200: {
+    5201: {
         1: {
             front: {
                 renderType: "standardService",
@@ -8403,7 +8616,7 @@ EDSData.TTSG = {
             }
         }
     },
-    5201: {
+    5202: {
         1: {
             front: {
                 renderType: "standardService",
@@ -8427,7 +8640,7 @@ EDSData.TTSG = {
             }
         }
     },
-    5202: {
+    5203: {
         1: {
             front: {
                 renderType: "standardService",
@@ -8451,7 +8664,7 @@ EDSData.TTSG = {
             }
         }
     },
-    5203: {
+    5204: {
         1: {
             front: {
                 renderType: "standardService",
@@ -8475,7 +8688,7 @@ EDSData.TTSG = {
             }
         }
     },
-    5204: {
+    5205: {
         1: {
             front: {
                 renderType: "standardService",
@@ -8499,7 +8712,7 @@ EDSData.TTSG = {
             }
         }
     },
-    5205: {
+    5206: {
         1: {
             front: {
                 renderType: "standardService",
@@ -8523,7 +8736,7 @@ EDSData.TTSG = {
             }
         }
     },
-    5206: {
+    5207: {
         1: {
             front: {
                 renderType: "standardService",
@@ -8547,7 +8760,7 @@ EDSData.TTSG = {
             }
         }
     },
-    5207: {
+    5208: {
         1: {
             front: {
                 renderType: "standardService",
@@ -8571,7 +8784,7 @@ EDSData.TTSG = {
             }
         }
     },
-    5208: {
+    5209: {
         1: {
             front: {
                 renderType: "standardService",
@@ -8595,7 +8808,7 @@ EDSData.TTSG = {
             }
         }
     },
-    5209: {
+    5210: {
         1: {
             front: {
                 renderType: "standardService",
@@ -8619,7 +8832,7 @@ EDSData.TTSG = {
             }
         }
     },
-    5210: {
+    5211: {
         1: {
             front: {
                 renderType: "standardService",
@@ -8643,7 +8856,7 @@ EDSData.TTSG = {
             }
         }
     },
-    5211: {
+    5212: {
         1: {
             front: {
                 renderType: "standardService",
@@ -8667,7 +8880,7 @@ EDSData.TTSG = {
             }
         }
     },
-    5212: {
+    5213: {
         1: {
             front: {
                 renderType: "standardService",
@@ -8691,7 +8904,7 @@ EDSData.TTSG = {
             }
         }
     },
-    5213: {
+    5214: {
         1: {
             front: {
                 renderType: "standardService",
@@ -8715,7 +8928,7 @@ EDSData.TTSG = {
             }
         }
     },
-    5214: {
+    5215: {
         1: {
             front: {
                 renderType: "standardService",
@@ -8739,7 +8952,7 @@ EDSData.TTSG = {
             }
         }
     },
-    5215: {
+    5216: {
         1: {
             front: {
                 renderType: "standardService",
@@ -8763,7 +8976,7 @@ EDSData.TTSG = {
             }
         }
     },
-    5216: {
+    5217: {
         1: {
             front: {
                 renderType: "standardService",
@@ -8787,7 +9000,7 @@ EDSData.TTSG = {
             }
         }
     },
-    5217: {
+    5218: {
         1: {
             front: {
                 renderType: "standardService",
@@ -8811,7 +9024,7 @@ EDSData.TTSG = {
             }
         }
     },
-    5218: {
+    5219: {
         1: {
             front: {
                 renderType: "standardService",
@@ -8835,7 +9048,7 @@ EDSData.TTSG = {
             }
         }
     },
-    5219: {
+    5220: {
         1: {
             front: {
                 renderType: "standardService",
@@ -8859,7 +9072,7 @@ EDSData.TTSG = {
             }
         }
     },
-    5220: {
+    5221: {
         1: {
             front: {
                 renderType: "standardService",
@@ -8883,7 +9096,7 @@ EDSData.TTSG = {
             }
         }
     },
-    5221: {
+    5222: {
         1: {
             front: {
                 renderType: "standardService",
@@ -8907,7 +9120,7 @@ EDSData.TTSG = {
             }
         }
     },
-    5222: {
+    5223: {
         1: {
             front: {
                 renderType: "standardService",
@@ -8931,7 +9144,7 @@ EDSData.TTSG = {
             }
         }
     },
-    5223: {
+    5224: {
         1: {
             front: {
                 renderType: "standardService",
@@ -8955,7 +9168,7 @@ EDSData.TTSG = {
             }
         }
     },
-    5224: {
+    5225: {
         1: {
             front: {
                 renderType: "standardService",
@@ -8979,7 +9192,7 @@ EDSData.TTSG = {
             }
         }
     },
-    5225: {
+    5226: {
         1: {
             front: {
                 renderType: "standardService",
@@ -9003,7 +9216,7 @@ EDSData.TTSG = {
             }
         }
     },
-    5300: {
+    5301: {
         1: {
             front: {
                 renderType: "standardService",
@@ -9028,7 +9241,7 @@ EDSData.TTSG = {
             }
         }
     },
-    5301: {
+    5302: {
         1: {
             front: {
                 renderType: "standardService",
@@ -9053,7 +9266,7 @@ EDSData.TTSG = {
             }
         }
     },
-    5302: {
+    5303: {
         1: {
             front: {
                 renderType: "standardService",
@@ -9078,7 +9291,7 @@ EDSData.TTSG = {
             }
         }
     },
-    5303: {
+    5304: {
         1: {
             front: {
                 renderType: "standardService",
@@ -9103,7 +9316,7 @@ EDSData.TTSG = {
             }
         }
     },
-    5304: {
+    5305: {
         1: {
             front: {
                 renderType: "standardService",
@@ -9128,7 +9341,7 @@ EDSData.TTSG = {
             }
         }
     },
-    5305: {
+    5306: {
         1: {
             front: {
                 renderType: "standardService",
@@ -9153,7 +9366,7 @@ EDSData.TTSG = {
             }
         }
     },
-    5306: {
+    5307: {
         1: {
             front: {
                 renderType: "standardService",
@@ -9178,7 +9391,7 @@ EDSData.TTSG = {
             }
         }
     },
-    5307: {
+    5308: {
         1: {
             front: {
                 renderType: "standardService",
@@ -9203,7 +9416,7 @@ EDSData.TTSG = {
             }
         }
     },
-    5308: {
+    5309: {
         1: {
             front: {
                 renderType: "standardService",
@@ -9468,9 +9681,9 @@ EDSData.TTSG = {
                 scrolls: [
                 {
                     renderType: "destScroll",
-                    top: "YUEN LONG",
+                    top: " ",
                     topFont: "Hanover-Tower11:7",
-                    bottom: "TUEN MUN RD INTERCHANGE",
+                    bottom: "T ",
                     bottomFont: "Hanover-Tower7:5",
             
                     serviceNumber: "53"
