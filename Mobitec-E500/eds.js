@@ -3,15 +3,16 @@ window.frontEDS = null; window.controllerPreview = null;
 let currentOperator = location.hash.slice(1) ? location.hash.slice(1) : 'SMRT (PostSLBP)';
 
 let startupCodes = {
-    'SMRT (PostSLBP)': 9117, 
+    'SMRT-2026': 9117, 
     'SBST': 2222, 
     'TTSG': 6667, 
-    'GASG': 2221, 
+    'GASG': 2222, 
     'Sentosa': 9999, 
     'GASG-Original': 2221, 
     'TTSG-Original': 6667, 
     'TTSG-2025Version': 6667,
     'SMRT (PreSLBP)': 9117, 
+    'SMRT (PostSLBP)': 9117,
     'SBSTC': 1111,
 }
 

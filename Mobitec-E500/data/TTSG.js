@@ -4283,6 +4283,96 @@ EDSData.TTSG = {
             ]
         }
     },
+    8731: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "873",
+            destination: " ",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "873",
+                    top: " ",
+                    topFont: "Mobitec-Tower11New1"
+                }
+            ]
+        }
+    },
+    8732: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "873",
+            destination: "TENGAH",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "873",
+                    top: "TENGAH",
+                    topFont: "Mobitec-Tower12New"
+                }
+            ]
+        }
+    },
+    8733: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "873M",
+            destination: " ",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "873M",
+                    top: " ",
+                    topFont: "Mobitec-Tower11New1"
+                }
+            ]
+        }
+    },
+    8734: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "873M",
+            destination: "TENGAH",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "873M",
+                    top: "TENGAH",
+                    topFont: "Mobitec-Tower12New"
+                }
+            ]
+        }
+    },
+    8741: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "874",
+            destination: " ",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "874",
+                    top: " ",
+                    topFont: "Mobitec-Tower11New1"
+                }
+            ]
+        }
+    },
+    8742: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "874",
+            destination: "TENGAH",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "874",
+                    top: "TENGAH",
+                    topFont: "Mobitec-Tower12New"
+                }
+            ]
+        }
+    },
     8821: {
         front: {
             renderType: "standardService",

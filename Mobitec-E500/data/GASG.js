@@ -1451,9 +1451,9 @@ EDSData.GASG = {
                     renderType: "destScroll",
                     serviceNumber: "39",
                     top: "Tampines",
-                    topFont: "Mobitec-7:5:2",
+                    topFont: "Mobitec-7:5:1",
                     bottom: "Concourse",
-                    bottomFont: "Mobitec-7:5:2"
+                    bottomFont: "Mobitec-7:5:1"
                 },
             ],
             scrollFont: "Mobitec-7:4"
@@ -2949,25 +2949,6 @@ EDSData.GASG = {
             renderType: "standardService",
             serviceNumber: "381",
             destination: {
-                text: "Punggol",
-                font: "Mobitec-7:7"
-            },
-            scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "381",
-                    top: "Punggol",
-                    topFont: "Mobitec-13:8"
-                },
-            ],
-            scrollFont: "Mobitec-7:4"
-        }
-    },
-    3818: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "381",
-            destination: {
                 text: "Punggol Coast",
                 font: "Mobitec-7:7"
             },
@@ -2976,6 +2957,25 @@ EDSData.GASG = {
                     renderType: "destScroll",
                     serviceNumber: "381",
                     top: "Punggol Coast",
+                    topFont: "Mobitec-13:8"
+                },
+            ],
+            scrollFont: "Mobitec-7:4"
+        }
+    },
+    3812: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "381",
+            destination: {
+                text: "Punggol Int",
+                font: "Mobitec-7:7"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "381",
+                    top: "Punggol Int",
                     topFont: "Mobitec-13:8"
                 },
             ],
