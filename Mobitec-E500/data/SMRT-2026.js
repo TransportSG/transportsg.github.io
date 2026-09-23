@@ -3364,7 +3364,7 @@ EDSData['SMRT-2026'] = {
             scrollFont: "Mobitec-7:5:2"
         }
     },
-    5021: {
+    5021: { // No Change
         front: {
             renderType: "standardService",
             serviceNumber: "502",
@@ -3383,7 +3383,7 @@ EDSData['SMRT-2026'] = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
-    5022: {
+    5022: { // No Change
         front: {
             renderType: "standardService",
             serviceNumber: "502A",
@@ -4764,7 +4764,7 @@ EDSData['SMRT-2026'] = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
-    9252: {
+    9252: { // Done
         front: {
             renderType: "standardService",
             serviceNumber: "925",
@@ -4897,7 +4897,7 @@ EDSData['SMRT-2026'] = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
-    9501: {
+    9501: { // No change
         front: {
             renderType: "standardService",
             serviceNumber: "950",
@@ -4924,56 +4924,6 @@ EDSData['SMRT-2026'] = {
                 }
             ],
             scrollFont: "Mobitec-7:7"
-        }
-    },
-    9511: { // Check Dest
-        front: {
-            renderType: "standardService",
-            serviceNumber: "951E",
-            destination: {
-                text: "SHENTON WAY",
-                font: "Mobitec-7:5:3"
-            },
-            scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "951E",
-                    top: "SHENTON",
-                    topFont: "Mobitec-7:7",
-                    bottom: "WAY",
-                    bottomFont: "Mobitec-7:7"
-                },
-                "WOODLANDS AVE 4,5",
-                "DHOBY GHAUT MRT",
-                "BRAS BASAH RD",
-                "COLLYER QUAY"
-            ],
-            scrollFont: "Mobitec-7:5:3"
-        }
-    },
-    9512: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "951E",
-            destination: {
-                text: "WOODLANDS ST 82",
-                font: "Mobitec-7:4"
-            },
-            scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "951E",
-                    top: "WOODLANDS",
-                    topFont: "Mobitec-7:7",
-                    bottom: "STREET 82",
-                    bottomFont: "Mobitec-7:7"
-                },
-                "ROBINSON ROAD",
-                "STAMFORD ROAD",
-                "DHOBY GHAUT MRT",
-                "WOODLANDS AVE 5,4"
-            ],
-            scrollFont: "Mobitec-7:5:3"
         }
     },
     9601: { // Check
@@ -5025,7 +4975,7 @@ EDSData['SMRT-2026'] = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
-    9603: {
+    9603: { // Done
         front: {
             renderType: "standardService",
             serviceNumber: "960e",
@@ -5040,6 +4990,27 @@ EDSData['SMRT-2026'] = {
                     top: "EXPRESS",
                     topFont: "Mobitec-7:7",
                     bottom: "RAFFLES BLVD",
+                    bottomFont: "Mobitec-7:7"
+                },
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    9604: { // Done
+        front: {
+            renderType: "standardService",
+            serviceNumber: "960e",
+            destination: {
+                text: "WOODLANDS",
+                font: "Mobitec-7:5:3"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "960e",
+                    top: "EXPRESS",
+                    topFont: "Mobitec-7:7",
+                    bottom: "WOODLANDS",
                     bottomFont: "Mobitec-7:7"
                 },
             ],
@@ -6083,65 +6054,6 @@ EDSData['SMRT-2026'] = {
                 "C.C.K DRIVE",
                 "C.C.K NORTH 7",
                 "C.C.K CRES (LOOP)"
-            ],
-            scrollFont: "Mobitec-7:5:3"
-        }
-    },
-    9821: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "982E",
-            destination: {
-                text: "MARINA BLVD",
-                font: "Mobitec-7:5:3"
-            },
-            scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "982E",
-                    top: "MARINA",
-                    topFont: "Mobitec-7:7",
-                    bottom: "BOULEVARD",
-                    bottomFont: "Mobitec-7:7"
-                },
-                "C. C. K AVE 5,4",
-                "C. C. K WAY,AVE 1",
-                "TECK WHYE AVE",
-                "CHOA CHU KANG RD",
-                "BUKIT BATOK RD",
-                {
-                    text: "ANSON ROAD",
-                    font: "Mobitec-7:7"
-                },
-                "ROBINSON ROAD"
-            ],
-            scrollFont: "Mobitec-7:5:3"
-        }
-    },
-    9822: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "982E",
-            destination: {
-                text: "C.C.K AVE 5",
-                font: "Mobitec-7:5:3"
-            },
-            scrolls: [
-                {
-                    renderType: "destScroll",
-                    serviceNumber: "982E",
-                    top: "CHOA CHU KANG",
-                    topFont: "Mobitec-7:7",
-                    bottom: "AVENUE 5",
-                    bottomFont: "Mobitec-7:7"
-                },
-                "CENTRAL BLVD",
-                "SHENTON WAY",
-                "BUKIT BATOK ROAD",
-                "CHOA CHU KANG RD",
-                "TECK WHYE AVE",
-                "C.C.K AVE 1,WAY",
-                "C.C.K AVE 4"
             ],
             scrollFont: "Mobitec-7:5:3"
         }
