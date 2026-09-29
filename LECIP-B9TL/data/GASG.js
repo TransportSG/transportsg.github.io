@@ -1956,9 +1956,9 @@ EDSData.GASG = {
                     renderType: "destScrollWithImage3",
                     serviceNumber: "20A",
                     top: "TERMINATING AT",
-                    topFont: "Hanover-7:4",
+                    topFont: "Lecip-GoAhead8:6:2",
                     bottom: "EXPO STN EXIT B",
-                    bottomFont: "Hanover-7:4",
+                    bottomFont: "Lecip-GoAhead8:6:2",
                 },
                 ],
                 scrollFont: "Hanover-7:5"
@@ -2671,6 +2671,8 @@ EDSData.GASG = {
                     renderType: "destScrollECID2",
                     top: "Bedok",
                     topFont: "Lecip-GoAhead19:10",
+        
+                    serviceNumber: "38"
                 },
                 {
                     renderType: "message",

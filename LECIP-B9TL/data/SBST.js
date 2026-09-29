@@ -16927,7 +16927,7 @@ EDSData.SBST = {
             }
         }
     },
-    "374C": {
+    374: {
         1: {
             front: {
                 renderType: "standardService",
@@ -16951,7 +16951,7 @@ EDSData.SBST = {
             }
         }
     },
-    374: {
+    "374S": {
         1: {
             front: {
                 renderType: "standardService",
@@ -16972,6 +16972,7 @@ EDSData.SBST = {
                 serviceNumber: "374",
                 font: "LECIP-20:9",
                 spacing: 2
+            
             }
         }
     },
