@@ -5981,6 +5981,32 @@ EDSData.TTSG = {
             }
         }
     },
+    "861C": { // Done
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "861C",
+                destination: "YISHUN AVE 6",
+                destinationFont: "Hanover-10",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "YISHUN AVE 6",
+                    topFont: "Hanover-17:6",
+        
+                    serviceNumber: "861C"
+                },
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: { 
+                renderType: "rearService",
+                serviceNumber: "861C",
+                font: "LECIP-TowerRear17:7",
+                spacing: 2
+            }
+        }
+    },
     "861M": { // Done
         1: {
             front: {

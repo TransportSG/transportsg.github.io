@@ -4150,6 +4150,21 @@ EDSData.TTSG = {
     8615: {
         front: {
             renderType: "standardService",
+            serviceNumber: "861C",
+            destination: "YISHUN AVE 6",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "861C",
+                    top: "",
+                    topFont: "Mobitec-Tower11New1"
+                }
+            ]
+        }
+    },
+    8616: {
+        front: {
+            renderType: "standardService",
             serviceNumber: "861M",
             destination: "SEMBAWANG",
             scrolls: [
