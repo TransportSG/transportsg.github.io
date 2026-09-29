@@ -693,7 +693,77 @@ EDSFormats.GASG = {
                     "else": "$topFont"
                 }
             },
+            spacing: {
+                $$cond: {
+                    "$topSpacing === null": "1",
+                    "else": "$topSpacing"
+                }
+            },
+            margin: {
+                right: 'width(serviceNumber) - width(image)'
+            }
+        },
+        bottom: {
+            align: "centre-x,bottom",
+            text: {
+                $$cond: {
+                    "$bottom !== null": "$bottom",
+                    "else": "''"
+                }
+            },
+            font: {
+                $$cond: {
+                    "$bottomFont === null": "Hanover-5:3",
+                    "else": "$bottomFont"
+                }
+            },
             spacing: 1,
+            margin: {
+                right: 'width(serviceNumber) - width(image)'
+            }
+        },
+        image: {
+            align: "left",
+            image: {
+                $$cond: {
+                    "$image !== null": "$image",
+                    "else": "blank"
+                }
+            }
+        },
+
+        text: "$top+' '+$bottom+' '+$serviceNumber"
+    },
+    destScrollECID2: {
+        serviceNumber: {
+            align: "right",
+            margin: {
+                right: 0
+            },
+            text: "$serviceNumber",
+            font: "LECIP-20:GoAheadB9Front",
+            spacing: 3
+        },
+        top: {
+            align: {
+                $$cond: {
+                    "$bottom === null": "centre-x,centre-y",
+                    "else": "centre-x,top"
+                }
+            },
+            text: "$top",
+            font: {
+                $$cond: {
+                    "$topFont === null": "Lecip-GoAhead16:10:2",
+                    "else": "$topFont"
+                }
+            },
+            spacing: {
+                $$cond: {
+                    "$topSpacing === null": "2",
+                    "else": "$topSpacing"
+                }
+            },
             margin: {
                 right: 'width(serviceNumber) - width(image)'
             }
@@ -1103,7 +1173,7 @@ EDSData.GASG = {
             }
         }
     },
-    4: {
+    4: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -1114,7 +1184,7 @@ EDSData.GASG = {
                 {
                     renderType: "destScrollECID",
                     top: "Changi North Way",
-                    topFont: "Lecip-GoAhead16:10:2",
+                    topFont: "Hanover-GoAhead14:7:2",
         
                     serviceNumber: "4"
                 },
@@ -1197,7 +1267,7 @@ EDSData.GASG = {
             }
         }
     },
-    10: {
+    10: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -1259,7 +1329,7 @@ EDSData.GASG = {
             }
         }
     },
-    "10E": {
+    "10E": { // tba
         1: {
             front: {
                 renderType: "standardService",
@@ -1671,7 +1741,7 @@ EDSData.GASG = {
             }
         }
     },
-    "18A": {
+    "18A": { // TBC
         1: {
             front: {
                 renderType: "standardService",
@@ -1698,7 +1768,57 @@ EDSData.GASG = {
             }
         }
     },
-    19: {
+    "18M": { // Check dests
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "18M",
+                destination: "Bedok North Ave 4",
+                destinationFont: "Mobitec-7:4",
+                scrolls: [
+                {
+                    renderType: "destScrollECID",
+                    top: "Bedok North Ave 4",
+                    topFont: "Hanover-GoAhead14:7",
+        
+                    serviceNumber: "18M"
+                },
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "18M",
+                font: "Lecip-GoAhead20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "18M",
+                destination: "Bedok North Ave 4",
+                destinationFont: "Mobitec-7:4",
+                scrolls: [
+                {
+                    renderType: "destScrollECID",
+                    top: "Bedok North Ave 4",
+                    topFont: "Hanover-GoAhead14:7",
+        
+                    serviceNumber: "18M"
+                },
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "18M",
+                font: "Lecip-GoAhead20:9",
+                spacing: 2
+            }
+        }
+    },
+    19: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -1761,7 +1881,7 @@ EDSData.GASG = {
             }
         }
     },
-    20: {
+    20: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -1824,7 +1944,7 @@ EDSData.GASG = {
             }
         }
     },
-    "20A": {
+    "20A": { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -1851,7 +1971,7 @@ EDSData.GASG = {
             }
         }
     },
-    23: { // CHeck dir 1 front font
+    23: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -1862,7 +1982,7 @@ EDSData.GASG = {
                 {
                     renderType: "destScrollECID",
                     top: "Rochor MRT",
-                    topFont: "Lecip-GoAhead16:10",
+                    topFont: "Lecip-GoAhead17:10",
         
                     serviceNumber: "23"
                 },
@@ -1913,7 +2033,7 @@ EDSData.GASG = {
             }
         }
     },
-    28: {
+    28: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -1975,7 +2095,7 @@ EDSData.GASG = {
             }
         }
     },
-    29: {
+    29: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -2037,7 +2157,7 @@ EDSData.GASG = {
             }
         }
     },
-    "29A": {
+    "29A": { // tbc
         1: {
             front: {
                 renderType: "standardService",
@@ -2072,7 +2192,7 @@ EDSData.GASG = {
             }
         }
     },
-    31: {
+    31: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -2134,7 +2254,7 @@ EDSData.GASG = {
             }
         }
     },
-    "31A": {
+    "31A": { // tbc
         1: {
             front: {
                 renderType: "standardService",
@@ -2477,7 +2597,7 @@ EDSData.GASG = {
             }
         }
     },
-    37: { // CHeck dir 1 front font
+    37: { // Done
         1: { 
             front: {
                 renderType: "standardService",
@@ -2488,7 +2608,7 @@ EDSData.GASG = {
                 {
                     renderType: "destScrollECID",
                     top: "Changi North Cres",
-                    topFont: "Hanover-GoAhead14:7",
+                    topFont: "Hanover-GoAhead14:6:3",
         
                     serviceNumber: "37"
                 },
@@ -2539,7 +2659,7 @@ EDSData.GASG = {
             }
         }
     },
-    38: { // CHeck dir 1 front font
+    38: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -2548,11 +2668,9 @@ EDSData.GASG = {
                 destinationFont: "Hanover-7:3",
                 scrolls: [
                 {
-                    renderType: "destScrollECID",
+                    renderType: "destScrollECID2",
                     top: "Bedok",
-                    topFont: "Lecip-GoAhead16:10",
-        
-                    serviceNumber: "38"
+                    topFont: "Lecip-GoAhead19:10",
                 },
                 {
                     renderType: "message",
@@ -2601,7 +2719,7 @@ EDSData.GASG = {
             }
         }
     },
-    39: {
+    39: { // Check Dir 1 dest scroll
         1: {
             front: {
                 renderType: "standardService",
@@ -2663,7 +2781,7 @@ EDSData.GASG = {
             }
         }
     },
-    "39A": {
+    "39A": { // tbc
         1: {
             front: {
                 renderType: "standardService",
@@ -2698,7 +2816,7 @@ EDSData.GASG = {
             }
         }
     },
-    "39B": {
+    "39B": { // tbc
         1: {
             front: {
                 renderType: "standardService",
@@ -3135,7 +3253,7 @@ EDSData.GASG = {
             }
         }
     },
-    65: {
+    65: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -3321,7 +3439,7 @@ EDSData.GASG = {
             }
         }
     },
-    69: { // CHeck dir 1 front font
+    69: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -3330,9 +3448,9 @@ EDSData.GASG = {
                 destinationFont: "Hanover-7:3",
                 scrolls: [
                 {
-                    renderType: "destScrollECID",
+                    renderType: "destScrollECID2",
                     top: "Bedok",
-                    topFont: "Lecip-GoAhead16:10",
+                    topFont: "Lecip-GoAhead19:10",
         
                     serviceNumber: "69"
                 },
@@ -3383,7 +3501,7 @@ EDSData.GASG = {
             }
         }
     },
-    72: {
+    72: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -3445,7 +3563,7 @@ EDSData.GASG = {
             }
         }
     },
-    "72A": {
+    "72A": { // tbc
         1: {
             front: {
                 renderType: "standardService",
@@ -3480,7 +3598,7 @@ EDSData.GASG = {
             }
         }
     },
-    "72B": {
+    "72B": { // tbc
         1: {
             front: {
                 renderType: "standardService",
@@ -3515,7 +3633,7 @@ EDSData.GASG = {
             }
         }
     },
-    81: {
+    81: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -4139,7 +4257,7 @@ EDSData.GASG = {
             }
         }
     },
-    127: {
+    127: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -4202,7 +4320,7 @@ EDSData.GASG = {
             }
         }
     },
-    "127A": {
+    "127A": { // tbc
         1: {
             front: {
                 renderType: "standardService",
@@ -4237,7 +4355,7 @@ EDSData.GASG = {
             }
         }
     },
-    129: {
+    129: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -4333,7 +4451,7 @@ EDSData.GASG = {
             }
         }
     },
-    "129A": {
+    "129A": { // tbc
         1: {
             front: {
                 renderType: "standardService",
@@ -4360,7 +4478,7 @@ EDSData.GASG = {
             }
         }
     },
-    "129B": {
+    "129B": { // tbc
         1: {
             front: {
                 renderType: "standardService",
@@ -4467,7 +4585,7 @@ EDSData.GASG = {
             }
         }
     },
-    291: {
+    291: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -4499,7 +4617,7 @@ EDSData.GASG = {
             }
         }
     },
-    "291T": { 
+    "291T": { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -4526,7 +4644,7 @@ EDSData.GASG = {
             }
         }
     },
-    292: {
+    292: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -4558,7 +4676,7 @@ EDSData.GASG = {
             }
         }
     },
-    293: {
+    293: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -4590,7 +4708,7 @@ EDSData.GASG = {
             }
         }
     },
-    "293T": { 
+    "293T": { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -4617,7 +4735,7 @@ EDSData.GASG = {
             }
         }
     },
-    296: {
+    296: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -4649,7 +4767,7 @@ EDSData.GASG = {
             }
         }
     },
-    298: {
+    298: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -4681,7 +4799,7 @@ EDSData.GASG = {
             }
         }
     },
-    299: {
+    299: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -5189,7 +5307,7 @@ EDSData.GASG = {
             }
         }
     },
-    454: {
+    454: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -5283,7 +5401,7 @@ EDSData.GASG = {
             }
         }
     },
-    460: {
+    460: { // Done
         1: {
             front: {
                 renderType: "standardService",
@@ -5402,7 +5520,7 @@ EDSData.GASG = {
             }
         }
     },
-    646: {
+    646: { // tba
         1: {
             front: {
                 renderType: "standardService",
@@ -5813,25 +5931,28 @@ EDSData.GASG = {
                     renderType: "logo",
                     text: "Go Ahead Logo",
                     image: "GoAheadLogoFull"
-                    },
+                },
                 ],
                 scrollFont: "Hanover-7:5"
             },
             rear: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "~",
-                destinationFont: "Lecip-GoAhead20:12",
-                scrolls: [{
+                destination: " ",
+                destinationFont: "Mobitec-7:7",
+                scrolls: [
+                { 
                     renderType: "logo",
                     text: "Go Ahead Logo",
-                    image: "GoAheadWordingRear",
-        
-                    serviceNumber: ""
+                    image: "GoAheadLionHead"
                 },
-                    ""
+                { 
+                    renderType: "logo",
+                    text: "Go Ahead Logo",
+                    image: "GoAheadWordingRear"
+                },
                 ],
-                scrollFont: "LECIP-7:5"
+                scrollFont: "Hanover-7:5"
             },
         }
     },
@@ -5849,18 +5970,57 @@ EDSData.GASG = {
             rear: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "~",
-                destinationFont: "Lecip-GoAhead20:12",
-                scrolls: [{
+                destination: " ",
+                destinationFont: "Mobitec-7:7",
+                scrolls: [
+                { 
                     renderType: "logo",
                     text: "Go Ahead Logo",
-                    image: "GoAheadWordingRear",
-        
-                    serviceNumber: ""
+                    image: "GoAheadLionHead"
                 },
-                    ""
+                { 
+                    renderType: "logo",
+                    text: "Go Ahead Logo",
+                    image: "GoAheadWordingRear"
+                },
                 ],
-                scrollFont: "LECIP-7:5"
+                scrollFont: "Hanover-7:5"
+            },
+        }
+    },
+    2224: {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "ECBD Carnival Shuttle",
+                destinationFont: "Mobitec-7:7",
+                scrolls: [
+                {
+                    renderType: "destScrollWithImage4",
+                    serviceNumber: "",
+                    top: "ECBD Carnival",
+                    topFont: "Lecip-GoAhead9:5",
+                    bottom: "Shuttle Bus",
+                    bottomFont: "Hanover-7:5",
+                    image: "GoAheadLogoFull"
+                },
+                ],
+                scrollFont: "Hanover-7:5"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: " ",
+                destinationFont: "Mobitec-7:7",
+                scrolls: [
+                { 
+                    renderType: "logo",
+                    text: "Go Ahead Logo",
+                    image: "GoAheadLionHead"
+                },
+                ],
+                scrollFont: "Hanover-7:5"
             },
         }
     },
@@ -6806,13 +6966,11 @@ EDSData.GASG = {
                 destinationFont: "Mobitec-7:4",
                 scrolls: [  
                 {
-                    renderType: "destScrollWithImage4",
-                    serviceNumber: "646",
-                    top: "",
-                    topFont: "Lecip-GoAhead8:6:4",
-                    bottom: "",
-                    bottomFont: "Lecip-GoAhead8:6:4",
-                    image: "CityDirect-35:2"
+                    renderType: "destScrollECID",
+                    top: " ",
+                    topFont: "Hanover-GoAhead14:7:2",
+        
+                    serviceNumber: " "
                 },
                 ],
                 scrollFont: "Hanover-7:5"
