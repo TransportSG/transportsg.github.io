@@ -1071,14 +1071,22 @@ EDSData.GASG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "29A",
+                    
                     top: "TERMINATING AT",
+                    topFont: "Mobitec-7:7",
+
                     bottom: "TAMPINES AVE 7",
+                    bottomFont: "Mobitec-7:7"
                 },
                 {
                     renderType: "destScroll",
                     serviceNumber: "29A",
+
                     top: "TERMINATING AT",
+                    topFont: "Mobitec-7:7",
+
                     bottom: "BLK 497D",
+                    bottomFont: "Mobitec-7:7"
                 },
             ],
             scrollFont: "Mobitec-7:4"

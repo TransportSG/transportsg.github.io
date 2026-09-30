@@ -746,7 +746,7 @@ EDSFormats.SBST = {
             matrixPrimitives.setStrokeColour(null);
             matrixPrimitives.fillRectangle(matrix, 0, 0, matrix.width, matrix.height);
         },
-        text: "FULL"
+        text: "All LED Lit"
     },
     ChingaystandardService: { // wording: hano ; num: lecip  -  because sbs kecoh af
         serviceNumber: {
@@ -9217,11 +9217,14 @@ EDSData.SBST = {
                 destinationFont: "LECIP-10",
                 scrolls: [
                 {
-                    renderType: "destScroll",
-                    top: "HOUGANG AVE 7",
-                    topFont: "Mobitec-7:7",
-                    bottom: "(OPP BLK 321)",
-                    bottomFont: "Mobitec-7:7",
+                    renderType: "destScroll2B",
+                    top: "HOUGANG  AVE  7",
+                    topFont: "LECIP-9:6",
+                    topMargin: "0",
+
+                    bottom: "(OPP  BLK  321)",
+                    bottomFont: "LECIP-9:6",
+                    bottomMargin: "0",
             
                     serviceNumber: "112B"
                 },
@@ -24168,24 +24171,6 @@ EDSData.SBST = {
             }
         }
     },
-    6666: {
-        1: {
-            front: {
-                renderType: "message",
-                text: "BUS  REVERSING",
-                font: "LECIP-20:12",
-                spacing: 1
-            },
-            rear: {
-                renderType: 'twoline',
-                top: "REVER",
-                topFont: "LECIP-6:3",
-
-                bottom: "       SING",
-                bottomFont: "LECIP-6:3"
-            }
-        }
-    },
     7000: {
         1: {
             front: {
@@ -24382,20 +24367,6 @@ EDSData.SBST = {
                 bottomFont: "LECIP-6:3"
             }
         },
-        2: {
-            front: {
-                renderType: "message",
-                text: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                font: "LECIP-20:12",
-                spacing: 1
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-                font: "LECIP-20:12",
-                spacing: 1
-            }
-        }
     }
 }
 
