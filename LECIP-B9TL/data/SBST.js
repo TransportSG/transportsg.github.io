@@ -20576,272 +20576,6 @@ EDSData.SBST = {
             }
         }
     },
-    702: {
-        1: {
-            front: {
-                renderType: "twoline",
-                top: "SHUTTLE 2",
-                topFont: "LECIP-7:5",
-
-                bottom: "JOO KOON - BUONA VISTA",
-                bottomFont: "LECIP-7:5"
-            },
-            rear: {
-                renderType: "twoline",
-                top: "JKN-",
-                topFont: "LECIP-7:5",
-
-                bottom: "BNV",
-                bottomFont: "LECIP-7:5"
-            }
-        },
-        2: {
-            front: {
-                renderType: "twoline",
-                top: "SHUTTLE 2",
-                topFont: "LECIP-7:5",
-
-                bottom: "BUONA VISTA - JOO KOON",
-                bottomFont: "LECIP-7:5"
-            },
-            rear: {
-                renderType: "twoline",
-                top: "BNV-",
-                topFont: "LECIP-7:5",
-
-                bottom: "JKN",
-                bottomFont: "LECIP-7:5"
-            }
-        }
-    },
-    705: {
-        1: {
-            front: {
-                renderType: "twoline",
-                top: "EXPRESS 5",
-                topFont: "LECIP-7:5",
-
-                bottom: "BOON LAY - OUTRAM PARK",
-                bottomFont: "LECIP-7:5"
-            },
-            rear: {
-                renderType: "twoline",
-                top: "BNL-",
-                topFont: "LECIP-7:5",
-
-                bottom: "OTP",
-                bottomFont: "LECIP-7:5"
-            }
-        },
-        2: {
-            front: {
-                renderType: "twoline",
-                top: "EXPRESS 5",
-                topFont: "LECIP-7:5",
-
-                bottom: "OUTRAM PARK - BOON LAY",
-                bottomFont: "LECIP-7:5"
-            },
-            rear: {
-                renderType: "twoline",
-                top: "OTP-",
-                topFont: "LECIP-7:5",
-
-                bottom: "BNL",
-                bottomFont: "LECIP-7:5"
-            }
-        }
-    },
-    706: {
-        1: {
-            front: {
-                renderType: "twoline",
-                top: "SHUTTLE 6",
-                topFont: "LECIP-7:5",
-
-                bottom: "RAFFLES PLACE - PAYA LEBAR",
-                bottomFont: "LECIP-7:5"
-            },
-            rear: {
-                renderType: "twoline",
-                top: "RFP-",
-                topFont: "LECIP-7:5",
-
-                bottom: "PYL",
-                bottomFont: "LECIP-7:5"
-            }
-        },
-        2: {
-            front: {
-                renderType: "twoline",
-                top: "SHUTTLE 6",
-                topFont: "LECIP-7:5",
-
-                bottom: "PAYA LEBAR - RAFFLES PLACE",
-                bottomFont: "LECIP-7:5"
-            },
-            rear: {
-                renderType: "twoline",
-                top: "PYL-",
-                topFont: "LECIP-7:5",
-
-                bottom: "RFP",
-                bottomFont: "LECIP-7:5"
-            }
-        }
-    },
-    707: {
-        1: {
-            front: {
-                renderType: "twoline",
-                top: "SHUTTLE 7",
-                topFont: "LECIP-7:5",
-
-                bottom: "PAYA LEBAR - PASIR RIS",
-                bottomFont: "LECIP-7:5"
-            },
-            rear: {
-                renderType: "twoline",
-                top: "PYL-",
-                topFont: "LECIP-7:5",
-
-                bottom: "PSR",
-                bottomFont: "LECIP-7:5"
-            }
-        },
-        2: {
-            front: {
-                renderType: "twoline",
-                top: "SHUTTLE 7",
-                topFont: "LECIP-7:5",
-
-                bottom: "PASIR RIS - PAYA LEBAR",
-                bottomFont: "LECIP-7:5"
-            },
-            rear: {
-                renderType: "twoline",
-                top: "PSR-",
-                topFont: "LECIP-7:5",
-
-                bottom: "PYL",
-                bottomFont: "LECIP-7:5"
-            }
-        }
-    },
-    713: {
-        1: {
-            front: {
-                renderType: "twoline",
-                top: "EXPRESS 13",
-                topFont: "LECIP-7:5",
-
-                bottom: "BEDOK - BEDOK NORTH",
-                bottomFont: "LECIP-7:5"
-            },
-            rear: {
-                renderType: "twoline",
-                top: "BDK-",
-                topFont: "LECIP-7:5",
-
-                bottom: "BDN",
-                bottomFont: "LECIP-7:5"
-            }
-        },
-        2: {
-            front: {
-                renderType: "twoline",
-                top: "EXPRESS 13",
-                topFont: "LECIP-7:5",
-
-                bottom: "BEDOK NORTH - BEDOK",
-                bottomFont: "LECIP-7:5"
-            },
-            rear: {
-                renderType: "twoline",
-                top: "BDN-",
-                topFont: "LECIP-7:5",
-
-                bottom: "BDK",
-                bottomFont: "LECIP-7:5"
-            }
-        }
-    },
-    721: {
-        1: {
-            front: {
-                renderType: "twoline",
-                top: "SHUTTLE 21",
-                topFont: "LECIP-7:5",
-
-                bottom: "SERANGOON - PUNGGOL",
-                bottomFont: "LECIP-7:5"
-            },
-            rear: {
-                renderType: "twoline",
-                top: "SRG -",
-                topFont: "LECIP-7:5",
-
-                bottom: "PGL",
-                bottomFont: "LECIP-7:5"
-            }
-        },
-        2: {
-            front: {
-                renderType: "twoline",
-                top: "SHUTTLE 21",
-                topFont: "LECIP-7:5",
-
-                bottom: "PUNGGOL - SERANGOON",
-                bottomFont: "LECIP-7:5"
-            },
-            rear: {
-                renderType: "twoline",
-                top: "PGL -",
-                topFont: "LECIP-7:5",
-
-                bottom: "SRG",
-                bottomFont: "LECIP-7:5"
-            }
-        }
-    },
-    722: {
-        1: {
-            front: {
-                renderType: "twoline",
-                top: "SHUTTLE 22",
-                topFont: "LECIP-7:5",
-
-                bottom: "SERANGOON - HARBOURFRONT",
-                bottomFont: "LECIP-7:5"
-            },
-            rear: {
-                renderType: "twoline",
-                top: "SRG -",
-                topFont: "LECIP-7:5",
-
-                bottom: "HBF",
-                bottomFont: "LECIP-7:5"
-            }
-        },
-        2: {
-            front: {
-                renderType: "twoline",
-                top: "SHUTTLE 22",
-                topFont: "LECIP-7:5",
-
-                bottom: "HARBOURFRONT - SERANGOON",
-                bottomFont: "LECIP-7:5"
-            },
-            rear: {
-                renderType: "twoline",
-                top: "HBF -",
-                topFont: "LECIP-7:5",
-
-                bottom: "SRG",
-                bottomFont: "LECIP-7:5"
-            }
-        }
-    },
     770: {
         1: {
             front: {
@@ -23114,22 +22848,6 @@ EDSData.SBST = {
                 bottom: "SHUTTLE",
                 bottomFont: "LECIP-7:4"
             }
-        },
-        2: {
-            front: {
-                renderType: "message",
-                text: "NTWU  COFFEE  BUS",
-                font: "LECIP-20:9",
-                spacing: 1
-            },
-            rear: {
-                renderType: 'twoline',
-                top: "COFFEE",
-                topFont: "LECIP-7:4",
-
-                bottom: "BUS",
-                bottomFont: "LECIP-7:4"
-            }
         }
     },
     1111: {
@@ -23196,6 +22914,22 @@ EDSData.SBST = {
 
                 bottom: "TRANSIT",
                 bottomFont: "LECIP-7:4"
+            }
+        }
+    },
+    2223: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "",
+                font: "LECIP-24:Tower",
+                spacing: 3
+            },
+            rear: {
+                renderType: "message",
+                text: "",
+                font: "LECIP-24:Tower",
+                spacing: 3
             }
         }
     },
@@ -24924,6 +24658,496 @@ EDSData.SBST = {
             }
         },
     },
+    4111: { // July 2018 Route
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "SHUTTLE 11 (JUL 2018)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "SHUTTLE 11",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "BUKIT BATOK - SEMBAWANG",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "1",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: " ",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "BBT - ",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "SBW",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "2",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "SHUTTLE 11 (JUL 2018)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "SHUTTLE 11",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "SEMBAWANG - BUKIT BATOK",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "1",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: " ",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+                    
+                    top: "SBW - ",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "BBT",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "2",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            }
+        },
+    },
+    4131: { // Mar 2018 Route
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "EXPRESS 13 (MAR 2018)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "EXPRESS 13",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "BEDOK - BEDOK NORTH",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "1",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: " ",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "BDK - ",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "BDN",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "2",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "EXPRESS 13 (MAR 2018)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "EXPRESS 13",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "BEDOK NORTH - BEDOK",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "1",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: " ",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+                    
+                    top: "BDN - ",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "BDK",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "2",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            }
+        },
+    },
+    4161: { // May 2018 Route
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "EXPRESS 16 (MAY 2018)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "EXPRESS 16",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "SERANGOON - ANG MO KIO",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "1",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: " ",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "SER - ",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "AMK",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "2",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "EXPRESS 16 (MAY 2018)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "EXPRESS 16",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "ANG MO KIO - SERANGOON",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "1",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: " ",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+                    
+                    top: "AMK - ",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "SER",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "2",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            }
+        },
+    },
+    4211: { // July 2024 Route
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "SHUTTLE 21 (JUL 2024)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "SHUTTLE 21",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "SERANGOON - PUNGGOL",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "1",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: " ",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "SGN - ",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "PGL",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "2",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "SHUTTLE 21 (JUL 2024)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "SHUTTLE 21",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "PUNGGOL - SERANGOON",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "1",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: " ",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+                    
+                    top: "PGL - ",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "SGN",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "2",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            }
+        },
+    },
+    4221: { // July 2024 Route
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "SHUTTLE 22 (JUL 2024)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "SHUTTLE 22",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "HARBOURFRONT - SERANGOON",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "1",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: " ",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "HBF - ",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "SGN",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "2",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "SHUTTLE 22 (JUL 2024)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "SHUTTLE 22",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "SERANGOON - HARBOURFRONT",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "1",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: " ",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+                    
+                    top: "SGN - ",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "HBF",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "2",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            }
+        },
+    },
     4371: { // Sep 2025 Route
         1: {
             front: {
@@ -25109,7 +25333,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "S38",
-                destination: "STADIUM",
+                destination: "S38 (JAN 2026)",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -25149,7 +25373,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "S38",
-                destination: "PAYA LEBAR (2026)",
+                destination: "S38 (JAN 2026)",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -25213,6 +25437,289 @@ EDSData.SBST = {
                 scrollFont: "LECIP-6:4",
             }
         }
+    },
+    4411: { // Jul 2026 Route
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S41",
+                destination: "S41 (JUL 2026)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "DTL SHUTTLE",
+                    topFont: "LECIP-10",
+                    bottom: "EXPO - MACPHERSON",
+                    bottomFont: "LECIP-7:5",
+                                
+                    serviceNumber: "S41",
+                    serviceFont: "LECIP-20:12",
+                    serviceSpacing: "3",
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "S41",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S41",
+                destination: "S41 (JUL 2026)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "DTL SHUTTLE",
+                    topFont: "LECIP-10",
+                    bottom: "MACPHERSON - EXPO",
+                    bottomFont: "LECIP-7:5",
+                                
+                    serviceNumber: "S41",
+                    serviceFont: "LECIP-20:12",
+                    serviceSpacing: "3",
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "S41",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    4421: { // Jul 2026 Route
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S42",
+                destination: "S42 (JUL 2026)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "DTL SHUTTLE",
+                    topFont: "LECIP-10",
+                    bottom: "MACPHERSON - BUGIS",
+                    bottomFont: "LECIP-7:5",
+                                
+                    serviceNumber: "S42",
+                    serviceFont: "LECIP-20:9",
+                    serviceSpacing: "3",
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "S42",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S42",
+                destination: "S42 (JUL 2026)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "DTL SHUTTLE",
+                    topFont: "LECIP-10",
+                    bottom: "BUGIS - MACPHERSON",
+                    bottomFont: "LECIP-7:5",
+                                
+                    serviceNumber: "S42",
+                    serviceFont: "LECIP-20:9",
+                    serviceSpacing: "3",
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "S41",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    4444: {
+        1: {
+            front: {
+                renderType: "message",
+                text: "ON TEST",
+                font: "LECIP-20:12",
+                spacing: 3
+            },
+            rear: {
+                renderType: 'twoline',
+                top: "ON",
+                topFont: "LECIP-7:5",
+
+                bottom: "TEST",
+                bottomFont: "LECIP-7:5"
+            }
+        }
+    },
+    4531: { // May 2026 Route
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S53",
+                destination: "S53 (MAY 2026)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2A",
+                    top: "SHUTTLE 53",
+                    topFont: "LECIP-10",
+                    bottom: "BAYSHORE - MARINA BAY",
+                    bottomFont: "LECIP-7:5",
+                                
+                    serviceNumber: "S53",
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "S53",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "S53",
+                destination: "S53 (MAY 2026)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2A",
+                    top: "SHUTTLE 53",
+                    topFont: "LECIP-10",
+                    bottom: "MARINA BAY - BAYSHORE",
+                    bottomFont: "LECIP-7:5",
+                                
+                    serviceNumber: "S53",
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "S41",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
+    4997: { // Apr 2017 Route
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: " ",
+                destination: "BOON LAY (APR 2017)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2",
+                    top: "LAKESIDE - BOON LAY",
+                    topFont: "LECIP-10",
+                    bottom: "PARALLEL BUS SERVICE",
+                    bottomFont: "LECIP-7:5",
+                                
+                    serviceNumber: " ",
+                    serviceFont: "LECIP-20:12",
+                    serviceSpacing: "1",
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: " ",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "LKS - ",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "BNL",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "2",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "LAKESIDE (APR 2017)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "BOON LAY - LAKESIDE",
+                    topFont: "LECIP-10",
+                    topMargin: "1",
+
+                    bottom: "PARALLEL BUS SERVICE",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "1",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: " ",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+                    
+                    top: "BNL - ",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "LKS",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "2",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            }
+        },
     },
     4998: {
         1: {
@@ -25295,216 +25802,6 @@ EDSData.SBST = {
                 },
                 ],
                 scrollFont: "LECIP-6:4",
-            }
-        }
-    },
-    2223: {
-        1: {
-            front: {
-                renderType: "message",
-                text: "",
-                font: "LECIP-24:Tower",
-                spacing: 3
-            },
-            rear: {
-                renderType: "message",
-                text: "",
-                font: "LECIP-24:Tower",
-                spacing: 3
-            }
-        }
-    },
-    4411: {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "S41",
-                destination: "MACPHERSON (2026)",
-                destinationFont: "LECIP-6:4",
-                scrolls: [
-                {
-                    renderType: "destScroll",
-                    top: "DTL SHUTTLE",
-                    topFont: "LECIP-10",
-                    bottom: "EXPO - MACPHERSON",
-                    bottomFont: "LECIP-7:5",
-                                
-                    serviceNumber: "S41",
-                    serviceFont: "LECIP-20:12",
-                    serviceSpacing: "3",
-                },
-                ],
-                scrollFont: "LECIP-6:4"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "S41",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        }
-    },
-    4412: {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "S41",
-                destination: "EXPO (2026)",
-                destinationFont: "LECIP-6:4",
-                scrolls: [
-                {
-                    renderType: "destScroll",
-                    top: "DTL SHUTTLE",
-                    topFont: "LECIP-10",
-                    bottom: "MACPHERSON - EXPO",
-                    bottomFont: "LECIP-7:5",
-                                
-                    serviceNumber: "S41",
-                    serviceFont: "LECIP-20:12",
-                    serviceSpacing: "3",
-                },
-                ],
-                scrollFont: "LECIP-6:4"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "S41",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        }
-    },
-    4421: {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "S42",
-                destination: "BUGIS (2026)",
-                destinationFont: "LECIP-6:4",
-                scrolls: [
-                {
-                    renderType: "destScroll",
-                    top: "DTL SHUTTLE",
-                    topFont: "LECIP-10",
-                    bottom: "MACPHERSON - BUGIS",
-                    bottomFont: "LECIP-7:5",
-                                
-                    serviceNumber: "S42",
-                    serviceFont: "LECIP-20:9",
-                    serviceSpacing: "3",
-                },
-                ],
-                scrollFont: "LECIP-6:4"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "S42",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        }
-    },
-    4422: {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "S42",
-                destination: "MACPHERSON (2026)",
-                destinationFont: "LECIP-6:4",
-                scrolls: [
-                {
-                    renderType: "destScroll",
-                    top: "DTL SHUTTLE",
-                    topFont: "LECIP-10",
-                    bottom: "BUGIS - MACPHERSON",
-                    bottomFont: "LECIP-7:5",
-                                
-                    serviceNumber: "S42",
-                    serviceFont: "LECIP-20:9",
-                    serviceSpacing: "3",
-                },
-                ],
-                scrollFont: "LECIP-6:4"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "S42",
-                font: "LECIP-20:9",
-                spacing: 2
-            }
-        }
-    },
-    4444: {
-        1: {
-            front: {
-                renderType: "message",
-                text: "ON TEST",
-                font: "LECIP-20:12",
-                spacing: 3
-            },
-            rear: {
-                renderType: 'twoline',
-                top: "ON",
-                topFont: "LECIP-7:5",
-
-                bottom: "TEST",
-                bottomFont: "LECIP-7:5"
-            }
-        }
-    },
-    4531: {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "S53",
-                destination: "MARINA BAY",
-                destinationFont: "LECIP-6:4",
-                scrolls: [
-                {
-                    renderType: "destScroll2A",
-                    top: "SHUTTLE 53",
-                    topFont: "LECIP-10",
-                    bottom: "BAYSHORE - MARINA BAY",
-                    bottomFont: "LECIP-7:5",
-                                
-                    serviceNumber: "S53",
-                },
-                ],
-                scrollFont: "LECIP-6:4"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "S53",
-                font: "LECIP-20:9",
-                spacing: "1",
-            }
-        }
-    },    
-    4532: {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "S53",
-                destination: "BAYSHORE",
-                destinationFont: "LECIP-6:4",
-                scrolls: [
-                {
-                    renderType: "destScroll2A",
-                    top: "SHUTTLE 53",
-                    topFont: "LECIP-10",
-                    bottom: "MARINA BAY - BAYSHORE",
-                    bottomFont: "LECIP-7:5",
-                                
-                    serviceNumber: "S53",
-                },
-                ],
-                scrollFont: "LECIP-6:4"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "S53",
-                font: "LECIP-20:9",
-                spacing: "1",
             }
         }
     },
