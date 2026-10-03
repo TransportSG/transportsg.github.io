@@ -2661,8 +2661,8 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "45",
             destination: {
-                text: "> ANG MO KIO DEPOT",
-                font: "Mobitec-7:5:2"
+                text: "> OPP YIO CHU KANG STADIUM",
+                font: "Mobitec-7:4"
             },
             scrolls: [
                 'BEDOK NORTH RD',
@@ -2689,6 +2689,24 @@ EDSData.SBST = {
                 destinationRoad: "UPP S'GOON",
                 destinationName: "RD (S'GOON STN EXIT A)"
             },
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    459: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "45",
+            destination: {
+                text: "> ANG MO KIO DEPOT",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                'BEDOK NORTH RD',
+                'EUNOS LINK',
+                'LOR AH SOO',
+                'SERANGOON AVE 2',
+                'ANG MO KIO AVE 10'
             ],
             scrollFont: "Mobitec-6:5"
         }
@@ -5147,10 +5165,12 @@ EDSData.SBST = {
             },
             scrolls: [
             {
-                renderType: "swt",
+                renderType: "destScroll2",
                 serviceNumber: "102B",
-                destinationRoad: "SENGKANG",
-                destinationName: "E. (S'KANG STN/BLK 461B)"
+                top: "TERMINATE AT SKG EAST W",
+                topFont: "Mobitec-7:4",
+                bottom: "(SENGKANG STN/BLK 461B)",
+                bottomFont: "Mobitec-7:4",
             },
             ],
             scrollFont: "Mobitec-6:5"

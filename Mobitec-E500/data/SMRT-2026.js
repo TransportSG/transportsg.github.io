@@ -4926,7 +4926,7 @@ EDSData['SMRT-2026'] = {
             scrollFont: "Mobitec-7:7"
         }
     },
-    9601: { // Check
+    9601: { // Done
         front: {
             renderType: "standardService",
             serviceNumber: "960",
@@ -4938,11 +4938,16 @@ EDSData['SMRT-2026'] = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "960",
-                    top: "RAFFLES",
-                    topFont: "Mobitec-7:7",
-                    bottom: "BOULEVARD",
-                    bottomFont: "Mobitec-7:7"
+                    top: "RAFFLES BLVD",
+                    topFont: "Mobitec-13:7",
                 },
+                "WOODLANDS RD",
+                "BT PANJANG RD",
+                "BKE / PIE",
+                "WHITLEY RD",
+                "BUKIT TIMAH RD",
+                "VICTORIA ST",
+                "BRAS BASAH RD"
             ],
             scrollFont: "Mobitec-7:5:3"
         }

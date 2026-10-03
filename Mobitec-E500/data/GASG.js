@@ -1235,7 +1235,7 @@ EDSData.GASG = {
                     renderType: "destScroll",
                     serviceNumber: "34B",
                     top: "TERMINATING AT",
-                    bottom: "TAMPIINES WATER FAB PK",
+                    bottom: "TAMPINES WAFER FAB PK",
                     bottomFont: "Mobitec-7:4",
                 },
             ],

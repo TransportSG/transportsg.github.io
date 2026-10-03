@@ -4219,6 +4219,86 @@ EDSData['SMRT (PostSLBP)'] = {
   
         }
     },
+    8681: {
+        front: {
+            renderType: "SLBPstandardService",
+            serviceNumber: "868E",
+            destination: {
+                text: "SUNTEC CITY",
+                font: "Mobitec-7:5:3"
+            },
+            scrolls: [
+                {
+                    renderType: "SLBPdestScroll",
+                    serviceNumber: "868E",
+                    top: "SUNTEC CITY",
+                    topFont: "Mobitec-13:7",
+                },
+                "B. B WEST AVE 5, 4",
+                "B. B WEST AVE 2, 3",
+                {
+                    renderType: "SLBPdestScroll",
+                    serviceNumber: "868E",
+                    top: "SUNTEC CITY via",
+                    topFont: "Mobitec-7:5:3",
+                    bottom: "BT BATOK WEST AVE 6",
+                    bottomFont: "Mobitec-7:4"
+                },
+                {
+                    renderType: "SLBPdestScroll",
+                    serviceNumber: "868E",
+                    top: "SUNTEC CITY via",
+                    topFont: "Mobitec-7:5:3",
+                    bottom: "BT BATOK AVE 1",
+                    bottomFont: "Mobitec-7:7"
+                },
+                {
+                    renderType: "SLBPdestScroll",
+                    serviceNumber: "868E",
+                    top: "SUNTEC CITY via",
+                    topFont: "Mobitec-7:5:3",
+                    bottom: "JURONG EAST CENTRAL",
+                    bottomFont: "Mobitec-7:4"
+                },
+                {
+                    renderType: "SLBPdestScroll",
+                    serviceNumber: "868E",
+                    top: "SUNTEC CITY via",
+                    topFont: "Mobitec-7:5:3",
+                    bottom: "TOH GUAN RD",
+                    bottomFont: "Mobitec-7:7"
+                },
+                {
+                    renderType: "SLBPdestScroll",
+                    serviceNumber: "868E",
+                    top: "SUNTEC CITY via",
+                    topFont: "Mobitec-7:5:3",
+                    bottom: "JURONG TOWN HALL ROAD" ,
+                    bottomFont: "Mobitec-7:4"
+                },
+                {
+                    renderType: "SLBPdestScroll",
+                    serviceNumber: "868E",
+                    top: "SUNTEC CITY via",
+                    topFont: "Mobitec-7:5:3",
+                    bottom: "ANSON ROAD",
+                    bottomFont: "Mobitec-7:7"
+                },
+                {
+                    renderType: "SLBPdestScroll",
+                    serviceNumber: "868E",
+                    top: "SUNTEC CITY via",
+                    topFont: "Mobitec-7:5:3",
+                    bottom: "ROBINSON ROAD",
+                    bottomFont: "Mobitec-7:7"
+                },
+                "FULLERTON RD",
+                "ESPLANADE DRIVE",
+                "TEMASEK BLVD"
+            ],
+            scrollFont: "Mobitec-7:5:2"
+        }
+    },
     9001: {
         front: {
             renderType: "standardService",
