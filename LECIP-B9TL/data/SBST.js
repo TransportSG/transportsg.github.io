@@ -19602,7 +19602,7 @@ EDSData.SBST = {
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "560",
+                serviceNumber: "761",
                 font: "LECIP-20:9",
                 spacing: 2
             }
@@ -23217,12 +23217,917 @@ EDSData.SBST = {
             }
         }
     },
-    4071: {
+    4011: { // Dec 2017 Route
         1: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "S7",
-                destination: "BEDOK (20245)",
+                serviceNumber: "",
+                destination: "SHUTTLE 1 (DEC 2017)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "SHUTTLE 1",
+                    topFont: "LECIP-6:4",
+                    topMargin: "1",
+
+                    bottom: "OUTRAM PARK - JURONG EAST",
+                    bottomFont: "LECIP-6:4",
+                    bottomMargin: "3",
+            
+                    serviceNumber: "        "
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: " ",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "SHUttLE",
+                    topFont: "LECIP-6:4",
+                    topMargin: "1",
+
+                    bottom: "一",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "2",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "SHUTTLE 1 (DEC 2017)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "SHUTTLE 1",
+                    topFont: "LECIP-6:4",
+                    topMargin: "1",
+
+                    bottom: "JURONG EAST - OUTRAM PARK",
+                    bottomFont: "LECIP-6:4",
+                    bottomMargin: "3",
+            
+                    serviceNumber: "        "
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: " ",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "SHUttLE",
+                    topFont: "LECIP-6:4",
+                    topMargin: "1",
+
+                    bottom: "一",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "2",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            }
+        },
+    },
+    4021: { // Nov 2018 Route
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "SHUTTLE 2 (NOV 2018)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "SHUTTLE 2",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "BUONA VISTA - BOON LAY",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "1",
+            
+                    serviceNumber: ""
+                    
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: " ",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "BNV - ",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "BNL",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "1",
+            
+                    serviceNumber: ""
+                    
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "SHUTTLE 2 (NOV 2018)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "SHUTTLE 2",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "BOON LAY - BUONA VISTA",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "1",
+            
+                    serviceNumber: ""
+                    
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: " ",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "BNL - ",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "BNV",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "1",
+            
+                    serviceNumber: ""
+                    
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            }
+        },
+    },
+    4022: { // Mar 2018 Route
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "SHUTTLE 2 (MAR 2018)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "SHUTTLE 2",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "BUONA VISTA - JOO KOON",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "1",
+            
+                    serviceNumber: ""
+                    
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: " ",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "BNV - ",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "JKN",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "1",
+            
+                    serviceNumber: ""
+                    
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "SHUTTLE 2 (MAR 2018)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "SHUTTLE 2",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "JOO KOON - BUONA VISTA",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "1",
+            
+                    serviceNumber: ""
+                    
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: " ",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "JKN - ",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "BNV",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "1",
+            
+                    serviceNumber: ""
+                    
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            }
+        },
+    },
+    4023: { // Dec 2017 Route
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "SHUTTLE 2 (DEC 2017)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "SHUTTLE 2",
+                    topFont: "LECIP-6:4",
+                    topMargin: "1",
+
+                    bottom: "JURONG EAST - JOO KOON",
+                    bottomFont: "LECIP-6:4",
+                    bottomMargin: "3",
+            
+                    serviceNumber: "        "
+                    
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: " ",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "SHUttLE",
+                    topFont: "LECIP-6:4",
+                    topMargin: "1",
+
+                    bottom: "2",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "2",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "SHUTTLE 2 (DEC 2017)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "SHUTTLE 2",
+                    topFont: "LECIP-6:4",
+                    topMargin: "1",
+
+                    bottom: "JOO KOON - JURONG EAST",
+                    bottomFont: "LECIP-6:4",
+                    bottomMargin: "3",
+            
+                    serviceNumber: "        "
+                    
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: " ",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "SHUttLE",
+                    topFont: "LECIP-6:4",
+                    topMargin: "1",
+
+                    bottom: "2",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "2",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            }
+        },
+    },
+
+    4041: { // Aug 2019 Route
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "SHUTTLE 4 (AUG 2019)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "SHUTTLE 4",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "JURONG EAST - WOODLANDS",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "1",
+            
+                    serviceNumber: ""
+                    
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: " ",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "JUR - ",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "WDL",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "1",
+            
+                    serviceNumber: ""
+                    
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "SHUTTLE 4 (AUG 2019)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "SHUTTLE 4",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "WOODLANDS - JURONG EAST",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "1",
+            
+                    serviceNumber: ""
+                    
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: " ",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "WDL - ",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "JUR",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "1",
+            
+                    serviceNumber: ""
+                    
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            }
+        },
+    },
+    4051: { // Aug 2018 Route
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "EXPRESS 5 (AUG 2018)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "EXPRESS 5",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "BNV - JUR - BNL",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "1",
+            
+                    serviceNumber: ""
+                    
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: " ",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "EXPRESS",
+                    topFont: "LECIP-6:3",
+                    topMargin: "1",
+
+                    bottom: "5",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "2",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "EXPRESS 5 (DEC 2017)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "EXPRESS 5",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "BNL - JUR - BNV",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "1",
+            
+                    serviceNumber: ""
+                    
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: " ",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "EXPRESS",
+                    topFont: "LECIP-6:3",
+                    topMargin: "1",
+
+                    bottom: "5",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "2",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            }
+        },
+    },
+    4052: { // Dec 2017 Route
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "EXPRESS 5 (DEC 2017)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "EXPRESS 5",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "OUTRAM PARK - BOON LAY",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "1",
+            
+                    serviceNumber: ""
+                    
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: " ",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "EXPRESS",
+                    topFont: "LECIP-6:3",
+                    topMargin: "1",
+
+                    bottom: "5",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "2",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "EXPRESS 5 (DEC 2017)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "EXPRESS 5",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "BOON LAY - OUTRAM PARK",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "1",
+            
+                    serviceNumber: ""
+                    
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: " ",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "EXPRESS",
+                    topFont: "LECIP-6:3",
+                    topMargin: "1",
+
+                    bottom: "5",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "2",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            }
+        },
+    },
+    4061: { // Mar 2018 Route
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "SHUTTLE 6 (MAR 2018)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "SHUTTLE 6",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "RAFFLES PLACE - PAYA LEBAR",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "1",
+            
+                    serviceNumber: ""
+                    
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: " ",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "RFP - ",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "PYL",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "2",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "SHUTTLE 6 (MAR 2018)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "SHUTTLE 6",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "PAYA LEBAR - RAFFLES PLACE",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "1",
+            
+                    serviceNumber: ""
+                    
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: " ",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "PYL - ",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "RFP",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "2",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            }
+        },
+    },
+    4062: { // Mar 2018 Route
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "SHUTTLE 6 (MAR 2018)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "SHUTTLE 6",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "RAFFLES PLACE - PAYA LEBAR",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "1",
+            
+                    serviceNumber: ""
+                    
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: " ",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "RFP - ",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "PYL",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "2",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "SHUTTLE 6 (MAR 2018)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "SHUTTLE 6",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "PAYA LEBAR - RAFFLES PLACE",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "1",
+            
+                    serviceNumber: ""
+                    
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: " ",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "PYL - ",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "RFP",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "2",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            }
+        },
+    },
+4071: { // Nov 2025 Route
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "S7 (NOV 2025)",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -23235,7 +24140,7 @@ EDSData.SBST = {
                     serviceNumber: "S7",
                     serviceFont: "LECIP-20:11",
                     serviceSpacing: "",
-                    },
+                },
                 ],
                 scrollFont: "LECIP-6:4"
             },
@@ -23245,16 +24150,15 @@ EDSData.SBST = {
                 font: "LECIP-20:11",
                 spacing: 2
             }
-        }
-    },
-    4072: {
-        1: {
+        },
+        2: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "S7",
-                destination: "TAMPINES (20245)",
+                serviceNumber: "",
+                destination: "S7 (NOV 2025)",
                 destinationFont: "LECIP-6:4",
-                scrolls: [{
+                scrolls: [
+                {
                     renderType: "destScroll2",
                     top: "SHUTTLE 7",
                     topFont: "LECIP-9:7",
@@ -23264,7 +24168,7 @@ EDSData.SBST = {
                     serviceNumber: "S7",
                     serviceFont: "LECIP-20:11",
                     serviceSpacing: "",
-                    },
+                },
                 ],
                 scrollFont: "LECIP-6:4"
             },
@@ -23274,16 +24178,45 @@ EDSData.SBST = {
                 font: "LECIP-20:11",
                 spacing: 2
             }
-        }
+        },
     },
-    4079: {
+4072: { // Dec 2024 Route
         1: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "S7",
-                destination: "TAMPINES (2025)",
+                serviceNumber: "",
+                destination: "S7 (DEC 2024)",
                 destinationFont: "LECIP-6:4",
-                scrolls: [{
+                scrolls: [
+                {
+                    renderType: "destScroll2",
+                    top: "SHUTTLE 7",
+                    topFont: "LECIP-9:7",
+                    bottom: "TAMPINES - TANAH MERAH",
+                    bottomFont: "LECIPBold-7:6",
+                                
+                    serviceNumber: "S7",
+                    serviceFont: "LECIP-20:11",
+                    serviceSpacing: "",
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "S7",
+                font: "LECIP-20:11",
+                spacing: 2
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "S7 (DEC 2024)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
                     renderType: "destScroll2",
                     top: "SHUTTLE 7",
                     topFont: "LECIP-9:7",
@@ -23293,7 +24226,7 @@ EDSData.SBST = {
                     serviceNumber: "S7",
                     serviceFont: "LECIP-20:11",
                     serviceSpacing: "",
-                    },
+                },
                 ],
                 scrollFont: "LECIP-6:4"
             },
@@ -23303,72 +24236,754 @@ EDSData.SBST = {
                 font: "LECIP-20:11",
                 spacing: 2
             }
-        }
+        },
     },
-    4078: {
+4073: { // Mar 2018 Route
         1: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "S7",
-                destination: "TANAH MERAH (2024)",
+                serviceNumber: "",
+                destination: "SHUTTLE 7 (MAR 2018)",
                 destinationFont: "LECIP-6:4",
-                scrolls: [{
-                    renderType: "destScroll2",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
                     top: "SHUTTLE 7",
-                    topFont: "LECIP-9:7",
-                    bottom: "TAMPINES -TANAH MERAH",
-                    bottomFont: "LECIPBold-7:6",
-                                
-                    serviceNumber: "S7",
-                    serviceFont: "LECIP-20:11",
-                    serviceSpacing: "",
-                    },
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "PASIR RIS - PAYA LEBAR",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "1",
+            
+                    serviceNumber: ""
+                },
                 ],
                 scrollFont: "LECIP-6:4"
             },
             rear: {
-                renderType: "rearService",
-                serviceNumber: "S7",
-                font: "LECIP-20:11",
-                spacing: 2
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: " ",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "PSR - ",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "PYL",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "1",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
             }
-        }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "SHUTTLE 7 (MAR 2018)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "SHUTTLE 7",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "PAYA LEBAR - PASIR RIS",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "1",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: " ",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "PYL - ",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "PSR",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "1",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            }
+        },
     },
-    4079: {
+    4074: { // Jan 2018 Route
         1: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "S7",
-                destination: "TAMPINES (2025)",
+                serviceNumber: "",
+                destination: "SHUTTLE 7 (JAN 2018)",
                 destinationFont: "LECIP-6:4",
-                scrolls: [{
-                    renderType: "destScroll2",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
                     top: "SHUTTLE 7",
-                    topFont: "LECIP-9:7",
-                    bottom: "TANAH MERAH - TAMPINES",
-                    bottomFont: "LECIPBold-7:6",
+                    topFont: "LECIP-6:4",
+                    topMargin: "1",
+
+                    bottom: "PASIR RIS - ALJUNIED",
+                    bottomFont: "LECIP-6:4",
+                    bottomMargin: "3",
+            
+                    serviceNumber: "        "
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: " ",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "SHUttLE",
+                    topFont: "LECIP-6:4",
+                    topMargin: "1",
+
+                    bottom: "7",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "2",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "SHUTTLE 7 (JAN 2018)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "SHUTTLE 7",
+                    topFont: "LECIP-6:4",
+                    topMargin: "1",
+
+                    bottom: "ALJUNIED - PASIR RIS",
+                    bottomFont: "LECIP-6:4",
+                    bottomMargin: "3",
+            
+                    serviceNumber: "        "
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: " ",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "SHUttLE",
+                    topFont: "LECIP-6:4",
+                    topMargin: "1",
+
+                    bottom: "7",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "2",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            }
+        },
+    },
+    4091: { // Jan 2020 Route
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "SHUTTLE 9 (JAN 2020)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "SHUTTLE 9",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "ANG MO KIO - NEWTON",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "1",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: " ",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "AMK - ",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "NEW",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "2",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "SHUTTLE 9 (JAN 2020)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "SHUTTLE 9",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "NEWTON - ANG MO KIO",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "1",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: " ",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+                    
+                    top: "NEW - ",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "AMK",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "2",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            }
+        },
+    },
+    4092: { // May 2018 Route
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "SHUTTLE 9 (MAY 2018)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "SHUTTLE 9",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "YISHUN - NEWTON",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "1",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: " ",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "YIS - ",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "NEW",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "2",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "SHUTTLE 9 (MAY 2018)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "SHUTTLE 9",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "NEWTON - YISHUN",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "1",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: " ",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+                    
+                    top: "NEW - ",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "YIS",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "2",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            }
+        },
+    },
+    4101: { // Feb 2020 Route
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "SHUTTLE 10 (FEB 2020)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "SHUTTLE 10",
+                    topFont: "LECIPBold-7:6:2",
+                    topMargin: "1",
+
+                    bottom: "CANBERRA - ANG MO KIO",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "1",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: " ",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "CBR - ",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "AMK",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "2",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "SHUTTLE 10 (FEB 2020)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "SHUTTLE 10",
+                    topFont: "LECIPBold-7:6:2",
+                    topMargin: "1",
+
+                    bottom: "ANG MO KIO - CANBERRA",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "1",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: " ",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+                    
+                    top: "AMK - ",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "CBR",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "2",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            }
+        },
+    },
+    4102: { // May 2019 Route
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "SHUTTLE 10 (MAY 2019)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "SHUTTLE 10",
+                    topFont: "LECIPBold-7:6:2",
+                    topMargin: "1",
+
+                    bottom: "WOODLANDS - ANG MO KIO",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "1",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: " ",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "WDL - ",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "AMK",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "2",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "SHUTTLE 10 (MAY 2019)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "SHUTTLE 10",
+                    topFont: "LECIPBold-7:6:2",
+                    topMargin: "1",
+
+                    bottom: "ANG MO KIO - WOODLANDS",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "1",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: " ",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+                    
+                    top: "AMK - ",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "WDL",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "2",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            }
+        },
+    },
+    4103: { // May 2019 Route
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "SHUTTLE 10 (MAY 2019)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "SHUTTLE 10",
+                    topFont: "LECIPBold-7:6:2",
+                    topMargin: "1",
+
+                    bottom: "WOODLANDS - YISHUN",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "1",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: " ",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "WDL - ",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "YIS",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "2",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "SHUTTLE 10 (MAY 2019)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+
+                    top: "SHUTTLE 10",
+                    topFont: "LECIPBold-7:6:2",
+                    topMargin: "1",
+
+                    bottom: "YISHUN - WOODLANDS",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "1",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: " ",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2B",
+                    serviceFont: "LECIP-20:9",
+                    
+                    top: "YIS - ",
+                    topFont: "LECIP-7:5",
+                    topMargin: "1",
+
+                    bottom: "WDL",
+                    bottomFont: "LECIP-7:5",
+                    bottomMargin: "2",
+            
+                    serviceNumber: ""
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            }
+        },
+    },
+    4371: { // Sep 2025 Route
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "S37 (APR 2026)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2A",
+                    top: "SHUTTLE 37",
+                    topFont: "LECIP-10",
+                    bottom: "PROMENADE - BISHAN",
+                    bottomFont: "LECIP-7:5",
                                 
-                    serviceNumber: "S7",
-                    serviceFont: "LECIP-20:11",
-                    serviceSpacing: "",
-                    },
+                    serviceNumber: "S37",
+                },
                 ],
                 scrollFont: "LECIP-6:4"
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "S7",
-                font: "LECIP-20:11",
-                spacing: 2
+                serviceNumber: "S37",
+                font: "LECIP-20:9",
+                spacing: "1",
             }
-        }
+        },
+        2: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "",
+                destination: "S37 (APR 2026)",
+                destinationFont: "LECIP-6:4",
+                scrolls: [
+                {
+                    renderType: "destScroll2A",
+                    top: "SHUTTLE 37",
+                    topFont: "LECIP-10",
+                    bottom: "BISHAN - PROMENADE",
+                    bottomFont: "LECIP-7:5",
+                                
+                    serviceNumber: "S37",
+                },
+                ],
+                scrollFont: "LECIP-6:4"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "S37",
+                font: "LECIP-20:9",
+                spacing: "1",
+            }
+        },
     },
-    4371: {
+    4372: { // Jan 2026 Route
         1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "S37A",
-                destination: "PAYA LEBAR (2026)",
+                destination: "S37A (JAN 2026)",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -23388,7 +25003,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "standardService",
                 serviceNumber: "S37A",
-                destination: "PAYA LEBAR (2026)",
+                destination: " ",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -23405,12 +25020,12 @@ EDSData.SBST = {
             }
         }
     },
-    4372: {
+    4373: { // Jan 2026 Route
         1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "S37B",
-                destination: "BISHAN (2026)",
+                destination: "S37B (JAN 2026)",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -23447,12 +25062,12 @@ EDSData.SBST = {
             }
         }
     },
-    4373: {
+    4374: { // Jan 2026 Route
         1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "S37C",
-                destination: "SERANGOON (2026)",
+                destination: "S37C (JAN 2026)",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -23489,63 +25104,7 @@ EDSData.SBST = {
             }
         }
     },
-    4378: {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "S37",
-                destination: "BISHAN (2025)",
-                destinationFont: "LECIP-6:4",
-                scrolls: [
-                {
-                    renderType: "destScroll2A",
-                    top: "SHUTTLE 37",
-                    topFont: "LECIP-10",
-                    bottom: "PROMENADE - BISHAN",
-                    bottomFont: "LECIP-7:5",
-                                
-                    serviceNumber: "S37",
-                },
-                ],
-                scrollFont: "LECIP-6:4"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "S37",
-                font: "LECIP-20:9",
-                spacing: "1",
-            }
-        }
-    },
-    4379: {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "S37",
-                destination: "PROMENADE (2025)",
-                destinationFont: "LECIP-6:4",
-                scrolls: [
-                {
-                    renderType: "destScroll2A",
-                    top: "SHUTTLE 37",
-                    topFont: "LECIP-10",
-                    bottom: "BISHAN - PROMENADE",
-                    bottomFont: "LECIP-7:5",
-                                
-                    serviceNumber: "S37",
-                },
-                ],
-                scrollFont: "LECIP-6:4"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "S37",
-                font: "LECIP-20:9",
-                spacing: "1",
-            }
-        }
-    },
-    4381: {
+    4381: { // Jan 2026 Route
         1: {
             front: {
                 renderType: "standardService",
@@ -23570,7 +25129,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "standardService",
                 serviceNumber: "S38",
-                destination: "STADIUM (2026)",
+                destination: " ",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -23587,34 +25146,6 @@ EDSData.SBST = {
             }
         },
         2: {
-            front: {
-                renderType: "message",
-                text: "SHUTTLE 38",
-                font: "LECIP-20:12",
-                spacing: 2
-            },
-            rear: {
-                renderType: "standardService",
-                serviceNumber: "S38",
-                destination: "STADIUM (2026)",
-                destinationFont: "LECIP-6:4",
-                scrolls: [
-                {
-                    renderType: "destScroll2",
-                    top: "S38",
-                    topFont: "LECIP-20:9",
-                                
-                    serviceNumber: "",
-                    serviceFont: "LECIP-20:9",
-                    serviceSpacing: "1",
-                },
-                ],
-                scrollFont: "LECIP-6:4",
-            }
-        }
-    },
-    4382: {
-        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "S38",
@@ -23638,7 +25169,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "standardService",
                 serviceNumber: "S38",
-                destination: "PAYA LEBAR (2026)",
+                destination: "STADIUM (2026)",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -23653,8 +25184,10 @@ EDSData.SBST = {
                 ],
                 scrollFont: "LECIP-6:4",
             }
-        },
-        2: {
+        }
+    },
+    4382: {
+        1: {
             front: {
                 renderType: "message",
                 text: "SHUTTLE 38",
@@ -23686,7 +25219,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "SWA",
-                destination: "SKLRT WEST A",
+                destination: "SW SHUTTLE A",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -23728,7 +25261,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "SWB",
-                destination: "SKLRT WEST B",
+                destination: "SW SHUTTLE B",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -23747,7 +25280,7 @@ EDSData.SBST = {
             },
             rear: {
                 renderType: "standardService",
-                serviceNumber: "S37A",
+                serviceNumber: " ",
                 destination: "SKLRT WEST B",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
