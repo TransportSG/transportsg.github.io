@@ -3,7 +3,7 @@ window.frontEDS = null; window.rearEDS = null;
 let currentOperator = location.hash.slice(1) ? location.hash.slice(1) : 'SBST';
 
 let startupCodes = {
-    'SBST': '4101',
+    'SBST': '2222',
     'GASG': '2221',
     'SMRT': '9117',
     'TTSG': '6667',
