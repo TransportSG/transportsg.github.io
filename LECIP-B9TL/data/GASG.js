@@ -2398,7 +2398,7 @@ EDSData.GASG = {
                     serviceNumber: "34B",
                     top: "TERMINATING AT",
                     topFont: "Lecip-GoAhead8:6:2",
-                    bottom: "TAMPINES WATER FAB PK",
+                    bottom: "TAMPINES WAFER FAB PK",
                     bottomFont: "Hanover-7:5",
                 },
                 ],
