@@ -22956,7 +22956,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "SHUTTLE 1 (DEC 2017)",
+                destination: "SHUTTLE 1 (DEC'17)",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
