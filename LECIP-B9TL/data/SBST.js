@@ -23004,7 +23004,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "SHUTTLE 1 (DEC 2017)",
+                destination: "SHUTTLE 1 (DEC'17)",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -23054,7 +23054,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "SHUTTLE 2 (NOV 2018)",
+                destination: "SHUTTLE 2 (NOV'18)",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -23104,7 +23104,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "SHUTTLE 2 (NOV 2018)",
+                destination: "SHUTTLE 2 (NOV'18)",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -23156,7 +23156,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "SHUTTLE 2 (MAR 2018)",
+                destination: "SHUTTLE 2 (MAR'18)",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -23206,7 +23206,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "SHUTTLE 2 (MAR 2018)",
+                destination: "SHUTTLE 2 (MAR'18)",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -23258,7 +23258,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "SHUTTLE 2 (DEC 2017)",
+                destination: "SHUTTLE 2 (DEC'17)",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -23307,7 +23307,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "SHUTTLE 2 (DEC 2017)",
+                destination: "SHUTTLE 2 (DEC'17)",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -23353,13 +23353,12 @@ EDSData.SBST = {
             }
         },
     },
-
     4041: { // Aug 2019 Route
         1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "SHUTTLE 4 (AUG 2019)",
+                destination: "SHUTTLE 4 (AUG'19)",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -23409,7 +23408,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "SHUTTLE 4 (AUG 2019)",
+                destination: "SHUTTLE 4 (AUG'19)",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -23461,7 +23460,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "EXPRESS 5 (AUG 2018)",
+                destination: "EXP. 5 (AUG'18)",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -23510,7 +23509,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "EXPRESS 5 (DEC 2017)",
+                destination: "EXP. 5 (DEC'17)",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -23561,7 +23560,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "EXPRESS 5 (DEC 2017)",
+                destination: "EXP. 5 (DEC'17)",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -23610,7 +23609,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "EXPRESS 5 (DEC 2017)",
+                destination: "EXP. 5 (DEC'17)",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -23661,7 +23660,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "SHUTTLE 6 (MAR 2018)",
+                destination: "SHUTTLE 6 (MAR'18)",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -23756,7 +23755,7 @@ EDSData.SBST = {
             }
         },
     },
-    4062: { // Mar 2018 Route
+    4061: { // Mar 2018 Route
         1: {
             front: {
                 renderType: "standardService",
@@ -23977,7 +23976,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "SHUTTLE 7 (MAR 2018)",
+                destination: "SHUTTLE 7 (MAR'18)",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -24025,7 +24024,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "SHUTTLE 7 (MAR 2018)",
+                destination: "SHUTTLE 7 (MAR'18)",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -24075,7 +24074,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "SHUTTLE 7 (JAN 2018)",
+                destination: "SHUTTLE 7 (JAN'18)",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -24123,7 +24122,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "SHUTTLE 7 (JAN 2018)",
+                destination: "SHUTTLE 7 (JAN'18)",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -24173,7 +24172,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "SHUTTLE 9 (JAN 2020)",
+                destination: "SHUTTLE 9 (JAN'20)",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -24221,7 +24220,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "SHUTTLE 9 (JAN 2020)",
+                destination: "SHUTTLE 9 (JAN'20)",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -24271,7 +24270,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "SHUTTLE 9 (MAY 2018)",
+                destination: "SHUTTLE 9 (MAY'18)",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -24319,7 +24318,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "SHUTTLE 9 (MAY 2018)",
+                destination: "SHUTTLE 9 (MAY'18)",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -24369,7 +24368,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "SHUTTLE 10 (FEB 2020)",
+                destination: "SHUTTLE 10 (FEB'20)",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -24417,7 +24416,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "SHUTTLE 10 (FEB 2020)",
+                destination: "SHUTTLE 10 (FEB'20)",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -24467,7 +24466,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "SHUTTLE 10 (MAY 2019)",
+                destination: "SHUTTLE 10 (MAY'19)",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -24515,7 +24514,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "SHUTTLE 10 (MAY 2019)",
+                destination: "SHUTTLE 10 (MAY'19)",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -24565,7 +24564,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "SHUTTLE 10 (MAY 2019)",
+                destination: "SHUTTLE 10 (MAY'19)",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -24613,7 +24612,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "SHUTTLE 10 (MAY 2019)",
+                destination: "SHUTTLE 10 (MAY'19)",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -24663,7 +24662,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "SHUTTLE 11 (JUL 2018)",
+                destination: "SHUTTLE 11 (JUL'18)",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -24711,7 +24710,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "SHUTTLE 11 (JUL 2018)",
+                destination: "SHUTTLE 11 (JUL'18)",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -24761,7 +24760,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "EXPRESS 13 (MAR 2018)",
+                destination: "EXP. 13 (MAR'18)",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -24809,7 +24808,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "EXPRESS 13 (MAR 2018)",
+                destination: "EXP 13 (MAR'18)",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -24859,7 +24858,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "EXPRESS 16 (MAY 2018)",
+                destination: "EXP. 16 (MAY'18)",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -24907,7 +24906,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "EXPRESS 16 (MAY 2018)",
+                destination: "EXP. 16 (MAY'18)",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -24957,7 +24956,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "SHUTTLE 21 (JUL 2024)",
+                destination: "SHUTTLE 21 (JUL'24)",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -25005,7 +25004,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "SHUTTLE 21 (JUL 2024)",
+                destination: "SHUTTLE 21 (JUL'24)",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -25055,7 +25054,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "SHUTTLE 22 (JUL 2024)",
+                destination: "SHUTTLE 22 (JUL'24)",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
@@ -25103,7 +25102,7 @@ EDSData.SBST = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "",
-                destination: "SHUTTLE 22 (JUL 2024)",
+                destination: "SHUTTLE 22 (JUL'24)",
                 destinationFont: "LECIP-6:4",
                 scrolls: [
                 {
