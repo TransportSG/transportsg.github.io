@@ -11967,7 +11967,7 @@ EDSData.SBST = {
                 renderType: "swt",
                 serviceNumber: "147A",
                 terminateAt: "NEW BRIDGE RD",
-                landmark: "(AFT DUNXTON PLAIN PK)"
+                landmark: "(AFT DUXTON PLAIN PK)"
             },
             ],
                 scrollFont: "LECIP-7:5"
