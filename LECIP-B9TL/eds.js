@@ -5,10 +5,11 @@ let currentOperator = location.hash.slice(1) ? location.hash.slice(1) : 'SBST';
 let startupCodes = {
     'SBST': '2222',
     'GASG': '2221',
-    'SMRT': '9117',
+    'SMRT-2026': '9117',
     'TTSG': '6667',
     'GASG-Original': '2221',
     'SMRT-old': '9117',
+    'SMRT': '9117',
     'TTSG-Original': '6667',
 }
 
