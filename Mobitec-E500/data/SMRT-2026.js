@@ -5070,7 +5070,7 @@ EDSData['SMRT-2026'] = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
-    9613: {
+    9613: { // Done
         front: {
             renderType: "SLBPstandardService",
             serviceNumber: "961M",
@@ -5082,72 +5082,14 @@ EDSData['SMRT-2026'] = {
                 {
                     renderType: "SLBPdestScroll",
                     serviceNumber: "961M",
-                    top: "GEYLANG LOR 1/",
-                    topFont: "Mobitec-7:7",
-                    bottom: "KALLANG MRT",
-                    bottomFont: "Mobitec-7:7"
-                },
-                {
-                    renderType: "SLBPdestScroll",
-                    serviceNumber: "961M",
-                    top: "GEYLANG LOR 1 via",
-                    topFont: "Mobitec-7:5:3",
-                    bottom: "WOODLANDS AVE 3",
-                    bottomFont: "Mobitec-7:5:3"
-                },
-                {
-                    renderType: "SLBPdestScroll",
-                    serviceNumber: "961M",
-                    top: "GEYLANG LOR 1 via",
-                    topFont: "Mobitec-7:5:3",
-                    bottom: "UPP BT TIMAH RD",
-                    bottomFont: "Mobitec-7:5:3"
-                },
-                {
-                    renderType: "SLBPdestScroll",
-                    serviceNumber: "961M",
-                    top: "GEYLANG LOR 1 via",
-                    topFont: "Mobitec-7:5:3",
-                    bottom: "QUEENSWAY",
-                    bottomFont: "Mobitec-7:7"
-                },
-                {
-                    renderType: "SLBPdestScroll",
-                    serviceNumber: "961M",
-                    top: "GEYLANG LOR 1 via",
-                    topFont: "Mobitec-7:5:3",
-                    bottom: "JLN BUKIT MERAH",
-                    bottomFont: "Mobitec-7:5:3"
-                },
-                {
-                    renderType: "SLBPdestScroll",
-                    serviceNumber: "961M",
-                    top: "GEYLANG LOR 1 via",
-                    topFont: "Mobitec-7:5:3",
-                    bottom: "CHINATOWN",
-                    bottomFont: "Mobitec-7:7"
-                },
-                {
-                    renderType: "SLBPdestScroll",
-                    serviceNumber: "961M",
-                    top: "GEYLANG LOR 1 via",
-                    topFont: "Mobitec-7:5:3",
-                    bottom: "BEACH RD",
-                    bottomFont: "Mobitec-7:7"
-                },
-                {
-                    renderType: "SLBPdestScroll",
-                    serviceNumber: "961M",
-                    top: "GEYLANG LOR 1 via",
-                    topFont: "Mobitec-7:5:3",
-                    bottom: "KALLANG BAHRU",
-                    bottomFont: "Mobitec-7:7"
+                    top: "GEYLANG LOR 1",
+                    topFont: "Mobitec-9:6",
                 },
             ],
             scrollFont: "Mobitec-7:7"
         }
     },
-    9614: {
+    9614: { // Done
         front: {
             renderType: "SLBPstandardService",
             serviceNumber: "961M",
@@ -5156,22 +5098,15 @@ EDSData['SMRT-2026'] = {
                 font: "Mobitec-7:5:3"
             },
             scrolls: [
-                "KALLANG BAHRU",
                 {
-                    text: "BEACH ROAD",
-                    font: "Mobitec-7:7"
+                    renderType: "SLBPdestScroll",
+                    serviceNumber: "961M",
+                    top: "WOODLANDS",
+                    topFont: "Mobitec-7:7",
+
+                    bottom: "TEMP INT",
+                    bottomFont: "Mobitec-7:7"
                 },
-                {
-                    text: "CHINATOWN",
-                    font: "Mobitec-7:7"
-                },
-                "JLN BUKIT MERAH",
-                {
-                    text: "QUEENSWAY",
-                    font: "Mobitec-7:7"
-                },
-                "UPP BT TIMAH RD",
-                "WOODLANDS AVE 3"
             ],
             scrollFont: "Mobitec-7:5:3"
         }
