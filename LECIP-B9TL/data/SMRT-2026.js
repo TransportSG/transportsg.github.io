@@ -5284,11 +5284,11 @@ EDSData["SMRT-2026"] = {
                     {
                         renderType: "destScroll3",
                         serviceNumber: "",
-                        top: "Ver Sep 2026",
+                        top: "Ver September 2026",
                         topFont: "Mobitec-7:7",
 
-                        bottom: "(WIP)",
-                        bottomFont: "Mobitec-7:7",
+                        bottom: "(Work In Progress)",
+                        bottomFont: "Mobitec-7:4",
 
                         image: "roundel"
                     },
