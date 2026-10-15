@@ -535,7 +535,7 @@ EDSData['SMRT-2026'] = {
     3: {
         front: {
             renderType: "message",
-            text: "KRANJI DEPOT",
+            text: "GALI BATU BUS DEPOT",
             font: "Mobitec-13:7",
             spacing: 1
         }
