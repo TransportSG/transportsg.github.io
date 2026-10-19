@@ -3034,7 +3034,7 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "",
-            destination: "Bulim Depot Crew Bus",
+            destination: "Mandai Depot Crew Bus",
             destFont: "Mobitec-7:4",
             scrolls: [
                 {
