@@ -4302,13 +4302,13 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "873",
-            destination: " ",
+            destination: "HUME MRT",
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "873",
-                    top: " ",
-                    topFont: "Mobitec-Tower11New1"
+                    top: "HUME MRT",
+                    topFont: "Mobitec-Tower12New2"
                 }
             ]
         }
@@ -4332,12 +4332,12 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "873M",
-            destination: " ",
+            destination: "BT BATOK ST 52",
             scrolls: [
                 {
                     renderType: "destScroll",
                     serviceNumber: "873M",
-                    top: " ",
+                    top: "BT|BATOK|ST|52/",
                     topFont: "Mobitec-Tower11New1"
                 }
             ]
@@ -4362,12 +4362,12 @@ EDSData.TTSG = {
         front: {
             renderType: "standardService",
             serviceNumber: "874",
-            destination: " ",
+            destination: "CHOA CHU KANG MRT",
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "874",
-                    top: " ",
+                    serviceNumber: "八七四",
+                    top: "CHOA|CHU|KANG|MRT/",
                     topFont: "Mobitec-Tower11New1"
                 }
             ]
