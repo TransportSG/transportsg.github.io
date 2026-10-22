@@ -560,7 +560,7 @@ EDSData['SMRT-2026'] = {
         front: {
             renderType: "message",
             text: "WOODLANDS DEPOT",
-            font: "Mobitec-13:7",
+            font: "Mobitec-9:9",
             spacing: 1
         }
     },
