@@ -1727,7 +1727,7 @@ EDSData.GASG = {
                     renderType: "destScroll",
                     serviceNumber: "47",
                     top: "Changi Business Park",
-                    topFont: "Mobitec-7:5:3"
+                    topFont: "Mobitec-7:5:1"
                 },
             ],
             scrollFont: "Mobitec-7:4"
@@ -2352,7 +2352,7 @@ EDSData.GASG = {
                     renderType: "destScroll",
                     serviceNumber: "118",
                     top: "Changi Business Park",
-                    topFont: "Mobitec-7:5:3"
+                    topFont: "Mobitec-7:5:1"
                 },
             ],
             scrollFont: "Mobitec-7:4"
