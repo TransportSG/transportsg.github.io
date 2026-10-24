@@ -521,39 +521,69 @@ EDSData.TTSG = {
         }
     },
     22: {
-        front: { // Reserved code for MAN A22 Logo
-                renderType: "TowerSpecialEDS",
-                serviceNumber: "",
-                top: "NL323F (A22)",
-                topFont: "Mobitec-9:6",
-                bottom: "Mobitec - 060926",
-                bottomFont: "Mobitec-Tower6:4",
-                image: "MAN-Logo37",
-                text: "EDS Version (MAN A22)"
+        front: {
+            renderType: "standardService",
+            serviceNumber: " ",
+            destination: "EDS Version (MAN A22)",
+            destFont: "Mobitec-7:4",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+
+                    top: "NL323F (A22)",
+                    topFont: "Mobitec-Tower9New",
+
+                    bottom: "Mobitec - 040525",
+                    bottomFont: "Mobitec-Tower6:4",
+
+                    image: "MAN-Logo37",
+                },
+            ]
         }
     },
     24: {
-        front: { // Reserved code for MAN A24 Logo
-                renderType: "TowerSpecialEDS",
-                serviceNumber: "",
-                top: "NG363F (A24)",
-                topFont: "Mobitec-9:6",
-                bottom: "Mobitec - 060926",
-                bottomFont: "Mobitec-Tower6:4",
-                image: "MAN-Logo37",
-                text: "EDS Version (MAN A24)"
+        front: {
+            renderType: "standardService",
+            serviceNumber: " ",
+            destination: "EDS Version (MAN A24)",
+            destFont: "Mobitec-7:4",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+
+                    top: "NG363F (A24)",
+                    topFont: "Mobitec-Tower9New",
+
+                    bottom: "Mobitec - 040525",
+                    bottomFont: "Mobitec-Tower6:4",
+
+                    image: "MAN-Logo37",
+                },
+            ]
         }
     },
     95: {
-        front: { // Reserved code for MAN A95 Logo
-                renderType: "TowerSpecialEDS",
-                serviceNumber: "",
-                top: "ND323F (A95)",
-                topFont: "Mobitec-9:6",
-                bottom: "Mobitec - 060926",
-                bottomFont: "Mobitec-Tower6:4",
-                image: "MAN-Logo37",
-                text: "EDS Version (MAN A95)"
+        front: {
+            renderType: "standardService",
+            serviceNumber: " ",
+            destination: "EDS Version (MAN A95)",
+            destFont: "Mobitec-7:4",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+
+                    top: "ND323F (A25)",
+                    topFont: "Mobitec-Tower9New",
+
+                    bottom: "Mobitec - 040525",
+                    bottomFont: "Mobitec-Tower6:4",
+
+                    image: "MAN-Logo37",
+                },
+            ]
         }
     },
     111: {
@@ -783,15 +813,37 @@ EDSData.TTSG = {
         }
     },
     500: {
-        front: { // Reserved code for Enviro 500 (New ADL Logo)
-                renderType: "TowerSpecialEDS",
-                serviceNumber: "",
-                top: "ENVIRO 500",
-                topFont: "Mobitec-Enviro500 Wording",
-                bottom: "Mobitec - 040525",
-                bottomFont: "Mobitec-Tower6:4",
-                image: "NEW ADL LOGO",
-                text: "EDS Version (ADL Enviro 500)"
+        front: {
+            renderType: "standardService",
+            serviceNumber: " ",
+            destination: "EDS Version (ADL Enviro 500)",
+            destFont: "Mobitec-7:4",
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+
+                    top: "ALEXANDER",
+                    topFont: "Mobitec-ADL Logo Wording TTS",
+
+                    bottom: "DENNIS",
+                    bottomFont: "Mobitec-ADL Logo Wording TTS",
+                    
+                    image: "NEW ADL LOGO",
+                },
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "",
+
+                    top: "ENVIRO 500",
+                    topFont: "Mobitec-Enviro500 Wording",
+
+                    bottom: "Mobitec - 040525",
+                    bottomFont: "Mobitec-Tower6:4",
+                    
+                    image: "NEW ADL LOGO",
+                }
+            ]
         }
     },
     661: {
@@ -3003,7 +3055,7 @@ EDSData.TTSG = {
                     top: "SMB5888H",
                     topFont: "Mobitec-Tower9New",
 
-                    bottom: "Mobitec - 06 SEP 26",
+                    bottom: "Mobitec - 040525",
                     bottomFont: "Mobitec-Tower6:4:2",
 
                     image: "MANLionIcon-33"
@@ -4308,7 +4360,7 @@ EDSData.TTSG = {
                     renderType: "destScroll",
                     serviceNumber: "873",
                     top: "HUME MRT",
-                    topFont: "Mobitec-Tower12New2"
+                    topFont: "Mobitec-Tower12New"
                 }
             ]
         }
@@ -4337,7 +4389,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "873M",
-                    top: "BT|BATOK|ST|52/",
+                    top: "BT|BATOK|ST|52",
                     topFont: "Mobitec-Tower11New1"
                 }
             ]
@@ -4367,7 +4419,7 @@ EDSData.TTSG = {
                 {
                     renderType: "destScroll",
                     serviceNumber: "八七四",
-                    top: "CHO𐌀?CHU?K𐌀NG?MŔT//",
+                    top: "CHO𐌀?CHU?K𐌀NG?MŔT",
                     topFont: "Mobitec-Tower11New1"
                 }
             ]
@@ -4381,7 +4433,7 @@ EDSData.TTSG = {
             scrolls: [
                 {
                     renderType: "destScroll",
-                    serviceNumber: "874",
+                    serviceNumber: "八七四",
                     top: "TENGAH",
                     topFont: "Mobitec-Tower12New"
                 }

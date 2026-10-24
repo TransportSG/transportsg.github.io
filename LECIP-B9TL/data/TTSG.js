@@ -6271,18 +6271,18 @@ EDSData.TTSG = {
             }
         }
     },
-    873: { // Not Done
+    873: { // Bomb
         1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "873",
-                destination: " ",
+                destination: "HUME MRT",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [                    
                 {
                     renderType: "destScroll",
-                    top: " ",
-                    topFont: "Hanover-17:6",
+                    top: "HUME MRT",
+                    topFont: "Hanover-17:11",
     
                     serviceNumber: "873"
                 },
@@ -6333,17 +6333,17 @@ EDSData.TTSG = {
             }
         }
     },
-    "873M": { // Not Done
+    "873M": { // Bomb
         1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "873M",
-                destination: " ",
+                destination: "BT BATOK ST 52",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [                    
                 {
                     renderType: "destScroll",
-                    top: " ",
+                    top: "BT BATOK ST 52",
                     topFont: "Hanover-17:6",
     
                     serviceNumber: "873M"
@@ -6383,17 +6383,17 @@ EDSData.TTSG = {
             }
         }
     },
-    874: { // Not Done
+    874: { // Bomb
         1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "874",
-                destination: " ",
+                destination: "CHOA CHU KANG MRT",
                 destinationFont: "Hanover-Tower11:7",
                 scrolls: [                    
                 {
                     renderType: "destScroll",
-                    top: " ",
+                    top: "CHOA CHU KANG MRT",
                     topFont: "Hanover-17:6",
     
                     serviceNumber: "874"
