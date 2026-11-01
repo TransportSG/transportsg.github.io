@@ -6145,7 +6145,7 @@ EDSData.SBST = {
             rear: {
                 renderType: "rearService",
                 serviceNumber: "71",
-                font: "LECIP-20:12",
+                font: "LECIP-20:9",
                 spacing: 2
             }
         }
@@ -6706,13 +6706,14 @@ EDSData.SBST = {
             }
         }
     },
-    "80S": {
+    80: {
         1: {
             front: {
-                renderType: "standardService",
+                renderType: "standardService2",
                 serviceNumber: "80",
-                destination: "> HARBOURFRONT INT",
-                destinationFont: "LECIP-7:5",
+                destination: ">HARBOURFRONT INT",
+                destinationFont: "LECIP-10",
+                destSpacing: "1",
                 scrolls: [
                     'UPP SERANGOON RD',
                     'UPP PAYA LEBAR RD',
@@ -6776,7 +6777,7 @@ EDSData.SBST = {
             }
         }
     },
-    "80": {
+    "80C": {
         1: {
             front: {
                 renderType: "standardService2",
@@ -6975,7 +6976,7 @@ EDSData.SBST = {
             }
         }
     },
-    "86S": {
+    "86": {
         1: {
             front: {
                 renderType: "standardService",
@@ -7070,7 +7071,7 @@ EDSData.SBST = {
             }
         }
     },
-    "86": {
+    "86C": {
         1: {
             front: {
                 renderType: "standardService",
@@ -7117,7 +7118,7 @@ EDSData.SBST = {
             }
         }
     },
-    "87S": {
+    "87": {
         1: {
             front: {
                 renderType: "standardService",
@@ -7163,7 +7164,7 @@ EDSData.SBST = {
             }
         }
     },
-    "87": {
+    "87C": {
         1: {
             front: {
                 renderType: "standardService",
@@ -14559,7 +14560,7 @@ EDSData.SBST = {
                 renderType: "standardService",
                 serviceNumber: "198",
                 destination: "> BOON LAY INT",
-                destinationFont: "LECIP-10",
+                destinationFont: "LECIP-7:5",
                 scrolls: [
                     "QUEENSWAY",
                     "AYE",
@@ -16882,7 +16883,7 @@ EDSData.SBST = {
             }
         }
     },
-    "372S": {
+    "372": {
         1: {
             front: {
                 renderType: "standardService",
@@ -16906,7 +16907,7 @@ EDSData.SBST = {
             }
         }
     },
-    "372": {
+    "372C": {
         1: {
             front: {
                 renderType: "standardService",
@@ -16930,7 +16931,7 @@ EDSData.SBST = {
             }
         }
     },
-    374: {
+    "374C": {
         1: {
             front: {
                 renderType: "standardService",
@@ -16954,7 +16955,7 @@ EDSData.SBST = {
             }
         }
     },
-    "374S": {
+    "374": {
         1: {
             front: {
                 renderType: "standardService",

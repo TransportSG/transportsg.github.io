@@ -3097,7 +3097,7 @@ EDSData.SBST = {
     },
     537: {
         front: {
-            renderType: "standardService2",
+            renderType: "standardService",
             serviceNumber: "53M",
             destination: {
                 text: "KOVAN HUB - S'GOON CTRL",
@@ -4180,7 +4180,7 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "80",
             destination: {
-                text: "> COMPASSVALE INT",
+                text: "> SENGKANG INT",
                 font: "Mobitec-7:5:2"
             },
             scrolls: [
@@ -4192,7 +4192,7 @@ EDSData.SBST = {
             ],
             scrollFont: "Mobitec-6:5"
         }
-    },
+    },    
     805: {
         front: {
             renderType: "standardService",
@@ -4217,7 +4217,7 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "80",
             destination: {
-                text: "> SENGKANG INT",
+                text: "> COMPASSVALE INT",
                 font: "Mobitec-7:5:2"
             },
             scrolls: [
@@ -4229,7 +4229,7 @@ EDSData.SBST = {
             ],
             scrollFont: "Mobitec-6:5"
         }
-    },    
+    },
     810: {
         front: {
             renderType: "message",
@@ -4321,7 +4321,7 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "86",
             destination: {
-                text: "> COMPASSVALE INT",
+                text: "> SENGKANG INT",
                 font: "Mobitec-7:5:2"
             },
             scrolls: [
@@ -4365,7 +4365,7 @@ EDSData.SBST = {
             {
                 renderType: "swt",
                 serviceNumber: "86B",
-                destinationRoad: "JALAN KAYU",
+                destinationRoad: "JLN KAYU",
                 destinationName: "(BEF SELETAR CAMP)"
             },
             ],
@@ -4377,7 +4377,7 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "86",
             destination: {
-                text: "> SENGKANG INT",
+                text: "> COMPASSVALE INT",
                 font: "Mobitec-7:5:2"
             },
             scrolls: [
@@ -4421,7 +4421,7 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "87",
             destination: {
-                text: "> COMPASSVALE INT",
+                text: "> SENGKANG INT",
                 font: "Mobitec-7:5:2"
             },
             scrolls: [
@@ -4439,7 +4439,7 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "87",
             destination: {
-                text: "> SENGKANG INT",
+                text: "> COMPASSVALE INT",
                 font: "Mobitec-7:5:2"
             },
             scrolls: [
@@ -10269,7 +10269,7 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "372",
             destination: {
-                text: "> COMPASSVALE INT",
+                text: "> SENGKANG INT",
                 font: "Mobitec-7:5:2"
             },
             scrolls: [
@@ -10287,7 +10287,7 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "372",
             destination: {
-                text: "> SENGKANG INT",
+                text: "> COMPASSVALE INT",
                 font: "Mobitec-7:5:2"
             },
             scrolls: [
@@ -10305,7 +10305,7 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "374",
             destination: {
-                text: "> COMPASSVALE INT",
+                text: "> SENGKANG INT",
                 font: "Mobitec-7:5:2"
             },
             scrolls: [
@@ -10323,7 +10323,7 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "374",
             destination: {
-                text: "> SENGKANG INT",
+                text: "> COMPASSVALE INT",
                 font: "Mobitec-7:5:2"
             },
             scrolls: [

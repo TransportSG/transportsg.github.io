@@ -2520,13 +2520,17 @@ EDSData.GASG = {
                     renderType: "destScroll",
                     serviceNumber: "127A",
                     top: "TERMINATING AT",
+                    topFont: "Mobitec-7:5:3",
                     bottom: "TAMPINES NTH DR 1",
+                    bottomFont: "Mobitec-7:5:3"
                 },
                 {
                     renderType: "destScroll",
                     serviceNumber: "127A",
                     top: "TERMINATING AT",
+                    topFont: "Mobitec-7:5:3",
                     bottom: "OPP BLK 610C",
+                    bottomFont: "Mobitec-7:5:3"
                 },
             ],
             scrollFont: "Mobitec-7:4"
@@ -2583,6 +2587,7 @@ EDSData.GASG = {
                     renderType: "destScroll",
                     serviceNumber: "129A",
                     top: "TERMINATING AT",
+                    topFont: "Mobitec-7:4",
                     bottom: "BARTLEY STN EXIT A",
                     bottomFont: "Mobitec-7:4"
                 },
