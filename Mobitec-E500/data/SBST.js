@@ -5795,8 +5795,8 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "117M",
             destination: {
-                text: "> PUNGGOL INT",
-                font: "Mobitec-7:5:2"
+                text: "PUNGGOL COAST INT",
+                font: "Mobitec-7:6:1"
             },
             scrolls: [
                 "SEMBAWANG WAY",
@@ -5807,7 +5807,7 @@ EDSData.SBST = {
                 "SELETAR A'SPACE DR",
                 "PUNGGOL WAY"
             ],
-            scrollFont: "Mobitec-6:5"
+            scrollFont: "Mobitec-7:4"
         }
     },
     1175: {
@@ -5853,25 +5853,6 @@ EDSData.SBST = {
             renderType: "standardService",
             serviceNumber: "117",
             destination: {
-                text: "> SEMBAWANG INT",
-                font: "Mobitec-7:5:2"
-            },
-            scrolls: [
-                "PUNGGOL WAY",
-                "SELETAR A'SPACE DR",
-                "YISHUN AVE 1",
-                "YISHUN AVE 2",
-                "CANBERRA LINK",
-                "SEMBAWANG WAY"
-            ],
-            scrollFont: "Mobitec-6:5"
-        }
-    },
-    1179: {
-        front: {
-            renderType: "standardService",
-            serviceNumber: "117",
-            destination: {
                 text: "> PUNGGOL INT",
                 font: "Mobitec-7:5:2"
             },
@@ -5881,6 +5862,26 @@ EDSData.SBST = {
                 "YISHUN AVE 2",
                 "YISHUN AVE 1",
                 "SELETAR A'SPACE CR",
+                "PUNGGOL WAY"
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
+    1179: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "117M",
+            destination: {
+                text: "> PUNGGOL INT",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+                "SEMBAWANG WAY",
+                "CANBERRA LINK",
+                "YISHUN AVE 2",
+                "YISHUN AVE 1",
+                "SELETAR A'SPACE LINK",
+                "SELETAR A'SPACE DR",
                 "PUNGGOL WAY"
             ],
             scrollFont: "Mobitec-6:5"

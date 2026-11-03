@@ -9673,31 +9673,27 @@ EDSData.SBST = {
             }
         }
     },
-    "117P": {
+    1172: {
         1: {
             front: {
                 renderType: "standardService",
-                serviceNumber: "117",
-                destination: "> SEMBAWANG INT",
-                destinationFont: "LECIP-10",
+                serviceNumber: "117M",
+                destination: "> PUNGGOL COAST INT",
+                destinationFont: "LECIP-8:6:1",
                 scrolls: [
-                    "PUNGGOL WAY",
-                    "SELETAR A'SPACE DR",
-                    "YISHUN AVE 1",
-                    "YISHUN AVE 2",
-                    "CANBERRA LINK",
-                    "SEMBAWANG WAY"
                 ],
                 scrollFont: "LECIP-7:5"
             },
             rear: {
                 renderType: "rearService",
-                serviceNumber: "117",
-                font: "LECIP-20:9",
+                serviceNumber: "117M",
+                font: "LECIP-20:6",
                 spacing: 2
             }
-        },
-        2: {
+        }
+    },
+    "117P": {
+        1: {
             front: {
                 renderType: "standardService",
                 serviceNumber: "117",
@@ -9717,32 +9713,6 @@ EDSData.SBST = {
                 renderType: "rearService",
                 serviceNumber: "117",
                 font: "LECIP-20:9",
-                spacing: 2
-            }
-        }
-    },
-    "117Z": {
-        1: {
-            front: {
-                renderType: "standardService",
-                serviceNumber: "117M",
-                destination: "> SEMBAWANG INT",
-                destinationFont: "LECIP-7:5",
-                scrolls: [
-                    "PUNGGOL WAY",
-                    "SELETAR A'SPACE DR",
-                    "SELETAR A'SPACE LINK",
-                    "YISHUN AVE 1",
-                    "YISHUN AVE 2",
-                    "CANBERRA LINK",
-                    "SEMBAWANG WAY"
-                ],
-                scrollFont: "LECIP-7:5"
-            },
-            rear: {
-                renderType: "rearService",
-                serviceNumber: "117M",
-                font: "LECIP-20:6",
                 spacing: 2
             }
         },

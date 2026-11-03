@@ -6003,6 +6003,25 @@ EDSData['SMRT-2026'] = {
             renderType: "standardService",
             serviceNumber: "983",
             destination: {
+                text: "BT PANJANG MRT",
+                font: "Mobitec-7:5:3"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "983",
+                    top: "BT PANJANG MRT",
+                    topFont: "Mobitec-13:7",
+                },
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    9832: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "983",
+            destination: {
                 text: "CHOA CHU KANG",
                 font: "Mobitec-7:5:3"
             },
@@ -6011,20 +6030,15 @@ EDSData['SMRT-2026'] = {
                     renderType: "destScroll",
                     serviceNumber: "983",
                     top: "CHOA CHU KANG",
-                    topFont: "Mobitec-7:7",
-                    bottom: "INTERCHANGE",
-                    bottomFont: "Mobitec-7:7"
+                    topFont: "Mobitec-7:5:2",
+                    bottom: "INT / MRT",
+                    bottomFont: "Mobitec-7:5:2"
                 },
-                "C.C.K AVE 4 ,5",
-                "C.C.K AVE 6 ,1",
-                "CHOA CHU KANG RD",
-                "PETIR ROAD",
-                "JELEBU RD (LOOP)"
             ],
             scrollFont: "Mobitec-7:5:3"
         }
     },
-    9832: { 
+    9833: { 
         front: {
             renderType: "standardService",
             serviceNumber: "983A",
@@ -6045,7 +6059,7 @@ EDSData['SMRT-2026'] = {
             scrollFont: "Mobitec-7:5:3"
         }
     },
-    9833: {
+    9834: {
         front: {
             renderType: "standardService",
             serviceNumber: "983M",
@@ -6066,6 +6080,32 @@ EDSData['SMRT-2026'] = {
                 "C.C.K GROVE",
                 "C.C.K WAY",
                 "C.C.K AVE 1",
+            ],
+            scrollFont: "Mobitec-7:5:3"
+        }
+    },
+    9839: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "983",
+            destination: {
+                text: "CHOA CHU KANG",
+                font: "Mobitec-7:5:3"
+            },
+            scrolls: [
+                {
+                    renderType: "destScroll",
+                    serviceNumber: "983",
+                    top: "CHOA CHU KANG",
+                    topFont: "Mobitec-7:7",
+                    bottom: "INTERCHANGE",
+                    bottomFont: "Mobitec-7:7"
+                },
+                "C.C.K AVE 4 ,5",
+                "C.C.K AVE 6 ,1",
+                "CHOA CHU KANG RD",
+                "PETIR ROAD",
+                "JELEBU RD (LOOP)"
             ],
             scrollFont: "Mobitec-7:5:3"
         }

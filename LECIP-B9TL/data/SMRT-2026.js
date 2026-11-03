@@ -7183,23 +7183,11 @@ EDSData["SMRT-2026"] = {
                     renderType: "destScroll",
                     top: "CHOA CHU KANG",
                     topFont: "ArialBold-8:2",
-                    bottom: "INT / MRT / LRT",
+                    bottom: "INT / MRT",
                     bottomFont: "ArialBold-8:2",
         
                     serviceNumber: "983"
                 },
-                    "C. C. K AVE 4, 5, 6, 1",
-                    "C. C. K ROAD",
-                {
-                    renderType: "ScrollWithSpecialCharacters",
-                    top: "C. C. K INT via",
-                    topFont: "ArialBold-8:2",
-                    bottom: "BT PANJANG RD (LOOP)",
-                    bottomFont: "Calibri-7:2",
-                
-                    serviceNumber: "983"
-                },
-                    
                 ],
                 scrollFont: "ArialBold-8:2"
             },
@@ -7300,6 +7288,46 @@ EDSData["SMRT-2026"] = {
                 serviceNumber: "983M",
                 font: "Arial-10",
                 spacing: 1
+            }
+        }
+    },
+    9839: {  // TBC
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "983",
+                destination: "C. C. K INT via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: "CHOA CHU KANG",
+                    topFont: "ArialBold-8:2",
+                    bottom: "INT / MRT / LRT",
+                    bottomFont: "ArialBold-8:2",
+        
+                    serviceNumber: "983"
+                },
+                    "C. C. K AVE 4, 5, 6, 1",
+                    "C. C. K ROAD",
+                {
+                    renderType: "ScrollWithSpecialCharacters",
+                    top: "C. C. K INT via",
+                    topFont: "ArialBold-8:2",
+                    bottom: "BT PANJANG RD (LOOP)",
+                    bottomFont: "Calibri-7:2",
+                
+                    serviceNumber: "983"
+                },
+                    
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "983",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
             }
         }
     },
