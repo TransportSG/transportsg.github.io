@@ -1664,7 +1664,7 @@ EDSData["SMRT-2026"] = {
             front: {
                 renderType: "standardService",
                 serviceNumber: "185",
-                destination: "BUONA VISTA TER via",
+                destination: "HOLLAND DR via",
                 destinationFont: "ArialBold-8:2",
                 scrolls: [
                     "PIONEER RD NTH",
@@ -1686,6 +1686,58 @@ EDSData["SMRT-2026"] = {
         }
     },
     1852: { // TBC
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "185",
+                destination: "SOON LEE RD via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    "C'WEALTH AVE WEST",
+                    "CLEMENTI AVE 6",
+                    "JURONG EAST AVE 1",
+                    "JURONG WEST AVE 1",
+                    "JURONG WEST ST 23" ,
+                    "JURONG WEST AVE 3",
+                    "PIONEER RD NTH",
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "185",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    1858: { // TBC
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "185",
+                destination: "BUONA VISTA TER via",
+                destinationFont: "ArialBold-8:2",
+                scrolls: [
+                    "PIONEER RD NTH",
+                    "JURONG WEST AVE 3",
+                    "JURONG WEST ST 23",
+                    "JURONG WEST AVE 1",
+                    "JURONG EAST AVE 1",
+                    "CLEMENTI AVE 6",
+                    "C'WEALTH AVE WEST",
+                ],
+                scrollFont: "ArialBold-8:2"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "185",
+                font: "LECIP-SMRTRear14:9",
+                spacing: 2
+            }
+        }
+    },
+    1859: { // TBC
         1: {
             front: {
                 renderType: "standardService",
