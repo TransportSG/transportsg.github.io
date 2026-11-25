@@ -2575,6 +2575,7 @@ EDSData['SMRT-2026'] = {
                 "TUAS CRESCENT",
                 "TUAS STH AVE 5, 12",
                 "TUAS STH WAY",
+                "TUAS PORT TPT HUB",
                 "TUAS STH AVE 14, 9, 10",
             ],
             scrollFont: "Mobitec-7:5:1"

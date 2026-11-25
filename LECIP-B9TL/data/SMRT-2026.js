@@ -2538,6 +2538,15 @@ EDSData["SMRT-2026"] = {
                     renderType: "destScroll2B",
                     top: "TUAS TER via",
                     topFont: "ArialBold-8:2",
+                    bottom: "TUAS PORT TPT HUB",
+                    bottomFont: "Calibri-7:2",
+                
+                    serviceNumber: "248M"
+                },
+                {
+                    renderType: "destScroll2B",
+                    top: "TUAS TER via",
+                    topFont: "ArialBold-8:2",
                     bottom: "TUAS STH AVE 14,9,10",
                     bottomFont: "Calibri-7:2",
                 
