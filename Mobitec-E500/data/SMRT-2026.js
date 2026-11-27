@@ -528,7 +528,7 @@ EDSData['SMRT-2026'] = {
         front: {
             renderType: "message",
             text: "SOON LEE DEPOT",
-            font: "Mobitec-13:7",
+            font: "Mobitec-9:9",
             spacing: 1
         }
     },
@@ -552,7 +552,7 @@ EDSData['SMRT-2026'] = {
         front: {
             renderType: "message",
             text: "OFF SERVICE",
-            font: "Mobitec-13:7",
+            font: "Mobitec-10:7",
             spacing: 1
         }
     },
@@ -575,7 +575,7 @@ EDSData['SMRT-2026'] = {
     8: {
         front: {
             renderType: "message",
-            text: "OFF SERVICE",
+            text: "KIM CHUAN BUS DEPOT",
             font: "Mobitec-13:7",
             spacing: 1
         }
