@@ -3815,6 +3815,35 @@ EDSData.SBST = {
             }
         }
     },
+    "35A": {
+        1: {
+            front: {
+                renderType: "standardService",
+                serviceNumber: "35",
+                destination: "TANAH MERAH FERRY",
+                destinationFont: "LECIP-10",
+                scrolls: [
+                {
+                    renderType: "destScroll",
+                    top: " ",
+                    topFont: "LECIP-7:5",
+
+                    bottom: " ",
+                    bottomFont: "LECIP-7:5",
+            
+                    serviceNumber: "35A"
+                },
+                ],
+                scrollFont: "LECIP-7:5"
+            },
+            rear: {
+                renderType: "rearService",
+                serviceNumber: "35A",
+                font: "LECIP-20:9",
+                spacing: 2
+            }
+        }
+    },
     "35M": {
         1: {
             front: {

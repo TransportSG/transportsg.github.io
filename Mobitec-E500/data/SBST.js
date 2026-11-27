@@ -2425,6 +2425,29 @@ EDSData.SBST = {
             scrollFont: "Mobitec-6:5"
         }
     },
+    355: {
+        front: {
+            renderType: "standardService",
+            serviceNumber: "35A",
+            destination: {
+                text: "TANAH MERAH FERRY TER",
+                font: "Mobitec-7:5:2"
+            },
+            scrolls: [
+            {
+                renderType: "destScroll",
+                serviceNumber: "35A",
+
+                top: " ",
+                topFont: "Mobitec-7:5:1",
+
+                bottom: " ",
+                bottomFont: "Mobitec-7:5:1",
+            },
+            ],
+            scrollFont: "Mobitec-6:5"
+        }
+    },
     357: {
         front: {
             renderType: "standardService",
@@ -2906,8 +2929,10 @@ EDSData.SBST = {
             {
                 renderType: "destScroll",
                 serviceNumber: "50A",
+
                 top: "TERMINATES BEFORE",
                 topFont: "Mobitec-7:5:1",
+
                 bottom: "ANG MO KIO STN EXIT B",
                 bottomFont: "Mobitec-7:5:1",
             },
