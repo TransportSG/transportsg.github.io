@@ -6,6 +6,7 @@ let startupCodes = {
     'SMRT-2026': 9117, 
     'SBST': 2222, 
     'TTSG': 6667, 
+    'TTSG-PrivateBuses': 6667,
     'GASG': 2221, 
     'Sentosa': 9999, 
     'GASG-Original': 2221, 
